@@ -26,7 +26,7 @@ def main():
             for extension in ("pdf", "docx"):
                 filename = f"{case}-{language}.{extension}"
                 shutil.copyfile(args.build / "renders" / filename, args.destination / filename)
-    for filename in ("manifest.json", "pilot-report.json", "render-results.json", "translation-audit.json", "structure-audit.json"):
+    for filename in ("manifest.json", "pilot-report.json", "render-results.json", "translation-audit.json", "structure-audit.json", "readability-checks.json"):
         shutil.copyfile(args.build / filename, args.destination / filename)
     if (args.build / "word-preview").exists():
         shutil.copytree(args.build / "word-preview", args.destination / "word-preview")

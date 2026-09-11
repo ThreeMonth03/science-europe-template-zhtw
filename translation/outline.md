@@ -428,7 +428,7 @@
 
           [T] [translation](<tree/src/projects.html.j2/0011-there-are-no-projects-described-for-this-dmp-60c01c963f/0001-there-are-no-projects-described-for-this-dmp-be6b49f634/translation.md>)
 
-- [ ] [file] src/questions/01-how-data.html.j2 (128/129)
+- [x] [file] src/questions/01-how-data.html.j2 (129/129)
 
   [J2] `src/questions/01-how-data.html.j2`
 
@@ -796,11 +796,11 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0022-shared-arrangements-677449e315/0001-shared-arrangements-a7b99029d9/translation.md>)
 
-    - [ ] [wrapper] 0023-the-following-arrangements-apply-to-all-reference-datasets-0006b5189d (0/1)
+    - [x] [wrapper] 0023-the-following-arrangements-apply-to-all-reference-datasets-0006b5189d (1/1)
 
       [W] `0023-the-following-arrangements-apply-to-all-reference-datasets-0006b5189d`
 
-        - [ ] [unit] 0001-the-following-arrangements-apply-to-all-reference-datasets-413f6a3199: The following arrangements apply to all reference datasets selected for re-use above.
+        - [x] [unit] 0001-the-following-arrangements-apply-to-all-reference-datasets-413f6a3199: The following arrangements apply to all reference datasets selected for re-use above.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0023-the-following-arrangements-apply-to-all-reference-datasets-0006b5189d/0001-the-following-arrangements-apply-to-all-reference-datasets-413f6a3199/translation.md>)
 

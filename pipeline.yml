@@ -1,7 +1,7 @@
 schema_version: 1
 source:
   repository: https://github.com/ThreeMonth03/science-europe-template.git
-  commit: e0410e540d2852ceb30925affea4f4a4ba1b367e
+  commit: cf2b80456d03600a035ae9ae6abe35f95b44fb66
   organization_id: threemonth03
   template_id: science-europe-enhanced
   version: 0.2.0
