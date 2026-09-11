@@ -2,7 +2,7 @@ name: Candidate build and unit checks (not visual acceptance)
 
 on:
   push:
-    branches: [experiment/bilingual-pilot]
+    branches: [experiment/bilingual-pilot, 'feat/**', 'fix/**', 'upgrade/**']
   workflow_dispatch:
   pull_request:
 

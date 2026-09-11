@@ -32,7 +32,7 @@
 
 ## 版本、翻譯與可重建性
 
-兩個 repo 都在短期 `feat/readability-pass` 工作分支；原實驗分支與原样張不動。
+兩個 repo 都在短期 `feat/readability-pass` 工作分支；原實驗分支與原樣張不動。
 英文自有版本與中文輸出版本本輪都為 **0.2.0**，但仍分開管理。精確英文來源見
 `pipeline.yml`；官方基底仍是 1.30.1，沒有假稱本輪合併了新的 upstream release。
 
@@ -54,4 +54,4 @@
 使用者輸入的 Markdown 管線式表格仍是已知阻擋項。原生預算表能顯示，不能
 據此宣稱 Markdown 表格已修好；Word 驗收會檢查真正的資料溯源表格標頭，
 不接受用另一張預算表充數。Word 可編輯性與 LibreOffice 預覽不等於實際
-Microsoft Word 跨平台驗收。後續仍需用代表性、去識別化的真實回答審阅。
+Microsoft Word 跨平台驗收。後續仍需用代表性、去識別化的真實回答審閱。
