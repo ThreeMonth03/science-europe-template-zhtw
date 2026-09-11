@@ -13,7 +13,7 @@ Information not provided: how data in and outside the shared workspace will be b
 ### Translation (zh_Hant)
 
 ~~~jinja
-尚待補充：共享工作空間內外的資料備份方式。
+尚待補充：共享工作空間內外資料的備份方式。
 ~~~
 
 <details>

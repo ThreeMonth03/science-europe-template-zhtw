@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 QUESTIONS = ("q-how-data", "q-store-backup", "q-required-resources")
-TABLE_CASES = {"populated", "partial", "stress", "representative", "retention-partial", "structured", "structured-partial"}
+TABLE_CASES = {"populated", "partial", "stress", "representative", "retention-partial", "structured", "structured-partial", "storage-sharing", "storage-sharing-partial"}
 
 
 def docx_has_table_headers(xml, headers):
