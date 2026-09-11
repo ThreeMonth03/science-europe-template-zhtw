@@ -1,0 +1,445 @@
+{
+  "knowledge_models": {
+    "en": {
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "questions": [
+        {
+          "binding": "sharedWorkspaceQUuid",
+          "uuid": "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe"
+          ],
+          "title": "Will you be using a shared working space to work with your data?",
+          "text": "Will you be using a working space containing data and software specific to the project that is shared between all the people working on the data in the project? Sometimes such a system is called a *Virtual Research Environment*.",
+          "answers": [
+            {
+              "uuid": "1d6ba101-fd62-43c8-ab53-76bc31847f58",
+              "label": "No, participants in the project each have different collections of data and tools"
+            },
+            {
+              "uuid": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+              "label": "Yes"
+            }
+          ]
+        },
+        {
+          "binding": "sharedSpecialistsQUuid",
+          "uuid": "5607d0bb-6b9e-4211-821c-785acc3aa25e",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "5607d0bb-6b9e-4211-821c-785acc3aa25e"
+          ],
+          "title": "Will this work space be run by dedicated specialists?",
+          "text": "If your work space is run and maintained by specialists, e.g. the ICT department of one of the institutes involved in the projects, this means that backup and restore as well as access management is properly addressed.",
+          "answers": [
+            {
+              "uuid": "bcbc8cf6-7ba6-40d4-be2b-db85cb9e26c1",
+              "label": "No"
+            },
+            {
+              "uuid": "35b32d04-fec6-465e-976d-466aafcb385d",
+              "label": "Yes"
+            }
+          ]
+        },
+        {
+          "binding": "sharedReliableBackupQUuid",
+          "uuid": "98d9789b-32fc-4e2f-876a-47760ad7c7ec",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "b171ec17-d7b5-4726-ae22-0d892b106cf8",
+            "0d64d3c6-4312-47a9-92ad-0bc9440d6e45",
+            "98d9789b-32fc-4e2f-876a-47760ad7c7ec"
+          ],
+          "title": "Will you make backup copies of project data that is not in the work space?",
+          "text": "Are there any data files e.g. on laptops of project members? Also: supercomputing centers and other high performance computer centers often write in their terms of use that you need to take care of your own backups.",
+          "answers": [
+            {
+              "uuid": "7c732053-6df4-466b-8732-0db2bd1e1ffc",
+              "label": "This is left to the project participants"
+            },
+            {
+              "uuid": "a1ead63a-1bc8-42e6-8bdc-3e1e8a901307",
+              "label": "There is no data elsewhere\\"
+            },
+            {
+              "uuid": "278810f9-6396-4203-9fa6-6cd3a003159c",
+              "label": "All data elsewhere is adequately backed up"
+            },
+            {
+              "uuid": "0884ac19-9bde-4bf1-afdd-0794c2c69092",
+              "label": "We make (automated) backups of all data stored outside of the working area"
+            }
+          ]
+        },
+        {
+          "binding": "archivedDuringQUuid",
+          "uuid": "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40"
+          ],
+          "title": "Will you be archiving data (using so-called 'cold storage') for long term preservation already during your project?",
+          "text": "Much of the raw data you have will need to be archived for your own later use somewhere. This is often done off-line on tape, not on the disks of the compute facility. Please note that this does not refer to the data publication.",
+          "answers": [
+            {
+              "uuid": "a547dc69-a3e8-46e4-bb4b-21fd104231f9",
+              "label": "No"
+            },
+            {
+              "uuid": "e81599af-4519-4987-b74e-9545428ed0e3",
+              "label": "Yes"
+            }
+          ]
+        },
+        {
+          "binding": "archivedDuringReQUuid",
+          "uuid": "c659c36f-d142-4453-8d8b-db7c05f31371",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "c659c36f-d142-4453-8d8b-db7c05f31371"
+          ],
+          "title": "Is the archived data changing over time, needing re-archival?",
+          "text": null,
+          "answers": [
+            {
+              "uuid": "86e40411-deee-4dc0-88dc-a257c7f4a3ad",
+              "label": "No"
+            },
+            {
+              "uuid": "48d7128a-a237-4d32-8fc6-464089b46892",
+              "label": "Yes"
+            }
+          ]
+        },
+        {
+          "binding": "archivedDuringReFrequentBackupsQUuid",
+          "uuid": "1147485f-b9a9-486c-8341-27e05718c508",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "c659c36f-d142-4453-8d8b-db7c05f31371",
+            "48d7128a-a237-4d32-8fc6-464089b46892",
+            "1147485f-b9a9-486c-8341-27e05718c508"
+          ],
+          "title": "Do you need frequent backups?",
+          "text": "The general term 'backup' is used for protection against two different kinds of problems: equipment failure and human error. Protections against these two may need different solutions. Both are considered backup for this and subsequent questions.",
+          "answers": [
+            {
+              "uuid": "e2ad7b2b-cc9a-445b-8a94-c41032a7e787",
+              "label": "No, data changes infrequently"
+            },
+            {
+              "uuid": "67d52405-a902-4661-8158-91ab1d268832",
+              "label": "Yes, data changes frequently"
+            }
+          ]
+        },
+        {
+          "binding": "archivedDuringRelyQUuid",
+          "uuid": "f6476ea3-1ec5-447b-a776-4f0bfca38f8f",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "c659c36f-d142-4453-8d8b-db7c05f31371",
+            "48d7128a-a237-4d32-8fc6-464089b46892",
+            "f6476ea3-1ec5-447b-a776-4f0bfca38f8f"
+          ],
+          "title": "Will you be relying on these backups to recover from human error (accidental changes or deletions)?",
+          "text": null,
+          "answers": [
+            {
+              "uuid": "6f307c89-c1b2-4dcc-8315-585a65f08a87",
+              "label": "No"
+            },
+            {
+              "uuid": "899b6dc9-59fa-4246-b152-915d4864f771",
+              "label": "Yes"
+            }
+          ]
+        },
+        {
+          "binding": "archiveMediumQUuid",
+          "uuid": "c2a38110-f7a3-432f-ae98-4e448e496b44",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "c2a38110-f7a3-432f-ae98-4e448e496b44"
+          ],
+          "title": "Will the archive be stored on disk or on tape?",
+          "text": null,
+          "answers": [
+            {
+              "uuid": "18f50141-094d-426b-8a75-4c4fce59389b",
+              "label": "Disk"
+            },
+            {
+              "uuid": "ebbe4ef1-ec2a-44b8-bbc9-f15a743c438f",
+              "label": "Tape"
+            },
+            {
+              "uuid": "45ad8d8d-4efc-47b1-946d-2de59aa1fcb4",
+              "label": "Other"
+            }
+          ]
+        },
+        {
+          "binding": "archiveRemoteQUuid",
+          "uuid": "41a8d19b-2468-4c60-9f5e-7a8fee26eedb",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "41a8d19b-2468-4c60-9f5e-7a8fee26eedb"
+          ],
+          "title": "Will the archive be stored in a remote location, protecting the data against disasters?",
+          "text": null,
+          "answers": [
+            {
+              "uuid": "a15afda5-9e5a-40bd-a802-fc811fa39d20",
+              "label": "No"
+            },
+            {
+              "uuid": "4bc5017e-2808-4fc1-95b9-77bd2e755bb6",
+              "label": "Yes"
+            }
+          ]
+        }
+      ]
+    },
+    "zh-Hant": {
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "questions": [
+        {
+          "binding": "sharedWorkspaceQUuid",
+          "uuid": "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe"
+          ],
+          "title": "您是否會使用共享的工作空間來處理您的資料？",
+          "text": "您是否會使用一個包含本專案特定資料與軟體的工作空間，並讓專案中所有處理資料的人共同使用？這類系統有時稱為「虛擬研究環境」。",
+          "answers": [
+            {
+              "uuid": "1d6ba101-fd62-43c8-ab53-76bc31847f58",
+              "label": "否，專案參與者各自使用不同的資料與工具"
+            },
+            {
+              "uuid": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+              "label": "是"
+            }
+          ]
+        },
+        {
+          "binding": "sharedSpecialistsQUuid",
+          "uuid": "5607d0bb-6b9e-4211-821c-785acc3aa25e",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "5607d0bb-6b9e-4211-821c-785acc3aa25e"
+          ],
+          "title": "這個工作空間是否會由專責人員負責營運？",
+          "text": "如果您的工作空間是由專責人員負責營運與維護，例如由參與專案的某個機構之資訊通訊部門負責，這表示備份與復原，以及取用管理，都已獲得妥善處理。",
+          "answers": [
+            {
+              "uuid": "bcbc8cf6-7ba6-40d4-be2b-db85cb9e26c1",
+              "label": "否"
+            },
+            {
+              "uuid": "35b32d04-fec6-465e-976d-466aafcb385d",
+              "label": "是"
+            }
+          ]
+        },
+        {
+          "binding": "sharedReliableBackupQUuid",
+          "uuid": "98d9789b-32fc-4e2f-876a-47760ad7c7ec",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "b171ec17-d7b5-4726-ae22-0d892b106cf8",
+            "0d64d3c6-4312-47a9-92ad-0bc9440d6e45",
+            "98d9789b-32fc-4e2f-876a-47760ad7c7ec"
+          ],
+          "title": "您是否會為工作空間之外的專案資料製作備份？",
+          "text": "專案成員的筆記型電腦等設備中是否存有任何資料檔案？此外，超級運算中心及其他高效能運算中心通常會在使用條款中註明，使用者須自行負責資料備份。",
+          "answers": [
+            {
+              "uuid": "7c732053-6df4-466b-8732-0db2bd1e1ffc",
+              "label": "這由專案參與者自行處理"
+            },
+            {
+              "uuid": "a1ead63a-1bc8-42e6-8bdc-3e1e8a901307",
+              "label": "其他地方沒有資料"
+            },
+            {
+              "uuid": "278810f9-6396-4203-9fa6-6cd3a003159c",
+              "label": "所有他處資料皆已適當備份"
+            },
+            {
+              "uuid": "0884ac19-9bde-4bf1-afdd-0794c2c69092",
+              "label": "我們會自動備份所有儲存在工作空間之外的資料"
+            }
+          ]
+        },
+        {
+          "binding": "archivedDuringQUuid",
+          "uuid": "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40"
+          ],
+          "title": "您是否會在專案期間，就以所謂的「冷儲存」方式典藏資料，以利長期保存？",
+          "text": "您所擁有的大部分原始資料，之後都需要在某處加以典藏，以供您日後自行使用。這通常是在離線環境下以磁帶進行，而不是存放在運算設施的磁碟上。請注意，這裡指的並不是資料發布。",
+          "answers": [
+            {
+              "uuid": "a547dc69-a3e8-46e4-bb4b-21fd104231f9",
+              "label": "否"
+            },
+            {
+              "uuid": "e81599af-4519-4987-b74e-9545428ed0e3",
+              "label": "是"
+            }
+          ]
+        },
+        {
+          "binding": "archivedDuringReQUuid",
+          "uuid": "c659c36f-d142-4453-8d8b-db7c05f31371",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "c659c36f-d142-4453-8d8b-db7c05f31371"
+          ],
+          "title": "已典藏的資料是否會隨時間發生變化，而需要重新典藏？",
+          "text": null,
+          "answers": [
+            {
+              "uuid": "86e40411-deee-4dc0-88dc-a257c7f4a3ad",
+              "label": "否"
+            },
+            {
+              "uuid": "48d7128a-a237-4d32-8fc6-464089b46892",
+              "label": "是"
+            }
+          ]
+        },
+        {
+          "binding": "archivedDuringReFrequentBackupsQUuid",
+          "uuid": "1147485f-b9a9-486c-8341-27e05718c508",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "c659c36f-d142-4453-8d8b-db7c05f31371",
+            "48d7128a-a237-4d32-8fc6-464089b46892",
+            "1147485f-b9a9-486c-8341-27e05718c508"
+          ],
+          "title": "您是否需要頻繁備份？",
+          "text": "「備份」這個一般用語可指防範兩種不同問題：設備故障與人為錯誤。針對這兩者的防護可能需要不同解決方案。在本題與後續問題中，兩者都視為備份。",
+          "answers": [
+            {
+              "uuid": "e2ad7b2b-cc9a-445b-8a94-c41032a7e787",
+              "label": "否，資料很少變動"
+            },
+            {
+              "uuid": "67d52405-a902-4661-8158-91ab1d268832",
+              "label": "是，資料經常變動"
+            }
+          ]
+        },
+        {
+          "binding": "archivedDuringRelyQUuid",
+          "uuid": "f6476ea3-1ec5-447b-a776-4f0bfca38f8f",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "c659c36f-d142-4453-8d8b-db7c05f31371",
+            "48d7128a-a237-4d32-8fc6-464089b46892",
+            "f6476ea3-1ec5-447b-a776-4f0bfca38f8f"
+          ],
+          "title": "您是否會依賴這些備份，從人為錯誤（意外變更或刪除）中復原？",
+          "text": null,
+          "answers": [
+            {
+              "uuid": "6f307c89-c1b2-4dcc-8315-585a65f08a87",
+              "label": "否"
+            },
+            {
+              "uuid": "899b6dc9-59fa-4246-b152-915d4864f771",
+              "label": "是"
+            }
+          ]
+        },
+        {
+          "binding": "archiveMediumQUuid",
+          "uuid": "c2a38110-f7a3-432f-ae98-4e448e496b44",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "c2a38110-f7a3-432f-ae98-4e448e496b44"
+          ],
+          "title": "典藏資料會儲存在磁碟還是磁帶上？",
+          "text": null,
+          "answers": [
+            {
+              "uuid": "18f50141-094d-426b-8a75-4c4fce59389b",
+              "label": "硬碟"
+            },
+            {
+              "uuid": "ebbe4ef1-ec2a-44b8-bbc9-f15a743c438f",
+              "label": "磁帶"
+            },
+            {
+              "uuid": "45ad8d8d-4efc-47b1-946d-2de59aa1fcb4",
+              "label": "其他"
+            }
+          ]
+        },
+        {
+          "binding": "archiveRemoteQUuid",
+          "uuid": "41a8d19b-2468-4c60-9f5e-7a8fee26eedb",
+          "path": [
+            "d5b27482-b598-4b8c-b534-417d4ad27394",
+            "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+            "e81599af-4519-4987-b74e-9545428ed0e3",
+            "41a8d19b-2468-4c60-9f5e-7a8fee26eedb"
+          ],
+          "title": "典藏資料是否會儲存在遠端位置，以保護資料免受災害影響？",
+          "text": null,
+          "answers": [
+            {
+              "uuid": "a15afda5-9e5a-40bd-a802-fc811fa39d20",
+              "label": "否"
+            },
+            {
+              "uuid": "4bc5017e-2808-4fc1-95b9-77bd2e755bb6",
+              "label": "是"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "selected_option_membership_passed": true,
+  "release_acceptance": false,
+  "limits": [
+    "Selected storage/archival paths only",
+    "Frequent-backup need is not an operational schedule",
+    "Archive medium/remote decision do not name storage sites"
+  ]
+}

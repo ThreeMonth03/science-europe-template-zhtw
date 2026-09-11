@@ -55,6 +55,16 @@ def facts(document):
     return sorted(result, key=str)
 
 
+def validate_archive_only(document):
+    q1 = document.find(id='q-how-data'); q5 = document.find(id='q-store-backup')
+    q6 = document.find(id='q-access-security')
+    assert q1.select_one('[data-fact-id="new-data"][data-status="missing"]')
+    assert q5.select_one('[data-fact-id="during-project-archive"][data-status="complete"]')
+    assert q5.select_one('[data-fact-id="archive-frequent-backup-need"][data-status="explicit-no"]')
+    assert q6.select_one('[data-status="missing-output"]'), 'A cross-reference is not a security answer'
+    assert q6.select_one('a[href="#q-store-backup"]')
+
+
 def validate(build, cases):
     checks = []
     issues = []
@@ -89,6 +99,8 @@ def validate(build, cases):
                 assert q1.select_one('[data-fact-id="reuse-purpose"][data-status="complete"]')
                 assert "5000" in q15.get_text(), "Missing currency suppressed the supplied amount"
                 assert q15.select_one('[data-fact-id="resource-amount"][data-status="missing"]')
+            elif case == 'archive-only':
+                validate_archive_only(document)
             else:
                 assert len(q1.select('[data-fact-id="reuse-purpose"][data-status="complete"]')) == 2
                 assert "5000 TWD" in q15.get_text(" ", strip=True)
@@ -193,6 +205,7 @@ def main():
             raise SystemExit("Rendering failed; see build-local logs")
     checks, issues = validate(build, args.cases)
     report = {
+        "checker_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         "passed": not issues,
         "semantic_checks_passed": True,
         "checks": checks,
