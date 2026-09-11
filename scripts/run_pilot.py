@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 QUESTIONS = ("q-how-data", "q-store-backup", "q-required-resources")
+TABLE_CASES = {"populated", "partial", "stress", "representative", "retention-partial"}
 
 
 def docx_has_table_headers(xml, headers):
@@ -92,7 +93,7 @@ def validate(build, cases):
                 assert len(q1.select('[data-fact-id="reuse-purpose"][data-status="complete"]')) == 2
                 assert "5000 TWD" in q15.get_text(" ", strip=True)
                 assert "0 TWD" in q15.get_text(" ", strip=True), "Zero cost must not become missing"
-            if case in {"populated", "partial", "stress"}:
+            if case in TABLE_CASES:
                 if not q1.select_one(".answer-detail table"):
                     issues.append(
                         {
@@ -111,7 +112,7 @@ def validate(build, cases):
                 xml = ET.fromstring(archive.read("word/document.xml"))
                 ns = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
                 content = " ".join(n.text or "" for n in xml.findall(".//w:t", ns))
-                if case in {"populated", "partial", "stress"}:
+                if case in TABLE_CASES:
                     assert "5000" in content, "Word lost the budget amount"
                     table_headers = {"Record", "Retention"} if language == "english" else {"紀錄", "保存期間"}
                     has_provenance_table = docx_has_table_headers(xml, table_headers)

@@ -1,0 +1,31 @@
+# Translation Unit
+
+Edit only the `Translation (zh_Hant)` block. Keep every placeholder
+shown in the source sentence, such as `{name}`, but reorder placeholders
+when the target language needs it.
+
+### Sentence (en)
+
+```text
+In order to use this dataset following software will be needed:
+```
+
+### Translation (zh_Hant)
+
+~~~jinja
+使用此資料集需要以下軟體：
+~~~
+
+<details>
+<summary>Machine metadata</summary>
+
+- Source File: `src/questions/12-access-data.html.j2`
+- Wrapper Name: `__tr_block_0002`
+- Wrapper Order: `3`
+- Wrapper Key: `in-order-to-use-this-dataset-following-software-46ce8c24eb`
+- Unit Key: `in-order-to-use-this-dataset-following-software-80e6086dd9`
+- Source Hash: `1296e3c72e40f8b9bbb2b37c82a02b54a57e104c`
+
+Do not edit this section manually.
+
+</details>
