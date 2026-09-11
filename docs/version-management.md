@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.0 的英中工作分支為 `feat/storage-sharing-readability`，承接先前實驗。
+目前 0.3.1 的英中工作分支為 `feat/narrative-pagination`，承接先前實驗。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談

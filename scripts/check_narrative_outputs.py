@@ -104,11 +104,16 @@ def main():
                 lead = 'The distributions will be stored in:' if language == 'english' else '資料的發布版本將存放於：'
                 paragraphs = [p for p in word.paragraphs if p.text.strip() == lead]
                 assert paragraphs and all(p.style.name == 'Pilot Lead' and p.style.paragraph_format.keep_with_next for p in paragraphs)
+                assert soup.select_one('#q-share-restrictions .distribution-reading-unit.short-reading-unit')
+                access = 'Open access: this distribution will be shared with anyone.' if language == 'english' else '此管道提供的資料將公開供任何人取用。'
+                paragraphs = [p for p in word.paragraphs if p.text.strip() == access]
+                assert paragraphs and all(p.style.name == 'Pilot Lead' for p in paragraphs), 'Short distribution chain not applied in Word'
             if case == 'narrative-long':
                 needle = 'Extended access condition remains in the document.' if language == 'english' else '延伸取用條件仍須完整保留於文件中。'
                 for fmt, text in texts.items(): assert compact(text).count(compact(needle)) == 80, (case, language, fmt)
                 assert sum(needle in p.text for p in word.paragraphs) == 80, 'Free paragraphs must not be joined'
                 detail = next(d for d in soup.select('#q-share-restrictions .answer-detail') if needle in d.get_text())
+                assert not detail.find_parent(class_='short-reading-unit')
                 assert len(detail.find_all('p', recursive=False)) == 81
                 assert detail.find('ul') is not None
             for q in soup.select('.question'):

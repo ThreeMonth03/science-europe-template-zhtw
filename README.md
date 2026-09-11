@@ -11,7 +11,8 @@
 前輪文件在 [0.2.0 中文 PDF／Word 樣張](reviews/2026-09-11-readability/README.md)。
 0.2.1 實驗與原版英文對照見 [回答保留審閱](reviews/2026-09-11-answer-retention/README.md)。
 0.2.2 的 HTML／worker 表格分層修正見 [結構與表格審閱](reviews/2026-09-11-structure-tables/README.md)。
-最新 0.3.0 樣張及已知問題見 [儲存與共享閱讀審閱](reviews/2026-09-11-storage-sharing/README.md)。
+0.3.0 樣張及已知問題見 [儲存與共享閱讀審閱](reviews/2026-09-11-storage-sharing/README.md)。
+最新 0.3.1 樣張見 [敘述與分頁審閱](reviews/2026-09-11-narrative-pagination/README.md)。
 這批樣張仍包含已知失敗，不可作為已驗收的理想 DMP。
 中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯
 維護在英文 repo。翻譯來源是 `translation/**/translation.md`。

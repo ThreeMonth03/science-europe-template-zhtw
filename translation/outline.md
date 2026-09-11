@@ -2160,7 +2160,7 @@
 
           [T] [translation](<tree/src/questions/05-store-backup.html.j2/0043-an-actual-backup-schedule-is-not-established-by-d74adc28a1/0001-an-actual-backup-schedule-is-not-established-by-3b2d616db3/translation.md>)
 
-- [ ] [file] src/questions/06-access-security.html.j2 (31/32)
+- [x] [file] src/questions/06-access-security.html.j2 (32/32)
 
   [J2] `src/questions/06-access-security.html.j2`
 
@@ -2356,11 +2356,11 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0017-this-document-does-not-yet-contain-an-answer-e64173745b/0001-this-document-does-not-yet-contain-an-answer-c2fb406e61/translation.md>)
 
-    - [ ] [wrapper] 0018-see-question-5-for-archival-and-backup-arrangements-574d6fce6d (0/1)
+    - [x] [wrapper] 0018-see-question-5-for-archival-and-backup-arrangements-574d6fce6d (1/1)
 
       [W] `0018-see-question-5-for-archival-and-backup-arrangements-574d6fce6d`
 
-        - [ ] [unit] 0001-see-question-5-for-archival-and-backup-arrangements-b2d29e8b74: See question 5 for archival and backup arrangements.
+        - [x] [unit] 0001-see-question-5-for-archival-and-backup-arrangements-b2d29e8b74: See question 5 for archival and backup arrangements.
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0018-see-question-5-for-archival-and-backup-arrangements-574d6fce6d/0001-see-question-5-for-archival-and-backup-arrangements-b2d29e8b74/translation.md>)
 
@@ -3168,7 +3168,7 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0040-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-100c9a76d5/translation.md>)
 
-- [ ] [file] src/questions/10-share-restrictions.html.j2 (55/58)
+- [x] [file] src/questions/10-share-restrictions.html.j2 (58/58)
 
   [J2] `src/questions/10-share-restrictions.html.j2`
 
@@ -3388,19 +3388,19 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0027-freely-available-with-obligation-to-quote-the-source-eb1dcf9150/0001-freely-available-with-obligation-to-quote-the-source-3faf7c575e/translation.md>)
 
-    - [ ] [wrapper] 0028-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f (0/1)
+    - [x] [wrapper] 0028-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f (1/1)
 
       [W] `0028-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f`
 
-        - [ ] [unit] 0001-access-to-this-distribution-is-subject-to-restrictions-fc95c27c8b: Access to this distribution is subject to restrictions.
+        - [x] [unit] 0001-access-to-this-distribution-is-subject-to-restrictions-fc95c27c8b: Access to this distribution is subject to restrictions.
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0028-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f/0001-access-to-this-distribution-is-subject-to-restrictions-fc95c27c8b/translation.md>)
 
-    - [ ] [wrapper] 0029-the-conditions-of-restricted-access-have-not-been-75995fc02b (0/1)
+    - [x] [wrapper] 0029-the-conditions-of-restricted-access-have-not-been-75995fc02b (1/1)
 
       [W] `0029-the-conditions-of-restricted-access-have-not-been-75995fc02b`
 
-        - [ ] [unit] 0001-the-conditions-of-restricted-access-have-not-been-bdf9f2874f: The conditions of restricted access have not been provided.
+        - [x] [unit] 0001-the-conditions-of-restricted-access-have-not-been-bdf9f2874f: The conditions of restricted access have not been provided.
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0029-the-conditions-of-restricted-access-have-not-been-75995fc02b/0001-the-conditions-of-restricted-access-have-not-been-bdf9f2874f/translation.md>)
 
@@ -3468,11 +3468,11 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0037-the-publication-locations-have-not-been-listed-df9cecaacf/0001-the-publication-locations-have-not-been-listed-af1be81110/translation.md>)
 
-    - [ ] [wrapper] 0038-it-has-not-yet-been-specified-whether-this-26da6f110a (0/1)
+    - [x] [wrapper] 0038-it-has-not-yet-been-specified-whether-this-26da6f110a (1/1)
 
       [W] `0038-it-has-not-yet-been-specified-whether-this-26da6f110a`
 
-        - [ ] [unit] 0001-it-has-not-yet-been-specified-whether-this-e55e7848a3: It has not yet been specified whether this dataset will be published.
+        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-this-e55e7848a3: It has not yet been specified whether this dataset will be published.
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0038-it-has-not-yet-been-specified-whether-this-26da6f110a/0001-it-has-not-yet-been-specified-whether-this-e55e7848a3/translation.md>)
 
