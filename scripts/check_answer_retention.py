@@ -21,6 +21,14 @@ def compact(value):
     return re.sub(r'\s+', '', value)
 
 
+def numbered_question(soup, number):
+    # Upstream reuses several HTML ids; do not silently inspect a different Q.
+    matches = [q for q in soup.select('.question') if q.h3 and re.match(rf'^{number}\.\s', q.h3.get_text(strip=True))]
+    if len(matches) != 1:
+        raise ValueError(f'Expected exactly one question {number}, got {len(matches)}')
+    return matches[0]
+
+
 def file_texts(build, case, language):
     base = build / 'renders' / f'{case}-{language}'
     soup = BeautifulSoup(base.with_suffix('.html').read_text(), 'html.parser')
@@ -83,14 +91,15 @@ def main():
     upstream_full = BeautifulSoup((args.upstream / 'renders/upstream-representative-english.html').read_text(), 'html.parser')
     before = {
         'baseline': 'dsw:science-europe:1.30.1',
-        'storage_amount_missing_in_partial': '2048' not in upstream_partial.find(id='q-docs-metadata').get_text(),
-        'required_software_misreported_as_none': 'There are no tools needed' in upstream_partial.find(id='q-access-data').get_text(),
-        'file_case_corrupted': 'changelog.md' in upstream_full.find(id='q-docs-metadata').get_text(),
-        'instructions_yes_detail_missing': 'including instructions how' not in upstream_full.find(id='q-docs-metadata').get_text(),
+        'storage_amount_missing_in_partial': '2048' not in numbered_question(upstream_partial, 3).get_text(),
+        'required_software_misreported_as_none': 'There are no tools needed' in numbered_question(upstream_partial, 12).get_text(),
+        'file_case_corrupted': 'changelog.md' in numbered_question(upstream_full, 3).get_text(),
+        'instructions_yes_detail_missing': 'including instructions how' not in numbered_question(upstream_full, 3).get_text(),
     }
     report = {
         'selected_regressions_passed': all(c['passed'] for c in checks),
         'release_acceptance': False,
+        'checker_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         'upstream_counterexamples': before,
         'checks': checks,
         'remaining_structure_findings': structural,

@@ -1,0 +1,644 @@
+<!DOCTYPE HTML>
+
+
+<html lang="en">
+  <head>
+    <title>Data Management Plan</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+/* Layout and global styles */
+
+@page {
+  size: A4;
+
+  @bottom-left {
+    border-top: 1px solid black;
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+  @bottom-center {
+    border-top: 1px solid black;
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+  @bottom-center {
+    border-top: 1px solid black;
+    content: counter(page) " / " counter(pages);
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+}
+@page :blank {
+  @top-center { content: none }
+  @bottom-left { content: none }
+  @bottom-center { content: none }
+  @bottom-right { content: none }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  page-break-inside: avoid !important;
+  page-break-after: avoid !important;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11pt;
+  counter-reset: section;
+  counter-reset: question;
+  max-width: 21cm;
+  margin: 0 auto;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Sections */
+
+section {
+  margin-bottom: 4rem;
+}
+
+.dmp-section .question + .question {
+  margin-top: 1cm;
+}
+
+/* First page */
+
+header {
+  padding-top: 5cm;
+  height: 24cm;
+  box-sizing: border-box;
+  page-break-after: always;
+  position: relative;
+}
+
+header .dmp::after {
+  font-size: 18pt;
+  content: 'Data Management Plan';
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+header div {
+  position: absolute;
+  bottom: 0;
+}
+
+header .contact-orcid {
+  white-space: nowrap;
+}
+
+header .note {
+  margin-top: 2cm;
+  text-align: center;
+  font-size: 10pt;
+  font-style: italic;
+}
+
+div.dmp-info {
+  width: 100%;
+}
+
+dl {
+  border: 1px solid #bdc8ca;
+  background-color: #f7fafa;
+  overflow: hidden;
+  width: 100%;
+}
+
+dt,
+dd {
+    box-sizing: border-box;
+    padding: 10px;
+}
+dd ~ dt,
+dd ~ dd {
+    border-top: 1px solid #bdc8ca;
+}
+dt {
+    float: left;
+    width: 25%;
+    padding-bottom: 0;
+}
+dd {
+    margin-left: 25%;
+    width: 75%;
+    border-left: 1px dotted #bdc8ca;
+    background-color: #fff;
+}
+dd:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+dl dd ul {
+  padding: 0;
+  margin: 0;
+}
+
+dl dd ul li {
+  list-style: none;
+}
+
+dl dd ul li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+dl .contact-name {
+  font-weight: bold;
+}
+
+/* Contributors */
+
+.contributor .name {
+  font-weight: bold;
+}
+
+.contributor .role,
+.contributor .affiliation {
+  font-style: italic;
+  display: inline-block;
+}
+
+/* Abstract */
+
+.abstract {
+  page-break-after: always;
+}
+
+.abstract p {
+  text-align: justify;
+}
+
+/* custom */
+
+.orcid-svg {
+  width: 0.5cm;
+  height: 0.5cm;
+  display: inline-block;
+  margin: 0px -4px -2px 2px;
+}
+
+div#dmp-content {
+  page-break-before: always;
+}
+
+div#dmp-projects,
+div#dmp-contributors,
+div#dmp-content {
+  page-break-before: always;
+}
+
+/* Versions */
+
+div#dmp-versions table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div#dmp-versions table,
+div#dmp-versions td,
+div#dmp-versions th {
+  border: 1px solid #bdc8ca;
+}
+
+div#dmp-versions td,
+div#dmp-versions th {
+  padding: 0.2em;
+}
+
+div#dmp-versions th.title {
+  text-transform: uppercase;
+  padding: 0.4em;
+  text-align: center;
+}
+
+div#dmp-versions td.version-name {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+div#dmp-versions td.version-date {
+  text-align: center;
+  width: 18ex;
+}
+
+div#dmp-versions td.version-changes {
+  word-wrap: break-word;
+}
+
+div#dmp-versions td.no-versions {
+  font-style: italic;
+  padding: 1em;
+  text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <article class="dmp">
+      <header>
+  <p class="dmp"></p>
+  <h1>
+    Science Europe retention experiment / representative
+  </h1>
+  <div class="dmp-info">
+    <dl><dt>Contact person</dt>
+        <dd><ul><li><span class="contact-name">Example research team</span>
+                    <br><span class="contact-email"><a href="mailto:research@example.org">research@example.org</a></span></li></ul></dd><dt>Based on</dt>
+      <dd>Common DSW Knowledge Model, 2.7.0 (<span class="package-id"><span class="organization-id">dsw</span>:<span class="km-id">root</span>:<span class="version">2.7.0</span></span>)</dd><dt>Created by</dt>
+        <dd><ul><li><span class="contact-name">Example research team</span><br><span class="contact-email"><a href="mailto:research@example.org">research@example.org</a></span></li></ul></dd>
+      
+
+      
+
+      <dt>Generated on</dt>
+      <dd>11 Sep 2026</dd>
+    </dl>
+    <p class="note">
+      Data Management Plan created in Data Stewardship Wizard &laquo;<a href="https://ds-wizard.org" target="_blank">ds-wizard.org</a>&raquo;
+    </p>
+  </div>
+</header>
+      <div id="dmp-versions">
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3" class="title">History of changes</th>
+      </tr>
+      <tr>
+        <th>Version</th>
+        <th>Publication date</th>
+        <th>Changes</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td colspan="3" class="no-versions">There are no named versions</tr>
+        </tr>
+      
+    </tbody>
+  </table>
+</div>
+      <div id="dmp-contributors">
+  <h2>Contributors</h2>
+
+  <p>The following contributors are related to the project of this DMP:</p>
+
+  <ul>
+  
+    <li class="contributor">
+      <span class="name"><strong>Example research team</strong></span>
+        <br><span class="contact-email"><a href="mailto:research@example.org">research@example.org</a></span>
+        <br>Roles: <span class="role">Contact Person</span>, <span class="role">Creator of DMP</span>, <span class="role">Data Steward</span>
+    </li>
+  
+  </ul></div>
+      <div id="dmp-projects">
+  <h2>Projects</h2>
+
+  <p>We will be working on the following projects and for those are the data and work described in this DMP.</p>
+
+  
+    <div class="project"><h3>Coastal observations: reproducible data management</h3><dl>
+        <dt>Project Number</dt>
+        <dd>COAST-2026</dd>
+        <dt>Start date</dt>
+        <dd>2026-01-01</dd>
+        <dt>End date</dt>
+        <dd>2027-12-31</dd>
+        <dt>Funding</dt>
+        <dd>Did not apply for any funding yet.</dd>
+      </dl>
+      <section class="abstract">
+        <p>Synthetic scenario for testing all fifteen output questions. New coastal temperature measurements will be compared with two open reference datasets. This is not an approved or complete DMP.</p>
+      </section></div>
+  
+</div>
+      <div id="dmp-content">
+  <section id="sec-data-collection" class="dmp-section">
+    <h2>Section 1: Data description and collection or re-use of existing data</h2>
+    <div id="q-how-data" class="question">
+  <h3>1. How will new data be collected or produced and/or how will existing data be re-used?</h3>
+
+  <div class="answer"><h4>Instrument datasets</h4>
+      <ul><li><strong>Coastal temperature measurements</strong>
+            <p>For this dataset, we are using the following instruments:
+              <ul><li><strong>Temperature logger</strong>
+                    <span class="separator">&ndash;</span>
+                    Record temperature every ten minutes; retain UTC timestamps and calibration records.
+                  </li></ul>
+              </p><p>
+                We will be using the following quality processes:
+                <ul><li>calibrating measurements</li><li><em>Data Entry</em> validation</li>
+                </ul>
+                </p></li></ul><div>
+      <h4>Re-used datasets</h4>
+      <ul>
+      <li><strong>Open coastal observations — station 1</strong>
+
+            
+            <p>We will re-use this standard reference data available via: <a href="https://example.org/datasets/coastal-observations/station-1/version-2026" target="_blank">https://example.org/datasets/coastal-observations/station-1/version-2026 </a>. in order to <p>Compare seasonal changes in water temperature.</p>
+<ul>
+<li>Retain the original timestamps.</li>
+<li>Document any excluded observations.</li>
+</ul></p>
+    
+            
+                <p>
+                We will use the following version of this dataset: <p>2026.1</p>
+                  If a new version becomes available during the project, we will stay with the old version.</p><p>We will keep the copy of this standard reference data and make it available with our results.</p>
+
+            
+             <p>This standard reference data are freely available with obligation to quote the source.</p><p>The standard reference data are in the format that does not have to be transformed and we can use it directly.
+            
+            </p>
+
+          </li><li><strong>Open coastal observations — station 2</strong>
+
+            
+            <p>We will re-use this standard reference data available via: <a href="https://example.org/datasets/coastal-observations/station-2/version-2026" target="_blank">https://example.org/datasets/coastal-observations/station-2/version-2026 </a>. in order to <p>Compare seasonal changes in water temperature.</p>
+<ul>
+<li>Retain the original timestamps.</li>
+<li>Document any excluded observations.</li>
+</ul></p>
+    
+            
+                <p>
+                We will use the following version of this dataset: <p>2026.1</p>
+                  If a new version becomes available during the project, we will stay with the old version.</p><p>We will keep the copy of this standard reference data and make it available with our results.</p>
+
+            
+             <p>This standard reference data are freely available with obligation to quote the source.</p><p>The standard reference data are in the format that does not have to be transformed and we can use it directly.
+            
+            </p>
+
+          </li></ul>
+
+      
+      <ul></ul>
+      </div>
+      <h4>Provenance</h4><p>We will use other solution than (electronic) lab notebooks to make sure that there is good provenance of the data analysis: <p>Record source versions and processing scripts in the project repository.</p>
+<p>| Record | Retention |
+|---|---|
+| Processing log | 10 years |
+| Source checksum | 10 years |</p></div>
+</div>
+    <div id="q-what-data" class="question">
+  <h3>2. What data (kind, format, volume) will be collected or produced?</h3>
+  <div class="answer"><div>
+      <h4>Instrument datasets</h4>
+      The following instrument datasets will be acquired in the project:
+      <ul><li><strong>Coastal temperature measurements</strong>
+            <p>This dataset will be collected by experts in the project, with our own equipment.</p>
+            <p>The equipment is very well described and known.</p></li></ul>
+      </div><div>
+        <h4>Re-used datasets</h4>
+        <p>Datasets considered for reuse and actually reused are described in Question 1.</p>
+      </div><h4>Data formats and types</h4>
+    <div>We will be using the following data formats and types:
+    <ul><li>
+          
+          <div>CSV (UTF-8)</div><p>
+            
+              It is a standardized format.
+              This is a suitable format for long-term archiving.
+                We expect to have 120 GB of data in this format.</p></li></ul>
+    </div></div>
+</div>
+  </section>
+  
+  <section id="sec-docs-metadata" class="dmp-section">
+    <h2>Section 2: Documentation and data quality</h2>
+    <div id="q-docs-metadata" class="question">
+  <h3>3. What metadata and documentation (for example the methodology of data collection and way of organizing data) will accompany the data?</h3>
+
+  <div class="answer">
+    <p>List of data to be published is given in Section 5, Question 10 and 11. This also includes information about catalogs where the data can be found. Information about data types used is given in Section 1, Question 2.</p>
+
+    <p>We will be documenting the data with Dublin Core metadata standard.</p><p>
+        Metadata will be openly available.
+        Metadata will be available in a form that can be harvested and indexed (managed by the used repository / repositories).
+      </p><h4>Data storage and file conventions</h4>
+      <p>We estimate the storage space that the project will require for all data and software (including temporary storage) to 2048 gigabytes.</p>
+      <p>We will use a filesystem with files and folders.
+          We document how we manage file versioning for files and folders.
+          We have made appointments about naming the files. <p>Name files station_yyyymmdd.csv and document corrections in changelog.md.</p></p>
+      
+      <p></p>
+      
+      <p></p></div>
+</div>
+    <div id="q-how-data" class="question">
+    <h3>4. What data quality control measures will be used?</h3>
+
+    <div class="answer"><ul><li><strong>Coastal temperature measurements</strong>
+                    <p>
+                        We will be using the following quality processes for this dataset:
+                        <ul><li>calibrating measurements</li><li><em>Data Entry</em> validation</li>
+                        </ul>
+                        </p></li></ul></div>
+</div>
+  </section>
+
+  <section id="sec-storage-backup" class="dmp-section">
+    <h2>Section 3: Storage and backup during research process</h2>
+    <div id="q-store-backup" class="question">
+  <h3>5. How will data and metadata be stored and backed up during the research?</h3>
+
+  <div class="answer">
+    <p>There is a shared workspace used during the project for working with data.</p><p>Storage needs will be the same during the whole project.</p><p>
+            All essential data is also stored elsewhere to prevent a total loss of data.
+            We will make (automated) backups of all data stored outside of the working area.</p></div>
+
+</div>
+    <div id="q-access-security" class="question">
+  <h3>6. How will data security and protection of sensitive data be taken care of during the research?</h3>
+
+  <div class="answer">
+      <p>Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).
+          All project web services are accessible via secure HTTP (https://...).
+          Project members have been instructed about both generic and specific risks to the project.</p><p>During the project we will use shared working space to work with our data but we will store all essential data elsewhere. We make (automated) backups of all data stored outside of the working area.</p></div>
+</div>
+  </section>
+
+  <section id="sec-ethics-legal" class="dmp-section">
+    <h2>Section 4: Legal and ethical requirements, codes of conduct</h2>
+    <div id="q-access-security" class="question">
+    <h3>7. If personal data are processed, how will compliance with legislation on personal data and on security be ensured?</h3>
+
+    <div class="answer">
+        <p>Data security protection is described in Section 3, Question 6.</p><p>We will not collect any data related to individuals.</p></div>
+</div>
+    <div id="q-ethical-issues" class="question">
+  <h3>8. How will other legal issues, such as intellectual property rights and ownership, be managed? What legislation is applicable?
+</h3>
+
+  <div class="answer">
+    <p>For the reference and non-reference data sets that we reuse, conditions are as follows:
+        <ul><li><div>Open coastal observations — station 1</div>It is freely available with obligation to quote the source (e.g. CC-BY).</li><li><div>Open coastal observations — station 2</div>It is freely available with obligation to quote the source (e.g. CC-BY).</li></ul></div>
+</div>
+    <div id="q-ethical-issues" class="question">
+  <h3>9. What ethical issues and codes of conduct are there, and how will they be taken into account?</h3>
+
+  <div class="answer">
+
+    <h4>Data we produce</h4>
+      <p>For the data we produce, the ethical aspects are as follows:
+      <ul><li>
+          <strong>Quality-checked coastal observations</strong><ul><li>It does not contain personal data.</li><li>It does not contain sensitive data.</li></ul></li></ul>
+      </p><h4>Data we collect</h4>
+        <p>We will not collect any data related to individuals, i.e. "personal data".</p>
+      <p>The data collection is not subject to ethical legislation.</p>
+      </div>
+</div>
+  </section>
+
+  <section id="sec-sharing-preservation" class="dmp-section">
+    <h2>Section 5: Data sharing and long-term preservation</h2>
+    <div id="q-share-restrictions" class="question">
+  <h3>10. How and when will data be shared? Are there possible restrictions to data sharing or embargo reasons?</h3>
+
+  <div class="answer">
+    
+    <h4>How the data will be shared</h4><ul><li>
+            <strong>Quality-checked coastal observations</strong>
+            
+                (will be published)
+                
+                
+                <br>The distributions will be available as follows:
+                    <ul><li>
+                                Open (shared with anyone)
+                            
+                                using our institutional repository.
+                            The distribution will be available under the following license:
+                            <ul><li>
+                                    Starting 2027-12-31: 
+                                
+                                    Freely available with obligation to quote the source (e.g. CC-BY).</li></ul></li></ul>
+            </li></ul>
+
+    <h4>Restrictions on data sharing</h4>
+    <p>Ethical and legal restrictions are documented under Section 4. We have used the Data Stewardship Wizard, which made us aware of options to minimize the restrictions.</p></div>
+</div>
+    <div id="q-data-preservation" class="question">
+  <h3>11. How will data for preservation be selected, and where data will be preserved long-term (for example a data repository or archive)?</h3>
+
+  <div class="answer">
+    <p>
+      We plan to produce the following datasets:
+      <ul><li>
+          <strong>Quality-checked coastal observations</strong>
+          
+            (will be published)
+          
+            <p>This data set will be kept available for a fixed period (prepaid) of: 10.</p>
+              <p>The metadata will be available even when the data no longer exists.</p>
+          <p>The distributions will be stored in:</p>
+            <ul><li>
+                    Our institutional repository.</li></ul></li>
+        <br></ul>
+    <p>None of the used repositories charge for their services.</p><p>We have a reserved budget for the time and effort it will take to prepare the data for publication.</p></div>
+</div>
+    <div id="q-dm-responsible" class="question">
+  <h3>12. What methods or software tools are needed to access and use data?</h3>
+
+  <div class="answer">
+    <ul><li>
+            
+                <strong>Quality-checked coastal observations</strong><br>In order to use this dataset following software will be needed:
+                            <ul><p><strong>CoastView 1.0 (synthetic test tool)</strong>, available at https://example.org/coastview/1.0.</p></ul></div>
+</div>
+    <div id="q-persistent-identifier" class="question">
+    <h3>13. How will the application of a unique and persistent identifier (such as a Digital Object Identifier (DOI)) to each data set be ensured?</h3>
+
+    <div class="answer">
+    
+    <h4>Ensuring PIDs for published data</h4><ul>
+            <li>
+                <strong>Quality-checked coastal observations</strong>
+                <p>This data will be distributed in following repository:</p>
+                    <ul><li><strong>Institutional repository</strong><p>Within this repository, unique and persistent identifiers will be applied as follows:</p>
+                            <ul>
+                                <p>The repository will assign the persistent identifier.</p><p>The repository will make sure the persistent identifier can be resolved to a digital object.</p></ul></li><p>Within this repository, unique and persistent identifiers will not be applied.</p>
+                    </ul></li></ul>
+    <h4>Possible re-use of created data in other contexts</h4>
+    Explanation of how the collected or created data might be re-used in other contexts:<ul><li>
+            <strong>Coastal temperature measurements</strong><p>Other researchers in this field will be interested in re-using this data.</p></li></ul></div>
+</div>
+  </section>
+  
+  <section id="sec-responsibilities-resources" class="dmp-section">
+    <h2>Section 6: Data management responsibilities and resources</h2>
+    <div id="q-dm-responsible" class="question">
+  <h3>14. Who (for example role, position, and institution) will be responsible for data management (i.e. the data steward)?</h3>
+
+  <div class="answer">
+      
+      
+      
+      
+      
+      
+      <p>Example research team is responsible for the management and proficiency of data including data processing, data policies, data guidelines, and data availability.
+          </p>
+      
+      
+      
+      
+      
+      <p>Example research team is responsible for implementing the DMP, and ensuring it is reviewed and revised.
+          </p></div>
+</div>
+    <div id="q-required-resources" class="question">
+  <h3>15. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?</h3>
+
+  <div class="answer">
+    <p>
+        To execute the DMP, additional specialist expertise is required. We will be training existing staff
+           on: <p>Staff will complete training before data publication.</p>
+<ul>
+<li>Metadata quality checks</li>
+<li>Version control and provenance</li>
+</ul></p><p>We do not require any hardware or software in addition to what is usually available in the institute.</p>
+    <p>Charges applied by data repositories (if any) are mentioned already in Section 4, Question 11.</p>
+    <p>Following resources will be dedicated to data management and ensuring that data will be FAIR:</p>
+    <ul><li> 
+                <strong>Coastal observations: reproducible data management - COAST-2026 </strong><ul><li>
+                        <strong>Data preparation resource 1</strong> - Prepare metadata and validate deposit files.<p>The amount is 5000 TWD.</p><p>
+                            This resource is allocated for ensuring findability and supporting management of data.
+                          </p><p>This cost will be covered as follows: Institutional research funds.</p></li><li>
+                        <strong>Data preparation resource 2</strong> - Prepare metadata and validate deposit files.<p>The amount is 0 TWD.</p><p>
+                            This resource is allocated for ensuring findability and supporting management of data.
+                          </p><p>This cost will be covered as follows: Institutional research funds.</p></li></ul></li></ul></div>
+</div>
+  </section>
+</div>
+    </article>
+  </body>
+</html>
