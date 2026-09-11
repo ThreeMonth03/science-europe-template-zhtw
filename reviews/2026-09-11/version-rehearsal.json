@@ -1,0 +1,34 @@
+{
+  "source_unchanged": true,
+  "english_package_identical": true,
+  "source": {
+    "repository": "https://github.com/ThreeMonth03/science-europe-template.git",
+    "commit": "93fc4ff5994a79df6f64a972966ee1b6daaa5e09",
+    "organization_id": "threemonth03",
+    "template_id": "science-europe-enhanced",
+    "version": "0.1.0"
+  },
+  "source_checkouts": {
+    "english": {
+      "commit": "93fc4ff5994a79df6f64a972966ee1b6daaa5e09",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    },
+    "translation": {
+      "commit": "ee9c0cd3d6f7b3d18c6f860a1e3f3452cfdd5ba4",
+      "dirty": false
+    }
+  },
+  "translation_versions": [
+    "0.1.0",
+    "0.1.1"
+  ],
+  "sha256": {
+    "english.zip": "a761de85164a8a60dc853520476f510fe6de249d244de62db8ad299b85055d54",
+    "chinese-base.zip": "32e8a6ef676fba080af420b5eaf2f928c83c01e0885aac43800c302555ada19d",
+    "chinese-revision.zip": "df8755cf0a20c069c8a7349e2bab1e4a73f104ae57a4a54114c7e88adcb27380"
+  }
+}

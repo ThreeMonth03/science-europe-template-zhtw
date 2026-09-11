@@ -1,0 +1,182 @@
+[
+  {
+    "case": "empty",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "partial",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "partial",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "partial",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "partial",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "partial",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "partial",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  }
+]
