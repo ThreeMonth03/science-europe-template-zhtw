@@ -110,6 +110,9 @@ UUID 命名空間，並以新 staging scheme 避開舊失敗快取；沒有清�
    全文文體完成。
 3. **Q5 的地點／頻率尚未完整映射。** 提示是本切片的映射缺口，不證明整個 KM
    沒有問。下一輪先做全 KM × SE 要求對照，再決定是否加臺灣版問題。
+   `allowedPackages` 也仍承襲上游範圍，本輪實測只涵蓋上述兩個 KM 2.7.0，
+   不代表已驗證 Life Sciences 或未來所有較高 KM 版本；正式發布前須明確收斂
+   支援矩陣或补足驗證。
 4. **文體與成品還需領域使用者驗收。** 自由文字不由 DT 自動翻譯；本輪使用人工
    編寫的對應英中回答與中文 KM。仍需用去識別化的代表性真實案例，以及實際
    使用的 Microsoft Word 環境檢查，不能只看合成案例。
@@ -122,3 +125,7 @@ UUID 命名空間，並以新 staging scheme 避開舊失敗快取；沒有清�
 `feat/custom-template-pipeline`、`experiment/bilingual-pilot`，不合併主線、不建立
 正式 release。英文分支後續另有 CI cache 路徑修正，不改本輪鎖定的模板來源
 `93fc4ff`；如需重建，仍須 checkout manifest／pipeline.yml 指定的 commit。
+
+遠端 [英文品質檢查](https://github.com/ThreeMonth03/science-europe-template/actions/runs/34574398210)
+及 [中文候選建置／單元測試](https://github.com/ThreeMonth03/science-europe-template-zhtw/actions/runs/34574767589)
+已通過。這兩個工作並非完整內容或 Microsoft Word 驗收。
