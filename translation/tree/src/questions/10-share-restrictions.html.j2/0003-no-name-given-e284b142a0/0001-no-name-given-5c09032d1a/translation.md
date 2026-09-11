@@ -13,7 +13,7 @@ when the target language needs it.
 ### Translation (zh_Hant)
 
 ~~~jinja
-（尚未提供名稱）
+（名稱尚未提供）
 ~~~
 
 <details>

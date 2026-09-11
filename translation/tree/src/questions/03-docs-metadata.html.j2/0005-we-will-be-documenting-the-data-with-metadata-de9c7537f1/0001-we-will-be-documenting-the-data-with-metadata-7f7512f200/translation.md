@@ -1,0 +1,31 @@
+# Translation Unit
+
+Edit only the `Translation (zh_Hant)` block. Keep every placeholder
+shown in the source sentence, such as `{name}`, but reorder placeholders
+when the target language needs it.
+
+### Sentence (en)
+
+```text
+We will be documenting the data with {metadataStandards_0} metadata standard.
+```
+
+### Translation (zh_Hant)
+
+~~~jinja
+我們將使用 {metadataStandards_0} 後設資料標準記錄資料。
+~~~
+
+<details>
+<summary>Machine metadata</summary>
+
+- Source File: `src/questions/03-docs-metadata.html.j2`
+- Wrapper Name: `__tr_block_0004`
+- Wrapper Order: `5`
+- Wrapper Key: `we-will-be-documenting-the-data-with-metadata-de9c7537f1`
+- Unit Key: `we-will-be-documenting-the-data-with-metadata-7f7512f200`
+- Source Hash: `c995eb53f7b9452db5e2c87b4794aec48cc0d88f`
+
+Do not edit this section manually.
+
+</details>

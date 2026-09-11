@@ -13,7 +13,7 @@ Additional specialist expertise is required. Existing staff will receive trainin
 ### Translation (zh_Hant)
 
 ~~~jinja
-本計畫需要額外的專業知識，將透過培訓既有工作人員取得。
+為補足所需的專業能力，本計畫將安排現有人員接受培訓。
 ~~~
 
 <details>

@@ -13,7 +13,7 @@ There is a shared workspace used during the project for working with data.
 ### Translation (zh_Hant)
 
 ~~~jinja
-專案期間會使用共享工作空間處理資料。
+研究期間將使用共享工作空間處理資料。
 ~~~
 
 <details>

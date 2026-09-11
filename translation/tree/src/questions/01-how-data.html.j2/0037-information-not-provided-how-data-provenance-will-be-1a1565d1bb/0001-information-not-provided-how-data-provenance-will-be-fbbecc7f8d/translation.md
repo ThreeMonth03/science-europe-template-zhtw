@@ -13,7 +13,7 @@ Information not provided: how data provenance will be documented.
 ### Translation (zh_Hant)
 
 ~~~jinja
-尚待補充：資料溯源的記錄方式。
+尚待補充：資料來源與處理歷程的記錄方式。
 ~~~
 
 <details>

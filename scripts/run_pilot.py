@@ -16,6 +16,22 @@ ROOT = Path(__file__).resolve().parents[1]
 QUESTIONS = ("q-how-data", "q-store-backup", "q-required-resources")
 
 
+def docx_has_table_headers(xml, headers):
+    """Match header cells, not arbitrary tables or individual Word text runs."""
+    ns = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
+    for table in xml.findall(".//w:tbl", ns):
+        first = table.find("w:tr", ns)
+        if first is None:
+            continue
+        cells = {
+            "".join(text.text or "" for text in cell.findall(".//w:t", ns)).strip()
+            for cell in first.findall("w:tc", ns)
+        }
+        if set(headers).issubset(cells):
+            return True
+    return False
+
+
 def read_html(path):
     return BeautifulSoup(path.read_text(), "html.parser")
 
@@ -97,13 +113,15 @@ def validate(build, cases):
                 content = " ".join(n.text or "" for n in xml.findall(".//w:t", ns))
                 if case in {"populated", "partial", "stress"}:
                     assert "5000" in content, "Word lost the budget amount"
-                    if not xml.findall(".//w:tbl", ns):
+                    table_headers = {"Record", "Retention"} if language == "english" else {"紀錄", "保存期間"}
+                    has_provenance_table = docx_has_table_headers(xml, table_headers)
+                    if not has_provenance_table:
                         issues.append(
                             {
                                 "case": case,
                                 "language": language,
                                 "code": "docx-table-missing",
-                                "message": "Word contains no editable table for the table fixture",
+                                "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check",
                             }
                         )
                 assert "Noto Sans CJK TC" in archive.read("word/styles.xml").decode()

@@ -13,7 +13,7 @@ All essential data will also be stored elsewhere to prevent a total loss of data
 ### Translation (zh_Hant)
 
 ~~~jinja
-所有必要資料也將存放於其他位置，以防資料全部遺失。
+為避免資料全部遺失，重要資料也將另存於其他位置。
 ~~~
 
 <details>

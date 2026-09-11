@@ -13,7 +13,7 @@ Storage needs will be the same during the whole project.
 ### Translation (zh_Hant)
 
 ~~~jinja
-整個專案期間的儲存需求將維持相同。
+所需儲存容量在計畫期間將維持不變。
 ~~~
 
 <details>

@@ -13,7 +13,7 @@ We will make automated backups of all data stored outside the workspace.
 ### Translation (zh_Hant)
 
 ~~~jinja
-本計畫將自動備份所有存放於工作空間以外的資料。
+存放於共享工作空間以外的資料，將全部自動備份。
 ~~~
 
 <details>
