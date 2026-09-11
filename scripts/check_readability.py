@@ -1,6 +1,8 @@
 """Check specific readability regressions, not overall writing quality."""
 import argparse
 import json
+import re
+import subprocess
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -41,6 +43,17 @@ def main():
                     xml = ET.fromstring(archive.read("word/document.xml"))
                     headers = {"Resource and purpose", "Budget", "Funding source"} if language == "english" else {"資源項目與用途", "預算", "經費來源"}
                     assert docx_has_table_headers(xml, headers), "Native budget table missing"
+                    if case == "stress":
+                        sentence = "Long descriptive text to exercise pagination." if language == "english" else "此段較長的研究說明用於檢查跨頁排版、標點與中文字型。"
+                        expected = "".join(sentence.split())
+                        ns = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
+                        word_text = "".join(node.text or "" for node in xml.findall(".//w:t", ns))
+                        pdf_text = subprocess.check_output(["pdftotext", str(args.build / "renders" / f"{case}-{language}.pdf"), "-"], text=True)
+                        # A generated footer can interrupt a sentence across pages.
+                        # Remove only standalone page-counter lines, not body words.
+                        pdf_text = re.sub(r"(?m)^\s*\d+\s*/\s*\d+\s*$", "", pdf_text)
+                        assert "".join(word_text.split()).count(expected) == 80, "Word lost long-answer text"
+                        assert "".join(pdf_text.split()).count(expected) == 80, "PDF lost long-answer text"
             checks.append({"case": case, "language": language, "passed": True})
     report = {
         "passed": True,

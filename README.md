@@ -7,6 +7,7 @@
 這是衍生客製模板，不代表 Science Europe 認可；目前不得當作已驗收正式版發布。
 先看 [實驗結論](docs/pilot-results.md) 及 [PDF／Word 樣張](reviews/2026-09-11/README.md)。
 下一輪 0.2.0 的內容與維護邊界見 [中文閱讀品質修改](docs/readability-review.md)。
+最新可比較的文件在 [0.2.0 中文 PDF／Word 樣張](reviews/2026-09-11-readability/README.md)。
 中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯
 維護在英文 repo。翻譯來源是 `translation/**/translation.md`。
 
