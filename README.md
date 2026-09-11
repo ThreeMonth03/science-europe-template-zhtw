@@ -1,0 +1,51 @@
+# Science Europe 客製繁體中文模板
+
+這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
+原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
+
+目前為 Q1／Q5／Q15 的端到端實驗，尚未宣稱全部 15 題完成內容驗收。
+這是衍生客製模板，不代表 Science Europe 認可；目前不得當作已驗收正式版發布。
+中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯
+維護在英文 repo。翻譯來源是 `translation/**/translation.md`。
+
+`pipeline.yml` 分開記錄英文來源版本與中文輸出版本。開發預覽允許明確標記的
+未提交修改；正式建置要求來源與工具為乾淨且符合 lock 的 commit。
+
+先 checkout `pipeline.yml` 中的英文與工具 commit，並在工具的 `.venv` 執行
+`pip install -e '.[dev]' -r ../science-europe-template-zhtw/requirements-dev.txt`。
+正式候選建置不加 `--preview`；候選建置成功不代表成品驗收通過。
+
+```sh
+../dsw-document-template-tool/.venv/bin/python scripts/build.py \
+  --english ../science-europe-template \
+  --tooling ../dsw-document-template-tool --preview
+```
+
+第一次建立或英文修改後加上 `--refresh`，會重新抽取並精確遷移現有翻譯。
+初次匯入舊官方中文樹可指定 `--seed-tree PATH`。沒有精確對應的單位保留空白，
+需由譯者編修。空白翻譯的預覽可能顯示英文，不能作為已完成的中文版本發布。
+
+每次建置建立新的 `outputs/build-*` 目錄，保存英中套件、展開來源、翻譯檢查
+與 manifest，不覆寫前次結果。正式版本須另通過成品驗收與不可覆寫的發布步驟。
+
+字型：PDF 包含 Noto Sans TC；Word 的東亞字型使用 Noto Sans CJK TC，
+開啟端字型替代可能影響分頁，需在實際使用的 Word 環境確認。
+
+成品測試限隔離的本機 DSW（預設 `localhost:13300`），使用合成回答與公開
+測試帳號，不讀取線上 keyring、不修改線上 project。先在英文 repo 產生並驗證
+`fixtures/pilot`，再執行：
+
+```sh
+../dsw-document-template-tool/.venv/bin/python scripts/run_pilot.py \
+  --build outputs/build-REPLACE_ME --english ../science-europe-template \
+  --tooling ../dsw-document-template-tool
+```
+
+已知 Markdown 表格失敗會令此命令回傳 2，並留下 `pilot-report.json`；不可
+將它忽略後發布。CI 僅涵蓋建置與單元測試，沒有假裝完成 Word／視覺驗收。
+下一步與版本政策見 [版本管理](docs/version-management.md)。
+
+原始英文源碼及本 repo 的程式碼採 Apache-2.0；保留上游貢獻者及授權。
+初始翻譯精確沿用自 `depositar/science-europe-template-zh_Hant` 的已審閱樹，
+來源 commit 記於 `pipeline.yml`。Science Europe 指南內容依原出版物署名，
+Noto 字型依隨附 OFL 授權。本 repo 不維護第二套獨立中文分支邏輯。

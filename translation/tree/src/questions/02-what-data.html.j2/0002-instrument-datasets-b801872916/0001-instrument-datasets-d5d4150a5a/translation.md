@@ -1,0 +1,31 @@
+# Translation Unit
+
+Edit only the `Translation (zh_Hant)` block. Keep every placeholder
+shown in the source sentence, such as `{name}`, but reorder placeholders
+when the target language needs it.
+
+### Sentence (en)
+
+```text
+Instrument datasets
+```
+
+### Translation (zh_Hant)
+
+~~~jinja
+儀器資料集
+~~~
+
+<details>
+<summary>Machine metadata</summary>
+
+- Source File: `src/questions/02-what-data.html.j2`
+- Wrapper Name: `__tr_block_0001`
+- Wrapper Order: `2`
+- Wrapper Key: `instrument-datasets-b801872916`
+- Unit Key: `instrument-datasets-d5d4150a5a`
+- Source Hash: `b9f807b41afcad9051820befc0e181dcb7d93189`
+
+Do not edit this section manually.
+
+</details>

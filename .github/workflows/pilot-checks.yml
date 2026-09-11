@@ -1,0 +1,61 @@
+name: Candidate build and unit checks (not visual acceptance)
+
+on:
+  workflow_dispatch:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: zh
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Read exact source locks
+        id: locks
+        run: |
+          python -m pip install PyYAML==6.0.3
+          python - <<'PY'
+          import os, yaml
+          from pathlib import Path
+          config = yaml.safe_load(Path('zh/pipeline.yml').read_text())
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              for key in ('source', 'tooling'):
+                  commit = config[key]['commit']
+                  assert len(commit) == 40 and all(c in '0123456789abcdef' for c in commit)
+                  output.write(f'{key}={commit}\n')
+          PY
+      - uses: actions/checkout@v4
+        with:
+          repository: ThreeMonth03/science-europe-template
+          ref: ${{ steps.locks.outputs.source }}
+          path: english
+      - uses: actions/checkout@v4
+        with:
+          repository: ThreeMonth03/dsw-document-template-tool
+          ref: ${{ steps.locks.outputs.tooling }}
+          path: tooling
+      - name: Install pinned checkout and pilot dependencies
+        run: |
+          python -m venv tooling/.venv
+          tooling/.venv/bin/pip install -e './tooling[dev]' -r zh/requirements-dev.txt
+      - name: Build a locked candidate and check lifecycle gates
+        working-directory: zh
+        run: |
+          ../tooling/.venv/bin/python -m unittest discover -s tests -v
+          ../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling
+      - uses: actions/upload-artifact@v4
+        with:
+          name: experimental-candidate-not-a-release
+          path: |
+            zh/outputs/build-*/*.zip
+            zh/outputs/build-*/manifest.json
+            zh/outputs/build-*/*audit.json
+      - name: State acceptance boundary
+        run: echo 'Build checks do not establish full DMP, PDF or Microsoft Word acceptance. See docs/pilot-results.md.' >> "$GITHUB_STEP_SUMMARY"
