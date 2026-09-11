@@ -13,7 +13,7 @@ All project web services are accessible via secure HTTP (https://...).
 ### Translation (zh_Hant)
 
 ~~~jinja
-所有專案網路服務皆可透過安全的 HTTPS（https://...）取用。
+本計畫的所有網路服務皆提供 HTTPS 安全連線。
 ~~~
 
 <details>
