@@ -37,6 +37,8 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 2. 非 preview 建置拒絕 dirty／不符 lock 的 checkout、未翻完或結構不符的翻譯。
 3. 每次建置是新目錄；manifest 記錄來源、翻譯單位、樣式、ZIP checksum。
    套件檔案 UUID／ZIP 時間戳記採確定性建置，不以 TDK 的隨機 UUID 當版本差異。
+   本機測試複製套件時，工具也須把內部 file／asset UUID 改到測試專屬命名空間；
+   只改模板名稱不足以隔離 DSW 資料庫的全域 ID。本次已加入重建碰撞回歸測試。
 4. 同一批合成回答經英中 HTML／PDF／DOCX 測試；接受報告綁定套件 checksum。
    成品、術語、Science Europe 內容與目標 Microsoft Word 環境仍需審閱。
 5. `scripts/stage_candidate.py` 只把合格候選版存到本機不可覆寫目錄；preview、

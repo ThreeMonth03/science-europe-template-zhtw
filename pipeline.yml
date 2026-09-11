@@ -13,7 +13,7 @@ translation:
   name: Science Europe 資料管理方案（客製繁體中文版）
 tooling:
   repository: https://github.com/ThreeMonth03/dsw-document-template-tool.git
-  commit: cfc2e824a1022b3950e6e9d60c15c21301350d20
+  commit: 25e339fbdfb1d20796471055790aad6a4226b6ed
   profile: science-europe
   exclude_profile_paths: []
 runtime:
