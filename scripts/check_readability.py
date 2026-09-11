@@ -15,9 +15,10 @@ from run_pilot import docx_has_table_headers
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--build", type=Path, required=True)
+    parser.add_argument('--cases', nargs='+', choices=['empty', 'negative', 'partial', 'populated', 'stress'], default=['empty', 'negative', 'partial', 'populated', 'stress'])
     args = parser.parse_args()
     checks = []
-    for case in ("empty", "negative", "partial", "populated", "stress"):
+    for case in args.cases:
         for language in ("english", "chinese"):
             html = BeautifulSoup((args.build / "renders" / f"{case}-{language}.html").read_text(), "html.parser")
             questions = html.select(".question")
@@ -63,7 +64,7 @@ def main():
         "limits": ["Structural regressions only, not a prose-quality score", "Human page review and Microsoft Word acceptance remain separate"],
     }
     (args.build / "readability-checks.json").write_text(json.dumps(report, indent=2) + "\n")
-    print("Specific readability regressions passed (10 language/case pairs)")
+    print(f"Specific readability regressions passed ({len(checks)} language/case pairs)")
 
 
 if __name__ == "__main__":

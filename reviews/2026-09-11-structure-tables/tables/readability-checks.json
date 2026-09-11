@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "populated",
+      "language": "english",
+      "passed": true
+    },
+    {
+      "case": "populated",
+      "language": "chinese",
+      "passed": true
+    },
+    {
+      "case": "stress",
+      "language": "english",
+      "passed": true
+    },
+    {
+      "case": "stress",
+      "language": "chinese",
+      "passed": true
+    }
+  ],
+  "checker_sha256": "25ab472fba81b01cff93ea74215b20f39481751c56e454b60acef231b2ddb5ac",
+  "package_sha256": {
+    "english.zip": "b09a6bd22179b7be1da9540c36b14581798ffd62f13602e1446b56c58f12b62c",
+    "chinese.zip": "0b88a7afa27e0f6b2b74a9b1d658e33a16ca43d8f47ae86b2783c7d7d615be4a"
+  },
+  "limits": [
+    "Structural regressions only, not a prose-quality score",
+    "Human page review and Microsoft Word acceptance remain separate"
+  ]
+}

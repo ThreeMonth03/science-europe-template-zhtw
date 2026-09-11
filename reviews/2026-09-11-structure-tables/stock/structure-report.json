@@ -1,0 +1,68 @@
+{
+  "checks": [
+    {
+      "case": "representative",
+      "language": "english",
+      "selected_checks_passed": true,
+      "review_warnings": [
+        "retention-payment",
+        "retention-period"
+      ]
+    },
+    {
+      "case": "representative",
+      "language": "chinese",
+      "selected_checks_passed": true,
+      "review_warnings": [
+        "retention-payment",
+        "retention-period"
+      ]
+    },
+    {
+      "case": "retention-partial",
+      "language": "english",
+      "selected_checks_passed": true,
+      "review_warnings": [
+        "retention-payment",
+        "retention-period"
+      ]
+    },
+    {
+      "case": "retention-partial",
+      "language": "chinese",
+      "selected_checks_passed": true,
+      "review_warnings": [
+        "retention-payment",
+        "retention-period"
+      ]
+    },
+    {
+      "case": "structured",
+      "language": "english",
+      "selected_checks_passed": true,
+      "review_warnings": []
+    },
+    {
+      "case": "structured",
+      "language": "chinese",
+      "selected_checks_passed": true,
+      "review_warnings": []
+    },
+    {
+      "case": "structured-partial",
+      "language": "english",
+      "selected_checks_passed": true,
+      "review_warnings": []
+    },
+    {
+      "case": "structured-partial",
+      "language": "chinese",
+      "selected_checks_passed": true,
+      "review_warnings": []
+    }
+  ],
+  "selected_regressions_passed": true,
+  "release_acceptance": false,
+  "scope": "Selected block structure, project count, review markers, duration and case-sensitive filenames; not all SE requirements or visual approval",
+  "checker_sha256": "c5be6a356a41756e55ba412d94c2fa82eba74dcd4387e7b443cd0033aa3a898b"
+}

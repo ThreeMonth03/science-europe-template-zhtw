@@ -1,0 +1,99 @@
+{
+  "scope": "Static references in fifteen question templates; Common DSW KM 2.7.0 only; not answer coverage",
+  "source_commit": "cd787afffa2e4b194d659a2d8302a22cd5601e15",
+  "source_dirty": false,
+  "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+  "templates": [
+    {
+      "template": "src/questions/01-how-data.html.j2",
+      "referenced_bindings": 135,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/02-what-data.html.j2",
+      "referenced_bindings": 56,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/03-docs-metadata.html.j2",
+      "referenced_bindings": 60,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/04-quality-control.html.j2",
+      "referenced_bindings": 25,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/05-store-backup.html.j2",
+      "referenced_bindings": 24,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/06-access-security.html.j2",
+      "referenced_bindings": 65,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/07-personal-data.html.j2",
+      "referenced_bindings": 33,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/08-copyright-ipr.html.j2",
+      "referenced_bindings": 60,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/09-ethical-issues.html.j2",
+      "referenced_bindings": 59,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/10-share-restrictions.html.j2",
+      "referenced_bindings": 87,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/11-data-preservation.html.j2",
+      "referenced_bindings": 47,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/12-access-data.html.j2",
+      "referenced_bindings": 12,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/13-persistent-identifier.html.j2",
+      "referenced_bindings": 32,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/14-dm-responsible.html.j2",
+      "referenced_bindings": 11,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/15-required-resources.html.j2",
+      "referenced_bindings": 35,
+      "unbound_variables": [],
+      "absent_entities": []
+    }
+  ],
+  "release_acceptance": false
+}

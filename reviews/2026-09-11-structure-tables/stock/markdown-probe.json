@@ -1,0 +1,28 @@
+{
+  "markdown_version": "3.10.2",
+  "worker_parser_sha256": "2aea5a399e0652d0c89168b25ac9bc351c289b63a5a5c86348967354bda23c76",
+  "results": {
+    "pipe_table": {
+      "current": "<p>| Record | Retention |\n|---|---|\n| Processing log | 10 years |</p>",
+      "with_tables": "<table>\n<thead>\n<tr>\n<th>Record</th>\n<th>Retention</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Processing log</td>\n<td>10 years</td>\n</tr>\n</tbody>\n</table>",
+      "unchanged": false
+    },
+    "list": {
+      "current": "<p>Training:</p>\n<ul>\n<li>Metadata checks</li>\n<li>Version control</li>\n</ul>",
+      "with_tables": "<p>Training:</p>\n<ul>\n<li>Metadata checks</li>\n<li>Version control</li>\n</ul>",
+      "unchanged": true
+    },
+    "hard_break": {
+      "current": "<p>First line<br />\nSecond line</p>",
+      "with_tables": "<p>First line<br />\nSecond line</p>",
+      "unchanged": true
+    }
+  },
+  "image_id": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "worker_modified": false,
+  "end_to_end_acceptance": false,
+  "limits": [
+    "Parser-only comparison, not a deployed change",
+    "PDF/DOCX and supported rich-text input contract still need end-to-end tests"
+  ]
+}

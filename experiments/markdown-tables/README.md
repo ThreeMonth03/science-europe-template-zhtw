@@ -18,6 +18,14 @@ after stock-worker baseline renders finish. Recreate ONLY its `docworker` servic
 Never point these instructions at production. Restore the original Compose file
 without the override and verify the original image before shutting the pilot down.
 
+The historical Compose file interpolates database/storage environment variables
+even for a worker-only operation. Its worker itself uses only a read-only mounted
+configuration, not those environment values. If the original shell variables are
+unavailable, non-secret interpolation placeholders may be used ONLY with the
+explicit `up -d --no-deps docworker` command. Never reuse such an invocation for
+the server, database, storage, or a whole-stack `up`. Do not regenerate or print
+the existing service credentials just to recreate this one worker.
+
 Compare identical English/Chinese package hashes and identical input fixture
 hashes under the two workers. Store variant output separately with manifest status
 `runtime-experiment`; do not stage it as a regular `candidate`. A successful

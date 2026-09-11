@@ -49,6 +49,13 @@ class CandidateTests(unittest.TestCase):
             stage_candidate(self.build, self.root / "store")
         self.assertFalse((self.root / "store").exists())
 
+    def test_runtime_experiment_is_not_a_template_candidate(self):
+        self.manifest['status'] = 'runtime-experiment'
+        self.save()
+        with self.assertRaises(ValueError):
+            stage_candidate(self.build, self.root / 'store')
+        self.assertFalse((self.root / 'store').exists())
+
     def test_untranslated_candidate_is_rejected(self):
         self.manifest["untranslated_units"] = ["missing"]
         self.save()

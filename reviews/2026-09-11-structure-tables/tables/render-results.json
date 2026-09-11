@@ -1,0 +1,146 @@
+[
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "structured-partial",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured-partial",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured-partial",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "structured-partial",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured-partial",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured-partial",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "populated",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "stress",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  }
+]

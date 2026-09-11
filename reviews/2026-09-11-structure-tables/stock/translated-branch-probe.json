@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "language": "english",
+      "four_statuses_and_missing_status": true,
+      "one_unnamed_project": true,
+      "case_identifier_escaped": true
+    },
+    {
+      "language": "chinese",
+      "four_statuses_and_missing_status": true,
+      "one_unnamed_project": true,
+      "case_identifier_escaped": true
+    }
+  ],
+  "release_acceptance": false,
+  "runtime_render": false,
+  "checker_sha256": "e3a099f7ea5fd7ffaec5edbd1846a25619394052b4d6bd4655e11d2b9dfbca6d"
+}
