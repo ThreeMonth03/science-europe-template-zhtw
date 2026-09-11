@@ -13,7 +13,7 @@ We are going to contact the repository.
 ### Translation (zh_Hant)
 
 ~~~jinja
-我們將聯絡資料儲存庫。
+本計畫將聯繫該儲存庫。
 ~~~
 
 <details>

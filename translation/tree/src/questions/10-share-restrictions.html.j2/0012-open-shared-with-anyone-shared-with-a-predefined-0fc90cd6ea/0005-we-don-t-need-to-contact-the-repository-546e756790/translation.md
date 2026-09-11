@@ -13,7 +13,7 @@ We don't need to contact the repository because it is a routine for us.
 ### Translation (zh_Hant)
 
 ~~~jinja
-我們不需要聯絡資料儲存庫，因為這對我們而言是例行作業。
+本計畫依例行流程使用該儲存庫，無須另行聯繫。
 ~~~
 
 <details>
