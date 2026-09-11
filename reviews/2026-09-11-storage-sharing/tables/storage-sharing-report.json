@@ -1,0 +1,105 @@
+{
+  "checks": [
+    {
+      "case": "structured",
+      "language": "english",
+      "selected_facts_in_all_formats": true,
+      "fixture_max_list_depth": 1
+    },
+    {
+      "case": "structured",
+      "language": "chinese",
+      "selected_facts_in_all_formats": true,
+      "fixture_max_list_depth": 1
+    },
+    {
+      "case": "storage-sharing",
+      "language": "english",
+      "selected_facts_in_all_formats": true,
+      "fixture_max_list_depth": 1
+    },
+    {
+      "case": "storage-sharing",
+      "language": "chinese",
+      "selected_facts_in_all_formats": true,
+      "fixture_max_list_depth": 1
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "english",
+      "selected_facts_in_all_formats": true,
+      "fixture_max_list_depth": 1
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "chinese",
+      "selected_facts_in_all_formats": true,
+      "fixture_max_list_depth": 1
+    }
+  ],
+  "selected_checks_passed": true,
+  "unchanged_question_checks": [],
+  "release_acceptance": false,
+  "checker_sha256": "f03df1c7bb8a2a6ef5a595d516ed1cbb3cec67be68c2cb060e686941a4e106f0",
+  "limits": [
+    "Only declared synthetic fixtures and selected facts",
+    "Questionnaire gaps remain; not full Science Europe acceptance",
+    "Microsoft Word has not been tested"
+  ],
+  "sha256": {
+    "renders/storage-sharing-chinese.docx": "56d9c68b3e793e58652d078778664b6c5bc0a03553873c8eb9c3ea2eb853a5a6",
+    "renders/storage-sharing-chinese.docx.fixture.json": "a262932ed22c52a7f9544d73a527254ae1786e4d31e67f5d996d9cef818de0b2",
+    "renders/storage-sharing-chinese.docx.json": "6701ddf70442255a9f57cd74622fc381f4aea1342e34dd68a363db1ad8be243b",
+    "renders/storage-sharing-chinese.html": "ecf8c72d155a4d94011c0e173c783ff80899f2a06b8095bd931e607b4bf7dbf5",
+    "renders/storage-sharing-chinese.html.fixture.json": "26bd9edf834e52ec7009061fac552f4cb82ab0082b127bf3944f0462b654cc9d",
+    "renders/storage-sharing-chinese.html.json": "48636da6dee57dc5301a6cc883a8f8417fff34c57d92b84f7c9115c369d7888a",
+    "renders/storage-sharing-chinese.pdf": "cb85d1eb2a78a0635c538e23203a7a69be17fdf89e135166682b39599a47f7dc",
+    "renders/storage-sharing-chinese.pdf.fixture.json": "2063bc12d8f5469c19b6e527c54158b6eac8f9db21e7d3efad09fd92622c231f",
+    "renders/storage-sharing-chinese.pdf.json": "5be7286fc88b125f7ab64584cd0f74f31423ce0564445f920ba7c57923bef8c2",
+    "renders/storage-sharing-english.docx": "8c321204349ec5db04d71c640af47906f9ec09e6df7a02c1b8b2b9a0a63e1c4d",
+    "renders/storage-sharing-english.docx.fixture.json": "89530016abcb18b6cec2de2fb45714b4452fd4c1e56b7f3521a5a804118829ba",
+    "renders/storage-sharing-english.docx.json": "f835cbc212596e3c1e08583bc407fde43b067bb2f5bdcd98caeb29863d2bb168",
+    "renders/storage-sharing-english.html": "680b3a344b0dc1133ce783021c6b7d0da9d35d2389fd4eecd92e45865717da9b",
+    "renders/storage-sharing-english.html.fixture.json": "4934ac2e00043b718130a182789a35146ff6b59297769ae1eeb9e5790e3b15ba",
+    "renders/storage-sharing-english.html.json": "e7fe540684cc943814553d2a7465136c5e83b300434f9df58d8977956fcd1808",
+    "renders/storage-sharing-english.pdf": "d963d8fd76f558c3a18d98dad573a28ee85d64c3173bce978adc0c0e2f238e6d",
+    "renders/storage-sharing-english.pdf.fixture.json": "f71518c8594f0310a1e3f0b3297b2bffe8be862f8bdd35128158aaf73d6cd571",
+    "renders/storage-sharing-english.pdf.json": "8f421cbf35bb17fca2e8280eb9626e6fb3c31dcd9690df5dd32e5a7c62903c52",
+    "renders/storage-sharing-partial-chinese.docx": "42c616f6683acb88de611ce6dc3cab9f892371b58216dd4601345275d6eef7e0",
+    "renders/storage-sharing-partial-chinese.docx.fixture.json": "329627e193b76425701cb9bf521ac7fb132f9b5f6ed78470627c051e19584df5",
+    "renders/storage-sharing-partial-chinese.docx.json": "ad126a75868372a536b014b8e657de0ad0f75dfbd2a0d3115d7d52a880d6ffbb",
+    "renders/storage-sharing-partial-chinese.html": "e66db5d640daa2d66989f34fd960a99851263b80dc94fae49a5e23a65773e43d",
+    "renders/storage-sharing-partial-chinese.html.fixture.json": "cbbcdaae7d0e6f4bc36f1afeb9bf00bbf0b9fda66e0ae6103579396cdf23c667",
+    "renders/storage-sharing-partial-chinese.html.json": "95d2ec8bef7130155d8c641d2e25b67e95c2556274bc3fb07082d89ca8b14b20",
+    "renders/storage-sharing-partial-chinese.pdf": "8e02c8df848b05dd53bbfad8ad0577b65fa50a039ec7f6fb06d4946846070fda",
+    "renders/storage-sharing-partial-chinese.pdf.fixture.json": "26d21c7f45c35707531b7110f3d85c91269c0c314b7f9d3510a4b15acf6d4cd5",
+    "renders/storage-sharing-partial-chinese.pdf.json": "f2a9c29d925a05675a5328c822d98d39ae12362ca6b7937866018bc5cfcc428d",
+    "renders/storage-sharing-partial-english.docx": "ffcba016ec49b48a47a6c8e76f1aaaa0f8d4bc57a68d285b7ac08c07c6fbdab6",
+    "renders/storage-sharing-partial-english.docx.fixture.json": "887bc5dee19b6205221d24264942a460aaff760ef18ae7165b33df0118e22970",
+    "renders/storage-sharing-partial-english.docx.json": "92bfad692f4239ee023e32555d5aa605189836c2f5a11f82f942e635c9a3eada",
+    "renders/storage-sharing-partial-english.html": "c3fec13f4c5fc8c57a305b6876f312153c2d320e0d9e01d02c77e2a90053dd9d",
+    "renders/storage-sharing-partial-english.html.fixture.json": "450b0a4fec578a34db6bdbfa3581300b297382074dbde127df2d6c3c1694e69e",
+    "renders/storage-sharing-partial-english.html.json": "7377659c683e914a4dfc31494e147a8e8afafcfee618e2342c27a7e574a3d9db",
+    "renders/storage-sharing-partial-english.pdf": "b4057e8a66e61458a4e69601d6d02cf0f0a992a6e548d34e6e9fb213d5b5fcae",
+    "renders/storage-sharing-partial-english.pdf.fixture.json": "49905cd887478d8e7adfdc3fda5eb3ee1ac8b31aab30f266d9ea20911601f113",
+    "renders/storage-sharing-partial-english.pdf.json": "b878f3940c35cba33d5e1e47460bc7f0113567aac60dc4977b1e599db9fd12f8",
+    "renders/structured-chinese.docx": "5a5f15d4bcd8980cd9070d6187a2bd4a44cfaec5a5feffa583e7b42d60e97fc1",
+    "renders/structured-chinese.docx.fixture.json": "873281139215fd5d2e87e78d866894d3c8f070a790d1debdfe8809049735455e",
+    "renders/structured-chinese.docx.json": "99c7c7d4c07e7c7bdc11f64570a96011018e0555216138a38ba406c1994c1102",
+    "renders/structured-chinese.html": "665a04cd090bd1803399adbff38ec9412af92c26904f0435e714bed646777b2a",
+    "renders/structured-chinese.html.fixture.json": "a6f9f4e40430f875e40db28701b29c558ba450a555d431e13973528ef1cc43d3",
+    "renders/structured-chinese.html.json": "6b208ea185e4099048d3ef2fae0cb3af415b87aaa16c9cb0948b3e749d794373",
+    "renders/structured-chinese.pdf": "143fa9efbf9ad919dff253c13bf422e63cf482354f1e2d983456b3b5c9b8f669",
+    "renders/structured-chinese.pdf.fixture.json": "0b5e30a3bab5c461b66a2c942ff5c8c14d4aa9424b788e283aab85f7bdc28a3b",
+    "renders/structured-chinese.pdf.json": "9887c72e73425c9614ddb57ab9e5064daa26664815ed3d28fdd90bdae896d3f4",
+    "renders/structured-english.docx": "efffefe13c823a57d8ea14d99fe919c3ecd4519a3daf3118f211cc7b58a80afd",
+    "renders/structured-english.docx.fixture.json": "437a4536ccd84e302a69b86f724a9d1247336d3c14f1ada8a38fab663faf2b4e",
+    "renders/structured-english.docx.json": "0801df1e587d9f3b0f90825fb4872124d16ecd5d02b373aed83b277ff289b3cd",
+    "renders/structured-english.html": "c912d4f97ae6357b7b5a4e5397e14c046059b8ddb20a6b0580615bef96d90f60",
+    "renders/structured-english.html.fixture.json": "5079e022d474d0db7fe472176d00337c837c6a133e1aa5c3afeb6c88640c25bf",
+    "renders/structured-english.html.json": "3fbf88bff577370d4f87b50fe534b8813f3555ea5260c67805af162611b2781d",
+    "renders/structured-english.pdf": "5232a32a1c087abc6c8c66b7af32f562484ac048cf60ebda48f6aa21d009e4cd",
+    "renders/structured-english.pdf.fixture.json": "486239b5cfdde4dd83ca5a6da39108beb7f62d05c9e772f3eb8ffdb4efac95e0",
+    "renders/structured-english.pdf.json": "48b664ecbf69b118780db4ffdb0e216ff406f8c01ef37ae5a8eb80ed816502aa"
+  }
+}

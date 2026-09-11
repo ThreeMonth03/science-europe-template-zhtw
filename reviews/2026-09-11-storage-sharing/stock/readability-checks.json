@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "empty",
+      "language": "english",
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "passed": true
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "passed": true
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "passed": true
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "passed": true
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "passed": true
+    },
+    {
+      "case": "populated",
+      "language": "english",
+      "passed": true
+    },
+    {
+      "case": "populated",
+      "language": "chinese",
+      "passed": true
+    },
+    {
+      "case": "stress",
+      "language": "english",
+      "passed": true
+    },
+    {
+      "case": "stress",
+      "language": "chinese",
+      "passed": true
+    }
+  ],
+  "checker_sha256": "25ab472fba81b01cff93ea74215b20f39481751c56e454b60acef231b2ddb5ac",
+  "package_sha256": {
+    "english.zip": "7f0b8f12fcb4e4a8aacb05c13e9649b28f4a1b2caa66ee9742f983fb04eff7e3",
+    "chinese.zip": "78601799838cc2e6a5b8a66aa10adb3bd292486c2dfe0b8730b0259935b538d5"
+  },
+  "limits": [
+    "Structural regressions only, not a prose-quality score",
+    "Human page review and Microsoft Word acceptance remain separate"
+  ]
+}
