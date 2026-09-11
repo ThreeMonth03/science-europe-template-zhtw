@@ -5,6 +5,7 @@
 
 目前為 Q1／Q5／Q15 的端到端實驗，尚未宣稱全部 15 題完成內容驗收。
 這是衍生客製模板，不代表 Science Europe 認可；目前不得當作已驗收正式版發布。
+先看 [實驗結論](docs/pilot-results.md) 及 [PDF／Word 樣張](reviews/2026-09-11/README.md)。
 中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯
 維護在英文 repo。翻譯來源是 `translation/**/translation.md`。
 
