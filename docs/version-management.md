@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.1 的英中工作分支為 `feat/narrative-pagination`，承接先前實驗。
+目前 0.3.3 的英中工作分支為 `feat/reading-units`，承接 0.3.2 的 `feat/quality-reading`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談
@@ -49,6 +49,12 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 
 原始基底、審查到的官方版本、已採用／刻意不採用／待處理變更要分別記錄。
 選擇性移植官方修正不等於全面合併；不能直接把 baseline 改成最新版本。
+
+本輪 Q2／Q3 的固定敘述結構與 Q1 的短表格提示屬於英文來源的客製修改，
+不是直接修生成後的中文 Jinja。Q2 已加入 `.upstream/base.json` 的 critical
+重疊清單；Q1、Q3、共用 macro 原已在清單中。未來升級須同時重跑缺答、
+自由回答段落、短／長表格與中英輸出測試。PDF 的 CSS、Word 的 Lua／reference
+樣式須分別驗證；Git 沒有文字衝突不代表成品版面相容。
 
 ## 中文單獨修版演練
 

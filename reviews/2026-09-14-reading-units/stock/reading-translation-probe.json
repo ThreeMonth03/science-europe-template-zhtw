@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "local_branch_language_checks": 24,
+  "release_acceptance": false,
+  "scope": "4 collector states \u00d7 3 equipment states \u00d7 EN/ZH; local adapter, not 24 DSW renders",
+  "checker_sha256": "309ca2f3aa3e2773cbadaae9a5e03720e6034deaa3fa666f08f5b81c84a97d0e",
+  "package_sha256": {
+    "english.zip": "d95317c2e8d99df193abb66ffb77544ff63da3cc41fd0a8e47520ae909126346",
+    "chinese.zip": "0a82ee6d84ee003959bbb8d0147b210797bc9ced5cd2ef66f265885c84318911"
+  }
+}

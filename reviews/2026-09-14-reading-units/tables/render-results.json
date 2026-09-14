@@ -1,0 +1,146 @@
+[
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "reading-rich",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "reading-rich",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "reading-rich",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "reading-rich",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "reading-rich",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "reading-rich",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "reading-partial",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "reading-partial",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "reading-partial",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "reading-partial",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "reading-partial",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "reading-partial",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "table-long",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "table-long",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "table-long",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "table-long",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "table-long",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "table-long",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  }
+]

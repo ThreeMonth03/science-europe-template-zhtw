@@ -4,6 +4,7 @@ import copy
 import json
 import subprocess
 from pathlib import Path
+from xml.etree import ElementTree as ET
 from bs4 import BeautifulSoup
 from docx import Document
 from check_narrative_outputs import compact, pdf_text, page_bounds, sha
@@ -29,6 +30,22 @@ def locations(path, labels):
     return {label: [index + 1 for index, page in enumerate(pages) if compact(label) in compact(page)] for label in labels}
 
 
+def authored_lines(path, language, expected):
+    first = '保留 v1.2 與 station_YYYYMMDD.csv。' if language == 'chinese' else 'Keep v1.2 and station_YYYYMMDD.csv.'
+    second = '這是使用者另外撰寫的段落！' if language == 'chinese' else 'This is a separate authored paragraph!'
+    root = ET.fromstring(subprocess.check_output(['pdftotext', '-bbox-layout', str(path), '-']))
+    found = {first: [], second: []}
+    for index, page in enumerate(root.findall('.//{*}page'), 1):
+        for line in page.findall('.//{*}line'):
+            text = ''.join(w.text or '' for w in line.findall('{*}word'))
+            assert not (compact(first) in compact(text) and compact(second) in compact(text)), (path, 'authored paragraphs share a line')
+            for phrase in found:
+                if compact(phrase) in compact(text): found[phrase].append((index, float(line.get('yMin')), float(line.get('yMax'))))
+    assert len(found[first]) == len(found[second]) == expected, (path, found)
+    for a, b in zip(found[first], found[second]):
+        assert b[0] > a[0] or (b[0] == a[0] and b[1] > a[2]), (path, 'authored paragraphs overlap', a, b)
+
+
 def inspect(build, case, language):
     base = build / 'renders' / f'{case}-{language}'
     soup = BeautifulSoup(base.with_suffix('.html').read_text(), 'html.parser')
@@ -36,6 +53,10 @@ def inspect(build, case, language):
     paragraphs = [p.text for p in word.paragraphs]
     word_text = '\n'.join(paragraphs + [c.text for t in word.tables for r in t.rows for c in r.cells])
     texts = {'pdf': pdf_text(base.with_suffix('.pdf')), 'docx': word_text}
+    if case == 'table-long':
+        for label in (f'ROW-{i:02d}' for i in range(1, 49)):
+            for fmt, text in {'html': soup.get_text(), **texts}.items():
+                assert text.count(label) == 1, (language, fmt, 'long table row lost or duplicated', label)
     for qid in ('q-what-data', 'q-docs-metadata'):
         q = soup.find(id=qid)
         assert not q.select('p p, p div, p ul, p table')
@@ -57,6 +78,9 @@ def inspect(build, case, language):
                 assert any(compact(''.join(run)) in compact(p) for p in paragraphs), (case, language, 'Q3 fixed sentences fragmented')
                 joined += 1
     if case in ('reading-rich', 'reading-partial'):
+        authored_lines(base.with_suffix('.pdf'), language, 4 if case == 'reading-rich' else 3)
+        preview = build / 'word-preview' / (base.name + '.pdf')
+        if preview.exists(): authored_lines(preview, language, 4 if case == 'reading-rich' else 3)
         q2 = soup.find(id='q-what-data')
         for fact in ('metadata-access-explanation', 'file-naming', 'object-naming', 'external-ownership'):
             detail = soup.select_one(f'#q-docs-metadata [data-fact-id="{fact}"], #q-what-data [data-fact-id="{fact}"]')
@@ -78,7 +102,7 @@ def inspect(build, case, language):
     if table:
         hint = table.find_parent(class_='short-table-unit')
         labels = ([f'ROW-{i:02d}' for i in range(1, 49)] if case == 'table-long' else
-                  ['Processing log', 'Source checksums'] if language == 'english' else ['處理紀錄', '來源校驗碼'])
+                  ['Processing log', 'Source checksum'] if language == 'english' else ['處理紀錄', '來源校驗碼'])
         if case == 'table-long':
             assert hint is None and len(table.select('tbody tr')) == 48
         else: assert hint is not None, (case, language, 'short table not tagged')
