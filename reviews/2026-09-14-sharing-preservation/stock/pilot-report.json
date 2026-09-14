@@ -1,0 +1,374 @@
+{
+  "checker_sha256": "88a8fec313f3e9bed9c43c7c0d45fbd3e8f292071aaa867420e41689a31bb319",
+  "passed": false,
+  "semantic_checks_passed": true,
+  "checks": [
+    {
+      "case": "sharing-custom",
+      "language": "english",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "sharing-custom",
+      "language": "chinese",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing",
+      "language": "english",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing",
+      "language": "chinese",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing",
+      "language": "english",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing",
+      "language": "chinese",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "english",
+      "facts": 26,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "chinese",
+      "facts": 26,
+      "passed": true
+    },
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "structured",
+      "language": "english",
+      "facts": 21,
+      "passed": true
+    },
+    {
+      "case": "structured",
+      "language": "chinese",
+      "facts": 21,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "facts": 11,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "facts": 11,
+      "passed": true
+    }
+  ],
+  "blocking_issues": [
+    {
+      "case": "sharing-custom",
+      "language": "english",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "sharing-custom",
+      "language": "english",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "sharing-custom",
+      "language": "chinese",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "sharing-custom",
+      "language": "chinese",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "sharing-missing",
+      "language": "english",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "sharing-missing",
+      "language": "english",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "sharing-missing",
+      "language": "chinese",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "sharing-missing",
+      "language": "chinese",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "storage-sharing",
+      "language": "english",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "storage-sharing",
+      "language": "english",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "storage-sharing",
+      "language": "chinese",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "storage-sharing",
+      "language": "chinese",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "english",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "english",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "chinese",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "chinese",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "structured",
+      "language": "english",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "structured",
+      "language": "english",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "structured",
+      "language": "chinese",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "structured",
+      "language": "chinese",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    }
+  ],
+  "package_sha256": {
+    "english.zip": "e29829e94cae37822acec9a394603014a0f3837458958490ee546bbdc6aa63a9",
+    "chinese.zip": "e0cda54a4866a6a5fbec4931648dcbf66a24ff8cf065b54770bec58d95a9ad4b"
+  },
+  "sha256": {
+    "empty-chinese.docx": "5183ee9be82f7315a7c76d257fe9fd799a582fd436acfcce78dda5df3859a715",
+    "empty-chinese.docx.fixture.json": "3680f5822b448f845b488244824548dac327b8e498e2f274a4d112a4c8cb0673",
+    "empty-chinese.docx.json": "e42df4c6e94896642e53df9b13ca9515966ee3384bd82de2f7465c6946f80cc6",
+    "empty-chinese.html": "f8e7d0e90fd65b67d9720eb333a5fe75214d58cdc575a499bd22a04336434485",
+    "empty-chinese.html.fixture.json": "3680f5822b448f845b488244824548dac327b8e498e2f274a4d112a4c8cb0673",
+    "empty-chinese.html.json": "a646fd0b97d272f9233ce89fa3fdf9e90e249eb75d25e93fb825f55cac76e7a7",
+    "empty-chinese.pdf": "87e5976b452cf242fde2e4b4fe57938c677d75de8840fdd159d486d132539b8b",
+    "empty-chinese.pdf.fixture.json": "3680f5822b448f845b488244824548dac327b8e498e2f274a4d112a4c8cb0673",
+    "empty-chinese.pdf.json": "cde790ee95d3c343b68b7593903e64dabc021f9019cb572f602346320c6668cf",
+    "empty-english.docx": "b4499f75ef352f4f54d237a5f9032f90227c6dc69428eeb2566195ef8d059d29",
+    "empty-english.docx.fixture.json": "da6761d50d37a5a9abb151261bc609d3f007c198d79d879c937cc9bb599b0476",
+    "empty-english.docx.json": "c4a3b51635a48e36f0bda5e99943a3c587bc609157074f41863b16d40834ba17",
+    "empty-english.html": "758e7ef5cf2203596ab0cc36d7966054f63f7589ddb37edfeade2d1cf8c379f5",
+    "empty-english.html.fixture.json": "da6761d50d37a5a9abb151261bc609d3f007c198d79d879c937cc9bb599b0476",
+    "empty-english.html.json": "b8842df65e6d7fce82aaded3063f094e1a785564182928149431e163f39f921e",
+    "empty-english.pdf": "bcc4f52f3801d8c69c1b8508341e1afa31feb161c504a8c554973383300a4857",
+    "empty-english.pdf.fixture.json": "da6761d50d37a5a9abb151261bc609d3f007c198d79d879c937cc9bb599b0476",
+    "empty-english.pdf.json": "9169e4939eebfc828c7048f2d016f33f99799cad22cecde7fffb8525f9b45437",
+    "narrative-long-chinese.docx": "63beb8da77bf4d5e8691a23c15e2062115606fd47d3645dcc45ed55997161974",
+    "narrative-long-chinese.docx.fixture.json": "7494dcae4feec81a023e15aa245cedfecb3da1a84fb33dc3564212cfa3ffde59",
+    "narrative-long-chinese.docx.json": "d862e8828f71ab21605ffc4999c4986f615fd11613a55392c0e9353ebcefb69f",
+    "narrative-long-chinese.html": "cd4fe9cc2646554d8a43dcfee2649e1b4ed06bb5d1e68fa77e0c3b70d9d6de4e",
+    "narrative-long-chinese.html.fixture.json": "c9ad2b5ca5dc19e760c67c1ae1c98e05ab672eddda6b292dabda7b7e4349b1db",
+    "narrative-long-chinese.html.json": "3b4eba289b4d3b48b1e47c4feafaaedf988a06b3c36d9afec274992ac4e59bca",
+    "narrative-long-chinese.pdf": "781ac8d359fab6751339a3a66fda299da4bee1c1b3d682d98132337bfacaa25d",
+    "narrative-long-chinese.pdf.fixture.json": "fefbbbe764446a1eb728e303e85c277ea5cf154b8ece3c89d28ae1a5d5978106",
+    "narrative-long-chinese.pdf.json": "a61870bdfa463a78d96b160ea79bb13a788b66cbd1d8300d331650f5ed85b05b",
+    "narrative-long-english.docx": "a32d7e8370447cc5a1fc8fa6a812418950cb83da3c7a821dbe4bce9d457d521a",
+    "narrative-long-english.docx.fixture.json": "56ae4ff14cd9f5cd5163bdf10e90b7be22eefb92c32e0fac82e7682772a1df5a",
+    "narrative-long-english.docx.json": "b45b76e25e1b80b8242dcf14ee12bebe199efd850c9e885dad0cbff943b9d47a",
+    "narrative-long-english.html": "c61f1a0d1634b82b111950991884d944333d5f5f58fb19aa894cc37d52705277",
+    "narrative-long-english.html.fixture.json": "e0759d33d11b6cf2d1108ceb549ab98bf302a58748ba8671c5d9bc6be1ed1af1",
+    "narrative-long-english.html.json": "4bce9b868187aae6803d233400dd5965c0889282bd3aa00b713aa9c631b3c26a",
+    "narrative-long-english.pdf": "4df737202faf976f5243b43a60b50ca8b5a36ea631af86ec050a5845f7d61f9d",
+    "narrative-long-english.pdf.fixture.json": "31e746eb9dd071307adfbf7d977578e23fe919d0aa8025bd0d818ca77b18018d",
+    "narrative-long-english.pdf.json": "a5136efeb37f21246f31493a37b963832896abdbf6ed2ae86ccd5cf2d39743dd",
+    "sharing-custom-chinese.docx": "81ad40346069e26755583dbf67d10b23aa6c2e2cec1d32757c979eb204c7b0ce",
+    "sharing-custom-chinese.docx.fixture.json": "c5436c6c2ba00ea565459bb0a06fd266ce94e48403ae05bf4845288ce5784515",
+    "sharing-custom-chinese.docx.json": "497377d5c7fa36d2fb5032a76dd350317933e2d1dcfbff4df77331686123248e",
+    "sharing-custom-chinese.html": "daaa85c08a82ec789f671200ad3a0a009e5954ea805cb2ceeb99d69fc20e6167",
+    "sharing-custom-chinese.html.fixture.json": "9992d85bfd64fb6ed8ec189303d31e0eb301111012c4c7a846c51d12f743a74e",
+    "sharing-custom-chinese.html.json": "1af70b3b4f6ef4ec3d50fe18499f1ceca0cf0f78e9004eddc2640067c430312f",
+    "sharing-custom-chinese.pdf": "01098f2b846fd361b41d9f07375298a669e5acf3de671e6acb9f2be720cf0951",
+    "sharing-custom-chinese.pdf.fixture.json": "2587e35b6c7d4b33abc570dc32487c2834a277a2c8b2179ff5ebb4962d7b95ca",
+    "sharing-custom-chinese.pdf.json": "782f54671b219c38dacd711727939e60029e0aca8e85934f01153c8b67001a33",
+    "sharing-custom-english.docx": "44f7ddfdbd04d9671b5616f6e9c9bf6523930918a22e8a036e403d985a7c018e",
+    "sharing-custom-english.docx.fixture.json": "589ff8d4431090e7ec6140a2fe9a9bfc95eb3f8b6f5b0878566d5cc692476d16",
+    "sharing-custom-english.docx.json": "4aedab35908a02a897a9f6e1b8157ea67c14ea25b0127d0f83743c1ec67d3659",
+    "sharing-custom-english.html": "fbe458d7fe1d5b2f46d389b98d863da74239998ddd94f32856758e8a3eb3c721",
+    "sharing-custom-english.html.fixture.json": "79d19a8190cbd31c515ed594da539dd48f9cbab908041873d54643a3c22d245e",
+    "sharing-custom-english.html.json": "d73d9e760ea314e1d7daf357cc7f7b41a6bb8017bf6af319d7d0f0870d21b795",
+    "sharing-custom-english.pdf": "4277f8d246f9e1099d4489afc80a461f69a6d84ba0a9c02ef29830a9fc03a3a3",
+    "sharing-custom-english.pdf.fixture.json": "c295afb85c330e98db8fc662617408a930535da2362bf655db42b97b71d4b7d4",
+    "sharing-custom-english.pdf.json": "3761dc9386573cf1ce5e20780b9f975e1be52f2da6146106eec1048943a6d9ed",
+    "sharing-missing-chinese.docx": "a80518724f66b142629e18a2aebccec70aafa21b55e879c49befe28e7ca90a8f",
+    "sharing-missing-chinese.docx.fixture.json": "dba24c944361306eba6c59f67bae1f71a73a302e1defdf18b92dc07d497fd316",
+    "sharing-missing-chinese.docx.json": "4a201244a6be56d3f7ae3cce03f87b6eee62170f14b1da324001729b31fbe14f",
+    "sharing-missing-chinese.html": "ec32ea562b6770b39d6068c1be839fd7ad06df01419e374c38040b3141e7117c",
+    "sharing-missing-chinese.html.fixture.json": "e75fa4cf755136a4c836d2524bd043d444d09b9935134952c14603ecd8c168bb",
+    "sharing-missing-chinese.html.json": "e1978d20d0ec02aee86d802aaa01d83dd1299dc646599e28dc2a49fb196a58c6",
+    "sharing-missing-chinese.pdf": "366b43a6212bf6e02320945e984e88f5cacaf49b80961cecc27a1eecc8e4fac7",
+    "sharing-missing-chinese.pdf.fixture.json": "b8ca778359b80c707c731294b969045f7b305dc219c65faab1d5962eaa07478b",
+    "sharing-missing-chinese.pdf.json": "77ed3e5cc350d5e3d6e2662e5a05a26bfd9b2bc74ca22ad72f4b06eafba5e9e5",
+    "sharing-missing-english.docx": "82be58b25e2277af992652b823ed4c73ffed8a9af9ec7979bf6a1b003b77a3e3",
+    "sharing-missing-english.docx.fixture.json": "ca3009192a156b32e56c07339d020af914cce39b99f56181048cf950688fcad7",
+    "sharing-missing-english.docx.json": "baae0c78c86cd578fef7d0dd46ce2bb11c70644aed9e6fcfc54239af345e7f67",
+    "sharing-missing-english.html": "d91e34cee3534bf231d2d04e1719408320293e65e69642917025a8ece1ec961a",
+    "sharing-missing-english.html.fixture.json": "8a995357a3dfb778e1a7390bacd668d5e1a225b311c7b461466a02d7cb5cdf32",
+    "sharing-missing-english.html.json": "465dfe4f73a8efb904c4574d32dfd527d702aed83a76b9c8b9a4ed40298117cc",
+    "sharing-missing-english.pdf": "6b2d09544ddfed245f0cde0ec1e4da6522feb5ee6eebe602e141504177687ded",
+    "sharing-missing-english.pdf.fixture.json": "e272b45305ecaafa7801178c3f167d7172fcd99d272d8e5f287aa859f772b115",
+    "sharing-missing-english.pdf.json": "b89de6d2788798b59386f4e4c2936a2fce91293be04e6d8764a13981fc4aba93",
+    "storage-sharing-chinese.docx": "0e89155c170a18101bcf2c23b10a7b3f7cf12a050dbf3466b13b00f5bf4aba68",
+    "storage-sharing-chinese.docx.fixture.json": "3c19a2f3cccf89dd9926e9f6894f45b90a6a4c830cb575086eb7d44e126962ad",
+    "storage-sharing-chinese.docx.json": "c6d130b7f19080bc420a54cd54091d88bf29cb820242be73fc194a32cb270953",
+    "storage-sharing-chinese.html": "3ec93ebf92125d208e9ff7d47d4c4c86531dc5f35d58eeb686b2f216d8c5d9eb",
+    "storage-sharing-chinese.html.fixture.json": "cceb36fe4110163cb068bbbc3c24aa7932247a954cec42f636a4663da3e27f85",
+    "storage-sharing-chinese.html.json": "1933407701dd34678d34aafcff6f7812507ff82e41fea2211f71125f47be867b",
+    "storage-sharing-chinese.pdf": "cdbff8c122326e0a75be0c2e912fc3a2c37f817f024a3762f5b893ac0de7efe3",
+    "storage-sharing-chinese.pdf.fixture.json": "d90cb65e3028af4f763cd4f4be132bdb77dbe4a8a44c62e28ba6634b565b9cd2",
+    "storage-sharing-chinese.pdf.json": "a352008b3d2dd1e9a8218e76349b211ad4ccf5b8a0426e60ed03d726d5ae6274",
+    "storage-sharing-english.docx": "7985a6ef53df5940aafd72d35504607c5c34928e8b65d51e45e979530364470c",
+    "storage-sharing-english.docx.fixture.json": "0701d3c67dabffcf4dff41b221d4d1db59e0619de159b002d7d53c5a6cfa0523",
+    "storage-sharing-english.docx.json": "cc74d524ca1d7ee8426cc0dda1b7a4a542b79ec9ae4828f93e9ca7f8e1355d9f",
+    "storage-sharing-english.html": "7abed22c2fbe19d8c40c8c1b2dd7e0feea98269e79b25385e053c820fe2628f4",
+    "storage-sharing-english.html.fixture.json": "8348c08689c3fafcfd1be82e88b8ca8e0bbc3df594aa09a83d28e51c91e581b3",
+    "storage-sharing-english.html.json": "fac73916d41bb29dd1f392f31a3468ee343809e926563457debbfc0dd7d2cf32",
+    "storage-sharing-english.pdf": "a8121f1f9ae68e7e70d5b35b6f25837abbc92c68679cb322e5a708058969cd1d",
+    "storage-sharing-english.pdf.fixture.json": "b9f985dc3351e65c5e8b46d893720922ccd5549705902aa9bbef5d170b3823f6",
+    "storage-sharing-english.pdf.json": "dad779d62600cea414ff23e62ae729ba3046e25916ebf89a7f61a4a5e80ffe3d",
+    "storage-sharing-partial-chinese.docx": "ff0eeddfe831f8d00e994cef116256fe55e3a54abb187a76d73049c4fc910276",
+    "storage-sharing-partial-chinese.docx.fixture.json": "f86333bec7a3c92cd397a7c93957ecbe5dfe30bb12b5d6e7b0d1c710cce34488",
+    "storage-sharing-partial-chinese.docx.json": "c6052f2d87ee0b2c34cf56cd362b575808d6fdf9a24e65f4b5b83efde4717594",
+    "storage-sharing-partial-chinese.html": "495e5ccecd0932973b928eda0b3615c73a4cf2243f05df48209a68ccf099dc95",
+    "storage-sharing-partial-chinese.html.fixture.json": "b0b9f5980467eb8c9f0cfb34df522e986dcaccae4c92adc94920a3bb2463c8ec",
+    "storage-sharing-partial-chinese.html.json": "cffae2f2565021cb259936afa99618dd474ae2986dbe08e18b962c0ee8c1e734",
+    "storage-sharing-partial-chinese.pdf": "8baa982821b228f2e43099d3f3c3e567d77a9b79e4fb4dde28a18faa1b687240",
+    "storage-sharing-partial-chinese.pdf.fixture.json": "8ab9fa949609c1f67f61e13353707a0c61204f2f631c1339acdc1d6b0c5da777",
+    "storage-sharing-partial-chinese.pdf.json": "e58e1b283dbee6e3642d4db5e62bd46bec189552b0c3f4b00f9b83daac48e2cd",
+    "storage-sharing-partial-english.docx": "69797584302d34ec6c5487a75e3d2c36664438a04ebe1766e03a92a91a26ca65",
+    "storage-sharing-partial-english.docx.fixture.json": "013eba0f96607e2f71ee5dfc96d30d404d52497b36fdd1fb8ac134d09424c9d8",
+    "storage-sharing-partial-english.docx.json": "2c59ebc706d893ccdc3d730f8ccc35e1e0aeab7e3d86389363e69f524fc6655d",
+    "storage-sharing-partial-english.html": "ec2d96850e23e203d1c8aec471825f3463a8bafcf965b295f699f3d930e361d6",
+    "storage-sharing-partial-english.html.fixture.json": "2c50b93b642b7517fd327eeb6034ef78626c10542c406d139a130b3853074e98",
+    "storage-sharing-partial-english.html.json": "12627839d69ab80a761eec56d06d2c2cbbed1ffbd335fbbb2229ff1ececb9c9a",
+    "storage-sharing-partial-english.pdf": "a3372233b87aad5b81ce9103eb8cc6330625f2656b56a7b1aa45e25ce8b0e994",
+    "storage-sharing-partial-english.pdf.fixture.json": "4f3299adb400bb5a633a130cbc7bb4b8610e5596ae1a5b2d29a95366e0a0d558",
+    "storage-sharing-partial-english.pdf.json": "28ee55fa04c528718d51f05896ed821709df029cd3a52ceba0a51639a756f043",
+    "structured-chinese.docx": "255132ef143e356e9ff8ca99f028f8172bf236a545b37476e6a203db99b83994",
+    "structured-chinese.docx.fixture.json": "39ea7ea0088cfecc922c0c063c4495735b2c4e018f7cbda28782f139dee5ca54",
+    "structured-chinese.docx.json": "263c0685fa4f959a6896ef9a2e258a76bad710e8674d420d375e105f808812eb",
+    "structured-chinese.html": "b17a2cf87172c41582cf6b5e6255e76440e441ef3ddbc2dec68afeaae285d696",
+    "structured-chinese.html.fixture.json": "afe5eec0439c94441080d2103db3e4d828f853805e4958e8a9edc497f6326916",
+    "structured-chinese.html.json": "544823787c97b717a6034d8041175712adea5057fc5a6adc6a20afa698f5e46d",
+    "structured-chinese.pdf": "0361ad3db3c06353cbc804735d479a2da1663127fba89785a98e4b157d904c60",
+    "structured-chinese.pdf.fixture.json": "3ec6e5f60c273e84fd14eeceb08f9776101f36925e95c1b20609c3bd80193961",
+    "structured-chinese.pdf.json": "724b7c818adadf008a4c8e38f5550abc323fd842391afb146b37f2eac7607f10",
+    "structured-english.docx": "4e7fe920d6fc2f98b992db70aa11db5de2117117e976d7a9339de257d1b21801",
+    "structured-english.docx.fixture.json": "f79f40524a13337176d45993d85db15cd6c7f3a0b2bad4622c16cd0df135ce0a",
+    "structured-english.docx.json": "9acbd68bf639bdf00b8d86bf9140ed36da9f8b55cd18ea638b4218162f023370",
+    "structured-english.html": "3f3e8ce5cc75c0433f431acacfb812f5b35621ecbe537b7e8c793a4c9a9a6703",
+    "structured-english.html.fixture.json": "6eae4208a0d4f76849185aa1b6ed36d9415078b6cbcea9f548aaa2f039e085e3",
+    "structured-english.html.json": "b99c9e3dd1c125ccb39b5cae582c6e68d1ccadb3b32f38b482c979e3a050af7f",
+    "structured-english.pdf": "b5cbacdda2f82d45488194b0a9891e250525514897f92c00b18ed050be69b4ab",
+    "structured-english.pdf.fixture.json": "391a7a891d256f9b7b4e36a0a0ab8bd9ee30efea70edeef8086f9b2cc96ebd35",
+    "structured-english.pdf.json": "a38b3931c0faa0c574386ed8ed7d0e894c66cd66565c8a0a370c810aeaa0df1c"
+  },
+  "limits": [
+    "Q1/Q5/Q15 only",
+    "Human visual review is separate",
+    "Microsoft Word opening is not tested"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "sharing-custom",
+      "passed": true
+    },
+    {
+      "case": "sharing-missing",
+      "passed": true
+    }
+  ],
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "word_filter_sha256": "3fca176519a6acf58ab7fb0d6dcd7cec02aa71aecad86cef657490275bc3f690",
+  "checker_sha256": "112bbe40cfe913e6aa3a039032b1cecc0896816917315ca5487b34579a692251",
+  "release_acceptance": false,
+  "scope": "Native Pandoc AST; synthetic HTML paragraphs substituted for Markdown to isolate the Lua filter. Not DOCX pagination acceptance."
+}

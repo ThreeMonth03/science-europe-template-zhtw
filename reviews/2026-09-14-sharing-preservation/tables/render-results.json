@@ -1,0 +1,218 @@
+[
+  {
+    "case": "sharing-custom",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "sharing-custom",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "sharing-custom",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "sharing-custom",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "sharing-custom",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "sharing-custom",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "sharing-missing",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "sharing-missing",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "sharing-missing",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "sharing-missing",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "sharing-missing",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "sharing-missing",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing-partial",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing-partial",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing-partial",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing-partial",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing-partial",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "storage-sharing-partial",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "narrative-long",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "narrative-long",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "narrative-long",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "narrative-long",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "narrative-long",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "narrative-long",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  }
+]
