@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.7 的英中工作分支為 `feat/preservation-coverage`，承接 0.3.6 的 `feat/sharing-preservation`。
+目前 0.3.8 的英中工作分支為 `feat/word-rhythm`，承接 0.3.7 的 `feat/preservation-coverage`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談
@@ -64,6 +64,10 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 一般連字號。Q10 自訂申請流程與 Q11 自訂付款安排亦須保留作者的段落與清單。
 
 ## 中文單獨修版演練
+
+0.3.8 的 Word 間距由英文 `prepare_layout.py` 統一準備，該檔已提高至 Word
+升級高風險範圍；沒有更改 Jinja、翻譯文字、PDF CSS 或 Lua。樣式試改的既有
+DOCX 與實際新版 DSW 產檔分開列證據，不將前者冒充端到端驗收。
 
 0.3.7 新增的 Q11 資料集脈絡、不發布原因與計畫結束後冷儲存 partial，仍只在
 英文維護。16 個問卷欄位以編譯 KM 的 UUID／選項／路徑對照鎖定；上游升級時
