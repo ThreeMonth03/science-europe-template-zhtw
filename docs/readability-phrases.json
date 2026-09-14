@@ -345,5 +345,9 @@
   "The conditions will be published as part of open metadata.": "這些取用條件將納入公開的後設資料。",
   "We have budgeted for the costs in the project to pay charges of the used repositories.": "本計畫已編列預算，支付資料儲存庫的服務費。",
   "We have a reserved budget for the time and effort it will take to prepare the data for publication.": "已預留預算，以支應資料發布準備工作所需的時間與人力。",
-  "Special-purpose repository for the project.": "本計畫專用的資料儲存庫。"
+  "Special-purpose repository for the project.": "本計畫專用的資料儲存庫。",
+  "For repository contact arrangements, see Question 11, distribution {loop.index} of this dataset.": "儲存庫聯繫安排請見第 11 題本資料集的管道 {loop.index}。",
+  "For repository contact arrangements, see Question 11 under this dataset.": "儲存庫聯繫安排請見第 11 題本資料集的說明。",
+  "Other repository contact arrangements:": "儲存庫聯繫的其他安排：",
+  "The other repository contact arrangements have not been described.": "尚待補充：儲存庫聯繫的其他安排。"
 }

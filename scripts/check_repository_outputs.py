@@ -71,7 +71,8 @@ def compare_word_outside_q11(before, after):
     assert outside(previous[0]) == outside(current[0]), 'Native Word prose or styles outside Q11 changed'
 
 
-def inspect(build, english, case, language, ids):
+def inspect(build, english, case, language, ids, *, contact_owner='duplicated'):
+    assert contact_owner in ['duplicated', 'q11']
     soup, row = inspect_states(build, english, case, language, ids)
     q = soup.find(id='q-data-preservation'); base = build / 'renders' / f'{case}-{language}'
     document = Document(base.with_suffix('.docx')); paragraphs = document.paragraphs
@@ -121,13 +122,14 @@ def inspect(build, english, case, language, ids):
             for i in range(1, 61): assert sum(t.count(f'Repo-review-2027-{i:03d}.csv') for t in pages.values()) == 1
             row[name + '_long_answer_pages'] = sorted(token_pages)
     if case == 'repository-long':
-        authored = q.select('.repository-distribution')[0].find_all('p')
+        authored = (q.select('.repository-contact .answer-detail > p') if contact_owner == 'q11'
+                    else q.select('.repository-distribution')[0].find_all('p'))
         assert len(authored) == 60
         available = Counter(compact(p.text) for p in paragraphs)
         for n in authored:
-            assert available[compact(n.get_text())] == 2, 'Authored paragraph lost/merged (same answer is used in Q10 and Q11)'
+            assert available[compact(n.get_text())] == (1 if contact_owner == 'q11' else 2), 'Unexpected number of full authored paragraphs'
         matches = [p for p in paragraphs if re.search(r'Repo-review-2027-\d{3}\.csv', p.text)]
-        assert sum(not keep_value(p, 'keep_with_next') for p in matches) >= 118, 'Long authored answer locked into a keep chain'
+        assert sum(not keep_value(p, 'keep_with_next') for p in matches) >= (59 if contact_owner == 'q11' else 118), 'Long authored answer locked into a keep chain'
         row['q11_authored_paragraphs'] = 60
     return soup, row
 
