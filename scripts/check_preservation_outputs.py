@@ -13,6 +13,7 @@ from check_narrative_outputs import compact, page_bounds, pdf_text, sha
 from check_polish_outputs import canonical_word_dates, assert_quantity_lines
 from check_sharing_outputs import direct_runs
 from compare_runtime_outputs import markers
+from check_block_content import assert_native_text
 
 
 def assert_no_punctuation_only_lines(xml, start, end):
@@ -45,15 +46,15 @@ def inspect(build, prior, case, language):
     q=soup.find(id='q-data-preservation')
     start=compact(q.h3.get_text())[:12]
     end=compact(soup.find(id='q-access-data').h3.get_text())[:12]
-    paragraphs=[canonical_word_dates(soup,p.text) for p in Document(base.with_suffix('.docx')).paragraphs]
+    document=Document(base.with_suffix('.docx'))
+    paragraphs=[canonical_word_dates(soup,p.text) for p in document.paragraphs]
     pdf=pdf_text(base.with_suffix('.pdf'))
     for file in [base.with_suffix('.pdf'), build/'word-preview'/(base.name+'.pdf')]:
         if file.exists():
             assert_no_punctuation_only_lines(subprocess.check_output(['pdftotext','-bbox-layout',str(file),'-']),start,end)
     assert not q.select('p p, p div, p ul, p table')
     for node in q.select('p,li'):
-        expected=compact(node.get_text())
-        assert expected in compact(pdf) and expected in compact(''.join(paragraphs)), (case,language,'Q11 text lost',node.get_text())
+        assert_native_text(node,pdf,document)
     authored=[compact(n.get_text()) for n in q.select('.answer-detail > p')]
     available=Counter(compact(p) for p in paragraphs)
     assert all(available[t]>=n for t,n in Counter(authored).items()), 'Authored paragraph lost or merged'
@@ -114,7 +115,7 @@ def main():
     args=parser.parse_args()
     report={'selected_checks_passed':False,'release_acceptance':False,'rows':[],
             'checker_sha256':sha(Path(__file__)),
-            'helper_sha256':{n:sha(Path(__file__).with_name(n)) for n in ['check_narrative_outputs.py','check_polish_outputs.py','check_sharing_outputs.py','compare_runtime_outputs.py']},
+            'helper_sha256':{n:sha(Path(__file__).with_name(n)) for n in ['check_narrative_outputs.py','check_polish_outputs.py','check_sharing_outputs.py','compare_runtime_outputs.py','check_block_content.py']},
             'package_sha256':{n:sha(args.build/n) for n in ['english.zip','chinese.zip']},
             'artifact_sha256':{str(p.relative_to(args.build)):sha(p) for folder in ['renders','word-preview'] for p in sorted((args.build/folder).glob('*')) if p.is_file()},
             'limits':['Selected synthetic Q11 paths only; not full SE coverage','The prior comparator is for old cases without newly mapped answers','LibreOffice preview is not Microsoft Word acceptance','Stock Markdown tables remain blocked']}

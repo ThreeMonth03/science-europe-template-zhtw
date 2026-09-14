@@ -14,6 +14,7 @@ class ContactChecksTests(unittest.TestCase):
         old += ''.join(f'<div class="question" id="q-{i}"><p>Untouched {i}.</p></div>' for i in range(13))
         new = old.replace(OLD['english'][0] + body, '<span class="repository-contact-reference"><a href="#repository-contact-1-1">' + reference_text('english', 1, False) + '</a></span>')
         new = new.replace(OLD['english'][1] + body, '<div class="repository-contact" id="repository-contact-1-1"><div class="answer-lead"><p>' + LEAD['english'] + '</p></div><div class="answer-detail" data-fact-id="repository-contact-arrangements" data-status="complete">' + body + '</div></div>')
+        new = new.replace('data-item-id="r">Repository. <div class="repository-contact"', 'data-item-id="r"><div class="answer-lead repository-contact-heading">Repository. </div><div class="repository-contact"')
         return BeautifulSoup(old, 'html.parser'), BeautifulSoup(new, 'html.parser')
 
     def test_reconstruction_proves_authored_content_and_other_facts_unchanged(self):
@@ -43,3 +44,26 @@ class ContactChecksTests(unittest.TestCase):
     def test_contact_fixture_keeps_stock_table_gate(self):
         from run_pilot import TABLE_CASES
         self.assertIn('contact-mixed', TABLE_CASES)
+
+    def test_runtime_table_comparison_preserves_cells_and_other_text(self):
+        from compare_runtime_outputs import compare_contact_tables
+        before = '<div><p>Other facts.</p><div class="repository-contact" id="repository-contact-1-1"><div class="answer-detail"><p>| Record | Owner |\n| --- | --- |\n| Contact.csv | Team |</p></div></div></div>'
+        after = before.replace('<p>| Record | Owner |\n| --- | --- |\n| Contact.csv | Team |</p>', '<table><thead><tr><th>Record</th><th>Owner</th></tr></thead><tbody><tr><td>Contact.csv</td><td>Team</td></tr></tbody></table>')
+        a, b = [BeautifulSoup(s, 'html.parser') for s in [before, after]]
+        self.assertEqual(1, compare_contact_tables(a, b))
+        for bad in [after.replace('Contact.csv', 'Lost.csv'), after.replace('Other facts.', 'Changed.')]:
+            with self.assertRaises(AssertionError): compare_contact_tables(a, BeautifulSoup(bad, 'html.parser'))
+
+    def test_block_checks_keep_paragraphs_lists_and_table_cells(self):
+        from check_block_content import assert_native_text
+        from docx import Document
+        node = BeautifulSoup('<li>Heading.<div><p>Authored.csv.</p><ul><li>List.csv</li></ul><table><tr><td>Cell.csv</td></tr></table></div></li>', 'html.parser')
+        d = Document()
+        for text in ['Heading.', 'Authored.csv.', 'List.csv']: d.add_paragraph(text)
+        d.add_table(1, 1).cell(0, 0).text = 'Cell.csv'
+        pdf = 'Heading. Authored.csv. ◦ List.csv Cell.csv'
+        assert_native_text(node, pdf, d)
+        for text in ['Authored.csv.', 'List.csv', 'Cell.csv']:
+            with self.assertRaises(AssertionError): assert_native_text(node, pdf.replace(text, ''), d)
+        d.tables[0].cell(0, 0).text = 'Lost.csv'
+        with self.assertRaises(AssertionError): assert_native_text(node, pdf, d)

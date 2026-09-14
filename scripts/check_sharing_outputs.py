@@ -68,6 +68,7 @@ def compare_prior(old, new, language):
 
 
 def inspect(build, prior, case, language):
+    from check_block_content import assert_native_text
     base = build / 'renders' / f'{case}-{language}'
     soup = BeautifulSoup(base.with_suffix('.html').read_text(), 'html.parser')
     word = Document(base.with_suffix('.docx'))
@@ -85,8 +86,13 @@ def inspect(build, prior, case, language):
                 assert any(expected in compact(p) if standard else expected == compact(p) for p in paragraphs), (case, language, 'Owned run is not one Word paragraph', run)
                 if len(run) > 1: joined += 1
         for node in question.select('p, li'):
-            expected = compact(node.get_text())
-            assert expected in compact(pdf) and expected in compact(''.join(paragraphs)), (case, language, 'Missing text', node.get_text())
+            # Dates have an explicitly marked Word representation; all other
+            # authored punctuation remains exact in this block-aware check.
+            if node.select('.date-value'):
+                expected = compact(node.get_text())
+                assert expected in compact(pdf) and expected in compact(''.join(paragraphs)), (case, language, 'Missing date text', node.get_text())
+            else:
+                assert_native_text(node, pdf, word)
         for node in question.select('.data-gap, .answer-detail > p'):
             assert compact(node.get_text()) in [compact(p) for p in paragraphs], (case, language, 'Gap/authored paragraph not separate', node.get_text())
         authored.extend(compact(n.get_text()) for n in question.select('.answer-detail > p'))
@@ -131,6 +137,7 @@ def main():
     report = {'selected_checks_passed': False, 'release_acceptance': False, 'rows': [], 'checker_sha256': sha(Path(__file__)),
               'date_helper_sha256': sha(Path(__file__).with_name('check_polish_outputs.py')),
               'text_extractor_sha256': sha(Path(__file__).with_name('check_narrative_outputs.py')),
+              'helper_sha256': {'check_block_content.py': sha(Path(__file__).with_name('check_block_content.py'))},
               'package_sha256': {n: sha(args.build / n) for n in ('english.zip', 'chinese.zip')},
               'artifact_sha256': {str(p.relative_to(args.build)): sha(p) for folder in ('renders', 'word-preview') for p in sorted((args.build / folder).glob('*')) if p.is_file()},
               'limits': ['Synthetic selected cases only', 'Only the recorded Q10/Q11 Chinese phrase changes allowed in prior comparisons', 'ISO-shaped dates only, not date validity or filenames', 'LibreOffice is not Microsoft Word acceptance', 'Stock Markdown table support remains blocked']}

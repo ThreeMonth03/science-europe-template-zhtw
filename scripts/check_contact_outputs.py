@@ -11,7 +11,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString
 from docx import Document
 from lxml import etree
-from check_repository_outputs import inspect as inspect_repository
+from check_repository_outputs import inspect as inspect_repository, keep_value, scoped_pages
 from check_answer_state_outputs import canonical
 from check_narrative_outputs import compact, pdf_text, sha
 from check_word_rhythm_outputs import word_body
@@ -47,6 +47,8 @@ def check_references(soup, language):
         assert target['id'] == f'repository-contact-{n}-{m}'
         assert compact(ref.get_text()) == compact(reference_text(language, m, len(distributions) > 1))
         fact = target.select_one('[data-fact-id="repository-contact-arrangements"]'); assert fact is not None
+        heading = dist.select_one('.repository-contact-heading')
+        assert heading is not None and 'answer-lead' in heading['class']
         if fact['data-status'] == 'complete':
             assert target.select_one('.answer-lead > p').get_text() == LEAD[language]
             assert fact.get('class') == ['answer-detail'] and fact.get_text(strip=True)
@@ -71,6 +73,7 @@ def compare_prior(before, after, language):
         unit['class'] = prior_unit['class']
         ref.replace_with(NavigableString(OLD[language][0]), *[copy.deepcopy(n) for n in body])
         target.replace_with(NavigableString(OLD[language][1]), *body)
+    for heading in new.select('.repository-contact-heading'): heading.unwrap()
     old.smooth(); new.smooth()
     assert len(old.select('.question')) == len(new.select('.question')) == 15
     assert markers(old) == markers(new), 'Unexpected fact change'
@@ -101,6 +104,22 @@ def native_bookmarks(docx, refs):
         assert len(root.xpath('//w:bookmarkEnd[@w:id=$id]', namespaces=ns, id=starts[0].get(w + 'id'))) == 1
 
 
+def pdf_references(file, refs):
+    if not refs: return {}
+    destinations = subprocess.check_output(['pdfinfo', '-dests', str(file)], text=True)
+    entries = re.findall(r'^\s*(\d+)\s+.*?"([^"]+)"\s*$', destinations, re.M)
+    xml = subprocess.check_output(['pdftohtml', '-xml', '-i', '-stdout', str(file)])
+    root = etree.fromstring(xml, parser=etree.XMLParser(resolve_entities=False, no_network=True))
+    anchors = root.findall('.//a'); result = {}
+    for ref in refs:
+        name = ref['href'][1:]; pages = [int(p) for p, n in entries if n == name]
+        assert len(pages) == 1, (name, 'PDF destination missing/duplicated')
+        label = ''.join(''.join(n.itertext()) for n in anchors if n.get('href', '').endswith('#' + str(pages[0])))
+        assert compact(ref.get_text()) in compact(label), (name, 'PDF reference does not link to target page')
+        result[name] = pages[0]
+    return result
+
+
 def inspect(build, english, case, language, ids):
     soup, row = inspect_repository(build, english, case, language, ids, contact_owner='q11')
     refs = check_references(soup, language); row['contact_references'] = len(refs)
@@ -108,6 +127,11 @@ def inspect(build, english, case, language, ids):
     assert len(refs) == expected_count
     base = build / 'renders' / f'{case}-{language}'
     word = Document(base.with_suffix('.docx')); native_bookmarks(base.with_suffix('.docx'), refs)
+    row['pdf_reference_target_pages'] = pdf_references(base.with_suffix('.pdf'), refs)
+    for ref in refs:
+        target = soup.find(id=ref['href'][1:]); heading = target.find_parent(class_='repository-distribution').select_one('.repository-contact-heading')
+        matches = [p for p in word.paragraphs if compact(p.text) == compact(heading.get_text())]
+        assert matches and all(keep_value(p, 'keep_with_next') for p in matches), 'Contact heading orphanable in Word'
     q10 = soup.find(id='q-share-restrictions'); q11 = soup.find(id='q-data-preservation')
     if case == 'repository-long':
         assert 'Repo-review-2027-' not in q10.get_text()
@@ -126,6 +150,14 @@ def inspect(build, english, case, language, ids):
             assert any('Contact-table-2027.csv' in c.text for t in word.tables for r in t.rows for c in r.cells)
     for file in [base.with_suffix('.pdf'), build / 'word-preview' / (base.name + '.pdf')]:
         text = compact(pdf_text(file))
+        pages = scoped_pages(pdf_text(file), compact(q11.h3.get_text())[:16], compact(soup.find(id='q-access-data').h3.get_text())[:16])
+        for ref in refs:
+            target = soup.find(id=ref['href'][1:]); heading = target.find_parent(class_='repository-distribution').select_one('.repository-contact-heading')
+            opening = target.select_one('.answer-detail > p') or target.select_one('.data-gap')
+            assert opening is not None
+            lead = target.select_one('.answer-lead')
+            snippets = [compact(heading.get_text()), compact(opening.get_text())] + ([compact(lead.get_text())] if lead else [])
+            assert any(all(s in content for s in snippets) for content in pages.values()), 'Contact heading separated from opening'
         if case == 'repository-long':
             for i in range(1, 61): assert text.count(f'Repo-review-2027-{i:03d}.csv') == 1
         if case == 'contact-mixed':
