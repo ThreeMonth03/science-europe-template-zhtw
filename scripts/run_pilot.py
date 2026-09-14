@@ -21,6 +21,7 @@ TABLE_CASES.update({'preservation-complete', 'preservation-partial', 'preservati
 TABLE_CASES.add('support-mixed')
 TABLE_CASES.update({'repository-gap', 'repository-long'})
 TABLE_CASES.add('contact-mixed')
+TABLE_CASES.add('paper-references')
 
 
 def docx_has_table_headers(xml, headers):

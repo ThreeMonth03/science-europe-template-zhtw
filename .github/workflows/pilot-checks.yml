@@ -64,6 +64,7 @@ jobs:
           ../tooling/.venv/bin/python scripts/probe_answer_states.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_repository_reading.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_contact_translation.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python scripts/probe_paper_translation.py --build "$SE_BUILD_DIR" --english ../english
       - uses: actions/upload-artifact@v4
         with:
           name: experimental-candidate-not-a-release

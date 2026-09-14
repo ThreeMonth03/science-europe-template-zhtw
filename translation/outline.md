@@ -576,7 +576,7 @@
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0032-the-arrangement-for-migration-to-more-modern-storage-807c2f4575/0001-the-arrangement-for-migration-to-more-modern-storage-b8824f8223/translation.md>)
 
-- [x] [file] src/preservation-dataset.html.j2 (5/5)
+- [x] [file] src/preservation-dataset.html.j2 (4/4)
 
   [J2] `src/preservation-dataset.html.j2`
 
@@ -612,13 +612,17 @@
 
           [T] [translation](<tree/src/preservation-dataset.html.j2/0004-this-dataset-contains-processed-data-leading-to-published-c0c1719512/0001-this-dataset-contains-processed-data-leading-to-published-207e163fd0/translation.md>)
 
-    - [x] [wrapper] 0005-related-paper-6df9051134 (1/1)
+- [ ] [file] src/preservation-paper.html.j2 (0/1)
 
-      [W] `0005-related-paper-6df9051134`
+  [J2] `src/preservation-paper.html.j2`
 
-        - [x] [unit] 0001-related-paper-96dc89ecf6: Related paper: {paper}.
+    - [ ] [wrapper] 0001-related-paper-ea3d253369 (0/1)
 
-          [T] [translation](<tree/src/preservation-dataset.html.j2/0005-related-paper-6df9051134/0001-related-paper-96dc89ecf6/translation.md>)
+      [W] `0001-related-paper-ea3d253369`
+
+        - [ ] [unit] 0001-related-paper-7c3f3a8a13: Related paper:
+
+          [T] [translation](<tree/src/preservation-paper.html.j2/0001-related-paper-ea3d253369/0001-related-paper-7c3f3a8a13/translation.md>)
 
 - [x] [file] src/preservation-publication-reason.html.j2 (9/9)
 

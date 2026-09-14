@@ -8,7 +8,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from jinja2 import Environment, FileSystemLoader
 from artifact_utils import sha
-from check_context_outputs import check_flow
+from check_paper_outputs import check_paper_flow
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -66,13 +66,13 @@ def main():
             if src.get('class')==['answer-detail']: assert src.decode_contents()==dst.decode_contents()
         for s in (en,zh):
             assert not s.select('p p, p div, p ul')
-            check_flow(s)
+            check_paper_flow(s)
     assert checked_phrases > 400
     assert '12\xa0年' in rendered[1][24].get_text(), 'Archive year unit was not translated'
     report={'passed':True,'release_acceptance':False,'local_branch_language_checks':2*len(cases),
             'exact_reviewed_phrase_checks':checked_phrases,'checker_sha256':sha(Path(__file__)),
             'context_flow_checks':2*len(cases),
-            'helper_sha256':{'check_context_outputs.py':sha(Path(__file__).with_name('check_context_outputs.py'))},
+            'helper_sha256':{n:sha(Path(__file__).with_name(n)) for n in ['check_context_outputs.py','check_paper_outputs.py']},
             'fixture_helper_sha256':sha(args.english/'tests/test_preservation_coverage.py'),
             'reviewed_phrases_sha256':sha(ROOT/'docs/readability-phrases.json'),
             'package_sha256':{n:sha(args.build/n) for n in ('english.zip','chinese.zip')},
