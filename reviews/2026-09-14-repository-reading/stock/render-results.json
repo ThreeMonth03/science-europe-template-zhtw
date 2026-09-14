@@ -1,0 +1,146 @@
+[
+  {
+    "case": "support-mixed",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "support-mixed",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "support-mixed",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "support-mixed",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "support-mixed",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "support-mixed",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "repository-gap",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "repository-gap",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "repository-gap",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "repository-gap",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "repository-gap",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "repository-gap",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "repository-long",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "repository-long",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "repository-long",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "repository-long",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "repository-long",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "repository-long",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  }
+]

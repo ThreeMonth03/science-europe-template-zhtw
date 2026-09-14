@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "local_branch_language_checks": 110,
+  "checker_sha256": "3bf5d9869a10184590412d1fd93393165125525b957240fd7c3b9c61d71ad0cf",
+  "fixture_helper_sha256": "b0c3f962bb19358557b986fd4e85a21ddc4d24942d6189e0a0660b07332bf820",
+  "adapter_sha256": "4068ed40344b85466cf81dbaefa02a6b818e622cbcef8418315b692f3dd9ee31",
+  "reviewed_phrases_sha256": "98ecd72d69d02784726ffdd7fda1f17e06752aa0669a87fc1ef9cf23e0d7c430",
+  "package_sha256": {
+    "english.zip": "57a449e2a182768617863abdd99db1897b82a973c1caf0964fdfcdcd3368a172",
+    "chinese.zip": "8b6b8cca6dae644a3210a3941a8a131851b669ae8a45888de101f3cb5ddb7ee5"
+  },
+  "limits": [
+    "Adapter-based synthetic branches, not actual DSW renders",
+    "No full SE coverage claim"
+  ]
+}
