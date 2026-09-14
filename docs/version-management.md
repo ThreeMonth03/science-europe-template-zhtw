@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.11 的英中工作分支為 `feat/repository-contact-reference`，承接 0.3.10 的 `feat/repository-reading`。
+目前 0.3.12 的英中工作分支為 `feat/preservation-context-flow`，承接 0.3.11 的 `feat/repository-contact-reference`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談
@@ -64,6 +64,13 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 一般連字號。Q10 自訂申請流程與 Q11 自訂付款安排亦須保留作者的段落與清單。
 
 ## 中文單獨修版演練
+
+0.3.12 只整合 Q11 與 `preservation-dataset.html.j2` 的段落容器，英文與中文
+文字、翻譯樹、CSS、Lua、Word reference 及官方基底均不變。此 partial 與 Q11
+必須視為同一個升級審查單位；作者回答、未填提示仍中斷固定敘述的合併。
+新工作分支承接舊分支，不表示舊分支成為永久維護線。中文 lock 指向英文
+`4aeeb2a9a35efe33d4b935f5b843716a74b3abdb`；同名 branch 只是方便配對，
+可重建來源仍以完整 commit／manifest 為準。正式合併與發布仍未進行。
 
 0.3.11 將 Other-contact 自由回答完整保留在 Q11，Q10 引用同一資料集／管道。
 來源仍只在英文維護，中文精確鎖定該來源。上游或臺灣版改題號、題目順序時，
