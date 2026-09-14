@@ -4032,7 +4032,7 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0056-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-25d186d302/translation.md>)
 
-- [ ] [file] src/questions/11-data-preservation.html.j2 (34/42)
+- [ ] [file] src/questions/11-data-preservation.html.j2 (41/42)
 
   [J2] `src/questions/11-data-preservation.html.j2`
 
@@ -4140,87 +4140,87 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-the-metadata-will-be-available-even-when-the-b23c1d0a38/0001-the-metadata-will-be-available-even-when-the-5b77110bd9/translation.md>)
 
-    - [ ] [wrapper] 0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65 (11/18)
+    - [ ] [wrapper] 0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a (17/18)
 
-      [W] `0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65`
+      [W] `0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a`
 
-        - [ ] [unit] 0001-distribution-8e0bef1509: Distribution {loop.index}:
+        - [ ] [unit] 0001-distribution-10665495f7: Distribution {loop.index}:
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0001-distribution-8e0bef1509/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0001-distribution-10665495f7/translation.md>)
 
-        - [ ] [unit] 0002-domain-specific-repository-6dc4c3ea30: Domain-specific repository
+        - [x] [unit] 0002-domain-specific-repository-6dc4c3ea30: Domain-specific repository
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0002-domain-specific-repository-6dc4c3ea30/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0002-domain-specific-repository-6dc4c3ea30/translation.md>)
 
-        - [ ] [unit] 0003-we-don-t-need-to-contact-the-repository-d552cbed5f: We don't need to contact the repository because it is a routine for us.
+        - [x] [unit] 0003-we-don-t-need-to-contact-the-repository-d552cbed5f: We don't need to contact the repository because it is a routine for us.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0003-we-don-t-need-to-contact-the-repository-d552cbed5f/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0003-we-don-t-need-to-contact-the-repository-d552cbed5f/translation.md>)
 
-        - [ ] [unit] 0004-we-have-already-contacted-the-repository-4d160a177f: We have already contacted the repository.
+        - [x] [unit] 0004-we-have-already-contacted-the-repository-4d160a177f: We have already contacted the repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0004-we-have-already-contacted-the-repository-4d160a177f/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0004-we-have-already-contacted-the-repository-4d160a177f/translation.md>)
 
-        - [ ] [unit] 0005-we-are-going-to-contact-the-repository-77c02671fe: We are going to contact the repository.
+        - [x] [unit] 0005-we-are-going-to-contact-the-repository-77c02671fe: We are going to contact the repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0005-we-are-going-to-contact-the-repository-77c02671fe/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0005-we-are-going-to-contact-the-repository-77c02671fe/translation.md>)
 
         - [x] [unit] 0006-we-have-made-other-arrangements-instead-of-contacting-c8339bcfda: We have made other arrangements instead of contacting the repository directly{domainSpecificRepoContactBeforeOther}
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0006-we-have-made-other-arrangements-instead-of-contacting-c8339bcfda/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0006-we-have-made-other-arrangements-instead-of-contacting-c8339bcfda/translation.md>)
 
         - [x] [unit] 0007-general-purpose-repository-99aa886a07: General-purpose repository
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0007-general-purpose-repository-99aa886a07/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0007-general-purpose-repository-99aa886a07/translation.md>)
 
         - [x] [unit] 0008-our-national-repository-d59b2e3d6a: Our national repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0008-our-national-repository-d59b2e3d6a/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0008-our-national-repository-d59b2e3d6a/translation.md>)
 
         - [x] [unit] 0009-our-institutional-repository-ae0dd48646: Our institutional repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0009-our-institutional-repository-ae0dd48646/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0009-our-institutional-repository-ae0dd48646/translation.md>)
 
         - [x] [unit] 0010-special-purpose-repository-for-the-project-c101b38634: Special-purpose repository for the project.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0010-special-purpose-repository-for-the-project-c101b38634/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0010-special-purpose-repository-for-the-project-c101b38634/translation.md>)
 
         - [x] [unit] 0011-we-will-be-able-to-support-this-repository-df29f0f813: We will be able to support this repository for a sufficiently long time.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0011-we-will-be-able-to-support-this-repository-df29f0f813/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0011-we-will-be-able-to-support-this-repository-df29f0f813/translation.md>)
 
         - [x] [unit] 0012-we-will-not-be-able-to-support-this-16a22cd5e2: We will not be able to support this repository for a sufficiently long time.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0012-we-will-not-be-able-to-support-this-16a22cd5e2/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0012-we-will-not-be-able-to-support-this-16a22cd5e2/translation.md>)
 
         - [x] [unit] 0013-whether-we-will-be-able-to-support-this-2a185a45ec: Whether we will be able to support this repository for a sufficiently long time has not been specified.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0013-whether-we-will-be-able-to-support-this-2a185a45ec/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0013-whether-we-will-be-able-to-support-this-2a185a45ec/translation.md>)
 
         - [x] [unit] 0014-the-repository-will-provide-download-only-service-46207f96b0: The repository will provide download-only service.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0014-the-repository-will-provide-download-only-service-46207f96b0/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0014-the-repository-will-provide-download-only-service-46207f96b0/translation.md>)
 
         - [x] [unit] 0015-the-repository-will-provide-a-search-and-simple-7db1995929: The repository will provide a search and simple access interface.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0015-the-repository-will-provide-a-search-and-simple-7db1995929/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0015-the-repository-will-provide-a-search-and-simple-7db1995929/translation.md>)
 
         - [x] [unit] 0016-the-repository-will-provide-an-advanced-processing-service-78734b6589: The repository will provide an advanced processing service.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0016-the-repository-will-provide-an-advanced-processing-service-78734b6589/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0016-the-repository-will-provide-an-advanced-processing-service-78734b6589/translation.md>)
 
-        - [ ] [unit] 0017-the-selected-repository-type-cannot-be-described-by-dab5729fe3: The selected repository type cannot be described by this template.
+        - [x] [unit] 0017-the-selected-repository-type-cannot-be-described-by-dab5729fe3: The selected repository type cannot be described by this template.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0017-the-selected-repository-type-cannot-be-described-by-dab5729fe3/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0017-the-selected-repository-type-cannot-be-described-by-dab5729fe3/translation.md>)
 
-        - [ ] [unit] 0018-the-repository-for-this-distribution-has-not-been-4c7f31157a: The repository for this distribution has not been specified.
+        - [x] [unit] 0018-the-repository-for-this-distribution-has-not-been-4c7f31157a: The repository for this distribution has not been specified.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cd322b4e65/0018-the-repository-for-this-distribution-has-not-been-4c7f31157a/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-distribution-domain-specific-repository-we-don-t-need-cb0b9a502a/0018-the-repository-for-this-distribution-has-not-been-4c7f31157a/translation.md>)
 
-    - [ ] [wrapper] 0015-preservation-destinations-by-distribution-27b12005b0 (0/1)
+    - [x] [wrapper] 0015-preservation-destinations-by-distribution-27b12005b0 (1/1)
 
       [W] `0015-preservation-destinations-by-distribution-27b12005b0`
 
-        - [ ] [unit] 0001-preservation-destinations-by-distribution-e8f2993563: Preservation destinations by distribution:
+        - [x] [unit] 0001-preservation-destinations-by-distribution-e8f2993563: Preservation destinations by distribution:
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0015-preservation-destinations-by-distribution-27b12005b0/0001-preservation-destinations-by-distribution-e8f2993563/translation.md>)
 

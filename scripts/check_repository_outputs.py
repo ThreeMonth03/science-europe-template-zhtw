@@ -88,10 +88,14 @@ def inspect(build, english, case, language, ids):
         for i, n in enumerate(rows, 1):
             labels = n.select('.repository-label')
             assert [l.get_text() for l in labels] == ([f'Distribution {i}:' if language == 'english' else f'資料提供管道 {i}：'] if len(rows) > 1 else [])
+            assert all(l.strong is None for l in labels), 'Decorative label markup belongs outside translations'
+            assert 'html body .repository-label { font-weight: bold; }' in ''.join(s.get_text() for s in soup.find_all('style')), 'Label emphasis rule absent from HTML'
             if 'short-repository-list' in unit.get('class', []):
                 matches = [p for p in paragraphs if compact(p.text) == compact(n.get_text())]
                 assert len(matches) == 1, 'Short repository row fragmented or duplicated in Word'
                 p = matches[0]
+                if labels:
+                    assert compact(labels[0].get_text()) in compact(''.join(r.text for r in p.runs if r.bold)), 'Label emphasis lost in DOCX'
                 assert p.style.name == ('Pilot Repository Lead' if i < len(rows) else 'Pilot Repository Item')
                 assert keep_value(p, 'keep_together') and keep_value(p, 'keep_with_next') == (i < len(rows))
     if case == 'repository-gap':

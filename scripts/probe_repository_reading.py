@@ -38,6 +38,7 @@ def main():
             for dataset in soup.select('.dataset-section'):
                 rows = dataset.select('.repository-distribution')
                 assert [n.get_text() for n in dataset.select('.repository-label')] == ([label.format(i) for i in range(1, len(rows) + 1)] if len(rows) > 1 else [])
+                assert all(n.strong is None for n in dataset.select('.repository-label')), 'Label styling must stay outside translated words'
                 if len(rows) > 1:
                     for q in ['10-share-restrictions', '13-persistent-identifier']:
                         other = render(replies, q).select_one(f'.dataset-section[data-item-id="{dataset["data-item-id"]}"]')
@@ -55,6 +56,8 @@ def main():
                         {'missing': '尚未說明此管道將使用哪個資料儲存庫。', 'needs-review': '本模板無法呈現所選的資料儲存庫類型，請核對。'})
             assert n.get_text() == expected[state]
             count += 1
+        assert 'html body .repository-label { font-weight: bold; }' in (args.build / folder / 'src/layout.css').read_text()
+        assert 'span.classes:includes("repository-label")' in (args.build / folder / 'src/word/pilot.lua').read_text()
     report = {'passed': True, 'release_acceptance': False, 'local_branch_language_checks': count,
               'checker_sha256': sha(Path(__file__)), 'package_sha256': {n: sha(args.build / n) for n in ['english.zip', 'chinese.zip']},
               'helper_sha256': {n: sha(args.english / n) for n in ['tests/test_answer_states.py', 'tests/test_science_europe_contract.py', 'scripts/generate_repository_fixtures.py']},
