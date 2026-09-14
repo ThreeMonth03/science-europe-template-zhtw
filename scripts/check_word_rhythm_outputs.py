@@ -1,7 +1,9 @@
-"""Check a Word-style-only iteration against exactly matching prior fixtures."""
+"""Check Word styles and compare only explicitly matching prior fixtures."""
 import argparse
 import json
+import subprocess
 from pathlib import Path
+from xml.etree import ElementTree as ET
 from bs4 import BeautifulSoup
 from docx import Document
 from docx.enum.text import WD_LINE_SPACING
@@ -32,6 +34,30 @@ def compare_questions(before, after):
     return 15
 
 
+def compare_pdf_text(before, after):
+    # Compare the same renderer's whole extracted document. Nested lists add
+    # bullets and table extraction interleaves columns, so HTML container text
+    # is not a valid contiguous-PDF oracle. Preserve punctuation and case.
+    assert compact(before) == compact(after), 'PDF text changed in a style-only iteration'
+
+
+def assert_line_geometry(xml):
+    # Bound the claim to lines inside each text block, not a whole-page visual
+    # score. Tables may have separate blocks at the same vertical position.
+    for block in ET.fromstring(xml).findall('.//{*}block'):
+        lines = block.findall('{*}line')
+        for i, first in enumerate(lines):
+            for second in lines[i+1:]:
+                width = min(float(first.get('xMax')),float(second.get('xMax'))) - max(float(first.get('xMin')),float(second.get('xMin')))
+                height = min(float(first.get('yMax')),float(second.get('yMax'))) - max(float(first.get('yMin')),float(second.get('yMin')))
+                assert not (width>0.5 and height>0.5), 'Overlapping lines within a Word-preview text block'
+
+
+def inspect_preview(path):
+    assert_line_geometry(subprocess.check_output(['pdftotext','-bbox-layout',str(path),'-']))
+    return page_bounds(path)
+
+
 def word_body(document):
     # Cover metadata changes version. Compare all body paragraphs and table cells
     # from the first numbered question, retaining paragraph/style boundaries.
@@ -50,17 +76,29 @@ def main():
     parser.add_argument('--build', type=Path, required=True)
     parser.add_argument('--prior', type=Path, required=True)
     parser.add_argument('--cases', nargs='+', required=True)
+    parser.add_argument('--uncompared-cases', nargs='*', default=[], help='Additional style checks without a matching historical output')
     args = parser.parse_args()
+    assert not set(args.cases) & set(args.uncompared_cases)
     report = {'selected_checks_passed': False, 'release_acceptance': False, 'rows': [],
               'checker_sha256': sha(Path(__file__)),
               'helper_sha256': {n: sha(Path(__file__).with_name(n)) for n in ['check_narrative_outputs.py', 'compare_runtime_outputs.py']},
               'package_sha256': {n: sha(args.build/n) for n in ['english.zip', 'chinese.zip']},
               'prior_package_sha256': {n: sha(args.prior/n) for n in ['english.zip', 'chinese.zip']},
               'artifact_sha256': {str(p.relative_to(args.build)): sha(p) for folder in ['renders','word-preview'] for p in sorted((args.build/folder).glob('*')) if p.is_file()},
-              'prior_artifact_sha256': {}, 'limits': ['Matching synthetic fixtures only', 'LibreOffice previews are not Microsoft Word acceptance', 'PDF page bounds do not prove no text overlap', 'No content coverage added']}
+              'prior_artifact_sha256': {}, 'uncompared_cases': args.uncompared_cases,
+              'limits': ['Historical comparisons only for explicitly matching synthetic fixtures', 'Uncompared cases check styles and geometry, not historical content equality', 'LibreOffice previews are not Microsoft Word acceptance', 'PDF page bounds do not prove no text overlap', 'No content coverage added']}
     target = args.build/'word-rhythm-report.json'
     target.write_text(json.dumps(report, indent=2)+'\n')
     try:
+        for case in args.uncompared_cases:
+            for language in ['english', 'chinese']:
+                stem = f'{case}-{language}'; base = args.build/'renders'/stem
+                assert_styles(Document(base.with_suffix('.docx')))
+                row = {'case': case, 'language': language, 'passed': True, 'question_comparisons': 0,
+                       'pdf_pages': page_bounds(base.with_suffix('.pdf'))}
+                preview = args.build/'word-preview'/(stem+'.pdf')
+                if preview.exists(): row['word_preview_pages'] = inspect_preview(preview)
+                report['rows'].append(row)
         for case in args.cases:
             for language in ['english', 'chinese']:
                 stem = f'{case}-{language}'; old = args.prior/'renders'/stem; new = args.build/'renders'/stem
@@ -75,16 +113,14 @@ def main():
                 assert_styles(documents[1])
                 assert word_body(documents[0]) == word_body(documents[1]), (stem,'Native Word paragraph/cell content changed')
                 a,b = [pdf_text(p.with_suffix('.pdf')) for p in [old,new]]
-                # Generated provenance/cover metadata legitimately changes. Each
-                # question paragraph/list item must still occur in both PDFs.
-                for node in soups[1].select('.question p, .question li'):
-                    value = compact(node.get_text()); assert value in compact(a) and value in compact(b), (stem,'PDF body text lost')
+                compare_pdf_text(a,b)
                 row = {'case': case, 'language': language, 'passed': True, 'question_comparisons': count,
+                       'whole_pdf_text_unchanged': True,
                        'pdf_pages': page_bounds(new.with_suffix('.pdf')), 'prior_pdf_pages': page_bounds(old.with_suffix('.pdf'))}
                 assert row['pdf_pages'] == row['prior_pdf_pages'], (stem,'Unexpected PDF pagination change')
                 preview = args.build/'word-preview'/(stem+'.pdf')
                 if preview.exists():
-                    row['word_preview_pages'] = page_bounds(preview)
+                    row['word_preview_pages'] = inspect_preview(preview)
                     prior_preview = args.prior/'word-preview'/(stem+'.pdf')
                     if prior_preview.exists():
                         row['prior_word_preview_pages'] = page_bounds(prior_preview)
