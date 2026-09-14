@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.6 的英中工作分支為 `feat/sharing-preservation`，承接 0.3.5 的 `feat/reading-polish`。
+目前 0.3.7 的英中工作分支為 `feat/preservation-coverage`，承接 0.3.6 的 `feat/sharing-preservation`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談
@@ -64,6 +64,12 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 一般連字號。Q10 自訂申請流程與 Q11 自訂付款安排亦須保留作者的段落與清單。
 
 ## 中文單獨修版演練
+
+0.3.7 新增的 Q11 資料集脈絡、不發布原因與計畫結束後冷儲存 partial，仍只在
+英文維護。16 個問卷欄位以編譯 KM 的 UUID／選項／路徑對照鎖定；上游升級時
+須重新核對計畫層級與資料集層級、選項所屬分支、複選續存依據與自由回答段落。
+「不發布」不可被升級後的邏輯改成「不保存」，續存依據也不是初次保存選擇的
+完整政策。官方 baseline 本輪未提高。
 
 固定英文、工具、翻譯內容後，比較兩次 preview，其中一次加上
 `--translation-version 0.1.1`。英文 ZIP 必須逐位元相同，中文 metadata／ZIP
