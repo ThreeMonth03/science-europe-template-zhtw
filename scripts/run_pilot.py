@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 QUESTIONS = ("q-how-data", "q-store-backup", "q-required-resources")
 TABLE_CASES = {"populated", "partial", "stress", "representative", "retention-partial", "structured", "structured-partial", "storage-sharing", "storage-sharing-partial", "narrative-long", "quality-rich", "quality-partial", "reading-rich", "reading-partial", "table-long"}
 TABLE_CASES.update({'format-rich', 'format-partial'})
+TABLE_CASES.update({'sharing-custom', 'sharing-missing'})
 
 
 def docx_has_table_headers(xml, headers):

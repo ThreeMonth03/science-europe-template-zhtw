@@ -13,7 +13,7 @@ Special-purpose repository for the project.
 ### Translation (zh_Hant)
 
 ~~~jinja
-專案專用資料儲存庫。
+本計畫專用的資料儲存庫。
 ~~~
 
 <details>

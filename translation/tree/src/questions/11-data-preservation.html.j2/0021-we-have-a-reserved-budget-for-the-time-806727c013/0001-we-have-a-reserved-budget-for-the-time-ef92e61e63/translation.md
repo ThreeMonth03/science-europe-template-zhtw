@@ -13,7 +13,7 @@ We have a reserved budget for the time and effort it will take to prepare the da
 ### Translation (zh_Hant)
 
 ~~~jinja
-我們已預留預算，以支應準備資料發布所需的時間與人力。
+已預留預算，以支應資料發布準備工作所需的時間與人力。
 ~~~
 
 <details>

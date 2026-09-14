@@ -16,7 +16,7 @@ def owned_runs(unit):
     def collect(node, owned=False):
         for child in node.find_all(recursive=False):
             classes = child.get('class', [])
-            if 'joined-policy' in classes or (owned and 'answer-lead' in classes): collect(child, True)
+            if 'joined-policy' in classes or (owned and ('answer-lead' in classes or 'license-summary' in classes)): collect(child, True)
             elif child.name == 'p' and 'data-gap' not in classes and 'answer-lead' not in classes: flat.append(child.get_text())
             else: flat.append(None)
     collect(unit)
@@ -25,6 +25,17 @@ def owned_runs(unit):
         if value is not None: pending.append(value)
         elif pending: runs.append(pending); pending = []
     return [run for run in runs if len(run) > 1]
+
+
+def canonical_word_dates(soup, text):
+    # Normalize ONLY the nonbreaking form of dates explicitly marked by HTML.
+    # Never erase arbitrary hyphens in file names, URLs or free answers.
+    for node in soup.select('.date-value'):
+        date = node.get_text()
+        assert re.fullmatch(r'[0-9]{4}-[0-9]{2}-[0-9]{2}', date)
+        assert node.get('data-iso-date') == date
+        text = text.replace(date.replace('-', '\u2011'), date)
+    return text
 
 
 def assert_quantity_lines(pdf, quantities):
@@ -39,7 +50,7 @@ def assert_quantity_lines(pdf, quantities):
 def inspect(build, case, language):
     base = build / 'renders' / f'{case}-{language}'
     soup = BeautifulSoup(base.with_suffix('.html').read_text(), 'html.parser')
-    doc = Document(base.with_suffix('.docx')); paragraphs = [p.text for p in doc.paragraphs]
+    doc = Document(base.with_suffix('.docx')); paragraphs = [canonical_word_dates(soup, p.text) for p in doc.paragraphs]
     pdf = pdf_text(base.with_suffix('.pdf')); q10 = soup.find(id='q-share-restrictions')
     joined = 0
     for unit in q10.select('.distribution-reading-unit'):

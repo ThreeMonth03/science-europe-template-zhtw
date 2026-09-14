@@ -59,6 +59,7 @@ jobs:
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
           SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
           ../tooling/.venv/bin/python scripts/probe_format_translation.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python scripts/probe_sharing_translation.py --build "$SE_BUILD_DIR" --english ../english
       - uses: actions/upload-artifact@v4
         with:
           name: experimental-candidate-not-a-release
