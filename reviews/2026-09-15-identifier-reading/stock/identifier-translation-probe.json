@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "local_branch_language_checks": 1124,
+  "fixed_phrase_checks": 1176,
+  "checker_sha256": "de9fb2c0357327427a9119889984ee81c84edbbe9c65a366c437ac9338c40524",
+  "package_sha256": {
+    "english.zip": "f210bcbb0ab48a69ee7a728193900bc6a4d302e9f14ebf7301ff19139b1df6ec",
+    "chinese.zip": "dd69e83947e2b94324e23ba1eb59943cc60064908ef4295dbe169c46345b883a"
+  },
+  "source_helper_sha256": {
+    "tests/test_identifier_reading.py": "03f8b35560dccda831beec5a4207b0677d9673b6ad7138603934464211da0f95",
+    "tests/test_answer_states.py": "b0c3f962bb19358557b986fd4e85a21ddc4d24942d6189e0a0660b07332bf820",
+    "tests/test_science_europe_contract.py": "4068ed40344b85466cf81dbaefa02a6b818e622cbcef8418315b692f3dd9ee31"
+  },
+  "phrase_sha256": "8b9da5fb98463dffb1d359c03ccf1975d7ec26544db6ff4ae8ef75cbef149e95",
+  "limits": [
+    "Offline adapters, not native layout acceptance",
+    "Missing Q13 child-answer prompts remain a separate content task"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "checks": [
+    {
+      "case": "english",
+      "merged": true,
+      "passed": true
+    },
+    {
+      "case": "chinese",
+      "merged": true,
+      "passed": true
+    },
+    {
+      "case": "unicode-bound",
+      "merged": true,
+      "passed": true
+    },
+    {
+      "case": "single",
+      "merged": true,
+      "passed": true
+    },
+    {
+      "case": "empty-type",
+      "merged": true,
+      "passed": true
+    },
+    {
+      "case": "too-long",
+      "merged": false,
+      "passed": true
+    },
+    {
+      "case": "three-labels",
+      "merged": false,
+      "passed": true
+    },
+    {
+      "case": "authored",
+      "merged": false,
+      "passed": true
+    },
+    {
+      "case": "list",
+      "merged": false,
+      "passed": true
+    },
+    {
+      "case": "nested",
+      "merged": false,
+      "passed": true
+    },
+    {
+      "case": "mixed",
+      "merged": false,
+      "passed": true
+    }
+  ],
+  "outside_ast_unchanged": true,
+  "checker_sha256": "a333743ede18f9803cce2fae8bbf1492e84703cf3ad008cec229739371d31198",
+  "package_sha256": {
+    "english.zip": "f210bcbb0ab48a69ee7a728193900bc6a4d302e9f14ebf7301ff19139b1df6ec",
+    "chinese.zip": "dd69e83947e2b94324e23ba1eb59943cc60064908ef4295dbe169c46345b883a"
+  },
+  "prior_package_sha256": {
+    "english.zip": "dc914149ba89270e0a12be84fe60cb60c63b0facc65657b97750dc95a3b0bcc0",
+    "chinese.zip": "0a0098beaffce60480b5df59932380291f838c0245efd53dfa7b7da3f0d78e9f"
+  },
+  "lua_sha256": "9b128a730fae99eb517c6bfbacff0cf9dfe51fb464100f180c20645430489c1d",
+  "prior_lua_sha256": "62edc5a28f4c60628c60fe0bff9675611ad21924f7b0c84369997a4b61451e9c",
+  "pandoc_version": "pandoc 3.8.3",
+  "worker_image_id": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "limits": [
+    "Real worker Lua AST tests, not rendered full documents",
+    "No Microsoft Word pagination acceptance"
+  ]
+}
