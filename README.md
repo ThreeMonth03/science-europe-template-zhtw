@@ -18,7 +18,8 @@
 0.3.5 樣張見 [缺答提示、數字單位與共享段落審閱](reviews/2026-09-14-reading-polish/README.md)。
 0.3.6 樣張見 [共享限制、保存敘述與日期審閱](reviews/2026-09-14-sharing-preservation/README.md)。
 0.3.7 樣張見 [保存回答覆蓋審閱](reviews/2026-09-14-preservation-coverage/README.md)。
-最新 0.3.8 樣張見 [Word 間距與保存政策對照](reviews/2026-09-14-word-rhythm/README.md)，
+0.3.8 樣張見 [Word 間距與保存政策對照](reviews/2026-09-14-word-rhythm/README.md)。
+最新 0.3.9 樣張見 [缺答與否定回答審閱](reviews/2026-09-14-answer-states/README.md)，
 CI 失敗原因及隔離依賴修正見 [CI 修正紀錄](docs/ci-repair-2026-09-14.md)。
 這批樣張仍包含已知失敗，不可作為已驗收的理想 DMP。
 中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯

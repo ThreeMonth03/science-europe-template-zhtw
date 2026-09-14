@@ -1,0 +1,116 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "checker_sha256": "0d6ec5f6277001f0c9b00025e0695751fbd7a5cb8d8ea24a125ce175a98d24a6",
+  "rows": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "pages": 8,
+      "summary_paragraphs_per_question": 1,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "pages": 7,
+      "summary_paragraphs_per_question": 1,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "pages": 4,
+      "summary_paragraphs_per_question": 0,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "pages": 4,
+      "summary_paragraphs_per_question": 0,
+      "passed": true
+    },
+    {
+      "case": "support-mixed",
+      "language": "english",
+      "pages": 9,
+      "summary_paragraphs_per_question": 1,
+      "passed": true
+    },
+    {
+      "case": "support-mixed",
+      "language": "chinese",
+      "pages": 8,
+      "summary_paragraphs_per_question": 1,
+      "passed": true
+    }
+  ],
+  "controlled_question_comparisons": 0,
+  "package_sha256": {
+    "english.zip": "bd5482c90b847d4a4529551bf6e4365446fa3a0e8f8a67a77533b379f2a314f0",
+    "chinese.zip": "28281fa99bc93ded0f5f3e9134940ff0bb67acf08113047c830d80f9e6698d27"
+  },
+  "render_sha256": {
+    "empty-chinese.docx": "a490633020c0a32911ac49e3843625d618cb6865c3b15c498da506c28a674c54",
+    "empty-chinese.docx.fixture.json": "b67cbda8fa58b8f4a2435957295428308470828eabcb9a829477cc3b26ca4fb3",
+    "empty-chinese.docx.json": "8c83f3277bd1a0cf39b4bbf47a56f55d5edd6c9cf0324848be9bb04f7171f443",
+    "empty-chinese.html": "5da995a51f1bd1de7718efcab523953b6c9326a911a06532496d0c3335e1665a",
+    "empty-chinese.html.fixture.json": "b67cbda8fa58b8f4a2435957295428308470828eabcb9a829477cc3b26ca4fb3",
+    "empty-chinese.html.json": "c7823c57960f44397f1b847d74322cff7011a71e59385559319d73bb851549b3",
+    "empty-chinese.pdf": "a28620ab2ec7faaef485095c901fc2d8d7258b63aa6995e56af41c73cf638cb4",
+    "empty-chinese.pdf.fixture.json": "b67cbda8fa58b8f4a2435957295428308470828eabcb9a829477cc3b26ca4fb3",
+    "empty-chinese.pdf.json": "56ab9abf6a6fa3b9fa1cdf780d13bd7518f1c348a13d0d8679a4a16f1359c63a",
+    "empty-english.docx": "52d7bd29e3db3233723be9acc0bab7433e5b7114a85fd1c78e7aa27468299df9",
+    "empty-english.docx.fixture.json": "ba14778ede9bce0e877fe31f4bc71e3d9d4f701badcaf38d6f004871cb6bc941",
+    "empty-english.docx.json": "60ce4da507e4d5cd4b0f693a0f9d974e95e690ab609b4aa5795a5f923d0ec398",
+    "empty-english.html": "6ac5f6983f4325a0aa898c9925103664cdf5321ff50cff0f10c419ce8b20c8cf",
+    "empty-english.html.fixture.json": "ba14778ede9bce0e877fe31f4bc71e3d9d4f701badcaf38d6f004871cb6bc941",
+    "empty-english.html.json": "abed028a346e165ee7d23a9d447ba2e4e7d32ac5818bb2acfe7b102ee40151b6",
+    "empty-english.pdf": "56200537759d3214de1708ce7fc6893f4db4046a086b54fbe0deaf859ecf05c5",
+    "empty-english.pdf.fixture.json": "ba14778ede9bce0e877fe31f4bc71e3d9d4f701badcaf38d6f004871cb6bc941",
+    "empty-english.pdf.json": "d5c64c02a767df4a93dc576f4defbf3dd9c353b1474d340df6aa752d30bf730c",
+    "preservation-complete-chinese.docx": "c0a7c80f897022e59fa00fdcd208fe8551a18132d8b50a9b3bd08e0ba5cbdaef",
+    "preservation-complete-chinese.docx.fixture.json": "5f19f7ff43b52fd9e24cd5fccff8c65d04c6df07bb8a564805331a1556002704",
+    "preservation-complete-chinese.docx.json": "f3763432dc733c56af52eb78ba90bcd311218d25702cc285138c4ce1329937df",
+    "preservation-complete-chinese.html": "3d9e0762ac4ad5c7e963d0b502ea586e6e72d190d5487bf86ce8af428f374a4f",
+    "preservation-complete-chinese.html.fixture.json": "8ab000b5cd85f306af85a5fe3ce271937457925c062a3deb044a4ffc34e81a2e",
+    "preservation-complete-chinese.html.json": "fb1be6ba3235e7796960355a3e21e37c87d54f1c760226d4b89c3b616bbaca86",
+    "preservation-complete-chinese.pdf": "c24504ae5dbe1dd5bbd2381454857d84248591c100f18f4f10de90d1c2c83ef0",
+    "preservation-complete-chinese.pdf.fixture.json": "8ac3585128f93dccee654629846b0ceae0738e4ac049b5af0ff21f426cd6d5c9",
+    "preservation-complete-chinese.pdf.json": "41a0eeaebc151467d28bfde3e11c1c2478f9651c722f407913a5bb15a79b3853",
+    "preservation-complete-english.docx": "a227e7ffbb765316fecf1e42312ea40afac8ae603e84d6205914e50db2a0790d",
+    "preservation-complete-english.docx.fixture.json": "689cffa9ed520c935d59e586da76d9956bef49af5d9e000d6db917b102cf95eb",
+    "preservation-complete-english.docx.json": "c113b8b67922c6a016da928b41a7f973d37db5031a306818893dacab19027010",
+    "preservation-complete-english.html": "330ceb9276338f3eaa0db92edda3efef37a4dedbc93d2c5c1e5b1ab1deccf394",
+    "preservation-complete-english.html.fixture.json": "1c7352a1abe3a46136f89524e9b6db0d842046eddaa1471664fd956503cf7ab0",
+    "preservation-complete-english.html.json": "9e2f7542349559b9d324403345c19a3ddd3b6706ab029a9f2762969d6eae87ae",
+    "preservation-complete-english.pdf": "7707b29cda274f39846a97dc247167c1a1ca1027ef44a181a7b902fa0680ddc2",
+    "preservation-complete-english.pdf.fixture.json": "4d0a557f0a2a96e56b90f5714af4a59ddb0527dab44ab41936958e96e5a631e0",
+    "preservation-complete-english.pdf.json": "ac2cfe16284557f07f2d0873a48b4fa713621f187897597d7ab8b3390f648f81",
+    "support-mixed-chinese.docx": "209b6e8325b6280c480b25081bacbdfc1effaf75f726805e7b69711d96bf8139",
+    "support-mixed-chinese.docx.fixture.json": "5692d8121d5c479276dc51f3b51ac82bc7588a12cec96745b770212a7e304ca5",
+    "support-mixed-chinese.docx.json": "49b12216427e3870e07aec11d6ff2058620a696eaf66191eb432c57783d754ad",
+    "support-mixed-chinese.html": "399b5b6c0d1fd2e3d6410f23e3ad4354768ad4874b2c45f6206eae000da24a64",
+    "support-mixed-chinese.html.fixture.json": "131e8dc4e6a04d0c8848a353a7537d45dcb0bb3e335c164bfdca03c6b3eebd61",
+    "support-mixed-chinese.html.json": "a38ae42cef301762a706510d0a8b4f03a1ed99abda7677009a6be048aa0c2cef",
+    "support-mixed-chinese.pdf": "d1f5a80aeca6430ba9051e6d938bc761f65cbf2fc62db295c836851bb46c0339",
+    "support-mixed-chinese.pdf.fixture.json": "71156ec0267beba7aaeef546017d695b6c5d7a1183b42791f3ef83e7110a4b21",
+    "support-mixed-chinese.pdf.json": "609577a067be1c747f43a3ddb9214ef23162dc54096970e4425615aa372d789d",
+    "support-mixed-english.docx": "d5ac3455b80094c1a74d49a9b04adc51db65468caafc1a2481cd4cb70748ee48",
+    "support-mixed-english.docx.fixture.json": "de847610dcae8b9849d98255e132e4d21bd2778806ade4b1aade82450329d949",
+    "support-mixed-english.docx.json": "0fdc2f7595c6681013277dfe10ab0f2367572d248d1940b89c784bd1a700cb76",
+    "support-mixed-english.html": "94b176c47c35d77f24a35673274bc8966a64f72908ab686021c93cbfe002c1a6",
+    "support-mixed-english.html.fixture.json": "1a5facc7772108bf75e036b6af49b7b64de11beb8f86b1c32b2de0d263b21bd5",
+    "support-mixed-english.html.json": "2903573be8bcd68e1f9549f1f52b38bab10ecd4e4e02a5fe9c67000dbe5e67a8",
+    "support-mixed-english.pdf": "a2c26b2ae7a0f6ec378d158595285b4e1b3b0af801802da45d82719aa86d1bd4",
+    "support-mixed-english.pdf.fixture.json": "34b2c54f1170c488c2bcf85c2a9c1ead1e1d9c620ee27c87951a711828cd6e8c",
+    "support-mixed-english.pdf.json": "205aa1ef33fe3b3173e1870006f425a4f594d3d717a3ae5f26c6bc563c46a1b2"
+  },
+  "limits": [
+    "Selected synthetic cases only; not full Science Europe answer coverage",
+    "Q8/Q14 output-empty fallbacks do not establish topic completeness",
+    "Word paragraphs checked, Microsoft Word pagination not tested",
+    "Quality text remains in Q1 and Q4; duplication deliberately not hidden"
+  ]
+}
