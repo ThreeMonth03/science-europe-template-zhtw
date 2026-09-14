@@ -612,15 +612,15 @@
 
           [T] [translation](<tree/src/preservation-dataset.html.j2/0004-this-dataset-contains-processed-data-leading-to-published-c0c1719512/0001-this-dataset-contains-processed-data-leading-to-published-207e163fd0/translation.md>)
 
-- [ ] [file] src/preservation-paper.html.j2 (0/1)
+- [x] [file] src/preservation-paper.html.j2 (1/1)
 
   [J2] `src/preservation-paper.html.j2`
 
-    - [ ] [wrapper] 0001-related-paper-ea3d253369 (0/1)
+    - [x] [wrapper] 0001-related-paper-ea3d253369 (1/1)
 
       [W] `0001-related-paper-ea3d253369`
 
-        - [ ] [unit] 0001-related-paper-7c3f3a8a13: Related paper:
+        - [x] [unit] 0001-related-paper-7c3f3a8a13: Related paper:
 
           [T] [translation](<tree/src/preservation-paper.html.j2/0001-related-paper-ea3d253369/0001-related-paper-7c3f3a8a13/translation.md>)
 

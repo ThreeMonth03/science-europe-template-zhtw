@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.13 的英中工作分支為 `feat/paper-reference`，承接 0.3.12 的 `feat/preservation-context-flow`。
+目前 0.3.14 的英中工作分支為 `feat/identifier-reading`，承接 0.3.13 的 `feat/paper-reference`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談
@@ -64,6 +64,13 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 一般連字號。Q10 自訂申請流程與 Q11 自訂付款安排亦須保留作者的段落與清單。
 
 ## 中文單獨修版演練
+
+0.3.14 將 Q13 的管道編號／儲存庫類型合成一個標籤行，識別碼決定與既有
+安排敘述連讀。升級單位是 Q13、專屬 CSS 與有長度／結構界線的 Word Lua；
+Word reference、字級、行距、頁面與表格不變。716 個翻譯單位精確沿用，
+中文 lock 指向英文 `98b153364844930de772cbdcb1e13eb14e3555b7`。不得把缺答提示
+尚未完整的舊行為當成通過內容驗收，亦不得只看頁數減少就接受版面。
+工作分支不等於正式安裝版本，不增加永久維護線；正式發布政策不變。
 
 0.3.13 將 Q11 的論文參考列移出保存正文；升級審查單位包含 Q11、
 `preservation-dataset.html.j2`、新增的 `preservation-paper.html.j2` 與專屬換行 CSS。
