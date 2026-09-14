@@ -36,6 +36,7 @@ def check_references(soup, language):
     targets = soup.select('#q-data-preservation .repository-contact')
     assert len(refs) == len(targets)
     assert len({n['id'] for n in targets}) == len(targets), 'Duplicate target ID'
+    assert Counter(n['href'] for n in refs) == Counter('#' + n['id'] for n in targets), 'Targets must be referenced exactly once'
     for ref in refs:
         dest = soup.find_all(id=ref['href'][1:]); assert len(dest) == 1, 'Broken or ambiguous reference'
         target = dest[0]; assert target in targets
@@ -147,7 +148,9 @@ def inspect(build, english, case, language, ids):
         for token in ['Contact-2027.csv', 'Contact-list-2027.csv', 'Contact-table-2027.csv']:
             assert q11.get_text().count(token) == 1 and token not in q10.get_text()
         if patched:
-            assert any('Contact-table-2027.csv' in c.text for t in word.tables for r in t.rows for c in r.cells)
+            expected = [[c.get_text(strip=True) for c in r.select('th, td')] for r in detail.table.select('tr')]
+            matches = [t for t in word.tables if [[c.text for c in r.cells] for r in t.rows] == expected]
+            assert len(matches) == 1, 'Contact table rows/cells changed in native Word'
     for file in [base.with_suffix('.pdf'), build / 'word-preview' / (base.name + '.pdf')]:
         text = compact(pdf_text(file))
         pages = scoped_pages(pdf_text(file), compact(q11.h3.get_text())[:16], compact(soup.find(id='q-access-data').h3.get_text())[:16])
