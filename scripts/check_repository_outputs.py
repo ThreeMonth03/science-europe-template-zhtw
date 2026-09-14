@@ -12,6 +12,7 @@ from docx import Document
 from check_answer_state_outputs import inspect as inspect_states, canonical
 from check_narrative_outputs import compact, sha
 from compare_runtime_outputs import markers
+from check_word_rhythm_outputs import word_body
 
 OLD_LEAD = {'english': 'The distributions will be stored in:', 'chinese': '資料的發布版本將存放於：'}
 LEAD = {'english': 'Preservation destinations by distribution:', 'chinese': '各資料提供管道的保存位置：'}
@@ -58,6 +59,16 @@ def keep_value(paragraph, property_name):
     while value is None and style is not None:
         value = getattr(style.paragraph_format, property_name); style = style.base_style
     return bool(value)
+
+
+def compare_word_outside_q11(before, after):
+    previous, current = [word_body(d) for d in [before, after]]
+    assert previous[1] == current[1], 'Native Word table cells changed'
+    def outside(rows):
+        first = next(i for i, (style, text) in enumerate(rows) if style == 'Heading 3' and text.startswith('11.'))
+        last = next(i for i, (style, text) in enumerate(rows) if i > first and style == 'Heading 3' and text.startswith('12.'))
+        return rows[:first], rows[last:]
+    assert outside(previous[0]) == outside(current[0]), 'Native Word prose or styles outside Q11 changed'
 
 
 def inspect(build, english, case, language, ids):
@@ -143,6 +154,9 @@ def main():
                     for key in ['recipe_sha256', 'events_sha256', 'km_sha256']: assert x[key] == y[key]
                     for f in [old, old.with_suffix('.html.fixture.json')]: report['prior_artifact_sha256'][str(f.relative_to(a.prior))] = sha(f)
                     row['controlled_question_comparisons'] = compare_prior(BeautifulSoup(old.read_text(), 'html.parser'), soup, language)
+                    compare_word_outside_q11(Document(old.with_suffix('.docx')), Document(new.with_suffix('.docx')))
+                    for f in [old.with_suffix('.docx'), old.with_suffix('.docx.fixture.json')]: report['prior_artifact_sha256'][str(f.relative_to(a.prior))] = sha(f)
+                    row['outside_q11_word_paragraphs_and_cells_unchanged'] = True
                 report['rows'].append(row)
             assert markers(pair[0]) == markers(pair[1])
     except Exception as e:

@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 from bs4 import BeautifulSoup
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from check_repository_outputs import compare_prior, scoped_pages, OLD_LEAD, LEAD
+from check_repository_outputs import compare_prior, scoped_pages, compare_word_outside_q11, OLD_LEAD, LEAD
 
 
 class RepositoryChecksTests(unittest.TestCase):
@@ -38,3 +38,18 @@ class RepositoryChecksTests(unittest.TestCase):
     def test_new_cases_keep_stock_table_gate(self):
         from run_pilot import TABLE_CASES
         self.assertTrue({'repository-gap', 'repository-long'} <= TABLE_CASES)
+
+    def test_word_comparison_does_not_hide_changes_outside_q11_or_in_cells(self):
+        from docx import Document
+        def doc():
+            d = Document()
+            for n in [1, 11, 12]:
+                d.add_heading(f'{n}. Question', 3); d.add_paragraph('Original.')
+            d.add_table(1, 1).cell(0, 0).text = 'Cell.csv'
+            return d
+        a, b = doc(), doc(); b.paragraphs[3].text = 'Changed Q11.'
+        compare_word_outside_q11(a, b)
+        b.paragraphs[5].text = 'Lost Q12.'
+        with self.assertRaises(AssertionError): compare_word_outside_q11(a, b)
+        a, b = doc(), doc(); b.tables[0].cell(0, 0).text = 'Changed.csv'
+        with self.assertRaises(AssertionError): compare_word_outside_q11(a, b)
