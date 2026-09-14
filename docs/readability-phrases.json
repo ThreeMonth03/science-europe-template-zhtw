@@ -1,4 +1,8 @@
 {
+  "Preservation destinations by distribution:": "各資料提供管道的保存位置：",
+  "Distribution {loop.index}:": "資料提供管道 {loop.index}：",
+  "The repository for this distribution has not been specified.": "尚未說明此管道將使用哪個資料儲存庫。",
+  "The selected repository type cannot be described by this template.": "本模板無法呈現所選的資料儲存庫類型，請核對。",
   "The fields mapped by this template are insufficient to establish the following operational details:": "本模板目前對應的欄位不足以確認以下執行細節：",
   "We will be able to support this repository for a sufficiently long time.": "我們能夠長期維運此資料儲存庫。",
   "We will not be able to support this repository for a sufficiently long time.": "我們無法長期維運此資料儲存庫。",

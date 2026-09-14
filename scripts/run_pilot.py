@@ -19,6 +19,7 @@ TABLE_CASES.update({'format-rich', 'format-partial'})
 TABLE_CASES.update({'sharing-custom', 'sharing-missing'})
 TABLE_CASES.update({'preservation-complete', 'preservation-partial', 'preservation-custom', 'preservation-no-cold'})
 TABLE_CASES.add('support-mixed')
+TABLE_CASES.update({'repository-gap', 'repository-long'})
 
 
 def docx_has_table_headers(xml, headers):
