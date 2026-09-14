@@ -1,0 +1,74 @@
+[
+  {
+    "case": "preservation-complete",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "preservation-complete",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "preservation-complete",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "preservation-complete",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "preservation-complete",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "preservation-complete",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "paper-references",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "paper-references",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "paper-references",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "paper-references",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "paper-references",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "paper-references",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  }
+]

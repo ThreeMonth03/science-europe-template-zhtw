@@ -1,0 +1,92 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "checker_sha256": "7888b81ac4fb96c27dcfd8c9a01d85bab7fbe7276f0bd04204b50bfc8b08b140",
+  "rows": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "format_summaries": 1,
+      "pdf_pages": 8,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "format_summaries": 1,
+      "pdf_pages": 7,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "paper-references",
+      "language": "english",
+      "format_summaries": 1,
+      "pdf_pages": 9,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "paper-references",
+      "language": "chinese",
+      "format_summaries": 1,
+      "pdf_pages": 8,
+      "passed": true,
+      "word_preview_pages": 8
+    }
+  ],
+  "text_extractor_sha256": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+  "controlled_question_comparisons": 0,
+  "package_sha256": {
+    "english.zip": "dc914149ba89270e0a12be84fe60cb60c63b0facc65657b97750dc95a3b0bcc0",
+    "chinese.zip": "0a0098beaffce60480b5df59932380291f838c0245efd53dfa7b7da3f0d78e9f"
+  },
+  "artifact_sha256": {
+    "renders/paper-references-chinese.docx": "eaf310a84092615dd0de723b3994d9d4bd3404d00391659daaccbeb62a93aeb8",
+    "renders/paper-references-chinese.docx.fixture.json": "e1ed1bc389a4eea9686c50728051d5b618ee9abb7eb80bd123826b740540b1ce",
+    "renders/paper-references-chinese.docx.json": "59f0250834b91bef8032dd30e1ba13e4f139af01cf062f105180cec8ae34f307",
+    "renders/paper-references-chinese.html": "6e287d8f80c84d63343c095967b7a4adc303965fb32d014d41e35d9ac48f9e55",
+    "renders/paper-references-chinese.html.fixture.json": "5d0ad4a84754f4bf5e157ccb5f97c3782df4de7686bccd7caf483c747aa56391",
+    "renders/paper-references-chinese.html.json": "5dcab7810454ded0f1c8f7350b304b2e9e89380ac45aad331a61f19cc5d6e197",
+    "renders/paper-references-chinese.pdf": "e6abee6c0d621ad27bce22a2215d0522be70bcf370238e8eff632660287bd934",
+    "renders/paper-references-chinese.pdf.fixture.json": "ec8e3ce2a75a27cdf2a154e58525005e902f84d6a2aded6a26f22f94d273262f",
+    "renders/paper-references-chinese.pdf.json": "74851ac007de82c8ffc5be8c64d0d610b6ac4359672206d70d9ea385008bacb9",
+    "renders/paper-references-english.docx": "468c4698cb0b76c4abacc1239b635122868b28e70138834ca785cff6aeef0fbf",
+    "renders/paper-references-english.docx.fixture.json": "bf55651f70c8fc11607c84f539ca86a09ba8c9fddfedae64d920284f3795b88b",
+    "renders/paper-references-english.docx.json": "4f954ceb4a97bd8b755e1f26a8b87b38e942af8ee98386c76ab4c91fca09d6e7",
+    "renders/paper-references-english.html": "c9dcda1b5057c6988f3dfc40bfad50df84e1f3ad27dfb986ce4eee3038680bcb",
+    "renders/paper-references-english.html.fixture.json": "47736dcdf10ef7ffaed62b56183ec1ea9adebd62bc42a208f2aa3f66764e4162",
+    "renders/paper-references-english.html.json": "d8d8497b9b49378e72696f3945a421e50c7b79da71aa50d9bd6fe2eacd72c33e",
+    "renders/paper-references-english.pdf": "ff9ace100b5181414469f1b3476e6aec09bffa1efff1af60a6c49ed73e6e8ccb",
+    "renders/paper-references-english.pdf.fixture.json": "0973d48ef2d2b310f85e2751abe0a8ddfb8f2332ca29b610976431864e69476b",
+    "renders/paper-references-english.pdf.json": "f88bba3814ecb722db8b7da85b0be59b42225d7838d530f39c0bb37cba16f023",
+    "renders/preservation-complete-chinese.docx": "4c7ecdb04f15fdd31c6a8930e271ac2ce34c20f162cf2abe0cdf2270a452094f",
+    "renders/preservation-complete-chinese.docx.fixture.json": "7cd3d9a7bdb3d48c8765b18310e1ee1e351c713895c492c2a8d86415351b5d70",
+    "renders/preservation-complete-chinese.docx.json": "c2bc56e761e5da9031ce94bae4522dae7828179a875723dbf50081ffe1dd2f03",
+    "renders/preservation-complete-chinese.html": "ae0c1447e94ddd32b19c3cb6948f904c95cfa848e5065a9ee7783188fc9207d9",
+    "renders/preservation-complete-chinese.html.fixture.json": "5b881c87b820d10ae7a3ac221fbb3943a5b7d4ae99d42562c90a82db52091e45",
+    "renders/preservation-complete-chinese.html.json": "8e19aaf47c89d165ec06afa62772c4703235aff32dd8a7695ead7630785051a5",
+    "renders/preservation-complete-chinese.pdf": "8ebb99ed81b68bbecaabec508c621c263819c1940ff4e01ff0cf0fb2b2c8fe2b",
+    "renders/preservation-complete-chinese.pdf.fixture.json": "38bc2a97debfb1502c89e603e947ba495854eab17b6b187db24c9af0255d3b5a",
+    "renders/preservation-complete-chinese.pdf.json": "7adbf137dd8b9b230b3c54711b91b82d40ef96534e9c09f1ad6f0315412b8177",
+    "renders/preservation-complete-english.docx": "cb4993a5d75650949851a877273b88df794d14e4b84fd6bf656a4bd79c25d8a0",
+    "renders/preservation-complete-english.docx.fixture.json": "34269a6ade40671f07aaf527bf7dcc1995aa5f20f422e29cfa7e7be88a455646",
+    "renders/preservation-complete-english.docx.json": "81fc94be9c281a5cc2cbc3d073d20d5db3cf10045d6b73b0cc73b1395a4cd584",
+    "renders/preservation-complete-english.html": "26e5892671d12f0d62eff668909c1a406d42566df3dced4f0a2f0d859190a177",
+    "renders/preservation-complete-english.html.fixture.json": "bfe156d0df63c9228b7f3a7e77dce90ca8e3845453fa7f625f35ce83ee218df8",
+    "renders/preservation-complete-english.html.json": "734c589db198b3c3f6a26051eba66232c8cbd7aa43e7b2f70528b851240ba16f",
+    "renders/preservation-complete-english.pdf": "1f270644de5a0c6aa9305e3bed783cf959c7da1bb371b06f9c48ff271923ab56",
+    "renders/preservation-complete-english.pdf.fixture.json": "cd62a8200199a08c64272665fefea105f1e5c6668e47ddfc35b9d049a3aa96c6",
+    "renders/preservation-complete-english.pdf.json": "de5762b39602aab7f9379e60bfffac1883292a0b090da395c9a48bc3c5b1e489",
+    "word-preview/paper-references-chinese.pdf": "6b03617892123ddc0d4e7658e0d1055f64d93a29850f4227b94ee136c31008f8",
+    "word-preview/paper-references-english.pdf": "d4018ed652c126991e045a4fa290370b8bb4a39d07add6e6c2f9e9fd1157bc7e",
+    "word-preview/preservation-complete-chinese.pdf": "3d727e68ff7f261e48191684fa7a06a6d42f8e41f7f123f3fbd4fffb13872f87",
+    "word-preview/preservation-complete-english.pdf": "7f14b300a8c681445922e2a350be5b9a6c8180a7a775d9567a23ede68d04d373"
+  },
+  "limits": [
+    "Only Q2 format wrapper excluded from old/new comparison; remaining Q2 and 14 questions unchanged",
+    "No computed total from file count/size; original quantities retained without coercion",
+    "Not full Science Europe coverage or Microsoft Word acceptance"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "checker_sha256": "a49cafe545a2fe9bd5da26cc0300dbd8360cf7a12da79d5a94805e34cc3e5ece",
+  "passed": false,
+  "semantic_checks_passed": true,
+  "checks": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "paper-references",
+      "language": "english",
+      "facts": 28,
+      "passed": true
+    },
+    {
+      "case": "paper-references",
+      "language": "chinese",
+      "facts": 28,
+      "passed": true
+    }
+  ],
+  "blocking_issues": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "paper-references",
+      "language": "english",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "paper-references",
+      "language": "english",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    },
+    {
+      "case": "paper-references",
+      "language": "chinese",
+      "code": "markdown-table-unsupported",
+      "message": "DSW 4.30 prints the pipe table as text; table acceptance is blocked"
+    },
+    {
+      "case": "paper-references",
+      "language": "chinese",
+      "code": "docx-table-missing",
+      "message": "Word contains no editable provenance table; template-owned budget tables do not satisfy this check"
+    }
+  ],
+  "package_sha256": {
+    "english.zip": "9a898003b2ce92078dc9fe30135e863c4d01050b801b9f18863a392d5b7ad857",
+    "chinese.zip": "478078bdd1857e65098819a82c706e32262f533271ed932477c94e3b9e9e3f4c"
+  },
+  "sha256": {
+    "paper-references-chinese.docx": "4e5059f95f5b7f9239b0fbf8cdba3d627f7e97581f58a718910d83bffc76d796",
+    "paper-references-chinese.docx.fixture.json": "178c41930aeb5bcdf6002ff2e28b20c18b0624baf1975239b23f34a799f9625c",
+    "paper-references-chinese.docx.json": "c5a627c84f1b8bce22514623e937fc46a6a3cf767a498fe05aa97838195632de",
+    "paper-references-chinese.html": "609378058deca86a99e882f48704ce5780d26fe8426568d99b9f99dbd209dd33",
+    "paper-references-chinese.html.fixture.json": "74083acda2ce846c84d36e0d7d2e802410a89c3f96dd5f0f4ac453d326551e72",
+    "paper-references-chinese.html.json": "cf24ebe7307eba41447e3b68ce019107cd723d107894f6c4f5b86c114d67ecae",
+    "paper-references-chinese.pdf": "649d9eddb70e982eb5569289772695aeeb3a2d05d3ba5f01aa256df08db1166a",
+    "paper-references-chinese.pdf.fixture.json": "8cc38503ef3e08bddab7b0e13c5886679452486cbbd4fc192c0e6bd42a4d4b92",
+    "paper-references-chinese.pdf.json": "d8f0b2c4327df61fe05f411dd3d95abbb40896486743f7bf40a6ad2ef94d8e24",
+    "paper-references-english.docx": "fba533e5b2765e4b1cec667b89353c0b9c1e0711da74cede8a1cc855cd69a1e4",
+    "paper-references-english.docx.fixture.json": "02bff55177a8e9c441cccee53922e6b57cdd1def68bbf61b2abfdbbbde4ef275",
+    "paper-references-english.docx.json": "eaaf53c61d25db552c9e6a2246d799bb8be5d6bc2ca15e99e6d4f98ab6dd7192",
+    "paper-references-english.html": "e4756989019b1ff6b926ea71da38ff7575467798acf95baaa32a585f79bdabaa",
+    "paper-references-english.html.fixture.json": "d58fe9ee0061c5a83523e818c993e73327613833150c933b69b83de3030a304a",
+    "paper-references-english.html.json": "7375217d57ba0b9787ab6e39970a5409ae153c96ad9de7b7682685bb0b5236aa",
+    "paper-references-english.pdf": "dd331f0957a9716a311f102fb4b06a841a6bfa1c57691758de5af538bf7965b6",
+    "paper-references-english.pdf.fixture.json": "3bac9c63449421cd224a12b2b7d5692d1974c7a82c05189767465a8e6fcb5ead",
+    "paper-references-english.pdf.json": "f8eeef088a3804663a88a194ad29717411d0d88dfbe6a606bb3729841fb4edd1",
+    "preservation-complete-chinese.docx": "b76e1e40421625980da86357f5749aefdd99e71b398af3859f1af337d105972b",
+    "preservation-complete-chinese.docx.fixture.json": "3d1690bd3a678f33ee1c80fa81910ca699423c1807f98b66427c3a1b64b75ea3",
+    "preservation-complete-chinese.docx.json": "fb03674ac166ee4fffde8df8ba2af721276dc18f4383ea11508a389e4ae7aae8",
+    "preservation-complete-chinese.html": "b2ed5d16fa1687591267dc1acf436d3b0aec007c6dc80b5e233d4f26d606d292",
+    "preservation-complete-chinese.html.fixture.json": "c37d22fd9fc1f895dcebb28c128c73a2790289009fe143b4dd376e8b62c36805",
+    "preservation-complete-chinese.html.json": "5a96244e093b7904a96c04543076a86e2e89d2d6575a4a29b36cb25e7e2b9f47",
+    "preservation-complete-chinese.pdf": "832dfd822fc073c48e1c3d7dbc94cc0c34cc397039e29b403d35ef0e24e5bda4",
+    "preservation-complete-chinese.pdf.fixture.json": "c21a96ff26011e8aa44c4bfae13b4eb7afd9d35d15ea84db504fc9a2241ac2aa",
+    "preservation-complete-chinese.pdf.json": "6e76cc95ca69b6f4aa61abb1f4dfb961379f5716447d0d3fb4e723afd9d8bf3e",
+    "preservation-complete-english.docx": "00a50da7da90b48453aef05588b0c7553cfc647c31d38224ac0d82924d83a2a0",
+    "preservation-complete-english.docx.fixture.json": "6092debd2a1d77a616b49a2b839025de08c6897fdac80b5b3bb94fe032a1f66f",
+    "preservation-complete-english.docx.json": "e527f3cedfd97048fc19afb566023726a1ad11258d4abcfb25ea15f78a71849f",
+    "preservation-complete-english.html": "5ae8da9025b5f46bac355f9ac2fc80c41c6a43e99d2e123e880881be0f5652be",
+    "preservation-complete-english.html.fixture.json": "c1fa08adac87146c6d296a80541772b355d063931ee3a66b7f66b426ee2eaff5",
+    "preservation-complete-english.html.json": "4e7e7f15df40b7255d08d6a1f417395ce7f7a9ccfaa4f683d14674e69a071fe9",
+    "preservation-complete-english.pdf": "3444f82f272158092d09f78c08e17d30c571b20fbc4c68579b5e32ded9513258",
+    "preservation-complete-english.pdf.fixture.json": "ac6f2270b069b0d6a019f7f3ae8b6b7d956320786fb71f591ddc914feda3c91c",
+    "preservation-complete-english.pdf.json": "3c1c2ed3f5708de6bebe94397d933a2069fbfd508094d1adca5c50b753e34b28"
+  },
+  "limits": [
+    "Q1/Q5/Q15 only",
+    "Human visual review is separate",
+    "Microsoft Word opening is not tested"
+  ]
+}
