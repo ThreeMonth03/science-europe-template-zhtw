@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.12 的英中工作分支為 `feat/preservation-context-flow`，承接 0.3.11 的 `feat/repository-contact-reference`。
+目前 0.3.13 的英中工作分支為 `feat/paper-reference`，承接 0.3.12 的 `feat/preservation-context-flow`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談
@@ -64,6 +64,13 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 一般連字號。Q10 自訂申請流程與 Q11 自訂付款安排亦須保留作者的段落與清單。
 
 ## 中文單獨修版演練
+
+0.3.13 將 Q11 的論文參考列移出保存正文；升級審查單位包含 Q11、
+`preservation-dataset.html.j2`、新增的 `preservation-paper.html.j2` 與專屬換行 CSS。
+中文 lock 指向英文 `7f43c9b2ba083dfeb75f0ee940b01f235f2d2aa1`，標籤仍由翻譯樹
+產生。可翻譯標籤須與條件式連結結構分開擷取；先前合寫的原型被 structure
+audit 擋下，不能為了建置成功而略過檢查。未填、父題改答、同名資料集、
+原值及 HTML／PDF／Word 連結目標，均屬升級回歸範圍。正式發布政策不變。
 
 0.3.12 只整合 Q11 與 `preservation-dataset.html.j2` 的段落容器，英文與中文
 文字、翻譯樹、CSS、Lua、Word reference 及官方基底均不變。此 partial 與 Q11

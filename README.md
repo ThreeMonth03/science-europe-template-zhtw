@@ -22,7 +22,8 @@
 0.3.9 樣張見 [缺答與否定回答審閱](reviews/2026-09-14-answer-states/README.md)。
 0.3.10 樣張見 [儲存庫管道對照與短清單分頁](reviews/2026-09-14-repository-reading/README.md)。
 0.3.11 樣張見 [儲存庫聯繫回答歸屬與跨題引用](reviews/2026-09-14-repository-contact/README.md)。
-最新 0.3.12 樣張見 [Q11 資料脈絡與保存敘述連讀](reviews/2026-09-14-preservation-context/README.md)。
+0.3.12 樣張見 [Q11 資料脈絡與保存敘述連讀](reviews/2026-09-14-preservation-context/README.md)。
+最新 0.3.13 樣張見 [論文參考列與長網址完整性](reviews/2026-09-15-paper-reference/README.md)。
 CI 失敗原因及隔離依賴修正見 [CI 修正紀錄](docs/ci-repair-2026-09-14.md)。
 這批樣張仍包含已知失敗，不可作為已驗收的理想 DMP。
 中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯

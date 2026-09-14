@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 from bs4 import BeautifulSoup
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from check_paper_outputs import check_values, compare_prior
+from check_paper_outputs import check_values, compare_prior, assert_link_text
 
 
 class PaperChecksTests(unittest.TestCase):
@@ -44,3 +44,13 @@ class PaperChecksTests(unittest.TestCase):
     def test_fixture_table_failure_still_blocks_release(self):
         from run_pilot import TABLE_CASES
         self.assertIn('paper-references', TABLE_CASES)
+
+    def test_preview_hitbox_allows_only_known_label_suffix_not_changed_values(self):
+        raw = 'https://example.org/Case?x=1&y=2#Part'
+        assert_link_text([raw], raw, 1, '相關論文：')
+        for prefix in ['', '文：', '相關論文：']:
+            assert_link_text([prefix, raw], raw, 1, '相關論文：', True)
+        assert_link_text(['文：', raw, '相關論文：', raw], raw, 2, '相關論文：', True)
+        for bad in ['Wrong:' + raw, raw.lower(), raw + '.', raw[:-1], '文：' + raw + 'extra']:
+            with self.assertRaises(AssertionError): assert_link_text([bad], raw, 1, '相關論文：', True)
+        with self.assertRaises(AssertionError): assert_link_text(['文：', raw], raw, 1, '相關論文：')

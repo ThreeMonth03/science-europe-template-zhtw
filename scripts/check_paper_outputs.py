@@ -3,6 +3,7 @@ import argparse
 from collections import Counter
 import copy
 import json
+import re
 from pathlib import Path
 import subprocess
 import sys
@@ -11,7 +12,7 @@ from bs4 import BeautifulSoup
 from docx import Document
 from check_context_outputs import check_flow, compare_html as unchanged_html, signature
 from check_preservation_outputs import inspect as preservation_inspect
-from check_narrative_outputs import compact, sha
+from check_narrative_outputs import compact, sha, pdf_text
 from compare_runtime_outputs import markers
 
 LABELS = {'english': 'Related paper:', 'chinese': '相關論文：'}
@@ -106,7 +107,7 @@ def compare_word(old_path, new_path, old_soup, new_soup, expected, language):
     assert tables(old) == tables(new), 'Word tables changed'
 
 
-def native_links(base, nodes):
+def native_links(base, nodes, preview=None):
     word = Document(base.with_suffix('.docx'))
     w = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
     r = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
@@ -119,13 +120,39 @@ def native_links(base, nodes):
     expected = Counter((n.a['href'], n.a.get_text()) for n in nodes if n.a)
     actual = Counter(v for v in links if v[0] in {k[0] for k in expected})
     assert actual == expected, ('Native Word links differ', actual, expected)
-    xml = ET.fromstring(subprocess.check_output(['pdftohtml', '-xml', '-hidden', '-stdout', str(base.with_suffix('.pdf'))], stderr=subprocess.DEVNULL))
+    pdfs = [base.with_suffix('.pdf')]
+    if preview is not None:
+        assert preview.exists(), 'Word preview required for this review'
+        pdfs.append(preview)
+    for pdf in pdfs: check_pdf_references(pdf, nodes, allow_label_overlap=(pdf == preview))
+    return sum(expected.values())
+
+
+def assert_link_text(fragments, value, count, label, allow_label_overlap=False):
+    actual, raw = compact(''.join(fragments)), compact(value)
+    if not allow_label_overlap:
+        assert actual == raw * count, 'PDF linked text changed'
+        return
+    # LibreOffice's PDF annotation rectangle can overlap the adjacent CJK label;
+    # pdftohtml then attributes e.g. "文：" to the link. Only a suffix of this
+    # exact label is allowed, never arbitrary text or changes inside the value.
+    label = compact(label)
+    prefixes = '|'.join(re.escape(label[i:]) for i in range(len(label)))
+    assert re.fullmatch(f'(?:(?:{prefixes})?{re.escape(raw)}){{{count}}}', actual), 'Unexpected PDF label overlap or changed linked value'
+
+
+def check_pdf_references(pdf, nodes, allow_label_overlap=False):
+    expected = Counter((n.a['href'], n.a.get_text()) for n in nodes if n.a)
+    values = [compact(n.select_one('.paper-reference-value').get_text()) for n in nodes]
+    text = compact(pdf_text(pdf))
+    assert all(text.count(value) >= count for value, count in Counter(values).items()), ('Reference missing from PDF/Word preview', pdf)
+    xml = ET.fromstring(subprocess.check_output(['pdftohtml', '-xml', '-hidden', '-stdout', str(pdf)], stderr=subprocess.DEVNULL))
     for (href, text), count in expected.items():
         fragments = [''.join(a.itertext()) for a in xml.iter('a') if a.get('href') == href]
-        assert compact(''.join(fragments)) == compact(text) * count, ('PDF link target/text changed', href)
+        label = next(n.select_one('.paper-reference-label').get_text() for n in nodes if n.a and n.a['href'] == href)
+        assert_link_text(fragments, text, count, label, allow_label_overlap)
     # Neither a physical-page overrun nor a body-margin overrun is acceptable.
-    bbox = ET.fromstring(subprocess.check_output(['pdftotext', '-bbox', str(base.with_suffix('.pdf')), '-']))
-    values = [compact(n.select_one('.paper-reference-value').get_text()) for n in nodes]
+    bbox = ET.fromstring(subprocess.check_output(['pdftotext', '-bbox', str(pdf), '-']))
     matched = 0
     for page in bbox.findall('.//{*}page'):
         for word in page.findall('.//{*}word'):
@@ -134,7 +161,6 @@ def native_links(base, nodes):
                 assert float(word.get('xMin')) >= 40 and float(word.get('xMax')) <= float(page.get('width')) - 40, ('Reference crosses body margins', text)
                 matched += 1
     assert matched or not values
-    return sum(expected.values())
 
 
 def main():
@@ -150,7 +176,7 @@ def main():
               'prior_package_sha256': {n: sha(a.prior / n) for n in ['english.zip', 'chinese.zip']},
               'artifact_sha256': {str(f.relative_to(a.build)): sha(f) for folder in ['renders', 'word-preview'] for f in sorted((a.build / folder).glob('*')) if f.is_file()},
               'prior_artifact_sha256': {str(f.relative_to(a.prior)): sha(f) for folder in ['renders', 'word-preview'] for f in sorted((a.prior / folder).glob('*')) if f.is_file()},
-              'limits': ['Synthetic selected cases only', 'Only the related-paper node is relocated and loses its template-owned trailing period', 'Conservative HTTP(S) linking, not general URL validation', 'LibreOffice previews are not Microsoft Word acceptance', 'Stock Markdown tables remain blocked']}
+              'limits': ['Synthetic selected cases only', 'Only the related-paper node is relocated and loses its template-owned trailing period', 'Conservative HTTP(S) linking, not general URL validation', 'LibreOffice previews are not Microsoft Word acceptance; PDF link-hitbox overlap allows only an exact adjacent-label suffix', 'Stock Markdown tables remain blocked']}
     target = a.build / 'paper-report.json'
     target.write_text(json.dumps(report, indent=2) + '\n')
     try:
@@ -170,7 +196,8 @@ def main():
                 row['controlled_question_comparisons'] = compare_prior(old, soup, expected, language)
                 compare_word(old_base.with_suffix('.docx'), base.with_suffix('.docx'), old, soup, expected, language)
                 row['standalone_references'] = len(nodes)
-                row['native_http_links'] = native_links(base, nodes)
+                row['native_http_links'] = native_links(base, nodes, a.build/'word-preview'/(base.name+'.pdf'))
+                row['word_preview_reference_text_links_margins_passed'] = True
                 report['rows'].append(row); pair.append(soup)
             assert markers(pair[0]) == markers(pair[1])
     except Exception as e:
