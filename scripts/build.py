@@ -61,6 +61,24 @@ def require_clean_lock(path: Path, lock: str, preview: bool) -> dict:
     return state
 
 
+PACKAGE_INPUT_PATHS = ('template.json', 'src', 'scripts/prepare_layout.py', 'PACKAGE_README.md', 'LICENSE')
+
+
+def package_readme(root: Path) -> Path:
+    path = root / 'PACKAGE_README.md'
+    if not path.is_file() or not path.read_text().strip():
+        raise ValueError(f'Non-empty package README required: {path}')
+    return path
+
+
+def package_timestamp(english: Path) -> str:
+    # Navigation docs, tests and review archives are not package inputs.
+    value = git(english, 'log', '-1', '--format=%cI', 'HEAD', '--', *PACKAGE_INPUT_PATHS)
+    if not value:
+        raise ValueError('No committed English package inputs found')
+    return datetime.fromisoformat(value).astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
+
+
 def build(args) -> Path:
     config = yaml.safe_load((ROOT / "pipeline.yml").read_text())
     if args.translation_version is not None:
@@ -90,18 +108,14 @@ def build(args) -> Path:
     output = Path(tempfile.mkdtemp(prefix="build-", dir=output_root))
     tdk = tooling / ".venv/bin/dsw-tdk"
     font = tooling / "src/dsw_document_template_tool/resources/fonts/NotoSansTC-Variable.ttf"
-    timestamp = (
-        datetime.fromisoformat(git(english, "show", "-s", "--format=%cI", "HEAD"))
-        .astimezone(timezone.utc)
-        .isoformat()
-        .replace("+00:00", "Z")
-    )
+    timestamp = package_timestamp(english)
     for language in ("en", "zh-Hant"):
         prepared = output / language
         prepared.mkdir()
         shutil.copytree(english / "src", prepared / "src")
-        for filename in ("template.json", "README.md", "LICENSE"):
+        for filename in ("template.json", "LICENSE"):
             shutil.copyfile(english / filename, prepared / filename)
+        shutil.copyfile(package_readme(english), prepared / 'README.md')
         metadata = json.loads((prepared / "template.json").read_text())
         for key, config_key in (
             ("organizationId", "organization_id"),
@@ -171,7 +185,7 @@ def build(args) -> Path:
         template_id=target["template_id"],
         template_name=target["name"],
         template_version=str(target["version"]),
-        public_readme_path=ROOT / "README.md",
+        public_readme_path=package_readme(ROOT),
     )
     issues = audit_translated_template_structure(source_dir=expanded, output_dir=translated)
     write_json(output / "structure-audit.json", [asdict(i) for i in issues])
@@ -208,6 +222,8 @@ def build(args) -> Path:
             "source": config["source"],
             "translation": config["translation"],
             "runtime": config["runtime"],
+            "package_timestamp": timestamp,
+            "package_readme_sha256": {'english': sha(package_readme(english)), 'chinese': sha(package_readme(ROOT))},
             "checkouts": states,
             "translation_units": len(units),
             "untranslated_units": blanks,

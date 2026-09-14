@@ -25,7 +25,7 @@ def main():
         template = env.from_string("{% import 'src/macros.html.j2' as macros with context %}{% import 'src/uuids.j2' as uuids with context %}{% include 'src/questions/02-what-data.html.j2' %}")
         def render(data): return BeautifulSoup(template.render(repliesMap=data), 'html.parser').select_one('.format-description')
         for data, files, size in f.volume_cases():
-            soup = render(data); text = soup.get_text(' ', strip=True)
+            soup = render(data); text = ' '.join(soup.get_text().split())
             assert bool(soup.select('[data-fact-id="format-file-count"]')) == (not bool((files or '').strip()))
             assert bool(soup.select('[data-fact-id="format-file-size"]')) == (not bool((size or '').strip()))
             if (files or '').strip(): assert (f'We expect {files} files in this format.' if language == 'english' else f'此格式的檔案數預計為 {files} 個。') in text
