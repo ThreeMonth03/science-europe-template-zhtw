@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "local_branch_language_checks": 122,
+  "exact_reviewed_phrase_checks": 715,
+  "checker_sha256": "a3fcb7c1e38f55f8066ea514720520fa2f2db3d5ffadfab177157ae9539c9815",
+  "fixture_helper_sha256": "8c14e65d60b9233c21616c687986a1b8ecfb86152d2b40c3f8ca984bb0ef92cf",
+  "reviewed_phrases_sha256": "c2539c4a129cabc477104034c5e65a2d107b00d33d86f6716f2222af6c1e5e4f",
+  "package_sha256": {
+    "english.zip": "2eaabcdd715e9ec808cae066d496d651018acf63a517b0308794aa58bf0f2144",
+    "chinese.zip": "e7b3afffb6886a6a82851684cab2a8e96cc135448267f4ff3476ce45e4cb506a"
+  },
+  "limits": [
+    "Adapter-based branch checks, not native DSW rendering",
+    "Authored probe HTML stays unchanged",
+    "No full SE coverage claim"
+  ]
+}

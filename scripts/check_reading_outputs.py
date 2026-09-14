@@ -25,9 +25,22 @@ def compare_unchanged(before, after):
     return 15
 
 
-def locations(path, labels):
-    pages = subprocess.check_output(['pdftotext', str(path), '-'], text=True).split('\f')
-    return {label: [index + 1 for index, page in enumerate(pages) if compact(label) in compact(page)] for label in labels}
+def locations(path, labels, start, end):
+    # A normal author answer elsewhere may repeat a table-cell label. Keep the
+    # real page numbers, but search only the question containing provenance.
+    pages = [compact(page) for page in subprocess.check_output(['pdftotext', str(path), '-'], text=True).split('\f')]
+    text = '\f'.join(pages)
+    start, end = compact(start), compact(end)
+    assert text.count(start) == text.count(end) == 1, (path, 'Ambiguous question boundaries')
+    first, last = text.index(start), text.index(end)
+    assert first < last, (path, 'Reversed question boundaries')
+    found, offset = {label: [] for label in labels}, 0
+    for index, page in enumerate(pages, 1):
+        scoped = page[max(0, first - offset):max(0, last - offset)]
+        for label in labels:
+            if compact(label) in scoped: found[label].append(index)
+        offset += len(page) + 1
+    return found
 
 
 def authored_lines(path, language, expected):
@@ -110,7 +123,7 @@ def inspect(build, case, language):
             for label in labels: assert label in text, (case, language, fmt, label)
         for kind, pdf in [('pdf', base.with_suffix('.pdf')), ('word-preview', build / 'word-preview' / (base.name + '.pdf'))]:
             if not pdf.exists(): continue
-            found = locations(pdf, labels)
+            found = locations(pdf, labels, soup.find(id='q-how-data').h3.get_text(), soup.find(id='q-what-data').h3.get_text())
             assert all(len(pages) == 1 for pages in found.values()), (case, language, kind, found)
             page_set = {pages[0] for pages in found.values()}
             assert (len(page_set) > 1) if case == 'table-long' else (len(page_set) == 1), (case, language, kind, found)

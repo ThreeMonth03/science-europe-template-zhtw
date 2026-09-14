@@ -3,13 +3,24 @@ import argparse
 from collections import Counter
 import copy
 import json
+import re
+import subprocess
 from pathlib import Path
+from xml.etree import ElementTree as ET
 from bs4 import BeautifulSoup
 from docx import Document
 from check_narrative_outputs import compact, page_bounds, pdf_text, sha
 from check_polish_outputs import canonical_word_dates, assert_quantity_lines
 from check_sharing_outputs import direct_runs
 from compare_runtime_outputs import markers
+
+
+def assert_no_punctuation_only_lines(xml, start, end):
+    lines=[' '.join(w.text or '' for w in line.findall('{*}word')) for line in ET.fromstring(xml).findall('.//{*}line')]
+    first=next(i for i,line in enumerate(lines) if compact(line).startswith(start))
+    last=next(i for i,line in enumerate(lines[first+1:],first+1) if compact(line).startswith(end))
+    for line in lines[first:last]:
+        assert not re.fullmatch(r'[。，、；：！？,.;:!?]+',compact(line)), ('Punctuation-only line in Q11',line)
 
 
 def compare_prior(old, new):
@@ -32,8 +43,13 @@ def inspect(build, prior, case, language):
     base=build/'renders'/f'{case}-{language}'
     soup=BeautifulSoup(base.with_suffix('.html').read_text(),'html.parser')
     q=soup.find(id='q-data-preservation')
+    start=compact(q.h3.get_text())[:12]
+    end=compact(soup.find(id='q-access-data').h3.get_text())[:12]
     paragraphs=[canonical_word_dates(soup,p.text) for p in Document(base.with_suffix('.docx')).paragraphs]
     pdf=pdf_text(base.with_suffix('.pdf'))
+    for file in [base.with_suffix('.pdf'), build/'word-preview'/(base.name+'.pdf')]:
+        if file.exists():
+            assert_no_punctuation_only_lines(subprocess.check_output(['pdftotext','-bbox-layout',str(file),'-']),start,end)
     assert not q.select('p p, p div, p ul, p table')
     for node in q.select('p,li'):
         expected=compact(node.get_text())
@@ -84,7 +100,7 @@ def inspect(build, prior, case, language):
         comparisons=compare_prior(BeautifulSoup(old.read_text(),'html.parser'),soup)
     row={'case':case,'language':language,'passed':True,'q11_fact_nodes':len(q.select('[data-fact-id]')),
          'separate_authored_paragraphs':len(authored),'joined_archive_runs':joined,
-         'controlled_question_comparisons':comparisons,'pdf_pages':page_bounds(base.with_suffix('.pdf'))}
+         'controlled_question_comparisons':comparisons,'q11_punctuation_line_check':True,'pdf_pages':page_bounds(base.with_suffix('.pdf'))}
     preview=build/'word-preview'/(base.name+'.pdf')
     if preview.exists(): row['word_preview_pages']=page_bounds(preview)
     return soup,row

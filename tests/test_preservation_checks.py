@@ -5,7 +5,7 @@ import unittest
 from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
-from check_preservation_outputs import compare_prior
+from check_preservation_outputs import compare_prior, assert_no_punctuation_only_lines
 
 
 class PreservationChecksTests(unittest.TestCase):
@@ -35,3 +35,10 @@ class PreservationChecksTests(unittest.TestCase):
     def test_new_fixture_tables_remain_release_blockers(self):
         from run_pilot import TABLE_CASES
         self.assertTrue({'preservation-complete','preservation-partial','preservation-custom','preservation-no-cold'} <= TABLE_CASES)
+
+    def test_punctuation_only_line_is_checked_in_q11_not_another_page(self):
+        def xml(lines): return '<doc>'+''.join('<line><word>'+line+'</word></line>' for line in lines)+'</doc>'
+        assert_no_punctuation_only_lines(xml(['。','11. Question','Keep data。','12. Next','。']),'11.','12.')
+        for terminal in ['。','；','?']:
+            with self.assertRaises(AssertionError):
+                assert_no_punctuation_only_lines(xml(['11. Question','Keep data',terminal,'12. Next']),'11.','12.')
