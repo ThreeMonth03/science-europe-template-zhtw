@@ -1,9 +1,11 @@
 import sys
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 from bs4 import BeautifulSoup
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from check_format_outputs import compare_unchanged
+from check_narrative_outputs import compact, pdf_text
 
 
 def document(collection='Collector retained.', formats='Original format.', other='Unchanged.'):
@@ -13,6 +15,13 @@ def document(collection='Collector retained.', formats='Original format.', other
 
 
 class FormatComparisonTests(unittest.TestCase):
+    def test_pdf_extraction_preserves_line_end_hyphens_and_identifiers(self):
+        with patch('check_narrative_outputs.subprocess.check_output', return_value='long-\nterm MyInstrument v1.2 station_YYYYMMDD.csv\n 3 / 7\n') as extract:
+            text = compact(pdf_text(Path('sample.pdf')))
+        extract.assert_called_once_with(['pdftotext', '-layout', 'sample.pdf', '-'], text=True)
+        self.assertEqual('long-termMyInstrumentv1.2station_YYYYMMDD.csv', text)
+        self.assertNotEqual(compact('longterm'), compact('long-term'))
+
     def test_only_format_block_can_change(self):
         self.assertEqual(15, compare_unchanged(document(), document(formats='Improved format.')))
 

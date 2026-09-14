@@ -22,7 +22,10 @@ def sha(path):
 
 
 def pdf_text(path):
-    text = subprocess.check_output(['pdftotext', str(path), '-'], text=True)
+    # Default extraction can remove an authored hyphen at a visual line break
+    # ("long-\nterm" becomes "longterm"). Keep layout text and normalize only
+    # whitespace in comparisons; never erase case-sensitive identifier punctuation.
+    text = subprocess.check_output(['pdftotext', '-layout', str(path), '-'], text=True)
     return re.sub(r'(?m)^\s*\d+\s*/\s*\d+\s*$', '', text)
 
 

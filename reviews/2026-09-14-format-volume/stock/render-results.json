@@ -1,0 +1,182 @@
+[
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "structured",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "format-rich",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "format-rich",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "format-rich",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "format-rich",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "format-rich",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "format-rich",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "format-partial",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "format-partial",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "format-partial",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "format-partial",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "format-partial",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "format-partial",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "english",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "english",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "english",
+    "format": "docx",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "chinese",
+    "format": "html",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "chinese",
+    "format": "pdf",
+    "passed": true
+  },
+  {
+    "case": "negative",
+    "language": "chinese",
+    "format": "docx",
+    "passed": true
+  }
+]

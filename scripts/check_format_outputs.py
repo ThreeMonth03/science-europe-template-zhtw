@@ -35,7 +35,7 @@ def inspect(build, case, language):
         assert summary.find_parent(class_='format-description')
         assert not summary.select('.data-gap, ul, br, p p, p div')
         expected = compact(summary.get_text())
-        assert expected in compact(pdf)
+        assert expected in compact(pdf), (case, language, 'PDF format text missing or interrupted', summary.get_text(' ', strip=True))
         assert any(expected == compact(p) for p in paragraphs), (case, language, 'Word format summary fragmented')
     q2 = soup.find(id='q-what-data')
     for node in q2.select('.format-description p, .format-description li'):
@@ -83,6 +83,7 @@ def main():
                     for key in ('recipe_sha256', 'events_sha256', 'km_sha256'): assert a[key] == b[key], (case, language, key)
                 comparisons += compare_unchanged(*[BeautifulSoup(p.read_text(), 'html.parser') for p in (old, new)])
     report = {'selected_checks_passed': True, 'release_acceptance': False, 'checker_sha256': sha(Path(__file__)), 'rows': rows,
+              'text_extractor_sha256': sha(Path(__file__).with_name('check_narrative_outputs.py')),
               'controlled_question_comparisons': comparisons,
               'package_sha256': {name: sha(args.build / name) for name in ('english.zip', 'chinese.zip')},
               'artifact_sha256': {str(p.relative_to(args.build)): sha(p) for folder in ('renders', 'word-preview') for p in sorted((args.build / folder).glob('*')) if p.is_file()},
