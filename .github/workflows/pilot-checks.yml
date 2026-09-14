@@ -57,7 +57,8 @@ jobs:
         working-directory: zh
         run: |
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
-          ../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling
+          SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
+          ../tooling/.venv/bin/python scripts/probe_format_translation.py --build "$SE_BUILD_DIR" --english ../english
       - uses: actions/upload-artifact@v4
         with:
           name: experimental-candidate-not-a-release

@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.3 的英中工作分支為 `feat/reading-units`，承接 0.3.2 的 `feat/quality-reading`。
+目前 0.3.4 的英中工作分支為 `feat/format-volume-reading`，承接 0.3.3 的 `feat/reading-units`（含 CI 依賴修正）。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談

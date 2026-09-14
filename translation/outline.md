@@ -1100,7 +1100,7 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0027-information-not-provided-how-data-provenance-will-be-1a1565d1bb/0001-information-not-provided-how-data-provenance-will-be-af7c37e5b3/translation.md>)
 
-- [ ] [file] src/questions/02-what-data.html.j2 (28/39)
+- [ ] [file] src/questions/02-what-data.html.j2 (34/51)
 
   [J2] `src/questions/02-what-data.html.j2`
 
@@ -1120,11 +1120,11 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0002-instrument-datasets-b801872916/0001-instrument-datasets-d5d4150a5a/translation.md>)
 
-    - [ ] [wrapper] 0003-no-name-given-b9538d5687 (0/1)
+    - [x] [wrapper] 0003-no-name-given-b9538d5687 (1/1)
 
       [W] `0003-no-name-given-b9538d5687`
 
-        - [ ] [unit] 0001-no-name-given-d4abda789c: (no name given)
+        - [x] [unit] 0001-no-name-given-d4abda789c: (no name given)
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0003-no-name-given-b9538d5687/0001-no-name-given-d4abda789c/translation.md>)
 
@@ -1144,27 +1144,27 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0005-this-dataset-will-be-collected-by-experts-in-3d8cd57272/0001-this-dataset-will-be-collected-by-experts-in-582092769e/translation.md>)
 
-    - [ ] [wrapper] 0006-this-dataset-will-be-collected-by-an-external-9c80a6aea5 (0/1)
+    - [x] [wrapper] 0006-this-dataset-will-be-collected-by-an-external-9c80a6aea5 (1/1)
 
       [W] `0006-this-dataset-will-be-collected-by-an-external-9c80a6aea5`
 
-        - [ ] [unit] 0001-this-dataset-will-be-collected-by-an-external-af7e7ecc82: This dataset will be collected by an external party.
+        - [x] [unit] 0001-this-dataset-will-be-collected-by-an-external-af7e7ecc82: This dataset will be collected by an external party.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0006-this-dataset-will-be-collected-by-an-external-9c80a6aea5/0001-this-dataset-will-be-collected-by-an-external-af7e7ecc82/translation.md>)
 
-    - [ ] [wrapper] 0007-the-ownership-of-the-resulting-data-will-remain-c1b3b3fddc (0/1)
+    - [x] [wrapper] 0007-the-ownership-of-the-resulting-data-will-remain-c1b3b3fddc (1/1)
 
       [W] `0007-the-ownership-of-the-resulting-data-will-remain-c1b3b3fddc`
 
-        - [ ] [unit] 0001-the-ownership-of-the-resulting-data-will-remain-0e1fc2f4f0: The ownership of the resulting data will remain with the external party.
+        - [x] [unit] 0001-the-ownership-of-the-resulting-data-will-remain-0e1fc2f4f0: The ownership of the resulting data will remain with the external party.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0007-the-ownership-of-the-resulting-data-will-remain-c1b3b3fddc/0001-the-ownership-of-the-resulting-data-will-remain-0e1fc2f4f0/translation.md>)
 
-    - [ ] [wrapper] 0008-the-project-partners-acquire-full-ownership-of-the-9f1bf1da24 (0/1)
+    - [x] [wrapper] 0008-the-project-partners-acquire-full-ownership-of-the-9f1bf1da24 (1/1)
 
       [W] `0008-the-project-partners-acquire-full-ownership-of-the-9f1bf1da24`
 
-        - [ ] [unit] 0001-the-project-partners-acquire-full-ownership-of-the-ea98b79259: The project partners acquire full ownership of the data.
+        - [x] [unit] 0001-the-project-partners-acquire-full-ownership-of-the-ea98b79259: The project partners acquire full ownership of the data.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0008-the-project-partners-acquire-full-ownership-of-the-9f1bf1da24/0001-the-project-partners-acquire-full-ownership-of-the-ea98b79259/translation.md>)
 
@@ -1184,51 +1184,51 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0010-the-equipment-is-less-well-described-or-not-0bb53cae49/0001-the-equipment-is-less-well-described-or-not-85f56ac6cf/translation.md>)
 
-    - [ ] [wrapper] 0011-data-collection-for-248c81167b (0/1)
+    - [x] [wrapper] 0011-data-collection-for-248c81167b (1/1)
 
       [W] `0011-data-collection-for-248c81167b`
 
-        - [ ] [unit] 0001-data-collection-for-a89c4b4abb: Data collection for {collectionName}: {collectionSentences}
+        - [x] [unit] 0001-data-collection-for-a89c4b4abb: Data collection for {collectionName}: {collectionSentences}
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0011-data-collection-for-248c81167b/0001-data-collection-for-a89c4b4abb/translation.md>)
 
-    - [ ] [wrapper] 0012-data-collection-for-has-not-yet-been-described-42fdf54d67 (0/1)
+    - [x] [wrapper] 0012-data-collection-for-has-not-yet-been-described-42fdf54d67 (1/1)
 
       [W] `0012-data-collection-for-has-not-yet-been-described-42fdf54d67`
 
-        - [ ] [unit] 0001-data-collection-for-has-not-yet-been-described-1649daee77: Data collection for {collectionName} has not yet been described.
+        - [x] [unit] 0001-data-collection-for-has-not-yet-been-described-1649daee77: Data collection for {collectionName} has not yet been described.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0012-data-collection-for-has-not-yet-been-described-42fdf54d67/0001-data-collection-for-has-not-yet-been-described-1649daee77/translation.md>)
 
-    - [ ] [wrapper] 0013-information-not-provided-who-will-collect-this-dataset-5e279e93c4 (0/1)
+    - [x] [wrapper] 0013-information-not-provided-who-will-collect-this-dataset-5e279e93c4 (1/1)
 
       [W] `0013-information-not-provided-who-will-collect-this-dataset-5e279e93c4`
 
-        - [ ] [unit] 0001-information-not-provided-who-will-collect-this-dataset-ace0ad252e: Information not provided: who will collect this dataset.
+        - [x] [unit] 0001-information-not-provided-who-will-collect-this-dataset-ace0ad252e: Information not provided: who will collect this dataset.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0013-information-not-provided-who-will-collect-this-dataset-5e279e93c4/0001-information-not-provided-who-will-collect-this-dataset-ace0ad252e/translation.md>)
 
-    - [ ] [wrapper] 0014-information-not-provided-whether-the-equipment-is-adequately-5f4f30796d (0/1)
+    - [x] [wrapper] 0014-information-not-provided-whether-the-equipment-is-adequately-5f4f30796d (1/1)
 
       [W] `0014-information-not-provided-whether-the-equipment-is-adequately-5f4f30796d`
 
-        - [ ] [unit] 0001-information-not-provided-whether-the-equipment-is-adequately-218fac6088: Information not provided: whether the equipment is adequately documented or needs additional process documentation.
+        - [x] [unit] 0001-information-not-provided-whether-the-equipment-is-adequately-218fac6088: Information not provided: whether the equipment is adequately documented or needs additional process documentation.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0014-information-not-provided-whether-the-equipment-is-adequately-5f4f30796d/0001-information-not-provided-whether-the-equipment-is-adequately-218fac6088/translation.md>)
 
-    - [ ] [wrapper] 0015-data-ownership-arrangements-ca867ff36d (0/1)
+    - [x] [wrapper] 0015-data-ownership-arrangements-ca867ff36d (1/1)
 
       [W] `0015-data-ownership-arrangements-ca867ff36d`
 
-        - [ ] [unit] 0001-data-ownership-arrangements-232bff0758: Data ownership arrangements:
+        - [x] [unit] 0001-data-ownership-arrangements-232bff0758: Data ownership arrangements:
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0015-data-ownership-arrangements-ca867ff36d/0001-data-ownership-arrangements-232bff0758/translation.md>)
 
-    - [ ] [wrapper] 0016-information-not-provided-ownership-arrangements-for-data-collected-668ddd13e1 (0/1)
+    - [x] [wrapper] 0016-information-not-provided-ownership-arrangements-for-data-collected-668ddd13e1 (1/1)
 
       [W] `0016-information-not-provided-ownership-arrangements-for-data-collected-668ddd13e1`
 
-        - [ ] [unit] 0001-information-not-provided-ownership-arrangements-for-data-collected-55eb739e7e: Information not provided: ownership arrangements for data collected by the external party.
+        - [x] [unit] 0001-information-not-provided-ownership-arrangements-for-data-collected-55eb739e7e: Information not provided: ownership arrangements for data collected by the external party.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0016-information-not-provided-ownership-arrangements-for-data-collected-668ddd13e1/0001-information-not-provided-ownership-arrangements-for-data-collected-55eb739e7e/translation.md>)
 
@@ -1296,11 +1296,11 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0024-the-non-equipment-datasets-are-9d2f72db6f/0001-the-non-equipment-datasets-are-fcdabc20c1/translation.md>)
 
-    - [ ] [wrapper] 0025-no-name-given-6d125d9cbd (0/1)
+    - [x] [wrapper] 0025-no-name-given-6d125d9cbd (1/1)
 
       [W] `0025-no-name-given-6d125d9cbd`
 
-        - [ ] [unit] 0001-no-name-given-b2ced6699f: (no name given)
+        - [x] [unit] 0001-no-name-given-b2ced6699f: (no name given)
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0025-no-name-given-6d125d9cbd/0001-no-name-given-b2ced6699f/translation.md>)
 
@@ -1320,63 +1320,199 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0027-data-formats-and-types-24220813ca/0001-data-formats-and-types-ed98c7009b/translation.md>)
 
-    - [x] [wrapper] 0028-we-will-be-using-the-following-data-formats-4a1051c6ff (1/1)
+    - [ ] [wrapper] 0028-data-format-34daf82abd (0/1)
 
-      [W] `0028-we-will-be-using-the-following-data-formats-4a1051c6ff`
+      [W] `0028-data-format-34daf82abd`
 
-        - [x] [unit] 0001-we-will-be-using-the-following-data-formats-b52673e8f2: We will be using the following data formats and types:
+        - [ ] [unit] 0001-data-format-c78ceb95bb: Data format: {formatName}.
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0028-we-will-be-using-the-following-data-formats-4a1051c6ff/0001-we-will-be-using-the-following-data-formats-b52673e8f2/translation.md>)
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0028-data-format-34daf82abd/0001-data-format-c78ceb95bb/translation.md>)
 
-    - [x] [wrapper] 0029-it-is-a-standardized-format-we-are-not-9b897ca277 (11/11)
+    - [ ] [wrapper] 0029-unnamed-data-format-e417d4b973 (0/1)
 
-      [W] `0029-it-is-a-standardized-format-we-are-not-9b897ca277`
+      [W] `0029-unnamed-data-format-e417d4b973`
 
-        - [x] [unit] 0001-it-is-a-standardized-format-ca907dfd85: It is a standardized format.
+        - [ ] [unit] 0001-unnamed-data-format-8247f2c90c: Unnamed data format {loop.index}.
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0001-it-is-a-standardized-format-ca907dfd85/translation.md>)
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-unnamed-data-format-e417d4b973/0001-unnamed-data-format-8247f2c90c/translation.md>)
 
-        - [x] [unit] 0002-we-are-not-using-a-standardized-format-because-09cfe5a171: We are not using a standardized format because there is no standardized format for this data type.
+    - [x] [wrapper] 0030-it-is-a-standardized-format-6cff548186 (1/1)
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0002-we-are-not-using-a-standardized-format-because-09cfe5a171/translation.md>)
+      [W] `0030-it-is-a-standardized-format-6cff548186`
 
-        - [x] [unit] 0003-we-are-not-using-a-standardized-format-but-27fe8f3b93: We are not using a standardized format but it is optimized for processing speed and/or volume.
+        - [x] [unit] 0001-it-is-a-standardized-format-3e6a5c7616: It is a standardized format.
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0003-we-are-not-using-a-standardized-format-but-27fe8f3b93/translation.md>)
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0030-it-is-a-standardized-format-6cff548186/0001-it-is-a-standardized-format-3e6a5c7616/translation.md>)
 
-        - [x] [unit] 0004-we-are-not-using-a-standardized-format-because-cff1037a75: We are not using a standardized format, because: {formatsWhyNSAnotherReason}.
+    - [x] [wrapper] 0031-we-are-not-using-a-standardized-format-because-7aebc726c0 (1/1)
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0004-we-are-not-using-a-standardized-format-because-cff1037a75/translation.md>)
+      [W] `0031-we-are-not-using-a-standardized-format-because-7aebc726c0`
 
-        - [x] [unit] 0005-we-are-not-using-a-standardized-format-31e7ee9c08: We are not using a standardized format.
+        - [x] [unit] 0001-we-are-not-using-a-standardized-format-because-0f86a9f059: We are not using a standardized format because there is no standardized format for this data type.
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0005-we-are-not-using-a-standardized-format-31e7ee9c08/translation.md>)
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0031-we-are-not-using-a-standardized-format-because-7aebc726c0/0001-we-are-not-using-a-standardized-format-because-0f86a9f059/translation.md>)
 
-        - [x] [unit] 0006-this-is-a-suitable-format-for-long-term-c3644c5fc0: This is a suitable format for long-term archiving.
+    - [x] [wrapper] 0032-we-are-not-using-a-standardized-format-but-06e5836819 (1/1)
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0006-this-is-a-suitable-format-for-long-term-c3644c5fc0/translation.md>)
+      [W] `0032-we-are-not-using-a-standardized-format-but-06e5836819`
 
-        - [x] [unit] 0007-this-is-not-a-suitable-format-for-long-c3da7ecb72: This is not a suitable format for long-term archiving; however, we plan to convert it to a suitable format before the end of the project.
+        - [x] [unit] 0001-we-are-not-using-a-standardized-format-but-1c41ba292e: We are not using a standardized format but it is optimized for processing speed and/or volume.
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0007-this-is-not-a-suitable-format-for-long-c3da7ecb72/translation.md>)
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0032-we-are-not-using-a-standardized-format-but-06e5836819/0001-we-are-not-using-a-standardized-format-but-1c41ba292e/translation.md>)
 
-        - [x] [unit] 0008-we-are-aware-that-this-is-not-a-541fa0f47d: We are aware that this is not a suitable format for long-term archiving.
+    - [x] [wrapper] 0033-we-are-not-using-a-standardized-format-b06f5f6943 (1/1)
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0008-we-are-aware-that-this-is-not-a-541fa0f47d/translation.md>)
+      [W] `0033-we-are-not-using-a-standardized-format-b06f5f6943`
 
-        - [x] [unit] 0009-we-will-have-only-a-small-amount-of-daca4ee39a: We will have only a small amount of data stored in this format.
+        - [x] [unit] 0001-we-are-not-using-a-standardized-format-c89941f203: We are not using a standardized format.
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0009-we-will-have-only-a-small-amount-of-daca4ee39a/translation.md>)
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0033-we-are-not-using-a-standardized-format-b06f5f6943/0001-we-are-not-using-a-standardized-format-c89941f203/translation.md>)
 
-        - [x] [unit] 0010-we-expect-to-have-gb-of-data-in-1041037e4e: We expect to have {formatsVolumeTotalGB} GB of data in this format.
+    - [x] [wrapper] 0034-this-is-a-suitable-format-for-long-term-67a2caa64a (1/1)
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0010-we-expect-to-have-gb-of-data-in-1041037e4e/translation.md>)
+      [W] `0034-this-is-a-suitable-format-for-long-term-67a2caa64a`
 
-        - [x] [unit] 0011-we-expect-to-have-files-of-average-size-df6b87118a: We expect to have {formatsVolumeFiles} files of average size {formatsVolumeFileGB} GB (i.e. approximately {formatsVolumeApproxGB} GB in total).
+        - [x] [unit] 0001-this-is-a-suitable-format-for-long-term-6bfcd0af0d: This is a suitable format for long-term archiving.
 
-          [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-it-is-a-standardized-format-we-are-not-9b897ca277/0011-we-expect-to-have-files-of-average-size-df6b87118a/translation.md>)
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0034-this-is-a-suitable-format-for-long-term-67a2caa64a/0001-this-is-a-suitable-format-for-long-term-6bfcd0af0d/translation.md>)
 
-- [ ] [file] src/questions/03-docs-metadata.html.j2 (35/39)
+    - [x] [wrapper] 0035-this-is-not-a-suitable-format-for-long-39620f01ff (1/1)
+
+      [W] `0035-this-is-not-a-suitable-format-for-long-39620f01ff`
+
+        - [x] [unit] 0001-this-is-not-a-suitable-format-for-long-318435d178: This is not a suitable format for long-term archiving; however, we plan to convert it to a suitable format before the end of the project.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0035-this-is-not-a-suitable-format-for-long-39620f01ff/0001-this-is-not-a-suitable-format-for-long-318435d178/translation.md>)
+
+    - [ ] [wrapper] 0036-this-format-is-not-suitable-for-long-term-b378094058 (0/1)
+
+      [W] `0036-this-format-is-not-suitable-for-long-term-b378094058`
+
+        - [ ] [unit] 0001-this-format-is-not-suitable-for-long-term-217899c397: This format is not suitable for long-term archiving, and we do not plan to convert it to a suitable format.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0036-this-format-is-not-suitable-for-long-term-b378094058/0001-this-format-is-not-suitable-for-long-term-217899c397/translation.md>)
+
+    - [ ] [wrapper] 0037-this-format-is-not-suitable-for-long-term-9e61667e62 (0/1)
+
+      [W] `0037-this-format-is-not-suitable-for-long-term-9e61667e62`
+
+        - [ ] [unit] 0001-this-format-is-not-suitable-for-long-term-6d865d13e4: This format is not suitable for long-term archiving.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0037-this-format-is-not-suitable-for-long-term-9e61667e62/0001-this-format-is-not-suitable-for-long-term-6d865d13e4/translation.md>)
+
+    - [x] [wrapper] 0038-we-will-have-only-a-small-amount-of-3a27feab7d (1/1)
+
+      [W] `0038-we-will-have-only-a-small-amount-of-3a27feab7d`
+
+        - [x] [unit] 0001-we-will-have-only-a-small-amount-of-c157f526fc: We will have only a small amount of data stored in this format.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0038-we-will-have-only-a-small-amount-of-3a27feab7d/0001-we-will-have-only-a-small-amount-of-c157f526fc/translation.md>)
+
+    - [ ] [wrapper] 0039-we-expect-to-have-gb-of-data-in-54614b95e7 (0/1)
+
+      [W] `0039-we-expect-to-have-gb-of-data-in-54614b95e7`
+
+        - [ ] [unit] 0001-we-expect-to-have-gb-of-data-in-07b0c3e942: We expect to have {formatsVolumeTotalGB} GB of data in this format.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0039-we-expect-to-have-gb-of-data-in-54614b95e7/0001-we-expect-to-have-gb-of-data-in-07b0c3e942/translation.md>)
+
+    - [ ] [wrapper] 0040-we-expect-files-in-this-format-d3df0728dc (0/1)
+
+      [W] `0040-we-expect-files-in-this-format-d3df0728dc`
+
+        - [ ] [unit] 0001-we-expect-files-in-this-format-70e6e11bda: We expect {formatsVolumeFiles} files in this format.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0040-we-expect-files-in-this-format-d3df0728dc/0001-we-expect-files-in-this-format-70e6e11bda/translation.md>)
+
+    - [ ] [wrapper] 0041-the-estimated-average-file-size-is-gb-09c64b36f7 (0/1)
+
+      [W] `0041-the-estimated-average-file-size-is-gb-09c64b36f7`
+
+        - [ ] [unit] 0001-the-estimated-average-file-size-is-gb-603ae5d88b: The estimated average file size is {formatsVolumeFileGB} GB.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0041-the-estimated-average-file-size-is-gb-09c64b36f7/0001-the-estimated-average-file-size-is-gb-603ae5d88b/translation.md>)
+
+    - [ ] [wrapper] 0042-reason-for-using-a-non-standard-format-4839d7a568 (0/1)
+
+      [W] `0042-reason-for-using-a-non-standard-format-4839d7a568`
+
+        - [ ] [unit] 0001-reason-for-using-a-non-standard-format-8dd2835e89: Reason for using a non-standard format:
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0042-reason-for-using-a-non-standard-format-4839d7a568/0001-reason-for-using-a-non-standard-format-8dd2835e89/translation.md>)
+
+    - [ ] [wrapper] 0043-the-name-of-this-data-format-has-not-f0d9250f8f (0/1)
+
+      [W] `0043-the-name-of-this-data-format-has-not-f0d9250f8f`
+
+        - [ ] [unit] 0001-the-name-of-this-data-format-has-not-adfde82a8e: The name of this data format has not been provided.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0043-the-name-of-this-data-format-has-not-f0d9250f8f/0001-the-name-of-this-data-format-has-not-adfde82a8e/translation.md>)
+
+    - [ ] [wrapper] 0044-whether-this-is-a-standardized-format-has-not-d278dfbc13 (0/1)
+
+      [W] `0044-whether-this-is-a-standardized-format-has-not-d278dfbc13`
+
+        - [ ] [unit] 0001-whether-this-is-a-standardized-format-has-not-c3d9119605: Whether this is a standardized format has not been specified.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0044-whether-this-is-a-standardized-format-has-not-d278dfbc13/0001-whether-this-is-a-standardized-format-has-not-c3d9119605/translation.md>)
+
+    - [ ] [wrapper] 0045-the-reason-for-using-a-non-standard-format-dccc8a9254 (0/1)
+
+      [W] `0045-the-reason-for-using-a-non-standard-format-dccc8a9254`
+
+        - [ ] [unit] 0001-the-reason-for-using-a-non-standard-format-eb19c8c57d: The reason for using a non-standard format has not been provided.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0045-the-reason-for-using-a-non-standard-format-dccc8a9254/0001-the-reason-for-using-a-non-standard-format-eb19c8c57d/translation.md>)
+
+    - [ ] [wrapper] 0046-whether-this-format-is-suitable-for-long-term-1468e625c4 (0/1)
+
+      [W] `0046-whether-this-format-is-suitable-for-long-term-1468e625c4`
+
+        - [ ] [unit] 0001-whether-this-format-is-suitable-for-long-term-4eba287538: Whether this format is suitable for long-term archiving has not been specified.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0046-whether-this-format-is-suitable-for-long-term-1468e625c4/0001-whether-this-format-is-suitable-for-long-term-4eba287538/translation.md>)
+
+    - [ ] [wrapper] 0047-whether-this-format-will-be-converted-for-long-c64e9931cf (0/1)
+
+      [W] `0047-whether-this-format-will-be-converted-for-long-c64e9931cf`
+
+        - [ ] [unit] 0001-whether-this-format-will-be-converted-for-long-40faeb9b16: Whether this format will be converted for long-term archiving has not been specified.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0047-whether-this-format-will-be-converted-for-long-c64e9931cf/0001-whether-this-format-will-be-converted-for-long-40faeb9b16/translation.md>)
+
+    - [ ] [wrapper] 0048-the-estimated-total-volume-in-gb-has-not-907777ef6c (0/1)
+
+      [W] `0048-the-estimated-total-volume-in-gb-has-not-907777ef6c`
+
+        - [ ] [unit] 0001-the-estimated-total-volume-in-gb-has-not-1368962530: The estimated total volume in GB has not been provided.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0048-the-estimated-total-volume-in-gb-has-not-907777ef6c/0001-the-estimated-total-volume-in-gb-has-not-1368962530/translation.md>)
+
+    - [ ] [wrapper] 0049-the-estimated-number-of-files-has-not-been-c412e8a981 (0/1)
+
+      [W] `0049-the-estimated-number-of-files-has-not-been-c412e8a981`
+
+        - [ ] [unit] 0001-the-estimated-number-of-files-has-not-been-44eca0c062: The estimated number of files has not been provided.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0049-the-estimated-number-of-files-has-not-been-c412e8a981/0001-the-estimated-number-of-files-has-not-been-44eca0c062/translation.md>)
+
+    - [ ] [wrapper] 0050-the-estimated-average-file-size-in-gb-has-88c1f455e7 (0/1)
+
+      [W] `0050-the-estimated-average-file-size-in-gb-has-88c1f455e7`
+
+        - [ ] [unit] 0001-the-estimated-average-file-size-in-gb-has-7f062534ae: The estimated average file size in GB has not been provided.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0050-the-estimated-average-file-size-in-gb-has-88c1f455e7/0001-the-estimated-average-file-size-in-gb-has-7f062534ae/translation.md>)
+
+    - [ ] [wrapper] 0051-the-estimated-data-volume-has-not-been-provided-291111514b (0/1)
+
+      [W] `0051-the-estimated-data-volume-has-not-been-provided-291111514b`
+
+        - [ ] [unit] 0001-the-estimated-data-volume-has-not-been-provided-2304d4ff73: The estimated data volume has not been provided.
+
+          [T] [translation](<tree/src/questions/02-what-data.html.j2/0051-the-estimated-data-volume-has-not-been-provided-291111514b/0001-the-estimated-data-volume-has-not-been-provided-2304d4ff73/translation.md>)
+
+- [x] [file] src/questions/03-docs-metadata.html.j2 (39/39)
 
   [J2] `src/questions/03-docs-metadata.html.j2`
 
@@ -1528,7 +1664,7 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-we-will-use-a-filesystem-with-files-and-c44259f0ec/0001-we-will-use-a-filesystem-with-files-and-8755a2cec1/translation.md>)
 
-    - [ ] [wrapper] 0017-there-will-be-a-folder-for-each-sample-f1fd0c2f86 (1/2)
+    - [x] [wrapper] 0017-there-will-be-a-folder-for-each-sample-f1fd0c2f86 (2/2)
 
       [W] `0017-there-will-be-a-folder-for-each-sample-f1fd0c2f86`
 
@@ -1536,11 +1672,11 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0017-there-will-be-a-folder-for-each-sample-f1fd0c2f86/0001-there-will-be-a-folder-for-each-sample-e47d3b3662/translation.md>)
 
-        - [ ] [unit] 0002-each-of-those-will-use-the-following-conventions-7f7f436903: Each of those will use the following conventions:
+        - [x] [unit] 0002-each-of-those-will-use-the-following-conventions-7f7f436903: Each of those will use the following conventions:
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0017-there-will-be-a-folder-for-each-sample-f1fd0c2f86/0002-each-of-those-will-use-the-following-conventions-7f7f436903/translation.md>)
 
-    - [ ] [wrapper] 0018-there-will-be-a-sub-folder-for-each-69eb5a8d39 (1/2)
+    - [x] [wrapper] 0018-there-will-be-a-sub-folder-for-each-69eb5a8d39 (2/2)
 
       [W] `0018-there-will-be-a-sub-folder-for-each-69eb5a8d39`
 
@@ -1548,11 +1684,11 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0018-there-will-be-a-sub-folder-for-each-69eb5a8d39/0001-there-will-be-a-sub-folder-for-each-991166c28f/translation.md>)
 
-        - [ ] [unit] 0002-each-of-those-will-use-the-following-conventions-ba9c902847: Each of those will use the following conventions:
+        - [x] [unit] 0002-each-of-those-will-use-the-following-conventions-ba9c902847: Each of those will use the following conventions:
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0018-there-will-be-a-sub-folder-for-each-69eb5a8d39/0002-each-of-those-will-use-the-following-conventions-ba9c902847/translation.md>)
 
-    - [ ] [wrapper] 0019-there-will-be-a-sub-folder-for-each-fc16f2debf (1/2)
+    - [x] [wrapper] 0019-there-will-be-a-sub-folder-for-each-fc16f2debf (2/2)
 
       [W] `0019-there-will-be-a-sub-folder-for-each-fc16f2debf`
 
@@ -1560,7 +1696,7 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0019-there-will-be-a-sub-folder-for-each-fc16f2debf/0001-there-will-be-a-sub-folder-for-each-96c255b5a1/translation.md>)
 
-        - [ ] [unit] 0002-each-of-those-will-use-the-following-conventions-bb5f8fcfeb: Each of those will use the following conventions:
+        - [x] [unit] 0002-each-of-those-will-use-the-following-conventions-bb5f8fcfeb: Each of those will use the following conventions:
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0019-there-will-be-a-sub-folder-for-each-fc16f2debf/0002-each-of-those-will-use-the-following-conventions-bb5f8fcfeb/translation.md>)
 
@@ -1604,11 +1740,11 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0024-we-will-be-storing-data-in-an-object-cb299a5bad/0001-we-will-be-storing-data-in-an-object-a5124f972d/translation.md>)
 
-    - [ ] [wrapper] 0025-object-naming-conventions-9a41126a40 (0/1)
+    - [x] [wrapper] 0025-object-naming-conventions-9a41126a40 (1/1)
 
       [W] `0025-object-naming-conventions-9a41126a40`
 
-        - [ ] [unit] 0001-object-naming-conventions-b5858881ee: Object naming conventions:
+        - [x] [unit] 0001-object-naming-conventions-b5858881ee: Object naming conventions:
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0025-object-naming-conventions-9a41126a40/0001-object-naming-conventions-b5858881ee/translation.md>)
 
