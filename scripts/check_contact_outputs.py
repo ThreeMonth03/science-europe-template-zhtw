@@ -50,6 +50,7 @@ def check_references(soup, language):
         fact = target.select_one('[data-fact-id="repository-contact-arrangements"]'); assert fact is not None
         heading = dist.select_one('.repository-contact-heading')
         assert heading is not None and 'answer-lead' in heading['class']
+        assert len(heading.find_all('p', recursive=False)) == 1, 'Word requires a paragraph, not a Plain list block'
         if fact['data-status'] == 'complete':
             assert target.select_one('.answer-lead > p').get_text() == LEAD[language]
             assert fact.get('class') == ['answer-detail'] and fact.get_text(strip=True)
@@ -74,7 +75,8 @@ def compare_prior(before, after, language):
         unit['class'] = prior_unit['class']
         ref.replace_with(NavigableString(OLD[language][0]), *[copy.deepcopy(n) for n in body])
         target.replace_with(NavigableString(OLD[language][1]), *body)
-    for heading in new.select('.repository-contact-heading'): heading.unwrap()
+    for heading in new.select('.repository-contact-heading'):
+        heading.p.unwrap(); heading.unwrap()
     old.smooth(); new.smooth()
     assert len(old.select('.question')) == len(new.select('.question')) == 15
     assert markers(old) == markers(new), 'Unexpected fact change'

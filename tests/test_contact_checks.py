@@ -14,7 +14,7 @@ class ContactChecksTests(unittest.TestCase):
         old += ''.join(f'<div class="question" id="q-{i}"><p>Untouched {i}.</p></div>' for i in range(13))
         new = old.replace(OLD['english'][0] + body, '<span class="repository-contact-reference"><a href="#repository-contact-1-1">' + reference_text('english', 1, False) + '</a></span>')
         new = new.replace(OLD['english'][1] + body, '<div class="repository-contact" id="repository-contact-1-1"><div class="answer-lead"><p>' + LEAD['english'] + '</p></div><div class="answer-detail" data-fact-id="repository-contact-arrangements" data-status="complete">' + body + '</div></div>')
-        new = new.replace('data-item-id="r">Repository. <div class="repository-contact"', 'data-item-id="r"><div class="answer-lead repository-contact-heading">Repository. </div><div class="repository-contact"')
+        new = new.replace('data-item-id="r">Repository. <div class="repository-contact"', 'data-item-id="r"><div class="answer-lead repository-contact-heading"><p>Repository. </p></div><div class="repository-contact"')
         return BeautifulSoup(old, 'html.parser'), BeautifulSoup(new, 'html.parser')
 
     def test_reconstruction_proves_authored_content_and_other_facts_unchanged(self):
