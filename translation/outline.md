@@ -316,383 +316,383 @@
 
           [T] [translation](<tree/src/macros.html.j2/0004-orcid-1de1d52d66/0001-orcid-e8a9c7bd7d/translation.md>)
 
-- [ ] [file] src/post-project-archive.html.j2 (0/32)
+- [x] [file] src/post-project-archive.html.j2 (32/32)
 
   [J2] `src/post-project-archive.html.j2`
 
-    - [ ] [wrapper] 0001-project-wide-cold-storage-after-the-project-467780bb05 (0/1)
+    - [x] [wrapper] 0001-project-wide-cold-storage-after-the-project-467780bb05 (1/1)
 
       [W] `0001-project-wide-cold-storage-after-the-project-467780bb05`
 
-        - [ ] [unit] 0001-project-wide-cold-storage-after-the-project-57b12abc4a: Project-wide cold storage after the project
+        - [x] [unit] 0001-project-wide-cold-storage-after-the-project-57b12abc4a: Project-wide cold storage after the project
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0001-project-wide-cold-storage-after-the-project-467780bb05/0001-project-wide-cold-storage-after-the-project-57b12abc4a/translation.md>)
 
-    - [ ] [wrapper] 0002-the-project-will-not-use-cold-storage-after-db0395d387 (0/1)
+    - [x] [wrapper] 0002-the-project-will-not-use-cold-storage-after-db0395d387 (1/1)
 
       [W] `0002-the-project-will-not-use-cold-storage-after-db0395d387`
 
-        - [ ] [unit] 0001-the-project-will-not-use-cold-storage-after-28143c4874: The project will not use cold storage after it finishes. This answer does not rule out other forms of preservation.
+        - [x] [unit] 0001-the-project-will-not-use-cold-storage-after-28143c4874: The project will not use cold storage after it finishes. This answer does not rule out other forms of preservation.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0002-the-project-will-not-use-cold-storage-after-db0395d387/0001-the-project-will-not-use-cold-storage-after-28143c4874/translation.md>)
 
-    - [ ] [wrapper] 0003-the-project-will-keep-copies-of-its-data-3f260d2650 (0/1)
+    - [x] [wrapper] 0003-the-project-will-keep-copies-of-its-data-3f260d2650 (1/1)
 
       [W] `0003-the-project-will-keep-copies-of-its-data-3f260d2650`
 
-        - [ ] [unit] 0001-the-project-will-keep-copies-of-its-data-ba39826565: The project will keep copies of its data in cold storage after it finishes.
+        - [x] [unit] 0001-the-project-will-keep-copies-of-its-data-ba39826565: The project will keep copies of its data in cold storage after it finishes.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0003-the-project-will-keep-copies-of-its-data-3f260d2650/0001-the-project-will-keep-copies-of-its-data-ba39826565/translation.md>)
 
-    - [ ] [wrapper] 0004-the-grant-will-pay-for-this-long-term-0a9f91a145 (0/1)
+    - [x] [wrapper] 0004-the-grant-will-pay-for-this-long-term-0a9f91a145 (1/1)
 
       [W] `0004-the-grant-will-pay-for-this-long-term-0a9f91a145`
 
-        - [ ] [unit] 0001-the-grant-will-pay-for-this-long-term-32dc03d985: The grant will pay for this long-term storage.
+        - [x] [unit] 0001-the-grant-will-pay-for-this-long-term-32dc03d985: The grant will pay for this long-term storage.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0004-the-grant-will-pay-for-this-long-term-0a9f91a145/0001-the-grant-will-pay-for-this-long-term-32dc03d985/translation.md>)
 
-    - [ ] [wrapper] 0005-departmental-budgets-of-one-or-more-project-participants-63b49f1490 (0/1)
+    - [x] [wrapper] 0005-departmental-budgets-of-one-or-more-project-participants-63b49f1490 (1/1)
 
       [W] `0005-departmental-budgets-of-one-or-more-project-participants-63b49f1490`
 
-        - [ ] [unit] 0001-departmental-budgets-of-one-or-more-project-participants-2ccd3e4d62: Departmental budgets of one or more project participants will pay for this long-term storage.
+        - [x] [unit] 0001-departmental-budgets-of-one-or-more-project-participants-2ccd3e4d62: Departmental budgets of one or more project participants will pay for this long-term storage.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0005-departmental-budgets-of-one-or-more-project-participants-63b49f1490/0001-departmental-budgets-of-one-or-more-project-participants-2ccd3e4d62/translation.md>)
 
-    - [ ] [wrapper] 0006-one-or-more-participating-institutes-have-budgeted-for-1a9bd2d8ff (0/1)
+    - [x] [wrapper] 0006-one-or-more-participating-institutes-have-budgeted-for-1a9bd2d8ff (1/1)
 
       [W] `0006-one-or-more-participating-institutes-have-budgeted-for-1a9bd2d8ff`
 
-        - [ ] [unit] 0001-one-or-more-participating-institutes-have-budgeted-for-6dde9423df: One or more participating institutes have budgeted for this long-term storage service.
+        - [x] [unit] 0001-one-or-more-participating-institutes-have-budgeted-for-6dde9423df: One or more participating institutes have budgeted for this long-term storage service.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0006-one-or-more-participating-institutes-have-budgeted-for-1a9bd2d8ff/0001-one-or-more-participating-institutes-have-budgeted-for-6dde9423df/translation.md>)
 
-    - [ ] [wrapper] 0007-the-payer-for-post-project-cold-storage-has-6f62aa12cf (0/1)
+    - [x] [wrapper] 0007-the-payer-for-post-project-cold-storage-has-6f62aa12cf (1/1)
 
       [W] `0007-the-payer-for-post-project-cold-storage-has-6f62aa12cf`
 
-        - [ ] [unit] 0001-the-payer-for-post-project-cold-storage-has-a090ad6504: The payer for post-project cold storage has not been specified.
+        - [x] [unit] 0001-the-payer-for-post-project-cold-storage-has-a090ad6504: The payer for post-project cold storage has not been specified.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0007-the-payer-for-post-project-cold-storage-has-6f62aa12cf/0001-the-payer-for-post-project-cold-storage-has-a090ad6504/translation.md>)
 
-    - [ ] [wrapper] 0008-years-69684c7b6e (0/1)
+    - [x] [wrapper] 0008-years-69684c7b6e (1/1)
 
       [W] `0008-years-69684c7b6e`
 
-        - [ ] [unit] 0001-years-0ba016b43b: years
+        - [x] [unit] 0001-years-0ba016b43b: years
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0008-years-69684c7b6e/0001-years-0ba016b43b/translation.md>)
 
-    - [ ] [wrapper] 0009-the-archive-will-be-kept-for-at-least-cd784f26ad (0/1)
+    - [x] [wrapper] 0009-the-archive-will-be-kept-for-at-least-cd784f26ad (1/1)
 
       [W] `0009-the-archive-will-be-kept-for-at-least-cd784f26ad`
 
-        - [ ] [unit] 0001-the-archive-will-be-kept-for-at-least-f2cf705394: The archive will be kept for at least {archiveDuration}.
+        - [x] [unit] 0001-the-archive-will-be-kept-for-at-least-f2cf705394: The archive will be kept for at least {archiveDuration}.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0009-the-archive-will-be-kept-for-at-least-cd784f26ad/0001-the-archive-will-be-kept-for-at-least-f2cf705394/translation.md>)
 
-    - [ ] [wrapper] 0010-other-arrangements-for-the-archive-s-minimum-lifetime-806cdec7fa (0/1)
+    - [x] [wrapper] 0010-other-arrangements-for-the-archive-s-minimum-lifetime-806cdec7fa (1/1)
 
       [W] `0010-other-arrangements-for-the-archive-s-minimum-lifetime-806cdec7fa`
 
-        - [ ] [unit] 0001-other-arrangements-for-the-archive-s-minimum-lifetime-c85f641ab7: Other arrangements for the archive's minimum lifetime:
+        - [x] [unit] 0001-other-arrangements-for-the-archive-s-minimum-lifetime-c85f641ab7: Other arrangements for the archive's minimum lifetime:
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0010-other-arrangements-for-the-archive-s-minimum-lifetime-806cdec7fa/0001-other-arrangements-for-the-archive-s-minimum-lifetime-c85f641ab7/translation.md>)
 
-    - [ ] [wrapper] 0011-the-other-arrangements-for-the-archive-s-minimum-28f6f0f92f (0/1)
+    - [x] [wrapper] 0011-the-other-arrangements-for-the-archive-s-minimum-28f6f0f92f (1/1)
 
       [W] `0011-the-other-arrangements-for-the-archive-s-minimum-28f6f0f92f`
 
-        - [ ] [unit] 0001-the-other-arrangements-for-the-archive-s-minimum-04cc55c9a8: The other arrangements for the archive's minimum lifetime have not been described.
+        - [x] [unit] 0001-the-other-arrangements-for-the-archive-s-minimum-04cc55c9a8: The other arrangements for the archive's minimum lifetime have not been described.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0011-the-other-arrangements-for-the-archive-s-minimum-28f6f0f92f/0001-the-other-arrangements-for-the-archive-s-minimum-04cc55c9a8/translation.md>)
 
-    - [ ] [wrapper] 0012-the-archive-s-minimum-lifetime-has-not-been-0cae88d5f7 (0/1)
+    - [x] [wrapper] 0012-the-archive-s-minimum-lifetime-has-not-been-0cae88d5f7 (1/1)
 
       [W] `0012-the-archive-s-minimum-lifetime-has-not-been-0cae88d5f7`
 
-        - [ ] [unit] 0001-the-archive-s-minimum-lifetime-has-not-been-635d6da0d3: The archive's minimum lifetime has not been provided.
+        - [x] [unit] 0001-the-archive-s-minimum-lifetime-has-not-been-635d6da0d3: The archive's minimum lifetime has not been provided.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0012-the-archive-s-minimum-lifetime-has-not-been-0cae88d5f7/0001-the-archive-s-minimum-lifetime-has-not-been-635d6da0d3/translation.md>)
 
-    - [ ] [wrapper] 0013-the-archival-period-cannot-be-extended-c7ba56bf24 (0/1)
+    - [x] [wrapper] 0013-the-archival-period-cannot-be-extended-c7ba56bf24 (1/1)
 
       [W] `0013-the-archival-period-cannot-be-extended-c7ba56bf24`
 
-        - [ ] [unit] 0001-the-archival-period-cannot-be-extended-0e0ba6ae4f: The archival period cannot be extended.
+        - [x] [unit] 0001-the-archival-period-cannot-be-extended-0e0ba6ae4f: The archival period cannot be extended.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0013-the-archival-period-cannot-be-extended-c7ba56bf24/0001-the-archival-period-cannot-be-extended-0e0ba6ae4f/translation.md>)
 
-    - [ ] [wrapper] 0014-the-archival-period-is-limited-by-law-or-b64fc68027 (0/1)
+    - [x] [wrapper] 0014-the-archival-period-is-limited-by-law-or-b64fc68027 (1/1)
 
       [W] `0014-the-archival-period-is-limited-by-law-or-b64fc68027`
 
-        - [ ] [unit] 0001-the-archival-period-is-limited-by-law-or-703a92beed: The archival period is limited by law or contract.
+        - [x] [unit] 0001-the-archival-period-is-limited-by-law-or-703a92beed: The archival period is limited by law or contract.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0014-the-archival-period-is-limited-by-law-or-b64fc68027/0001-the-archival-period-is-limited-by-law-or-703a92beed/translation.md>)
 
-    - [ ] [wrapper] 0015-the-archival-period-is-limited-by-the-budget-af66e3d587 (0/1)
+    - [x] [wrapper] 0015-the-archival-period-is-limited-by-the-budget-af66e3d587 (1/1)
 
       [W] `0015-the-archival-period-is-limited-by-the-budget-af66e3d587`
 
-        - [ ] [unit] 0001-the-archival-period-is-limited-by-the-budget-2858129531: The archival period is limited by the budget.
+        - [x] [unit] 0001-the-archival-period-is-limited-by-the-budget-2858129531: The archival period is limited by the budget.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0015-the-archival-period-is-limited-by-the-budget-af66e3d587/0001-the-archival-period-is-limited-by-the-budget-2858129531/translation.md>)
 
-    - [ ] [wrapper] 0016-the-reason-the-archival-period-cannot-be-extended-de9079c44a (0/1)
+    - [x] [wrapper] 0016-the-reason-the-archival-period-cannot-be-extended-de9079c44a (1/1)
 
       [W] `0016-the-reason-the-archival-period-cannot-be-extended-de9079c44a`
 
-        - [ ] [unit] 0001-the-reason-the-archival-period-cannot-be-extended-28e0762bd8: The reason the archival period cannot be extended has not been specified.
+        - [x] [unit] 0001-the-reason-the-archival-period-cannot-be-extended-28e0762bd8: The reason the archival period cannot be extended has not been specified.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0016-the-reason-the-archival-period-cannot-be-extended-de9079c44a/0001-the-reason-the-archival-period-cannot-be-extended-28e0762bd8/translation.md>)
 
-    - [ ] [wrapper] 0017-the-archival-period-can-be-extended-252bca8268 (0/1)
+    - [x] [wrapper] 0017-the-archival-period-can-be-extended-252bca8268 (1/1)
 
       [W] `0017-the-archival-period-can-be-extended-252bca8268`
 
-        - [ ] [unit] 0001-the-archival-period-can-be-extended-7879b4cbf7: The archival period can be extended.
+        - [x] [unit] 0001-the-archival-period-can-be-extended-7879b4cbf7: The archival period can be extended.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0017-the-archival-period-can-be-extended-252bca8268/0001-the-archival-period-can-be-extended-7879b4cbf7/translation.md>)
 
-    - [ ] [wrapper] 0018-a-principal-investigator-involved-in-the-project-will-1ccdb75951 (0/1)
+    - [x] [wrapper] 0018-a-principal-investigator-involved-in-the-project-will-1ccdb75951 (1/1)
 
       [W] `0018-a-principal-investigator-involved-in-the-project-will-1ccdb75951`
 
-        - [ ] [unit] 0001-a-principal-investigator-involved-in-the-project-will-be6fb6eccd: A principal investigator involved in the project will decide on an extension.
+        - [x] [unit] 0001-a-principal-investigator-involved-in-the-project-will-be6fb6eccd: A principal investigator involved in the project will decide on an extension.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0018-a-principal-investigator-involved-in-the-project-will-1ccdb75951/0001-a-principal-investigator-involved-in-the-project-will-be6fb6eccd/translation.md>)
 
-    - [ ] [wrapper] 0019-library-or-archive-staff-will-decide-on-an-aae9bb62fb (0/1)
+    - [x] [wrapper] 0019-library-or-archive-staff-will-decide-on-an-aae9bb62fb (1/1)
 
       [W] `0019-library-or-archive-staff-will-decide-on-an-aae9bb62fb`
 
-        - [ ] [unit] 0001-library-or-archive-staff-will-decide-on-an-dfd257ca64: Library or archive staff will decide on an extension.
+        - [x] [unit] 0001-library-or-archive-staff-will-decide-on-an-dfd257ca64: Library or archive staff will decide on an extension.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0019-library-or-archive-staff-will-decide-on-an-aae9bb62fb/0001-library-or-archive-staff-will-decide-on-an-dfd257ca64/translation.md>)
 
-    - [ ] [wrapper] 0020-the-person-or-team-responsible-for-deciding-on-503568f9b5 (0/1)
+    - [x] [wrapper] 0020-the-person-or-team-responsible-for-deciding-on-503568f9b5 (1/1)
 
       [W] `0020-the-person-or-team-responsible-for-deciding-on-503568f9b5`
 
-        - [ ] [unit] 0001-the-person-or-team-responsible-for-deciding-on-5901213606: The person or team responsible for deciding on an extension has not been specified.
+        - [x] [unit] 0001-the-person-or-team-responsible-for-deciding-on-5901213606: The person or team responsible for deciding on an extension has not been specified.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0020-the-person-or-team-responsible-for-deciding-on-503568f9b5/0001-the-person-or-team-responsible-for-deciding-on-5901213606/translation.md>)
 
-    - [ ] [wrapper] 0021-the-extension-decision-will-take-the-following-into-5907de8ec7 (0/1)
+    - [x] [wrapper] 0021-the-extension-decision-will-take-the-following-into-5907de8ec7 (1/1)
 
       [W] `0021-the-extension-decision-will-take-the-following-into-5907de8ec7`
 
-        - [ ] [unit] 0001-the-extension-decision-will-take-the-following-into-354cf7915e: The extension decision will take the following into account:
+        - [x] [unit] 0001-the-extension-decision-will-take-the-following-into-354cf7915e: The extension decision will take the following into account:
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0021-the-extension-decision-will-take-the-following-into-5907de8ec7/0001-the-extension-decision-will-take-the-following-into-354cf7915e/translation.md>)
 
-    - [ ] [wrapper] 0022-actual-use-of-the-archived-data-49b1ffac25 (0/1)
+    - [x] [wrapper] 0022-actual-use-of-the-archived-data-49b1ffac25 (1/1)
 
       [W] `0022-actual-use-of-the-archived-data-49b1ffac25`
 
-        - [ ] [unit] 0001-actual-use-of-the-archived-data-2672fb84d3: Actual use of the archived data.
+        - [x] [unit] 0001-actual-use-of-the-archived-data-2672fb84d3: Actual use of the archived data.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0022-actual-use-of-the-archived-data-49b1ffac25/0001-actual-use-of-the-archived-data-2672fb84d3/translation.md>)
 
-    - [ ] [wrapper] 0023-predicted-use-of-the-archived-data-1822ed6753 (0/1)
+    - [x] [wrapper] 0023-predicted-use-of-the-archived-data-1822ed6753 (1/1)
 
       [W] `0023-predicted-use-of-the-archived-data-1822ed6753`
 
-        - [ ] [unit] 0001-predicted-use-of-the-archived-data-244e7c90af: Predicted use of the archived data.
+        - [x] [unit] 0001-predicted-use-of-the-archived-data-244e7c90af: Predicted use of the archived data.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0023-predicted-use-of-the-archived-data-1822ed6753/0001-predicted-use-of-the-archived-data-244e7c90af/translation.md>)
 
-    - [ ] [wrapper] 0024-available-budget-c311440302 (0/1)
+    - [x] [wrapper] 0024-available-budget-c311440302 (1/1)
 
       [W] `0024-available-budget-c311440302`
 
-        - [ ] [unit] 0001-available-budget-8d2675da1e: Available budget.
+        - [x] [unit] 0001-available-budget-8d2675da1e: Available budget.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0024-available-budget-c311440302/0001-available-budget-8d2675da1e/translation.md>)
 
-    - [ ] [wrapper] 0025-the-basis-for-deciding-on-an-extension-has-7b0f347894 (0/1)
+    - [x] [wrapper] 0025-the-basis-for-deciding-on-an-extension-has-7b0f347894 (1/1)
 
       [W] `0025-the-basis-for-deciding-on-an-extension-has-7b0f347894`
 
-        - [ ] [unit] 0001-the-basis-for-deciding-on-an-extension-has-d6ae476fcb: The basis for deciding on an extension has not been specified.
+        - [x] [unit] 0001-the-basis-for-deciding-on-an-extension-has-d6ae476fcb: The basis for deciding on an extension has not been specified.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0025-the-basis-for-deciding-on-an-extension-has-7b0f347894/0001-the-basis-for-deciding-on-an-extension-has-d6ae476fcb/translation.md>)
 
-    - [ ] [wrapper] 0026-it-has-not-been-specified-whether-the-archival-fb6e847876 (0/1)
+    - [x] [wrapper] 0026-it-has-not-been-specified-whether-the-archival-fb6e847876 (1/1)
 
       [W] `0026-it-has-not-been-specified-whether-the-archival-fb6e847876`
 
-        - [ ] [unit] 0001-it-has-not-been-specified-whether-the-archival-e800c2c02f: It has not been specified whether the archival period can be extended.
+        - [x] [unit] 0001-it-has-not-been-specified-whether-the-archival-e800c2c02f: It has not been specified whether the archival period can be extended.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0026-it-has-not-been-specified-whether-the-archival-fb6e847876/0001-it-has-not-been-specified-whether-the-archival-e800c2c02f/translation.md>)
 
-    - [ ] [wrapper] 0027-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794 (0/1)
+    - [x] [wrapper] 0027-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794 (1/1)
 
       [W] `0027-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794`
 
-        - [ ] [unit] 0001-obsolete-data-formats-in-cold-storage-will-be-2428e1280e: Obsolete data formats in cold storage will be upgraded.
+        - [x] [unit] 0001-obsolete-data-formats-in-cold-storage-will-be-2428e1280e: Obsolete data formats in cold storage will be upgraded.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0027-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794/0001-obsolete-data-formats-in-cold-storage-will-be-2428e1280e/translation.md>)
 
-    - [ ] [wrapper] 0028-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d (0/1)
+    - [x] [wrapper] 0028-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d (1/1)
 
       [W] `0028-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d`
 
-        - [ ] [unit] 0001-obsolete-data-formats-in-cold-storage-will-not-df79e5d9d0: Obsolete data formats in cold storage will not be upgraded.
+        - [x] [unit] 0001-obsolete-data-formats-in-cold-storage-will-not-df79e5d9d0: Obsolete data formats in cold storage will not be upgraded.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0028-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d/0001-obsolete-data-formats-in-cold-storage-will-not-df79e5d9d0/translation.md>)
 
-    - [ ] [wrapper] 0029-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b (0/1)
+    - [x] [wrapper] 0029-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b (1/1)
 
       [W] `0029-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b`
 
-        - [ ] [unit] 0001-the-arrangement-for-obsolete-data-formats-in-cold-c06c5bdfef: The arrangement for obsolete data formats in cold storage has not been specified.
+        - [x] [unit] 0001-the-arrangement-for-obsolete-data-formats-in-cold-c06c5bdfef: The arrangement for obsolete data formats in cold storage has not been specified.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0029-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b/0001-the-arrangement-for-obsolete-data-formats-in-cold-c06c5bdfef/translation.md>)
 
-    - [ ] [wrapper] 0030-archived-data-will-be-migrated-regularly-to-more-8242b62f1a (0/1)
+    - [x] [wrapper] 0030-archived-data-will-be-migrated-regularly-to-more-8242b62f1a (1/1)
 
       [W] `0030-archived-data-will-be-migrated-regularly-to-more-8242b62f1a`
 
-        - [ ] [unit] 0001-archived-data-will-be-migrated-regularly-to-more-cb88d9c771: Archived data will be migrated regularly to more modern storage media.
+        - [x] [unit] 0001-archived-data-will-be-migrated-regularly-to-more-cb88d9c771: Archived data will be migrated regularly to more modern storage media.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0030-archived-data-will-be-migrated-regularly-to-more-8242b62f1a/0001-archived-data-will-be-migrated-regularly-to-more-cb88d9c771/translation.md>)
 
-    - [ ] [wrapper] 0031-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0 (0/1)
+    - [x] [wrapper] 0031-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0 (1/1)
 
       [W] `0031-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0`
 
-        - [ ] [unit] 0001-archived-data-will-not-be-migrated-regularly-to-2ddca2eba0: Archived data will not be migrated regularly to more modern storage media.
+        - [x] [unit] 0001-archived-data-will-not-be-migrated-regularly-to-2ddca2eba0: Archived data will not be migrated regularly to more modern storage media.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0031-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0/0001-archived-data-will-not-be-migrated-regularly-to-2ddca2eba0/translation.md>)
 
-    - [ ] [wrapper] 0032-the-arrangement-for-migration-to-more-modern-storage-807c2f4575 (0/1)
+    - [x] [wrapper] 0032-the-arrangement-for-migration-to-more-modern-storage-807c2f4575 (1/1)
 
       [W] `0032-the-arrangement-for-migration-to-more-modern-storage-807c2f4575`
 
-        - [ ] [unit] 0001-the-arrangement-for-migration-to-more-modern-storage-b8824f8223: The arrangement for migration to more modern storage media has not been specified.
+        - [x] [unit] 0001-the-arrangement-for-migration-to-more-modern-storage-b8824f8223: The arrangement for migration to more modern storage media has not been specified.
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0032-the-arrangement-for-migration-to-more-modern-storage-807c2f4575/0001-the-arrangement-for-migration-to-more-modern-storage-b8824f8223/translation.md>)
 
-- [ ] [file] src/preservation-dataset.html.j2 (0/5)
+- [x] [file] src/preservation-dataset.html.j2 (5/5)
 
   [J2] `src/preservation-dataset.html.j2`
 
-    - [ ] [wrapper] 0001-this-dataset-contains-raw-data-f13b342c83 (0/1)
+    - [x] [wrapper] 0001-this-dataset-contains-raw-data-f13b342c83 (1/1)
 
       [W] `0001-this-dataset-contains-raw-data-f13b342c83`
 
-        - [ ] [unit] 0001-this-dataset-contains-raw-data-9757e69983: This dataset contains raw data.
+        - [x] [unit] 0001-this-dataset-contains-raw-data-9757e69983: This dataset contains raw data.
 
           [T] [translation](<tree/src/preservation-dataset.html.j2/0001-this-dataset-contains-raw-data-f13b342c83/0001-this-dataset-contains-raw-data-9757e69983/translation.md>)
 
-    - [ ] [wrapper] 0002-this-dataset-contains-intermediate-data-8bbd9c14b4 (0/1)
+    - [x] [wrapper] 0002-this-dataset-contains-intermediate-data-8bbd9c14b4 (1/1)
 
       [W] `0002-this-dataset-contains-intermediate-data-8bbd9c14b4`
 
-        - [ ] [unit] 0001-this-dataset-contains-intermediate-data-ae01d1e3d9: This dataset contains intermediate data.
+        - [x] [unit] 0001-this-dataset-contains-intermediate-data-ae01d1e3d9: This dataset contains intermediate data.
 
           [T] [translation](<tree/src/preservation-dataset.html.j2/0002-this-dataset-contains-intermediate-data-8bbd9c14b4/0001-this-dataset-contains-intermediate-data-ae01d1e3d9/translation.md>)
 
-    - [ ] [wrapper] 0003-this-dataset-contains-processed-data-leading-to-unpublishable-af9b5aa700 (0/1)
+    - [x] [wrapper] 0003-this-dataset-contains-processed-data-leading-to-unpublishable-af9b5aa700 (1/1)
 
       [W] `0003-this-dataset-contains-processed-data-leading-to-unpublishable-af9b5aa700`
 
-        - [ ] [unit] 0001-this-dataset-contains-processed-data-leading-to-unpublishable-9542199629: This dataset contains processed data leading to unpublishable results.
+        - [x] [unit] 0001-this-dataset-contains-processed-data-leading-to-unpublishable-9542199629: This dataset contains processed data leading to unpublishable results.
 
           [T] [translation](<tree/src/preservation-dataset.html.j2/0003-this-dataset-contains-processed-data-leading-to-unpublishable-af9b5aa700/0001-this-dataset-contains-processed-data-leading-to-unpublishable-9542199629/translation.md>)
 
-    - [ ] [wrapper] 0004-this-dataset-contains-processed-data-leading-to-published-c0c1719512 (0/1)
+    - [x] [wrapper] 0004-this-dataset-contains-processed-data-leading-to-published-c0c1719512 (1/1)
 
       [W] `0004-this-dataset-contains-processed-data-leading-to-published-c0c1719512`
 
-        - [ ] [unit] 0001-this-dataset-contains-processed-data-leading-to-published-207e163fd0: This dataset contains processed data leading to published results.
+        - [x] [unit] 0001-this-dataset-contains-processed-data-leading-to-published-207e163fd0: This dataset contains processed data leading to published results.
 
           [T] [translation](<tree/src/preservation-dataset.html.j2/0004-this-dataset-contains-processed-data-leading-to-published-c0c1719512/0001-this-dataset-contains-processed-data-leading-to-published-207e163fd0/translation.md>)
 
-    - [ ] [wrapper] 0005-related-paper-6df9051134 (0/1)
+    - [x] [wrapper] 0005-related-paper-6df9051134 (1/1)
 
       [W] `0005-related-paper-6df9051134`
 
-        - [ ] [unit] 0001-related-paper-96dc89ecf6: Related paper: {paper}.
+        - [x] [unit] 0001-related-paper-96dc89ecf6: Related paper: {paper}.
 
           [T] [translation](<tree/src/preservation-dataset.html.j2/0005-related-paper-6df9051134/0001-related-paper-96dc89ecf6/translation.md>)
 
-- [ ] [file] src/preservation-publication-reason.html.j2 (0/9)
+- [x] [file] src/preservation-publication-reason.html.j2 (9/9)
 
   [J2] `src/preservation-publication-reason.html.j2`
 
-    - [ ] [wrapper] 0001-the-stated-reason-for-not-publishing-is-that-6e235a5887 (0/1)
+    - [x] [wrapper] 0001-the-stated-reason-for-not-publishing-is-that-6e235a5887 (1/1)
 
       [W] `0001-the-stated-reason-for-not-publishing-is-that-6e235a5887`
 
-        - [ ] [unit] 0001-the-stated-reason-for-not-publishing-is-that-999b452405: The stated reason for not publishing is that the raw data will not need to be reprocessed.
+        - [x] [unit] 0001-the-stated-reason-for-not-publishing-is-that-999b452405: The stated reason for not publishing is that the raw data will not need to be reprocessed.
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0001-the-stated-reason-for-not-publishing-is-that-6e235a5887/0001-the-stated-reason-for-not-publishing-is-that-999b452405/translation.md>)
 
-    - [ ] [wrapper] 0002-the-stated-reason-for-not-publishing-is-that-be6e4dae2b (0/1)
+    - [x] [wrapper] 0002-the-stated-reason-for-not-publishing-is-that-be6e4dae2b (1/1)
 
       [W] `0002-the-stated-reason-for-not-publishing-is-that-be6e4dae2b`
 
-        - [ ] [unit] 0001-the-stated-reason-for-not-publishing-is-that-df2635f398: The stated reason for not publishing is that this dataset only led to unpublishable results.
+        - [x] [unit] 0001-the-stated-reason-for-not-publishing-is-that-df2635f398: The stated reason for not publishing is that this dataset only led to unpublishable results.
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0002-the-stated-reason-for-not-publishing-is-that-be6e4dae2b/0001-the-stated-reason-for-not-publishing-is-that-df2635f398/translation.md>)
 
-    - [ ] [wrapper] 0003-the-stated-reason-for-not-publishing-is-that-fdea41bd6a (0/1)
+    - [x] [wrapper] 0003-the-stated-reason-for-not-publishing-is-that-fdea41bd6a (1/1)
 
       [W] `0003-the-stated-reason-for-not-publishing-is-that-fdea41bd6a`
 
-        - [ ] [unit] 0001-the-stated-reason-for-not-publishing-is-that-334f7ddda5: The stated reason for not publishing is that the intermediate data can be reproduced easily.
+        - [x] [unit] 0001-the-stated-reason-for-not-publishing-is-that-334f7ddda5: The stated reason for not publishing is that the intermediate data can be reproduced easily.
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0003-the-stated-reason-for-not-publishing-is-that-fdea41bd6a/0001-the-stated-reason-for-not-publishing-is-that-334f7ddda5/translation.md>)
 
-    - [ ] [wrapper] 0004-according-to-the-questionnaire-this-dataset-will-not-62ff95f7e0 (0/1)
+    - [x] [wrapper] 0004-according-to-the-questionnaire-this-dataset-will-not-62ff95f7e0 (1/1)
 
       [W] `0004-according-to-the-questionnaire-this-dataset-will-not-62ff95f7e0`
 
-        - [ ] [unit] 0001-according-to-the-questionnaire-this-dataset-will-not-90e413eed8: According to the questionnaire, this dataset will not be published because it has no value for re-use.
+        - [x] [unit] 0001-according-to-the-questionnaire-this-dataset-will-not-90e413eed8: According to the questionnaire, this dataset will not be published because it has no value for re-use.
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0004-according-to-the-questionnaire-this-dataset-will-not-62ff95f7e0/0001-according-to-the-questionnaire-this-dataset-will-not-90e413eed8/translation.md>)
 
-    - [ ] [wrapper] 0005-the-stated-reason-for-not-publishing-is-the-6c6bd20232 (0/1)
+    - [x] [wrapper] 0005-the-stated-reason-for-not-publishing-is-the-6c6bd20232 (1/1)
 
       [W] `0005-the-stated-reason-for-not-publishing-is-the-6c6bd20232`
 
-        - [ ] [unit] 0001-the-stated-reason-for-not-publishing-is-the-7407408092: The stated reason for not publishing is the cost.
+        - [x] [unit] 0001-the-stated-reason-for-not-publishing-is-the-7407408092: The stated reason for not publishing is the cost.
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0005-the-stated-reason-for-not-publishing-is-the-6c6bd20232/0001-the-stated-reason-for-not-publishing-is-the-7407408092/translation.md>)
 
-    - [ ] [wrapper] 0006-according-to-the-questionnaire-this-dataset-will-not-73e9e1bb2c (0/1)
+    - [x] [wrapper] 0006-according-to-the-questionnaire-this-dataset-will-not-73e9e1bb2c (1/1)
 
       [W] `0006-according-to-the-questionnaire-this-dataset-will-not-73e9e1bb2c`
 
-        - [ ] [unit] 0001-according-to-the-questionnaire-this-dataset-will-not-5959804b89: According to the questionnaire, this dataset will not be published because it was lost.
+        - [x] [unit] 0001-according-to-the-questionnaire-this-dataset-will-not-5959804b89: According to the questionnaire, this dataset will not be published because it was lost.
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0006-according-to-the-questionnaire-this-dataset-will-not-73e9e1bb2c/0001-according-to-the-questionnaire-this-dataset-will-not-5959804b89/translation.md>)
 
-    - [ ] [wrapper] 0007-other-reasons-for-not-publishing-this-dataset-a659a59b91 (0/1)
+    - [x] [wrapper] 0007-other-reasons-for-not-publishing-this-dataset-a659a59b91 (1/1)
 
       [W] `0007-other-reasons-for-not-publishing-this-dataset-a659a59b91`
 
-        - [ ] [unit] 0001-other-reasons-for-not-publishing-this-dataset-304ad95a1d: Other reasons for not publishing this dataset:
+        - [x] [unit] 0001-other-reasons-for-not-publishing-this-dataset-304ad95a1d: Other reasons for not publishing this dataset:
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0007-other-reasons-for-not-publishing-this-dataset-a659a59b91/0001-other-reasons-for-not-publishing-this-dataset-304ad95a1d/translation.md>)
 
-    - [ ] [wrapper] 0008-the-other-reasons-for-not-publishing-have-not-1b62f119fe (0/1)
+    - [x] [wrapper] 0008-the-other-reasons-for-not-publishing-have-not-1b62f119fe (1/1)
 
       [W] `0008-the-other-reasons-for-not-publishing-have-not-1b62f119fe`
 
-        - [ ] [unit] 0001-the-other-reasons-for-not-publishing-have-not-cc1672261b: The other reasons for not publishing have not been described.
+        - [x] [unit] 0001-the-other-reasons-for-not-publishing-have-not-cc1672261b: The other reasons for not publishing have not been described.
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0008-the-other-reasons-for-not-publishing-have-not-1b62f119fe/0001-the-other-reasons-for-not-publishing-have-not-cc1672261b/translation.md>)
 
-    - [ ] [wrapper] 0009-the-reason-for-not-publishing-has-not-been-f872350444 (0/1)
+    - [x] [wrapper] 0009-the-reason-for-not-publishing-has-not-been-f872350444 (1/1)
 
       [W] `0009-the-reason-for-not-publishing-has-not-been-f872350444`
 
-        - [ ] [unit] 0001-the-reason-for-not-publishing-has-not-been-dc959d7a0b: The reason for not publishing has not been provided.
+        - [x] [unit] 0001-the-reason-for-not-publishing-has-not-been-dc959d7a0b: The reason for not publishing has not been provided.
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0009-the-reason-for-not-publishing-has-not-been-f872350444/0001-the-reason-for-not-publishing-has-not-been-dc959d7a0b/translation.md>)
 
@@ -4032,7 +4032,7 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0056-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-25d186d302/translation.md>)
 
-- [ ] [file] src/questions/11-data-preservation.html.j2 (29/36)
+- [ ] [file] src/questions/11-data-preservation.html.j2 (36/37)
 
   [J2] `src/questions/11-data-preservation.html.j2`
 
@@ -4068,11 +4068,11 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0004-this-dataset-will-be-published-3f2a763faf/0001-this-dataset-will-be-published-aff33d2b54/translation.md>)
 
-    - [ ] [wrapper] 0005-it-has-not-yet-been-specified-whether-this-37fc33e57a (0/1)
+    - [x] [wrapper] 0005-it-has-not-yet-been-specified-whether-this-37fc33e57a (1/1)
 
       [W] `0005-it-has-not-yet-been-specified-whether-this-37fc33e57a`
 
-        - [ ] [unit] 0001-it-has-not-yet-been-specified-whether-this-1f304fa912: It has not yet been specified whether this dataset will be published.
+        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-this-1f304fa912: It has not yet been specified whether this dataset will be published.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0005-it-has-not-yet-been-specified-whether-this-37fc33e57a/0001-it-has-not-yet-been-specified-whether-this-1f304fa912/translation.md>)
 
@@ -4148,23 +4148,23 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-the-distributions-will-be-stored-in-34e5753803/0001-the-distributions-will-be-stored-in-b68badb2d3/translation.md>)
 
-    - [ ] [wrapper] 0015-domain-specific-repository-we-don-t-need-to-e87666826c (9/13)
+    - [x] [wrapper] 0015-domain-specific-repository-we-don-t-need-to-e87666826c (13/13)
 
       [W] `0015-domain-specific-repository-we-don-t-need-to-e87666826c`
 
-        - [ ] [unit] 0001-domain-specific-repository-34894dc8ba: Domain-specific repository
+        - [x] [unit] 0001-domain-specific-repository-34894dc8ba: Domain-specific repository
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0015-domain-specific-repository-we-don-t-need-to-e87666826c/0001-domain-specific-repository-34894dc8ba/translation.md>)
 
-        - [ ] [unit] 0002-we-don-t-need-to-contact-the-repository-9bfb84aa02: We don't need to contact the repository because it is a routine for us.
+        - [x] [unit] 0002-we-don-t-need-to-contact-the-repository-9bfb84aa02: We don't need to contact the repository because it is a routine for us.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0015-domain-specific-repository-we-don-t-need-to-e87666826c/0002-we-don-t-need-to-contact-the-repository-9bfb84aa02/translation.md>)
 
-        - [ ] [unit] 0003-we-have-already-contacted-the-repository-90b29de913: We have already contacted the repository.
+        - [x] [unit] 0003-we-have-already-contacted-the-repository-90b29de913: We have already contacted the repository.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0015-domain-specific-repository-we-don-t-need-to-e87666826c/0003-we-have-already-contacted-the-repository-90b29de913/translation.md>)
 
-        - [ ] [unit] 0004-we-are-going-to-contact-the-repository-80feb7da37: We are going to contact the repository.
+        - [x] [unit] 0004-we-are-going-to-contact-the-repository-80feb7da37: We are going to contact the repository.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0015-domain-specific-repository-we-don-t-need-to-e87666826c/0004-we-are-going-to-contact-the-repository-80feb7da37/translation.md>)
 
@@ -4204,11 +4204,11 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0015-domain-specific-repository-we-don-t-need-to-e87666826c/0013-the-repository-will-provide-an-advanced-processing-service-6e48f3caf5/translation.md>)
 
-    - [ ] [wrapper] 0016-we-will-be-adding-a-reference-to-the-d004f18ee2 (0/1)
+    - [x] [wrapper] 0016-we-will-be-adding-a-reference-to-the-d004f18ee2 (1/1)
 
       [W] `0016-we-will-be-adding-a-reference-to-the-d004f18ee2`
 
-        - [ ] [unit] 0001-we-will-be-adding-a-reference-to-the-d6365288c5: We will be adding a reference to the published data to at least one data catalogue.
+        - [x] [unit] 0001-we-will-be-adding-a-reference-to-the-d6365288c5: We will be adding a reference to the published data to at least one data catalogue.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0016-we-will-be-adding-a-reference-to-the-d004f18ee2/0001-we-will-be-adding-a-reference-to-the-d6365288c5/translation.md>)
 
@@ -4260,21 +4260,29 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0022-we-have-a-reserved-budget-for-the-time-806727c013/0001-we-have-a-reserved-budget-for-the-time-d1577f69b0/translation.md>)
 
-    - [ ] [wrapper] 0023-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60 (0/1)
+    - [ ] [wrapper] 0023-repository-costs-and-publication-preparation-becdeb534d (0/1)
 
-      [W] `0023-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60`
+      [W] `0023-repository-costs-and-publication-preparation-becdeb534d`
 
-        - [ ] [unit] 0001-preservation-selection-still-requires-review-publication-decisions-and-cd34063cf9: Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.
+        - [ ] [unit] 0001-repository-costs-and-publication-preparation-70b349e703: Repository costs and publication preparation
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0023-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60/0001-preservation-selection-still-requires-review-publication-decisions-and-cd34063cf9/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0023-repository-costs-and-publication-preparation-becdeb534d/0001-repository-costs-and-publication-preparation-70b349e703/translation.md>)
 
-    - [x] [wrapper] 0024-this-document-does-not-yet-contain-an-answer-33896db936 (1/1)
+    - [x] [wrapper] 0024-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60 (1/1)
 
-      [W] `0024-this-document-does-not-yet-contain-an-answer-33896db936`
+      [W] `0024-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60`
 
-        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-3294cfb423: This document does not yet contain an answer about data selection and long-term preservation.
+        - [x] [unit] 0001-preservation-selection-still-requires-review-publication-decisions-and-339824e0ba: Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0024-this-document-does-not-yet-contain-an-answer-33896db936/0001-this-document-does-not-yet-contain-an-answer-3294cfb423/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0024-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60/0001-preservation-selection-still-requires-review-publication-decisions-and-339824e0ba/translation.md>)
+
+    - [x] [wrapper] 0025-this-document-does-not-yet-contain-an-answer-33896db936 (1/1)
+
+      [W] `0025-this-document-does-not-yet-contain-an-answer-33896db936`
+
+        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-258449bc6d: This document does not yet contain an answer about data selection and long-term preservation.
+
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0025-this-document-does-not-yet-contain-an-answer-33896db936/0001-this-document-does-not-yet-contain-an-answer-258449bc6d/translation.md>)
 
 - [x] [file] src/questions/12-access-data.html.j2 (12/12)
 
