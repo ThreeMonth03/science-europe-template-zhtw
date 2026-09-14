@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "local_branch_language_checks": 52,
+  "release_acceptance": false,
+  "checker_sha256": "29d0799d8966083838698e6eac71444aa4c76fc71b311d62b7e7241b50af32fe",
+  "fixture_helper_sha256": "9ed894dbf5cb864a2f92f3a570daa298407bc1e6320f0d506cc0ec37d1ba5244",
+  "package_sha256": {
+    "english.zip": "9a898003b2ce92078dc9fe30135e863c4d01050b801b9f18863a392d5b7ad857",
+    "chinese.zip": "478078bdd1857e65098819a82c706e32262f533271ed932477c94e3b9e9e3f4c"
+  },
+  "scope": "24 Q10 process/metadata/custom-detail combinations + 2 Q11 fixture states, each EN/ZH; adapters, not DSW renders"
+}

@@ -1,0 +1,129 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "checker_sha256": "6917e34f89729a120b14f6610d01cf3fee0195a33be8f9bdc5912f93bff05d6b",
+  "rows": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "joined_q3_runs": 2,
+      "pdf_pages": 8,
+      "native_provenance_table": true,
+      "table_pages": {
+        "pdf": [
+          3
+        ],
+        "word-preview": [
+          2
+        ]
+      },
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "joined_q3_runs": 2,
+      "pdf_pages": 7,
+      "native_provenance_table": true,
+      "table_pages": {
+        "pdf": [
+          3
+        ],
+        "word-preview": [
+          3
+        ]
+      },
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "preservation-partial",
+      "language": "english",
+      "joined_q3_runs": 2,
+      "pdf_pages": 8,
+      "native_provenance_table": true,
+      "table_pages": {
+        "pdf": [
+          3
+        ],
+        "word-preview": [
+          2
+        ]
+      },
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "preservation-partial",
+      "language": "chinese",
+      "joined_q3_runs": 2,
+      "pdf_pages": 7,
+      "native_provenance_table": true,
+      "table_pages": {
+        "pdf": [
+          3
+        ],
+        "word-preview": [
+          3
+        ]
+      },
+      "passed": true,
+      "word_preview_pages": 7
+    }
+  ],
+  "controlled_question_comparisons": 0,
+  "package_sha256": {
+    "english.zip": "9a898003b2ce92078dc9fe30135e863c4d01050b801b9f18863a392d5b7ad857",
+    "chinese.zip": "478078bdd1857e65098819a82c706e32262f533271ed932477c94e3b9e9e3f4c"
+  },
+  "artifact_sha256": {
+    "renders/preservation-complete-chinese.docx": "13783482f5dc2f8dfdacf819e880f64575b25efff6ede93998b9be1be69e6eb9",
+    "renders/preservation-complete-chinese.docx.fixture.json": "3a01ae3c7cf0ca2de2c050130608aa9da6f67143c99141c0f9024f86be287912",
+    "renders/preservation-complete-chinese.docx.json": "12fb9f4dd893bcb4bded4c79c88ebbefe939c2ea481fe08bcf4b728579facdca",
+    "renders/preservation-complete-chinese.html": "92e337168d4ad694f879f70bc772be98dd885d33797dc07c1bef5296cb6a553a",
+    "renders/preservation-complete-chinese.html.fixture.json": "72b51293620f64d6fd0cca6fd36d91a46bb26e929728359578fd784b4360779b",
+    "renders/preservation-complete-chinese.html.json": "190b9bac7163e76fd953a9ee6e2e2832f7d6f25ba93c12bf1601dac6f6a0249d",
+    "renders/preservation-complete-chinese.pdf": "999c85c83a75084bffc32cf7a6ac5f5a60ddba1d07233804596b7859d94f5477",
+    "renders/preservation-complete-chinese.pdf.fixture.json": "08f80118e9176457ee6056559b818136dfe9ea3a8d5ef746d461f14861141216",
+    "renders/preservation-complete-chinese.pdf.json": "0a677ae8ca59c57cf6420db6b27f5c70dfa8a98e71b2679d0530b322de8434c7",
+    "renders/preservation-complete-english.docx": "3600145439720c975abcd857c0f413c27eccb8445c6a0864e684ed29c2bec6b6",
+    "renders/preservation-complete-english.docx.fixture.json": "58c3f13c7631187bd05d0a5e0682e028ea5fb0bf9b61bbe76d2767ec14c249df",
+    "renders/preservation-complete-english.docx.json": "c77d07594653950f1820c8813ec95ffbdd3fa494b001f8b0e61d64a4bdfca53e",
+    "renders/preservation-complete-english.html": "6004ae48f0c5b08a475bfed603ada1d60d23e8980a8e3d705e1532ff86720c47",
+    "renders/preservation-complete-english.html.fixture.json": "c1c9b9c248f5a8abfbc121101dcef5d53806bd0d038f15f8a98ad20d818cf44d",
+    "renders/preservation-complete-english.html.json": "6418eec4be4310280b8e289e80067c3b9bb012fbe99c1d0bc3766025651489d9",
+    "renders/preservation-complete-english.pdf": "2e9a77f63f8bec6e49672f12a5b2dd890e2992c0f93b64618d22dc9339fece26",
+    "renders/preservation-complete-english.pdf.fixture.json": "03edde760bc54c446f0601271a2915cbb763f89e1283141190b3f08d3ceb6118",
+    "renders/preservation-complete-english.pdf.json": "1534b4bb506c72510e7cdc97c46e8a92e54855c8040ab985e54d49e04cbca449",
+    "renders/preservation-partial-chinese.docx": "3da6fedbb0507ea90946ce1890b99e9bf3f9d753456e4c9f8db5f4041fb2bb07",
+    "renders/preservation-partial-chinese.docx.fixture.json": "39cc095656ae8201cfd929964d668abff568de83fa4a6f27b78558b5bc01cc2e",
+    "renders/preservation-partial-chinese.docx.json": "5e8f069be75193c04e751613a938bb2743a7d08e4f3fe43030cc89312e26a5f0",
+    "renders/preservation-partial-chinese.html": "9890c45eb56fa42f3387c1080d1f07f6b33c4f9575a357a66327d6c50a41a2c8",
+    "renders/preservation-partial-chinese.html.fixture.json": "fd5f496ba5e9b9e1eab032562d054041600f5375183669b7525830e7d4b3e69e",
+    "renders/preservation-partial-chinese.html.json": "1068252432c1b9881ba330db50af44cd4ef2c74a1e627adc3bb9f3344cd9da18",
+    "renders/preservation-partial-chinese.pdf": "6d7a339fdb3be930aa72884e96b02c476878b379c2ad5c5b27b9949514d4ba49",
+    "renders/preservation-partial-chinese.pdf.fixture.json": "f5e42374b7ab22926370ed6d18a7a80edb9c6792434ab10274bfe57f80ecfe9c",
+    "renders/preservation-partial-chinese.pdf.json": "33e92cbf9c0d83342e04e5419b2f49a8d40a3a19832c46c99e6a0fa209589f0d",
+    "renders/preservation-partial-english.docx": "66d84aa413c8b72235a8c965830e5bdef1145f94fab35ae5cf0918574180f3bd",
+    "renders/preservation-partial-english.docx.fixture.json": "06564b5ddc7e2b11ac313c9e4473fd2457c6816e0a5b0ed802de065bf163c3c8",
+    "renders/preservation-partial-english.docx.json": "924fc76dd14c383a62faea43cf65187ece52d47b45a97c0fe5aba634a1fbde84",
+    "renders/preservation-partial-english.html": "33766883b88761d88b3df16519dceba306f6a31f1c2b31396f6baeaae675fbef",
+    "renders/preservation-partial-english.html.fixture.json": "3f644d50eec0c322638213f9598df8d425a9ea79c832802599b733e3bdb3620b",
+    "renders/preservation-partial-english.html.json": "2646fbc22cf8799e878636736b79115b8f2da531ef1c9e389953b97fe1b3765d",
+    "renders/preservation-partial-english.pdf": "73fc9711cbc48a112eff9a7df10dea81a5956050f158e8439ff46c75def3fa08",
+    "renders/preservation-partial-english.pdf.fixture.json": "eae5d57743879c20ea07550a6497a9902bf4f2b881f1ace67d6e1f677abe427d",
+    "renders/preservation-partial-english.pdf.json": "e069ad2c764296f0ebd6cf142ae36546145f2d446a431ee5d3fa6114368c6761",
+    "word-preview/preservation-complete-chinese.pdf": "77a7a33e05d3705e1a422b20267ac2dd9b57421c7e1a93da519ced6f66ebe9d2",
+    "word-preview/preservation-complete-english.pdf": "10153bde79afa4ce3e0644eafe51cf5421fd27971cd0c8d7321049cf054744d2",
+    "word-preview/preservation-partial-chinese.pdf": "606c89ccfa85a7e01fd90346a70deadfb985e901f2c7c2748d80b42039611e97",
+    "word-preview/preservation-partial-english.pdf": "e49bd5dfcf011b316217b40587cc6d054318a3bb6f173a59fb29917d810d32de"
+  },
+  "limits": [
+    "Synthetic selected branches only; no full SE topic coverage",
+    "Comparison excludes only Q2 instrument section; its new summaries checked separately",
+    "Stock worker cannot render Markdown tables",
+    "LibreOffice preview is not Microsoft Word pagination",
+    "Oversized single cells are excluded from keep hints, not a claim that every renderer splits them well"
+  ]
+}

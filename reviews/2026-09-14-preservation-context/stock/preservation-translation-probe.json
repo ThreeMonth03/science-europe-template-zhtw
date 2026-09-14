@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "local_branch_language_checks": 122,
+  "exact_reviewed_phrase_checks": 776,
+  "checker_sha256": "9f67267b77165268d8d673bbfbdcd7c34f914ecb1aefb9e5f745bd7ba0e3c8f6",
+  "context_flow_checks": 122,
+  "helper_sha256": {
+    "check_context_outputs.py": "93fa16556929a6aa980fa455cd9493ef587151fa4e1c34070eaa97cb2618a74b"
+  },
+  "fixture_helper_sha256": "8c14e65d60b9233c21616c687986a1b8ecfb86152d2b40c3f8ca984bb0ef92cf",
+  "reviewed_phrases_sha256": "9bd4311b8428d98a830a4d2f8370feb23e29e492f5e25d636ec026a942a3dadb",
+  "package_sha256": {
+    "english.zip": "9a898003b2ce92078dc9fe30135e863c4d01050b801b9f18863a392d5b7ad857",
+    "chinese.zip": "478078bdd1857e65098819a82c706e32262f533271ed932477c94e3b9e9e3f4c"
+  },
+  "limits": [
+    "Adapter-based branch checks, not native DSW rendering",
+    "Authored probe HTML stays unchanged",
+    "No full SE coverage claim"
+  ]
+}

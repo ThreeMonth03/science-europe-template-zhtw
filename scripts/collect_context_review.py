@@ -48,7 +48,10 @@ def main():
         verify_files(root / 'renders', pilot['sha256'])
         for name in ['manifest.json', 'pilot-report.json', 'render-results.json']: keep(root / name, f'{side}/{name}')
         for case, language in sorted(PAIRS):
-            for fmt in ['html', 'pdf', 'docx']:
+            # Native HTML embeds a ~16 MB font per file. Keep its original digest
+            # in the reports and full file in outputs; do not multiply font blobs
+            # into the Git review archive. Archive the requested native documents.
+            for fmt in ['pdf', 'docx']:
                 for suffix in ['', '.fixture.json']:
                     name = f'{case}-{language}.{fmt}{suffix}'; keep(root / 'renders' / name, f'{side}/{name}')
             name = f'{case}-{language}.pdf'; keep(root / 'word-preview' / name, f'{side}/word-preview/{name}')
@@ -70,8 +73,17 @@ def main():
         report = read(a.baseline, name + '.json')
         assert report['passed'] and report['release_acceptance'] is False and report['package_sha256'] == packages
         assert report['checker_sha256'] == sha(ROOT / f'scripts/probe_{script}.py')
-        verify_files(ROOT / 'scripts', report.get('helper_sha256', {}))
+        helper_root = a.english if script == 'repository_reading' else ROOT / 'scripts'
+        verify_files(helper_root, report.get('helper_sha256', {}))
         verify_files(a.english, report.get('source_helper_sha256', {}))
+        fixture_sources = {'format_translation': 'test_format_volume.py', 'sharing_translation': 'test_sharing_preservation.py',
+                           'preservation_translation': 'test_preservation_coverage.py', 'answer_states': 'test_answer_states.py'}
+        if 'fixture_helper_sha256' in report:
+            assert report['fixture_helper_sha256'] == sha(a.english / 'tests' / fixture_sources[script])
+        if 'adapter_sha256' in report:
+            assert report['adapter_sha256'] == sha(a.english / 'tests/test_science_europe_contract.py')
+        if 'reviewed_phrases_sha256' in report:
+            assert report['reviewed_phrases_sha256'] == sha(ROOT / 'docs/readability-phrases.json')
         keep(a.baseline / (name + '.json'), 'stock/' + name + '.json')
     for name in ['translation-audit.json', 'structure-audit.json']:
         assert read(a.baseline, name) == []; keep(a.baseline / name, 'stock/' + name)
@@ -99,7 +111,8 @@ def main():
     keep(a.review_document, 'README.md')
     payload = (json.dumps(delta, indent=2) + '\n').encode()
     size = len(payload) + sum(source.stat().st_size for source, _ in copies)
-    assert size < 25_000_000 and len({n for _, n in copies}) == len(copies)
+    assert size < 25_000_000, ('Review archive exceeds byte budget', size)
+    assert len({n for _, n in copies}) == len(copies), 'Duplicate archive paths'
     a.destination.mkdir(parents=True, exist_ok=False); hashes = {}
     for source, name in copies:
         target = a.destination / name; target.parent.mkdir(parents=True, exist_ok=True)
