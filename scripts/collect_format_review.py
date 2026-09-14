@@ -14,6 +14,8 @@ def main():
     parser.add_argument('--variant', type=Path, required=True)
     parser.add_argument('--destination', type=Path, required=True)
     parser.add_argument('--review-document', type=Path, required=True)
+    parser.add_argument('--max-archive-bytes', type=int, default=25_000_000,
+                        help='Stop oversized review copies before they can be committed')
     args = parser.parse_args()
     comparison = json.loads((args.variant / 'runtime-comparison.json').read_text())
     assert comparison['selected_comparison_passed'] and comparison['release_acceptance'] is False
@@ -47,7 +49,9 @@ def main():
         checked = {(row['case'], row['language']) for row in json.loads((root / 'format-report.json').read_text())['rows']}
         for case, language in cases:
             assert (case, language) in checked
-            for fmt in ('html', 'pdf', 'docx'):
+            # Rendered HTML embeds the full font as base64 (~16 MB per file).
+            # Keep its hash in reports; retain the original in ignored outputs.
+            for fmt in ('pdf', 'docx'):
                 name = f'{case}-{language}.{fmt}'
                 for suffix in ('', '.fixture.json'): shutil.copy2(root / 'renders' / (name + suffix), out / (name + suffix))
         for name in ('manifest.json', 'pilot-report.json', 'render-results.json', 'format-report.json', 'reading-report.json', 'quality-report.json'):
@@ -57,6 +61,8 @@ def main():
         shutil.copy2(args.baseline / name, args.destination / 'stock' / name)
     shutil.copy2(args.variant / 'runtime-comparison.json', args.destination / 'runtime-comparison.json')
     shutil.copy2(args.review_document, args.destination / 'README.md')
+    size = sum(p.stat().st_size for p in args.destination.rglob('*') if p.is_file())
+    assert size <= args.max_archive_bytes, (size, 'Review exceeds archive size budget; do not commit it')
     (args.destination / 'checksums.json').write_text(json.dumps({str(p.relative_to(args.destination)): sha(p) for p in sorted(args.destination.rglob('*')) if p.is_file()}, indent=2) + '\n')
     print(args.destination)
 

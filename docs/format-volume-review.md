@@ -98,7 +98,18 @@ Q2 在 upstream 的 critical 重疊清單內；未來升級須審閱語意及這
 英文 ZIP：`bdd35e614d8393c4205eb7649e7e8cb429278dedae9fd3256d12387b59cc632d`。
 中文 ZIP：`eeb7fdbc0d81b442e4fa32b605fd9f89ce9ead48e24dff8eb4dbb3415e6e88a4`。
 
+後續乾淨重建 `outputs/build-w010jx4i` 的英文 ZIP 相同，中文 ZIP 為
+`0c72a16c4f402f3b8b96d276dc27e75bd3a1854dfcd4cc81543052db5c0a738e`。
+逐一比對 ZIP 內容，唯一差異是 metadata 的 `readme`（repo README 新增審閱連結）；
+所有模板、樣式、字型、Word reference 檔案完全相同。舊產檔報告仍只綁定上方
+實際測過的 ZIP，不移植為新 ZIP 的驗收報告。後續應分開維護套件 README 與
+repo 導覽 README，避免純審閱連結更新也改變套件校驗碼。
+
 本機原版建置為 `outputs/build-n64y5gea`，表格實驗為 `outputs/runtime-tables-jzcfk0v1`。
+封存保留 PDF／DOCX、Word 預覽及驗證報告；原始 HTML 內嵌整套字型，僅保留在
+本機 outputs，checksum 仍記在報告中，避免每份樣張重複增加約 16 MB。
+封存程式另設 25 MB 總量預警。首次封存提交曾包含 HTML，後續以正常提交移除
+工作樹副本，不改寫已推送歷史；該首次提交及本機完整備份仍可取回。
 未覆寫任何舊樣張、未合併主線、未建立 tag／release、未 stage 或部署到線上 DSW。
 本機 worker 已恢復原版映像並停止整個 pilot；未使用線上憑證或改動線上 project。
 
