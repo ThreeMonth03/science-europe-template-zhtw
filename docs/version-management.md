@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.10 的英中工作分支為 `feat/repository-reading`，承接 0.3.9 的 `fix/answer-state-claims`。
+目前 0.3.11 的英中工作分支為 `feat/repository-contact-reference`，承接 0.3.10 的 `feat/repository-reading`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談
@@ -64,6 +64,13 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 一般連字號。Q10 自訂申請流程與 Q11 自訂付款安排亦須保留作者的段落與清單。
 
 ## 中文單獨修版演練
+
+0.3.11 將 Other-contact 自由回答完整保留在 Q11，Q10 引用同一資料集／管道。
+來源仍只在英文維護，中文精確鎖定該來源。上游或臺灣版改題號、題目順序時，
+須重驗引用文字與目標、同名資料集、缺答、作者原文，以及 HTML／PDF／Word
+內部連結；文件內位置 anchor 不是跨問卷修改的永久 ID。Word 引言必須實際
+解析為段落並套用既有 keep-with-next，只有相同的外層 class 並不足夠。
+證據見 [聯繫回答歸屬審閱](../reviews/2026-09-14-repository-contact/README.md)。
 
 0.3.10 的 Q11 管道編號、缺答列與短清單邊界由英文維護；標籤粗體交給共用
 PDF CSS／Word Lua，避免翻譯單位遺失裝飾標記。既有 Word 樣式不變，另增
