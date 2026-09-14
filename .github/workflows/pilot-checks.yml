@@ -38,6 +38,12 @@ jobs:
           repository: ThreeMonth03/science-europe-template
           ref: ${{ steps.locks.outputs.source }}
           path: english
+      - name: Check locked English source with only its declared dependencies
+        working-directory: english
+        run: |
+          python -m venv "$RUNNER_TEMP/english-check-venv"
+          "$RUNNER_TEMP/english-check-venv/bin/python" -m pip install -r requirements-dev.txt
+          make check PYTHON="$RUNNER_TEMP/english-check-venv/bin/python" DSW_TDK="$RUNNER_TEMP/english-check-venv/bin/dsw-tdk"
       - uses: actions/checkout@v4
         with:
           repository: ThreeMonth03/dsw-document-template-tool
