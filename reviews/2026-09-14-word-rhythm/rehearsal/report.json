@@ -1,0 +1,14 @@
+{
+  "source_sha256": "69574c97d37d7d471d4d757bf0a1705640c6cbc21814fad6f98bca6f7105a669",
+  "release_acceptance": false,
+  "variants": {
+    "line-only": {
+      "sha256": "53524aeac74bf37b919d359c8f82be302a7ae4354c4cc5f39df4dbfa0876f32b",
+      "all_non_style_parts_byte_identical": true
+    },
+    "rhythm": {
+      "sha256": "fd219eebde1ed8b9071f54f97f20f3b52f8dabef6f422acf645613da87eec6fb",
+      "all_non_style_parts_byte_identical": true
+    }
+  }
+}

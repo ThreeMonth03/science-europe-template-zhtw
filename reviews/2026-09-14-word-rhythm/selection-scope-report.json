@@ -1,0 +1,3201 @@
+{
+  "source_commit": "b28d9370dcb1594afff09a56662668381f368cb7",
+  "source_dirty": false,
+  "release_acceptance": false,
+  "source_inventory_sha256": "dfcda3b4ef9b9d384d33034c0149a6b2558a1b8acdf4c827c544f1dce3fc1f47",
+  "compiled_inventory_source_commit": "431ad56aeaa42c3752f0fe6e851276790504f2b1",
+  "km_sha256": {
+    "en": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+    "zh-Hant": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47"
+  },
+  "checker_sha256": "4e65e413c331ba6be58f2fb2d747cfc58f7d7c9735efaf33cbf24dc4c252d638",
+  "search_pattern": "preserv|retai|reten|discard|destroy|destruct|select|sustain|policy|policies|archiv|long.term",
+  "template_sha256": {
+    "src/content.html.j2": "a7208a6634f73b3f2a52c46675af36c32efdece2d0d315729fa8d541ac5c2d03",
+    "src/contributors.html.j2": "90f90fba14cfc678a05cbb4ba6c6493b15bdf6cd2c04805118736b476dc53007",
+    "src/document-provenance.html.j2": "916ab72e56730ce285506fbba61cee056ab5f44ba62041dc2afb903496193232",
+    "src/frontmatter.html.j2": "6ca4bd37d0cb79922671b72df8ea5639e224bc92d726fc6da79aa727e374b90b",
+    "src/globals.j2": "cad53b617cc77d7bdaa61187d47bb8526f8e1edd8eed42f6e9db46f3a1f2afc0",
+    "src/header.html.j2": "57060cceee1193d4c1e0445a945ebb8e4289f8d27af81ab8cbf809734d0281b0",
+    "src/index.html.j2": "393eea4438f24a0c551e64f255b5b1e49a857ae29bf1f87a2827098698396438",
+    "src/macros.html.j2": "d75cb2d6433208af2ea07004c0faede5df7eb31f6a3ee50ed5d8835e948c4413",
+    "src/post-project-archive.html.j2": "db6519fc4abb4b4cb99006f2d745ecdc053e1d9d2a59bdefe2ba76892b29ac8c",
+    "src/preservation-dataset.html.j2": "bd0ed81649ffa2d224853cbde2f59d310cee81c6c05e534e2b29fb4e6006e052",
+    "src/preservation-publication-reason.html.j2": "fd5550757afbe0cd10c80cad37a6ee8f6dbdca47fee6e6c3ec4a31858ba07bfa",
+    "src/projects.html.j2": "a9dfd886a9df5077239ca034a80750353c4e7386d56498ce79fd6da126f78016",
+    "src/quality-control.html.j2": "ed83bb7cd836eded96c1d7a420870399701d16f36384f47a99eb34fd835f5833",
+    "src/questions/01-how-data.html.j2": "66dc404732f54554ab8d44caf3f00f75c4356a30961d9d8be3b96005571cf3fc",
+    "src/questions/02-what-data.html.j2": "9ae958eae76cd2b2523b9e961d4cb58497ed7449c3fc32b0b1e8f42017e56224",
+    "src/questions/03-docs-metadata.html.j2": "0f929ac601ffb00aa6d8a7352fa4edcb2fd1ab0ed2d4a3daa3b07190bac7dded",
+    "src/questions/04-quality-control.html.j2": "8bfdddafb16588e21c511e73e6fe06ace8df22f04b96d36160b43eeace4c078e",
+    "src/questions/05-store-backup.html.j2": "cd306250705611cd64a9e87446dc5e60c6fcddd63e525da63eef58b7bfb1ddd3",
+    "src/questions/06-access-security.html.j2": "c451d0f629f323923c7ce331e82f10a0fd4dc3521acee450360395a16ece8467",
+    "src/questions/07-personal-data.html.j2": "87eab897cc5b200d2daf160e64c0f6296af2bc44b747d44b7bbd48ff918ec1b8",
+    "src/questions/08-copyright-ipr.html.j2": "1ab4215ca7e31d1c8726cdeae0b06c0c4461507efb196ae1a4adfcb1113ba9ca",
+    "src/questions/09-ethical-issues.html.j2": "b9c1265add9a0c393372a610725ed164ca2d29a050462173fc892f8d84e5fc72",
+    "src/questions/10-share-restrictions.html.j2": "5cc2742f9a349930c77b58623ca4893f869cfb0430df0aa90c9a6921e9354f1d",
+    "src/questions/11-data-preservation.html.j2": "e45168590afcb69317c158dcaa587fba32bfe3a63e3d38cfe6680e7b17dffee4",
+    "src/questions/12-access-data.html.j2": "4b57404c39b6e1a4447d438477920206e90c76f8b4fa5ceb14a417fd50a6c7da",
+    "src/questions/13-persistent-identifier.html.j2": "908ed8d59daa7465519a8e55c66222ded1a526b0d3b22bf0c98069817a62b050",
+    "src/questions/14-dm-responsible.html.j2": "eb6d7464ed0710adf3d15224f452064ae23e8b065f3170053c8a7924ec1f4f23",
+    "src/questions/15-required-resources.html.j2": "f0a66c85094dee18fa8b1aa246e3a2ab47b7491777faf5f4859b8b2d9893e55a",
+    "src/uuids.j2": "b97b69339c6ae78c7ff8a5c9171387720c3b3947c1f6c9855621cf1c787e2e00",
+    "src/versions.html.j2": "ded0a143a9db03aa6f49e980758200d9cb7988b61ef8448548a14038dc3af171",
+    "src/word/frontpage.html.j2": "c8fe6c9f4f9fb07f8c29f3702cada16c86bd2c55ceecb8ca674208c20c775710",
+    "src/word/index.html.j2": "fab18472223b73d728cc565dc7e6b819db0d301858ed99ce9493104de13cea07",
+    "src/word/versions.html.j2": "dac94bd2a2b4bd1533f168eb9aebd1f2c257c2e22cb53b1e398ed543001a8dbc"
+  },
+  "reachable_question_counts": {
+    "en": 592,
+    "zh-Hant": 592
+  },
+  "candidate_count": 47,
+  "candidates": {
+    "en": [
+      {
+        "uuid": "87964502-4401-45e5-9084-d6c84a417acf",
+        "path": [
+          "1e85da40-bbfc-4180-903e-6c569ed2da38",
+          "87964502-4401-45e5-9084-d6c84a417acf"
+        ],
+        "type": "ListQuestion",
+        "title": "Describe national / funder / sectorial / departmental policies and procedures for data management that you will be using.",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "policiesProceduresQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "34058487-d9e7-41af-be6a-aba67200b8d2",
+        "path": [
+          "1e85da40-bbfc-4180-903e-6c569ed2da38",
+          "87964502-4401-45e5-9084-d6c84a417acf",
+          "ITEM",
+          "34058487-d9e7-41af-be6a-aba67200b8d2"
+        ],
+        "type": "ValueQuestion",
+        "title": "Name of the policy or process",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "policiesProceduresNameQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "e13bf3cb-cf78-486e-b844-2c12320919c4",
+        "path": [
+          "1e85da40-bbfc-4180-903e-6c569ed2da38",
+          "87964502-4401-45e5-9084-d6c84a417acf",
+          "ITEM",
+          "e13bf3cb-cf78-486e-b844-2c12320919c4"
+        ],
+        "type": "ValueQuestion",
+        "title": "Give a link/reference to the policy or process",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "policiesProceduresLinkQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "c730b703-82cf-4a0e-a1dc-d910d73d1ed9",
+        "path": [
+          "1e85da40-bbfc-4180-903e-6c569ed2da38",
+          "87964502-4401-45e5-9084-d6c84a417acf",
+          "ITEM",
+          "c730b703-82cf-4a0e-a1dc-d910d73d1ed9"
+        ],
+        "type": "ValueQuestion",
+        "title": "Description of how and why you are using this policy or process",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "policiesProceduresDescriptionQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "10b6548c-21cd-44c8-a8de-47415e7b012e",
+        "path": [
+          "82fd0cce-2b41-423f-92ad-636d0872045c",
+          "efc80cc8-8318-4f8c-acb7-dc1c60e491c1",
+          "2663b978-5125-4224-9930-0a50dbe895c9",
+          "fcc51962-08df-4f4c-85ad-6bb932107010",
+          "ITEM",
+          "58401091-2d48-4231-983a-c972d11d9f6e",
+          "8a1937d8-39dc-4efd-a3f6-b62e789f225b",
+          "10b6548c-21cd-44c8-a8de-47415e7b012e"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Is the reference database or dataset versioned?",
+        "guidance": "Many reference datasets and databases evolve over time. If the reference data changes, this may affect your results. If different versions of a reference data exist, you need to establish your \"version policy\".",
+        "choices": [
+          {
+            "uuid": "32c9e457-8289-4825-9334-83ff87adeb3f",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "842007ce-0951-4655-8acc-b0f582e82ea1",
+            "label": "Yes",
+            "follow_up_uuids": [
+              "f00a28fb-ac77-4110-b285-c73c8bc62630",
+              "481d0157-6d89-4f68-9f3b-cf1b05f8f15d"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "refDataVersionedQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/01-how-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "2e7af465-4852-4411-8d8e-7f0ff64d8b25",
+        "path": [
+          "82fd0cce-2b41-423f-92ad-636d0872045c",
+          "efc80cc8-8318-4f8c-acb7-dc1c60e491c1",
+          "2663b978-5125-4224-9930-0a50dbe895c9",
+          "be872000-cb98-442f-999c-ca3ef58dcfe8",
+          "ITEM",
+          "f5e129dc-d59d-4352-a5ed-25efe1d83811",
+          "7fc8d3c9-a2d5-4d47-9df4-56af48ca85e1",
+          "2e7af465-4852-4411-8d8e-7f0ff64d8b25"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Can you and will you use the complete existing data set?",
+        "guidance": "If you use any filtering, how will you make sure that your results will be reproducible by yourself and others at a later time?",
+        "choices": [
+          {
+            "uuid": "2076afb5-3c5c-4f42-8f77-9b78fec76a62",
+            "label": "I will use the complete data set",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "f748624d-8d28-4d07-91c7-28b33db1fabd",
+            "label": "Any filtering or selection will be well documented",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "cba7c977-986d-4673-9bbc-fb3f7fed95c6",
+            "label": "I will make sure the selected subset will be available together with my results",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "nrefDataCompleteQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/01-how-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "ced5a7c2-4034-4763-a1d5-3cb815cdfddb",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "b08fe063-33f8-4380-b3a9-ba1e586dedf2",
+          "ITEM",
+          "ced5a7c2-4034-4763-a1d5-3cb815cdfddb"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Does this data format enable sharing and long term archiving?",
+        "guidance": "Complicated (binary) file formats tend to change over time, and software may not stay compatible with older versions. Also, some formats (e.g. DOC, XLS) hamper long term usability by making use of patents or being hampered by restrictive licensing. \n\nIdeally a format should be simple, text only, completely described, not restricted by copyrights, and implemented in different software packages.",
+        "choices": [
+          {
+            "uuid": "86e547b8-e3ae-44b2-89ad-3a0d67decc56",
+            "label": "No",
+            "follow_up_uuids": [
+              "bf32374c-b24e-4b03-9898-a753cff56fcf"
+            ]
+          },
+          {
+            "uuid": "985e488d-257f-479d-8113-5dcbe105a08e",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "formatsIsLTSuitableQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/02-what-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "bf32374c-b24e-4b03-9898-a753cff56fcf",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "b08fe063-33f8-4380-b3a9-ba1e586dedf2",
+          "ITEM",
+          "ced5a7c2-4034-4763-a1d5-3cb815cdfddb",
+          "86e547b8-e3ae-44b2-89ad-3a0d67decc56",
+          "bf32374c-b24e-4b03-9898-a753cff56fcf"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will you convert to a file format more suitable for archiving later?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "3159d107-d322-4126-958f-900fc011eeae",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "7d8dc2f5-2699-4fb3-8bf6-e620868a0583",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "formatsConvertLTSuitableQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/02-what-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "73bf7531-3490-4c0f-b6a2-a9f4f2bc3e1a",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "8c962e6f-17ee-4b22-8ebb-9f06f779e3b3",
+          "6d18bfff-0f53-469b-934e-9806dda9d4fb",
+          "15573266-7ddf-4c6b-962e-45691d34cf61",
+          "cb765913-50c9-482e-bf10-5f5f91d0e473",
+          "73bf7531-3490-4c0f-b6a2-a9f4f2bc3e1a"
+        ],
+        "type": "OptionsQuestion",
+        "title": "How will you balance the extra efforts with the potential for added reusability?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "3002eaed-c31f-4bdd-83ed-49262ae79165",
+            "label": "I will see what I can do",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "7ef32aea-b6a7-4297-92bd-0869a13276ad",
+            "label": "I will use preselected additional standard modules of metadata",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "018fc8a0-c51e-48f4-99d5-77e8c9dcf51f",
+            "label": "I will collect all metadata I can gather and document the data set beyond minimal standards",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "91a7c75c-6f0e-4bae-b3f3-1890feaae9b2",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "8c962e6f-17ee-4b22-8ebb-9f06f779e3b3",
+          "6d18bfff-0f53-469b-934e-9806dda9d4fb",
+          "91a7c75c-6f0e-4bae-b3f3-1890feaae9b2"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will you use a workflow system that automatically keeps track of the steps in the analysis?",
+        "guidance": "Some workflow systems automatically keep track of which steps were done in data analysis and what options were selected. This can help document the data for reproducibility.",
+        "choices": [
+          {
+            "uuid": "fdb89e4f-f108-4d4f-9145-07e255137d85",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "e9568fd5-1fe0-41d5-a46d-30b2d2668e12",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "f0a474ac-21b5-4b6a-9fd5-b9c3f8882055",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "f87c331d-794a-42c8-a910-61a2a9110dab",
+          "e4ca2d31-137a-46d3-96cd-3e9e8c5e9a76",
+          "f5fef09d-ade5-4019-b089-f05bd89c34bc",
+          "ITEM",
+          "ee59664e-4026-4796-a42a-e8003df6dadf",
+          "f2784b7e-b0ed-4973-9d68-954c5c24e8bb",
+          "f0a474ac-21b5-4b6a-9fd5-b9c3f8882055"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Has responsibility for long term safe keeping of the raw data been established? Who will deal with data publication?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "b10cd3bf-ecd6-4fa1-a9c4-d8d974de714c",
+            "label": "The measuring party will publish it after a fixed embargo period",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "a3393cc1-3393-45ba-ba91-e447bf755eb7",
+            "label": "The measuring party will publish it when the project tells them to",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "350fa8cc-ecc8-40cc-a50e-1d87405970b1",
+            "label": "The measuring party will delete the data, the project partners will deal with data publication",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "8197cf1c-999a-43ae-9e29-bb5d0452052b",
+            "label": "We have made other arrangements",
+            "follow_up_uuids": [
+              "e576471a-40dd-453d-ba59-d3f4e1c30cc4"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "2418a1b7-6950-4a19-8e58-6c5089c71b53",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "49c009cb-a38c-4836-9780-8a8b3dd1cbac",
+          "421e2d3e-c95c-4244-9465-de8f1cb8aeba",
+          "c8687abf-ac88-4bef-b1cc-7070bd039a07",
+          "d8ecede2-f952-4b08-8a68-20d97849733f",
+          "9e0fb0fd-0268-4cf3-8dfa-ba0b2a1e8e89",
+          "4c42e36b-f70a-4c2d-b13a-66294bc22459",
+          "de72effc-807a-4081-b842-1e77ecc9c43f",
+          "ITEM",
+          "2418a1b7-6950-4a19-8e58-6c5089c71b53"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Select exemption",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "7c215b23-edb9-4fc7-95d1-010ee53f3853",
+            "label": "Scientific research",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "59bc5ee8-71c9-497f-a09a-7b0736c40d74",
+            "label": "Consent",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "24e9cc13-b462-45fd-b242-d7122176fc9a",
+            "label": "Other",
+            "follow_up_uuids": [
+              "5fa61693-3750-4fcb-b8c2-ca003ecb5d62"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "3d09f311-07dd-49a0-8445-5eab8f9548fc",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "49c009cb-a38c-4836-9780-8a8b3dd1cbac",
+          "421e2d3e-c95c-4244-9465-de8f1cb8aeba",
+          "c8687abf-ac88-4bef-b1cc-7070bd039a07",
+          "d8ecede2-f952-4b08-8a68-20d97849733f",
+          "8915bd25-db22-4ed6-bcc8-b1bbdc52989e",
+          "c3914e43-cca1-4180-8960-228b7022bae6",
+          "6cc96576-2535-46b3-8c9b-a12703ee96cc",
+          "af053acd-fc24-4830-8000-bcff8912435b",
+          "3d09f311-07dd-49a0-8445-5eab8f9548fc"
+        ],
+        "type": "MultiChoiceQuestion",
+        "title": "Why is a DPIA deemed necessary for this project?",
+        "guidance": "Below listed are 9 criteria - provided by the EC - that might indicate that your project constitutes **high risk processing**.  Please check the indicators that apply your project. Consult the linked EC Guideline for explanations of indicators.",
+        "choices": [],
+        "multi_choices": [
+          {
+            "uuid": "7dd41e34-b8fb-4d4a-9dde-eb0954d9718f",
+            "label": "Data concerning vulnerable data subjects including minors, employees, elderly, mentally incapacitated, patients receiving care. "
+          },
+          {
+            "uuid": "1b4fef4e-73ba-4f59-8234-92879a6f09d9",
+            "label": "Sensitive data or data of a highly personal nature: which includes racial or ethnic origin; political opinions; religious or philosophical beliefs; trade union membership; genetic data; data concerning health; biometric data; sexual orientation. "
+          },
+          {
+            "uuid": "63285783-9635-4c55-a781-33f81eff6e9d",
+            "label": "Data processed on a large scale: data of proportion of the relevant population, long term processing, wide geographical scale, large volume or range of data ."
+          },
+          {
+            "uuid": "cee31df6-624a-4569-ae32-fad3d74dc169",
+            "label": "Automated-decision making with legal or similar significant effect on data subjects."
+          },
+          {
+            "uuid": "5c331845-fc91-40a0-b8b0-4d55a0664b7b",
+            "label": "Evaluation or scoring on aspects concerning the data subject's performance at work, economic situation, health, personal preferences or interests, reliability or behavior, location or movements."
+          },
+          {
+            "uuid": "41d2caa6-14b5-4536-86d6-63f54999e604",
+            "label": "Systematic monitoring, processing used to observe, monitor or control data subjects, including data collected through networks."
+          },
+          {
+            "uuid": "fcf05e2f-b25b-45a3-a2fe-460618e3ee7f",
+            "label": "Matching or combining datasets, for example originating from two or more data processing operations performed for different purposes."
+          },
+          {
+            "uuid": "f2919725-27cf-4c43-a04b-69a47eb1f852",
+            "label": "Innovative use or applying new technological or organizational solutions, like combining the use of fingerprint and face recognition for physical access control.  "
+          },
+          {
+            "uuid": "9e3d02c8-3a93-4e95-b724-36ed315efb69",
+            "label": "Processing that prevents data subjects from exercising a right or using a service or a contract."
+          }
+        ],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "7cc7b00c-6f1e-4ad9-9742-f02df552dbee",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "49c009cb-a38c-4836-9780-8a8b3dd1cbac",
+          "421e2d3e-c95c-4244-9465-de8f1cb8aeba",
+          "c8687abf-ac88-4bef-b1cc-7070bd039a07",
+          "d8ecede2-f952-4b08-8a68-20d97849733f",
+          "a30f5047-33c1-45a7-8b3f-b1b90c364fc9",
+          "22e612e0-c72d-42fa-9a37-a55232e72c72",
+          "7cc7b00c-6f1e-4ad9-9742-f02df552dbee"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Select level of identifiability for the  stored data",
+        "guidance": "Anonymisation refers to the processing of personal data in a manner that makes it impossible to identify individuals from them. For example, the data can be rendered down to a general level (aggregated) or converted into statistics so that individuals can no longer  be identified from them. \n\nPseudonymisation refers to the processing of personal data in such a manner that the personal data can no longer be attributed to a specific person without the use of additional information, i.e. any identifying characteristics are replaced with\na pseudonym.",
+        "choices": [
+          {
+            "uuid": "40a6b522-c130-44ec-924b-5316e0826bc2",
+            "label": "Irrevocably anonymised",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "4cac7782-c9f7-4520-a88a-8b7688b7587d",
+            "label": "Pseudonymised",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "930599c4-d002-42b7-bc0b-fa9565382d8c",
+            "label": "Identifiable",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "cpersGdprSafeguardsIdentifQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/07-personal-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "50f9d580-3e62-434b-81ff-86daed56aca8",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "df36fb68-131c-4f31-a42b-684abf523bbc",
+          "5af813b7-cb41-4eb9-afe7-ca364771b74e",
+          "50f9d580-3e62-434b-81ff-86daed56aca8"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will you be working with your data in another form than the way it will be archived?",
+        "guidance": "Archival and working with data have different requirements. You want archived information to be in a form that others could read and in a format that is also understandable in a number of years. When working with the data, you need to be able to address it efficiently. If the two differ, you need to plan for conversions.",
+        "choices": [
+          {
+            "uuid": "df08a7fa-61af-418f-9eb8-965ba50efcc8",
+            "label": "No, data format will be archived in the same way we work with it",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "02b8d129-3300-47cb-811a-e86a40c5d8bd",
+            "label": "Yes, archival will require a conversion step",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "01cd836b-915e-4751-b543-b326bf812594",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "df36fb68-131c-4f31-a42b-684abf523bbc",
+          "5af813b7-cb41-4eb9-afe7-ca364771b74e",
+          "4ee4d67d-62c5-47f0-a741-f2629b65cf8a",
+          "aca843cd-e38e-4174-8ce1-477c2b405fdf",
+          "01cd836b-915e-4751-b543-b326bf812594"
+        ],
+        "type": "OptionsQuestion",
+        "title": "How much of the raw data do you need to keep in the work space?",
+        "guidance": "Sometimes the raw data is relatively large, and it pays of to clean it quickly.",
+        "choices": [
+          {
+            "uuid": "fe62c9a0-a621-46b6-bc42-881d0c3d8719",
+            "label": "Raw data will need to stay in the work space",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "aad7d438-a8af-4462-9728-77e2493bcacc",
+            "label": "Raw data can be cleaned out or archived quickly",
+            "follow_up_uuids": [
+              "ba381732-f499-419f-8744-e13807af83e3"
+            ]
+          },
+          {
+            "uuid": "93555e7b-d17c-4341-9ad9-9f2f833a3193",
+            "label": "Raw data do not form a major part of the storage needs",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "0ddd0082-eae1-4c48-ba4a-30912f0643e7",
+            "label": "Raw data will only be loaded in the work space on demand from the primary archives",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "ba381732-f499-419f-8744-e13807af83e3",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "df36fb68-131c-4f31-a42b-684abf523bbc",
+          "5af813b7-cb41-4eb9-afe7-ca364771b74e",
+          "4ee4d67d-62c5-47f0-a741-f2629b65cf8a",
+          "aca843cd-e38e-4174-8ce1-477c2b405fdf",
+          "01cd836b-915e-4751-b543-b326bf812594",
+          "aad7d438-a8af-4462-9728-77e2493bcacc",
+          "ba381732-f499-419f-8744-e13807af83e3"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Do your raw data need to be archived?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "904859c4-b9bf-44b6-9a64-933e489089e6",
+            "label": "No, it is also stored elsewhere can be recovered easily",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "e4da5030-9de8-4fe9-81d9-28a75edc09d9",
+            "label": "No, it can be remeasured easily and more cheaply than archiving",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "44cad909-ea78-454b-aede-794503da9401",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "50a9c060-91e9-4e34-8cb2-2d41fa493f9e",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "df36fb68-131c-4f31-a42b-684abf523bbc",
+          "5af813b7-cb41-4eb9-afe7-ca364771b74e",
+          "50a9c060-91e9-4e34-8cb2-2d41fa493f9e"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will you need to temporarily archive data sets (e.g. to tape)?",
+        "guidance": "Usually, data sets will be archived if it is unlikely you need them in the short term, but it would be hard to create them again, and/or they are essential for reproducing your work. Archival storage of large volumes can be significantly cheaper than keeping it in the working area for an extensive period.",
+        "choices": [
+          {
+            "uuid": "09ac9b88-4350-441b-97f4-5f85ced2ddf2",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "9797dc5a-afc9-418e-a456-0d555a52424a",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "80d403f3-3f29-4f37-9040-b901ae9afa37",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "80d403f3-3f29-4f37-9040-b901ae9afa37"
+        ],
+        "type": "OptionsQuestion",
+        "title": "How will access to the work space be controlled?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "302e4b9b-9a9c-4fb0-9745-5f8ff4cca746",
+            "label": "Only all project members have read/write access to the data",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "154cd5fc-a79f-4c2e-be67-6985813bbc8d",
+            "label": "Anyone in the institute has read access to the data; all project members have read/write access.",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "b21c9f70-78e7-4975-b776-59e372285662",
+            "label": "Only project members will have read access; only selected project members will be able to write data",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "b19ba76a-4b6a-45f6-8ab5-8bbfb92c7b2c",
+            "label": "Anyone in the institute can read data, only project members can request write access",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "sharedAccessControlQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "a1c37c05-57ff-499c-b58c-e90f511241fa",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "4ba3304e-225c-4916-bbf7-754de381253c",
+          "bb00eb32-e1c2-4288-a874-02264f757cb3",
+          "a1c37c05-57ff-499c-b58c-e90f511241fa"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Did you choose the workflow engine you will be using?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "9e30350e-5d5b-4ecc-992c-3dd16f8638b3",
+            "label": "Workflows will be run from a computer command line",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "e856c626-bf9e-4550-997c-c6d0f66205e4",
+            "label": "Yes, we will be using what we always use",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "7626c84b-1b2a-4809-99d1-da4ad42f3c9b",
+            "label": "Yes, we have selected one based on what features we need",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "00842b33-a854-4e25-8bed-05e2462fecf1",
+            "label": "Explore",
+            "follow_up_uuids": [
+              "28b10fd8-28a6-49b8-822d-f3d47780ab20",
+              "ff6f53f1-1adc-4401-bbda-a159d283a8eb",
+              "fdeb19c8-393c-4c4e-8c88-58a9c4d19e2b",
+              "f5b2b4d2-2031-47da-95ff-6d10792c841f",
+              "add9596e-eaad-4720-9a11-f779fe1e6538",
+              "38b2a0d8-ce59-46cd-afa0-258c1b2f469f",
+              "75af1eb3-1e0e-4be8-b0b6-cdb0883c791b",
+              "bdce5cee-2930-4b30-b3d5-d503ab0b5d1a"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "cd44886c-877f-4387-b299-f8d81b559f73",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "4ba3304e-225c-4916-bbf7-754de381253c",
+          "bb00eb32-e1c2-4288-a874-02264f757cb3",
+          "558f01a3-2563-4114-9244-812b212c9791",
+          "ebc3a870-5f89-43ad-9d90-de5c91528ea2",
+          "cd44886c-877f-4387-b299-f8d81b559f73"
+        ],
+        "type": "OptionsQuestion",
+        "title": "How will you handle upgrades to tools?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "805ed3e6-a9c0-4f57-b62b-c82c42b4761b",
+            "label": "We will trust a new release and deploy",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "272626a8-90f7-4339-9f9b-a3fc7f1c8968",
+            "label": "We will offer multiple versions of tools for the end user to choose",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "9437d4c6-46e3-4f59-88e0-a1eea71d912f",
+            "label": "We will only deploy selected stable upgrades to tools",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "b585a5f5-accf-43c1-9ccf-4e88e08ca132",
+            "label": "We will test all tool changes on a subset of our own data before deployment",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "67bf1b45-722b-44ed-877f-37eaf66dc41b",
+            "label": "We will not change tool versions after the initial selection",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "63b020de-664a-4271-807c-a6f4361d6439",
+        "path": [
+          "83438863-0aa0-4458-b14b-2b2c0d4f811d",
+          "d5d21ad3-720c-4a6a-bd5a-09f14b15666f",
+          "61d05101-2eaa-4ebb-8be7-2fcac50f2fb2",
+          "63b020de-664a-4271-807c-a6f4361d6439"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Did you already select the variables on which you will join the data sets?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "176cf769-81db-4298-bfae-c1e96e8bbecf",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "f8f49bdc-670b-495f-9a4b-5300db71cfe2",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "c6fdeacb-4a1f-4948-988a-0c6458cdf7b9",
+        "path": [
+          "83438863-0aa0-4458-b14b-2b2c0d4f811d",
+          "d5d21ad3-720c-4a6a-bd5a-09f14b15666f",
+          "61d05101-2eaa-4ebb-8be7-2fcac50f2fb2",
+          "c6fdeacb-4a1f-4948-988a-0c6458cdf7b9"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will you make sure that you do not inadvertently create a biased subset?",
+        "guidance": "Some parameters you select on may have been collected only for a subset of the subjects or data points. An obvious example is if you match on secondary education type, you will bias to people over 18 years old because younger people do not have this field. In many cases the selection bias may be a lot less obvious and special measures exist to verify that the diversity of the sample is not reduced by the integration step.",
+        "choices": [
+          {
+            "uuid": "0cf3e92f-4cdf-4446-b2c6-1801338ec432",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "26f64599-467a-4339-a971-74ac638f4c37",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "f83a9afd-c6de-452b-be9f-bd76e5eb6b54",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "4e0c1edf-660c-4ebf-81f5-9fa959dead30",
+          "ITEM",
+          "a063da1c-aaea-4e18-85ec-f560d833f292",
+          "8d1b07a7-f177-41f5-9532-05536223a8d6",
+          "81d3095e-a530-40a4-878e-ced42fabc4cd",
+          "ITEM",
+          "80a682bd-8a5c-4a52-935d-680509838a4e",
+          "afd9f4d5-20e0-4fa0-a42a-376c132ff5b0",
+          "f83a9afd-c6de-452b-be9f-bd76e5eb6b54"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will you be able to support this repository for a sufficiently long time?",
+        "guidance": "Maintaining a repository is a long term commitment that can most of the time not be funded from project money. Think about who will be doing the system maintenance, hardware maintenance, and who will make necessary code changes to accommodate future (safe) versions of the system",
+        "choices": [
+          {
+            "uuid": "dc921fac-cf77-4d3d-bb9c-907d37f838ef",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "714e0a22-c059-4f80-9780-6f7f2e2ce53b",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "specialRepoLongTermSupportQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/11-data-preservation.html.j2"
+        ]
+      },
+      {
+        "uuid": "82fc0a41-8be0-407c-b2f8-95bf5b366187",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "4e0c1edf-660c-4ebf-81f5-9fa959dead30",
+          "ITEM",
+          "a063da1c-aaea-4e18-85ec-f560d833f292",
+          "8d1b07a7-f177-41f5-9532-05536223a8d6",
+          "81d3095e-a530-40a4-878e-ced42fabc4cd",
+          "ITEM",
+          "82fc0a41-8be0-407c-b2f8-95bf5b366187"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Who will the data in this place be shared with?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "1fd3e838-f92a-4086-8308-de17f6fa9d73",
+            "label": "Open: The data will be shared with anyone, as long as they obey conditions of the license",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "985366e7-7504-4f67-a8ee-90c340ff977a",
+            "label": "Shared: The data will be shared with a predefined list of people, e.g. coworkers",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "a8adc972-a2b6-4f5b-837b-20f83a685ed6",
+            "label": "Closed: This is an archive, it is not meant to share the data with anyone",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "publishedDistroShareQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/10-share-restrictions.html.j2"
+        ]
+      },
+      {
+        "uuid": "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will you be archiving data (using so-called 'cold storage') for long term preservation already during your project?",
+        "guidance": "Much of the raw data you have will need to be archived for your own later use somewhere. This is often done off-line on tape, not on the disks of the compute facility. Please note that this does not refer to the data publication.",
+        "choices": [
+          {
+            "uuid": "a547dc69-a3e8-46e4-bb4b-21fd104231f9",
+            "label": "No",
+            "follow_up_uuids": [
+              "b16e76a9-34a8-4ba5-9420-b58bebaeac8d",
+              "7f8ff791-8593-4e00-93f9-e31c5dff5ffb"
+            ]
+          },
+          {
+            "uuid": "e81599af-4519-4987-b74e-9545428ed0e3",
+            "label": "Yes",
+            "follow_up_uuids": [
+              "c659c36f-d142-4453-8d8b-db7c05f31371",
+              "c2a38110-f7a3-432f-ae98-4e448e496b44",
+              "41a8d19b-2468-4c60-9f5e-7a8fee26eedb",
+              "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2",
+              "87abded2-1edb-4f69-bd6c-8b90f7706206",
+              "b7d9008e-9691-44f0-a026-0f63d808db39",
+              "2dd94cbc-42f3-4077-b6da-83e0275290c5",
+              "e23201aa-df56-4ade-9406-baa1fb6b1c0c"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedDuringQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/05-store-backup.html.j2",
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "7f8ff791-8593-4e00-93f9-e31c5dff5ffb",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "a547dc69-a3e8-46e4-bb4b-21fd104231f9",
+          "7f8ff791-8593-4e00-93f9-e31c5dff5ffb"
+        ],
+        "type": "OptionsQuestion",
+        "title": "When is the raw data archived?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "fbe7ef0d-3199-47de-ad28-1b9299200156",
+            "label": "As soon as it comes in, in chunks",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "92dc2ba0-2cac-4710-8dc7-c1cf6e573235",
+            "label": "As soon as it has all arrived, in one session",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "c861d005-a681-4a3a-a54b-7a229b6662ee",
+            "label": "All at once with the results at the end of the project",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "c659c36f-d142-4453-8d8b-db7c05f31371",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "c659c36f-d142-4453-8d8b-db7c05f31371"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Is the archived data changing over time, needing re-archival?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "86e40411-deee-4dc0-88dc-a257c7f4a3ad",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "48d7128a-a237-4d32-8fc6-464089b46892",
+            "label": "Yes",
+            "follow_up_uuids": [
+              "1147485f-b9a9-486c-8341-27e05718c508",
+              "f6476ea3-1ec5-447b-a776-4f0bfca38f8f"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedDuringReQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/05-store-backup.html.j2"
+        ]
+      },
+      {
+        "uuid": "c2a38110-f7a3-432f-ae98-4e448e496b44",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "c2a38110-f7a3-432f-ae98-4e448e496b44"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will the archive be stored on disk or on tape?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "18f50141-094d-426b-8a75-4c4fce59389b",
+            "label": "Disk",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "ebbe4ef1-ec2a-44b8-bbc9-f15a743c438f",
+            "label": "Tape",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "45ad8d8d-4efc-47b1-946d-2de59aa1fcb4",
+            "label": "Other",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archiveMediumQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/05-store-backup.html.j2"
+        ]
+      },
+      {
+        "uuid": "41a8d19b-2468-4c60-9f5e-7a8fee26eedb",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "41a8d19b-2468-4c60-9f5e-7a8fee26eedb"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will the archive be stored in a remote location, protecting the data against disasters?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "a15afda5-9e5a-40bd-a802-fc811fa39d20",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "4bc5017e-2808-4fc1-95b9-77bd2e755bb6",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archiveRemoteQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/05-store-backup.html.j2"
+        ]
+      },
+      {
+        "uuid": "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will the archive need to be protected against loss or theft?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "f312f518-69cb-442b-95a4-9523a25770db",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "29498f8c-ea29-4855-82db-5b1228dc09ba",
+            "label": "Yes",
+            "follow_up_uuids": [
+              "2c797727-559d-4bcf-a4a1-713accfcd602",
+              "7458c3bc-60aa-44ba-8d59-a0672dc8de63"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "2c797727-559d-4bcf-a4a1-713accfcd602",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2",
+          "29498f8c-ea29-4855-82db-5b1228dc09ba",
+          "2c797727-559d-4bcf-a4a1-713accfcd602"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will the archive be encrypted?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "5e4bb06c-01ff-4964-890f-6f56bc4b819a",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "ad3ab129-dab0-421c-9840-e35b53931768",
+            "label": "No, the data does not need protection",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "2a127f74-c296-40f9-8ff5-d2a5a0b4ab98",
+            "label": "Yes",
+            "follow_up_uuids": [
+              "905d4cda-afa1-4cc0-8df6-3d989c7b8b2e"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "7458c3bc-60aa-44ba-8d59-a0672dc8de63",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2",
+          "29498f8c-ea29-4855-82db-5b1228dc09ba",
+          "7458c3bc-60aa-44ba-8d59-a0672dc8de63"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Is it clear who has physical access to the archives?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "e9ab764f-e3fa-4704-9200-4d527a54f754",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "7658b228-018a-4eba-9970-f5bb2c4de70a",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "87abded2-1edb-4f69-bd6c-8b90f7706206",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "87abded2-1edb-4f69-bd6c-8b90f7706206"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will your project require the archives to be available on-line?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "bb1ba41d-9b1b-45dd-bdc7-c7b8ea451ab5",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "25b31312-053b-4ef8-ae37-c44b7182634d",
+            "label": "Yes",
+            "follow_up_uuids": [
+              "b3caa015-cdd5-4812-84b5-596855a30545",
+              "86459c42-89ee-4874-bb54-fec0881332e0"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "b7d9008e-9691-44f0-a026-0f63d808db39",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "b7d9008e-9691-44f0-a026-0f63d808db39"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Has it been established who has access to the archive, and how fast?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "dc7c7529-58c6-4414-84cc-7a19325cb73b",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "d748ea2b-bbe7-4b05-82e2-bee5e10e8441",
+            "label": "Yes",
+            "follow_up_uuids": [
+              "47559455-2969-41f4-aee8-e9ce558ab2f0",
+              "3d837696-3a99-4362-86a3-f460dd878b75",
+              "feb954c1-c38e-4615-addd-4c714a06809a"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "2dd94cbc-42f3-4077-b6da-83e0275290c5",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "2dd94cbc-42f3-4077-b6da-83e0275290c5"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Has it been established how long the archived data need to be kept? For each of the different parts of the archive (raw data / results)?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "1d8e9897-3713-4480-98ba-9b1c71f41eaf",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "07fdfbfb-9c7c-4e9c-83fa-bccf85094fb6",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "e23201aa-df56-4ade-9406-baa1fb6b1c0c",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "e23201aa-df56-4ade-9406-baa1fb6b1c0c"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will the data still be understandable and reusable after a long time?",
+        "guidance": "See also all questions about keeping metadata and data formats. Make sure the metadata is kept close to the data in the archive, and that community supported data formats are used for all long term archiving.",
+        "choices": [
+          {
+            "uuid": "2e2460d5-5233-434b-9229-7cd775cb13b2",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "31de7c36-5d2c-469a-82b8-af870cb3560c",
+            "label": "Yes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "f9d84278-b61d-4314-94e9-12644bfa1d00",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Will you be archiving your data in 'cold storage' after the project finishes?",
+        "guidance": "Will you be storing (in cold storage) copies of your own data for a longer period after the project has ended? Possibly as a continuation of archival as part of data storage strategy during the project? Data archival is distinct from data publishing, an archive is usually strictly limited in who can access the data.",
+        "choices": [
+          {
+            "uuid": "b6890d88-88e4-4667-8b28-82bc73c728be",
+            "label": "No",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "562a4823-3e58-44da-ba65-db522c4bbbd9",
+            "label": "Yes",
+            "follow_up_uuids": [
+              "6467fff1-33ae-47f6-829c-9e3817298d1f",
+              "22f28294-f990-4686-87dd-ecca65a0ed26",
+              "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+              "553834d6-ff71-4b76-b4b4-b90d19a3f0a4",
+              "5a192c70-d824-49d2-965c-dca90deb04ac"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2",
+          "src/questions/11-data-preservation.html.j2"
+        ]
+      },
+      {
+        "uuid": "6467fff1-33ae-47f6-829c-9e3817298d1f",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "6467fff1-33ae-47f6-829c-9e3817298d1f"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Who will be paying for the long term storage?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "3aabde57-dabd-456f-b351-1b81a74bb2d5",
+            "label": "It will be paid from the grant",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "2171b472-3569-468a-911f-5df375cb244f",
+            "label": "It will be paid out of departmental budgets from one or more of the project participants",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "f6dba54d-bb72-4fcf-bebc-f5651adba0c0",
+            "label": "This is a service budgeted by one or more of the participating institutes",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterPayerQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "22f28294-f990-4686-87dd-ecca65a0ed26",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "22f28294-f990-4686-87dd-ecca65a0ed26"
+        ],
+        "type": "OptionsQuestion",
+        "title": "What is the minimum lifetime of the archive?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "15f9c764-1aaa-4de1-b65d-b92ae6bd3fb8",
+            "label": "5 years",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "37672102-6b96-4c69-a24a-ce3b8672ccc1",
+            "label": "10 years",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "c0c80589-203d-4564-8f00-89d5cd538fae",
+            "label": "15 years",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "820c78f6-81d0-442f-80c7-bfa3d04b282a",
+            "label": "Another period",
+            "follow_up_uuids": [
+              "075e934b-e9a3-45b6-a91e-5e19a1e56e06"
+            ]
+          },
+          {
+            "uuid": "3116fe33-8baf-4085-a8ba-688e8b062b78",
+            "label": "It is arranged in a different way",
+            "follow_up_uuids": [
+              "0b42bbcc-5102-4619-b8e3-9409dbc0379a"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterPeriodQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "075e934b-e9a3-45b6-a91e-5e19a1e56e06",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "22f28294-f990-4686-87dd-ecca65a0ed26",
+          "820c78f6-81d0-442f-80c7-bfa3d04b282a",
+          "075e934b-e9a3-45b6-a91e-5e19a1e56e06"
+        ],
+        "type": "ValueQuestion",
+        "title": "For how many years will the archive minimally be kept?",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterYearsQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "0b42bbcc-5102-4619-b8e3-9409dbc0379a",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "22f28294-f990-4686-87dd-ecca65a0ed26",
+          "3116fe33-8baf-4085-a8ba-688e8b062b78",
+          "0b42bbcc-5102-4619-b8e3-9409dbc0379a"
+        ],
+        "type": "ValueQuestion",
+        "title": "How is the archival period arranged?",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterPeriodOtherQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "1a754b08-2a93-4d90-ac52-96f2a69097bf"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Can the archival period be extended?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "4c9c792f-d0ea-440d-87dd-15a83efcb85f",
+            "label": "No",
+            "follow_up_uuids": [
+              "e5f3081b-df3a-4059-83e2-5c69baa83c49"
+            ]
+          },
+          {
+            "uuid": "fc93bf39-c996-40d2-811e-9324f033a27a",
+            "label": "Yes",
+            "follow_up_uuids": [
+              "5d153cdd-9d37-4e38-b5eb-1b867ed01e32",
+              "b51878eb-fdaf-4e3a-940e-8ecc98059d58"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterExtendQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "e5f3081b-df3a-4059-83e2-5c69baa83c49",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+          "4c9c792f-d0ea-440d-87dd-15a83efcb85f",
+          "e5f3081b-df3a-4059-83e2-5c69baa83c49"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Why will the archival period not be extended?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "91a03f0c-3d3d-4bfe-a7eb-46749706e749",
+            "label": "The archival period is limited by law or contract",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "cb6a4747-0bf3-447d-8d7d-dc1b7a077be0",
+            "label": "The archival period is limited by budget",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterExtendNoReasonQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "5d153cdd-9d37-4e38-b5eb-1b867ed01e32",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+          "fc93bf39-c996-40d2-811e-9324f033a27a",
+          "5d153cdd-9d37-4e38-b5eb-1b867ed01e32"
+        ],
+        "type": "OptionsQuestion",
+        "title": "Who will decide whether the archival period is extended?",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "1c805499-e407-489c-81ee-87ac76b6b2b6",
+            "label": "One of the principle investigators involved in the project will decide",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "c42196af-a4eb-4026-8a4a-8e46012ac47f",
+            "label": "Library or archive staff will decide",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterExtendWhoQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "b51878eb-fdaf-4e3a-940e-8ecc98059d58",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+          "fc93bf39-c996-40d2-811e-9324f033a27a",
+          "b51878eb-fdaf-4e3a-940e-8ecc98059d58"
+        ],
+        "type": "MultiChoiceQuestion",
+        "title": "What will the decision whether or not to extend the renewal be based on?",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [
+          {
+            "uuid": "f6d68b58-7996-453f-a033-71272aa01204",
+            "label": "It will be based on the actual use of the archived data"
+          },
+          {
+            "uuid": "b84a59dd-73a3-48f9-9556-04ce3750df73",
+            "label": "It will be based on the predicted use of the archived data"
+          },
+          {
+            "uuid": "4071f707-d2c0-4102-9916-2dcab77c27a8",
+            "label": "It will be based on available budget"
+          }
+        ],
+        "bindings": [
+          "archivedAfterExtendBasisQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "eb698404-004a-4cdf-a599-be01e0eb7fd2",
+        "path": [
+          "70cc627a-779b-432e-b928-fd263f1ab24f",
+          "eb698404-004a-4cdf-a599-be01e0eb7fd2"
+        ],
+        "type": "ValueQuestion",
+        "title": "How do you decide which additional research outputs should be retained?",
+        "guidance": "This question refers to research outputs beyond datasets, such as code, documentation, lab protocols, questionnaires, reference data, software, or workflows. Please explain how you decide which of these outputs are important to keep — for example, because they are necessary for reproducibility, reuse by others, legal compliance, or future reference. You can also describe any criteria, policies, or team practices used to make these decisions.",
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      }
+    ],
+    "zh-Hant": [
+      {
+        "uuid": "87964502-4401-45e5-9084-d6c84a417acf",
+        "path": [
+          "1e85da40-bbfc-4180-903e-6c569ed2da38",
+          "87964502-4401-45e5-9084-d6c84a417acf"
+        ],
+        "type": "ListQuestion",
+        "title": "請說明您將採用哪些國家層級、資助單位、領域別或部門層級的資料管理相關政策與程序。",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "policiesProceduresQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "34058487-d9e7-41af-be6a-aba67200b8d2",
+        "path": [
+          "1e85da40-bbfc-4180-903e-6c569ed2da38",
+          "87964502-4401-45e5-9084-d6c84a417acf",
+          "ITEM",
+          "34058487-d9e7-41af-be6a-aba67200b8d2"
+        ],
+        "type": "ValueQuestion",
+        "title": "政策或程序名稱",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "policiesProceduresNameQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "e13bf3cb-cf78-486e-b844-2c12320919c4",
+        "path": [
+          "1e85da40-bbfc-4180-903e-6c569ed2da38",
+          "87964502-4401-45e5-9084-d6c84a417acf",
+          "ITEM",
+          "e13bf3cb-cf78-486e-b844-2c12320919c4"
+        ],
+        "type": "ValueQuestion",
+        "title": "請提供該政策或程序的連結／參考來源",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "policiesProceduresLinkQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "c730b703-82cf-4a0e-a1dc-d910d73d1ed9",
+        "path": [
+          "1e85da40-bbfc-4180-903e-6c569ed2da38",
+          "87964502-4401-45e5-9084-d6c84a417acf",
+          "ITEM",
+          "c730b703-82cf-4a0e-a1dc-d910d73d1ed9"
+        ],
+        "type": "ValueQuestion",
+        "title": "請說明您採用此政策或程序的方式與原因",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "policiesProceduresDescriptionQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "10b6548c-21cd-44c8-a8de-47415e7b012e",
+        "path": [
+          "82fd0cce-2b41-423f-92ad-636d0872045c",
+          "efc80cc8-8318-4f8c-acb7-dc1c60e491c1",
+          "2663b978-5125-4224-9930-0a50dbe895c9",
+          "fcc51962-08df-4f4c-85ad-6bb932107010",
+          "ITEM",
+          "58401091-2d48-4231-983a-c972d11d9f6e",
+          "8a1937d8-39dc-4efd-a3f6-b62e789f225b",
+          "10b6548c-21cd-44c8-a8de-47415e7b012e"
+        ],
+        "type": "OptionsQuestion",
+        "title": "參考資料庫或資料集是否有版本控制？",
+        "guidance": "許多參考資料集和資料庫會隨時間演變。如果參考資料有所變動，可能會影響您的研究結果。如果參考資料有不同版本，您需要訂定自己的「版本政策」。",
+        "choices": [
+          {
+            "uuid": "32c9e457-8289-4825-9334-83ff87adeb3f",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "842007ce-0951-4655-8acc-b0f582e82ea1",
+            "label": "是",
+            "follow_up_uuids": [
+              "f00a28fb-ac77-4110-b285-c73c8bc62630",
+              "481d0157-6d89-4f68-9f3b-cf1b05f8f15d"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "refDataVersionedQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/01-how-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "2e7af465-4852-4411-8d8e-7f0ff64d8b25",
+        "path": [
+          "82fd0cce-2b41-423f-92ad-636d0872045c",
+          "efc80cc8-8318-4f8c-acb7-dc1c60e491c1",
+          "2663b978-5125-4224-9930-0a50dbe895c9",
+          "be872000-cb98-442f-999c-ca3ef58dcfe8",
+          "ITEM",
+          "f5e129dc-d59d-4352-a5ed-25efe1d83811",
+          "7fc8d3c9-a2d5-4d47-9df4-56af48ca85e1",
+          "2e7af465-4852-4411-8d8e-7f0ff64d8b25"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您是否能夠且願意使用完整的既有資料集？",
+        "guidance": "如果您使用任何篩選方式，您將如何確保您自己以及其他人之後仍能重現您的結果？",
+        "choices": [
+          {
+            "uuid": "2076afb5-3c5c-4f42-8f77-9b78fec76a62",
+            "label": "我會使用完整的資料集",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "f748624d-8d28-4d07-91c7-28b33db1fabd",
+            "label": "任何篩選與選取的過程都會完整記錄起來",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "cba7c977-986d-4673-9bbc-fb3f7fed95c6",
+            "label": "我會確保所選取的子集會與研究結果一併提供",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "nrefDataCompleteQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/01-how-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "ced5a7c2-4034-4763-a1d5-3cb815cdfddb",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "b08fe063-33f8-4380-b3a9-ba1e586dedf2",
+          "ITEM",
+          "ced5a7c2-4034-4763-a1d5-3cb815cdfddb"
+        ],
+        "type": "OptionsQuestion",
+        "title": "此資料格式是否有助於資料分享與長期典藏？",
+        "guidance": "複雜的（二進位）檔案格式往往會隨時間改變，而軟體也可能無法持續相容於舊版本。此外，某些格式，例如 DOC、XLS 因涉及專利或受限於嚴格的授權條款，會妨礙資料的長期可用性。\n\n理想的檔案格式應具備以下特性：結構簡單、純文字、規格完整公開、不受著作權限制，且可由不同軟體包支援。",
+        "choices": [
+          {
+            "uuid": "86e547b8-e3ae-44b2-89ad-3a0d67decc56",
+            "label": "否",
+            "follow_up_uuids": [
+              "bf32374c-b24e-4b03-9898-a753cff56fcf"
+            ]
+          },
+          {
+            "uuid": "985e488d-257f-479d-8113-5dcbe105a08e",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "formatsIsLTSuitableQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/02-what-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "bf32374c-b24e-4b03-9898-a753cff56fcf",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "b08fe063-33f8-4380-b3a9-ba1e586dedf2",
+          "ITEM",
+          "ced5a7c2-4034-4763-a1d5-3cb815cdfddb",
+          "86e547b8-e3ae-44b2-89ad-3a0d67decc56",
+          "bf32374c-b24e-4b03-9898-a753cff56fcf"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您稍後是否會轉換成更適合典藏的檔案格式？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "3159d107-d322-4126-958f-900fc011eeae",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "7d8dc2f5-2699-4fb3-8bf6-e620868a0583",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "formatsConvertLTSuitableQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/02-what-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "73bf7531-3490-4c0f-b6a2-a9f4f2bc3e1a",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "8c962e6f-17ee-4b22-8ebb-9f06f779e3b3",
+          "6d18bfff-0f53-469b-934e-9806dda9d4fb",
+          "15573266-7ddf-4c6b-962e-45691d34cf61",
+          "cb765913-50c9-482e-bf10-5f5f91d0e473",
+          "73bf7531-3490-4c0f-b6a2-a9f4f2bc3e1a"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您會如何在額外投入的工作量，與讓資料更容易再次使用所帶來的潛在效益之間取得平衡？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "3002eaed-c31f-4bdd-83ed-49262ae79165",
+            "label": "我會看看我能做些什麼",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "7ef32aea-b6a7-4297-92bd-0869a13276ad",
+            "label": "我會採用預先選定的額外標準後設資料模組",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "018fc8a0-c51e-48f4-99d5-77e8c9dcf51f",
+            "label": "我會盡可能蒐集完整的後設資料，並在最低標準之上，加強資料集的記錄",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "91a7c75c-6f0e-4bae-b3f3-1890feaae9b2",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "8c962e6f-17ee-4b22-8ebb-9f06f779e3b3",
+          "6d18bfff-0f53-469b-934e-9806dda9d4fb",
+          "91a7c75c-6f0e-4bae-b3f3-1890feaae9b2"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您是否會使用能自動追蹤分析步驟的工作流程系統？",
+        "guidance": "有些工作流程系統會自動追蹤資料分析過程中執行了哪些步驟，以及選用了哪些選項。這有助於記錄資料處理過程，從而提升研究的可重現性。",
+        "choices": [
+          {
+            "uuid": "fdb89e4f-f108-4d4f-9145-07e255137d85",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "e9568fd5-1fe0-41d5-a46d-30b2d2668e12",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "f0a474ac-21b5-4b6a-9fd5-b9c3f8882055",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "f87c331d-794a-42c8-a910-61a2a9110dab",
+          "e4ca2d31-137a-46d3-96cd-3e9e8c5e9a76",
+          "f5fef09d-ade5-4019-b089-f05bd89c34bc",
+          "ITEM",
+          "ee59664e-4026-4796-a42a-e8003df6dadf",
+          "f2784b7e-b0ed-4973-9d68-954c5c24e8bb",
+          "f0a474ac-21b5-4b6a-9fd5-b9c3f8882055"
+        ],
+        "type": "OptionsQuestion",
+        "title": "原始資料長期保存的責任是否已明確？誰會負責發布資料？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "b10cd3bf-ecd6-4fa1-a9c4-d8d974de714c",
+            "label": "量測方會在固定延後開放期限後發布資料",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "a3393cc1-3393-45ba-ba91-e447bf755eb7",
+            "label": "量測方會依專案通知發布資料",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "350fa8cc-ecc8-40cc-a50e-1d87405970b1",
+            "label": "量測方會刪除資料，由專案合作夥伴負責發布資料",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "8197cf1c-999a-43ae-9e29-bb5d0452052b",
+            "label": "我們已有其他安排",
+            "follow_up_uuids": [
+              "e576471a-40dd-453d-ba59-d3f4e1c30cc4"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "2418a1b7-6950-4a19-8e58-6c5089c71b53",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "49c009cb-a38c-4836-9780-8a8b3dd1cbac",
+          "421e2d3e-c95c-4244-9465-de8f1cb8aeba",
+          "c8687abf-ac88-4bef-b1cc-7070bd039a07",
+          "d8ecede2-f952-4b08-8a68-20d97849733f",
+          "9e0fb0fd-0268-4cf3-8dfa-ba0b2a1e8e89",
+          "4c42e36b-f70a-4c2d-b13a-66294bc22459",
+          "de72effc-807a-4081-b842-1e77ecc9c43f",
+          "ITEM",
+          "2418a1b7-6950-4a19-8e58-6c5089c71b53"
+        ],
+        "type": "OptionsQuestion",
+        "title": "請選擇例外規定",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "7c215b23-edb9-4fc7-95d1-010ee53f3853",
+            "label": "科學研究",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "59bc5ee8-71c9-497f-a09a-7b0736c40d74",
+            "label": "同意",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "24e9cc13-b462-45fd-b242-d7122176fc9a",
+            "label": "其他",
+            "follow_up_uuids": [
+              "5fa61693-3750-4fcb-b8c2-ca003ecb5d62"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "3d09f311-07dd-49a0-8445-5eab8f9548fc",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "49c009cb-a38c-4836-9780-8a8b3dd1cbac",
+          "421e2d3e-c95c-4244-9465-de8f1cb8aeba",
+          "c8687abf-ac88-4bef-b1cc-7070bd039a07",
+          "d8ecede2-f952-4b08-8a68-20d97849733f",
+          "8915bd25-db22-4ed6-bcc8-b1bbdc52989e",
+          "c3914e43-cca1-4180-8960-228b7022bae6",
+          "6cc96576-2535-46b3-8c9b-a12703ee96cc",
+          "af053acd-fc24-4830-8000-bcff8912435b",
+          "3d09f311-07dd-49a0-8445-5eab8f9548fc"
+        ],
+        "type": "MultiChoiceQuestion",
+        "title": "為什麼此專案被認為需要 DPIA？",
+        "guidance": "以下列出由歐盟執委會提供的 9 項準則，這些準則可能顯示您的專案構成高風險處理。請勾選適用於您專案的指標。各項指標的詳細說明，請參閱連結中的 EC 指南。",
+        "choices": [],
+        "multi_choices": [
+          {
+            "uuid": "7dd41e34-b8fb-4d4a-9dde-eb0954d9718f",
+            "label": "涉及弱勢資料主體的資料，包括未成年人、受僱者、高齡者、心智能力受限者，以及正在接受照護的病患。"
+          },
+          {
+            "uuid": "1b4fef4e-73ba-4f59-8234-92879a6f09d9",
+            "label": "敏感資料或高度涉及個人隱私性質的資料：包括種族或族裔出身、政治觀點、宗教或哲學信仰、工會會員身分、基因資料、健康相關資料、生物特徵資料，以及性傾向。"
+          },
+          {
+            "uuid": "63285783-9635-4c55-a781-33f81eff6e9d",
+            "label": "大規模資料處理：涉及相關族群中有一定比例的資料、長期的資料處理、跨地理範圍，以及資料量大或資料類型範圍很廣。"
+          },
+          {
+            "uuid": "cee31df6-624a-4569-ae32-fad3d74dc169",
+            "label": "對資料主體具有法律效果或類似重大影響的自動化決策。"
+          },
+          {
+            "uuid": "5c331845-fc91-40a0-b8b0-4d55a0664b7b",
+            "label": "針對資料主體之工作表現、經濟狀況、健康情形、個人偏好或興趣、可靠性或行為、地理位置或行蹤等面向進行評估或評分。"
+          },
+          {
+            "uuid": "41d2caa6-14b5-4536-86d6-63f54999e604",
+            "label": "系統性監控：用於觀察、監測或控制資料主體的處理作業，包括透過網路蒐集的資料。"
+          },
+          {
+            "uuid": "fcf05e2f-b25b-45a3-a2fe-460618e3ee7f",
+            "label": "比對或合併資料集，例如來自兩個或多個為不同目的執行的資料處理作業。"
+          },
+          {
+            "uuid": "f2919725-27cf-4c43-a04b-69a47eb1f852",
+            "label": "創新使用或採用新的技術或組織解決方案，例如結合指紋與臉部辨識進行實體門禁控制。"
+          },
+          {
+            "uuid": "9e3d02c8-3a93-4e95-b724-36ed315efb69",
+            "label": "該專案涉及可能妨礙資料主體行使權利，或使用某項服務或契約的資料處理行為。"
+          }
+        ],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "7cc7b00c-6f1e-4ad9-9742-f02df552dbee",
+        "path": [
+          "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+          "49c009cb-a38c-4836-9780-8a8b3dd1cbac",
+          "421e2d3e-c95c-4244-9465-de8f1cb8aeba",
+          "c8687abf-ac88-4bef-b1cc-7070bd039a07",
+          "d8ecede2-f952-4b08-8a68-20d97849733f",
+          "a30f5047-33c1-45a7-8b3f-b1b90c364fc9",
+          "22e612e0-c72d-42fa-9a37-a55232e72c72",
+          "7cc7b00c-6f1e-4ad9-9742-f02df552dbee"
+        ],
+        "type": "OptionsQuestion",
+        "title": "請選擇所儲存資料可識別個人身分的程度",
+        "guidance": "匿名化指的是，以某種方式處理個人資料，使他人無法從資料中識別出個人。例如，資料可被轉換為較概括的層級（如彙整後的資料），或轉換為統計資料，讓任何人都無法再從中識別出個人身分。\n\n\n擬匿名化則是指，以某種方式處理個人資料，使其在未搭配額外資訊的情況下，無法再將資料歸屬於特定個人，也就是將任何可識別個人的特徵以「擬匿名」取代。",
+        "choices": [
+          {
+            "uuid": "40a6b522-c130-44ec-924b-5316e0826bc2",
+            "label": "已不可逆匿名化",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "4cac7782-c9f7-4520-a88a-8b7688b7587d",
+            "label": "已擬匿名化",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "930599c4-d002-42b7-bc0b-fa9565382d8c",
+            "label": "可識別個人身分",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "cpersGdprSafeguardsIdentifQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/07-personal-data.html.j2"
+        ]
+      },
+      {
+        "uuid": "50f9d580-3e62-434b-81ff-86daed56aca8",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "df36fb68-131c-4f31-a42b-684abf523bbc",
+          "5af813b7-cb41-4eb9-afe7-ca364771b74e",
+          "50f9d580-3e62-434b-81ff-86daed56aca8"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您處理資料時所使用的形式，是否會不同於資料最終典藏時的形式？",
+        "guidance": "資料典藏與資料處理有不同的需求。典藏資訊應採用他人能夠讀取、且多年後仍可理解的形式與格式。處理資料時，則需要能夠有效率地存取資料。若兩者有所不同，就需要規劃資料轉換。",
+        "choices": [
+          {
+            "uuid": "df08a7fa-61af-418f-9eb8-965ba50efcc8",
+            "label": "不會，資料格式會以我們處理時所使用的相同方式進行典藏。",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "02b8d129-3300-47cb-811a-e86a40c5d8bd",
+            "label": "會，典藏時需要進行一個轉換步驟。",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "01cd836b-915e-4751-b543-b326bf812594",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "df36fb68-131c-4f31-a42b-684abf523bbc",
+          "5af813b7-cb41-4eb9-afe7-ca364771b74e",
+          "4ee4d67d-62c5-47f0-a741-f2629b65cf8a",
+          "aca843cd-e38e-4174-8ce1-477c2b405fdf",
+          "01cd836b-915e-4751-b543-b326bf812594"
+        ],
+        "type": "OptionsQuestion",
+        "title": "在工作空間中，您需要保留多少原始資料？",
+        "guidance": "有時原始資料相當龐大，因此值得盡快加以清理。",
+        "choices": [
+          {
+            "uuid": "fe62c9a0-a621-46b6-bc42-881d0c3d8719",
+            "label": "原始資料需要保留在工作空間中。",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "aad7d438-a8af-4462-9728-77e2493bcacc",
+            "label": "原始資料可以很快清除，或移到典藏儲存空間。",
+            "follow_up_uuids": [
+              "ba381732-f499-419f-8744-e13807af83e3"
+            ]
+          },
+          {
+            "uuid": "93555e7b-d17c-4341-9ad9-9f2f833a3193",
+            "label": "原始資料不是儲存需求的主要部分。",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "0ddd0082-eae1-4c48-ba4a-30912f0643e7",
+            "label": "原始資料只會在有需要時，才從主要檔案庫載入到工作空間中",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "ba381732-f499-419f-8744-e13807af83e3",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "df36fb68-131c-4f31-a42b-684abf523bbc",
+          "5af813b7-cb41-4eb9-afe7-ca364771b74e",
+          "4ee4d67d-62c5-47f0-a741-f2629b65cf8a",
+          "aca843cd-e38e-4174-8ce1-477c2b405fdf",
+          "01cd836b-915e-4751-b543-b326bf812594",
+          "aad7d438-a8af-4462-9728-77e2493bcacc",
+          "ba381732-f499-419f-8744-e13807af83e3"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您的原始資料是否需要長期典藏或歸檔？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "904859c4-b9bf-44b6-9a64-933e489089e6",
+            "label": "不會，這些資料也儲存在其他地方，因此可以輕易復原",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "e4da5030-9de8-4fe9-81d9-28a75edc09d9",
+            "label": "否，這些資料可以輕易重新量測，成本也比典藏更低",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "44cad909-ea78-454b-aede-794503da9401",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "50a9c060-91e9-4e34-8cb2-2d41fa493f9e",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "df36fb68-131c-4f31-a42b-684abf523bbc",
+          "5af813b7-cb41-4eb9-afe7-ca364771b74e",
+          "50a9c060-91e9-4e34-8cb2-2d41fa493f9e"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您是否需要暫時典藏資料集（例如存放至磁帶）？",
+        "guidance": "通常，如果短期內不太可能需要使用某些資料集，但重新產生這些資料集並不容易，或這些資料集對於重現您的工作至關重要，就會將其典藏。對於大量資料，使用典藏儲存空間的成本，可能會比長時間存放在工作空間中低得多。",
+        "choices": [
+          {
+            "uuid": "09ac9b88-4350-441b-97f4-5f85ced2ddf2",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "9797dc5a-afc9-418e-a456-0d555a52424a",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "80d403f3-3f29-4f37-9040-b901ae9afa37",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+          "80d403f3-3f29-4f37-9040-b901ae9afa37"
+        ],
+        "type": "OptionsQuestion",
+        "title": "工作空間的取用權限會如何控管？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "302e4b9b-9a9c-4fb0-9745-5f8ff4cca746",
+            "label": "只有所有專案成員才對該資料擁有讀寫權限",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "154cd5fc-a79f-4c2e-be67-6985813bbc8d",
+            "label": "機構內的任何人都可以讀取資料；所有專案成員皆有讀與寫的權限。",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "b21c9f70-78e7-4975-b776-59e372285662",
+            "label": "只有專案成員具有讀取權限；只有經指定的專案成員可以寫入資料",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "b19ba76a-4b6a-45f6-8ab5-8bbfb92c7b2c",
+            "label": "機構內的任何人皆可讀取資料，不過只有專案成員可申請寫入權限",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "sharedAccessControlQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "a1c37c05-57ff-499c-b58c-e90f511241fa",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "4ba3304e-225c-4916-bbf7-754de381253c",
+          "bb00eb32-e1c2-4288-a874-02264f757cb3",
+          "a1c37c05-57ff-499c-b58c-e90f511241fa"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您是否已選定要使用的工作流程引擎？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "9e30350e-5d5b-4ecc-992c-3dd16f8638b3",
+            "label": "我們會直接從命令列執行工作流程",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "e856c626-bf9e-4550-997c-c6d0f66205e4",
+            "label": "是，我們會使用一向使用的工具",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "7626c84b-1b2a-4809-99d1-da4ad42f3c9b",
+            "label": "是，我們已根據所需功能選定一個",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "00842b33-a854-4e25-8bed-05e2462fecf1",
+            "label": "探索",
+            "follow_up_uuids": [
+              "28b10fd8-28a6-49b8-822d-f3d47780ab20",
+              "ff6f53f1-1adc-4401-bbda-a159d283a8eb",
+              "fdeb19c8-393c-4c4e-8c88-58a9c4d19e2b",
+              "f5b2b4d2-2031-47da-95ff-6d10792c841f",
+              "add9596e-eaad-4720-9a11-f779fe1e6538",
+              "38b2a0d8-ce59-46cd-afa0-258c1b2f469f",
+              "75af1eb3-1e0e-4be8-b0b6-cdb0883c791b",
+              "bdce5cee-2930-4b30-b3d5-d503ab0b5d1a"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "cd44886c-877f-4387-b299-f8d81b559f73",
+        "path": [
+          "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+          "4ba3304e-225c-4916-bbf7-754de381253c",
+          "bb00eb32-e1c2-4288-a874-02264f757cb3",
+          "558f01a3-2563-4114-9244-812b212c9791",
+          "ebc3a870-5f89-43ad-9d90-de5c91528ea2",
+          "cd44886c-877f-4387-b299-f8d81b559f73"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您將如何處理工具的升級？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "805ed3e6-a9c0-4f57-b62b-c82c42b4761b",
+            "label": "我們會信任新版本並部署",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "272626a8-90f7-4339-9f9b-a3fc7f1c8968",
+            "label": "我們會提供多個工具版本供終端使用者選擇",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "9437d4c6-46e3-4f59-88e0-a1eea71d912f",
+            "label": "我們只會部署經挑選且穩定的工具升級版本",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "b585a5f5-accf-43c1-9ccf-4e88e08ca132",
+            "label": "我們會先使用自己的部分資料測試所有工具變更，再進行部署",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "67bf1b45-722b-44ed-877f-37eaf66dc41b",
+            "label": "初次選定後，我們不會變更工具版本",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "63b020de-664a-4271-807c-a6f4361d6439",
+        "path": [
+          "83438863-0aa0-4458-b14b-2b2c0d4f811d",
+          "d5d21ad3-720c-4a6a-bd5a-09f14b15666f",
+          "61d05101-2eaa-4ebb-8be7-2fcac50f2fb2",
+          "63b020de-664a-4271-807c-a6f4361d6439"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您是否已選定要用哪些變項來串接不同的資料集？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "176cf769-81db-4298-bfae-c1e96e8bbecf",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "f8f49bdc-670b-495f-9a4b-5300db71cfe2",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "c6fdeacb-4a1f-4948-988a-0c6458cdf7b9",
+        "path": [
+          "83438863-0aa0-4458-b14b-2b2c0d4f811d",
+          "d5d21ad3-720c-4a6a-bd5a-09f14b15666f",
+          "61d05101-2eaa-4ebb-8be7-2fcac50f2fb2",
+          "c6fdeacb-4a1f-4948-988a-0c6458cdf7b9"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您是否會確保不會無意間建立有偏差的子集？",
+        "guidance": "您用來作為篩選條件的某些參數，可能只在受試者或資料點的某個子集中被蒐集到。明顯的例子是：如果您以中等教育類型作為配對條件，結果就會偏向 18 歲以上的人，因為年紀較小者並沒有這個欄位。在許多情況下，這種選擇偏差可能沒有那麼明顯；已有一些專門的方法，可用來驗證資料整合步驟是否降低了樣本的多樣性。",
+        "choices": [
+          {
+            "uuid": "0cf3e92f-4cdf-4446-b2c6-1801338ec432",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "26f64599-467a-4339-a971-74ac638f4c37",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "f83a9afd-c6de-452b-be9f-bd76e5eb6b54",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "4e0c1edf-660c-4ebf-81f5-9fa959dead30",
+          "ITEM",
+          "a063da1c-aaea-4e18-85ec-f560d833f292",
+          "8d1b07a7-f177-41f5-9532-05536223a8d6",
+          "81d3095e-a530-40a4-878e-ced42fabc4cd",
+          "ITEM",
+          "80a682bd-8a5c-4a52-935d-680509838a4e",
+          "afd9f4d5-20e0-4fa0-a42a-376c132ff5b0",
+          "f83a9afd-c6de-452b-be9f-bd76e5eb6b54"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您是否能夠長期支援這個資料儲存庫？",
+        "guidance": "維護資料儲存庫是一項長期承諾，通常無法由專案經費支應。請思考誰會負責系統維護、硬體設備維護，以及誰會進行必要的程式碼修改，以支援系統未來的安全版本。",
+        "choices": [
+          {
+            "uuid": "dc921fac-cf77-4d3d-bb9c-907d37f838ef",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "714e0a22-c059-4f80-9780-6f7f2e2ce53b",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "specialRepoLongTermSupportQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/11-data-preservation.html.j2"
+        ]
+      },
+      {
+        "uuid": "82fc0a41-8be0-407c-b2f8-95bf5b366187",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "4e0c1edf-660c-4ebf-81f5-9fa959dead30",
+          "ITEM",
+          "a063da1c-aaea-4e18-85ec-f560d833f292",
+          "8d1b07a7-f177-41f5-9532-05536223a8d6",
+          "81d3095e-a530-40a4-878e-ced42fabc4cd",
+          "ITEM",
+          "82fc0a41-8be0-407c-b2f8-95bf5b366187"
+        ],
+        "type": "OptionsQuestion",
+        "title": "此處的資料會與誰共享？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "1fd3e838-f92a-4086-8308-de17f6fa9d73",
+            "label": "開放：資料將與任何人共享，只要其遵守授權條款的條件即可",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "985366e7-7504-4f67-a8ee-90c340ff977a",
+            "label": "共享：資料將與預先指定的人員名單共享，例如同事",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "a8adc972-a2b6-4f5b-837b-20f83a685ed6",
+            "label": "封閉：這是一個典藏庫，並非用來與他人共享資料",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "publishedDistroShareQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/10-share-restrictions.html.j2"
+        ]
+      },
+      {
+        "uuid": "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您是否會在專案期間，就以所謂的「冷儲存」方式典藏資料，以利長期保存？",
+        "guidance": "您所擁有的大部分原始資料，之後都需要在某處加以典藏，以供您日後自行使用。這通常是在離線環境下以磁帶進行，而不是存放在運算設施的磁碟上。請注意，這裡指的並不是資料發布。",
+        "choices": [
+          {
+            "uuid": "a547dc69-a3e8-46e4-bb4b-21fd104231f9",
+            "label": "否",
+            "follow_up_uuids": [
+              "b16e76a9-34a8-4ba5-9420-b58bebaeac8d",
+              "7f8ff791-8593-4e00-93f9-e31c5dff5ffb"
+            ]
+          },
+          {
+            "uuid": "e81599af-4519-4987-b74e-9545428ed0e3",
+            "label": "是",
+            "follow_up_uuids": [
+              "c659c36f-d142-4453-8d8b-db7c05f31371",
+              "c2a38110-f7a3-432f-ae98-4e448e496b44",
+              "41a8d19b-2468-4c60-9f5e-7a8fee26eedb",
+              "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2",
+              "87abded2-1edb-4f69-bd6c-8b90f7706206",
+              "b7d9008e-9691-44f0-a026-0f63d808db39",
+              "2dd94cbc-42f3-4077-b6da-83e0275290c5",
+              "e23201aa-df56-4ade-9406-baa1fb6b1c0c"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedDuringQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/05-store-backup.html.j2",
+          "src/questions/06-access-security.html.j2"
+        ]
+      },
+      {
+        "uuid": "7f8ff791-8593-4e00-93f9-e31c5dff5ffb",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "a547dc69-a3e8-46e4-bb4b-21fd104231f9",
+          "7f8ff791-8593-4e00-93f9-e31c5dff5ffb"
+        ],
+        "type": "OptionsQuestion",
+        "title": "原始資料何時典藏？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "fbe7ef0d-3199-47de-ad28-1b9299200156",
+            "label": "資料一進來就分批典藏",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "92dc2ba0-2cac-4710-8dc7-c1cf6e573235",
+            "label": "資料全部到齊後，一次典藏",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "c861d005-a681-4a3a-a54b-7a229b6662ee",
+            "label": "專案結束時，連同結果一起典藏",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "c659c36f-d142-4453-8d8b-db7c05f31371",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "c659c36f-d142-4453-8d8b-db7c05f31371"
+        ],
+        "type": "OptionsQuestion",
+        "title": "已典藏的資料是否會隨時間發生變化，而需要重新典藏？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "86e40411-deee-4dc0-88dc-a257c7f4a3ad",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "48d7128a-a237-4d32-8fc6-464089b46892",
+            "label": "是",
+            "follow_up_uuids": [
+              "1147485f-b9a9-486c-8341-27e05718c508",
+              "f6476ea3-1ec5-447b-a776-4f0bfca38f8f"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedDuringReQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/05-store-backup.html.j2"
+        ]
+      },
+      {
+        "uuid": "c2a38110-f7a3-432f-ae98-4e448e496b44",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "c2a38110-f7a3-432f-ae98-4e448e496b44"
+        ],
+        "type": "OptionsQuestion",
+        "title": "典藏資料會儲存在磁碟還是磁帶上？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "18f50141-094d-426b-8a75-4c4fce59389b",
+            "label": "硬碟",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "ebbe4ef1-ec2a-44b8-bbc9-f15a743c438f",
+            "label": "磁帶",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "45ad8d8d-4efc-47b1-946d-2de59aa1fcb4",
+            "label": "其他",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archiveMediumQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/05-store-backup.html.j2"
+        ]
+      },
+      {
+        "uuid": "41a8d19b-2468-4c60-9f5e-7a8fee26eedb",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "41a8d19b-2468-4c60-9f5e-7a8fee26eedb"
+        ],
+        "type": "OptionsQuestion",
+        "title": "典藏資料是否會儲存在遠端位置，以保護資料免受災害影響？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "a15afda5-9e5a-40bd-a802-fc811fa39d20",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "4bc5017e-2808-4fc1-95b9-77bd2e755bb6",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archiveRemoteQUuid"
+        ],
+        "static_template_references": [
+          "src/questions/05-store-backup.html.j2"
+        ]
+      },
+      {
+        "uuid": "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2"
+        ],
+        "type": "OptionsQuestion",
+        "title": "典藏資料是否需要防範遺失或竊取？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "f312f518-69cb-442b-95a4-9523a25770db",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "29498f8c-ea29-4855-82db-5b1228dc09ba",
+            "label": "是",
+            "follow_up_uuids": [
+              "2c797727-559d-4bcf-a4a1-713accfcd602",
+              "7458c3bc-60aa-44ba-8d59-a0672dc8de63"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "2c797727-559d-4bcf-a4a1-713accfcd602",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2",
+          "29498f8c-ea29-4855-82db-5b1228dc09ba",
+          "2c797727-559d-4bcf-a4a1-713accfcd602"
+        ],
+        "type": "OptionsQuestion",
+        "title": "典藏資料是否會加密？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "5e4bb06c-01ff-4964-890f-6f56bc4b819a",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "ad3ab129-dab0-421c-9840-e35b53931768",
+            "label": "不，該資料無須保護",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "2a127f74-c296-40f9-8ff5-d2a5a0b4ab98",
+            "label": "是",
+            "follow_up_uuids": [
+              "905d4cda-afa1-4cc0-8df6-3d989c7b8b2e"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "7458c3bc-60aa-44ba-8d59-a0672dc8de63",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "ed3d43ad-d2b5-4194-8b05-08c95da0a7f2",
+          "29498f8c-ea29-4855-82db-5b1228dc09ba",
+          "7458c3bc-60aa-44ba-8d59-a0672dc8de63"
+        ],
+        "type": "OptionsQuestion",
+        "title": "是否清楚誰可以實體存取典藏資料？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "e9ab764f-e3fa-4704-9200-4d527a54f754",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "7658b228-018a-4eba-9970-f5bb2c4de70a",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "87abded2-1edb-4f69-bd6c-8b90f7706206",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "87abded2-1edb-4f69-bd6c-8b90f7706206"
+        ],
+        "type": "OptionsQuestion",
+        "title": "您的專案是否要求典藏資料可線上取用？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "bb1ba41d-9b1b-45dd-bdc7-c7b8ea451ab5",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "25b31312-053b-4ef8-ae37-c44b7182634d",
+            "label": "是",
+            "follow_up_uuids": [
+              "b3caa015-cdd5-4812-84b5-596855a30545",
+              "86459c42-89ee-4874-bb54-fec0881332e0"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "b7d9008e-9691-44f0-a026-0f63d808db39",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "b7d9008e-9691-44f0-a026-0f63d808db39"
+        ],
+        "type": "OptionsQuestion",
+        "title": "是否已確定誰可以取用典藏庫，以及多快可以取用？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "dc7c7529-58c6-4414-84cc-7a19325cb73b",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "d748ea2b-bbe7-4b05-82e2-bee5e10e8441",
+            "label": "是",
+            "follow_up_uuids": [
+              "47559455-2969-41f4-aee8-e9ce558ab2f0",
+              "3d837696-3a99-4362-86a3-f460dd878b75",
+              "feb954c1-c38e-4615-addd-4c714a06809a"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "2dd94cbc-42f3-4077-b6da-83e0275290c5",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "2dd94cbc-42f3-4077-b6da-83e0275290c5"
+        ],
+        "type": "OptionsQuestion",
+        "title": "是否已確定典藏資料需要保存多久？是否針對典藏資料的不同部分（如原始資料／研究結果）分別訂定保存期限？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "1d8e9897-3713-4480-98ba-9b1c71f41eaf",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "07fdfbfb-9c7c-4e9c-83fa-bccf85094fb6",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "e23201aa-df56-4ade-9406-baa1fb6b1c0c",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "d5784d24-0e66-4821-bd62-a711fb6d7a40",
+          "e81599af-4519-4987-b74e-9545428ed0e3",
+          "e23201aa-df56-4ade-9406-baa1fb6b1c0c"
+        ],
+        "type": "OptionsQuestion",
+        "title": "經過長時間後，資料是否仍可理解並可再次使用？",
+        "guidance": "另請參閱所有關於保存後設資料與資料格式的問題。請確保在典藏庫中，後設資料與資料一同妥善保存，且所有長期典藏皆使用社群所支持的資料格式。",
+        "choices": [
+          {
+            "uuid": "2e2460d5-5233-434b-9229-7cd775cb13b2",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "31de7c36-5d2c-469a-82b8-af870cb3560c",
+            "label": "是",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      },
+      {
+        "uuid": "f9d84278-b61d-4314-94e9-12644bfa1d00",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00"
+        ],
+        "type": "OptionsQuestion",
+        "title": "專案結束後，您是否會以「冷儲存」方式典藏資料？",
+        "guidance": "專案結束後，您是否會以「冷儲存」方式長期保存自己的資料副本？這可能是專案期間資料儲存策略中典藏作業的延續。資料典藏不同於資料發布；典藏庫通常會嚴格限制可取用資料的人員。",
+        "choices": [
+          {
+            "uuid": "b6890d88-88e4-4667-8b28-82bc73c728be",
+            "label": "否",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "562a4823-3e58-44da-ba65-db522c4bbbd9",
+            "label": "是",
+            "follow_up_uuids": [
+              "6467fff1-33ae-47f6-829c-9e3817298d1f",
+              "22f28294-f990-4686-87dd-ecca65a0ed26",
+              "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+              "553834d6-ff71-4b76-b4b4-b90d19a3f0a4",
+              "5a192c70-d824-49d2-965c-dca90deb04ac"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2",
+          "src/questions/11-data-preservation.html.j2"
+        ]
+      },
+      {
+        "uuid": "6467fff1-33ae-47f6-829c-9e3817298d1f",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "6467fff1-33ae-47f6-829c-9e3817298d1f"
+        ],
+        "type": "OptionsQuestion",
+        "title": "誰會支應長期儲存成本？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "3aabde57-dabd-456f-b351-1b81a74bb2d5",
+            "label": "由補助經費支應",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "2171b472-3569-468a-911f-5df375cb244f",
+            "label": "由一位或多位專案參與者所屬部門的預算支應",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "f6dba54d-bb72-4fcf-bebc-f5651adba0c0",
+            "label": "這是由一個或多個參與機構編列預算支應的服務",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterPayerQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "22f28294-f990-4686-87dd-ecca65a0ed26",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "22f28294-f990-4686-87dd-ecca65a0ed26"
+        ],
+        "type": "OptionsQuestion",
+        "title": "資料典藏的最短保存期限為何？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "15f9c764-1aaa-4de1-b65d-b92ae6bd3fb8",
+            "label": "5 年",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "37672102-6b96-4c69-a24a-ce3b8672ccc1",
+            "label": "10 年",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "c0c80589-203d-4564-8f00-89d5cd538fae",
+            "label": "15 年",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "820c78f6-81d0-442f-80c7-bfa3d04b282a",
+            "label": "其他期間",
+            "follow_up_uuids": [
+              "075e934b-e9a3-45b6-a91e-5e19a1e56e06"
+            ]
+          },
+          {
+            "uuid": "3116fe33-8baf-4085-a8ba-688e8b062b78",
+            "label": "另有其他安排",
+            "follow_up_uuids": [
+              "0b42bbcc-5102-4619-b8e3-9409dbc0379a"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterPeriodQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "075e934b-e9a3-45b6-a91e-5e19a1e56e06",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "22f28294-f990-4686-87dd-ecca65a0ed26",
+          "820c78f6-81d0-442f-80c7-bfa3d04b282a",
+          "075e934b-e9a3-45b6-a91e-5e19a1e56e06"
+        ],
+        "type": "ValueQuestion",
+        "title": "典藏資料至少會保存多少年？",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterYearsQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "0b42bbcc-5102-4619-b8e3-9409dbc0379a",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "22f28294-f990-4686-87dd-ecca65a0ed26",
+          "3116fe33-8baf-4085-a8ba-688e8b062b78",
+          "0b42bbcc-5102-4619-b8e3-9409dbc0379a"
+        ],
+        "type": "ValueQuestion",
+        "title": "資料典藏的保存期限如何安排？",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterPeriodOtherQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "1a754b08-2a93-4d90-ac52-96f2a69097bf"
+        ],
+        "type": "OptionsQuestion",
+        "title": "資料典藏的保存期限是否可延長？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "4c9c792f-d0ea-440d-87dd-15a83efcb85f",
+            "label": "否",
+            "follow_up_uuids": [
+              "e5f3081b-df3a-4059-83e2-5c69baa83c49"
+            ]
+          },
+          {
+            "uuid": "fc93bf39-c996-40d2-811e-9324f033a27a",
+            "label": "是",
+            "follow_up_uuids": [
+              "5d153cdd-9d37-4e38-b5eb-1b867ed01e32",
+              "b51878eb-fdaf-4e3a-940e-8ecc98059d58"
+            ]
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterExtendQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "e5f3081b-df3a-4059-83e2-5c69baa83c49",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+          "4c9c792f-d0ea-440d-87dd-15a83efcb85f",
+          "e5f3081b-df3a-4059-83e2-5c69baa83c49"
+        ],
+        "type": "OptionsQuestion",
+        "title": "為什麼不延長典藏期間？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "91a03f0c-3d3d-4bfe-a7eb-46749706e749",
+            "label": "典藏期限受法律或契約限制",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "cb6a4747-0bf3-447d-8d7d-dc1b7a077be0",
+            "label": "典藏期限受預算限制",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterExtendNoReasonQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "5d153cdd-9d37-4e38-b5eb-1b867ed01e32",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+          "fc93bf39-c996-40d2-811e-9324f033a27a",
+          "5d153cdd-9d37-4e38-b5eb-1b867ed01e32"
+        ],
+        "type": "OptionsQuestion",
+        "title": "由誰決定是否延長典藏期間？",
+        "guidance": null,
+        "choices": [
+          {
+            "uuid": "1c805499-e407-489c-81ee-87ac76b6b2b6",
+            "label": "參與本專案的其中一位計畫主持人將作出決定",
+            "follow_up_uuids": []
+          },
+          {
+            "uuid": "c42196af-a4eb-4026-8a4a-8e46012ac47f",
+            "label": "將由圖書館或檔案館人員決定",
+            "follow_up_uuids": []
+          }
+        ],
+        "multi_choices": [],
+        "bindings": [
+          "archivedAfterExtendWhoQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "b51878eb-fdaf-4e3a-940e-8ecc98059d58",
+        "path": [
+          "d5b27482-b598-4b8c-b534-417d4ad27394",
+          "f9d84278-b61d-4314-94e9-12644bfa1d00",
+          "562a4823-3e58-44da-ba65-db522c4bbbd9",
+          "1a754b08-2a93-4d90-ac52-96f2a69097bf",
+          "fc93bf39-c996-40d2-811e-9324f033a27a",
+          "b51878eb-fdaf-4e3a-940e-8ecc98059d58"
+        ],
+        "type": "MultiChoiceQuestion",
+        "title": "是否延長典藏期限，會依據什麼做決定？",
+        "guidance": null,
+        "choices": [],
+        "multi_choices": [
+          {
+            "uuid": "f6d68b58-7996-453f-a033-71272aa01204",
+            "label": "這將取決於典藏資料的實際使用情況"
+          },
+          {
+            "uuid": "b84a59dd-73a3-48f9-9556-04ce3750df73",
+            "label": "這將取決於典藏資料的預期使用情況"
+          },
+          {
+            "uuid": "4071f707-d2c0-4102-9916-2dcab77c27a8",
+            "label": "這將取決於可用預算"
+          }
+        ],
+        "bindings": [
+          "archivedAfterExtendBasisQUuid"
+        ],
+        "static_template_references": [
+          "src/post-project-archive.html.j2"
+        ]
+      },
+      {
+        "uuid": "eb698404-004a-4cdf-a599-be01e0eb7fd2",
+        "path": [
+          "70cc627a-779b-432e-b928-fd263f1ab24f",
+          "eb698404-004a-4cdf-a599-be01e0eb7fd2"
+        ],
+        "type": "ValueQuestion",
+        "title": "您如何決定應保留哪些其他研究成果？",
+        "guidance": "這個問題指的是資料集以外的研究成果，例如程式碼、文件、實驗協定、問卷、參考資料、軟體或工作流程。請說明您如何判斷哪些成果重要且需要保留，例如因為它們對研究結果的可重現性、他人再次使用、法規遵循或未來參考而言不可或缺。您也可以描述用來做出這些決定的準則、政策或團隊慣例。",
+        "choices": [],
+        "multi_choices": [],
+        "bindings": [],
+        "static_template_references": []
+      }
+    ]
+  },
+  "limits": [
+    "Keyword candidates are not an exhaustive semantic audit or absence proof",
+    "Static references are not runtime branch coverage",
+    "No production project answers",
+    "No new KM fields or runtime answers are created"
+  ]
+}
