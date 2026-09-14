@@ -12,8 +12,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    for name in ('baseline', 'variant', 'destination', 'review-document'): parser.add_argument('--'+name, type=Path, required=True)
+    for name in ('baseline', 'variant', 'rebuild', 'destination', 'review-document'): parser.add_argument('--'+name, type=Path, required=True)
     args = parser.parse_args()
+    baseline = json.loads((args.baseline / 'manifest.json').read_text())
+    rebuild = json.loads((args.rebuild / 'manifest.json').read_text())
+    assert rebuild['status'] == 'candidate' and all(not state['dirty'] for state in rebuild['checkouts'].values())
+    assert rebuild['package_timestamp'] == baseline['package_timestamp']
+    for name in ('english.zip', 'chinese.zip'):
+        assert sha(args.rebuild / name) == rebuild['sha256'][name] == sha(args.baseline / name)
     for build in (args.baseline, args.variant):
         report = json.loads((build / 'polish-report.json').read_text())
         assert report['selected_checks_passed'] and report['release_acceptance'] is False
@@ -24,6 +30,7 @@ def main():
         checked = {(r['case'], r['language']) for r in report['rows']}
         for case in ('storage-sharing', 'storage-sharing-partial', 'narrative-long'): assert (case, 'chinese') in checked
     subprocess.run([sys.executable, str(ROOT / 'scripts/collect_format_review.py'), '--baseline', str(args.baseline), '--variant', str(args.variant), '--destination', str(args.destination), '--review-document', str(args.review_document)], check=True)
+    shutil.copy2(args.rebuild / 'manifest.json', args.destination / 'rebuild-manifest.json')
     for label, build in [('stock', args.baseline), ('tables', args.variant)]:
         out = args.destination / label
         shutil.copy2(build / 'polish-report.json', out / 'polish-report.json')

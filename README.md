@@ -14,7 +14,8 @@
 0.3.0 樣張及已知問題見 [儲存與共享閱讀審閱](reviews/2026-09-11-storage-sharing/README.md)。
 0.3.1 樣張見 [敘述與分頁審閱](reviews/2026-09-11-narrative-pagination/README.md)。
 0.3.3 樣張見 [閱讀單位與短表格審閱](reviews/2026-09-14-reading-units/README.md)。
-最新 0.3.4 樣張見 [格式與容量審閱](reviews/2026-09-14-format-volume/README.md)，
+0.3.4 樣張見 [格式與容量審閱](reviews/2026-09-14-format-volume/README.md)。
+最新 0.3.5 樣張見 [缺答提示、數字單位與共享段落審閱](reviews/2026-09-14-reading-polish/README.md)，
 CI 失敗原因及隔離依賴修正見 [CI 修正紀錄](docs/ci-repair-2026-09-14.md)。
 這批樣張仍包含已知失敗，不可作為已驗收的理想 DMP。
 中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯

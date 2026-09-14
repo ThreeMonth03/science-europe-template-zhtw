@@ -1,0 +1,276 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "structured",
+      "language": "english",
+      "joined_q10_runs": 1,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 6,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "structured",
+      "language": "chinese",
+      "joined_q10_runs": 1,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 6,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "format-rich",
+      "language": "english",
+      "joined_q10_runs": 1,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "0.0001 GB"
+      ],
+      "pdf_pages": 7,
+      "passed": true
+    },
+    {
+      "case": "format-rich",
+      "language": "chinese",
+      "joined_q10_runs": 1,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "0.0001 GB"
+      ],
+      "pdf_pages": 6,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "format-partial",
+      "language": "english",
+      "joined_q10_runs": 1,
+      "consolidated_format_gaps": 4,
+      "nonbreaking_quantities": [
+        "0.25 GB",
+        "0 GB"
+      ],
+      "pdf_pages": 7,
+      "passed": true
+    },
+    {
+      "case": "format-partial",
+      "language": "chinese",
+      "joined_q10_runs": 1,
+      "consolidated_format_gaps": 4,
+      "nonbreaking_quantities": [
+        "0.25 GB",
+        "0 GB"
+      ],
+      "pdf_pages": 6,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "storage-sharing",
+      "language": "english",
+      "joined_q10_runs": 2,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 7,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing",
+      "language": "chinese",
+      "joined_q10_runs": 2,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 7,
+      "passed": true,
+      "word_preview_pages": 8
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "english",
+      "joined_q10_runs": 1,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 7,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial",
+      "language": "chinese",
+      "joined_q10_runs": 1,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 6,
+      "passed": true,
+      "word_preview_pages": 8
+    },
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "joined_q10_runs": 2,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 9,
+      "passed": true
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "joined_q10_runs": 2,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 9,
+      "passed": true,
+      "word_preview_pages": 10
+    }
+  ],
+  "checker_sha256": "f3f6e7a31670121f3afe3d1ecb33e799e89851518196a8c832ee6f8a4aca6986",
+  "text_extractor_sha256": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+  "package_sha256": {
+    "english.zip": "57bf56f0b7855f822e0c1c61e7404dffb66edd643d354ed546526dcc0653a5e8",
+    "chinese.zip": "b9eab974616dc0d704a3e6c9a6b452d5d2a42bd70502641e35f5a5496e98c772"
+  },
+  "artifact_sha256": {
+    "renders/format-partial-chinese.docx": "7b290276c6a5076cb4a1641ca7250f1ec4987853a53fb5730eb4b92a64496911",
+    "renders/format-partial-chinese.docx.fixture.json": "6450b39d674ca73891c305174583f304d8e36a5f07793368238c8a332d40ead4",
+    "renders/format-partial-chinese.docx.json": "6cebe6f5f114ffcb7639a83c76be14b8bd99aacd8624a7670636eb1928a39ea8",
+    "renders/format-partial-chinese.html": "c97559187c8bd9a200e64d24752b422771dcd2065e2e0a46aa7e988400bbbe02",
+    "renders/format-partial-chinese.html.fixture.json": "85e26891cee8567dde0b17f3fd37d3a09fdf3a855c4040318dee43dc5b14d0fc",
+    "renders/format-partial-chinese.html.json": "e92acced522dde025baeb6cd47971ebe026badec2d9f8250e2ba3da09b725a38",
+    "renders/format-partial-chinese.pdf": "dfefcc4c1d8994b97212450a10e140e5a4d6dfb1057d86bf822c37cf2b50c2aa",
+    "renders/format-partial-chinese.pdf.fixture.json": "3021131f5f8d40cdeb9cea1362153c05781fc877ea94e5a0479c6d6c9344421f",
+    "renders/format-partial-chinese.pdf.json": "78387632e8e12b9d51966f751cf042ba45273aded231c72f36171c17e422accd",
+    "renders/format-partial-english.docx": "75ed212d514452fa492330d34259c9ab93e7ac4290289d81977a3f430a98c8b6",
+    "renders/format-partial-english.docx.fixture.json": "87e7321b53a6e589d4efbf87ab4106bd4123cdef0d0f5d43f6d9c9fa44b12dc3",
+    "renders/format-partial-english.docx.json": "38c55a51e1d07fbdbae386c71efc427e303dad51924d4628bf6ee6d215d4f2e0",
+    "renders/format-partial-english.html": "63fb526822dbdce793f56f32753f3673bd2331845b13bec14668341d3fc23c10",
+    "renders/format-partial-english.html.fixture.json": "5496a097148bb70c2efd24c58cfe623af74572185b8760f195b430a839490766",
+    "renders/format-partial-english.html.json": "a84736eae4f715dd9b43a836785d8f4eea8430e82e1d526da62b35cc52cbba8c",
+    "renders/format-partial-english.pdf": "d2c960fc3db8fb3bfddf1a8087bfcb032fba4610d05369474c586c4d9320ae40",
+    "renders/format-partial-english.pdf.fixture.json": "4dda3a459d77f76d1dad4f71aefdd42fbcc0481d4b484fd5cec8ca1efb2a17df",
+    "renders/format-partial-english.pdf.json": "03dc481534b260bdc144a500bfaf4d8b948041d264008223e2b1235b33985932",
+    "renders/format-rich-chinese.docx": "5580af45c180d0baa1fad89df7d9c72795b23a3791736e529d20cf56bcde6fba",
+    "renders/format-rich-chinese.docx.fixture.json": "172364b8b7283fc3d1ef5c1e222a407b5a1cdeb19fda75d3890719243f3e332a",
+    "renders/format-rich-chinese.docx.json": "e327912d6bd4a55416aa6fb1cd06c56c7704ce064c1de2e848f9eab4a4b32f23",
+    "renders/format-rich-chinese.html": "170e4c844a3b766118ac2448e398ad0b7a1a0f65bae35c29b9fa83f4c532a8af",
+    "renders/format-rich-chinese.html.fixture.json": "b5fcefd5eab3c04e19a81cc4789bd626c9997aa2c8b3e49c383435de96a33714",
+    "renders/format-rich-chinese.html.json": "9f3914d162a02eaed9335f0305c8ce756b9e25134b7b8b4fcfdf177cbcd2acd2",
+    "renders/format-rich-chinese.pdf": "ff7c7ac30f228906e81ce1102f69234af0731a95fd52497821414a076a278269",
+    "renders/format-rich-chinese.pdf.fixture.json": "975ea9e061ada62266488424ef149c5bd47f70c4bf816c318f001bae1120df23",
+    "renders/format-rich-chinese.pdf.json": "39dee561565b97113a64e65acdcb45e04f8274cb6d0d00153d3ab092b95492f8",
+    "renders/format-rich-english.docx": "0f18a16196fbd89c59a63566050ddb76e8a0ce627b419cc9736fd4d8988e8c48",
+    "renders/format-rich-english.docx.fixture.json": "b2993eb7e78d1232fab99e6efc4d327bc313500ff6792d3140106a7780c995fb",
+    "renders/format-rich-english.docx.json": "19de83d3b6261811b8af49fe602d817768c2803a4ad0d92817d5c59717744fc4",
+    "renders/format-rich-english.html": "11ad848acc64ee9f6d0a35b6240dc82301ac39ad923ed16786de3bb28c07503c",
+    "renders/format-rich-english.html.fixture.json": "b9f87790df5820c3b4139cb73be9d0ee0d8dc1974ab284565ec116d74765d0ec",
+    "renders/format-rich-english.html.json": "738084e2b289c83115c0c6da157ef6b866cecfad5acfe76e5fe3e0df8f0a1f0f",
+    "renders/format-rich-english.pdf": "4ff294513be2ad75f597b8d7a70176c0208341299e2bd48b095305ea2f8dc52a",
+    "renders/format-rich-english.pdf.fixture.json": "742290ccb8b783850553dfef844dd95c0f65afba44a25fc95637b7e53f7c1f46",
+    "renders/format-rich-english.pdf.json": "d8418b1879b922c5afbf647009975e1d391c59b03a1edc846395986fa0d7d39b",
+    "renders/narrative-long-chinese.docx": "0e40316347002535e49fa85a80bbd872c5e2a8896a447b25dca915320595e346",
+    "renders/narrative-long-chinese.docx.fixture.json": "46a6c6a2e55f273536f9d97628cb0f71d3321cba686e3bc0bf3b36e5e5529a93",
+    "renders/narrative-long-chinese.docx.json": "dcd4ffc295d37c0ddbc3f160ef506ed1999ddf2460bb778f3b6b62138834ac9e",
+    "renders/narrative-long-chinese.html": "75579c84c78047f9816d122aab5b106c3ebceaa77bf8c799c06a88aa2dab34b9",
+    "renders/narrative-long-chinese.html.fixture.json": "c96e12bc6a9860a86a23e4195d50fce3bb55ae1acac4eca3edb1ba2eb8ff6b7b",
+    "renders/narrative-long-chinese.html.json": "6a5df1a3e0277a7e1f844d05258d642447bcfac3aac609d854ecc19adf1f3c9a",
+    "renders/narrative-long-chinese.pdf": "d2f935ca016c065170911c1ed03d0e703ebe9fc4ea3e7910f274b30228dfbdb3",
+    "renders/narrative-long-chinese.pdf.fixture.json": "9aa1164b1ab6e127683dead30b8648c1c7c61b0f2a8eac6f1bd355047229d956",
+    "renders/narrative-long-chinese.pdf.json": "a5bc4e3d974332584318fd69e1bbe4260f131990308dd520d081cb730f8556a2",
+    "renders/narrative-long-english.docx": "03a30e20b626183850e401f90d7864005b064cfc9d6310dacfa65d5d92b05733",
+    "renders/narrative-long-english.docx.fixture.json": "ce7b9230da029fa6256a86b2ff7f9946aaa5d02d2e3b5e396959ff645d80743b",
+    "renders/narrative-long-english.docx.json": "7fa2aa1b7c53b1bf7d79398fbde05b3e3f9ac12dbc72540f5fdf1b30f99b8b2c",
+    "renders/narrative-long-english.html": "5242d7f3e6dcd3bd2b19d6a064bdb15c57790f628b1a6ef10594c58008308fdb",
+    "renders/narrative-long-english.html.fixture.json": "3aae04cb909d8016c061ff48b450de856771d9f7f0b21ce5c997c944aee78894",
+    "renders/narrative-long-english.html.json": "58c6cfc0fafeaabd4b66789c4c3f80d7ec71cd4b667bce73d9e7b7d97ad8d5bd",
+    "renders/narrative-long-english.pdf": "2ffd689da6d069768296bf92c4123041a1363b8ed029345fd1b5019b0af5ad74",
+    "renders/narrative-long-english.pdf.fixture.json": "abcd3b30be6b31f71f1141dc8606d9cbf1eb61e1a52ec46e1453079df964dc96",
+    "renders/narrative-long-english.pdf.json": "45b7a3f4d7e8899642e230aa98c07a4e1edc7e1bbc2f86d3d5b5ceb5d5b1d223",
+    "renders/storage-sharing-chinese.docx": "e55c905f3db66f8ed32761fc72c135a3282bb5544cf3a7929fbe75033f69d723",
+    "renders/storage-sharing-chinese.docx.fixture.json": "1c67c2667c2c264cafdea65d55716790edfebb8ce48d1f0c11435ebbaf16d588",
+    "renders/storage-sharing-chinese.docx.json": "4907fb2d58a16a35fe70923631f45a92dca68be0121909d9230d9c6ab7b05053",
+    "renders/storage-sharing-chinese.html": "6010d96e4c7205fe7342945e23a3cbe01f331a216aa0869d4c340344e3fdbd60",
+    "renders/storage-sharing-chinese.html.fixture.json": "dc18497c6d56b0311ec226e835e66f4edb046d75a11d3fda069085037aff3865",
+    "renders/storage-sharing-chinese.html.json": "dbe36a4a525320fc6245a758a5d6103e15cf07bc02c5d6168cd30eefedb54696",
+    "renders/storage-sharing-chinese.pdf": "8e4fdff8842d8e333c1e769e036deef16b24365211e7bd3044e43c1323239e6a",
+    "renders/storage-sharing-chinese.pdf.fixture.json": "99c8ba060db67d5c76b784d1b921777cdbe421d5090e3102a8f013e66c7a6630",
+    "renders/storage-sharing-chinese.pdf.json": "381a9d743db0faf1d8126d64b4dd0b8e7953f545188bbf6d25cd99bb1a882728",
+    "renders/storage-sharing-english.docx": "27d1333ac6a881ea3436827973ac6e7a60714cf89f8509294dfa0dc844e58574",
+    "renders/storage-sharing-english.docx.fixture.json": "b49df45bd1b6393be8b88bbeba18b9b3466a9c9735e2a4b3c9d2126fca14a959",
+    "renders/storage-sharing-english.docx.json": "45e17bdbff36922b8172765b547387338d69666727c9df4124562f7b46745dcf",
+    "renders/storage-sharing-english.html": "5bd503c572c3fb3e52485e1c824c69c9d08aa59772c320513c343e7fe4f27b63",
+    "renders/storage-sharing-english.html.fixture.json": "0f0984696dcee11afd93e391d7707df78a8731bb970e7c68cf306f3302e7dd25",
+    "renders/storage-sharing-english.html.json": "dd1ef6aa2ccae9007e624188dc86b3e1298086e407a090b7b3b03dd06feeb2cc",
+    "renders/storage-sharing-english.pdf": "5b79cfb0fb97e61448e77a516739ec33fda6634ba74b8ee5164c8f48b5aeb4fc",
+    "renders/storage-sharing-english.pdf.fixture.json": "1b2ab814eaf476eb1f1cb281a0178b067dd8794967822a9690789ab7d075f7b2",
+    "renders/storage-sharing-english.pdf.json": "d09e89892981b2ade184e9a280be0e738a7df1e95167263e61e07548834360ac",
+    "renders/storage-sharing-partial-chinese.docx": "c33c268f2fbca06ff02530553fd837a66e3f052047e703442567bcd92f29f850",
+    "renders/storage-sharing-partial-chinese.docx.fixture.json": "71dcb5e2d4630cf6095d4297bd255aafe86819ba5df44d788cead8a30d0b0d92",
+    "renders/storage-sharing-partial-chinese.docx.json": "b3d70254bcfebe24156ed39c9ee0ef13e46d14f4e428eab92156cc8e5cbecf6a",
+    "renders/storage-sharing-partial-chinese.html": "79847a2af317d491bf1edbe68760b4f1296809b21f978a0659fbfd2e4bcbb234",
+    "renders/storage-sharing-partial-chinese.html.fixture.json": "6a45e8b0e44c56d348fb1eac1118e1d81f2f1a01401959785d90b50b4b2dfdab",
+    "renders/storage-sharing-partial-chinese.html.json": "eefa4bf94aea7eec5c80911bb073e5281d572a43aff27c526a7a12b84e9e6db0",
+    "renders/storage-sharing-partial-chinese.pdf": "2fb16364286f0aa6cc8c39faaa5a8b39e8f9683059e4c5ca21f7ffdad8af7f06",
+    "renders/storage-sharing-partial-chinese.pdf.fixture.json": "f1cba78d7abd121364632d6be00e6ea6f9f35ac6a18a269b08169eb58fab6023",
+    "renders/storage-sharing-partial-chinese.pdf.json": "a7f9915efbdde81b04e6937cfe45e5e75e1fd0368059ad43ef9d26c46ceee112",
+    "renders/storage-sharing-partial-english.docx": "170a1bc518db374891aa64cdde5d8eab32fab19b3e56824beca1c7b61a6fa14e",
+    "renders/storage-sharing-partial-english.docx.fixture.json": "a2a5a9b95d07d768159b4c1c015b3af01972b053b58ce2d32b22f13794fa5570",
+    "renders/storage-sharing-partial-english.docx.json": "72768902aa4108fbe2e2c9d78bd5d4e23b4a224b8e005ee6a32f7c0802e4fbe9",
+    "renders/storage-sharing-partial-english.html": "9a51959f82a038a6af69c1ec7f004d2f740beb5b69eae69470bc08e0928e4578",
+    "renders/storage-sharing-partial-english.html.fixture.json": "fc175bf8a0f9209184eaaa03f86d4e923ccf65ead0499a333908e46eb4c7a982",
+    "renders/storage-sharing-partial-english.html.json": "53757b96d0e02ecd690f0be11db23cbf123456090333a376e6f0f5410d482279",
+    "renders/storage-sharing-partial-english.pdf": "983a8ae3c2e6de0334c61dfb2edd76ae27e14977ca7ac7a3ebb6a2c99ffacc0c",
+    "renders/storage-sharing-partial-english.pdf.fixture.json": "f8633578dc445b386ceb753407627f500a356db46f4e5f8a265fc8c493f8a266",
+    "renders/storage-sharing-partial-english.pdf.json": "479c120ee0982443cf2910aef2c16b986c82f857424d72ec918064f53b19c8ab",
+    "renders/structured-chinese.docx": "682cc24f95a8af4892e57c47f9384f4545558b7183e5eeed2a1c1be1f897d244",
+    "renders/structured-chinese.docx.fixture.json": "8269be3b2e84d24179a4fc4a6c92751b4986b513a8f52ddf56af427ae02b3191",
+    "renders/structured-chinese.docx.json": "480124d51abdaa2f0ca24eb723755e32b5667f04b53b8670c7430ab59e3fedfa",
+    "renders/structured-chinese.html": "759ade45437f8d3c83dfd4ff0079efc1aae5850283f6d14e95e8798aaded06e9",
+    "renders/structured-chinese.html.fixture.json": "c3b708403c78647bb81b7d89728c640d2f2ab81f1fbb74607c7c3fc3faae7cb7",
+    "renders/structured-chinese.html.json": "79b5671ba69bfe551b70ed8fa54af7efdce97d934ad6f3e22645e11d9c1bcdc3",
+    "renders/structured-chinese.pdf": "ec894a57d44d5f3bfcd3fac80bb310f9daeca8b1243d47e3b28359a0a9f5c48b",
+    "renders/structured-chinese.pdf.fixture.json": "df700e6ec23abf84f2b4d84e4f8624520cde6e8449116d3369356c9d0ef1795d",
+    "renders/structured-chinese.pdf.json": "8b27b30e8a205803866e601f4778895877e98e66028bbd42a9d98cc03c72ce36",
+    "renders/structured-english.docx": "ac7b3a580ca81721bcf9c472db2cf537cb666664ddd1b5f8aef62abf0f9df149",
+    "renders/structured-english.docx.fixture.json": "01745d381ab4d92555bd5b955d9d0c2848f76f3c6d23d1bf54c1cd86a79d6c03",
+    "renders/structured-english.docx.json": "4498cd86e99c9b6664a34634e9749d12a753ee72ce1a17db897f70fd8fd0c3b8",
+    "renders/structured-english.html": "327015b073f079eb8ceb3be8826f31d447577b2e878f931cdda83a13fabbd90e",
+    "renders/structured-english.html.fixture.json": "23e4c4a738f2d7a1e5da5d550875fa51d7c8560d2a56c132f1c6dcadafd809cf",
+    "renders/structured-english.html.json": "047ed30d6e43a13d21f81c46a79064553bbb81247bf3c8c36b9466b4043c0b0a",
+    "renders/structured-english.pdf": "74dbf10466b07e864cdb8d10efc8c955e691a3586ad0e37f7fa2e58b40e4df8f",
+    "renders/structured-english.pdf.fixture.json": "0b808754de858fda34113caa604baaf3f6bfe40db0714862d7141d4099ad9c1b",
+    "renders/structured-english.pdf.json": "f5e4cfa12819034f001fbbb2b0166f0c0eb7fa973d4cbdf219d8baebc679bb38",
+    "word-preview/format-partial-chinese.pdf": "dd18cf981bcd50275062d3fcfcea922770477280130116897be998267c0a080b",
+    "word-preview/format-rich-chinese.pdf": "7bd423040bfb71f3be8eac3dc6a811db24c53944f29709d29e03589089efcf45",
+    "word-preview/narrative-long-chinese.pdf": "bdf015976b763af124bc5f8eccdea5195845244187a1e43a62df7a5fe865e311",
+    "word-preview/storage-sharing-chinese.pdf": "2730340cf19ba9de14d31f050df8b95eb69e0ba4f3f05a84d3a230f0090c6f59",
+    "word-preview/storage-sharing-partial-chinese.pdf": "e8e998bdc4060408f9c479fbfa8d9f4aa1e8b0881413a8e206381cd6d910ed92",
+    "word-preview/structured-chinese.pdf": "703260c12fe9fef0e34a8701822e588f73c83dc27084ebf1662b669cdb2a98c6",
+    "word-preview/structured-english.pdf": "cab43af4bf11125730ff6d768fed748d7b534e60e746629fcff1a0522ae991e5"
+  },
+  "limits": [
+    "Selected synthetic inputs only",
+    "Complex repositories and restricted licence blocks deliberately excluded from joining",
+    "LibreOffice preview is not Microsoft Word acceptance",
+    "Stock Markdown table support remains blocked"
+  ]
+}

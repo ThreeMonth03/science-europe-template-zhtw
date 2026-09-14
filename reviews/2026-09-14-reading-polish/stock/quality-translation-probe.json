@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "branch_question_language_checks": 512,
+  "checker_sha256": "2f2672f94d36b6e10e3be3826866090ec0871a61fe530542bfe330f144a264db",
+  "assertion_helper_sha256": "0d6ec5f6277001f0c9b00025e0695751fbd7a5cb8d8ea24a125ce175a98d24a6",
+  "package_sha256": {
+    "english.zip": "57bf56f0b7855f822e0c1c61e7404dffb66edd643d354ed546526dcc0653a5e8",
+    "chinese.zip": "b9eab974616dc0d704a3e6c9a6b452d5d2a42bd70502641e35f5a5496e98c772"
+  },
+  "scope": "128 selected/not-selected combinations \u00d7 Q1/Q4 \u00d7 EN/ZH; local reply adapter, not 512 DSW render jobs",
+  "release_acceptance": false
+}

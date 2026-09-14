@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "local_branch_language_checks": 76,
+  "release_acceptance": false,
+  "scope": "25 partial/zero volume combinations + 12 nonstandard/conversion decisions + 1 authored block, each EN/ZH; local adapters, not DSW renders",
+  "checker_sha256": "4d4ddd7f643d681a99e40d062d862bda53c9aa868ee016fe9b9d64eaadee4a0b",
+  "fixture_helper_sha256": "c7c2d36745e6e5cb22a5fe5e9ad7a27d7e5e3aeccd383d9706d7d88614e5d888",
+  "package_sha256": {
+    "english.zip": "57bf56f0b7855f822e0c1c61e7404dffb66edd643d354ed546526dcc0653a5e8",
+    "chinese.zip": "b9eab974616dc0d704a3e6c9a6b452d5d2a42bd70502641e35f5a5496e98c772"
+  }
+}
