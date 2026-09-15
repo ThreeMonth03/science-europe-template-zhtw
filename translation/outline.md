@@ -2748,7 +2748,7 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0018-see-question-5-for-archival-and-backup-arrangements-574d6fce6d/0001-see-question-5-for-archival-and-backup-arrangements-b2d29e8b74/translation.md>)
 
-- [ ] [file] src/questions/07-personal-data.html.j2 (19/20)
+- [ ] [file] src/questions/07-personal-data.html.j2 (14/20)
 
   [J2] `src/questions/07-personal-data.html.j2`
 
@@ -2768,37 +2768,37 @@
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0002-legal-basis-for-collecting-and-processing-personal-data-622c125aa3/0001-legal-basis-for-collecting-and-processing-personal-data-550c2ff958/translation.md>)
 
-    - [x] [wrapper] 0003-we-are-collecting-and-processing-personal-data-based-725d7141c8 (7/7)
+    - [ ] [wrapper] 0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c (1/7)
 
-      [W] `0003-we-are-collecting-and-processing-personal-data-based-725d7141c8`
+      [W] `0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c`
 
         - [x] [unit] 0001-we-are-collecting-and-processing-personal-data-b8e8864653: We are collecting and processing personal data
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-725d7141c8/0001-we-are-collecting-and-processing-personal-data-b8e8864653/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0001-we-are-collecting-and-processing-personal-data-b8e8864653/translation.md>)
 
-        - [x] [unit] 0002-based-on-public-interest-5a0cfc14d0: based on public interest.
+        - [ ] [unit] 0002-based-on-public-interest-e943cf10ec: based on public interest.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-725d7141c8/0002-based-on-public-interest-5a0cfc14d0/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0002-based-on-public-interest-e943cf10ec/translation.md>)
 
-        - [x] [unit] 0003-based-on-subject-s-consent-68cf51fff8: based on subject's consent.
+        - [ ] [unit] 0003-based-on-subject-s-consent-0a2f0af163: based on subject's consent.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-725d7141c8/0003-based-on-subject-s-consent-68cf51fff8/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0003-based-on-subject-s-consent-0a2f0af163/translation.md>)
 
-        - [x] [unit] 0004-in-order-to-fulfil-contract-b8d5f43d89: in order to fulfil contract.
+        - [ ] [unit] 0004-in-order-to-fulfil-contract-894a641040: in order to fulfil contract.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-725d7141c8/0004-in-order-to-fulfil-contract-b8d5f43d89/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0004-in-order-to-fulfil-contract-894a641040/translation.md>)
 
-        - [x] [unit] 0005-based-on-legitimate-interest-14f574776c: based on legitimate interest.
+        - [ ] [unit] 0005-based-on-legitimate-interest-6807a15b63: based on legitimate interest.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-725d7141c8/0005-based-on-legitimate-interest-14f574776c/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0005-based-on-legitimate-interest-6807a15b63/translation.md>)
 
-        - [x] [unit] 0006-based-on-vital-interest-73b7062714: based on vital interest.
+        - [ ] [unit] 0006-based-on-vital-interest-6bbd348c8e: based on vital interest.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-725d7141c8/0006-based-on-vital-interest-73b7062714/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0006-based-on-vital-interest-6bbd348c8e/translation.md>)
 
-        - [x] [unit] 0007-based-on-legal-requirement-9244329dbf: based on legal requirement.
+        - [ ] [unit] 0007-based-on-legal-requirement-e3a0378d42: based on legal requirement.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-725d7141c8/0007-based-on-legal-requirement-9244329dbf/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0007-based-on-legal-requirement-e3a0378d42/translation.md>)
 
     - [x] [wrapper] 0004-technical-and-procedural-measures-2466300806 (1/1)
 
@@ -2848,11 +2848,11 @@
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0009-we-plan-to-transfer-data-outside-the-eu-fbacb5ca9c/0001-we-plan-to-transfer-data-outside-the-eu-fc43e9f2f2/translation.md>)
 
-    - [ ] [wrapper] 0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282 (0/1)
+    - [x] [wrapper] 0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282 (1/1)
 
       [W] `0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282`
 
-        - [ ] [unit] 0001-information-not-provided-the-technical-and-procedural-measures-c37ea2e8a4: Information not provided: the technical and procedural measures for protecting personal data.
+        - [x] [unit] 0001-information-not-provided-the-technical-and-procedural-measures-c37ea2e8a4: Information not provided: the technical and procedural measures for protecting personal data.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282/0001-information-not-provided-the-technical-and-procedural-measures-c37ea2e8a4/translation.md>)
 

@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-based on subject's consent.
+based on legal requirement.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-法律依據為當事人的同意。
+
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ based on subject's consent.
 - Source File: `src/questions/07-personal-data.html.j2`
 - Wrapper Name: `__tr_block_0002`
 - Wrapper Order: `3`
-- Wrapper Key: `we-are-collecting-and-processing-personal-data-based-725d7141c8`
-- Unit Key: `based-on-subject-s-consent-68cf51fff8`
-- Source Hash: `b1d70884b92cb167c82812e8d1c9e17905daccff`
+- Wrapper Key: `we-are-collecting-and-processing-personal-data-based-dc7030e84c`
+- Unit Key: `based-on-legal-requirement-e3a0378d42`
+- Source Hash: `224602831513e9aad90adadbe828ab2a2b30f0fc`
 
 Do not edit this section manually.
 

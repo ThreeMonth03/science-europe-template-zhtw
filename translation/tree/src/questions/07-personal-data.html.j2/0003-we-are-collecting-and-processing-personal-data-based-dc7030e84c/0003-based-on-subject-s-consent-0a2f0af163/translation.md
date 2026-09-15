@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-We are collecting and processing personal data
+based on subject's consent.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-本計畫蒐集及處理個人資料，
+
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ We are collecting and processing personal data
 - Source File: `src/questions/07-personal-data.html.j2`
 - Wrapper Name: `__tr_block_0002`
 - Wrapper Order: `3`
-- Wrapper Key: `we-are-collecting-and-processing-personal-data-based-725d7141c8`
-- Unit Key: `we-are-collecting-and-processing-personal-data-b8e8864653`
-- Source Hash: `6ee0f911f509549e72b0ebdd605fadfb9b1a0ffb`
+- Wrapper Key: `we-are-collecting-and-processing-personal-data-based-dc7030e84c`
+- Unit Key: `based-on-subject-s-consent-0a2f0af163`
+- Source Hash: `4d0b67c98c297d7e7d53299e4d0b65707bb1e0c2`
 
 Do not edit this section manually.
 

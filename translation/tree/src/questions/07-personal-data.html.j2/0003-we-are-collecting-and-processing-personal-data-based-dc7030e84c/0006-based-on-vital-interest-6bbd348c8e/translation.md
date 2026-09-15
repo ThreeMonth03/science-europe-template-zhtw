@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-based on legitimate interest.
+based on vital interest.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-法律依據為正當利益。
+
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ based on legitimate interest.
 - Source File: `src/questions/07-personal-data.html.j2`
 - Wrapper Name: `__tr_block_0002`
 - Wrapper Order: `3`
-- Wrapper Key: `we-are-collecting-and-processing-personal-data-based-725d7141c8`
-- Unit Key: `based-on-legitimate-interest-14f574776c`
-- Source Hash: `9f1d46190aeab0851a7dff821e10b070d8ab5d6d`
+- Wrapper Key: `we-are-collecting-and-processing-personal-data-based-dc7030e84c`
+- Unit Key: `based-on-vital-interest-6bbd348c8e`
+- Source Hash: `0dd58235d30942d1ab65af3c58958e280c657a33`
 
 Do not edit this section manually.
 

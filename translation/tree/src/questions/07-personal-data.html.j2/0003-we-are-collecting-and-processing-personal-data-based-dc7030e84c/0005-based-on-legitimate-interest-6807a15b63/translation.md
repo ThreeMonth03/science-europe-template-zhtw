@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-in order to fulfil contract.
+based on legitimate interest.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-目的為履行契約。
+
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ in order to fulfil contract.
 - Source File: `src/questions/07-personal-data.html.j2`
 - Wrapper Name: `__tr_block_0002`
 - Wrapper Order: `3`
-- Wrapper Key: `we-are-collecting-and-processing-personal-data-based-725d7141c8`
-- Unit Key: `in-order-to-fulfil-contract-b8d5f43d89`
-- Source Hash: `82769a448e7c94c440a210e682276847d58f612f`
+- Wrapper Key: `we-are-collecting-and-processing-personal-data-based-dc7030e84c`
+- Unit Key: `based-on-legitimate-interest-6807a15b63`
+- Source Hash: `ab99f2676ead5073779627b62562f80802abb670`
 
 Do not edit this section manually.
 

@@ -43,6 +43,7 @@ def main():
                 ('no', case(collect='collectPersonalNoAUuid'), 0), ('inactive', case(explore=False), 0),
                 ('answered', case(safeguards=UUIDS['cpersGdprSafeguardsAUuid']), 0)]:
             soup = BeautifulSoup(template.render(repliesMap=replies), 'html.parser')
+            assert not soup.select('p p, p div, p ul, p table'), (folder, name, 'Invalid paragraph nesting')
             nodes = soup.select('[data-fact-id="personal-data-safeguards"][data-status="missing"]')
             assert len(nodes) == expected
             if nodes: assert nodes[0].get_text() == text

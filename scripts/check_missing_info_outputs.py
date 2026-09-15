@@ -16,6 +16,9 @@ sys.path.insert(0, str(EN / 'scripts'))
 from probe_pdf_budget_reading import dom
 from check_pdf_budget_reading_outputs import sequence_pages, exact_long_sequence, complete_marker_lines, positioned_budget_lists
 from check_budget_outputs import compare_word
+from check_word_rhythm_outputs import inspect_preview
+from check_long_budget_outputs import page_texts
+from check_pdf_budget_reading_outputs import question_pages
 from docx import Document
 import zipfile
 from compare_runtime_outputs import markers
@@ -139,6 +142,7 @@ def main():
     p.add_argument('--control-prior', type=Path, required=True)
     p.add_argument('--prior-fixtures', type=Path, required=True)
     p.add_argument('--cases', nargs='+', required=True)
+    p.add_argument('--output', type=Path, help='Fresh report path for a partial diagnostic run')
     a = p.parse_args()
     report = {'selected_checks_passed': False, 'release_acceptance': False, 'version': '0.3.20', 'rows': [],
               'checker_sha256': digest(Path(__file__)),
@@ -150,7 +154,7 @@ def main():
               'limits': ['Selected reachable missing cases, not every unanswered KM field',
                          'Native PDFs on the reviewed local Markdown-tables worker; not production deployment',
                          'Word text retention and complete-control XML, not Microsoft Word visual acceptance']}
-    target = a.build/'missing-info-report.json'; assert not target.exists()
+    target = a.output or a.build/'missing-info-report.json'; assert not target.exists()
     try:
         for name in a.cases:
             soups = []
@@ -181,6 +185,28 @@ def main():
                 for node in soup.select('#dmp-content .data-gap, #dmp-content .answer-detail p'):
                     assert compact(node.get_text()) in text, (name, language, 'Word text not retained', node.get_text())
                 row['word_gap_and_authored_text_retained'] = True
+                preview = a.build/'word-preview'/(name+'-'+language+'.pdf')
+                row['word_preview_pages'] = inspect_preview(preview)
+                row['artifact_sha256'][str(preview.relative_to(a.build))] = digest(preview)
+                preview_raw = subprocess.check_output(['pdftotext', '-raw', str(preview), '-'], text=True).split('\f')
+                if not preview_raw[-1].strip(): preview_raw.pop()
+                preview_raw = [compact(page) for page in preview_raw]
+                if name == 'empty':
+                    group = [compact(n.get_text()) for n in soup.select('#q-required-resources h3, #q-required-resources .data-gap')]
+                    locations = [i for i, page in enumerate(preview_raw, 1) if all(text in page for text in group)]
+                    assert len(locations) == 1, 'Word preview splits the short empty-Q15 group'
+                    row['word_empty_q15_group_page'] = locations[0]
+                if name.startswith('budget-long-no-') or name == 'budget-long':
+                    cells = soup.select_one('.resource-table tbody > tr').find_all('td', recursive=False)
+                    identity = [compact(cells[0].select_one('p strong').get_text())] + [compact(c.get_text()) for c in cells[1:]]
+                    purposes = [compact(n.get_text()) for n in soup.select('.resource-table .answer-detail p') if 'BUDGET-PARA-' in n.get_text()]
+                    assert len(purposes) == 60
+                    assert all(sum(page.count(text) for page in preview_raw) == 1 for text in purposes), 'Word preview loses or splits a fixture paragraph'
+                    locations = [i for i, page in enumerate(preview_raw, 1) if 'BUDGET-PARA-' in page]
+                    for i in locations:
+                        prefix = preview_raw[i-1].split('BUDGET-PARA-', 1)[0]
+                        assert all(value in prefix for value in identity), (name, language, i, 'Word continuation identity missing')
+                    row['word_long_budget'] = {'purpose_pages': locations, 'retained_paragraphs': len(purposes), 'identity_on_each_purpose_page': True}
                 row['artifact_sha256'][str(word_path.relative_to(a.build))] = digest(word_path)
                 sidecar = json.loads(word_path.with_suffix('.docx.fixture.json').read_text())
                 pdf_sidecar = json.loads(word_path.with_suffix('.pdf.fixture.json').read_text())
@@ -192,6 +218,9 @@ def main():
                     with zipfile.ZipFile(old_word) as left, zipfile.ZipFile(word_path) as right:
                         assert left.read('word/styles.xml') == right.read('word/styles.xml')
                     row['word_body_styles_external_links_unchanged'] = True
+                    old_preview = a.control_prior/'word-preview'/(name+'-'+language+'.pdf')
+                    assert question_pages(page_texts(old_preview), old_soup) == question_pages(page_texts(preview), soup)
+                    row['word_control_pagination_unchanged'] = True
                 report['rows'].append(row); soups.append(soup)
                 print(json.dumps({k: row[k] for k in ['case', 'language', 'pages', 'errors', 'reading_issues']}, ensure_ascii=False), flush=True)
             assert markers(soups[0]) == markers(soups[1]), 'Bilingual fact/status/ownership drift'
