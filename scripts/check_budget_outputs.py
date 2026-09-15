@@ -17,7 +17,7 @@ from check_identifier_followup_outputs import check_followup_page_text
 from check_narrative_outputs import compact, page_bounds
 
 
-def xml(node): return etree.tostring(node,method='c14n')
+def xml(node): return etree.tostring(node,method='c14n',exclusive=True)
 
 
 def body(document):
