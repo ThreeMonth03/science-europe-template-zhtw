@@ -21,7 +21,8 @@ def compare_style_roots(before, after):
     assert len(matches) == 1
     style = matches[0]; props = style.findall(qn('w:tcPr'))
     assert len(props) == 1
-    expected = etree.Element(qn('w:tcPr')); margins = etree.SubElement(expected, qn('w:tcMar'))
+    expected = etree.Element(qn('w:tcPr'), nsmap=props[0].nsmap)
+    margins = etree.SubElement(expected, qn('w:tcMar'))
     for edge in ['top', 'bottom']:
         etree.SubElement(margins, qn('w:' + edge), attrib={qn('w:w'): '28', qn('w:type'): 'dxa'})
     assert xml(props[0]) == xml(expected), 'Only 28-twip top/bottom margins are allowed'
@@ -32,6 +33,20 @@ def compare_style_roots(before, after):
 def compare_styles(old, new):
     with zipfile.ZipFile(old) as a, zipfile.ZipFile(new) as b:
         compare_style_roots(etree.fromstring(a.read('word/styles.xml')), etree.fromstring(b.read('word/styles.xml')))
+
+
+def line_box_overlaps(data):
+    """PDF font-metric boxes are not ink bounds; record, don't declare collisions."""
+    found = []
+    for block in etree.fromstring(data).findall('.//{*}block'):
+        lines = block.findall('{*}line')
+        for index, left in enumerate(lines):
+            for right in lines[index+1:]:
+                width = min(float(left.get('xMax')), float(right.get('xMax'))) - max(float(left.get('xMin')), float(right.get('xMin')))
+                height = min(float(left.get('yMax')), float(right.get('yMax'))) - max(float(left.get('yMin')), float(right.get('yMin')))
+                if width > .5 and height > .5:
+                    found.append((compact(''.join(left.itertext())), compact(''.join(right.itertext())), round(width, 3), round(height, 3)))
+    return sorted(found)
 
 
 def pdf_body_without_table_headers(path, soup):
@@ -96,6 +111,7 @@ def main():
               'limits': ['Selected synthetic fixtures only; not full DMP acceptance',
                          'Word previews use LibreOffice, not Microsoft Word',
                          'Native PDF still has narrow purpose columns and no repeating resource identity',
+                         'PDF line-box checks require no new metric-box overlaps; existing boxes are not ink-collision evidence',
                          'PDF >=12 direct purpose blocks hint does not cover every long answer',
                          'Stock Markdown-table failures remain blocked']}
     target = a.build / 'budget-spacing-report.json'
@@ -120,8 +136,11 @@ def main():
                 before_pages, after_pages = [page_texts(path) for path in previews]
                 row = {'case': case, 'language': language, 'question_comparisons': count,
                        'question_word_xml_unchanged': True,
-                       'prior_pdf_pages': page_bounds(old_pdf), 'pdf_pages': inspect_preview(new_pdf),
+                       'prior_pdf_pages': page_bounds(old_pdf), 'pdf_pages': page_bounds(new_pdf),
                        'prior_word_pages': len(before_pages), 'word_pages': inspect_preview(previews[1])}
+                boxes = [line_box_overlaps(subprocess.check_output(['pdftotext', '-bbox-layout', str(path), '-'])) for path in [old_pdf, new_pdf]]
+                assert boxes[0] == boxes[1], 'New or changed PDF line metric-box overlap requires review'
+                row['unchanged_pdf_metric_box_overlaps'] = boxes[1]
                 if case == 'budget-long':
                     assert pdf_body_without_table_headers(old_pdf, soups[0]) == pdf_body_without_table_headers(new_pdf, soups[1]), 'PDF answer text/order changed'
                     q1 = compact(soups[0].select_one('.question h3').get_text())

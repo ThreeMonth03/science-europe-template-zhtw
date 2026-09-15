@@ -5,13 +5,19 @@ from pathlib import Path
 from lxml import etree
 from docx.oxml.ns import qn
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from check_budget_spacing_outputs import compare_style_roots, long_page_checks
+from check_budget_spacing_outputs import compare_style_roots, long_page_checks, line_box_overlaps
 from bs4 import BeautifulSoup
 
 
 class BudgetSpacingOutputTests(unittest.TestCase):
-    def styles(self):
-        old = etree.Element(qn('w:styles'))
+    def test_pdf_metric_box_regression_does_not_drop_overlap_text(self):
+        source = b'<doc><block><line xMin="1" xMax="20" yMin="1" yMax="15">First</line><line xMin="1" xMax="20" yMin="14" yMax="28">Second</line></block></doc>'
+        self.assertEqual([('First', 'Second', 19.0, 1.0)], line_box_overlaps(source))
+        self.assertNotEqual(line_box_overlaps(source), line_box_overlaps(source.replace(b'Second', b'Changed')))
+        self.assertFalse(line_box_overlaps(source.replace(b'yMin="14"', b'yMin="16"')))
+
+    def styles(self, nsmap=None):
+        old = etree.Element(qn('w:styles'), nsmap=nsmap)
         etree.SubElement(old, qn('w:style'), attrib={qn('w:styleId'): 'Normal'})
         etree.SubElement(old, qn('w:style'), attrib={qn('w:styleId'): 'PilotLongBudget'})
         new = copy.deepcopy(old)
@@ -22,6 +28,7 @@ class BudgetSpacingOutputTests(unittest.TestCase):
 
     def test_exact_margin_change_allowed(self):
         compare_style_roots(*self.styles())
+        compare_style_roots(*self.styles({'w': 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}))
 
     def test_unrelated_style_change_rejected(self):
         old, new = self.styles(); etree.SubElement(new[0], qn('w:pPr'))
