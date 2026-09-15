@@ -23,6 +23,7 @@ TABLE_CASES.update({'repository-gap', 'repository-long'})
 TABLE_CASES.add('contact-mixed')
 TABLE_CASES.add('paper-references')
 TABLE_CASES.add('identifier-followups')
+TABLE_CASES.update({'budget-long','budget-many'})
 
 
 def docx_has_table_headers(xml, headers):
