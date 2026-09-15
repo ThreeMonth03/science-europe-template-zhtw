@@ -4740,7 +4740,7 @@
 
           [T] [translation](<tree/src/questions/14-dm-responsible.html.j2/0010-this-document-does-not-yet-identify-a-named-02da801dc4/0001-this-document-does-not-yet-identify-a-named-a45c9b0a8b/translation.md>)
 
-- [x] [file] src/questions/15-required-resources.html.j2 (44/44)
+- [ ] [file] src/questions/15-required-resources.html.j2 (38/46)
 
   [J2] `src/questions/15-required-resources.html.j2`
 
@@ -4920,165 +4920,117 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0022-funding-source-24355dbdc4/0001-funding-source-1202438b83/translation.md>)
 
-    - [x] [wrapper] 0023-no-resource-name-given-0c6a90c4c1 (1/1)
+    - [ ] [wrapper] 0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5 (11/17)
 
-      [W] `0023-no-resource-name-given-0c6a90c4c1`
+      [W] `0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5`
 
         - [x] [unit] 0001-no-resource-name-given-81b0789e65: (no resource name given)
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-0c6a90c4c1/0001-no-resource-name-given-81b0789e65/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0001-no-resource-name-given-81b0789e65/translation.md>)
 
-    - [x] [wrapper] 0024-information-not-provided-why-this-resource-is-needed-7d85ee171b (1/1)
+        - [x] [unit] 0002-information-not-provided-why-this-resource-is-needed-1a63c33881: Information not provided: why this resource is needed to deliver FAIR data.
 
-      [W] `0024-information-not-provided-why-this-resource-is-needed-7d85ee171b`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0002-information-not-provided-why-this-resource-is-needed-1a63c33881/translation.md>)
 
-        - [x] [unit] 0001-information-not-provided-why-this-resource-is-needed-c2d6d8de80: Information not provided: why this resource is needed to deliver FAIR data.
+        - [ ] [unit] 0003-currency-7fdf2a0c96: Currency: {projectCostItemCurrencyReply}.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-information-not-provided-why-this-resource-is-needed-7d85ee171b/0001-information-not-provided-why-this-resource-is-needed-c2d6d8de80/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0003-currency-7fdf2a0c96/translation.md>)
 
-    - [x] [wrapper] 0025-currency-35ed78468f (1/1)
+        - [x] [unit] 0004-information-not-provided-currency-0baaffdf7c: Information not provided: currency.
 
-      [W] `0025-currency-35ed78468f`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0004-information-not-provided-currency-0baaffdf7c/translation.md>)
 
-        - [x] [unit] 0001-currency-4524ef6a74: Currency: {projectCostItemCurrencyReply}.
+        - [ ] [unit] 0005-currency-7fdf2a0c96-2: Currency: {projectCostItemCurrencyReply}.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-currency-35ed78468f/0001-currency-4524ef6a74/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0005-currency-7fdf2a0c96-2/translation.md>)
 
-    - [x] [wrapper] 0026-information-not-provided-currency-7c26a86813 (1/1)
+        - [x] [unit] 0006-information-not-provided-budgeted-amount-477d8eed8e: Information not provided: budgeted amount.
 
-      [W] `0026-information-not-provided-currency-7c26a86813`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0006-information-not-provided-budgeted-amount-477d8eed8e/translation.md>)
 
-        - [x] [unit] 0001-information-not-provided-currency-44d4b37427: Information not provided: currency.
+        - [ ] [unit] 0007-currency-7fdf2a0c96-3: Currency: {projectCostItemCurrencyReply}.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0026-information-not-provided-currency-7c26a86813/0001-information-not-provided-currency-44d4b37427/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0007-currency-7fdf2a0c96-3/translation.md>)
 
-    - [x] [wrapper] 0027-information-not-provided-budgeted-amount-a9ab5eb348 (1/1)
+        - [x] [unit] 0008-information-not-provided-budgeted-amount-and-currency-f939a03034: Information not provided: budgeted amount and currency.
 
-      [W] `0027-information-not-provided-budgeted-amount-a9ab5eb348`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0008-information-not-provided-budgeted-amount-and-currency-f939a03034/translation.md>)
 
-        - [x] [unit] 0001-information-not-provided-budgeted-amount-56c2653542: Information not provided: budgeted amount.
+        - [x] [unit] 0009-findability-f10dc2eecc: findability
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0027-information-not-provided-budgeted-amount-a9ab5eb348/0001-information-not-provided-budgeted-amount-56c2653542/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0009-findability-f10dc2eecc/translation.md>)
 
-    - [x] [wrapper] 0028-information-not-provided-budgeted-amount-and-currency-6cb185400e (1/1)
+        - [x] [unit] 0010-accessibility-9aedd8d3a4: accessibility
 
-      [W] `0028-information-not-provided-budgeted-amount-and-currency-6cb185400e`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0010-accessibility-9aedd8d3a4/translation.md>)
 
-        - [x] [unit] 0001-information-not-provided-budgeted-amount-and-currency-be6e0b40c7: Information not provided: budgeted amount and currency.
+        - [x] [unit] 0011-interoperability-91ea8fee5b: interoperability
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0028-information-not-provided-budgeted-amount-and-currency-6cb185400e/0001-information-not-provided-budgeted-amount-and-currency-be6e0b40c7/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0011-interoperability-91ea8fee5b/translation.md>)
 
-    - [x] [wrapper] 0029-findability-bdb37d392f (1/1)
+        - [x] [unit] 0012-reusability-752d9b937e: reusability
 
-      [W] `0029-findability-bdb37d392f`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0012-reusability-752d9b937e/translation.md>)
 
-        - [x] [unit] 0001-findability-05c94ffcbd: findability
+        - [x] [unit] 0013-management-4f4bc2bd2b: management
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0029-findability-bdb37d392f/0001-findability-05c94ffcbd/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0013-management-4f4bc2bd2b/translation.md>)
 
-    - [x] [wrapper] 0030-accessibility-fb475c4ddd (1/1)
+        - [ ] [unit] 0014-this-resource-supports-and-of-data-ee9d3aefb6: This resource supports {projectCostItemAllocations_0_minus_1}, and {projectCostItemAllocations_minus_1} of data.
 
-      [W] `0030-accessibility-fb475c4ddd`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0014-this-resource-supports-and-of-data-ee9d3aefb6/translation.md>)
 
-        - [x] [unit] 0001-accessibility-a6f0197914: accessibility
+        - [ ] [unit] 0015-this-resource-supports-and-of-data-0e08d81c68: This resource supports {projectCostItemAllocations_0} and {projectCostItemAllocations_1} of data.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0030-accessibility-fb475c4ddd/0001-accessibility-a6f0197914/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0015-this-resource-supports-and-of-data-0e08d81c68/translation.md>)
 
-    - [x] [wrapper] 0031-interoperability-781ca6991e (1/1)
+        - [ ] [unit] 0016-this-resource-supports-of-data-10a1d174f0: This resource supports {projectCostItemAllocations_0} of data.
 
-      [W] `0031-interoperability-781ca6991e`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0016-this-resource-supports-of-data-10a1d174f0/translation.md>)
 
-        - [x] [unit] 0001-interoperability-2ef6470664: interoperability
+        - [x] [unit] 0017-information-not-provided-which-fair-or-data-management-30948d8018: Information not provided: which FAIR or data-management activities this resource supports.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0031-interoperability-781ca6991e/0001-interoperability-2ef6470664/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0017-information-not-provided-which-fair-or-data-management-30948d8018/translation.md>)
 
-    - [x] [wrapper] 0032-reusability-af10e62d53 (1/1)
+    - [ ] [wrapper] 0024-this-cost-will-be-covered-by-a-funding-e3a57b019e (3/5)
 
-      [W] `0032-reusability-af10e62d53`
+      [W] `0024-this-cost-will-be-covered-by-a-funding-e3a57b019e`
 
-        - [x] [unit] 0001-reusability-cee188e05a: reusability
+        - [x] [unit] 0001-this-cost-will-be-covered-by-a-funding-bf970b4426: This cost will be covered by a funding grant.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0032-reusability-af10e62d53/0001-reusability-cee188e05a/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-e3a57b019e/0001-this-cost-will-be-covered-by-a-funding-bf970b4426/translation.md>)
 
-    - [x] [wrapper] 0033-management-c34a769773 (1/1)
+        - [x] [unit] 0002-grant-number-1787becfbc: Grant number: {costCoverGrantIdReply}.
 
-      [W] `0033-management-c34a769773`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-e3a57b019e/0002-grant-number-1787becfbc/translation.md>)
 
-        - [x] [unit] 0001-management-140cce220b: management
+        - [x] [unit] 0003-information-not-provided-the-grant-number-16c8714aac: Information not provided: the grant number.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0033-management-c34a769773/0001-management-140cce220b/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-e3a57b019e/0003-information-not-provided-the-grant-number-16c8714aac/translation.md>)
 
-    - [x] [wrapper] 0034-this-resource-supports-and-of-data-5fc4f10149 (1/1)
+        - [ ] [unit] 0004-information-not-provided-how-this-cost-will-be-74656cfc4e: Information not provided: how this cost will be covered.
 
-      [W] `0034-this-resource-supports-and-of-data-5fc4f10149`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-e3a57b019e/0004-information-not-provided-how-this-cost-will-be-74656cfc4e/translation.md>)
 
-        - [x] [unit] 0001-this-resource-supports-and-of-data-e9c46c3687: This resource supports {projectCostItemAllocations_0_minus_1}, and {projectCostItemAllocations_minus_1} of data.
+        - [ ] [unit] 0005-information-not-provided-how-this-cost-will-be-74656cfc4e-2: Information not provided: how this cost will be covered.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0034-this-resource-supports-and-of-data-5fc4f10149/0001-this-resource-supports-and-of-data-e9c46c3687/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-e3a57b019e/0005-information-not-provided-how-this-cost-will-be-74656cfc4e-2/translation.md>)
 
-    - [x] [wrapper] 0035-this-resource-supports-and-of-data-2f5cbd96da (1/1)
+    - [x] [wrapper] 0025-information-not-provided-resources-such-as-staff-time-64a33cb3cb (1/1)
 
-      [W] `0035-this-resource-supports-and-of-data-2f5cbd96da`
+      [W] `0025-information-not-provided-resources-such-as-staff-time-64a33cb3cb`
 
-        - [x] [unit] 0001-this-resource-supports-and-of-data-c560b4303d: This resource supports {projectCostItemAllocations_0} and {projectCostItemAllocations_1} of data.
+        - [x] [unit] 0001-information-not-provided-resources-such-as-staff-time-d6a2902483: Information not provided: resources such as staff time, storage, deposit preparation, and repository charges budgeted for this project.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0035-this-resource-supports-and-of-data-2f5cbd96da/0001-this-resource-supports-and-of-data-c560b4303d/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-information-not-provided-resources-such-as-staff-time-64a33cb3cb/0001-information-not-provided-resources-such-as-staff-time-d6a2902483/translation.md>)
 
-    - [x] [wrapper] 0036-this-resource-supports-of-data-4c68255f78 (1/1)
+    - [x] [wrapper] 0026-information-not-provided-the-financial-and-time-resources-59018491f9 (1/1)
 
-      [W] `0036-this-resource-supports-of-data-4c68255f78`
+      [W] `0026-information-not-provided-the-financial-and-time-resources-59018491f9`
 
-        - [x] [unit] 0001-this-resource-supports-of-data-1a8d901738: This resource supports {projectCostItemAllocations_0} of data.
+        - [x] [unit] 0001-information-not-provided-the-financial-and-time-resources-cd46b4ab67: Information not provided: the financial and time resources budgeted for data management and FAIR data.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0036-this-resource-supports-of-data-4c68255f78/0001-this-resource-supports-of-data-1a8d901738/translation.md>)
-
-    - [x] [wrapper] 0037-information-not-provided-which-fair-or-data-management-d309ae9e2a (1/1)
-
-      [W] `0037-information-not-provided-which-fair-or-data-management-d309ae9e2a`
-
-        - [x] [unit] 0001-information-not-provided-which-fair-or-data-management-5f833e92cf: Information not provided: which FAIR or data-management activities this resource supports.
-
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0037-information-not-provided-which-fair-or-data-management-d309ae9e2a/0001-information-not-provided-which-fair-or-data-management-5f833e92cf/translation.md>)
-
-    - [x] [wrapper] 0038-this-cost-will-be-covered-by-a-funding-b66a7417b0 (5/5)
-
-      [W] `0038-this-cost-will-be-covered-by-a-funding-b66a7417b0`
-
-        - [x] [unit] 0001-this-cost-will-be-covered-by-a-funding-60af7c4827: This cost will be covered by a funding grant.
-
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0038-this-cost-will-be-covered-by-a-funding-b66a7417b0/0001-this-cost-will-be-covered-by-a-funding-60af7c4827/translation.md>)
-
-        - [x] [unit] 0002-grant-number-4e9658c91c: Grant number: {costCoverGrantIdReply}.
-
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0038-this-cost-will-be-covered-by-a-funding-b66a7417b0/0002-grant-number-4e9658c91c/translation.md>)
-
-        - [x] [unit] 0003-information-not-provided-the-grant-number-e559306266: Information not provided: the grant number.
-
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0038-this-cost-will-be-covered-by-a-funding-b66a7417b0/0003-information-not-provided-the-grant-number-e559306266/translation.md>)
-
-        - [x] [unit] 0004-information-not-provided-how-this-cost-will-be-31902e1144: Information not provided: how this cost will be covered.
-
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0038-this-cost-will-be-covered-by-a-funding-b66a7417b0/0004-information-not-provided-how-this-cost-will-be-31902e1144/translation.md>)
-
-        - [x] [unit] 0005-information-not-provided-how-this-cost-will-be-31902e1144-2: Information not provided: how this cost will be covered.
-
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0038-this-cost-will-be-covered-by-a-funding-b66a7417b0/0005-information-not-provided-how-this-cost-will-be-31902e1144-2/translation.md>)
-
-    - [x] [wrapper] 0039-information-not-provided-resources-such-as-staff-time-64a33cb3cb (1/1)
-
-      [W] `0039-information-not-provided-resources-such-as-staff-time-64a33cb3cb`
-
-        - [x] [unit] 0001-information-not-provided-resources-such-as-staff-time-10d31d7a4a: Information not provided: resources such as staff time, storage, deposit preparation, and repository charges budgeted for this project.
-
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0039-information-not-provided-resources-such-as-staff-time-64a33cb3cb/0001-information-not-provided-resources-such-as-staff-time-10d31d7a4a/translation.md>)
-
-    - [x] [wrapper] 0040-information-not-provided-the-financial-and-time-resources-59018491f9 (1/1)
-
-      [W] `0040-information-not-provided-the-financial-and-time-resources-59018491f9`
-
-        - [x] [unit] 0001-information-not-provided-the-financial-and-time-resources-0c8bead0a7: Information not provided: the financial and time resources budgeted for data management and FAIR data.
-
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0040-information-not-provided-the-financial-and-time-resources-59018491f9/0001-information-not-provided-the-financial-and-time-resources-0c8bead0a7/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0026-information-not-provided-the-financial-and-time-resources-59018491f9/0001-information-not-provided-the-financial-and-time-resources-cd46b4ab67/translation.md>)
 
 - [x] [file] src/versions.html.j2 (5/5)
 

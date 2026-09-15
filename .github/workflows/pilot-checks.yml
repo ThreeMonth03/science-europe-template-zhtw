@@ -69,6 +69,8 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_long_budget_word.py --output "$SE_BUILD_DIR/long-budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_pdf.py --output "$SE_BUILD_DIR/budget-pdf-probe.json"
+          ../tooling/.venv/bin/python ../english/scripts/probe_pdf_budget_reading.py --engine --output "$SE_BUILD_DIR/pdf-budget-reading-probe-english.json"
+          ../tooling/.venv/bin/python ../english/scripts/probe_pdf_budget_reading.py --source-dir "$SE_BUILD_DIR/translated" --prior-question tests/fixtures/budget-0.3.18.zh-Hant.html.j2 --output "$SE_BUILD_DIR/pdf-budget-reading-probe-chinese.json"
       - uses: actions/upload-artifact@v4
         with:
           name: experimental-candidate-not-a-release
