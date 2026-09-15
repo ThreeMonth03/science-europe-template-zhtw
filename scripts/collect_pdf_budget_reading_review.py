@@ -65,6 +65,7 @@ def main():
                         assert row['pdf']['complete_purpose_paragraphs'] == row['word']['complete_purpose_paragraphs'] == 60
                         assert row['word']['tail_shares_last_purpose_page']
                         assert row['pdf']['verified_continuation_headers'] > 0 and row['pdf']['single_line_purpose_paragraphs'] == 60
+                        assert row['pdf']['positioned_list_items'] == 2
             keep(root / name, f'{side}/{name}')
     for name, script in PROBES + [('identifier-translation-probe', 'identifier_translation')]:
         report = read(a.baseline, name + '.json')

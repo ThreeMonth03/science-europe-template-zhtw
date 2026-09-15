@@ -1,5 +1,6 @@
 """Native 0.3.19 PDF-only reading; compare matching 0.3.18 synthetic exports."""
 import argparse
+from collections import defaultdict
 import json
 from pathlib import Path
 import subprocess
@@ -23,10 +24,41 @@ def normalize_owned_indent(soup):
 
 
 def visible(node):
-    """Fixture HTML reading order, including native PDF list bullets."""
+    """Authored/owned text; generated list markers are checked by position."""
     if isinstance(node, Comment): return ''
     if not isinstance(node, Tag): return str(node)
-    return ('•' if node.name == 'li' else '') + ''.join(visible(child) for child in node.children)
+    return ''.join(visible(child) for child in node.children)
+
+
+def sequence_pages(pages, bbox, soup):
+    # WeasyPrint paints outside list markers after the page's text. Raw PDF
+    # extraction therefore appends them to the page, unlike their visual order.
+    # Only this fixture (no authored bullet character) permits removing that
+    # verified suffix. Never normalize bullets in arbitrary user answers.
+    assert '•' not in soup.get_text(), 'Authored bullet character requires a different oracle'
+    nodes = etree.fromstring(bbox).findall('.//{*}page'); assert len(nodes) == len(pages)
+    heading = compact(soup.select_one('#q-required-resources h4').get_text())
+    assert sum(page.count(heading) for page in pages) == 1
+    start = next(i for i, page in enumerate(pages) if heading in page)
+    result = []
+    for index, (page, node) in enumerate(zip(pages, nodes)):
+        if index < start:
+            result.append(page); continue
+        clean = page.rstrip('•'); count = len(page) - len(clean)
+        assert '•' not in clean, 'Only page-suffix generated markers may be excluded'
+        markers = [n for n in node.findall('.//{*}word') if n.text == '•']
+        assert count == len(markers), 'Every excluded marker must have a positioned PDF word'
+        result.append(clean)
+    return result
+
+
+def positioned_budget_lists(bbox, soup):
+    lines = [compact(''.join(n.itertext())) for n in etree.fromstring(bbox).findall('.//{*}line')]
+    items = soup.select('.resource-table .answer-detail li'); assert len(items) == 2
+    for item in items:
+        # Bbox reading order places the bullet with its actual first text line.
+        assert lines.count('•' + compact(item.get_text())) == 1, 'Missing or misplaced budget list marker/text'
+    return len(items)
 
 
 def question_pages(pages, soup):
@@ -71,6 +103,16 @@ def complete_marker_lines(data, soup):
     return len(purposes)
 
 
+def external_pdf_links(path):
+    data = subprocess.check_output(['pdftohtml', '-xml', '-hidden', '-i', '-stdout', str(path)], stderr=subprocess.DEVNULL)
+    links = defaultdict(str)
+    for node in etree.fromstring(data).iter('a'):
+        href = node.get('href', '')
+        if href.startswith(('https://', 'http://', 'mailto:')):
+            links[href] += compact(''.join(node.itertext()))
+    return dict(links)
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     for name in ['build', 'prior']: p.add_argument('--' + name, type=Path, required=True)
@@ -111,8 +153,11 @@ def main():
                 before_word, after_word = [page_texts(path) for path in previews]
                 assert question_pages(before_word, soups[0]) == question_pages(after_word, soups[1]), 'Word content or pagination changed'
                 old_pdf, new_pdf = [path.with_suffix('.pdf') for path in [old, new]]
+                old_links, new_links = [external_pdf_links(path) for path in [old_pdf, new_pdf]]
+                assert old_links == new_links, 'PDF external link target or linked text changed'
                 row = {'case': case, 'language': language, 'question_comparisons': count,
                        'question_word_xml_unchanged': True, 'word_pagination_unchanged': True,
+                       'unchanged_pdf_external_links': new_links,
                        'prior_pdf_pages': page_bounds(old_pdf), 'pdf_pages': page_bounds(new_pdf),
                        'prior_word_pages': len(before_word), 'word_pages': inspect_preview(previews[1])}
                 boxes = [subprocess.check_output(['pdftotext', '-bbox-layout', str(path), '-']) for path in [old_pdf, new_pdf]]
@@ -123,7 +168,8 @@ def main():
                     heading = compact(soups[0].select_one('#q-required-resources h4').get_text())
                     assert ''.join(question_pages(before, soups[0])).split(heading, 1)[0] == ''.join(question_pages(after, soups[1])).split(heading, 1)[0], 'Q1-Q14 or Q15 overview changed'
                     row['pdf'] = long_page_checks(after, soups[1], True)
-                    row['pdf']['verified_continuation_headers'] = exact_long_sequence(after, soups[1])
+                    row['pdf']['verified_continuation_headers'] = exact_long_sequence(sequence_pages(after, boxes[1], soups[1]), soups[1])
+                    row['pdf']['positioned_list_items'] = positioned_budget_lists(boxes[1], soups[1])
                     row['pdf']['single_line_purpose_paragraphs'] = complete_marker_lines(boxes[1], soups[1])
                     row['word'] = long_page_checks(after_word, soups[1], True)
                     assert row['pdf_pages'] < row['prior_pdf_pages'], 'Expected reduced long-budget pagination'
