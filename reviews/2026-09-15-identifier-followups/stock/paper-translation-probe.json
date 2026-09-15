@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "local_branch_language_checks": 48,
+  "checker_sha256": "30585a3329a76e2362f2092cda7912b1fd0f9aebf9cc39adabe1a85859037177",
+  "package_sha256": {
+    "english.zip": "7f16e2a52b48ffc85a0209b8690f7a0deddf441ad8ee3f90fa8b3428deb40715",
+    "chinese.zip": "24949e6b6ea8a2b2cd5800f682d2302308b48efd5ee5d99d80d645739c3aeb7d"
+  },
+  "helper_sha256": {
+    "check_paper_outputs.py": "75af0fded9096be751e86fbf88ce1eea4733ae8686d1500f632e79954ea5d8ba",
+    "check_context_outputs.py": "93fa16556929a6aa980fa455cd9493ef587151fa4e1c34070eaa97cb2618a74b"
+  },
+  "source_helper_sha256": {
+    "tests/test_paper_reference.py": "dc2df7d959f8eadd0dc5e7f044aaa1ca5cb29eed26e73bbb8a20fdc04403db5e",
+    "tests/test_science_europe_contract.py": "4068ed40344b85466cf81dbaefa02a6b818e622cbcef8418315b692f3dd9ee31",
+    "scripts/generate_paper_fixtures.py": "5a941a9acf412baf8d1c2010a0126deda5f65ab6cae5c530295c414e2e9e1e9d"
+  },
+  "limits": [
+    "Adapter checks, not native PDF/Word acceptance",
+    "Blank reference behavior is unchanged, not a new full-completeness contract"
+  ]
+}

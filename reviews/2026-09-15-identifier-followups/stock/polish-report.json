@@ -1,0 +1,108 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "joined_q10_runs": 2,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 8,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "joined_q10_runs": 2,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 7,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "identifier-followups",
+      "language": "english",
+      "joined_q10_runs": 4,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 9,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "identifier-followups",
+      "language": "chinese",
+      "joined_q10_runs": 4,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 8,
+      "passed": true,
+      "word_preview_pages": 8
+    }
+  ],
+  "checker_sha256": "d33fa79358879ff0be49ccd18a427f7e465a1ddbd6ada7bd80e3e73f578d77ea",
+  "text_extractor_sha256": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+  "package_sha256": {
+    "english.zip": "7f16e2a52b48ffc85a0209b8690f7a0deddf441ad8ee3f90fa8b3428deb40715",
+    "chinese.zip": "24949e6b6ea8a2b2cd5800f682d2302308b48efd5ee5d99d80d645739c3aeb7d"
+  },
+  "artifact_sha256": {
+    "renders/identifier-followups-chinese.docx": "612d0826917b79af3d807a9f81f55e9c90ed0978c2533d29d3cbe90e0c974bab",
+    "renders/identifier-followups-chinese.docx.fixture.json": "83719427c8008b1dfcbc1e532937d49c0dacbd074bb90c5fe403654dbe683549",
+    "renders/identifier-followups-chinese.docx.json": "55f667b13d92c85c6e7fe4f1ed96259e3029b0234201b509521cb7827e73c29c",
+    "renders/identifier-followups-chinese.html": "f379b1d3b35f5a8bbee611b06e1a2036b06932999f4318dcad655a3c44717d44",
+    "renders/identifier-followups-chinese.html.fixture.json": "7be923fc2c31fa8fc9ce716a756441cf3d5ccb5d9192d055dfa1af5e661c2a9c",
+    "renders/identifier-followups-chinese.html.json": "6a01a85f288ca2fdb695f15fb2f665080058a3be7ce10db2cd02e36f83d78940",
+    "renders/identifier-followups-chinese.pdf": "752e4088b06128696549edd675adb48db8211b32072acd23aeb660a061e27126",
+    "renders/identifier-followups-chinese.pdf.fixture.json": "6717e0e6b3dcd021b3ddc1ea6bf166a8b7939f4d8384a8d6f04254459120403e",
+    "renders/identifier-followups-chinese.pdf.json": "765ffa1af647adc0ec83e5dc92f175418145f4168f377b097d6bde08c6619d6c",
+    "renders/identifier-followups-english.docx": "3be082a8c073b68cc2e8fcd5820794d7ca4956efb7f9db98a4be86d0b375ba8a",
+    "renders/identifier-followups-english.docx.fixture.json": "11a7b1603b3fe602e2c99f6b65dd4f0ec57067e03801dd0cb550376cc3806876",
+    "renders/identifier-followups-english.docx.json": "368f6738a36542c7acbef0596683091cf31e80ef35721390e882cf3337d04d60",
+    "renders/identifier-followups-english.html": "e9774b1e3fa56a00c3a59a20adad20fce23c0d4cfdbd539586d0aad6ce3c283f",
+    "renders/identifier-followups-english.html.fixture.json": "a485d020421b1a379ce967436bc1a350027995bf94cb6e56a0a9e1c040cca2a3",
+    "renders/identifier-followups-english.html.json": "7a1180f45420ac039d249f4034ae6aed8d51b126b8bdee24f8bac31a75c6c101",
+    "renders/identifier-followups-english.pdf": "d59eeb86bd1cf108ddbe9d59873d4a2a5185f7ec227c55a61492f3116604c7eb",
+    "renders/identifier-followups-english.pdf.fixture.json": "c8f178fdecc0e667158c7b4fb8385e933e5b8938e8cb2d398d81a62df2987184",
+    "renders/identifier-followups-english.pdf.json": "fd42ce4f8010aa80c3e3cc71ab2ef27cda07878f29c6cae874cea01e5c7e1b6d",
+    "renders/preservation-complete-chinese.docx": "191d96e7640cfaba4cbdfaba977114cb2b3aee9725a370f4129c95e2b2f8dd39",
+    "renders/preservation-complete-chinese.docx.fixture.json": "9d90b50f6b4d904730df352c6bd7cbc7bc35be7e46a1872b4fae6a0a20d6953e",
+    "renders/preservation-complete-chinese.docx.json": "92d1c6d817534c2f23c098e9ec9dd7e638e9b20db2dbde75541b7eef92811865",
+    "renders/preservation-complete-chinese.html": "30190e7269add3334eac97a212e7d64bc880a31ec425587e93f767f33e590caf",
+    "renders/preservation-complete-chinese.html.fixture.json": "b4942716143fba24459057802a8ba5006083744689833d53a4239a6d4bd52fe5",
+    "renders/preservation-complete-chinese.html.json": "2891391ace7e5106740dc20b7629add220e2f40984005dc629ebef45a105059d",
+    "renders/preservation-complete-chinese.pdf": "c5ebcb37acc5d27c07e5c4444129585028f18807241caf7e884c4fcece0e6aac",
+    "renders/preservation-complete-chinese.pdf.fixture.json": "82f6bbd7c73d6a68a62bdf0145c2b92907486156e61314661320cae099df611d",
+    "renders/preservation-complete-chinese.pdf.json": "062b358b060a76a5f2ce24d14ae21e668fc49da9d94f0de7292dccf5e0eed6c2",
+    "renders/preservation-complete-english.docx": "5b55c28d7608ab418310c14859153396de41f4664683b3a6e0e55affee3f1cdb",
+    "renders/preservation-complete-english.docx.fixture.json": "2e69466c062251612efd00f592061e5495ef2ef2c85793eff3de575dd0b2ef4f",
+    "renders/preservation-complete-english.docx.json": "8648a09b1bdef5d402a9233e2687316c371cc1b910688a9e2c4682d98be74b69",
+    "renders/preservation-complete-english.html": "0a28f5079de6b7e24428d1865b53fc3bbbdc59018003845fb73248497be0c927",
+    "renders/preservation-complete-english.html.fixture.json": "40f5238b2de245b9c3cdabfd939efc18955011ac27e5f57dd80106d160c0ee17",
+    "renders/preservation-complete-english.html.json": "df5648ae9c04cf2e946f0b28819b1cd9d5fd8fae5f8a051d437e085e035cedf3",
+    "renders/preservation-complete-english.pdf": "fe3d147f2446ae9fae0a5394c30b078202600af25831bb5dd7505d4b9678e27a",
+    "renders/preservation-complete-english.pdf.fixture.json": "9ec91dba5727125fcf844f865303e3e1df40e422d977ba988baf254beba7b4d8",
+    "renders/preservation-complete-english.pdf.json": "70ed9cfb75aa0bab821314d337019c732cb490b4badbcaef4eb6936c805589bc",
+    "word-preview/identifier-followups-chinese.pdf": "8b5648d53bb99440e1f02ed59966de2a5d3943d8a35c165cd8d76dfdb33509cb",
+    "word-preview/identifier-followups-english.pdf": "1f0fe4955c3017fc40185cc0bda6f80d21af45e3d454304b60dc4c71e7eaebf2",
+    "word-preview/preservation-complete-chinese.pdf": "d5db6a8d7d668a2cadde955953d93243485416bc1f95e484bff8939dade51fe6",
+    "word-preview/preservation-complete-english.pdf": "0ec846ee50efbd3a3cffb9462a8480a703d169a63f27acdbdd1457f84768273d"
+  },
+  "limits": [
+    "Selected synthetic inputs only",
+    "Complex repositories and restricted licence blocks deliberately excluded from joining",
+    "LibreOffice preview is not Microsoft Word acceptance",
+    "Stock Markdown table support remains blocked"
+  ]
+}

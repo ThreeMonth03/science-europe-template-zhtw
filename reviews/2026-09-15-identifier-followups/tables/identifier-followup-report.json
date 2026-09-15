@@ -1,0 +1,334 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "passed": true,
+      "q11_fact_nodes": 18,
+      "separate_authored_paragraphs": 5,
+      "joined_archive_runs": 2,
+      "controlled_question_comparisons": 15,
+      "q11_punctuation_line_check": true,
+      "pdf_pages": 8,
+      "word_preview_pages": 7,
+      "warning_paragraphs_added": 0,
+      "child_states": {
+        "complete": 4
+      },
+      "preserved_paper_links": 1,
+      "prior_pdf_pages": 8,
+      "pdf_heading_with_answer_pages": [
+        {
+          "distribution": "7daa1605-0d04-5c7a-891f-75627a81b7c8",
+          "page": 7,
+          "warning_paragraphs": 0
+        },
+        {
+          "distribution": "344f105d-428d-563e-a587-e185d3445cd2",
+          "page": 7,
+          "warning_paragraphs": 0
+        }
+      ],
+      "prior_word_preview_pages": 7,
+      "word_preview_heading_with_answer_pages": [
+        {
+          "distribution": "7daa1605-0d04-5c7a-891f-75627a81b7c8",
+          "page": 6,
+          "warning_paragraphs": 0
+        },
+        {
+          "distribution": "344f105d-428d-563e-a587-e185d3445cd2",
+          "page": 6,
+          "warning_paragraphs": 0
+        }
+      ]
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "passed": true,
+      "q11_fact_nodes": 18,
+      "separate_authored_paragraphs": 5,
+      "joined_archive_runs": 2,
+      "controlled_question_comparisons": 15,
+      "q11_punctuation_line_check": true,
+      "pdf_pages": 7,
+      "word_preview_pages": 8,
+      "warning_paragraphs_added": 0,
+      "child_states": {
+        "complete": 4
+      },
+      "preserved_paper_links": 1,
+      "prior_pdf_pages": 7,
+      "pdf_heading_with_answer_pages": [
+        {
+          "distribution": "7daa1605-0d04-5c7a-891f-75627a81b7c8",
+          "page": 6,
+          "warning_paragraphs": 0
+        },
+        {
+          "distribution": "344f105d-428d-563e-a587-e185d3445cd2",
+          "page": 6,
+          "warning_paragraphs": 0
+        }
+      ],
+      "prior_word_preview_pages": 8,
+      "word_preview_heading_with_answer_pages": [
+        {
+          "distribution": "7daa1605-0d04-5c7a-891f-75627a81b7c8",
+          "page": 7,
+          "warning_paragraphs": 0
+        },
+        {
+          "distribution": "344f105d-428d-563e-a587-e185d3445cd2",
+          "page": 7,
+          "warning_paragraphs": 0
+        }
+      ]
+    },
+    {
+      "case": "identifier-followups",
+      "language": "english",
+      "passed": true,
+      "q11_fact_nodes": 18,
+      "separate_authored_paragraphs": 5,
+      "joined_archive_runs": 2,
+      "controlled_question_comparisons": 15,
+      "q11_punctuation_line_check": true,
+      "pdf_pages": 9,
+      "word_preview_pages": 8,
+      "warning_paragraphs_added": 3,
+      "child_states": {
+        "missing": 4,
+        "complete": 2,
+        "explicit-no": 2
+      },
+      "preserved_paper_links": 1,
+      "prior_pdf_pages": 8,
+      "pdf_heading_with_answer_pages": [
+        {
+          "distribution": "7daa1605-0d04-5c7a-891f-75627a81b7c8",
+          "page": 7,
+          "warning_paragraphs": 1
+        },
+        {
+          "distribution": "344f105d-428d-563e-a587-e185d3445cd2",
+          "page": 7,
+          "warning_paragraphs": 0
+        },
+        {
+          "distribution": "5ea7ace8-037a-5e2b-aa98-644d40d56ffa",
+          "page": 8,
+          "warning_paragraphs": 1
+        },
+        {
+          "distribution": "f22cd0cb-934e-5c63-9048-a80a84febc4e",
+          "page": 8,
+          "warning_paragraphs": 1
+        }
+      ],
+      "prior_word_preview_pages": 8,
+      "word_preview_heading_with_answer_pages": [
+        {
+          "distribution": "7daa1605-0d04-5c7a-891f-75627a81b7c8",
+          "page": 7,
+          "warning_paragraphs": 1
+        },
+        {
+          "distribution": "344f105d-428d-563e-a587-e185d3445cd2",
+          "page": 7,
+          "warning_paragraphs": 0
+        },
+        {
+          "distribution": "5ea7ace8-037a-5e2b-aa98-644d40d56ffa",
+          "page": 7,
+          "warning_paragraphs": 1
+        },
+        {
+          "distribution": "f22cd0cb-934e-5c63-9048-a80a84febc4e",
+          "page": 7,
+          "warning_paragraphs": 1
+        }
+      ]
+    },
+    {
+      "case": "identifier-followups",
+      "language": "chinese",
+      "passed": true,
+      "q11_fact_nodes": 18,
+      "separate_authored_paragraphs": 5,
+      "joined_archive_runs": 2,
+      "controlled_question_comparisons": 15,
+      "q11_punctuation_line_check": true,
+      "pdf_pages": 8,
+      "word_preview_pages": 8,
+      "warning_paragraphs_added": 3,
+      "child_states": {
+        "missing": 4,
+        "complete": 2,
+        "explicit-no": 2
+      },
+      "preserved_paper_links": 1,
+      "prior_pdf_pages": 8,
+      "pdf_heading_with_answer_pages": [
+        {
+          "distribution": "7daa1605-0d04-5c7a-891f-75627a81b7c8",
+          "page": 7,
+          "warning_paragraphs": 1
+        },
+        {
+          "distribution": "344f105d-428d-563e-a587-e185d3445cd2",
+          "page": 7,
+          "warning_paragraphs": 0
+        },
+        {
+          "distribution": "5ea7ace8-037a-5e2b-aa98-644d40d56ffa",
+          "page": 7,
+          "warning_paragraphs": 1
+        },
+        {
+          "distribution": "f22cd0cb-934e-5c63-9048-a80a84febc4e",
+          "page": 7,
+          "warning_paragraphs": 1
+        }
+      ],
+      "prior_word_preview_pages": 8,
+      "word_preview_heading_with_answer_pages": [
+        {
+          "distribution": "7daa1605-0d04-5c7a-891f-75627a81b7c8",
+          "page": 7,
+          "warning_paragraphs": 1
+        },
+        {
+          "distribution": "344f105d-428d-563e-a587-e185d3445cd2",
+          "page": 7,
+          "warning_paragraphs": 0
+        },
+        {
+          "distribution": "5ea7ace8-037a-5e2b-aa98-644d40d56ffa",
+          "page": 7,
+          "warning_paragraphs": 1
+        },
+        {
+          "distribution": "f22cd0cb-934e-5c63-9048-a80a84febc4e",
+          "page": 7,
+          "warning_paragraphs": 1
+        }
+      ]
+    }
+  ],
+  "checker_sha256": "6989fde8b9598271274cdc2e46566ce546c33bc81ce18087326dced8651655cc",
+  "helper_sha256": {
+    "identifier_followup_contract.py": "c72880242b107ee609f87f1dff08a715c1bf3df0b1a8e244fb201ff867a1c839",
+    "check_identifier_outputs.py": "679073fbc6c5804e20127367abd74f06aa028496a1842ab77389af0ef8ae9c2b",
+    "check_repository_outputs.py": "5b0cc25708a9a5192367aea899024d199675cbacaabdadb27be03c26cfb51ac9",
+    "check_answer_state_outputs.py": "1247a836f4530956f9439af1d376926dc7de1a6fac267469c8bfc668b4657481",
+    "check_context_outputs.py": "93fa16556929a6aa980fa455cd9493ef587151fa4e1c34070eaa97cb2618a74b",
+    "check_narrative_outputs.py": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+    "check_preservation_outputs.py": "850f3c0fc5c6552e846fe814e44e0315c38af34b2b3329d64fb0db3334c6fa48",
+    "check_paper_outputs.py": "75af0fded9096be751e86fbf88ce1eea4733ae8686d1500f632e79954ea5d8ba",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "compare_runtime_outputs.py": "f15aea33090491ac4b14776519e6a384967446879579ad1d1c0c2b4ba570fdd8"
+  },
+  "package_sha256": {
+    "english.zip": "7f16e2a52b48ffc85a0209b8690f7a0deddf441ad8ee3f90fa8b3428deb40715",
+    "chinese.zip": "24949e6b6ea8a2b2cd5800f682d2302308b48efd5ee5d99d80d645739c3aeb7d"
+  },
+  "prior_package_sha256": {
+    "english.zip": "f210bcbb0ab48a69ee7a728193900bc6a4d302e9f14ebf7301ff19139b1df6ec",
+    "chinese.zip": "dd69e83947e2b94324e23ba1eb59943cc60064908ef4295dbe169c46345b883a"
+  },
+  "artifact_sha256": {
+    "renders/identifier-followups-chinese.docx": "3403734466317301308d8e90f73d2687a78b1c4de9d347cf0b44345710dc4161",
+    "renders/identifier-followups-chinese.docx.fixture.json": "12401ddfa78e20325e5bed413bc10eb9bc2cd53682160c32602ff28792ab895e",
+    "renders/identifier-followups-chinese.docx.json": "ec44e9e25fca5701f75a0594485c43db0a0d2fd074ed57d7afa03ee05b1d9d0d",
+    "renders/identifier-followups-chinese.html": "0346a853f8070e360153f9a33b85a8fb9c08d342dbb9f4e32c23671200378fef",
+    "renders/identifier-followups-chinese.html.fixture.json": "52e96c6fe4310dd36284b3a84c2cfb5f94894fdd05e6a4fbad803f3014676a01",
+    "renders/identifier-followups-chinese.html.json": "7347bbd1896b3489b89a71b7220dd8efdd9df231b10f542d31804dc87101748f",
+    "renders/identifier-followups-chinese.pdf": "4beaa02c9d776345f766b7fff2b525027bdf38d3e7e603c2fb8c305792e92a9f",
+    "renders/identifier-followups-chinese.pdf.fixture.json": "ebf241cdb14f987a3f02710ff6efa491f4c755e1f2dd4732353240a9ae757d5d",
+    "renders/identifier-followups-chinese.pdf.json": "261139a0c68863fef42db92e762c0d11a52e4d880d80130cb62028abda9f823e",
+    "renders/identifier-followups-english.docx": "79c1d6afb4d085285e44c0f809c86fc40ff20620741f985b72d409601f1328c6",
+    "renders/identifier-followups-english.docx.fixture.json": "94177c8328f4b5fc179715e10d666b1f3f459b470817f00cf42860ec83ab6069",
+    "renders/identifier-followups-english.docx.json": "91e16d6be1e6de9624c91266f5dd02c2258a25993238230be0ef22959b6473eb",
+    "renders/identifier-followups-english.html": "7bf1deed9bac3b52102154053cdd7e0953a4b046c6cc68f2055f442317b67f62",
+    "renders/identifier-followups-english.html.fixture.json": "15c5eff0efd301746c8bda72195f6c41cf6f916951d57c5450f3871c7b35807b",
+    "renders/identifier-followups-english.html.json": "a004c58fecf84412e5a7333b3f7751c3ad82a64db9494ec816029ec6261da9fa",
+    "renders/identifier-followups-english.pdf": "75626fe688d800a0310f7b8de8fcb264936cb13df02526dd27974593c743922e",
+    "renders/identifier-followups-english.pdf.fixture.json": "f3a871449ffb8d0a41d09f3cc09b53b2b9c2ae5cffd6504b7c2dc0225eccf90e",
+    "renders/identifier-followups-english.pdf.json": "e8036a3c1d5ecb710119470370d09c25cc9219388f49b5f24133c32ff764850b",
+    "renders/preservation-complete-chinese.docx": "32c5a60318782b5d31322408370a4eda7774480d4bab88d3009ac8d4d70f5f44",
+    "renders/preservation-complete-chinese.docx.fixture.json": "b60e69e1758a4489ac5cec807fe33a093c2e8fc3b8c2dcb015c7c568ae1d6edb",
+    "renders/preservation-complete-chinese.docx.json": "6d645eec9623185ca0782e91cab574a721284e38011ca0b23ea30055ffe3ffdc",
+    "renders/preservation-complete-chinese.html": "e5a269901b3f9f52379d42fc779ef114b8204ae6fcda68c6970100c97cdf2c17",
+    "renders/preservation-complete-chinese.html.fixture.json": "20998c29fe7cbf243a1ce4bc5a8ffeb293b41a097b484a1af671f1b2c5023b8b",
+    "renders/preservation-complete-chinese.html.json": "fe627b70e70758bfffd9889fecf23c9fb943f2bc6bf123bd282b89cb8fea3a95",
+    "renders/preservation-complete-chinese.pdf": "74bd8b37d6f7abd133133f0e690bfd9cf52c45558b481267aec4f4e1fb6f241f",
+    "renders/preservation-complete-chinese.pdf.fixture.json": "5fc11f454e49860f083f8914d482a6287d11e4ac79300406bc53750a94f7408d",
+    "renders/preservation-complete-chinese.pdf.json": "2f5e6785addd5a86fb28ea10744ae2fe04d54eae48984ce29068a83e771761dc",
+    "renders/preservation-complete-english.docx": "c6a06e40ed62116d9865490fbfe9d919837f81f962f9c4abb213628340614d24",
+    "renders/preservation-complete-english.docx.fixture.json": "8b03693f5e8c16f613b44f7c7364fa423702dbef6ecbd280428753ce16b11f8e",
+    "renders/preservation-complete-english.docx.json": "5a552806b3719110b65976d39d7c977226801aaeedd10bfc1a8c2dddae5a507c",
+    "renders/preservation-complete-english.html": "52bbe8675bc2fd5f4411c8af89875ea254df0cd89e00f85dd81008cf8454e277",
+    "renders/preservation-complete-english.html.fixture.json": "0f28de67f2995e77aaff91b5fbc927a165550658e7aef5e1542bb39c76c7289d",
+    "renders/preservation-complete-english.html.json": "b78f321e6d503f65ebcb146b859381046359640ea9e283bfdd4573704352f522",
+    "renders/preservation-complete-english.pdf": "3ed8c03ecc7f4dece330471182c980ed89da0a1b0deb345ad31a3f339c9a96c1",
+    "renders/preservation-complete-english.pdf.fixture.json": "8903bc781c77c2572f22e90ee02141576de5c41c59d9fb503e695518ea6b6939",
+    "renders/preservation-complete-english.pdf.json": "7a94c568206af876b8724ef8370f156a847dcda665b47a0d267da1c8e31b7aff",
+    "word-preview/identifier-followups-chinese.pdf": "f6ad23abaea2eccd3668cd16bb05fd7ec583a4fac769c35924b537ece331dc91",
+    "word-preview/identifier-followups-english.pdf": "ae59ddaf69225aaaefd12ccb02fc70dc27b2f9fca039d1148d7e9a4c23a8b30b",
+    "word-preview/preservation-complete-chinese.pdf": "308668910cb67e4e5f7c68b25104d4bc522fffb400968c7c19157d2744cfb994",
+    "word-preview/preservation-complete-english.pdf": "73091095ac6b7e8f4b595f377dc7586af49cc5e1a9d7567969f74a84e9d4daa1"
+  },
+  "prior_artifact_sha256": {
+    "renders/identifier-followups-chinese.docx": "66975b3322ab72d54c5b1a602a1a6d9d72a788e051f8d54da36d31bb103fd35d",
+    "renders/identifier-followups-chinese.docx.fixture.json": "f638e59f7f257a1c969978cbaae05fe199e52ad48182504fdcc89d234862076e",
+    "renders/identifier-followups-chinese.docx.json": "58ae37985f03e85fd2acfb77d6ea86a1dae9cb366492c318a355da64f3a2313e",
+    "renders/identifier-followups-chinese.html": "f135185605f342b5e205ef5e06960714712f68d9447599b124b1271a444c4319",
+    "renders/identifier-followups-chinese.html.fixture.json": "38a30588c68ee2eb12f078567df411e157d5a74d60b92ec4962c518da0a35651",
+    "renders/identifier-followups-chinese.html.json": "2749043d6cf4c9b7df4dfdbff016dcb7ffe91b544bec8baffaf65eabb304b646",
+    "renders/identifier-followups-chinese.pdf": "ca07035681eeea8860743f4144538efe2b5c264158c5cb65c7407017b58a4081",
+    "renders/identifier-followups-chinese.pdf.fixture.json": "c4993fa857b7063ade3854e6e4351338bdd3035475b9eb312f7a8832d1c20553",
+    "renders/identifier-followups-chinese.pdf.json": "1634f7ebfa005dcd61d25d65eb3eaac53750f88601e147baa2e2fc99b978a613",
+    "renders/identifier-followups-english.docx": "414fe57fad92758148c93aebb315c0b519cbbaa83f6ad20aac969449dca2ca40",
+    "renders/identifier-followups-english.docx.fixture.json": "145a7b3372159b1cf0e18351fb2561c27cbd164289915319826c396b918ed01b",
+    "renders/identifier-followups-english.docx.json": "5d39194ace49260a0c29e259fd8dd7327907120a6140bc61a5216fb5669da1c3",
+    "renders/identifier-followups-english.html": "52447e5ec4b33df0be0054b9c131ab309e5353db85c0bb92aceeeb4af9659289",
+    "renders/identifier-followups-english.html.fixture.json": "554a2eca82df4ac72f6b078c9680980069ff141f4f7263b9499ef6b566c1fc70",
+    "renders/identifier-followups-english.html.json": "d5f3b078f1a1008924da203108636531790a402f416148a965a1efeab1c44f99",
+    "renders/identifier-followups-english.pdf": "ffd2f2ba7e8aafdf263a79230a11abdb87a2de0182e7ef25a8a117879d8ed24f",
+    "renders/identifier-followups-english.pdf.fixture.json": "1f96fc99d29de3d2b60271c5630c83dbe9d22975e0139511b43119a8f60a2f54",
+    "renders/identifier-followups-english.pdf.json": "462918f8c1a96e292badf632a7052094f0637ae8900dd4b1119f71a2f0f369ea",
+    "renders/preservation-complete-chinese.docx": "8a56f6f9081394db6322b8d0f933779f3e2e5b401b12e93284a66045aa4d8a94",
+    "renders/preservation-complete-chinese.docx.fixture.json": "bf6cfc9677fe0e55429aecbaae829234a99dbc18f9c8a84a6f2cf470fe715ca0",
+    "renders/preservation-complete-chinese.docx.json": "6d645eec9623185ca0782e91cab574a721284e38011ca0b23ea30055ffe3ffdc",
+    "renders/preservation-complete-chinese.html": "e8bb2a8df79ace7fdeb191ce6eb4c3d04051322d270906932356cee4c0e46185",
+    "renders/preservation-complete-chinese.html.fixture.json": "a053019409199824deb75bd0538e64aea51ac0823d0fbeaeb870bb48995b8c47",
+    "renders/preservation-complete-chinese.html.json": "9ca16c0aaa9ee0c695608f07daac42e27682215ab9c8cda47ac13513e8976ecc",
+    "renders/preservation-complete-chinese.pdf": "d22fba7cc41012b0f4002921ea8e8e3506491acafc91d7d817afc403ebd8f1b6",
+    "renders/preservation-complete-chinese.pdf.fixture.json": "67c9cc848751d63edb531cb527afb404370e91d157da5ca8966500021c32988d",
+    "renders/preservation-complete-chinese.pdf.json": "4becdb93eda9776feaa1c7240260a08716511183900b1a0b418feea6b27fba1a",
+    "renders/preservation-complete-english.docx": "aa316fee32cf85c7cbc68cb29947badd6951dec686c07e4933eba1f3bba5f669",
+    "renders/preservation-complete-english.docx.fixture.json": "bc33c698440c4700111f1d03c520055a932901a311c32c56830ff40447992d51",
+    "renders/preservation-complete-english.docx.json": "5a552806b3719110b65976d39d7c977226801aaeedd10bfc1a8c2dddae5a507c",
+    "renders/preservation-complete-english.html": "40a4c2a7b704a780f51a3c8b94c88069d428881bfeed6b4e5519eda98cc7346c",
+    "renders/preservation-complete-english.html.fixture.json": "04fdab09a83819bb237f02cabe2b157c82c98e22bdfb74eb374341021dcae333",
+    "renders/preservation-complete-english.html.json": "31044a45ec780847d820d9a5a91ca3e8146f1c25d0106fcc134881d53a24879b",
+    "renders/preservation-complete-english.pdf": "9c34468679dcf77d91a454cfacf4e67780db5b4c1d949691f50a4e799f845d53",
+    "renders/preservation-complete-english.pdf.fixture.json": "c4c59fee809383cd4d10d2dbc9b0134495e364f5d04b04fcea5deb8a6b79b21c",
+    "renders/preservation-complete-english.pdf.json": "9a680f0269eab7e032dc21a298c45b124fcaf47eed140341a88e28ace307a6ec",
+    "word-preview/identifier-followups-chinese.pdf": "e4dd3cadae626b8a1d0d6c9f255566854e6ede19624fbaa8a633f91f2ef53a15",
+    "word-preview/identifier-followups-english.pdf": "0ba2f1d078e310624f2dfacbc09a5280f2310f36b1adbc05fad82ad5e5b59df3",
+    "word-preview/preservation-complete-chinese.pdf": "a9f3c9a355fbe01ac7c3064078f2d859dc630b9d90f6c98c4bcfd8957844ffa3",
+    "word-preview/preservation-complete-english.pdf": "f507b9573a713e29bd379d6ada790cd26224ac4d8456af713a73a1bac0cde7e6"
+  },
+  "limits": [
+    "Selected synthetic Common KM 2.7.0 cases, not all SE requirements",
+    "Unknown UUID paths are checked offline, not asserted to be valid native fixtures",
+    "Only Q13 identifier child notices and markers may change",
+    "LibreOffice is not Microsoft Word acceptance",
+    "Word tail page and stock Markdown table limitations remain"
+  ]
+}

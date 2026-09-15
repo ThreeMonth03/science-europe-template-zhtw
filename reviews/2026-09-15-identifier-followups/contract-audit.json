@@ -1,0 +1,303 @@
+{
+  "source_commit": "b1391c059c23c97095b8c748d527d13516c8a74f",
+  "checker_sha256": "56f41b87dd453b902a360431e08544f2a35c023be173bab97a6cffdf19f96fe3",
+  "release_acceptance": false,
+  "locales": {
+    "en": {
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "fields": {
+        "publishedDataIdentifierQUuid": {
+          "question": {
+            "annotations": [],
+            "answerUuids": [
+              "7fed9f6d-70d5-4c32-9a7b-2844174bb84b",
+              "1072923b-8330-4da1-9b5f-9880afa053a9"
+            ],
+            "expertUuids": [],
+            "questionType": "OptionsQuestion",
+            "referenceUuids": [
+              "bdf3a93e-4413-42ad-8a33-c977e6a0c4f5",
+              "b0f4ce3b-4dcd-467f-92e1-07c4f97004b7"
+            ],
+            "requiredPhaseUuid": "1796fa3c-9f53-475f-89ff-c66a0453c42e",
+            "tagUuids": [
+              "fd4637a2-a117-460a-a7fa-c03760c42629",
+              "87bb2042-8e3c-4733-ba1e-84509d7b1cf4"
+            ],
+            "text": "Datasets can be assigned persistent identifiers. Just like journal articles get assigned DOIs, these are often also used for data sets. Note that the DOI of a paper is not a persistent identifier for its supplementary information.\n\nMany repositories make sure that your data get a persistent and resolvable identifiers. In other cases, you should take care of this yourself.",
+            "title": "Will this data be assigned a persistent identifier?",
+            "uuid": "d21fdb06-22bf-418e-aa40-dc5ef1485f56"
+          },
+          "answers": [
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "No",
+              "metricMeasures": [
+                {
+                  "measure": 0,
+                  "metricUuid": "8db30660-d4e5-4c0a-bf3e-553f3f0f997a",
+                  "weight": 1
+                }
+              ],
+              "uuid": "7fed9f6d-70d5-4c32-9a7b-2844174bb84b"
+            },
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [
+                "c928d464-4ae7-447c-82f6-bc525d2596a9",
+                "7f55274c-a5f5-4f6a-94d8-531ea0077462"
+              ],
+              "label": "Yes",
+              "metricMeasures": [
+                {
+                  "measure": 1,
+                  "metricUuid": "8db30660-d4e5-4c0a-bf3e-553f3f0f997a",
+                  "weight": 1
+                }
+              ],
+              "uuid": "1072923b-8330-4da1-9b5f-9880afa053a9"
+            }
+          ]
+        },
+        "publishedDataIdentifierAssignsQUuid": {
+          "question": {
+            "annotations": [],
+            "answerUuids": [
+              "50eb4b5d-2455-48aa-b1f1-b4abca495e4d",
+              "290d7b18-f851-41eb-8024-e23bba79592e",
+              "a31e0fc2-4bde-4482-8747-d250042a1589"
+            ],
+            "expertUuids": [],
+            "questionType": "OptionsQuestion",
+            "referenceUuids": [],
+            "requiredPhaseUuid": "1796fa3c-9f53-475f-89ff-c66a0453c42e",
+            "tagUuids": [
+              "fd4637a2-a117-460a-a7fa-c03760c42629",
+              "87bb2042-8e3c-4733-ba1e-84509d7b1cf4"
+            ],
+            "text": null,
+            "title": "Who assigns the persistent identifier?",
+            "uuid": "c928d464-4ae7-447c-82f6-bc525d2596a9"
+          },
+          "answers": [
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "A project data steward or principle investigator",
+              "metricMeasures": [],
+              "uuid": "50eb4b5d-2455-48aa-b1f1-b4abca495e4d"
+            },
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "An institutional data steward",
+              "metricMeasures": [],
+              "uuid": "290d7b18-f851-41eb-8024-e23bba79592e"
+            },
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "The repository",
+              "metricMeasures": [],
+              "uuid": "a31e0fc2-4bde-4482-8747-d250042a1589"
+            }
+          ]
+        },
+        "publishedDataIdentifierResolvableQUuid": {
+          "question": {
+            "annotations": [],
+            "answerUuids": [
+              "51a6c4eb-bf33-4feb-9e89-9372ebb112c9",
+              "862e3a05-e5d7-4004-b6d9-79fc20192311"
+            ],
+            "expertUuids": [],
+            "questionType": "OptionsQuestion",
+            "referenceUuids": [],
+            "requiredPhaseUuid": "1796fa3c-9f53-475f-89ff-c66a0453c42e",
+            "tagUuids": [
+              "fd4637a2-a117-460a-a7fa-c03760c42629",
+              "87bb2042-8e3c-4733-ba1e-84509d7b1cf4"
+            ],
+            "text": "Often a persistent identifier will be put as the last part of a URL to *resolve* it to either a page with metadata or directly to the data itself.",
+            "title": "Will the repository make sure the persistent identifier can be resolved to a digital object?",
+            "uuid": "7f55274c-a5f5-4f6a-94d8-531ea0077462"
+          },
+          "answers": [
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "No",
+              "metricMeasures": [],
+              "uuid": "51a6c4eb-bf33-4feb-9e89-9372ebb112c9"
+            },
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "Yes",
+              "metricMeasures": [],
+              "uuid": "862e3a05-e5d7-4004-b6d9-79fc20192311"
+            }
+          ]
+        }
+      },
+      "fixture_sha256": "294dcdf9c7718b404874394214f2c3a90a59fa78b22f32fa0bdcefb829c99dae",
+      "fixture_errors": []
+    },
+    "zh-Hant": {
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "fields": {
+        "publishedDataIdentifierQUuid": {
+          "question": {
+            "annotations": [],
+            "answerUuids": [
+              "7fed9f6d-70d5-4c32-9a7b-2844174bb84b",
+              "1072923b-8330-4da1-9b5f-9880afa053a9"
+            ],
+            "expertUuids": [],
+            "questionType": "OptionsQuestion",
+            "referenceUuids": [
+              "bdf3a93e-4413-42ad-8a33-c977e6a0c4f5",
+              "b0f4ce3b-4dcd-467f-92e1-07c4f97004b7"
+            ],
+            "requiredPhaseUuid": "1796fa3c-9f53-475f-89ff-c66a0453c42e",
+            "tagUuids": [
+              "fd4637a2-a117-460a-a7fa-c03760c42629",
+              "87bb2042-8e3c-4733-ba1e-84509d7b1cf4"
+            ],
+            "text": "資料集可被編配持續識別碼。就如同期刊論文會被編配 DOI 一樣，DOI 也常被用於資料集。請注意，論文的 DOI 並不等同於其補充資料的持續識別碼。\n\n許多資料儲存庫可以確保您的資料具有可解析且持續的識別碼。在其他情況下，則需要由您自行處理。",
+            "title": "這份資料是否會被編配持續識別碼？",
+            "uuid": "d21fdb06-22bf-418e-aa40-dc5ef1485f56"
+          },
+          "answers": [
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "否",
+              "metricMeasures": [
+                {
+                  "measure": 0,
+                  "metricUuid": "8db30660-d4e5-4c0a-bf3e-553f3f0f997a",
+                  "weight": 1
+                }
+              ],
+              "uuid": "7fed9f6d-70d5-4c32-9a7b-2844174bb84b"
+            },
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [
+                "c928d464-4ae7-447c-82f6-bc525d2596a9",
+                "7f55274c-a5f5-4f6a-94d8-531ea0077462"
+              ],
+              "label": "是",
+              "metricMeasures": [
+                {
+                  "measure": 1,
+                  "metricUuid": "8db30660-d4e5-4c0a-bf3e-553f3f0f997a",
+                  "weight": 1
+                }
+              ],
+              "uuid": "1072923b-8330-4da1-9b5f-9880afa053a9"
+            }
+          ]
+        },
+        "publishedDataIdentifierAssignsQUuid": {
+          "question": {
+            "annotations": [],
+            "answerUuids": [
+              "50eb4b5d-2455-48aa-b1f1-b4abca495e4d",
+              "290d7b18-f851-41eb-8024-e23bba79592e",
+              "a31e0fc2-4bde-4482-8747-d250042a1589"
+            ],
+            "expertUuids": [],
+            "questionType": "OptionsQuestion",
+            "referenceUuids": [],
+            "requiredPhaseUuid": "1796fa3c-9f53-475f-89ff-c66a0453c42e",
+            "tagUuids": [
+              "fd4637a2-a117-460a-a7fa-c03760c42629",
+              "87bb2042-8e3c-4733-ba1e-84509d7b1cf4"
+            ],
+            "text": null,
+            "title": "誰會編配持續識別碼？",
+            "uuid": "c928d464-4ae7-447c-82f6-bc525d2596a9"
+          },
+          "answers": [
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "專案資料託管員或計畫主持人",
+              "metricMeasures": [],
+              "uuid": "50eb4b5d-2455-48aa-b1f1-b4abca495e4d"
+            },
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "機構資料託管員",
+              "metricMeasures": [],
+              "uuid": "290d7b18-f851-41eb-8024-e23bba79592e"
+            },
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "儲存庫",
+              "metricMeasures": [],
+              "uuid": "a31e0fc2-4bde-4482-8747-d250042a1589"
+            }
+          ]
+        },
+        "publishedDataIdentifierResolvableQUuid": {
+          "question": {
+            "annotations": [],
+            "answerUuids": [
+              "51a6c4eb-bf33-4feb-9e89-9372ebb112c9",
+              "862e3a05-e5d7-4004-b6d9-79fc20192311"
+            ],
+            "expertUuids": [],
+            "questionType": "OptionsQuestion",
+            "referenceUuids": [],
+            "requiredPhaseUuid": "1796fa3c-9f53-475f-89ff-c66a0453c42e",
+            "tagUuids": [
+              "fd4637a2-a117-460a-a7fa-c03760c42629",
+              "87bb2042-8e3c-4733-ba1e-84509d7b1cf4"
+            ],
+            "text": "持續識別碼通常會被放在網址的最後一部分，以便將其解析到一個包含後設資料的頁面，或直接解析到資料本身。",
+            "title": "儲存庫是否能確保持續識別碼可解析到某個數位物件？",
+            "uuid": "7f55274c-a5f5-4f6a-94d8-531ea0077462"
+          },
+          "answers": [
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "否",
+              "metricMeasures": [],
+              "uuid": "51a6c4eb-bf33-4feb-9e89-9372ebb112c9"
+            },
+            {
+              "advice": null,
+              "annotations": [],
+              "followUpUuids": [],
+              "label": "是",
+              "metricMeasures": [],
+              "uuid": "862e3a05-e5d7-4004-b6d9-79fc20192311"
+            }
+          ]
+        }
+      },
+      "fixture_sha256": "2f427a321f94886d76823ebe650ba306c907e6d765bb54845327a6603a4f4272",
+      "fixture_errors": []
+    }
+  }
+}
