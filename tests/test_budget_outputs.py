@@ -5,7 +5,7 @@ from pathlib import Path
 from docx import Document
 from docx.enum.style import WD_STYLE_TYPE
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from check_budget_outputs import compare_word
+from check_budget_outputs import compare_word, paragraph_locations
 
 
 class BudgetOutputTests(unittest.TestCase):
@@ -40,3 +40,12 @@ class BudgetOutputTests(unittest.TestCase):
     def test_budget_fixture_keeps_stock_table_blockers(self):
         from run_pilot import TABLE_CASES
         self.assertTrue({'budget-long','budget-many'}<=TABLE_CASES)
+
+    def test_split_paragraph_is_retained_but_not_single_page(self):
+        text='15. Resources\nOriginal resource\n1 / 2\fPurpose Budget Funding\njustification.\n2 / 2\f'
+        values=['15.Resources','Originalresourcejustification.']
+        locations,split=paragraph_locations(text,values,'PurposeBudgetFunding')
+        self.assertEqual([{1},set()],locations)
+        self.assertEqual([{'paragraph_index':1,'page_spans':[[1,2]]}],split)
+        for changed in [text.replace('justification.',''),text.replace('resource','edited'),text.replace('1 / 2','3 / 2'),text.replace('Purpose Budget Funding','Different header')]:
+            with self.assertRaises(AssertionError): paragraph_locations(changed,values,'PurposeBudgetFunding')

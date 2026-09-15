@@ -25,7 +25,9 @@
 0.3.12 樣張見 [Q11 資料脈絡與保存敘述連讀](reviews/2026-09-14-preservation-context/README.md)。
 0.3.13 樣張見 [論文參考列與長網址完整性](reviews/2026-09-15-paper-reference/README.md)。
 0.3.14 樣張見 [Q13 閱讀單位與整份分頁](reviews/2026-09-15-identifier-reading/README.md)。
-最新 0.3.15 樣張見 [識別碼追問、缺答分組與跨頁修正](reviews/2026-09-15-identifier-followups/README.md)；中文 Word 預算尾頁仍待處理。
+0.3.15 樣張見 [識別碼追問、缺答分組與跨頁修正](reviews/2026-09-15-identifier-followups/README.md)。
+最新 0.3.16 樣張見 [短預算的 Word 連頁對照](reviews/2026-09-15-budget-pagination/README.md)：
+短篇資源說明與預算表改為同頁，中文仍為 8 頁；長表格與整份留白尚未完成驗收。
 CI 失敗原因及隔離依賴修正見 [CI 修正紀錄](docs/ci-repair-2026-09-14.md)。
 這批樣張仍包含已知失敗，不可作為已驗收的理想 DMP。
 中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯

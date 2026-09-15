@@ -62,8 +62,33 @@ def question_body(pdf,soup):
     return text.split(first,1)[1]
 
 
+def paragraph_locations(text,values,header):
+    raw=text.split('\f')
+    if not raw[-1].strip(): raw.pop()
+    pages=[compact(p) for p in raw]; cleaned=[]
+    for number,page in enumerate(raw,1):
+        lines=[line for line in page.splitlines() if line.strip()]
+        # Only verified numeric footers and an exact repeated table header.
+        if lines and compact(lines[-1])==f'{number}/{len(raw)}': lines.pop()
+        if lines and compact(lines[0])==header: lines.pop(0)
+        cleaned.append(compact('\n'.join(lines)))
+    locations=[]; split=[]
+    for index,value in enumerate(values):
+        hits={i for i,p in enumerate(pages,1) if value in p}
+        if not hits:
+            spans=[]
+            for i,(left,right) in enumerate(zip(cleaned,cleaned[1:]),1):
+                start=(left+right).find(value)
+                if start>=0 and start<len(left)<start+len(value): spans.append([i,i+1])
+            assert spans, ('Missing Q15 paragraph in preview',value)
+            split.append({'paragraph_index':index,'page_spans':spans})
+        # A split paragraph must never be counted as fitting on either page.
+        locations.append(hits)
+    return locations,split
+
+
 def overview_pages(pdf,document):
-    pages=[compact(p) for p in subprocess.check_output(['pdftotext','-layout',str(pdf),'-'],text=True).split('\f')]
+    text=subprocess.check_output(['pdftotext','-layout',str(pdf),'-'],text=True)
     active=False; values=[]
     for n in body(document):
         if n.tag==qn('w:p'):
@@ -76,13 +101,11 @@ def overview_pages(pdf,document):
                 value=compact(Paragraph(node,document).text)
                 if value: values.append(value)
     assert values
-    locations=[]
-    for value in values:
-        hits={i for i,p in enumerate(pages,1) if value in p}
-        assert hits, ('Missing Q15 paragraph in preview',value)
-        locations.append(hits)
+    header=compact(''.join(c.text for c in document.tables[-1].rows[0].cells))
+    locations,split=paragraph_locations(text,values,header)
     return {'all_q15_on_one_page':sorted(set.intersection(*locations)),
-            'q15_heading_page':sorted(locations[0]),'last_budget_paragraph_pages':sorted(locations[-1])}
+            'q15_heading_page':sorted(locations[0]),'last_budget_paragraph_pages':sorted(locations[-1]),
+            'split_paragraphs':split}
 
 
 def main():
@@ -124,7 +147,9 @@ def main():
                 row['prior_q15_pagination']=overview_pages(a.prior/'word-preview'/(name+'.pdf'),documents[0])
                 row['q15_pagination']=overview_pages(preview,documents[1])
                 if eligible: assert len(row['q15_pagination']['all_q15_on_one_page'])==1, 'Small Q15 must include its budget on one page'
-                else: assert not row['q15_pagination']['all_q15_on_one_page'], 'Long/many budget must remain splittable'
+                else:
+                    assert not row['q15_pagination']['all_q15_on_one_page'], 'Long/many budget must remain splittable'
+                    assert row['q15_pagination']==row['prior_q15_pagination'], 'Rejected cases changed Q15 pagination'
                 if case=='budget-long':
                     cells='\n'.join(c.text for t in documents[1].tables for r in t.rows for c in r.cells)
                     for i in range(1,61): assert cells.count(f'BUDGET-PARA-{i:02d}:')==1
