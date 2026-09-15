@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "local_branch_language_checks": 1136,
+  "fixed_phrase_checks": 1176,
+  "checker_sha256": "d1f0b72e47e52d31742102e20df7ab507fca70d3b093fa42936af72872b4aebe",
+  "package_sha256": {
+    "english.zip": "5450cfffa106a7912c5473306036edef3d58ae59d08c7b61c9568420ba78352c",
+    "chinese.zip": "58bb9a1b5950852489b568c833a4aa725b22721081e496c8e13a04d2876ce4f0"
+  },
+  "source_helper_sha256": {
+    "tests/test_identifier_reading.py": "dc3aa8f97732c472c3794e5d63f0502918f80f983d2819d4f90becfe36e8333d",
+    "tests/test_answer_states.py": "b0c3f962bb19358557b986fd4e85a21ddc4d24942d6189e0a0660b07332bf820",
+    "tests/test_science_europe_contract.py": "4068ed40344b85466cf81dbaefa02a6b818e622cbcef8418315b692f3dd9ee31"
+  },
+  "phrase_sha256": "0e4ae1acc594b6f33ae181ad61d9b1a7b8d955883fd62570cad01bf72d5a95b5",
+  "helper_sha256": {
+    "identifier_followup_contract.py": "c72880242b107ee609f87f1dff08a715c1bf3df0b1a8e244fb201ff867a1c839"
+  },
+  "fixture_source_sha256": "d208a02bf236f8dd5055df4de7086ea579cbfcbb56941e30ebe070c57d07c4d4",
+  "limits": [
+    "Offline adapters, not native layout acceptance",
+    "Unsupported UUIDs are tested offline; they are not valid new KM choices",
+    "Only Q13 identifier assignment/resolution follow-ups are newly covered"
+  ]
+}
