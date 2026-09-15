@@ -1,4 +1,4 @@
-"""0.3.20 adds one reviewed Q7 prompt; all 722 previous sentence pairs are unchanged."""
+"""Preserve the 0.3.20 prompt regression; current deltas need separate exact review."""
 import argparse
 from collections import Counter
 import io
@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from jinja2 import Environment, FileSystemLoader
 from artifact_utils import sha
 from probe_pdf_budget_translation import pair
+from probe_personal_data_translation import archived_pairs, verify_tree
 
 ROOT = Path(__file__).resolve().parents[1]
 PRIOR = '39a3a42da718d29b59513153b8a2b15c8f53701c'
@@ -25,9 +26,14 @@ def main():
     with tarfile.open(fileobj=io.BytesIO(data)) as archive:
         old = [pair(archive.extractfile(f).read().decode()) for f in archive if f.name.endswith('/translation.md')]
     files = sorted((ROOT/'translation/tree').rglob('translation.md')); new = [pair(f.read_text()) for f in files]
-    assert len(old) == 722 and len(new) == 723
-    assert not Counter(old) - Counter(new)
-    assert Counter(new) - Counter(old) == Counter({(EN, ZH): 1})
+    # The immutable 0.3.20 tree still proves its original +1 delta. For the
+    # current tree, allow only the separately reviewed Q7/Q9 0.3.21 changes;
+    # never silently relax to a subset or normalize away punctuation.
+    baseline = archived_pairs('3c3d3b38d7346725b7dc2af87b9e8a75d57af7f9')
+    assert len(old) == 722 and len(baseline) == 723
+    assert not Counter(old) - Counter(baseline)
+    assert Counter(baseline) - Counter(old) == Counter({(EN, ZH): 1})
+    current_delta = verify_tree(new)
     manifest = json.loads((a.build/'manifest.json').read_text())
     hashes = {str(f.relative_to(ROOT/'translation')): sha(f) for f in files}
     assert hashes == manifest['translation_tree_sha256']
@@ -49,6 +55,7 @@ def main():
             if nodes: assert nodes[0].get_text() == text
             rows.append({'language': folder, 'case': name, 'gap_count': len(nodes)})
     report = {'passed': True, 'release_acceptance': False, 'prior_commit': PRIOR, 'old_units': len(old), 'new_units': len(new),
+              'historical_0_3_20_units': len(baseline), 'current_reviewed_delta': current_delta,
               'rows': rows, 'checker_sha256': sha(Path(__file__)), 'translation_tree_sha256': hashes,
               'package_sha256': {n: sha(a.build/n) for n in ['english.zip', 'chinese.zip']},
               'limits': ['Selected safeguards parent question, not all Q7 follow-ups or all Science Europe obligations',

@@ -2748,7 +2748,7 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0018-see-question-5-for-archival-and-backup-arrangements-574d6fce6d/0001-see-question-5-for-archival-and-backup-arrangements-b2d29e8b74/translation.md>)
 
-- [ ] [file] src/questions/07-personal-data.html.j2 (14/20)
+- [ ] [file] src/questions/07-personal-data.html.j2 (17/28)
 
   [J2] `src/questions/07-personal-data.html.j2`
 
@@ -2760,133 +2760,197 @@
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0001-7-if-personal-data-are-processed-how-will-bbdbfc0118/0001-7-if-personal-data-are-processed-how-will-bca6f7a4cb/translation.md>)
 
-    - [x] [wrapper] 0002-legal-basis-for-collecting-and-processing-personal-data-622c125aa3 (1/1)
+    - [ ] [wrapper] 0002-information-not-provided-the-alternative-legal-basis-selected-61709a2801 (0/1)
 
-      [W] `0002-legal-basis-for-collecting-and-processing-personal-data-622c125aa3`
+      [W] `0002-information-not-provided-the-alternative-legal-basis-selected-61709a2801`
 
-        - [x] [unit] 0001-legal-basis-for-collecting-and-processing-personal-data-550c2ff958: Legal basis for collecting and processing personal data
+        - [ ] [unit] 0001-information-not-provided-the-alternative-legal-basis-selected-2516e9f331: Information not provided: the alternative legal basis selected for collecting and processing personal data.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0002-legal-basis-for-collecting-and-processing-personal-data-622c125aa3/0001-legal-basis-for-collecting-and-processing-personal-data-550c2ff958/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0002-information-not-provided-the-alternative-legal-basis-selected-61709a2801/0001-information-not-provided-the-alternative-legal-basis-selected-2516e9f331/translation.md>)
 
-    - [ ] [wrapper] 0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c (1/7)
+    - [ ] [wrapper] 0003-information-not-provided-the-legal-basis-for-collecting-830a14617d (0/1)
 
-      [W] `0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c`
+      [W] `0003-information-not-provided-the-legal-basis-for-collecting-830a14617d`
 
-        - [x] [unit] 0001-we-are-collecting-and-processing-personal-data-b8e8864653: We are collecting and processing personal data
+        - [ ] [unit] 0001-information-not-provided-the-legal-basis-for-collecting-899c757bf0: Information not provided: the legal basis for collecting and processing personal data.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0001-we-are-collecting-and-processing-personal-data-b8e8864653/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-information-not-provided-the-legal-basis-for-collecting-830a14617d/0001-information-not-provided-the-legal-basis-for-collecting-899c757bf0/translation.md>)
 
-        - [ ] [unit] 0002-based-on-public-interest-e943cf10ec: based on public interest.
+    - [x] [wrapper] 0004-legal-basis-for-collecting-and-processing-personal-data-622c125aa3 (1/1)
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0002-based-on-public-interest-e943cf10ec/translation.md>)
+      [W] `0004-legal-basis-for-collecting-and-processing-personal-data-622c125aa3`
 
-        - [ ] [unit] 0003-based-on-subject-s-consent-0a2f0af163: based on subject's consent.
+        - [x] [unit] 0001-legal-basis-for-collecting-and-processing-personal-data-3d53461fbe: Legal basis for collecting and processing personal data
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0003-based-on-subject-s-consent-0a2f0af163/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0004-legal-basis-for-collecting-and-processing-personal-data-622c125aa3/0001-legal-basis-for-collecting-and-processing-personal-data-3d53461fbe/translation.md>)
 
-        - [ ] [unit] 0004-in-order-to-fulfil-contract-894a641040: in order to fulfil contract.
+    - [x] [wrapper] 0005-we-are-collecting-and-processing-personal-data-based-6308de779d (7/7)
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0004-in-order-to-fulfil-contract-894a641040/translation.md>)
+      [W] `0005-we-are-collecting-and-processing-personal-data-based-6308de779d`
 
-        - [ ] [unit] 0005-based-on-legitimate-interest-6807a15b63: based on legitimate interest.
+        - [x] [unit] 0001-we-are-collecting-and-processing-personal-data-427cdad916: We are collecting and processing personal data
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0005-based-on-legitimate-interest-6807a15b63/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0005-we-are-collecting-and-processing-personal-data-based-6308de779d/0001-we-are-collecting-and-processing-personal-data-427cdad916/translation.md>)
 
-        - [ ] [unit] 0006-based-on-vital-interest-6bbd348c8e: based on vital interest.
+        - [x] [unit] 0002-based-on-public-interest-7ce4a0c4a4: based on public interest.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0006-based-on-vital-interest-6bbd348c8e/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0005-we-are-collecting-and-processing-personal-data-based-6308de779d/0002-based-on-public-interest-7ce4a0c4a4/translation.md>)
 
-        - [ ] [unit] 0007-based-on-legal-requirement-e3a0378d42: based on legal requirement.
+        - [x] [unit] 0003-based-on-subject-s-consent-09347bfc46: based on subject's consent.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-we-are-collecting-and-processing-personal-data-based-dc7030e84c/0007-based-on-legal-requirement-e3a0378d42/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0005-we-are-collecting-and-processing-personal-data-based-6308de779d/0003-based-on-subject-s-consent-09347bfc46/translation.md>)
 
-    - [x] [wrapper] 0004-technical-and-procedural-measures-2466300806 (1/1)
+        - [x] [unit] 0004-in-order-to-fulfil-contract-d1c57cdbbb: in order to fulfil contract.
 
-      [W] `0004-technical-and-procedural-measures-2466300806`
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0005-we-are-collecting-and-processing-personal-data-based-6308de779d/0004-in-order-to-fulfil-contract-d1c57cdbbb/translation.md>)
 
-        - [x] [unit] 0001-technical-and-procedural-measures-ff283feca4: Technical and procedural measures
+        - [x] [unit] 0005-based-on-legitimate-interest-19c1c9f4f0: based on legitimate interest.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0004-technical-and-procedural-measures-2466300806/0001-technical-and-procedural-measures-ff283feca4/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0005-we-are-collecting-and-processing-personal-data-based-6308de779d/0005-based-on-legitimate-interest-19c1c9f4f0/translation.md>)
 
-    - [x] [wrapper] 0005-the-stored-data-are-irrevocably-anonymized-634455fb86 (1/1)
+        - [x] [unit] 0006-based-on-vital-interest-e5479966a0: based on vital interest.
 
-      [W] `0005-the-stored-data-are-irrevocably-anonymized-634455fb86`
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0005-we-are-collecting-and-processing-personal-data-based-6308de779d/0006-based-on-vital-interest-e5479966a0/translation.md>)
 
-        - [x] [unit] 0001-the-stored-data-are-irrevocably-anonymized-c980257712: The stored data are irrevocably anonymized.
+        - [x] [unit] 0007-based-on-legal-requirement-03cc97fad6: based on legal requirement.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0005-the-stored-data-are-irrevocably-anonymized-634455fb86/0001-the-stored-data-are-irrevocably-anonymized-c980257712/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0005-we-are-collecting-and-processing-personal-data-based-6308de779d/0007-based-on-legal-requirement-03cc97fad6/translation.md>)
 
-    - [x] [wrapper] 0006-the-stored-data-are-psuedoanonymized-3e10f47bbe (1/1)
+    - [x] [wrapper] 0006-technical-and-procedural-measures-2466300806 (1/1)
 
-      [W] `0006-the-stored-data-are-psuedoanonymized-3e10f47bbe`
+      [W] `0006-technical-and-procedural-measures-2466300806`
 
-        - [x] [unit] 0001-the-stored-data-are-psuedoanonymized-03523c1f96: The stored data are psuedoanonymized.
+        - [x] [unit] 0001-technical-and-procedural-measures-11423ce8c9: Technical and procedural measures
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0006-the-stored-data-are-psuedoanonymized-3e10f47bbe/0001-the-stored-data-are-psuedoanonymized-03523c1f96/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0006-technical-and-procedural-measures-2466300806/0001-technical-and-procedural-measures-11423ce8c9/translation.md>)
 
-    - [x] [wrapper] 0007-the-stored-data-are-identifiable-042b912f1a (1/1)
+    - [x] [wrapper] 0007-the-stored-data-are-irrevocably-anonymized-634455fb86 (1/1)
 
-      [W] `0007-the-stored-data-are-identifiable-042b912f1a`
+      [W] `0007-the-stored-data-are-irrevocably-anonymized-634455fb86`
 
-        - [x] [unit] 0001-the-stored-data-are-identifiable-f0d18cf969: The stored data are identifiable.
+        - [x] [unit] 0001-the-stored-data-are-irrevocably-anonymized-4d816fd8fd: The stored data are irrevocably anonymized.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0007-the-stored-data-are-identifiable-042b912f1a/0001-the-stored-data-are-identifiable-f0d18cf969/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0007-the-stored-data-are-irrevocably-anonymized-634455fb86/0001-the-stored-data-are-irrevocably-anonymized-4d816fd8fd/translation.md>)
 
-    - [x] [wrapper] 0008-we-will-use-the-following-technical-and-procedural-e93294aad4 (1/1)
+    - [ ] [wrapper] 0008-the-stored-data-are-pseudonymized-844aef5425 (0/1)
 
-      [W] `0008-we-will-use-the-following-technical-and-procedural-e93294aad4`
+      [W] `0008-the-stored-data-are-pseudonymized-844aef5425`
 
-        - [x] [unit] 0001-we-will-use-the-following-technical-and-procedural-29fa8bb968: We will use the following technical and procedural safeguards: {personalDataSafeguardElaborateReply}
+        - [ ] [unit] 0001-the-stored-data-are-pseudonymized-885c7653cf: The stored data are pseudonymized.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0008-we-will-use-the-following-technical-and-procedural-e93294aad4/0001-we-will-use-the-following-technical-and-procedural-29fa8bb968/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0008-the-stored-data-are-pseudonymized-844aef5425/0001-the-stored-data-are-pseudonymized-885c7653cf/translation.md>)
 
-    - [x] [wrapper] 0009-we-plan-to-transfer-data-outside-the-eu-fbacb5ca9c (1/1)
+    - [x] [wrapper] 0009-the-stored-data-are-identifiable-042b912f1a (1/1)
 
-      [W] `0009-we-plan-to-transfer-data-outside-the-eu-fbacb5ca9c`
+      [W] `0009-the-stored-data-are-identifiable-042b912f1a`
 
-        - [x] [unit] 0001-we-plan-to-transfer-data-outside-the-eu-fc43e9f2f2: We plan to transfer data outside the EU/EEA and these are measures we will place to protect data: {personalDataSafeguardTransferMeasuresReply}
+        - [x] [unit] 0001-the-stored-data-are-identifiable-f18c703b3e: The stored data are identifiable.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0009-we-plan-to-transfer-data-outside-the-eu-fbacb5ca9c/0001-we-plan-to-transfer-data-outside-the-eu-fc43e9f2f2/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0009-the-stored-data-are-identifiable-042b912f1a/0001-the-stored-data-are-identifiable-f18c703b3e/translation.md>)
 
-    - [x] [wrapper] 0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282 (1/1)
+    - [ ] [wrapper] 0010-information-not-provided-whether-the-stored-data-are-6513a3a5ac (0/1)
 
-      [W] `0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282`
+      [W] `0010-information-not-provided-whether-the-stored-data-are-6513a3a5ac`
 
-        - [x] [unit] 0001-information-not-provided-the-technical-and-procedural-measures-c37ea2e8a4: Information not provided: the technical and procedural measures for protecting personal data.
+        - [ ] [unit] 0001-information-not-provided-whether-the-stored-data-are-05bc4c98e4: Information not provided: whether the stored data are anonymized, pseudonymized, or identifiable.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282/0001-information-not-provided-the-technical-and-procedural-measures-c37ea2e8a4/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0010-information-not-provided-whether-the-stored-data-are-6513a3a5ac/0001-information-not-provided-whether-the-stored-data-are-05bc4c98e4/translation.md>)
 
-    - [x] [wrapper] 0011-we-will-not-collect-any-data-related-to-dd86306947 (1/1)
+    - [ ] [wrapper] 0011-other-technical-and-procedural-safeguards-10ff3fe6e7 (0/1)
 
-      [W] `0011-we-will-not-collect-any-data-related-to-dd86306947`
+      [W] `0011-other-technical-and-procedural-safeguards-10ff3fe6e7`
 
-        - [x] [unit] 0001-we-will-not-collect-any-data-related-to-1113530ffd: We will not collect any data related to individuals.
+        - [ ] [unit] 0001-other-technical-and-procedural-safeguards-1702f9c54a: Other technical and procedural safeguards:
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0011-we-will-not-collect-any-data-related-to-dd86306947/0001-we-will-not-collect-any-data-related-to-1113530ffd/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0011-other-technical-and-procedural-safeguards-10ff3fe6e7/0001-other-technical-and-procedural-safeguards-1702f9c54a/translation.md>)
 
-    - [x] [wrapper] 0012-access-procedure-to-personal-data-15464d8ec9 (1/1)
+    - [ ] [wrapper] 0012-information-not-provided-details-of-any-other-technical-eff5fe198e (0/1)
 
-      [W] `0012-access-procedure-to-personal-data-15464d8ec9`
+      [W] `0012-information-not-provided-details-of-any-other-technical-eff5fe198e`
 
-        - [x] [unit] 0001-access-procedure-to-personal-data-ed16e0e405: Access procedure to personal data
+        - [ ] [unit] 0001-information-not-provided-details-of-any-other-technical-0983daafa5: Information not provided: details of any other technical and procedural safeguards.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0012-access-procedure-to-personal-data-15464d8ec9/0001-access-procedure-to-personal-data-ed16e0e405/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0012-information-not-provided-details-of-any-other-technical-eff5fe198e/0001-information-not-provided-details-of-any-other-technical-0983daafa5/translation.md>)
 
-    - [x] [wrapper] 0013-there-is-a-procedure-for-users-to-access-db19520b48 (1/1)
+    - [ ] [wrapper] 0013-we-plan-to-transfer-data-outside-the-eu-40aff8bf98 (0/1)
 
-      [W] `0013-there-is-a-procedure-for-users-to-access-db19520b48`
+      [W] `0013-we-plan-to-transfer-data-outside-the-eu-40aff8bf98`
 
-        - [x] [unit] 0001-there-is-a-procedure-for-users-to-access-372cc2493f: There is a procedure for users to access private data as follows: {personalDataManagedAccessReply}
+        - [ ] [unit] 0001-we-plan-to-transfer-data-outside-the-eu-fbfa4e23cc: We plan to transfer data outside the EU/EEA with the following protection measures:
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0013-there-is-a-procedure-for-users-to-access-db19520b48/0001-there-is-a-procedure-for-users-to-access-372cc2493f/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0013-we-plan-to-transfer-data-outside-the-eu-40aff8bf98/0001-we-plan-to-transfer-data-outside-the-eu-fbfa4e23cc/translation.md>)
 
-    - [x] [wrapper] 0014-this-document-does-not-yet-contain-an-answer-2fab69ca3c (1/1)
+    - [ ] [wrapper] 0014-we-plan-to-transfer-data-outside-the-eu-7000fcaabe (0/1)
 
-      [W] `0014-this-document-does-not-yet-contain-an-answer-2fab69ca3c`
+      [W] `0014-we-plan-to-transfer-data-outside-the-eu-7000fcaabe`
 
-        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-a816ea03fb: This document does not yet contain an answer about personal-data protection and compliance.
+        - [ ] [unit] 0001-we-plan-to-transfer-data-outside-the-eu-5ef45526b5: We plan to transfer data outside the EU/EEA.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0014-this-document-does-not-yet-contain-an-answer-2fab69ca3c/0001-this-document-does-not-yet-contain-an-answer-a816ea03fb/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0014-we-plan-to-transfer-data-outside-the-eu-7000fcaabe/0001-we-plan-to-transfer-data-outside-the-eu-5ef45526b5/translation.md>)
+
+    - [ ] [wrapper] 0015-information-not-provided-the-measures-for-protecting-data-a48f00b2b4 (0/1)
+
+      [W] `0015-information-not-provided-the-measures-for-protecting-data-a48f00b2b4`
+
+        - [ ] [unit] 0001-information-not-provided-the-measures-for-protecting-data-24f7e0e775: Information not provided: the measures for protecting data transferred outside the EU/EEA.
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0015-information-not-provided-the-measures-for-protecting-data-a48f00b2b4/0001-information-not-provided-the-measures-for-protecting-data-24f7e0e775/translation.md>)
+
+    - [ ] [wrapper] 0016-we-do-not-plan-to-transfer-data-outside-0d67577f07 (0/1)
+
+      [W] `0016-we-do-not-plan-to-transfer-data-outside-0d67577f07`
+
+        - [ ] [unit] 0001-we-do-not-plan-to-transfer-data-outside-5e8a949e09: We do not plan to transfer data outside the EU/EEA.
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0016-we-do-not-plan-to-transfer-data-outside-0d67577f07/0001-we-do-not-plan-to-transfer-data-outside-5e8a949e09/translation.md>)
+
+    - [ ] [wrapper] 0017-information-not-provided-whether-data-will-be-transferred-7e83fc0a3a (0/1)
+
+      [W] `0017-information-not-provided-whether-data-will-be-transferred-7e83fc0a3a`
+
+        - [ ] [unit] 0001-information-not-provided-whether-data-will-be-transferred-df18390918: Information not provided: whether data will be transferred outside the EU/EEA.
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0017-information-not-provided-whether-data-will-be-transferred-7e83fc0a3a/0001-information-not-provided-whether-data-will-be-transferred-df18390918/translation.md>)
+
+    - [x] [wrapper] 0018-information-not-provided-the-technical-and-procedural-measures-c581dd3282 (1/1)
+
+      [W] `0018-information-not-provided-the-technical-and-procedural-measures-c581dd3282`
+
+        - [x] [unit] 0001-information-not-provided-the-technical-and-procedural-measures-384efb6afb: Information not provided: the technical and procedural measures for protecting personal data.
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0018-information-not-provided-the-technical-and-procedural-measures-c581dd3282/0001-information-not-provided-the-technical-and-procedural-measures-384efb6afb/translation.md>)
+
+    - [x] [wrapper] 0019-we-will-not-collect-any-data-related-to-dd86306947 (1/1)
+
+      [W] `0019-we-will-not-collect-any-data-related-to-dd86306947`
+
+        - [x] [unit] 0001-we-will-not-collect-any-data-related-to-799c3605b6: We will not collect any data related to individuals.
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0019-we-will-not-collect-any-data-related-to-dd86306947/0001-we-will-not-collect-any-data-related-to-799c3605b6/translation.md>)
+
+    - [x] [wrapper] 0020-access-procedure-to-personal-data-15464d8ec9 (1/1)
+
+      [W] `0020-access-procedure-to-personal-data-15464d8ec9`
+
+        - [x] [unit] 0001-access-procedure-to-personal-data-ec11fca8d9: Access procedure to personal data
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0020-access-procedure-to-personal-data-15464d8ec9/0001-access-procedure-to-personal-data-ec11fca8d9/translation.md>)
+
+    - [x] [wrapper] 0021-there-is-a-procedure-for-users-to-access-db19520b48 (1/1)
+
+      [W] `0021-there-is-a-procedure-for-users-to-access-db19520b48`
+
+        - [x] [unit] 0001-there-is-a-procedure-for-users-to-access-49c3780fc6: There is a procedure for users to access private data as follows: {personalDataManagedAccessReply}
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0021-there-is-a-procedure-for-users-to-access-db19520b48/0001-there-is-a-procedure-for-users-to-access-49c3780fc6/translation.md>)
+
+    - [x] [wrapper] 0022-this-document-does-not-yet-contain-an-answer-2fab69ca3c (1/1)
+
+      [W] `0022-this-document-does-not-yet-contain-an-answer-2fab69ca3c`
+
+        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-846a92f09b: This document does not yet contain an answer about personal-data protection and compliance.
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0022-this-document-does-not-yet-contain-an-answer-2fab69ca3c/0001-this-document-does-not-yet-contain-an-answer-846a92f09b/translation.md>)
 
 - [x] [file] src/questions/08-copyright-ipr.html.j2 (42/42)
 
@@ -3204,7 +3268,7 @@
 
           [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-this-document-does-not-yet-describe-arrangements-for-409dc01360/0001-this-document-does-not-yet-describe-arrangements-for-bd0ea785a3/translation.md>)
 
-- [x] [file] src/questions/09-ethical-issues.html.j2 (50/50)
+- [ ] [file] src/questions/09-ethical-issues.html.j2 (48/50)
 
   [J2] `src/questions/09-ethical-issues.html.j2`
 
@@ -3384,101 +3448,101 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0019-we-will-collect-data-related-to-individuals-i-08bb9eb9f9/0001-we-will-collect-data-related-to-individuals-i-992a3a4c41/translation.md>)
 
-    - [x] [wrapper] 0020-we-explored-general-data-protection-regulation-gdpr-considerations-02e43fbbe5 (1/1)
+    - [ ] [wrapper] 0020-the-stated-legal-basis-for-collecting-and-processing-4e882c439a (0/1)
 
-      [W] `0020-we-explored-general-data-protection-regulation-gdpr-considerations-02e43fbbe5`
+      [W] `0020-the-stated-legal-basis-for-collecting-and-processing-4e882c439a`
 
-        - [x] [unit] 0001-we-explored-general-data-protection-regulation-gdpr-considerations-fc1b123fba: We explored General Data Protection Regulation (GDPR) considerations and relevant materials.
+        - [ ] [unit] 0001-the-stated-legal-basis-for-collecting-and-processing-58be062656: The stated legal basis for collecting and processing personal data is public interest.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0020-we-explored-general-data-protection-regulation-gdpr-considerations-02e43fbbe5/0001-we-explored-general-data-protection-regulation-gdpr-considerations-fc1b123fba/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0020-the-stated-legal-basis-for-collecting-and-processing-4e882c439a/0001-the-stated-legal-basis-for-collecting-and-processing-58be062656/translation.md>)
 
-    - [x] [wrapper] 0021-we-collect-personal-data-for-the-benefit-of-8ef9f0147e (1/1)
+    - [x] [wrapper] 0021-we-ask-the-data-subjects-for-their-consent-0d5a4714fd (1/1)
 
-      [W] `0021-we-collect-personal-data-for-the-benefit-of-8ef9f0147e`
+      [W] `0021-we-ask-the-data-subjects-for-their-consent-0d5a4714fd`
 
-        - [x] [unit] 0001-we-collect-personal-data-for-the-benefit-of-0ac4662a62: We collect personal data for the benefit of society, and this is more important than the privacy of the subjects (i.e. public interest).
+        - [x] [unit] 0001-we-ask-the-data-subjects-for-their-consent-6cba8de4e9: We ask the data subjects for their consent.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0021-we-collect-personal-data-for-the-benefit-of-8ef9f0147e/0001-we-collect-personal-data-for-the-benefit-of-0ac4662a62/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0021-we-ask-the-data-subjects-for-their-consent-0d5a4714fd/0001-we-ask-the-data-subjects-for-their-consent-6cba8de4e9/translation.md>)
 
-    - [x] [wrapper] 0022-we-ask-the-data-subjects-for-their-consent-0d5a4714fd (1/1)
+    - [x] [wrapper] 0022-we-collect-consent-for-our-specific-use-of-d832e6504b (1/1)
 
-      [W] `0022-we-ask-the-data-subjects-for-their-consent-0d5a4714fd`
+      [W] `0022-we-collect-consent-for-our-specific-use-of-d832e6504b`
 
-        - [x] [unit] 0001-we-ask-the-data-subjects-for-their-consent-a4a00d8dbe: We ask the data subjects for their consent.
+        - [x] [unit] 0001-we-collect-consent-for-our-specific-use-of-2c452c85bc: We collect consent for our specific use of the data.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0022-we-ask-the-data-subjects-for-their-consent-0d5a4714fd/0001-we-ask-the-data-subjects-for-their-consent-a4a00d8dbe/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0022-we-collect-consent-for-our-specific-use-of-d832e6504b/0001-we-collect-consent-for-our-specific-use-of-2c452c85bc/translation.md>)
 
-    - [x] [wrapper] 0023-we-collect-consent-for-our-specific-use-of-d832e6504b (1/1)
+    - [x] [wrapper] 0023-we-collect-consent-for-our-use-as-well-336d20d57d (1/1)
 
-      [W] `0023-we-collect-consent-for-our-specific-use-of-d832e6504b`
+      [W] `0023-we-collect-consent-for-our-use-as-well-336d20d57d`
 
-        - [x] [unit] 0001-we-collect-consent-for-our-specific-use-of-6b4dc0fb10: We collect consent for our specific use of the data.
+        - [x] [unit] 0001-we-collect-consent-for-our-use-as-well-6d90479884: We collect consent for our use as well as for reuse of the data.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0023-we-collect-consent-for-our-specific-use-of-d832e6504b/0001-we-collect-consent-for-our-specific-use-of-6b4dc0fb10/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0023-we-collect-consent-for-our-use-as-well-336d20d57d/0001-we-collect-consent-for-our-use-as-well-6d90479884/translation.md>)
 
-    - [x] [wrapper] 0024-we-collect-consent-for-our-use-as-well-336d20d57d (1/1)
+    - [x] [wrapper] 0024-we-will-collect-consent-for-our-use-of-6beeb016c1 (1/1)
 
-      [W] `0024-we-collect-consent-for-our-use-as-well-336d20d57d`
+      [W] `0024-we-will-collect-consent-for-our-use-of-6beeb016c1`
 
-        - [x] [unit] 0001-we-collect-consent-for-our-use-as-well-1f154e41eb: We collect consent for our use as well as for reuse of the data.
+        - [x] [unit] 0001-we-will-collect-consent-for-our-use-of-e4bd321681: We will collect consent for our use of the data and for anonymization; We will anonymize the data afterwards for reuse.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0024-we-collect-consent-for-our-use-as-well-336d20d57d/0001-we-collect-consent-for-our-use-as-well-1f154e41eb/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0024-we-will-collect-consent-for-our-use-of-6beeb016c1/0001-we-will-collect-consent-for-our-use-of-e4bd321681/translation.md>)
 
-    - [x] [wrapper] 0025-we-will-collect-consent-for-our-use-of-6beeb016c1 (1/1)
+    - [x] [wrapper] 0025-we-ask-for-consent-for-anonymization-we-will-77880f3b34 (1/1)
 
-      [W] `0025-we-will-collect-consent-for-our-use-of-6beeb016c1`
+      [W] `0025-we-ask-for-consent-for-anonymization-we-will-77880f3b34`
 
-        - [x] [unit] 0001-we-will-collect-consent-for-our-use-of-2223078890: We will collect consent for our use of the data and for anonymization; We will anonymize the data afterwards for reuse.
+        - [x] [unit] 0001-we-ask-for-consent-for-anonymization-we-will-5e6a157cde: We ask for consent for anonymization; We will anonymize first and all further processing is on the anonymous data.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0025-we-will-collect-consent-for-our-use-of-6beeb016c1/0001-we-will-collect-consent-for-our-use-of-2223078890/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0025-we-ask-for-consent-for-anonymization-we-will-77880f3b34/0001-we-ask-for-consent-for-anonymization-we-will-5e6a157cde/translation.md>)
 
-    - [x] [wrapper] 0026-we-ask-for-consent-for-anonymization-we-will-77880f3b34 (1/1)
+    - [x] [wrapper] 0026-the-data-subjects-will-be-informed-as-follows-e656a85dc6 (1/1)
 
-      [W] `0026-we-ask-for-consent-for-anonymization-we-will-77880f3b34`
+      [W] `0026-the-data-subjects-will-be-informed-as-follows-e656a85dc6`
 
-        - [x] [unit] 0001-we-ask-for-consent-for-anonymization-we-will-cddb6c19f6: We ask for consent for anonymization; We will anonymize first and all further processing is on the anonymous data.
+        - [x] [unit] 0001-the-data-subjects-will-be-informed-as-follows-de908edd6b: The data subjects will be informed as follows:
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0026-we-ask-for-consent-for-anonymization-we-will-77880f3b34/0001-we-ask-for-consent-for-anonymization-we-will-cddb6c19f6/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0026-the-data-subjects-will-be-informed-as-follows-e656a85dc6/0001-the-data-subjects-will-be-informed-as-follows-de908edd6b/translation.md>)
 
-    - [x] [wrapper] 0027-the-data-subjects-will-be-informed-as-follows-e656a85dc6 (1/1)
+    - [x] [wrapper] 0027-the-consent-form-will-not-be-available-for-c3fe2b26ef (1/1)
 
-      [W] `0027-the-data-subjects-will-be-informed-as-follows-e656a85dc6`
+      [W] `0027-the-consent-form-will-not-be-available-for-c3fe2b26ef`
 
-        - [x] [unit] 0001-the-data-subjects-will-be-informed-as-follows-b74dfb35b4: The data subjects will be informed as follows:
+        - [x] [unit] 0001-the-consent-form-will-not-be-available-for-38ac5c2030: The consent form will not be available for re-users.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0027-the-data-subjects-will-be-informed-as-follows-e656a85dc6/0001-the-data-subjects-will-be-informed-as-follows-b74dfb35b4/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0027-the-consent-form-will-not-be-available-for-c3fe2b26ef/0001-the-consent-form-will-not-be-available-for-38ac5c2030/translation.md>)
 
-    - [x] [wrapper] 0028-the-consent-form-will-not-be-available-for-c3fe2b26ef (1/1)
+    - [x] [wrapper] 0028-the-consent-form-will-be-available-for-re-b6e99d5427 (1/1)
 
-      [W] `0028-the-consent-form-will-not-be-available-for-c3fe2b26ef`
+      [W] `0028-the-consent-form-will-be-available-for-re-b6e99d5427`
 
-        - [x] [unit] 0001-the-consent-form-will-not-be-available-for-f13811c6b3: The consent form will not be available for re-users.
+        - [x] [unit] 0001-the-consent-form-will-be-available-for-re-0aefc960ab: The consent form will be available for re-users.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0028-the-consent-form-will-not-be-available-for-c3fe2b26ef/0001-the-consent-form-will-not-be-available-for-f13811c6b3/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0028-the-consent-form-will-be-available-for-re-b6e99d5427/0001-the-consent-form-will-be-available-for-re-0aefc960ab/translation.md>)
 
-    - [x] [wrapper] 0029-the-consent-form-will-be-available-for-re-b6e99d5427 (1/1)
+    - [x] [wrapper] 0029-the-procedure-for-obtaining-consent-from-data-subjects-5de93a0075 (1/1)
 
-      [W] `0029-the-consent-form-will-be-available-for-re-b6e99d5427`
+      [W] `0029-the-procedure-for-obtaining-consent-from-data-subjects-5de93a0075`
 
-        - [x] [unit] 0001-the-consent-form-will-be-available-for-re-0e2b76c70d: The consent form will be available for re-users.
+        - [x] [unit] 0001-the-procedure-for-obtaining-consent-from-data-subjects-80b3044836: The procedure for obtaining consent from data subjects is set as follows:
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0029-the-consent-form-will-be-available-for-re-b6e99d5427/0001-the-consent-form-will-be-available-for-re-0e2b76c70d/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0029-the-procedure-for-obtaining-consent-from-data-subjects-5de93a0075/0001-the-procedure-for-obtaining-consent-from-data-subjects-80b3044836/translation.md>)
 
-    - [x] [wrapper] 0030-the-procedure-for-obtaining-consent-from-data-subjects-5de93a0075 (1/1)
+    - [x] [wrapper] 0030-we-use-a-different-legal-base-for-collection-3e995155fc (1/1)
 
-      [W] `0030-the-procedure-for-obtaining-consent-from-data-subjects-5de93a0075`
+      [W] `0030-we-use-a-different-legal-base-for-collection-3e995155fc`
 
-        - [x] [unit] 0001-the-procedure-for-obtaining-consent-from-data-subjects-bc21c12bb1: The procedure for obtaining consent from data subjects is set as follows:
+        - [x] [unit] 0001-we-use-a-different-legal-base-for-collection-c7a5471afa: We use a different legal base for collection of personal data rather than public interest or consent-based:
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0030-the-procedure-for-obtaining-consent-from-data-subjects-5de93a0075/0001-the-procedure-for-obtaining-consent-from-data-subjects-bc21c12bb1/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0030-we-use-a-different-legal-base-for-collection-3e995155fc/0001-we-use-a-different-legal-base-for-collection-c7a5471afa/translation.md>)
 
-    - [x] [wrapper] 0031-we-use-a-different-legal-base-for-collection-7d905e7660 (1/1)
+    - [ ] [wrapper] 0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2 (0/1)
 
-      [W] `0031-we-use-a-different-legal-base-for-collection-7d905e7660`
+      [W] `0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2`
 
-        - [x] [unit] 0001-we-use-a-different-legal-base-for-collection-ced032c02b: We use a different legal base for collection of personal data rather than public interest or consent-based:
+        - [ ] [unit] 0001-an-alternative-legal-basis-was-selected-but-it-63608bf06a: An alternative legal basis was selected, but it has not been specified; see Question 7.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0031-we-use-a-different-legal-base-for-collection-7d905e7660/0001-we-use-a-different-legal-base-for-collection-ced032c02b/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2/0001-an-alternative-legal-basis-was-selected-but-it-63608bf06a/translation.md>)
 
     - [x] [wrapper] 0032-to-fulfil-a-contract-9844b04880 (1/1)
 
