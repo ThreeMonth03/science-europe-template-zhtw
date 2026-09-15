@@ -1,0 +1,16 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "version": "0.3.22",
+  "rows": [],
+  "checker_sha256": "ba91e9374ac2b7ad3eb1df679de50d68696f4d9f4ba3b8f1082866c3e3c5cb23",
+  "package_sha256": {
+    "english.zip": "da61456600e2783ab215666250319679dacbc6f222e89c3b17b06d6922947256",
+    "chinese.zip": "bdfe50b5eb410521843ab52c6b6bb619483bcc183dcd079a8473766a780c7990"
+  },
+  "limits": [
+    "Only bounded Q8 reference-name/permission pairs receive the Word keep rule",
+    "Long or complex answers are preserved, not made unbreakable",
+    "LibreOffice preview, not Microsoft Word acceptance"
+  ]
+}
