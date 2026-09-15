@@ -64,6 +64,19 @@ def pdf_body_without_table_headers(path, soup):
     return whole.split(first, 1)[1]
 
 
+def pdf_raw_page_texts(path):
+    # Native PDF emits each cell's content contiguously in raw order; layout
+    # extraction interleaves a two-line funding name with the purpose column.
+    pages = subprocess.check_output(['pdftotext', '-raw', str(path), '-'], text=True).split('\f')
+    if not pages[-1].strip(): pages.pop()
+    result = []
+    for number, page in enumerate(pages, 1):
+        lines = [line for line in page.splitlines() if line.strip()]
+        assert lines and compact(lines[-1]) == f'{number}/{len(pages)}'
+        result.append(compact('\n'.join(lines[:-1])))
+    return result
+
+
 def long_page_checks(pages, soup, repeating_identity):
     resource = soup.select_one('.resource-table tbody tr')
     cells = resource.find_all('td', recursive=False)
@@ -146,7 +159,8 @@ def main():
                     q1 = compact(soups[0].select_one('.question h3').get_text())
                     q15 = compact(soups[0].select_one('#q-required-resources h3').get_text())
                     assert ''.join(before_pages).split(q1, 1)[1].split(q15, 1)[0] == ''.join(after_pages).split(q1, 1)[1].split(q15, 1)[0]
-                    row['pdf'] = long_page_checks(page_texts(new_pdf), soups[1], False)
+                    row['pdf'] = long_page_checks(pdf_raw_page_texts(new_pdf), soups[1], False)
+                    row['pdf']['paragraph_location_extraction'] = 'pdftotext -raw; exact content within one page'
                     row['word'] = long_page_checks(after_pages, soups[1], True)
                     assert row['word']['tail_shares_last_purpose_page'], 'Short tail resource stranded on its own page'
                     assert row['pdf_pages'] < row['prior_pdf_pages'] and row['word_pages'] <= row['prior_word_pages']

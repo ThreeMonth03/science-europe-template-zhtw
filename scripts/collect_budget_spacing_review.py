@@ -83,6 +83,14 @@ def main():
         verify_files(a.english, report.get('helper_sha256', {}))
         keep(a.baseline / (name + '.json'), name + '.json')
     assert manifest['translation_units'] == 720 and manifest['untranslated_units'] == []
+    pdf_probe = read(a.baseline, 'budget-pdf-probe.json')
+    assert pdf_probe['passed'] and pdf_probe['release_acceptance'] is False
+    assert len(pdf_probe['rows']) == 8 and sum(r['eligible'] for r in pdf_probe['rows']) == 3
+    assert pdf_probe['source_commit'] == manifest['source']['commit']
+    assert pdf_probe['checker_sha256'] == sha(a.english / 'scripts/probe_budget_pdf.py')
+    assert pdf_probe['css_sha256'] == sha(a.english / 'src/layout.css')
+    verify_files(a.english, pdf_probe['helper_sha256'])
+    keep(a.baseline / 'budget-pdf-probe.json', 'budget-pdf-probe.json')
     for name in ['translation-audit.json', 'structure-audit.json']:
         assert read(a.baseline, name) == []; keep(a.baseline / name, 'stock/' + name)
     audit = read(a.baseline, 'km-binding-audit.json')
