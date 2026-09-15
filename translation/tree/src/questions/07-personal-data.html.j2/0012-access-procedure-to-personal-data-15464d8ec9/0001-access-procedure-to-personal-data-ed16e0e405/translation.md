@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-There is a procedure for users to access private data as follows: {personalDataManagedAccessReply}
+Access procedure to personal data
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-使用者取用非公開資料的程序如下：{personalDataManagedAccessReply}
+個人資料取用程序
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ There is a procedure for users to access private data as follows: {personalDataM
 - Source File: `src/questions/07-personal-data.html.j2`
 - Wrapper Name: `__tr_block_0011`
 - Wrapper Order: `12`
-- Wrapper Key: `there-is-a-procedure-for-users-to-access-db19520b48`
-- Unit Key: `there-is-a-procedure-for-users-to-access-009fa365c0`
-- Source Hash: `172e54a5bee7a072561b9dcf2eb59e9751e5f79f`
+- Wrapper Key: `access-procedure-to-personal-data-15464d8ec9`
+- Unit Key: `access-procedure-to-personal-data-ed16e0e405`
+- Source Hash: `ebcf38a9f830188eb1f05817a03bc675521a0a20`
 
 Do not edit this section manually.
 

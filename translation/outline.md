@@ -2748,7 +2748,7 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0018-see-question-5-for-archival-and-backup-arrangements-574d6fce6d/0001-see-question-5-for-archival-and-backup-arrangements-b2d29e8b74/translation.md>)
 
-- [x] [file] src/questions/07-personal-data.html.j2 (19/19)
+- [ ] [file] src/questions/07-personal-data.html.j2 (19/20)
 
   [J2] `src/questions/07-personal-data.html.j2`
 
@@ -2848,37 +2848,45 @@
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0009-we-plan-to-transfer-data-outside-the-eu-fbacb5ca9c/0001-we-plan-to-transfer-data-outside-the-eu-fc43e9f2f2/translation.md>)
 
-    - [x] [wrapper] 0010-we-will-not-collect-any-data-related-to-dd86306947 (1/1)
+    - [ ] [wrapper] 0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282 (0/1)
 
-      [W] `0010-we-will-not-collect-any-data-related-to-dd86306947`
+      [W] `0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282`
 
-        - [x] [unit] 0001-we-will-not-collect-any-data-related-to-8024fb75eb: We will not collect any data related to individuals.
+        - [ ] [unit] 0001-information-not-provided-the-technical-and-procedural-measures-c37ea2e8a4: Information not provided: the technical and procedural measures for protecting personal data.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0010-we-will-not-collect-any-data-related-to-dd86306947/0001-we-will-not-collect-any-data-related-to-8024fb75eb/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0010-information-not-provided-the-technical-and-procedural-measures-c581dd3282/0001-information-not-provided-the-technical-and-procedural-measures-c37ea2e8a4/translation.md>)
 
-    - [x] [wrapper] 0011-access-procedure-to-personal-data-15464d8ec9 (1/1)
+    - [x] [wrapper] 0011-we-will-not-collect-any-data-related-to-dd86306947 (1/1)
 
-      [W] `0011-access-procedure-to-personal-data-15464d8ec9`
+      [W] `0011-we-will-not-collect-any-data-related-to-dd86306947`
 
-        - [x] [unit] 0001-access-procedure-to-personal-data-faaa0fe076: Access procedure to personal data
+        - [x] [unit] 0001-we-will-not-collect-any-data-related-to-1113530ffd: We will not collect any data related to individuals.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0011-access-procedure-to-personal-data-15464d8ec9/0001-access-procedure-to-personal-data-faaa0fe076/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0011-we-will-not-collect-any-data-related-to-dd86306947/0001-we-will-not-collect-any-data-related-to-1113530ffd/translation.md>)
 
-    - [x] [wrapper] 0012-there-is-a-procedure-for-users-to-access-db19520b48 (1/1)
+    - [x] [wrapper] 0012-access-procedure-to-personal-data-15464d8ec9 (1/1)
 
-      [W] `0012-there-is-a-procedure-for-users-to-access-db19520b48`
+      [W] `0012-access-procedure-to-personal-data-15464d8ec9`
 
-        - [x] [unit] 0001-there-is-a-procedure-for-users-to-access-009fa365c0: There is a procedure for users to access private data as follows: {personalDataManagedAccessReply}
+        - [x] [unit] 0001-access-procedure-to-personal-data-ed16e0e405: Access procedure to personal data
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0012-there-is-a-procedure-for-users-to-access-db19520b48/0001-there-is-a-procedure-for-users-to-access-009fa365c0/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0012-access-procedure-to-personal-data-15464d8ec9/0001-access-procedure-to-personal-data-ed16e0e405/translation.md>)
 
-    - [x] [wrapper] 0013-this-document-does-not-yet-contain-an-answer-2fab69ca3c (1/1)
+    - [x] [wrapper] 0013-there-is-a-procedure-for-users-to-access-db19520b48 (1/1)
 
-      [W] `0013-this-document-does-not-yet-contain-an-answer-2fab69ca3c`
+      [W] `0013-there-is-a-procedure-for-users-to-access-db19520b48`
 
-        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-0a01efa6bf: This document does not yet contain an answer about personal-data protection and compliance.
+        - [x] [unit] 0001-there-is-a-procedure-for-users-to-access-372cc2493f: There is a procedure for users to access private data as follows: {personalDataManagedAccessReply}
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0013-this-document-does-not-yet-contain-an-answer-2fab69ca3c/0001-this-document-does-not-yet-contain-an-answer-0a01efa6bf/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0013-there-is-a-procedure-for-users-to-access-db19520b48/0001-there-is-a-procedure-for-users-to-access-372cc2493f/translation.md>)
+
+    - [x] [wrapper] 0014-this-document-does-not-yet-contain-an-answer-2fab69ca3c (1/1)
+
+      [W] `0014-this-document-does-not-yet-contain-an-answer-2fab69ca3c`
+
+        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-a816ea03fb: This document does not yet contain an answer about personal-data protection and compliance.
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0014-this-document-does-not-yet-contain-an-answer-2fab69ca3c/0001-this-document-does-not-yet-contain-an-answer-a816ea03fb/translation.md>)
 
 - [x] [file] src/questions/08-copyright-ipr.html.j2 (42/42)
 
@@ -4740,7 +4748,7 @@
 
           [T] [translation](<tree/src/questions/14-dm-responsible.html.j2/0010-this-document-does-not-yet-identify-a-named-02da801dc4/0001-this-document-does-not-yet-identify-a-named-a45c9b0a8b/translation.md>)
 
-- [ ] [file] src/questions/15-required-resources.html.j2 (38/46)
+- [x] [file] src/questions/15-required-resources.html.j2 (46/46)
 
   [J2] `src/questions/15-required-resources.html.j2`
 
@@ -4920,7 +4928,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0022-funding-source-24355dbdc4/0001-funding-source-1202438b83/translation.md>)
 
-    - [ ] [wrapper] 0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5 (11/17)
+    - [x] [wrapper] 0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5 (17/17)
 
       [W] `0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5`
 
@@ -4932,7 +4940,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0002-information-not-provided-why-this-resource-is-needed-1a63c33881/translation.md>)
 
-        - [ ] [unit] 0003-currency-7fdf2a0c96: Currency: {projectCostItemCurrencyReply}.
+        - [x] [unit] 0003-currency-7fdf2a0c96: Currency: {projectCostItemCurrencyReply}.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0003-currency-7fdf2a0c96/translation.md>)
 
@@ -4940,7 +4948,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0004-information-not-provided-currency-0baaffdf7c/translation.md>)
 
-        - [ ] [unit] 0005-currency-7fdf2a0c96-2: Currency: {projectCostItemCurrencyReply}.
+        - [x] [unit] 0005-currency-7fdf2a0c96-2: Currency: {projectCostItemCurrencyReply}.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0005-currency-7fdf2a0c96-2/translation.md>)
 
@@ -4948,7 +4956,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0006-information-not-provided-budgeted-amount-477d8eed8e/translation.md>)
 
-        - [ ] [unit] 0007-currency-7fdf2a0c96-3: Currency: {projectCostItemCurrencyReply}.
+        - [x] [unit] 0007-currency-7fdf2a0c96-3: Currency: {projectCostItemCurrencyReply}.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0007-currency-7fdf2a0c96-3/translation.md>)
 
@@ -4976,15 +4984,15 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0013-management-4f4bc2bd2b/translation.md>)
 
-        - [ ] [unit] 0014-this-resource-supports-and-of-data-ee9d3aefb6: This resource supports {projectCostItemAllocations_0_minus_1}, and {projectCostItemAllocations_minus_1} of data.
+        - [x] [unit] 0014-this-resource-supports-and-of-data-ee9d3aefb6: This resource supports {projectCostItemAllocations_0_minus_1}, and {projectCostItemAllocations_minus_1} of data.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0014-this-resource-supports-and-of-data-ee9d3aefb6/translation.md>)
 
-        - [ ] [unit] 0015-this-resource-supports-and-of-data-0e08d81c68: This resource supports {projectCostItemAllocations_0} and {projectCostItemAllocations_1} of data.
+        - [x] [unit] 0015-this-resource-supports-and-of-data-0e08d81c68: This resource supports {projectCostItemAllocations_0} and {projectCostItemAllocations_1} of data.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0015-this-resource-supports-and-of-data-0e08d81c68/translation.md>)
 
-        - [ ] [unit] 0016-this-resource-supports-of-data-10a1d174f0: This resource supports {projectCostItemAllocations_0} of data.
+        - [x] [unit] 0016-this-resource-supports-of-data-10a1d174f0: This resource supports {projectCostItemAllocations_0} of data.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0016-this-resource-supports-of-data-10a1d174f0/translation.md>)
 
@@ -4992,7 +5000,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-99fbb3e3b5/0017-information-not-provided-which-fair-or-data-management-30948d8018/translation.md>)
 
-    - [ ] [wrapper] 0024-this-cost-will-be-covered-by-a-funding-e3a57b019e (3/5)
+    - [x] [wrapper] 0024-this-cost-will-be-covered-by-a-funding-e3a57b019e (5/5)
 
       [W] `0024-this-cost-will-be-covered-by-a-funding-e3a57b019e`
 
@@ -5008,11 +5016,11 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-e3a57b019e/0003-information-not-provided-the-grant-number-16c8714aac/translation.md>)
 
-        - [ ] [unit] 0004-information-not-provided-how-this-cost-will-be-74656cfc4e: Information not provided: how this cost will be covered.
+        - [x] [unit] 0004-information-not-provided-how-this-cost-will-be-74656cfc4e: Information not provided: how this cost will be covered.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-e3a57b019e/0004-information-not-provided-how-this-cost-will-be-74656cfc4e/translation.md>)
 
-        - [ ] [unit] 0005-information-not-provided-how-this-cost-will-be-74656cfc4e-2: Information not provided: how this cost will be covered.
+        - [x] [unit] 0005-information-not-provided-how-this-cost-will-be-74656cfc4e-2: Information not provided: how this cost will be covered.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-e3a57b019e/0005-information-not-provided-how-this-cost-will-be-74656cfc4e-2/translation.md>)
 

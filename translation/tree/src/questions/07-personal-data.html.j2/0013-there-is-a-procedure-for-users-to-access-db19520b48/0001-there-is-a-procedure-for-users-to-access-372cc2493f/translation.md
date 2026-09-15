@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-This document does not yet contain an answer about personal-data protection and compliance.
+There is a procedure for users to access private data as follows: {personalDataManagedAccessReply}
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-本文件尚未說明個人資料保護及相關法規的遵循方式。
+使用者取用非公開資料的程序如下：{personalDataManagedAccessReply}
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ This document does not yet contain an answer about personal-data protection and 
 - Source File: `src/questions/07-personal-data.html.j2`
 - Wrapper Name: `__tr_block_0012`
 - Wrapper Order: `13`
-- Wrapper Key: `this-document-does-not-yet-contain-an-answer-2fab69ca3c`
-- Unit Key: `this-document-does-not-yet-contain-an-answer-0a01efa6bf`
-- Source Hash: `0698afac66adc459fcc3cfc749b804febff03b5c`
+- Wrapper Key: `there-is-a-procedure-for-users-to-access-db19520b48`
+- Unit Key: `there-is-a-procedure-for-users-to-access-372cc2493f`
+- Source Hash: `172e54a5bee7a072561b9dcf2eb59e9751e5f79f`
 
 Do not edit this section manually.
 

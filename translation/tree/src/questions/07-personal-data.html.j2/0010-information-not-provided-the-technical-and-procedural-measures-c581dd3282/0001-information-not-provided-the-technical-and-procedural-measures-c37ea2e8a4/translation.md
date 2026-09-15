@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-We will not collect any data related to individuals.
+Information not provided: the technical and procedural measures for protecting personal data.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-我們不會蒐集任何與個人相關的資料。
+尚待補充：保護個人資料所採取的技術與程序措施。
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ We will not collect any data related to individuals.
 - Source File: `src/questions/07-personal-data.html.j2`
 - Wrapper Name: `__tr_block_0009`
 - Wrapper Order: `10`
-- Wrapper Key: `we-will-not-collect-any-data-related-to-dd86306947`
-- Unit Key: `we-will-not-collect-any-data-related-to-8024fb75eb`
-- Source Hash: `1a32afec8d7b9d2f25a04c8c40ba63db4a4b5338`
+- Wrapper Key: `information-not-provided-the-technical-and-procedural-measures-c581dd3282`
+- Unit Key: `information-not-provided-the-technical-and-procedural-measures-c37ea2e8a4`
+- Source Hash: `cc9ac6dc455d79ed9ef0b6f92776f7a9ef02e6c9`
 
 Do not edit this section manually.
 

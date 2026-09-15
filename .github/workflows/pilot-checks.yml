@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           path: zh
+          fetch-depth: 0  # The translation regression checks the exact prior committed tree.
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
@@ -66,6 +67,7 @@ jobs:
           ../tooling/.venv/bin/python scripts/probe_contact_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_paper_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_identifier_translation.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python scripts/probe_missing_info_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_long_budget_word.py --output "$SE_BUILD_DIR/long-budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_pdf.py --output "$SE_BUILD_DIR/budget-pdf-probe.json"

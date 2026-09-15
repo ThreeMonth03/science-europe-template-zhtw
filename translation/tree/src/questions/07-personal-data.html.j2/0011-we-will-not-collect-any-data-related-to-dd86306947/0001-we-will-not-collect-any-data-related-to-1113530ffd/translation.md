@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-Access procedure to personal data
+We will not collect any data related to individuals.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-個人資料取用程序
+我們不會蒐集任何與個人相關的資料。
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ Access procedure to personal data
 - Source File: `src/questions/07-personal-data.html.j2`
 - Wrapper Name: `__tr_block_0010`
 - Wrapper Order: `11`
-- Wrapper Key: `access-procedure-to-personal-data-15464d8ec9`
-- Unit Key: `access-procedure-to-personal-data-faaa0fe076`
-- Source Hash: `ebcf38a9f830188eb1f05817a03bc675521a0a20`
+- Wrapper Key: `we-will-not-collect-any-data-related-to-dd86306947`
+- Unit Key: `we-will-not-collect-any-data-related-to-1113530ffd`
+- Source Hash: `1a32afec8d7b9d2f25a04c8c40ba63db4a4b5338`
 
 Do not edit this section manually.
 
