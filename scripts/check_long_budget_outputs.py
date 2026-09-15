@@ -18,6 +18,10 @@ from check_narrative_outputs import compact,page_bounds
 def paragraphs(node): return [xml(p) for p in node.iter(qn('w:p'))]
 
 
+def empty_table_separator(node):
+    assert node.tag==qn('w:p') and not node.attrib and len(node)==0 and node.text in (None,''), 'Only an empty Pandoc table separator is allowed'
+
+
 def compare_long_table(old,long,tail):
     old_rows=old.findall(qn('w:tr')); rows=long.findall(qn('w:tr')); last=tail.findall(qn('w:tr'))
     assert len(old_rows)==3 and len(last)==2 and len(rows)>=14
@@ -48,12 +52,13 @@ def compare_long_table(old,long,tail):
 def compare_documents(old,new,long_case):
     if not long_case: return compare_word(old,new,False)
     before,after=body(old),body(new)
-    assert len(after)==len(before)+1
+    assert len(after)==len(before)+2
     i=max(i for i,n in enumerate(before) if n.tag==qn('w:tbl'))
     assert all(xml(a)==xml(b) for a,b in zip(before[:i],after[:i]))
-    assert [xml(n) for n in before[i+1:]]==[xml(n) for n in after[i+2:]], 'Non-budget body changed'
-    assert after[i].tag==after[i+1].tag==qn('w:tbl')
-    count=compare_long_table(before[i],after[i],after[i+1])
+    assert [xml(n) for n in before[i+1:]]==[xml(n) for n in after[i+3:]], 'Non-budget body changed'
+    assert after[i].tag==after[i+2].tag==qn('w:tbl')
+    empty_table_separator(after[i+1])
+    count=compare_long_table(before[i],after[i],after[i+2])
     links=lambda d:sorted(r.target_ref for r in d.part.rels.values() if r.is_external)
     assert links(old)==links(new), 'External relationship targets changed'
     return count

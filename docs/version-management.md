@@ -70,6 +70,8 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 短期分支不是永久維護線。未來升級須一起審查 Lua 的表格結構與 reference
 style ID，並驗證續頁資源歸屬、原段落／金額保留、拒絕案例及短預算回歸。
 重複表頭是閱讀脈絡，不能當作新增預算或重複計入成本；原生 PDF 暫不改動。
+實際樣張、未採用版型及仍待處理的英文短尾頁見
+[0.3.17 審閱](../reviews/2026-09-15-long-budget-reading/README.md)。
 
 0.3.16 只改英文 Word Lua 的 Q15 短預算連頁規則，中文鎖定
 `ff1a5bf51c008c24fc6598f670719387bdfefb43`。Jinja、譯文、PDF CSS、Word

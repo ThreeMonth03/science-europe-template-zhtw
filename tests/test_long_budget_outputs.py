@@ -7,7 +7,7 @@ from docx import Document
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from check_long_budget_outputs import compare_long_table,check_long_pages
+from check_long_budget_outputs import compare_long_table,check_long_pages,empty_table_separator
 
 
 def fixture(count=12):
@@ -36,6 +36,12 @@ def transformed(table):
 
 
 class LongBudgetOutputTests(unittest.TestCase):
+    def test_only_an_empty_table_separator_is_allowed(self):
+        empty_table_separator(OxmlElement('w:p'))
+        for child in ['w:r','w:pPr','w:hyperlink']:
+            node=OxmlElement('w:p'); node.append(OxmlElement(child))
+            with self.assertRaises(AssertionError): empty_table_separator(node)
+
     def test_original_paragraphs_and_zero_survive(self):
         _,t=fixture(); self.assertEqual(13,compare_long_table(*transformed(t)))
 
