@@ -123,6 +123,9 @@ def main():
                 print(json.dumps({k:row[k] for k in ['case','language','pages','word_pages','changed_q8_labels','errors','reading_issues']}), flush=True)
             assert markers(soups[0]) == markers(soups[1])
         report['selected_checks_passed'] = len(report['rows']) == len(a.cases)*2 and all(not r['errors'] and not r['reading_issues'] for r in report['rows'])
+    except Exception as error:
+        report['failure'] = str(error)
+        raise
     finally:
         target.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     assert report['selected_checks_passed'], 'See preserved diagnostics'

@@ -33,3 +33,9 @@ class Q8WordOutputTests(unittest.TestCase):
     def test_text_change_is_rejected(self):
         before,after=document(),document();after.paragraphs[3].text='changed.csv'
         with self.assertRaises(AssertionError):compare_word(before,after,['Name.csv'])
+
+    def test_ignored_style_is_not_success(self):
+        with self.assertRaises(AssertionError):compare_word(document(),document(),['Name.csv'])
+
+    def test_empty_control_stays_unchanged(self):
+        self.assertEqual(0,compare_word(document(),document(),[]))
