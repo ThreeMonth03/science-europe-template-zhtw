@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.16 的英中工作分支為 `feat/budget-pagination`，承接 0.3.15 的 `feat/identifier-followups`。
+目前 0.3.17 的英中工作分支為 `feat/long-budget-reading`，承接 0.3.16 的 `feat/budget-pagination`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談
@@ -64,6 +64,12 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 一般連字號。Q10 自訂申請流程與 Q11 自訂付款安排亦須保留作者的段落與清單。
 
 ## 中文單獨修版演練
+
+0.3.17 只修改英文 Word Lua 與建置用 reference 準備程式，新增專屬長預算
+表格樣式；中文鎖定 `b7327b9e9fd976046fc440ec7bf5c82aac54b8ed`，不修改譯文。
+短期分支不是永久維護線。未來升級須一起審查 Lua 的表格結構與 reference
+style ID，並驗證續頁資源歸屬、原段落／金額保留、拒絕案例及短預算回歸。
+重複表頭是閱讀脈絡，不能當作新增預算或重複計入成本；原生 PDF 暫不改動。
 
 0.3.16 只改英文 Word Lua 的 Q15 短預算連頁規則，中文鎖定
 `ff1a5bf51c008c24fc6598f670719387bdfefb43`。Jinja、譯文、PDF CSS、Word
