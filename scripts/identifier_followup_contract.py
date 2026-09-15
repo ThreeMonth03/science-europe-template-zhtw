@@ -54,6 +54,13 @@ def check_followups(soup,replies,ids,language):
         assert len(nodes)==len(fields), (key,'Missing or duplicated child fact')
         policy=distro.select_one('.identifier-arrangement')
         assert bool(policy)==bool(fields)
+        units=distro.select('.identifier-followup-unit')
+        assert len(units)==bool(fields)
+        if units:
+            unit=units[0]
+            assert unit.parent is distro and unit.get('class')==['identifier-followup-unit','short-reading-unit']
+            assert policy.parent is unit and len(unit.get_text(strip=True))<=500
+            assert not unit.select('.answer-detail, ul, ol, table'), 'Only bounded owned prose may stay together'
         for field,(state,texts) in fields.items():
             matches=[n for n in nodes if n['data-fact-id']==field]; assert len(matches)==1
             node=matches[0]; total+=1
@@ -64,7 +71,7 @@ def check_followups(soup,replies,ids,language):
             else:
                 assert node.name=='span' and node.parent.name=='p' and 'data-gap' in node.parent.get('class',[])
                 wrapper=node.find_parent(class_='identifier-followups')
-                assert wrapper is not None and wrapper.parent is distro
+                assert wrapper is not None and wrapper.parent is unit
                 assert node.find_parent(class_='identifier-arrangement') is None
         expected_warnings=[]
         for state in ['missing','needs-review']:

@@ -4420,7 +4420,7 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0012-this-document-does-not-yet-identify-the-datasets-12bef983b5/0001-this-document-does-not-yet-identify-the-datasets-31a9300cd3/translation.md>)
 
-- [ ] [file] src/questions/13-persistent-identifier.html.j2 (22/30)
+- [x] [file] src/questions/13-persistent-identifier.html.j2 (30/30)
 
   [J2] `src/questions/13-persistent-identifier.html.j2`
 
@@ -4520,35 +4520,35 @@
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0010-the-repository-will-not-make-sure-the-persistent-eb4304316f/0001-the-repository-will-not-make-sure-the-persistent-bb58177763/translation.md>)
 
-    - [ ] [wrapper] 0011-who-will-assign-the-persistent-identifier-5810bd3fdd (0/1)
+    - [x] [wrapper] 0011-who-will-assign-the-persistent-identifier-5810bd3fdd (1/1)
 
       [W] `0011-who-will-assign-the-persistent-identifier-5810bd3fdd`
 
-        - [ ] [unit] 0001-who-will-assign-the-persistent-identifier-838824b390: who will assign the persistent identifier
+        - [x] [unit] 0001-who-will-assign-the-persistent-identifier-838824b390: who will assign the persistent identifier
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0011-who-will-assign-the-persistent-identifier-5810bd3fdd/0001-who-will-assign-the-persistent-identifier-838824b390/translation.md>)
 
-    - [ ] [wrapper] 0012-whether-the-repository-guarantees-resolution-of-the-persistent-92de579a55 (0/1)
+    - [x] [wrapper] 0012-whether-the-repository-guarantees-resolution-of-the-persistent-92de579a55 (1/1)
 
       [W] `0012-whether-the-repository-guarantees-resolution-of-the-persistent-92de579a55`
 
-        - [ ] [unit] 0001-whether-the-repository-guarantees-resolution-of-the-persistent-68dffd3542: whether the repository guarantees resolution of the persistent identifier to a digital object
+        - [x] [unit] 0001-whether-the-repository-guarantees-resolution-of-the-persistent-68dffd3542: whether the repository guarantees resolution of the persistent identifier to a digital object
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0012-whether-the-repository-guarantees-resolution-of-the-persistent-92de579a55/0001-whether-the-repository-guarantees-resolution-of-the-persistent-68dffd3542/translation.md>)
 
-    - [ ] [wrapper] 0013-information-still-needed-53992b596f (0/1)
+    - [x] [wrapper] 0013-information-still-needed-53992b596f (1/1)
 
       [W] `0013-information-still-needed-53992b596f`
 
-        - [ ] [unit] 0001-information-still-needed-b05788fe0a: Information still needed: {identifierMissing}.
+        - [x] [unit] 0001-information-still-needed-b05788fe0a: Information still needed: {identifierMissing}.
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0013-information-still-needed-53992b596f/0001-information-still-needed-b05788fe0a/translation.md>)
 
-    - [ ] [wrapper] 0014-this-template-cannot-interpret-the-selected-answers-for-86ee7d7db4 (0/1)
+    - [x] [wrapper] 0014-this-template-cannot-interpret-the-selected-answers-for-86ee7d7db4 (1/1)
 
       [W] `0014-this-template-cannot-interpret-the-selected-answers-for-86ee7d7db4`
 
-        - [ ] [unit] 0001-this-template-cannot-interpret-the-selected-answers-for-d668b64cfa: This template cannot interpret the selected answers for: {identifierReview}.
+        - [x] [unit] 0001-this-template-cannot-interpret-the-selected-answers-for-d668b64cfa: This template cannot interpret the selected answers for: {identifierReview}.
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0014-this-template-cannot-interpret-the-selected-answers-for-86ee7d7db4/0001-this-template-cannot-interpret-the-selected-answers-for-d668b64cfa/translation.md>)
 
@@ -4568,27 +4568,27 @@
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0016-the-persistent-identifier-arrangement-is-not-yet-described-76ab9d2a0b/0001-the-persistent-identifier-arrangement-is-not-yet-described-3b2aca1413/translation.md>)
 
-    - [ ] [wrapper] 0017-the-publication-locations-have-not-been-listed-97e412fb02 (0/1)
+    - [x] [wrapper] 0017-the-publication-locations-have-not-been-listed-97e412fb02 (1/1)
 
       [W] `0017-the-publication-locations-have-not-been-listed-97e412fb02`
 
-        - [ ] [unit] 0001-the-publication-locations-have-not-been-listed-1a0f4096fd: The publication locations have not been listed.
+        - [x] [unit] 0001-the-publication-locations-have-not-been-listed-1a0f4096fd: The publication locations have not been listed.
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0017-the-publication-locations-have-not-been-listed-97e412fb02/0001-the-publication-locations-have-not-been-listed-1a0f4096fd/translation.md>)
 
-    - [ ] [wrapper] 0018-this-dataset-will-not-be-published-52e3a0800e (0/1)
+    - [x] [wrapper] 0018-this-dataset-will-not-be-published-52e3a0800e (1/1)
 
       [W] `0018-this-dataset-will-not-be-published-52e3a0800e`
 
-        - [ ] [unit] 0001-this-dataset-will-not-be-published-8361dde90c: This dataset will not be published.
+        - [x] [unit] 0001-this-dataset-will-not-be-published-8361dde90c: This dataset will not be published.
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0018-this-dataset-will-not-be-published-52e3a0800e/0001-this-dataset-will-not-be-published-8361dde90c/translation.md>)
 
-    - [ ] [wrapper] 0019-it-has-not-yet-been-specified-whether-this-9a030f146b (0/1)
+    - [x] [wrapper] 0019-it-has-not-yet-been-specified-whether-this-9a030f146b (1/1)
 
       [W] `0019-it-has-not-yet-been-specified-whether-this-9a030f146b`
 
-        - [ ] [unit] 0001-it-has-not-yet-been-specified-whether-this-d618fb8441: It has not yet been specified whether this dataset will be published.
+        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-this-d618fb8441: It has not yet been specified whether this dataset will be published.
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0019-it-has-not-yet-been-specified-whether-this-9a030f146b/0001-it-has-not-yet-been-specified-whether-this-d618fb8441/translation.md>)
 
@@ -4608,11 +4608,11 @@
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0021-possible-re-use-of-created-data-in-other-96145ffe55/0001-possible-re-use-of-created-data-in-other-0643f0d134/translation.md>)
 
-    - [ ] [wrapper] 0022-no-name-given-16a8ce22a9 (0/1)
+    - [x] [wrapper] 0022-no-name-given-16a8ce22a9 (1/1)
 
       [W] `0022-no-name-given-16a8ce22a9`
 
-        - [ ] [unit] 0001-no-name-given-9f8170171b: (no name given)
+        - [x] [unit] 0001-no-name-given-9f8170171b: (no name given)
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0022-no-name-given-16a8ce22a9/0001-no-name-given-9f8170171b/translation.md>)
 

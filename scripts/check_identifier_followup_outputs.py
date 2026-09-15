@@ -9,7 +9,8 @@ import sys
 from bs4 import BeautifulSoup
 from docx import Document
 from identifier_followup_contract import FIELDS, check_followups
-from check_identifier_outputs import check_units, split_word, body_pages, check_heading_pages
+from check_identifier_outputs import check_units, split_word, body_pages
+from check_repository_outputs import scoped_pages
 from check_answer_state_outputs import canonical
 from check_context_outputs import fact_scope, signature
 from check_narrative_outputs import compact, sha, page_bounds
@@ -20,9 +21,11 @@ from compare_runtime_outputs import markers
 
 
 def compare_html(before,after,replies,ids,language):
-    check_followups(after,replies,ids,language); check_units(after)
+    check_followups(after,replies,ids,language)
     current=copy.deepcopy(after)
     for wrapper in current.select('#q-persistent-identifier .identifier-followups'): wrapper.decompose()
+    for unit in current.select('#q-persistent-identifier .identifier-followup-unit'): unit.unwrap()
+    check_units(current)
     for n in current.select('#q-persistent-identifier [data-fact-id="identifier-assigner"], #q-persistent-identifier [data-fact-id="identifier-resolution"]'):
         assert n.name=='p' and n.get('data-status') in ['complete','explicit-no']
         for key in ['data-fact-id','data-status','data-requirement-id']: del n[key]
@@ -46,8 +49,11 @@ def compare_word(old,new,soup):
         index=next(i for i in range(cursor,len(expected)) if expected[i][0]==text)
         gap=distro.select_one('.identifier-followups')
         notices=[(compact(p.get_text()),'Body Text',None,None) for p in gap.find_all('p',recursive=False)] if gap else []
+        if notices:
+            expected[index]=(expected[index][0],'Pilot Lead',None,None)
+            notices=[(text,'Pilot Lead' if i<len(notices)-1 else style,keep,next_) for i,(text,style,keep,next_) in enumerate(notices)]
         expected[index+1:index+1]=notices; inserted+=len(notices); cursor=index+1+len(notices)
-    assert expected==after[1], 'Only separate warning paragraphs may be inserted in Word'
+    assert expected==after[1], 'Only warning paragraphs and their bounded keep chain may change in Word'
     cells=lambda d:[[[(c.text,[signature(p) for p in c.paragraphs]) for c in r.cells] for r in t.rows] for t in d.tables]
     assert cells(old)==cells(new), 'Native Word table content/style changed'
     return inserted
@@ -67,13 +73,29 @@ def restore_body_text(value,soup,notices):
     return prefix+q13+middle+q14+suffix
 
 
+def check_followup_page_text(text,soup):
+    start=compact(soup.select_one('#q-persistent-identifier h3').get_text())[:16]
+    end=compact(soup.select_one('#q-dm-responsible h3').get_text())[:16]
+    pages=scoped_pages(text,start,end); result=[]
+    for distro in soup.select('#q-persistent-identifier .distribution-section'):
+        heading=distro.select_one('.identifier-heading')
+        unit=distro.select_one('.identifier-followup-unit')
+        if unit is None: continue
+        needle=compact(heading.get_text())+compact(unit.get_text())
+        matched=[number for number,value in pages.items() if needle in value]
+        assert len(matched)==1, (distro['data-item-id'],'Heading, policy and child notices must share a page')
+        result.append({'distribution':distro['data-item-id'],'page':matched[0],
+                       'warning_paragraphs':len(unit.select('.identifier-followups p'))})
+    return result
+
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     for n in ['build','prior','english']: p.add_argument('--'+n,type=Path,required=True)
     p.add_argument('--cases',nargs='+',required=True); a=p.parse_args()
     sys.path.insert(0,str(a.english.resolve()/'scripts'))
     from generate_pilot_fixtures import IDS
-    helpers=['identifier_followup_contract.py','check_identifier_outputs.py','check_answer_state_outputs.py','check_context_outputs.py','check_narrative_outputs.py','check_preservation_outputs.py','check_paper_outputs.py','check_word_rhythm_outputs.py','compare_runtime_outputs.py']
+    helpers=['identifier_followup_contract.py','check_identifier_outputs.py','check_repository_outputs.py','check_answer_state_outputs.py','check_context_outputs.py','check_narrative_outputs.py','check_preservation_outputs.py','check_paper_outputs.py','check_word_rhythm_outputs.py','compare_runtime_outputs.py']
     report={'selected_checks_passed':False,'release_acceptance':False,'rows':[],
             'checker_sha256':sha(Path(__file__)),'helper_sha256':{n:sha(Path(__file__).with_name(n)) for n in helpers},
             'package_sha256':{n:sha(a.build/n) for n in ['english.zip','chinese.zip']},
@@ -107,7 +129,7 @@ def main():
                 for label,paths in [('pdf',[prior.with_suffix('.pdf'),base.with_suffix('.pdf')]),('word_preview',[old_preview,preview])]:
                     assert restore_body_text(body_pages(paths[0]),old,[])==restore_body_text(body_pages(paths[1]),soup,notices),(name,label,'Body changed beyond exact new warnings')
                     row['prior_'+label+'_pages']=page_bounds(paths[0]); row[label+'_pages']=page_bounds(paths[1])
-                    row[label+'_heading_with_answer_pages']=check_heading_pages(paths[1],soup)
+                    row[label+'_heading_with_answer_pages']=check_followup_page_text(subprocess.check_output(['pdftotext','-layout',str(paths[1]),'-'],text=True),soup)
                     assert_no_punctuation_only_lines(subprocess.check_output(['pdftotext','-bbox-layout',str(paths[1]),'-']),compact(soup.select_one('#q-persistent-identifier h3').get_text())[:16],compact(soup.select_one('#q-dm-responsible h3').get_text())[:16])
                 inspect_preview(preview)
                 report['rows'].append(row); pair.append(soup)

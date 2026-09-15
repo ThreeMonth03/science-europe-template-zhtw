@@ -5,7 +5,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from identifier_followup_contract import expected_fields, check_followups, LABELS, RESOLUTIONS, warning_text
-from check_identifier_followup_outputs import compare_html
+from check_identifier_followup_outputs import compare_html, check_followup_page_text
 
 IDS={name:name for name in ['preservingCUuid','producedDataQUuid','isPublishedDataQUuid','isPublishedDataYesAUuid','publishedDistrosQUuid','publishedDataIdentifierQUuid','publishedDataIdentifierYesAUuid','publishedDataIdentifierAssignsQUuid','publishedDataIdentifierResolvableQUuid']}
 IDS.update({f'publishedDataIdentifier{q}{a}AUuid':f'{q}{a}' for q,answers in [('Assigns',['ProjectDataSteward','InstitDataSteward','Repository']),('Resolvable',['Yes','No'])] for a in answers})
@@ -24,7 +24,7 @@ class FollowupChecksTests(unittest.TestCase):
         marker='<p data-requirement-id="SE-5d" data-fact-id="identifier-resolution" data-status="explicit-no">'+RESOLUTIONS['No'][column]+'</p>'
         span='<span data-requirement-id="SE-5d" data-fact-id="identifier-assigner" data-status="missing">'+LABELS['identifier-assigner'][column]+'</span>'
         gap='<div class="identifier-followups reading-gap"><p class="data-gap" data-requirement-id="SE-5d">'+warning_text('missing',[span],language)+'</p></div>'
-        new=prefix+marker+'</div>'+gap+tail[len('</div>'):]
+        new=prefix.replace('<div class="identifier-arrangement dataset-policy">','<div class="identifier-followup-unit short-reading-unit"><div class="identifier-arrangement dataset-policy">')+marker+'</div>'+gap+'</div>'+tail[len('</div>'):]
         other=''.join(f'<div class="question" id="q-{i}"><p>Other {i}.</p></div>' for i in range(14))
         return BeautifulSoup(other+old,'html.parser'),BeautifulSoup(other+new,'html.parser'),replies
 
@@ -58,3 +58,17 @@ class FollowupChecksTests(unittest.TestCase):
     def test_fixture_cannot_bypass_known_stock_table_gate(self):
         from run_pilot import TABLE_CASES
         self.assertIn('identifier-followups',TABLE_CASES)
+
+    def test_notice_must_share_page_with_its_heading_and_policy(self):
+        _,soup,_=self.pair()
+        q=soup.select_one('#q-persistent-identifier')
+        h=soup.new_tag('h3'); h.string='13. Identifier arrangements'; q.insert(0,h)
+        q14=soup.new_tag('div',id='q-dm-responsible'); h14=soup.new_tag('h3'); h14.string='14. Responsible staff'; q14.append(h14); soup.append(q14)
+        heading=soup.select_one('.identifier-heading').get_text()
+        policy=soup.select_one('.identifier-arrangement').get_text()
+        notice=soup.select_one('.identifier-followups').get_text()
+        for split in ['', '\f']:
+            text=h.get_text()+heading+policy+split+notice+h14.get_text()
+            if split:
+                with self.assertRaises(AssertionError): check_followup_page_text(text,soup)
+            else: self.assertEqual(1,len(check_followup_page_text(text,soup)))
