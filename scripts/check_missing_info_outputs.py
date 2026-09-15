@@ -160,6 +160,10 @@ def main():
             soups = []
             for language in ['english', 'chinese']:
                 row, soup = inspect(a.build, name, language)
+                if row['errors']:
+                    report['rows'].append(row); soups.append(soup)
+                    print(json.dumps({'case': name, 'language': language, 'errors': row['errors']}, ensure_ascii=False), flush=True)
+                    continue  # Record a failed case; it cannot satisfy final acceptance.
                 old_base = a.control_prior if name in ['preservation-complete', 'budget-long'] else a.prior
                 before = old_base/'renders'/(name+'-'+language+'.html')
                 locale = 'en' if language == 'english' else 'zh-Hant'

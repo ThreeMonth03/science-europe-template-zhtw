@@ -13,7 +13,7 @@ based on legitimate interest.
 ### Translation (zh_Hant)
 
 ~~~jinja
-
+法律依據為正當利益。
 ~~~
 
 <details>

@@ -13,7 +13,7 @@ based on subject's consent.
 ### Translation (zh_Hant)
 
 ~~~jinja
-
+法律依據為當事人的同意。
 ~~~
 
 <details>

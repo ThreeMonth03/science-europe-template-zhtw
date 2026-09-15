@@ -13,7 +13,7 @@ based on legal requirement.
 ### Translation (zh_Hant)
 
 ~~~jinja
-
+目的為履行法定義務。
 ~~~
 
 <details>
