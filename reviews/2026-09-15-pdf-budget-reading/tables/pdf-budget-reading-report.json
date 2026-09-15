@@ -1,0 +1,375 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "question_comparisons": 15,
+      "question_word_xml_unchanged": true,
+      "word_pagination_unchanged": true,
+      "unchanged_pdf_external_links": {
+        "mailto:research@example.org": "research@example.org",
+        "https://ds-wizard.org": "DataStewardshipWizard.",
+        "https://example.org/datasets/coastal-observations/station-1/version-2026": "https://example.org/datasets/coastal-observations/station-1/version-2026",
+        "https://example.org/datasets/coastal-observations/station-2/version-2026": "https://example.org/datasets/coastal-observations/station-2/version-2026",
+        "https://example.org/coast/review-terms": "https://example.org/coast/review-terms.",
+        "https://example.org/papers/coast-study": "https://example.org/papers/coast-study"
+      },
+      "prior_pdf_pages": 8,
+      "pdf_pages": 8,
+      "prior_word_pages": 7,
+      "word_pages": 7,
+      "unchanged_pdf_metric_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "question_comparisons": 15,
+      "question_word_xml_unchanged": true,
+      "word_pagination_unchanged": true,
+      "unchanged_pdf_external_links": {
+        "mailto:research@example.org": "research@example.org",
+        "https://ds-wizard.org": "DataStewardshipWizard",
+        "https://example.org/datasets/coastal-observations/station-1/version-2026": "資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026",
+        "https://example.org/datasets/coastal-observations/station-2/version-2026": "資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026",
+        "https://example.org/coast/review-terms": "訊：https://example.org/coast/review-terms。",
+        "https://example.org/papers/coast-study": "https://example.org/papers/coast-study"
+      },
+      "prior_pdf_pages": 7,
+      "pdf_pages": 7,
+      "prior_word_pages": 8,
+      "word_pages": 8,
+      "unchanged_pdf_metric_box_overlaps": [],
+      "passed": true
+    },
+    {
+      "case": "budget-long",
+      "language": "english",
+      "question_comparisons": 15,
+      "question_word_xml_unchanged": true,
+      "word_pagination_unchanged": true,
+      "unchanged_pdf_external_links": {
+        "mailto:research@example.org": "research@example.org",
+        "https://ds-wizard.org": "DataStewardshipWizard.",
+        "https://example.org/datasets/coastal-observations/station-1/version-2026": "https://example.org/datasets/coastal-observations/station-1/version-2026",
+        "https://example.org/datasets/coastal-observations/station-2/version-2026": "https://example.org/datasets/coastal-observations/station-2/version-2026",
+        "https://example.org/coast/review-terms": "https://example.org/coast/review-terms.",
+        "https://example.org/papers/coast-study": "https://example.org/papers/coast-study",
+        "https://example.org/budget/record": "fundingrecord"
+      },
+      "prior_pdf_pages": 11,
+      "pdf_pages": 10,
+      "prior_word_pages": 9,
+      "word_pages": 9,
+      "unchanged_pdf_metric_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "pdf": {
+        "purpose_pages": [
+          8,
+          9,
+          10
+        ],
+        "complete_purpose_paragraphs": 60,
+        "budget_start_page": 8,
+        "tail_resource_page": 10,
+        "tail_shares_last_purpose_page": true,
+        "verified_continuation_headers": 2,
+        "positioned_list_items": 2,
+        "single_line_purpose_paragraphs": 60
+      },
+      "word": {
+        "purpose_pages": [
+          7,
+          8,
+          9
+        ],
+        "complete_purpose_paragraphs": 60,
+        "budget_start_page": 7,
+        "tail_resource_page": 9,
+        "tail_shares_last_purpose_page": true
+      },
+      "passed": true
+    },
+    {
+      "case": "budget-long",
+      "language": "chinese",
+      "question_comparisons": 15,
+      "question_word_xml_unchanged": true,
+      "word_pagination_unchanged": true,
+      "unchanged_pdf_external_links": {
+        "mailto:research@example.org": "research@example.org",
+        "https://ds-wizard.org": "DataStewardshipWizard",
+        "https://example.org/datasets/coastal-observations/station-1/version-2026": "資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026",
+        "https://example.org/datasets/coastal-observations/station-2/version-2026": "資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026",
+        "https://example.org/coast/review-terms": "訊：https://example.org/coast/review-terms。",
+        "https://example.org/papers/coast-study": "https://example.org/papers/coast-study",
+        "https://example.org/budget/record": "fundingrecord"
+      },
+      "prior_pdf_pages": 10,
+      "pdf_pages": 9,
+      "prior_word_pages": 10,
+      "word_pages": 10,
+      "unchanged_pdf_metric_box_overlaps": [],
+      "pdf": {
+        "purpose_pages": [
+          7,
+          8,
+          9
+        ],
+        "complete_purpose_paragraphs": 60,
+        "budget_start_page": 7,
+        "tail_resource_page": 9,
+        "tail_shares_last_purpose_page": true,
+        "verified_continuation_headers": 2,
+        "positioned_list_items": 2,
+        "single_line_purpose_paragraphs": 60
+      },
+      "word": {
+        "purpose_pages": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "complete_purpose_paragraphs": 60,
+        "budget_start_page": 7,
+        "tail_resource_page": 10,
+        "tail_shares_last_purpose_page": true
+      },
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "language": "english",
+      "question_comparisons": 15,
+      "question_word_xml_unchanged": true,
+      "word_pagination_unchanged": true,
+      "unchanged_pdf_external_links": {
+        "mailto:research@example.org": "research@example.org",
+        "https://ds-wizard.org": "DataStewardshipWizard.",
+        "https://example.org/datasets/coastal-observations/station-1/version-2026": "https://example.org/datasets/coastal-observations/station-1/version-2026",
+        "https://example.org/datasets/coastal-observations/station-2/version-2026": "https://example.org/datasets/coastal-observations/station-2/version-2026",
+        "https://example.org/coast/review-terms": "https://example.org/coast/review-terms.",
+        "https://example.org/papers/coast-study": "https://example.org/papers/coast-study"
+      },
+      "prior_pdf_pages": 9,
+      "pdf_pages": 9,
+      "prior_word_pages": 8,
+      "word_pages": 8,
+      "unchanged_pdf_metric_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "language": "chinese",
+      "question_comparisons": 15,
+      "question_word_xml_unchanged": true,
+      "word_pagination_unchanged": true,
+      "unchanged_pdf_external_links": {
+        "mailto:research@example.org": "research@example.org",
+        "https://ds-wizard.org": "DataStewardshipWizard",
+        "https://example.org/datasets/coastal-observations/station-1/version-2026": "資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026",
+        "https://example.org/datasets/coastal-observations/station-2/version-2026": "資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026",
+        "https://example.org/coast/review-terms": "訊：https://example.org/coast/review-terms。",
+        "https://example.org/papers/coast-study": "https://example.org/papers/coast-study"
+      },
+      "prior_pdf_pages": 8,
+      "pdf_pages": 8,
+      "prior_word_pages": 8,
+      "word_pages": 8,
+      "unchanged_pdf_metric_box_overlaps": [],
+      "passed": true
+    }
+  ],
+  "checker_sha256": "878b669485020a4a2d0d2db5607a0dd60afb8860619d2fe963fa025c3db7196c",
+  "helper_sha256": {
+    "artifact_utils.py": "d7524e7a29d03aa35a7b7895e1a07d1f2e1fda2ce874b3bf0a636183693aaafd",
+    "check_budget_outputs.py": "cb13491830b001059877d522cb2918f543242f3320dfeaf827b8b8aa00995415",
+    "check_budget_spacing_outputs.py": "4f6e622cf4b833526d5d8b67a5a1fd83eafe76e18eeeb1b4ce2d8d3a28a172fa",
+    "check_long_budget_outputs.py": "4df4a932bbc26157e0946cc67d3e8634f62e446fda698d76b348f530f6774b29",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "check_narrative_outputs.py": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+    "check_identifier_outputs.py": "679073fbc6c5804e20127367abd74f06aa028496a1842ab77389af0ef8ae9c2b",
+    "check_identifier_followup_outputs.py": "6989fde8b9598271274cdc2e46566ce546c33bc81ce18087326dced8651655cc",
+    "compare_runtime_outputs.py": "f15aea33090491ac4b14776519e6a384967446879579ad1d1c0c2b4ba570fdd8"
+  },
+  "package_sha256": {
+    "english.zip": "ed4e79220b558adf0452a8ffd4c353458796cc48f352133a274fcbafe98f01f7",
+    "chinese.zip": "c3601525adde55bd6a9c633f909f7e75ce282ecf88a9fa5db8c7b5ee59c792bc"
+  },
+  "prior_package_sha256": {
+    "english.zip": "5450cfffa106a7912c5473306036edef3d58ae59d08c7b61c9568420ba78352c",
+    "chinese.zip": "58bb9a1b5950852489b568c833a4aa725b22721081e496c8e13a04d2876ce4f0"
+  },
+  "artifact_sha256": {
+    "renders/budget-long-chinese.docx": "19d74ed325af7fcebc15e6629a6669809531af78d890324d0da5127edf57f162",
+    "renders/budget-long-chinese.docx.fixture.json": "b9638fb33e13e8c10d30a3577462c04e1f385da020e32e37b80f557b705a6778",
+    "renders/budget-long-chinese.docx.json": "6db60bc427662842954b73e2736b9c84c5b9166088868d6729b2b483d62fd71b",
+    "renders/budget-long-chinese.html": "b448d5710fe8945093ed4092c99a2b8944792e3eaed81651f7c132021e75d4d4",
+    "renders/budget-long-chinese.html.fixture.json": "cd98f8f0b3c1571c5ed0d0d773b760fa98ee2acb59dc66e95d0674935b201a34",
+    "renders/budget-long-chinese.html.json": "f1b34a6cde9de009b5c3010ae23a1811d05c2b23a7c09124ee143471eb638ee8",
+    "renders/budget-long-chinese.pdf": "6747ee79e105c209b58f518431d4d43f7df78d4d35103290664304e871fef360",
+    "renders/budget-long-chinese.pdf.fixture.json": "9660e919ab4de5a5ab9f69fa1b216b825079fe5a727eed38b365f7927dc51a6e",
+    "renders/budget-long-chinese.pdf.json": "9cec88676a0b22079f36eae4636e3e4ba3a8184295fb7ec5d13744bf7e75b961",
+    "renders/budget-long-english.docx": "4179f4ddd609beddedefe208c230cb4eae8d0523bc8c2071da6eb399e816c193",
+    "renders/budget-long-english.docx.fixture.json": "d5f8339229f570f84f7d880eddb673c90478a0996c012f408d52001cf28624bc",
+    "renders/budget-long-english.docx.json": "46d8476e8aa8576fabc863bb2ced754219f352f5f394d0142a65a9e9a7d24ce7",
+    "renders/budget-long-english.html": "2542e26f581c25c6535a53de57b4102614bd7082ece0064eee41521f59da794b",
+    "renders/budget-long-english.html.fixture.json": "dc983776f2001e8d4dc0a37a910842aa0335e7b6b8fbfc6ec6a39062ce72d479",
+    "renders/budget-long-english.html.json": "0227dee1c7bdb832af7b7951c570b7d1789a92a316aed876b4cea9bd97dc6724",
+    "renders/budget-long-english.pdf": "b0d7583c82994415a84e0ccea868c9c13b5487c17d4d0f0cfcb8e1ff783d8c71",
+    "renders/budget-long-english.pdf.fixture.json": "18dcf8b54efbc24c20266285ce5e2980c3237c28fc8191151cfa08c30bbd7719",
+    "renders/budget-long-english.pdf.json": "d0db33fdb2a582a8fc86ac687b6104a26295f3a083b5b0a7ddb8f4a10831ddcb",
+    "renders/budget-many-chinese.docx": "8d922889d3a4327fd20e143f4d18d2d1a8fe396e66c78bf0fbe26505e749bac8",
+    "renders/budget-many-chinese.docx.fixture.json": "44dee4d9f641e24bcf18b3a560e1a3859530bd6975783fd7e9e1ae950b44865c",
+    "renders/budget-many-chinese.docx.json": "bb44e0f0204d92f76605a77f892f2198ab748ea680ac1b4c27bd9e4649318d11",
+    "renders/budget-many-chinese.html": "5170dde23f335eccc4b50d4b8695587ccd02d9f978b470ff583f1970b5fc65ce",
+    "renders/budget-many-chinese.html.fixture.json": "3919db3130fd774b1c49c7d7381ad87bb2882e7d3fcf310030dd9e49639a4be0",
+    "renders/budget-many-chinese.html.json": "8dc6fa8e1aa5eb0db944a00cc690cde218c8860ad55757d6a79ca14c133a50c0",
+    "renders/budget-many-chinese.pdf": "902088fb208a02c861d515ae99057ea3312c89be7d8f23ceea64a304a287d96a",
+    "renders/budget-many-chinese.pdf.fixture.json": "a8cc985ad68c777ec2ae8069a4307daabcb4c765e11614f958c9907198156781",
+    "renders/budget-many-chinese.pdf.json": "6861ae123af2d81d876247b6e17883cf6e40a7505d56106a2c3580461eacb7a0",
+    "renders/budget-many-english.docx": "b2c1c80e7acb089322fb438b4946cae7da788bb31812c31fce9f474a5a169b2c",
+    "renders/budget-many-english.docx.fixture.json": "672607e8348c5694629cc8ec1abd35ac84edac09505547c4b3528a25dd59f656",
+    "renders/budget-many-english.docx.json": "ce8d8ee1ae3627c62d0860af5048c64e6fbd0629ef7baaa494f518a9b7b000eb",
+    "renders/budget-many-english.html": "aab1d0d3e10c5b925fc1744ed4b50a30bf05b4fe168ea9968c873c93cb0460a0",
+    "renders/budget-many-english.html.fixture.json": "1d217ad2e9682fe1d7a6eea0d13ab03fdcb54a0101fd3406628c2d6696780af8",
+    "renders/budget-many-english.html.json": "7a6fbdb03a861940c3213fac7904d371e55d3b8cbb1856c37535ccfa72d0f912",
+    "renders/budget-many-english.pdf": "2973d2b682e5232f5b57958943c40bc03c71b654754f0f5bb21a7d80ee5ba4b4",
+    "renders/budget-many-english.pdf.fixture.json": "739fb2e0e47dd27476d05e48212c791403c1db36fe768898ca1fc48904d7d84e",
+    "renders/budget-many-english.pdf.json": "994216d223fdeb6c5ad516a7c944e0bc04cd48e0e9e78880ec84e12cd0784951",
+    "renders/preservation-complete-chinese.docx": "9033f033af24889180368e9cc3b6aad5d936e30022359953e11f6d4f782759af",
+    "renders/preservation-complete-chinese.docx.fixture.json": "aa4421973c60c85c72c170ade1038b1d7074b51f859c8203055149d4638b7c39",
+    "renders/preservation-complete-chinese.docx.json": "c879b70d017908075d550989ec2eb8beb679c2f0f43377ecc5260e0f6ce98ad0",
+    "renders/preservation-complete-chinese.html": "9d133837b4cf1b441cefc48a01a54235bf7b7f9a502f5ced59d764fb922922ea",
+    "renders/preservation-complete-chinese.html.fixture.json": "d2b8644b35a51874955480197094bcb3e0d7e6b0d8632efc6b2d73be31ab5378",
+    "renders/preservation-complete-chinese.html.json": "5fc2d588d0cbfb9d237cead349dccc8b115901bce76a57c51aabe357b3faaf3b",
+    "renders/preservation-complete-chinese.pdf": "14b9255661635d29a7138faad603d954732fe0ac4e86f3e23e8869a15d527368",
+    "renders/preservation-complete-chinese.pdf.fixture.json": "6458dcf6c0c873bad58faeac7964efe0b8083259bbac10d67313f73f385556fc",
+    "renders/preservation-complete-chinese.pdf.json": "f09cf12f96dbd6cd4954255995ed855044c3983f34a5cca9fcd9140fdb19d3e8",
+    "renders/preservation-complete-english.docx": "5504345bcc3f9fb263a98c92eefc544ec05c4dfd2e27a1c534d56ff9cc87d7ca",
+    "renders/preservation-complete-english.docx.fixture.json": "09a92b0a72e14b42570d50ecaafc185bda807492fed950fac9084b028d31dfcc",
+    "renders/preservation-complete-english.docx.json": "82c8201d44d90ee50f98d4b0012eb94a4f0f51156866e29c75a6bdeac9be1e36",
+    "renders/preservation-complete-english.html": "731057400e85d931db8d6db2b578d9ebbed8136bf8f0d9494fbfe82d38df3f8b",
+    "renders/preservation-complete-english.html.fixture.json": "d01e11c16d88be1ae20a886023d549b7fc2ac226c591e3994be348049dc18498",
+    "renders/preservation-complete-english.html.json": "a97746be090f7dbde645668383b738e3c1e790f713fc7fa73db68df3b41f1db3",
+    "renders/preservation-complete-english.pdf": "addded24d16c4f80d86bebe639a67d78668e9bd0f73948de865fe8513defb63e",
+    "renders/preservation-complete-english.pdf.fixture.json": "02c16389f656b23e067f6f9fdfb2b12ac7767596aa18277c694745f36085e49b",
+    "renders/preservation-complete-english.pdf.json": "8c799c9b10d1c4ddcd3b167fe30b77b3bad96048ce769d40511a7dc03abac1d2",
+    "word-preview/budget-long-chinese.pdf": "c3e9bf1cc26a5bc45e3c4e230fab0a70d52b7f2927e7135e45918d6bc071b1db",
+    "word-preview/budget-long-english.pdf": "98f3dd3c175030d6bfa6489152f722d83849b807bf5eff260cd94b62b553c8dd",
+    "word-preview/budget-many-chinese.pdf": "f0584ae05541ac3124df9ff317280d86c0c9eff768dbaa7d40971701fb074650",
+    "word-preview/budget-many-english.pdf": "a8c6c22f98418d68e5cf52924605da9aa37879cbe5a055728f0f3d0e0f1af0f1",
+    "word-preview/preservation-complete-chinese.pdf": "b3c355c2c198f42afd42bf93490832c13ad7f6bea4bdf761c0c895dad17fa7dc",
+    "word-preview/preservation-complete-english.pdf": "db086c5949b339f0fb936e15ead6a731c875c3fb521ec1dfe9eff611d27d900a"
+  },
+  "prior_artifact_sha256": {
+    "renders/budget-long-chinese.docx": "4814ef100163fc63f0f803c56bec8c25400a2dd813e44f0d976b54a0370f83b9",
+    "renders/budget-long-chinese.docx.fixture.json": "08f7e1c0550aae535d69b40892a7b459eeb8b062ad8488608bbe202294089db6",
+    "renders/budget-long-chinese.docx.json": "6db60bc427662842954b73e2736b9c84c5b9166088868d6729b2b483d62fd71b",
+    "renders/budget-long-chinese.html": "31b4751ae667dcb153af7ebe70385efb2223c9a34a6d8cb2c2bec98bb557504d",
+    "renders/budget-long-chinese.html.fixture.json": "b4a42c76a9b14854b3d4d76e3b39aec570c88765ba9b4ba5939bfeb2efe51919",
+    "renders/budget-long-chinese.html.json": "813ead1f28ab88864852ea13aa54b91b64ae16e40213e970d6cac777e46f8b31",
+    "renders/budget-long-chinese.pdf": "2f5fe76995273f134aab4a1d2bf3a69acefc16090c5464b81aa4f76c2c92e469",
+    "renders/budget-long-chinese.pdf.fixture.json": "364feb30ff309511892badb1c265577e886b2fb3df472fa3b491c238483b9850",
+    "renders/budget-long-chinese.pdf.json": "9d1b6b99d635a0ee16ac876fa05c6f3fa7562c4e96a0e74fd4a61e4c68258a4a",
+    "renders/budget-long-english.docx": "85988fe701777f73c495afcffa29ccefe7fb55fa89418fcb6332777435ccceaf",
+    "renders/budget-long-english.docx.fixture.json": "75aef0e7b2865794e219a557c68b7413a0190b04c713f732a1087f5b92f66598",
+    "renders/budget-long-english.docx.json": "5067e543dba9f87e0e8a0bd70e22fc8e24697bdbe56569c4c316658cb68f3c34",
+    "renders/budget-long-english.html": "2c3227a3a0c1ca508f5087dc21248dbb6d81b060cbfad03a7df71c91a4850343",
+    "renders/budget-long-english.html.fixture.json": "c32c16f99e08283d576b5bb16ef8db34708748417970cf8f4720ad459a889920",
+    "renders/budget-long-english.html.json": "3d8b767a40860e3096d0a3474d9bc8fce891999e2bba97e193a49c28c821c30a",
+    "renders/budget-long-english.pdf": "3c3df44c63edd7c574222dbff27d0ad56d34e35992dc73082e8fc2694e1ca967",
+    "renders/budget-long-english.pdf.fixture.json": "df140aa23b7aae45cfae6f20926a8582e4a3000f8259f04cc268413a9ca18396",
+    "renders/budget-long-english.pdf.json": "0061c401bbdce28a4680d44ce88cc333c1d376e28a312b9f53f24854898e5e76",
+    "renders/budget-many-chinese.docx": "7322e8db35a8876178b82b91f2319e17f3cc5dcf69bf873bcb532db28206041e",
+    "renders/budget-many-chinese.docx.fixture.json": "45a64e1c020a5f4c076cf89f6f19d770e2036fd6e0943f79bb020da3028a95b8",
+    "renders/budget-many-chinese.docx.json": "8a598a2d2315bb57091b0ea2d6f48625e91751ad84dfda5acfb3b88956d8ff09",
+    "renders/budget-many-chinese.html": "5b724ef6111c98d0846bcb67a87b7d656394d9ecd738d8d37b0ec613547f91c4",
+    "renders/budget-many-chinese.html.fixture.json": "c761a4428c92d8f2602baaeab99b64ddb845a3e2b76e5b15b6116f685b30ef28",
+    "renders/budget-many-chinese.html.json": "fb348f39182026fed3361cc92e45e7b4855f25d214b2c7e339dba59399942ac7",
+    "renders/budget-many-chinese.pdf": "71d8d988a172bea29d124e8f2a8687d78746aa4f9394414ce1f3cea941cee40b",
+    "renders/budget-many-chinese.pdf.fixture.json": "73904dd6f5716197515c8230066e549e0e4a84444885248053a3640e704766b9",
+    "renders/budget-many-chinese.pdf.json": "a6eefc678ac650a7145cd91c4d1c1eeafb46e6b5220f58e6b1d8e44bd68e7a77",
+    "renders/budget-many-english.docx": "8157248c93daafbf9b7814e5330e6f5a622194f37412d8202a47407dc72ddaed",
+    "renders/budget-many-english.docx.fixture.json": "9bdfc652be1393d89a00a57fe0484197665ba6ec53e51e46ae8a3a0f194f3034",
+    "renders/budget-many-english.docx.json": "098b45e87ec40db45048d74be33e1bd060505fdbc2b6aff90da8696c4751ce6f",
+    "renders/budget-many-english.html": "87a823005c928379a42ca6257c6c372227694ae558e7ca84bf36b0514334de7d",
+    "renders/budget-many-english.html.fixture.json": "0291a62bf9487ab9466529f1f00d0caa94ef23422784695a51925dd5c09b5ba0",
+    "renders/budget-many-english.html.json": "d10571d299ef85a4845845fb407bbb4102e7abd4a93e0f6669959ea203ece448",
+    "renders/budget-many-english.pdf": "d5bb37bfc19acce3d3961866c715274e78b89f7b599e26b9fb5370674179a4e9",
+    "renders/budget-many-english.pdf.fixture.json": "e5ebefed5f497e90080918d4fcb4b299f3e3a7d58019b5c59ba9da2840fae363",
+    "renders/budget-many-english.pdf.json": "829b46eaa70ab5f0288eec33b805ec55c1d8dfba885ac63989a68112aca302d8",
+    "renders/preservation-complete-chinese.docx": "36f35554600c75d46a2bcc2f5451e169e92d231785df94da84361d889ce4117d",
+    "renders/preservation-complete-chinese.docx.fixture.json": "5b21ae29fabff6db4f235e0ba04c379709825bfebf70fd3ab2af063b966f5bb6",
+    "renders/preservation-complete-chinese.docx.json": "3344e4ec7b67a92a24743e8361cff9a556abec11379ccd0352880a68c12c9647",
+    "renders/preservation-complete-chinese.html": "3edc51f27c97828db777e03e92b05575f41a5746bb24a7a94cb1d1b82306da90",
+    "renders/preservation-complete-chinese.html.fixture.json": "3542b3184fbde8488476ff6abe78d9fbe379550fb4f1c5507ecd29be88759549",
+    "renders/preservation-complete-chinese.html.json": "d89d515bbbfc7ffa13c4064a9d3b6268948853a1aedff969b8bfe5ce951d7787",
+    "renders/preservation-complete-chinese.pdf": "ca3800570bcab288b657bcfd32bcf2524c751dc62fe8cf24638706a72e293762",
+    "renders/preservation-complete-chinese.pdf.fixture.json": "7d57f99df30dad20f9a2dfa0adf24f571269b9857e2f4d5a3179fde817ff1e0a",
+    "renders/preservation-complete-chinese.pdf.json": "cd6a9b6a14d9bf434ad8195779c3df3dd585c426cf3f75cb2f2e4579a2fab012",
+    "renders/preservation-complete-english.docx": "3d13d8ed4513ddb2a0e6ee473ee9bb262fd4e0b4996598ebb4ed9043eb241ec0",
+    "renders/preservation-complete-english.docx.fixture.json": "685c43187b17c40c88d1c83929d2930c79871af10ace0d59b6462760f4a74c0d",
+    "renders/preservation-complete-english.docx.json": "62d7f0b0b7ea52fad19a02aa0897f09f4a727ed49a2b0127f944c52b048f4659",
+    "renders/preservation-complete-english.html": "a10b759ceab48c847521e7afdacec1b80e7ba2da9e16e851a2dbd2c0bdbe315f",
+    "renders/preservation-complete-english.html.fixture.json": "dcbe398a98eca33f2df69b7b09679505fd16e9c3597a88ebebf37f7a783ace1c",
+    "renders/preservation-complete-english.html.json": "bee8293d4171d5ff0bc4e0247cdd86199e443023c0e3ca61da65fe024d07d798",
+    "renders/preservation-complete-english.pdf": "ef4f4f6389e3ef6cd47a4d231d5ea6e55f55cdd97b76e9a5d9b8bbbbab5512fc",
+    "renders/preservation-complete-english.pdf.fixture.json": "e300ec4700fed573b2503bfd6b0f465c0b1eeaaeb9e665c754a1dd599a0857c9",
+    "renders/preservation-complete-english.pdf.json": "49131aec00d9da9749adbe05d4f1fd79ebeb3ee6e47008c792681c73ab02da49",
+    "word-preview/budget-long-chinese.pdf": "7371c3a5c1e5bf856cfa9de2e64cfe8378881491f9664e2db32c7fde488f5626",
+    "word-preview/budget-long-english.pdf": "e80ef7db71624dc61158698df0d94f9bd632c546878386728a634c790eb6c895",
+    "word-preview/budget-many-chinese.pdf": "036adfea9d5efcc1a5fb923b53334a3e5af5d56920776533db4f96ec95e6f6b7",
+    "word-preview/budget-many-english.pdf": "5f56149e563fcc9c9f65e43dd9766f15f8a3a2544f8243ec023c7550e5de1ea8",
+    "word-preview/preservation-complete-chinese.pdf": "749aaec8ec327b2f247732bb36697b2b2a835796c91e34af3150a1d162cb18b8",
+    "word-preview/preservation-complete-english.pdf": "b7aad29da93372c5c74e69ca50a4175272f171667b9cbee8b453574a077edb2a"
+  },
+  "limits": [
+    "Selected synthetic fixtures, not whole-DMP or Microsoft Word acceptance",
+    "Long sequence oracle covers the declared two-resource fixture only",
+    "Complex or missing-header data conservatively retain the legacy layout",
+    "Metric-box overlap comparison is not a complete visual score",
+    "Stock Markdown-table failures remain release blockers"
+  ]
+}

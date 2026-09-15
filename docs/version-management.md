@@ -1,6 +1,6 @@
 # 版本與分支契約
 
-目前 0.3.17 的英中工作分支為 `feat/long-budget-reading`，承接 0.3.16 的 `feat/budget-pagination`。
+目前 0.3.19 的英中工作分支為 `feat/pdf-budget-reading`，承接 0.3.18 的 `feat/budget-spacing`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 ## 三種版本不能混為一談
@@ -64,6 +64,15 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 一般連字號。Q10 自訂申請流程與 Q11 自訂付款安排亦須保留作者的段落與清單。
 
 ## 中文單獨修版演練
+
+0.3.19 在英文共用 Q15 擷取原始片段，再由 PDF 專用入口與 presentation helper
+改變長篇用途的呈現。中文 lock 指向 `62338c59135d6067f492116964d58e31928a5d5a`；
+重新分組時有 8 個翻譯單位需要核對後接回，原有 720 組 sentence／translation
+pairs 不變，兩個新增單位是幣別分支重複。這是未來升級成本的實測，不假定
+改 Jinja 仍能零成本沿用全部翻譯。Q15、PDF helper／入口、資源 ownership、
+namespace scope 與翻譯抽取應一併審查；Word 與非 PDF 分支須保護原輸出。
+同名 branch 只是配對方便，精確來源仍依 commit／manifest；不增加永久線。
+見 [0.3.19 原生對照](../reviews/2026-09-15-pdf-budget-reading/README.md)。
 
 0.3.17 只修改英文 Word Lua 與建置用 reference 準備程式，新增專屬長預算
 表格樣式；中文鎖定 `b7327b9e9fd976046fc440ec7bf5c82aac54b8ed`，不修改譯文。

@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "short",
+      "eligible": true,
+      "changed_overview_paragraphs": 1,
+      "passed": true
+    },
+    {
+      "case": "single",
+      "eligible": true,
+      "changed_overview_paragraphs": 1,
+      "passed": true
+    },
+    {
+      "case": "chinese",
+      "eligible": true,
+      "changed_overview_paragraphs": 1,
+      "passed": true
+    },
+    {
+      "case": "flat-list",
+      "eligible": true,
+      "changed_overview_paragraphs": 2,
+      "passed": true
+    },
+    {
+      "case": "emphasis",
+      "eligible": true,
+      "changed_overview_paragraphs": 1,
+      "passed": true
+    },
+    {
+      "case": "long-overview",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "wide-cjk",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "three-rows",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "two-projects",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "long-cell",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "many-cell-paragraphs",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "many-list-items",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-list",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-table",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "image",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "link",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "code",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "line-breaks",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "span-cell",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "other-table",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "extra-heading",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "trailing-prose",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "no-budget",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    },
+    {
+      "case": "wrong-question",
+      "eligible": false,
+      "changed_overview_paragraphs": 0,
+      "passed": true
+    }
+  ],
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "pandoc_version": "pandoc 3.8.3",
+  "source_commit": "62338c59135d6067f492116964d58e31928a5d5a",
+  "checker_sha256": "8f6aba2b5f14076de521d988c7332e5eefe7544ba409b574c782bae94b983e43",
+  "lua_sha256": "36b3d6b65a8e1834822b2d4f76ad48fd0b31956f150119aaa7a233d5e35ecdf2",
+  "limits": [
+    "Baseline disables only the new Q15 handler; native historic documents are compared separately",
+    "AST, not full-page or Microsoft Word acceptance"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "joined_q10_runs": 2,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 8,
+      "passed": true,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "joined_q10_runs": 2,
+      "consolidated_format_gaps": 0,
+      "nonbreaking_quantities": [
+        "120 GB"
+      ],
+      "pdf_pages": 7,
+      "passed": true,
+      "word_preview_pages": 7
+    }
+  ],
+  "checker_sha256": "d33fa79358879ff0be49ccd18a427f7e465a1ddbd6ada7bd80e3e73f578d77ea",
+  "text_extractor_sha256": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+  "package_sha256": {
+    "english.zip": "ed4e79220b558adf0452a8ffd4c353458796cc48f352133a274fcbafe98f01f7",
+    "chinese.zip": "c3601525adde55bd6a9c633f909f7e75ce282ecf88a9fa5db8c7b5ee59c792bc"
+  },
+  "artifact_sha256": {
+    "renders/preservation-complete-chinese.docx": "0474008121b59458363d9704ab45aa21a32a2245c978b8cedf79a55c5efa7c12",
+    "renders/preservation-complete-chinese.docx.fixture.json": "7e4b3d7fc11845432be93db3be6aeda936b181dc28d960d4deb7992eb79b87aa",
+    "renders/preservation-complete-chinese.docx.json": "2fe4cdabd529d168492be4f9f1e76b0c7a9db76c71da9ef4fdd0eee23d9cf5d1",
+    "renders/preservation-complete-chinese.html": "c417eeb195c604ef9eb475f1a90a6e5a81f1d9ef99f909f98fa010b9612dee65",
+    "renders/preservation-complete-chinese.html.fixture.json": "a139a6b9f215787c9171adbdeb13df14c88f7e74ce68703b11e1cead54a18f5e",
+    "renders/preservation-complete-chinese.html.json": "f20e037ff85f3d3163f8186ded3a178e7afe3091c5fce4618b9e91f6a0c173ae",
+    "renders/preservation-complete-chinese.pdf": "776dd6de0ad40b9132ae54b670726421a3cf9bd77faedc9fe9dc0ecaa1ce9d07",
+    "renders/preservation-complete-chinese.pdf.fixture.json": "9fe385426b65a4ae7a678b94c2201d3b87938782111e9da9dec70359c016da3d",
+    "renders/preservation-complete-chinese.pdf.json": "bae314ceb945184f01846798510116ca46c30b5cc1b4334c2a4591b08842e523",
+    "renders/preservation-complete-english.docx": "44b372645d2b2ff1e059a180f082065ce6cfeae1ede21801ff0d5e95d03414ed",
+    "renders/preservation-complete-english.docx.fixture.json": "88679f8e2b4a6e9d7f1d8836435ed503c10c275a489a9a3754d180f7c1bc5e64",
+    "renders/preservation-complete-english.docx.json": "212eec4989add4deae29e9be8c3c8d77997b9946f051b8eb62e8a441673c9f61",
+    "renders/preservation-complete-english.html": "b14841c9ce4c80ef9947fa1aecbbf3e334a392779e7590cfb983b03451bc7438",
+    "renders/preservation-complete-english.html.fixture.json": "85ba95a8fa871ee3cea8fd8fe1a900fb6e207ee59fe34e852f3e553d36946984",
+    "renders/preservation-complete-english.html.json": "b70e08c83f401a99ed810a7ca311284822311a125508689f6b1a456552ccb7e9",
+    "renders/preservation-complete-english.pdf": "9d3f8a29a479d95de8c99617388ae458798f8f6e4b448b070dc819b481f37fea",
+    "renders/preservation-complete-english.pdf.fixture.json": "adc03b267f63b52703fe260f4321b79da0c2d5282e708e683b55af8b3291fac8",
+    "renders/preservation-complete-english.pdf.json": "b7452a44bdcdc891f55cce16b9f6ae555f5f96a12b0fcc7047c89643a6afd1ad",
+    "word-preview/preservation-complete-chinese.pdf": "7730a8c49376d52e72fa90f2e4288910cf9a8d0f6c9db4371ae27d396e5de89b",
+    "word-preview/preservation-complete-english.pdf": "83e981ed4762e9896914660706acdd17d0a8f9b09601e60f8f12cc3fd52c94a5"
+  },
+  "limits": [
+    "Selected synthetic inputs only",
+    "Complex repositories and restricted licence blocks deliberately excluded from joining",
+    "LibreOffice preview is not Microsoft Word acceptance",
+    "Stock Markdown table support remains blocked"
+  ]
+}

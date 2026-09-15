@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "local_branch_language_checks": 30,
+  "checker_sha256": "7ec5fb29a1da9c51536bbf3125a98ab32537bc33eaa1188b4eccb90935a8dfca",
+  "package_sha256": {
+    "english.zip": "ed4e79220b558adf0452a8ffd4c353458796cc48f352133a274fcbafe98f01f7",
+    "chinese.zip": "c3601525adde55bd6a9c633f909f7e75ce282ecf88a9fa5db8c7b5ee59c792bc"
+  },
+  "helper_sha256": {
+    "check_contact_outputs.py": "d697dabca5d66737a2e5e815a0468e8094e7d7523d64ac7e4a310feac916a991"
+  },
+  "source_helper_sha256": {
+    "tests/test_repository_contact.py": "d40e1a0824971221e3aa2dfb32a95922c70aa1b2e1193ed3294b33a63b869d85",
+    "tests/test_science_europe_contract.py": "4068ed40344b85466cf81dbaefa02a6b818e622cbcef8418315b692f3dd9ee31",
+    "tests/test_answer_states.py": "b0c3f962bb19358557b986fd4e85a21ddc4d24942d6189e0a0660b07332bf820",
+    "scripts/generate_contact_fixtures.py": "23c31d6ca63b599da0c2b2171d6f0fda2321384c1cf35b2a0f8c19cd91b6c981"
+  },
+  "limits": [
+    "Adapter-based branch checks, not native DSW/PDF/Word acceptance"
+  ]
+}
