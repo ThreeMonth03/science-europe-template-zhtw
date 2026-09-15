@@ -1,0 +1,52 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "checker_sha256": "0d6ec5f6277001f0c9b00025e0695751fbd7a5cb8d8ea24a125ce175a98d24a6",
+  "rows": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "pages": 8,
+      "summary_paragraphs_per_question": 1,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "pages": 7,
+      "summary_paragraphs_per_question": 1,
+      "passed": true
+    }
+  ],
+  "controlled_question_comparisons": 0,
+  "package_sha256": {
+    "english.zip": "65366eb585ab7f0fbb7b0ad6f40427ddfc4797c7ec3f054f0f825884da638c04",
+    "chinese.zip": "e957065036f4eaebd3292f83dfcb44aed7c0845eb19509c4ea4f16e31b9d6347"
+  },
+  "render_sha256": {
+    "preservation-complete-chinese.docx": "2e183566868e49ce5978ee5e75cfc72d5e6be6a9200269f98d3bd261414633f6",
+    "preservation-complete-chinese.docx.fixture.json": "981158efa2ee6668ce61e7072dc419fc8fc52dd1a8c2ec609c27f10d4b6fc2a4",
+    "preservation-complete-chinese.docx.json": "7f5b41133ba8398da91c8d06ffd7f77e9ff4b67b507739d5152beb4e1e05b5bf",
+    "preservation-complete-chinese.html": "30190e7269add3334eac97a212e7d64bc880a31ec425587e93f767f33e590caf",
+    "preservation-complete-chinese.html.fixture.json": "5d7bc81fdc02ba546b572a86793b816306e44f8da6a67f470c6163465f5a4976",
+    "preservation-complete-chinese.html.json": "2891391ace7e5106740dc20b7629add220e2f40984005dc629ebef45a105059d",
+    "preservation-complete-chinese.pdf": "5400ad2a0657e49a1afc2505388f355f9c66688555be774af7d22a8d8cbd6949",
+    "preservation-complete-chinese.pdf.fixture.json": "f082e84c3ead3a70cf839e94b69fd0b174f39d07ff41aaabd553e9fe69a5424c",
+    "preservation-complete-chinese.pdf.json": "4ffddfe31c506527e40ae394afd6b9f77ae7c727077b7b3bf51e4ff532a9de86",
+    "preservation-complete-english.docx": "6304682ffae88e3521a6a8fd4fb686d0a77fd8516eb1806d4b0dc3fed86eaa47",
+    "preservation-complete-english.docx.fixture.json": "a3f71ca21a06dd827b1efcbc1491dbb2e445e818792d23ff421c0fcc8ae3847f",
+    "preservation-complete-english.docx.json": "8648a09b1bdef5d402a9233e2687316c371cc1b910688a9e2c4682d98be74b69",
+    "preservation-complete-english.html": "0a28f5079de6b7e24428d1865b53fc3bbbdc59018003845fb73248497be0c927",
+    "preservation-complete-english.html.fixture.json": "1256a62a93c811d692b31ec049aa243321b9fa5810334b4c508ab2e4008a6325",
+    "preservation-complete-english.html.json": "df5648ae9c04cf2e946f0b28819b1cd9d5fd8fae5f8a051d437e085e035cedf3",
+    "preservation-complete-english.pdf": "d0f1d7cb0a1755dd761468f45bfc0ed9e2520135fd3631ce5702d2dae98dc8e9",
+    "preservation-complete-english.pdf.fixture.json": "502218753344164d69ca929c3109a56b971f9264e224513dc90828489fc47514",
+    "preservation-complete-english.pdf.json": "a1b95e80dff3ef543bcfccbce2cdb685acf5aa2e61899829b7b9cc191ddc7873"
+  },
+  "limits": [
+    "Selected synthetic cases only; not full Science Europe answer coverage",
+    "Q8/Q14 output-empty fallbacks do not establish topic completeness",
+    "Word paragraphs checked, Microsoft Word pagination not tested",
+    "Quality text remains in Q1 and Q4; duplication deliberately not hidden"
+  ]
+}

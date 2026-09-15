@@ -1,0 +1,22 @@
+{
+  "source_sha256": "32c5a60318782b5d31322408370a4eda7774480d4bab88d3009ac8d4d70f5f44",
+  "release_acceptance": false,
+  "variants": {
+    "compact": {
+      "sha256": "af96afade55fd6fb7df7a45b1e75ed59c1c942ba5a91a8a881d838e7d6de6e7f",
+      "only_document_xml_modified": true
+    },
+    "release-keeps": {
+      "sha256": "d1f34743a8cf4fed4dc61f7b84e91ea317c1ca8d32b33ca857068e10f3d28b4f",
+      "only_document_xml_modified": true
+    },
+    "compact-release": {
+      "sha256": "5a2d1b6a5639ec9e066748b36ccbd0755a944fdbb96cc2ad91d4443a90ccd35c",
+      "only_document_xml_modified": true
+    },
+    "keep-overview": {
+      "sha256": "7d6f25ed273691c764ce86c85c83fe8cac7f608cd43f08394c450773b66378b8",
+      "only_document_xml_modified": true
+    }
+  }
+}
