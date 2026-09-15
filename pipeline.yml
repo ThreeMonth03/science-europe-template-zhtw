@@ -1,14 +1,14 @@
 schema_version: 1
 source:
   repository: https://github.com/ThreeMonth03/science-europe-template.git
-  commit: b7327b9e9fd976046fc440ec7bf5c82aac54b8ed
+  commit: 2f5f2ac0b3e1e8bd14fb14c6da36c5ddcff09be5
   organization_id: threemonth03
   template_id: science-europe-enhanced
-  version: 0.3.17
+  version: 0.3.18
 translation:
   organization_id: threemonth03
   template_id: science-europe-enhanced-zhtw
-  version: 0.3.17
+  version: 0.3.18
   language: zh_Hant
   name: Science Europe 資料管理方案（客製繁體中文版）
 tooling:
