@@ -1,7 +1,11 @@
 # 版本與分支契約
 
-目前 0.3.23 的英中工作分支為 `fix/q9-word-labels`，承接 0.3.22 的 `fix/q8-word-labels`。
+目前 0.3.24 的英中工作分支為 `fix/empty-pdf-reading`，承接 0.3.23 的 `fix/q9-word-labels`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
+
+0.3.24 只新增英文共用 CSS 的四項空白 Q15 資訊框；中文 lock 跟進，不動譯文。
+以保存的 0.3.23 source hashes 檢查唯一變更，舊 Word 行為探針持續執行；
+見 [空白 PDF 閱讀修正](empty-pdf-reading.md)。短期分支不當作新的永久相容線。
 
 0.3.23 延續共用 Word Lua 的有界限修正，中文只更新來源 lock；不建立永久
 語言分支。來源／套件 hash、29 組 AST 與 DOCX 探針、真實前版與新版輸出

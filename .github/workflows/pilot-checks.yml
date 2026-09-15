@@ -72,9 +72,12 @@ jobs:
           ../tooling/.venv/bin/python scripts/probe_missing_info_group.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
-          ../tooling/.venv/bin/python scripts/probe_q8_word_scope.py --build "$SE_BUILD_DIR"
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
-          ../tooling/.venv/bin/python scripts/probe_q9_word_scope.py --build "$SE_BUILD_DIR"
+          # Current scope is CSS-only against 0.3.23; historic Q8/Q9 scope reports
+          # stay frozen while their actual Word/AST behavior probes still run.
+          ../tooling/.venv/bin/python scripts/probe_empty_pdf_scope.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python ../english/scripts/probe_empty_pdf.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/empty-pdf-probe-english.json"
+          ../tooling/.venv/bin/python ../english/scripts/probe_empty_pdf.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/empty-pdf-probe-chinese.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_long_budget_word.py --output "$SE_BUILD_DIR/long-budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_pdf.py --output "$SE_BUILD_DIR/budget-pdf-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_pdf_budget_reading.py --engine --output "$SE_BUILD_DIR/pdf-budget-reading-probe-english.json"
