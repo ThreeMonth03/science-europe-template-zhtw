@@ -8,8 +8,7 @@ import zipfile
 from bs4 import BeautifulSoup
 from docx import Document
 from artifact_utils import sha
-from check_q8_word_outputs import compare_word
-from check_budget_outputs import question_body
+from check_budget_outputs import question_body,body
 from check_word_rhythm_outputs import inspect_preview
 from probe_q8_list_continuity import locations
 from check_narrative_outputs import compact
@@ -41,9 +40,10 @@ def main():
     missing.HERE=a.english.resolve()
     from compare_runtime_outputs import markers
     from check_budget_spacing_outputs import pdf_raw_page_texts
+    from q9_word_contract import expected_blocks,xml
     target=a.output or a.build/'q9-word-report.json';assert not target.exists()
     report={'selected_checks_passed':False,'release_acceptance':False,'version':'0.3.23','rows':[],
-        'checker_sha256':sha(Path(__file__)),'word_oracle_sha256':sha(Path(__file__).with_name('check_q8_word_outputs.py')),
+        'checker_sha256':sha(Path(__file__)),'word_oracle_sha256':sha(a.english/'scripts/q9_word_contract.py'),
         'package_sha256':{n:sha(a.build/n) for n in ['english.zip','chinese.zip']},
         'limits':['Only bounded Q9 produced-data names are restyled','LibreOffice preview, not Microsoft Word acceptance','No claim of whole-document visual acceptance']}
     try:
@@ -63,9 +63,16 @@ def main():
                 assert question_body(old.with_suffix('.pdf'),left)==question_body(new.with_suffix('.pdf'),soup)
                 assert len(pdf_raw_page_texts(old.with_suffix('.pdf')))==row['pages']
                 entries=groups(soup);assert len(entries)==EXPECTED[case],(case,lang,entries)
-                row['changed_q9_labels']=compare_word(Document(old.with_suffix('.docx')),Document(new.with_suffix('.docx')),[n for n,_ in entries],question=9)
+                before_doc,after_doc=Document(old.with_suffix('.docx')),Document(new.with_suffix('.docx'))
+                projected,counts=expected_blocks(body(before_doc),entries)
+                assert [xml(n) for n in projected]==[xml(n) for n in body(after_doc)],'Unexpected Word body change'
+                links=lambda d:sorted(r.target_ref for r in d.part.rels.values() if r.is_external)
+                assert links(before_doc)==links(after_doc)
+                row['changed_q9_labels']=counts['styled_labels'];row['joined_q9_flag_pairs']=counts['joined_flag_pairs']
                 with zipfile.ZipFile(old.with_suffix('.docx')) as x,zipfile.ZipFile(new.with_suffix('.docx')) as y:assert x.read('word/styles.xml')==y.read('word/styles.xml')
                 preview=a.build/'word-preview'/(stem+'.pdf');row['word_pages']=inspect_preview(preview)
+                row['prior_word_pages']=inspect_preview(prior/'word-preview'/(stem+'.pdf'))
+                assert row['word_pages']<=row['prior_word_pages'],(case,lang,'Whole Word grew',row['prior_word_pages'],row['word_pages'])
                 heading=soup.select_one('#q-ethical-issues h3').get_text();following=soup.select_one('#q-share-restrictions h3').get_text()
                 for fmt,path in [('word',preview),('pdf',new.with_suffix('.pdf'))]:
                     pages=[v for v in subprocess.check_output(['pdftotext','-raw',str(path),'-'],text=True).split('\f') if v.strip()]
