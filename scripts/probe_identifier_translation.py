@@ -7,6 +7,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 from jinja2 import Environment, FileSystemLoader
 from artifact_utils import sha
+from identifier_followup_contract import check_followups
 
 
 def main():
@@ -31,6 +32,7 @@ def main():
             ['Yes','No',None,'future-resolve'], ['DomainSpecific','GeneralPurpose','National','Institutional','Special',None,'future-kind']):
             replies = identifier_replies(identifier, assigns, resolves, kind)
             soup = BeautifulSoup(template.render(repliesMap=replies), 'html.parser')
+            check_followups(soup,replies,IDS,language)
             distros = soup.select('.distribution-section')
             assert [d['data-item-id'] for d in distros] == ['distro-0','distro-1']
             for index, distro in enumerate(distros,1):
@@ -56,18 +58,32 @@ def main():
                     else: assert distro.select_one('.data-gap[data-status="missing-output"]')
             assert not soup.select('p div, p p, p ul')
             count += 1
+        for assigner,resolution in [(None,None),(' \n\t',None),('<script>future</script>','No'),
+                                   ('Repository','future'),(' '+IDS['publishedDataIdentifierAssignsRepositoryAUuid'],None)]:
+            replies=identifier_replies(assigns=assigner,resolves=resolution)
+            soup=BeautifulSoup(template.render(repliesMap=replies),'html.parser')
+            check_followups(soup,replies,IDS,language)
+            assert '<script>' not in str(soup)
+            count+=1
+        from generate_identifier_fixtures import identifier_case
+        replies={k:v['value'] for k,v in identifier_case('en' if language=='english' else 'zh-Hant').items()}
+        check_followups(BeautifulSoup(template.render(repliesMap=replies),'html.parser'),replies,IDS,language)
+        count+=1
         for state in ['', IDS['isPublishedDataNoAUuid']]:
             replies = identifier_replies()
             key = next(k for k in replies if k.endswith(IDS['isPublishedDataQUuid']))
             replies[key] = state
             soup = BeautifulSoup(template.render(repliesMap=replies), 'html.parser')
             assert not soup.select('.identifier-heading, .identifier-arrangement')
+            check_followups(soup,replies,IDS,language)
             count += 1
     report = {'passed':True,'release_acceptance':False,'local_branch_language_checks':count,'fixed_phrase_checks':phrase_checks,
               'checker_sha256':sha(Path(__file__)), 'package_sha256':{n:sha(a.build/n) for n in ['english.zip','chinese.zip']},
               'source_helper_sha256':{n:sha(a.english/n) for n in ['tests/test_identifier_reading.py','tests/test_answer_states.py','tests/test_science_europe_contract.py']},
               'phrase_sha256':sha(Path(__file__).resolve().parents[1]/'docs/readability-phrases.json'),
-              'limits':['Offline adapters, not native layout acceptance','Missing Q13 child-answer prompts remain a separate content task']}
+              'helper_sha256':{'identifier_followup_contract.py':sha(Path(__file__).with_name('identifier_followup_contract.py'))},
+              'fixture_source_sha256':sha(a.english/'scripts/generate_identifier_fixtures.py'),
+              'limits':['Offline adapters, not native layout acceptance','Unsupported UUIDs are tested offline; they are not valid new KM choices','Only Q13 identifier assignment/resolution follow-ups are newly covered']}
     (a.build/'identifier-translation-probe.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report))
 

@@ -4420,7 +4420,7 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0012-this-document-does-not-yet-identify-the-datasets-12bef983b5/0001-this-document-does-not-yet-identify-the-datasets-31a9300cd3/translation.md>)
 
-- [x] [file] src/questions/13-persistent-identifier.html.j2 (26/26)
+- [ ] [file] src/questions/13-persistent-identifier.html.j2 (22/30)
 
   [J2] `src/questions/13-persistent-identifier.html.j2`
 
@@ -4480,141 +4480,173 @@
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0005-persistent-identifiers-will-be-assigned-f4f0080059/0001-persistent-identifiers-will-be-assigned-e56ffc8618/translation.md>)
 
-    - [x] [wrapper] 0006-a-project-data-steward-or-principal-investigator-will-de6b25c765 (1/1)
+    - [x] [wrapper] 0006-a-project-data-steward-or-principal-investigator-will-ddb27f6e0e (1/1)
 
-      [W] `0006-a-project-data-steward-or-principal-investigator-will-de6b25c765`
+      [W] `0006-a-project-data-steward-or-principal-investigator-will-ddb27f6e0e`
 
         - [x] [unit] 0001-a-project-data-steward-or-principal-investigator-will-44aacf2935: A project data steward or principal investigator will assign the persistent identifier.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0006-a-project-data-steward-or-principal-investigator-will-de6b25c765/0001-a-project-data-steward-or-principal-investigator-will-44aacf2935/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0006-a-project-data-steward-or-principal-investigator-will-ddb27f6e0e/0001-a-project-data-steward-or-principal-investigator-will-44aacf2935/translation.md>)
 
-    - [x] [wrapper] 0007-an-institutional-data-steward-will-assign-the-persistent-14a17335a7 (1/1)
+    - [x] [wrapper] 0007-an-institutional-data-steward-will-assign-the-persistent-537c331a7c (1/1)
 
-      [W] `0007-an-institutional-data-steward-will-assign-the-persistent-14a17335a7`
+      [W] `0007-an-institutional-data-steward-will-assign-the-persistent-537c331a7c`
 
         - [x] [unit] 0001-an-institutional-data-steward-will-assign-the-persistent-a77e482ab3: An institutional data steward will assign the persistent identifier.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0007-an-institutional-data-steward-will-assign-the-persistent-14a17335a7/0001-an-institutional-data-steward-will-assign-the-persistent-a77e482ab3/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0007-an-institutional-data-steward-will-assign-the-persistent-537c331a7c/0001-an-institutional-data-steward-will-assign-the-persistent-a77e482ab3/translation.md>)
 
-    - [x] [wrapper] 0008-the-repository-will-assign-the-persistent-identifier-ffd5a0a2c4 (1/1)
+    - [x] [wrapper] 0008-the-repository-will-assign-the-persistent-identifier-8bfc166145 (1/1)
 
-      [W] `0008-the-repository-will-assign-the-persistent-identifier-ffd5a0a2c4`
+      [W] `0008-the-repository-will-assign-the-persistent-identifier-8bfc166145`
 
         - [x] [unit] 0001-the-repository-will-assign-the-persistent-identifier-de58e9cd0f: The repository will assign the persistent identifier.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0008-the-repository-will-assign-the-persistent-identifier-ffd5a0a2c4/0001-the-repository-will-assign-the-persistent-identifier-de58e9cd0f/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0008-the-repository-will-assign-the-persistent-identifier-8bfc166145/0001-the-repository-will-assign-the-persistent-identifier-de58e9cd0f/translation.md>)
 
-    - [x] [wrapper] 0009-the-repository-will-make-sure-the-persistent-identifier-d8a73c37ec (1/1)
+    - [x] [wrapper] 0009-the-repository-will-make-sure-the-persistent-identifier-038fd55ef2 (1/1)
 
-      [W] `0009-the-repository-will-make-sure-the-persistent-identifier-d8a73c37ec`
+      [W] `0009-the-repository-will-make-sure-the-persistent-identifier-038fd55ef2`
 
         - [x] [unit] 0001-the-repository-will-make-sure-the-persistent-identifier-9f5ff4f6bf: The repository will make sure the persistent identifier can be resolved to a digital object.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0009-the-repository-will-make-sure-the-persistent-identifier-d8a73c37ec/0001-the-repository-will-make-sure-the-persistent-identifier-9f5ff4f6bf/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0009-the-repository-will-make-sure-the-persistent-identifier-038fd55ef2/0001-the-repository-will-make-sure-the-persistent-identifier-9f5ff4f6bf/translation.md>)
 
-    - [x] [wrapper] 0010-the-repository-will-not-make-sure-the-persistent-a4a607e853 (1/1)
+    - [x] [wrapper] 0010-the-repository-will-not-make-sure-the-persistent-eb4304316f (1/1)
 
-      [W] `0010-the-repository-will-not-make-sure-the-persistent-a4a607e853`
+      [W] `0010-the-repository-will-not-make-sure-the-persistent-eb4304316f`
 
         - [x] [unit] 0001-the-repository-will-not-make-sure-the-persistent-bb58177763: The repository will not make sure the persistent identifier can be resolved to a digital object.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0010-the-repository-will-not-make-sure-the-persistent-a4a607e853/0001-the-repository-will-not-make-sure-the-persistent-bb58177763/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0010-the-repository-will-not-make-sure-the-persistent-eb4304316f/0001-the-repository-will-not-make-sure-the-persistent-bb58177763/translation.md>)
 
-    - [x] [wrapper] 0011-within-this-repository-unique-and-persistent-identifiers-will-a50ff56af0 (1/1)
+    - [ ] [wrapper] 0011-who-will-assign-the-persistent-identifier-5810bd3fdd (0/1)
 
-      [W] `0011-within-this-repository-unique-and-persistent-identifiers-will-a50ff56af0`
+      [W] `0011-who-will-assign-the-persistent-identifier-5810bd3fdd`
 
-        - [x] [unit] 0001-within-this-repository-unique-and-persistent-identifiers-will-4d662a7221: Within this repository, unique and persistent identifiers will not be applied.
+        - [ ] [unit] 0001-who-will-assign-the-persistent-identifier-838824b390: who will assign the persistent identifier
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0011-within-this-repository-unique-and-persistent-identifiers-will-a50ff56af0/0001-within-this-repository-unique-and-persistent-identifiers-will-4d662a7221/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0011-who-will-assign-the-persistent-identifier-5810bd3fdd/0001-who-will-assign-the-persistent-identifier-838824b390/translation.md>)
 
-    - [x] [wrapper] 0012-the-persistent-identifier-arrangement-is-not-yet-described-76ab9d2a0b (1/1)
+    - [ ] [wrapper] 0012-whether-the-repository-guarantees-resolution-of-the-persistent-92de579a55 (0/1)
 
-      [W] `0012-the-persistent-identifier-arrangement-is-not-yet-described-76ab9d2a0b`
+      [W] `0012-whether-the-repository-guarantees-resolution-of-the-persistent-92de579a55`
 
-        - [x] [unit] 0001-the-persistent-identifier-arrangement-is-not-yet-described-cb6d7804c0: The persistent identifier arrangement is not yet described.
+        - [ ] [unit] 0001-whether-the-repository-guarantees-resolution-of-the-persistent-68dffd3542: whether the repository guarantees resolution of the persistent identifier to a digital object
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0012-the-persistent-identifier-arrangement-is-not-yet-described-76ab9d2a0b/0001-the-persistent-identifier-arrangement-is-not-yet-described-cb6d7804c0/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0012-whether-the-repository-guarantees-resolution-of-the-persistent-92de579a55/0001-whether-the-repository-guarantees-resolution-of-the-persistent-68dffd3542/translation.md>)
 
-    - [x] [wrapper] 0013-the-publication-locations-have-not-been-listed-97e412fb02 (1/1)
+    - [ ] [wrapper] 0013-information-still-needed-53992b596f (0/1)
 
-      [W] `0013-the-publication-locations-have-not-been-listed-97e412fb02`
+      [W] `0013-information-still-needed-53992b596f`
 
-        - [x] [unit] 0001-the-publication-locations-have-not-been-listed-ca56bc77c0: The publication locations have not been listed.
+        - [ ] [unit] 0001-information-still-needed-b05788fe0a: Information still needed: {identifierMissing}.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0013-the-publication-locations-have-not-been-listed-97e412fb02/0001-the-publication-locations-have-not-been-listed-ca56bc77c0/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0013-information-still-needed-53992b596f/0001-information-still-needed-b05788fe0a/translation.md>)
 
-    - [x] [wrapper] 0014-this-dataset-will-not-be-published-52e3a0800e (1/1)
+    - [ ] [wrapper] 0014-this-template-cannot-interpret-the-selected-answers-for-86ee7d7db4 (0/1)
 
-      [W] `0014-this-dataset-will-not-be-published-52e3a0800e`
+      [W] `0014-this-template-cannot-interpret-the-selected-answers-for-86ee7d7db4`
 
-        - [x] [unit] 0001-this-dataset-will-not-be-published-70413d008b: This dataset will not be published.
+        - [ ] [unit] 0001-this-template-cannot-interpret-the-selected-answers-for-d668b64cfa: This template cannot interpret the selected answers for: {identifierReview}.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0014-this-dataset-will-not-be-published-52e3a0800e/0001-this-dataset-will-not-be-published-70413d008b/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0014-this-template-cannot-interpret-the-selected-answers-for-86ee7d7db4/0001-this-template-cannot-interpret-the-selected-answers-for-d668b64cfa/translation.md>)
 
-    - [x] [wrapper] 0015-it-has-not-yet-been-specified-whether-this-9a030f146b (1/1)
+    - [x] [wrapper] 0015-within-this-repository-unique-and-persistent-identifiers-will-a50ff56af0 (1/1)
 
-      [W] `0015-it-has-not-yet-been-specified-whether-this-9a030f146b`
+      [W] `0015-within-this-repository-unique-and-persistent-identifiers-will-a50ff56af0`
 
-        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-this-def2d0c887: It has not yet been specified whether this dataset will be published.
+        - [x] [unit] 0001-within-this-repository-unique-and-persistent-identifiers-will-081a0026ec: Within this repository, unique and persistent identifiers will not be applied.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0015-it-has-not-yet-been-specified-whether-this-9a030f146b/0001-it-has-not-yet-been-specified-whether-this-def2d0c887/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0015-within-this-repository-unique-and-persistent-identifiers-will-a50ff56af0/0001-within-this-repository-unique-and-persistent-identifiers-will-081a0026ec/translation.md>)
 
-    - [x] [wrapper] 0016-this-document-does-not-yet-describe-which-datasets-295a395eaa (1/1)
+    - [x] [wrapper] 0016-the-persistent-identifier-arrangement-is-not-yet-described-76ab9d2a0b (1/1)
 
-      [W] `0016-this-document-does-not-yet-describe-which-datasets-295a395eaa`
+      [W] `0016-the-persistent-identifier-arrangement-is-not-yet-described-76ab9d2a0b`
 
-        - [x] [unit] 0001-this-document-does-not-yet-describe-which-datasets-4a06ab0cdb: This document does not yet describe which datasets will receive persistent identifiers or how they will be assigned.
+        - [x] [unit] 0001-the-persistent-identifier-arrangement-is-not-yet-described-3b2aca1413: The persistent identifier arrangement is not yet described.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0016-this-document-does-not-yet-describe-which-datasets-295a395eaa/0001-this-document-does-not-yet-describe-which-datasets-4a06ab0cdb/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0016-the-persistent-identifier-arrangement-is-not-yet-described-76ab9d2a0b/0001-the-persistent-identifier-arrangement-is-not-yet-described-3b2aca1413/translation.md>)
 
-    - [x] [wrapper] 0017-possible-re-use-of-created-data-in-other-96145ffe55 (1/1)
+    - [ ] [wrapper] 0017-the-publication-locations-have-not-been-listed-97e412fb02 (0/1)
 
-      [W] `0017-possible-re-use-of-created-data-in-other-96145ffe55`
+      [W] `0017-the-publication-locations-have-not-been-listed-97e412fb02`
 
-        - [x] [unit] 0001-possible-re-use-of-created-data-in-other-5b8a4c50b9: Possible re-use of created data in other contexts
+        - [ ] [unit] 0001-the-publication-locations-have-not-been-listed-1a0f4096fd: The publication locations have not been listed.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0017-possible-re-use-of-created-data-in-other-96145ffe55/0001-possible-re-use-of-created-data-in-other-5b8a4c50b9/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0017-the-publication-locations-have-not-been-listed-97e412fb02/0001-the-publication-locations-have-not-been-listed-1a0f4096fd/translation.md>)
 
-    - [x] [wrapper] 0018-no-name-given-16a8ce22a9 (1/1)
+    - [ ] [wrapper] 0018-this-dataset-will-not-be-published-52e3a0800e (0/1)
 
-      [W] `0018-no-name-given-16a8ce22a9`
+      [W] `0018-this-dataset-will-not-be-published-52e3a0800e`
 
-        - [x] [unit] 0001-no-name-given-db56050f4a: (no name given)
+        - [ ] [unit] 0001-this-dataset-will-not-be-published-8361dde90c: This dataset will not be published.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0018-no-name-given-16a8ce22a9/0001-no-name-given-db56050f4a/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0018-this-dataset-will-not-be-published-52e3a0800e/0001-this-dataset-will-not-be-published-8361dde90c/translation.md>)
 
-    - [x] [wrapper] 0019-only-we-will-be-interested-in-re-using-22c2f5e94b (1/1)
+    - [ ] [wrapper] 0019-it-has-not-yet-been-specified-whether-this-9a030f146b (0/1)
 
-      [W] `0019-only-we-will-be-interested-in-re-using-22c2f5e94b`
+      [W] `0019-it-has-not-yet-been-specified-whether-this-9a030f146b`
 
-        - [x] [unit] 0001-only-we-will-be-interested-in-re-using-ecc5b2436e: Only we will be interested in re-using this data.
+        - [ ] [unit] 0001-it-has-not-yet-been-specified-whether-this-d618fb8441: It has not yet been specified whether this dataset will be published.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0019-only-we-will-be-interested-in-re-using-22c2f5e94b/0001-only-we-will-be-interested-in-re-using-ecc5b2436e/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0019-it-has-not-yet-been-specified-whether-this-9a030f146b/0001-it-has-not-yet-been-specified-whether-this-d618fb8441/translation.md>)
 
-    - [x] [wrapper] 0020-other-researchers-in-this-field-will-be-interested-fc64081eb4 (1/1)
+    - [x] [wrapper] 0020-this-document-does-not-yet-describe-which-datasets-295a395eaa (1/1)
 
-      [W] `0020-other-researchers-in-this-field-will-be-interested-fc64081eb4`
+      [W] `0020-this-document-does-not-yet-describe-which-datasets-295a395eaa`
 
-        - [x] [unit] 0001-other-researchers-in-this-field-will-be-interested-ffaadd6149: Other researchers in this field will be interested in re-using this data.
+        - [x] [unit] 0001-this-document-does-not-yet-describe-which-datasets-f1cd48a907: This document does not yet describe which datasets will receive persistent identifiers or how they will be assigned.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0020-other-researchers-in-this-field-will-be-interested-fc64081eb4/0001-other-researchers-in-this-field-will-be-interested-ffaadd6149/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0020-this-document-does-not-yet-describe-which-datasets-295a395eaa/0001-this-document-does-not-yet-describe-which-datasets-f1cd48a907/translation.md>)
 
-    - [x] [wrapper] 0021-researchers-working-in-other-fields-will-be-interested-9a1c6346fc (1/1)
+    - [x] [wrapper] 0021-possible-re-use-of-created-data-in-other-96145ffe55 (1/1)
 
-      [W] `0021-researchers-working-in-other-fields-will-be-interested-9a1c6346fc`
+      [W] `0021-possible-re-use-of-created-data-in-other-96145ffe55`
 
-        - [x] [unit] 0001-researchers-working-in-other-fields-will-be-interested-c56a284356: Researchers working in other fields will be interested in re-using this data
+        - [x] [unit] 0001-possible-re-use-of-created-data-in-other-0643f0d134: Possible re-use of created data in other contexts
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0021-researchers-working-in-other-fields-will-be-interested-9a1c6346fc/0001-researchers-working-in-other-fields-will-be-interested-c56a284356/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0021-possible-re-use-of-created-data-in-other-96145ffe55/0001-possible-re-use-of-created-data-in-other-0643f0d134/translation.md>)
 
-    - [x] [wrapper] 0022-because-40cb0b9431 (1/1)
+    - [ ] [wrapper] 0022-no-name-given-16a8ce22a9 (0/1)
 
-      [W] `0022-because-40cb0b9431`
+      [W] `0022-no-name-given-16a8ce22a9`
 
-        - [x] [unit] 0001-because-a02c884866: because: {measuredDataReuseOtherFieldHowReply}
+        - [ ] [unit] 0001-no-name-given-9f8170171b: (no name given)
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0022-because-40cb0b9431/0001-because-a02c884866/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0022-no-name-given-16a8ce22a9/0001-no-name-given-9f8170171b/translation.md>)
+
+    - [x] [wrapper] 0023-only-we-will-be-interested-in-re-using-22c2f5e94b (1/1)
+
+      [W] `0023-only-we-will-be-interested-in-re-using-22c2f5e94b`
+
+        - [x] [unit] 0001-only-we-will-be-interested-in-re-using-22eb4e9ea2: Only we will be interested in re-using this data.
+
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0023-only-we-will-be-interested-in-re-using-22c2f5e94b/0001-only-we-will-be-interested-in-re-using-22eb4e9ea2/translation.md>)
+
+    - [x] [wrapper] 0024-other-researchers-in-this-field-will-be-interested-fc64081eb4 (1/1)
+
+      [W] `0024-other-researchers-in-this-field-will-be-interested-fc64081eb4`
+
+        - [x] [unit] 0001-other-researchers-in-this-field-will-be-interested-af3da94e0b: Other researchers in this field will be interested in re-using this data.
+
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0024-other-researchers-in-this-field-will-be-interested-fc64081eb4/0001-other-researchers-in-this-field-will-be-interested-af3da94e0b/translation.md>)
+
+    - [x] [wrapper] 0025-researchers-working-in-other-fields-will-be-interested-9a1c6346fc (1/1)
+
+      [W] `0025-researchers-working-in-other-fields-will-be-interested-9a1c6346fc`
+
+        - [x] [unit] 0001-researchers-working-in-other-fields-will-be-interested-f2c3f7fc64: Researchers working in other fields will be interested in re-using this data
+
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0025-researchers-working-in-other-fields-will-be-interested-9a1c6346fc/0001-researchers-working-in-other-fields-will-be-interested-f2c3f7fc64/translation.md>)
+
+    - [x] [wrapper] 0026-because-40cb0b9431 (1/1)
+
+      [W] `0026-because-40cb0b9431`
+
+        - [x] [unit] 0001-because-e8f7e7eafb: because: {measuredDataReuseOtherFieldHowReply}
+
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0026-because-40cb0b9431/0001-because-e8f7e7eafb/translation.md>)
 
 - [x] [file] src/questions/14-dm-responsible.html.j2 (12/12)
 
