@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "en/empty",
+      "computed_break_inside": "avoid",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "case": "en/wrong-fact",
+      "computed_break_inside": "auto",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "case": "en/authored-detail",
+      "computed_break_inside": "auto",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "case": "en/long-answer",
+      "computed_break_inside": "auto",
+      "pages": 3,
+      "passed": true
+    },
+    {
+      "case": "translated/empty",
+      "computed_break_inside": "avoid",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "case": "translated/wrong-fact",
+      "computed_break_inside": "auto",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "case": "translated/authored-detail",
+      "computed_break_inside": "auto",
+      "pages": 2,
+      "passed": true
+    },
+    {
+      "case": "translated/long-answer",
+      "computed_break_inside": "auto",
+      "pages": 3,
+      "passed": true
+    }
+  ],
+  "checker_sha256": "bb09c4615dddd1bd86bd589d1d9ce1ce52c1cfff74d6f49d7be0a7623b75d35d",
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "package_sha256": {
+    "english.zip": "ff956ee9ebb1f756f381b261efcc9df3a9ca709bc37b481f3c8c5b1f1c2f62f2",
+    "chinese.zip": "ce9e601b393ad8581a17a04af1897e1f86064d4181e09376fb954f0c86dea6f1"
+  },
+  "limits": [
+    "Selected real template fragments and pinned CSS engine, not a full native DSW export"
+  ]
+}

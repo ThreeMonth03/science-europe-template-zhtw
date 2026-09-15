@@ -1,0 +1,157 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "empty",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "preservation-partial",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-long-no-amount",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-long-no-funding",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "personal-data-partial",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": true
+    },
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-long",
+      "language": "english",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "preservation-partial",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-long-no-amount",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-long-no-funding",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "personal-data-partial",
+      "language": "chinese",
+      "q7_output_byte_identical": false,
+      "requires_fresh_native_q7_validation": true
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    },
+    {
+      "case": "budget-long",
+      "language": "chinese",
+      "q7_output_byte_identical": true,
+      "requires_fresh_native_q7_validation": false
+    }
+  ],
+  "package_diffs": [
+    {
+      "language": "english",
+      "only_changed_template_file": "src/questions/07-personal-data.html.j2",
+      "before_sha256": "b72423821e528ee69a6db14d433440e9ed6b135d2c005e1fa75cacfb7ecbdd2a",
+      "after_sha256": "ff956ee9ebb1f756f381b261efcc9df3a9ca709bc37b481f3c8c5b1f1c2f62f2"
+    },
+    {
+      "language": "chinese",
+      "only_changed_template_file": "src/questions/07-personal-data.html.j2",
+      "before_sha256": "5a8b714dfd324517e7230d5fed0cc7bbd734117bd281bf8e6b1e9e85ec9eb7eb",
+      "after_sha256": "ce9e601b393ad8581a17a04af1897e1f86064d4181e09376fb954f0c86dea6f1"
+    }
+  ],
+  "checker_sha256": "6cbf22b5129e21b4f8af316553495ff6cd83cb580b6d23ea65317436652ef180",
+  "limits": [
+    "Unchanged source and selected branch outputs, not a re-export of every final ZIP case",
+    "The repaired Q7 case must be natively re-rendered in both languages; old failure is retained"
+  ]
+}

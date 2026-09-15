@@ -1,0 +1,56 @@
+[
+  {
+    "type": "SetReplyEvent",
+    "uuid": "7f6b6518-8d09-53ef-9a02-a236c7be0b9e",
+    "path": "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5.72099c46-16e7-47a2-a320-cc768b7085fe",
+    "value": {
+      "type": "AnswerReply",
+      "value": "1d6ba101-fd62-43c8-ab53-76bc31847f58"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "f660ea80-cfb5-535d-ad05-e3aad9a92952",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.09c7c989-6461-417f-b09e-228491c051c6",
+    "value": {
+      "type": "AnswerReply",
+      "value": "f4da7f1d-f3c6-42e2-a7b5-41c4845ba352"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "d324ed02-4016-5700-bff2-88899f91c77a",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.83c0d09d-e74c-4c81-a52c-aaa2e18415ac",
+    "value": {
+      "type": "AnswerReply",
+      "value": "ccdadd45-8aa9-44ed-a669-1827c7813b0a"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "6bbb3d54-2186-51ce-8aa8-b6c2ae71df50",
+    "path": "82fd0cce-2b41-423f-92ad-636d0872045c.efc80cc8-8318-4f8c-acb7-dc1c60e491c1",
+    "value": {
+      "type": "AnswerReply",
+      "value": "72cdbc99-2707-4817-ac40-435a03e5e837"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "1b30b3fa-8d1b-5222-9ba8-9f984040d0ae",
+    "path": "b1df3c74-0b1f-4574-81c4-4cc2d780c1af.f87c331d-794a-42c8-a910-61a2a9110dab",
+    "value": {
+      "type": "AnswerReply",
+      "value": "8d384c38-653a-476c-bda1-47ab7d38c9c2"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "4f251df3-a711-5a75-a80c-fc692b2b09da",
+    "path": "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5.72099c46-16e7-47a2-a320-cc768b7085fe.1d6ba101-fd62-43c8-ab53-76bc31847f58.c1e83bdf-5914-44c2-8414-0a4e7fbaf272",
+    "value": {
+      "type": "AnswerReply",
+      "value": "0c93a407-b04a-4c89-a8e4-299a4d77c21e"
+    }
+  }
+]

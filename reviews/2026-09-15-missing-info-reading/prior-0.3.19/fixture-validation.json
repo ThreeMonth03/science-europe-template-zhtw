@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "case": "empty",
+      "locale": "en",
+      "reachable_replies": 0,
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "negative",
+      "locale": "en",
+      "reachable_replies": 6,
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "partial",
+      "locale": "en",
+      "reachable_replies": 58,
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "preservation-partial",
+      "locale": "en",
+      "reachable_replies": 153,
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "locale": "en",
+      "reachable_replies": 159,
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-amount",
+      "locale": "en",
+      "reachable_replies": 158,
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-currency",
+      "locale": "en",
+      "reachable_replies": 158,
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-funding",
+      "locale": "en",
+      "reachable_replies": 157,
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "empty",
+      "locale": "zh-Hant",
+      "reachable_replies": 0,
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "negative",
+      "locale": "zh-Hant",
+      "reachable_replies": 6,
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "partial",
+      "locale": "zh-Hant",
+      "reachable_replies": 58,
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "preservation-partial",
+      "locale": "zh-Hant",
+      "reachable_replies": 153,
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "locale": "zh-Hant",
+      "reachable_replies": 159,
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-amount",
+      "locale": "zh-Hant",
+      "reachable_replies": 158,
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-currency",
+      "locale": "zh-Hant",
+      "reachable_replies": 158,
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-funding",
+      "locale": "zh-Hant",
+      "reachable_replies": 157,
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    }
+  ],
+  "script_sha256": "f76c3fe9956bed37f30fcb0c4e06cf873cf6c3d783de60b82be27433636f37eb"
+}

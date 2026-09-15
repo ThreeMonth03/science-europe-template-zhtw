@@ -1,0 +1,198 @@
+{
+  "build": "/home/trc/Downloads/science-europe-template-zhtw/outputs/runtime-tables-pgueiskk",
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "empty",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-amount",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-amount",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-amount",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-amount",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-funding",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-funding",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-funding",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-funding",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    }
+  ]
+}

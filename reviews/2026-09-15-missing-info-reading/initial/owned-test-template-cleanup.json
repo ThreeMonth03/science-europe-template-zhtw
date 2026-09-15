@@ -1,0 +1,25 @@
+{
+  "api_url": "http://localhost:13300/wizard-api",
+  "project_references": 0,
+  "document_references": 0,
+  "templates": [
+    {
+      "uuid": "338c7573-aa5e-4ab2-94b9-b76aac38d5d7",
+      "templateId": "science-europe-enhanced-local-f9490928aec3",
+      "organizationId": "threemonth03",
+      "version": "0.3.20",
+      "deleted": true
+    },
+    {
+      "uuid": "b48d0d75-3149-417e-8627-5ba9f6e12fd3",
+      "templateId": "science-europe-enhanced-zhtw-local-ddd392de9856",
+      "organizationId": "threemonth03",
+      "version": "0.3.20",
+      "deleted": true
+    }
+  ],
+  "preserved_packages": {
+    "outputs/runtime-tables-y413js07/english.zip": "b72423821e528ee69a6db14d433440e9ed6b135d2c005e1fa75cacfb7ecbdd2a",
+    "outputs/runtime-tables-y413js07/chinese.zip": "5a8b714dfd324517e7230d5fed0cc7bbd734117bd281bf8e6b1e9e85ec9eb7eb"
+  }
+}
