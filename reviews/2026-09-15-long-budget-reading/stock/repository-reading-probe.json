@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "local_branch_language_checks": 26,
+  "checker_sha256": "9278f05554f7f521dbd130d707a442f698f21bd561f214257a9a834be31c7797",
+  "package_sha256": {
+    "english.zip": "263977cd228706b0772c3d34d0846240589bab7129868ae2fe6bff6724024211",
+    "chinese.zip": "36f2b07611dcf37de44ec70744e0a319d5beb15b7cc30a8e6906054f2d0c1a3b"
+  },
+  "helper_sha256": {
+    "tests/test_answer_states.py": "b0c3f962bb19358557b986fd4e85a21ddc4d24942d6189e0a0660b07332bf820",
+    "tests/test_science_europe_contract.py": "4068ed40344b85466cf81dbaefa02a6b818e622cbcef8418315b692f3dd9ee31",
+    "scripts/generate_repository_fixtures.py": "bbe6ba3b29ff58ee88ae4ea16c1cd413430ff71235a1dd43a994c4b4bbe10a13"
+  },
+  "limits": [
+    "Adapter checks, not native PDF/Word pagination acceptance",
+    "Only selected Common KM paths"
+  ]
+}

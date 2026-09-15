@@ -1,0 +1,19 @@
+{
+  "source_sha256": "eb2bc6a5c1b7d5bfb8f855b9d1334a499f75224d6b56db9ab1e3f919b2617e39",
+  "checker_sha256": "b6db72e7e708d4480191a2b7f31f83905704f258c034a716208c3c8241846bde",
+  "release_acceptance": false,
+  "variants": {
+    "full-width": {
+      "sha256": "47217792fb590e9352a49150ed3d2fc7ad6b578e91a969e8a7c28510b25fd876",
+      "only_document_xml_modified": true
+    },
+    "full-width-repeat": {
+      "sha256": "eb7879bdf6a533534c60890de7612e074c63c54bfb92bf0eaf4c0b3cb07ff2b9",
+      "only_document_xml_modified": true
+    },
+    "paragraph-rows-repeat": {
+      "sha256": "bdd8507ef8d153fd4751309f74903495fd22b104fdd77296acadb6f0203c08a4",
+      "only_document_xml_modified": true
+    }
+  }
+}

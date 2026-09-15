@@ -1,0 +1,213 @@
+{
+  "scope": "Static UUID references in all src Jinja files, including shared helpers; Common DSW KM 2.7.0 only; not answer coverage",
+  "source_commit": "b7327b9e9fd976046fc440ec7bf5c82aac54b8ed",
+  "source_dirty": false,
+  "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+  "templates": [
+    {
+      "template": "src/content.html.j2",
+      "referenced_bindings": 0,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/contributors.html.j2",
+      "referenced_bindings": 7,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/document-provenance.html.j2",
+      "referenced_bindings": 0,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/frontmatter.html.j2",
+      "referenced_bindings": 3,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/globals.j2",
+      "referenced_bindings": 2,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/header.html.j2",
+      "referenced_bindings": 9,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/index.html.j2",
+      "referenced_bindings": 0,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/macros.html.j2",
+      "referenced_bindings": 0,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/post-project-archive.html.j2",
+      "referenced_bindings": 35,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/preservation-dataset.html.j2",
+      "referenced_bindings": 6,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/preservation-paper.html.j2",
+      "referenced_bindings": 3,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/preservation-publication-reason.html.j2",
+      "referenced_bindings": 10,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/projects.html.j2",
+      "referenced_bindings": 15,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/quality-control.html.j2",
+      "referenced_bindings": 20,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/01-how-data.html.j2",
+      "referenced_bindings": 115,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/02-what-data.html.j2",
+      "referenced_bindings": 56,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/03-docs-metadata.html.j2",
+      "referenced_bindings": 60,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/04-quality-control.html.j2",
+      "referenced_bindings": 5,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/05-store-backup.html.j2",
+      "referenced_bindings": 47,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/06-access-security.html.j2",
+      "referenced_bindings": 55,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/07-personal-data.html.j2",
+      "referenced_bindings": 33,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/08-copyright-ipr.html.j2",
+      "referenced_bindings": 60,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/09-ethical-issues.html.j2",
+      "referenced_bindings": 59,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/10-share-restrictions.html.j2",
+      "referenced_bindings": 87,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/11-data-preservation.html.j2",
+      "referenced_bindings": 51,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/12-access-data.html.j2",
+      "referenced_bindings": 12,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/13-persistent-identifier.html.j2",
+      "referenced_bindings": 33,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/14-dm-responsible.html.j2",
+      "referenced_bindings": 11,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/questions/15-required-resources.html.j2",
+      "referenced_bindings": 35,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/uuids.j2",
+      "referenced_bindings": 0,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/versions.html.j2",
+      "referenced_bindings": 0,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/word/frontpage.html.j2",
+      "referenced_bindings": 0,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/word/index.html.j2",
+      "referenced_bindings": 0,
+      "unbound_variables": [],
+      "absent_entities": []
+    },
+    {
+      "template": "src/word/versions.html.j2",
+      "referenced_bindings": 0,
+      "unbound_variables": [],
+      "absent_entities": []
+    }
+  ],
+  "release_acceptance": false
+}

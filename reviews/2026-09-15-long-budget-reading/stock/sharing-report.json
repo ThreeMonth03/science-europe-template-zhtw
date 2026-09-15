@@ -1,0 +1,73 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "passed": true,
+      "joined_owned_runs": 7,
+      "date_values": [
+        "2027-12-31",
+        "2027-06-01"
+      ],
+      "separate_authored_paragraphs": 6,
+      "controlled_question_comparisons": 0,
+      "pdf_pages": 8,
+      "word_preview_pages": 7
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "passed": true,
+      "joined_owned_runs": 7,
+      "date_values": [
+        "2027-12-31",
+        "2027-06-01"
+      ],
+      "separate_authored_paragraphs": 6,
+      "controlled_question_comparisons": 0,
+      "pdf_pages": 7,
+      "word_preview_pages": 7
+    }
+  ],
+  "checker_sha256": "bc80555eecd5368b48164c1038a0b0b602dde19e7773c17366bc59879255604b",
+  "date_helper_sha256": "d33fa79358879ff0be49ccd18a427f7e465a1ddbd6ada7bd80e3e73f578d77ea",
+  "text_extractor_sha256": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+  "helper_sha256": {
+    "check_block_content.py": "a30fec276c3ae20ffd88679faf49bbde4b4486179039bd2cff55655aa69756b1"
+  },
+  "package_sha256": {
+    "english.zip": "263977cd228706b0772c3d34d0846240589bab7129868ae2fe6bff6724024211",
+    "chinese.zip": "36f2b07611dcf37de44ec70744e0a319d5beb15b7cc30a8e6906054f2d0c1a3b"
+  },
+  "artifact_sha256": {
+    "renders/preservation-complete-chinese.docx": "1953d07161c02cd20fdddc45eca83afb38b1456242207d999612d9648006043f",
+    "renders/preservation-complete-chinese.docx.fixture.json": "9e1a04771966e76b1d58fd6bc9fb0fdc73b13263e9d59555e1e0d730252db767",
+    "renders/preservation-complete-chinese.docx.json": "49fe690f34c24dd02370e8eb35a37eb15937006c3b2c1892315d00b5072e3830",
+    "renders/preservation-complete-chinese.html": "30190e7269add3334eac97a212e7d64bc880a31ec425587e93f767f33e590caf",
+    "renders/preservation-complete-chinese.html.fixture.json": "425ef1801e4030abd3f6e73de5cc74c04ef8ccc475d78363857a76570411faf9",
+    "renders/preservation-complete-chinese.html.json": "2891391ace7e5106740dc20b7629add220e2f40984005dc629ebef45a105059d",
+    "renders/preservation-complete-chinese.pdf": "8c3c16b1bcd8a744b66ddbc70f445f2b36f597a285c956ac185fd4ff67d24ab9",
+    "renders/preservation-complete-chinese.pdf.fixture.json": "8bf4bb184cf3992c360cd0524e43886bb49dbf7e4a3761469d55b7e5029f894a",
+    "renders/preservation-complete-chinese.pdf.json": "bae314ceb945184f01846798510116ca46c30b5cc1b4334c2a4591b08842e523",
+    "renders/preservation-complete-english.docx": "1057ee9caaabe757baff940ee3b86329a025f7d595a531ac1221aeca8fbafc16",
+    "renders/preservation-complete-english.docx.fixture.json": "463299efbee9c0b83ca7fc0b6b671d3a47e6623e2603a3e80ab43375fa04b890",
+    "renders/preservation-complete-english.docx.json": "8092d6d81119f3ba376e1e86eec3dff38dd90ab24ed391dc0c8e0746a0c1975d",
+    "renders/preservation-complete-english.html": "0a28f5079de6b7e24428d1865b53fc3bbbdc59018003845fb73248497be0c927",
+    "renders/preservation-complete-english.html.fixture.json": "1fe9a121d56035919344bec4c7a34cb1de87a60a601ae612dd30ab640dba2dc6",
+    "renders/preservation-complete-english.html.json": "df5648ae9c04cf2e946f0b28819b1cd9d5fd8fae5f8a051d437e085e035cedf3",
+    "renders/preservation-complete-english.pdf": "fc36ec08594afb482d7a38ef11fad524f0801408a6d4433c42ee7d634f17c132",
+    "renders/preservation-complete-english.pdf.fixture.json": "fc304e0f97647e9635342aa3237f293d9838336592a6993bb6834abd7b5538d3",
+    "renders/preservation-complete-english.pdf.json": "70ed9cfb75aa0bab821314d337019c732cb490b4badbcaef4eb6936c805589bc",
+    "word-preview/preservation-complete-chinese.pdf": "6dc9565e00840be017183cc1479ca1c61a842a05585be556bb2309888d6a9c26",
+    "word-preview/preservation-complete-english.pdf": "41dfaa8b6a411f3a44b492aa523e70af60f0765696aadbc4d55ab7488290743a"
+  },
+  "limits": [
+    "Synthetic selected cases only",
+    "Only the recorded Q10/Q11 Chinese phrase changes allowed in prior comparisons",
+    "ISO-shaped dates only, not date validity or filenames",
+    "LibreOffice is not Microsoft Word acceptance",
+    "Stock Markdown table support remains blocked"
+  ]
+}
