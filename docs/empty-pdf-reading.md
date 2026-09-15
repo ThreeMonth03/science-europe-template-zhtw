@@ -31,3 +31,12 @@ CI 仍執行 Q8／Q9 的 AST 與實際 DOCX 探針，並加入英中 panel 引�
 Git 無衝突不代表版面相容；未來改 Q15 結構或上游 CSS，必須重跑原生樣張。
 尚未完成 Microsoft Word 實機、整篇語氣及 stock worker Markdown 表格驗收；
 沒有操作線上 DSW、keyring，沒有合併 main、建立 tag 或發布。
+
+## 探針與初版 CI 失敗
+
+初版中文片段探針與 CI 都以 exit 139 失敗，未將它當成通過。檢查發現 prepared
+CSS 的字型仍含 `assets(...)` Jinja placeholder，測試程式未像原生 DSW 展開。
+補入同一份字型後，即使不加入文件保留修正，對照實驗也可通過；正式探針同時
+保留文件／字型設定到版面檢查完成，並在失敗時保存 stderr 與 return code。
+不是換引擎或跳過中文。兩個修正僅涉及測試程式，實際成品 ZIP 必須與原生測試
+使用的初版候選逐位元相同；來源 commit 不同會如實記錄於各自 manifest。
