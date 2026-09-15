@@ -8,11 +8,16 @@ ROOT=Path(__file__).resolve().parents[1]
 PRIOR=ROOT/'reviews/2026-09-15-personal-data-followups'
 
 
+def verify_translations(old,new):
+    assert old['translation_tree_sha256']==new['translation_tree_sha256']
+    # build.py records untranslated unit *identifiers*, not their numeric count.
+    assert len(new['translation_tree_sha256'])==731 and new['untranslated_units']==[]
+
+
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--build',type=Path,required=True);a=p.parse_args()
     old=json.loads((PRIOR/'candidate-manifest.json').read_text());new=json.loads((a.build/'manifest.json').read_text())
-    assert old['translation_tree_sha256']==new['translation_tree_sha256']
-    assert len(new['translation_tree_sha256'])==731 and new['untranslated_units']==0
+    verify_translations(old,new)
     previous=json.loads((PRIOR/'probes/source-scope.json').read_text())
     rows=[]
     for row in previous['rows']:
