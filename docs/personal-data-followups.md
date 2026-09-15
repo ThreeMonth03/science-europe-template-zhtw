@@ -29,3 +29,18 @@ preservation-complete。中英使用同一組回答結構，先通過各自 serv
 Europe 全面合規。其他同意程序、DPIA 等追問尚未完整盤點；短預算提示折行、
 整份文件留白、正式 Word 環境與 stock worker 的 Markdown 表格仍待處理。
 不得僅憑建置／單元測試通過就發布為正式版。
+
+## 原生結果與下一個反例
+
+見 [完整審閱目錄](../reviews/2026-09-15-personal-data-followups/README.md)。
+8 案例 × 2 語言的 48 次 HTML／PDF／DOCX 輸出全部成功，並產生 16 份 Word
+預覽；本輪缺答、Q7 原文順序與段落、連結、中英標記對齊檢查通過。六份空白／
+否定／完整控制組和 0.3.20 比較，題目 HTML、Word 正文／樣式／連結及原生
+PDF 題目頁碼均不變。原生套件與後續乾淨重建的 ZIP checksum 相同。
+
+人工檢查另發現 `personal-transfer-complete` 中文 Word 的 Q8 第一個資料集
+名稱在第 4 頁末，對應授權說明在第 5 頁。HTML 的名稱位於 `<li><div>`，
+Word 中名稱為 `Compact` 段落，授權說明卻是 `Pilot List Lead`，沒有將名稱
+與其說明綁在一起。這是下一輪需要處理的連頁規則，不是漏字或翻譯問題。
+`probe_q8_list_continuity.py` 已在 16 份原生 PDF 與 16 份 Word 預覽中重現
+這一筆失敗（exit 2）；不刪除報告、不用 CI 通過掩蓋它。

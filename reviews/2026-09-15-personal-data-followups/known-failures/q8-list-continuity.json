@@ -1,0 +1,689 @@
+{
+  "passed": false,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "personal-followups-empty",
+      "language": "english",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 5,
+          "permission_page": 5,
+          "label_end_page": 5,
+          "permission_end_page": 5,
+          "together": true
+        }
+      ],
+      "html_sha256": "e3b27c966a2cc9c8c3f1ac4f42a8efbbcdd81d5235517cead7f9dda69fb5df9d",
+      "pdf_sha256": "54de6ef8266e099519410facee92e0984704826f6475a89a30dafd9d8a3e440e"
+    },
+    {
+      "case": "personal-followups-empty",
+      "language": "english",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "e3b27c966a2cc9c8c3f1ac4f42a8efbbcdd81d5235517cead7f9dda69fb5df9d",
+      "pdf_sha256": "46bd1b0bb354398f778fefd8e7426bc03d0f7ccd92e3232a828703f5a923ef06"
+    },
+    {
+      "case": "personal-followups-empty",
+      "language": "chinese",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "46074f1370a4947faaf7d334263722bf8c42365d3871224a12e7c74672f19f07",
+      "pdf_sha256": "e1375cc19fd7f0edc02ea93a4743ff542f4b434fdadd48122fa930d2a08bc2de"
+    },
+    {
+      "case": "personal-followups-empty",
+      "language": "chinese",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "46074f1370a4947faaf7d334263722bf8c42365d3871224a12e7c74672f19f07",
+      "pdf_sha256": "112ae3fad0f5c085176d135513721e885f402fcd340f284337b47ad89e29a384"
+    },
+    {
+      "case": "personal-transfer-missing",
+      "language": "english",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 5,
+          "permission_page": 5,
+          "label_end_page": 5,
+          "permission_end_page": 5,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 5,
+          "permission_page": 5,
+          "label_end_page": 5,
+          "permission_end_page": 5,
+          "together": true
+        }
+      ],
+      "html_sha256": "51b561ab0156cd9889331a6cb06b21579dcf7e91f959b5f1fa6d8717d1f0955e",
+      "pdf_sha256": "317965dc9c5f407dd50a960c28129533f0497123f797f9aa371aba1d62db7aea"
+    },
+    {
+      "case": "personal-transfer-missing",
+      "language": "english",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "51b561ab0156cd9889331a6cb06b21579dcf7e91f959b5f1fa6d8717d1f0955e",
+      "pdf_sha256": "eaafa6374e0572bcea4632fbe963a5e9b5265e2da7e9b119845106878dfcc925"
+    },
+    {
+      "case": "personal-transfer-missing",
+      "language": "chinese",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "2a26815d9835cdb019bf5a6ed31bc917cd619dd514e1affddda18533129cf48f",
+      "pdf_sha256": "b97f1c16789c6d41237a714f9ac1452563047b0cde0e15e64c6f9d9bb223a3fa"
+    },
+    {
+      "case": "personal-transfer-missing",
+      "language": "chinese",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "2a26815d9835cdb019bf5a6ed31bc917cd619dd514e1affddda18533129cf48f",
+      "pdf_sha256": "3a9781bb9967992a9d427175ef600bf9ad0525220ce1664daca5a9734e5f0915"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 5,
+          "permission_page": 5,
+          "label_end_page": 5,
+          "permission_end_page": 5,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 5,
+          "permission_page": 5,
+          "label_end_page": 5,
+          "permission_end_page": 5,
+          "together": true
+        }
+      ],
+      "html_sha256": "217a588a9f4988915600484bc38dde1f14daa7b7d4d0b4ef246b6eddf0aa6b31",
+      "pdf_sha256": "d012e325830abd9ad39fb9c2038996322063c51dd67a117404758d5a3028dfec"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "217a588a9f4988915600484bc38dde1f14daa7b7d4d0b4ef246b6eddf0aa6b31",
+      "pdf_sha256": "f7aba133291cc336ecf6772a31b50a978bddde903d8b63acabc7fd860485204c"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "b10b70b24ec665d10b58d13fa0246daa5bd662bb1d400b1555f7635f62babe63",
+      "pdf_sha256": "a445296f557aabb7736d19c5741d3e8affcf22a270be52b7fb4f3af8db214d3c"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 5,
+          "label_end_page": 4,
+          "permission_end_page": 5,
+          "together": false
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 5,
+          "permission_page": 5,
+          "label_end_page": 5,
+          "permission_end_page": 5,
+          "together": true
+        }
+      ],
+      "html_sha256": "b10b70b24ec665d10b58d13fa0246daa5bd662bb1d400b1555f7635f62babe63",
+      "pdf_sha256": "06a3a6eefb184f83199db05614183a9753862ab4736677790b00b4890ad8be58"
+    },
+    {
+      "case": "personal-transfer-no",
+      "language": "english",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 5,
+          "permission_page": 5,
+          "label_end_page": 5,
+          "permission_end_page": 5,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 5,
+          "permission_page": 5,
+          "label_end_page": 5,
+          "permission_end_page": 5,
+          "together": true
+        }
+      ],
+      "html_sha256": "17ab99230ce9eaa13fd3fb725d6d8be4e6eda0192fbdb2b47b515e11365cf05e",
+      "pdf_sha256": "804a840587f1c1072761ab93588f5dd58ce6fefb57789bb61da54e3d35dbc291"
+    },
+    {
+      "case": "personal-transfer-no",
+      "language": "english",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "17ab99230ce9eaa13fd3fb725d6d8be4e6eda0192fbdb2b47b515e11365cf05e",
+      "pdf_sha256": "d466a99da93c742dcc1a382919a192ef28f30c4e081cd965b6641ca64d00a837"
+    },
+    {
+      "case": "personal-transfer-no",
+      "language": "chinese",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "d2868d0e98b18524b2a508a2d15fcfab357ac971988726d9492ce8c18c49ff2e",
+      "pdf_sha256": "f9ca06e616667ae4328d822bc887815e77c1d733c097cf1e8dd28b5e695e1c6b"
+    },
+    {
+      "case": "personal-transfer-no",
+      "language": "chinese",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "d2868d0e98b18524b2a508a2d15fcfab357ac971988726d9492ce8c18c49ff2e",
+      "pdf_sha256": "db42ae6ddc40dc601f6e8bbdcfd75d7a4213b2e7fa714366d545ba6d8ca813d4"
+    },
+    {
+      "case": "personal-data-partial",
+      "language": "english",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "0d8b7ddd6e27d2f861474701e03acc2a8520fb3b1bff434b9ff67e92840eac44",
+      "pdf_sha256": "f4cc369f575bab6c432e776dc7e8658bc52871d99b5c513471157cbb0abb00a5"
+    },
+    {
+      "case": "personal-data-partial",
+      "language": "english",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "0d8b7ddd6e27d2f861474701e03acc2a8520fb3b1bff434b9ff67e92840eac44",
+      "pdf_sha256": "e53762ee929cf4b2b6dd73c58a04b6bd23f6d13f333f369ee1bc3bbba8395330"
+    },
+    {
+      "case": "personal-data-partial",
+      "language": "chinese",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "e8b85b4c5eda5ef15179a0ecf87acaca5b32a74a111634403c9b7b586e34d9a9",
+      "pdf_sha256": "d414f0ab96113b2a0dde268ab7d999788249b60fac43cb49b44c8eebb5838196"
+    },
+    {
+      "case": "personal-data-partial",
+      "language": "chinese",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "e8b85b4c5eda5ef15179a0ecf87acaca5b32a74a111634403c9b7b586e34d9a9",
+      "pdf_sha256": "4c0f92675992b765e900d0feb2ae4d8fc06354b1f28a8cd0478101e084ef9302"
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "format": "native-pdf",
+      "entries": [],
+      "html_sha256": "3479ec704adddff8651b53e05bf695a083b7835b09dbb074ec578c9aae9d8811",
+      "pdf_sha256": "a86103e6e239972af17df003e5905af29e5d10676b45a8630a3ec59dae7c6205"
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "format": "word-preview",
+      "entries": [],
+      "html_sha256": "3479ec704adddff8651b53e05bf695a083b7835b09dbb074ec578c9aae9d8811",
+      "pdf_sha256": "d5ab3d83697bc03fb6d797d9ff1910c1dd305fe782586ca98c1fa8d478eb48e2"
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "format": "native-pdf",
+      "entries": [],
+      "html_sha256": "3edd60434f2eb820fdb68d8a9e4b17fe078212a66f6f34d8cfe66cbeb71ff3da",
+      "pdf_sha256": "7d14cc50c17ac60a947a18fc578c867a5c9ec209ba28d8c9119e9133bcd9a210"
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "format": "word-preview",
+      "entries": [],
+      "html_sha256": "3edd60434f2eb820fdb68d8a9e4b17fe078212a66f6f34d8cfe66cbeb71ff3da",
+      "pdf_sha256": "27a0ceafb82e7a3d22745a78b8d8711c27497e1c7cc9f9ed75fdac963e4e385b"
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "format": "native-pdf",
+      "entries": [],
+      "html_sha256": "9f6e706f6ad36d3535a785d659da69c5d8ebb45d47c7a62a6979f90dedb83790",
+      "pdf_sha256": "1ea517eafc4502339572d9740b583fc46f29b7efc1d4356e18cd92e222da0bd6"
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "format": "word-preview",
+      "entries": [],
+      "html_sha256": "9f6e706f6ad36d3535a785d659da69c5d8ebb45d47c7a62a6979f90dedb83790",
+      "pdf_sha256": "c37b0bbe01e778996200ddfb04106b87e1ac337ee2921a63cf1dfff65b12e18d"
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "format": "native-pdf",
+      "entries": [],
+      "html_sha256": "a800f82efb804cca790c719fdb897d0dd6b075d7ace15299ab0a05e02bba850a",
+      "pdf_sha256": "b49feaafdde5c298fc505bbf55e3cb804c7097d7df540c64d87effd94fdaa4c3"
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "format": "word-preview",
+      "entries": [],
+      "html_sha256": "a800f82efb804cca790c719fdb897d0dd6b075d7ace15299ab0a05e02bba850a",
+      "pdf_sha256": "102e1689fee70f589bbe9728e79f15114a9539b39487c2db6d177b02d90dad5c"
+    },
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "d24c2d74655eade40c7c21709fa11ef2f25b2db603a4629e92743eb0df1f5232",
+      "pdf_sha256": "e39c94d0aef42d8b2d520021a8c0a72702fc2f47ddcb5daee7d3c96becf896d4"
+    },
+    {
+      "case": "preservation-complete",
+      "language": "english",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "Opencoastalobservations—station1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "Opencoastalobservations—station2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "d24c2d74655eade40c7c21709fa11ef2f25b2db603a4629e92743eb0df1f5232",
+      "pdf_sha256": "2c2a1bd56b08576e6895bd4d4f7047d991b5f628e277a85f296ceacdf3b9eedc"
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "format": "native-pdf",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "b9c954956bfa27f79dae88df2a54b1d5a04e1617db344c2a7fa075b46eadad9a",
+      "pdf_sha256": "5e1d609d267317ab6342b58bdfa9a13d4ffbee72bb64ae647e1fbd68fe392396"
+    },
+    {
+      "case": "preservation-complete",
+      "language": "chinese",
+      "format": "word-preview",
+      "entries": [
+        {
+          "label": "開放海岸觀測資料——測站1",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        },
+        {
+          "label": "開放海岸觀測資料——測站2",
+          "label_page": 4,
+          "permission_page": 4,
+          "label_end_page": 4,
+          "permission_end_page": 4,
+          "together": true
+        }
+      ],
+      "html_sha256": "b9c954956bfa27f79dae88df2a54b1d5a04e1617db344c2a7fa075b46eadad9a",
+      "pdf_sha256": "a70835d4732a6a26a52a2b0dd27161ba7f28d66278aba4e3c736c4f22725e0c6"
+    }
+  ],
+  "checker_sha256": "bb1197fb6a77ab0a451c0bbbeca576f5b50c2d1c145bc2a9c54f73f9d2c77911",
+  "package_sha256": {
+    "english.zip": "7c67aad421ddc6da83613c4cccf7c37cecc2d55b9a6591053f2dc145dc7a6a4e",
+    "chinese.zip": "a731aa412af14502ada649863229d08c53ec7a8251623bb3c47586dd8eaa67f0"
+  },
+  "scope": "Q8 reference list entries with a simple dataset label and a short permission sentence; actual native PDF / LibreOffice page text",
+  "failures": [
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "format": "word-preview",
+      "label": "開放海岸觀測資料——測站1",
+      "label_page": 4,
+      "permission_page": 5,
+      "label_end_page": 4,
+      "permission_end_page": 5,
+      "together": false
+    }
+  ]
+}

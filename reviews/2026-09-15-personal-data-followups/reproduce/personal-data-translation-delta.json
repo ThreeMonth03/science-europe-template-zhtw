@@ -1,0 +1,87 @@
+{
+  "baseline": "3c3d3b38d7346725b7dc2af87b9e8a75d57af7f9",
+  "baseline_units": 723,
+  "retained_units": 718,
+  "current_units": 731,
+  "removed": [
+    [
+      "The stored data are psuedoanonymized.",
+      "所儲存的資料已經過擬匿名化處理。"
+    ],
+    [
+      "We will use the following technical and procedural safeguards: {personalDataSafeguardElaborateReply}",
+      "我們將採用以下技術與程序防護措施：{personalDataSafeguardElaborateReply}"
+    ],
+    [
+      "We plan to transfer data outside the EU/EEA and these are measures we will place to protect data: {personalDataSafeguardTransferMeasuresReply}",
+      "我們計畫將資料傳輸至歐盟／歐洲經濟區以外，並將採取以下措施保護資料：{personalDataSafeguardTransferMeasuresReply}"
+    ],
+    [
+      "We collect personal data for the benefit of society, and this is more important than the privacy of the subjects (i.e. public interest).",
+      "我們基於社會公共利益蒐集個人資料，且該公共利益高於資料主體的隱私利益。"
+    ],
+    [
+      "We explored General Data Protection Regulation (GDPR) considerations and relevant materials.",
+      "我們已檢視歐盟《個人資料保護規則》（GDPR）的考量事項與相關資料。"
+    ]
+  ],
+  "added": [
+    [
+      "Information not provided: the alternative legal basis selected for collecting and processing personal data.",
+      "尚待補充：蒐集及處理個人資料所採用的其他法律依據。"
+    ],
+    [
+      "Information not provided: the legal basis for collecting and processing personal data.",
+      "尚待補充：蒐集及處理個人資料的法律依據。"
+    ],
+    [
+      "The stored data are pseudonymized.",
+      "所儲存的資料已經過擬匿名化處理。"
+    ],
+    [
+      "Information not provided: whether the stored data are anonymized, pseudonymized, or identifiable.",
+      "尚待補充：所儲存資料的可識別程度（匿名化、擬匿名化或可識別個人）。"
+    ],
+    [
+      "Other technical and procedural safeguards:",
+      "其他技術與程序保護措施："
+    ],
+    [
+      "Information not provided: details of any other technical and procedural safeguards.",
+      "尚待補充：其他技術與程序保護措施的說明。"
+    ],
+    [
+      "We plan to transfer data outside the EU/EEA with the following protection measures:",
+      "本計畫規劃將資料傳輸至歐盟／歐洲經濟區以外，並採取以下保護措施："
+    ],
+    [
+      "We plan to transfer data outside the EU/EEA.",
+      "本計畫規劃將資料傳輸至歐盟／歐洲經濟區以外。"
+    ],
+    [
+      "Information not provided: the measures for protecting data transferred outside the EU/EEA.",
+      "尚待補充：資料傳輸至歐盟／歐洲經濟區以外時的保護措施。"
+    ],
+    [
+      "We do not plan to transfer data outside the EU/EEA.",
+      "本計畫沒有將資料傳輸至歐盟／歐洲經濟區以外的規劃。"
+    ],
+    [
+      "Information not provided: whether data will be transferred outside the EU/EEA.",
+      "尚待補充：是否規劃將資料傳輸至歐盟／歐洲經濟區以外。"
+    ],
+    [
+      "The stated legal basis for collecting and processing personal data is public interest.",
+      "本計畫填報的個人資料蒐集及處理法律依據為公共利益。"
+    ],
+    [
+      "An alternative legal basis was selected, but it has not been specified; see Question 7.",
+      "本計畫選擇了其他法律依據，但尚未說明具體依據；請參閱第 7 題。"
+    ]
+  ],
+  "scope": [
+    "src/questions/07-personal-data.html.j2",
+    "src/questions/09-ethical-issues.html.j2"
+  ],
+  "rationale": "Q7 follow-up gaps and block-safe authored text; Q9 no assessment claim from Explore, no unsupported privacy-interest comparison, no dangling Other sentence. Existing pseudonymization translation is retained."
+}
