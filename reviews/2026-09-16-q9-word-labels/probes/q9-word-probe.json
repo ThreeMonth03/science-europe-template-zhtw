@@ -1,0 +1,218 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "two-flags",
+      "styled_labels": 1,
+      "docx_styled_labels": 1,
+      "joined_flag_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "one-flag",
+      "styled_labels": 1,
+      "docx_styled_labels": 1,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "chinese",
+      "styled_labels": 1,
+      "docx_styled_labels": 1,
+      "joined_flag_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "eight",
+      "styled_labels": 8,
+      "docx_styled_labels": 8,
+      "joined_flag_pairs": 8,
+      "passed": true
+    },
+    {
+      "case": "thirty-two",
+      "styled_labels": 32,
+      "docx_styled_labels": 32,
+      "joined_flag_pairs": 32,
+      "passed": true
+    },
+    {
+      "case": "name-boundary",
+      "styled_labels": 1,
+      "docx_styled_labels": 1,
+      "joined_flag_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "cjk-boundary",
+      "styled_labels": 1,
+      "docx_styled_labels": 1,
+      "joined_flag_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "flag-boundary",
+      "styled_labels": 1,
+      "docx_styled_labels": 1,
+      "joined_flag_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "long-name",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "wide-name",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "long-flag",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "three-flags",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "thirty-three",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "empty-name",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "empty-flags",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "empty-flag",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "name-link",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "name-span",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "name-break",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "flag-link",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "flag-prose",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "flag-table",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "flag-nested-list",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "paragraph-name",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-list",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "other-question",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "missing-flags",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "mixed-missing",
+      "styled_labels": 1,
+      "docx_styled_labels": 1,
+      "joined_flag_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "mixed-empty-item",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "joined_flag_pairs": 0,
+      "passed": true
+    }
+  ],
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "52544b71bc54315ca98a95c509338f772f06be56df500196fc9d5b02daf047a8",
+  "lua_sha256": "077324478c9316adcba189c044878dcbfafa314dc93f8654a5bea537aab9fc42",
+  "contract_sha256": "183e9ee29f6b3126ac127591e565a982651a07421a9456352ae8049abb614756",
+  "source_commit": "0c496d1cefe90fcc0c842d672d99e428ed995293",
+  "limits": [
+    "AST and DOCX paragraph XML, not Microsoft Word layout acceptance",
+    "No whole-question keep or authored-text rewriting"
+  ]
+}

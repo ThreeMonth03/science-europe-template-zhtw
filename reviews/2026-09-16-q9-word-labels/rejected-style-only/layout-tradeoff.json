@@ -1,0 +1,14 @@
+{
+  "accepted": false,
+  "release_acceptance": false,
+  "reason": "Style-only Q9 fix keeps the name with flags but pushes the complete Q15 budget onto a new, sparse final page. Compare compact fixed-flags alternative before accepting.",
+  "case": "personal-transfer-complete",
+  "language": "english",
+  "prior_word_pages": 7,
+  "attempt_word_pages": 8,
+  "artifacts": {
+    "outputs/runtime-tables-nwzk0r08/word-preview/personal-transfer-complete-english.pdf": "fc7917f7e98065051fa74ad4d704a60f96330138ff50191ae4ca2691177c92a0",
+    "outputs/runtime-tables-3h0etdfl/word-preview/personal-transfer-complete-english.pdf": "a0018115b6a1a3a6d3ba3eb57dc0fdc48645fa13b1550424a2e5ee9e115c0106",
+    "outputs/runtime-tables-3h0etdfl/renders/personal-transfer-complete-english.docx": "6f16fc0bb5a729c9d4741263852eed0e54571a4bb0c849be093a20510d914e58"
+  }
+}

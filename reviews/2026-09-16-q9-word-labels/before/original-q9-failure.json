@@ -1,0 +1,39 @@
+{
+  "passed": false,
+  "release_acceptance": false,
+  "scope": "Pre-existing Q9 English Word label/first ethics flag split; outside bounded Q8 change",
+  "case": "personal-transfer-complete",
+  "language": "english",
+  "rows": [
+    {
+      "variant": "before",
+      "entries": [
+        {
+          "label": "Quality-checkedcoastalobservations",
+          "label_page": 4,
+          "permission_page": 5,
+          "label_end_page": 4,
+          "permission_end_page": 5,
+          "together": false
+        }
+      ],
+      "html_sha256": "217a588a9f4988915600484bc38dde1f14daa7b7d4d0b4ef246b6eddf0aa6b31",
+      "word_preview_sha256": "f7aba133291cc336ecf6772a31b50a978bddde903d8b63acabc7fd860485204c"
+    },
+    {
+      "variant": "after",
+      "entries": [
+        {
+          "label": "Quality-checkedcoastalobservations",
+          "label_page": 4,
+          "permission_page": 5,
+          "label_end_page": 4,
+          "permission_end_page": 5,
+          "together": false
+        }
+      ],
+      "html_sha256": "217a588a9f4988915600484bc38dde1f14daa7b7d4d0b4ef246b6eddf0aa6b31",
+      "word_preview_sha256": "fc7917f7e98065051fa74ad4d704a60f96330138ff50191ae4ca2691177c92a0"
+    }
+  ]
+}
