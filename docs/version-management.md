@@ -1,7 +1,11 @@
 # 版本與分支契約
 
-目前 0.3.22 的英中工作分支為 `fix/q8-word-labels`，承接 0.3.21 的 `fix/personal-data-followups`。
+目前 0.3.23 的英中工作分支為 `fix/q9-word-labels`，承接 0.3.22 的 `fix/q8-word-labels`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
+
+0.3.23 延續共用 Word Lua 的有界限修正，中文只更新來源 lock；不建立永久
+語言分支。來源／套件 hash、29 組 AST 與 DOCX 探針、真實前版與新版輸出
+一起作為升級依據，不能以 Git 無衝突代替版面驗證。見 [Q9 Word 連頁](q9-word-labels.md)。
 
 0.3.22 僅調整英文共用 Word Lua，中文 lock 跟進來源 commit，全部 731 個翻譯
 檔案不變。用短／長／多筆原生案例核對文字保留與分頁；短期分支不等同正式版，

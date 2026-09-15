@@ -19,16 +19,16 @@ from probe_q8_list_continuity import locations
 CASES = ['personal-transfer-complete', 'empty', 'negative', 'preservation-complete', 'q8-long-permissions', 'q8-many-references']
 
 
-def compare_word(before, after, labels):
+def compare_word(before, after, labels, question=8):
     left, right = body(before), body(after); assert len(left) == len(right)
     allowed = Counter(labels); changed = Counter(); in_q8 = False
     for old, new in zip(left, right):
         assert old.tag == new.tag
         if old.tag == qn('w:p'):
             a, b = Paragraph(old, before), Paragraph(new, after)
-            if a.style.name == 'Heading 3': in_q8 = a.text.startswith('8. ')
+            if a.style.name == 'Heading 3': in_q8 = a.text.startswith(str(question)+'. ')
         if xml(old) == xml(new): continue
-        assert in_q8 and old.tag == qn('w:p'), 'Non-Q8 content/style changed'
+        assert in_q8 and old.tag == qn('w:p'), f'Non-Q{question} content/style changed'
         a, b = Paragraph(old, before), Paragraph(new, after)
         assert a.text == b.text and allowed[a.text] > changed[a.text]
         assert a.style.name == 'Compact' and b.style.name == 'Pilot List Lead'
@@ -37,7 +37,7 @@ def compare_word(before, after, labels):
         old_props = old.find(qn('w:pPr')); old_style = old_props.find(qn('w:pStyle')) if old_props is not None else None
         if old_style is not None: props.insert(0, copy.deepcopy(old_style))
         if old_props is None and not len(props) and not props.attrib: restored.remove(props)
-        assert xml(old) == xml(restored), 'Only the Q8 label paragraph style may change'
+        assert xml(old) == xml(restored), f'Only the Q{question} label paragraph style may change'
         changed[a.text] += 1
     assert changed == allowed, ('Expected label edits not applied', changed, allowed)
     links = lambda doc: sorted(r.target_ref for r in doc.part.rels.values() if r.is_external)
