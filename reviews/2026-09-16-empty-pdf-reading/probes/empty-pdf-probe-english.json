@@ -1,0 +1,89 @@
+{
+  "weasyprint": "68.1",
+  "rows": [
+    {
+      "case": "empty",
+      "eligible": true,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "wrong-question",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "wrong-fact",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "explicit-no",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "unrecognized-status",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "no-gap-class",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "missing-last",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "duplicate-last",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "wrong-order",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "author-before",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "author-after",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    },
+    {
+      "case": "long-author",
+      "eligible": false,
+      "passed": true,
+      "pages": 3
+    },
+    {
+      "case": "nested-answer",
+      "eligible": false,
+      "passed": true,
+      "pages": 2
+    }
+  ],
+  "passed": true,
+  "release_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "9a208c837544c1e7150cd7231e3cecb93d4dcd9a21b93ddf488aab60d0f42456",
+  "css_sha256": "a962e9fc1d52d4e5ad924c976402690a1f623aaf383385b797a10efeaf4913f6",
+  "embedded_font_sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+}

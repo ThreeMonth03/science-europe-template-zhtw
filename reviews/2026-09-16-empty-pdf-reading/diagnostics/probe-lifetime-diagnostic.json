@@ -1,0 +1,12 @@
+{
+  "diagnostic_only": true,
+  "original_unhydrated_font_attempts": 2,
+  "original_returncodes": [
+    139,
+    139
+  ],
+  "variant": "hydrate font without retaining document",
+  "returncode": 0,
+  "stderr": "empty\nwrong-question\nwrong-fact\nexplicit-no\nunrecognized-status\nno-gap-class\nmissing-last\nduplicate-last\nwrong-order\nauthor-before\nauthor-after\nlong-author\nnested-answer\n",
+  "stdout": "{\"weasyprint\": \"68.1\", \"rows\": [{\"case\": \"empty\", \"eligible\": true, \"passed\": true, \"pages\": 2}, {\"case\": \"wrong-question\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"wrong-fact\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"explicit-no\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"unrecognized-status\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"no-gap-class\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"missing-last\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"duplicate-last\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"wrong-order\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"author-before\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"author-after\", \"eligible\": false, \"passed\": true, \"pages\": 2}, {\"case\": \"long-author\", \"eligible\": false, \"passed\": true, \"pages\": 3}, {\"case\": \"nested-answer\", \"eligible\": false, \"passed\": true, \"pages\": 2}]}\n"
+}
