@@ -3,6 +3,8 @@ import argparse
 import json
 from pathlib import Path
 import shutil
+import subprocess
+from bs4 import BeautifulSoup
 from artifact_utils import sha
 from collect_context_review import read, verify_files
 from collect_paper_review import PROBES
@@ -14,7 +16,7 @@ KINDS=['identifier_followup','preservation','sharing','polish','format','reading
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    for name in ['baseline','variant','prior-stock','prior-tables','rebuild','english','binding-audit','contract-audit','review-document','destination']:
+    for name in ['baseline','variant','prior-stock','prior-tables','rejected','rebuild','english','binding-audit','contract-audit','review-document','destination']:
         p.add_argument('--'+name,type=Path,required=True)
     a=p.parse_args(); assert not a.destination.exists(), 'Never overwrite a review'
     packages={n:sha(a.baseline/n) for n in ['english.zip','chinese.zip']}; old_packages={n:sha(a.prior_stock/n) for n in packages}
@@ -103,7 +105,30 @@ def main():
         changed=sorted(n for n in old if old[n]!=new.get(n))
         assert old.keys()==new.keys() and changed==['src/questions/13-persistent-identifier.html.j2']
         delta[locale]={'changed_source_paths':changed,'prior_source_sha256':old,'source_sha256':new,'css_lua_reference_and_other_sources_byte_identical':True}
-    payload=(json.dumps(delta,indent=2)+'\n').encode(); keep(a.review_document,'README.md')
+    # Preserve the concrete PDF orphan found during visual review. The final
+    # page oracle must reject it, using the same fixture and unchanged wording.
+    from check_identifier_followup_outputs import check_followup_page_text
+    name='identifier-followups-english'
+    rejected_manifest=read(a.rejected,'manifest.json')
+    assert rejected_manifest['status']=='runtime-experiment' and rejected_manifest['source']['version']=='0.3.15'
+    assert rejected_manifest['source']['commit']!=source
+    fixture=read(a.rejected/'renders',name+'.pdf.fixture.json')
+    current_fixture=read(a.variant/'renders',name+'.pdf.fixture.json')
+    for key in ['recipe_sha256','events_sha256','km_sha256']: assert fixture[key]==current_fixture[key]
+    assert fixture['package_sha256']==rejected_manifest['sha256']['english.zip']
+    rejected_pdf=a.rejected/'renders'/(name+'.pdf')
+    assert read(a.rejected,'pilot-report.json')['sha256'][rejected_pdf.name]==sha(rejected_pdf)
+    soup=BeautifulSoup((a.variant/'renders'/(name+'.html')).read_text(),'html.parser')
+    try: check_followup_page_text(subprocess.check_output(['pdftotext','-layout',str(rejected_pdf),'-'],text=True),soup)
+    except AssertionError as error:
+        assert 'Heading, policy and child notices must share a page' in str(error)
+        rejected_check={'expected_layout_failure':str(error),'rejected_pdf_sha256':sha(rejected_pdf),
+                        'checker_sha256':sha(ROOT/'scripts/check_identifier_followup_outputs.py'),'release_acceptance':False}
+    else: raise AssertionError('The page oracle must reject the observed orphan')
+    keep(rejected_pdf,'rejected/'+rejected_pdf.name)
+    keep(a.rejected/'renders'/(name+'.pdf.fixture.json'),'rejected/'+name+'.pdf.fixture.json')
+    keep(a.rejected/'manifest.json','rejected/manifest.json')
+    payload=(json.dumps({'source_delta':delta,'rejected_layout_check':rejected_check},indent=2)+'\n').encode(); keep(a.review_document,'README.md')
     size=len(payload)+sum(source.stat().st_size for source,_ in copies)
     assert size<25_000_000 and len({n for _,n in copies})==len(copies)
     a.destination.mkdir(parents=True,exist_ok=False); hashes={}
