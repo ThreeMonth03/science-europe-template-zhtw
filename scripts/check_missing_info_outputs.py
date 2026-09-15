@@ -142,6 +142,10 @@ def main():
     a = p.parse_args()
     report = {'selected_checks_passed': False, 'release_acceptance': False, 'version': '0.3.20', 'rows': [],
               'checker_sha256': digest(Path(__file__)),
+              'helper_sha256': {n: digest(ROOT/'scripts'/n) for n in ['artifact_utils.py', 'compare_runtime_outputs.py',
+                  'check_narrative_outputs.py', 'check_budget_spacing_outputs.py', 'check_pdf_budget_reading_outputs.py',
+                  'check_budget_outputs.py', 'check_word_rhythm_outputs.py']},
+              'english_helper_sha256': digest(EN/'scripts/probe_pdf_budget_reading.py'),
               'package_sha256': {n: digest(a.build/n) for n in ['english.zip', 'chinese.zip']},
               'limits': ['Selected reachable missing cases, not every unanswered KM field',
                          'Native PDFs on the reviewed local Markdown-tables worker; not production deployment',
