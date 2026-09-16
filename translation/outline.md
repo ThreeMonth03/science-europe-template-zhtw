@@ -2748,7 +2748,7 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0018-see-question-5-for-archival-and-backup-arrangements-574d6fce6d/0001-see-question-5-for-archival-and-backup-arrangements-b2d29e8b74/translation.md>)
 
-- [ ] [file] src/questions/07-personal-data.html.j2 (17/28)
+- [x] [file] src/questions/07-personal-data.html.j2 (28/28)
 
   [J2] `src/questions/07-personal-data.html.j2`
 
@@ -2760,19 +2760,19 @@
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0001-7-if-personal-data-are-processed-how-will-bbdbfc0118/0001-7-if-personal-data-are-processed-how-will-bca6f7a4cb/translation.md>)
 
-    - [ ] [wrapper] 0002-information-not-provided-the-alternative-legal-basis-selected-61709a2801 (0/1)
+    - [x] [wrapper] 0002-information-not-provided-the-alternative-legal-basis-selected-61709a2801 (1/1)
 
       [W] `0002-information-not-provided-the-alternative-legal-basis-selected-61709a2801`
 
-        - [ ] [unit] 0001-information-not-provided-the-alternative-legal-basis-selected-2516e9f331: Information not provided: the alternative legal basis selected for collecting and processing personal data.
+        - [x] [unit] 0001-information-not-provided-the-alternative-legal-basis-selected-2516e9f331: Information not provided: the alternative legal basis selected for collecting and processing personal data.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0002-information-not-provided-the-alternative-legal-basis-selected-61709a2801/0001-information-not-provided-the-alternative-legal-basis-selected-2516e9f331/translation.md>)
 
-    - [ ] [wrapper] 0003-information-not-provided-the-legal-basis-for-collecting-830a14617d (0/1)
+    - [x] [wrapper] 0003-information-not-provided-the-legal-basis-for-collecting-830a14617d (1/1)
 
       [W] `0003-information-not-provided-the-legal-basis-for-collecting-830a14617d`
 
-        - [ ] [unit] 0001-information-not-provided-the-legal-basis-for-collecting-899c757bf0: Information not provided: the legal basis for collecting and processing personal data.
+        - [x] [unit] 0001-information-not-provided-the-legal-basis-for-collecting-899c757bf0: Information not provided: the legal basis for collecting and processing personal data.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0003-information-not-provided-the-legal-basis-for-collecting-830a14617d/0001-information-not-provided-the-legal-basis-for-collecting-899c757bf0/translation.md>)
 
@@ -2832,11 +2832,11 @@
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0007-the-stored-data-are-irrevocably-anonymized-634455fb86/0001-the-stored-data-are-irrevocably-anonymized-4d816fd8fd/translation.md>)
 
-    - [ ] [wrapper] 0008-the-stored-data-are-pseudonymized-844aef5425 (0/1)
+    - [x] [wrapper] 0008-the-stored-data-are-pseudonymized-844aef5425 (1/1)
 
       [W] `0008-the-stored-data-are-pseudonymized-844aef5425`
 
-        - [ ] [unit] 0001-the-stored-data-are-pseudonymized-885c7653cf: The stored data are pseudonymized.
+        - [x] [unit] 0001-the-stored-data-are-pseudonymized-885c7653cf: The stored data are pseudonymized.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0008-the-stored-data-are-pseudonymized-844aef5425/0001-the-stored-data-are-pseudonymized-885c7653cf/translation.md>)
 
@@ -2848,67 +2848,67 @@
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0009-the-stored-data-are-identifiable-042b912f1a/0001-the-stored-data-are-identifiable-f18c703b3e/translation.md>)
 
-    - [ ] [wrapper] 0010-information-not-provided-whether-the-stored-data-are-6513a3a5ac (0/1)
+    - [x] [wrapper] 0010-information-not-provided-whether-the-stored-data-are-6513a3a5ac (1/1)
 
       [W] `0010-information-not-provided-whether-the-stored-data-are-6513a3a5ac`
 
-        - [ ] [unit] 0001-information-not-provided-whether-the-stored-data-are-05bc4c98e4: Information not provided: whether the stored data are anonymized, pseudonymized, or identifiable.
+        - [x] [unit] 0001-information-not-provided-whether-the-stored-data-are-05bc4c98e4: Information not provided: whether the stored data are anonymized, pseudonymized, or identifiable.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0010-information-not-provided-whether-the-stored-data-are-6513a3a5ac/0001-information-not-provided-whether-the-stored-data-are-05bc4c98e4/translation.md>)
 
-    - [ ] [wrapper] 0011-other-technical-and-procedural-safeguards-10ff3fe6e7 (0/1)
+    - [x] [wrapper] 0011-other-technical-and-procedural-safeguards-10ff3fe6e7 (1/1)
 
       [W] `0011-other-technical-and-procedural-safeguards-10ff3fe6e7`
 
-        - [ ] [unit] 0001-other-technical-and-procedural-safeguards-1702f9c54a: Other technical and procedural safeguards:
+        - [x] [unit] 0001-other-technical-and-procedural-safeguards-1702f9c54a: Other technical and procedural safeguards:
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0011-other-technical-and-procedural-safeguards-10ff3fe6e7/0001-other-technical-and-procedural-safeguards-1702f9c54a/translation.md>)
 
-    - [ ] [wrapper] 0012-information-not-provided-details-of-any-other-technical-eff5fe198e (0/1)
+    - [x] [wrapper] 0012-information-not-provided-details-of-any-other-technical-eff5fe198e (1/1)
 
       [W] `0012-information-not-provided-details-of-any-other-technical-eff5fe198e`
 
-        - [ ] [unit] 0001-information-not-provided-details-of-any-other-technical-0983daafa5: Information not provided: details of any other technical and procedural safeguards.
+        - [x] [unit] 0001-information-not-provided-details-of-any-other-technical-0983daafa5: Information not provided: details of any other technical and procedural safeguards.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0012-information-not-provided-details-of-any-other-technical-eff5fe198e/0001-information-not-provided-details-of-any-other-technical-0983daafa5/translation.md>)
 
-    - [ ] [wrapper] 0013-we-plan-to-transfer-data-outside-the-eu-40aff8bf98 (0/1)
+    - [x] [wrapper] 0013-we-plan-to-transfer-data-outside-the-eu-40aff8bf98 (1/1)
 
       [W] `0013-we-plan-to-transfer-data-outside-the-eu-40aff8bf98`
 
-        - [ ] [unit] 0001-we-plan-to-transfer-data-outside-the-eu-fbfa4e23cc: We plan to transfer data outside the EU/EEA with the following protection measures:
+        - [x] [unit] 0001-we-plan-to-transfer-data-outside-the-eu-fbfa4e23cc: We plan to transfer data outside the EU/EEA with the following protection measures:
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0013-we-plan-to-transfer-data-outside-the-eu-40aff8bf98/0001-we-plan-to-transfer-data-outside-the-eu-fbfa4e23cc/translation.md>)
 
-    - [ ] [wrapper] 0014-we-plan-to-transfer-data-outside-the-eu-7000fcaabe (0/1)
+    - [x] [wrapper] 0014-we-plan-to-transfer-data-outside-the-eu-7000fcaabe (1/1)
 
       [W] `0014-we-plan-to-transfer-data-outside-the-eu-7000fcaabe`
 
-        - [ ] [unit] 0001-we-plan-to-transfer-data-outside-the-eu-5ef45526b5: We plan to transfer data outside the EU/EEA.
+        - [x] [unit] 0001-we-plan-to-transfer-data-outside-the-eu-5ef45526b5: We plan to transfer data outside the EU/EEA.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0014-we-plan-to-transfer-data-outside-the-eu-7000fcaabe/0001-we-plan-to-transfer-data-outside-the-eu-5ef45526b5/translation.md>)
 
-    - [ ] [wrapper] 0015-information-not-provided-the-measures-for-protecting-data-a48f00b2b4 (0/1)
+    - [x] [wrapper] 0015-information-not-provided-the-measures-for-protecting-data-a48f00b2b4 (1/1)
 
       [W] `0015-information-not-provided-the-measures-for-protecting-data-a48f00b2b4`
 
-        - [ ] [unit] 0001-information-not-provided-the-measures-for-protecting-data-24f7e0e775: Information not provided: the measures for protecting data transferred outside the EU/EEA.
+        - [x] [unit] 0001-information-not-provided-the-measures-for-protecting-data-24f7e0e775: Information not provided: the measures for protecting data transferred outside the EU/EEA.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0015-information-not-provided-the-measures-for-protecting-data-a48f00b2b4/0001-information-not-provided-the-measures-for-protecting-data-24f7e0e775/translation.md>)
 
-    - [ ] [wrapper] 0016-we-do-not-plan-to-transfer-data-outside-0d67577f07 (0/1)
+    - [x] [wrapper] 0016-we-do-not-plan-to-transfer-data-outside-0d67577f07 (1/1)
 
       [W] `0016-we-do-not-plan-to-transfer-data-outside-0d67577f07`
 
-        - [ ] [unit] 0001-we-do-not-plan-to-transfer-data-outside-5e8a949e09: We do not plan to transfer data outside the EU/EEA.
+        - [x] [unit] 0001-we-do-not-plan-to-transfer-data-outside-5e8a949e09: We do not plan to transfer data outside the EU/EEA.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0016-we-do-not-plan-to-transfer-data-outside-0d67577f07/0001-we-do-not-plan-to-transfer-data-outside-5e8a949e09/translation.md>)
 
-    - [ ] [wrapper] 0017-information-not-provided-whether-data-will-be-transferred-7e83fc0a3a (0/1)
+    - [x] [wrapper] 0017-information-not-provided-whether-data-will-be-transferred-7e83fc0a3a (1/1)
 
       [W] `0017-information-not-provided-whether-data-will-be-transferred-7e83fc0a3a`
 
-        - [ ] [unit] 0001-information-not-provided-whether-data-will-be-transferred-df18390918: Information not provided: whether data will be transferred outside the EU/EEA.
+        - [x] [unit] 0001-information-not-provided-whether-data-will-be-transferred-df18390918: Information not provided: whether data will be transferred outside the EU/EEA.
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0017-information-not-provided-whether-data-will-be-transferred-7e83fc0a3a/0001-information-not-provided-whether-data-will-be-transferred-df18390918/translation.md>)
 
@@ -3268,7 +3268,7 @@
 
           [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-this-document-does-not-yet-describe-arrangements-for-409dc01360/0001-this-document-does-not-yet-describe-arrangements-for-bd0ea785a3/translation.md>)
 
-- [ ] [file] src/questions/09-ethical-issues.html.j2 (48/50)
+- [x] [file] src/questions/09-ethical-issues.html.j2 (50/50)
 
   [J2] `src/questions/09-ethical-issues.html.j2`
 
@@ -3448,11 +3448,11 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0019-we-will-collect-data-related-to-individuals-i-08bb9eb9f9/0001-we-will-collect-data-related-to-individuals-i-992a3a4c41/translation.md>)
 
-    - [ ] [wrapper] 0020-the-stated-legal-basis-for-collecting-and-processing-4e882c439a (0/1)
+    - [x] [wrapper] 0020-the-stated-legal-basis-for-collecting-and-processing-4e882c439a (1/1)
 
       [W] `0020-the-stated-legal-basis-for-collecting-and-processing-4e882c439a`
 
-        - [ ] [unit] 0001-the-stated-legal-basis-for-collecting-and-processing-58be062656: The stated legal basis for collecting and processing personal data is public interest.
+        - [x] [unit] 0001-the-stated-legal-basis-for-collecting-and-processing-58be062656: The stated legal basis for collecting and processing personal data is public interest.
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0020-the-stated-legal-basis-for-collecting-and-processing-4e882c439a/0001-the-stated-legal-basis-for-collecting-and-processing-58be062656/translation.md>)
 
@@ -3536,11 +3536,11 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0030-we-use-a-different-legal-base-for-collection-3e995155fc/0001-we-use-a-different-legal-base-for-collection-c7a5471afa/translation.md>)
 
-    - [ ] [wrapper] 0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2 (0/1)
+    - [x] [wrapper] 0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2 (1/1)
 
       [W] `0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2`
 
-        - [ ] [unit] 0001-an-alternative-legal-basis-was-selected-but-it-63608bf06a: An alternative legal basis was selected, but it has not been specified; see Question 7.
+        - [x] [unit] 0001-an-alternative-legal-basis-was-selected-but-it-63608bf06a: An alternative legal basis was selected, but it has not been specified; see Question 7.
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2/0001-an-alternative-legal-basis-was-selected-but-it-63608bf06a/translation.md>)
 
@@ -4492,7 +4492,7 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0012-this-document-does-not-yet-identify-the-datasets-12bef983b5/0001-this-document-does-not-yet-identify-the-datasets-31a9300cd3/translation.md>)
 
-- [x] [file] src/questions/13-persistent-identifier.html.j2 (30/30)
+- [ ] [file] src/questions/13-persistent-identifier.html.j2 (27/30)
 
   [J2] `src/questions/13-persistent-identifier.html.j2`
 
@@ -4544,37 +4544,37 @@
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0004-domain-specific-repository-general-purpose-repository-national-repository-6ae6c22a20/0005-special-purpose-repository-6b7a168c22/translation.md>)
 
-    - [x] [wrapper] 0005-persistent-identifiers-will-be-assigned-f4f0080059 (1/1)
+    - [ ] [wrapper] 0005-a-project-data-steward-or-principal-investigator-will-68c84354db (0/1)
 
-      [W] `0005-persistent-identifiers-will-be-assigned-f4f0080059`
+      [W] `0005-a-project-data-steward-or-principal-investigator-will-68c84354db`
 
-        - [x] [unit] 0001-persistent-identifiers-will-be-assigned-e56ffc8618: Persistent identifiers will be assigned.
+        - [ ] [unit] 0001-a-project-data-steward-or-principal-investigator-will-8d0dae8872: A project data steward or principal investigator will assign the persistent identifier.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0005-persistent-identifiers-will-be-assigned-f4f0080059/0001-persistent-identifiers-will-be-assigned-e56ffc8618/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0005-a-project-data-steward-or-principal-investigator-will-68c84354db/0001-a-project-data-steward-or-principal-investigator-will-8d0dae8872/translation.md>)
 
-    - [x] [wrapper] 0006-a-project-data-steward-or-principal-investigator-will-ddb27f6e0e (1/1)
+    - [ ] [wrapper] 0006-an-institutional-data-steward-will-assign-the-persistent-47b5dddba7 (0/1)
 
-      [W] `0006-a-project-data-steward-or-principal-investigator-will-ddb27f6e0e`
+      [W] `0006-an-institutional-data-steward-will-assign-the-persistent-47b5dddba7`
 
-        - [x] [unit] 0001-a-project-data-steward-or-principal-investigator-will-44aacf2935: A project data steward or principal investigator will assign the persistent identifier.
+        - [ ] [unit] 0001-an-institutional-data-steward-will-assign-the-persistent-eea409d29c: An institutional data steward will assign the persistent identifier.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0006-a-project-data-steward-or-principal-investigator-will-ddb27f6e0e/0001-a-project-data-steward-or-principal-investigator-will-44aacf2935/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0006-an-institutional-data-steward-will-assign-the-persistent-47b5dddba7/0001-an-institutional-data-steward-will-assign-the-persistent-eea409d29c/translation.md>)
 
-    - [x] [wrapper] 0007-an-institutional-data-steward-will-assign-the-persistent-537c331a7c (1/1)
+    - [ ] [wrapper] 0007-the-repository-will-assign-the-persistent-identifier-b7608a0a68 (0/1)
 
-      [W] `0007-an-institutional-data-steward-will-assign-the-persistent-537c331a7c`
+      [W] `0007-the-repository-will-assign-the-persistent-identifier-b7608a0a68`
 
-        - [x] [unit] 0001-an-institutional-data-steward-will-assign-the-persistent-a77e482ab3: An institutional data steward will assign the persistent identifier.
+        - [ ] [unit] 0001-the-repository-will-assign-the-persistent-identifier-2000eb974a: The repository will assign the persistent identifier.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0007-an-institutional-data-steward-will-assign-the-persistent-537c331a7c/0001-an-institutional-data-steward-will-assign-the-persistent-a77e482ab3/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0007-the-repository-will-assign-the-persistent-identifier-b7608a0a68/0001-the-repository-will-assign-the-persistent-identifier-2000eb974a/translation.md>)
 
-    - [x] [wrapper] 0008-the-repository-will-assign-the-persistent-identifier-8bfc166145 (1/1)
+    - [x] [wrapper] 0008-persistent-identifiers-will-be-assigned-f4f0080059 (1/1)
 
-      [W] `0008-the-repository-will-assign-the-persistent-identifier-8bfc166145`
+      [W] `0008-persistent-identifiers-will-be-assigned-f4f0080059`
 
-        - [x] [unit] 0001-the-repository-will-assign-the-persistent-identifier-de58e9cd0f: The repository will assign the persistent identifier.
+        - [x] [unit] 0001-persistent-identifiers-will-be-assigned-8b8753afc4: Persistent identifiers will be assigned.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0008-the-repository-will-assign-the-persistent-identifier-8bfc166145/0001-the-repository-will-assign-the-persistent-identifier-de58e9cd0f/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0008-persistent-identifiers-will-be-assigned-f4f0080059/0001-persistent-identifiers-will-be-assigned-8b8753afc4/translation.md>)
 
     - [x] [wrapper] 0009-the-repository-will-make-sure-the-persistent-identifier-038fd55ef2 (1/1)
 

@@ -20,11 +20,11 @@ An institutional data steward will assign the persistent identifier.
 <summary>Machine metadata</summary>
 
 - Source File: `src/questions/13-persistent-identifier.html.j2`
-- Wrapper Name: `__tr_block_0006`
-- Wrapper Order: `7`
-- Wrapper Key: `an-institutional-data-steward-will-assign-the-persistent-537c331a7c`
-- Unit Key: `an-institutional-data-steward-will-assign-the-persistent-a77e482ab3`
-- Source Hash: `5d7aa143d3437fb8abb53dbe8aca318b5477caca`
+- Wrapper Name: `__tr_block_0005`
+- Wrapper Order: `6`
+- Wrapper Key: `an-institutional-data-steward-will-assign-the-persistent-47b5dddba7`
+- Unit Key: `an-institutional-data-steward-will-assign-the-persistent-eea409d29c`
+- Source Hash: `d5933b0e4b8ba8fcfe801a36a879d2651ab637a7`
 
 Do not edit this section manually.
 

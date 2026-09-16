@@ -7,24 +7,24 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-A project data steward or principal investigator will assign the persistent identifier.
+The repository will assign the persistent identifier.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-持續識別碼將由計畫的資料託管員或主持人指派。
+持續識別碼將由資料儲存庫指派。
 ~~~
 
 <details>
 <summary>Machine metadata</summary>
 
 - Source File: `src/questions/13-persistent-identifier.html.j2`
-- Wrapper Name: `__tr_block_0005`
-- Wrapper Order: `6`
-- Wrapper Key: `a-project-data-steward-or-principal-investigator-will-ddb27f6e0e`
-- Unit Key: `a-project-data-steward-or-principal-investigator-will-44aacf2935`
-- Source Hash: `10e072506c5bdf4b15ff4ce378162faac28e86b3`
+- Wrapper Name: `__tr_block_0006`
+- Wrapper Order: `7`
+- Wrapper Key: `the-repository-will-assign-the-persistent-identifier-b7608a0a68`
+- Unit Key: `the-repository-will-assign-the-persistent-identifier-2000eb974a`
+- Source Hash: `67d05a398f67623a14c6a398c6252c7926342169`
 
 Do not edit this section manually.
 

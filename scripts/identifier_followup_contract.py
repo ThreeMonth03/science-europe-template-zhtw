@@ -42,7 +42,7 @@ def warning_text(state,labels,language):
     return lead+', '.join(labels)+'.'
 
 
-def check_followups(soup,replies,ids,language):
+def check_followups(soup,replies,ids,language,concise=False):
     expected=expected_fields(replies,ids); column=0 if language=='english' else 1
     q=soup.select_one('#q-persistent-identifier'); assert q is not None
     observed=set(); total=0; warnings=[]
@@ -67,13 +67,25 @@ def check_followups(soup,replies,ids,language):
             assert node.get('data-status')==state and node.get('data-requirement-id')=='SE-5d',(key,field,'Wrong state/requirement')
             assert node.get_text()==texts[column],(key,field,'Wrong fixed wording')
             if state in ['complete','explicit-no']:
-                assert node.name=='p' and node.parent is policy
+                if concise and field=='identifier-assigner':
+                    assert node.name=='span' and node.parent.name=='p' and node.parent.parent is policy
+                    assert node.parent.attrs=={'data-fact-id':'persistent-identifier','data-status':'complete'}
+                    assert list(node.parent.children)==[node], 'Assignment sentence must express both facts alone'
+                else:
+                    assert node.name=='p' and node.parent is policy
             else:
                 assert node.name=='span' and node.parent.name=='p' and 'data-gap' in node.parent.get('class',[])
                 wrapper=node.find_parent(class_='identifier-followups')
                 assert wrapper is not None and wrapper.parent is unit
                 assert node.find_parent(class_='identifier-arrangement') is None
         expected_warnings=[]
+        if concise and fields:
+            parents=policy.select('[data-fact-id="persistent-identifier"]')
+            assert len(parents)==1 and parents[0].parent is policy and parents[0].get('data-status')=='complete'
+            known=fields['identifier-assigner'][0]=='complete'
+            if not known:
+                assert parents[0].get_text()==('Persistent identifiers will be assigned.' if language=='english' else '資料將取得持續識別碼。')
+            assert len(policy.find_all('p',recursive=False))==1+int(fields['identifier-resolution'][0] in ['complete','explicit-no'])
         for state in ['missing','needs-review']:
             labels=[fields[f][1][column] for f in FIELDS if f in fields and fields[f][0]==state]
             if labels: expected_warnings.append(warning_text(state,labels,language))
