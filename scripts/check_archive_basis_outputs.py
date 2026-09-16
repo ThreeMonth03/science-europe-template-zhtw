@@ -16,6 +16,7 @@ from check_budget_spacing_outputs import pdf_raw_page_texts
 from check_identifier_concise_outputs import formatted_characters,verified_list_suffixes
 from check_identifier_spacing_outputs import geometry
 from check_narrative_outputs import compact
+from check_pdf_budget_reading_outputs import exact_long_sequence,visible
 from check_short_budget_outputs import prompt_lines,question_pages
 from check_word_rhythm_outputs import assert_styles,inspect_preview
 from check_word_short_budget_outputs import verify_preview_paragraphs
@@ -87,6 +88,24 @@ def word_delta(before,after,old_texts,new_text):
             'immediate_successor_equivalent_style':style_transition}
 
 
+def without_continuation_headers(pages,soup):
+    """Exclude verified repeat prefixes only; the original header/identity stays."""
+    if not soup.select('#q-required-resources .answer-detail') or 'BUDGET-PARA-' not in soup.select_one('#q-required-resources').get_text():
+        return pages,0
+    count=exact_long_sequence(pages,soup)
+    table=soup.select_one('.resource-table');cells=table.select_one('tbody > tr').find_all('td',recursive=False)
+    prefix=compact(visible(table.thead)+visible(cells[0].find('p',recursive=False))+''.join(visible(c) for c in cells[1:]))
+    heading=compact(soup.select_one('#q-required-resources h4').get_text())
+    start=next(i for i,page in enumerate(pages) if heading in page)
+    result=list(pages);removed=0
+    for i in range(start+1,len(pages)):
+        if 'BUDGET-PARA-' in pages[i]:
+            assert pages[i].startswith(prefix)
+            result[i]=pages[i][len(prefix):];removed+=1
+    assert removed==count
+    return result,count
+
+
 def pdf_delta(old,new,before,after,old_texts,new_text):
     a,b=[pdf_raw_page_texts(p) for p in [old,new]]
     if old_texts:
@@ -98,6 +117,9 @@ def pdf_delta(old,new,before,after,old_texts,new_text):
         removed=old_markers-new_markers
         assert not new_markers-old_markers
         assert sorted(text for (text,x),count in removed.items() for _ in range(count))==sorted('•'+compact(t) for t in old_texts[1:])
+        old_clean,old_headers=without_continuation_headers(old_clean,before)
+        new_clean,new_headers=without_continuation_headers(new_clean,after)
+        assert old_headers==new_headers,'Repeated budget header count changed'
         left=''.join(question_pages(old_clean,before));right=''.join(question_pages(new_clean,after))
         prefix,tail=left.split(heading,1)
         next_heading=compact(before.select_one('#q-access-data h3').get_text())
@@ -105,7 +127,8 @@ def pdf_delta(old,new,before,after,old_texts,new_text):
         previous=compact(''.join(old_texts));assert middle.count(previous)==1
         middle=middle.replace(previous,compact(new_text),1)
         assert prefix+heading+middle+next_heading+suffix==right,'Unexpected PDF body text/punctuation change'
-        return {'removed_generated_bullets':sum(removed.values()),'remaining_bound_bullets':sum(new_markers.values())}
+        return {'removed_generated_bullets':sum(removed.values()),'remaining_bound_bullets':sum(new_markers.values()),
+                'verified_budget_continuation_headers':new_headers}
     assert question_pages(a,before)==question_pages(b,after),'Control PDF text changed'
     assert geometry(old)==geometry(new),'Control PDF geometry changed'
     return {'unchanged_control_geometry':True}
@@ -122,7 +145,8 @@ def main():
     target=a.output or a.build/'archive-basis-report.json';assert not target.exists()
     helpers=['check_budget_outputs.py','check_budget_spacing_outputs.py','check_identifier_concise_outputs.py',
              'check_identifier_spacing_outputs.py','check_narrative_outputs.py','check_short_budget_outputs.py',
-             'check_word_rhythm_outputs.py','check_word_short_budget_outputs.py','check_missing_info_outputs.py']
+             'check_word_rhythm_outputs.py','check_word_short_budget_outputs.py','check_missing_info_outputs.py',
+             'check_pdf_budget_reading_outputs.py']
     report={'selected_checks_passed':False,'release_acceptance':False,'rows':[],
             'checker_sha256':sha(Path(__file__)),'contract_sha256':sha(a.english/'scripts/archive_basis_contract.py'),
             'helper_sha256':{n:sha(Path(__file__).with_name(n)) for n in helpers},
