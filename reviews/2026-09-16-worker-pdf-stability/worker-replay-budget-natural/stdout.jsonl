@@ -1,0 +1,27 @@
+{"event": "environment", "versions": {"weasyprint": "68.1", "cffi": "2.0.0", "pydyf": "0.12.1", "fonttools": "4.62.1"}, "python": "3.13.13 (main, Apr 15 2026, 20:48:03) [GCC 15.2.0]", "conversion_sha256": "95d11d5d00b837bd734bca5a0aa0eefacc5c671089915d39a2e69a79dc6b08fa", "gc_threshold": [2000, 10, 10], "gc_policy": "natural"}
+{"event": "render-start", "iteration": 1, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 1, "source": "budget-many-chinese.html", "seconds": 4.081, "bytes": 165424, "pdf_sha256": "90470dfbc7ebb29b79a274bd4478dbcc6a64a1c5e3c7dd3732c8080c5a85922f", "rss_max_kib": 404756}
+{"event": "render-start", "iteration": 2, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 2, "source": "budget-many-chinese.html", "seconds": 4.136, "bytes": 165424, "pdf_sha256": "af643bc2f0b1514dd79b2c7cdb78b336e21c559815db13d298fe2fcd05a243c8", "rss_max_kib": 534476}
+{"event": "render-start", "iteration": 3, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 3, "source": "budget-many-chinese.html", "seconds": 4.335, "bytes": 165423, "pdf_sha256": "8fefee7db5d053c800a070868732fbcfc66466da1c736bc714237e43dfe52c02", "rss_max_kib": 543100}
+{"event": "render-start", "iteration": 4, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 4, "source": "budget-many-chinese.html", "seconds": 4.162, "bytes": 165421, "pdf_sha256": "658951aadb21e8d6a6c7eaf27b323d6415550112ed055ebbadc73e075a431176", "rss_max_kib": 543100}
+{"event": "render-start", "iteration": 5, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 5, "source": "budget-many-chinese.html", "seconds": 4.247, "bytes": 165424, "pdf_sha256": "33bfe00fc50885e2686dacd89cb122603d8a60dab2a71eb3f60d26b97ffce77b", "rss_max_kib": 543100}
+{"event": "render-start", "iteration": 6, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 6, "source": "budget-many-chinese.html", "seconds": 4.222, "bytes": 165424, "pdf_sha256": "5b8eda0e328af543ec3d16da547092f04c6fe8e94ed32b7f715bd34065c260c5", "rss_max_kib": 543100}
+{"event": "render-start", "iteration": 7, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 7, "source": "budget-many-chinese.html", "seconds": 4.29, "bytes": 165424, "pdf_sha256": "19b237c4d4688d08e1c9594d7957f1155f51fcf68d373c4a0cfc232b5460fdae", "rss_max_kib": 543100}
+{"event": "render-start", "iteration": 8, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 8, "source": "budget-many-chinese.html", "seconds": 4.38, "bytes": 165424, "pdf_sha256": "de7412903dae72d4c4ad93ddadbb803adb384d900b5f6ffb0753e4f0a2d79e7d", "rss_max_kib": 543100}
+{"event": "render-start", "iteration": 9, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 9, "source": "budget-many-chinese.html", "seconds": 4.454, "bytes": 165424, "pdf_sha256": "7d0663d8a7f51b87f5023a46fd4fdac928588226e91ca1352d107fe39958efa9", "rss_max_kib": 543100}
+{"event": "render-start", "iteration": 10, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 10, "source": "budget-many-chinese.html", "seconds": 4.522, "bytes": 165423, "pdf_sha256": "0dd03732db0a8375fd1f52348d4bd8f6e5bf343e3411ad3c38fe4881b42d5bff", "rss_max_kib": 543100}
+{"event": "render-start", "iteration": 11, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 11, "source": "budget-many-chinese.html", "seconds": 4.672, "bytes": 165421, "pdf_sha256": "cb401a7a9256fe89f2983efbf6b5d7c285d91587d5747d54dfd5fd9236ff3c85", "rss_max_kib": 543100}
+{"event": "render-start", "iteration": 12, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 12, "source": "budget-many-chinese.html", "seconds": 4.233, "bytes": 165421, "pdf_sha256": "c113cf212217444add70d6ac7b178a8a813ca4a88107b438025b3801f7ae0582", "rss_max_kib": 543152}
+{"event": "final-gc-start"}
+{"event": "complete", "renders": 12, "final_collected": 72981}

@@ -1,0 +1,6 @@
+**
+!experiments/
+!experiments/markdown-tables/
+!experiments/markdown-tables/patch_worker.py
+!experiments/worker-pdf-stability/
+!experiments/worker-pdf-stability/patch_fonts.py

@@ -73,6 +73,10 @@ partial 中文 PDF 5 → 4 頁，缺幣別提示中文 2 → 1 行、英文 4 �
 Word 不變，但其短預算提示折行仍待修。初版 autoescape 失敗與修正版重測
 分開保存；另有本機 worker exit 139 後同映像恢復紀錄，根因仍待查，不算
 正式發布驗收。731 個翻譯檔不變，不另維護中文 Jinja。
+後續 [worker 字型穩定性診斷](docs/worker-pdf-stability.md) 沒有重現 exit 139：
+80 次隔離 PDF 轉換、20 次字型探針均完成；最小修補前後 28 組 PDF 的
+文字座標、連結及頁面影像一致。僅為獨立 runtime 實驗，未換用原生 worker，
+不宣稱根因已解決，也不替代原生成品與 Word 驗收；模板仍為 0.3.25。
 中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯
 維護在英文 repo。翻譯來源是 `translation/**/translation.md`。
 

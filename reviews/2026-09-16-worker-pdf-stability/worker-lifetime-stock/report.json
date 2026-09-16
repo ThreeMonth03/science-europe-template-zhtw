@@ -1,0 +1,57 @@
+{
+  "diagnostic_only": true,
+  "release_acceptance": false,
+  "completed_without_crash": true,
+  "returncode": 0,
+  "seconds": 5.142,
+  "container_state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-16T00:56:49.137643576Z",
+    "FinishedAt": "2026-09-16T00:56:54.059318974Z"
+  },
+  "probe": "font-lifetime",
+  "timed_out": false,
+  "timeout_seconds": 120,
+  "image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "image_id": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "sequence": [
+    "PilotTC.ttf",
+    "PilotTC.ttf",
+    "PilotTC.ttf",
+    "PilotTC.ttf",
+    "PilotTC.ttf",
+    "PilotTC.ttf",
+    "PilotTC.ttf",
+    "PilotTC.ttf",
+    "PilotTC.ttf",
+    "PilotTC.ttf"
+  ],
+  "completed_iterations": 10,
+  "gc_policy": "natural",
+  "source_sha256": {
+    "PilotTC.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+  },
+  "runner_sha256": "905aca8f2b17a2af469f8afdcc8664a5693e42741d170759bfee70572f95f406",
+  "checker_sha256": "40582eca6c8fd7a01d01c96da8d44fe85ec2aa0daf07968b7418bfa5ee6e0e3a",
+  "artifacts_sha256": {
+    "replay.py": "905aca8f2b17a2af469f8afdcc8664a5693e42741d170759bfee70572f95f406",
+    "probe_worker_pdf_lifecycle.py": "40582eca6c8fd7a01d01c96da8d44fe85ec2aa0daf07968b7418bfa5ee6e0e3a",
+    "settings.json": "c7e7b97fbe4f792a64cb808a757d8140b4e3b3b37fa53a69e44b00b411c3888d",
+    "stdout.jsonl": "1def1655c657a4f916594cc0ed5bf6c5788df7cf6974a71e7cfa5aa3fb060161",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "limits": [
+    "Frozen HTML exports, not captured PDF-entry HTML or full DSW queue replay",
+    "No network, keyring, database, S3, private configuration or host home mount",
+    "A clean bounded replay does not establish absence of an intermittent crash"
+  ],
+  "stopped_probe_container_removed": true
+}

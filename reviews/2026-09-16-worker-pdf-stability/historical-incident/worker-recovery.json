@@ -1,0 +1,28 @@
+{
+  "same_image_verified": true,
+  "worker_image_id": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+  "reviewed_worker_source_sha256": "bc8d1d61f42265b8e7219c34f9fd6b4d4b3ad988297018b67545d2a7ba731c19",
+  "running_state": {
+    "Status": "running",
+    "Running": true,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 2888527,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-16T00:33:18.503455933Z",
+    "FinishedAt": "2026-09-16T00:31:34.040384742Z"
+  },
+  "all_42_original_requests_completed": true,
+  "last_request": {
+    "case": "budget-many",
+    "language": "chinese",
+    "format": "docx",
+    "rendered": true
+  },
+  "render_report_sha256": "a5943112a941fe4de9b716e2182a32adda6b3f413613f83f41a6f1a5c5ff699c",
+  "root_cause_fixed": false,
+  "release_acceptance": false
+}

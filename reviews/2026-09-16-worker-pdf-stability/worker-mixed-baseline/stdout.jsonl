@@ -1,0 +1,115 @@
+{"event": "environment", "versions": {"weasyprint": "68.1", "cffi": "2.0.0", "pydyf": "0.12.1", "fonttools": "4.62.1"}, "python": "3.13.13 (main, Apr 15 2026, 20:48:03) [GCC 15.2.0]", "conversion_sha256": "95d11d5d00b837bd734bca5a0aa0eefacc5c671089915d39a2e69a79dc6b08fa", "gc_threshold": [2000, 10, 10], "gc_policy": "after-each"}
+{"event": "render-start", "iteration": 1, "source": "empty-english.html", "source_sha256": "66ca090da01f450674f2622e9587f6da57d47c447f8456c8c99dfcff9a497610"}
+{"event": "render-complete", "iteration": 1, "source": "empty-english.html", "seconds": 3.438, "bytes": 27534, "pdf_sha256": "6cd1aeb03ff2c5562f2402c092f466676eb3eabdba74f7f36c053da270b99750", "rss_max_kib": 310508}
+{"event": "gc-start", "iteration": 1}
+{"event": "gc-complete", "iteration": 1, "collected": 66114}
+{"event": "render-start", "iteration": 2, "source": "empty-chinese.html", "source_sha256": "2859c0086bb61c4d267401319f0e1652da96eb56897db7be482ac18417174254"}
+{"event": "render-complete", "iteration": 2, "source": "empty-chinese.html", "seconds": 3.73, "bytes": 92378, "pdf_sha256": "ee5aa87440bc4da16b513981f17c94b88bc3b373866dd36b3dc64baf8aa96a1d", "rss_max_kib": 385892}
+{"event": "gc-start", "iteration": 2}
+{"event": "gc-complete", "iteration": 2, "collected": 69674}
+{"event": "render-start", "iteration": 3, "source": "negative-english.html", "source_sha256": "da3d46e889520605137a130ea1f3b0ecb0a81c6a76625361917df32027f5c665"}
+{"event": "render-complete", "iteration": 3, "source": "negative-english.html", "seconds": 3.169, "bytes": 27370, "pdf_sha256": "72bfaf79fae5e3d9e26df0673394e969bce3dd807715173f40ae9ac0d4a5ba8d", "rss_max_kib": 385892}
+{"event": "gc-start", "iteration": 3}
+{"event": "gc-complete", "iteration": 3, "collected": 65982}
+{"event": "render-start", "iteration": 4, "source": "negative-chinese.html", "source_sha256": "2480170068b6435c1cfd5ed27ec0255eacdaedad4cf93bfa692166319b645863"}
+{"event": "render-complete", "iteration": 4, "source": "negative-chinese.html", "seconds": 4.18, "bytes": 94379, "pdf_sha256": "f3e0b4599d30b00228d414c78f1e7423edbe04bd7504ceb7fbeee8ef423e621e", "rss_max_kib": 391304}
+{"event": "gc-start", "iteration": 4}
+{"event": "gc-complete", "iteration": 4, "collected": 69596}
+{"event": "render-start", "iteration": 5, "source": "partial-english.html", "source_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f"}
+{"event": "render-complete", "iteration": 5, "source": "partial-english.html", "seconds": 3.455, "bytes": 32650, "pdf_sha256": "f88923940689f57bc4970506db328b828471c493da2ca0b97ecb5118dafb9f6b", "rss_max_kib": 391304}
+{"event": "gc-start", "iteration": 5}
+{"event": "gc-complete", "iteration": 5, "collected": 5039}
+{"event": "render-start", "iteration": 6, "source": "partial-chinese.html", "source_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4"}
+{"event": "render-complete", "iteration": 6, "source": "partial-chinese.html", "seconds": 4.077, "bytes": 119837, "pdf_sha256": "1b94552ec7d095afd46298726d2f0c77337330c5078ec41d947949fc45b1af5f", "rss_max_kib": 391304}
+{"event": "gc-start", "iteration": 6}
+{"event": "gc-complete", "iteration": 6, "collected": 56407}
+{"event": "render-start", "iteration": 7, "source": "personal-transfer-complete-english.html", "source_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473"}
+{"event": "render-complete", "iteration": 7, "source": "personal-transfer-complete-english.html", "seconds": 3.691, "bytes": 43955, "pdf_sha256": "21910b08e86ecd643ac1b1e555f3afab294aff9ceaa195851bb9ebacfd28c9b6", "rss_max_kib": 425296}
+{"event": "gc-start", "iteration": 7}
+{"event": "gc-complete", "iteration": 7, "collected": 30319}
+{"event": "render-start", "iteration": 8, "source": "personal-transfer-complete-chinese.html", "source_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca"}
+{"event": "render-complete", "iteration": 8, "source": "personal-transfer-complete-chinese.html", "seconds": 4.688, "bytes": 174097, "pdf_sha256": "d0a29eb5b4df58e2c546d718bc28c94111e0dbca85ef69fc95b64a166998d665", "rss_max_kib": 456584}
+{"event": "gc-start", "iteration": 8}
+{"event": "gc-complete", "iteration": 8, "collected": 29165}
+{"event": "render-start", "iteration": 9, "source": "budget-long-no-currency-english.html", "source_sha256": "fb18c1e434272517a9e97ef82dda1e2c870f555b6ac8bc40f3cd8ebd4feb70dc"}
+{"event": "render-complete", "iteration": 9, "source": "budget-long-no-currency-english.html", "seconds": 3.844, "bytes": 46972, "pdf_sha256": "513815857edc8957f1f98ce791cb83b6f217d2203d470c443e244141203f779c", "rss_max_kib": 456584}
+{"event": "gc-start", "iteration": 9}
+{"event": "gc-complete", "iteration": 9, "collected": 33372}
+{"event": "render-start", "iteration": 10, "source": "budget-long-no-currency-chinese.html", "source_sha256": "f4f723814b0ef60c90f96950438a434f86d2ba75ca9088d4b31143a07a444d0f"}
+{"event": "render-complete", "iteration": 10, "source": "budget-long-no-currency-chinese.html", "seconds": 4.723, "bytes": 168677, "pdf_sha256": "15fd696d2937e62b7dbb0a80e6f66d832f3e4c1020650759b2716c27a54b6235", "rss_max_kib": 457828}
+{"event": "gc-start", "iteration": 10}
+{"event": "gc-complete", "iteration": 10, "collected": 31842}
+{"event": "render-start", "iteration": 11, "source": "budget-mixed-gaps-english.html", "source_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139"}
+{"event": "render-complete", "iteration": 11, "source": "budget-mixed-gaps-english.html", "seconds": 3.84, "bytes": 43539, "pdf_sha256": "4ea6f6c5e6dcb5ebe087e98b1466f5ecbd1b0dd34cdbdae899ed1923dc7e0a27", "rss_max_kib": 457828}
+{"event": "gc-start", "iteration": 11}
+{"event": "gc-complete", "iteration": 11, "collected": 9214}
+{"event": "render-start", "iteration": 12, "source": "budget-mixed-gaps-chinese.html", "source_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606"}
+{"event": "render-complete", "iteration": 12, "source": "budget-mixed-gaps-chinese.html", "seconds": 4.793, "bytes": 167785, "pdf_sha256": "edffc25a4209ca2e9cbc2d60de7f42d1f8e0f0ef092e05d250d4f9fc31b1d0fe", "rss_max_kib": 458656}
+{"event": "gc-start", "iteration": 12}
+{"event": "gc-complete", "iteration": 12, "collected": 29317}
+{"event": "render-start", "iteration": 13, "source": "budget-many-english.html", "source_sha256": "40ef71caae5ea529cc4d4f7d80fa225af8b8a6d8043e8ee668e932bd2a66ba46"}
+{"event": "render-complete", "iteration": 13, "source": "budget-many-english.html", "seconds": 3.919, "bytes": 44272, "pdf_sha256": "5d8c05c85d54b40b2bf7de2ca23d8c8b4a6774bfc4b1117aed3ae0209aa910f8", "rss_max_kib": 458656}
+{"event": "gc-start", "iteration": 13}
+{"event": "gc-complete", "iteration": 13, "collected": 32381}
+{"event": "render-start", "iteration": 14, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 14, "source": "budget-many-chinese.html", "seconds": 4.707, "bytes": 165424, "pdf_sha256": "20eeb1549f4fbdf55cec41b2ff54efa478aa0d93a842baa3dbecb48a842f9c5b", "rss_max_kib": 458976}
+{"event": "gc-start", "iteration": 14}
+{"event": "gc-complete", "iteration": 14, "collected": 30776}
+{"event": "render-start", "iteration": 15, "source": "empty-english.html", "source_sha256": "66ca090da01f450674f2622e9587f6da57d47c447f8456c8c99dfcff9a497610"}
+{"event": "render-complete", "iteration": 15, "source": "empty-english.html", "seconds": 3.58, "bytes": 27533, "pdf_sha256": "8eef85d920ebd1683d5eb7db4ff62b7103a04ccfdbc39e044071c50a497a7d23", "rss_max_kib": 458976}
+{"event": "gc-start", "iteration": 15}
+{"event": "gc-complete", "iteration": 15, "collected": 66239}
+{"event": "render-start", "iteration": 16, "source": "empty-chinese.html", "source_sha256": "2859c0086bb61c4d267401319f0e1652da96eb56897db7be482ac18417174254"}
+{"event": "render-complete", "iteration": 16, "source": "empty-chinese.html", "seconds": 4.211, "bytes": 92378, "pdf_sha256": "52b36f2cf16ce47121eab0a9d0cb14a9c2c7776ebbc85f256071bec9536c0437", "rss_max_kib": 458976}
+{"event": "gc-start", "iteration": 16}
+{"event": "gc-complete", "iteration": 16, "collected": 69674}
+{"event": "render-start", "iteration": 17, "source": "negative-english.html", "source_sha256": "da3d46e889520605137a130ea1f3b0ecb0a81c6a76625361917df32027f5c665"}
+{"event": "render-complete", "iteration": 17, "source": "negative-english.html", "seconds": 3.46, "bytes": 27370, "pdf_sha256": "25eaf488bab4620de89789395646e6ac555e3869d142c41c9ccc4e074ed81b4a", "rss_max_kib": 458976}
+{"event": "gc-start", "iteration": 17}
+{"event": "gc-complete", "iteration": 17, "collected": 65982}
+{"event": "render-start", "iteration": 18, "source": "negative-chinese.html", "source_sha256": "2480170068b6435c1cfd5ed27ec0255eacdaedad4cf93bfa692166319b645863"}
+{"event": "render-complete", "iteration": 18, "source": "negative-chinese.html", "seconds": 4.196, "bytes": 94384, "pdf_sha256": "993f17a5928a33198eecec1d01fb562d3ae9e944301adf50f3de3bdbd760e33e", "rss_max_kib": 458976}
+{"event": "gc-start", "iteration": 18}
+{"event": "gc-complete", "iteration": 18, "collected": 69596}
+{"event": "render-start", "iteration": 19, "source": "partial-english.html", "source_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f"}
+{"event": "render-complete", "iteration": 19, "source": "partial-english.html", "seconds": 3.662, "bytes": 32647, "pdf_sha256": "fe4c3c1779224180ae96c710f5dd6e57947394633d5d9e1a75d04cfc07109932", "rss_max_kib": 458976}
+{"event": "gc-start", "iteration": 19}
+{"event": "gc-complete", "iteration": 19, "collected": 5039}
+{"event": "render-start", "iteration": 20, "source": "partial-chinese.html", "source_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4"}
+{"event": "render-complete", "iteration": 20, "source": "partial-chinese.html", "seconds": 5.137, "bytes": 119838, "pdf_sha256": "ab8e567de555fa84ab925d3c2ca70b348c7427f5ca3dd1fbf24ed54a540d52a9", "rss_max_kib": 458976}
+{"event": "gc-start", "iteration": 20}
+{"event": "gc-complete", "iteration": 20, "collected": 56407}
+{"event": "render-start", "iteration": 21, "source": "personal-transfer-complete-english.html", "source_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473"}
+{"event": "render-complete", "iteration": 21, "source": "personal-transfer-complete-english.html", "seconds": 3.84, "bytes": 43960, "pdf_sha256": "2be0d6c8f5d990b0857ad90d7fd4a527523e8e79c642948c1c02b5d4ca91b556", "rss_max_kib": 458976}
+{"event": "gc-start", "iteration": 21}
+{"event": "gc-complete", "iteration": 21, "collected": 30319}
+{"event": "render-start", "iteration": 22, "source": "personal-transfer-complete-chinese.html", "source_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca"}
+{"event": "render-complete", "iteration": 22, "source": "personal-transfer-complete-chinese.html", "seconds": 4.727, "bytes": 174096, "pdf_sha256": "4cb162b73026e667f8ea8fc24ff7bb5d25148b816b2d4569d36a255b216d255d", "rss_max_kib": 459076}
+{"event": "gc-start", "iteration": 22}
+{"event": "gc-complete", "iteration": 22, "collected": 29165}
+{"event": "render-start", "iteration": 23, "source": "budget-long-no-currency-english.html", "source_sha256": "fb18c1e434272517a9e97ef82dda1e2c870f555b6ac8bc40f3cd8ebd4feb70dc"}
+{"event": "render-complete", "iteration": 23, "source": "budget-long-no-currency-english.html", "seconds": 3.943, "bytes": 46975, "pdf_sha256": "18024ee04f069612445910dbf0b8d3fe0d1e63704114d5b838a2a955c167639d", "rss_max_kib": 459076}
+{"event": "gc-start", "iteration": 23}
+{"event": "gc-complete", "iteration": 23, "collected": 33372}
+{"event": "render-start", "iteration": 24, "source": "budget-long-no-currency-chinese.html", "source_sha256": "f4f723814b0ef60c90f96950438a434f86d2ba75ca9088d4b31143a07a444d0f"}
+{"event": "render-complete", "iteration": 24, "source": "budget-long-no-currency-chinese.html", "seconds": 4.771, "bytes": 168681, "pdf_sha256": "e2b9f9b80db7d54cf6f578398d51dc93bcd00b9ca4a10def87dcc6d7f746c0a5", "rss_max_kib": 462332}
+{"event": "gc-start", "iteration": 24}
+{"event": "gc-complete", "iteration": 24, "collected": 31842}
+{"event": "render-start", "iteration": 25, "source": "budget-mixed-gaps-english.html", "source_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139"}
+{"event": "render-complete", "iteration": 25, "source": "budget-mixed-gaps-english.html", "seconds": 3.856, "bytes": 43541, "pdf_sha256": "de3aaaa169a310269af53b85685300688bb4412e451c0d2df6608a92e910589a", "rss_max_kib": 462332}
+{"event": "gc-start", "iteration": 25}
+{"event": "gc-complete", "iteration": 25, "collected": 9214}
+{"event": "render-start", "iteration": 26, "source": "budget-mixed-gaps-chinese.html", "source_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606"}
+{"event": "render-complete", "iteration": 26, "source": "budget-mixed-gaps-chinese.html", "seconds": 6.858, "bytes": 167790, "pdf_sha256": "0aaa986f3b6f01992a7bf697cf8db60bf5cb7e390da4384f22631da0f84e3c4c", "rss_max_kib": 462332}
+{"event": "gc-start", "iteration": 26}
+{"event": "gc-complete", "iteration": 26, "collected": 29317}
+{"event": "render-start", "iteration": 27, "source": "budget-many-english.html", "source_sha256": "40ef71caae5ea529cc4d4f7d80fa225af8b8a6d8043e8ee668e932bd2a66ba46"}
+{"event": "render-complete", "iteration": 27, "source": "budget-many-english.html", "seconds": 7.736, "bytes": 44271, "pdf_sha256": "705e127cd281992918d7a19d58c43a28c94614009eef3bc6eadf712c1a07b5db", "rss_max_kib": 462332}
+{"event": "gc-start", "iteration": 27}
+{"event": "gc-complete", "iteration": 27, "collected": 32381}
+{"event": "render-start", "iteration": 28, "source": "budget-many-chinese.html", "source_sha256": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"}
+{"event": "render-complete", "iteration": 28, "source": "budget-many-chinese.html", "seconds": 9.001, "bytes": 165429, "pdf_sha256": "3b2c2851dfb1c35b570e8d120bdf2ef6e16bb41ee1e4a29316e87309295a7a1a", "rss_max_kib": 462332}
+{"event": "gc-start", "iteration": 28}
+{"event": "gc-complete", "iteration": 28, "collected": 30776}
+{"event": "final-gc-start"}
+{"event": "complete", "renders": 28, "final_collected": 0}

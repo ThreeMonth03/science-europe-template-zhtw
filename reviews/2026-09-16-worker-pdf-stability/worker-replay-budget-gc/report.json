@@ -1,0 +1,56 @@
+{
+  "diagnostic_only": true,
+  "release_acceptance": false,
+  "completed_without_crash": true,
+  "returncode": 0,
+  "seconds": 52.396,
+  "container_state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 0,
+    "Error": "",
+    "StartedAt": "2026-09-16T00:50:07.927446817Z",
+    "FinishedAt": "2026-09-16T00:51:00.119309858Z"
+  },
+  "image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "image_id": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "sequence": [
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html",
+    "budget-many-chinese.html"
+  ],
+  "completed_renders": 12,
+  "gc_policy": "after-each",
+  "source_sha256": {
+    "budget-many-chinese.html": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663"
+  },
+  "runner_sha256": "acfcf1a69fe49203a9431920077459b425492c0e3a664521d949d20ecb0d141a",
+  "checker_sha256": "0f2d5d473b1038cd83dced682191c074e5cb04d9e187c711c5134e85943242bb",
+  "artifacts_sha256": {
+    "sample-012.pdf": "c295298d300ec644bfb80f767210b16f1fa7e44b32d96d18521f8fd5be656872",
+    "settings.json": "02e361560b8dadc43d3099d18efca0442a99a0faaaae5880b532c230c484be21",
+    "stdout.jsonl": "f3b8489a8b08eccbb5d65136de3ba5e0088efd9e3eb0cb727a832ecf82d56c8d",
+    "sample-001.pdf": "4ff7e114be87981606064aac0b0f0626b885c6f6e9ddf82954188d5d4297a0f6",
+    "stderr.txt": "5a813f1a77833e8009458d9de7eccdc2b22193abf4c44840b6b30c8b9ea71eac"
+  },
+  "limits": [
+    "Frozen HTML exports, not captured PDF-entry HTML or full DSW queue replay",
+    "No network, keyring, database, S3, private configuration or host home mount",
+    "A clean bounded replay does not establish absence of an intermittent crash"
+  ],
+  "stopped_probe_container_removed": true
+}

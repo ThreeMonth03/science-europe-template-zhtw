@@ -1,0 +1,1091 @@
+{
+  "selected_checks_passed": true,
+  "diagnostic_only": true,
+  "release_acceptance": false,
+  "checker_sha256": "462f9ce3eb99420a61955dbb4ff5506b918fe1dd15dd660be74fbb679d52c80a",
+  "baseline_report_sha256": "03c4344381117890400df88ecd00bbaef08cf90e8aee3615abfd8b5ad12c8b54",
+  "patched_report_sha256": "f381f6bb7074b45a4f9e219cd8749ae58ac74b7df58dbb73afabe61884935bf1",
+  "rows": [
+    {
+      "iteration": 1,
+      "source": "empty-english.html",
+      "baseline_sha256": "6cd1aeb03ff2c5562f2402c092f466676eb3eabdba74f7f36c053da270b99750",
+      "patched_sha256": "fa10a681f3b9a302b3d023c155c1bd035cf2a2e4275be65ca8fe0c1fa4428fdc",
+      "baseline": {
+        "pages": 4,
+        "word_count": 729,
+        "geometry_sha256": "42bcb9b1ddb82c46810ed0f21f29a870b1f5299c0bc0c0da212f329085390f1b",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "8dd8f7204c8afba9f2bef8d58f24a5fc5aaf017d4c432f5f2683a7b260f1a357",
+        "page_png_sha256": {
+          "page-1.png": "29d837bbe70da2cf55c7e8b20f3db85b73067747ff5e65aced0388780ef67f1e",
+          "page-2.png": "6ba3e441443d119328826ab013ae4df46e839adce902f237abdca581be0452ce",
+          "page-3.png": "4c670d7fd352051cdc746ed7c651b67d14b31925dca589191995d964bd3d5b78",
+          "page-4.png": "7767f37a3ef6e62b392494073f67223e25a0d256f654e08eccb0da6c3eefb30c"
+        }
+      },
+      "patched": {
+        "pages": 4,
+        "word_count": 729,
+        "geometry_sha256": "42bcb9b1ddb82c46810ed0f21f29a870b1f5299c0bc0c0da212f329085390f1b",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "8dd8f7204c8afba9f2bef8d58f24a5fc5aaf017d4c432f5f2683a7b260f1a357",
+        "page_png_sha256": {
+          "page-1.png": "29d837bbe70da2cf55c7e8b20f3db85b73067747ff5e65aced0388780ef67f1e",
+          "page-2.png": "6ba3e441443d119328826ab013ae4df46e839adce902f237abdca581be0452ce",
+          "page-3.png": "4c670d7fd352051cdc746ed7c651b67d14b31925dca589191995d964bd3d5b78",
+          "page-4.png": "7767f37a3ef6e62b392494073f67223e25a0d256f654e08eccb0da6c3eefb30c"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 2,
+      "source": "empty-chinese.html",
+      "baseline_sha256": "ee5aa87440bc4da16b513981f17c94b88bc3b373866dd36b3dc64baf8aa96a1d",
+      "patched_sha256": "f84d90c9278ebfb76b1d702379d715bbcd6c2dfc4c72211a669eaeb7926a7611",
+      "baseline": {
+        "pages": 3,
+        "word_count": 113,
+        "geometry_sha256": "d4e692830b6e486ac49cc4f463833b275e4c01bd26d4fbdb045dae1dbfa29ff1",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "b8c4462d49156b5356afadd16a46a1a9fe9109fc6551335679fe9c371da657f5",
+        "page_png_sha256": {
+          "page-1.png": "26256e64b9bc85f02eba568e087e49b77da95fb9592235039c60d01a7d0393ad",
+          "page-2.png": "4357b4319ad5a96936feef77289fd6d4a54c6dad691a09b5a6425a0457789c62",
+          "page-3.png": "cc2b05177770cdf08f81b6732a66406ddf0b75310bf119fdf70d5c532f04e7f5"
+        }
+      },
+      "patched": {
+        "pages": 3,
+        "word_count": 113,
+        "geometry_sha256": "d4e692830b6e486ac49cc4f463833b275e4c01bd26d4fbdb045dae1dbfa29ff1",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "b8c4462d49156b5356afadd16a46a1a9fe9109fc6551335679fe9c371da657f5",
+        "page_png_sha256": {
+          "page-1.png": "26256e64b9bc85f02eba568e087e49b77da95fb9592235039c60d01a7d0393ad",
+          "page-2.png": "4357b4319ad5a96936feef77289fd6d4a54c6dad691a09b5a6425a0457789c62",
+          "page-3.png": "cc2b05177770cdf08f81b6732a66406ddf0b75310bf119fdf70d5c532f04e7f5"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 3,
+      "source": "negative-english.html",
+      "baseline_sha256": "72bfaf79fae5e3d9e26df0673394e969bce3dd807715173f40ae9ac0d4a5ba8d",
+      "patched_sha256": "1b710921d53497f724d1a300c9ca27267600444f2910f27cbe8509eebcdf93f6",
+      "baseline": {
+        "pages": 4,
+        "word_count": 722,
+        "geometry_sha256": "3e54d5e45837b3c418bf62aa7f7d75097b3c6ddab7ee1d1f8bddc34df7cbf92f",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "8dd8f7204c8afba9f2bef8d58f24a5fc5aaf017d4c432f5f2683a7b260f1a357",
+        "page_png_sha256": {
+          "page-1.png": "40e3d5f3b21228b84806c220e553682873abe2083741443c59052cd7d696f8fd",
+          "page-2.png": "2a5a2bfdea3041bf4b6558c7fb37b9074e7a58d754ca44edcc57d02eeadd4d5b",
+          "page-3.png": "8c29453501673c05e7b52a46cc138924ec8151c05c934a214bfe8ecef80c50f2",
+          "page-4.png": "b5c1e010ff7fbf9a4ac70af85808371b9f502669c4c582f4270454a44887d389"
+        }
+      },
+      "patched": {
+        "pages": 4,
+        "word_count": 722,
+        "geometry_sha256": "3e54d5e45837b3c418bf62aa7f7d75097b3c6ddab7ee1d1f8bddc34df7cbf92f",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "8dd8f7204c8afba9f2bef8d58f24a5fc5aaf017d4c432f5f2683a7b260f1a357",
+        "page_png_sha256": {
+          "page-1.png": "40e3d5f3b21228b84806c220e553682873abe2083741443c59052cd7d696f8fd",
+          "page-2.png": "2a5a2bfdea3041bf4b6558c7fb37b9074e7a58d754ca44edcc57d02eeadd4d5b",
+          "page-3.png": "8c29453501673c05e7b52a46cc138924ec8151c05c934a214bfe8ecef80c50f2",
+          "page-4.png": "b5c1e010ff7fbf9a4ac70af85808371b9f502669c4c582f4270454a44887d389"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 4,
+      "source": "negative-chinese.html",
+      "baseline_sha256": "f3e0b4599d30b00228d414c78f1e7423edbe04bd7504ceb7fbeee8ef423e621e",
+      "patched_sha256": "0faf39367f3e23f053e5ad874b28e0ec91ef38bd9075bb4a34be58025c38f5ce",
+      "baseline": {
+        "pages": 3,
+        "word_count": 113,
+        "geometry_sha256": "12f7b35e61ed75aaaf52c3510cd819f77739069b4d21c38e19fa89e8d9ddacf5",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "b8c4462d49156b5356afadd16a46a1a9fe9109fc6551335679fe9c371da657f5",
+        "page_png_sha256": {
+          "page-1.png": "b396aca795c2a425a2125644c42664db9c4a9196e87a95efd6b72ed5bd6f7879",
+          "page-2.png": "329ad1ce70eea8189344d456953bd4d1e70bbb4345d041b34fbaf24200324107",
+          "page-3.png": "4387a4b4478550f1100421c9a8e7aa7d294d53541dce49dc5109f9849cd29c29"
+        }
+      },
+      "patched": {
+        "pages": 3,
+        "word_count": 113,
+        "geometry_sha256": "12f7b35e61ed75aaaf52c3510cd819f77739069b4d21c38e19fa89e8d9ddacf5",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "b8c4462d49156b5356afadd16a46a1a9fe9109fc6551335679fe9c371da657f5",
+        "page_png_sha256": {
+          "page-1.png": "b396aca795c2a425a2125644c42664db9c4a9196e87a95efd6b72ed5bd6f7879",
+          "page-2.png": "329ad1ce70eea8189344d456953bd4d1e70bbb4345d041b34fbaf24200324107",
+          "page-3.png": "4387a4b4478550f1100421c9a8e7aa7d294d53541dce49dc5109f9849cd29c29"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 5,
+      "source": "partial-english.html",
+      "baseline_sha256": "f88923940689f57bc4970506db328b828471c493da2ca0b97ecb5118dafb9f6b",
+      "patched_sha256": "873ba70be170a07d3a7c4d517fcac2f1ad6062093529874e6d7e9e6d4f01afa7",
+      "baseline": {
+        "pages": 5,
+        "word_count": 1027,
+        "geometry_sha256": "a964aaa4735fa96778f5326ca958cde416f13e11ad435f4f33179c678b92f7d3",
+        "urls_sha256": "cf266b8ae7a022d49c22aa6a45c5556827bc7e314c146fefa6d7cb95f6289794",
+        "fonts_sha256": "e13ec78e5e006bd50edf0de06619fa6ff2e654b9ccd369287e8e6e9aedd4f793",
+        "page_png_sha256": {
+          "page-1.png": "db8ba48c7e6af4176dd17c77fa89dca3540d699fa8efbed1576a4a72849cd769",
+          "page-2.png": "b260ec0ca2482affeeb5b5cf394c32473f004968e30546773412b43d18223152",
+          "page-3.png": "ec8f79e3e6efb92eadb24216230d0ac08954592f8dadc2abfbb2111eb3907207",
+          "page-4.png": "c3aab680dae6170fae06c24594c3266fa494248817921ef0e1e33dfc358e4e17",
+          "page-5.png": "eb1c980189f6ae34a1a844c51cb0f647820b89b8bfabe5d3422489d3a8fe87db"
+        }
+      },
+      "patched": {
+        "pages": 5,
+        "word_count": 1027,
+        "geometry_sha256": "a964aaa4735fa96778f5326ca958cde416f13e11ad435f4f33179c678b92f7d3",
+        "urls_sha256": "cf266b8ae7a022d49c22aa6a45c5556827bc7e314c146fefa6d7cb95f6289794",
+        "fonts_sha256": "e13ec78e5e006bd50edf0de06619fa6ff2e654b9ccd369287e8e6e9aedd4f793",
+        "page_png_sha256": {
+          "page-1.png": "db8ba48c7e6af4176dd17c77fa89dca3540d699fa8efbed1576a4a72849cd769",
+          "page-2.png": "b260ec0ca2482affeeb5b5cf394c32473f004968e30546773412b43d18223152",
+          "page-3.png": "ec8f79e3e6efb92eadb24216230d0ac08954592f8dadc2abfbb2111eb3907207",
+          "page-4.png": "c3aab680dae6170fae06c24594c3266fa494248817921ef0e1e33dfc358e4e17",
+          "page-5.png": "eb1c980189f6ae34a1a844c51cb0f647820b89b8bfabe5d3422489d3a8fe87db"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 6,
+      "source": "partial-chinese.html",
+      "baseline_sha256": "1b94552ec7d095afd46298726d2f0c77337330c5078ec41d947949fc45b1af5f",
+      "patched_sha256": "52d0b315f2ab6638393ece9bd6e20b785be07c48f9301c4601aac9e43c3d6f82",
+      "baseline": {
+        "pages": 5,
+        "word_count": 197,
+        "geometry_sha256": "996230b83a6462dc48fa5613542ca5c843acca154ded2cc479d823f5f1cc0970",
+        "urls_sha256": "cf266b8ae7a022d49c22aa6a45c5556827bc7e314c146fefa6d7cb95f6289794",
+        "fonts_sha256": "e13ec78e5e006bd50edf0de06619fa6ff2e654b9ccd369287e8e6e9aedd4f793",
+        "page_png_sha256": {
+          "page-1.png": "49f8f7e352125efbb69c022cd19e7d6663ae5f054080fa0b6a7c7fb12c83b2ff",
+          "page-2.png": "c73735e283926774216d15cd9a73d4cfa3037723d6fd8785c219981a0cafef7c",
+          "page-3.png": "2724e6c682e209bf6748e9f997979d381328a48d4769705e0007e54bb665deb5",
+          "page-4.png": "142bf8b9e50e88f24cbb0cc296056658c8c6d315475bd1e8fae2680ac331cbee",
+          "page-5.png": "302c030c1d4e95bc98260f68d0f493327940966f006149e2f8a5681a03b41317"
+        }
+      },
+      "patched": {
+        "pages": 5,
+        "word_count": 197,
+        "geometry_sha256": "996230b83a6462dc48fa5613542ca5c843acca154ded2cc479d823f5f1cc0970",
+        "urls_sha256": "cf266b8ae7a022d49c22aa6a45c5556827bc7e314c146fefa6d7cb95f6289794",
+        "fonts_sha256": "e13ec78e5e006bd50edf0de06619fa6ff2e654b9ccd369287e8e6e9aedd4f793",
+        "page_png_sha256": {
+          "page-1.png": "49f8f7e352125efbb69c022cd19e7d6663ae5f054080fa0b6a7c7fb12c83b2ff",
+          "page-2.png": "c73735e283926774216d15cd9a73d4cfa3037723d6fd8785c219981a0cafef7c",
+          "page-3.png": "2724e6c682e209bf6748e9f997979d381328a48d4769705e0007e54bb665deb5",
+          "page-4.png": "142bf8b9e50e88f24cbb0cc296056658c8c6d315475bd1e8fae2680ac331cbee",
+          "page-5.png": "302c030c1d4e95bc98260f68d0f493327940966f006149e2f8a5681a03b41317"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 7,
+      "source": "personal-transfer-complete-english.html",
+      "baseline_sha256": "21910b08e86ecd643ac1b1e555f3afab294aff9ceaa195851bb9ebacfd28c9b6",
+      "patched_sha256": "fd85168409f819e2f91c26aca69b4efac8afb70e5c2eb2be7f59710ccceb9a5d",
+      "baseline": {
+        "pages": 9,
+        "word_count": 2009,
+        "geometry_sha256": "2bcb44e21af39e58befecdc40792e8c76e6391e461c7d7dbbc06cb17d199b023",
+        "urls_sha256": "41e4f10cfadcf09a2b4036a0fb7ae71badd483452804edae2e9e07eb45301377",
+        "fonts_sha256": "afd968194a427ac52dcd9ff3b89a2640108e19a4e34808e3559503fcd387ec03",
+        "page_png_sha256": {
+          "page-1.png": "0335a2fd4c19ab533759b93c59bd6ae98e27dae4873b7b24c8d915f6e58d73a2",
+          "page-2.png": "151aa3d4d9e7fdb3f415a4ca36918bd04d4a48d0093567dc016b85fb5216c4fc",
+          "page-3.png": "7fb3ae95a9774e345b104eaf975d32d80da18bbf0cd7d68dd1670e92227b0bea",
+          "page-4.png": "ef46a1677b80e30d05ce4b4dd07ebb6981e82245d7e1406c6ca8e2426b4baa1c",
+          "page-5.png": "dfce4fc27ff7142df2f62576b2d8165497696ee5f94aa8c7b90ac635f041eefe",
+          "page-6.png": "097aba9dcdd60045be09bd65abf533da4e60f99dd2911b27051a7ae73e2b40d8",
+          "page-7.png": "c48e119956e02fc01de4a4e6ee3ab6eabbe85d06997d40ebaf8f970c7ef36c6a",
+          "page-8.png": "d1ac10c5977ea4e8033ff95ced1ff72e48d85df5548663c2569d2d96349e05b1",
+          "page-9.png": "a21529cce77dbbba251db2f49eaee177522c691c2a9cde88f7de4831e38346af"
+        }
+      },
+      "patched": {
+        "pages": 9,
+        "word_count": 2009,
+        "geometry_sha256": "2bcb44e21af39e58befecdc40792e8c76e6391e461c7d7dbbc06cb17d199b023",
+        "urls_sha256": "41e4f10cfadcf09a2b4036a0fb7ae71badd483452804edae2e9e07eb45301377",
+        "fonts_sha256": "afd968194a427ac52dcd9ff3b89a2640108e19a4e34808e3559503fcd387ec03",
+        "page_png_sha256": {
+          "page-1.png": "0335a2fd4c19ab533759b93c59bd6ae98e27dae4873b7b24c8d915f6e58d73a2",
+          "page-2.png": "151aa3d4d9e7fdb3f415a4ca36918bd04d4a48d0093567dc016b85fb5216c4fc",
+          "page-3.png": "7fb3ae95a9774e345b104eaf975d32d80da18bbf0cd7d68dd1670e92227b0bea",
+          "page-4.png": "ef46a1677b80e30d05ce4b4dd07ebb6981e82245d7e1406c6ca8e2426b4baa1c",
+          "page-5.png": "dfce4fc27ff7142df2f62576b2d8165497696ee5f94aa8c7b90ac635f041eefe",
+          "page-6.png": "097aba9dcdd60045be09bd65abf533da4e60f99dd2911b27051a7ae73e2b40d8",
+          "page-7.png": "c48e119956e02fc01de4a4e6ee3ab6eabbe85d06997d40ebaf8f970c7ef36c6a",
+          "page-8.png": "d1ac10c5977ea4e8033ff95ced1ff72e48d85df5548663c2569d2d96349e05b1",
+          "page-9.png": "a21529cce77dbbba251db2f49eaee177522c691c2a9cde88f7de4831e38346af"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 8,
+      "source": "personal-transfer-complete-chinese.html",
+      "baseline_sha256": "d0a29eb5b4df58e2c546d718bc28c94111e0dbca85ef69fc95b64a166998d665",
+      "patched_sha256": "03c12f57179fdd5a12bf0ac48bee78fab09712ceec3815d1f91bf1f3108af17c",
+      "baseline": {
+        "pages": 8,
+        "word_count": 414,
+        "geometry_sha256": "3e1eaf260d1db3f2c46ae23f7e7e765e53c49be7e2dbd1e53b28f01dbf5e1285",
+        "urls_sha256": "cc3e30f941f02e20f60d71a3e55268cd11fdb031b95929dd2cb7341754a59863",
+        "fonts_sha256": "e9c24b904dd4703714a6e5645f148df025f3450e9e63eaac2ea8b143d7e625fc",
+        "page_png_sha256": {
+          "page-1.png": "04cddcf5a5524b26fa17b617e5554ede1c3fbba6c6baf63365f62ab222024705",
+          "page-2.png": "7dc7488190239419ed5122dc16b745db3d60dcb7328ce7bd6bb1955b2cf6e7c3",
+          "page-3.png": "594ee7623fb26fb22a0c8829860d0f09c70ad8fac3aeb7ea5e82f6a7413b2afb",
+          "page-4.png": "02e4b6c3e2bcee6b24889fc28a785cd0b284cfc6a19804cb7185ca6331b5a1cd",
+          "page-5.png": "fbb7fa6e56d181b2fb15392502cc4256da3d650c99b8ad6f933acc1970c5ba90",
+          "page-6.png": "71e63c65f41939c85b0970efb1ad942a6bd3a62aeb2240e95a08a83a9cab38bb",
+          "page-7.png": "2a718c5c74576f3bfd323efdce02dbb9c080393a30eb3e50079e41acdc6a34df",
+          "page-8.png": "ab0f598f3c5ce594ee5fbed517fbe35632f6fa9690169bebe8dd4c2c13559c76"
+        }
+      },
+      "patched": {
+        "pages": 8,
+        "word_count": 414,
+        "geometry_sha256": "3e1eaf260d1db3f2c46ae23f7e7e765e53c49be7e2dbd1e53b28f01dbf5e1285",
+        "urls_sha256": "cc3e30f941f02e20f60d71a3e55268cd11fdb031b95929dd2cb7341754a59863",
+        "fonts_sha256": "e9c24b904dd4703714a6e5645f148df025f3450e9e63eaac2ea8b143d7e625fc",
+        "page_png_sha256": {
+          "page-1.png": "04cddcf5a5524b26fa17b617e5554ede1c3fbba6c6baf63365f62ab222024705",
+          "page-2.png": "7dc7488190239419ed5122dc16b745db3d60dcb7328ce7bd6bb1955b2cf6e7c3",
+          "page-3.png": "594ee7623fb26fb22a0c8829860d0f09c70ad8fac3aeb7ea5e82f6a7413b2afb",
+          "page-4.png": "02e4b6c3e2bcee6b24889fc28a785cd0b284cfc6a19804cb7185ca6331b5a1cd",
+          "page-5.png": "fbb7fa6e56d181b2fb15392502cc4256da3d650c99b8ad6f933acc1970c5ba90",
+          "page-6.png": "71e63c65f41939c85b0970efb1ad942a6bd3a62aeb2240e95a08a83a9cab38bb",
+          "page-7.png": "2a718c5c74576f3bfd323efdce02dbb9c080393a30eb3e50079e41acdc6a34df",
+          "page-8.png": "ab0f598f3c5ce594ee5fbed517fbe35632f6fa9690169bebe8dd4c2c13559c76"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 9,
+      "source": "budget-long-no-currency-english.html",
+      "baseline_sha256": "513815857edc8957f1f98ce791cb83b6f217d2203d470c443e244141203f779c",
+      "patched_sha256": "176786a793ebc9438c1fe650589c30cb739686d7b18ab6f3ef1dce9fdb3854dd",
+      "baseline": {
+        "pages": 11,
+        "word_count": 2552,
+        "geometry_sha256": "d1e08a1ee54d082add830a741691811b9306b277f92f9cf0388e63af45ae83bf",
+        "urls_sha256": "001e7ddbd8702037ccc36eed858571a13edbebe49119b78fbf289c7d3a46a646",
+        "fonts_sha256": "b15a3531035671d8764c041dcfad69b628aa44e03c7bab28c4d06c9c6b21754c",
+        "page_png_sha256": {
+          "page-01.png": "b4d4d45d8a2b77ae541abada808f5b3cfcfe954b0518f140f0314a9b8d33bf91",
+          "page-02.png": "178fdc2a5373d47f10538b86fdd40b8b985264840f53bef231b4375f8d00dd8c",
+          "page-03.png": "cee39359a9a30c93af099a753cb5c9abf44b2bee1916ee65f5ec3741ea38bcdb",
+          "page-04.png": "7d3e72e5acddc641839dcfbb2495ad245e5d1f99353c7358f7a4c47063416095",
+          "page-05.png": "2d87dfad3f50575a377322a4f7bc36050e1b09877d227cb3065d303cdf0314f4",
+          "page-06.png": "4421db186244ce12a3e3fcded55750648dabe6f72f277b043b6c00893a85b902",
+          "page-07.png": "3d94a087243869fc2527f30b703e7f0aded4d922bb60dcfff1b66ad266bdb810",
+          "page-08.png": "9909a85096bc2373b28a8d71720275a682937058e2a6fce3f47346548d598e5a",
+          "page-09.png": "239c6aec8c08bd81d4cf674709d1eee103e92498baf94c535902ee48884b2feb",
+          "page-10.png": "5b3e5b21e4a1eb01b3b4e26bd07c8733f6664474035d95261286c7748a2b178d",
+          "page-11.png": "718e507879935cc37a56f9a05b2b68b676583acb675991426981ed32ccddced1"
+        }
+      },
+      "patched": {
+        "pages": 11,
+        "word_count": 2552,
+        "geometry_sha256": "d1e08a1ee54d082add830a741691811b9306b277f92f9cf0388e63af45ae83bf",
+        "urls_sha256": "001e7ddbd8702037ccc36eed858571a13edbebe49119b78fbf289c7d3a46a646",
+        "fonts_sha256": "b15a3531035671d8764c041dcfad69b628aa44e03c7bab28c4d06c9c6b21754c",
+        "page_png_sha256": {
+          "page-01.png": "b4d4d45d8a2b77ae541abada808f5b3cfcfe954b0518f140f0314a9b8d33bf91",
+          "page-02.png": "178fdc2a5373d47f10538b86fdd40b8b985264840f53bef231b4375f8d00dd8c",
+          "page-03.png": "cee39359a9a30c93af099a753cb5c9abf44b2bee1916ee65f5ec3741ea38bcdb",
+          "page-04.png": "7d3e72e5acddc641839dcfbb2495ad245e5d1f99353c7358f7a4c47063416095",
+          "page-05.png": "2d87dfad3f50575a377322a4f7bc36050e1b09877d227cb3065d303cdf0314f4",
+          "page-06.png": "4421db186244ce12a3e3fcded55750648dabe6f72f277b043b6c00893a85b902",
+          "page-07.png": "3d94a087243869fc2527f30b703e7f0aded4d922bb60dcfff1b66ad266bdb810",
+          "page-08.png": "9909a85096bc2373b28a8d71720275a682937058e2a6fce3f47346548d598e5a",
+          "page-09.png": "239c6aec8c08bd81d4cf674709d1eee103e92498baf94c535902ee48884b2feb",
+          "page-10.png": "5b3e5b21e4a1eb01b3b4e26bd07c8733f6664474035d95261286c7748a2b178d",
+          "page-11.png": "718e507879935cc37a56f9a05b2b68b676583acb675991426981ed32ccddced1"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 10,
+      "source": "budget-long-no-currency-chinese.html",
+      "baseline_sha256": "15fd696d2937e62b7dbb0a80e6f66d832f3e4c1020650759b2716c27a54b6235",
+      "patched_sha256": "8ee222345d471b96567ad5758645e6ed20e6613b0f80925299d9fa4d00114a2c",
+      "baseline": {
+        "pages": 10,
+        "word_count": 599,
+        "geometry_sha256": "12912b9b6099ea60bd146f632ab02f5c32e75d4e332de93644e64499f6bc7334",
+        "urls_sha256": "3c0443dd0d1224134ac372cbef621aa2c2d3fc973880b54e78183fac22fc2116",
+        "fonts_sha256": "afd968194a427ac52dcd9ff3b89a2640108e19a4e34808e3559503fcd387ec03",
+        "page_png_sha256": {
+          "page-01.png": "02e4dfd3ec5b81659564781172a7d2e0fe49c0fb35bfc7891569c36f0f3afaaf",
+          "page-02.png": "204a22e0230c64330e3c2b3fa97d0c967ad5142359fa6364e72c04b6d10c0094",
+          "page-03.png": "f2f1c81ad0555baff14e1a067381338c00b568f48a8fc5de0f8d3efaeb8ebb34",
+          "page-04.png": "c5ef4e9a3b31c4d5dadb3b81f1df47582f4125f32e0bcc031bb867fc2abb365e",
+          "page-05.png": "a092c2c9f9d5db1c9c389d6aa0ce7f0fec704b654d24d3d978559b366b34dc1d",
+          "page-06.png": "f377b67e72282fefc6a54dbc09a3fa9054dc3e1efe3bcf8f192387f2106c0258",
+          "page-07.png": "078c549fa345caec89141300748254ba88c05bc27a45aafdc762cb244105dcd4",
+          "page-08.png": "18de7abbecf8e8063c37261da3992ce2d81ae6d62ad31ec55a16d599d70d565c",
+          "page-09.png": "4a5c615042e22667dc8e398e7c3dfee7154eb1a95e9e5b12dc76e66aa9360b5b",
+          "page-10.png": "5678aa3b14d7db7639cdcd014d9430a878b62543bdabcc0a0dd061fb89fd359a"
+        }
+      },
+      "patched": {
+        "pages": 10,
+        "word_count": 599,
+        "geometry_sha256": "12912b9b6099ea60bd146f632ab02f5c32e75d4e332de93644e64499f6bc7334",
+        "urls_sha256": "3c0443dd0d1224134ac372cbef621aa2c2d3fc973880b54e78183fac22fc2116",
+        "fonts_sha256": "afd968194a427ac52dcd9ff3b89a2640108e19a4e34808e3559503fcd387ec03",
+        "page_png_sha256": {
+          "page-01.png": "02e4dfd3ec5b81659564781172a7d2e0fe49c0fb35bfc7891569c36f0f3afaaf",
+          "page-02.png": "204a22e0230c64330e3c2b3fa97d0c967ad5142359fa6364e72c04b6d10c0094",
+          "page-03.png": "f2f1c81ad0555baff14e1a067381338c00b568f48a8fc5de0f8d3efaeb8ebb34",
+          "page-04.png": "c5ef4e9a3b31c4d5dadb3b81f1df47582f4125f32e0bcc031bb867fc2abb365e",
+          "page-05.png": "a092c2c9f9d5db1c9c389d6aa0ce7f0fec704b654d24d3d978559b366b34dc1d",
+          "page-06.png": "f377b67e72282fefc6a54dbc09a3fa9054dc3e1efe3bcf8f192387f2106c0258",
+          "page-07.png": "078c549fa345caec89141300748254ba88c05bc27a45aafdc762cb244105dcd4",
+          "page-08.png": "18de7abbecf8e8063c37261da3992ce2d81ae6d62ad31ec55a16d599d70d565c",
+          "page-09.png": "4a5c615042e22667dc8e398e7c3dfee7154eb1a95e9e5b12dc76e66aa9360b5b",
+          "page-10.png": "5678aa3b14d7db7639cdcd014d9430a878b62543bdabcc0a0dd061fb89fd359a"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 11,
+      "source": "budget-mixed-gaps-english.html",
+      "baseline_sha256": "4ea6f6c5e6dcb5ebe087e98b1466f5ecbd1b0dd34cdbdae899ed1923dc7e0a27",
+      "patched_sha256": "4b29b02d6cbc25e876b37cdb41ba8d67d23befa950cee37836d52a52d6593cae",
+      "baseline": {
+        "pages": 8,
+        "word_count": 1961,
+        "geometry_sha256": "07a2f45057aaca46f9a153eb95276429181a36ff000ad7f32bb21a157b726652",
+        "urls_sha256": "b7885c3c738773108efcde038ff63d412f4afdf3f2765965ffba6751f3a4500b",
+        "fonts_sha256": "9e3e9a00bf5730eb8f0d0a930029889dce8db59500bdc037ec6456f081b62134",
+        "page_png_sha256": {
+          "page-1.png": "d7b632d9324e7d281b6d04fbeb26f25e01d3b1b7240b771c15ae3f3be90c2672",
+          "page-2.png": "4ff81d7af95bb20d8c4af3ef15af554267e9389dd5194739497eb09ce1fece85",
+          "page-3.png": "ebeb2971265e510b45688fd3362a90db1fa64d0105c12859354351dc12400991",
+          "page-4.png": "6e32bc6a941b06a5a37d1318fe8c7eb856010eb6fff531f4079f565319c7d3dd",
+          "page-5.png": "02aeb2aa966775af696fd58424555538b1f39c1653ba1e403e11feb1ba5585bb",
+          "page-6.png": "bb0db66112f9dbebdb254c766f5dff15aa26c3a447db73a786a0a97bc9288ecd",
+          "page-7.png": "1681f1b5c8971e573338cfe7f0b3f3f4c1ba293332051a31ab806db5286cbcb4",
+          "page-8.png": "f02ceafa415ec8122d6f9676fe9888aa54eff3ec59f246e384dcd1e27afbbf8a"
+        }
+      },
+      "patched": {
+        "pages": 8,
+        "word_count": 1961,
+        "geometry_sha256": "07a2f45057aaca46f9a153eb95276429181a36ff000ad7f32bb21a157b726652",
+        "urls_sha256": "b7885c3c738773108efcde038ff63d412f4afdf3f2765965ffba6751f3a4500b",
+        "fonts_sha256": "9e3e9a00bf5730eb8f0d0a930029889dce8db59500bdc037ec6456f081b62134",
+        "page_png_sha256": {
+          "page-1.png": "d7b632d9324e7d281b6d04fbeb26f25e01d3b1b7240b771c15ae3f3be90c2672",
+          "page-2.png": "4ff81d7af95bb20d8c4af3ef15af554267e9389dd5194739497eb09ce1fece85",
+          "page-3.png": "ebeb2971265e510b45688fd3362a90db1fa64d0105c12859354351dc12400991",
+          "page-4.png": "6e32bc6a941b06a5a37d1318fe8c7eb856010eb6fff531f4079f565319c7d3dd",
+          "page-5.png": "02aeb2aa966775af696fd58424555538b1f39c1653ba1e403e11feb1ba5585bb",
+          "page-6.png": "bb0db66112f9dbebdb254c766f5dff15aa26c3a447db73a786a0a97bc9288ecd",
+          "page-7.png": "1681f1b5c8971e573338cfe7f0b3f3f4c1ba293332051a31ab806db5286cbcb4",
+          "page-8.png": "f02ceafa415ec8122d6f9676fe9888aa54eff3ec59f246e384dcd1e27afbbf8a"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 12,
+      "source": "budget-mixed-gaps-chinese.html",
+      "baseline_sha256": "edffc25a4209ca2e9cbc2d60de7f42d1f8e0f0ef092e05d250d4f9fc31b1d0fe",
+      "patched_sha256": "0aab1736401591bfeb0599a7e3a7750241af5b73b5c4f91dda0edf698fced8f4",
+      "baseline": {
+        "pages": 7,
+        "word_count": 404,
+        "geometry_sha256": "a66ed9dbdcdba787ee499d9260fee2fdc147712a96bb866a0114a31937b2777a",
+        "urls_sha256": "0f1cfb532c54aabaa950b8df5770c0840ea5bae785e5ae863b8713e84d5dfdd2",
+        "fonts_sha256": "05d9681ff5e6ca702ae0b138ca255231b7787f152ec5a117a8e830b37588b92f",
+        "page_png_sha256": {
+          "page-1.png": "1ab5522efd1d7ddccc1aa05bf0ac7eab52324a241713a5aa04aed1c698dabc2d",
+          "page-2.png": "80ce014a2b0795eaa8648c97e9558c6fea895a56b212a8fb7bfbd342c8bda718",
+          "page-3.png": "04099f21bb2b3242a6ddd3be2057d2e0f5deb683c3296d245a88585821535c14",
+          "page-4.png": "6f8ec1734e066d04af882564838b46ded4ce96a1296d76f2e65d5c5b541474c7",
+          "page-5.png": "ee0685d275fc073ce6d9310845810fb1571010a0d85488ba3b7793567bb4f9d1",
+          "page-6.png": "1fa8db6c60413ae27a03c6a978ba9acbbb45788dd80706d7d2baff680dceaa4e",
+          "page-7.png": "543e6f22c8ae4ec248049dc163adfa48d0258c33a74df744fb130acf7a963204"
+        }
+      },
+      "patched": {
+        "pages": 7,
+        "word_count": 404,
+        "geometry_sha256": "a66ed9dbdcdba787ee499d9260fee2fdc147712a96bb866a0114a31937b2777a",
+        "urls_sha256": "0f1cfb532c54aabaa950b8df5770c0840ea5bae785e5ae863b8713e84d5dfdd2",
+        "fonts_sha256": "05d9681ff5e6ca702ae0b138ca255231b7787f152ec5a117a8e830b37588b92f",
+        "page_png_sha256": {
+          "page-1.png": "1ab5522efd1d7ddccc1aa05bf0ac7eab52324a241713a5aa04aed1c698dabc2d",
+          "page-2.png": "80ce014a2b0795eaa8648c97e9558c6fea895a56b212a8fb7bfbd342c8bda718",
+          "page-3.png": "04099f21bb2b3242a6ddd3be2057d2e0f5deb683c3296d245a88585821535c14",
+          "page-4.png": "6f8ec1734e066d04af882564838b46ded4ce96a1296d76f2e65d5c5b541474c7",
+          "page-5.png": "ee0685d275fc073ce6d9310845810fb1571010a0d85488ba3b7793567bb4f9d1",
+          "page-6.png": "1fa8db6c60413ae27a03c6a978ba9acbbb45788dd80706d7d2baff680dceaa4e",
+          "page-7.png": "543e6f22c8ae4ec248049dc163adfa48d0258c33a74df744fb130acf7a963204"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 13,
+      "source": "budget-many-english.html",
+      "baseline_sha256": "5d8c05c85d54b40b2bf7de2ca23d8c8b4a6774bfc4b1117aed3ae0209aa910f8",
+      "patched_sha256": "7696b035dd32e39016bbec87b7e65e782da5a072d6d76c81b953f052a7fa2daf",
+      "baseline": {
+        "pages": 9,
+        "word_count": 2056,
+        "geometry_sha256": "e3b203e39b7336bfdac24607ccd498ce9ba3bf0d472d7d2297eb61e077520305",
+        "urls_sha256": "b7885c3c738773108efcde038ff63d412f4afdf3f2765965ffba6751f3a4500b",
+        "fonts_sha256": "fa1939291395714efb277a747c6ea6f11c7cd47d5e895d1e8878341f7d5b05a1",
+        "page_png_sha256": {
+          "page-1.png": "4e1cd09d81dbf6370d3ba8b975baa582e7943f296b0a972abb727c436be9da8a",
+          "page-2.png": "151aa3d4d9e7fdb3f415a4ca36918bd04d4a48d0093567dc016b85fb5216c4fc",
+          "page-3.png": "7fb3ae95a9774e345b104eaf975d32d80da18bbf0cd7d68dd1670e92227b0bea",
+          "page-4.png": "39b724ea1275fdc9ffc26c0b7809fef15e7740a3339b053659360c034f197c9a",
+          "page-5.png": "65e74cd59b73dba43661b32b13f1f9de5b8a8b6db927fa688d22bed0a686f455",
+          "page-6.png": "d77fb43bbcfbafb8e5b954cd90374aef98fba6098d1267ba5a37fc20106e630a",
+          "page-7.png": "32b348ec4253e87f0b3f8277dec7d8d2a578aa646d99ce74149ccde3a898e001",
+          "page-8.png": "ea80e39950a1e39f3966a3d190748d4e1135eeb6e52bda9449b644ddba5c2e1d",
+          "page-9.png": "942284d9957807306db204e77ef2df5cc4ceb69f435b79a1f260087865d45763"
+        }
+      },
+      "patched": {
+        "pages": 9,
+        "word_count": 2056,
+        "geometry_sha256": "e3b203e39b7336bfdac24607ccd498ce9ba3bf0d472d7d2297eb61e077520305",
+        "urls_sha256": "b7885c3c738773108efcde038ff63d412f4afdf3f2765965ffba6751f3a4500b",
+        "fonts_sha256": "fa1939291395714efb277a747c6ea6f11c7cd47d5e895d1e8878341f7d5b05a1",
+        "page_png_sha256": {
+          "page-1.png": "4e1cd09d81dbf6370d3ba8b975baa582e7943f296b0a972abb727c436be9da8a",
+          "page-2.png": "151aa3d4d9e7fdb3f415a4ca36918bd04d4a48d0093567dc016b85fb5216c4fc",
+          "page-3.png": "7fb3ae95a9774e345b104eaf975d32d80da18bbf0cd7d68dd1670e92227b0bea",
+          "page-4.png": "39b724ea1275fdc9ffc26c0b7809fef15e7740a3339b053659360c034f197c9a",
+          "page-5.png": "65e74cd59b73dba43661b32b13f1f9de5b8a8b6db927fa688d22bed0a686f455",
+          "page-6.png": "d77fb43bbcfbafb8e5b954cd90374aef98fba6098d1267ba5a37fc20106e630a",
+          "page-7.png": "32b348ec4253e87f0b3f8277dec7d8d2a578aa646d99ce74149ccde3a898e001",
+          "page-8.png": "ea80e39950a1e39f3966a3d190748d4e1135eeb6e52bda9449b644ddba5c2e1d",
+          "page-9.png": "942284d9957807306db204e77ef2df5cc4ceb69f435b79a1f260087865d45763"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 14,
+      "source": "budget-many-chinese.html",
+      "baseline_sha256": "20eeb1549f4fbdf55cec41b2ff54efa478aa0d93a842baa3dbecb48a842f9c5b",
+      "patched_sha256": "1234b8ceffed1d2fe7059bbb0a5eed4fe2e18e1c5adcae6c97351baaa18a2b7e",
+      "baseline": {
+        "pages": 8,
+        "word_count": 441,
+        "geometry_sha256": "13f6cb565e89aab278676dea45d939cfaa0fe5a98a9b861f4325e1af621d25c4",
+        "urls_sha256": "0f1cfb532c54aabaa950b8df5770c0840ea5bae785e5ae863b8713e84d5dfdd2",
+        "fonts_sha256": "9e3e9a00bf5730eb8f0d0a930029889dce8db59500bdc037ec6456f081b62134",
+        "page_png_sha256": {
+          "page-1.png": "823fc5bd78fcba4cc5618cc315c0a7b252c1b9d6421efbaf943d3eac2acd23f9",
+          "page-2.png": "7dc7488190239419ed5122dc16b745db3d60dcb7328ce7bd6bb1955b2cf6e7c3",
+          "page-3.png": "594ee7623fb26fb22a0c8829860d0f09c70ad8fac3aeb7ea5e82f6a7413b2afb",
+          "page-4.png": "d8e95ba47e05dd29ceb3d0422c22efa4cfff1de121e99d9221e95acec3c3732d",
+          "page-5.png": "420c1457d2ff7c856682d7a85f18b44ea6ff74ab6a0dc602eac4df078b8d5599",
+          "page-6.png": "5efb7e0723897027f3a84afaf272e25be5473cd3d5b354877c00f2c2e0fc50ac",
+          "page-7.png": "6cbe9d0767cbabdca0bbc500a3c92a51989be7078348ede76a3033abcc0ad9c6",
+          "page-8.png": "5c4f784ad5f677de35fa10be65bf0a52b7a01a71ff281392184ba401874af0ba"
+        }
+      },
+      "patched": {
+        "pages": 8,
+        "word_count": 441,
+        "geometry_sha256": "13f6cb565e89aab278676dea45d939cfaa0fe5a98a9b861f4325e1af621d25c4",
+        "urls_sha256": "0f1cfb532c54aabaa950b8df5770c0840ea5bae785e5ae863b8713e84d5dfdd2",
+        "fonts_sha256": "9e3e9a00bf5730eb8f0d0a930029889dce8db59500bdc037ec6456f081b62134",
+        "page_png_sha256": {
+          "page-1.png": "823fc5bd78fcba4cc5618cc315c0a7b252c1b9d6421efbaf943d3eac2acd23f9",
+          "page-2.png": "7dc7488190239419ed5122dc16b745db3d60dcb7328ce7bd6bb1955b2cf6e7c3",
+          "page-3.png": "594ee7623fb26fb22a0c8829860d0f09c70ad8fac3aeb7ea5e82f6a7413b2afb",
+          "page-4.png": "d8e95ba47e05dd29ceb3d0422c22efa4cfff1de121e99d9221e95acec3c3732d",
+          "page-5.png": "420c1457d2ff7c856682d7a85f18b44ea6ff74ab6a0dc602eac4df078b8d5599",
+          "page-6.png": "5efb7e0723897027f3a84afaf272e25be5473cd3d5b354877c00f2c2e0fc50ac",
+          "page-7.png": "6cbe9d0767cbabdca0bbc500a3c92a51989be7078348ede76a3033abcc0ad9c6",
+          "page-8.png": "5c4f784ad5f677de35fa10be65bf0a52b7a01a71ff281392184ba401874af0ba"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 15,
+      "source": "empty-english.html",
+      "baseline_sha256": "8eef85d920ebd1683d5eb7db4ff62b7103a04ccfdbc39e044071c50a497a7d23",
+      "patched_sha256": "8c3be518060822776e6c4f0c9e227217ceee310fa10f063f4d90d414f921aca6",
+      "baseline": {
+        "pages": 4,
+        "word_count": 729,
+        "geometry_sha256": "42bcb9b1ddb82c46810ed0f21f29a870b1f5299c0bc0c0da212f329085390f1b",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "8dd8f7204c8afba9f2bef8d58f24a5fc5aaf017d4c432f5f2683a7b260f1a357",
+        "page_png_sha256": {
+          "page-1.png": "29d837bbe70da2cf55c7e8b20f3db85b73067747ff5e65aced0388780ef67f1e",
+          "page-2.png": "6ba3e441443d119328826ab013ae4df46e839adce902f237abdca581be0452ce",
+          "page-3.png": "4c670d7fd352051cdc746ed7c651b67d14b31925dca589191995d964bd3d5b78",
+          "page-4.png": "7767f37a3ef6e62b392494073f67223e25a0d256f654e08eccb0da6c3eefb30c"
+        }
+      },
+      "patched": {
+        "pages": 4,
+        "word_count": 729,
+        "geometry_sha256": "42bcb9b1ddb82c46810ed0f21f29a870b1f5299c0bc0c0da212f329085390f1b",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "8dd8f7204c8afba9f2bef8d58f24a5fc5aaf017d4c432f5f2683a7b260f1a357",
+        "page_png_sha256": {
+          "page-1.png": "29d837bbe70da2cf55c7e8b20f3db85b73067747ff5e65aced0388780ef67f1e",
+          "page-2.png": "6ba3e441443d119328826ab013ae4df46e839adce902f237abdca581be0452ce",
+          "page-3.png": "4c670d7fd352051cdc746ed7c651b67d14b31925dca589191995d964bd3d5b78",
+          "page-4.png": "7767f37a3ef6e62b392494073f67223e25a0d256f654e08eccb0da6c3eefb30c"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 16,
+      "source": "empty-chinese.html",
+      "baseline_sha256": "52b36f2cf16ce47121eab0a9d0cb14a9c2c7776ebbc85f256071bec9536c0437",
+      "patched_sha256": "9b387672afed49a5466c7dfba62ce6e5aab3550c94f454031d2270cdd5c09efd",
+      "baseline": {
+        "pages": 3,
+        "word_count": 113,
+        "geometry_sha256": "d4e692830b6e486ac49cc4f463833b275e4c01bd26d4fbdb045dae1dbfa29ff1",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "b8c4462d49156b5356afadd16a46a1a9fe9109fc6551335679fe9c371da657f5",
+        "page_png_sha256": {
+          "page-1.png": "26256e64b9bc85f02eba568e087e49b77da95fb9592235039c60d01a7d0393ad",
+          "page-2.png": "4357b4319ad5a96936feef77289fd6d4a54c6dad691a09b5a6425a0457789c62",
+          "page-3.png": "cc2b05177770cdf08f81b6732a66406ddf0b75310bf119fdf70d5c532f04e7f5"
+        }
+      },
+      "patched": {
+        "pages": 3,
+        "word_count": 113,
+        "geometry_sha256": "d4e692830b6e486ac49cc4f463833b275e4c01bd26d4fbdb045dae1dbfa29ff1",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "b8c4462d49156b5356afadd16a46a1a9fe9109fc6551335679fe9c371da657f5",
+        "page_png_sha256": {
+          "page-1.png": "26256e64b9bc85f02eba568e087e49b77da95fb9592235039c60d01a7d0393ad",
+          "page-2.png": "4357b4319ad5a96936feef77289fd6d4a54c6dad691a09b5a6425a0457789c62",
+          "page-3.png": "cc2b05177770cdf08f81b6732a66406ddf0b75310bf119fdf70d5c532f04e7f5"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 17,
+      "source": "negative-english.html",
+      "baseline_sha256": "25eaf488bab4620de89789395646e6ac555e3869d142c41c9ccc4e074ed81b4a",
+      "patched_sha256": "dfb4ca8fec74e2f7a934b87b1a2c4b5ecfae3f668c49a30c4fed426a924941a1",
+      "baseline": {
+        "pages": 4,
+        "word_count": 722,
+        "geometry_sha256": "3e54d5e45837b3c418bf62aa7f7d75097b3c6ddab7ee1d1f8bddc34df7cbf92f",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "8dd8f7204c8afba9f2bef8d58f24a5fc5aaf017d4c432f5f2683a7b260f1a357",
+        "page_png_sha256": {
+          "page-1.png": "40e3d5f3b21228b84806c220e553682873abe2083741443c59052cd7d696f8fd",
+          "page-2.png": "2a5a2bfdea3041bf4b6558c7fb37b9074e7a58d754ca44edcc57d02eeadd4d5b",
+          "page-3.png": "8c29453501673c05e7b52a46cc138924ec8151c05c934a214bfe8ecef80c50f2",
+          "page-4.png": "b5c1e010ff7fbf9a4ac70af85808371b9f502669c4c582f4270454a44887d389"
+        }
+      },
+      "patched": {
+        "pages": 4,
+        "word_count": 722,
+        "geometry_sha256": "3e54d5e45837b3c418bf62aa7f7d75097b3c6ddab7ee1d1f8bddc34df7cbf92f",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "8dd8f7204c8afba9f2bef8d58f24a5fc5aaf017d4c432f5f2683a7b260f1a357",
+        "page_png_sha256": {
+          "page-1.png": "40e3d5f3b21228b84806c220e553682873abe2083741443c59052cd7d696f8fd",
+          "page-2.png": "2a5a2bfdea3041bf4b6558c7fb37b9074e7a58d754ca44edcc57d02eeadd4d5b",
+          "page-3.png": "8c29453501673c05e7b52a46cc138924ec8151c05c934a214bfe8ecef80c50f2",
+          "page-4.png": "b5c1e010ff7fbf9a4ac70af85808371b9f502669c4c582f4270454a44887d389"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 18,
+      "source": "negative-chinese.html",
+      "baseline_sha256": "993f17a5928a33198eecec1d01fb562d3ae9e944301adf50f3de3bdbd760e33e",
+      "patched_sha256": "406fe3b517154b2df078ba4029f8d6ce26c5ad2467ae2a179c4407efc65c09ef",
+      "baseline": {
+        "pages": 3,
+        "word_count": 113,
+        "geometry_sha256": "12f7b35e61ed75aaaf52c3510cd819f77739069b4d21c38e19fa89e8d9ddacf5",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "b8c4462d49156b5356afadd16a46a1a9fe9109fc6551335679fe9c371da657f5",
+        "page_png_sha256": {
+          "page-1.png": "b396aca795c2a425a2125644c42664db9c4a9196e87a95efd6b72ed5bd6f7879",
+          "page-2.png": "329ad1ce70eea8189344d456953bd4d1e70bbb4345d041b34fbaf24200324107",
+          "page-3.png": "4387a4b4478550f1100421c9a8e7aa7d294d53541dce49dc5109f9849cd29c29"
+        }
+      },
+      "patched": {
+        "pages": 3,
+        "word_count": 113,
+        "geometry_sha256": "12f7b35e61ed75aaaf52c3510cd819f77739069b4d21c38e19fa89e8d9ddacf5",
+        "urls_sha256": "57d9dec937082ecfb863e9ab15f6e58a89ee00bc8ab7d487d64b64130cf8db08",
+        "fonts_sha256": "b8c4462d49156b5356afadd16a46a1a9fe9109fc6551335679fe9c371da657f5",
+        "page_png_sha256": {
+          "page-1.png": "b396aca795c2a425a2125644c42664db9c4a9196e87a95efd6b72ed5bd6f7879",
+          "page-2.png": "329ad1ce70eea8189344d456953bd4d1e70bbb4345d041b34fbaf24200324107",
+          "page-3.png": "4387a4b4478550f1100421c9a8e7aa7d294d53541dce49dc5109f9849cd29c29"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 19,
+      "source": "partial-english.html",
+      "baseline_sha256": "fe4c3c1779224180ae96c710f5dd6e57947394633d5d9e1a75d04cfc07109932",
+      "patched_sha256": "cc3ec5b50cfdc6e3f503bbb3179c652b086dec25ac001f1e2d5e551a63bf6ca5",
+      "baseline": {
+        "pages": 5,
+        "word_count": 1027,
+        "geometry_sha256": "a964aaa4735fa96778f5326ca958cde416f13e11ad435f4f33179c678b92f7d3",
+        "urls_sha256": "cf266b8ae7a022d49c22aa6a45c5556827bc7e314c146fefa6d7cb95f6289794",
+        "fonts_sha256": "e13ec78e5e006bd50edf0de06619fa6ff2e654b9ccd369287e8e6e9aedd4f793",
+        "page_png_sha256": {
+          "page-1.png": "db8ba48c7e6af4176dd17c77fa89dca3540d699fa8efbed1576a4a72849cd769",
+          "page-2.png": "b260ec0ca2482affeeb5b5cf394c32473f004968e30546773412b43d18223152",
+          "page-3.png": "ec8f79e3e6efb92eadb24216230d0ac08954592f8dadc2abfbb2111eb3907207",
+          "page-4.png": "c3aab680dae6170fae06c24594c3266fa494248817921ef0e1e33dfc358e4e17",
+          "page-5.png": "eb1c980189f6ae34a1a844c51cb0f647820b89b8bfabe5d3422489d3a8fe87db"
+        }
+      },
+      "patched": {
+        "pages": 5,
+        "word_count": 1027,
+        "geometry_sha256": "a964aaa4735fa96778f5326ca958cde416f13e11ad435f4f33179c678b92f7d3",
+        "urls_sha256": "cf266b8ae7a022d49c22aa6a45c5556827bc7e314c146fefa6d7cb95f6289794",
+        "fonts_sha256": "e13ec78e5e006bd50edf0de06619fa6ff2e654b9ccd369287e8e6e9aedd4f793",
+        "page_png_sha256": {
+          "page-1.png": "db8ba48c7e6af4176dd17c77fa89dca3540d699fa8efbed1576a4a72849cd769",
+          "page-2.png": "b260ec0ca2482affeeb5b5cf394c32473f004968e30546773412b43d18223152",
+          "page-3.png": "ec8f79e3e6efb92eadb24216230d0ac08954592f8dadc2abfbb2111eb3907207",
+          "page-4.png": "c3aab680dae6170fae06c24594c3266fa494248817921ef0e1e33dfc358e4e17",
+          "page-5.png": "eb1c980189f6ae34a1a844c51cb0f647820b89b8bfabe5d3422489d3a8fe87db"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 20,
+      "source": "partial-chinese.html",
+      "baseline_sha256": "ab8e567de555fa84ab925d3c2ca70b348c7427f5ca3dd1fbf24ed54a540d52a9",
+      "patched_sha256": "b10d6fdc91dc4b52983e8d625bd6efe67f687c80414eded579ddf91c4edff285",
+      "baseline": {
+        "pages": 5,
+        "word_count": 197,
+        "geometry_sha256": "996230b83a6462dc48fa5613542ca5c843acca154ded2cc479d823f5f1cc0970",
+        "urls_sha256": "cf266b8ae7a022d49c22aa6a45c5556827bc7e314c146fefa6d7cb95f6289794",
+        "fonts_sha256": "e13ec78e5e006bd50edf0de06619fa6ff2e654b9ccd369287e8e6e9aedd4f793",
+        "page_png_sha256": {
+          "page-1.png": "49f8f7e352125efbb69c022cd19e7d6663ae5f054080fa0b6a7c7fb12c83b2ff",
+          "page-2.png": "c73735e283926774216d15cd9a73d4cfa3037723d6fd8785c219981a0cafef7c",
+          "page-3.png": "2724e6c682e209bf6748e9f997979d381328a48d4769705e0007e54bb665deb5",
+          "page-4.png": "142bf8b9e50e88f24cbb0cc296056658c8c6d315475bd1e8fae2680ac331cbee",
+          "page-5.png": "302c030c1d4e95bc98260f68d0f493327940966f006149e2f8a5681a03b41317"
+        }
+      },
+      "patched": {
+        "pages": 5,
+        "word_count": 197,
+        "geometry_sha256": "996230b83a6462dc48fa5613542ca5c843acca154ded2cc479d823f5f1cc0970",
+        "urls_sha256": "cf266b8ae7a022d49c22aa6a45c5556827bc7e314c146fefa6d7cb95f6289794",
+        "fonts_sha256": "e13ec78e5e006bd50edf0de06619fa6ff2e654b9ccd369287e8e6e9aedd4f793",
+        "page_png_sha256": {
+          "page-1.png": "49f8f7e352125efbb69c022cd19e7d6663ae5f054080fa0b6a7c7fb12c83b2ff",
+          "page-2.png": "c73735e283926774216d15cd9a73d4cfa3037723d6fd8785c219981a0cafef7c",
+          "page-3.png": "2724e6c682e209bf6748e9f997979d381328a48d4769705e0007e54bb665deb5",
+          "page-4.png": "142bf8b9e50e88f24cbb0cc296056658c8c6d315475bd1e8fae2680ac331cbee",
+          "page-5.png": "302c030c1d4e95bc98260f68d0f493327940966f006149e2f8a5681a03b41317"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 21,
+      "source": "personal-transfer-complete-english.html",
+      "baseline_sha256": "2be0d6c8f5d990b0857ad90d7fd4a527523e8e79c642948c1c02b5d4ca91b556",
+      "patched_sha256": "2135109349054fcdbc3249324a56d357428ee310efe5c2e7e802ee50b1ab0704",
+      "baseline": {
+        "pages": 9,
+        "word_count": 2009,
+        "geometry_sha256": "2bcb44e21af39e58befecdc40792e8c76e6391e461c7d7dbbc06cb17d199b023",
+        "urls_sha256": "41e4f10cfadcf09a2b4036a0fb7ae71badd483452804edae2e9e07eb45301377",
+        "fonts_sha256": "afd968194a427ac52dcd9ff3b89a2640108e19a4e34808e3559503fcd387ec03",
+        "page_png_sha256": {
+          "page-1.png": "0335a2fd4c19ab533759b93c59bd6ae98e27dae4873b7b24c8d915f6e58d73a2",
+          "page-2.png": "151aa3d4d9e7fdb3f415a4ca36918bd04d4a48d0093567dc016b85fb5216c4fc",
+          "page-3.png": "7fb3ae95a9774e345b104eaf975d32d80da18bbf0cd7d68dd1670e92227b0bea",
+          "page-4.png": "ef46a1677b80e30d05ce4b4dd07ebb6981e82245d7e1406c6ca8e2426b4baa1c",
+          "page-5.png": "dfce4fc27ff7142df2f62576b2d8165497696ee5f94aa8c7b90ac635f041eefe",
+          "page-6.png": "097aba9dcdd60045be09bd65abf533da4e60f99dd2911b27051a7ae73e2b40d8",
+          "page-7.png": "c48e119956e02fc01de4a4e6ee3ab6eabbe85d06997d40ebaf8f970c7ef36c6a",
+          "page-8.png": "d1ac10c5977ea4e8033ff95ced1ff72e48d85df5548663c2569d2d96349e05b1",
+          "page-9.png": "a21529cce77dbbba251db2f49eaee177522c691c2a9cde88f7de4831e38346af"
+        }
+      },
+      "patched": {
+        "pages": 9,
+        "word_count": 2009,
+        "geometry_sha256": "2bcb44e21af39e58befecdc40792e8c76e6391e461c7d7dbbc06cb17d199b023",
+        "urls_sha256": "41e4f10cfadcf09a2b4036a0fb7ae71badd483452804edae2e9e07eb45301377",
+        "fonts_sha256": "afd968194a427ac52dcd9ff3b89a2640108e19a4e34808e3559503fcd387ec03",
+        "page_png_sha256": {
+          "page-1.png": "0335a2fd4c19ab533759b93c59bd6ae98e27dae4873b7b24c8d915f6e58d73a2",
+          "page-2.png": "151aa3d4d9e7fdb3f415a4ca36918bd04d4a48d0093567dc016b85fb5216c4fc",
+          "page-3.png": "7fb3ae95a9774e345b104eaf975d32d80da18bbf0cd7d68dd1670e92227b0bea",
+          "page-4.png": "ef46a1677b80e30d05ce4b4dd07ebb6981e82245d7e1406c6ca8e2426b4baa1c",
+          "page-5.png": "dfce4fc27ff7142df2f62576b2d8165497696ee5f94aa8c7b90ac635f041eefe",
+          "page-6.png": "097aba9dcdd60045be09bd65abf533da4e60f99dd2911b27051a7ae73e2b40d8",
+          "page-7.png": "c48e119956e02fc01de4a4e6ee3ab6eabbe85d06997d40ebaf8f970c7ef36c6a",
+          "page-8.png": "d1ac10c5977ea4e8033ff95ced1ff72e48d85df5548663c2569d2d96349e05b1",
+          "page-9.png": "a21529cce77dbbba251db2f49eaee177522c691c2a9cde88f7de4831e38346af"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 22,
+      "source": "personal-transfer-complete-chinese.html",
+      "baseline_sha256": "4cb162b73026e667f8ea8fc24ff7bb5d25148b816b2d4569d36a255b216d255d",
+      "patched_sha256": "0d6c7043a058e69a6bd35f5a7f3d6139bf73c373689dc36b002b7ea674b12741",
+      "baseline": {
+        "pages": 8,
+        "word_count": 414,
+        "geometry_sha256": "3e1eaf260d1db3f2c46ae23f7e7e765e53c49be7e2dbd1e53b28f01dbf5e1285",
+        "urls_sha256": "cc3e30f941f02e20f60d71a3e55268cd11fdb031b95929dd2cb7341754a59863",
+        "fonts_sha256": "e9c24b904dd4703714a6e5645f148df025f3450e9e63eaac2ea8b143d7e625fc",
+        "page_png_sha256": {
+          "page-1.png": "04cddcf5a5524b26fa17b617e5554ede1c3fbba6c6baf63365f62ab222024705",
+          "page-2.png": "7dc7488190239419ed5122dc16b745db3d60dcb7328ce7bd6bb1955b2cf6e7c3",
+          "page-3.png": "594ee7623fb26fb22a0c8829860d0f09c70ad8fac3aeb7ea5e82f6a7413b2afb",
+          "page-4.png": "02e4b6c3e2bcee6b24889fc28a785cd0b284cfc6a19804cb7185ca6331b5a1cd",
+          "page-5.png": "fbb7fa6e56d181b2fb15392502cc4256da3d650c99b8ad6f933acc1970c5ba90",
+          "page-6.png": "71e63c65f41939c85b0970efb1ad942a6bd3a62aeb2240e95a08a83a9cab38bb",
+          "page-7.png": "2a718c5c74576f3bfd323efdce02dbb9c080393a30eb3e50079e41acdc6a34df",
+          "page-8.png": "ab0f598f3c5ce594ee5fbed517fbe35632f6fa9690169bebe8dd4c2c13559c76"
+        }
+      },
+      "patched": {
+        "pages": 8,
+        "word_count": 414,
+        "geometry_sha256": "3e1eaf260d1db3f2c46ae23f7e7e765e53c49be7e2dbd1e53b28f01dbf5e1285",
+        "urls_sha256": "cc3e30f941f02e20f60d71a3e55268cd11fdb031b95929dd2cb7341754a59863",
+        "fonts_sha256": "e9c24b904dd4703714a6e5645f148df025f3450e9e63eaac2ea8b143d7e625fc",
+        "page_png_sha256": {
+          "page-1.png": "04cddcf5a5524b26fa17b617e5554ede1c3fbba6c6baf63365f62ab222024705",
+          "page-2.png": "7dc7488190239419ed5122dc16b745db3d60dcb7328ce7bd6bb1955b2cf6e7c3",
+          "page-3.png": "594ee7623fb26fb22a0c8829860d0f09c70ad8fac3aeb7ea5e82f6a7413b2afb",
+          "page-4.png": "02e4b6c3e2bcee6b24889fc28a785cd0b284cfc6a19804cb7185ca6331b5a1cd",
+          "page-5.png": "fbb7fa6e56d181b2fb15392502cc4256da3d650c99b8ad6f933acc1970c5ba90",
+          "page-6.png": "71e63c65f41939c85b0970efb1ad942a6bd3a62aeb2240e95a08a83a9cab38bb",
+          "page-7.png": "2a718c5c74576f3bfd323efdce02dbb9c080393a30eb3e50079e41acdc6a34df",
+          "page-8.png": "ab0f598f3c5ce594ee5fbed517fbe35632f6fa9690169bebe8dd4c2c13559c76"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 23,
+      "source": "budget-long-no-currency-english.html",
+      "baseline_sha256": "18024ee04f069612445910dbf0b8d3fe0d1e63704114d5b838a2a955c167639d",
+      "patched_sha256": "21ec6991a78802ca3d5d6722cd047feac6e32d083ef478158731459e46d2a9c1",
+      "baseline": {
+        "pages": 11,
+        "word_count": 2552,
+        "geometry_sha256": "d1e08a1ee54d082add830a741691811b9306b277f92f9cf0388e63af45ae83bf",
+        "urls_sha256": "001e7ddbd8702037ccc36eed858571a13edbebe49119b78fbf289c7d3a46a646",
+        "fonts_sha256": "b15a3531035671d8764c041dcfad69b628aa44e03c7bab28c4d06c9c6b21754c",
+        "page_png_sha256": {
+          "page-01.png": "b4d4d45d8a2b77ae541abada808f5b3cfcfe954b0518f140f0314a9b8d33bf91",
+          "page-02.png": "178fdc2a5373d47f10538b86fdd40b8b985264840f53bef231b4375f8d00dd8c",
+          "page-03.png": "cee39359a9a30c93af099a753cb5c9abf44b2bee1916ee65f5ec3741ea38bcdb",
+          "page-04.png": "7d3e72e5acddc641839dcfbb2495ad245e5d1f99353c7358f7a4c47063416095",
+          "page-05.png": "2d87dfad3f50575a377322a4f7bc36050e1b09877d227cb3065d303cdf0314f4",
+          "page-06.png": "4421db186244ce12a3e3fcded55750648dabe6f72f277b043b6c00893a85b902",
+          "page-07.png": "3d94a087243869fc2527f30b703e7f0aded4d922bb60dcfff1b66ad266bdb810",
+          "page-08.png": "9909a85096bc2373b28a8d71720275a682937058e2a6fce3f47346548d598e5a",
+          "page-09.png": "239c6aec8c08bd81d4cf674709d1eee103e92498baf94c535902ee48884b2feb",
+          "page-10.png": "5b3e5b21e4a1eb01b3b4e26bd07c8733f6664474035d95261286c7748a2b178d",
+          "page-11.png": "718e507879935cc37a56f9a05b2b68b676583acb675991426981ed32ccddced1"
+        }
+      },
+      "patched": {
+        "pages": 11,
+        "word_count": 2552,
+        "geometry_sha256": "d1e08a1ee54d082add830a741691811b9306b277f92f9cf0388e63af45ae83bf",
+        "urls_sha256": "001e7ddbd8702037ccc36eed858571a13edbebe49119b78fbf289c7d3a46a646",
+        "fonts_sha256": "b15a3531035671d8764c041dcfad69b628aa44e03c7bab28c4d06c9c6b21754c",
+        "page_png_sha256": {
+          "page-01.png": "b4d4d45d8a2b77ae541abada808f5b3cfcfe954b0518f140f0314a9b8d33bf91",
+          "page-02.png": "178fdc2a5373d47f10538b86fdd40b8b985264840f53bef231b4375f8d00dd8c",
+          "page-03.png": "cee39359a9a30c93af099a753cb5c9abf44b2bee1916ee65f5ec3741ea38bcdb",
+          "page-04.png": "7d3e72e5acddc641839dcfbb2495ad245e5d1f99353c7358f7a4c47063416095",
+          "page-05.png": "2d87dfad3f50575a377322a4f7bc36050e1b09877d227cb3065d303cdf0314f4",
+          "page-06.png": "4421db186244ce12a3e3fcded55750648dabe6f72f277b043b6c00893a85b902",
+          "page-07.png": "3d94a087243869fc2527f30b703e7f0aded4d922bb60dcfff1b66ad266bdb810",
+          "page-08.png": "9909a85096bc2373b28a8d71720275a682937058e2a6fce3f47346548d598e5a",
+          "page-09.png": "239c6aec8c08bd81d4cf674709d1eee103e92498baf94c535902ee48884b2feb",
+          "page-10.png": "5b3e5b21e4a1eb01b3b4e26bd07c8733f6664474035d95261286c7748a2b178d",
+          "page-11.png": "718e507879935cc37a56f9a05b2b68b676583acb675991426981ed32ccddced1"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 24,
+      "source": "budget-long-no-currency-chinese.html",
+      "baseline_sha256": "e2b9f9b80db7d54cf6f578398d51dc93bcd00b9ca4a10def87dcc6d7f746c0a5",
+      "patched_sha256": "fc8b65477abdce3f06bf233d7282c5b568230884a9e6b60232386ba43da2bd8b",
+      "baseline": {
+        "pages": 10,
+        "word_count": 599,
+        "geometry_sha256": "12912b9b6099ea60bd146f632ab02f5c32e75d4e332de93644e64499f6bc7334",
+        "urls_sha256": "3c0443dd0d1224134ac372cbef621aa2c2d3fc973880b54e78183fac22fc2116",
+        "fonts_sha256": "afd968194a427ac52dcd9ff3b89a2640108e19a4e34808e3559503fcd387ec03",
+        "page_png_sha256": {
+          "page-01.png": "02e4dfd3ec5b81659564781172a7d2e0fe49c0fb35bfc7891569c36f0f3afaaf",
+          "page-02.png": "204a22e0230c64330e3c2b3fa97d0c967ad5142359fa6364e72c04b6d10c0094",
+          "page-03.png": "f2f1c81ad0555baff14e1a067381338c00b568f48a8fc5de0f8d3efaeb8ebb34",
+          "page-04.png": "c5ef4e9a3b31c4d5dadb3b81f1df47582f4125f32e0bcc031bb867fc2abb365e",
+          "page-05.png": "a092c2c9f9d5db1c9c389d6aa0ce7f0fec704b654d24d3d978559b366b34dc1d",
+          "page-06.png": "f377b67e72282fefc6a54dbc09a3fa9054dc3e1efe3bcf8f192387f2106c0258",
+          "page-07.png": "078c549fa345caec89141300748254ba88c05bc27a45aafdc762cb244105dcd4",
+          "page-08.png": "18de7abbecf8e8063c37261da3992ce2d81ae6d62ad31ec55a16d599d70d565c",
+          "page-09.png": "4a5c615042e22667dc8e398e7c3dfee7154eb1a95e9e5b12dc76e66aa9360b5b",
+          "page-10.png": "5678aa3b14d7db7639cdcd014d9430a878b62543bdabcc0a0dd061fb89fd359a"
+        }
+      },
+      "patched": {
+        "pages": 10,
+        "word_count": 599,
+        "geometry_sha256": "12912b9b6099ea60bd146f632ab02f5c32e75d4e332de93644e64499f6bc7334",
+        "urls_sha256": "3c0443dd0d1224134ac372cbef621aa2c2d3fc973880b54e78183fac22fc2116",
+        "fonts_sha256": "afd968194a427ac52dcd9ff3b89a2640108e19a4e34808e3559503fcd387ec03",
+        "page_png_sha256": {
+          "page-01.png": "02e4dfd3ec5b81659564781172a7d2e0fe49c0fb35bfc7891569c36f0f3afaaf",
+          "page-02.png": "204a22e0230c64330e3c2b3fa97d0c967ad5142359fa6364e72c04b6d10c0094",
+          "page-03.png": "f2f1c81ad0555baff14e1a067381338c00b568f48a8fc5de0f8d3efaeb8ebb34",
+          "page-04.png": "c5ef4e9a3b31c4d5dadb3b81f1df47582f4125f32e0bcc031bb867fc2abb365e",
+          "page-05.png": "a092c2c9f9d5db1c9c389d6aa0ce7f0fec704b654d24d3d978559b366b34dc1d",
+          "page-06.png": "f377b67e72282fefc6a54dbc09a3fa9054dc3e1efe3bcf8f192387f2106c0258",
+          "page-07.png": "078c549fa345caec89141300748254ba88c05bc27a45aafdc762cb244105dcd4",
+          "page-08.png": "18de7abbecf8e8063c37261da3992ce2d81ae6d62ad31ec55a16d599d70d565c",
+          "page-09.png": "4a5c615042e22667dc8e398e7c3dfee7154eb1a95e9e5b12dc76e66aa9360b5b",
+          "page-10.png": "5678aa3b14d7db7639cdcd014d9430a878b62543bdabcc0a0dd061fb89fd359a"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 25,
+      "source": "budget-mixed-gaps-english.html",
+      "baseline_sha256": "de3aaaa169a310269af53b85685300688bb4412e451c0d2df6608a92e910589a",
+      "patched_sha256": "0595853ef8954656b42132cf6de1bb64b58768f63e32cc9ccf7f2f0f4f200116",
+      "baseline": {
+        "pages": 8,
+        "word_count": 1961,
+        "geometry_sha256": "07a2f45057aaca46f9a153eb95276429181a36ff000ad7f32bb21a157b726652",
+        "urls_sha256": "b7885c3c738773108efcde038ff63d412f4afdf3f2765965ffba6751f3a4500b",
+        "fonts_sha256": "9e3e9a00bf5730eb8f0d0a930029889dce8db59500bdc037ec6456f081b62134",
+        "page_png_sha256": {
+          "page-1.png": "d7b632d9324e7d281b6d04fbeb26f25e01d3b1b7240b771c15ae3f3be90c2672",
+          "page-2.png": "4ff81d7af95bb20d8c4af3ef15af554267e9389dd5194739497eb09ce1fece85",
+          "page-3.png": "ebeb2971265e510b45688fd3362a90db1fa64d0105c12859354351dc12400991",
+          "page-4.png": "6e32bc6a941b06a5a37d1318fe8c7eb856010eb6fff531f4079f565319c7d3dd",
+          "page-5.png": "02aeb2aa966775af696fd58424555538b1f39c1653ba1e403e11feb1ba5585bb",
+          "page-6.png": "bb0db66112f9dbebdb254c766f5dff15aa26c3a447db73a786a0a97bc9288ecd",
+          "page-7.png": "1681f1b5c8971e573338cfe7f0b3f3f4c1ba293332051a31ab806db5286cbcb4",
+          "page-8.png": "f02ceafa415ec8122d6f9676fe9888aa54eff3ec59f246e384dcd1e27afbbf8a"
+        }
+      },
+      "patched": {
+        "pages": 8,
+        "word_count": 1961,
+        "geometry_sha256": "07a2f45057aaca46f9a153eb95276429181a36ff000ad7f32bb21a157b726652",
+        "urls_sha256": "b7885c3c738773108efcde038ff63d412f4afdf3f2765965ffba6751f3a4500b",
+        "fonts_sha256": "9e3e9a00bf5730eb8f0d0a930029889dce8db59500bdc037ec6456f081b62134",
+        "page_png_sha256": {
+          "page-1.png": "d7b632d9324e7d281b6d04fbeb26f25e01d3b1b7240b771c15ae3f3be90c2672",
+          "page-2.png": "4ff81d7af95bb20d8c4af3ef15af554267e9389dd5194739497eb09ce1fece85",
+          "page-3.png": "ebeb2971265e510b45688fd3362a90db1fa64d0105c12859354351dc12400991",
+          "page-4.png": "6e32bc6a941b06a5a37d1318fe8c7eb856010eb6fff531f4079f565319c7d3dd",
+          "page-5.png": "02aeb2aa966775af696fd58424555538b1f39c1653ba1e403e11feb1ba5585bb",
+          "page-6.png": "bb0db66112f9dbebdb254c766f5dff15aa26c3a447db73a786a0a97bc9288ecd",
+          "page-7.png": "1681f1b5c8971e573338cfe7f0b3f3f4c1ba293332051a31ab806db5286cbcb4",
+          "page-8.png": "f02ceafa415ec8122d6f9676fe9888aa54eff3ec59f246e384dcd1e27afbbf8a"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 26,
+      "source": "budget-mixed-gaps-chinese.html",
+      "baseline_sha256": "0aaa986f3b6f01992a7bf697cf8db60bf5cb7e390da4384f22631da0f84e3c4c",
+      "patched_sha256": "b895588cfc557ad42bbae1e045371b30ad7aa7b0b2c689c610e87d82bbcc51cf",
+      "baseline": {
+        "pages": 7,
+        "word_count": 404,
+        "geometry_sha256": "a66ed9dbdcdba787ee499d9260fee2fdc147712a96bb866a0114a31937b2777a",
+        "urls_sha256": "0f1cfb532c54aabaa950b8df5770c0840ea5bae785e5ae863b8713e84d5dfdd2",
+        "fonts_sha256": "05d9681ff5e6ca702ae0b138ca255231b7787f152ec5a117a8e830b37588b92f",
+        "page_png_sha256": {
+          "page-1.png": "1ab5522efd1d7ddccc1aa05bf0ac7eab52324a241713a5aa04aed1c698dabc2d",
+          "page-2.png": "80ce014a2b0795eaa8648c97e9558c6fea895a56b212a8fb7bfbd342c8bda718",
+          "page-3.png": "04099f21bb2b3242a6ddd3be2057d2e0f5deb683c3296d245a88585821535c14",
+          "page-4.png": "6f8ec1734e066d04af882564838b46ded4ce96a1296d76f2e65d5c5b541474c7",
+          "page-5.png": "ee0685d275fc073ce6d9310845810fb1571010a0d85488ba3b7793567bb4f9d1",
+          "page-6.png": "1fa8db6c60413ae27a03c6a978ba9acbbb45788dd80706d7d2baff680dceaa4e",
+          "page-7.png": "543e6f22c8ae4ec248049dc163adfa48d0258c33a74df744fb130acf7a963204"
+        }
+      },
+      "patched": {
+        "pages": 7,
+        "word_count": 404,
+        "geometry_sha256": "a66ed9dbdcdba787ee499d9260fee2fdc147712a96bb866a0114a31937b2777a",
+        "urls_sha256": "0f1cfb532c54aabaa950b8df5770c0840ea5bae785e5ae863b8713e84d5dfdd2",
+        "fonts_sha256": "05d9681ff5e6ca702ae0b138ca255231b7787f152ec5a117a8e830b37588b92f",
+        "page_png_sha256": {
+          "page-1.png": "1ab5522efd1d7ddccc1aa05bf0ac7eab52324a241713a5aa04aed1c698dabc2d",
+          "page-2.png": "80ce014a2b0795eaa8648c97e9558c6fea895a56b212a8fb7bfbd342c8bda718",
+          "page-3.png": "04099f21bb2b3242a6ddd3be2057d2e0f5deb683c3296d245a88585821535c14",
+          "page-4.png": "6f8ec1734e066d04af882564838b46ded4ce96a1296d76f2e65d5c5b541474c7",
+          "page-5.png": "ee0685d275fc073ce6d9310845810fb1571010a0d85488ba3b7793567bb4f9d1",
+          "page-6.png": "1fa8db6c60413ae27a03c6a978ba9acbbb45788dd80706d7d2baff680dceaa4e",
+          "page-7.png": "543e6f22c8ae4ec248049dc163adfa48d0258c33a74df744fb130acf7a963204"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 27,
+      "source": "budget-many-english.html",
+      "baseline_sha256": "705e127cd281992918d7a19d58c43a28c94614009eef3bc6eadf712c1a07b5db",
+      "patched_sha256": "45086e24bb72dbb88de28c78faf9183899be10e74a252248aac29712fe0fcf42",
+      "baseline": {
+        "pages": 9,
+        "word_count": 2056,
+        "geometry_sha256": "e3b203e39b7336bfdac24607ccd498ce9ba3bf0d472d7d2297eb61e077520305",
+        "urls_sha256": "b7885c3c738773108efcde038ff63d412f4afdf3f2765965ffba6751f3a4500b",
+        "fonts_sha256": "fa1939291395714efb277a747c6ea6f11c7cd47d5e895d1e8878341f7d5b05a1",
+        "page_png_sha256": {
+          "page-1.png": "4e1cd09d81dbf6370d3ba8b975baa582e7943f296b0a972abb727c436be9da8a",
+          "page-2.png": "151aa3d4d9e7fdb3f415a4ca36918bd04d4a48d0093567dc016b85fb5216c4fc",
+          "page-3.png": "7fb3ae95a9774e345b104eaf975d32d80da18bbf0cd7d68dd1670e92227b0bea",
+          "page-4.png": "39b724ea1275fdc9ffc26c0b7809fef15e7740a3339b053659360c034f197c9a",
+          "page-5.png": "65e74cd59b73dba43661b32b13f1f9de5b8a8b6db927fa688d22bed0a686f455",
+          "page-6.png": "d77fb43bbcfbafb8e5b954cd90374aef98fba6098d1267ba5a37fc20106e630a",
+          "page-7.png": "32b348ec4253e87f0b3f8277dec7d8d2a578aa646d99ce74149ccde3a898e001",
+          "page-8.png": "ea80e39950a1e39f3966a3d190748d4e1135eeb6e52bda9449b644ddba5c2e1d",
+          "page-9.png": "942284d9957807306db204e77ef2df5cc4ceb69f435b79a1f260087865d45763"
+        }
+      },
+      "patched": {
+        "pages": 9,
+        "word_count": 2056,
+        "geometry_sha256": "e3b203e39b7336bfdac24607ccd498ce9ba3bf0d472d7d2297eb61e077520305",
+        "urls_sha256": "b7885c3c738773108efcde038ff63d412f4afdf3f2765965ffba6751f3a4500b",
+        "fonts_sha256": "fa1939291395714efb277a747c6ea6f11c7cd47d5e895d1e8878341f7d5b05a1",
+        "page_png_sha256": {
+          "page-1.png": "4e1cd09d81dbf6370d3ba8b975baa582e7943f296b0a972abb727c436be9da8a",
+          "page-2.png": "151aa3d4d9e7fdb3f415a4ca36918bd04d4a48d0093567dc016b85fb5216c4fc",
+          "page-3.png": "7fb3ae95a9774e345b104eaf975d32d80da18bbf0cd7d68dd1670e92227b0bea",
+          "page-4.png": "39b724ea1275fdc9ffc26c0b7809fef15e7740a3339b053659360c034f197c9a",
+          "page-5.png": "65e74cd59b73dba43661b32b13f1f9de5b8a8b6db927fa688d22bed0a686f455",
+          "page-6.png": "d77fb43bbcfbafb8e5b954cd90374aef98fba6098d1267ba5a37fc20106e630a",
+          "page-7.png": "32b348ec4253e87f0b3f8277dec7d8d2a578aa646d99ce74149ccde3a898e001",
+          "page-8.png": "ea80e39950a1e39f3966a3d190748d4e1135eeb6e52bda9449b644ddba5c2e1d",
+          "page-9.png": "942284d9957807306db204e77ef2df5cc4ceb69f435b79a1f260087865d45763"
+        }
+      },
+      "identical": true
+    },
+    {
+      "iteration": 28,
+      "source": "budget-many-chinese.html",
+      "baseline_sha256": "3b2c2851dfb1c35b570e8d120bdf2ef6e16bb41ee1e4a29316e87309295a7a1a",
+      "patched_sha256": "2784d4937cb11f465f544686c7e215b3e6459ee5395f50d7a122d92b6e19d15e",
+      "baseline": {
+        "pages": 8,
+        "word_count": 441,
+        "geometry_sha256": "13f6cb565e89aab278676dea45d939cfaa0fe5a98a9b861f4325e1af621d25c4",
+        "urls_sha256": "0f1cfb532c54aabaa950b8df5770c0840ea5bae785e5ae863b8713e84d5dfdd2",
+        "fonts_sha256": "9e3e9a00bf5730eb8f0d0a930029889dce8db59500bdc037ec6456f081b62134",
+        "page_png_sha256": {
+          "page-1.png": "823fc5bd78fcba4cc5618cc315c0a7b252c1b9d6421efbaf943d3eac2acd23f9",
+          "page-2.png": "7dc7488190239419ed5122dc16b745db3d60dcb7328ce7bd6bb1955b2cf6e7c3",
+          "page-3.png": "594ee7623fb26fb22a0c8829860d0f09c70ad8fac3aeb7ea5e82f6a7413b2afb",
+          "page-4.png": "d8e95ba47e05dd29ceb3d0422c22efa4cfff1de121e99d9221e95acec3c3732d",
+          "page-5.png": "420c1457d2ff7c856682d7a85f18b44ea6ff74ab6a0dc602eac4df078b8d5599",
+          "page-6.png": "5efb7e0723897027f3a84afaf272e25be5473cd3d5b354877c00f2c2e0fc50ac",
+          "page-7.png": "6cbe9d0767cbabdca0bbc500a3c92a51989be7078348ede76a3033abcc0ad9c6",
+          "page-8.png": "5c4f784ad5f677de35fa10be65bf0a52b7a01a71ff281392184ba401874af0ba"
+        }
+      },
+      "patched": {
+        "pages": 8,
+        "word_count": 441,
+        "geometry_sha256": "13f6cb565e89aab278676dea45d939cfaa0fe5a98a9b861f4325e1af621d25c4",
+        "urls_sha256": "0f1cfb532c54aabaa950b8df5770c0840ea5bae785e5ae863b8713e84d5dfdd2",
+        "fonts_sha256": "9e3e9a00bf5730eb8f0d0a930029889dce8db59500bdc037ec6456f081b62134",
+        "page_png_sha256": {
+          "page-1.png": "823fc5bd78fcba4cc5618cc315c0a7b252c1b9d6421efbaf943d3eac2acd23f9",
+          "page-2.png": "7dc7488190239419ed5122dc16b745db3d60dcb7328ce7bd6bb1955b2cf6e7c3",
+          "page-3.png": "594ee7623fb26fb22a0c8829860d0f09c70ad8fac3aeb7ea5e82f6a7413b2afb",
+          "page-4.png": "d8e95ba47e05dd29ceb3d0422c22efa4cfff1de121e99d9221e95acec3c3732d",
+          "page-5.png": "420c1457d2ff7c856682d7a85f18b44ea6ff74ab6a0dc602eac4df078b8d5599",
+          "page-6.png": "5efb7e0723897027f3a84afaf272e25be5473cd3d5b354877c00f2c2e0fc50ac",
+          "page-7.png": "6cbe9d0767cbabdca0bbc500a3c92a51989be7078348ede76a3033abcc0ad9c6",
+          "page-8.png": "5c4f784ad5f677de35fa10be65bf0a52b7a01a71ff281392184ba401874af0ba"
+        }
+      },
+      "identical": true
+    }
+  ],
+  "limits": [
+    "Frozen HTML conversion, not native PDF-entry HTML or queue replay",
+    "96 dpi raster comparison, not human content or Microsoft Word acceptance",
+    "No-crash runs do not prove the historical crash was fixed"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "diagnostic_only": true,
+  "release_acceptance": false,
+  "sources_sha256": {
+    "budget-many-chinese.html": "effaebb218b3868dbf346227e72b073e4b2fa59b48991812c6298433d4afe663",
+    "PilotTC.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+    "empty-english.html": "66ca090da01f450674f2622e9587f6da57d47c447f8456c8c99dfcff9a497610",
+    "empty-chinese.html": "2859c0086bb61c4d267401319f0e1652da96eb56897db7be482ac18417174254",
+    "negative-english.html": "da3d46e889520605137a130ea1f3b0ecb0a81c6a76625361917df32027f5c665",
+    "negative-chinese.html": "2480170068b6435c1cfd5ed27ec0255eacdaedad4cf93bfa692166319b645863",
+    "partial-english.html": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f",
+    "partial-chinese.html": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4",
+    "personal-transfer-complete-english.html": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473",
+    "personal-transfer-complete-chinese.html": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca",
+    "budget-long-no-currency-english.html": "fb18c1e434272517a9e97ef82dda1e2c870f555b6ac8bc40f3cd8ebd4feb70dc",
+    "budget-long-no-currency-chinese.html": "f4f723814b0ef60c90f96950438a434f86d2ba75ca9088d4b31143a07a444d0f",
+    "budget-mixed-gaps-english.html": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139",
+    "budget-mixed-gaps-chinese.html": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606",
+    "budget-many-english.html": "40ef71caae5ea529cc4d4f7d80fa225af8b8a6d8043e8ee668e932bd2a66ba46"
+  },
+  "package_sha256": {
+    "english.zip": "34714601485bdba7216f0c708a90332fbbde49c84140dc9b044aae94fc3ce5fd",
+    "chinese.zip": "bd9aab61ef482d4014670b49fd9ae4d681af7315bc9e2ae34c848da9b29fde01"
+  },
+  "pilot_services_still_stopped": [
+    {
+      "name": "/science-europe-pilot-docworker-1",
+      "state": "exited",
+      "image": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc"
+    },
+    {
+      "name": "/science-europe-pilot-server-1",
+      "state": "exited",
+      "image": "sha256:8a06520490cc58c2dd2297e34b198c833442717116c7b3d9d96ba4922a07f375"
+    },
+    {
+      "name": "/science-europe-pilot-postgres-1",
+      "state": "exited",
+      "image": "sha256:aadf2c0696f5ef357aa7a68da995137f0cf17bad0bf6e1f17de06ae5c769b302"
+    },
+    {
+      "name": "/science-europe-pilot-minio-1",
+      "state": "exited",
+      "image": "sha256:a616cd8f37758b0296db62cc9e6af05a074e844cc7b5c0a0e62176d73828d440"
+    }
+  ],
+  "template_version_unchanged": "0.3.25",
+  "no_production_or_native_queue_writes_this_round": true
+}

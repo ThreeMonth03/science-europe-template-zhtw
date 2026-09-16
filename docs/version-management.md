@@ -3,6 +3,11 @@
 目前 0.3.25 的英中工作分支為 `fix/short-budget-reading`，承接 0.3.24 的 `fix/empty-pdf-reading`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
+其後中文另開 `fix/worker-pdf-stability`，只保存執行引擎隔離診斷與檢查工具，
+不改上述英文 lock／英中套件版號。引擎必須額外鎖映像與來源 hash：相同模板
+在不同引擎上不能沿用成品驗收。上游吸收修補後要移除本地 backport，來源
+不符則停止套用，不另養一條永久引擎 fork。見 [穩定性診斷](worker-pdf-stability.md)。
+
 0.3.25 僅新增有界限的 PDF 短預算 class 與 CSS；731 個譯文與 Q15 邏輯
 不變。初版雖然 CI 通過，原生輸出仍抓到 autoescape 造成表格標籤被印出的
 問題，因此拒收並以新 commit／ZIP hash 完整重測。升級門檻不能只靠 Git

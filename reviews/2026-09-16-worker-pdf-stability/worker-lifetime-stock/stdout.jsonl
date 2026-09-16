@@ -1,0 +1,42 @@
+{"event": "environment", "versions": {"weasyprint": "68.1", "cffi": "2.0.0", "pydyf": "0.12.1", "fonttools": "4.62.1"}, "python": "3.13.13 (main, Apr 15 2026, 20:48:03) [GCC 15.2.0]", "conversion_sha256": "95d11d5d00b837bd734bca5a0aa0eefacc5c671089915d39a2e69a79dc6b08fa", "gc_threshold": [2000, 10, 10], "gc_policy": "natural"}
+{"event": "lifetime-start", "iteration": 1}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 1}
+{"event": "lifetime-start", "iteration": 2}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 2}
+{"event": "lifetime-start", "iteration": 3}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 3}
+{"event": "lifetime-start", "iteration": 4}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 4}
+{"event": "lifetime-start", "iteration": 5}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 5}
+{"event": "lifetime-start", "iteration": 6}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 6}
+{"event": "lifetime-start", "iteration": 7}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 7}
+{"event": "lifetime-start", "iteration": 8}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 8}
+{"event": "lifetime-start", "iteration": 9}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 9}
+{"event": "lifetime-start", "iteration": 10}
+{"event": "owners-released"}
+{"event": "subset-complete"}
+{"event": "lifetime-complete", "iteration": 10}
+{"event": "complete", "iterations": 10}
