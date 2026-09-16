@@ -82,7 +82,10 @@ Word 不變，但其短預算提示折行仍待修。初版 autoescape 失敗與
 
 0.3.26 的 [Word 短預算欄寬實驗](docs/word-short-budget.md) 沿用共用短表格
 判斷，只加 Word 專用標記並調整合規表格欄寬；回答、字級與 731 個翻譯檔
-不變。引擎仍為 tables-only，與字型修補實驗分開。
+不變。原生 partial 的中文 Word 缺幣別提示 2 → 1 行、英文 3 → 2 行，
+仍各四頁；七組中英共 42 個輸出及 14 份預覽核對通過。見
+[前後樣張](reviews/2026-09-16-word-short-budget/README.md)。引擎仍為 tables-only，
+與字型修補實驗分開；中文混合缺答的稀疏尾頁及 Word 實機仍待驗收。
 
 `pipeline.yml` 分開記錄英文來源版本與中文輸出版本。開發預覽允許明確標記的
 未提交修改；正式建置要求來源與工具為乾淨且符合 lock 的 commit。

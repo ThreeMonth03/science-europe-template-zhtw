@@ -27,3 +27,21 @@ column grid，原有 PDF、長表格與 Q8／Q9 探針繼續執行。原生前�
 worker 延用 tables-only 映像，沒有採用上一輪的字型修補實驗；本機診斷
 override 僅開啟 `PYTHONFAULTHANDLER`，若再當機先保存 stack trace。
 不動線上 DSW、不合併 main、不建立正式 tag 或 release。
+
+## 原生驗證結果
+
+七組中英、共 42 個原生 HTML／PDF／DOCX 與 14 份 LibreOffice 預覽完成。
+partial 中文缺幣別提示 2 → 1 行、英文 3 → 2 行，Word 仍各四頁。
+partial 與混合缺答的四張表格只改 column grid；其他 Word 本文 XML、樣式、
+編號、字型與外部連結不變，所有控制組頁數不變。原生 PDF 逐頁正文與
+15 題 HTML 保留；長回答、0 金額、明確否定與漏填提示都有核對。
+
+[前後样張與封存證據](../reviews/2026-09-16-word-short-budget/README.md) 包含
+原生 DOCX／PDF、Word 預覽、逐項檢查與未採用方案。工具最初對 tcW、
+頁尾抽取順序與日期不換行連字號的假設不成立，失敗紀錄保留；最後只
+調整有嚴格來源／座標／run 證據的比對規則，不放寬作者原文或標點。
+
+本輪沒有 worker restart，已清理本輪兩個無引用的暫存模板，保留 ZIP，
+恢復 stock worker 並停止四個 pilot 服務。這不代表歷史 exit 139 已解決。
+中文混合缺答的稀疏尾頁與整份閱讀節奏仍需下一輪處理；沒有 Microsoft
+Word 實機或所有 Science Europe 回答分支的完成宣稱。
