@@ -1,0 +1,172 @@
+<div id="q-persistent-identifier" class="question">
+    {# __tr_block_0000:start #}<h3>13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？</h3>{# __tr_block_0000:end #}
+
+    <div class="answer">
+    {# identifiers #}
+    {%- set producedDataPath = [uuids.preservingCUuid, uuids.producedDataQUuid]|reply_path -%}
+    {%- set producedDataItems = repliesMap[producedDataPath]|reply_items -%}
+    {%- if producedDataItems|length > 0 -%}
+        {%- for i in producedDataItems -%}
+            {%- set pathPrefix = [producedDataPath, i]|reply_path -%}
+            {%- set producedDataName = repliesMap[[pathPrefix, uuids.producedDataNameQUuid]|reply_path]|reply_str_value -%}
+            {# If will be published #}
+            {%- set isPublishedDataPath = [pathPrefix, uuids.isPublishedDataQUuid]|reply_path -%}
+            {%- set isPublishedDataAUuid = repliesMap[isPublishedDataPath]|reply_str_value -%}
+            <div class="dataset-section" data-item-id="{{ i }}">
+                {# __tr_block_0001:start #}<h5>{# __tr_inline_if_original:e3sgcHJvZHVjZWREYXRhTmFtZXxlIGlmIHByb2R1Y2VkRGF0YU5hbWUgZWxzZSAiKG5vIG5hbWUgZ2l2ZW4pIiB9fQ== #}{% if producedDataName %}{{ producedDataName|e }}{% else %}（名稱尚未提供）{% endif %}{# __tr_inline_if_original:end #}</h5>{# __tr_block_0001:end #}
+            {% if isPublishedDataAUuid == uuids.isPublishedDataYesAUuid %}
+                {# Where the data will be distributed #}
+                {%- set publishedDistrosPath = [isPublishedDataPath, uuids.isPublishedDataYesAUuid, uuids.publishedDistrosQUuid]|reply_path -%}
+                {%- set publishedDistrosItems = repliesMap[publishedDistrosPath]|reply_items -%}
+                    {%- if publishedDistrosItems|length > 0  -%}
+                        {%- for j in publishedDistrosItems -%}
+                            {%- set publishedDistrosItem = [publishedDistrosPath, j]|reply_path -%}
+                            {%- set publishedDataIdentifierQUuid = [publishedDistrosItem, uuids.publishedDataIdentifierQUuid]|reply_path -%}
+                            {%- set publishedDataIdentifierAUuid = repliesMap[publishedDataIdentifierQUuid]|reply_str_value -%}
+
+                            {%- set repositoryKindQUuid = [publishedDistrosItem, uuids.publishedDataRepositoryKindQUuid]|reply_path -%}
+                            {%- set repositoryKindAUuid = repliesMap[repositoryKindQUuid]|reply_str_value -%}
+                            <div class="distribution-section" data-item-id="{{ j }}">
+                            <div class="identifier-heading">
+                            {% if publishedDistrosItems|length > 1 %}{# __tr_block_0002:start #}<p class="answer-lead"><strong>資料提供管道 {{ loop.index }}</strong></p>{# __tr_block_0002:end #}{% endif %}
+                            {# __tr_block_0003:start #}<p class="answer-lead">
+                            {%- if repositoryKindAUuid == uuids.publishedDataRepositoryDomainSpecificAUuid -%}
+                                <strong>特定學科的資料儲存庫</strong>
+                            {%- elif repositoryKindAUuid == uuids.publishedDataRepositoryGeneralPurposeAUuid -%}
+                                <strong>通用型資料儲存庫</strong>
+                            {%- elif repositoryKindAUuid == uuids.publishedDataRepositoryNationalAUuid -%}
+                               <strong>國家級資料儲存庫</strong>
+                            {%- elif repositoryKindAUuid == uuids.publishedDataRepositoryInstitutionalAUuid -%}
+                                <strong>機構資料儲存庫</strong>
+                            {%- elif repositoryKindAUuid == uuids.publishedDataRepositorySpecialAUuid -%}
+                                <strong>專用資料儲存庫</strong>
+                            {%- endif -%}
+                            </p>{# __tr_block_0003:end #}
+                            </div>
+
+                            {# Will this data be assigned persistent identifier? #}
+                            {%- if publishedDataIdentifierAUuid == uuids.publishedDataIdentifierYesAUuid -%}
+                            {# Only bounded, fixed template prose: keep child notices with their policy. #}
+                            <div class="identifier-followup-unit short-reading-unit">
+                            <div class="identifier-arrangement dataset-policy">
+                                {# Who assigns #}
+                                {%- set publishedDataIdentifierAssignsQUuid = [publishedDataIdentifierQUuid, uuids.publishedDataIdentifierYesAUuid, uuids.publishedDataIdentifierAssignsQUuid]|reply_path -%}
+                                {%- set publishedDataIdentifierAssignsAUuid = repliesMap[publishedDataIdentifierAssignsQUuid]|reply_str_value -%}
+
+                                {# A known assigner sentence already states that identifiers will be
+                                   assigned. Keep both facts, without repeating that assertion.
+                                   Missing/unsupported assigners must retain the known parent answer. #}
+                                {%- if publishedDataIdentifierAssignsAUuid == uuids.publishedDataIdentifierAssignsProjectDataStewardAUuid -%}
+                                    {# __tr_block_0004:start #}<p data-fact-id="persistent-identifier" data-status="complete"><span data-requirement-id="SE-5d" data-fact-id="identifier-assigner" data-status="complete">持續識別碼將由計畫的資料託管員或主持人指派。</span></p>{# __tr_block_0004:end #}
+
+                                {%- elif publishedDataIdentifierAssignsAUuid == uuids.publishedDataIdentifierAssignsInstitDataStewardAUuid -%}
+                                    {# __tr_block_0005:start #}<p data-fact-id="persistent-identifier" data-status="complete"><span data-requirement-id="SE-5d" data-fact-id="identifier-assigner" data-status="complete">持續識別碼將由機構的資料託管員指派。</span></p>{# __tr_block_0005:end #}
+
+                                {%- elif publishedDataIdentifierAssignsAUuid == uuids.publishedDataIdentifierAssignsRepositoryAUuid -%}
+                                    {# __tr_block_0006:start #}<p data-fact-id="persistent-identifier" data-status="complete"><span data-requirement-id="SE-5d" data-fact-id="identifier-assigner" data-status="complete">持續識別碼將由資料儲存庫指派。</span></p>{# __tr_block_0006:end #}
+                                {%- else -%}
+                                    {# __tr_block_0007:start #}<p data-fact-id="persistent-identifier" data-status="complete">資料將取得持續識別碼。</p>{# __tr_block_0007:end #}
+                                {%- endif -%}
+
+                                {# Resolvable #}
+                                {%- set publishedDataIdentifierResolvableQUuid = [publishedDataIdentifierQUuid, uuids.publishedDataIdentifierYesAUuid, uuids.publishedDataIdentifierResolvableQUuid]|reply_path -%}
+                                {%- set publishedDataIdentifierResolvableAUuid = repliesMap[publishedDataIdentifierResolvableQUuid]|reply_str_value -%}
+
+                                {%- if publishedDataIdentifierResolvableAUuid == uuids.publishedDataIdentifierResolvableYesAUuid -%}
+                                    {# __tr_block_0008:start #}<p data-requirement-id="SE-5d" data-fact-id="identifier-resolution" data-status="complete">資料儲存庫將確保持續識別碼可解析至數位物件。</p>{# __tr_block_0008:end #}
+
+                                {%- elif publishedDataIdentifierResolvableAUuid == uuids.publishedDataIdentifierResolvableNoAUuid -%}
+                                    {# __tr_block_0009:start #}<p data-requirement-id="SE-5d" data-fact-id="identifier-resolution" data-status="explicit-no">資料儲存庫將不保證持續識別碼可解析至數位物件。</p>{# __tr_block_0009:end #}
+                                {%- endif -%}
+
+                                {# The old identifier-specification question is absent from KM 2.7.0. #}
+                            </div>
+                            {# Missing/unsupported follow-ups are distinct from the supplied policy.
+                               Capture each translatable label before joining, as in Q2. #}
+                            {% set identifierMissing = [] %}{% set identifierReview = [] %}
+                            {% if publishedDataIdentifierAssignsAUuid not in [uuids.publishedDataIdentifierAssignsProjectDataStewardAUuid, uuids.publishedDataIdentifierAssignsInstitDataStewardAUuid, uuids.publishedDataIdentifierAssignsRepositoryAUuid] %}
+                              {% set fieldGap %}<span data-requirement-id="SE-5d" data-fact-id="identifier-assigner" data-status="{# __tr_inline_if_original:e3sgJ25lZWRzLXJldmlldycgaWYgcHVibGlzaGVkRGF0YUlkZW50aWZpZXJBc3NpZ25zQVV1aWR8dHJpbSBlbHNlICdtaXNzaW5nJyB9fQ== #}{% if publishedDataIdentifierAssignsAUuid|trim %}{{ 'needs-review' }}{% else %}{{ 'missing' }}{% endif %}{# __tr_inline_if_original:end #}">{# __tr_block_0010:start #}持續識別碼的指派者{# __tr_block_0010:end #}</span>{% endset %}
+                              {% if publishedDataIdentifierAssignsAUuid|trim %}{% do identifierReview.append(fieldGap) %}{% else %}{% do identifierMissing.append(fieldGap) %}{% endif %}
+                            {% endif %}
+                            {% if publishedDataIdentifierResolvableAUuid not in [uuids.publishedDataIdentifierResolvableYesAUuid, uuids.publishedDataIdentifierResolvableNoAUuid] %}
+                              {% set fieldGap %}<span data-requirement-id="SE-5d" data-fact-id="identifier-resolution" data-status="{# __tr_inline_if_original:e3sgJ25lZWRzLXJldmlldycgaWYgcHVibGlzaGVkRGF0YUlkZW50aWZpZXJSZXNvbHZhYmxlQVV1aWR8dHJpbSBlbHNlICdtaXNzaW5nJyB9fQ== #}{% if publishedDataIdentifierResolvableAUuid|trim %}{{ 'needs-review' }}{% else %}{{ 'missing' }}{% endif %}{# __tr_inline_if_original:end #}">{# __tr_block_0011:start #}資料儲存庫是否保證持續識別碼可解析至數位物件{# __tr_block_0011:end #}</span>{% endset %}
+                              {% if publishedDataIdentifierResolvableAUuid|trim %}{% do identifierReview.append(fieldGap) %}{% else %}{% do identifierMissing.append(fieldGap) %}{% endif %}
+                            {% endif %}
+                            {% if identifierMissing or identifierReview %}
+                              <div class="identifier-followups reading-gap">
+                                {% if identifierMissing %}{# __tr_block_0012:start #}<p class="data-gap" data-requirement-id="SE-5d">尚待補充：{{ identifierMissing|join("、") }}。</p>{# __tr_block_0012:end #}{% endif %}
+                                {% if identifierReview %}{# __tr_block_0013:start #}<p class="data-gap" data-requirement-id="SE-5d">本模板無法判讀下列欄位的選項，請核對：{{ identifierReview|join("、") }}。</p>{# __tr_block_0013:end #}{% endif %}
+                              </div>
+                            {% endif %}
+                            </div>
+                            {%- elif publishedDataIdentifierAUuid == uuids.publishedDataIdentifierNoAUuid -%}
+                              {# __tr_block_0014:start #}<p>此資料儲存庫將不為資料指派具唯一性及持續性的識別碼。</p>{# __tr_block_0014:end #}
+                            {%- else -%}
+                              {# __tr_block_0015:start #}<p class="data-gap" data-status="missing-output">持續識別碼的安排尚待說明。</p>{# __tr_block_0015:end #}
+                            {%- endif -%}
+                            </div>
+                        {%- endfor -%}
+                    {% else %}
+                        {# __tr_block_0016:start #}<p class="data-gap" data-fact-id="identifier-distributions" data-status="missing">資料發布位置尚未列出。</p>{# __tr_block_0016:end #}
+                    {%- endif -%}
+            {% elif isPublishedDataAUuid == uuids.isPublishedDataNoAUuid %}
+                {# __tr_block_0017:start #}<p>此資料集將不公開發布。</p>{# __tr_block_0017:end #}
+            {% else %}
+                {# __tr_block_0018:start #}<p class="data-gap" data-fact-id="publication-decision" data-status="missing">尚待補充：此資料集是否將公開發布。</p>{# __tr_block_0018:end #}
+            {%- endif -%}
+            </div>
+        {%- endfor -%}
+    {%- else -%}
+      {# __tr_block_0019:start #}<p class="data-gap" data-requirement-id="SE-5d" data-status="missing-output">本文件尚未說明哪些資料集將取得持續識別碼，以及識別碼的指派方式。</p>{# __tr_block_0019:end #}
+    {%- endif -%}
+
+    {# Explain how the data might be re-used in other contexts. #}
+
+    {%- set dataMeasuredQUuid = [uuids.creatingCUuid, uuids.measuredQUuid]|reply_path  -%}
+    {%- set dataMeasuredAUuid = repliesMap[dataMeasuredQUuid]|reply_str_value -%}
+
+    {%- if dataMeasuredAUuid == uuids.measuredYesAUuid  -%}
+
+        {%- set dataMeasuredPath = [dataMeasuredQUuid, uuids.measuredYesAUuid, uuids.measuredDataQUuid]|reply_path -%}
+        {%- set dataMeasuredItems = repliesMap[dataMeasuredPath]|reply_items -%}
+        {% if dataMeasuredItems %}{# __tr_block_0020:start #}<h4>所產生資料在其他情境下再次使用的可能性</h4>{# __tr_block_0020:end #}{% endif %}
+        <ul>
+        {%- for k in dataMeasuredItems -%}
+            {%- set measuredDataItem = [dataMeasuredPath, k]|reply_path -%}
+            {%- set measuredDataNameQUuid = [measuredDataItem, uuids.measuredDataNameQUuid]|reply_path -%}
+            {%- set measuredDataNameReply = repliesMap[measuredDataNameQUuid]|reply_str_value -%}
+            {# __tr_block_0021:start #}<li>
+            <strong>{# __tr_inline_if_original:e3sgbWVhc3VyZWREYXRhTmFtZVJlcGx5IGlmIG1lYXN1cmVkRGF0YU5hbWVSZXBseSBlbHNlICIobm8gbmFtZSBnaXZlbikiIH19 #}{% if measuredDataNameReply %}{{ measuredDataNameReply }}{% else %}（名稱尚未提供）{% endif %}{# __tr_block_0021:end #}{# __tr_inline_if_original:end #}</strong>
+            {%- set measuredDataReuseQUuid = [measuredDataItem, uuids.measuredDataReuseQUuid]|reply_path -%}
+            {%- set measuredDataReuseAUuid = repliesMap[measuredDataReuseQUuid]|reply_str_value -%}
+
+            {%- if measuredDataReuseAUuid == uuids.measuredDataReuseUsAUuid -%}
+                {# __tr_block_0022:start #}<p>只有我們有意再次使用這份資料。</p>{# __tr_block_0022:end #}
+
+            {%- elif measuredDataReuseAUuid == uuids.measuredDataReuseSameFieldAUuid  -%}
+                {# __tr_block_0023:start #}<p>本領域的其他研究人員會有興趣再次使用這份資料。</p>{# __tr_block_0023:end #}
+            {%- elif measuredDataReuseAUuid == uuids.measuredDataReuseOtherFieldAUuid -%}
+                {%- set measuredDataReuseOtherFieldHowQUuid = [measuredDataReuseQUuid, uuids.measuredDataReuseOtherFieldAUuid, uuids.measuredDataReuseOtherFieldHowQUuid]|reply_path -%}
+                {%- set measuredDataReuseOtherFieldHowReply = repliesMap[measuredDataReuseOtherFieldHowQUuid]|reply_str_value -%}
+
+                <div class="answer-detail">{# __tr_block_0024:start #}其他領域的研究人員會有興趣再次使用這份資料
+                
+                {# __tr_block_0024:end #}{%- if measuredDataReuseOtherFieldHowReply -%}{# __tr_block_0025:start #}
+                
+                 原因如下：{{ measuredDataReuseOtherFieldHowReply|markdown }}
+                {# __tr_block_0025:end #}{%- else -%}
+                .
+                {%- endif -%}
+                </div>
+
+            {%- endif -%}
+            </li>
+        {%- endfor -%}
+        </ul>
+
+    {%- endif -%}
+
+
+
+    </div>
+</div>

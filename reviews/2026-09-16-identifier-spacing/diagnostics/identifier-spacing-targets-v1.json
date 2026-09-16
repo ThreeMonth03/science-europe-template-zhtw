@@ -1,0 +1,15 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "rows": [],
+  "checker_sha256": "031455eb7602d55a67b87e49fd498105fd06de4b3520550e810686aaa974817f",
+  "package_sha256": {
+    "english.zip": "5fa2d1ea99b6e84f98ae236e01ff41045354c381160cb1743c5754b47a396484",
+    "chinese.zip": "f403be37477c94303c5d4f7990c074b3010effc4e591f2ffb62c50b6d92c435e"
+  },
+  "limits": [
+    "Eight synthetic cases per language; not all possible questionnaires",
+    "Only Q13 separator changes, not all Chinese sentence spacing",
+    "LibreOffice previews are not Microsoft Word acceptance"
+  ]
+}

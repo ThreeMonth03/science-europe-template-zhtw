@@ -1,0 +1,5 @@
+The first native-checker run aborted before recording a row.
+check_followup_page_text expects extracted PDF text, but v1 passed a Path:
+AttributeError: 'PosixPath' object has no attribute 'split'
+This is a checker integration error, not evidence of a failed renderer.
+The v1 checker and incomplete report are retained without overwrite.
