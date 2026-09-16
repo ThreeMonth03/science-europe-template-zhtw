@@ -1,7 +1,12 @@
 # 版本與分支契約
 
-目前 0.3.24 的英中工作分支為 `fix/empty-pdf-reading`，承接 0.3.23 的 `fix/q9-word-labels`。
+目前 0.3.25 的英中工作分支為 `fix/short-budget-reading`，承接 0.3.24 的 `fix/empty-pdf-reading`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
+
+0.3.25 僅新增有界限的 PDF 短預算 class 與 CSS；731 個譯文與 Q15 邏輯
+不變。初版雖然 CI 通過，原生輸出仍抓到 autoescape 造成表格標籤被印出的
+問題，因此拒收並以新 commit／ZIP hash 完整重測。升級門檻不能只靠 Git
+合併或 CI；來源、翻譯與實際格式輸出必須一起核對。見 [短預算閱讀](short-budget-reading.md)。
 
 0.3.24 只新增英文共用 CSS 的四項空白 Q15 資訊框；中文 lock 跟進，不動譯文。
 以保存的 0.3.23 source hashes 檢查唯一變更，舊 Word 行為探針持續執行；

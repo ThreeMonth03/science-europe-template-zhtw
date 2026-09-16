@@ -1,0 +1,309 @@
+{
+  "weasyprint": "68.1",
+  "rows": [
+    {
+      "name": "baseline-english",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "Information",
+            "not",
+            "provided:",
+            "currency."
+          ],
+          "width": 82.676719160105,
+          "height": 80.0
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 155.2238845144357,
+          "height": 262.33333333333337
+        }
+      ],
+      "texts": [
+        "Data Management PlanCoastal observations: reproducible datamanagementDocument: Science Europe pilot / partialGenerated on 2026-09-15Research overviewProject NumberCOAST-2026Start date2026-01-01End date2027-12-31FundingFunding information has not been provided.Synthetic example for evaluating template quality. The project re-uses open observations anddocuments data management decisions.People and responsibilitiesExample research team research@example.org Roles: Contact Person, Creator of DMP, Data StewardKnowledge model: Common DSW Knowledge Model, 2.7.0 (dsw:root:2.7.0)Generated with Data Stewardship Wizard.1 / 5",
+        "Section 1: Data description and collection or re-use of existingdata1. How will new data be collected or produced and/or how will existing data be re-used?No new instrument datasets will be produced in this project.Re-used datasetsOpen coastal observations — station 1Source: https://example.org/datasets/coastal-observations/station-1/version-2026Information not provided: the purpose for which this dataset will be re-used.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Open coastal observations — station 2Source: https://example.org/datasets/coastal-observations/station-2/version-2026Compare seasonal changes in water temperature.Retain the original timestamps.Document any excluded observations.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Shared arrangementsThe following arrangements apply to all reference datasets selected for re-use above.We will retain a copy of this dataset and provide it alongside the research results. This dataset isfreely available with an obligation to cite the source. The data can be used directly without formatconversion. ProvenanceRecord source versions and processing scripts in the project repository.RecordRetentionProcessing log10 yearsSource checksum10 years2. What data (for example the kinds, formats, and volumes) will be collected or produced?This document does not yet list the data types, formats and estimated volumes.2 / 5",
+        "Section 2: Documentation and data quality3. What metadata and documentation (for example the methodology of data collection and wayof organising data) will accompany the data?This document does not yet contain an answer about metadata and documentation.4. What data quality control measures will be used?This document does not yet describe data quality checks. Re-used data also need appropriate qualitycontrol.Section 3: Storage and backup during research process5. How will data and metadata be stored and backed up during the research process?There is a shared workspace used during the project for working with data. Storage needs will be thesame during the whole project. All essential data will also be stored elsewhere to prevent a total lossof data. We will make automated backups of all data stored outside the workspace.The fields mapped by this template are insufficient to establish the following operational details:Exact working-storage and backup locations are not established by these mapped answers.An actual backup schedule is not established by these mapped answers; a need for frequent backups isnot a schedule.6. How will data security and protection of sensitive data be taken care of during the research?This document does not yet contain an answer about data security and protection of sensitive data.Section 4: Legal and ethical requirements, codes of conduct7. If personal data are processed, how will compliance with legislation on personal data and onsecurity be ensured?This document does not yet contain an answer about personal-data protection and compliance.8. How will other legal issues, such as intellectual property rights and ownership, be managed?What legislation is applicable?For the reference and non-reference data sets that we reuse, conditions are as follows:Open coastal observations — station 1It is freely available with obligation to quote the source (e.g. CC-BY).Open coastal observations — station 2It is freely available with obligation to quote the source (e.g. CC-BY).3 / 5",
+        "9. What ethical issues and codes of conduct are there, and how will they be taken into account?This document does not yet contain an answer about ethical issues and codes of conduct.Section 5: Data sharing and long-term preservation10. How and when will data be shared? Are there possible restrictions to data sharing orembargo reasons?This document does not yet describe how and when data will be shared, or any restrictions.11. How will data for preservation be selected, and where will data be preserved long-term (forexample a data repository or archive)?This document does not yet contain an answer about data selection and long-term preservation.12. What methods or software tools are needed to access and use data?This document does not yet identify the datasets to be shared or the tools needed to use them.13. How will the application of a unique and persistent identifier (such as a Digital ObjectIdentifier (DOI)) to each data set be ensured?This document does not yet describe which datasets will receive persistent identifiers or how they willbe assigned.Section 6: Data management responsibilities and resources14. Who (for example role, position, and institution) will be responsible for data management(i.e. the data steward)?Example research team is responsible for the management and proficiency of data including dataprocessing, data policies, data guidelines, and data availability.Example research team is responsible for implementing the DMP, and ensuring it is reviewed andrevised.15. What resources (for example financial and time) will be dedicated to data management andensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?Additional specialist expertise is required. Existing staff will receive training.Staff will complete training before data publication.Metadata quality checksVersion control and provenanceWe do not require any hardware or software in addition to what is usually available in the institute.4 / 5",
+        "Information not provided: whether repository service charges will be incurred.Data-management budgetResource and purposeBudgetFunding sourceData preparation resource 1Prepare metadata and validate deposit files.This resource supports findability and management ofdata.5000Informationnotprovided:currency.Institutional researchfundsData preparation resource 2Prepare metadata and validate deposit files.This resource supports findability and management ofdata.0 TWDInstitutional researchfunds5 / 5"
+      ]
+    },
+    {
+      "name": "width-40-29-31-english",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "Information not",
+            "provided: currency."
+          ],
+          "width": 160.56616797900259,
+          "height": 40.0
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 155.2238845144357,
+          "height": 279.0
+        }
+      ],
+      "texts": [
+        "Data Management PlanCoastal observations: reproducible datamanagementDocument: Science Europe pilot / partialGenerated on 2026-09-15Research overviewProject NumberCOAST-2026Start date2026-01-01End date2027-12-31FundingFunding information has not been provided.Synthetic example for evaluating template quality. The project re-uses open observations anddocuments data management decisions.People and responsibilitiesExample research team research@example.org Roles: Contact Person, Creator of DMP, Data StewardKnowledge model: Common DSW Knowledge Model, 2.7.0 (dsw:root:2.7.0)Generated with Data Stewardship Wizard.1 / 5",
+        "Section 1: Data description and collection or re-use of existingdata1. How will new data be collected or produced and/or how will existing data be re-used?No new instrument datasets will be produced in this project.Re-used datasetsOpen coastal observations — station 1Source: https://example.org/datasets/coastal-observations/station-1/version-2026Information not provided: the purpose for which this dataset will be re-used.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Open coastal observations — station 2Source: https://example.org/datasets/coastal-observations/station-2/version-2026Compare seasonal changes in water temperature.Retain the original timestamps.Document any excluded observations.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Shared arrangementsThe following arrangements apply to all reference datasets selected for re-use above.We will retain a copy of this dataset and provide it alongside the research results. This dataset isfreely available with an obligation to cite the source. The data can be used directly without formatconversion. ProvenanceRecord source versions and processing scripts in the project repository.RecordRetentionProcessing log10 yearsSource checksum10 years2. What data (for example the kinds, formats, and volumes) will be collected or produced?This document does not yet list the data types, formats and estimated volumes.2 / 5",
+        "Section 2: Documentation and data quality3. What metadata and documentation (for example the methodology of data collection and wayof organising data) will accompany the data?This document does not yet contain an answer about metadata and documentation.4. What data quality control measures will be used?This document does not yet describe data quality checks. Re-used data also need appropriate qualitycontrol.Section 3: Storage and backup during research process5. How will data and metadata be stored and backed up during the research process?There is a shared workspace used during the project for working with data. Storage needs will be thesame during the whole project. All essential data will also be stored elsewhere to prevent a total lossof data. We will make automated backups of all data stored outside the workspace.The fields mapped by this template are insufficient to establish the following operational details:Exact working-storage and backup locations are not established by these mapped answers.An actual backup schedule is not established by these mapped answers; a need for frequent backups isnot a schedule.6. How will data security and protection of sensitive data be taken care of during the research?This document does not yet contain an answer about data security and protection of sensitive data.Section 4: Legal and ethical requirements, codes of conduct7. If personal data are processed, how will compliance with legislation on personal data and onsecurity be ensured?This document does not yet contain an answer about personal-data protection and compliance.8. How will other legal issues, such as intellectual property rights and ownership, be managed?What legislation is applicable?For the reference and non-reference data sets that we reuse, conditions are as follows:Open coastal observations — station 1It is freely available with obligation to quote the source (e.g. CC-BY).Open coastal observations — station 2It is freely available with obligation to quote the source (e.g. CC-BY).3 / 5",
+        "9. What ethical issues and codes of conduct are there, and how will they be taken into account?This document does not yet contain an answer about ethical issues and codes of conduct.Section 5: Data sharing and long-term preservation10. How and when will data be shared? Are there possible restrictions to data sharing orembargo reasons?This document does not yet describe how and when data will be shared, or any restrictions.11. How will data for preservation be selected, and where will data be preserved long-term (forexample a data repository or archive)?This document does not yet contain an answer about data selection and long-term preservation.12. What methods or software tools are needed to access and use data?This document does not yet identify the datasets to be shared or the tools needed to use them.13. How will the application of a unique and persistent identifier (such as a Digital ObjectIdentifier (DOI)) to each data set be ensured?This document does not yet describe which datasets will receive persistent identifiers or how they willbe assigned.Section 6: Data management responsibilities and resources14. Who (for example role, position, and institution) will be responsible for data management(i.e. the data steward)?Example research team is responsible for the management and proficiency of data including dataprocessing, data policies, data guidelines, and data availability.Example research team is responsible for implementing the DMP, and ensuring it is reviewed andrevised.15. What resources (for example financial and time) will be dedicated to data management andensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?Additional specialist expertise is required. Existing staff will receive training.Staff will complete training before data publication.Metadata quality checksVersion control and provenanceWe do not require any hardware or software in addition to what is usually available in the institute.4 / 5",
+        "Information not provided: whether repository service charges will be incurred.Data-management budgetResource and purposeBudgetFunding sourceData preparation resource 1Prepare metadata and validate depositfiles.This resource supports findability andmanagement of data.5000Information notprovided: currency.Institutional research fundsData preparation resource 2Prepare metadata and validate depositfiles.This resource supports findability andmanagement of data.0 TWDInstitutional research funds5 / 5"
+      ]
+    },
+    {
+      "name": "width-49-25-26-english",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "Information not",
+            "provided: currency."
+          ],
+          "width": 134.6030183727034,
+          "height": 40.0
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 155.2238845144357,
+          "height": 238.99999999999997
+        }
+      ],
+      "texts": [
+        "Data Management PlanCoastal observations: reproducible datamanagementDocument: Science Europe pilot / partialGenerated on 2026-09-15Research overviewProject NumberCOAST-2026Start date2026-01-01End date2027-12-31FundingFunding information has not been provided.Synthetic example for evaluating template quality. The project re-uses open observations anddocuments data management decisions.People and responsibilitiesExample research team research@example.org Roles: Contact Person, Creator of DMP, Data StewardKnowledge model: Common DSW Knowledge Model, 2.7.0 (dsw:root:2.7.0)Generated with Data Stewardship Wizard.1 / 5",
+        "Section 1: Data description and collection or re-use of existingdata1. How will new data be collected or produced and/or how will existing data be re-used?No new instrument datasets will be produced in this project.Re-used datasetsOpen coastal observations — station 1Source: https://example.org/datasets/coastal-observations/station-1/version-2026Information not provided: the purpose for which this dataset will be re-used.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Open coastal observations — station 2Source: https://example.org/datasets/coastal-observations/station-2/version-2026Compare seasonal changes in water temperature.Retain the original timestamps.Document any excluded observations.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Shared arrangementsThe following arrangements apply to all reference datasets selected for re-use above.We will retain a copy of this dataset and provide it alongside the research results. This dataset isfreely available with an obligation to cite the source. The data can be used directly without formatconversion. ProvenanceRecord source versions and processing scripts in the project repository.RecordRetentionProcessing log10 yearsSource checksum10 years2. What data (for example the kinds, formats, and volumes) will be collected or produced?This document does not yet list the data types, formats and estimated volumes.2 / 5",
+        "Section 2: Documentation and data quality3. What metadata and documentation (for example the methodology of data collection and wayof organising data) will accompany the data?This document does not yet contain an answer about metadata and documentation.4. What data quality control measures will be used?This document does not yet describe data quality checks. Re-used data also need appropriate qualitycontrol.Section 3: Storage and backup during research process5. How will data and metadata be stored and backed up during the research process?There is a shared workspace used during the project for working with data. Storage needs will be thesame during the whole project. All essential data will also be stored elsewhere to prevent a total lossof data. We will make automated backups of all data stored outside the workspace.The fields mapped by this template are insufficient to establish the following operational details:Exact working-storage and backup locations are not established by these mapped answers.An actual backup schedule is not established by these mapped answers; a need for frequent backups isnot a schedule.6. How will data security and protection of sensitive data be taken care of during the research?This document does not yet contain an answer about data security and protection of sensitive data.Section 4: Legal and ethical requirements, codes of conduct7. If personal data are processed, how will compliance with legislation on personal data and onsecurity be ensured?This document does not yet contain an answer about personal-data protection and compliance.8. How will other legal issues, such as intellectual property rights and ownership, be managed?What legislation is applicable?For the reference and non-reference data sets that we reuse, conditions are as follows:Open coastal observations — station 1It is freely available with obligation to quote the source (e.g. CC-BY).Open coastal observations — station 2It is freely available with obligation to quote the source (e.g. CC-BY).3 / 5",
+        "9. What ethical issues and codes of conduct are there, and how will they be taken into account?This document does not yet contain an answer about ethical issues and codes of conduct.Section 5: Data sharing and long-term preservation10. How and when will data be shared? Are there possible restrictions to data sharing orembargo reasons?This document does not yet describe how and when data will be shared, or any restrictions.11. How will data for preservation be selected, and where will data be preserved long-term (forexample a data repository or archive)?This document does not yet contain an answer about data selection and long-term preservation.12. What methods or software tools are needed to access and use data?This document does not yet identify the datasets to be shared or the tools needed to use them.13. How will the application of a unique and persistent identifier (such as a Digital ObjectIdentifier (DOI)) to each data set be ensured?This document does not yet describe which datasets will receive persistent identifiers or how they willbe assigned.Section 6: Data management responsibilities and resources14. Who (for example role, position, and institution) will be responsible for data management(i.e. the data steward)?Example research team is responsible for the management and proficiency of data including dataprocessing, data policies, data guidelines, and data availability.Example research team is responsible for implementing the DMP, and ensuring it is reviewed andrevised.15. What resources (for example financial and time) will be dedicated to data management andensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?Additional specialist expertise is required. Existing staff will receive training.Staff will complete training before data publication.Metadata quality checksVersion control and provenanceWe do not require any hardware or software in addition to what is usually available in the institute.4 / 5",
+        "Information not provided: whether repository service charges will be incurred.Data-management budgetResource and purposeBudgetFunding sourceData preparation resource 1Prepare metadata and validate deposit files.This resource supports findability andmanagement of data.5000Information notprovided: currency.Institutional researchfundsData preparation resource 2Prepare metadata and validate deposit files.This resource supports findability andmanagement of data.0 TWDInstitutional researchfunds5 / 5"
+      ]
+    },
+    {
+      "name": "width-52-22-26-english",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "Information not",
+            "provided:",
+            "currency."
+          ],
+          "width": 115.13065616797901,
+          "height": 60.0
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 155.2238845144357,
+          "height": 242.33333333333334
+        }
+      ],
+      "texts": [
+        "Data Management PlanCoastal observations: reproducible datamanagementDocument: Science Europe pilot / partialGenerated on 2026-09-15Research overviewProject NumberCOAST-2026Start date2026-01-01End date2027-12-31FundingFunding information has not been provided.Synthetic example for evaluating template quality. The project re-uses open observations anddocuments data management decisions.People and responsibilitiesExample research team research@example.org Roles: Contact Person, Creator of DMP, Data StewardKnowledge model: Common DSW Knowledge Model, 2.7.0 (dsw:root:2.7.0)Generated with Data Stewardship Wizard.1 / 5",
+        "Section 1: Data description and collection or re-use of existingdata1. How will new data be collected or produced and/or how will existing data be re-used?No new instrument datasets will be produced in this project.Re-used datasetsOpen coastal observations — station 1Source: https://example.org/datasets/coastal-observations/station-1/version-2026Information not provided: the purpose for which this dataset will be re-used.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Open coastal observations — station 2Source: https://example.org/datasets/coastal-observations/station-2/version-2026Compare seasonal changes in water temperature.Retain the original timestamps.Document any excluded observations.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Shared arrangementsThe following arrangements apply to all reference datasets selected for re-use above.We will retain a copy of this dataset and provide it alongside the research results. This dataset isfreely available with an obligation to cite the source. The data can be used directly without formatconversion. ProvenanceRecord source versions and processing scripts in the project repository.RecordRetentionProcessing log10 yearsSource checksum10 years2. What data (for example the kinds, formats, and volumes) will be collected or produced?This document does not yet list the data types, formats and estimated volumes.2 / 5",
+        "Section 2: Documentation and data quality3. What metadata and documentation (for example the methodology of data collection and wayof organising data) will accompany the data?This document does not yet contain an answer about metadata and documentation.4. What data quality control measures will be used?This document does not yet describe data quality checks. Re-used data also need appropriate qualitycontrol.Section 3: Storage and backup during research process5. How will data and metadata be stored and backed up during the research process?There is a shared workspace used during the project for working with data. Storage needs will be thesame during the whole project. All essential data will also be stored elsewhere to prevent a total lossof data. We will make automated backups of all data stored outside the workspace.The fields mapped by this template are insufficient to establish the following operational details:Exact working-storage and backup locations are not established by these mapped answers.An actual backup schedule is not established by these mapped answers; a need for frequent backups isnot a schedule.6. How will data security and protection of sensitive data be taken care of during the research?This document does not yet contain an answer about data security and protection of sensitive data.Section 4: Legal and ethical requirements, codes of conduct7. If personal data are processed, how will compliance with legislation on personal data and onsecurity be ensured?This document does not yet contain an answer about personal-data protection and compliance.8. How will other legal issues, such as intellectual property rights and ownership, be managed?What legislation is applicable?For the reference and non-reference data sets that we reuse, conditions are as follows:Open coastal observations — station 1It is freely available with obligation to quote the source (e.g. CC-BY).Open coastal observations — station 2It is freely available with obligation to quote the source (e.g. CC-BY).3 / 5",
+        "9. What ethical issues and codes of conduct are there, and how will they be taken into account?This document does not yet contain an answer about ethical issues and codes of conduct.Section 5: Data sharing and long-term preservation10. How and when will data be shared? Are there possible restrictions to data sharing orembargo reasons?This document does not yet describe how and when data will be shared, or any restrictions.11. How will data for preservation be selected, and where will data be preserved long-term (forexample a data repository or archive)?This document does not yet contain an answer about data selection and long-term preservation.12. What methods or software tools are needed to access and use data?This document does not yet identify the datasets to be shared or the tools needed to use them.13. How will the application of a unique and persistent identifier (such as a Digital ObjectIdentifier (DOI)) to each data set be ensured?This document does not yet describe which datasets will receive persistent identifiers or how they willbe assigned.Section 6: Data management responsibilities and resources14. Who (for example role, position, and institution) will be responsible for data management(i.e. the data steward)?Example research team is responsible for the management and proficiency of data including dataprocessing, data policies, data guidelines, and data availability.Example research team is responsible for implementing the DMP, and ensuring it is reviewed andrevised.15. What resources (for example financial and time) will be dedicated to data management andensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?Additional specialist expertise is required. Existing staff will receive training.Staff will complete training before data publication.Metadata quality checksVersion control and provenanceWe do not require any hardware or software in addition to what is usually available in the institute.4 / 5",
+        "Information not provided: whether repository service charges will be incurred.Data-management budgetResource and purposeBudgetFunding sourceData preparation resource 1Prepare metadata and validate deposit files.This resource supports findability and managementof data.5000Information notprovided:currency.Institutional researchfundsData preparation resource 2Prepare metadata and validate deposit files.This resource supports findability and managementof data.0 TWDInstitutional researchfunds5 / 5"
+      ]
+    },
+    {
+      "name": "unboxed-gap-english",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "Information",
+            "not provided:",
+            "currency."
+          ],
+          "width": 96.01005249343832,
+          "height": 59.99999999999997
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 155.2238845144357,
+          "height": 238.99999999999997
+        }
+      ],
+      "texts": [
+        "Data Management PlanCoastal observations: reproducible datamanagementDocument: Science Europe pilot / partialGenerated on 2026-09-15Research overviewProject NumberCOAST-2026Start date2026-01-01End date2027-12-31FundingFunding information has not been provided.Synthetic example for evaluating template quality. The project re-uses open observations anddocuments data management decisions.People and responsibilitiesExample research team research@example.org Roles: Contact Person, Creator of DMP, Data StewardKnowledge model: Common DSW Knowledge Model, 2.7.0 (dsw:root:2.7.0)Generated with Data Stewardship Wizard.1 / 5",
+        "Section 1: Data description and collection or re-use of existingdata1. How will new data be collected or produced and/or how will existing data be re-used?No new instrument datasets will be produced in this project.Re-used datasetsOpen coastal observations — station 1Source: https://example.org/datasets/coastal-observations/station-1/version-2026Information not provided: the purpose for which this dataset will be re-used.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Open coastal observations — station 2Source: https://example.org/datasets/coastal-observations/station-2/version-2026Compare seasonal changes in water temperature.Retain the original timestamps.Document any excluded observations.Version2026.1If a new version becomes available during the project, the current version will continue to be used.Shared arrangementsThe following arrangements apply to all reference datasets selected for re-use above.We will retain a copy of this dataset and provide it alongside the research results. This dataset isfreely available with an obligation to cite the source. The data can be used directly without formatconversion. ProvenanceRecord source versions and processing scripts in the project repository.RecordRetentionProcessing log10 yearsSource checksum10 years2. What data (for example the kinds, formats, and volumes) will be collected or produced?This document does not yet list the data types, formats and estimated volumes.2 / 5",
+        "Section 2: Documentation and data quality3. What metadata and documentation (for example the methodology of data collection and wayof organising data) will accompany the data?This document does not yet contain an answer about metadata and documentation.4. What data quality control measures will be used?This document does not yet describe data quality checks. Re-used data also need appropriate qualitycontrol.Section 3: Storage and backup during research process5. How will data and metadata be stored and backed up during the research process?There is a shared workspace used during the project for working with data. Storage needs will be thesame during the whole project. All essential data will also be stored elsewhere to prevent a total lossof data. We will make automated backups of all data stored outside the workspace.The fields mapped by this template are insufficient to establish the following operational details:Exact working-storage and backup locations are not established by these mapped answers.An actual backup schedule is not established by these mapped answers; a need for frequent backups isnot a schedule.6. How will data security and protection of sensitive data be taken care of during the research?This document does not yet contain an answer about data security and protection of sensitive data.Section 4: Legal and ethical requirements, codes of conduct7. If personal data are processed, how will compliance with legislation on personal data and onsecurity be ensured?This document does not yet contain an answer about personal-data protection and compliance.8. How will other legal issues, such as intellectual property rights and ownership, be managed?What legislation is applicable?For the reference and non-reference data sets that we reuse, conditions are as follows:Open coastal observations — station 1It is freely available with obligation to quote the source (e.g. CC-BY).Open coastal observations — station 2It is freely available with obligation to quote the source (e.g. CC-BY).3 / 5",
+        "9. What ethical issues and codes of conduct are there, and how will they be taken into account?This document does not yet contain an answer about ethical issues and codes of conduct.Section 5: Data sharing and long-term preservation10. How and when will data be shared? Are there possible restrictions to data sharing orembargo reasons?This document does not yet describe how and when data will be shared, or any restrictions.11. How will data for preservation be selected, and where will data be preserved long-term (forexample a data repository or archive)?This document does not yet contain an answer about data selection and long-term preservation.12. What methods or software tools are needed to access and use data?This document does not yet identify the datasets to be shared or the tools needed to use them.13. How will the application of a unique and persistent identifier (such as a Digital ObjectIdentifier (DOI)) to each data set be ensured?This document does not yet describe which datasets will receive persistent identifiers or how they willbe assigned.Section 6: Data management responsibilities and resources14. Who (for example role, position, and institution) will be responsible for data management(i.e. the data steward)?Example research team is responsible for the management and proficiency of data including dataprocessing, data policies, data guidelines, and data availability.Example research team is responsible for implementing the DMP, and ensuring it is reviewed andrevised.15. What resources (for example financial and time) will be dedicated to data management andensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?Additional specialist expertise is required. Existing staff will receive training.Staff will complete training before data publication.Metadata quality checksVersion control and provenanceWe do not require any hardware or software in addition to what is usually available in the institute.4 / 5",
+        "Information not provided: whether repository service charges will be incurred.Data-management budgetResource and purposeBudgetFunding sourceData preparation resource 1Prepare metadata and validate deposit files.This resource supports findability and management ofdata.5000Informationnot provided:currency.Institutional researchfundsData preparation resource 2Prepare metadata and validate deposit files.This resource supports findability and management ofdata.0 TWDInstitutional researchfunds5 / 5"
+      ]
+    },
+    {
+      "name": "baseline-chinese",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "幣別尚未提",
+            "供。"
+          ],
+          "width": 82.676719160105,
+          "height": 40.0
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 106.59055118110237,
+          "height": 202.3333333333333
+        }
+      ],
+      "texts": [
+        "資料管理方案海岸觀測：可重現的資料管理文件名稱：Science Europe pilot / partial產生日期：2026-09-15研究計畫概要專案編號COAST-2026開始日期2026-01-01結束日期2027-12-31經費尚未提供經費來源。本範例為模板品質測試而設計，使用合成的研究情境與回答。本計畫將再次使用開放觀測資料，並記錄資料管理決策。參與人員與職責範例研究團隊 research@example.org 角色：聯絡人、資料管理方案創作者、資料託管員問卷知識模型：Common DSW Knowledge Model (zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）本文件由 Data Stewardship Wizard 產生。1 / 5",
+        "第 1 節：資料的描述與蒐集，或既有資料的再次使用1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？本計畫不會產生新的儀器資料集。再次使用的資料集開放海岸觀測資料——測站 1資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026尚待補充：使用此資料集的目的。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。開放海岸觀測資料——測站 2資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026比較水溫的季節變化。保留原始時間戳記。記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。共同管理方式上述將再次使用的參考資料集，均採用以下管理方式。本計畫將保留資料副本，與研究結果一併提供。 此資料可自由取得，使用時須註明來源。 此資料可直接使用，無須轉換格式。 資料溯源在計畫的版本控制儲存庫記錄來源版本與處理程式。紀錄保存期間處理紀錄10 年來源校驗碼10 年2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？本文件尚未列出資料種類、格式及預估資料量。2 / 5",
+        "第 2 節：文件與資料品質3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？本文件尚未說明將提供哪些後設資料與說明文件。4. 將使用哪些資料品質管控措施？本文件尚未說明資料品質檢查方式。使用既有資料時，也需進行適當的品質管控。第 3 節：研究過程中的資料儲存與備份5. 研究期間將如何儲存與備份資料及後設資料？研究期間將使用共享工作空間處理資料。 所需儲存容量在計畫期間將維持不變。 為避免資料全部遺失，重要資料也將另存於其他位置。 存放於共享工作空間以外的資料，將全部自動備份。本模板目前對應的欄位不足以確認以下執行細節：這些對應回答尚未明確指出工作資料與備份的實際儲存地點。這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。6. 研究期間將如何處理資料安全與敏感資料保護？本文件尚未說明資料安全與敏感資料的保護措施。第 4 節：法律與倫理要求、行為準則7. 若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？本文件尚未說明個人資料保護及相關法規的遵循方式。8. 其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？我們再次使用的參考與非參考資料集，其使用條件如下：開放海岸觀測資料——測站 1此資料可自由取得，使用時須註明來源（例如 CC BY）。開放海岸觀測資料——測站 2此資料可自由取得，使用時須註明來源（例如 CC BY）。9. 有哪些倫理議題與行為準則？將如何納入考量？本文件尚未說明適用的倫理要求、行為準則及因應方式。3 / 5",
+        "第 5 節：資料共享與長期保存10. 資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？本文件尚未說明資料共享方式、開放時程及可能的限制。11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？本文件尚未說明哪些資料需要長期保存，以及保存地點與方式。12. 取用與使用資料需要哪些方法或軟體工具？本文件尚未列出將共享的資料，以及取用或使用資料所需的工具。13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？本文件尚未說明哪些資料集將取得持續識別碼，以及識別碼的指派方式。第 6 節：資料管理責任與資源14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？為補足所需的專業能力，本計畫將安排現有人員接受培訓。工作人員將於資料發布前完成培訓。後設資料品質檢核版本控制與資料溯源除機構通常提供的資源外，我們不需要其他硬體或軟體。尚待補充：是否需支付資料儲存庫服務費。4 / 5",
+        "資料管理預算資源項目與用途預算經費來源資料整理資源 1整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。5000幣別尚未提供。機構研究經費資料整理資源 2整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。0 TWD機構研究經費5 / 5"
+      ]
+    },
+    {
+      "name": "width-40-29-31-chinese",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "幣別尚未提供。"
+          ],
+          "width": 160.56616797900259,
+          "height": 20.0
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 106.59055118110237,
+          "height": 199.00000000000003
+        }
+      ],
+      "texts": [
+        "資料管理方案海岸觀測：可重現的資料管理文件名稱：Science Europe pilot / partial產生日期：2026-09-15研究計畫概要專案編號COAST-2026開始日期2026-01-01結束日期2027-12-31經費尚未提供經費來源。本範例為模板品質測試而設計，使用合成的研究情境與回答。本計畫將再次使用開放觀測資料，並記錄資料管理決策。參與人員與職責範例研究團隊 research@example.org 角色：聯絡人、資料管理方案創作者、資料託管員問卷知識模型：Common DSW Knowledge Model (zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）本文件由 Data Stewardship Wizard 產生。1 / 5",
+        "第 1 節：資料的描述與蒐集，或既有資料的再次使用1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？本計畫不會產生新的儀器資料集。再次使用的資料集開放海岸觀測資料——測站 1資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026尚待補充：使用此資料集的目的。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。開放海岸觀測資料——測站 2資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026比較水溫的季節變化。保留原始時間戳記。記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。共同管理方式上述將再次使用的參考資料集，均採用以下管理方式。本計畫將保留資料副本，與研究結果一併提供。 此資料可自由取得，使用時須註明來源。 此資料可直接使用，無須轉換格式。 資料溯源在計畫的版本控制儲存庫記錄來源版本與處理程式。紀錄保存期間處理紀錄10 年來源校驗碼10 年2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？本文件尚未列出資料種類、格式及預估資料量。2 / 5",
+        "第 2 節：文件與資料品質3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？本文件尚未說明將提供哪些後設資料與說明文件。4. 將使用哪些資料品質管控措施？本文件尚未說明資料品質檢查方式。使用既有資料時，也需進行適當的品質管控。第 3 節：研究過程中的資料儲存與備份5. 研究期間將如何儲存與備份資料及後設資料？研究期間將使用共享工作空間處理資料。 所需儲存容量在計畫期間將維持不變。 為避免資料全部遺失，重要資料也將另存於其他位置。 存放於共享工作空間以外的資料，將全部自動備份。本模板目前對應的欄位不足以確認以下執行細節：這些對應回答尚未明確指出工作資料與備份的實際儲存地點。這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。6. 研究期間將如何處理資料安全與敏感資料保護？本文件尚未說明資料安全與敏感資料的保護措施。第 4 節：法律與倫理要求、行為準則7. 若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？本文件尚未說明個人資料保護及相關法規的遵循方式。8. 其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？我們再次使用的參考與非參考資料集，其使用條件如下：開放海岸觀測資料——測站 1此資料可自由取得，使用時須註明來源（例如 CC BY）。開放海岸觀測資料——測站 2此資料可自由取得，使用時須註明來源（例如 CC BY）。9. 有哪些倫理議題與行為準則？將如何納入考量？本文件尚未說明適用的倫理要求、行為準則及因應方式。3 / 5",
+        "第 5 節：資料共享與長期保存10. 資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？本文件尚未說明資料共享方式、開放時程及可能的限制。11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？本文件尚未說明哪些資料需要長期保存，以及保存地點與方式。12. 取用與使用資料需要哪些方法或軟體工具？本文件尚未列出將共享的資料，以及取用或使用資料所需的工具。13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？本文件尚未說明哪些資料集將取得持續識別碼，以及識別碼的指派方式。第 6 節：資料管理責任與資源14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？為補足所需的專業能力，本計畫將安排現有人員接受培訓。工作人員將於資料發布前完成培訓。後設資料品質檢核版本控制與資料溯源除機構通常提供的資源外，我們不需要其他硬體或軟體。尚待補充：是否需支付資料儲存庫服務費。4 / 5",
+        "資料管理預算資源項目與用途預算經費來源資料整理資源 1整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。5000幣別尚未提供。機構研究經費資料整理資源 2整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。0 TWD機構研究經費5 / 5"
+      ]
+    },
+    {
+      "name": "width-49-25-26-chinese",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "幣別尚未提供。"
+          ],
+          "width": 134.6030183727034,
+          "height": 20.0
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 106.59055118110237,
+          "height": 199.00000000000003
+        }
+      ],
+      "texts": [
+        "資料管理方案海岸觀測：可重現的資料管理文件名稱：Science Europe pilot / partial產生日期：2026-09-15研究計畫概要專案編號COAST-2026開始日期2026-01-01結束日期2027-12-31經費尚未提供經費來源。本範例為模板品質測試而設計，使用合成的研究情境與回答。本計畫將再次使用開放觀測資料，並記錄資料管理決策。參與人員與職責範例研究團隊 research@example.org 角色：聯絡人、資料管理方案創作者、資料託管員問卷知識模型：Common DSW Knowledge Model (zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）本文件由 Data Stewardship Wizard 產生。1 / 5",
+        "第 1 節：資料的描述與蒐集，或既有資料的再次使用1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？本計畫不會產生新的儀器資料集。再次使用的資料集開放海岸觀測資料——測站 1資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026尚待補充：使用此資料集的目的。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。開放海岸觀測資料——測站 2資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026比較水溫的季節變化。保留原始時間戳記。記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。共同管理方式上述將再次使用的參考資料集，均採用以下管理方式。本計畫將保留資料副本，與研究結果一併提供。 此資料可自由取得，使用時須註明來源。 此資料可直接使用，無須轉換格式。 資料溯源在計畫的版本控制儲存庫記錄來源版本與處理程式。紀錄保存期間處理紀錄10 年來源校驗碼10 年2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？本文件尚未列出資料種類、格式及預估資料量。2 / 5",
+        "第 2 節：文件與資料品質3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？本文件尚未說明將提供哪些後設資料與說明文件。4. 將使用哪些資料品質管控措施？本文件尚未說明資料品質檢查方式。使用既有資料時，也需進行適當的品質管控。第 3 節：研究過程中的資料儲存與備份5. 研究期間將如何儲存與備份資料及後設資料？研究期間將使用共享工作空間處理資料。 所需儲存容量在計畫期間將維持不變。 為避免資料全部遺失，重要資料也將另存於其他位置。 存放於共享工作空間以外的資料，將全部自動備份。本模板目前對應的欄位不足以確認以下執行細節：這些對應回答尚未明確指出工作資料與備份的實際儲存地點。這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。6. 研究期間將如何處理資料安全與敏感資料保護？本文件尚未說明資料安全與敏感資料的保護措施。第 4 節：法律與倫理要求、行為準則7. 若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？本文件尚未說明個人資料保護及相關法規的遵循方式。8. 其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？我們再次使用的參考與非參考資料集，其使用條件如下：開放海岸觀測資料——測站 1此資料可自由取得，使用時須註明來源（例如 CC BY）。開放海岸觀測資料——測站 2此資料可自由取得，使用時須註明來源（例如 CC BY）。9. 有哪些倫理議題與行為準則？將如何納入考量？本文件尚未說明適用的倫理要求、行為準則及因應方式。3 / 5",
+        "第 5 節：資料共享與長期保存10. 資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？本文件尚未說明資料共享方式、開放時程及可能的限制。11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？本文件尚未說明哪些資料需要長期保存，以及保存地點與方式。12. 取用與使用資料需要哪些方法或軟體工具？本文件尚未列出將共享的資料，以及取用或使用資料所需的工具。13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？本文件尚未說明哪些資料集將取得持續識別碼，以及識別碼的指派方式。第 6 節：資料管理責任與資源14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？為補足所需的專業能力，本計畫將安排現有人員接受培訓。工作人員將於資料發布前完成培訓。後設資料品質檢核版本控制與資料溯源除機構通常提供的資源外，我們不需要其他硬體或軟體。尚待補充：是否需支付資料儲存庫服務費。4 / 5",
+        "資料管理預算資源項目與用途預算經費來源資料整理資源 1整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。5000幣別尚未提供。機構研究經費資料整理資源 2整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。0 TWD機構研究經費5 / 5"
+      ]
+    },
+    {
+      "name": "width-52-22-26-chinese",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "幣別尚未提供。"
+          ],
+          "width": 115.13065616797901,
+          "height": 20.0
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 106.59055118110237,
+          "height": 199.00000000000003
+        }
+      ],
+      "texts": [
+        "資料管理方案海岸觀測：可重現的資料管理文件名稱：Science Europe pilot / partial產生日期：2026-09-15研究計畫概要專案編號COAST-2026開始日期2026-01-01結束日期2027-12-31經費尚未提供經費來源。本範例為模板品質測試而設計，使用合成的研究情境與回答。本計畫將再次使用開放觀測資料，並記錄資料管理決策。參與人員與職責範例研究團隊 research@example.org 角色：聯絡人、資料管理方案創作者、資料託管員問卷知識模型：Common DSW Knowledge Model (zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）本文件由 Data Stewardship Wizard 產生。1 / 5",
+        "第 1 節：資料的描述與蒐集，或既有資料的再次使用1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？本計畫不會產生新的儀器資料集。再次使用的資料集開放海岸觀測資料——測站 1資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026尚待補充：使用此資料集的目的。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。開放海岸觀測資料——測站 2資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026比較水溫的季節變化。保留原始時間戳記。記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。共同管理方式上述將再次使用的參考資料集，均採用以下管理方式。本計畫將保留資料副本，與研究結果一併提供。 此資料可自由取得，使用時須註明來源。 此資料可直接使用，無須轉換格式。 資料溯源在計畫的版本控制儲存庫記錄來源版本與處理程式。紀錄保存期間處理紀錄10 年來源校驗碼10 年2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？本文件尚未列出資料種類、格式及預估資料量。2 / 5",
+        "第 2 節：文件與資料品質3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？本文件尚未說明將提供哪些後設資料與說明文件。4. 將使用哪些資料品質管控措施？本文件尚未說明資料品質檢查方式。使用既有資料時，也需進行適當的品質管控。第 3 節：研究過程中的資料儲存與備份5. 研究期間將如何儲存與備份資料及後設資料？研究期間將使用共享工作空間處理資料。 所需儲存容量在計畫期間將維持不變。 為避免資料全部遺失，重要資料也將另存於其他位置。 存放於共享工作空間以外的資料，將全部自動備份。本模板目前對應的欄位不足以確認以下執行細節：這些對應回答尚未明確指出工作資料與備份的實際儲存地點。這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。6. 研究期間將如何處理資料安全與敏感資料保護？本文件尚未說明資料安全與敏感資料的保護措施。第 4 節：法律與倫理要求、行為準則7. 若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？本文件尚未說明個人資料保護及相關法規的遵循方式。8. 其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？我們再次使用的參考與非參考資料集，其使用條件如下：開放海岸觀測資料——測站 1此資料可自由取得，使用時須註明來源（例如 CC BY）。開放海岸觀測資料——測站 2此資料可自由取得，使用時須註明來源（例如 CC BY）。9. 有哪些倫理議題與行為準則？將如何納入考量？本文件尚未說明適用的倫理要求、行為準則及因應方式。3 / 5",
+        "第 5 節：資料共享與長期保存10. 資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？本文件尚未說明資料共享方式、開放時程及可能的限制。11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？本文件尚未說明哪些資料需要長期保存，以及保存地點與方式。12. 取用與使用資料需要哪些方法或軟體工具？本文件尚未列出將共享的資料，以及取用或使用資料所需的工具。13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？本文件尚未說明哪些資料集將取得持續識別碼，以及識別碼的指派方式。第 6 節：資料管理責任與資源14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？為補足所需的專業能力，本計畫將安排現有人員接受培訓。工作人員將於資料發布前完成培訓。後設資料品質檢核版本控制與資料溯源除機構通常提供的資源外，我們不需要其他硬體或軟體。尚待補充：是否需支付資料儲存庫服務費。4 / 5",
+        "資料管理預算資源項目與用途預算經費來源資料整理資源 1整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。5000幣別尚未提供。機構研究經費資料整理資源 2整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。0 TWD機構研究經費5 / 5"
+      ]
+    },
+    {
+      "name": "unboxed-gap-chinese",
+      "pages": 5,
+      "gaps": [
+        {
+          "page": 5,
+          "lines": [
+            "幣別尚未提供。"
+          ],
+          "width": 96.01005249343832,
+          "height": 20.0
+        }
+      ],
+      "tables": [
+        {
+          "page": 5,
+          "y": 106.59055118110237,
+          "height": 199.00000000000003
+        }
+      ],
+      "texts": [
+        "資料管理方案海岸觀測：可重現的資料管理文件名稱：Science Europe pilot / partial產生日期：2026-09-15研究計畫概要專案編號COAST-2026開始日期2026-01-01結束日期2027-12-31經費尚未提供經費來源。本範例為模板品質測試而設計，使用合成的研究情境與回答。本計畫將再次使用開放觀測資料，並記錄資料管理決策。參與人員與職責範例研究團隊 research@example.org 角色：聯絡人、資料管理方案創作者、資料託管員問卷知識模型：Common DSW Knowledge Model (zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）本文件由 Data Stewardship Wizard 產生。1 / 5",
+        "第 1 節：資料的描述與蒐集，或既有資料的再次使用1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？本計畫不會產生新的儀器資料集。再次使用的資料集開放海岸觀測資料——測站 1資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026尚待補充：使用此資料集的目的。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。開放海岸觀測資料——測站 2資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026比較水溫的季節變化。保留原始時間戳記。記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。共同管理方式上述將再次使用的參考資料集，均採用以下管理方式。本計畫將保留資料副本，與研究結果一併提供。 此資料可自由取得，使用時須註明來源。 此資料可直接使用，無須轉換格式。 資料溯源在計畫的版本控制儲存庫記錄來源版本與處理程式。紀錄保存期間處理紀錄10 年來源校驗碼10 年2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？本文件尚未列出資料種類、格式及預估資料量。2 / 5",
+        "第 2 節：文件與資料品質3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？本文件尚未說明將提供哪些後設資料與說明文件。4. 將使用哪些資料品質管控措施？本文件尚未說明資料品質檢查方式。使用既有資料時，也需進行適當的品質管控。第 3 節：研究過程中的資料儲存與備份5. 研究期間將如何儲存與備份資料及後設資料？研究期間將使用共享工作空間處理資料。 所需儲存容量在計畫期間將維持不變。 為避免資料全部遺失，重要資料也將另存於其他位置。 存放於共享工作空間以外的資料，將全部自動備份。本模板目前對應的欄位不足以確認以下執行細節：這些對應回答尚未明確指出工作資料與備份的實際儲存地點。這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。6. 研究期間將如何處理資料安全與敏感資料保護？本文件尚未說明資料安全與敏感資料的保護措施。第 4 節：法律與倫理要求、行為準則7. 若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？本文件尚未說明個人資料保護及相關法規的遵循方式。8. 其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？我們再次使用的參考與非參考資料集，其使用條件如下：開放海岸觀測資料——測站 1此資料可自由取得，使用時須註明來源（例如 CC BY）。開放海岸觀測資料——測站 2此資料可自由取得，使用時須註明來源（例如 CC BY）。9. 有哪些倫理議題與行為準則？將如何納入考量？本文件尚未說明適用的倫理要求、行為準則及因應方式。3 / 5",
+        "第 5 節：資料共享與長期保存10. 資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？本文件尚未說明資料共享方式、開放時程及可能的限制。11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？本文件尚未說明哪些資料需要長期保存，以及保存地點與方式。12. 取用與使用資料需要哪些方法或軟體工具？本文件尚未列出將共享的資料，以及取用或使用資料所需的工具。13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？本文件尚未說明哪些資料集將取得持續識別碼，以及識別碼的指派方式。第 6 節：資料管理責任與資源14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？為補足所需的專業能力，本計畫將安排現有人員接受培訓。工作人員將於資料發布前完成培訓。後設資料品質檢核版本控制與資料溯源除機構通常提供的資源外，我們不需要其他硬體或軟體。尚待補充：是否需支付資料儲存庫服務費。4 / 5",
+        "資料管理預算資源項目與用途預算經費來源資料整理資源 1整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。5000幣別尚未提供。機構研究經費資料整理資源 2整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。0 TWD機構研究經費5 / 5"
+      ]
+    }
+  ],
+  "release_acceptance": false,
+  "sources": {
+    "english": "0bb7b623151f93111f447c3256b4f4d8e193cbe7f8522445f8433942ef5d23ac",
+    "chinese": "2680f4a1faf263a4a9392bfe6d78f315d6199037d4c616221891d19152b14e1e"
+  },
+  "variants": {
+    "baseline": "",
+    "width-40-29-31": "html body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) col.resource-purpose { width: 40%; }\nhtml body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) col.resource-budget { width: 29%; }\nhtml body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) col.resource-funding { width: 31%; }",
+    "width-49-25-26": "html body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) col.resource-purpose { width: 49%; }\nhtml body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) col.resource-budget { width: 25%; }\nhtml body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) col.resource-funding { width: 26%; }",
+    "width-52-22-26": "html body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) col.resource-purpose { width: 52%; }\nhtml body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) col.resource-budget { width: 22%; }\nhtml body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) col.resource-funding { width: 26%; }",
+    "unboxed-gap": "html body #q-required-resources .resource-table:has(tbody > tr > td:nth-child(2) > .data-gap) > tbody > tr > td:nth-child(2) > .data-gap { border: none; padding: 0; background: transparent; }"
+  },
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "3ed5e57d3ade1199cff0545684845bdd3bddaa5436ad356fb6a08cf3051d1fe1"
+}

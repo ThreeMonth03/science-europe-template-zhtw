@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
 from probe_short_budget_scope import prior_helper
-from check_short_budget_outputs import question_pages, prompt_lines
+from check_short_budget_outputs import question_pages, prompt_lines, positioned_partial_lists
 
 
 class ShortBudgetScopeTests(unittest.TestCase):
@@ -29,3 +29,13 @@ class ShortBudgetScopeTests(unittest.TestCase):
         with patch('check_short_budget_outputs.subprocess.check_output', return_value=data):
             self.assertEqual(prompt_lines(Path('fake.pdf'), 'Information not provided: currency.'), {'page': 1, 'line_count': 4})
             with self.assertRaises(AssertionError): prompt_lines(Path('fake.pdf'), 'Information not provided: amount.')
+
+    def test_only_verified_generated_list_markers_can_move(self):
+        from bs4 import BeautifulSoup
+        soup = BeautifulSoup('<div id="q-required-resources"><div data-fact-id="specialist-expertise-detail"><ul><li>First.</li><li>Second。</li></ul></div></div>', 'html.parser')
+        bbox = '<doc><page><line><word>•</word><word>First.</word></line><line><word>•</word><word>Second。</word></line></page></doc>'.encode()
+        self.assertEqual(positioned_partial_lists(['First.Second。Budget••'], bbox, soup), ['•First.•Second。Budget'])
+        for pages, boxes, html in [(['First.Second。Budget•'], bbox, soup),
+            (['First.Second。Budget••'], bbox.replace(b'First.', b'Wrong.'), soup),
+            (['First.Second。Budget••'], bbox, BeautifulSoup(str(soup)+'<p>Authored •</p>', 'html.parser'))]:
+            with self.assertRaises(AssertionError): positioned_partial_lists(pages, boxes, html)

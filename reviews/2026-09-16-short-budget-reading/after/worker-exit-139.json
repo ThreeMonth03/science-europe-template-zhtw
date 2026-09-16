@@ -1,0 +1,20 @@
+{
+  "worker": "science-europe-pilot-docworker-1",
+  "state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 139,
+    "Error": "",
+    "StartedAt": "2026-09-16T00:07:13.816570377Z",
+    "FinishedAt": "2026-09-16T00:31:34.040384742Z"
+  },
+  "image_id": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+  "renders_completed": 41,
+  "accepted_as_release": false,
+  "diagnosis": "Unexpected native worker exit 139 after completed PDF; not OOM. Cause not yet established. Same-image restart is recovery, not a root-cause fix."
+}

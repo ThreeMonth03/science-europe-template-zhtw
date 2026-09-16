@@ -1,0 +1,20 @@
+{
+  "native_accepted": false,
+  "note": "Both initial CI runs passed, but native autoescaped PDF failed. Do not infer visual acceptance from CI.",
+  "rows": [
+    {
+      "repository": "science-europe-template",
+      "conclusion": "success",
+      "headSha": "88ae23e132fea1fa4f36d010f6fde9c05555623f",
+      "status": "completed",
+      "url": "https://github.com/ThreeMonth03/science-europe-template/actions/runs/35039052796"
+    },
+    {
+      "repository": "science-europe-template-zhtw",
+      "conclusion": "success",
+      "headSha": "c9be8574ab5c859f1c2d002b7cc5bbf683d53505",
+      "status": "completed",
+      "url": "https://github.com/ThreeMonth03/science-europe-template-zhtw/actions/runs/35039101911"
+    }
+  ]
+}

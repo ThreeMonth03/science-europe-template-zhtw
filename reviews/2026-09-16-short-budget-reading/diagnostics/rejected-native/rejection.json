@@ -1,0 +1,31 @@
+{
+  "accepted": false,
+  "release_acceptance": false,
+  "reason": "Fixed replacement tag was escaped under native Jinja autoescape; the PDF printed markup instead of rendering the table.",
+  "rows": [
+    {
+      "case": "partial",
+      "language": "english",
+      "escaped_opening_table_tag_visible": true,
+      "accepted": false
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "escaped_opening_table_tag_visible": true,
+      "accepted": false
+    }
+  ],
+  "artifact_sha256": {
+    "renders/partial-english.pdf": "37cdc3050015e206fdb263d11fbca57cc4afb6fa8db8cb9d8f810cf11c0dc186",
+    "renders/partial-english.pdf.fixture.json": "ce711153ee242761fe04110b4af1d549be16df53298cc1a4db1d98c2138c14fd",
+    "renders/partial-chinese.pdf": "ddfc88e0eb409f04a7ec7442d184eda69bd2684cad5ee484d7ffc9b5dcf6d18b",
+    "renders/partial-chinese.pdf.fixture.json": "314d8f5b4b6b5c4b62fd9c40431fbe00a6f632a597b226bcf454cf6286e305c4"
+  },
+  "package_sha256": {
+    "english.zip": "f677aa374375651701e3d41fca7d67bfe9eea5e0386fc797bf75766947d08afe",
+    "chinese.zip": "c7e327cbf52ec16cb407014e3909f59fdbba78e59300af87bc907af7f5251edc"
+  },
+  "source_manifest_sha256": "b1a68c444f35e82beefab7eadeedd59472d7f54698815d2edb94922772b5bc63",
+  "fix_english_commit": "574890c3f927007a3879116a9363d243675ac13c"
+}
