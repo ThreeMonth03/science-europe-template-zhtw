@@ -1,10 +1,11 @@
 import sys
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
 from probe_short_budget_scope import prior_helper
-from check_short_budget_outputs import question_pages
+from check_short_budget_outputs import question_pages, prompt_lines
 
 
 class ShortBudgetScopeTests(unittest.TestCase):
@@ -22,3 +23,9 @@ class ShortBudgetScopeTests(unittest.TestCase):
         from bs4 import BeautifulSoup
         soup = BeautifulSoup('<div class="question"><h3>1. Question?</h3></div>', 'html.parser')
         self.assertEqual(question_pages(['cover', 'metadata1.Question?Answer.', 'Next。'], soup), ['Answer.', 'Next。'])
+
+    def test_prompt_lines_can_span_separate_poppler_blocks(self):
+        data = b'<doc><page><block><line yMin="10" xMin="100">Information</line></block><block><line yMin="11" xMin="200">Other column</line></block><block><line yMin="25" xMin="100">not</line></block><block><line yMin="40" xMin="100">provided:</line></block><block><line yMin="55" xMin="100">currency.</line></block></page></doc>'
+        with patch('check_short_budget_outputs.subprocess.check_output', return_value=data):
+            self.assertEqual(prompt_lines(Path('fake.pdf'), 'Information not provided: currency.'), {'page': 1, 'line_count': 4})
+            with self.assertRaises(AssertionError): prompt_lines(Path('fake.pdf'), 'Information not provided: amount.')

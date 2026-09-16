@@ -30,11 +30,18 @@ def prompt_lines(pdf, text):
     target = compact(text); found = []
     data = etree.fromstring(subprocess.check_output(['pdftotext', '-bbox-layout', str(pdf), '-']))
     for number, page in enumerate(data.findall('.//{*}page'), 1):
-        for block in page.findall('.//{*}block'):
-            lines = [compact(''.join(n.itertext())) for n in block.findall('{*}line')]
-            for start in range(len(lines)):
-                for end in range(start+1, min(start+6, len(lines))+1):
-                    if ''.join(lines[start:end]) == target: found.append({'page': number, 'line_count': end-start})
+        # Poppler may split each table line into its own block. Follow the same
+        # left edge geometrically, not XML block order or interleaved columns.
+        lines = sorted([(float(n.get('yMin')), float(n.get('xMin')), compact(''.join(n.itertext()))) for n in page.findall('.//{*}line')])
+        for y, x, text in lines:
+            if not text or not target.startswith(text): continue
+            column = [(yy, value) for yy, xx, value in lines if yy >= y and abs(xx-x) < .75]
+            joined = ''; previous = y
+            for index, (yy, value) in enumerate(column[:6], 1):
+                if yy-previous > 22.5: break
+                joined += value; previous = yy
+                if joined == target: found.append({'page': number, 'line_count': index}); break
+                if not target.startswith(joined): break
     assert len(found) == 1, (text, found)
     return found[0]
 
