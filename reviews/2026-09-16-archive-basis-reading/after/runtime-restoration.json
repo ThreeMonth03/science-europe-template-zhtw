@@ -1,0 +1,11 @@
+{
+  "restored_stock_and_stopped": true,
+  "services": [
+    {"name": "science-europe-pilot-docworker-1", "image_id": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc", "status": "exited"},
+    {"name": "science-europe-pilot-server-1", "image_id": "sha256:8a06520490cc58c2dd2297e34b198c833442717116c7b3d9d96ba4922a07f375", "status": "exited"},
+    {"name": "science-europe-pilot-postgres-1", "image_id": "sha256:aadf2c0696f5ef357aa7a68da995137f0cf17bad0bf6e1f17de06ae5c769b302", "status": "exited"},
+    {"name": "science-europe-pilot-minio-1", "image_id": "sha256:a616cd8f37758b0296db62cc9e6af05a074e844cc7b5c0a0e62176d73828d440", "status": "exited"}
+  ],
+  "volumes_deleted": false,
+  "scope": "Only the four local synthetic pilot services; no production DSW or keyring. Four owned staged templates across two runs removed with verified ZIP backups and zero references."
+}

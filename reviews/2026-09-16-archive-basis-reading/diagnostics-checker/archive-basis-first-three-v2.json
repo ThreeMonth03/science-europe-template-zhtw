@@ -1,0 +1,258 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "pages": 9,
+      "errors": [],
+      "reading_issues": [],
+      "questions": [
+        {
+          "id": "q-how-data",
+          "heading_page": [
+            2
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Instrument datasets Coastal temperature measurements For this dataset, we are using the following instruments: Temperature logger – Record temperature every ten minutes; retain UTC timestamps and calibration records. Quality control measures for Coastal temperature measurements : measurement calibration, data entry validation. Re-used datasets Open coastal observations — station 1 Source: https://example.org/datasets/coastal-observations/station-1/version-2026 Compare seasonal changes in water temperature. Retain the original timestamps. Document any excluded observations. Version 2026.1 If a new version becomes available during the project, the current version will continue to be used. Open coastal observations — station 2 Source: https://example.org/datasets/coastal-observations/station-2/version-2026 Compare seasonal changes in water temperature. Retain the original timestamps. Document any excluded observations. Version 2026.1 If a new version becomes available during the project, the current version will continue to be used. Shared arrangements The following arrangements apply to all reference datasets selected for re-use above. We will retain a copy of this dataset and provide it alongside the research results. This dataset is freely available with an obligation to cite the source. The data can be used directly without format conversion. Provenance Record source versions and processing scripts in the project repository. Record Retention Processing log 10 years Source checksum 10 years"
+        },
+        {
+          "id": "q-what-data",
+          "heading_page": [
+            3
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Instrument datasets Data collection for Coastal temperature measurements : This dataset will be collected by experts in the project, with our own equipment. The equipment is very well described and known. Data formats and types Data format: CSV (UTF-8) . It is a standardized format. This is a suitable format for long-term archiving. We expect to have 120 GB of data in this format."
+        },
+        {
+          "id": "q-docs-metadata",
+          "heading_page": [
+            3
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "We will be documenting the data with Dublin Core metadata standard. Metadata will be openly available including instructions how to get access to the data.\n        Metadata will be available in a form that can be harvested and indexed (managed by the used repository / repositories). Data storage and file conventions We estimate the storage space that the project will require for all data and software (including temporary storage) to 2048 gigabytes. We will use a filesystem with files and folders. We document how we manage file versioning for files and folders. File naming conventions: Name files station_YYYYMMDD.csv and document corrections in CHANGELOG.md."
+        },
+        {
+          "id": "q-quality-control",
+          "heading_page": [
+            3
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Quality control measures for Coastal temperature measurements : measurement calibration, data entry validation."
+        },
+        {
+          "id": "q-store-backup",
+          "heading_page": [
+            3
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 1,
+          "answer_text": "There is a shared workspace used during the project for working with data. Dedicated specialists will operate the shared workspace. Storage needs will be the same during the whole project. All essential data will also be stored elsewhere to prevent a total loss of data. We will make automated backups of all data stored outside the workspace. Archival during the project Data will be archived in cold storage during the project. The archive will be stored on tape. The archive will be stored at a remote location. Changes to archived data will require re-archival. Frequent backups are required because the archived data changes frequently. These backups will be used to recover from accidental changes or deletions. The fields mapped by this template are insufficient to establish the following operational details: Exact working-storage and backup locations are not established by these mapped answers. An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule."
+        },
+        {
+          "id": "q-access-security",
+          "heading_page": [
+            4
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).\n          All project web services are accessible via secure HTTP (https://...).\n          Project members have been instructed about both generic and specific risks to the project. See question 5 for archival and backup arrangements."
+        },
+        {
+          "id": "q-personal-data",
+          "heading_page": [
+            4
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Legal basis for collecting and processing personal data We are collecting and processing personal data in order to fulfil contract. Technical and procedural measures The stored data are pseudonymized. Other technical and procedural safeguards: Access is limited to the named research team. Review permissions every month. Record access in Audit-2027.csv. Retain the original order. We plan to transfer data outside the EU/EEA with the following protection measures: Encrypt the transfer and verify the recipient. Keep the transfer record . Check the recipient agreement. Record the verification date."
+        },
+        {
+          "id": "q-copyright-ipr",
+          "heading_page": [
+            5
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "For the reference and non-reference data sets that we reuse, conditions are as follows: Open coastal observations — station 1 It is freely available with obligation to quote the source (e.g. CC-BY). Open coastal observations — station 2 It is freely available with obligation to quote the source (e.g. CC-BY)."
+        },
+        {
+          "id": "q-ethical-issues",
+          "heading_page": [
+            5
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Ethical approvals The questionnaire records the following ethical approval arrangements: Coastal observations: reproducible data management According to the questionnaire, this project does not require ethical approval. Data we produce For the data we produce, the ethical aspects are as follows: Quality-checked coastal observations It does not contain personal data. It does not contain sensitive data. Internal instrument checks - no information on personal nor sensitive data. Data we collect We will collect data related to individuals, i.e. \"personal data\". We use a different legal base for collection of personal data rather than public interest or consent-based:  to fulfil a contract."
+        },
+        {
+          "id": "q-share-restrictions",
+          "heading_page": [
+            6
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Quality-checked coastal observations This dataset will be published. Distribution 1 Open access: this distribution will be shared with anyone. This distribution will be deposited in an institutional repository. Licence start date: 2027-12-31 . Freely available with obligation to quote the source (e.g. CC-BY). Distribution 2 Access will be limited to a predefined group of people. This distribution will be deposited in a special-purpose repository for the project. Licence start date: 2027-06-01 . Access to this distribution is subject to restrictions. This preliminary release is limited to the project review group. Do not redistribute the preliminary files. Cite the release identifier in review notes. Re-users will be able to get access by request to the contact person. The conditions will be published as part of open metadata. Restriction details: https://example.org/coast/review-terms . Internal instrument checks This dataset will not be published."
+        },
+        {
+          "id": "q-data-preservation",
+          "heading_page": [
+            6
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 1,
+          "answer_text": "Quality-checked coastal observations Quality-checked coastal measurements with a station dictionary. Keep Selection-2027-12-31.csv alongside the processing record. This dataset contains processed data leading to published results. This dataset will be published. Retention period (prepaid): 10 years. The metadata will be available even when the data no longer exists. Related paper: https://example.org/papers/coast-study Preservation destinations by distribution: Distribution 1: Our institutional repository. Distribution 2: Special-purpose repository for the project. Whether we will be able to support this repository for a sufficiently long time has not been specified. Internal instrument checks Instrument test records retained for internal verification. This dataset contains intermediate data. This dataset will not be published. Other reasons for not publishing this dataset: The instrument supplier restricts publication of test records. Internal verification copies will still be kept. Record the access decision. Retain the calibration context. Retention period (prepaid): 15 years. The metadata will be available even when the data no longer exists. Repository costs and publication preparation We have budgeted for the costs in the project to pay charges of the used repositories. We have a reserved budget for the time and effort it will take to prepare the data for publication. Project-wide cold storage after the project The project will keep copies of its data in cold storage after it finishes. Departmental budgets of one or more project participants will pay for this long-term storage. The archive will be kept for at least 12 years . The archival period can be extended. Library or archive staff will decide on an extension. Basis for extending the archival period: actual use of the archived data , predicted use of the archived data , available budget . Obsolete data formats in cold storage will be upgraded. Archived data will not be migrated regularly to more modern storage media. Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed."
+        },
+        {
+          "id": "q-access-data",
+          "heading_page": [
+            7
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Quality-checked coastal observations Software required to use this dataset: CoastView 1.0 (synthetic test tool) Available at: https://example.org/coastview/1.0 Internal instrument checks This dataset will not be published."
+        },
+        {
+          "id": "q-persistent-identifier",
+          "heading_page": [
+            8
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Quality-checked coastal observations Distribution 1 Institutional repository The repository will assign the persistent identifier. The repository will make sure the persistent identifier can be resolved to a digital object. Distribution 2 Special-purpose repository An institutional data steward will assign the persistent identifier. The repository will make sure the persistent identifier can be resolved to a digital object. Internal instrument checks This dataset will not be published. Possible re-use of created data in other contexts Coastal temperature measurements Other researchers in this field will be interested in re-using this data."
+        },
+        {
+          "id": "q-dm-responsible",
+          "heading_page": [
+            8
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Example research team is responsible for the management and proficiency of data including data processing, data policies, data guidelines, and data availability. Example research team is responsible for implementing the DMP, and ensuring it is reviewed and revised."
+        },
+        {
+          "id": "q-required-resources",
+          "heading_page": [
+            8
+          ],
+          "first_answer_with_heading": true,
+          "gap_count": 0,
+          "answer_text": "Additional specialist expertise is required. Existing staff will receive training. Staff will complete training before data publication. Metadata quality checks Version control and provenance We do not require any hardware or software in addition to what is usually available in the institute. The selected repositories charge for their services. Data-management budget Resource and purpose Budget Funding source Data preparation resource 1 Prepare metadata and validate deposit files. This resource supports findability and management of data. 5000 TWD Institutional research funds Data preparation resource 2 Prepare metadata and validate deposit files. This resource supports findability and management of data. 0 TWD Institutional research funds"
+        }
+      ],
+      "gap_nodes": [
+        {
+          "question": "q-store-backup",
+          "fact": null,
+          "status": null,
+          "item": null,
+          "text": "The fields mapped by this template are insufficient to establish the following operational details: Exact working-storage and backup locations are not established by these mapped answers. An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule.",
+          "complete_on_pages": [
+            4
+          ]
+        },
+        {
+          "question": "q-data-preservation",
+          "fact": "preservation-selection-review",
+          "status": "needs-review",
+          "item": null,
+          "text": "Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.",
+          "complete_on_pages": [
+            7
+          ]
+        }
+      ],
+      "artifact_sha256": {
+        "renders/personal-transfer-complete-english.html": "bc77dde25a617a9aee42a469324f97e3d5a722d22e71340183feffccc49dfc10",
+        "renders/personal-transfer-complete-english.pdf": "b0fac21bd33eb5bd93ee025aa91f2908a6f783a7b46e970f752cf2c8d0482967",
+        "renders/personal-transfer-complete-english.html.fixture.json": "ee1b9e0922203d830bc001762d1ba7097782ab3b92ea6ff3773396e7a0a16125",
+        "renders/personal-transfer-complete-english.pdf.fixture.json": "22f3ac931f5091b28e8e1e1ec54f24b6ac9935ff474fa843ea82eea6a52b11df",
+        "renders/personal-transfer-complete-english.docx": "b13eac37cf10272d744c89fe1c9b31ae4947b3fb59547d93c9350bb74e9ce74a",
+        "renders/personal-transfer-complete-english.docx.fixture.json": "801ada040291aaad20db8ff0598d64422f261f78431ae5aec83864b57b4e0543",
+        "word-preview/personal-transfer-complete-english.pdf": "04187c81b81c7bff2b4060098086e639de01744034cdf6ffcc08d91732da699e"
+      },
+      "metric_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "blank_pages": [],
+      "authored_paragraphs_checked": 20,
+      "rendered_gap_text_retained": true,
+      "automated_content_checks_passed": true,
+      "word_delta": {
+        "replaced_paragraphs": 4,
+        "new_paragraphs": true,
+        "renumbered_unchanged_list_items": 4,
+        "immediate_successor_equivalent_style": true
+      },
+      "pdf_delta": {
+        "removed_generated_bullets": 3,
+        "remaining_bound_bullets": 10
+      },
+      "prior_pages": 9,
+      "word_pages": 7,
+      "prior_word_pages": 7,
+      "preview_paragraphs_checked": 177,
+      "summary_lines": {
+        "pdf": {
+          "page": 7,
+          "line_count": 2
+        },
+        "word": {
+          "page": 6,
+          "line_count": 2
+        }
+      },
+      "prior_root": "outputs/runtime-tables-rc_396a2",
+      "prior_artifact_sha256": {
+        "renders/personal-transfer-complete-english.html": "685fe427d34682fc9e24cfa06aa1833729bfcbe6d9d6f1b09dc14383fd5bf173",
+        "renders/personal-transfer-complete-english.html.fixture.json": "f055e9d1b14df5947f0824925f3a1ba9ee71f47180c43090fc29f67d4416e268",
+        "renders/personal-transfer-complete-english.pdf": "2d03f39ff32e3cc6f52509c69c592af9d69e55a40bf1a7255a4d98a06c5df1a3",
+        "renders/personal-transfer-complete-english.pdf.fixture.json": "d3b0effcfd9a308c9e6aaab3e9fa93a890a72c2c0fd500bd80ffc1c4780a4d74",
+        "renders/personal-transfer-complete-english.docx": "bc59f41f54bcdfe8935685629ba949fbc96b40031486d3b5dcbd5bc6173ff642",
+        "renders/personal-transfer-complete-english.docx.fixture.json": "92318195f2374403b12572e4e6b8e89daf7d69909c38bab2dba4be0039d55520",
+        "word-preview/personal-transfer-complete-english.pdf": "0a43a8be0d3de4c6ab750b930aafa7cc090de52236a687975aef03e54af58fd7"
+      },
+      "passed": true
+    }
+  ],
+  "checker_sha256": "c053c2762d11204804cfb1743d202fc540a33fea1eede277c7765545527e690b",
+  "contract_sha256": "41b200809d84e0d1b71584785a30f4ba31344d195cffd8835f27dd3621b1ac87",
+  "helper_sha256": {
+    "check_budget_outputs.py": "cb13491830b001059877d522cb2918f543242f3320dfeaf827b8b8aa00995415",
+    "check_budget_spacing_outputs.py": "4f6e622cf4b833526d5d8b67a5a1fd83eafe76e18eeeb1b4ce2d8d3a28a172fa",
+    "check_identifier_concise_outputs.py": "0d8f1d186c28dfc7772699e8a35fceefdbeaf4c7ee77b71455d3758234668cff",
+    "check_identifier_spacing_outputs.py": "145b580fa7715f92f6f7e655226257dbb323f198842cf839722c0e9a6f08bebc",
+    "check_narrative_outputs.py": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+    "check_short_budget_outputs.py": "b6761b1f6b96be6593fcdcaa7d5d9b3586bc84faee591c4ec1b5eb38b476cc2b",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "check_word_short_budget_outputs.py": "c568bfce161d432c5d5e971d2724a98dcbe5354e8135896ecdcd8ee786320384",
+    "check_missing_info_outputs.py": "9d63bdbf1d73083c4bc934a318c7e49b0cd690703e0313f9475f30a266dccb43"
+  },
+  "package_sha256": {
+    "english.zip": "04681e7acca56dbf5995e8dd77a844c4f0d3901b10e15951db47ad64f490b586",
+    "chinese.zip": "d802152663b365d5cfac48d6b1fed401ef4d1ed807c739f4ec64e2e4cc1cc904"
+  },
+  "limits": [
+    "Eight synthetic cases per language, not all questionnaires",
+    "PDF text comparison normalizes whitespace; exact HTML and DOCX separately preserve punctuation and spacing",
+    "Only geometrically verified generated bullet suffixes may be removed from PDF extraction",
+    "LibreOffice previews are not Microsoft Word acceptance"
+  ],
+  "failure": "AssertionError('New direct character formatting')"
+}

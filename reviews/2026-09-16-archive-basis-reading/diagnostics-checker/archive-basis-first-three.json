@@ -1,0 +1,29 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "rows": [],
+  "checker_sha256": "a04c133dd7e601a8a78f21da25567df2cc1662ff07b2ade7b0033e1557990536",
+  "contract_sha256": "41b200809d84e0d1b71584785a30f4ba31344d195cffd8835f27dd3621b1ac87",
+  "helper_sha256": {
+    "check_budget_outputs.py": "cb13491830b001059877d522cb2918f543242f3320dfeaf827b8b8aa00995415",
+    "check_budget_spacing_outputs.py": "4f6e622cf4b833526d5d8b67a5a1fd83eafe76e18eeeb1b4ce2d8d3a28a172fa",
+    "check_identifier_concise_outputs.py": "0d8f1d186c28dfc7772699e8a35fceefdbeaf4c7ee77b71455d3758234668cff",
+    "check_identifier_spacing_outputs.py": "145b580fa7715f92f6f7e655226257dbb323f198842cf839722c0e9a6f08bebc",
+    "check_narrative_outputs.py": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+    "check_short_budget_outputs.py": "b6761b1f6b96be6593fcdcaa7d5d9b3586bc84faee591c4ec1b5eb38b476cc2b",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "check_word_short_budget_outputs.py": "c568bfce161d432c5d5e971d2724a98dcbe5354e8135896ecdcd8ee786320384",
+    "check_missing_info_outputs.py": "9d63bdbf1d73083c4bc934a318c7e49b0cd690703e0313f9475f30a266dccb43"
+  },
+  "package_sha256": {
+    "english.zip": "04681e7acca56dbf5995e8dd77a844c4f0d3901b10e15951db47ad64f490b586",
+    "chinese.zip": "d802152663b365d5cfac48d6b1fed401ef4d1ed807c739f4ec64e2e4cc1cc904"
+  },
+  "limits": [
+    "Eight synthetic cases per language, not all questionnaires",
+    "PDF text comparison normalizes whitespace; exact HTML and DOCX separately preserve punctuation and spacing",
+    "Only geometrically verified generated bullet suffixes may be removed from PDF extraction",
+    "LibreOffice previews are not Microsoft Word acceptance"
+  ],
+  "failure": "ValueError('Cannot call new_tag on a PageElement not contained in a BeautifulSoup object')"
+}

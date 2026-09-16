@@ -1,0 +1,21 @@
+{
+  "baseline": "c8ace76c2e0c51379d8960ccc94d4fcc3e78a93c",
+  "baseline_units": 731,
+  "retained_units": 727,
+  "current_units": 732,
+  "removed": [
+    ["The extension decision will take the following into account:", "是否延長保存期限，將考量以下因素："],
+    ["Actual use of the archived data.", "典藏資料的實際使用情況。"],
+    ["Predicted use of the archived data.", "典藏資料的預期使用情況。"],
+    ["Available budget.", "可用預算。"]
+  ],
+  "added": [
+    ["actual use of the archived data", "典藏資料的實際使用情況"],
+    ["predicted use of the archived data", "典藏資料的預期使用情況"],
+    ["available budget", "可用預算"],
+    ["Basis for extending the archival period: {basisItems}.", "延長保存期限的考量因素：{basisItems}。"],
+    ["Some selected reasons for extending the archival period cannot be interpreted by this template. Please review the answer.", "部分已選取的延長保存期限考量因素無法由本模板辨識，請核對填答內容。"]
+  ],
+  "scope": ["src/post-project-archive.html.j2"],
+  "rationale": "Join fixed Q11 selection labels only. Keep per-choice facts; preserve missing basis; flag unsupported selections without guessing. No authored text or style changes."
+}

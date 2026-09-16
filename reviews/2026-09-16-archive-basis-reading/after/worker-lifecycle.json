@@ -1,0 +1,15 @@
+{
+  "same_worker_started_at": true,
+  "no_container_restart_observed": true,
+  "end": {
+    "container": "science-europe-pilot-docworker-1",
+    "image_id": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+    "started_at": "2026-09-16T06:44:22.554948988Z",
+    "restart_count": 0,
+    "status": "running"
+  },
+  "completed_native_outputs": 48,
+  "extra_completed_baseline_outputs": 24,
+  "initial_failed_attempt": "Local storage quota rejected the first HTML render; see diagnostics-quota. Completed only after removing the two owned, unreferenced, backed-up baseline templates.",
+  "limits": ["Does not establish the historical exit 139 root cause."]
+}

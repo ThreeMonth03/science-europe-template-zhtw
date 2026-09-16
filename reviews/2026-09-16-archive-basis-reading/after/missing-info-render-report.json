@@ -1,0 +1,429 @@
+{
+  "all_renders_succeeded": true,
+  "release_acceptance": false,
+  "validation": [
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "reachable_replies": 166,
+      "events_sha256": "2f71a89ec9285dc068ad0a8d6ad4ccbc09efad4a7847796721c650fb33212f29",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "archive-basis-single",
+      "language": "english",
+      "reachable_replies": 166,
+      "events_sha256": "4e8bfcfdc362d45e81776411018c602a830d9c056b9dce187d36b728c30a6406",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "archive-basis-pair",
+      "language": "english",
+      "reachable_replies": 166,
+      "events_sha256": "363aaa68e82380aca8334e44cb8c0dae33679df049a442f45e58653c92f81071",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "preservation-partial",
+      "language": "english",
+      "reachable_replies": 153,
+      "events_sha256": "59b3e635f245d0dc748423e10a70b9e1a8eb4aab2013292ee93ce5aafccd2536",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "preservation-custom",
+      "language": "english",
+      "reachable_replies": 158,
+      "events_sha256": "1cf3d7e3022551e6c45f9a4e73e600384de72cfab3e936b6bc0ef9aec75339cb",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "reachable_replies": 0,
+      "events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "reachable_replies": 6,
+      "events_sha256": "536cb639ffa97dcdd3fabcba23a9b7e9b37d0a13cc2f55088940c706ba4cddc3",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "reachable_replies": 158,
+      "events_sha256": "ea86a763d7789d48c24cbba44c5ffc85af0e3a2249b0eac387ab067780edce05",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "reachable_replies": 166,
+      "events_sha256": "101f28949e0c756e1435c84c2f46c039033d958166ac91079eafab3c7263a48e",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "archive-basis-single",
+      "language": "chinese",
+      "reachable_replies": 166,
+      "events_sha256": "4c800e0212a01dfd16aa9f8cf37730a560fb6ce73b6ea3c1146875f7b71d1582",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "archive-basis-pair",
+      "language": "chinese",
+      "reachable_replies": 166,
+      "events_sha256": "a77a9eaca42152f61a430796e669a7df5182214bfb4e52dae34f6ccffd8c00b3",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "preservation-partial",
+      "language": "chinese",
+      "reachable_replies": 153,
+      "events_sha256": "6186e43faa80c5ca5a34abaf00141932080ff3bc33a675e86e98dd5c2fcab521",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "preservation-custom",
+      "language": "chinese",
+      "reachable_replies": 158,
+      "events_sha256": "e6daaa2e9211312179f6c81d2aceea6ae0701b42281774d33fa0a1ad0151416e",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "reachable_replies": 0,
+      "events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "reachable_replies": 6,
+      "events_sha256": "536cb639ffa97dcdd3fabcba23a9b7e9b37d0a13cc2f55088940c706ba4cddc3",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "reachable_replies": 158,
+      "events_sha256": "e5bf8b16ac73ca81853cde5e7f5ebfd35c8992f9efdb2abb9a56b08279521b6e",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    }
+  ],
+  "renders": [
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-single",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-single",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-single",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-single",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-single",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-single",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-pair",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-pair",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-pair",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-pair",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-pair",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "archive-basis-pair",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "preservation-custom",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-custom",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-custom",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "preservation-custom",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-custom",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-custom",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    }
+  ],
+  "checker_sha256": "5d66229580ef57b89dddb145154fdc6598974638f52b68f96e1eae4e0b806c67",
+  "package_sha256": {
+    "english.zip": "04681e7acca56dbf5995e8dd77a844c4f0d3901b10e15951db47ad64f490b586",
+    "chinese.zip": "d802152663b365d5cfac48d6b1fed401ef4d1ed807c739f4ec64e2e4cc1cc904"
+  }
+}

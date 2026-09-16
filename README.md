@@ -3,6 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
+最新 0.3.29：[Q11 中英文成段閱讀與漏填對照](reviews/2026-09-16-archive-basis-reading/README.md)。
+三項延長保存期限的固定勾選內容改為一段，保留每項資訊、缺答與未知選項提示。
+八組中英共 48 個原生輸出及 16 份 Word 預覽核對通過；沒有改寫自由回答或
+另維護中文 Jinja。仍為實驗版，不代表整份 DMP 或 Microsoft Word 已驗收。
+
 目前已由 Q1／Q5／Q15 切片擴充到十五題的合成輸出案例，另修正 Q3／Q12 的
 部分漏出與錯誤否定分支；尚未宣稱全部 15 題完成內容驗收。
 這是衍生客製模板，不代表 Science Europe 認可；目前不得當作已驗收正式版發布。
