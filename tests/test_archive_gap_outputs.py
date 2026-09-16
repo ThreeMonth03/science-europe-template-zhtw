@@ -56,6 +56,9 @@ class ArchiveGapOutputTests(unittest.TestCase):
         old = bbox(page((50, 'First.'), (100, 'Last.')))
         new = bbox(page((50, 'First.'), (80, 'Last.')))
         self.assertEqual(pair_delta(old, new, soup, [('a', 'b')])[0]['reduced_span_pt'], 20)
+        split = bbox(page((50, 'First.')), page((80, 'Last.')))
+        result = pair_delta(split, new, soup, [('a', 'b')])[0]
+        self.assertTrue(result['baseline_pair_split']); self.assertIsNone(result['reduced_span_pt'])
         for data in [old, bbox(page((50, 'First.')), page((80, 'Last.'))), new.replace(b'xMax="150"', b'xMax="151"')]:
             with self.assertRaises(AssertionError): pair_delta(old, data, soup, [('a', 'b')])
 

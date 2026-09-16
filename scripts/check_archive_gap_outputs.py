@@ -71,14 +71,16 @@ def pair_delta(old_bbox, new_bbox, soup, pairs):
         after = [prompt_geometry(new_bbox, text) for text in texts]
         assert after[0]['page'] == after[1]['page'], 'Bounded pair split across pages'
         assert [g['lines'] for g in before] == [g['lines'] for g in after], 'Prompt font metrics/width/wrapping changed'
-        # These native fixtures have same-page baseline pairs. Engine probes
-        # separately test before/after pairs near a page boundary.
-        assert before[0]['page'] == before[1]['page']
-        old_span = before[1]['bottom']-before[0]['top']; new_span = after[1]['bottom']-after[0]['top']
-        assert 0 < new_span < old_span, 'Pair did not become less fragmented'
+        assert before[1]['page'] in [before[0]['page'], before[0]['page']+1]
+        split = before[0]['page'] != before[1]['page']
+        old_span = None if split else before[1]['bottom']-before[0]['top']
+        new_span = after[1]['bottom']-after[0]['top']
+        assert new_span > 0
+        if not split: assert new_span < old_span, 'Pair did not become less fragmented'
         result.append({'facts': [first, last], 'before_page': before[0]['page'], 'after_page': after[0]['page'],
+                       'before_pages': [g['page'] for g in before], 'baseline_pair_split': split,
                        'before_span_pt': old_span, 'after_span_pt': new_span,
-                       'reduced_span_pt': old_span-new_span, 'unchanged_line_metrics': True})
+                       'reduced_span_pt': None if split else old_span-new_span, 'unchanged_line_metrics': True})
     return result
 
 
