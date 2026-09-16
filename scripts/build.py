@@ -73,6 +73,10 @@ def package_readme(root: Path) -> Path:
 
 def package_timestamp(english: Path) -> str:
     # Navigation docs, tests and review archives are not package inputs.
+    # A shallow boundary treats a tests-only commit as adding the whole tree,
+    # silently changing package metadata even when every source byte matches.
+    if git(english, 'rev-parse', '--is-shallow-repository') != 'false':
+        raise ValueError('Full English history required for reproducible package timestamps; fetch with --unshallow or use fetch-depth: 0')
     value = git(english, 'log', '-1', '--format=%cI', 'HEAD', '--', *PACKAGE_INPUT_PATHS)
     if not value:
         raise ValueError('No committed English package inputs found')

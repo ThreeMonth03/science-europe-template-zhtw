@@ -9,6 +9,7 @@
 Word 正文及版面不變。732 個翻譯檔沿用，不另維護中文 Jinja。
 仍為實驗版，不代表整份 DMP 或 Microsoft Word 已驗收。
 前版：[Q11 固定勾選內容成段閱讀](reviews/2026-09-16-archive-basis-reading/README.md)。
+後續修正：[CI 淺層歷史導致的套件時間差異](docs/ci-package-history-2026-09-17.md)。
 
 目前已由 Q1／Q5／Q15 切片擴充到十五題的合成輸出案例，另修正 Q3／Q12 的
 部分漏出與錯誤否定分支；尚未宣稱全部 15 題完成內容驗收。

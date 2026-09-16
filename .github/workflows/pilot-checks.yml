@@ -39,6 +39,7 @@ jobs:
           repository: ThreeMonth03/science-europe-template
           ref: ${{ steps.locks.outputs.source }}
           path: english
+          fetch-depth: 0  # Package timestamps require actual input history, not a shallow boundary.
       - name: Check locked English source with only its declared dependencies
         working-directory: english
         run: |
