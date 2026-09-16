@@ -5,12 +5,13 @@ import unittest
 from bs4 import BeautifulSoup
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'scripts'))
 from identifier_followup_contract import check_followups, ASSIGNERS
-from test_identifier_followup_checks import FollowupChecksTests, IDS
+import test_identifier_followup_checks as historic
+IDS = historic.IDS
 
 
 class ConciseIdentifierChecks(unittest.TestCase):
     def fixture(self, language, known):
-        _, soup, replies = FollowupChecksTests().pair(language)
+        _, soup, replies = historic.FollowupChecksTests().pair(language)
         parent = soup.select_one('[data-fact-id="persistent-identifier"]')
         parent.string = 'Persistent identifiers will be assigned.' if language == 'english' else '資料將取得持續識別碼。'
         if known:
