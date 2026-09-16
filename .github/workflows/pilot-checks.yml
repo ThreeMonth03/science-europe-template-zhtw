@@ -73,9 +73,9 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
-          # Current CSS/Lua scope is checked against frozen 0.3.27.
+          # Current Q11 source/translation scope is checked against frozen 0.3.28.
           # Historic scope reports stay frozen; behavior probes still run.
-          ../tooling/.venv/bin/python scripts/probe_identifier_spacing_scope.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python scripts/probe_archive_basis_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python ../english/scripts/probe_identifier_spacing.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/identifier-spacing-engine.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_word_short_budget.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/word-short-budget-english.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_word_short_budget.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/word-short-budget-chinese.json"

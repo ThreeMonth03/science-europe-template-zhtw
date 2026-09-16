@@ -316,7 +316,7 @@
 
           [T] [translation](<tree/src/macros.html.j2/0004-orcid-1de1d52d66/0001-orcid-e8a9c7bd7d/translation.md>)
 
-- [x] [file] src/post-project-archive.html.j2 (32/32)
+- [ ] [file] src/post-project-archive.html.j2 (28/33)
 
   [J2] `src/post-project-archive.html.j2`
 
@@ -480,37 +480,37 @@
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0020-the-person-or-team-responsible-for-deciding-on-503568f9b5/0001-the-person-or-team-responsible-for-deciding-on-5901213606/translation.md>)
 
-    - [x] [wrapper] 0021-the-extension-decision-will-take-the-following-into-5907de8ec7 (1/1)
+    - [ ] [wrapper] 0021-actual-use-of-the-archived-data-55875565cf (0/1)
 
-      [W] `0021-the-extension-decision-will-take-the-following-into-5907de8ec7`
+      [W] `0021-actual-use-of-the-archived-data-55875565cf`
 
-        - [x] [unit] 0001-the-extension-decision-will-take-the-following-into-354cf7915e: The extension decision will take the following into account:
+        - [ ] [unit] 0001-actual-use-of-the-archived-data-8a12b690ba: actual use of the archived data
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0021-the-extension-decision-will-take-the-following-into-5907de8ec7/0001-the-extension-decision-will-take-the-following-into-354cf7915e/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0021-actual-use-of-the-archived-data-55875565cf/0001-actual-use-of-the-archived-data-8a12b690ba/translation.md>)
 
-    - [x] [wrapper] 0022-actual-use-of-the-archived-data-49b1ffac25 (1/1)
+    - [ ] [wrapper] 0022-predicted-use-of-the-archived-data-a2ed762036 (0/1)
 
-      [W] `0022-actual-use-of-the-archived-data-49b1ffac25`
+      [W] `0022-predicted-use-of-the-archived-data-a2ed762036`
 
-        - [x] [unit] 0001-actual-use-of-the-archived-data-2672fb84d3: Actual use of the archived data.
+        - [ ] [unit] 0001-predicted-use-of-the-archived-data-3a02654729: predicted use of the archived data
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0022-actual-use-of-the-archived-data-49b1ffac25/0001-actual-use-of-the-archived-data-2672fb84d3/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0022-predicted-use-of-the-archived-data-a2ed762036/0001-predicted-use-of-the-archived-data-3a02654729/translation.md>)
 
-    - [x] [wrapper] 0023-predicted-use-of-the-archived-data-1822ed6753 (1/1)
+    - [ ] [wrapper] 0023-available-budget-3eccb8eb74 (0/1)
 
-      [W] `0023-predicted-use-of-the-archived-data-1822ed6753`
+      [W] `0023-available-budget-3eccb8eb74`
 
-        - [x] [unit] 0001-predicted-use-of-the-archived-data-244e7c90af: Predicted use of the archived data.
+        - [ ] [unit] 0001-available-budget-5cf6f1737d: available budget
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0023-predicted-use-of-the-archived-data-1822ed6753/0001-predicted-use-of-the-archived-data-244e7c90af/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0023-available-budget-3eccb8eb74/0001-available-budget-5cf6f1737d/translation.md>)
 
-    - [x] [wrapper] 0024-available-budget-c311440302 (1/1)
+    - [ ] [wrapper] 0024-basis-for-extending-the-archival-period-92ac1361df (0/1)
 
-      [W] `0024-available-budget-c311440302`
+      [W] `0024-basis-for-extending-the-archival-period-92ac1361df`
 
-        - [x] [unit] 0001-available-budget-8d2675da1e: Available budget.
+        - [ ] [unit] 0001-basis-for-extending-the-archival-period-1a99c3cef7: Basis for extending the archival period: {basisItems}.
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0024-available-budget-c311440302/0001-available-budget-8d2675da1e/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0024-basis-for-extending-the-archival-period-92ac1361df/0001-basis-for-extending-the-archival-period-1a99c3cef7/translation.md>)
 
     - [x] [wrapper] 0025-the-basis-for-deciding-on-an-extension-has-7b0f347894 (1/1)
 
@@ -520,61 +520,69 @@
 
           [T] [translation](<tree/src/post-project-archive.html.j2/0025-the-basis-for-deciding-on-an-extension-has-7b0f347894/0001-the-basis-for-deciding-on-an-extension-has-d6ae476fcb/translation.md>)
 
-    - [x] [wrapper] 0026-it-has-not-been-specified-whether-the-archival-fb6e847876 (1/1)
+    - [ ] [wrapper] 0026-some-selected-reasons-for-extending-the-archival-period-f46175b26a (0/1)
 
-      [W] `0026-it-has-not-been-specified-whether-the-archival-fb6e847876`
+      [W] `0026-some-selected-reasons-for-extending-the-archival-period-f46175b26a`
 
-        - [x] [unit] 0001-it-has-not-been-specified-whether-the-archival-e800c2c02f: It has not been specified whether the archival period can be extended.
+        - [ ] [unit] 0001-some-selected-reasons-for-extending-the-archival-period-988e60483d: Some selected reasons for extending the archival period cannot be interpreted by this template. Please review the answer.
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0026-it-has-not-been-specified-whether-the-archival-fb6e847876/0001-it-has-not-been-specified-whether-the-archival-e800c2c02f/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0026-some-selected-reasons-for-extending-the-archival-period-f46175b26a/0001-some-selected-reasons-for-extending-the-archival-period-988e60483d/translation.md>)
 
-    - [x] [wrapper] 0027-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794 (1/1)
+    - [x] [wrapper] 0027-it-has-not-been-specified-whether-the-archival-fb6e847876 (1/1)
 
-      [W] `0027-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794`
+      [W] `0027-it-has-not-been-specified-whether-the-archival-fb6e847876`
 
-        - [x] [unit] 0001-obsolete-data-formats-in-cold-storage-will-be-2428e1280e: Obsolete data formats in cold storage will be upgraded.
+        - [x] [unit] 0001-it-has-not-been-specified-whether-the-archival-36b29cf92a: It has not been specified whether the archival period can be extended.
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0027-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794/0001-obsolete-data-formats-in-cold-storage-will-be-2428e1280e/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0027-it-has-not-been-specified-whether-the-archival-fb6e847876/0001-it-has-not-been-specified-whether-the-archival-36b29cf92a/translation.md>)
 
-    - [x] [wrapper] 0028-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d (1/1)
+    - [x] [wrapper] 0028-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794 (1/1)
 
-      [W] `0028-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d`
+      [W] `0028-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794`
 
-        - [x] [unit] 0001-obsolete-data-formats-in-cold-storage-will-not-df79e5d9d0: Obsolete data formats in cold storage will not be upgraded.
+        - [x] [unit] 0001-obsolete-data-formats-in-cold-storage-will-be-01375d81e4: Obsolete data formats in cold storage will be upgraded.
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0028-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d/0001-obsolete-data-formats-in-cold-storage-will-not-df79e5d9d0/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0028-obsolete-data-formats-in-cold-storage-will-be-fa7f10e794/0001-obsolete-data-formats-in-cold-storage-will-be-01375d81e4/translation.md>)
 
-    - [x] [wrapper] 0029-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b (1/1)
+    - [x] [wrapper] 0029-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d (1/1)
 
-      [W] `0029-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b`
+      [W] `0029-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d`
 
-        - [x] [unit] 0001-the-arrangement-for-obsolete-data-formats-in-cold-c06c5bdfef: The arrangement for obsolete data formats in cold storage has not been specified.
+        - [x] [unit] 0001-obsolete-data-formats-in-cold-storage-will-not-c2b517c5f7: Obsolete data formats in cold storage will not be upgraded.
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0029-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b/0001-the-arrangement-for-obsolete-data-formats-in-cold-c06c5bdfef/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0029-obsolete-data-formats-in-cold-storage-will-not-e19c8a067d/0001-obsolete-data-formats-in-cold-storage-will-not-c2b517c5f7/translation.md>)
 
-    - [x] [wrapper] 0030-archived-data-will-be-migrated-regularly-to-more-8242b62f1a (1/1)
+    - [x] [wrapper] 0030-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b (1/1)
 
-      [W] `0030-archived-data-will-be-migrated-regularly-to-more-8242b62f1a`
+      [W] `0030-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b`
 
-        - [x] [unit] 0001-archived-data-will-be-migrated-regularly-to-more-cb88d9c771: Archived data will be migrated regularly to more modern storage media.
+        - [x] [unit] 0001-the-arrangement-for-obsolete-data-formats-in-cold-1f4e3f0588: The arrangement for obsolete data formats in cold storage has not been specified.
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0030-archived-data-will-be-migrated-regularly-to-more-8242b62f1a/0001-archived-data-will-be-migrated-regularly-to-more-cb88d9c771/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0030-the-arrangement-for-obsolete-data-formats-in-cold-ef39f91b6b/0001-the-arrangement-for-obsolete-data-formats-in-cold-1f4e3f0588/translation.md>)
 
-    - [x] [wrapper] 0031-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0 (1/1)
+    - [x] [wrapper] 0031-archived-data-will-be-migrated-regularly-to-more-8242b62f1a (1/1)
 
-      [W] `0031-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0`
+      [W] `0031-archived-data-will-be-migrated-regularly-to-more-8242b62f1a`
 
-        - [x] [unit] 0001-archived-data-will-not-be-migrated-regularly-to-2ddca2eba0: Archived data will not be migrated regularly to more modern storage media.
+        - [x] [unit] 0001-archived-data-will-be-migrated-regularly-to-more-3eeded1e01: Archived data will be migrated regularly to more modern storage media.
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0031-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0/0001-archived-data-will-not-be-migrated-regularly-to-2ddca2eba0/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0031-archived-data-will-be-migrated-regularly-to-more-8242b62f1a/0001-archived-data-will-be-migrated-regularly-to-more-3eeded1e01/translation.md>)
 
-    - [x] [wrapper] 0032-the-arrangement-for-migration-to-more-modern-storage-807c2f4575 (1/1)
+    - [x] [wrapper] 0032-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0 (1/1)
 
-      [W] `0032-the-arrangement-for-migration-to-more-modern-storage-807c2f4575`
+      [W] `0032-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0`
 
-        - [x] [unit] 0001-the-arrangement-for-migration-to-more-modern-storage-b8824f8223: The arrangement for migration to more modern storage media has not been specified.
+        - [x] [unit] 0001-archived-data-will-not-be-migrated-regularly-to-23956b6371: Archived data will not be migrated regularly to more modern storage media.
 
-          [T] [translation](<tree/src/post-project-archive.html.j2/0032-the-arrangement-for-migration-to-more-modern-storage-807c2f4575/0001-the-arrangement-for-migration-to-more-modern-storage-b8824f8223/translation.md>)
+          [T] [translation](<tree/src/post-project-archive.html.j2/0032-archived-data-will-not-be-migrated-regularly-to-9e6cd6d4e0/0001-archived-data-will-not-be-migrated-regularly-to-23956b6371/translation.md>)
+
+    - [x] [wrapper] 0033-the-arrangement-for-migration-to-more-modern-storage-807c2f4575 (1/1)
+
+      [W] `0033-the-arrangement-for-migration-to-more-modern-storage-807c2f4575`
+
+        - [x] [unit] 0001-the-arrangement-for-migration-to-more-modern-storage-ee3ceea242: The arrangement for migration to more modern storage media has not been specified.
+
+          [T] [translation](<tree/src/post-project-archive.html.j2/0033-the-arrangement-for-migration-to-more-modern-storage-807c2f4575/0001-the-arrangement-for-migration-to-more-modern-storage-ee3ceea242/translation.md>)
 
 - [x] [file] src/preservation-dataset.html.j2 (4/4)
 
@@ -4492,7 +4500,7 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0012-this-document-does-not-yet-identify-the-datasets-12bef983b5/0001-this-document-does-not-yet-identify-the-datasets-31a9300cd3/translation.md>)
 
-- [ ] [file] src/questions/13-persistent-identifier.html.j2 (27/30)
+- [x] [file] src/questions/13-persistent-identifier.html.j2 (30/30)
 
   [J2] `src/questions/13-persistent-identifier.html.j2`
 
@@ -4544,27 +4552,27 @@
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0004-domain-specific-repository-general-purpose-repository-national-repository-6ae6c22a20/0005-special-purpose-repository-6b7a168c22/translation.md>)
 
-    - [ ] [wrapper] 0005-a-project-data-steward-or-principal-investigator-will-68c84354db (0/1)
+    - [x] [wrapper] 0005-a-project-data-steward-or-principal-investigator-will-68c84354db (1/1)
 
       [W] `0005-a-project-data-steward-or-principal-investigator-will-68c84354db`
 
-        - [ ] [unit] 0001-a-project-data-steward-or-principal-investigator-will-8d0dae8872: A project data steward or principal investigator will assign the persistent identifier.
+        - [x] [unit] 0001-a-project-data-steward-or-principal-investigator-will-8d0dae8872: A project data steward or principal investigator will assign the persistent identifier.
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0005-a-project-data-steward-or-principal-investigator-will-68c84354db/0001-a-project-data-steward-or-principal-investigator-will-8d0dae8872/translation.md>)
 
-    - [ ] [wrapper] 0006-an-institutional-data-steward-will-assign-the-persistent-47b5dddba7 (0/1)
+    - [x] [wrapper] 0006-an-institutional-data-steward-will-assign-the-persistent-47b5dddba7 (1/1)
 
       [W] `0006-an-institutional-data-steward-will-assign-the-persistent-47b5dddba7`
 
-        - [ ] [unit] 0001-an-institutional-data-steward-will-assign-the-persistent-eea409d29c: An institutional data steward will assign the persistent identifier.
+        - [x] [unit] 0001-an-institutional-data-steward-will-assign-the-persistent-eea409d29c: An institutional data steward will assign the persistent identifier.
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0006-an-institutional-data-steward-will-assign-the-persistent-47b5dddba7/0001-an-institutional-data-steward-will-assign-the-persistent-eea409d29c/translation.md>)
 
-    - [ ] [wrapper] 0007-the-repository-will-assign-the-persistent-identifier-b7608a0a68 (0/1)
+    - [x] [wrapper] 0007-the-repository-will-assign-the-persistent-identifier-b7608a0a68 (1/1)
 
       [W] `0007-the-repository-will-assign-the-persistent-identifier-b7608a0a68`
 
-        - [ ] [unit] 0001-the-repository-will-assign-the-persistent-identifier-2000eb974a: The repository will assign the persistent identifier.
+        - [x] [unit] 0001-the-repository-will-assign-the-persistent-identifier-2000eb974a: The repository will assign the persistent identifier.
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0007-the-repository-will-assign-the-persistent-identifier-b7608a0a68/0001-the-repository-will-assign-the-persistent-identifier-2000eb974a/translation.md>)
 

@@ -1,0 +1,101 @@
+{# Project-wide cold storage after the project; not a dataset's publication repository. #}
+{% set archivePath = [uuids.preservingCUuid, uuids.archivedAfterQUuid]|reply_path %}
+{% set archive = repliesMap[archivePath]|reply_str_value %}
+{% if archive in [uuids.archivedAfterYesAUuid, uuids.archivedAfterNoAUuid] %}
+<div class="post-project-archive" data-scope="project">
+{# __tr_block_0000:start #}<h4>計畫結束後的冷儲存安排（計畫層級）</h4>{# __tr_block_0000:end #}
+<div class="dataset-policy">
+{% if archive == uuids.archivedAfterNoAUuid %}
+  {# __tr_block_0001:start #}<p data-fact-id="post-project-archive" data-status="explicit-no">本計畫結束後不採用冷儲存；這項回答並不排除其他保存方式。</p>{# __tr_block_0001:end #}
+{% else %}
+  {# __tr_block_0002:start #}<p data-fact-id="post-project-archive" data-status="complete">本計畫結束後，將以冷儲存方式保存資料副本。</p>{# __tr_block_0002:end #}
+  {% set archivePrefix = [archivePath, uuids.archivedAfterYesAUuid]|reply_path %}
+  {% set payer = repliesMap[[archivePrefix, uuids.archivedAfterPayerQUuid]|reply_path]|reply_str_value %}
+  {% if payer == uuids.archivedAfterPayerGrantAUuid %}
+    {# __tr_block_0003:start #}<p data-fact-id="archive-payer" data-status="complete">這項長期儲存費用將由研究補助經費支付。</p>{# __tr_block_0003:end #}
+  {% elif payer == uuids.archivedAfterPayerDepartmentAUuid %}
+    {# __tr_block_0004:start #}<p data-fact-id="archive-payer" data-status="complete">這項長期儲存費用將由一個或多個參與單位的部門預算支付。</p>{# __tr_block_0004:end #}
+  {% elif payer == uuids.archivedAfterPayerInstituteAUuid %}
+    {# __tr_block_0005:start #}<p data-fact-id="archive-payer" data-status="complete">一個或多個參與機構已編列預算，提供這項長期儲存服務。</p>{# __tr_block_0005:end #}
+  {% else %}
+    <div class="reading-gap">{# __tr_block_0006:start #}<p class="data-gap" data-fact-id="archive-payer" data-status="missing">尚待補充：計畫結束後冷儲存費用的負擔單位。</p>{# __tr_block_0006:end #}</div>
+  {% endif %}
+  {% set periodPath = [archivePrefix, uuids.archivedAfterPeriodQUuid]|reply_path %}
+  {% set period = repliesMap[periodPath]|reply_str_value %}
+  {% set years = '' %}
+  {% if period == uuids.archivedAfterPeriodFiveAUuid %}{% set years = '5' %}
+  {% elif period == uuids.archivedAfterPeriodTenAUuid %}{% set years = '10' %}
+  {% elif period == uuids.archivedAfterPeriodFifteenAUuid %}{% set years = '15' %}
+  {% elif period == uuids.archivedAfterPeriodYearsAUuid %}
+    {% set years = repliesMap[[periodPath, uuids.archivedAfterPeriodYearsAUuid, uuids.archivedAfterYearsQUuid]|reply_path]|reply_str_value %}
+  {% endif %}
+  {% if years|trim %}
+    {% set archiveDuration %}{# __tr_block_0007:start #}{{ macros.quantity(years, '年') }}{# __tr_block_0007:end #}{% endset %}
+    {# __tr_block_0008:start #}<p data-fact-id="archive-minimum-period" data-status="complete">典藏資料將至少保留 {{ archiveDuration }}。</p>{# __tr_block_0008:end #}
+  {% elif period == uuids.archivedAfterPeriodOtherAUuid %}
+    <div class="answer-lead">{# __tr_block_0009:start #}<p>典藏資料最低保存期限的其他安排：</p>{# __tr_block_0009:end #}</div>
+    {% set arrangement = repliesMap[[periodPath, uuids.archivedAfterPeriodOtherAUuid, uuids.archivedAfterPeriodOtherQUuid]|reply_path]|reply_str_value %}
+    {% if arrangement|trim %}
+      <div class="answer-detail" data-fact-id="archive-minimum-period" data-status="complete">{{ arrangement|markdown }}</div>
+    {% else %}
+      <div class="reading-gap">{# __tr_block_0010:start #}<p class="data-gap" data-fact-id="archive-minimum-period" data-status="missing">尚待補充：典藏資料最低保存期限的其他安排。</p>{# __tr_block_0010:end #}</div>
+    {% endif %}
+  {% else %}
+    <div class="reading-gap">{# __tr_block_0011:start #}<p class="data-gap" data-fact-id="archive-minimum-period" data-status="missing">尚待補充：典藏資料的最低保存期限。</p>{# __tr_block_0011:end #}</div>
+  {% endif %}
+  {% set extensionPath = [archivePrefix, uuids.archivedAfterExtendQUuid]|reply_path %}
+  {% set extension = repliesMap[extensionPath]|reply_str_value %}
+  {% if extension == uuids.archivedAfterExtendNoAUuid %}
+    {# __tr_block_0012:start #}<p data-fact-id="archive-extension" data-status="explicit-no">典藏資料的保存期限無法延長。</p>{# __tr_block_0012:end #}
+    {% set limit = repliesMap[[extensionPath, uuids.archivedAfterExtendNoAUuid, uuids.archivedAfterExtendNoReasonQUuid]|reply_path]|reply_str_value %}
+    {% if limit == uuids.archivedAfterExtendNoLegalAUuid %}
+      {# __tr_block_0013:start #}<p data-fact-id="archive-extension-limit" data-status="complete">保存期限受到法律或契約限制。</p>{# __tr_block_0013:end #}
+    {% elif limit == uuids.archivedAfterExtendNoBudgetAUuid %}
+      {# __tr_block_0014:start #}<p data-fact-id="archive-extension-limit" data-status="complete">保存期限受到預算限制。</p>{# __tr_block_0014:end #}
+    {% else %}
+      <div class="reading-gap">{# __tr_block_0015:start #}<p class="data-gap" data-fact-id="archive-extension-limit" data-status="missing">尚待補充：典藏資料保存期限無法延長的原因。</p>{# __tr_block_0015:end #}</div>
+    {% endif %}
+  {% elif extension == uuids.archivedAfterExtendYesAUuid %}
+    {# __tr_block_0016:start #}<p data-fact-id="archive-extension" data-status="complete">典藏資料的保存期限可以延長。</p>{# __tr_block_0016:end #}
+    {% set authority = repliesMap[[extensionPath, uuids.archivedAfterExtendYesAUuid, uuids.archivedAfterExtendWhoQUuid]|reply_path]|reply_str_value %}
+    {% if authority == uuids.archivedAfterExtendWhoPiAUuid %}
+      {# __tr_block_0017:start #}<p data-fact-id="archive-extension-authority" data-status="complete">是否延長保存期限，將由參與本計畫的一位計畫主持人決定。</p>{# __tr_block_0017:end #}
+    {% elif authority == uuids.archivedAfterExtendWhoArchiveAUuid %}
+      {# __tr_block_0018:start #}<p data-fact-id="archive-extension-authority" data-status="complete">是否延長保存期限，將由圖書館或典藏單位人員決定。</p>{# __tr_block_0018:end #}
+    {% else %}
+      <div class="reading-gap">{# __tr_block_0019:start #}<p class="data-gap" data-fact-id="archive-extension-authority" data-status="missing">尚待補充：決定是否延長保存期限的人員或單位。</p>{# __tr_block_0019:end #}</div>
+    {% endif %}
+    {% set basis = repliesMap[[extensionPath, uuids.archivedAfterExtendYesAUuid, uuids.archivedAfterExtendBasisQUuid]|reply_path]|reply_items %}
+    {% if basis %}
+      <div class="answer-lead">{# __tr_block_0020:start #}<p>是否延長保存期限，將考量以下因素：</p>{# __tr_block_0020:end #}</div>
+      <ul>
+        {% if uuids.archivedAfterExtendBasisActualChoiceUuid in basis %}{# __tr_block_0021:start #}<li data-fact-id="archive-extension-actual-use" data-status="complete">典藏資料的實際使用情況。</li>{# __tr_block_0021:end #}{% endif %}
+        {% if uuids.archivedAfterExtendBasisPredictedChoiceUuid in basis %}{# __tr_block_0022:start #}<li data-fact-id="archive-extension-predicted-use" data-status="complete">典藏資料的預期使用情況。</li>{# __tr_block_0022:end #}{% endif %}
+        {% if uuids.archivedAfterExtendBasisBudgetChoiceUuid in basis %}{# __tr_block_0023:start #}<li data-fact-id="archive-extension-budget" data-status="complete">可用預算。</li>{# __tr_block_0023:end #}{% endif %}
+      </ul>
+    {% else %}
+      <div class="reading-gap">{# __tr_block_0024:start #}<p class="data-gap" data-fact-id="archive-extension-basis" data-status="missing">尚待補充：決定是否延長保存期限的依據。</p>{# __tr_block_0024:end #}</div>
+    {% endif %}
+  {% else %}
+    <div class="reading-gap">{# __tr_block_0025:start #}<p class="data-gap" data-fact-id="archive-extension" data-status="missing">尚待補充：典藏資料的保存期限能否延長。</p>{# __tr_block_0025:end #}</div>
+  {% endif %}
+  {% set formats = repliesMap[[archivePrefix, uuids.archivedAfterFormatsQUuid]|reply_path]|reply_str_value %}
+  {% if formats == uuids.archivedAfterFormatsYesAUuid %}
+    {# __tr_block_0026:start #}<p data-fact-id="archive-format-migration" data-status="complete">冷儲存中的資料格式若已過時，將予以更新。</p>{# __tr_block_0026:end #}
+  {% elif formats == uuids.archivedAfterFormatsNoAUuid %}
+    {# __tr_block_0027:start #}<p data-fact-id="archive-format-migration" data-status="explicit-no">冷儲存中的資料格式即使過時，也不會更新。</p>{# __tr_block_0027:end #}
+  {% else %}
+    <div class="reading-gap">{# __tr_block_0028:start #}<p class="data-gap" data-fact-id="archive-format-migration" data-status="missing">尚待補充：冷儲存中過時資料格式的處理方式。</p>{# __tr_block_0028:end #}</div>
+  {% endif %}
+  {% set media = repliesMap[[archivePrefix, uuids.archivedAfterMediaQUuid]|reply_path]|reply_str_value %}
+  {% if media == uuids.archivedAfterMediaYesAUuid %}
+    {# __tr_block_0029:start #}<p data-fact-id="archive-media-migration" data-status="complete">典藏資料將定期移轉至較新的儲存媒體。</p>{# __tr_block_0029:end #}
+  {% elif media == uuids.archivedAfterMediaNoAUuid %}
+    {# __tr_block_0030:start #}<p data-fact-id="archive-media-migration" data-status="explicit-no">典藏資料不會定期移轉至較新的儲存媒體。</p>{# __tr_block_0030:end #}
+  {% else %}
+    <div class="reading-gap">{# __tr_block_0031:start #}<p class="data-gap" data-fact-id="archive-media-migration" data-status="missing">尚待補充：典藏資料移轉至較新儲存媒體的安排。</p>{# __tr_block_0031:end #}</div>
+  {% endif %}
+{% endif %}
+</div>
+</div>
+{% endif %}

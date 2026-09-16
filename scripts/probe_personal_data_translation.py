@@ -32,6 +32,20 @@ def verify_tree(current):
     return delta
 
 
+def verify_translation_chain(current):
+    """Keep the original Q7/Q9 proof, then admit only the reviewed Q11 delta."""
+    delta = json.loads((ROOT/'docs/archive-basis-translation-delta.json').read_text())
+    previous = archived_pairs(delta['baseline'])
+    personal = verify_tree(previous)
+    old, new = Counter(previous), Counter(current)
+    assert sum(old.values()) == delta['baseline_units']
+    assert sum(new.values()) == delta['current_units']
+    assert old-new == Counter(map(tuple,delta['removed'])), 'Unreviewed lost/changed translation after 0.3.28'
+    assert new-old == Counter(map(tuple,delta['added'])), 'Unreviewed new translation after 0.3.28'
+    assert sum((old & new).values()) == delta['retained_units']
+    return personal, delta
+
+
 EXPECTED = {
     'personal-followups-empty': {'personal-data-other-legal-basis', 'personal-data-identifiability',
                                 'personal-data-additional-safeguards', 'personal-data-transfer'},
@@ -50,7 +64,7 @@ def main():
     import test_science_europe_contract as adapter
     from generate_personal_data_fixtures import personal_data_cases, personal_paths, IDS
     files = sorted((ROOT/'translation/tree').rglob('translation.md'))
-    delta = verify_tree([pair(f.read_text()) for f in files])
+    delta, followup_delta = verify_translation_chain([pair(f.read_text()) for f in files])
     hashes = {str(f.relative_to(ROOT/'translation')): sha(f) for f in files}
     assert hashes == json.loads((a.build/'manifest.json').read_text())['translation_tree_sha256']
     rows = []; paths = personal_paths()
@@ -95,7 +109,8 @@ def main():
                 assert 'STALE-MEASURES' not in q7.get_text()
                 rows.append({'language': language, 'case': 'stale-'+parent+'-'+('missing' if not choice else 'no'), 'passed': True})
     report = {'passed': True, 'release_acceptance': False, 'rows': rows,
-              'translation_delta': delta, 'checker_sha256': sha(Path(__file__)), 'delta_sha256': sha(DELTA),
+              'translation_delta': delta, 'followup_translation_delta': followup_delta,
+              'checker_sha256': sha(Path(__file__)), 'delta_sha256': sha(DELTA),
               'translation_tree_sha256': hashes,
               'package_sha256': {n: sha(a.build/n) for n in ['english.zip', 'chinese.zip']},
               'limits': ['Adapter probes use already-rendered HTML for block answers; native worker Markdown is checked separately',
