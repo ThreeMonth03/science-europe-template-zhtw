@@ -1,0 +1,40 @@
+{
+  "start": {
+    "image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+    "state": {
+      "Status": "running",
+      "Running": true,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 3047656,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-16T02:59:18.299499999Z",
+      "FinishedAt": "0001-01-01T00:00:00Z"
+    },
+    "restart_count": 0
+  },
+  "finish": {
+    "image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+    "state": {
+      "Status": "running",
+      "Running": true,
+      "Paused": false,
+      "Restarting": false,
+      "OOMKilled": false,
+      "Dead": false,
+      "Pid": 3047656,
+      "ExitCode": 0,
+      "Error": "",
+      "StartedAt": "2026-09-16T02:59:18.299499999Z",
+      "FinishedAt": "0001-01-01T00:00:00Z"
+    },
+    "restart_count": 0
+  },
+  "all_48_renders_completed": true,
+  "no_container_restart_during_run": true,
+  "font_patch_applied": false,
+  "historical_exit_139_root_cause_resolved": false
+}

@@ -1,0 +1,16 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "rows": [],
+  "checker_sha256": "96c855d7534c3549e4097b470ca90d19e660c363c74944c33acf9e37ad502fee",
+  "package_sha256": {
+    "english.zip": "19f8dd948ebdd7dd29fd9bae739cf377951e2d8de38eeca7a1b4b068d1e87540",
+    "chinese.zip": "c92f83b3bf4418fcbbc2d3365136cb8c2b56b2eec335bcf52e2c0d6603043658"
+  },
+  "limits": [
+    "Eight synthetic cases per language, not every questionnaire",
+    "LibreOffice is not Microsoft Word acceptance",
+    "Only Q13 repeated affirmative prose may disappear; facts and original translations remain"
+  ],
+  "failure": "AssertionError('Only a verified generated page suffix may be removed')"
+}
