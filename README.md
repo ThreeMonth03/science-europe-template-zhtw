@@ -80,6 +80,10 @@ Word 不變，但其短預算提示折行仍待修。初版 autoescape 失敗與
 中文 Jinja 由既有 `dsw-document-template-tool` 的翻譯樹產生；主要分支邏輯
 維護在英文 repo。翻譯來源是 `translation/**/translation.md`。
 
+0.3.26 的 [Word 短預算欄寬實驗](docs/word-short-budget.md) 沿用共用短表格
+判斷，只加 Word 專用標記並調整合規表格欄寬；回答、字級與 731 個翻譯檔
+不變。引擎仍為 tables-only，與字型修補實驗分開。
+
 `pipeline.yml` 分開記錄英文來源版本與中文輸出版本。開發預覽允許明確標記的
 未提交修改；正式建置要求來源與工具為乾淨且符合 lock 的 commit。
 

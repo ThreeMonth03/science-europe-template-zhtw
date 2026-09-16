@@ -1,6 +1,11 @@
 # 版本與分支契約
 
-目前 0.3.25 的英中工作分支為 `fix/short-budget-reading`，承接 0.3.24 的 `fix/empty-pdf-reading`。
+目前 0.3.26 的英中工作分支為 `fix/word-short-budget-widths`；英文承接
+`fix/short-budget-reading`，中文承接獨立的 `fix/worker-pdf-stability`。
+模板改動不採用字型修補映像；只沿用上一輪新增的 runtime 身分檢查。
+731 個翻譯檔不變，中文 lock 更新到新的英文 commit，見 [Word 短預算](word-short-budget.md)。
+
+0.3.25 的英中工作分支為 `fix/short-budget-reading`，承接 0.3.24 的 `fix/empty-pdf-reading`。
 未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
 
 其後中文另開 `fix/worker-pdf-stability`，只保存執行引擎隔離診斷與檢查工具，

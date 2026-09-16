@@ -1,0 +1,5 @@
+# Local synthetic pilot only. No font patch or other dependency change.
+services:
+  docworker:
+    environment:
+      PYTHONFAULTHANDLER: "1"
