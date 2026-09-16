@@ -1,0 +1,9 @@
+{
+  "container": "science-europe-pilot-docworker-1",
+  "image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+  "started_at": "2026-09-16T22:27:15.863831175Z",
+  "restart_count": 0,
+  "status": "running",
+  "variant": "reviewed tables-only, no CJK line-height experiment",
+  "scope": "safe formatted Docker observation before baseline and candidate runs; credentials omitted"
+}

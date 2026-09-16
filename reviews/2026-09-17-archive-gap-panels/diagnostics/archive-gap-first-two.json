@@ -1,0 +1,33 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "rows": [],
+  "checker_sha256": "ec11df8f4cfb9b9c8ae2e8f838810d9af72569485a0af050990b29142fd7a996",
+  "selector_sha256": "650819696e963d979ae89a790290b169047fd83793fe2cb37996c867e80e017a",
+  "helper_sha256": {
+    "artifact_utils.py": "d7524e7a29d03aa35a7b7895e1a07d1f2e1fda2ce874b3bf0a636183693aaafd",
+    "check_archive_basis_outputs.py": "fcf3755901a9917f271c85821c63c1ef4915b25186b1b5605be28e9622af2533",
+    "check_budget_outputs.py": "cb13491830b001059877d522cb2918f543242f3320dfeaf827b8b8aa00995415",
+    "check_budget_spacing_outputs.py": "4f6e622cf4b833526d5d8b67a5a1fd83eafe76e18eeeb1b4ce2d8d3a28a172fa",
+    "check_identifier_concise_outputs.py": "0d8f1d186c28dfc7772699e8a35fceefdbeaf4c7ee77b71455d3758234668cff",
+    "check_narrative_outputs.py": "eff68a27d4f5c4c7a9d9e3b6dc83175d35f8069f7f3043937beecf82d22c4a8e",
+    "check_pdf_budget_reading_outputs.py": "878b669485020a4a2d0d2db5607a0dd60afb8860619d2fe963fa025c3db7196c",
+    "check_short_budget_outputs.py": "b6761b1f6b96be6593fcdcaa7d5d9b3586bc84faee591c4ec1b5eb38b476cc2b",
+    "check_missing_info_outputs.py": "9d63bdbf1d73083c4bc934a318c7e49b0cd690703e0313f9475f30a266dccb43",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "check_word_short_budget_outputs.py": "c568bfce161d432c5d5e971d2724a98dcbe5354e8135896ecdcd8ee786320384",
+    "compare_runtime_outputs.py": "f15aea33090491ac4b14776519e6a384967446879579ad1d1c0c2b4ba570fdd8"
+  },
+  "package_sha256": {
+    "english.zip": "a2096f905a25c0657340621394dec309ea98c805ad3a8171e42b3fe27dd2656a",
+    "chinese.zip": "a3ef2050c5aa0d2ebd9e08084c040dd5e9a8e95acbda9c6f6f8bc69a65aab13d"
+  },
+  "limits": [
+    "Eight synthetic cases per language, not all questionnaires",
+    "Only named adjacent plain missing pairs in Q11; not whole-DMP acceptance",
+    "PDF text comparison normalizes whitespace; HTML and Word retain exact body content/formatting",
+    "Cover date/version may differ; all Word/control-PDF body page geometry remains exact",
+    "LibreOffice previews are not Microsoft Word acceptance; local reviewed tables-only worker"
+  ],
+  "failure": "AssertionError('Only a verified generated page suffix may be removed')"
+}

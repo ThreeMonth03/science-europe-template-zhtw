@@ -1,0 +1,410 @@
+{
+  "weasyprint": "68.1",
+  "rows": [
+    {
+      "case": "mask-0",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-0",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-1",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-1",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-3",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [
+        [
+          "archive-payer",
+          "archive-minimum-period"
+        ]
+      ],
+      "pair_heights_px": [
+        60.799999999999955
+      ],
+      "passed": true
+    },
+    {
+      "case": "mask-3",
+      "media": "print",
+      "near_page_end": true,
+      "pairs": [
+        [
+          "archive-payer",
+          "archive-minimum-period"
+        ]
+      ],
+      "pair_heights_px": [
+        60.799999999999955
+      ],
+      "passed": true
+    },
+    {
+      "case": "mask-3",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-4",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-4",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-12",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [
+        [
+          "archive-extension-authority",
+          "archive-extension-basis"
+        ]
+      ],
+      "pair_heights_px": [
+        60.799999999999955
+      ],
+      "passed": true
+    },
+    {
+      "case": "mask-12",
+      "media": "print",
+      "near_page_end": true,
+      "pairs": [
+        [
+          "archive-extension-authority",
+          "archive-extension-basis"
+        ]
+      ],
+      "pair_heights_px": [
+        60.799999999999955
+      ],
+      "passed": true
+    },
+    {
+      "case": "mask-12",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-16",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-16",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-48",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [
+        [
+          "archive-format-migration",
+          "archive-media-migration"
+        ]
+      ],
+      "pair_heights_px": [
+        60.80000000000001
+      ],
+      "passed": true
+    },
+    {
+      "case": "mask-48",
+      "media": "print",
+      "near_page_end": true,
+      "pairs": [
+        [
+          "archive-format-migration",
+          "archive-media-migration"
+        ]
+      ],
+      "pair_heights_px": [
+        60.799999999999955
+      ],
+      "passed": true
+    },
+    {
+      "case": "mask-48",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "mask-63",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [
+        [
+          "archive-payer",
+          "archive-minimum-period"
+        ],
+        [
+          "archive-extension-authority",
+          "archive-extension-basis"
+        ],
+        [
+          "archive-format-migration",
+          "archive-media-migration"
+        ]
+      ],
+      "pair_heights_px": [
+        60.799999999999955,
+        60.80000000000004,
+        60.80000000000007
+      ],
+      "passed": true
+    },
+    {
+      "case": "mask-63",
+      "media": "print",
+      "near_page_end": true,
+      "pairs": [
+        [
+          "archive-payer",
+          "archive-minimum-period"
+        ],
+        [
+          "archive-extension-authority",
+          "archive-extension-basis"
+        ],
+        [
+          "archive-format-migration",
+          "archive-media-migration"
+        ]
+      ],
+      "pair_heights_px": [
+        60.799999999999955,
+        60.80000000000001,
+        60.799999999999955
+      ],
+      "passed": true
+    },
+    {
+      "case": "mask-63",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "wrong-question",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "wrong-question",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "wrong-scope",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "wrong-scope",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "unknown-fact",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "unknown-fact",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "negative-state",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "negative-state",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "review-state",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "review-state",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "nested-author-content",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "nested-author-content",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "extra-child",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "extra-child",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "intervening-answer",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "intervening-answer",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "intervening-authored",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "intervening-authored",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "other-period-label",
+      "media": "print",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    },
+    {
+      "case": "other-period-label",
+      "media": "screen",
+      "near_page_end": false,
+      "pairs": [],
+      "pair_heights_px": [],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "release_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "650819696e963d979ae89a790290b169047fd83793fe2cb37996c867e80e017a",
+  "css_sha256": "b243ae44c5c12d4a22aca00bf950b1eff19a6d11457bbfed9b45f7ede381bfb3",
+  "limits": [
+    "Exactly three named adjacent pairs; no free-answer grouping",
+    "Native DSW export and Word acceptance are separate"
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "passed": false,
+  "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 20, in <module>\n    old,new=snapshots;assert old[1]==new[1],(name,media,'text or wrapping changed')\n                             ^^^^^^^^^^^^^^\nAssertionError: ('mask-3', 'print', 'text or wrapping changed')\n"
+}

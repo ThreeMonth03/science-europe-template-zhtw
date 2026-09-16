@@ -1,0 +1,11 @@
+{
+  "failed_run": "https://github.com/ThreeMonth03/science-europe-template-zhtw/actions/runs/35158377481",
+  "english_source": "692a1005582b69098e1fa6dc1c70b8f6640f2050",
+  "chinese_source": "65369cbee37ab86a4b88c568fbfaae66c6f77406",
+  "failure": "probe_identifier_spacing.py line 137: historical prepared CSS hash assertion still included the new Q11 block",
+  "passed_before_failure": ["732 unchanged translation files", "128 missing-field combinations", "548 prior branch checks", "40 English engine checks", "40 Chinese engine checks"],
+  "fix_english_commit": "acf13bae71d1fda3c69a95759a2b513bd465bdd4",
+  "fix": "Verify exact reviewed Q11 block SHA256, remove it for the historical hash comparison, preserve the unchanged Q13 hash and all Q13 behavior tests",
+  "reviewed_q11_block_sha256": "bcdbb69bcfd2ddce20f6c55f4ee2ab81754e4059988d6c255eae98c97a77d7f5",
+  "template_or_translation_changes_for_fix": false
+}
