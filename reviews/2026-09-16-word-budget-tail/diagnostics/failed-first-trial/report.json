@@ -1,0 +1,13 @@
+{
+  "completed": false,
+  "release_acceptance": false,
+  "native_export": false,
+  "checker_sha256": "466b038dc2a024a1c818abf240c7434165680072a66ba49d1a44ed719c03d86c",
+  "rows": [],
+  "limits": [
+    "Copied frozen DOCX, not a template implementation",
+    "LibreOffice only, not Microsoft Word",
+    "Disabling label/heading keeps is diagnostic, not an accepted layout rule"
+  ],
+  "failure": "AssertionError()"
+}

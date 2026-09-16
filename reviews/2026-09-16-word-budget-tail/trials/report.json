@@ -1,0 +1,1026 @@
+{
+  "completed": true,
+  "release_acceptance": false,
+  "native_export": false,
+  "checker_sha256": "afa13440a35d1353a0682ad3e23d7b8ef07194e44ca36e763d09c287d2f56726",
+  "rows": [
+    {
+      "case": "partial",
+      "language": "english",
+      "profile": "baseline",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_1_end": [
+          4
+        ],
+        "resource_2": [
+          4
+        ],
+        "resource_2_end": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "1cfe1a962508bee78f8cd9e142fc3ec56eab1ebd7161293bdd935f8ae28edd7c",
+      "source_html_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f",
+      "docx_sha256": "7d05af01aa2aa5082fece8dd1fbbf6c2722d9890a6759430b8bee306f6b3c9c9",
+      "preview_sha256": "cc8d15fd5d56c5d128db81ed5dbffa2c2dcba247371f69738b7f55b4a69f7d04"
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "profile": "release-budget-heading",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_1_end": [
+          4
+        ],
+        "resource_2": [
+          4
+        ],
+        "resource_2_end": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "1cfe1a962508bee78f8cd9e142fc3ec56eab1ebd7161293bdd935f8ae28edd7c",
+      "source_html_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f",
+      "docx_sha256": "4535f12e9b40ceba7d9936bc3116cda6e708b10459f151942c83a7bb7a331c50",
+      "preview_sha256": "5371a80a2f6da7c294b63209cc134460220b1a638357e5f7e6d264df10abc051"
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "profile": "release-table-labels",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_1_end": [
+          4
+        ],
+        "resource_2": [
+          4
+        ],
+        "resource_2_end": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 2,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "1cfe1a962508bee78f8cd9e142fc3ec56eab1ebd7161293bdd935f8ae28edd7c",
+      "source_html_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f",
+      "docx_sha256": "0dbd5dfbbcee9fe60586c8eb92c636a5308404883f10a3f5e5ca0a76cd08cf68",
+      "preview_sha256": "fd01d5544eeb3f01830c0138273c714629aaa2106f230212f3905297ef1cb40d"
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "profile": "keep-overview",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_1_end": [
+          4
+        ],
+        "resource_2": [
+          4
+        ],
+        "resource_2_end": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "1cfe1a962508bee78f8cd9e142fc3ec56eab1ebd7161293bdd935f8ae28edd7c",
+      "source_html_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f",
+      "docx_sha256": "f73f4840a7eea58289fd3272c56d4d583f55a3bffb3542d81289f747d53bdf12",
+      "preview_sha256": "a85d39813cb63f5c7037e7dc2bedc3f549ca004ed7e193ac3055f633e1a9bf59"
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "profile": "baseline",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_1_end": [
+          4
+        ],
+        "resource_2": [
+          4
+        ],
+        "resource_2_end": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "8b41ad3dad50f7773aa68b9ecf3ea68fd866cae87994528027dbd7c59b2e2411",
+      "source_html_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4",
+      "docx_sha256": "7491165ee2d5fcbf2d16d8f6531930bb4bc8b074ab5fd98ee23bf0962941544b",
+      "preview_sha256": "b64deabeddf1166196adcc4c17955c4a9aed59f9df85a02e8a21483da7c20955"
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "profile": "release-budget-heading",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_1_end": [
+          4
+        ],
+        "resource_2": [
+          4
+        ],
+        "resource_2_end": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "8b41ad3dad50f7773aa68b9ecf3ea68fd866cae87994528027dbd7c59b2e2411",
+      "source_html_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4",
+      "docx_sha256": "d153e377b007a0249c27b6dd9d2a2706edea63aa76ba443bd1737f259a1899b9",
+      "preview_sha256": "423c62d6d6b6b65d41f4dada78f5e7a2c66b18360e4b0955df1ae0a390230a15"
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "profile": "release-table-labels",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_1_end": [
+          4
+        ],
+        "resource_2": [
+          4
+        ],
+        "resource_2_end": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 2,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "8b41ad3dad50f7773aa68b9ecf3ea68fd866cae87994528027dbd7c59b2e2411",
+      "source_html_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4",
+      "docx_sha256": "f33cf5b0e045ae9b85cafbab5c01adcc5ac1172d044457832aca87b0c29f1eb2",
+      "preview_sha256": "df4de349630135174343ee30ac40f45153b072916b950119a12f897bc6a41caa"
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "profile": "keep-overview",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_1_end": [
+          4
+        ],
+        "resource_2": [
+          4
+        ],
+        "resource_2_end": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "8b41ad3dad50f7773aa68b9ecf3ea68fd866cae87994528027dbd7c59b2e2411",
+      "source_html_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4",
+      "docx_sha256": "09845f9733b016a6eb0a58e92d6a6d63c4ea0e8b8be68267cfd8628983865648",
+      "preview_sha256": "4e091f3a322ec99dc5409843b67cc6fc29e1e469509e4c30ee20beaf56df8bf7"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "profile": "baseline",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_1_end": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_2_end": [
+          7
+        ],
+        "resource_3": [
+          7
+        ],
+        "resource_3_end": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "e7b4209016cf464be268c1d17fee901920b405ab3e94084d9742fb3de75e92a2",
+      "source_html_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139",
+      "docx_sha256": "5041d2ded8afe3d986b3cb5d5be703a656352acd98da028099ef31552e261848",
+      "preview_sha256": "212ca00767243efb50b7f9cc3ff79bdde8378b514608c483a2962516809fa011"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "profile": "release-budget-heading",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_1_end": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_2_end": [
+          7
+        ],
+        "resource_3": [
+          7
+        ],
+        "resource_3_end": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "e7b4209016cf464be268c1d17fee901920b405ab3e94084d9742fb3de75e92a2",
+      "source_html_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139",
+      "docx_sha256": "17ed9bf2a8ffb2969cca4628396201933b44a2e00ca77644b80e5c08b6ebe364",
+      "preview_sha256": "d88a037e1fbd0d991b8d7b2d86f6ba8173e23a1c60f765804fef8313c1469e2b"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "profile": "release-table-labels",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_1_end": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_2_end": [
+          7
+        ],
+        "resource_3": [
+          7
+        ],
+        "resource_3_end": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 3,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "e7b4209016cf464be268c1d17fee901920b405ab3e94084d9742fb3de75e92a2",
+      "source_html_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139",
+      "docx_sha256": "11c959bcc13825b85449e3f145aa8bd50ea89818ea6c8b2d7f9af5aef203a5e8",
+      "preview_sha256": "c6f2628103197b495cd8fbc064489a808ab97f83a8b7e4fa270bdd934ab57f50"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "profile": "keep-overview",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_1_end": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_2_end": [
+          7
+        ],
+        "resource_3": [
+          7
+        ],
+        "resource_3_end": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "e7b4209016cf464be268c1d17fee901920b405ab3e94084d9742fb3de75e92a2",
+      "source_html_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139",
+      "docx_sha256": "efc779255d7dad6e8375b678d41ec2d9d4765cf8374268ba46c8e22c9ae50c91",
+      "preview_sha256": "81cdeb14dcb4cb3792dbc31a163456ed5d79ef6b10447fe9c688d8eaa97b7f34"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "profile": "baseline",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_1_end": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_2_end": [
+          8
+        ],
+        "resource_3": [
+          8
+        ],
+        "resource_3_end": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "533d65078a20617edec8be1f65ca0a385f507213d76affe15867eada18af1dc8",
+      "source_html_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606",
+      "docx_sha256": "25c095bec0086710691440ef9f96acf7331b7332461a9ef03d3106feacf05146",
+      "preview_sha256": "d1ea465f47519dd00b431760d32a26eb2d0415a283afa24a2eb0b32ed2b8be3a"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "profile": "release-budget-heading",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_1_end": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_2_end": [
+          8
+        ],
+        "resource_3": [
+          8
+        ],
+        "resource_3_end": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "533d65078a20617edec8be1f65ca0a385f507213d76affe15867eada18af1dc8",
+      "source_html_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606",
+      "docx_sha256": "a93147035dae94b57f5a98b05ba22cc5b1ddd24c8ffe6c93a277f59780432014",
+      "preview_sha256": "b294cac45729b287cd749e9005419c4b80d7c0ddc5c5a31ded4476be9757b88d"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "profile": "release-table-labels",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_1_end": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_2_end": [
+          8
+        ],
+        "resource_3": [
+          8
+        ],
+        "resource_3_end": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 3,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "533d65078a20617edec8be1f65ca0a385f507213d76affe15867eada18af1dc8",
+      "source_html_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606",
+      "docx_sha256": "7015fbf93ada2cdd7c35dd7bdeab6b0d8635e12e63fce5a45a997e5081c12c9b",
+      "preview_sha256": "888d507cd7966dbb74b981d704f966a081b9896ef1e3b7f14b2b2292ed58f89a"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "profile": "keep-overview",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_1_end": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_2_end": [
+          8
+        ],
+        "resource_3": [
+          8
+        ],
+        "resource_3_end": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "533d65078a20617edec8be1f65ca0a385f507213d76affe15867eada18af1dc8",
+      "source_html_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606",
+      "docx_sha256": "61f014974728720add6d5d67f08f9ab6a2f149e13684ccc8f9ca5cda14def500",
+      "preview_sha256": "c210547b1ce24a418fda96e050608eab526a991598c4b3088e1ed2bb519ce033"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "profile": "baseline",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_1_end": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_2_end": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "9ca818fa1a4eca3d723d33cc7fd62083a8ed411fb2f00ffa7711d46ebfe78309",
+      "source_html_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473",
+      "docx_sha256": "8217f6ba321b6882757ce01eefc8172fc0844b71e174dd38a8e40c2a7b630ff9",
+      "preview_sha256": "dd487b42f6655a4e2a855d4a00bc7df6a44e05947df524db225de3b789d2df25"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "profile": "release-budget-heading",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_1_end": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_2_end": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "9ca818fa1a4eca3d723d33cc7fd62083a8ed411fb2f00ffa7711d46ebfe78309",
+      "source_html_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473",
+      "docx_sha256": "d6da6e2e72a7e111c9c80afa3292dbb59f925df057a6a8706a1d771c401f4b41",
+      "preview_sha256": "9473432964a813b2ee12ad43980c7acb0617e91a4348da7c64bffb86c745f870"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "profile": "release-table-labels",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_1_end": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_2_end": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 2,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "9ca818fa1a4eca3d723d33cc7fd62083a8ed411fb2f00ffa7711d46ebfe78309",
+      "source_html_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473",
+      "docx_sha256": "cb42e1ea55293c50cfcb0bca1a0911bd48c4bb4a3bffb947c1d19cba4de3ea48",
+      "preview_sha256": "8ff5acfdb9a66add19181f0a1bab391d9387d894ea31cd6f7a96df1d92567781"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "profile": "keep-overview",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_1_end": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_2_end": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "9ca818fa1a4eca3d723d33cc7fd62083a8ed411fb2f00ffa7711d46ebfe78309",
+      "source_html_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473",
+      "docx_sha256": "4bedf209e5dbe34f1fed73fa54127edc9f703e0a0659b667c40adc89ca8e4ff3",
+      "preview_sha256": "375f0ac01b0527c657815dc4692c4213adef9a36b646e9b2894003a5aedeefac"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "profile": "baseline",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_1_end": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_2_end": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "78c61ee84a781a546b0d8c57d0580f6ec66226e7344e65d412a121960f737805",
+      "source_html_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca",
+      "docx_sha256": "33bad37e6257d30be0873e1ea0d37d97aa8004917ce9ed1f79ff0258431bf704",
+      "preview_sha256": "607b12bb3f8901aac0730810782535cfa9faa27d4337e45cd6c09f638b53b608"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "profile": "release-budget-heading",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_1_end": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_2_end": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "78c61ee84a781a546b0d8c57d0580f6ec66226e7344e65d412a121960f737805",
+      "source_html_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca",
+      "docx_sha256": "459894af04df60e2143d0479acb0f5b656c479b24b4354ae80669c420551ddbd",
+      "preview_sha256": "eabb5968971631056027e9a693945e40f1654dd9b4d36fb86844056a9d717d59"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "profile": "release-table-labels",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_1_end": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_2_end": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 2,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "78c61ee84a781a546b0d8c57d0580f6ec66226e7344e65d412a121960f737805",
+      "source_html_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca",
+      "docx_sha256": "55ab8a069fc8095f109555378f80ee7107b3e170f0fc26ca3d9847bb278f2550",
+      "preview_sha256": "c933d279b1b7fb706ea4f601d59a1e7db0746335118d87fec851fbfba7b9e237"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "profile": "keep-overview",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_1_end": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_2_end": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "78c61ee84a781a546b0d8c57d0580f6ec66226e7344e65d412a121960f737805",
+      "source_html_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca",
+      "docx_sha256": "7981b98494286a8dcfbc27baf184b5fe93e9e458e9e957d1abce7c8375d71aaa",
+      "preview_sha256": "e6cd2007d5594c690bbcd70b7a1b37d808c82344f3a7925a4d56369d0659f11e"
+    }
+  ],
+  "libreoffice_version": "LibreOffice 25.2.3.2 520(Build:2)",
+  "prior_package_sha256": {
+    "english.zip": "e4895b340a8d7fc4a7cb702161ae71b48444ddfb6f49d8fb920bef41fa3c97d7",
+    "chinese.zip": "b591fa3e0416176654edc4070156a7d105eb1a8533bfad0a2adf7c617896acfc"
+  },
+  "limits": [
+    "Copied frozen DOCX, not a template implementation",
+    "LibreOffice only, not Microsoft Word",
+    "Disabling label/heading keeps is diagnostic, not an accepted layout rule"
+  ]
+}

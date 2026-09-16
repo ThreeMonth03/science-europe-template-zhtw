@@ -1,0 +1,60 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "template_modified": false,
+  "baseline_geometry": [
+    {
+      "case": "partial",
+      "language": "english",
+      "prior_preview_sha256": "c3af20086a6749a8aeeccc11bb1fc2cbee2baa520a45cb8c7f724b4200f2aa3e",
+      "all_page_geometry_identical": true
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "prior_preview_sha256": "bb631dc4ae332d0c6de2fdad189b02393528fc7249a81d322277019b482ecd70",
+      "all_page_geometry_identical": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "prior_preview_sha256": "c8ad26f0f1db6f2dcf6a83e73ff5babc6d1a73e89927af75e2ee606d0e0ab780",
+      "all_page_geometry_identical": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "prior_preview_sha256": "cb78e017124680fd68585560eeeee4c5cc39109dc2bf43289dcbe101427ec152",
+      "all_page_geometry_identical": true
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "prior_preview_sha256": "84e7cca8932bb230b831f510a60c63707611b87cacd3c47951c7258d99135191",
+      "all_page_geometry_identical": true
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "prior_preview_sha256": "c55e578ab5a24e9df474f79bdff7095aa2812aac1487a00fcbeee391ac8a0281",
+      "all_page_geometry_identical": true
+    }
+  ],
+  "fonts": {
+    "Arial": {
+      "actual_file": "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+      "sha256": "bade59d822652f76e6941aa87b40a87c13d1cc70db98ededb5011127efafd1d3"
+    },
+    "Noto Sans CJK TC": {
+      "actual_file": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+      "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+    }
+  },
+  "collector_sha256": "bb25f60df9b27d04f8b7d1bf111c5b808953c92ed9068bf60eb3984523c359f6",
+  "limits": [
+    "Negative experiment: does not fix blank tail pages",
+    "Per-block line geometry checks do not establish full visual acceptance",
+    "Repeated paragraph anchors can be ambiguous; the split-row finding also has visual review"
+  ],
+  "no_pagination_variant_adopted": true
+}

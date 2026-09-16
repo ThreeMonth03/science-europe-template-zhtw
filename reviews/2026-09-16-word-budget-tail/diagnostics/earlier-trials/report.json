@@ -1,0 +1,853 @@
+{
+  "completed": true,
+  "release_acceptance": false,
+  "native_export": false,
+  "checker_sha256": "27def65a1213ab61b981cdf01c88215afbd8a46130adfa071a450c940a3c0a56",
+  "rows": [
+    {
+      "case": "partial",
+      "language": "english",
+      "profile": "baseline",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_2": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "1cfe1a962508bee78f8cd9e142fc3ec56eab1ebd7161293bdd935f8ae28edd7c",
+      "source_html_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f",
+      "docx_sha256": "85dffbd3bdb8d291a4d52040e5bbfcc21e74e54be6efbdcfdca7f22db182b696",
+      "preview_sha256": "0f25f3f95adc14dcba305a4a34ac75a795e3c9e90c3a82e021122bc8e0af6b9c"
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "profile": "release-budget-heading",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_2": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "1cfe1a962508bee78f8cd9e142fc3ec56eab1ebd7161293bdd935f8ae28edd7c",
+      "source_html_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f",
+      "docx_sha256": "f96c71fe672623aec3e3f1cc95f7232f0527e2ca4a2532a63349899b13d72f34",
+      "preview_sha256": "86578947f2612802591a82e807d3956cc943424345f1ea76c7072765320eccf1"
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "profile": "release-table-labels",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_2": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 2,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "1cfe1a962508bee78f8cd9e142fc3ec56eab1ebd7161293bdd935f8ae28edd7c",
+      "source_html_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f",
+      "docx_sha256": "d4cb4f6fbd947a6694a07c5db06a915daaaa71028a9e094ab5fc51d93f24a591",
+      "preview_sha256": "27e5f8d21813fa99c68c35abad8eec1f3611f6ea7c9723fa8f822a24fe200ed7"
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "profile": "keep-overview",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_2": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "1cfe1a962508bee78f8cd9e142fc3ec56eab1ebd7161293bdd935f8ae28edd7c",
+      "source_html_sha256": "198b031408b6afbdd8e50a6b49515c0baa0950333996f581c6e91d2784b3c92f",
+      "docx_sha256": "10240c9d55c7303d8bd47f56e7a35da10b2aa19566ee4694392c3d283b98331f",
+      "preview_sha256": "bba60bd18ff1a8372e9d538a64baa7d4edf10898a1751141dea54b68f7741211"
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "profile": "baseline",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_2": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "8b41ad3dad50f7773aa68b9ecf3ea68fd866cae87994528027dbd7c59b2e2411",
+      "source_html_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4",
+      "docx_sha256": "6351592d901bce9390f89fb3078866b12a6c7cba9edc6732bccc7916095f5345",
+      "preview_sha256": "0ff35bf9e9373fe9bd6fe483d23ff76d0132860fc02dd337125cab1c021ce82e"
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "profile": "release-budget-heading",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_2": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "8b41ad3dad50f7773aa68b9ecf3ea68fd866cae87994528027dbd7c59b2e2411",
+      "source_html_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4",
+      "docx_sha256": "2b4fe9b2e0b78c476f2aeb568f1379e5714298120c5cfa97c4bcda4a704e0219",
+      "preview_sha256": "33ac3b9791febf931e9d05b62e10a947a0ac146094a6e75a6255ecfff7eb590c"
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "profile": "release-table-labels",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_2": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 2,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "8b41ad3dad50f7773aa68b9ecf3ea68fd866cae87994528027dbd7c59b2e2411",
+      "source_html_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4",
+      "docx_sha256": "9be85e1d33452be63f275c612e7f19cb06aca306fc27eac7c814ba1b9576dd4e",
+      "preview_sha256": "2e48bad2f64bf9794bde718b44579f2d42eb5455f301af00da5ecefefd9bd763"
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "profile": "keep-overview",
+      "pages": 4,
+      "anchors": {
+        "question": [
+          4
+        ],
+        "overview_first": [
+          4
+        ],
+        "overview_last": [
+          4
+        ],
+        "budget_heading": [
+          4
+        ],
+        "resource_1": [
+          4
+        ],
+        "resource_2": [
+          4
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 89,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "8b41ad3dad50f7773aa68b9ecf3ea68fd866cae87994528027dbd7c59b2e2411",
+      "source_html_sha256": "16d229daacf37a9184951daca48749cb9b727d2ee05bf4818a737605546007c4",
+      "docx_sha256": "5981e10ae61678fbd18bd4beb7332fa4f93d0673df79365637163f2282fd4572",
+      "preview_sha256": "d4a67e9b946604c3c237a3db243144ece4e53dca776d8b8466cb13b7e9cd7a86"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "profile": "baseline",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_3": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "e7b4209016cf464be268c1d17fee901920b405ab3e94084d9742fb3de75e92a2",
+      "source_html_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139",
+      "docx_sha256": "8f741b56b6744d18663f5e93f18d09985ef6b4ad66a879b4b87521d779167f70",
+      "preview_sha256": "1a9c166115eca4320031bd3d6c1e305faa701631dbec8ca32a9a98b68799e43b"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "profile": "release-budget-heading",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_3": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "e7b4209016cf464be268c1d17fee901920b405ab3e94084d9742fb3de75e92a2",
+      "source_html_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139",
+      "docx_sha256": "5eed38e4d2773225a7fa1fa243439de28d43fd5f2284487fe65a7d98b06b894e",
+      "preview_sha256": "2480ffba73170d26b94b1733dbacc843331bcf9f5023276a329d5da370231a75"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "profile": "release-table-labels",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_3": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 3,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "e7b4209016cf464be268c1d17fee901920b405ab3e94084d9742fb3de75e92a2",
+      "source_html_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139",
+      "docx_sha256": "b1934d72514f8540f02765b814be7ea13789f2bc3993782df0ec227c1f0956b2",
+      "preview_sha256": "5c7cd22c301b07e2a62e4db28596be03ec1ad2f1ae24a0c33a2c397f2f6b1eeb"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "profile": "keep-overview",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_2": [
+          7
+        ],
+        "resource_3": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "e7b4209016cf464be268c1d17fee901920b405ab3e94084d9742fb3de75e92a2",
+      "source_html_sha256": "71157685bcf5469ad74fcbfb52f51de3e6ee7db22452934623e1e2037146c139",
+      "docx_sha256": "487e5e9079baa8beab005d8637c7bed74d9690a71b7d3a22ac6656b881584e05",
+      "preview_sha256": "acdc415be1e94ecf12deaac64cbf9fe81d0a3ecb426abb595778d6cb31092204"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "profile": "baseline",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_3": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "533d65078a20617edec8be1f65ca0a385f507213d76affe15867eada18af1dc8",
+      "source_html_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606",
+      "docx_sha256": "33b58b68c9f217f7c10ff78972fed171cf2d25b649490fdd6679446345ec862e",
+      "preview_sha256": "ff1a149d08da2f01d03159249f5ba180b6e74a37c6b41932fc67d44db0af449c"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "profile": "release-budget-heading",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_3": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "533d65078a20617edec8be1f65ca0a385f507213d76affe15867eada18af1dc8",
+      "source_html_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606",
+      "docx_sha256": "da2d9994c2dd6709879c41a64c6bf484f9a183eed26b43f2da63f15fc62c8cc9",
+      "preview_sha256": "ec73469430950542bc127ed9de341d0229a148df0fced281d6ad31175e7c48ef"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "profile": "release-table-labels",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_3": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 3,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "533d65078a20617edec8be1f65ca0a385f507213d76affe15867eada18af1dc8",
+      "source_html_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606",
+      "docx_sha256": "f2935a6bb26de0a5371d12d2d742f4b5f2ad1ac86b11bf37a832af957a6e1c47",
+      "preview_sha256": "5fce5acec91b9185653d788ea11f0cab5047bd0fc45491234dac6fa1b98013d0"
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "profile": "keep-overview",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_2": [
+          8
+        ],
+        "resource_3": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 175,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "533d65078a20617edec8be1f65ca0a385f507213d76affe15867eada18af1dc8",
+      "source_html_sha256": "b0006864064cedf8793d294129977cd5719aee34f76f0b644e3dba2c68630606",
+      "docx_sha256": "4a2c09d52506a08f36cc08bcbe71e60124ca3509888be41a1e663d0cdab6581e",
+      "preview_sha256": "9763cacfb0c4374b53e5bd836393091ee20a18a92d5e14de285488e521341c44"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "profile": "baseline",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_2": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "9ca818fa1a4eca3d723d33cc7fd62083a8ed411fb2f00ffa7711d46ebfe78309",
+      "source_html_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473",
+      "docx_sha256": "0ff72bcebb15fd6b98b6995ece62a5187ec836e9d2d06340fc987791b070259f",
+      "preview_sha256": "e3b91a1bacf545d432f0a4ea7373bb49e6e6d1853fae93379992f156770de992"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "profile": "release-budget-heading",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_2": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "9ca818fa1a4eca3d723d33cc7fd62083a8ed411fb2f00ffa7711d46ebfe78309",
+      "source_html_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473",
+      "docx_sha256": "3a5922d42f05110ec5726615fa38f5587eb53d84424d85ceb2d527b8f4e757f9",
+      "preview_sha256": "3dda799698b6e4e875cf3e93433d6402918bec56fc7abd5f3bf82c40afc31a9d"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "profile": "release-table-labels",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_2": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 2,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "9ca818fa1a4eca3d723d33cc7fd62083a8ed411fb2f00ffa7711d46ebfe78309",
+      "source_html_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473",
+      "docx_sha256": "32a280d43a2e1b6661f59c45d13a6f69c96f840b63406c4850d6361a658df410",
+      "preview_sha256": "b95feaf11ef149c65ca8b7545ba2f38bb9357b8f15e11397a05e36f0ca4872d7"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "english",
+      "profile": "keep-overview",
+      "pages": 7,
+      "anchors": {
+        "question": [
+          7
+        ],
+        "overview_first": [
+          7
+        ],
+        "overview_last": [
+          7
+        ],
+        "budget_heading": [
+          7
+        ],
+        "resource_1": [
+          7
+        ],
+        "resource_2": [
+          7
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "9ca818fa1a4eca3d723d33cc7fd62083a8ed411fb2f00ffa7711d46ebfe78309",
+      "source_html_sha256": "2aac85c095fb934497940070c20c92268116802225ff3e414062de9fbd9b1473",
+      "docx_sha256": "3769894e8140831a1387891b17fd23cc4745ddf037c5e6342678f9fec34723ff",
+      "preview_sha256": "c16f7ad99c465f7950a4419c04f67dbf9e2eafe24f396737b8bf2f28a2f88e5d"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "profile": "baseline",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_2": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 0,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "78c61ee84a781a546b0d8c57d0580f6ec66226e7344e65d412a121960f737805",
+      "source_html_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca",
+      "docx_sha256": "ed495e1f71ebf8d4d9dff1cb5e02d449f553cec41511a24aa4025ca6dd0b7823",
+      "preview_sha256": "7240f4ba9576aa027ab764ae4e805c0dba28a8cf5f8fa7077437ffa709488c87"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "profile": "release-budget-heading",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_2": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 1,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "78c61ee84a781a546b0d8c57d0580f6ec66226e7344e65d412a121960f737805",
+      "source_html_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca",
+      "docx_sha256": "260d39a081fa17a6994c5879c011e6378a62f334955a504aec0b724dd2c61e2f",
+      "preview_sha256": "1027fbd15289ab721161601279959e3488a56c1e717fd0118c06dd773d4443a8"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "profile": "release-table-labels",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_2": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 2,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "78c61ee84a781a546b0d8c57d0580f6ec66226e7344e65d412a121960f737805",
+      "source_html_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca",
+      "docx_sha256": "a0208b5308a3be00f9751320ea0b5ab1ef273c4b5d31835495d3cba21047e587",
+      "preview_sha256": "5ee8905fa116661dd079f74852ff1054b6d644b2013bafe4f7fa97bfb8c1798e"
+    },
+    {
+      "case": "personal-transfer-complete",
+      "language": "chinese",
+      "profile": "keep-overview",
+      "pages": 8,
+      "anchors": {
+        "question": [
+          8
+        ],
+        "overview_first": [
+          8
+        ],
+        "overview_last": [
+          8
+        ],
+        "budget_heading": [
+          8
+        ],
+        "resource_1": [
+          8
+        ],
+        "resource_2": [
+          8
+        ]
+      },
+      "added_direct_keepNext_properties": 8,
+      "paragraphs_checked": 180,
+      "only_designated_keepNext_changed": true,
+      "all_other_package_parts_identical": true,
+      "source_sha256": "78c61ee84a781a546b0d8c57d0580f6ec66226e7344e65d412a121960f737805",
+      "source_html_sha256": "1c671956a5f8278725b4373f4b4ff403c3301e8f7266ddc4282a28215e770bca",
+      "docx_sha256": "a2e16903f8d8e61518447cf9c0f53c21183d234c33d7414aac3ccf9471a03413",
+      "preview_sha256": "db048ee27eac445b6c57390f96be25eb4f9abba46e879f819890abd798570935"
+    }
+  ],
+  "limits": [
+    "Copied frozen DOCX, not a template implementation",
+    "LibreOffice only, not Microsoft Word",
+    "Disabling label/heading keeps is diagnostic, not an accepted layout rule"
+  ]
+}
