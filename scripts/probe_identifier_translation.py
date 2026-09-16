@@ -57,6 +57,15 @@ def main():
                     assert [n.get_text() for n in policy.find_all('p',recursive=False)] == [translated(s) for s in expected]
                     phrase_checks += len(expected)
                     assert not policy.select('.answer-detail, .data-gap')
+                    if language == 'chinese':
+                        paragraphs = policy.find_all('p', recursive=False)
+                        for left, right in zip(paragraphs, paragraphs[1:]):
+                            # The PDF override removes only a GENERATED separator.
+                            # Literal source indentation between inline paragraphs
+                            # would still show as a space; fail rather than strip it.
+                            assert left.next_sibling is right
+                            assert left.get_text().endswith('。')
+                            assert '\u4e00' <= right.get_text()[0] <= '\u9fff'
                 else:
                     assert not distro.select('[data-fact-id="persistent-identifier"]')
                     if identifier == 'No':
