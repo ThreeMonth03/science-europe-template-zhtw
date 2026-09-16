@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "short",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "long",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "threshold-eleven",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "threshold-twelve",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "chinese-purpose",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "links-inline",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "flat-list",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "two-long-same-title",
+      "expanded_rows": 2,
+      "passed": true
+    },
+    {
+      "case": "complex-then-long",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "long-title",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "long-funding",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "funding-link",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "missing-amount",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-currency",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-funding",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-allocation",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-amount-and-currency",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "zero-missing-currency",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "grant-missing-number",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "unknown-gap-attributes",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "single-huge-paragraph",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "wide-paragraph",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "too-many-paragraphs",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "forced-break",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-list",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "large-list",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "image",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-table",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "rows-8",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "rows-32",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "rows-33",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "two-projects",
+      "expanded_rows": 2,
+      "passed": true
+    }
+  ],
+  "checker_sha256": "42f28df0a7b9792bc6b4e0fea80459c5553858242255f13cdacf813ac39f02bf",
+  "source_sha256": {
+    "src/questions/15-required-resources.html.j2": "c7f745120b959c97f1b89ffe5c0b33ac77b87e730fb3cacd46ce8ed2ef2d767c",
+    "src/budget-reading.html.j2": "9b5fddca818ac5c825e21962fcbec86da2dfe52023123d451755951262655862",
+    "src/pdf/index.html.j2": "8f3cb5f1ea4434a9a8cd4d61bcdbbe704d9ad1d980119f96913dba01125c4def",
+    "src/layout.css": "840c42a6fe505d73dcaf6eb9c57a92dd2c26d67416206f1a7d73f539cc812362"
+  },
+  "helper_sha256": {
+    "scripts/generate_budget_fixtures.py": "4f0c589eed13fe4d0f6a87b6c31c2b8ee01c421c554023b8811cd30a0153244f",
+    "scripts/generate_preservation_fixtures.py": "12cc955d2a4ed1db51747d7a423661dcb822c3b116b996c0d83455a74f4d5809",
+    "scripts/generate_pilot_fixtures.py": "0c8ac51f5a6692479bcc42c1cd9236444f465c3b6c11c355224f6ebc2cd6c5c9",
+    "scripts/probe_budget_word.py": "8f6aba2b5f14076de521d988c7332e5eefe7544ba409b574c782bae94b983e43",
+    "tests/test_science_europe_contract.py": "4068ed40344b85466cf81dbaefa02a6b818e622cbcef8418315b692f3dd9ee31"
+  },
+  "prior_question_sha256": null,
+  "limits": [
+    "HTML-fragment adapters, not a replacement Markdown parser",
+    "Engine probe is not a full native DSW export",
+    "Only captured fragments move; authored prose is not rewritten"
+  ]
+}

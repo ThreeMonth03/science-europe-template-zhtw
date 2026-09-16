@@ -1,0 +1,59 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "empty-english",
+      "docx_sha256": "27872c293073a6f9c587e157738ff1df937f28e697cea0d3371d418387ab4ec3",
+      "preview_sha256": "50667f56f5cc002deff582ab2c85ce6a6ea7021238cc405d2b6e597db82cd243"
+    },
+    {
+      "name": "empty-chinese",
+      "docx_sha256": "cfbb17fa7a6f1cb968b925ee68d055dd4e2645fa0c8aa6a5b9925613f0545425",
+      "preview_sha256": "a8e59fd9e4b942a7fb5ee44b5d2e20cd456d2a40efd931331b894c0765270dd3"
+    },
+    {
+      "name": "negative-english",
+      "docx_sha256": "7dbfa07b3bae67babfe24365b71d8a9df0f303f96ecccefb8cd8d8165299e84a",
+      "preview_sha256": "c4ec8c39a2a12c8f0a6378907c04d39e1ebd3feab93e61a32194e631f25a9351"
+    },
+    {
+      "name": "negative-chinese",
+      "docx_sha256": "7eac15d2729b586c01fbb8d477ef97b7c4e126e3377d4156c5148510e34d2373",
+      "preview_sha256": "d2323bbe1cf44946e971a4772d826bbafffdef037ce80943fbd6509f15d365c1"
+    },
+    {
+      "name": "personal-transfer-complete-english",
+      "docx_sha256": "9ca818fa1a4eca3d723d33cc7fd62083a8ed411fb2f00ffa7711d46ebfe78309",
+      "preview_sha256": "84e7cca8932bb230b831f510a60c63707611b87cacd3c47951c7258d99135191"
+    },
+    {
+      "name": "personal-transfer-complete-chinese",
+      "docx_sha256": "78c61ee84a781a546b0d8c57d0580f6ec66226e7344e65d412a121960f737805",
+      "preview_sha256": "c55e578ab5a24e9df474f79bdff7095aa2812aac1487a00fcbeee391ac8a0281"
+    },
+    {
+      "name": "budget-long-no-currency-english",
+      "docx_sha256": "674062e960462bede8edb8321b22eeba618695f0b029d2a330eb65135db66575",
+      "preview_sha256": "e51094d533018425fd291afb02c001a8b16c00129d70ac40cdee96b50d00fa0e"
+    },
+    {
+      "name": "budget-long-no-currency-chinese",
+      "docx_sha256": "0b9b12902b9ce4beee5e5642fb5f9263384e6c406fb24a09aef83ae1f8b9f9ea",
+      "preview_sha256": "d8a69ad54673acadb3ece10071dff6f000c501d1b651e6ea0216721fa188a282"
+    },
+    {
+      "name": "budget-many-english",
+      "docx_sha256": "28a025d082de7c9e55bdc71beded53d5e67fc502f85fba74c492dc1fd65a8baa",
+      "preview_sha256": "38887ef60914176e6f68c144a4300a0530a68167656f765bfe6f26bb3c69eafd"
+    },
+    {
+      "name": "budget-many-chinese",
+      "docx_sha256": "a768381c1eba3f4c12f873e60fd8000ab83c65f4253ce3bdec92dfa3030e2f49",
+      "preview_sha256": "f4c3763d2551f2b2e80e2a23b2f693bfdd1a4c0a6f4b0c07ceb50fedb0e3b9d5"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

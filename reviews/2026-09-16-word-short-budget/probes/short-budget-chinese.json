@@ -1,0 +1,225 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "rows-0",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "rows-1",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "rows-2",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "rows-3",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "rows-4",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "rows-8",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "rows-33",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "complete-budget",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "not-a-budget-gap",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "unknown-status",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "title-length-80",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "title-length-81",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "purpose-length-200",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "purpose-length-201",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "budget-length-80",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "budget-length-81",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "funding-length-100",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "funding-length-101",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "title-paragraphs-1",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "title-paragraphs-2",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "purpose-paragraphs-2",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "purpose-paragraphs-3",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "budget-paragraphs-3",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "budget-paragraphs-4",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "funding-paragraphs-3",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "funding-paragraphs-4",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "br",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "list",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "heading",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "image",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "table",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "link",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "style",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "many-inline-tags",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "inline-and-punctuation",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "question-complete",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "question-missing-currency",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "question-missing-amount",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "question-missing-both",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "question-missing-funding-only",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "question-long-purpose-fallback",
+      "eligible": false,
+      "passed": true
+    }
+  ],
+  "checker_sha256": "eba30b120b01417bc7a7d72c1e4c4b0d36af82cedbccd9527d8c8f84adb25e3f",
+  "source_sha256": {
+    "src/budget-reading.html.j2": "9b5fddca818ac5c825e21962fcbec86da2dfe52023123d451755951262655862",
+    "src/layout.css": "840c42a6fe505d73dcaf6eb9c57a92dd2c26d67416206f1a7d73f539cc812362"
+  },
+  "limits": [
+    "Bounded-fragment hints are not a general HTML validator",
+    "Native bilingual exports and visual review remain required"
+  ]
+}

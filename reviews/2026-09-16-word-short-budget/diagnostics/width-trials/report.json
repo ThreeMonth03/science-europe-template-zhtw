@@ -1,0 +1,212 @@
+{
+  "completed": true,
+  "release_acceptance": false,
+  "native_export": false,
+  "rows": [
+    {
+      "case": "partial",
+      "language": "english",
+      "variant": "baseline",
+      "width_twips": [
+        4514,
+        1346,
+        2059
+      ],
+      "pages": 4,
+      "source_sha256": "93c60fa508a2efec797508c00c010afbf85503a546eed01d630cae73264257d1",
+      "docx_sha256": "2c3ef5bc803c1ce103ed898ea2b7f2aa5c3037b6ff4539173251e1ceece7396b",
+      "pdf_sha256": "cad024626c833919a993f8f129ab2d2964ef01fbe632a2846155f01b52528999",
+      "only_widths_changed": true,
+      "missing_currency_lines": {
+        "page": 4,
+        "line_count": 3
+      }
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "variant": "width-49",
+      "width_twips": [
+        3880,
+        1980,
+        2059
+      ],
+      "pages": 4,
+      "source_sha256": "93c60fa508a2efec797508c00c010afbf85503a546eed01d630cae73264257d1",
+      "docx_sha256": "2de69a604b8a04818757118431735bf9db40a1e4030eba4a7045a3a46462b924",
+      "pdf_sha256": "0c01a3d52439fdfbf515f64b7359f2201e49a2164aa455ba1070fa0eeb0e7619",
+      "only_widths_changed": true,
+      "missing_currency_lines": {
+        "page": 4,
+        "line_count": 2
+      }
+    },
+    {
+      "case": "partial",
+      "language": "english",
+      "variant": "width-46",
+      "width_twips": [
+        3643,
+        2217,
+        2059
+      ],
+      "pages": 4,
+      "source_sha256": "93c60fa508a2efec797508c00c010afbf85503a546eed01d630cae73264257d1",
+      "docx_sha256": "a418066aaeb4c7ee90ba6e46e5444e1aacd769171e07cb81da135ded76306576",
+      "pdf_sha256": "f2d9e2141da51db5b2d728d64ac1f2b66a0b8d755ff5e1a64f917b2ed89a7ed0",
+      "only_widths_changed": true,
+      "missing_currency_lines": {
+        "page": 4,
+        "line_count": 2
+      }
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "variant": "baseline",
+      "width_twips": [
+        4514,
+        1346,
+        2059
+      ],
+      "pages": 4,
+      "source_sha256": "ac23a44c4d38039159dc8573acb6f9a5c0832cadead0a1fb2df18262a2bad93b",
+      "docx_sha256": "8e6b8e57f7177473020d77356ee7a9c3c998b5a8740cda36178b50e214fa2da2",
+      "pdf_sha256": "ab800447ec6abf69f1920a1f9653ddde551ef0d648ec837a455b592b8532ec45",
+      "only_widths_changed": true,
+      "missing_currency_lines": {
+        "page": 4,
+        "line_count": 2
+      }
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "variant": "width-49",
+      "width_twips": [
+        3880,
+        1980,
+        2059
+      ],
+      "pages": 4,
+      "source_sha256": "ac23a44c4d38039159dc8573acb6f9a5c0832cadead0a1fb2df18262a2bad93b",
+      "docx_sha256": "d2cbc64c76bdf2e4dadd64fce65f4dfcc089edfcbd687e8b3f283ca6649ce3d2",
+      "pdf_sha256": "983382b4e9a302a6a02d47cc1dd3d862fe0b5fb3e2ef9a3a3650887e62fb8fe2",
+      "only_widths_changed": true,
+      "missing_currency_lines": {
+        "page": 4,
+        "line_count": 1
+      }
+    },
+    {
+      "case": "partial",
+      "language": "chinese",
+      "variant": "width-46",
+      "width_twips": [
+        3643,
+        2217,
+        2059
+      ],
+      "pages": 4,
+      "source_sha256": "ac23a44c4d38039159dc8573acb6f9a5c0832cadead0a1fb2df18262a2bad93b",
+      "docx_sha256": "fb07a81b5a6c1af3023be97d20b26d6420c4457343015226d84b5c5773d7a83a",
+      "pdf_sha256": "cd56393e83bf6428d34e532dd39c069e5cf52f22d7266f4b98816772c8e8f69f",
+      "only_widths_changed": true,
+      "missing_currency_lines": {
+        "page": 4,
+        "line_count": 1
+      }
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "variant": "baseline",
+      "width_twips": [
+        4514,
+        1346,
+        2059
+      ],
+      "pages": 7,
+      "source_sha256": "781d0f83176f30620ddf4bc597edde3797b0dd342a97865d4ba203beefaa2389",
+      "docx_sha256": "de9be7d13e44ad51dd582ac251bc6298050fa36da27061749aa06696fb180159",
+      "pdf_sha256": "fe32bb18389e9260efd47c66aaae277353a6410a4780e7278a8b5264a0107a31",
+      "only_widths_changed": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "variant": "width-49",
+      "width_twips": [
+        3880,
+        1980,
+        2059
+      ],
+      "pages": 7,
+      "source_sha256": "781d0f83176f30620ddf4bc597edde3797b0dd342a97865d4ba203beefaa2389",
+      "docx_sha256": "2640c16e4c31509289f8ebc0036f7d4a92ac29e9742da691e8c14b7c727a33b2",
+      "pdf_sha256": "92dc3781ad64d8418fbfd2a4f7f67aa1ffa46a776de09a2f4efe03b289c7a11b",
+      "only_widths_changed": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "english",
+      "variant": "width-46",
+      "width_twips": [
+        3643,
+        2217,
+        2059
+      ],
+      "pages": 7,
+      "source_sha256": "781d0f83176f30620ddf4bc597edde3797b0dd342a97865d4ba203beefaa2389",
+      "docx_sha256": "cf9ff8c805e3eb6cda67a9b1bc95063ce83a8569f0e19a3937769151b92cdcfd",
+      "pdf_sha256": "baf7c51b393088c4d665de76e93a3e079427e2edbc9715d7c4373e932446b5e9",
+      "only_widths_changed": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "variant": "baseline",
+      "width_twips": [
+        4514,
+        1346,
+        2059
+      ],
+      "pages": 8,
+      "source_sha256": "6d6f7e5ee61f88f97b55b05407fff19ba0b694a7a399c11b18ce1b75a2d28cb4",
+      "docx_sha256": "a1f52ef7c34a9239962638d3d073431abe6610e3f5bf1179c7e437bbb954bdab",
+      "pdf_sha256": "2143b5480071007f1970f807473b62174c06ff9babe949a398ff5e28d77e6ffd",
+      "only_widths_changed": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "variant": "width-49",
+      "width_twips": [
+        3880,
+        1980,
+        2059
+      ],
+      "pages": 8,
+      "source_sha256": "6d6f7e5ee61f88f97b55b05407fff19ba0b694a7a399c11b18ce1b75a2d28cb4",
+      "docx_sha256": "5785aa609bd212e43574c28ad7b1af182fc8a37efd537647f93d728127d2b367",
+      "pdf_sha256": "97238af0e88572b5397723e76b8e051f97f83191955b44e265d4fb3ad537b3a8",
+      "only_widths_changed": true
+    },
+    {
+      "case": "budget-mixed-gaps",
+      "language": "chinese",
+      "variant": "width-46",
+      "width_twips": [
+        3643,
+        2217,
+        2059
+      ],
+      "pages": 8,
+      "source_sha256": "6d6f7e5ee61f88f97b55b05407fff19ba0b694a7a399c11b18ce1b75a2d28cb4",
+      "docx_sha256": "07b71da51ece4ebd2fd1de089976da00e599e6c4f842dfcb4b5b3c3714f59b46",
+      "pdf_sha256": "fd2bda7ba75ae3348197f7cb1c8581ddc92a1f54876e515aaba8caceb7a38f3f",
+      "only_widths_changed": true
+    }
+  ],
+  "checker_sha256": "acc9456e78a67274de1d8d539ff7bfd71ae1740f8d3a2467b1c9742f481f5f52"
+}

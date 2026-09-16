@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "two",
+      "styled_labels": 2,
+      "docx_styled_labels": 2,
+      "passed": true
+    },
+    {
+      "case": "one",
+      "styled_labels": 1,
+      "docx_styled_labels": 1,
+      "passed": true
+    },
+    {
+      "case": "chinese",
+      "styled_labels": 2,
+      "docx_styled_labels": 2,
+      "passed": true
+    },
+    {
+      "case": "eight",
+      "styled_labels": 8,
+      "docx_styled_labels": 8,
+      "passed": true
+    },
+    {
+      "case": "thirty-two",
+      "styled_labels": 32,
+      "docx_styled_labels": 32,
+      "passed": true
+    },
+    {
+      "case": "name-boundary",
+      "styled_labels": 2,
+      "docx_styled_labels": 2,
+      "passed": true
+    },
+    {
+      "case": "cjk-name-boundary",
+      "styled_labels": 2,
+      "docx_styled_labels": 2,
+      "passed": true
+    },
+    {
+      "case": "permission-boundary",
+      "styled_labels": 2,
+      "docx_styled_labels": 2,
+      "passed": true
+    },
+    {
+      "case": "punctuation",
+      "styled_labels": 2,
+      "docx_styled_labels": 2,
+      "passed": true
+    },
+    {
+      "case": "long-name",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "wide-name",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "long-permission",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "thirty-three",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "empty-name",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "empty-permission",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "hard-break",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-paragraphs",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-list",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-table",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "image",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "link",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "strong",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "attributed-label",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-authored-list",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "other-question",
+      "styled_labels": 0,
+      "docx_styled_labels": 0,
+      "passed": true
+    },
+    {
+      "case": "mixed",
+      "styled_labels": 1,
+      "docx_styled_labels": 1,
+      "passed": true
+    }
+  ],
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "a1ed7b0577d5ce49d09277d1d1e8dd59b5b689c306f1afb8f7570c35eda07853",
+  "lua_sha256": "7136b5e64ac731b736ed3dd400e7e69994e89448c54bb2b6e35ccbc189275fa7",
+  "source_commit": "5bb9ec5179f3a6050124796ccc76c28912d29ddd",
+  "limits": [
+    "AST and actual DOCX with fixed Pandoc, not Microsoft Word layout acceptance",
+    "Long/complex/attributed labels or permissions remain unchanged"
+  ]
+}

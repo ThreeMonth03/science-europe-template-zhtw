@@ -1,0 +1,249 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "rows-0",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "rows-1",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "rows-2",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "rows-3",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "rows-4",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "rows-8",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "rows-33",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "complete-budget",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "not-a-budget-gap",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "unknown-status",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "title-length-80",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "title-length-81",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "purpose-length-200",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "purpose-length-201",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-length-80",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "budget-length-81",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "funding-length-100",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "funding-length-101",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "title-paragraphs-1",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "title-paragraphs-2",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "purpose-paragraphs-2",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "purpose-paragraphs-3",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-paragraphs-3",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "budget-paragraphs-4",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "funding-paragraphs-3",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "funding-paragraphs-4",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "br",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "list",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "heading",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "image",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "table",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "link",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "style",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "many-inline-tags",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "inline-and-punctuation",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "unmarked",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "other-question",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "other-table",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "four-forged-rows",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "spanning-cell",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "question-complete",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "question-missing-currency",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "question-missing-amount",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "question-missing-both",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "question-long-fallback",
+      "changed_tables": 0,
+      "passed": true
+    }
+  ],
+  "docx_changed_tables": 15,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "a3ee0d8e7400df630f09b7d37a9ff4875b3b0bae39e1ea1237ab44615ed512d5",
+  "contract_sha256": "6cbb54add5e6c20238a03fb954c76c892b430d1eae01b924e76c33c4aa5944d6",
+  "source_sha256": {
+    "src/word/pilot.lua": "7136b5e64ac731b736ed3dd400e7e69994e89448c54bb2b6e35ccbc189275fa7",
+    "src/budget-reading.html.j2": "9b5fddca818ac5c825e21962fcbec86da2dfe52023123d451755951262655862",
+    "src/questions/15-required-resources.html.j2": "04d6749639d56213c4b96eff2392ea35da507045128ae6c9e13dfa4952050d4a"
+  },
+  "limits": [
+    "Same shared selection for both languages; no prompt-text matching",
+    "AST and DOCX column grid only; not Microsoft Word visual acceptance"
+  ]
+}

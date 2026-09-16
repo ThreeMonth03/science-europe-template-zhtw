@@ -36,7 +36,7 @@ partial 與混合缺答的四張表格只改 column grid；其他 Word 本文 XM
 編號、字型與外部連結不變，所有控制組頁數不變。原生 PDF 逐頁正文與
 15 題 HTML 保留；長回答、0 金額、明確否定與漏填提示都有核對。
 
-[前後样張與封存證據](../reviews/2026-09-16-word-short-budget/README.md) 包含
+[前後樣張與封存證據](../reviews/2026-09-16-word-short-budget/README.md) 包含
 原生 DOCX／PDF、Word 預覽、逐項檢查與未採用方案。工具最初對 tcW、
 頁尾抽取順序與日期不換行連字號的假設不成立，失敗紀錄保留；最後只
 調整有嚴格來源／座標／run 證據的比對規則，不放寬作者原文或標點。

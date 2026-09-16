@@ -1,0 +1,7 @@
+{
+  "completed": false,
+  "accepted": false,
+  "kind": "DOCX rehearsal harness assertion, not a template rendering failure",
+  "reason": "The first width trial incorrectly required a w:tcW attribute in every cell. Native Pandoc uses tblGrid with empty tcPr cells here. It stopped after the unchanged English baseline; no changed-width result was accepted.",
+  "retained": "Original failed-runner.py plus the baseline DOCX/PDF. The corrected runner was executed in the separate word-short-width-trials-v2 directory."
+}

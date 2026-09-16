@@ -1,0 +1,22 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "version": "0.3.26",
+  "rows": [],
+  "checker_sha256": "51f679d27f5be6bb5669c61008725c56b7d7d181d8d205fdc1037350e75cff1a",
+  "word_contract_sha256": "6cbb54add5e6c20238a03fb954c76c892b430d1eae01b924e76c33c4aa5944d6",
+  "package_sha256": {
+    "english.zip": "e4895b340a8d7fc4a7cb702161ae71b48444ddfb6f49d8fb920bef41fa3c97d7",
+    "chinese.zip": "b591fa3e0416176654edc4070156a7d105eb1a8533bfad0a2adf7c617896acfc"
+  },
+  "prior_package_sha256": {
+    "english.zip": "34714601485bdba7216f0c708a90332fbbde49c84140dc9b044aae94fc3ce5fd",
+    "chinese.zip": "bd9aab61ef482d4014670b49fd9ae4d681af7315bc9e2ae34c848da9b29fde01"
+  },
+  "limits": [
+    "Seven synthetic cases per language, not all possible questionnaires",
+    "LibreOffice preview, not Microsoft Word acceptance",
+    "Tables-only worker; no experimental font patch"
+  ],
+  "failure": ""
+}
