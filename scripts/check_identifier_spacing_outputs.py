@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 from docx import Document
 from docx.oxml.ns import qn
 from docx.text.paragraph import Paragraph
+from lxml import etree
 from artifact_utils import sha
 from check_budget_outputs import body,xml
 from check_identifier_concise_outputs import formatted_characters,CASES
@@ -91,6 +92,11 @@ def pdf_delta(before,after,soup,planned):
     assert prefix+heading+middle+end+suffix==right,'Unexpected PDF text/space/punctuation change'
 
 
+def geometry(pdf):
+    doc=etree.fromstring(subprocess.check_output(['pdftotext','-bbox-layout',str(pdf),'-']))
+    return [etree.tostring(page) for page in doc.findall('.//{*}page')]
+
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     for n in ['build','prior','english']:p.add_argument('--'+n,type=Path,required=True)
@@ -136,6 +142,10 @@ def main():
                 row['word_pages']=inspect_preview(preview)
                 row['prior_word_pages']=inspect_preview(a.prior/'word-preview'/(stem+'.pdf'))
                 assert row['word_pages']<=row['prior_word_pages']
+                if not planned:
+                    assert geometry(old.with_suffix('.pdf'))==geometry(new.with_suffix('.pdf')),'Control PDF geometry changed'
+                    assert geometry(a.prior/'word-preview'/(stem+'.pdf'))==geometry(preview),'Control Word preview geometry changed'
+                    row['control_pdf_and_word_geometry_unchanged']=True
                 row['preview_paragraphs_checked']=verify_preview_paragraphs(right,preview,soup)
                 row['q13_units']={}
                 for kind,file in [('pdf',new.with_suffix('.pdf')),('word',preview)]:
