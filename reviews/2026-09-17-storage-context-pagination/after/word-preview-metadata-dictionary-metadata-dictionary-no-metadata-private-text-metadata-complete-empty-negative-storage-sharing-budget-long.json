@@ -1,0 +1,89 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "metadata-dictionary-english",
+      "docx_sha256": "d51cefa4580aa2225287cd48ee653f497a4ee83241a2aaaedeee6df4b415a34b",
+      "preview_sha256": "f6f60b4576e44f96c10d753f159e0abeec954b9f3f50148fe8f7ea73bc79c7e5"
+    },
+    {
+      "name": "metadata-dictionary-chinese",
+      "docx_sha256": "eaaf316136a928fdd89d2aae17a825930a3dc7d7826a176ec1b952dcb3734df9",
+      "preview_sha256": "70b77b8a411581870051bfef5025e8ffd6cff60dd6e0d49b032a7570b2244908"
+    },
+    {
+      "name": "metadata-dictionary-no-english",
+      "docx_sha256": "54012e0d3c2a290e2fb73e3417596055b4f14aa620bafda3832b381823170270",
+      "preview_sha256": "30bbf610e69eff421725588056f378f26184ea5b06e123df846f38400f019c38"
+    },
+    {
+      "name": "metadata-dictionary-no-chinese",
+      "docx_sha256": "1d2a068fb840a34f63b52ec58bf68dee77970223b3ca969f928d149c493d3fa1",
+      "preview_sha256": "e00a4819490b41692cce9edaf1c45c5057167b70170c9881571cddab7e6e6b7b"
+    },
+    {
+      "name": "metadata-private-text-english",
+      "docx_sha256": "063997ad5023e1dfc5b43c641e6b5b2140d240bfd0c7d9e8282a286a09f066d3",
+      "preview_sha256": "7bcc184252919f6d838d0c13f652efc9169c4c2201a7269c1ed68a0ce20b0ac6"
+    },
+    {
+      "name": "metadata-private-text-chinese",
+      "docx_sha256": "4cff7c62ecf4047bf5460e4e1322574df178136f3167dc88fd5744b9b114549f",
+      "preview_sha256": "2b86e229e61fd00ffb66a20b81cbf21400ef260b275a71fdc01a3524eedc838c"
+    },
+    {
+      "name": "metadata-complete-english",
+      "docx_sha256": "b48c69260e2258505e13be64fed49df6f8c33a4e674b5954ca4f0a3100e854d1",
+      "preview_sha256": "6bb7b6559f773fb068042d480c984d7382d4f3c8f768dac34c7f77536e23cd1a"
+    },
+    {
+      "name": "metadata-complete-chinese",
+      "docx_sha256": "bf54c4b3fce8df90248a2cac356c81d77c54158cda532f7a5a2e8408c110026c",
+      "preview_sha256": "5902ff7007f15e22cbbeabc494fcbdc7a04de139dfac45434ea725f27e801b51"
+    },
+    {
+      "name": "empty-english",
+      "docx_sha256": "9e14f8cedd058662fe3fee7dcaa03ddb1fa2643c44069ca945e0319f06d840bf",
+      "preview_sha256": "5936a248c3164925ddb35ae9b991db03ad55322eca7c5b3a49a12492974c372e"
+    },
+    {
+      "name": "empty-chinese",
+      "docx_sha256": "d775debfc4b493220b9cbffba6265a51e0d7df54eb06ee0f26bd5fb530e3c7b6",
+      "preview_sha256": "15abb5f62bceb275ce0873fa101b295d1388349840720432dd4efeedb7da92d6"
+    },
+    {
+      "name": "negative-english",
+      "docx_sha256": "22d22ecb276b5cf3be76f8dcb1fa6cd85f46dc11e7b5293ccf51c63aecf0b53b",
+      "preview_sha256": "7a090e12e90479e3b8dbf895a2bdd75d84b0f7c0e08058d8df4d9632844af90c"
+    },
+    {
+      "name": "negative-chinese",
+      "docx_sha256": "1d80276f1f194ddb1da26a1c03a886c4f8a2373d057f72f25b4f9e2c9bb4531e",
+      "preview_sha256": "b7abaf0d1695bedfb3227aed7777c4cf82f6f7371143648603ce2ecad372b434"
+    },
+    {
+      "name": "storage-sharing-english",
+      "docx_sha256": "f46f0088d7a9e7baf2d7b2fa0609b0db18962e34e81cf79cc9254d825e4f06a4",
+      "preview_sha256": "2d65eda504fd6a5e95cb1981e843fdc3a65fef039d7252d730d4c06626fdf7c2"
+    },
+    {
+      "name": "storage-sharing-chinese",
+      "docx_sha256": "3881b3813201ee51a6940fb27e1cf79995301c4762c8d5bcf2a7814deab71ae9",
+      "preview_sha256": "13224752d7e74db4a063cc202f82c59a2556223dd3a94849bdfcd5ddc814977a"
+    },
+    {
+      "name": "budget-long-english",
+      "docx_sha256": "01bff8914b8e2ac34f7c2c7d7e9e66e6b9da61ef28360f420f60218c54ce7593",
+      "preview_sha256": "ae1b919abd29885c290df79e055d163d6d49f78c616ce7a9be1462d962c11a0f"
+    },
+    {
+      "name": "budget-long-chinese",
+      "docx_sha256": "56ac265bdac90679e2e71f0adfc867ec1e953b6034df416a345a4dc416e014d2",
+      "preview_sha256": "9b3b132790d8b2c6bc49eefe24d2e01a23fa4c53d713f145883f1cf75a8dd729"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

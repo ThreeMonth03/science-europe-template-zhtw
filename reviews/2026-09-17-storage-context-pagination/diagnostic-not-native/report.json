@@ -1,0 +1,54 @@
+{
+  "diagnostic_not_native": true,
+  "source_sha256": "581a734992d262ecf64da4d62972e65e9f2242e162af59b5fefcdbe0d7569049",
+  "rows": [
+    {
+      "mode": "direct-next",
+      "q5_locations": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "docx_sha256": "648d39a18977e100b6f3ebeb68e7db7b33ffc82aa2fae1dc800fb48cba520cd8",
+      "preview_sha256": "cff86dd531be7afe95de95115cfc0f5b6a0ec0b24633cbffa685a346a6655024"
+    },
+    {
+      "mode": "policy-lines",
+      "q5_locations": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "docx_sha256": "0f45832de01e396240c463db22b2dd7476d2084350992d07b914e4172524cf0d",
+      "preview_sha256": "47facdeb87b8edf56fab3fc9633f747ab730dfd5dbe4bbb1692ea788cb601d17"
+    },
+    {
+      "mode": "lead-lines",
+      "q5_locations": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "docx_sha256": "f5ca49c27691cea9420c859b6dd892f013f3a5e157680b67225db3e258b1c730",
+      "preview_sha256": "eb7d04987c2699b1ec1c4252c4852ab108a5430b1593b20203d353f91235ab0f"
+    },
+    {
+      "mode": "all-lines",
+      "q5_locations": [
+        3,
+        3,
+        4,
+        4,
+        4
+      ],
+      "docx_sha256": "1930f65a377f65a3aa47818c0ce96e530f0809ce054be8af8b00944d731f2918",
+      "preview_sha256": "75d90e5cfcf868f066214bd2fcd9bca3c7e149dce5525b75c0bb9c2839076ed2"
+    }
+  ]
+}

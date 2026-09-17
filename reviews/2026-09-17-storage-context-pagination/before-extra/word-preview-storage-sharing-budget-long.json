@@ -1,0 +1,29 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "storage-sharing-english",
+      "docx_sha256": "058c34f6e4fe3c1f2bc51580f07d595fa409267a88e2701ec85ccf9f76734077",
+      "preview_sha256": "7e583f625e5482863f13715c54b0fe5fbf77a05012e6e7909bb531f0f20076b1"
+    },
+    {
+      "name": "storage-sharing-chinese",
+      "docx_sha256": "7e3323b3613fc66fcddfc0458aef151377a467b1d0d30cc103d2bf688e3abb89",
+      "preview_sha256": "8821fe2c2191901ebd5fd30dc280cdf0f45f66b12e07c18e7f22f2a65efefd8f"
+    },
+    {
+      "name": "budget-long-english",
+      "docx_sha256": "cfa508edcac9f4f6950c5fdbf0437e67a2f817331257fb58e2a7c3a3b5337791",
+      "preview_sha256": "11e12cb0feff02758375c5b2175a40fd0ba8308efe43a2c328389ffd27c789c3"
+    },
+    {
+      "name": "budget-long-chinese",
+      "docx_sha256": "0cf88bddc8a7e4be477458d1213f6dffef39575e52a474bf3a77610c1ea08258",
+      "preview_sha256": "beec44bc72a7d2603c968478f0dc98c8e0c0fa81851e4531217a7a589ecffe78"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

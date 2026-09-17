@@ -1,0 +1,8 @@
+{
+  "restored_stock_and_stopped": true,
+  "stock_worker_image": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "stopped_containers": ["science-europe-pilot-docworker-1", "science-europe-pilot-server-1", "science-europe-pilot-minio-1", "science-europe-pilot-postgres-1"],
+  "removed_volumes": false,
+  "production_touched": false,
+  "cleanup": "Only each completed local run's two unreferenced staged template records were removed after ZIP backup verification; source archives and local volumes retained."
+}

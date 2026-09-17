@@ -1,0 +1,520 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "pdf": {
+    "weasyprint": "68.1",
+    "rows": [
+      {
+        "case": "plain",
+        "media": "print",
+        "eligible": true,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "plain",
+        "media": "screen",
+        "eligible": true,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "chinese",
+        "media": "print",
+        "eligible": true,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "chinese",
+        "media": "screen",
+        "eligible": true,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "ascii-851",
+        "media": "print",
+        "eligible": true,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "ascii-851",
+        "media": "screen",
+        "eligible": true,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "ascii-852",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "ascii-852",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "ascii-3000",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "ascii-3000",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "cjk-200",
+        "media": "print",
+        "eligible": true,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "cjk-200",
+        "media": "screen",
+        "eligible": true,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "cjk-450",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "cjk-450",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "cjk-1500",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "cjk-1500",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "missing",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "missing",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "unknown-fact",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "unknown-fact",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "style",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 3,
+        "pages": 3,
+        "passed": true
+      },
+      {
+        "case": "style",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 3,
+        "pages": 3,
+        "passed": true
+      },
+      {
+        "case": "link",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "link",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "strong",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "strong",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "break",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "break",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "extra",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "extra",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "archive",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "archive",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "authored",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "authored",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "other-question",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "other-question",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "missing-hint",
+        "media": "print",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      },
+      {
+        "case": "missing-hint",
+        "media": "screen",
+        "eligible": false,
+        "prior_pages": 2,
+        "pages": 2,
+        "passed": true
+      }
+    ]
+  },
+  "word": [
+    {
+      "case": "plain",
+      "eligible": true,
+      "ast_changes": 2,
+      "word_style_changes": 2,
+      "passed": true
+    },
+    {
+      "case": "chinese",
+      "eligible": true,
+      "ast_changes": 2,
+      "word_style_changes": 2,
+      "passed": true
+    },
+    {
+      "case": "ascii-851",
+      "eligible": true,
+      "ast_changes": 2,
+      "word_style_changes": 2,
+      "passed": true
+    },
+    {
+      "case": "ascii-852",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "ascii-3000",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-200",
+      "eligible": true,
+      "ast_changes": 2,
+      "word_style_changes": 2,
+      "passed": true
+    },
+    {
+      "case": "cjk-450",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-1500",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "missing",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "unknown-fact",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "style",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "link",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "strong",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "break",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "extra",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "archive",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "authored",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "other-question",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "missing-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "ascii-852-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "ascii-3000-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-450-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-1500-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "link-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "strong-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "break-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "extra-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-forged-hint",
+      "eligible": false,
+      "ast_changes": 0,
+      "word_style_changes": 0,
+      "passed": true
+    }
+  ],
+  "checker_sha256": "ba42aaec3f0d3a2ad60b40fd0b871a736ddb731c7a44edaef5b6f4c904b43f18"
+}

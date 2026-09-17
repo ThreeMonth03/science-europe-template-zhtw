@@ -1,0 +1,144 @@
+<div id="q-store-backup" class="question" data-requirement-id="SE-3a">
+  {# __tr_block_0000:start #}<h3>5. 研究期間將如何儲存與備份資料及後設資料？</h3>{# __tr_block_0000:end #}
+
+  {%- import 'src/storage-reading.html.j2' as storageReading -%}
+  {% set storageAnswer %}
+    {# Data stored by members (no shared workspace) #}
+    {%- set sharedWorkspacePath = [uuids.processingCUuid, uuids.sharedWorkspaceQUuid]|reply_path -%}
+    {%- set sharedWorkspaceAUuid = repliesMap[sharedWorkspacePath]|reply_str_value -%}
+    <div class="workspace-policy dataset-policy">
+    {%- if sharedWorkspaceAUuid == uuids.sharedWorkspaceNoAUuid -%}
+      {# __tr_block_0001:start #}<p data-requirement-id="SE-3a" data-fact-id="working-storage-arrangement" data-status="complete">專案期間不會使用共享工作空間處理資料。</p>{# __tr_block_0001:end #}
+      {%- set notSharedBackupPath = [sharedWorkspacePath, uuids.sharedWorkspaceNoAUuid, uuids.notSharedBackupQUuid]|reply_path -%}
+      {%- set notSharedBackupAUuid = repliesMap[notSharedBackupPath]|reply_str_value -%}
+      {%- if notSharedBackupAUuid == uuids.notSharedBackupYesAUuid -%}
+        {# __tr_block_0002:start #}<p data-requirement-id="SE-3a" data-fact-id="backup-reliability" data-status="complete">專案成員自行儲存的資料會妥善備份且可追蹤。因此，資料可受到保護，避免設備故障與人為錯誤造成損失。</p>{# __tr_block_0002:end #}
+      {%- elif notSharedBackupAUuid == uuids.notSharedBackupNoAUuid -%}
+        {# __tr_block_0003:start #}<p data-requirement-id="SE-3a" data-fact-id="backup-reliability" data-status="explicit-no">計畫成員個別存放的資料尚未妥善備份，或尚無法追溯。</p>{# __tr_block_0003:end #}
+      {%- else -%}
+        <div class="reading-gap">{# __tr_block_0004:start #}<p class="data-gap" data-requirement-id="SE-3a" data-fact-id="backup-reliability" data-status="missing">尚待補充：計畫成員個別存放的資料是否已妥善備份，並可追溯。</p>{# __tr_block_0004:end #}</div>
+      {%- endif -%}
+    {%- elif sharedWorkspaceAUuid == uuids.sharedWorkspaceYesAUuid -%}
+      {# __tr_block_0005:start #}<p data-requirement-id="SE-3a" data-fact-id="working-storage-arrangement" data-status="complete">研究期間將使用共享工作空間處理資料。</p>{# __tr_block_0005:end #}
+      {% set specialists = repliesMap[[sharedWorkspacePath, uuids.sharedWorkspaceYesAUuid, uuids.sharedSpecialistsQUuid]|reply_path]|reply_str_value %}
+      {% if specialists == uuids.sharedSpecialistsYesAUuid %}
+        {# __tr_block_0006:start #}<p data-fact-id="workspace-management" data-status="complete">共享工作空間將由專責人員維運。</p>{# __tr_block_0006:end #}
+      {% elif specialists == uuids.sharedSpecialistsNoAUuid %}
+        {# __tr_block_0007:start #}<p data-fact-id="workspace-management" data-status="explicit-no">共享工作空間將不由專責人員維運。</p>{# __tr_block_0007:end #}
+      {% endif %}
+      {%- set sharedHowPath = [sharedWorkspacePath, uuids.sharedWorkspaceYesAUuid, uuids.sharedHowQUuid]|reply_path -%}
+      {%- set sharedHowAUuid = repliesMap[sharedHowPath]|reply_str_value -%}
+      {%- if sharedHowAUuid == uuids.sharedHowExploreAUuid -%}
+        {%- set sharedHowChangePath = [sharedHowPath, uuids.sharedHowExploreAUuid, uuids.sharedHowChangeQUuid]|reply_path -%}
+        {%- set sharedHowChangeAUuid = repliesMap[sharedHowChangePath]|reply_str_value -%}
+        {%- if sharedHowChangeAUuid == uuids.sharedHowChangeSameAUuid -%}
+          {# __tr_block_0008:start #}<p data-requirement-id="SE-3a" data-fact-id="storage-capacity" data-status="complete">所需儲存容量在計畫期間將維持不變。</p>{# __tr_block_0008:end #}
+        {%- elif sharedHowChangeAUuid == uuids.sharedHowChangeLargeAUuid -%}
+          {# __tr_block_0009:start #}<p data-requirement-id="SE-3a" data-fact-id="storage-capacity" data-status="complete">專案初期的儲存需求較大，之後會降低。</p>{# __tr_block_0009:end #}
+        {%- elif sharedHowChangeAUuid == uuids.sharedHowChangeSmallAUuid -%}
+          {# __tr_block_0010:start #}<p data-requirement-id="SE-3a" data-fact-id="storage-capacity" data-status="complete">專案初期的儲存需求較小，之後會增加。</p>{# __tr_block_0010:end #}
+        {%- elif sharedHowChangeAUuid == uuids.sharedHowChangeMiddleAUuid -%}
+          {# __tr_block_0011:start #}<p data-requirement-id="SE-3a" data-fact-id="storage-capacity" data-status="complete">專案中期的儲存需求最大。</p>{# __tr_block_0011:end #}
+        {%- else -%}
+          <div class="reading-gap">{# __tr_block_0012:start #}<p class="data-gap" data-requirement-id="SE-3a" data-fact-id="storage-capacity" data-status="missing">尚待補充：計畫期間儲存容量需求的變化。</p>{# __tr_block_0012:end #}</div>
+        {%- endif -%}
+      {%- else -%}
+        <div class="reading-gap">{# __tr_block_0013:start #}<p class="data-gap" data-requirement-id="SE-3a" data-fact-id="storage-capacity" data-status="missing">尚待補充：計畫期間儲存容量需求的變化。</p>{# __tr_block_0013:end #}</div>
+      {%- endif -%}
+      {%- set sharedReliablePath = [sharedWorkspacePath, uuids.sharedWorkspaceYesAUuid, uuids.sharedReliableQUuid]|reply_path -%}
+      {%- set sharedReliableAUuid = repliesMap[sharedReliablePath]|reply_str_value -%}
+      {%- if sharedReliableAUuid == uuids.sharedReliableExploreAUuid -%}
+        {%- set sharedReliablePreventLossPath = [sharedReliablePath, uuids.sharedReliableExploreAUuid, uuids.sharedReliablePreventLossQUuid]|reply_path -%}
+        {%- set sharedReliablePreventLossAUuid = repliesMap[sharedReliablePreventLossPath]|reply_str_value -%}
+        {%- set sharedReliableBackupPath = [sharedReliablePath, uuids.sharedReliableExploreAUuid, uuids.sharedReliableBackupQUuid]|reply_path -%}
+        {%- set sharedReliableBackupAUuid = repliesMap[sharedReliableBackupPath]|reply_str_value -%}
+        {%- if sharedReliablePreventLossAUuid == uuids.sharedReliablePreventLossSufficientAUuid %}
+          {# __tr_block_0014:start #}<p data-requirement-id="SE-3a" data-fact-id="loss-prevention" data-status="complete">此工作空間具備足以防止資料全部遺失的防護措施。</p>{# __tr_block_0014:end #}
+        {%- elif sharedReliablePreventLossAUuid == uuids.sharedReliablePreventLossStoredAUuid %}
+          {# __tr_block_0015:start #}<p data-requirement-id="SE-3a" data-fact-id="loss-prevention" data-status="complete">為避免資料全部遺失，重要資料也將另存於其他位置。</p>{# __tr_block_0015:end #}
+        {%- else -%}
+          <div class="reading-gap">{# __tr_block_0016:start #}<p class="data-gap" data-requirement-id="SE-3a" data-fact-id="loss-prevention" data-status="missing">尚待補充：如何防止資料全部遺失。</p>{# __tr_block_0016:end #}</div>
+        {%- endif -%}
+        {%- if sharedReliableBackupAUuid == uuids.sharedReliableBackupCopyLeftAUuid %}
+          {# __tr_block_0017:start #}<p data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="complete">計畫參與人員負責備份存放於工作空間以外的計畫資料。</p>{# __tr_block_0017:end #}
+        {%- elif sharedReliableBackupAUuid == uuids.sharedReliableBackupCopyNoDataAUuid %}
+          {# __tr_block_0018:start #}<p data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="complete">資料僅存放於工作空間，因此沒有工作空間以外的檔案副本需要備份。</p>{# __tr_block_0018:end #}
+        {%- elif sharedReliableBackupAUuid == uuids.sharedReliableBackupCopyAllSomewhereAUuid %}
+          {# __tr_block_0019:start #}<p data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="complete">所有存放於工作空間以外的計畫資料都將妥善備份。</p>{# __tr_block_0019:end #}
+        {%- elif sharedReliableBackupAUuid == uuids.sharedReliableBackupCopyBackupsAUuid %}
+          {# __tr_block_0020:start #}<p data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="complete">存放於共享工作空間以外的資料，將全部自動備份。</p>{# __tr_block_0020:end #}
+        {%- else -%}
+          <div class="reading-gap">{# __tr_block_0021:start #}<p class="data-gap" data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="missing">尚待補充：共享工作空間內外資料的備份方式。</p>{# __tr_block_0021:end #}</div>
+        {%- endif -%}
+      {%- else -%}
+        <div class="reading-gap">{# __tr_block_0022:start #}<p class="data-gap" data-requirement-id="SE-3a" data-fact-id="loss-prevention" data-status="missing">尚待補充：如何防止資料全部遺失。</p>{# __tr_block_0022:end #}</div>
+        <div class="reading-gap">{# __tr_block_0023:start #}<p class="data-gap" data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="missing">尚待補充：共享工作空間內外資料的備份方式。</p>{# __tr_block_0023:end #}</div>
+      {%- endif -%}
+    {%- else -%}
+      <div class="reading-gap">{# __tr_block_0024:start #}<p class="data-gap" data-requirement-id="SE-3a" data-fact-id="working-storage-arrangement" data-status="missing">尚待補充：資料將存放於共享工作空間，或由計畫成員個別存放。</p>{# __tr_block_0024:end #}</div>
+      <div class="reading-gap">{# __tr_block_0025:start #}<p class="data-gap" data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="missing">尚待補充：計畫資料與後設資料的備份方式。</p>{# __tr_block_0025:end #}</div>
+    {%- endif -%}
+    </div>
+    {# Cold archival DURING research is independent of the shared workspace. #}
+    {% set archivePath = [uuids.preservingCUuid, uuids.archivedDuringQUuid]|reply_path %}
+    {% set archive = repliesMap[archivePath]|reply_str_value %}
+    {% set remoteKnown = false %}
+    {% set frequencyKnown = false %}
+    {% if archive == uuids.archivedDuringYesAUuid %}
+      {# __tr_block_0026:start #}<h4>研究期間的資料封存</h4>{# __tr_block_0026:end #}
+      <div class="archive-location-policy dataset-policy">
+      {# __tr_block_0027:start #}<p data-fact-id="during-project-archive" data-status="complete">研究期間將以冷儲存方式封存資料。</p>{# __tr_block_0027:end #}
+      {% set archivePrefix = [archivePath, uuids.archivedDuringYesAUuid]|reply_path %}
+      {% set medium = repliesMap[[archivePrefix, uuids.archiveMediumQUuid]|reply_path]|reply_str_value %}
+      {% if medium == uuids.archiveMediumDiskAUuid %}
+        {# __tr_block_0028:start #}<p data-fact-id="archive-medium" data-status="complete">封存資料將儲存於磁碟。</p>{# __tr_block_0028:end #}
+      {% elif medium == uuids.archiveMediumTapeAUuid %}
+        {# __tr_block_0029:start #}<p data-fact-id="archive-medium" data-status="complete">封存資料將儲存於磁帶。</p>{# __tr_block_0029:end #}
+      {% elif medium == uuids.archiveMediumOtherAUuid %}
+        {# __tr_block_0030:start #}<p data-fact-id="archive-medium" data-status="partial">封存資料將使用磁碟與磁帶以外的儲存媒體。</p>{# __tr_block_0030:end #}
+      {% endif %}
+      {% set remote = repliesMap[[archivePrefix, uuids.archiveRemoteQUuid]|reply_path]|reply_str_value %}
+      {% set remoteKnown = remote in [uuids.archiveRemoteYesAUuid, uuids.archiveRemoteNoAUuid] %}
+      {% if remote == uuids.archiveRemoteYesAUuid %}
+        {# __tr_block_0031:start #}<p data-fact-id="archive-remote-location" data-status="complete">封存資料將存放於異地。</p>{# __tr_block_0031:end #}
+      {% elif remote == uuids.archiveRemoteNoAUuid %}
+        {# __tr_block_0032:start #}<p data-fact-id="archive-remote-location" data-status="explicit-no">封存資料將不存放於異地。</p>{# __tr_block_0032:end #}
+      {% endif %}
+      </div>
+      {% set changesPath = [archivePrefix, uuids.archivedDuringReQUuid]|reply_path %}
+      {% set changes = repliesMap[changesPath]|reply_str_value %}
+      {% if changes == uuids.archivedDuringReNoAUuid %}
+        {# __tr_block_0033:start #}<p data-fact-id="archive-changes" data-status="explicit-no">預期封存資料不會隨時間改變。</p>{# __tr_block_0033:end #}
+      {% elif changes == uuids.archivedDuringReYesAUuid %}
+        <div class="archive-recovery-policy dataset-policy">
+        {# __tr_block_0034:start #}<p data-fact-id="archive-changes" data-status="complete">封存資料變動後，需要重新封存。</p>{# __tr_block_0034:end #}
+        {% set changingPrefix = [changesPath, uuids.archivedDuringReYesAUuid]|reply_path %}
+        {% set frequent = repliesMap[[changingPrefix, uuids.archivedDuringReFrequentBackupsQUuid]|reply_path]|reply_str_value %}
+        {% set frequencyKnown = frequent in [uuids.archivedDuringReFrequentBackupsYesAUuid, uuids.archivedDuringReFrequentBackupsNoAUuid] %}
+        {% if frequent == uuids.archivedDuringReFrequentBackupsYesAUuid %}
+          {# __tr_block_0035:start #}<p data-fact-id="archive-frequent-backup-need" data-status="complete">由於封存資料經常變動，因此需要頻繁備份。</p>{# __tr_block_0035:end #}
+        {% elif frequent == uuids.archivedDuringReFrequentBackupsNoAUuid %}
+          {# __tr_block_0036:start #}<p data-fact-id="archive-frequent-backup-need" data-status="explicit-no">由於封存資料變動不頻繁，因此不需要頻繁備份。</p>{# __tr_block_0036:end #}
+        {% endif %}
+        {% set recovery = repliesMap[[changingPrefix, uuids.archivedDuringRelyQUuid]|reply_path]|reply_str_value %}
+        {% if recovery == uuids.archivedDuringRelyYesAUuid %}
+          {# __tr_block_0037:start #}<p data-fact-id="archive-human-error-recovery" data-status="complete">這些備份將用於復原遭意外變更或刪除的資料。</p>{# __tr_block_0037:end #}
+        {% elif recovery == uuids.archivedDuringRelyNoAUuid %}
+          {# __tr_block_0038:start #}<p data-fact-id="archive-human-error-recovery" data-status="explicit-no">遭意外變更或刪除的資料，將不依賴這些備份進行復原。</p>{# __tr_block_0038:end #}
+        {% endif %}
+        </div>
+      {% endif %}
+    {% elif archive == uuids.archivedDuringNoAUuid %}
+      {# __tr_block_0039:start #}<p data-fact-id="during-project-archive" data-status="explicit-no">研究期間將不以冷儲存方式封存資料。</p>{# __tr_block_0039:end #}
+    {% endif %}
+    <div class="data-gap template-gap storage-detail-limits">
+    {# __tr_block_0040:start #}<p>本模板目前對應的欄位不足以確認以下執行細節：</p>{# __tr_block_0040:end #}
+      <ul>
+        {# __tr_block_0041:start #}<li data-requirement-id="SE-3a" data-fact-id="storage-location" data-status="{# __tr_inline_if_original:e3sgJ3BhcnRpYWwnIGlmIHJlbW90ZUtub3duIGVsc2UgJ3VubWFwcGVkJyB9fQ== #}{% if remoteKnown %}{{ 'partial' }}{% else %}{{ 'unmapped' }}{% endif %}{# __tr_inline_if_original:end #}">這些對應回答尚未明確指出工作資料與備份的實際儲存地點。</li>{# __tr_block_0041:end #}
+        {# __tr_block_0042:start #}<li data-requirement-id="SE-3a" data-fact-id="backup-frequency" data-status="{# __tr_inline_if_original:e3sgJ3BhcnRpYWwnIGlmIGZyZXF1ZW5jeUtub3duIGVsc2UgJ3VubWFwcGVkJyB9fQ== #}{% if frequencyKnown %}{{ 'partial' }}{% else %}{{ 'unmapped' }}{% endif %}{# __tr_inline_if_original:end #}">這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。</li>{# __tr_block_0042:end #}
+      </ul>
+    </div>
+  {% endset %}
+  {{ storageReading.answer(storageAnswer) }}
+
+</div>

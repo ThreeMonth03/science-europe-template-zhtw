@@ -1,0 +1,352 @@
+[
+  {
+    "image": "before-pdf-metadata-partial-english-page4.png",
+    "image_sha256": "a5d63e4d069ea9d113e64f6cbfd0410b2b7c1b8c0f43ea771522b6c53a8d5dba",
+    "pdf_sha256": "2e6c0290087dad5505ca7eeb1ce933f9d459da6c4bf9a12524802874e2fbf41c",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-partial-english-page3.png",
+    "image_sha256": "ca201265ba7c0f20a75dd90afc3dcd6ad8a3efddb93c54c79f6cfa04614bab53",
+    "pdf_sha256": "d6fa07bc3a7fa172e4600ddd55f077ae079283c674fbdf150a48625aed7e4aa9",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-metadata-partial-english-page4.png",
+    "image_sha256": "a5d63e4d069ea9d113e64f6cbfd0410b2b7c1b8c0f43ea771522b6c53a8d5dba",
+    "pdf_sha256": "0ca3da0f8b92cff1ae770cd8f32dabf82cab7cc7ad891415522884ac0bc6aaba",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-metadata-partial-english-page3.png",
+    "image_sha256": "ca201265ba7c0f20a75dd90afc3dcd6ad8a3efddb93c54c79f6cfa04614bab53",
+    "pdf_sha256": "1a7a8fc1e9b6272386117ae87c4b00030b0628ef0cf2663f563bc2e510115f69",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-partial-chinese-page4.png",
+    "image_sha256": "1260473038e14c32db5211515b66983a1ac73c6ecebdf02d5a473fd6848814ab",
+    "pdf_sha256": "0dfcfaa8cf2673a90dd153993c80dc424ff4552daea6444ef33674dbc9af26b6",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-partial-chinese-page3.png",
+    "image_sha256": "6ac20e2737b6d3121db70b5cf58a88a94b24d585a707ab18a950fa55ae2a9770",
+    "pdf_sha256": "bad44984fa421ebb765fadc4bd2a52689866269076dbeb52e717ca0c46024ed1",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-partial-chinese-page4.png",
+    "image_sha256": "cb3185009eca7fc914ea10d2c7527f663dbe2705c656840e8fed080dd4ec06b3",
+    "pdf_sha256": "bad44984fa421ebb765fadc4bd2a52689866269076dbeb52e717ca0c46024ed1",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-metadata-partial-chinese-page4.png",
+    "image_sha256": "1260473038e14c32db5211515b66983a1ac73c6ecebdf02d5a473fd6848814ab",
+    "pdf_sha256": "e0f60ac593a4b826678460b9660a4f4353bc60b0f0d5f36de74135b2da66292c",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-metadata-partial-chinese-page3.png",
+    "image_sha256": "6ac20e2737b6d3121db70b5cf58a88a94b24d585a707ab18a950fa55ae2a9770",
+    "pdf_sha256": "cebf04b0bc6506872c3d677b0b0b5c1e9842c5c40b1656ddc99614f34db83ee3",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-metadata-partial-chinese-page4.png",
+    "image_sha256": "cb3185009eca7fc914ea10d2c7527f663dbe2705c656840e8fed080dd4ec06b3",
+    "pdf_sha256": "cebf04b0bc6506872c3d677b0b0b5c1e9842c5c40b1656ddc99614f34db83ee3",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-private-english-page4.png",
+    "image_sha256": "5b4a279105720156965a0319363ded2e9190ad43087e9456854f9e9369960cac",
+    "pdf_sha256": "7eca5b5a0de8c058a64aaa81b48424e1f8d527559e6f8cce0761ca25f7d58d0f",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-private-english-page3.png",
+    "image_sha256": "cb9ef84ca288035f68cd6c0ced50684831aadb2bc6db177b46ffb629a0c5f6b2",
+    "pdf_sha256": "1d63cb21b60bf7bfec0017cc56ecad2e7dfc12ed8fb6d3a2cf0db087c71bcc70",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-metadata-private-english-page4.png",
+    "image_sha256": "5b4a279105720156965a0319363ded2e9190ad43087e9456854f9e9369960cac",
+    "pdf_sha256": "3e747f3232ddf1b0a4f7cbad21ab482d0d8553f5e7d0e02b1f02d21bb2d9005b",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-metadata-private-english-page3.png",
+    "image_sha256": "cb9ef84ca288035f68cd6c0ced50684831aadb2bc6db177b46ffb629a0c5f6b2",
+    "pdf_sha256": "5a42af6c231f9d994edb135cfe573eb1196ea72ac1f82fc75ee393fa2702c040",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-private-chinese-page3.png",
+    "image_sha256": "1864851cd30072940c40b1cbccf2f44702c56a0dbd3294b0ef3f3d1dd384d086",
+    "pdf_sha256": "92e2136d0bebe452f38c1b348ddc34f8085f022a5392c3d012da71d34a5b4d2b",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-private-chinese-page4.png",
+    "image_sha256": "5e8f8f8498158cefde80c4b1527ef170da962348963a65ee4f1ca422b552fe61",
+    "pdf_sha256": "92e2136d0bebe452f38c1b348ddc34f8085f022a5392c3d012da71d34a5b4d2b",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-private-chinese-page3.png",
+    "image_sha256": "a8161a28e3154744ffff37eb67e25283b6912caf900641c99582e7788130060b",
+    "pdf_sha256": "7ea1198cee1ac65e8040f125e7f6cfd3c29be71a651cfaf20e7efb858e8bcf69",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-private-chinese-page4.png",
+    "image_sha256": "2cb5b43abbecd9092ff832fa40b6cfae0e05c9ed330b555a48764c66c387cc28",
+    "pdf_sha256": "7ea1198cee1ac65e8040f125e7f6cfd3c29be71a651cfaf20e7efb858e8bcf69",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-metadata-private-chinese-page4.png",
+    "image_sha256": "1260473038e14c32db5211515b66983a1ac73c6ecebdf02d5a473fd6848814ab",
+    "pdf_sha256": "6ef99591e60a9b7c0091f4f6ddcae0e3b47e4ed01ff81d433af3ee9fab49cdd6",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-metadata-private-chinese-page4.png",
+    "image_sha256": "e6e91a5ef9a095518f4f5a12daae19243647f18c8357e46ad1992314db2c1a2e",
+    "pdf_sha256": "485e2c341b47db07d0d8486a689c22502f0fe17c7efa56f06120a03f9763423d",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-private-text-english-page4.png",
+    "image_sha256": "5b4a279105720156965a0319363ded2e9190ad43087e9456854f9e9369960cac",
+    "pdf_sha256": "513375adc371626f25d09b960c831ca481bc4071105e0aab90a1c282e20e4cb9",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-private-text-english-page3.png",
+    "image_sha256": "aeb2466a045c9661f30305c4e65be946bf0904ae15a6a2f3f37f943afc17e993",
+    "pdf_sha256": "e508de848d80e444f9e307b62b2a1175b74e217ffc8fb2f04f944b11fd7a8d1e",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-metadata-private-text-english-page4.png",
+    "image_sha256": "5b4a279105720156965a0319363ded2e9190ad43087e9456854f9e9369960cac",
+    "pdf_sha256": "b78def907499f874f5d127d85821684ce7869f8f14f0efaeb9a45075ede781d5",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-metadata-private-text-english-page3.png",
+    "image_sha256": "aeb2466a045c9661f30305c4e65be946bf0904ae15a6a2f3f37f943afc17e993",
+    "pdf_sha256": "7bcc184252919f6d838d0c13f652efc9169c4c2201a7269c1ed68a0ce20b0ac6",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-private-text-chinese-page3.png",
+    "image_sha256": "18ccf4fe9ef8b3fed4117ddfb0ecf3241026a9fef307bec64bd981f31cba5f1c",
+    "pdf_sha256": "c671e2b2abb6ac08bc031bb51cb470ed7b72111a68b4e1bb314e1d6c031f0d85",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-private-text-chinese-page4.png",
+    "image_sha256": "5e8f8f8498158cefde80c4b1527ef170da962348963a65ee4f1ca422b552fe61",
+    "pdf_sha256": "c671e2b2abb6ac08bc031bb51cb470ed7b72111a68b4e1bb314e1d6c031f0d85",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-private-text-chinese-page4.png",
+    "image_sha256": "e6e91a5ef9a095518f4f5a12daae19243647f18c8357e46ad1992314db2c1a2e",
+    "pdf_sha256": "a9ac7ead21bbc6ccdecf3f2f98e7315588ccef2ed6ad811e1ae1c2f2edfd518c",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-metadata-private-text-chinese-page4.png",
+    "image_sha256": "1260473038e14c32db5211515b66983a1ac73c6ecebdf02d5a473fd6848814ab",
+    "pdf_sha256": "87bd4512e67206995c1ec1ee283775167600698d177275f04422a6f0905c6c8b",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-metadata-private-text-chinese-page4.png",
+    "image_sha256": "e6e91a5ef9a095518f4f5a12daae19243647f18c8357e46ad1992314db2c1a2e",
+    "pdf_sha256": "2b86e229e61fd00ffb66a20b81cbf21400ef260b275a71fdc01a3524eedc838c",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-complete-english-page3.png",
+    "image_sha256": "232a7850dc060a8d21f3a9c3d79e828dc9a5550fd74e03f359bb21e38f975658",
+    "pdf_sha256": "f4dcfd34343a1d7f0b8e10f087ea209a4e34df6538d6d9351137433cdc61f0cc",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-complete-english-page4.png",
+    "image_sha256": "3e726b00f9a68b13032bd82c578d4b2575768d0d71557996c463742972405ae9",
+    "pdf_sha256": "f4dcfd34343a1d7f0b8e10f087ea209a4e34df6538d6d9351137433cdc61f0cc",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-complete-english-page3.png",
+    "image_sha256": "0e579a25242731d8d7bc7388e410a88e8abd294682b3fbe64a8b74f419c75285",
+    "pdf_sha256": "2efcc0c7bca2cdb0495c0744af4d5cecdc05a1d3e65197e6d6c2455922816fea",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-metadata-complete-english-page4.png",
+    "image_sha256": "5b4a279105720156965a0319363ded2e9190ad43087e9456854f9e9369960cac",
+    "pdf_sha256": "df9fa9ed6f52006afdab783a3db56a9bd7c607ad52983b2f54813a710a86a78f",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-metadata-complete-english-page3.png",
+    "image_sha256": "0e579a25242731d8d7bc7388e410a88e8abd294682b3fbe64a8b74f419c75285",
+    "pdf_sha256": "6bb7b6559f773fb068042d480c984d7382d4f3c8f768dac34c7f77536e23cd1a",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-metadata-complete-chinese-page3.png",
+    "image_sha256": "73ea124d6dc4d2cb8a86384368d00a0dad95c5ef1abe64ae4f58e4f9cb649fa9",
+    "pdf_sha256": "6cc76b97ce837e284a2d3172e2a89e30e6bf22764e629f59dbdcea1c8a176d99",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-metadata-complete-chinese-page3.png",
+    "image_sha256": "5b52789d4a688fa46a4d847c577fd6185058460de30c720051e2ac52e010f6b4",
+    "pdf_sha256": "ba4cda9f7f986d770d2634fcd20061b09e33466adc0661519f0764820350a18d",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-metadata-complete-chinese-page3.png",
+    "image_sha256": "73ea124d6dc4d2cb8a86384368d00a0dad95c5ef1abe64ae4f58e4f9cb649fa9",
+    "pdf_sha256": "665b8d82dae03a7bf899d50aadea6f80e5cb5de36b5262f93de38a52835c56ef",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-metadata-complete-chinese-page3.png",
+    "image_sha256": "5b52789d4a688fa46a4d847c577fd6185058460de30c720051e2ac52e010f6b4",
+    "pdf_sha256": "5902ff7007f15e22cbbeabc494fcbdc7a04de139dfac45434ea725f27e801b51",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-storage-sharing-english-page4.png",
+    "image_sha256": "4343ff65f1dd67cd19948ad60541a0ae2a8417226410b83e9a91016462f3a469",
+    "pdf_sha256": "97a5a212c19d3a06410efc94d3c54eb774fefbabaf845d526d2c293762522bae",
+    "page": 4,
+    "total_pages": 7
+  },
+  {
+    "image": "before-word-storage-sharing-english-page3.png",
+    "image_sha256": "e65df0a50b5ff4af3f741628e7a2e39b5a78d61f75bef717b5282565fb77a951",
+    "pdf_sha256": "7e583f625e5482863f13715c54b0fe5fbf77a05012e6e7909bb531f0f20076b1",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-storage-sharing-english-page4.png",
+    "image_sha256": "4343ff65f1dd67cd19948ad60541a0ae2a8417226410b83e9a91016462f3a469",
+    "pdf_sha256": "7cb5564f29e79131b08bf36e166e27927ffd2ca22cb44b250fa041d065a0770e",
+    "page": 4,
+    "total_pages": 7
+  },
+  {
+    "image": "after-word-storage-sharing-english-page3.png",
+    "image_sha256": "e65df0a50b5ff4af3f741628e7a2e39b5a78d61f75bef717b5282565fb77a951",
+    "pdf_sha256": "2d65eda504fd6a5e95cb1981e843fdc3a65fef039d7252d730d4c06626fdf7c2",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-storage-sharing-chinese-page3.png",
+    "image_sha256": "226ed9a5994eb7fe4bd4a5832e0c81535ef40c7de2a246560f66e5af971240f3",
+    "pdf_sha256": "0fe7b91ca75d15e4004ab3f1a49830ed3bae9ae3a889551e68eb548e73edb136",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "before-pdf-storage-sharing-chinese-page4.png",
+    "image_sha256": "527506ce163239d490b636d451187b4066c451fb672f46d70e12aa2881abb4d5",
+    "pdf_sha256": "0fe7b91ca75d15e4004ab3f1a49830ed3bae9ae3a889551e68eb548e73edb136",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "before-word-storage-sharing-chinese-page3.png",
+    "image_sha256": "579cb258f3b13ef776e821abb42d99df31654998eb72a82b60a68a000d19975a",
+    "pdf_sha256": "8821fe2c2191901ebd5fd30dc280cdf0f45f66b12e07c18e7f22f2a65efefd8f",
+    "page": 3,
+    "total_pages": 7
+  },
+  {
+    "image": "before-word-storage-sharing-chinese-page4.png",
+    "image_sha256": "cd0c82130436601cdb166cbf5b6e0307dc0f27c1256686bf3938b4661e21560b",
+    "pdf_sha256": "8821fe2c2191901ebd5fd30dc280cdf0f45f66b12e07c18e7f22f2a65efefd8f",
+    "page": 4,
+    "total_pages": 7
+  },
+  {
+    "image": "after-pdf-storage-sharing-chinese-page3.png",
+    "image_sha256": "226ed9a5994eb7fe4bd4a5832e0c81535ef40c7de2a246560f66e5af971240f3",
+    "pdf_sha256": "a9e6da541ac55d547dd634596fc406ac055072cedb734c0ea9277b1d95290df5",
+    "page": 3,
+    "total_pages": 6
+  },
+  {
+    "image": "after-pdf-storage-sharing-chinese-page4.png",
+    "image_sha256": "527506ce163239d490b636d451187b4066c451fb672f46d70e12aa2881abb4d5",
+    "pdf_sha256": "a9e6da541ac55d547dd634596fc406ac055072cedb734c0ea9277b1d95290df5",
+    "page": 4,
+    "total_pages": 6
+  },
+  {
+    "image": "after-word-storage-sharing-chinese-page3.png",
+    "image_sha256": "579cb258f3b13ef776e821abb42d99df31654998eb72a82b60a68a000d19975a",
+    "pdf_sha256": "13224752d7e74db4a063cc202f82c59a2556223dd3a94849bdfcd5ddc814977a",
+    "page": 3,
+    "total_pages": 7
+  },
+  {
+    "image": "after-word-storage-sharing-chinese-page4.png",
+    "image_sha256": "cd0c82130436601cdb166cbf5b6e0307dc0f27c1256686bf3938b4661e21560b",
+    "pdf_sha256": "13224752d7e74db4a063cc202f82c59a2556223dd3a94849bdfcd5ddc814977a",
+    "page": 4,
+    "total_pages": 7
+  }
+]

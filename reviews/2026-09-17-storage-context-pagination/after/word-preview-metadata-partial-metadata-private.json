@@ -1,0 +1,29 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "metadata-partial-english",
+      "docx_sha256": "40eea59da931996e4174c49f38d68d8d88619e46e8135f3526fce25f98ac86aa",
+      "preview_sha256": "1a7a8fc1e9b6272386117ae87c4b00030b0628ef0cf2663f563bc2e510115f69"
+    },
+    {
+      "name": "metadata-partial-chinese",
+      "docx_sha256": "581a734992d262ecf64da4d62972e65e9f2242e162af59b5fefcdbe0d7569049",
+      "preview_sha256": "cebf04b0bc6506872c3d677b0b0b5c1e9842c5c40b1656ddc99614f34db83ee3"
+    },
+    {
+      "name": "metadata-private-english",
+      "docx_sha256": "8a53930ff93ed4ca40b02ec26e93238e5f96a8560e8dfb0e620f27cdbd449995",
+      "preview_sha256": "5a42af6c231f9d994edb135cfe573eb1196ea72ac1f82fc75ee393fa2702c040"
+    },
+    {
+      "name": "metadata-private-chinese",
+      "docx_sha256": "a7e7d065f1fe3e23bfbf6eadce9ed4002c42cf752396f8f67fd43443dab477c6",
+      "preview_sha256": "485e2c341b47db07d0d8486a689c22502f0fe17c7efa56f06120a03f9763423d"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}
