@@ -78,6 +78,8 @@ jobs:
           ../tooling/.venv/bin/python scripts/probe_storage_context_scope.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/storage-context-engine-en.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/storage-context-engine-zh.json"
+          ../tooling/.venv/bin/python ../english/scripts/probe_q5_word_join.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/q5-word-join-engine-en.json"
+          ../tooling/.venv/bin/python ../english/scripts/probe_q5_word_join.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/q5-word-join-engine-zh.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_archive_gap_panels.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/archive-gap-engine-english.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_archive_gap_panels.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/archive-gap-engine-chinese.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_identifier_spacing.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/identifier-spacing-engine.json"
@@ -99,6 +101,7 @@ jobs:
             zh/outputs/build-*/manifest.json
             zh/outputs/build-*/*audit.json
             zh/outputs/build-*/storage-context-*.json
+            zh/outputs/build-*/q5-word-join-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
       - name: State acceptance boundary
         run: |

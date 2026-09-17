@@ -3,7 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-目前 0.3.34：[Q5 短回答與限制說明連頁](docs/storage-context-pagination.md)。
+目前 0.3.35：[Q5 Word 固定說明合段實驗](docs/q5-word-join.md)。
+只在英文共用 Word 邏輯中合併兩個合格的固定說明段，以換行分隔；
+HTML／PDF、744 個翻譯檔及樣式不變。結構檢查與原生成品驗收分開，仍非正式版。
+
+前版 0.3.34：[Q5 短回答與限制說明連頁](docs/storage-context-pagination.md)。
 針對前版三個跨頁反例，只調整有界區塊的 PDF／Word 分頁，保留 744 個翻譯檔。
 [前後樣張與失敗證據](reviews/2026-09-17-storage-context-pagination/README.md)：
 120 份原生輸出及 40 份 Word 預覽完成比較，全文保留、頁數不變，四處跨頁改善；
