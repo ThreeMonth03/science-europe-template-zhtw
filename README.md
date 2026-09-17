@@ -3,7 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-目前 0.3.33：[Q3 資料字典與後設資料追問](docs/metadata-followups.md)。
+目前 0.3.34：[Q5 短回答與限制說明連頁](docs/storage-context-pagination.md)。
+針對前版三個跨頁反例，只調整有界區塊的 PDF／Word 分頁，保留 744 個翻譯檔。
+原生樣張與長／複雜內容回退另外驗證，仍非正式驗收版。
+
+前版 0.3.33：[Q3 資料字典與後設資料追問](docs/metadata-followups.md)。
 補回資料字典是／否，分別呈現公開政策的缺答；保留已填原因與原有樣式。
 原有 735 組譯文全保留、新增 9 組。
 [前後樣張與未解反例](reviews/2026-09-17-metadata-followups/README.md)：

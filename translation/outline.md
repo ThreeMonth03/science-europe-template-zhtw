@@ -1928,7 +1928,7 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0054-information-still-needed-efe9afd7cc/0001-information-still-needed-3a9b99f63b/translation.md>)
 
-- [ ] [file] src/questions/03-docs-metadata.html.j2 (37/49)
+- [x] [file] src/questions/03-docs-metadata.html.j2 (49/49)
 
   [J2] `src/questions/03-docs-metadata.html.j2`
 
@@ -2004,35 +2004,35 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0009-the-provenance-will-be-captured-using-w3c-prov-c25e692b95/0001-the-provenance-will-be-captured-using-w3c-prov-17266caf99/translation.md>)
 
-    - [ ] [wrapper] 0010-we-will-create-a-data-variable-dictionary-993e021086 (0/1)
+    - [x] [wrapper] 0010-we-will-create-a-data-variable-dictionary-993e021086 (1/1)
 
       [W] `0010-we-will-create-a-data-variable-dictionary-993e021086`
 
-        - [ ] [unit] 0001-we-will-create-a-data-variable-dictionary-12f64a1ab4: We will create a data/variable dictionary.
+        - [x] [unit] 0001-we-will-create-a-data-variable-dictionary-12f64a1ab4: We will create a data/variable dictionary.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0010-we-will-create-a-data-variable-dictionary-993e021086/0001-we-will-create-a-data-variable-dictionary-12f64a1ab4/translation.md>)
 
-    - [ ] [wrapper] 0011-we-will-not-create-a-data-variable-dictionary-f3208ae690 (0/1)
+    - [x] [wrapper] 0011-we-will-not-create-a-data-variable-dictionary-f3208ae690 (1/1)
 
       [W] `0011-we-will-not-create-a-data-variable-dictionary-f3208ae690`
 
-        - [ ] [unit] 0001-we-will-not-create-a-data-variable-dictionary-dfd70ecd6b: We will not create a data/variable dictionary.
+        - [x] [unit] 0001-we-will-not-create-a-data-variable-dictionary-dfd70ecd6b: We will not create a data/variable dictionary.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0011-we-will-not-create-a-data-variable-dictionary-f3208ae690/0001-we-will-not-create-a-data-variable-dictionary-dfd70ecd6b/translation.md>)
 
-    - [ ] [wrapper] 0012-the-selected-data-dictionary-option-cannot-be-represented-628ccf4cb9 (0/1)
+    - [x] [wrapper] 0012-the-selected-data-dictionary-option-cannot-be-represented-628ccf4cb9 (1/1)
 
       [W] `0012-the-selected-data-dictionary-option-cannot-be-represented-628ccf4cb9`
 
-        - [ ] [unit] 0001-the-selected-data-dictionary-option-cannot-be-represented-a8b5292742: The selected data-dictionary option cannot be represented by this template; please review it.
+        - [x] [unit] 0001-the-selected-data-dictionary-option-cannot-be-represented-a8b5292742: The selected data-dictionary option cannot be represented by this template; please review it.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0012-the-selected-data-dictionary-option-cannot-be-represented-628ccf4cb9/0001-the-selected-data-dictionary-option-cannot-be-represented-a8b5292742/translation.md>)
 
-    - [ ] [wrapper] 0013-information-not-provided-whether-a-data-variable-dictionary-976fc49eb2 (0/1)
+    - [x] [wrapper] 0013-information-not-provided-whether-a-data-variable-dictionary-976fc49eb2 (1/1)
 
       [W] `0013-information-not-provided-whether-a-data-variable-dictionary-976fc49eb2`
 
-        - [ ] [unit] 0001-information-not-provided-whether-a-data-variable-dictionary-6380a62901: Information not provided: whether a data/variable dictionary will be created.
+        - [x] [unit] 0001-information-not-provided-whether-a-data-variable-dictionary-6380a62901: Information not provided: whether a data/variable dictionary will be created.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0013-information-not-provided-whether-a-data-variable-dictionary-976fc49eb2/0001-information-not-provided-whether-a-data-variable-dictionary-6380a62901/translation.md>)
 
@@ -2044,11 +2044,11 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0014-metadata-will-not-be-available-openly-9727c39b24/0001-metadata-will-not-be-available-openly-8a1c20cf55/translation.md>)
 
-    - [ ] [wrapper] 0015-information-not-provided-why-the-metadata-will-not-5e1ed580d2 (0/1)
+    - [x] [wrapper] 0015-information-not-provided-why-the-metadata-will-not-5e1ed580d2 (1/1)
 
       [W] `0015-information-not-provided-why-the-metadata-will-not-5e1ed580d2`
 
-        - [ ] [unit] 0001-information-not-provided-why-the-metadata-will-not-50872fb0f9: Information not provided: why the metadata will not be openly available.
+        - [x] [unit] 0001-information-not-provided-why-the-metadata-will-not-50872fb0f9: Information not provided: why the metadata will not be openly available.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0015-information-not-provided-why-the-metadata-will-not-5e1ed580d2/0001-information-not-provided-why-the-metadata-will-not-50872fb0f9/translation.md>)
 
@@ -2080,35 +2080,35 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-how-e9e148399c/0006-metadata-will-be-available-in-a-form-that-6a0425012c/translation.md>)
 
-    - [ ] [wrapper] 0017-the-selected-metadata-access-instructions-option-cannot-be-efc76bf397 (0/1)
+    - [x] [wrapper] 0017-the-selected-metadata-access-instructions-option-cannot-be-efc76bf397 (1/1)
 
       [W] `0017-the-selected-metadata-access-instructions-option-cannot-be-efc76bf397`
 
-        - [ ] [unit] 0001-the-selected-metadata-access-instructions-option-cannot-be-403bab7bac: The selected metadata access-instructions option cannot be represented by this template; please review it.
+        - [x] [unit] 0001-the-selected-metadata-access-instructions-option-cannot-be-403bab7bac: The selected metadata access-instructions option cannot be represented by this template; please review it.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0017-the-selected-metadata-access-instructions-option-cannot-be-efc76bf397/0001-the-selected-metadata-access-instructions-option-cannot-be-403bab7bac/translation.md>)
 
-    - [ ] [wrapper] 0018-information-not-provided-whether-the-metadata-will-include-85af2a3d49 (0/1)
+    - [x] [wrapper] 0018-information-not-provided-whether-the-metadata-will-include-85af2a3d49 (1/1)
 
       [W] `0018-information-not-provided-whether-the-metadata-will-include-85af2a3d49`
 
-        - [ ] [unit] 0001-information-not-provided-whether-the-metadata-will-include-b9720e957d: Information not provided: whether the metadata will include instructions for accessing the data.
+        - [x] [unit] 0001-information-not-provided-whether-the-metadata-will-include-b9720e957d: Information not provided: whether the metadata will include instructions for accessing the data.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0018-information-not-provided-whether-the-metadata-will-include-85af2a3d49/0001-information-not-provided-whether-the-metadata-will-include-b9720e957d/translation.md>)
 
-    - [ ] [wrapper] 0019-the-selected-metadata-harvesting-and-indexing-option-cannot-763320dd4b (0/1)
+    - [x] [wrapper] 0019-the-selected-metadata-harvesting-and-indexing-option-cannot-763320dd4b (1/1)
 
       [W] `0019-the-selected-metadata-harvesting-and-indexing-option-cannot-763320dd4b`
 
-        - [ ] [unit] 0001-the-selected-metadata-harvesting-and-indexing-option-cannot-73c1e45f35: The selected metadata harvesting and indexing option cannot be represented by this template; please review it.
+        - [x] [unit] 0001-the-selected-metadata-harvesting-and-indexing-option-cannot-73c1e45f35: The selected metadata harvesting and indexing option cannot be represented by this template; please review it.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0019-the-selected-metadata-harvesting-and-indexing-option-cannot-763320dd4b/0001-the-selected-metadata-harvesting-and-indexing-option-cannot-73c1e45f35/translation.md>)
 
-    - [ ] [wrapper] 0020-information-not-provided-whether-the-metadata-will-be-7262aada77 (0/1)
+    - [x] [wrapper] 0020-information-not-provided-whether-the-metadata-will-be-7262aada77 (1/1)
 
       [W] `0020-information-not-provided-whether-the-metadata-will-be-7262aada77`
 
-        - [ ] [unit] 0001-information-not-provided-whether-the-metadata-will-be-ae8164a885: Information not provided: whether the metadata will be available in a form that can be harvested and indexed.
+        - [x] [unit] 0001-information-not-provided-whether-the-metadata-will-be-ae8164a885: Information not provided: whether the metadata will be available in a form that can be harvested and indexed.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0020-information-not-provided-whether-the-metadata-will-be-7262aada77/0001-information-not-provided-whether-the-metadata-will-be-ae8164a885/translation.md>)
 
@@ -2160,7 +2160,7 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0026-we-will-use-a-filesystem-with-files-and-c44259f0ec/0001-we-will-use-a-filesystem-with-files-and-d660207d51/translation.md>)
 
-    - [ ] [wrapper] 0027-there-will-be-a-folder-for-each-sample-f1fd0c2f86 (1/2)
+    - [x] [wrapper] 0027-there-will-be-a-folder-for-each-sample-f1fd0c2f86 (2/2)
 
       [W] `0027-there-will-be-a-folder-for-each-sample-f1fd0c2f86`
 
@@ -2168,11 +2168,11 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0027-there-will-be-a-folder-for-each-sample-f1fd0c2f86/0001-there-will-be-a-folder-for-each-sample-451ff60a3e/translation.md>)
 
-        - [ ] [unit] 0002-each-of-those-will-use-the-following-conventions-166b9739d2: Each of those will use the following conventions:
+        - [x] [unit] 0002-each-of-those-will-use-the-following-conventions-166b9739d2: Each of those will use the following conventions:
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0027-there-will-be-a-folder-for-each-sample-f1fd0c2f86/0002-each-of-those-will-use-the-following-conventions-166b9739d2/translation.md>)
 
-    - [ ] [wrapper] 0028-there-will-be-a-sub-folder-for-each-69eb5a8d39 (1/2)
+    - [x] [wrapper] 0028-there-will-be-a-sub-folder-for-each-69eb5a8d39 (2/2)
 
       [W] `0028-there-will-be-a-sub-folder-for-each-69eb5a8d39`
 
@@ -2180,11 +2180,11 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0028-there-will-be-a-sub-folder-for-each-69eb5a8d39/0001-there-will-be-a-sub-folder-for-each-eccaa39a4c/translation.md>)
 
-        - [ ] [unit] 0002-each-of-those-will-use-the-following-conventions-6fe248ff6e: Each of those will use the following conventions:
+        - [x] [unit] 0002-each-of-those-will-use-the-following-conventions-6fe248ff6e: Each of those will use the following conventions:
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0028-there-will-be-a-sub-folder-for-each-69eb5a8d39/0002-each-of-those-will-use-the-following-conventions-6fe248ff6e/translation.md>)
 
-    - [ ] [wrapper] 0029-there-will-be-a-sub-folder-for-each-fc16f2debf (1/2)
+    - [x] [wrapper] 0029-there-will-be-a-sub-folder-for-each-fc16f2debf (2/2)
 
       [W] `0029-there-will-be-a-sub-folder-for-each-fc16f2debf`
 
@@ -2192,7 +2192,7 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0029-there-will-be-a-sub-folder-for-each-fc16f2debf/0001-there-will-be-a-sub-folder-for-each-872a1a3a60/translation.md>)
 
-        - [ ] [unit] 0002-each-of-those-will-use-the-following-conventions-3442294343: Each of those will use the following conventions:
+        - [x] [unit] 0002-each-of-those-will-use-the-following-conventions-3442294343: Each of those will use the following conventions:
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0029-there-will-be-a-sub-folder-for-each-fc16f2debf/0002-each-of-those-will-use-the-following-conventions-3442294343/translation.md>)
 
