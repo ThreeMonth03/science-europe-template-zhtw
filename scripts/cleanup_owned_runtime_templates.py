@@ -10,17 +10,28 @@ from dsw_document_template_tool.api import DSWApiClient
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def validate_render_report(report, expected, allow_failed=False):
+    rows = report['renders']
+    assert len(rows) == expected and rows
+    if allow_failed:
+        assert not report['all_renders_succeeded']
+        assert rows[-1]['rendered'] is False and all(r['rendered'] is True for r in rows[:-1])
+    else:
+        assert report['all_renders_succeeded'] and all(r['rendered'] is True for r in rows)
+
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--build',type=Path,required=True);p.add_argument('--version',required=True)
-    p.add_argument('--expected-renders',type=int,required=True);a=p.parse_args()
+    p.add_argument('--expected-renders',type=int,required=True)
+    p.add_argument('--allow-failed-run',action='store_true',help='Explicitly clean a stopped batch ending in one failed render; never marks it passed')
+    a=p.parse_args()
     root=a.build.resolve();assert root.is_relative_to(ROOT/'outputs')
     target=root/'owned-test-template-cleanup.json';assert not target.exists()
     manifest=json.loads((root/'manifest.json').read_text());assert manifest['status']=='runtime-experiment'
     assert manifest['source']['version']==a.version and manifest['translation']['version']==a.version
     renders=json.loads((root/'missing-info-render-report.json').read_text())
-    assert renders['all_renders_succeeded'] and len(renders['renders'])==a.expected_renders
-    assert all(r['rendered'] for r in renders['renders'])
+    validate_render_report(renders, a.expected_renders, a.allow_failed_run)
     found=sorted({v for f in root.glob('render-*.log') for v in re.findall(r'with released template ([0-9a-f-]{36})',f.read_text())})
     assert len(found)==2 and all(re.fullmatch(r'[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}',v) for v in found)
     backups={}
@@ -34,6 +45,7 @@ def main():
         'exec psql -U "$POSTGRES_USER" -d "$POSTGRES_DB" -Atc "$1"','local-owned-template-check',sql],text=True).splitlines()
     assert counts==['0','0']
     result={'scope':'Only this finished synthetic local run; no other template or volume',
+            'run_completed_successfully':renders['all_renders_succeeded'], 'failed_run_explicitly_acknowledged':a.allow_failed_run,
             'project_references':0,'document_references':0,'backups':backups,'deleted':[]}
     client=DSWApiClient(api_url='http://localhost:13300/wizard-api',verify_ssl=True)
     try:

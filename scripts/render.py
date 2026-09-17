@@ -18,6 +18,12 @@ FORMATS = {
     "docx": "f4bd941a-dfbe-4226-a1fc-200fb5269311",
 }
 
+# The observed worker notification fallback itself waits up to 180 seconds.
+# A 180-second client deadline can start project cleanup while that delayed job
+# is finalizing (observed local deadlock). Allow queue delay plus conversion.
+# This is a harness mitigation, not a fix for worker queue/transaction behavior.
+RENDER_TIMEOUT_SECONDS = 600
+
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -71,7 +77,7 @@ def main():
             email="albert.einstein@example.com",
             password="password",
             tdk_executable=str(args.tooling / ".venv/bin/dsw-tdk"),
-            timeout_seconds=180,
+            timeout_seconds=RENDER_TIMEOUT_SECONDS,
             poll_seconds=1,
             verify_ssl=True,
         )
@@ -85,6 +91,8 @@ def main():
                     (args.build / f"{args.language}.zip").read_bytes()
                 ).hexdigest(),
                 "transport_event_ids": [event["uuid"] for event in events],
+                "timeout_seconds": RENDER_TIMEOUT_SECONDS,
+                "runner_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
             },
             indent=2,
         )
