@@ -19,6 +19,7 @@ def main():
     from storage_context_contract import check_roots as context_checks
     from probe_storage_context import strip
     from q5_word_join_contract import prior_lua
+    from metadata_gap_panel_contract import prior_css
     import hashlib
     from storage_gap_contract import check_roots as storage_checks
     from metadata_followup_contract import check_roots as metadata_checks, expected as metadata_projection
@@ -49,6 +50,7 @@ def main():
         delta = json.loads((a.english/'docs/storage-context-style-delta.json').read_text())
         for kind, name in [('css','src/layout.css'),('lua','src/word/pilot.lua')]:
             source = (root/name).read_text()
+            if kind == 'css': source = prior_css(source)
             original, block = strip(prior_lua(source) if kind == 'lua' else source, kind)
             assert hashlib.sha256(block.encode()).hexdigest() == delta[kind]['block_sha256']
             assert hashlib.sha256(original.encode()).hexdigest() == before[name], name
