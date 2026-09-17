@@ -1,0 +1,55 @@
+{
+  "passed": false,
+  "release_acceptance": false,
+  "failed_render": {
+    "case": "metadata-private-text",
+    "language": "chinese",
+    "format": "docx",
+    "rendered": false
+  },
+  "successful_renders": 17,
+  "queue_log_excerpt": [
+    "2026-09-17 08:00:57,862 |     INFO | dsw.document_worker.worker: [T:b05d552a-e498-4602-8e8f-269a9e106f48] Document c1eb68a0-fde7-4560-bdd2-71f31102d600 record finalized",
+    "2026-09-17 08:00:57,866 |     INFO | dsw.command_queue.command_queue: [T:-] Fetched 0 persistent commands",
+    "2026-09-17 08:00:57,866 |     INFO | dsw.command_queue.command_queue: [T:-] Waiting for notifications (up to 180 seconds)",
+    "2026-09-17 08:01:00,181 |     INFO | dsw.command_queue.command_queue: [T:-] Notification received: 1",
+    "2026-09-17 08:01:00,182 |     INFO | dsw.command_queue.command_queue: [T:-] Fetched 0 persistent commands",
+    "2026-09-17 08:01:00,182 |     INFO | dsw.command_queue.command_queue: [T:-] Waiting for notifications (up to 180 seconds)",
+    "2026-09-17 08:04:00,282 |     INFO | dsw.command_queue.command_queue: [T:-] Nothing received in this cycle (timeout 180 seconds)",
+    "2026-09-17 08:04:00,307 |     INFO | dsw.command_queue.command_queue: [T:-] Retrieved persistent command 469ceff5-c28b-48ec-b936-6b8d7ebedc84 for processing",
+    "psycopg.errors.InFailedSqlTransaction: current transaction is aborted, commands ignored until end of transaction block",
+    "2026-09-17 08:04:14,576 |  WARNING | dsw.document_worker.worker: [T:469ceff5-c28b-48ec-b936-6b8d7ebedc84] Handled job error: Failed to finalize document generation: [InFailedSqlTransaction] current transaction is aborted, commands ignored until end of transaction block",
+    "2026-09-17 08:04:17,581 |  WARNING | dsw.command_queue.command_queue: [T:-] Failed with exception [InFailedSqlTransaction]: current transaction is aborted, commands ignored until end of transaction block (will try again)"
+  ],
+  "database_deadlock_excerpt": [
+    "2026-09-17 08:04:13.065 UTC [34] ERROR:  deadlock detected",
+    "2026-09-17 08:04:13.065 UTC [34] DETAIL:  Process 34 waits for ShareLock on transaction 40622; blocked by process 899.",
+    "\tProcess 899 waits for ShareLock on transaction 40621; blocked by process 34.",
+    "\tProcess 34: UPDATE document SET finished_at = $1, state = $2, file_name = $3, content_type = $4, worker_log = $5, file_size = $6 WHERE uuid = $7;",
+    "\tProcess 899: DELETE FROM project WHERE tenant_uuid = '00000000-0000-0000-0000-000000000000' AND uuid = 'b4b3e4b3-4ef5-4af9-b3c0-939a0e536e16' "
+  ],
+  "worker_end_state": {
+    "Status": "exited",
+    "Running": false,
+    "Paused": false,
+    "Restarting": false,
+    "OOMKilled": false,
+    "Dead": false,
+    "Pid": 0,
+    "ExitCode": 2,
+    "Error": "",
+    "StartedAt": "2026-09-17T07:55:22.256147003Z",
+    "FinishedAt": "2026-09-17T08:04:26.856262805Z"
+  },
+  "original_timeout_seconds": 180,
+  "retry_timeout_seconds": 600,
+  "original_render_runner_sha256": "f899368bd5b7912ba9d0c6e54bc83dd6127853e0a1011a6ea3c45c90638ec1de",
+  "render_report_sha256": "69337f88e261b413f6e33afb16982f3a90885d7efa20a59c64c18e31868e7174",
+  "render_error_log_sha256": "3bf7a1b278bd478c466213a0fd64fcd0d9df7b6f175d9c457be09a8193e84fb9",
+  "package_sha256": {
+    "english.zip": "2ab39706eb601960d56b22e6043ef8d939cd8bb3906e5fba7d69addbfdd52814",
+    "chinese.zip": "52889c5e4675d2a5ae95cd19686d721ccf73652c1e428019fc78c0e8388aa1e7"
+  },
+  "interpretation": "Observed delayed queue retrieval and client timeout cleanup deadlocked on document finalization. Why the notification fetch saw no work is not established. Longer client wait is only a harness mitigation.",
+  "cleanup": "Two own templates deleted only after zero-reference checks; files and ZIP backups retained."
+}

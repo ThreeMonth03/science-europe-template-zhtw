@@ -1,0 +1,486 @@
+{
+  "weasyprint": "68.1",
+  "rows": [
+    {
+      "case": "branch-0",
+      "media": "print",
+      "near_page_end": false,
+      "selected": true,
+      "height_before": 92.19999999999999,
+      "height_after": 81.1,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-0",
+      "media": "print",
+      "near_page_end": true,
+      "selected": true,
+      "height_before": 92.20000000000005,
+      "height_after": 81.1,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-0",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-1",
+      "media": "print",
+      "near_page_end": false,
+      "selected": true,
+      "height_before": 92.19999999999999,
+      "height_after": 81.1,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-1",
+      "media": "print",
+      "near_page_end": true,
+      "selected": true,
+      "height_before": 92.20000000000005,
+      "height_after": 81.1,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-1",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-2",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-2",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-5",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-5",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-6",
+      "media": "print",
+      "near_page_end": false,
+      "selected": true,
+      "height_before": 92.19999999999999,
+      "height_after": 81.1,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-6",
+      "media": "print",
+      "near_page_end": true,
+      "selected": true,
+      "height_before": 92.20000000000005,
+      "height_after": 81.1,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-6",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-12",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-12",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-18",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-18",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-24",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-24",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-29",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-29",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "wrong-question",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "wrong-question",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "wrong-policy",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "wrong-policy",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "unknown-fact",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "unknown-fact",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "explicit-no",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "explicit-no",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "needs-review",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "needs-review",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "unmapped",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "unmapped",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "no-gap-class",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "no-gap-class",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "nested-inline",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "nested-inline",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "extra-child",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "extra-child",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-child",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-child",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "wrong-order",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "wrong-order",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "authored-between",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "authored-between",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "nested-container",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "nested-container",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "height_before": null,
+      "height_after": null,
+      "pages": 1,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "release_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "branch_checks": 30,
+  "checker_sha256": "25084610a67283fd8112c4fcbafe20ea39dd9102b127d2226d835151276394c4",
+  "css_sha256": "33fc6a1b78a2ec64bd74bc1a7f598e1adf8f11e55e95def73d75b8a48fd1393f",
+  "limits": [
+    "Only the two named unanswered Q3 publication follow-ups",
+    "No wording, Jinja, font or Word changes",
+    "Native DSW and Microsoft Word acceptance are separate"
+  ]
+}

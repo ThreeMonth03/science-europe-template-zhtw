@@ -3,7 +3,15 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-目前 0.3.35：[Q5 Word 固定說明合段實驗](docs/q5-word-join.md)。
+目前 0.3.36：[Q3 兩項漏填提示共用外框](docs/metadata-gap-panel.md)。
+只調整英文共用列印 CSS，減少「取用說明／擷取索引」同時漏填時的視覺切割；
+原句、獨立缺答狀態、744 個譯文檔及 Word 不變。
+[前後樣張與驗證](reviews/2026-09-17-metadata-gap-panel/README.md)：重新產出
+30 份原生檔案及 10 份 Word 預覽，全文保留、頁數不增、Word 正文與座標不變。
+首次批次的佇列延遲／清理互鎖另存失敗證據；本機等待延長後完整重跑，
+不宣稱已修復 DSW，也不宣稱整篇閱讀與 Microsoft Word 已全面驗收。
+
+前版 0.3.35：[Q5 Word 固定說明合段實驗](docs/q5-word-join.md)。
 只在英文共用 Word 邏輯中合併兩個合格的固定說明段，以換行分隔；
 HTML／PDF、744 個翻譯檔及樣式不變。結構檢查與原生成品驗收分開，仍非正式版。
 [原生樣張及驗證](reviews/2026-09-17-q5-word-join/README.md)：60 份原生輸出與

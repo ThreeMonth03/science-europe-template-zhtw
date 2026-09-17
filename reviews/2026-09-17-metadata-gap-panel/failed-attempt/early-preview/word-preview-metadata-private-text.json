@@ -1,0 +1,13 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "metadata-private-text-english",
+      "docx_sha256": "06d9e149a1b9750044dda4b924e72a381bb7e639e8fb295a726c92085077d4f0",
+      "preview_sha256": "0ca0ef188e750ed6332a13c8d7cc83cfdbcd38fc9a50e7eaf757c60e215ebf33"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f"
+}

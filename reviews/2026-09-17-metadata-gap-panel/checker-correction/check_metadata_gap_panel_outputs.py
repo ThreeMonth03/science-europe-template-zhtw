@@ -7,7 +7,6 @@ import sys
 import zipfile
 from bs4 import BeautifulSoup
 from docx import Document
-from lxml import etree
 from artifact_utils import sha
 from check_archive_gap_outputs import body_geometry, prompt_geometry, word_unchanged
 from check_budget_spacing_outputs import pdf_raw_page_texts, line_box_overlaps
@@ -16,35 +15,10 @@ from check_q5_word_join_outputs import text_and_geometry
 from check_word_rhythm_outputs import assert_styles, compare_questions, inspect_preview
 from check_word_short_budget_outputs import verify_preview_paragraphs
 from check_pdf_budget_reading_outputs import external_pdf_links
-from check_narrative_outputs import compact
+from reduce_word_layout_case import prefix_geometry
 
 CASES = ['metadata-partial', 'metadata-complete', 'metadata-private-text', 'empty', 'negative']
 FACTS = ['metadata-access-instructions', 'metadata-harvestable']
-
-
-def prefix_before_q3(bbox, soup):
-    # Locate complete headings, including wrapped English titles; do not assume
-    # one line or blindly discard a fixed number of cover pages.
-    start = prompt_geometry(bbox, soup.select_one('.question h3').get_text())
-    end = prompt_geometry(bbox, soup.select_one('#q-docs-metadata h3').get_text())
-    pages = etree.fromstring(bbox).findall('.//{*}page')
-    result = []
-    for number, page in enumerate(pages, 1):
-        if not start['page'] <= number <= end['page']:
-            continue
-        lines = sorted(page.findall('.//{*}line'), key=lambda line: (float(line.get('yMin')), float(line.get('xMin'))))
-        for line in lines:
-            top = float(line.get('yMin'))
-            if number == start['page'] and top < start['top']:
-                continue
-            if number == end['page'] and top > end['bottom']:
-                continue
-            value = compact(''.join(line.itertext()))
-            if value == f'{number}/{len(pages)}' and top > float(page.get('height')) * .9:
-                continue
-            result.append(dict(page=number, text=value, **dict(line.attrib)))
-    assert result
-    return result
 
 
 def pair_geometry(before, after, soup):
@@ -109,7 +83,8 @@ def main():
                 assert row['pages'] <= row['prior_pages'], 'Native PDF pages increased'
                 if selected:
                     row['pair_geometry'] = pair_geometry(*bboxes, after)
-                    assert prefix_before_q3(bboxes[0], before) == prefix_before_q3(bboxes[1], after), 'Pre-Q3 body or heading moved'
+                    heading = before.select_one('#q-docs-metadata h3').get_text()
+                    assert prefix_geometry(pdfs[0], heading) == prefix_geometry(pdfs[1], heading), 'Pre-Q3 body moved'
                 previews = [root / 'word-preview' / (stem + '.pdf') for root in (args.prior, args.build)]
                 row['prior_word_pages'], row['word_pages'] = [inspect_preview(path) for path in previews]
                 assert row['prior_word_pages'] == row['word_pages']

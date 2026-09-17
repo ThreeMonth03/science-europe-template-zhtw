@@ -1,0 +1,21 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "rows": [],
+  "checker_sha256": "704c802516a3943db2c036cfd1001285d795067534868c0944195f34d71e1c7d",
+  "package_sha256": {
+    "english.zip": "2ab39706eb601960d56b22e6043ef8d939cd8bb3906e5fba7d69addbfdd52814",
+    "chinese.zip": "52889c5e4675d2a5ae95cd19686d721ccf73652c1e428019fc78c0e8388aa1e7"
+  },
+  "prior_package_sha256": {
+    "english.zip": "2bab8d81c77a077f6cda34ad2cc59a588e6ba57c04395f114a85ed319189a059",
+    "chinese.zip": "3668e9621e9f833db3b1dd0f4e1923707647937e059982241eefaaa2117c0ac6"
+  },
+  "limits": [
+    "Five synthetic cases per language, not all questionnaire branches",
+    "PDF visual grouping only; prose, bindings and editable Word unchanged",
+    "LibreOffice previews, not Microsoft Word execution",
+    "Local tables-only worker, no production deployment"
+  ],
+  "failure": "ValueError('Section 3 heading not found as a complete line')"
+}
