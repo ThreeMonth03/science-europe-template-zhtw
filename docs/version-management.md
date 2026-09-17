@@ -1,5 +1,11 @@
 # 版本與分支契約
 
+最新 0.3.32 的英中工作分支為 `fix/q3-storage-gaps`，承接 0.3.31
+`fix/format-reading`；以下舊版本敘述為歷史紀錄，不是當前 branch。
+本輪僅改英文 Q3 容量追問，中文 lock 跟進完整 commit，733 組譯文精確
+沿用、1 組替換、1 組新增。來源/翻譯範圍與原生 PDF/Word 分別驗證，
+正式維護線、tag、發布與官方基底政策不變。見 [Q3 實驗](storage-capacity-gaps.md)。
+
 目前 0.3.26 的英中工作分支為 `fix/word-short-budget-widths`；英文承接
 `fix/short-budget-reading`，中文承接獨立的 `fix/worker-pdf-stability`。
 模板改動不採用字型修補映像；只沿用上一輪新增的 runtime 身分檢查。

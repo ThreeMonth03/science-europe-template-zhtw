@@ -3,7 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-目前 0.3.31：[Q2 格式與資料量閱讀實驗](docs/format-reading.md)。
+目前 0.3.32：[Q3 儲存容量漏填實驗](docs/storage-capacity-gaps.md)。
+選了填寫總容量但留空時顯示待補提示，已填 0、數值及其他回答保留。
+只有英文 Q3 邏輯變更，中文循既有流程產生；不改共用 PDF／Word 樣式。
+
+前版 0.3.31：[Q2 格式與資料量閱讀實驗](docs/format-reading.md)。
 完整答案合併為較自然的句子，部分缺答仍獨立呈現；不改自填文字或版型。
 中英文鎖定同一英文來源，翻譯改文與原生 PDF／Word 驗收分開記錄。
 [中英文 PDF／Word 前後樣張](reviews/2026-09-17-format-reading/README.md)：

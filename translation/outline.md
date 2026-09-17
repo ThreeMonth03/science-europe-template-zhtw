@@ -1492,7 +1492,7 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0027-information-not-provided-how-data-provenance-will-be-1a1565d1bb/0001-information-not-provided-how-data-provenance-will-be-af7c37e5b3/translation.md>)
 
-- [ ] [file] src/questions/02-what-data.html.j2 (49/54)
+- [x] [file] src/questions/02-what-data.html.j2 (54/54)
 
   [J2] `src/questions/02-what-data.html.j2`
 
@@ -1728,11 +1728,11 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0029-unnamed-data-format-e417d4b973/0001-unnamed-data-format-8247f2c90c/translation.md>)
 
-    - [ ] [wrapper] 0030-it-is-a-standardized-format-suitable-for-long-8bcbc4974d (0/1)
+    - [x] [wrapper] 0030-it-is-a-standardized-format-suitable-for-long-8bcbc4974d (1/1)
 
       [W] `0030-it-is-a-standardized-format-suitable-for-long-8bcbc4974d`
 
-        - [ ] [unit] 0001-it-is-a-standardized-format-suitable-for-long-96c6d3ec27: It is a standardized format suitable for long-term archiving.
+        - [x] [unit] 0001-it-is-a-standardized-format-suitable-for-long-96c6d3ec27: It is a standardized format suitable for long-term archiving.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0030-it-is-a-standardized-format-suitable-for-long-8bcbc4974d/0001-it-is-a-standardized-format-suitable-for-long-96c6d3ec27/translation.md>)
 
@@ -1800,35 +1800,35 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0038-this-format-is-not-suitable-for-long-term-9e61667e62/0001-this-format-is-not-suitable-for-long-term-f80618d809/translation.md>)
 
-    - [ ] [wrapper] 0039-only-a-small-volume-of-data-is-expected-ea1246d2d1 (0/1)
+    - [x] [wrapper] 0039-only-a-small-volume-of-data-is-expected-ea1246d2d1 (1/1)
 
       [W] `0039-only-a-small-volume-of-data-is-expected-ea1246d2d1`
 
-        - [ ] [unit] 0001-only-a-small-volume-of-data-is-expected-fd9491da41: Only a small volume of data is expected.
+        - [x] [unit] 0001-only-a-small-volume-of-data-is-expected-fd9491da41: Only a small volume of data is expected.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0039-only-a-small-volume-of-data-is-expected-ea1246d2d1/0001-only-a-small-volume-of-data-is-expected-fd9491da41/translation.md>)
 
-    - [ ] [wrapper] 0040-the-estimated-data-volume-is-f237a01489 (0/1)
+    - [x] [wrapper] 0040-the-estimated-data-volume-is-f237a01489 (1/1)
 
       [W] `0040-the-estimated-data-volume-is-f237a01489`
 
-        - [ ] [unit] 0001-the-estimated-data-volume-is-1ee965986b: The estimated data volume is {formatTotalQuantity}.
+        - [x] [unit] 0001-the-estimated-data-volume-is-1ee965986b: The estimated data volume is {formatTotalQuantity}.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0040-the-estimated-data-volume-is-f237a01489/0001-the-estimated-data-volume-is-1ee965986b/translation.md>)
 
-    - [ ] [wrapper] 0041-we-expect-files-with-an-estimated-average-size-bcd0b05adc (0/1)
+    - [x] [wrapper] 0041-we-expect-files-with-an-estimated-average-size-bcd0b05adc (1/1)
 
       [W] `0041-we-expect-files-with-an-estimated-average-size-bcd0b05adc`
 
-        - [ ] [unit] 0001-we-expect-files-with-an-estimated-average-size-00cd950a7a: We expect {formatsVolumeFiles} files, with an estimated average size of {formatAverageQuantity}.
+        - [x] [unit] 0001-we-expect-files-with-an-estimated-average-size-00cd950a7a: We expect {formatsVolumeFiles} files, with an estimated average size of {formatAverageQuantity}.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0041-we-expect-files-with-an-estimated-average-size-bcd0b05adc/0001-we-expect-files-with-an-estimated-average-size-00cd950a7a/translation.md>)
 
-    - [ ] [wrapper] 0042-we-expect-files-7c57b339c5 (0/1)
+    - [x] [wrapper] 0042-we-expect-files-7c57b339c5 (1/1)
 
       [W] `0042-we-expect-files-7c57b339c5`
 
-        - [ ] [unit] 0001-we-expect-files-a6daadd293: We expect {formatsVolumeFiles} files.
+        - [x] [unit] 0001-we-expect-files-a6daadd293: We expect {formatsVolumeFiles} files.
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0042-we-expect-files-7c57b339c5/0001-we-expect-files-a6daadd293/translation.md>)
 
@@ -1928,7 +1928,7 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0054-information-still-needed-efe9afd7cc/0001-information-still-needed-3a9b99f63b/translation.md>)
 
-- [x] [file] src/questions/03-docs-metadata.html.j2 (39/39)
+- [ ] [file] src/questions/03-docs-metadata.html.j2 (37/40)
 
   [J2] `src/questions/03-docs-metadata.html.j2`
 
@@ -2056,149 +2056,157 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0013-the-project-will-require-so-little-storage-space-26ab628455/0001-the-project-will-require-so-little-storage-space-6e1b135f33/translation.md>)
 
-    - [x] [wrapper] 0014-we-estimate-the-storage-space-that-the-project-ce7cd39c25 (1/1)
+    - [ ] [wrapper] 0014-we-estimate-the-storage-space-that-the-project-2e1980daa2 (0/1)
 
-      [W] `0014-we-estimate-the-storage-space-that-the-project-ce7cd39c25`
+      [W] `0014-we-estimate-the-storage-space-that-the-project-2e1980daa2`
 
-        - [x] [unit] 0001-we-estimate-the-storage-space-that-the-project-31c524d28a: We estimate the storage space that the project will require for all data and software (including temporary storage) to {size} gigabytes.
+        - [ ] [unit] 0001-we-estimate-the-storage-space-that-the-project-4fc034130f: We estimate the storage space that the project will require for all data and software (including temporary storage) to be {size} gigabytes.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0014-we-estimate-the-storage-space-that-the-project-ce7cd39c25/0001-we-estimate-the-storage-space-that-the-project-31c524d28a/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0014-we-estimate-the-storage-space-that-the-project-2e1980daa2/0001-we-estimate-the-storage-space-that-the-project-4fc034130f/translation.md>)
 
-    - [x] [wrapper] 0015-we-will-not-use-a-filesystem-with-files-28570c31a0 (1/1)
+    - [ ] [wrapper] 0015-information-not-provided-the-estimated-storage-space-for-cc43f4e589 (0/1)
 
-      [W] `0015-we-will-not-use-a-filesystem-with-files-28570c31a0`
+      [W] `0015-information-not-provided-the-estimated-storage-space-for-cc43f4e589`
 
-        - [x] [unit] 0001-we-will-not-use-a-filesystem-with-files-53a1a3bd27: We will not use a filesystem with files and folders.
+        - [ ] [unit] 0001-information-not-provided-the-estimated-storage-space-for-0be2ca4e24: Information not provided: the estimated storage space for all project data and software, including temporary storage (GB).
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0015-we-will-not-use-a-filesystem-with-files-28570c31a0/0001-we-will-not-use-a-filesystem-with-files-53a1a3bd27/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0015-information-not-provided-the-estimated-storage-space-for-cc43f4e589/0001-information-not-provided-the-estimated-storage-space-for-0be2ca4e24/translation.md>)
 
-    - [x] [wrapper] 0016-we-will-use-a-filesystem-with-files-and-c44259f0ec (1/1)
+    - [x] [wrapper] 0016-we-will-not-use-a-filesystem-with-files-28570c31a0 (1/1)
 
-      [W] `0016-we-will-use-a-filesystem-with-files-and-c44259f0ec`
+      [W] `0016-we-will-not-use-a-filesystem-with-files-28570c31a0`
 
-        - [x] [unit] 0001-we-will-use-a-filesystem-with-files-and-8755a2cec1: We will use a filesystem with files and folders with the following folder conventions:
+        - [x] [unit] 0001-we-will-not-use-a-filesystem-with-files-a3b6c714fb: We will not use a filesystem with files and folders.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-we-will-use-a-filesystem-with-files-and-c44259f0ec/0001-we-will-use-a-filesystem-with-files-and-8755a2cec1/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-we-will-not-use-a-filesystem-with-files-28570c31a0/0001-we-will-not-use-a-filesystem-with-files-a3b6c714fb/translation.md>)
 
-    - [x] [wrapper] 0017-there-will-be-a-folder-for-each-sample-f1fd0c2f86 (2/2)
+    - [x] [wrapper] 0017-we-will-use-a-filesystem-with-files-and-c44259f0ec (1/1)
 
-      [W] `0017-there-will-be-a-folder-for-each-sample-f1fd0c2f86`
+      [W] `0017-we-will-use-a-filesystem-with-files-and-c44259f0ec`
 
-        - [x] [unit] 0001-there-will-be-a-folder-for-each-sample-e47d3b3662: There will be a folder for each sample/subject.
+        - [x] [unit] 0001-we-will-use-a-filesystem-with-files-and-cf556bf58d: We will use a filesystem with files and folders with the following folder conventions:
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0017-there-will-be-a-folder-for-each-sample-f1fd0c2f86/0001-there-will-be-a-folder-for-each-sample-e47d3b3662/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0017-we-will-use-a-filesystem-with-files-and-c44259f0ec/0001-we-will-use-a-filesystem-with-files-and-cf556bf58d/translation.md>)
 
-        - [x] [unit] 0002-each-of-those-will-use-the-following-conventions-7f7f436903: Each of those will use the following conventions:
+    - [x] [wrapper] 0018-there-will-be-a-folder-for-each-sample-f1fd0c2f86 (2/2)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0017-there-will-be-a-folder-for-each-sample-f1fd0c2f86/0002-each-of-those-will-use-the-following-conventions-7f7f436903/translation.md>)
+      [W] `0018-there-will-be-a-folder-for-each-sample-f1fd0c2f86`
 
-    - [x] [wrapper] 0018-there-will-be-a-sub-folder-for-each-69eb5a8d39 (2/2)
+        - [x] [unit] 0001-there-will-be-a-folder-for-each-sample-3bdde21252: There will be a folder for each sample/subject.
 
-      [W] `0018-there-will-be-a-sub-folder-for-each-69eb5a8d39`
-
-        - [x] [unit] 0001-there-will-be-a-sub-folder-for-each-991166c28f: There will be a (sub)folder for each (repeated) analysis.
-
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0018-there-will-be-a-sub-folder-for-each-69eb5a8d39/0001-there-will-be-a-sub-folder-for-each-991166c28f/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0018-there-will-be-a-folder-for-each-sample-f1fd0c2f86/0001-there-will-be-a-folder-for-each-sample-3bdde21252/translation.md>)
 
         - [x] [unit] 0002-each-of-those-will-use-the-following-conventions-ba9c902847: Each of those will use the following conventions:
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0018-there-will-be-a-sub-folder-for-each-69eb5a8d39/0002-each-of-those-will-use-the-following-conventions-ba9c902847/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0018-there-will-be-a-folder-for-each-sample-f1fd0c2f86/0002-each-of-those-will-use-the-following-conventions-ba9c902847/translation.md>)
 
-    - [x] [wrapper] 0019-there-will-be-a-sub-folder-for-each-fc16f2debf (2/2)
+    - [x] [wrapper] 0019-there-will-be-a-sub-folder-for-each-69eb5a8d39 (2/2)
 
-      [W] `0019-there-will-be-a-sub-folder-for-each-fc16f2debf`
+      [W] `0019-there-will-be-a-sub-folder-for-each-69eb5a8d39`
 
-        - [x] [unit] 0001-there-will-be-a-sub-folder-for-each-96c255b5a1: There will be a (sub)folder for each step in the analysis workflow.
+        - [x] [unit] 0001-there-will-be-a-sub-folder-for-each-5be1d02cca: There will be a (sub)folder for each (repeated) analysis.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0019-there-will-be-a-sub-folder-for-each-fc16f2debf/0001-there-will-be-a-sub-folder-for-each-96c255b5a1/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0019-there-will-be-a-sub-folder-for-each-69eb5a8d39/0001-there-will-be-a-sub-folder-for-each-5be1d02cca/translation.md>)
 
         - [x] [unit] 0002-each-of-those-will-use-the-following-conventions-bb5f8fcfeb: Each of those will use the following conventions:
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0019-there-will-be-a-sub-folder-for-each-fc16f2debf/0002-each-of-those-will-use-the-following-conventions-bb5f8fcfeb/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0019-there-will-be-a-sub-folder-for-each-69eb5a8d39/0002-each-of-those-will-use-the-following-conventions-bb5f8fcfeb/translation.md>)
 
-    - [x] [wrapper] 0020-we-will-use-a-filesystem-with-files-and-2dd55fa844 (1/1)
+    - [ ] [wrapper] 0020-there-will-be-a-sub-folder-for-each-fc16f2debf (1/2)
 
-      [W] `0020-we-will-use-a-filesystem-with-files-and-2dd55fa844`
+      [W] `0020-there-will-be-a-sub-folder-for-each-fc16f2debf`
 
-        - [x] [unit] 0001-we-will-use-a-filesystem-with-files-and-2751d50f92: We will use a filesystem with files and folders.
+        - [x] [unit] 0001-there-will-be-a-sub-folder-for-each-cd6337947e: There will be a (sub)folder for each step in the analysis workflow.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0020-we-will-use-a-filesystem-with-files-and-2dd55fa844/0001-we-will-use-a-filesystem-with-files-and-2751d50f92/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0020-there-will-be-a-sub-folder-for-each-fc16f2debf/0001-there-will-be-a-sub-folder-for-each-cd6337947e/translation.md>)
 
-    - [x] [wrapper] 0021-we-document-how-we-manage-file-versioning-for-daafa22282 (1/1)
+        - [ ] [unit] 0002-each-of-those-will-use-the-following-conventions-677f23a88c: Each of those will use the following conventions:
 
-      [W] `0021-we-document-how-we-manage-file-versioning-for-daafa22282`
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0020-there-will-be-a-sub-folder-for-each-fc16f2debf/0002-each-of-those-will-use-the-following-conventions-677f23a88c/translation.md>)
 
-        - [x] [unit] 0001-we-document-how-we-manage-file-versioning-for-809eeb9921: We document how we manage file versioning for files and folders.
+    - [x] [wrapper] 0021-we-will-use-a-filesystem-with-files-and-2dd55fa844 (1/1)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0021-we-document-how-we-manage-file-versioning-for-daafa22282/0001-we-document-how-we-manage-file-versioning-for-809eeb9921/translation.md>)
+      [W] `0021-we-will-use-a-filesystem-with-files-and-2dd55fa844`
 
-    - [x] [wrapper] 0022-file-naming-conventions-e28ce38d5f (1/1)
+        - [x] [unit] 0001-we-will-use-a-filesystem-with-files-and-14f29850e9: We will use a filesystem with files and folders.
 
-      [W] `0022-file-naming-conventions-e28ce38d5f`
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0021-we-will-use-a-filesystem-with-files-and-2dd55fa844/0001-we-will-use-a-filesystem-with-files-and-14f29850e9/translation.md>)
 
-        - [x] [unit] 0001-file-naming-conventions-ff5d91da84: File naming conventions:
+    - [x] [wrapper] 0022-we-document-how-we-manage-file-versioning-for-daafa22282 (1/1)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0022-file-naming-conventions-e28ce38d5f/0001-file-naming-conventions-ff5d91da84/translation.md>)
+      [W] `0022-we-document-how-we-manage-file-versioning-for-daafa22282`
 
-    - [x] [wrapper] 0023-we-will-not-be-storing-data-in-an-193cd92a23 (1/1)
+        - [x] [unit] 0001-we-document-how-we-manage-file-versioning-for-493fa6a39a: We document how we manage file versioning for files and folders.
 
-      [W] `0023-we-will-not-be-storing-data-in-an-193cd92a23`
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0022-we-document-how-we-manage-file-versioning-for-daafa22282/0001-we-document-how-we-manage-file-versioning-for-493fa6a39a/translation.md>)
 
-        - [x] [unit] 0001-we-will-not-be-storing-data-in-an-b95cbfc253: We will not be storing data in an "object/document store" system.
+    - [x] [wrapper] 0023-file-naming-conventions-e28ce38d5f (1/1)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0023-we-will-not-be-storing-data-in-an-193cd92a23/0001-we-will-not-be-storing-data-in-an-b95cbfc253/translation.md>)
+      [W] `0023-file-naming-conventions-e28ce38d5f`
 
-    - [x] [wrapper] 0024-we-will-be-storing-data-in-an-object-cb299a5bad (1/1)
+        - [x] [unit] 0001-file-naming-conventions-4a628fb857: File naming conventions:
 
-      [W] `0024-we-will-be-storing-data-in-an-object-cb299a5bad`
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0023-file-naming-conventions-e28ce38d5f/0001-file-naming-conventions-4a628fb857/translation.md>)
 
-        - [x] [unit] 0001-we-will-be-storing-data-in-an-object-a5124f972d: We will be storing data in an "object/document store" system.
+    - [x] [wrapper] 0024-we-will-not-be-storing-data-in-an-193cd92a23 (1/1)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0024-we-will-be-storing-data-in-an-object-cb299a5bad/0001-we-will-be-storing-data-in-an-object-a5124f972d/translation.md>)
+      [W] `0024-we-will-not-be-storing-data-in-an-193cd92a23`
 
-    - [x] [wrapper] 0025-object-naming-conventions-9a41126a40 (1/1)
+        - [x] [unit] 0001-we-will-not-be-storing-data-in-an-0df9915c85: We will not be storing data in an "object/document store" system.
 
-      [W] `0025-object-naming-conventions-9a41126a40`
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0024-we-will-not-be-storing-data-in-an-193cd92a23/0001-we-will-not-be-storing-data-in-an-0df9915c85/translation.md>)
 
-        - [x] [unit] 0001-object-naming-conventions-b5858881ee: Object naming conventions:
+    - [x] [wrapper] 0025-we-will-be-storing-data-in-an-object-cb299a5bad (1/1)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0025-object-naming-conventions-9a41126a40/0001-object-naming-conventions-b5858881ee/translation.md>)
+      [W] `0025-we-will-be-storing-data-in-an-object-cb299a5bad`
 
-    - [x] [wrapper] 0026-we-will-not-use-a-database-system-to-ec286e2c96 (1/1)
+        - [x] [unit] 0001-we-will-be-storing-data-in-an-object-c987a76c07: We will be storing data in an "object/document store" system.
 
-      [W] `0026-we-will-not-use-a-database-system-to-ec286e2c96`
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0025-we-will-be-storing-data-in-an-object-cb299a5bad/0001-we-will-be-storing-data-in-an-object-c987a76c07/translation.md>)
 
-        - [x] [unit] 0001-we-will-not-use-a-database-system-to-19cedb6a8d: We will not use a database system to store project data.
+    - [x] [wrapper] 0026-object-naming-conventions-9a41126a40 (1/1)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0026-we-will-not-use-a-database-system-to-ec286e2c96/0001-we-will-not-use-a-database-system-to-19cedb6a8d/translation.md>)
+      [W] `0026-object-naming-conventions-9a41126a40`
 
-    - [x] [wrapper] 0027-we-will-use-a-database-system-to-store-9ed0871bba (4/4)
+        - [x] [unit] 0001-object-naming-conventions-d546a8a181: Object naming conventions:
 
-      [W] `0027-we-will-use-a-database-system-to-store-9ed0871bba`
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0026-object-naming-conventions-9a41126a40/0001-object-naming-conventions-d546a8a181/translation.md>)
 
-        - [x] [unit] 0001-we-will-use-a-database-system-to-store-449477b75c: We will use a database system to store project data.
+    - [x] [wrapper] 0027-we-will-not-use-a-database-system-to-ec286e2c96 (1/1)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0027-we-will-use-a-database-system-to-store-9ed0871bba/0001-we-will-use-a-database-system-to-store-449477b75c/translation.md>)
+      [W] `0027-we-will-not-use-a-database-system-to-ec286e2c96`
 
-        - [x] [unit] 0002-data-in-the-database-will-be-read-only-eeb32fda66: Data in the database will be read-only.
+        - [x] [unit] 0001-we-will-not-use-a-database-system-to-c7949b4371: We will not use a database system to store project data.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0027-we-will-use-a-database-system-to-store-9ed0871bba/0002-data-in-the-database-will-be-read-only-eeb32fda66/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0027-we-will-not-use-a-database-system-to-ec286e2c96/0001-we-will-not-use-a-database-system-to-c7949b4371/translation.md>)
 
-        - [x] [unit] 0003-we-will-be-allowing-create-update-and-delete-b8ff2e2e5b: We will be allowing Create, Update and Delete operations for data in the database.
+    - [x] [wrapper] 0028-we-will-use-a-database-system-to-store-9ed0871bba (4/4)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0027-we-will-use-a-database-system-to-store-9ed0871bba/0003-we-will-be-allowing-create-update-and-delete-b8ff2e2e5b/translation.md>)
+      [W] `0028-we-will-use-a-database-system-to-store-9ed0871bba`
 
-        - [x] [unit] 0004-modifications-will-be-made-by-expiring-the-existing-84a8166a37: Modifications will be made by Expiring the existing data and Adding updated data.
+        - [x] [unit] 0001-we-will-use-a-database-system-to-store-73550707a5: We will use a database system to store project data.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0027-we-will-use-a-database-system-to-store-9ed0871bba/0004-modifications-will-be-made-by-expiring-the-existing-84a8166a37/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0028-we-will-use-a-database-system-to-store-9ed0871bba/0001-we-will-use-a-database-system-to-store-73550707a5/translation.md>)
 
-    - [x] [wrapper] 0028-this-document-does-not-yet-contain-an-answer-20362369f6 (1/1)
+        - [x] [unit] 0002-data-in-the-database-will-be-read-only-1cf5d759e5: Data in the database will be read-only.
 
-      [W] `0028-this-document-does-not-yet-contain-an-answer-20362369f6`
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0028-we-will-use-a-database-system-to-store-9ed0871bba/0002-data-in-the-database-will-be-read-only-1cf5d759e5/translation.md>)
 
-        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-8d1ccf701d: This document does not yet contain an answer about metadata and documentation.
+        - [x] [unit] 0003-we-will-be-allowing-create-update-and-delete-e364d2e824: We will be allowing Create, Update and Delete operations for data in the database.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0028-this-document-does-not-yet-contain-an-answer-20362369f6/0001-this-document-does-not-yet-contain-an-answer-8d1ccf701d/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0028-we-will-use-a-database-system-to-store-9ed0871bba/0003-we-will-be-allowing-create-update-and-delete-e364d2e824/translation.md>)
+
+        - [x] [unit] 0004-modifications-will-be-made-by-expiring-the-existing-89b9be5001: Modifications will be made by Expiring the existing data and Adding updated data.
+
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0028-we-will-use-a-database-system-to-store-9ed0871bba/0004-modifications-will-be-made-by-expiring-the-existing-89b9be5001/translation.md>)
+
+    - [x] [wrapper] 0029-this-document-does-not-yet-contain-an-answer-20362369f6 (1/1)
+
+      [W] `0029-this-document-does-not-yet-contain-an-answer-20362369f6`
+
+        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-4cdf7785d6: This document does not yet contain an answer about metadata and documentation.
+
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0029-this-document-does-not-yet-contain-an-answer-20362369f6/0001-this-document-does-not-yet-contain-an-answer-4cdf7785d6/translation.md>)
 
 - [x] [file] src/questions/04-quality-control.html.j2 (2/2)
 

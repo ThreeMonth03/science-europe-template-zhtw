@@ -1,4 +1,6 @@
 {
+  "We estimate the storage space that the project will require for all data and software (including temporary storage) to be {size} gigabytes.": "預估計畫所有資料與軟體（含暫存空間）所需的儲存容量為 {size} GB。",
+  "Information not provided: the estimated storage space for all project data and software, including temporary storage (GB).": "尚待補充：計畫所有資料與軟體（含暫存空間）所需的預估儲存容量（GB）。",
   "Preservation destinations by distribution:": "各資料提供管道的保存位置：",
   "Distribution {loop.index}:": "資料提供管道 {loop.index}：",
   "The repository for this distribution has not been specified.": "尚未說明此管道將使用哪個資料儲存庫。",
