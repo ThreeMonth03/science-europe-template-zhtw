@@ -106,4 +106,4 @@ jobs:
       - name: State acceptance boundary
         run: |
           echo 'Build checks do not establish full DMP, PDF or Microsoft Word acceptance. See docs/pilot-results.md.' >> "$GITHUB_STEP_SUMMARY"
-          echo 'Known 0.3.34 native visual failure: metadata-partial Chinese Word still splits Q5 policy/limitations. See docs/storage-context-pagination.md.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Historic 0.3.34 Q5 failure is retained. The bounded 0.3.35 native fix and its remaining acceptance limits are documented in docs/q5-word-join.md.' >> "$GITHUB_STEP_SUMMARY"

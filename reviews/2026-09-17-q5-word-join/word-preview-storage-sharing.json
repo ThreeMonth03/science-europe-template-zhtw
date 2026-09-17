@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "storage-sharing-english",
+      "docx_sha256": "9ab046ea9f0536256c3d4defc92533d66e763b44122b9c4152f93ad562ed1fd6",
+      "preview_sha256": "4cfb18f78f3eb17a118374edd55d4bf775b66d3a8886e9b4f798a9165d341dcf"
+    },
+    {
+      "name": "storage-sharing-chinese",
+      "docx_sha256": "056488bc74a724339a875ba913ec84cc7aebe12b92968b09823bfde39a3720cf",
+      "preview_sha256": "72cc0d2301f064056d4639f9fec4c4513521bb06cb5caffd1f7e3ccc9e3837b1"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

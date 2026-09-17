@@ -1,0 +1,199 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "plain",
+      "selected": true,
+      "joined_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "chinese",
+      "selected": true,
+      "joined_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "ascii-851",
+      "selected": true,
+      "joined_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "ascii-852",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "ascii-3000",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-200",
+      "selected": true,
+      "joined_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "cjk-450",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-1500",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "missing",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "unknown-fact",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "style",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "link",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "strong",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "break",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "extra",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "archive",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "authored",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "other-question",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "missing-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "punctuation",
+      "selected": true,
+      "joined_pairs": 1,
+      "passed": true
+    },
+    {
+      "case": "ascii-852-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "ascii-3000-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-450-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-1500-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "link-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "strong-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "break-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "extra-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-forged-hint",
+      "selected": false,
+      "joined_pairs": 0,
+      "passed": true
+    },
+    {
+      "case": "multiple-owned-policy-facts",
+      "selected": true,
+      "joined_pairs": 1,
+      "passed": true
+    }
+  ],
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "afb3bca0f53f3ba507a3771ec4ee196caa92655c66156182ef107ad1b12e08f1",
+  "contract_sha256": "e00989f0999c95f03ae1367f3e84c08c9b70009350fac075090b8e4d2f8ef064",
+  "lua_sha256": "5e56225e829c510e52539fc0c5a64e556ac4cd02205a92ffa7958e98f952a35d",
+  "limits": [
+    "Pinned AST/DOCX structure only; native PDF/Word and Microsoft Word acceptance remain separate"
+  ]
+}

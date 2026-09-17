@@ -1,0 +1,15 @@
+{
+  "before": {
+    "image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+    "started": "2026-09-17T06:40:45.124694849Z",
+    "restarts": 0,
+    "running": true
+  },
+  "after": {
+    "image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+    "started": "2026-09-17T06:40:45.124694849Z",
+    "restarts": 0,
+    "running": true
+  },
+  "same_worker_before_and_after": true
+}

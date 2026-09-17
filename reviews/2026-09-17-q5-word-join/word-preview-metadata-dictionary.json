@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "metadata-dictionary-english",
+      "docx_sha256": "404d3d009e62ace44b0da5449a8c817b57e4980af7391a2a3c17ca9c555205cc",
+      "preview_sha256": "6bfa127c107bac9bb01e593224ddfa144b6f02579785ffa2e6e07c4bf039ed39"
+    },
+    {
+      "name": "metadata-dictionary-chinese",
+      "docx_sha256": "3345de943aabe5a73152e07e85ecd3143fef9413b70aa8431d17ef680cabd52a",
+      "preview_sha256": "e9d3250ece55cfeec2bd925223554ebb2db12577b0a2405540058a98ce9da51f"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}
