@@ -15,6 +15,10 @@ Word Lua 或參考 DOCX。DC／DataCite／DDI／關鍵字／W3C PROV 的明確�
 空白字串、未知選項、明確否定及自填區塊；不能以單元測試取代成品驗收。
 Word 預覽使用 LibreOffice，不等於 Microsoft Word 驗收。
 
+[實際樣張與限定結果](../reviews/2026-09-17-metadata-followups/README.md)已保存。
+本輪內容檢查通過，但新增提示造成 3 個中文 Q5 回答／限制說明分離反例，
+需於下一輪單獨修正分頁；不可宣稱整份版面已驗收。
+
 兩個 repo 都使用短期 `fix/q3-metadata-followups` 分支。`pipeline.yml` 鎖定
 英文完整 commit，不各自維護一份中文 Jinja。之後的 upstream 升級另開
 升級分支，先做來源／KM／譯文與樣張比較，再更新中文鎖定點；不在本輪混入。

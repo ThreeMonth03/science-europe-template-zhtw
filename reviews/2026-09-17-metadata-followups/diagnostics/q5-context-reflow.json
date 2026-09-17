@@ -1,0 +1,1601 @@
+{
+  "measurement_completed": true,
+  "release_acceptance": false,
+  "checker_sha256": "ea1a55255a14e1dbd222223f6affe62ca47a6de107ce2c8a77050d0d6a6dd108",
+  "new_separations": 3,
+  "rows": [
+    {
+      "case": "metadata-dictionary",
+      "language": "english",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "22060dd987e4ab3573a27d730d73bcd0db2f941b7a18084a6e6118b37a48231e",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "217c6bb959e0117d56c4ae9b4b9e5cc562e3abbae5cd83cc4c213c0a1b926628",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-dictionary",
+      "language": "english",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "5e7c6cb92983e0a6a970da8fa6e927088d54915ccf105857e42e5b66400036a7",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "eccb55cf2d9d6fecc395bb1c869c8823d1f7d7ba2ea94efeb9067986ecc091bb",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-dictionary",
+      "language": "chinese",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "6cde7ca55fcd49374ce5d7e282c7c58999116e1ae91d07e8189050818a1a293a",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "559489246d395e6138d3a3438ed443e4c6d7ffe6ac03b1a339eee6014af0ee27",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-dictionary",
+      "language": "chinese",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "a5b606dcbf01afe9bec66c77d95045f8b4068f791eddb76b8269f8fe3769e933",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "56e79997109f0cb18c7aa5727b2d25cdbabd1a1634de181433d040929429988f",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-dictionary-no",
+      "language": "english",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "7814b9023592ebba7ee6da1856eba1f00dcdde41700b869513725a7b99f3c368",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "dd274ebaeccc7788f120dfaf6e6949e4dec4a08b22979b90341dd97fbb17bf6c",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-dictionary-no",
+      "language": "english",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "117a20eacaeb264939ce55b160c86617aec63e5f7d45e23c80c2c378640bce2e",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "6ece2af787959f7044ed3da945d95ae50b080a75bc03cfc93e4116063bd52ef8",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-dictionary-no",
+      "language": "chinese",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "833f8c95c40c665bc6a608413f2283e7a17b53dd6b9803fba320a33a01c5165c",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "bddfa77aac7670c9e747722690a0c142b8bb3a769112f381330a49ef6173e01a",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-dictionary-no",
+      "language": "chinese",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "4d581c0adf72bbbd3092e877889d895214cdfc4b82ac12f2a1312158c7a6a899",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "ca0982ddf970728380b31841befa73ddc24a0da5dfd34581847c07e6d3dd51c3",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-partial",
+      "language": "english",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "aec3d3ecc35d5fb972e6a77e682ac13a49c7f31dd14f72f4a451f9751e3ade0b",
+        "locations": {
+          "heading": [
+            4
+          ],
+          "policy": [
+            4
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "2e6c0290087dad5505ca7eeb1ce933f9d459da6c4bf9a12524802874e2fbf41c",
+        "locations": {
+          "heading": [
+            4
+          ],
+          "policy": [
+            4
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-partial",
+      "language": "english",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "3de0d202f04b764a0798371370fa52303a082460cde34d52a79452cca30ab36b",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "d6fa07bc3a7fa172e4600ddd55f077ae079283c674fbdf150a48625aed7e4aa9",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-partial",
+      "language": "chinese",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "6e6ac00eaf554f6448732452aa9d377c741626ade9b8c685ce86c8c034289a4c",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "0dfcfaa8cf2673a90dd153993c80dc424ff4552daea6444ef33674dbc9af26b6",
+        "locations": {
+          "heading": [
+            4
+          ],
+          "policy": [
+            4
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-partial",
+      "language": "chinese",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "ddb75f066b367ae90a89605e9d6b87276a26fffaae35073f5175b36db04ed34b",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "bad44984fa421ebb765fadc4bd2a52689866269076dbeb52e717ca0c46024ed1",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": false
+      },
+      "new_separation": true
+    },
+    {
+      "case": "metadata-private",
+      "language": "english",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "ac5c9d614abb38734fa969fdef016c759a12c66c0202c1fd0b15bc2c35ff864e",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": false
+      },
+      "after": {
+        "pdf_sha256": "7eca5b5a0de8c058a64aaa81b48424e1f8d527559e6f8cce0761ca25f7d58d0f",
+        "locations": {
+          "heading": [
+            4
+          ],
+          "policy": [
+            4
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-private",
+      "language": "english",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "4703e2584ff9b8b852915f985373573e4f0450ca55a707c6652ae8d4013bd510",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "1d63cb21b60bf7bfec0017cc56ecad2e7dfc12ed8fb6d3a2cf0db087c71bcc70",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-private",
+      "language": "chinese",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "6163c22b2453193fdf12323d35b549bace37f1abed820d59677dccb7676a6525",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "92e2136d0bebe452f38c1b348ddc34f8085f022a5392c3d012da71d34a5b4d2b",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": false
+      },
+      "new_separation": true
+    },
+    {
+      "case": "metadata-private",
+      "language": "chinese",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "5190a3a4f5e49632866b1639dc87e40fea5996647f9eafe2c6721832b0a10fc4",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "7ea1198cee1ac65e8040f125e7f6cfd3c29be71a651cfaf20e7efb858e8bcf69",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": false
+      },
+      "new_separation": true
+    },
+    {
+      "case": "metadata-private-text",
+      "language": "english",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "9517874a2db8ca9c72611a3404fb8a42daaada4c20bf0fdd9521bdcc7905cb8e",
+        "locations": {
+          "heading": [
+            4
+          ],
+          "policy": [
+            4
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "513375adc371626f25d09b960c831ca481bc4071105e0aab90a1c282e20e4cb9",
+        "locations": {
+          "heading": [
+            4
+          ],
+          "policy": [
+            4
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-private-text",
+      "language": "english",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "1264aff66078bd4f2abdfd39ab049d939ef613de65ba3388a41b181713ba5930",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "e508de848d80e444f9e307b62b2a1175b74e217ffc8fb2f04f944b11fd7a8d1e",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-private-text",
+      "language": "chinese",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "544a9cda36d27f683a46e722c8750d7eaaaf9a0100ccf1a357e45c06e259b558",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": false
+      },
+      "after": {
+        "pdf_sha256": "c671e2b2abb6ac08bc031bb51cb470ed7b72111a68b4e1bb314e1d6c031f0d85",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": false
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-private-text",
+      "language": "chinese",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "5ecc6b4b9be46c8b48868804b7854bf7987599b1ca445a722e08c7809dd3a84e",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": false
+      },
+      "after": {
+        "pdf_sha256": "a9ac7ead21bbc6ccdecf3f2f98e7315588ccef2ed6ad811e1ae1c2f2edfd518c",
+        "locations": {
+          "heading": [
+            4
+          ],
+          "policy": [
+            4
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-complete",
+      "language": "english",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "73bbf7186c46aec961e269e9157f81941d07418238887efd532fd98e839a9577",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": false
+      },
+      "after": {
+        "pdf_sha256": "f4dcfd34343a1d7f0b8e10f087ea209a4e34df6538d6d9351137433cdc61f0cc",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            4
+          ],
+          "storage-location": [
+            4
+          ],
+          "backup-frequency": [
+            4
+          ]
+        },
+        "together": false
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-complete",
+      "language": "english",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "13524d40f4ed3c8e770fcb8979983f319749f5a3b49c3075b7e3f557ddf1468c",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "2efcc0c7bca2cdb0495c0744af4d5cecdc05a1d3e65197e6d6c2455922816fea",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-complete",
+      "language": "chinese",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "b0df6f5ce04b98ff499fd622bcd94052808fdde7169cf4cd12cb21a2345e8c08",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "6cc76b97ce837e284a2d3172e2a89e30e6bf22764e629f59dbdcea1c8a176d99",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "metadata-complete",
+      "language": "chinese",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "30f77d5bf66406f6e4e04a87f7bd70d05494cc3e67fdaa6a5dc1d47e6365ece3",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "ba4cda9f7f986d770d2634fcd20061b09e33466adc0661519f0764820350a18d",
+        "locations": {
+          "heading": [
+            3
+          ],
+          "policy": [
+            3
+          ],
+          "limitations-intro": [
+            3
+          ],
+          "storage-location": [
+            3
+          ],
+          "backup-frequency": [
+            3
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "8d54f3acf608cdb9fc06dd059a0a3376530384bc3cebf0c4f3949bdc1712f4bd",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "33713eb002c503b159d61cdf277c8644abf3cec47ed7e93bcf8620c8208a2037",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "2a9547a64a291a337af81abd5f0137e2a1dd64802b5c69af078c53bed9b0090a",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "0150e5e2456918b9b45567b8446f08dbc60a12346f69967c1647d87bbf5779c9",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "a53016134f63521d9db9c264dc76f7fb9b933a1ada977aaa022cabec4a528a0f",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "ff852f4da84ecce4bb73787be24d1e7fa9e83c308921aa1cda475e0c4970ec47",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "e8ba37f3e0114128b9bf46af639e4f1c61be686657362c1a2cb4c383468b0e9d",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "7e07f04adf79b5d005b113aa61da2d5367b080d2421653fc57f94cc2f17024c9",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "ba52c5bb5827c66aaf07678550514e929b8db213380f4c591f2498565237d24b",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "ca0509c9052a06ca6d846b2b6f130f406f4bb216c8e31db21ee8fa350814228d",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "negative",
+      "language": "english",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "3cf25fc3fa09e1b228e4c649dc7e0028f3cbeb1a62c1914c2992e40adc064174",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "5e59c98d2b849d757becc47e79ca5410ff782c5e5dadeb03f6364500549abc79",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "format": "pdf",
+      "before": {
+        "pdf_sha256": "f9023ee4cfd95f200f9f887ea01548275038a1fa329b90d51eafc58af2b2418b",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "1a5a3f5e2cae99a0209258c24e220e3659b84ce1ac6115b4159125c2bb332851",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    },
+    {
+      "case": "negative",
+      "language": "chinese",
+      "format": "word",
+      "before": {
+        "pdf_sha256": "3f4ce199ca673c0258fe4bd4b79ccf14661e3869cbe230fd0f1d4b67964f2050",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "after": {
+        "pdf_sha256": "039624e19b3fa7a47b96ff9c17a2b983f0bb08093d8e27935872d83a712afe68",
+        "locations": {
+          "heading": [
+            2
+          ],
+          "policy": [
+            2
+          ],
+          "limitations-intro": [
+            2
+          ],
+          "storage-location": [
+            2
+          ],
+          "backup-frequency": [
+            2
+          ]
+        },
+        "together": true
+      },
+      "new_separation": false
+    }
+  ],
+  "captures": [
+    {
+      "image": "before-word-metadata-partial-chinese-q5-page3.png",
+      "image_sha256": "98f56df6d94a13f920eb1078d176a79691a25b45f5200a1ef932023d73a90417",
+      "pdf_sha256": "ddb75f066b367ae90a89605e9d6b87276a26fffaae35073f5175b36db04ed34b",
+      "page": 3
+    },
+    {
+      "image": "after-word-metadata-partial-chinese-q5-page3.png",
+      "image_sha256": "6ac20e2737b6d3121db70b5cf58a88a94b24d585a707ab18a950fa55ae2a9770",
+      "pdf_sha256": "bad44984fa421ebb765fadc4bd2a52689866269076dbeb52e717ca0c46024ed1",
+      "page": 3
+    },
+    {
+      "image": "after-word-metadata-partial-chinese-q5-page4.png",
+      "image_sha256": "cb3185009eca7fc914ea10d2c7527f663dbe2705c656840e8fed080dd4ec06b3",
+      "pdf_sha256": "bad44984fa421ebb765fadc4bd2a52689866269076dbeb52e717ca0c46024ed1",
+      "page": 4
+    },
+    {
+      "image": "before-pdf-metadata-private-chinese-q5-page3.png",
+      "image_sha256": "74708b145b3be084eeb756a74944733328e3098048fab7fd8693148c46ac8eff",
+      "pdf_sha256": "6163c22b2453193fdf12323d35b549bace37f1abed820d59677dccb7676a6525",
+      "page": 3
+    },
+    {
+      "image": "after-pdf-metadata-private-chinese-q5-page3.png",
+      "image_sha256": "1864851cd30072940c40b1cbccf2f44702c56a0dbd3294b0ef3f3d1dd384d086",
+      "pdf_sha256": "92e2136d0bebe452f38c1b348ddc34f8085f022a5392c3d012da71d34a5b4d2b",
+      "page": 3
+    },
+    {
+      "image": "after-pdf-metadata-private-chinese-q5-page4.png",
+      "image_sha256": "5e8f8f8498158cefde80c4b1527ef170da962348963a65ee4f1ca422b552fe61",
+      "pdf_sha256": "92e2136d0bebe452f38c1b348ddc34f8085f022a5392c3d012da71d34a5b4d2b",
+      "page": 4
+    },
+    {
+      "image": "before-word-metadata-private-chinese-q5-page3.png",
+      "image_sha256": "718a6dfec3eb199a4c95e42832b7802e0791bdd30b69449233d5db23242ce736",
+      "pdf_sha256": "5190a3a4f5e49632866b1639dc87e40fea5996647f9eafe2c6721832b0a10fc4",
+      "page": 3
+    },
+    {
+      "image": "after-word-metadata-private-chinese-q5-page3.png",
+      "image_sha256": "a8161a28e3154744ffff37eb67e25283b6912caf900641c99582e7788130060b",
+      "pdf_sha256": "7ea1198cee1ac65e8040f125e7f6cfd3c29be71a651cfaf20e7efb858e8bcf69",
+      "page": 3
+    },
+    {
+      "image": "after-word-metadata-private-chinese-q5-page4.png",
+      "image_sha256": "2cb5b43abbecd9092ff832fa40b6cfae0e05c9ed330b555a48764c66c387cc28",
+      "pdf_sha256": "7ea1198cee1ac65e8040f125e7f6cfd3c29be71a651cfaf20e7efb858e8bcf69",
+      "page": 4
+    }
+  ],
+  "next_action": "Separate bounded Q5 context/limitation pagination fix; do not globally forbid page breaks or reduce font sizes."
+}

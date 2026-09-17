@@ -1,0 +1,89 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "metadata-dictionary-english",
+      "docx_sha256": "1ab33c275d22695d798db6764e3cc093a9803f835bafe37b8dd01af5ef02ad8e",
+      "preview_sha256": "5e7c6cb92983e0a6a970da8fa6e927088d54915ccf105857e42e5b66400036a7"
+    },
+    {
+      "name": "metadata-dictionary-chinese",
+      "docx_sha256": "4b855ff124384cd428a25bb22cf14a2f20bb8e9ba0926792c3195318071fb366",
+      "preview_sha256": "a5b606dcbf01afe9bec66c77d95045f8b4068f791eddb76b8269f8fe3769e933"
+    },
+    {
+      "name": "metadata-dictionary-no-english",
+      "docx_sha256": "a2cfb2b08fa293189e54d552bec9409d48a7fb3065f8389d37911e73994c2b25",
+      "preview_sha256": "117a20eacaeb264939ce55b160c86617aec63e5f7d45e23c80c2c378640bce2e"
+    },
+    {
+      "name": "metadata-dictionary-no-chinese",
+      "docx_sha256": "5a2663a331c673a1f27d2414b6098d8e89e0ee2c66555d2f750515e32fe724ca",
+      "preview_sha256": "4d581c0adf72bbbd3092e877889d895214cdfc4b82ac12f2a1312158c7a6a899"
+    },
+    {
+      "name": "metadata-partial-english",
+      "docx_sha256": "6f07d2e71fe443ff9a7ce89bf21306a2df2c65c50a8d55371daa9e06027f36fa",
+      "preview_sha256": "3de0d202f04b764a0798371370fa52303a082460cde34d52a79452cca30ab36b"
+    },
+    {
+      "name": "metadata-partial-chinese",
+      "docx_sha256": "764ac8e08f4b5b311fefb43c9a333d793af370a666e3fcd188fa9a4f3a3fbfbe",
+      "preview_sha256": "ddb75f066b367ae90a89605e9d6b87276a26fffaae35073f5175b36db04ed34b"
+    },
+    {
+      "name": "metadata-private-english",
+      "docx_sha256": "d1db9d64f9deba2107853b6e975e7ab00e7295c2aae17e33c2f0eb29af473d8d",
+      "preview_sha256": "4703e2584ff9b8b852915f985373573e4f0450ca55a707c6652ae8d4013bd510"
+    },
+    {
+      "name": "metadata-private-chinese",
+      "docx_sha256": "990d1201cb498f15fefe44946c2036e6ea8b199ddb2e1796c5abf5ed58ec2032",
+      "preview_sha256": "5190a3a4f5e49632866b1639dc87e40fea5996647f9eafe2c6721832b0a10fc4"
+    },
+    {
+      "name": "metadata-private-text-english",
+      "docx_sha256": "96372572f0601b1abcecb7916f5111ab8d52d6f37a8c41af3a182ec1a3f9f09a",
+      "preview_sha256": "1264aff66078bd4f2abdfd39ab049d939ef613de65ba3388a41b181713ba5930"
+    },
+    {
+      "name": "metadata-private-text-chinese",
+      "docx_sha256": "5a2b45b754eb982de7f6d2f091f47b226021da2371a47162f3b6095ce3ad23f6",
+      "preview_sha256": "5ecc6b4b9be46c8b48868804b7854bf7987599b1ca445a722e08c7809dd3a84e"
+    },
+    {
+      "name": "metadata-complete-english",
+      "docx_sha256": "7d81c99b9e9c98242151d8f99a1b8fef850718e95fb50bcce2116eff651275fd",
+      "preview_sha256": "13524d40f4ed3c8e770fcb8979983f319749f5a3b49c3075b7e3f557ddf1468c"
+    },
+    {
+      "name": "metadata-complete-chinese",
+      "docx_sha256": "b877e9a65f3f727bfe689e7d680a2e73a2a53ffbdbd3826bcc3b4420b00b9bcc",
+      "preview_sha256": "30f77d5bf66406f6e4e04a87f7bd70d05494cc3e67fdaa6a5dc1d47e6365ece3"
+    },
+    {
+      "name": "empty-english",
+      "docx_sha256": "85395790792098f51ee4a76baa7068c2ba5943e162df757f107204419e68d7b9",
+      "preview_sha256": "2a9547a64a291a337af81abd5f0137e2a1dd64802b5c69af078c53bed9b0090a"
+    },
+    {
+      "name": "empty-chinese",
+      "docx_sha256": "1ec45913a6b843c3f85684843dda778664081bc0a8eb4dda1de0cb4525883e07",
+      "preview_sha256": "e8ba37f3e0114128b9bf46af639e4f1c61be686657362c1a2cb4c383468b0e9d"
+    },
+    {
+      "name": "negative-english",
+      "docx_sha256": "3629fffed7e83c208fa730187a4325a2dfebfdbc2f65ef35f0783d53142c3636",
+      "preview_sha256": "3cf25fc3fa09e1b228e4c649dc7e0028f3cbeb1a62c1914c2992e40adc064174"
+    },
+    {
+      "name": "negative-chinese",
+      "docx_sha256": "9433a75fbdf890061b75b9bd5540adf85548ff3b93d9f18c125efc3045223240",
+      "preview_sha256": "3f4ce199ca673c0258fe4bd4b79ccf14661e3869cbe230fd0f1d4b67964f2050"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}
