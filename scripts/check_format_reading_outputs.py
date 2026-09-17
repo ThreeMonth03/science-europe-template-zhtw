@@ -6,14 +6,16 @@ from pathlib import Path
 import subprocess
 import sys
 import zipfile
+from collections import Counter
 from bs4 import BeautifulSoup
 from docx import Document
 from docx.oxml.ns import qn
 from docx.text.paragraph import Paragraph
+from lxml import etree
 from artifact_utils import sha
 from check_budget_outputs import body,xml
 from check_budget_spacing_outputs import pdf_raw_page_texts,line_box_overlaps
-from check_identifier_concise_outputs import formatted_characters,verified_list_suffixes
+from check_identifier_concise_outputs import formatted_characters
 from check_archive_gap_outputs import body_geometry
 from check_narrative_outputs import compact
 from check_short_budget_outputs import question_pages
@@ -23,6 +25,28 @@ from compare_runtime_outputs import markers
 import check_format_outputs as formats
 
 CASES=['format-rich','format-partial','format-reading','empty','negative']
+
+
+def verified_format_markers(pages,bbox,soup,start):
+    """Permit only mixed •/◦ page suffixes bound to actual list text and indents."""
+    glyphs='•◦'
+    assert not any(c in soup.get_text() for c in glyphs),'Authored marker characters need a different oracle'
+    nodes=etree.fromstring(bbox).findall('.//{*}page');assert len(nodes)==len(pages)
+    assert 0<=start<len(pages)
+    clean=[];signatures=Counter()
+    for index,(page,node) in enumerate(zip(pages,nodes)):
+        if index<start:clean.append(page);continue
+        text=page.rstrip(glyphs);suffix=page[len(text):]
+        assert not any(c in text for c in glyphs),'Only generated page suffixes are admitted'
+        words=[w for w in node.findall('.//{*}word') if w.text in glyphs]
+        assert Counter(suffix)==Counter(w.text for w in words),'Marker count/type changed'
+        for word in words:
+            line=word.getparent();assert etree.QName(line).localname=='line'
+            value=compact(''.join(line.itertext()))
+            assert value.startswith(word.text) and len(value)>1 and sum(value.count(c) for c in glyphs)==1
+            signatures[(value,round(float(word.get('xMin')),3))]+=1
+        clean.append(text)
+    return clean,signatures
 
 
 def word_delta(before,after,pairs):
@@ -63,7 +87,7 @@ def pdf_delta(old,new,before,after,pairs):
     for texts,bbox,soup in zip(pages,boxes,soups):
         heading=compact(soup.select_one('#q-what-data h3').get_text())
         start=next(i for i,t in enumerate(texts) if heading in t)
-        clean,markers=verified_list_suffixes(texts,bbox,soup,start)
+        clean,markers=verified_format_markers(texts,bbox,soup,start)
         cleaned.append(''.join(question_pages(clean,soup)));bullets.append(markers)
     assert bullets[0]==bullets[1],'Generated list marker text or indent changed'
     h2=compact(before.select_one('#q-what-data h3').get_text())
@@ -88,6 +112,9 @@ def main():
     missing.HERE=a.english.resolve()
     report={'selected_checks_passed':False,'release_acceptance':False,'rows':[],
         'checker_sha256':sha(Path(__file__)),'contract_sha256':sha(a.english/'scripts/format_reading_contract.py'),
+        'helper_sha256':{n:sha(Path(__file__).with_name(n)) for n in ['check_budget_outputs.py','check_budget_spacing_outputs.py',
+            'check_identifier_concise_outputs.py','check_archive_gap_outputs.py','check_narrative_outputs.py','check_short_budget_outputs.py',
+            'check_word_rhythm_outputs.py','check_word_short_budget_outputs.py','compare_runtime_outputs.py','check_format_outputs.py','check_missing_info_outputs.py']},
         'package_sha256':{n:sha(a.build/n) for n in ['english.zip','chinese.zip']},
         'limits':['Five synthetic cases per language, not all questionnaire combinations',
                   'PDF comparison normalizes whitespace; exact HTML and editable Word separately preserve punctuation and authored spacing',
