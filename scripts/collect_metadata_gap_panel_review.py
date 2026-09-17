@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    for name in ('build', 'prior', 'candidate', 'rebuild', 'english', 'readme', 'output'):
+    for name in ('build', 'prior', 'candidate', 'rebuild', 'english', 'failed', 'readme', 'output'):
         parser.add_argument('--' + name, type=Path, required=True)
     args = parser.parse_args()
     assert not args.output.exists()
@@ -40,6 +40,13 @@ def main():
     assert json.loads((args.build / 'runtime-restoration.json').read_text())['restored_stock_and_stopped']
     for name, digest in proof['package_sha256'].items():
         assert sha(args.build / name) == sha(args.candidate / name) == sha(args.rebuild / name) == digest
+    failure = json.loads((args.failed / 'runtime-failure.json').read_text())
+    assert not failure['passed'] and failure['successful_renders'] == 17
+    assert failure['package_sha256'] == proof['package_sha256']
+    assert failure['render_report_sha256'] == sha(args.failed / 'missing-info-render-report.json')
+    failed_cleanup = json.loads((args.failed / 'owned-test-template-cleanup.json').read_text())
+    assert failed_cleanup['failed_run_explicitly_acknowledged'] and not failed_cleanup['run_completed_successfully']
+    assert len(failed_cleanup['deleted']) == 2 and failed_cleanup['project_references'] == failed_cleanup['document_references'] == 0
 
     def copy(source, relative):
         target = args.output / relative
@@ -68,6 +75,15 @@ def main():
         copy(args.build / name, name)
     for source in args.build.glob('word-preview-*.json'):
         copy(source, source.name)
+    for name in ('runtime-failure.json', 'missing-info-render-report.json', 'owned-test-template-cleanup.json', 'manifest.json', 'worker-start.json', 'capture-failure.py'):
+        copy(args.failed / name, 'failed-attempt/' + name)
+    early = args.failed / 'diagnostics/early-word-preview'
+    for source in early.iterdir():
+        copy(source, 'failed-attempt/early-preview/' + source.name)
+    original_runner = subprocess.check_output(['git', '-C', str(ROOT), 'show', 'ac8d198:scripts/render.py'])
+    import hashlib
+    assert hashlib.sha256(original_runner).hexdigest() == failure['original_render_runner_sha256']
+    (args.output / 'failed-attempt/render-original.py').write_bytes(original_runner)
     for name in ('storage-context-scope.json', 'metadata-gap-panel-engine-en.json', 'metadata-gap-panel-engine-zh.json'):
         assert json.loads((args.candidate / name).read_text())['passed']
         copy(args.candidate / name, 'probes/' + name)
@@ -77,7 +93,7 @@ def main():
         copy(args.candidate / folder / 'src/layout.css', 'source/' + folder + '/layout.css')
     for name in ('metadata_gap_panel_contract.py', 'probe_metadata_gap_panel.py'):
         copy(args.english / 'scripts' / name, 'reproduce/' + name)
-    for name in ('check_metadata_gap_panel_outputs.py', 'collect_metadata_gap_panel_review.py', 'check_unchanged_control_pixels.py', 'probe_storage_context_scope.py'):
+    for name in ('check_metadata_gap_panel_outputs.py', 'collect_metadata_gap_panel_review.py', 'check_unchanged_control_pixels.py', 'probe_storage_context_scope.py', 'render.py', 'run_missing_info.py', 'cleanup_owned_runtime_templates.py'):
         copy(ROOT / 'scripts' / name, 'reproduce/' + name)
     copy(ROOT / 'pipeline.yml', 'reproduce/pipeline.yml')
     copy(args.readme, 'README.md')
