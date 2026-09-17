@@ -98,5 +98,9 @@ jobs:
             zh/outputs/build-*/*.zip
             zh/outputs/build-*/manifest.json
             zh/outputs/build-*/*audit.json
+            zh/outputs/build-*/storage-context-*.json
+            zh/outputs/build-*/identifier-spacing-engine.json
       - name: State acceptance boundary
-        run: echo 'Build checks do not establish full DMP, PDF or Microsoft Word acceptance. See docs/pilot-results.md.' >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          echo 'Build checks do not establish full DMP, PDF or Microsoft Word acceptance. See docs/pilot-results.md.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Known 0.3.34 native visual failure: metadata-partial Chinese Word still splits Q5 policy/limitations. See docs/storage-context-pagination.md.' >> "$GITHUB_STEP_SUMMARY"

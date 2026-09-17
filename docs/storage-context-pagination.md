@@ -16,3 +16,17 @@ Word 端獨立驗證可保留的結構／長度；兩層均有正反例測試。
 兩個 repo 的短期分支均為 `fix/q5-context-pagination`。不新增中文 Jinja 分支。
 樣張需另經原生 PDF／DOCX 及 LibreOffice 預覽驗證；不是 Microsoft Word 或
 整份 Science Europe DMP 的正式驗收。不合併 upstream、不上傳正式站或發版。
+
+## 實測結論：部分改善，仍有失敗
+
+十組中英文案例、前後共 120 份原生輸出及 40 份 LibreOffice Word 預覽，
+全文保留且所有文件頁數不變。四處跨頁改善：中文不公開原因漏填 PDF／Word、
+中文已填不公開原因 PDF、英文後設資料完整 PDF。
+
+但 `metadata-partial` 中文 Word 仍將工作區政策與限制說明分在第 3／4 頁，
+原生檢查明確回傳非零狀態；不能把引擎或 CI 通過當作版面驗收。
+四種在副本直接加入連頁／段內不分頁設定的診斷也未解除，不採用為修正。
+下一步先縮減這份 Word 反例，驗證實際排版行為，再決定模板規則；
+不先擴大共用樣式、不塞固定換頁，也不改動回答補救。
+
+詳見[前後成品與失敗證據](../reviews/2026-09-17-storage-context-pagination/README.md)。
