@@ -1,0 +1,59 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "format-rich-english",
+      "docx_sha256": "5027c487f4a72c0bf731076f232a69d879ef374394d64ebaf7c2555067b45968",
+      "preview_sha256": "bf913d9c70632ccfdf49e62de5618815f5cbb6b94352a8fe1cd180af329c1c9f"
+    },
+    {
+      "name": "format-rich-chinese",
+      "docx_sha256": "1154c83d2824597155514680663ee1f8a301b68a64a896bb370da0eab79cea51",
+      "preview_sha256": "3da8c2294d0cceff2b41afef22fcc5e1d5eb634a17522aff7d42fcefcc468cf5"
+    },
+    {
+      "name": "format-partial-english",
+      "docx_sha256": "60387f769b64db7dd948cd467ce33c1d3716e56312f76106e54c8ba7ac8a9a87",
+      "preview_sha256": "07378af076e771db8d31ee43c57499be9f71f723e36f8d3b7209bcd5dc05ee1a"
+    },
+    {
+      "name": "format-partial-chinese",
+      "docx_sha256": "dab3215858f168710017ed8928a92f1cd5c2cad527b37093b411fdcd15fcb120",
+      "preview_sha256": "00e598e7db2b02185a6ab1d9765dd559f9ee2fabde7c471bc224b9c4027045ed"
+    },
+    {
+      "name": "format-reading-english",
+      "docx_sha256": "4168a2522bcb69589994a58e8d514e02d0b40f88ab20c79dc021928b49f21dcb",
+      "preview_sha256": "26d22091cede560d912a1d02bfcc041b2eddffb719e5b519f57ff5440c3a79cd"
+    },
+    {
+      "name": "format-reading-chinese",
+      "docx_sha256": "7051dbaeeda8db95cf1a0a592ffd06d3c95bf1769c8ce3ca226a91ce11f5c4d3",
+      "preview_sha256": "1c609277db95b4b9189fe96742ff0fd7d1817c196c2826993c6fef80f13fa927"
+    },
+    {
+      "name": "empty-english",
+      "docx_sha256": "794d73a49ea7a70a751b5ea7a7f47e61fea182dfed97757f9975fa28b3cf9b4b",
+      "preview_sha256": "95c957cd9d7aad05a48976552a43ddcbe71a5bed2e75fc382da431ea63a21fde"
+    },
+    {
+      "name": "empty-chinese",
+      "docx_sha256": "fc4e2cd108b35327e4543400b994cceb1efb3d27c20654738fa4b229b8e100e0",
+      "preview_sha256": "dd27c092aebee672ff9ff3d3a4b9f2c9e84e73ccce32797a56450c66b61642c2"
+    },
+    {
+      "name": "negative-english",
+      "docx_sha256": "4d624d87eff5558489807b12fd89f43504925d5905b568aec895345d82ab53d0",
+      "preview_sha256": "c19d5b5327dacbacbaaf9669ead551427efbb786861251c1e67605cf3dfca507"
+    },
+    {
+      "name": "negative-chinese",
+      "docx_sha256": "e0c198eea7540172be02cec2df21b860aab20f68c79a9112685be971aa30f3b4",
+      "preview_sha256": "2706c7180069b28f28a7c256aa0cae6fc728e50d68f08f69d53373c41c7bf465"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

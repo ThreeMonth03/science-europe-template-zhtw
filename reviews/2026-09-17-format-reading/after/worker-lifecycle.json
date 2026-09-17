@@ -1,0 +1,9 @@
+{
+  "container": "science-europe-pilot-docworker-1",
+  "image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+  "started_at": "2026-09-17T00:17:49.764984343Z",
+  "restart_count": 0,
+  "matches_start_observation": true,
+  "native_outputs_succeeded": 60,
+  "scope": "Same tables-only worker image and process start for baseline and candidate."
+}

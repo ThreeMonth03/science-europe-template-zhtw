@@ -1,0 +1,256 @@
+<div id="q-what-data" class="question">
+  {# __tr_block_0000:start #}<h3>2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？</h3>{# __tr_block_0000:end #}
+  <div class="answer">
+
+  {%- set measuredPath = [uuids.creatingCUuid, uuids.measuredQUuid]|reply_path -%}
+  {%- set measuredAUuid = repliesMap[measuredPath]|reply_str_value -%}
+  {%- if measuredAUuid == uuids.measuredYesAUuid -%}
+    {%- set measuredDataPath = [measuredPath, uuids.measuredYesAUuid, uuids.measuredDataQUuid]|reply_path -%}
+    {%- set measuredDataItems = repliesMap[measuredDataPath]|reply_items -%}
+    {# Measured datasets #}
+    {%- if measuredDataItems|length > 0 -%}
+      <div>
+      {# __tr_block_0001:start #}<h4>儀器資料集</h4>{# __tr_block_0001:end #}
+        {%- for datasetItem in measuredDataItems -%}
+          {%- set pathPrefix = [measuredDataPath, datasetItem]|reply_path -%}
+          <div class="collection-dataset" data-item-id="{{ datasetItem }}">
+            {%- set measuredDataNamePath = [pathPrefix, uuids.measuredDataNameQUuid]|reply_path -%}
+            {%- set measuredDataName = repliesMap[measuredDataNamePath]|reply_str_value -%}
+            {%- set measuredDataWhoPath = [pathPrefix, uuids.measuredDataWhoQUuid]|reply_path -%}
+            {%- set measuredDataWhoAUuid = repliesMap[measuredDataWhoPath]|reply_str_value -%}
+            {%- set measuredDataEquipPath = [pathPrefix, uuids.measuredDataEquipQUuid]|reply_path -%}
+            {%- set measuredDataEquipAUuid = repliesMap[measuredDataEquipPath]|reply_str_value -%}
+            {%- set collectionName -%}{% if measuredDataName %}{{ measuredDataName|e }}{% else %}<span>{# __tr_block_0002:start #}（名稱尚未提供）{# __tr_block_0002:end #}</span>{% endif %}{%- endset -%}
+            {%- set collectionSentences = [] -%}
+            {%- set ownershipOther = "" -%}
+            {%- set ownershipMissing = false -%}
+            {# Who will collect #}
+            {%- if measuredDataWhoAUuid == uuids.measuredDataWhoExpertsOwnAUuid -%}{# __tr_block_0003:start #}
+              {%- do collectionSentences.append("此資料集將由計畫內的專家使用自有設備蒐集。") -%}
+            {# __tr_block_0003:end #}{%- elif measuredDataWhoAUuid == uuids.measuredDataWhoExpertsOutAUuid -%}{# __tr_block_0004:start #}
+              {%- do collectionSentences.append("此資料集將由計畫內的專家利用專業研究設施蒐集。") -%}
+            {# __tr_block_0004:end #}{%- elif measuredDataWhoAUuid == uuids.measuredDataWhoExternalAUuid -%}
+              {%- set mdExternalOwnershipPath = [measuredDataWhoPath, uuids.measuredDataWhoExternalAUuid, uuids.mdExternalOwnershipQUuid]|reply_path -%}
+              {%- set mdExternalOwnershipAUuid = repliesMap[mdExternalOwnershipPath]|reply_str_value -%}{# __tr_block_0005:start #}
+              {%- do collectionSentences.append("此資料集將委由外部單位蒐集。") -%}
+                {# __tr_block_0005:end #}{% if mdExternalOwnershipAUuid == uuids.mdExternalOwnershipPartyAUuid -%}{# __tr_block_0006:start #}
+                  {%- do collectionSentences.append("蒐集所得資料的所有權將由該外部單位保有。") -%}
+                {# __tr_block_0006:end #}{%- elif mdExternalOwnershipAUuid == uuids.mdExternalOwnershipPartnersAUuid -%}{# __tr_block_0007:start #}
+                  {%- do collectionSentences.append("計畫合作夥伴將取得資料的完整所有權。") -%}
+                {# __tr_block_0007:end #}{%- elif mdExternalOwnershipAUuid == uuids.mdExternalOwnershipOtherAUuid -%}
+                  {%- set mdExternalOwnershipOtherPath = [mdExternalOwnershipPath, uuids.mdExternalOwnershipOtherAUuid, uuids.mdExternalOwnershipOtherQUuid]|reply_path -%}
+                  {%- set mdExternalOwnershipOther = repliesMap[mdExternalOwnershipOtherPath]|reply_str_value -%}
+                  {%- set ownershipOther = mdExternalOwnershipOther -%}
+                  {%- set ownershipMissing = not mdExternalOwnershipOther -%}
+                {%- else -%}
+                  {%- set ownershipMissing = true -%}
+                {%- endif -%}
+            {%- endif -%}
+            {# Equipment standard? #}
+            {% if measuredDataEquipAUuid == uuids.measuredDataEquipDescribedAUuid -%}{# __tr_block_0008:start #}
+              {%- do collectionSentences.append("所用設備已有完整說明，且為研究團隊所熟悉。") -%}
+            {# __tr_block_0008:end #}{%- elif measuredDataEquipAUuid == uuids.measuredDataEquipCareAUuid -%}{# __tr_block_0009:start #}
+              {%- do collectionSentences.append("由於設備說明較不完整，或設備並非完全標準化，研究團隊將特別詳實記錄資料蒐集過程。") -%}
+            {# __tr_block_0009:end #}{%- endif -%}
+            {% if collectionSentences %}
+              {# __tr_block_0010:start #}<p class="collection-summary"><strong>{{ collectionName }}</strong>的蒐集方式：{{ collectionSentences|join("") }}</p>{# __tr_block_0010:end #}
+            {% else %}
+              {# __tr_block_0011:start #}<p class="collection-summary"><strong>{{ collectionName }}</strong>的蒐集方式尚待說明。</p>{# __tr_block_0011:end #}
+            {% endif %}
+            {% if measuredDataWhoAUuid not in [uuids.measuredDataWhoExpertsOwnAUuid, uuids.measuredDataWhoExpertsOutAUuid, uuids.measuredDataWhoExternalAUuid] %}
+              {# __tr_block_0012:start #}<p class="data-gap" data-requirement-id="SE-1b" data-fact-id="data-collector" data-status="missing">尚待補充：此資料集由誰蒐集。</p>{# __tr_block_0012:end #}
+            {% endif %}
+            {% if measuredDataEquipAUuid not in [uuids.measuredDataEquipDescribedAUuid, uuids.measuredDataEquipCareAUuid] %}
+              {# __tr_block_0013:start #}<p class="data-gap" data-requirement-id="SE-1b" data-fact-id="equipment-documentation" data-status="missing">尚待補充：設備說明是否完整，以及是否需要加強記錄蒐集過程。</p>{# __tr_block_0013:end #}
+            {% endif %}
+            {% if ownershipOther %}
+              <div class="answer-detail" data-fact-id="external-ownership" data-status="complete">
+                <div class="answer-lead">{# __tr_block_0014:start #}<p>資料所有權安排：</p>{# __tr_block_0014:end #}</div>
+                {{ ownershipOther|markdown }}
+              </div>
+            {% elif ownershipMissing %}
+              {# __tr_block_0015:start #}<p class="data-gap" data-requirement-id="SE-1b" data-fact-id="external-ownership" data-status="missing">尚待補充：委由外部單位蒐集資料時的所有權安排。</p>{# __tr_block_0015:end #}
+            {% endif %}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+
+  {# Non-equipment datasets #}
+  {%- set neqDataPath = [uuids.creatingCUuid, uuids.neqDataQUuid]|reply_path -%}
+  {%- set neqDataAUuid = repliesMap[neqDataPath]|reply_str_value -%}
+  {%- if neqDataAUuid == uuids.neqDataYesAUuid -%}
+    {%- set neqDataPrefix = [neqDataPath, uuids.neqDataYesAUuid]|reply_path -%}
+    {%- set neqDataQuestPath = [neqDataPrefix, uuids.neqDataQuestQUuid]|reply_path -%}
+    {%- set neqDataQuestAUuid = repliesMap[neqDataQuestPath]|reply_str_value -%}
+    {%- set neqDataCaseReportPath = [neqDataPrefix, uuids.neqDataCaseReportQUuid]|reply_path -%}
+    {%- set neqDataCaseReportAUuid = repliesMap[neqDataCaseReportPath]|reply_str_value -%}
+    {%- set neqDataERecordsPath = [neqDataPrefix, uuids.neqDataERecordsQUuid]|reply_path -%}
+    {%- set neqDataERecordsAUuid = repliesMap[neqDataERecordsPath]|reply_str_value -%}
+    {%- set neqDataSetsPath = [neqDataPrefix, uuids.neqDataSetsQUuid]|reply_path -%}
+    {%- set neqDataSetsItems = repliesMap[neqDataSetsPath]|reply_items -%}
+
+    {%- set questionnaires = neqDataQuestAUuid == uuids.neqDataQuestYesAUuid -%}
+    {%- set caseReport = neqDataCaseReportAUuid == uuids.neqDataCaseReportYesAUuid -%}
+    {%- set eRecords = neqDataERecordsAUuid == uuids.neqDataERecordsYesAUuid -%}
+    {%- if questionnaires or caseReport or eRecords or neqDataSetsItems|length > 0 -%}
+      <div>
+      {# __tr_block_0016:start #}<h4>非儀器資料集</h4>{# __tr_block_0016:end #}
+      {# Types #}
+      {%- set typesNames = [] -%}
+      {%- if questionnaires -%}{# __tr_block_0017:start #}{%- do typesNames.append("問卷") -%}{# __tr_block_0017:end #}{%- endif -%}
+      {%- if caseReport -%}{# __tr_block_0018:start #}{%- do typesNames.append("個案報告表") -%}{# __tr_block_0018:end #}{%- endif -%}
+      {%- if eRecords -%}{# __tr_block_0019:start #}{%- do typesNames.append("電子病歷") -%}{# __tr_block_0019:end #}{%- endif -%}
+      {%- set typesCount = typesNames|length -%}
+      {# __tr_branch_sentence_original:PHA-CiAgICAgICAgeyUtIGlmIHR5cGVzQ291bnQgPiAwIC0lfQogICAgICAgICAgV2UgY29sbGVjdCBkYXRhIGZyb20KICAgICAgICAgIHslIGlmIHR5cGVzQ291bnQgPT0gMSAtJX0KICAgICAgICAgICAgICB7eyB0eXBlc05hbWVzWzBdIH19LgogICAgICAgICAgeyUtIGVsaWYgdHlwZXNDb3VudCA9PSAyIC0lfQogICAgICAgICAgICAgIHt7IHR5cGVzTmFtZXNbMF0gfX0gYW5kIHt7IHR5cGVzTmFtZXNbMV0gfX0uCiAgICAgICAgICB7JS0gZWxzZSAtJX0KICAgICAgICAgICAgICB7eyB0eXBlc05hbWVzWzBdIH19LCB7eyB0eXBlc05hbWVzWzFdIH19LCBhbmQge3sgdHlwZXNOYW1lc1syXSB9fS4KICAgICAgICAgIHslLSBlbmRpZiAtJX0KICAgICAgICB7JSBlbmRpZiAlfQogICAgICA8L3A- #}{% if typesCount == 1 -%}{# __tr_block_0020:start #}<p>{%- if typesCount > 0 -%}我們將從{{ typesNames[0] }}蒐集資料。{% endif %}
+      </p>{# __tr_block_0020:end #}{%- elif typesCount == 2 -%}{# __tr_block_0021:start #}<p>{%- if typesCount > 0 -%}我們將從{{ typesNames[0] }}與{{ typesNames[1] }}蒐集資料。{% endif %}
+      </p>{# __tr_block_0021:end #}{%- else -%}{# __tr_block_0022:start #}<p>{%- if typesCount > 0 -%}我們將從{{ typesNames[0] }}、{{ typesNames[1] }}與{{ typesNames[2] }}蒐集資料。{% endif %}
+      </p>{# __tr_block_0022:end #}{%- endif -%}{# __tr_branch_sentence_original:end #}
+        {# Datasets #}
+        {%- if neqDataSetsItems|length > 0 -%}
+          {# __tr_block_0023:start #}<p>非儀器資料集如下：</p>{# __tr_block_0023:end #}
+          <ul>
+          {%- for neqDataSetItem in neqDataSetsItems -%}
+            {%- set pathPrefix = [neqDataSetsPath, neqDataSetItem]|reply_path -%}
+            {%- set neqDataSetsName = repliesMap[[pathPrefix, uuids.neqDataSetsNameQUuid]|reply_path]|reply_str_value -%}
+            {%- set neqDataSetsDesc = repliesMap[[pathPrefix, uuids.neqDataSetsDescQUuid]|reply_path]|reply_str_value -%}
+            {# __tr_block_0024:start #}<li>
+              <strong>{# __tr_inline_if_original:e3sgbmVxRGF0YVNldHNOYW1lIGlmIG5lcURhdGFTZXRzTmFtZSBlbHNlICIobm8gbmFtZSBnaXZlbikiIH19 #}{% if neqDataSetsName %}{{ neqDataSetsName }}{% else %}（名稱尚未提供）{% endif %}{# __tr_block_0024:end #}{# __tr_inline_if_original:end #}</strong>
+              {% if neqDataSetsDesc -%}<div class="answer-detail">{{ neqDataSetsDesc|markdown }}</div>{%- endif -%}
+            </li>
+          {%- endfor -%}
+          </ul>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  {%- endif -%}
+  {# Existing datasets #}
+  {%- set preexistingPath = [uuids.reusingCUuid, uuids.preexistingQUuid]|reply_path -%}
+  {%- set preexistingAUuid = repliesMap[preexistingPath]|reply_str_value -%}
+  {%- if preexistingAUuid == uuids.preexistingYesAUuid -%}
+    {%- set refDataPath = [preexistingPath, uuids.preexistingYesAUuid, uuids.refDataQUuid]|reply_path -%}
+    {%- set refDataItems = repliesMap[refDataPath]|reply_items -%}
+    {%- set nrefDataPath = [preexistingPath, uuids.preexistingYesAUuid, uuids.nrefDataQUuid]|reply_path -%}
+    {%- set nrefDataItems = repliesMap[nrefDataPath]|reply_items -%}
+    {%- if (refDataItems|length + nrefDataItems|length) > 0 -%}
+      {# Re-use decisions and source links are already in Q1, not an answer about formats/volume. #}
+    {%- endif -%}
+  {%- endif -%}
+
+  {# Format/Type with volume #}
+  {%- set formatsPath = [uuids.creatingCUuid, uuids.formatsQUuid]|reply_path -%}
+  {%- set formatsItems = repliesMap[formatsPath]|reply_items -%}
+  {% if not formatsItems %}
+    {# __tr_block_0025:start #}<p class="data-gap" data-requirement-id="SE-1b" data-status="missing-output">本文件尚未列出資料種類、格式及預估資料量。</p>{# __tr_block_0025:end #}
+  {% endif %}
+  {%- if formatsItems|length > 0 -%}
+    {# __tr_block_0026:start #}<h4>資料格式與類型</h4>{# __tr_block_0026:end #}
+    <div class="data-formats">
+      {%- for formatItem in formatsItems -%}
+        {%- set formatPrefix = [formatsPath, formatItem]|reply_path -%}
+        {%- set formatNameReply = repliesMap[[formatPrefix, uuids.formatsNameQUuid]|reply_path] -%}
+        {%- set formatsIsStandardPath = [formatPrefix, uuids.formatsIsStandardQUuid]|reply_path -%}
+        {%- set formatsIsStandardAUuid = repliesMap[formatsIsStandardPath]|reply_str_value -%}
+        {%- set formatsIsLTSuitablePath = [formatPrefix, uuids.formatsIsLTSuitableQUuid]|reply_path -%}
+        {%- set formatsIsLTSuitableAUuid = repliesMap[formatsIsLTSuitablePath]|reply_str_value -%}
+        {%- set formatsVolumePath = [formatPrefix, uuids.formatsVolumeQUuid]|reply_path -%}
+        {%- set formatsVolumeAUuid = repliesMap[formatsVolumePath]|reply_str_value -%}
+        {%- set formatName = macros.integrationFairSharing(formatNameReply)|trim -%}
+        {%- set formatsWhyNonStandardPath = [formatsIsStandardPath, uuids.formatsIsStandardNoAUuid, uuids.formatsWhyNonStandardQUuid]|reply_path -%}
+        {%- set formatsWhyNonStandardAUuid = repliesMap[formatsWhyNonStandardPath]|reply_str_value -%}
+        {%- set formatsWhyNSAnotherReasonPath = [formatsWhyNonStandardPath, uuids.formatsWhyNSAnotherReasonAUuid, uuids.formatsWhyNSAnotherReasonQUuid]|reply_path -%}
+        {%- set formatsWhyNSAnotherReason = repliesMap[formatsWhyNSAnotherReasonPath]|reply_str_value -%}
+        {%- set formatsConvertLTSuitablePath = [formatsIsLTSuitablePath, uuids.formatsIsLTSuitableNoAUuid, uuids.formatsConvertLTSuitableQUuid]|reply_path -%}
+        {%- set formatsConvertLTSuitableAUuid = repliesMap[formatsConvertLTSuitablePath]|reply_str_value -%}
+        {%- set formatsVolumeTotalGB = repliesMap[[formatsVolumePath, uuids.formatsVolumeTotalAUuid, uuids.formatsVolumeTotalGBQUuid]|reply_path]|reply_str_value -%}
+        {%- set formatsVolumeFiles = repliesMap[[formatsVolumePath, uuids.formatsVolumeFileSizeAUuid, uuids.formatsVolumeFilesQUuid]|reply_path]|reply_str_value -%}
+        {%- set formatsVolumeFileGB = repliesMap[[formatsVolumePath, uuids.formatsVolumeFileSizeAUuid, uuids.formatsVolumeFileGBQUuid]|reply_path]|reply_str_value -%}
+        {%- set formatTotalQuantity = macros.quantity(formatsVolumeTotalGB, "GB") -%}
+        {%- set formatAverageQuantity = macros.quantity(formatsVolumeFileGB, "GB") -%}
+        <div class="format-description" data-item-id="{{ formatItem }}">
+          <div class="dataset-policy format-summary">
+            {% if formatName|striptags|trim %}
+              {# __tr_block_0027:start #}<p>資料格式：<strong>{{ formatName }}</strong>。</p>{# __tr_block_0027:end #}
+            {% else %}
+              {# __tr_block_0028:start #}<p>資料格式 {{ loop.index }}（名稱尚待補充）。</p>{# __tr_block_0028:end #}
+            {% endif %}
+            {# standard? #}
+            {%- if formatsIsStandardAUuid == uuids.formatsIsStandardYesAUuid and formatsIsLTSuitableAUuid == uuids.formatsIsLTSuitableYesAUuid %}
+              {# __tr_block_0029:start #}<p>採用標準化格式，適合長期封存。</p>{# __tr_block_0029:end #}
+            {%- elif formatsIsStandardAUuid == uuids.formatsIsStandardYesAUuid %}
+              {# __tr_block_0030:start #}<p>此格式為標準化格式。</p>{# __tr_block_0030:end #}
+            {%- elif formatsIsStandardAUuid == uuids.formatsIsStandardNoAUuid -%}
+              {%- if formatsWhyNonStandardAUuid == uuids.formatsWhyNSThereIsNoStandardAUuid %}
+                {# __tr_block_0031:start #}<p>此類型的資料尚無標準化格式，因此本計畫採用非標準化格式。</p>{# __tr_block_0031:end #}
+              {%- elif formatsWhyNonStandardAUuid == uuids.formatsWhyNSItIsOptimizedAUuid %}
+                {# __tr_block_0032:start #}<p>本計畫採用的非標準化格式已針對資料處理速度、資料量或兩者進行最佳化。</p>{# __tr_block_0032:end #}
+              {%- else -%}
+                {# __tr_block_0033:start #}<p>本計畫採用非標準化格式。</p>{# __tr_block_0033:end #}
+              {%- endif -%}
+            {%- endif -%}
+            {# long-term suitable? #}
+            {%- if formatsIsLTSuitableAUuid == uuids.formatsIsLTSuitableYesAUuid and formatsIsStandardAUuid != uuids.formatsIsStandardYesAUuid %}
+              {# __tr_block_0034:start #}<p>此格式適合長期封存。</p>{# __tr_block_0034:end #}
+            {%- elif formatsIsLTSuitableAUuid == uuids.formatsIsLTSuitableNoAUuid -%}
+              {%- if formatsConvertLTSuitableAUuid == uuids.formatsConvertLTSuitableYesAUuid %}
+                {# __tr_block_0035:start #}<p>此格式不適合長期封存；本計畫預計在結束前，將資料轉換為適合長期封存的格式。</p>{# __tr_block_0035:end #}
+              {%- elif formatsConvertLTSuitableAUuid == uuids.formatsConvertLTSuitableNoAUuid %}
+                {# __tr_block_0036:start #}<p>此格式不適合長期封存，且本計畫未規劃將資料轉換為適合長期封存的格式。</p>{# __tr_block_0036:end #}
+              {%- else -%}
+                {# __tr_block_0037:start #}<p>此格式不適合長期封存。</p>{# __tr_block_0037:end #}
+              {%- endif -%}
+            {%- endif -%}
+            {# volume #}
+            {%- if formatsVolumeAUuid == uuids.formatsVolumeSmallAUuid %}
+              {# __tr_block_0038:start #}<p>預估資料量不大。</p>{# __tr_block_0038:end #}
+            {%- elif formatsVolumeAUuid == uuids.formatsVolumeTotalAUuid -%}
+              {%- if formatsVolumeTotalGB|trim %}
+                {# __tr_block_0039:start #}<p>預估資料量為 {{ formatTotalQuantity }}。</p>{# __tr_block_0039:end #}
+              {%- endif -%}
+            {%- elif formatsVolumeAUuid == uuids.formatsVolumeFileSizeAUuid -%}
+              {# Keep each entered quantity independently; do not coerce/round it into an invented total. #}
+              {%- if formatsVolumeFiles|trim and formatsVolumeFileGB|trim %}
+                {# __tr_block_0040:start #}<p>預估共有 {{ formatsVolumeFiles|e }} 個檔案，平均每個檔案約 {{ formatAverageQuantity }}。</p>{# __tr_block_0040:end #}
+              {%- elif formatsVolumeFiles|trim %}
+                {# __tr_block_0041:start #}<p>預估共有 {{ formatsVolumeFiles|e }} 個檔案。</p>{# __tr_block_0041:end #}
+              {%- elif formatsVolumeFileGB|trim %}
+                {# __tr_block_0042:start #}<p>每個檔案的平均大小預計為 {{ formatAverageQuantity }}。</p>{# __tr_block_0042:end #}
+              {%- endif -%}
+            {%- endif -%}
+          </div>
+          {% if formatsIsStandardAUuid == uuids.formatsIsStandardNoAUuid and formatsWhyNonStandardAUuid == uuids.formatsWhyNSAnotherReasonAUuid and formatsWhyNSAnotherReason|trim %}
+            <div class="answer-detail" data-fact-id="nonstandard-reason" data-status="complete">
+              {# __tr_block_0043:start #}<p class="answer-lead">採用非標準化格式的原因：</p>{# __tr_block_0043:end #}
+              {{ formatsWhyNSAnotherReason|markdown }}
+            </div>
+          {% endif %}
+          {% set formatGaps = [] %}
+            {% if not formatName|striptags|trim %}
+              {% set fieldGap %}<span data-fact-id="format-name" data-status="missing">{# __tr_block_0044:start #}資料格式名稱{# __tr_block_0044:end #}</span>{% endset %}{% do formatGaps.append(fieldGap) %}
+            {% endif %}
+            {% if formatsIsStandardAUuid not in [uuids.formatsIsStandardYesAUuid, uuids.formatsIsStandardNoAUuid] %}
+              {% set fieldGap %}<span data-fact-id="format-standard" data-status="missing">{# __tr_block_0045:start #}此格式是否為標準化格式{# __tr_block_0045:end #}</span>{% endset %}{% do formatGaps.append(fieldGap) %}
+            {% elif formatsIsStandardAUuid == uuids.formatsIsStandardNoAUuid and (formatsWhyNonStandardAUuid not in [uuids.formatsWhyNSThereIsNoStandardAUuid, uuids.formatsWhyNSItIsOptimizedAUuid, uuids.formatsWhyNSAnotherReasonAUuid] or (formatsWhyNonStandardAUuid == uuids.formatsWhyNSAnotherReasonAUuid and not formatsWhyNSAnotherReason|trim)) %}
+              {% set fieldGap %}<span data-fact-id="nonstandard-reason" data-status="missing">{# __tr_block_0046:start #}採用非標準化格式的原因{# __tr_block_0046:end #}</span>{% endset %}{% do formatGaps.append(fieldGap) %}
+            {% endif %}
+            {% if formatsIsLTSuitableAUuid not in [uuids.formatsIsLTSuitableYesAUuid, uuids.formatsIsLTSuitableNoAUuid] %}
+              {% set fieldGap %}<span data-fact-id="format-archiving" data-status="missing">{# __tr_block_0047:start #}此格式是否適合長期封存{# __tr_block_0047:end #}</span>{% endset %}{% do formatGaps.append(fieldGap) %}
+            {% elif formatsIsLTSuitableAUuid == uuids.formatsIsLTSuitableNoAUuid and formatsConvertLTSuitableAUuid not in [uuids.formatsConvertLTSuitableYesAUuid, uuids.formatsConvertLTSuitableNoAUuid] %}
+              {% set fieldGap %}<span data-fact-id="format-conversion" data-status="missing">{# __tr_block_0048:start #}是否將資料轉換為適合長期封存的格式{# __tr_block_0048:end #}</span>{% endset %}{% do formatGaps.append(fieldGap) %}
+            {% endif %}
+            {% if formatsVolumeAUuid == uuids.formatsVolumeTotalAUuid %}
+              {% if not formatsVolumeTotalGB|trim %}{% set fieldGap %}<span data-fact-id="format-total-volume" data-status="missing">{# __tr_block_0049:start #}預估資料總量（GB）{# __tr_block_0049:end #}</span>{% endset %}{% do formatGaps.append(fieldGap) %}{% endif %}
+            {% elif formatsVolumeAUuid == uuids.formatsVolumeFileSizeAUuid %}
+              {% if not formatsVolumeFiles|trim %}{% set fieldGap %}<span data-fact-id="format-file-count" data-status="missing">{# __tr_block_0050:start #}預估檔案數{# __tr_block_0050:end #}</span>{% endset %}{% do formatGaps.append(fieldGap) %}{% endif %}
+              {% if not formatsVolumeFileGB|trim %}{% set fieldGap %}<span data-fact-id="format-file-size" data-status="missing">{# __tr_block_0051:start #}預估平均檔案大小（GB）{# __tr_block_0051:end #}</span>{% endset %}{% do formatGaps.append(fieldGap) %}{% endif %}
+            {% elif formatsVolumeAUuid != uuids.formatsVolumeSmallAUuid %}
+              {% set fieldGap %}<span data-fact-id="format-volume" data-status="missing">{# __tr_block_0052:start #}預估資料量{# __tr_block_0052:end #}</span>{% endset %}{% do formatGaps.append(fieldGap) %}
+            {% endif %}
+          {% if formatGaps %}{# __tr_block_0053:start #}<p class="data-gap" data-requirement-id="SE-1b">尚待補充：{{ formatGaps|join("、") }}。</p>{# __tr_block_0053:end #}{% endif %}
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+  </div>
+</div>

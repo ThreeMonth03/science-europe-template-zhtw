@@ -6,6 +6,9 @@
 目前 0.3.31：[Q2 格式與資料量閱讀實驗](docs/format-reading.md)。
 完整答案合併為較自然的句子，部分缺答仍獨立呈現；不改自填文字或版型。
 中英文鎖定同一英文來源，翻譯改文與原生 PDF／Word 驗收分開記錄。
+[中英文 PDF／Word 前後樣張](reviews/2026-09-17-format-reading/README.md)：
+前後各 30 個原生輸出、共 20 份 Word 預覽通過限定比較，全部頁數不增加；
+仍不是全篇或 Microsoft Word 正式驗收。
 
 前版 0.3.30：[Q11 中英文缺答框與跨頁對照](reviews/2026-09-17-archive-gap-panels/README.md)。
 相鄰的兩項固定缺答共用外框，文字、字級、已填回答不變；英文長篇的一組
