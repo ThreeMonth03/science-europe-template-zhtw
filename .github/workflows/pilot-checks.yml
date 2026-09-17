@@ -60,6 +60,9 @@ jobs:
         run: |
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
           SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
+          # Fail fast on the historic prepared-source hash gates; the complete
+          # Q13 engine check still runs below. Never replace it with preflight.
+          ../tooling/.venv/bin/python ../english/scripts/probe_identifier_spacing.py --source-dir "$SE_BUILD_DIR/translated" --preflight-only --output "$SE_BUILD_DIR/identifier-spacing-preflight.json"
           ../tooling/.venv/bin/python scripts/probe_format_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_sharing_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_preservation_translation.py --build "$SE_BUILD_DIR" --english ../english
@@ -106,6 +109,7 @@ jobs:
             zh/outputs/build-*/q5-word-join-*.json
             zh/outputs/build-*/metadata-gap-panel-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
+            zh/outputs/build-*/identifier-spacing-preflight.json
       - name: State acceptance boundary
         run: |
           echo 'Build checks do not establish full DMP, PDF or Microsoft Word acceptance. See docs/pilot-results.md.' >> "$GITHUB_STEP_SUMMARY"
