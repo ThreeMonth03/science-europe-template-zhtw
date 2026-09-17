@@ -28,8 +28,12 @@ def main():
             soup = render(data); text = ' '.join(soup.get_text().split())
             assert bool(soup.select('[data-fact-id="format-file-count"]')) == (not bool((files or '').strip()))
             assert bool(soup.select('[data-fact-id="format-file-size"]')) == (not bool((size or '').strip()))
-            if (files or '').strip(): assert (f'We expect {files} files in this format.' if language == 'english' else f'此格式的檔案數預計為 {files} 個。') in text
-            if (size or '').strip(): assert (f'The estimated average file size is {size} GB.' if language == 'english' else f'每個檔案的平均大小預計為 {size} GB。') in text
+            if (files or '').strip() and (size or '').strip():
+                assert (f'We expect {files} files, with an estimated average size of {size} GB.' if language == 'english' else f'預估共有 {files} 個檔案，平均每個檔案約 {size} GB。') in text
+            elif (files or '').strip():
+                assert (f'We expect {files} files.' if language == 'english' else f'預估共有 {files} 個檔案。') in text
+            elif (size or '').strip():
+                assert (f'The estimated average file size is {size} GB.' if language == 'english' else f'每個檔案的平均大小預計為 {size} GB。') in text
             assert 'MyInstrument v1.2 / CSV' in text
             if language == 'chinese':
                 assert 'Data format:' not in text and 'has not been' not in text

@@ -3,7 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-最新 0.3.30：[Q11 中英文缺答框與跨頁對照](reviews/2026-09-17-archive-gap-panels/README.md)。
+目前 0.3.31：[Q2 格式與資料量閱讀實驗](docs/format-reading.md)。
+完整答案合併為較自然的句子，部分缺答仍獨立呈現；不改自填文字或版型。
+中英文鎖定同一英文來源，翻譯改文與原生 PDF／Word 驗收分開記錄。
+
+前版 0.3.30：[Q11 中英文缺答框與跨頁對照](reviews/2026-09-17-archive-gap-panels/README.md)。
 相鄰的兩項固定缺答共用外框，文字、字級、已填回答不變；英文長篇的一組
 跨頁提示恢復同頁。八組中英共 48 個原生輸出及 16 份 Word 預覽核對通過，
 Word 正文及版面不變。732 個翻譯檔沿用，不另維護中文 Jinja。

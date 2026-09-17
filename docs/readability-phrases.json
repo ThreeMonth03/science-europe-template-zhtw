@@ -357,5 +357,10 @@
   "Information still needed: {identifierMissing}.": "尚待補充：{identifierMissing}。",
   "This template cannot interpret the selected answers for: {identifierReview}.": "本模板無法判讀下列欄位的選項，請核對：{identifierReview}。",
   "Other repository contact arrangements:": "儲存庫聯繫的其他安排：",
-  "The other repository contact arrangements have not been described.": "尚待補充：儲存庫聯繫的其他安排。"
+  "The other repository contact arrangements have not been described.": "尚待補充：儲存庫聯繫的其他安排。",
+  "It is a standardized format suitable for long-term archiving.": "採用標準化格式，適合長期封存。",
+  "Only a small volume of data is expected.": "預估資料量不大。",
+  "The estimated data volume is {formatTotalQuantity}.": "預估資料量為 {formatTotalQuantity}。",
+  "We expect {formatsVolumeFiles} files, with an estimated average size of {formatAverageQuantity}.": "預估共有 {formatsVolumeFiles} 個檔案，平均每個檔案約 {formatAverageQuantity}。",
+  "We expect {formatsVolumeFiles} files.": "預估共有 {formatsVolumeFiles} 個檔案。"
 }

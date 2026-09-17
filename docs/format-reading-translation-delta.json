@@ -1,0 +1,20 @@
+{
+  "baseline": "925decda670c3a6e5c003bfab116aa5d99a652b2",
+  "baseline_units": 732,
+  "retained_units": 729,
+  "current_units": 734,
+  "removed": [
+    ["We will have only a small amount of data stored in this format.", "以此格式儲存的資料量預計很少。"],
+    ["We expect to have {formatTotalQuantity} of data in this format.", "以此格式儲存的資料量預計為 {formatTotalQuantity}。"],
+    ["We expect {formatsVolumeFiles} files in this format.", "此格式的檔案數預計為 {formatsVolumeFiles} 個。"]
+  ],
+  "added": [
+    ["It is a standardized format suitable for long-term archiving.", "採用標準化格式，適合長期封存。"],
+    ["Only a small volume of data is expected.", "預估資料量不大。"],
+    ["The estimated data volume is {formatTotalQuantity}.", "預估資料量為 {formatTotalQuantity}。"],
+    ["We expect {formatsVolumeFiles} files, with an estimated average size of {formatAverageQuantity}.", "預估共有 {formatsVolumeFiles} 個檔案，平均每個檔案約 {formatAverageQuantity}。"],
+    ["We expect {formatsVolumeFiles} files.", "預估共有 {formatsVolumeFiles} 個檔案。"]
+  ],
+  "scope": ["src/questions/02-what-data.html.j2"],
+  "rationale": "Complete paired answers share one grammatical sentence; partial answers, quantities, gaps and authored text remain independent. No numeric coercion, inferred totals or runtime translation."
+}
