@@ -1,0 +1,11 @@
+{
+  "baseline": "2bb026324ad3f1d3093cb220e2b81db70fa07f0d",
+  "baseline_units": 734,
+  "current_units": 735,
+  "retained_units": 733,
+  "removed": [["We estimate the storage space that the project will require for all data and software (including temporary storage) to {size} gigabytes.", "我們估計本專案所有資料與軟體（包含暫存空間）所需的儲存空間為 {size} GB。"]],
+  "added": [
+    ["Information not provided: the estimated storage space for all project data and software, including temporary storage (GB).", "尚待補充：計畫所有資料與軟體（含暫存空間）所需的預估儲存容量（GB）。"],
+    ["We estimate the storage space that the project will require for all data and software (including temporary storage) to be {size} gigabytes.", "預估計畫所有資料與軟體（含暫存空間）所需的儲存容量為 {size} GB。"]
+  ]
+}

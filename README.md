@@ -6,6 +6,8 @@
 目前 0.3.32：[Q3 儲存容量漏填實驗](docs/storage-capacity-gaps.md)。
 選了填寫總容量但留空時顯示待補提示，已填 0、數值及其他回答保留。
 只有英文 Q3 邏輯變更，中文循既有流程產生；不改共用 PDF／Word 樣式。
+[前後 PDF／Word 樣張與限制](reviews/2026-09-17-storage-capacity-gaps/README.md)：
+前後共 72 份原生輸出及 24 份 Word 預覽通過限定檢查，各案例頁數不增加。
 
 前版 0.3.31：[Q2 格式與資料量閱讀實驗](docs/format-reading.md)。
 完整答案合併為較自然的句子，部分缺答仍獨立呈現；不改自填文字或版型。
