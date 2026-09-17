@@ -1,0 +1,12 @@
+{
+  "baseline": "06513da10808ec93e69302a0cffa6a766168d09a",
+  "baseline_units": 744,
+  "current_units": 747,
+  "retained_units": 744,
+  "removed": [],
+  "added": [
+    ["whether the metadata will include instructions for accessing the data", "後設資料是否會包含取用資料的說明"],
+    ["whether the metadata will be available in a form that can be harvested and indexed", "後設資料是否可供自動擷取並建立索引"],
+    ["Information not provided: {metadataInstructionsGap}; {metadataHarvestGap}.", "尚待補充：{metadataInstructionsGap}；{metadataHarvestGap}。"]
+  ]
+}

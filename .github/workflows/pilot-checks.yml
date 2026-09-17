@@ -77,14 +77,14 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
-          # Q5-only layout scope; preserve frozen Q2/Q3/Q11 behavior and translations.
-          ../tooling/.venv/bin/python scripts/probe_storage_context_scope.py --build "$SE_BUILD_DIR" --english ../english
+          # Q3 prose and exact CSS retirement; preserve Q2/Q3/Q5/Q11 gates and all prior translations.
+          ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/storage-context-engine-en.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/storage-context-engine-zh.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q5_word_join.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/q5-word-join-engine-en.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q5_word_join.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/q5-word-join-engine-zh.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_metadata_gap_panel.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/metadata-gap-panel-engine-en.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_metadata_gap_panel.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/metadata-gap-panel-engine-zh.json"
+          ../tooling/.venv/bin/python ../english/scripts/probe_metadata_gap_prose.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/metadata-gap-prose-engine-en.json"
+          ../tooling/.venv/bin/python ../english/scripts/probe_metadata_gap_prose.py --source-dir "$SE_BUILD_DIR/translated" --frozen tests/fixtures/metadata-0.3.36.zh-Hant.html.j2 --language chinese --output "$SE_BUILD_DIR/metadata-gap-prose-engine-zh.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_archive_gap_panels.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/archive-gap-engine-english.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_archive_gap_panels.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/archive-gap-engine-chinese.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_identifier_spacing.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/identifier-spacing-engine.json"
@@ -107,7 +107,7 @@ jobs:
             zh/outputs/build-*/*audit.json
             zh/outputs/build-*/storage-context-*.json
             zh/outputs/build-*/q5-word-join-*.json
-            zh/outputs/build-*/metadata-gap-panel-*.json
+            zh/outputs/build-*/metadata-gap-prose-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
             zh/outputs/build-*/identifier-spacing-preflight.json
       - name: State acceptance boundary

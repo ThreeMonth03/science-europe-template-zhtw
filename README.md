@@ -3,7 +3,12 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-目前 0.3.36：[Q3 兩項漏填提示共用外框](docs/metadata-gap-panel.md)。
+目前 0.3.37：[Q3 缺漏提示成段](docs/metadata-gap-prose.md)。
+兩個追問都未填時合成一段，兩項缺漏狀態仍獨立保留；移除上版專用外框 CSS。
+保留原有 744 組譯文，新增 3 組，共 747 組；不另維護中文 Jinja、不改翻譯工具。
+原生成品驗收與結構檢查分開，目前仍為實驗分支。
+
+前版 0.3.36：[Q3 兩項漏填提示共用外框](docs/metadata-gap-panel.md)。
 只調整英文共用列印 CSS，減少「取用說明／擷取索引」同時漏填時的視覺切割；
 原句、獨立缺答狀態、744 個譯文檔及 Word 不變。
 [前後樣張與驗證](reviews/2026-09-17-metadata-gap-panel/README.md)：重新產出
