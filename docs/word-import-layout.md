@@ -12,7 +12,7 @@
 | 操作 | 中文 Q5 五段所在頁 | 英文 Q5 五段所在頁 |
 | --- | --- | --- |
 | 直接開啟匯出 | 3,3,4,4,4 | 3,3,3,3,3 |
-| refresh／完整 reformat | 3,3,4,4,4 | 3,3,3,3,3 |
+| `refresh()`／`reformat()` 呼叫 | 3,3,4,4,4 | 3,3,3,3,3 |
 | 在政策段重新指定原值 `ParaKeepTogether=true` | 4,4,4,4,4 | 3,3,3,3,3 |
 | 改指定題目、引言、第一／最後條列的原值 | 3,3,4,4,4 | 3,3,3,3,3 |
 | 政策段關閉再恢復連頁 | 4,4,4,4,4 | 3,3,3,3,3 |
@@ -23,6 +23,17 @@
 這支持「完整 DOCX 匯入後的排版狀態相關」的假說，**尚未定位到引擎程式碼根因**。
 不能據此宣稱 Microsoft Word 也有同一問題、單靠 direct keep XML 可修好，
 或說所有短回答都只需這樣操作。
+
+**後續更正：** 原文把 `reformat()` 稱為「完整重排」並不準確。
+[25.2.3.2 實作](https://github.com/LibreOffice/core/blob/libreoffice-25.2.3.2/sw/source/uibase/uno/unotxdoc.cxx#L444)
+僅鎖定及確認文件有效，沒有執行重排；`refresh()` 則是另一條會呼叫 view-shell
+Reformat 的路徑。原實測結果保留，但不能將 `reformat()` 無變化當作已排除
+所有真正重排方法的證據。
+
+另一個診斷陷阱是 `writer_layout_dump`：
+[同版本原碼](https://github.com/LibreOffice/core/blob/libreoffice-25.2.3.2/sw/source/core/layout/dumpfilter.cxx#L88)
+會改可見區域並使 layout size 失效，不是被動快照。因此不可先取得 layout dump，
+再把後續 PDF 稱為未干預的基準。既存原生預覽與本輪縮減工具都沒有走這條路。
 
 兩語言共 18 個直接／記憶體操作 PDF 的全文擷取相同（只忽略空白及驗證位置的
 頁碼，不刪標點）。另外四個另存重開 PDF 的比較明確為不同：均新增 13 個
@@ -48,6 +59,38 @@ SHA256。這控制了字型檔，但**沒有控制作業系統與字型函式庫
 本輪未重新產生 DSW 原生 PDF，未改 DSW worker。引擎警告 `dconf` 無法寫入
 唯讀 cache 保留在執行紀錄；匯出完成不代表環境等同本機或 Microsoft Word。
 
+## 已縮小成 Q1–Q5 反例
+
+[新反例與機器檢查](../reviews/2026-09-17-word-layout-reduction/README.md)
+移除 Q6 之後的內容與所有書籤，只留診斷封面及原生 Q1–Q5 共 53 個
+段落／表格節點。其他 ZIP 部件、字型、樣式與頁面設定不變。
+
+- 中文六頁縮成四頁，Q5 仍為 `3,3,4,4,4`。
+- 英文六頁縮成三頁，Q5 仍為 `3,3,3,3,3`。
+- 兩語言保留的 XML 除書籤外完全相同，且從第二頁起至第三節標題之前，
+  所有正文行的文字、頁碼及座標與原生預覽完全相同。
+
+這讓調查不必每次帶完整 DMP，但**不是模板修正，也不是完整內容保留測試**；
+沒有證明已是最小反例。換引擎／字型若使以上不變條件失效，縮減檢查會失敗。
+
+```bash
+../dsw-document-template-tool/.venv/bin/python scripts/reduce_word_layout_case.py \
+  --output outputs/word-reduction-repeat
+```
+
+需要 lxml、LibreOffice 與 Poppler，不需要 UNO，也不會改寫原生來源或既有輸出。
+
+## 建置與成品分開驗收
+
+[b6f7d3b 的 CI](https://github.com/ThreeMonth03/science-europe-template-zhtw/actions/runs/35187115562)
+已成功；下載雲端產物後核對英中 ZIP，與本機及原生實驗使用的套件逐位元相同：
+
+- 英文 `b9160cf57ae8fc71133f553c33750742c9c5f4f8bf708e460ef34f948af67327`。
+- 中文 `ef62084229f46009e1929c3fe8e4a6632694db5aafa8b0545708fd9d103ee704`。
+
+這只驗證該 commit 的建置重現性，**不是後續 commit 的 CI 結果，也不消除
+中文原生 Word 預覽的失敗**。模板維持 0.3.34，不新增版本或移動官方 baseline。
+
 ## 重跑與下一步
 
 主實驗可直接使用 repo 已保存的原生 DOCX（需要本機 LibreOffice、`python3-uno`
@@ -72,7 +115,7 @@ SHA256。這控制了字型檔，但**沒有控制作業系統與字型函式庫
   --image sha256:d71ab8c13b6bd47c7bc81195082005dfb17eaa75e8b1fadd347a64ee66ed98d5
 ```
 
-下一步應用完整合成反例核對目標 Microsoft Word，再縮減 DOCX 匯入的觸發條件。
+下一步可用縮減反例定位 DOCX 匯入的觸發條件，並用完整合成反例核對目標 Microsoft Word。
 只有有界、能在重新開啟後仍成立的規則，才值得改英文共用 Word 輸出；之後須
 同時重跑英中、漏填、長篇及原生 PDF。不要加入定頁碼換頁或空白段落來追一張樣張。
 

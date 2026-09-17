@@ -1,0 +1,178 @@
+{
+  "diagnostic_not_native": true,
+  "release_acceptance": false,
+  "completed": true,
+  "rows": [
+    {
+      "language": "chinese",
+      "source_sha256": "581a734992d262ecf64da4d62972e65e9f2242e162af59b5fefcdbe0d7569049",
+      "source_unchanged": true,
+      "docx_sha256": "148ba89debda3c7a20b6a63a7ada0346d9570138b2b0c309698bd4c443090042",
+      "retained_body_blocks": 53,
+      "kept_paragraph_table_xml_unchanged": true,
+      "unchanged_zip_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "word/_rels/document.xml.rels",
+        "word/_rels/footnotes.xml.rels",
+        "word/numbering.xml",
+        "word/styles.xml",
+        "word/footnotes.xml",
+        "word/comments.xml",
+        "docProps/core.xml",
+        "docProps/app.xml",
+        "docProps/custom.xml",
+        "word/theme/theme1.xml",
+        "word/settings.xml",
+        "word/webSettings.xml",
+        "word/fontTable.xml",
+        "word/header1.xml",
+        "word/header2.xml",
+        "word/header3.xml",
+        "word/footer1.xml",
+        "word/footer2.xml",
+        "word/_rels/header1.xml.rels",
+        "word/_rels/header2.xml.rels",
+        "word/media/image1.png",
+        "word/media/image2.svg",
+        "word/media/image3.png",
+        "word/media/image4.svg"
+      ],
+      "before": {
+        "pages": 6,
+        "q5_paragraph_page_spans": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ]
+        ],
+        "q5_together": false,
+        "full_text_without_whitespace_and_verified_footers_sha256": "a62d6bcdf715554e21e54458cc01776fe1fc453733555db7e4a78540b2ecda53",
+        "pdf_sha256": "cebf04b0bc6506872c3d677b0b0b5c1e9842c5c40b1656ddc99614f34db83ee3"
+      },
+      "after": {
+        "pages": 4,
+        "q5_paragraph_page_spans": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ],
+          [
+            4
+          ]
+        ],
+        "q5_together": false,
+        "full_text_without_whitespace_and_verified_footers_sha256": "2aef792a5b06cb7f406be02a9dea1aa428c1679d61df1abcf2a7012c2329404b",
+        "pdf_sha256": "bc1f8e7db075c3e529c06ba9c4bad6e1de58ca1345b750177aaa04cacaf6e67b"
+      },
+      "reproduces_native_q5_pagination": true,
+      "pre_q5_line_geometry_unchanged": true
+    },
+    {
+      "language": "english",
+      "source_sha256": "40eea59da931996e4174c49f38d68d8d88619e46e8135f3526fce25f98ac86aa",
+      "source_unchanged": true,
+      "docx_sha256": "4714e91e1ade716ef8df85d9f445c05393dfb93c0c3e2308a810affd5baf58df",
+      "retained_body_blocks": 53,
+      "kept_paragraph_table_xml_unchanged": true,
+      "unchanged_zip_parts": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "word/_rels/document.xml.rels",
+        "word/_rels/footnotes.xml.rels",
+        "word/numbering.xml",
+        "word/styles.xml",
+        "word/footnotes.xml",
+        "word/comments.xml",
+        "docProps/core.xml",
+        "docProps/app.xml",
+        "docProps/custom.xml",
+        "word/theme/theme1.xml",
+        "word/settings.xml",
+        "word/webSettings.xml",
+        "word/fontTable.xml",
+        "word/header1.xml",
+        "word/header2.xml",
+        "word/header3.xml",
+        "word/footer1.xml",
+        "word/footer2.xml",
+        "word/_rels/header1.xml.rels",
+        "word/_rels/header2.xml.rels",
+        "word/media/image1.png",
+        "word/media/image2.svg",
+        "word/media/image3.png",
+        "word/media/image4.svg"
+      ],
+      "before": {
+        "pages": 6,
+        "q5_paragraph_page_spans": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ]
+        ],
+        "q5_together": true,
+        "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+        "pdf_sha256": "1a7a8fc1e9b6272386117ae87c4b00030b0628ef0cf2663f563bc2e510115f69"
+      },
+      "after": {
+        "pages": 3,
+        "q5_paragraph_page_spans": [
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ],
+          [
+            3
+          ]
+        ],
+        "q5_together": true,
+        "full_text_without_whitespace_and_verified_footers_sha256": "25f08b0207a14619c64846d094ed3783f8c4d9636ebf3874e5c6f619a488030e",
+        "pdf_sha256": "8d7a39846ad1a26d73e1c13bdee183fccbd45977ac8ddf2e72ad800b866bf24d"
+      },
+      "reproduces_native_q5_pagination": true,
+      "pre_q5_line_geometry_unchanged": true
+    }
+  ],
+  "script_sha256": "0b7b5f6f7ccf56b47fe57fad135a65c7819966fc70ad637e4bc51924e52b7aa6",
+  "helper_sha256": "8abb1b994d907f29f158e7be5ebc9a8e85889ad0c03ab94d116bc8fd93000a2e",
+  "libreoffice_version": "LibreOffice 25.2.3.2 520(Build:2)"
+}
