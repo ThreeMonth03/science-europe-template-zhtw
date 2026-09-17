@@ -48,6 +48,7 @@ def main():
     import check_missing_info_outputs as missing
     missing.HERE = a.english.resolve()
     report = dict(selected_checks_passed=False, release_acceptance=False, rows=[], checker_sha256=sha(Path(__file__)),
+                  word_contract_sha256=sha(a.english / 'scripts/q5_word_join_contract.py'),
                   package_sha256={name: sha(a.build / name) for name in ('english.zip', 'chinese.zip')},
                   prior_package_sha256={name: sha(a.prior / name) for name in ('english.zip', 'chinese.zip')},
                   limits=['Ten cases per language, not all questionnaire branches or full-DMP acceptance',
