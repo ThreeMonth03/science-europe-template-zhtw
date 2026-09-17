@@ -76,7 +76,7 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
           # Current Q3-only scope is checked against frozen 0.3.31.
           # Historic proofs stay frozen; Q2 and Q11 behavior gates still run.
-          ../tooling/.venv/bin/python scripts/probe_storage_gap_scope.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python scripts/probe_metadata_followup_scope.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python ../english/scripts/probe_archive_gap_panels.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/archive-gap-engine-english.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_archive_gap_panels.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/archive-gap-engine-chinese.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_identifier_spacing.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/identifier-spacing-engine.json"

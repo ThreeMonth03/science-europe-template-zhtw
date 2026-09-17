@@ -3,7 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-目前 0.3.32：[Q3 儲存容量漏填實驗](docs/storage-capacity-gaps.md)。
+目前 0.3.33：[Q3 資料字典與後設資料追問](docs/metadata-followups.md)。
+補回資料字典是／否，分別呈現公開政策的缺答；保留已填原因與原有樣式。
+原有 735 組譯文全保留、新增 9 組；原生 PDF／Word 另行驗證，仍非正式版。
+
+前版 0.3.32：[Q3 儲存容量漏填實驗](docs/storage-capacity-gaps.md)。
 選了填寫總容量但留空時顯示待補提示，已填 0、數值及其他回答保留。
 只有英文 Q3 邏輯變更，中文循既有流程產生；不改共用 PDF／Word 樣式。
 [前後 PDF／Word 樣張與限制](reviews/2026-09-17-storage-capacity-gaps/README.md)：

@@ -1,0 +1,45 @@
+{
+  "baseline": "99c7fb181d5d0cf087740efb6fd3f61fab9c7dcd",
+  "baseline_units": 735,
+  "current_units": 744,
+  "retained_units": 735,
+  "removed": [],
+  "added": [
+    [
+      "Information not provided: why the metadata will not be openly available.",
+      "尚待補充：後設資料不公開提供的原因。"
+    ],
+    [
+      "The selected data-dictionary option cannot be represented by this template; please review it.",
+      "本模板無法呈現所選的資料字典選項，請核對。"
+    ],
+    [
+      "The selected metadata access-instructions option cannot be represented by this template; please review it.",
+      "本模板無法呈現所選的後設資料取用說明選項，請核對。"
+    ],
+    [
+      "Information not provided: whether a data/variable dictionary will be created.",
+      "尚待補充：是否將建立資料字典或變項定義表。"
+    ],
+    [
+      "The selected metadata harvesting and indexing option cannot be represented by this template; please review it.",
+      "本模板無法呈現所選的後設資料擷取與索引選項，請核對。"
+    ],
+    [
+      "Information not provided: whether the metadata will be available in a form that can be harvested and indexed.",
+      "尚待補充：後設資料是否可供自動擷取並建立索引。"
+    ],
+    [
+      "We will create a data/variable dictionary.",
+      "本計畫將建立資料字典或變項定義表。"
+    ],
+    [
+      "Information not provided: whether the metadata will include instructions for accessing the data.",
+      "尚待補充：後設資料是否會包含取用資料的說明。"
+    ],
+    [
+      "We will not create a data/variable dictionary.",
+      "本計畫不會建立資料字典或變項定義表。"
+    ]
+  ]
+}

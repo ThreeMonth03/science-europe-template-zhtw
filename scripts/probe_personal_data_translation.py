@@ -84,6 +84,20 @@ def verify_latest_translation_chain(current):
     return personal, {**following, 'storage_gap': delta}
 
 
+def verify_metadata_translation_chain(current):
+    """Retain the historical chain; admit only nine reviewed Q3 additions."""
+    delta = json.loads((ROOT/'docs/metadata-followup-translation-delta.json').read_text())
+    previous = archived_pairs(delta['baseline'])
+    personal, following = verify_latest_translation_chain(previous)
+    old, new = Counter(previous), Counter(current)
+    assert sum(old.values()) == delta['baseline_units']
+    assert sum(new.values()) == delta['current_units']
+    assert old-new == Counter(map(tuple, delta['removed'])), 'Unreviewed lost translation after 0.3.32'
+    assert new-old == Counter(map(tuple, delta['added'])), 'Unreviewed new translation after 0.3.32'
+    assert sum((old & new).values()) == delta['retained_units']
+    return personal, {**following, 'metadata_followup': delta}
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--build', type=Path, required=True); p.add_argument('--english', type=Path, required=True)
@@ -92,7 +106,7 @@ def main():
     import test_science_europe_contract as adapter
     from generate_personal_data_fixtures import personal_data_cases, personal_paths, IDS
     files = sorted((ROOT/'translation/tree').rglob('translation.md'))
-    delta, followup_delta = verify_latest_translation_chain([pair(f.read_text()) for f in files])
+    delta, followup_delta = verify_metadata_translation_chain([pair(f.read_text()) for f in files])
     hashes = {str(f.relative_to(ROOT/'translation')): sha(f) for f in files}
     assert hashes == json.loads((a.build/'manifest.json').read_text())['translation_tree_sha256']
     rows = []; paths = personal_paths()
