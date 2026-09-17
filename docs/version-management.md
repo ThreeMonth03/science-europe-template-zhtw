@@ -1,6 +1,11 @@
 # 版本與分支契約
 
-最新 0.3.32 的英中工作分支為 `fix/q3-storage-gaps`，承接 0.3.31
+目前英中套件仍為 **0.3.34**，承接 `fix/q5-context-pagination`。
+後續 `fix/word-context-layout` 僅保存 [Word 匯入診斷](word-import-layout.md)，
+不改英文 lock、模板、翻譯或版號，也不把未採用的引擎變體變成永久 fork。
+診斷 commit 與可安裝模板版本是不同概念；原生分頁失敗仍阻止正式發布。
+
+以下為歷史紀錄。0.3.32 的英中工作分支為 `fix/q3-storage-gaps`，承接 0.3.31
 `fix/format-reading`；以下舊版本敘述為歷史紀錄，不是當前 branch。
 本輪僅改英文 Q3 容量追問，中文 lock 跟進完整 commit，733 組譯文精確
 沿用、1 組替換、1 組新增。來源/翻譯範圍與原生 PDF/Word 分別驗證，

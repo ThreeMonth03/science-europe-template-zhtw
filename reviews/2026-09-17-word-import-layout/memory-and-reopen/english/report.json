@@ -1,0 +1,3331 @@
+{
+  "diagnostic_not_native": true,
+  "release_acceptance": false,
+  "source_sha256": "40eea59da931996e4174c49f38d68d8d88619e46e8135f3526fce25f98ac86aa",
+  "source_name": "metadata-partial-english.docx",
+  "script_sha256": "8abb1b994d907f29f158e7be5ebc9a8e85889ad0c03ab94d116bc8fd93000a2e",
+  "libreoffice_version": "LibreOffice 25.2.3.2 520(Build:2)",
+  "rows": [
+    {
+      "mode": "direct",
+      "before_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "after_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+      "pdf_sha256": "9fd96e36a951d45cef45b15c8ddfb9c3dadb6b275cd36231d5df64696e13d5fe",
+      "saved_docx_sha256": "b210df82152e6183afc3bd0ce40a09a98a8f1b7db3c4535bc161e582994a9870"
+    },
+    {
+      "mode": "refresh",
+      "before_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "after_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+      "pdf_sha256": "30ea42306e35064545953f6e7229d331d7c3d684aeb17f5cc27b0aeb40ccce7b"
+    },
+    {
+      "mode": "reformat",
+      "before_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "after_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+      "pdf_sha256": "8463f1b7617800bcbdb943656beaa0e61a1915d424a8944abfff78e212e90442"
+    },
+    {
+      "mode": "same-heading",
+      "before_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "after_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+      "pdf_sha256": "e9068163adcbcb6a53f96af12b7e3339da544af6014e36511616d12e8fd19e18"
+    },
+    {
+      "mode": "same-policy",
+      "before_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "after_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+      "pdf_sha256": "78b73b174fae9ead9d4aa747499661cd302a8479bc36fbb357b67a57193f345b",
+      "saved_docx_sha256": "fed85b18e477b1ea938a82070b03d52089aea4100f906fe95eee5d8e893dd479"
+    },
+    {
+      "mode": "same-intro",
+      "before_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "after_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+      "pdf_sha256": "21cae5a3edefedfa0682b13a5bf1b9cb6cd9c6ea772b96accba0d0bb4f76a20d"
+    },
+    {
+      "mode": "same-first-item",
+      "before_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "after_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+      "pdf_sha256": "682879d22c78a7914638a5b709eeda24f4d1d887d0367d33328ce7d5125e94d7"
+    },
+    {
+      "mode": "same-last-item",
+      "before_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "after_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+      "pdf_sha256": "6c5dfbf2c635aa983c0bfd66e0aed08e9fc807dc35eed6c7e404b69bc1782e04"
+    },
+    {
+      "mode": "toggle-policy",
+      "before_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "after_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "137e7144d30eba9fae69c1f5bfe9fd5504b31720206dfcd4247b9be403e1821b",
+      "pdf_sha256": "b9d529bf33b0343300d348043eb50d2e6e4c965713ba81725b4bd41be53bd302"
+    },
+    {
+      "mode": "direct-reopened",
+      "imported_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "40a28d0fb0e649fee531837194467c350ff157335575e39a2e165212c2103a5d",
+      "pdf_sha256": "a4a4213d6289492a2aea7dc8cf7e8d7fbf38cd28fe7e479ae7b1412fc9331d99"
+    },
+    {
+      "mode": "same-policy-reopened",
+      "imported_properties": [
+        {
+          "ParaStyleName": {
+            "value": "Heading 3",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 423,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 141,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Pilot List Lead",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        },
+        {
+          "ParaStyleName": {
+            "value": "Compact",
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DIRECT_VALUE')>"
+          },
+          "ParaKeepTogether": {
+            "value": false,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaSplit": {
+            "value": true,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaWidows": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaOrphans": {
+            "value": 2,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaTopMargin": {
+            "value": 0,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          },
+          "ParaBottomMargin": {
+            "value": 71,
+            "state": "<Enum instance com.sun.star.beans.PropertyState ('DEFAULT_VALUE')>"
+          }
+        }
+      ],
+      "pages": 6,
+      "q5_paragraph_page_spans": [
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "q5_together": true,
+      "full_text_without_whitespace_and_verified_footers_sha256": "40a28d0fb0e649fee531837194467c350ff157335575e39a2e165212c2103a5d",
+      "pdf_sha256": "cb46729b8da6a6365c1cbfef3693491b7981c1bfde9646c47c52eb2b1feb8dd6"
+    }
+  ],
+  "completed": true,
+  "source_unchanged": true,
+  "limits": [
+    "Synthetic bounded Q5 only; not all DMPs or Microsoft Word",
+    "Memory edits and saved diagnostic copies are NOT native DSW outputs",
+    "Text equality ignores whitespace and verified page footers, not punctuation"
+  ],
+  "all_exports_same_normalized_text": false,
+  "all_memory_exports_same_normalized_text": true,
+  "reopened_text_equals_direct": {
+    "direct-reopened": false,
+    "same-policy-reopened": false
+  },
+  "unmodified_docx_q5_together": true,
+  "saved_policy_copy_q5_together_after_reopen": true
+}
