@@ -1,0 +1,38 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "version": "0.3.41",
+  "native_export": true,
+  "rows": [],
+  "checker_sha256": "d5bf1ea82883377e160ccdc2efd90b5d8a369e721f55ca3e5e0383edee80f9cb",
+  "helper_sha256": {
+    "artifact_utils.py": "d7524e7a29d03aa35a7b7895e1a07d1f2e1fda2ce874b3bf0a636183693aaafd",
+    "check_budget_outputs.py": "cb13491830b001059877d522cb2918f543242f3320dfeaf827b8b8aa00995415",
+    "check_short_resources_outputs.py": "0de4887aa7fe3eb2adedb18b7161daf0c74bf0709e0e61738b15d90b3650b2e1",
+    "check_preservation_reading_outputs.py": "573efd87fc0db427e3447df2d37a41d6ed36d8a37eebfc025cdfd0e19e6b3ea0",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "check_word_short_budget_outputs.py": "c568bfce161d432c5d5e971d2724a98dcbe5354e8135896ecdcd8ee786320384",
+    "check_budget_spacing_outputs.py": "4f6e622cf4b833526d5d8b67a5a1fd83eafe76e18eeeb1b4ce2d8d3a28a172fa",
+    "rehearse_profile_pdf.py": "f26eb015d89937ed5416444736b6709d2dd17df18fa1485361f9ca22c419b9cd",
+    "rehearse_profile_pagination.py": "ee5d4bcef6154d9263173ba1031ae48b7774fb21288c7a63c103431623f2b4d0",
+    "rehearse_resource_prose.py": "b277439873a3af072085dc813f38d455a942c1c4316eb074c1726ae3b7add3d9",
+    "inspect_resource_punctuation.py": "28eef0fb37c99024db13d080791d978ee23ec5c642de66c3e0724c41fdff9eb5"
+  },
+  "contract_sha256": "b3c765f36741af50ad6b5d5474fa862abdc5c536de148395f375d0f096120c4c",
+  "package_sha256": {
+    "english.zip": "5502b42d4562473cc47be0db5cae30a8a8aaf7f713df8a9d91a7675a86d2abe0",
+    "chinese.zip": "3c43de03474df02a713c8a2a62905712ced09a81cdaec86e77cc1e55a375e971"
+  },
+  "prior_package_sha256": {
+    "english.zip": "a7af8673690ede62c34faaaa587d3c48ffd77cabb253d528025421eac3a35f76",
+    "chinese.zip": "5ac155c1fe05a93aeb6746cafd667167e6034b2c95ab8d3b1e7ed785549ed666"
+  },
+  "limits": [
+    "Public synthetic controls, not arbitrary real projects",
+    "Native tables-only worker, no font patch",
+    "LibreOffice previews, not Microsoft Word acceptance",
+    "No new optional-notice scope"
+  ],
+  "failure": "AssertionError('Long fixture must have continuation headers')"
+}

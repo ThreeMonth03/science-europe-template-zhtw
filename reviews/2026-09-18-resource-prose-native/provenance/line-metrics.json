@@ -1,0 +1,181 @@
+{
+  "rows": [
+    {
+      "stem": "profile-partial-review-english",
+      "kind": "pdf",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 2
+      },
+      "before_line_count": 2,
+      "after_line_count": 2,
+      "before_pdf_sha256": "9cf7f39932fdc03675c097d360b3616924b30cd7aca8030d9af067a4e8c9d28d",
+      "after_pdf_sha256": "1a1fc75aabb736c77588fc697ac59b8a037434ea22ad4788d6d3fb05ddbe32e1"
+    },
+    {
+      "stem": "profile-partial-review-english",
+      "kind": "word",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 2
+      },
+      "before_line_count": 2,
+      "after_line_count": 2,
+      "before_pdf_sha256": "4ba868c538188290f89bd374c97a5533d7867332f011c6983c5d3e117e9c92a1",
+      "after_pdf_sha256": "7d687ca28ed5b30b8ec433fa8c08c29989674458559169e4dfdc494abc2a3f99"
+    },
+    {
+      "stem": "profile-partial-review-chinese",
+      "kind": "pdf",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 1
+      },
+      "before_line_count": 2,
+      "after_line_count": 1,
+      "before_pdf_sha256": "879e5da534f566e73f7fbe4a3f1a2ad38411f2a2c2352773bc05a91be70fba23",
+      "after_pdf_sha256": "8815ed6b20be84552be7dd13502d73d53cd300f1136f1a12d344ef0afb593188"
+    },
+    {
+      "stem": "profile-partial-review-chinese",
+      "kind": "word",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 1
+      },
+      "before_line_count": 2,
+      "after_line_count": 1,
+      "before_pdf_sha256": "122e48e6c1cd216b291d059e5e3050411de8ae0e53f5247e852757df2de9f861",
+      "after_pdf_sha256": "9b97aefd7249c6cf756f6a3be7ae63ed4afb6c2fd2b7c17ed6421d7d0276fbf5"
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "kind": "pdf",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 2
+      },
+      "before_line_count": 2,
+      "after_line_count": 2,
+      "before_pdf_sha256": "977de807b36caca7572f4a13e61ee95ed58f8f9d370098ab123aa495d124ee14",
+      "after_pdf_sha256": "a7c4e386ccd4e222d8c40bae89e70a7aa777e56d1c3760beaf12f5794221d810"
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "kind": "word",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 2
+      },
+      "before_line_count": 2,
+      "after_line_count": 2,
+      "before_pdf_sha256": "96a1788f74d28e100dacfdb1347773fe10968e06c0c1a8f28ff1d12b2a4dd42a",
+      "after_pdf_sha256": "c844dbcaed318685298e95bf9e34cd3024b234f8545c5628e1660a9b2d793910"
+    },
+    {
+      "stem": "profile-partial-submission-chinese",
+      "kind": "pdf",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 1
+      },
+      "before_line_count": 2,
+      "after_line_count": 1,
+      "before_pdf_sha256": "231f2ec6952e84722d63a3af3eb89cc559fb1bd9ee9e991afde3b339e42ee73b",
+      "after_pdf_sha256": "aa4b670a2cc559063b0ece8b9409152661d87b34e0c2bceeb0ba8dfac21582b8"
+    },
+    {
+      "stem": "profile-partial-submission-chinese",
+      "kind": "word",
+      "before": [
+        {
+          "page": 5,
+          "line_count": 1
+        },
+        {
+          "page": 5,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 1
+      },
+      "before_line_count": 2,
+      "after_line_count": 1,
+      "before_pdf_sha256": "d17f3db2c1006e67fe8d16d7f2cc152b19539f92e4c50e9ff008f1e866b4486d",
+      "after_pdf_sha256": "2a1a4b6a3b833ddb367d99537907be7593dc5b0fb6760f40675775af9f8036ba"
+    }
+  ],
+  "release_acceptance": false
+}

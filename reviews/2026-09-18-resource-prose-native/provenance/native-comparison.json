@@ -1,0 +1,2682 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "version": "0.3.41",
+  "native_export": true,
+  "rows": [
+    {
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/profile-partial-review-english.html": "e5a14448bca814379c6461caebd378be0bd61a6ee6bf3b16c9d2c5276fdde984",
+        "renders/profile-partial-review-english.html.fixture.json": "4d51ba02a1e8cc9165ccc5e2a0997e826dfd7913fece0d369bf68e029143ccdd",
+        "renders/profile-partial-review-english.pdf": "1a1fc75aabb736c77588fc697ac59b8a037434ea22ad4788d6d3fb05ddbe32e1",
+        "renders/profile-partial-review-english.pdf.fixture.json": "49f9deee5de37a434bc9b8b5bc66fc009e1db9d7dc70eb2b88de2e2d43356afc",
+        "renders/profile-partial-review-english.docx": "4b9525f5cc3c37b3ac6b54dfa89269d16896244896b31b10a6a7a5f260e3b936",
+        "renders/profile-partial-review-english.docx.fixture.json": "c182be7ea3212d1795961eaee532aacd0d90868bd8822980b319f0b3ea4c8f1b",
+        "word-preview/profile-partial-review-english.pdf": "7d687ca28ed5b30b8ec433fa8c08c29989674458559169e4dfdc494abc2a3f99"
+      },
+      "prior_artifact_sha256": {
+        "renders/profile-partial-review-english.html": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77",
+        "renders/profile-partial-review-english.html.fixture.json": "a556cf56a0fd26904c38c47ad2c13124659022017a0d4dba0f1603a2bde240ae",
+        "renders/profile-partial-review-english.pdf": "9cf7f39932fdc03675c097d360b3616924b30cd7aca8030d9af067a4e8c9d28d",
+        "renders/profile-partial-review-english.pdf.fixture.json": "fc0c758ec54212d7ead9771f16d89041642122f7d3f8bfa11a3ba4de701b732c",
+        "renders/profile-partial-review-english.docx": "0e461a5212189d1595a3ca58e70e9109e8a43c9eb1ec28c11b7faa2b160fb4d5",
+        "renders/profile-partial-review-english.docx.fixture.json": "bf7b854b262de52bf66a5bece6da052df13092fd6f241f6d64e90050c1453e2a",
+        "word-preview/profile-partial-review-english.pdf": "4ba868c538188290f89bd374c97a5533d7867332f011c6983c5d3e117e9c92a1"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            6,
+            6
+          ],
+          "heading_pages": [
+            6,
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            6,
+            6
+          ],
+          "heading_pages": [
+            6,
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 128,
+      "passed": true
+    },
+    {
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/profile-partial-review-chinese.html": "96ac653d4b428161c1b76e8d3d2ba938c999d2c1adeea491b4fe79289d507e4e",
+        "renders/profile-partial-review-chinese.html.fixture.json": "bbdfd78fcc7f9d1b235636a64b28386772385cc8e2d8bcc73ecf8800108f866e",
+        "renders/profile-partial-review-chinese.pdf": "8815ed6b20be84552be7dd13502d73d53cd300f1136f1a12d344ef0afb593188",
+        "renders/profile-partial-review-chinese.pdf.fixture.json": "59df850478fb93ab7773e595df7d901c361b20575e0212bbfd30e832137f98ce",
+        "renders/profile-partial-review-chinese.docx": "fdcecf4c16a4575fa8c8881b76b03cb509ac5f5332af1c0ff36917d93714b37d",
+        "renders/profile-partial-review-chinese.docx.fixture.json": "4de5f8fe30b2a6d13cf8e202cc2721fe6b3b7e2f643401c79427f355b97eaedf",
+        "word-preview/profile-partial-review-chinese.pdf": "9b97aefd7249c6cf756f6a3be7ae63ed4afb6c2fd2b7c17ed6421d7d0276fbf5"
+      },
+      "prior_artifact_sha256": {
+        "renders/profile-partial-review-chinese.html": "4a7c1ba9d3a12636c700038b4f49ae9159d53de657dd228b80a3e6493ca4ba18",
+        "renders/profile-partial-review-chinese.html.fixture.json": "efe2067e8cec574ffc2422d89f8869c00640391d3a682667e7596d13672a78f3",
+        "renders/profile-partial-review-chinese.pdf": "879e5da534f566e73f7fbe4a3f1a2ad38411f2a2c2352773bc05a91be70fba23",
+        "renders/profile-partial-review-chinese.pdf.fixture.json": "f1696852e7278453950908c4000443db618491d4baf8d6e55bb24fd48591733c",
+        "renders/profile-partial-review-chinese.docx": "772a6a335e8ca084468a52c3a0526249fda0afb44556bd64f21ea058c99dda50",
+        "renders/profile-partial-review-chinese.docx.fixture.json": "e4b187fab942be235d2f3b9f18926353673af260845538ed5c83cb4349fee272",
+        "word-preview/profile-partial-review-chinese.pdf": "122e48e6c1cd216b291d059e5e3050411de8ae0e53f5247e852757df2de9f861"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Semi-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            6,
+            6
+          ],
+          "heading_pages": [
+            6,
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            6,
+            6
+          ],
+          "heading_pages": [
+            6,
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 128,
+      "passed": true
+    },
+    {
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/profile-partial-submission-english.html": "a71d9620cf31c76992e22d976ca521c56e36d79099d46dde34b05eae865bf251",
+        "renders/profile-partial-submission-english.html.fixture.json": "4991177be2636937d9cbd817bf2e048e570545c5c1a8ef1a8b2b51ebd6135925",
+        "renders/profile-partial-submission-english.pdf": "a7c4e386ccd4e222d8c40bae89e70a7aa777e56d1c3760beaf12f5794221d810",
+        "renders/profile-partial-submission-english.pdf.fixture.json": "4137656aa4935d1990e854bd5351165d7065cc253a567f6d926642f94064ded0",
+        "renders/profile-partial-submission-english.docx": "e56b88182baae762f1d3a2b8477712322e9ea809cee2395f48c4a4ff8bc52f9b",
+        "renders/profile-partial-submission-english.docx.fixture.json": "7e2594230f6e99aacae2704f720255d3b97a515655e48d0a72346b567fc3a308",
+        "word-preview/profile-partial-submission-english.pdf": "c844dbcaed318685298e95bf9e34cd3024b234f8545c5628e1660a9b2d793910"
+      },
+      "prior_artifact_sha256": {
+        "renders/profile-partial-submission-english.html": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7",
+        "renders/profile-partial-submission-english.html.fixture.json": "1abd5f8af2cb4eea89dd67fb8ba99ae889c8516f0c5ed47bfd62f45ae9e3f9b9",
+        "renders/profile-partial-submission-english.pdf": "977de807b36caca7572f4a13e61ee95ed58f8f9d370098ab123aa495d124ee14",
+        "renders/profile-partial-submission-english.pdf.fixture.json": "11a5a301100868d416daadb8c0e4ce66e737675eee38b5270699e6fcd5a32520",
+        "renders/profile-partial-submission-english.docx": "89ca3345829b8c92e47eae540ee94b6de820012361d8c0e261d70c1eefa9b87c",
+        "renders/profile-partial-submission-english.docx.fixture.json": "6314a6e2a40abd0b237a35ae05896bb313022961ce7abadd13cef7ed49600004",
+        "word-preview/profile-partial-submission-english.pdf": "96a1788f74d28e100dacfdb1347773fe10968e06c0c1a8f28ff1d12b2a4dd42a"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            6,
+            6
+          ],
+          "heading_pages": [
+            6,
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            6,
+            6
+          ],
+          "heading_pages": [
+            6,
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 121,
+      "passed": true
+    },
+    {
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/profile-partial-submission-chinese.html": "1181070ee0cdc8201ee111b924c1e659d8f5a722c2bdaeb92e713132a3ba7134",
+        "renders/profile-partial-submission-chinese.html.fixture.json": "4407eed984ff927020bd634a6f8845fa7072c24ae4bd95cc9c4be83fdb537565",
+        "renders/profile-partial-submission-chinese.pdf": "aa4b670a2cc559063b0ece8b9409152661d87b34e0c2bceeb0ba8dfac21582b8",
+        "renders/profile-partial-submission-chinese.pdf.fixture.json": "a60a6aff8806e89ad2ae5bf8ed682d8ae7694c5cfcdfe9b72741a3a633d36300",
+        "renders/profile-partial-submission-chinese.docx": "53b2df91c24e71a3c8d643bf247343b6a0260b02e3df2528ce54bbf87a70ad5d",
+        "renders/profile-partial-submission-chinese.docx.fixture.json": "e5082b27dd562d94f43615f919f84812fb5a4f8ba63d5bac8712e59425367518",
+        "word-preview/profile-partial-submission-chinese.pdf": "2a1a4b6a3b833ddb367d99537907be7593dc5b0fb6760f40675775af9f8036ba"
+      },
+      "prior_artifact_sha256": {
+        "renders/profile-partial-submission-chinese.html": "7877d4be326398b445a799ccae2f0401e70dd58a681b3478247753762382d466",
+        "renders/profile-partial-submission-chinese.html.fixture.json": "624ec794ec29e567f9d59765bf8dcec9de7b91ba7a062a385c02f76e07c3dec2",
+        "renders/profile-partial-submission-chinese.pdf": "231f2ec6952e84722d63a3af3eb89cc559fb1bd9ee9e991afde3b339e42ee73b",
+        "renders/profile-partial-submission-chinese.pdf.fixture.json": "1b5b6dfb3b1d02b4aa245c47d5ed54815a691f12df1383f0203d1ed24af4296d",
+        "renders/profile-partial-submission-chinese.docx": "e8d6364cd74bd4aba40f2a06a62da43a109b284f158f441b0b7e4d6c60742e54",
+        "renders/profile-partial-submission-chinese.docx.fixture.json": "db92a24c47db6545d54075795d8c5866ec6619c6f59fa1ddb3fed9ae768f78c4",
+        "word-preview/profile-partial-submission-chinese.pdf": "d17f3db2c1006e67fe8d16d7f2cc152b19539f92e4c50e9ff008f1e866b4486d"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            6,
+            6
+          ],
+          "heading_pages": [
+            6,
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            5,
+            6
+          ],
+          "heading_pages": [
+            6,
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 121,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "review",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "word": {
+        "joined": false,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/empty-review-english.html": "8c99536ed01e9edfb81b817bc0d5c770dd7501c921e6ee9500464ca1b38e1708",
+        "renders/empty-review-english.html.fixture.json": "621183cf0ccabce3cb82051ef40477c6ad425b76365cbcb8c781a5cf54cd6c88",
+        "renders/empty-review-english.pdf": "6246ff039d8b1518a432f058e8341f1833b0bcdaa307a6759be0b276e7acf98e",
+        "renders/empty-review-english.pdf.fixture.json": "5b436407524f980d616dde51c0b06ce34950ab86437dc5bcb1bbadcdc607d0a2",
+        "renders/empty-review-english.docx": "e69a4ae61f18e282c94e3accb03851760911ef30468e34ac06c5f8f67c20d669",
+        "renders/empty-review-english.docx.fixture.json": "66d1a21302ccafc68e8c190c3ca54c4a83a61381f41371068b3d77e7b7fde535",
+        "word-preview/empty-review-english.pdf": "9a9c8a9a2a5efa310fa110f2858a8bcaa5b5db3149166e16475888e89c5d72ed"
+      },
+      "prior_artifact_sha256": {
+        "renders/empty-review-english.html": "8c99536ed01e9edfb81b817bc0d5c770dd7501c921e6ee9500464ca1b38e1708",
+        "renders/empty-review-english.html.fixture.json": "763a75c39d6aede48e9cd57eacd968276ab6af4eabc4d27159eab1770c0a9f2d",
+        "renders/empty-review-english.pdf": "ee716ac7c8fdf7439738da26559898514be8bfcd32b217d4e02c797088bed7a5",
+        "renders/empty-review-english.pdf.fixture.json": "203b5a7f2aef920d177303d8d0a62bb373134e518c5f673fbda562f821b2c3e8",
+        "renders/empty-review-english.docx": "2ed01f670afe033defb734be7e2294628190f8c470b2d2689da5c260222cb156",
+        "renders/empty-review-english.docx.fixture.json": "6e66ffd02d7dcb9bafdd613a034cf52b2ebfd1d75afc2b204accf14eae93a289",
+        "word-preview/empty-review-english.pdf": "4400c997788cb79ebc0af6d452ae8359b9737ecd4a1b5a466c5d19992e24c20a"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 4,
+          "pages": 4,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            4
+          ],
+          "heading_pages": [
+            4
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            3
+          ],
+          "heading_pages": [
+            3
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 44,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "word": {
+        "joined": false,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/empty-review-chinese.html": "27648a3baf9e7b737118fd6154b2eeb5b7930bb2ad7b015bae99c073b16a5923",
+        "renders/empty-review-chinese.html.fixture.json": "524d1de35fee32a3fedc1c85ebac2c4e3799ba0b30139dd99c6473bc6bafaa99",
+        "renders/empty-review-chinese.pdf": "01f2db3f167bd657dfa4cb7b167a4bc44de85d5647ab7322338dcc5eda744cce",
+        "renders/empty-review-chinese.pdf.fixture.json": "92bdad953b4ac047719efafc579b27b847b2546530564d2cfbe4fc29d4dfa8c9",
+        "renders/empty-review-chinese.docx": "11e36b4f2a016dbbd748ff86dcf47449ccd22acc308621a907e28bbda18bfede",
+        "renders/empty-review-chinese.docx.fixture.json": "ac94717c32fbdb83afa57e56c5d682c5bee50c2030848beb1d3c14624e346c2d",
+        "word-preview/empty-review-chinese.pdf": "e32df526070eaf0bc42b91a43022f2d487184a656e1ef148d1730c4488a90df7"
+      },
+      "prior_artifact_sha256": {
+        "renders/empty-review-chinese.html": "27648a3baf9e7b737118fd6154b2eeb5b7930bb2ad7b015bae99c073b16a5923",
+        "renders/empty-review-chinese.html.fixture.json": "75a25d8b2a0ce7de307facd13bbde037aa3769af30605983a79e23cba622d660",
+        "renders/empty-review-chinese.pdf": "363ff375a89aa703dbb1210af0e9139f10fc7396bdb3b314c23363977aabd600",
+        "renders/empty-review-chinese.pdf.fixture.json": "da8bc8d7becf651bd199cb6003409bbff77c6fb225ecc8ae08a56ef062fa8fa7",
+        "renders/empty-review-chinese.docx": "3f0b782c504a9feaea97fd962cf77d861ce3765d4e4f1c90204b2d1f17a23ff8",
+        "renders/empty-review-chinese.docx.fixture.json": "ba2ed0a7a79b12d07c4c4f568f8d36719b0b05a85c90fb99e4ef2f435ce75a6f",
+        "word-preview/empty-review-chinese.pdf": "fae44decf4de0fb5d8aca8f7b2a25adf93a6fe86c1b10f062e069fce194abee3"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Semi-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            3
+          ],
+          "heading_pages": [
+            3
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            3
+          ],
+          "heading_pages": [
+            3
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 44,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "word": {
+        "joined": false,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/empty-submission-english.html": "3a167a97c7c1d7c93656f37891591656e5baec2a3d91cdc29be15e1e870c49db",
+        "renders/empty-submission-english.html.fixture.json": "e70a37481c18e7f38f4e53f1dab2f7a4f95e5446cfec1d73e04e20871ae14ef3",
+        "renders/empty-submission-english.pdf": "af9c8683a6eb7272d76a5c379d27ca0d5921f21988c1dcc7006e0f9940cfd2b4",
+        "renders/empty-submission-english.pdf.fixture.json": "8090d6d99f4a106063d0159bf905ded4aaa46836aa36577bd733341817cdbcfb",
+        "renders/empty-submission-english.docx": "b5fea0d7fe802c4db76ae1de88c29ac387ede5407d41d85a365f935089ce22d1",
+        "renders/empty-submission-english.docx.fixture.json": "2213fcd9674f27b9e1525aec1354bafc1f578891eb4c2851f1c932195fc9c116",
+        "word-preview/empty-submission-english.pdf": "b6218a3c3f2b7df357bfe2f96237cf61388615c8aefd55e8351691619cd0ea79"
+      },
+      "prior_artifact_sha256": {
+        "renders/empty-submission-english.html": "3a167a97c7c1d7c93656f37891591656e5baec2a3d91cdc29be15e1e870c49db",
+        "renders/empty-submission-english.html.fixture.json": "ce37ef542864bd71ba040c4ceeb1cf282b72bf9c9d4fc5b43a2cefa0b0a7c68b",
+        "renders/empty-submission-english.pdf": "b27be405f04eb9bd012528b804e395f3521d3cfdc5226071c86f35619ca82163",
+        "renders/empty-submission-english.pdf.fixture.json": "7ac5a16b424244f5ea132854318a196eae6a357361b6c8f180733157b6c210df",
+        "renders/empty-submission-english.docx": "35e3ca1e00f7bedd86ab9bd844b2b998e89926cbdefd1362ad586fde2e023af3",
+        "renders/empty-submission-english.docx.fixture.json": "6e28e37b32651071f0378a9ab2b1c113374f1a92a28815ef4a8f3c601d3bf988",
+        "word-preview/empty-submission-english.pdf": "141b183957592781438c3cfbb9db0d0f265898589ef6e26323cb34280898053b"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 4,
+          "pages": 4,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            4
+          ],
+          "heading_pages": [
+            4
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            3
+          ],
+          "heading_pages": [
+            3
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 40,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "word": {
+        "joined": false,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/empty-submission-chinese.html": "b790218b4704332032d53e4ecac854935c1d204af2c5b9d5292bbee40a04f1b3",
+        "renders/empty-submission-chinese.html.fixture.json": "90c50afd722e271b0fd732c46f58d6db13ddbabebe4fc2c3b26cd8ff48476597",
+        "renders/empty-submission-chinese.pdf": "777a42719630058afb31f4354d5d57d6d7fe48605f69cb08249a7f3e3ca33b7f",
+        "renders/empty-submission-chinese.pdf.fixture.json": "c355e405ebd9bdf428231c81036bd4dd1436be9782c2f781e15791492ed41f3e",
+        "renders/empty-submission-chinese.docx": "3137805e2349d4b2c70ff65a7fecd9d20c01ede6771c06081d0fd051344e4379",
+        "renders/empty-submission-chinese.docx.fixture.json": "46c9f3851e3ab4db3368bc527f8e76da7faf0d8340baffb7b444449e65c6e477",
+        "word-preview/empty-submission-chinese.pdf": "f098e0af7ebfde6d0a2c70243852031d8baa5369f98b1b9fe29e3cc12c15cd73"
+      },
+      "prior_artifact_sha256": {
+        "renders/empty-submission-chinese.html": "b790218b4704332032d53e4ecac854935c1d204af2c5b9d5292bbee40a04f1b3",
+        "renders/empty-submission-chinese.html.fixture.json": "984c051a6ee8f4c4e78e83702adee6e2e57952281a5f3ff0c7afff3e53b57541",
+        "renders/empty-submission-chinese.pdf": "32ca333a8a3922138bfde616a3b752e53c83612ad2b3327945cdc8a3257e35ac",
+        "renders/empty-submission-chinese.pdf.fixture.json": "8602841fdfc8a58a7cf287e7e7cf19ca1e24a27def08dd47cf8563c4f8d1910f",
+        "renders/empty-submission-chinese.docx": "c3f0bbe787300c224966756929f1a6ac920f2e36ec3e8b4d8adfce05d155032f",
+        "renders/empty-submission-chinese.docx.fixture.json": "7f0cbec7119b9454dc383a279815417b175b951b00d78fcec0f5d17739df1953",
+        "word-preview/empty-submission-chinese.pdf": "12c8ea6bfde990c610556468f0ce010ac45837988a2f8b3410020827b26eace1"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            3
+          ],
+          "heading_pages": [
+            3
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            3
+          ],
+          "heading_pages": [
+            3
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 40,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-review-english.html": "d81f9270350dd00918924475b79487f2d5b70577f5601f56fd7865bade74fbb5",
+        "renders/budget-long-no-currency-review-english.html.fixture.json": "d75713c1fbd2bdf57255b56060ea927115c3601b5d487c6b4554d83eeae61553",
+        "renders/budget-long-no-currency-review-english.pdf": "9247cfc92a8969c66bddd00695e885b4919e2cd8ea3f14256ea0a58635f8551e",
+        "renders/budget-long-no-currency-review-english.pdf.fixture.json": "5eb08c1d6addbf4e1da16c12419da7d0dbedc2a5a4b9b81e526df02005105a6e",
+        "renders/budget-long-no-currency-review-english.docx": "d207a9a1cefb95d1abe0001e7f94310ee485c1ddd591b020c7393ec6377d7f8b",
+        "renders/budget-long-no-currency-review-english.docx.fixture.json": "bd7c44fed8f42c2f0b7c9b6112e34bbb63878ec77e4d4abde8277c3318ff3f1c",
+        "word-preview/budget-long-no-currency-review-english.pdf": "1ee03d50ab07b685537c214de4cb8df89591918b76e78d97f0a818be96e7d78e"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-review-english.html": "5cab90870ee8ff7ee9ed31475580f7f101a7ef520c26a84ef7ea5b2fae93e40a",
+        "renders/budget-long-no-currency-review-english.html.fixture.json": "8acbf369582c0cb888d450059824fb4b9c43f1b00fa7908c77ce49744ac8a6b2",
+        "renders/budget-long-no-currency-review-english.pdf": "caa674cdac8f0c782945fdb61be58a14ac4e13cd423d19dcc3f4abbedbb6d366",
+        "renders/budget-long-no-currency-review-english.pdf.fixture.json": "b829ab110f911fbbdbb0130ee4830285f37d1cbdb10a787a7b105ceafb87e9e0",
+        "renders/budget-long-no-currency-review-english.docx": "d96ac73e676b2cfa9ac50589c22e59f45981feb543e132de122eddc6bb019eb6",
+        "renders/budget-long-no-currency-review-english.docx.fixture.json": "94f7aae67e3b85c2ba3cddbb6b7f2813d68c713b5f3d8a7ad782b5677dbab276",
+        "word-preview/budget-long-no-currency-review-english.pdf": "2eb6aeb6028ed763d2af4dfcaf95b827b34e835ea06aecc8b774bdb294a38f28"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 10,
+          "pages": 10,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            8
+          ],
+          "heading_pages": [
+            8
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            9,
+            10
+          ],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Italic",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9
+          ],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 232,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-review-chinese.html": "d584dbe9bd53e56a0396763f678aad0e65b39057e30f83376cb981d3610c2801",
+        "renders/budget-long-no-currency-review-chinese.html.fixture.json": "f29d4b53a9e7ac1e1ab367e3bde6d38d229567d4b5138c959a5b8881424e5e48",
+        "renders/budget-long-no-currency-review-chinese.pdf": "dbec74813f13447974cb24b36d44edcd531119bb46a89a69a765e411033433f3",
+        "renders/budget-long-no-currency-review-chinese.pdf.fixture.json": "4aa5ebbd0e38b04f39e17fe505e06956f16eaeba0c1bd2b7b80c52375b014bc7",
+        "renders/budget-long-no-currency-review-chinese.docx": "d84dba88ed1f0e1ea2227045b2d4c1320e728eb724b38df17fbb4a1c54189daa",
+        "renders/budget-long-no-currency-review-chinese.docx.fixture.json": "20210f6e94746927036614796c3cc5e85bbac41e0bd07044f1608428889b1c45",
+        "word-preview/budget-long-no-currency-review-chinese.pdf": "84d4815bee221e7ac7ea414b0678853564a8fd99fc102dc436f1f6a68abec922"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-review-chinese.html": "0ddc475c590a7cd49816bb6c40edb53a7655f1bde94e0d5f5fa6ef25bfd1685f",
+        "renders/budget-long-no-currency-review-chinese.html.fixture.json": "137c5ad656d0921730c045d942769ab41f90e6ceea932793f3fab8f8e1fe9c07",
+        "renders/budget-long-no-currency-review-chinese.pdf": "8b2781fc71d3e3eb9e0ad90f5d15ad3247ceeb20b7a666dcbf4cb9b02562833a",
+        "renders/budget-long-no-currency-review-chinese.pdf.fixture.json": "5251eb4f2e26f72ee70d4340ddad19d1ab430e20a865ae4f516c7e7b8281ce83",
+        "renders/budget-long-no-currency-review-chinese.docx": "b93316469d2926390046fa2d5de226ebc2f0cc7020b90555cd4a5811fcaa560f",
+        "renders/budget-long-no-currency-review-chinese.docx.fixture.json": "dae3644f021f5943bb0f2ffaf6bbfdefab38a56f04bbf3e2dd774012b316663f",
+        "word-preview/budget-long-no-currency-review-chinese.pdf": "2960694dfa7cc2ac1c0a65316067d0730ee2c0757e9b5287984ddbd7f578cf27"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Semi-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9
+          ],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 10,
+          "pages": 10,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9,
+            10
+          ],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 232,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-submission-english.html": "f0f7a0624c244fe19982c1ff38c926af048e45e5b7e11d718d12bae6a6ca791d",
+        "renders/budget-long-no-currency-submission-english.html.fixture.json": "b20ecd126455108c3157e752e600d486236674fdbb17ec344c799cc3c4aa209a",
+        "renders/budget-long-no-currency-submission-english.pdf": "b4def49a3e5e10d48837ab86d58386702a37cdfd1721179fb4c079a83a1d9768",
+        "renders/budget-long-no-currency-submission-english.pdf.fixture.json": "f066804045da8ba67e11a763886c62db9b3db7cd38173ea944c5a533dc696a55",
+        "renders/budget-long-no-currency-submission-english.docx": "ab33c42cace22bed9433fc5540db77e260481983546c376f7143deca99ca8c74",
+        "renders/budget-long-no-currency-submission-english.docx.fixture.json": "7dc5e095ea192d2a5f3a905646a747e50959faf1a4c1c8c90de6c0d1cbf3cfc3",
+        "word-preview/budget-long-no-currency-submission-english.pdf": "3e053d830d8bba299b3d5d53020655ae6050c93cf3b17328a2859f09b5f2dbf9"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-submission-english.html": "a9955f8fec3c06c3169188cb2fd6235f5457151398fc1c6737d611bf600b4afc",
+        "renders/budget-long-no-currency-submission-english.html.fixture.json": "10eac762bc96534c09f7ec6009244086e3ff3af04a7e5c2a39d0ca7b288268f4",
+        "renders/budget-long-no-currency-submission-english.pdf": "035bd3379556c5ae416980f14a0e17c4b67f5f862e36db13a7a39680489b4c82",
+        "renders/budget-long-no-currency-submission-english.pdf.fixture.json": "84920c11db625a11b396a4131b89ccb9b8d9db61783dc1c295657baa6e929ed6",
+        "renders/budget-long-no-currency-submission-english.docx": "6bca2a0d10b1dfcb6874c71ddc41f3f914110ba2a45d81e6059034a6279e6e7d",
+        "renders/budget-long-no-currency-submission-english.docx.fixture.json": "ba88e3585474b59e4adf4e238c0a7e4fceb6ef456300020bc55f5b2d5b7c1910",
+        "word-preview/budget-long-no-currency-submission-english.pdf": "09f5817b106842ee3e70515493ac56ab00e14a748244e976a50b21f1308d93ea"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 10,
+          "pages": 10,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            8
+          ],
+          "heading_pages": [
+            8
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            9,
+            10
+          ],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Italic",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            6
+          ],
+          "heading_pages": [
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9
+          ],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 226,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-submission-chinese.html": "667def51569dcc4083351ead718c3c348be432516d75ef8e97eab06170b2c685",
+        "renders/budget-long-no-currency-submission-chinese.html.fixture.json": "a2b48afbe1832f48b7d0d3364725d70e8a53c417f3b8525646c2a9598cbad634",
+        "renders/budget-long-no-currency-submission-chinese.pdf": "5b4869873b2ea64a4a6e1ecf61d8c4c0a8753e352c08b5f26ba1bb498a59d3b3",
+        "renders/budget-long-no-currency-submission-chinese.pdf.fixture.json": "e87bce79447804fde2e00ca4652ce016bbeb6d5e0000264dfdc4a03826502da2",
+        "renders/budget-long-no-currency-submission-chinese.docx": "8952b7dfc264e08eadc0920d295f5b36352468037d7f57952146a3fd4939edbb",
+        "renders/budget-long-no-currency-submission-chinese.docx.fixture.json": "698748d84d06f3b09a4b4d03baa908a78add2e7807b31f1778d275e5170be2de",
+        "word-preview/budget-long-no-currency-submission-chinese.pdf": "01eb2f0a93fe5227c912d2a9422792f5c0a53b65b64194030506cc713ec0bec5"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-submission-chinese.html": "b9de35e1a3dcf02a265399f0171436b9586daca959b03a12cd9297accecffcef",
+        "renders/budget-long-no-currency-submission-chinese.html.fixture.json": "c31126fd18d47ff8a3e281069e86d19255b9df615a35fc65134564775e5fbaf4",
+        "renders/budget-long-no-currency-submission-chinese.pdf": "021e651557aa4a6888c07ce2d7d35d2c392eb947c3872b6c9304d656951d7e4b",
+        "renders/budget-long-no-currency-submission-chinese.pdf.fixture.json": "9a9a1c6c49802273bbe3edf1b3db39276366e7999ed923d23863638fb086eb42",
+        "renders/budget-long-no-currency-submission-chinese.docx": "55a18c9643ecff9e8bcae573e9e49dbaccc86e7fb6be113b2b1f2eec7e74ba5c",
+        "renders/budget-long-no-currency-submission-chinese.docx.fixture.json": "35fe489f950c019717988103a2dbe4a312c624700eb510b95c7a6a84b3abdba2",
+        "word-preview/budget-long-no-currency-submission-chinese.pdf": "f4c818d3e37c50c1ac8000e2af509464c09152272b42f1cc18a2a9b43f2a6265"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9
+          ],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 10,
+          "pages": 10,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9,
+            10
+          ],
+          "exact_many_row_cells_checked": 0,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 226,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "review",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/budget-many-review-english.html": "96012fb01312cb5a8a7f9d3f0e3119d2f914903f0d22a6d3a328be6ce0e3a440",
+        "renders/budget-many-review-english.html.fixture.json": "eab0674512687316a18ecf1d58f0c2448afa472d2cbac617e5e673991417d3b8",
+        "renders/budget-many-review-english.pdf": "f4bae1cf9e27771b11e66ce68b54cceecc2580a4ac404b23ee5ca4693be4d7da",
+        "renders/budget-many-review-english.pdf.fixture.json": "b5addf3b94babdb00cde12f41d5d2a97e8df77cbd8fe023ca80358ed74f45be4",
+        "renders/budget-many-review-english.docx": "1146f21693b135f447fdcba9be1285fdfe66040be62505555e6dffc9b54aa936",
+        "renders/budget-many-review-english.docx.fixture.json": "0f09e59b1b4a2ea72335df7d8f3a8570c423e77008309aedd2c27c4be0e695ee",
+        "word-preview/budget-many-review-english.pdf": "fadbc27ec4debfbf8fe69157044e69ce153a29992aae87971c43713fb4f3ddc5"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-many-review-english.html": "97b986b2922ab98412272cd86fcc0c2f551c69e23bf47015536ede6d7b4d747e",
+        "renders/budget-many-review-english.html.fixture.json": "85d53b08419a775265b83142b93aaffcc6cdcc0d52c284e5b4de3f8319ee6b4b",
+        "renders/budget-many-review-english.pdf": "47b4ce1ce81c1dbe14408f7f978a0c928fbfb33e7f1330eebcbfa12235c0c3ce",
+        "renders/budget-many-review-english.pdf.fixture.json": "90188e756831be778f4b9bd74c5fc5b270c9030e55e599bc195e0ed72723e700",
+        "renders/budget-many-review-english.docx": "55d632c51472cad6e58fccb3178bc86c9ad4be31965ad59784c2522b17846d53",
+        "renders/budget-many-review-english.docx.fixture.json": "b8007090eb7524e0f3496bd0fb1d55b4c1dccc42ec2e0dc826f08709ceeeedd5",
+        "word-preview/budget-many-review-english.pdf": "58dc33e884f39ce4c2f88db43e20f6fcff3979302190006a93d09c2e5e0b4f59"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            8
+          ],
+          "heading_pages": [
+            8
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            9
+          ],
+          "exact_many_row_cells_checked": 8,
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Italic",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 8,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 196,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "review",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/budget-many-review-chinese.html": "e4975156478ac786e4fe2ef0a1a142a0647d4c21f598466ebca39bae96d46431",
+        "renders/budget-many-review-chinese.html.fixture.json": "8d1354b6e8c7babff13fd675fd98f56f918c5f9a68a5eee5fef5e27e78dc414d",
+        "renders/budget-many-review-chinese.pdf": "d8d69e0846ea4a36b1359f155e7a99712581f07e81e870e9ae80bb1869d279b2",
+        "renders/budget-many-review-chinese.pdf.fixture.json": "003fca7ee4db473cc7954de7956db6caf002475d0195ca9d753b3995262ce8e6",
+        "renders/budget-many-review-chinese.docx": "0bb901160ac5222b67446c8ece3f0cf8c77d5b238ffd896691bee41a07eb4b4c",
+        "renders/budget-many-review-chinese.docx.fixture.json": "188c07d53d8af86d9acbb319c7efad649ea9eda4073e633ad2a68bf6235caafc",
+        "word-preview/budget-many-review-chinese.pdf": "1b6449fb8ac514df676ee02d3aad0baeba6f08084230cbb65722fd76fc388485"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-many-review-chinese.html": "31a0260073ea3a1cc869b485c9a4f28d23dd888f9a78018b26adcbaf5abf4d23",
+        "renders/budget-many-review-chinese.html.fixture.json": "d4bf969a463bef943c9b2ce13766ba89410b0085cab1712cd7968ecac212b628",
+        "renders/budget-many-review-chinese.pdf": "e39a5fcc0f899508a475e907c84cbca6bfbc420cd29007c0f410202d58eb78ea",
+        "renders/budget-many-review-chinese.pdf.fixture.json": "f772d72d0407681202ba7a381edcf495843873138c942154c6d823d3acfee159",
+        "renders/budget-many-review-chinese.docx": "01a359c88e1da32c8594f483debe2b26aaefe8854e6b4237cd08064384b5eceb",
+        "renders/budget-many-review-chinese.docx.fixture.json": "31f90d86b5d712f0f3ecbcb4db3a14fae6752774908cc42e533e35c27483e197",
+        "word-preview/budget-many-review-chinese.pdf": "71bfd536f68a492d42006ea3217602dbe252db0e5361c25b03eef00f475ec7e9"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Semi-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8
+          ],
+          "exact_many_row_cells_checked": 8,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 8,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 196,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "submission",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/budget-many-submission-english.html": "ae8d761693ce60f8779f6e441be9c9ae53739f14184b82a69dce79e9ac3fc2a4",
+        "renders/budget-many-submission-english.html.fixture.json": "aa4c7643967b54cd311333428f0827853055eddf7b183004ed5b763c5a3fecf2",
+        "renders/budget-many-submission-english.pdf": "f371154c402f38e3aabe5c657364280a220b0170f692d575b817410400903532",
+        "renders/budget-many-submission-english.pdf.fixture.json": "87b7abfeec631b7b403c6d04c05fffd7f8c0e4affe9503941206a647f7e0dc7c",
+        "renders/budget-many-submission-english.docx": "0c84a302e50a3a1499f3be42020da5025e8311b6dbb3faa50b387a36c637a572",
+        "renders/budget-many-submission-english.docx.fixture.json": "de1a3d6c9fe8606cce57cfe736ce8a3536aaaf1d9647651e5eb5483964a65779",
+        "word-preview/budget-many-submission-english.pdf": "f84330d6fa29847a330c08d9d31817cadc68a31bd2d45a6c41a86068ab169fd2"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-many-submission-english.html": "a3e4ff884c7c5e39b450053f7ec80145b5f48dec2348af5beda86eaa4ef23e73",
+        "renders/budget-many-submission-english.html.fixture.json": "5f476b4b9b591352ad70b92d984c376c54660081921fceb3b9d9ef251be177ce",
+        "renders/budget-many-submission-english.pdf": "8aa96c474943e5602914843156b2e44e4712c3dc058c354e0a45d5aa2375dcc5",
+        "renders/budget-many-submission-english.pdf.fixture.json": "7b1b4f0573696989d0f208aea30722175ab1c323c24cb6b063651c94acf0aa7f",
+        "renders/budget-many-submission-english.docx": "e219c3cc8a24e54de8a6900fe619fade1344a5d7e81ba29f83f365e8cbdaaf9a",
+        "renders/budget-many-submission-english.docx.fixture.json": "b0a9b0c13f6022cc3c96413b76c0b926858239e54a23d652416dbd138f75fde6",
+        "word-preview/budget-many-submission-english.pdf": "63a5e1b5ee02537f6804978f102f2d86ceb214bac1b3b063083640420c7907a2"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            8
+          ],
+          "heading_pages": [
+            8
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            9
+          ],
+          "exact_many_row_cells_checked": 8,
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 7,
+          "pages": 7,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Italic",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            6
+          ],
+          "heading_pages": [
+            6
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 8,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 190,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/budget-many-submission-chinese.html": "90fea249c127f9880ce8cf6709e57e7794f2f819353cc90e4b69f4a9663f9a55",
+        "renders/budget-many-submission-chinese.html.fixture.json": "6d6724f745797df8e4648d7a2fe55cbf0b23a9d1f09e540e7e6d5018a28fe5eb",
+        "renders/budget-many-submission-chinese.pdf": "05c49170930fbd2e36f4b7b02c27ffd3eb2f6635c396a2c5cde4df9a4a6bc4cf",
+        "renders/budget-many-submission-chinese.pdf.fixture.json": "5d379ab4ddc2fa2477b3df9ae8575780561d519e97bf34226e0cc1a976613c57",
+        "renders/budget-many-submission-chinese.docx": "8e81122ff549d17545573eca5d49651985355b0f53ee7d7859dd7bd703cb9a02",
+        "renders/budget-many-submission-chinese.docx.fixture.json": "ce6ed3b4ea6bd3e32b08867f896201a643b894de032567e2c564ebbcd91b9f6f",
+        "word-preview/budget-many-submission-chinese.pdf": "aff675583667a4f373adc463b290067b71c8760e81eb9ab0f762e1714c039d05"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-many-submission-chinese.html": "8e33ca6a85dd1a93c4bca5f813bf189034390284f117685008afbdf926c6e927",
+        "renders/budget-many-submission-chinese.html.fixture.json": "e8cadabfc01854ce8ab00e1390082491506a070f128fd2dc94b27f2b0d673cb3",
+        "renders/budget-many-submission-chinese.pdf": "fd9245b75db1da18b5f859d9642c62e09d0cb5395e807c44097caf6bcbb77c85",
+        "renders/budget-many-submission-chinese.pdf.fixture.json": "2d1a5b7d4ec4ace95b06988954271ac5d718506f1798465325bf21d99563f13f",
+        "renders/budget-many-submission-chinese.docx": "edec85946f31052a28fb42d83ecdcbfcf32fecbfec15a97c80665c16cee5cae3",
+        "renders/budget-many-submission-chinese.docx.fixture.json": "8992d6e94f1bf18f110e18addb9aa85e40fddfac6520eb0d77c7fd6ca26718cc",
+        "word-preview/budget-many-submission-chinese.pdf": "939eb8df528ce8fa95254502f56c2c14912b09e2e5761bdbde3b7a5ecd5e420c"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8
+          ],
+          "exact_many_row_cells_checked": 8,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "exact_many_row_cells_checked": 8,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 190,
+      "passed": true
+    }
+  ],
+  "checker_sha256": "2f0083f3e88f8855fc519ff4bf2c4ddbd263fb1c31acda5edb50c62ef6848b89",
+  "helper_sha256": {
+    "artifact_utils.py": "d7524e7a29d03aa35a7b7895e1a07d1f2e1fda2ce874b3bf0a636183693aaafd",
+    "check_budget_outputs.py": "cb13491830b001059877d522cb2918f543242f3320dfeaf827b8b8aa00995415",
+    "check_short_resources_outputs.py": "0de4887aa7fe3eb2adedb18b7161daf0c74bf0709e0e61738b15d90b3650b2e1",
+    "check_preservation_reading_outputs.py": "573efd87fc0db427e3447df2d37a41d6ed36d8a37eebfc025cdfd0e19e6b3ea0",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "check_word_short_budget_outputs.py": "c568bfce161d432c5d5e971d2724a98dcbe5354e8135896ecdcd8ee786320384",
+    "check_budget_spacing_outputs.py": "4f6e622cf4b833526d5d8b67a5a1fd83eafe76e18eeeb1b4ce2d8d3a28a172fa",
+    "rehearse_profile_pdf.py": "f26eb015d89937ed5416444736b6709d2dd17df18fa1485361f9ca22c419b9cd",
+    "rehearse_profile_pagination.py": "ee5d4bcef6154d9263173ba1031ae48b7774fb21288c7a63c103431623f2b4d0",
+    "rehearse_resource_prose.py": "b277439873a3af072085dc813f38d455a942c1c4316eb074c1726ae3b7add3d9",
+    "inspect_resource_punctuation.py": "28eef0fb37c99024db13d080791d978ee23ec5c642de66c3e0724c41fdff9eb5"
+  },
+  "contract_sha256": "b3c765f36741af50ad6b5d5474fa862abdc5c536de148395f375d0f096120c4c",
+  "package_sha256": {
+    "english.zip": "5502b42d4562473cc47be0db5cae30a8a8aaf7f713df8a9d91a7675a86d2abe0",
+    "chinese.zip": "3c43de03474df02a713c8a2a62905712ced09a81cdaec86e77cc1e55a375e971"
+  },
+  "prior_package_sha256": {
+    "english.zip": "a7af8673690ede62c34faaaa587d3c48ffd77cabb253d528025421eac3a35f76",
+    "chinese.zip": "5ac155c1fe05a93aeb6746cafd667167e6034b2c95ab8d3b1e7ed785549ed666"
+  },
+  "limits": [
+    "Public synthetic controls, not arbitrary real projects",
+    "Native tables-only worker, no font patch",
+    "LibreOffice previews, not Microsoft Word acceptance",
+    "No new optional-notice scope"
+  ]
+}

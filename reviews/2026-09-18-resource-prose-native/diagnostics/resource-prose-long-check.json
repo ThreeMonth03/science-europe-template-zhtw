@@ -1,0 +1,205 @@
+{
+  "selected_checks_passed": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "version": "0.3.41",
+  "native_export": true,
+  "rows": [
+    {
+      "case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "word": {
+        "joined": true,
+        "exact_body_outside_pair": true,
+        "character_formatting_preserved": true
+      },
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-review-english.html": "d81f9270350dd00918924475b79487f2d5b70577f5601f56fd7865bade74fbb5",
+        "renders/budget-long-no-currency-review-english.html.fixture.json": "d75713c1fbd2bdf57255b56060ea927115c3601b5d487c6b4554d83eeae61553",
+        "renders/budget-long-no-currency-review-english.pdf": "9247cfc92a8969c66bddd00695e885b4919e2cd8ea3f14256ea0a58635f8551e",
+        "renders/budget-long-no-currency-review-english.pdf.fixture.json": "5eb08c1d6addbf4e1da16c12419da7d0dbedc2a5a4b9b81e526df02005105a6e",
+        "renders/budget-long-no-currency-review-english.docx": "d207a9a1cefb95d1abe0001e7f94310ee485c1ddd591b020c7393ec6377d7f8b",
+        "renders/budget-long-no-currency-review-english.docx.fixture.json": "bd7c44fed8f42c2f0b7c9b6112e34bbb63878ec77e4d4abde8277c3318ff3f1c",
+        "word-preview/budget-long-no-currency-review-english.pdf": "1ee03d50ab07b685537c214de4cb8df89591918b76e78d97f0a818be96e7d78e"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-review-english.html": "5cab90870ee8ff7ee9ed31475580f7f101a7ef520c26a84ef7ea5b2fae93e40a",
+        "renders/budget-long-no-currency-review-english.html.fixture.json": "8acbf369582c0cb888d450059824fb4b9c43f1b00fa7908c77ce49744ac8a6b2",
+        "renders/budget-long-no-currency-review-english.pdf": "caa674cdac8f0c782945fdb61be58a14ac4e13cd423d19dcc3f4abbedbb6d366",
+        "renders/budget-long-no-currency-review-english.pdf.fixture.json": "b829ab110f911fbbdbb0130ee4830285f37d1cbdb10a787a7b105ceafb87e9e0",
+        "renders/budget-long-no-currency-review-english.docx": "d96ac73e676b2cfa9ac50589c22e59f45981feb543e132de122eddc6bb019eb6",
+        "renders/budget-long-no-currency-review-english.docx.fixture.json": "94f7aae67e3b85c2ba3cddbb6b7f2813d68c713b5f3d8a7ad782b5677dbab276",
+        "word-preview/budget-long-no-currency-review-english.pdf": "2eb6aeb6028ed763d2af4dfcaf95b827b34e835ea06aecc8b774bdb294a38f28"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 10,
+          "pages": 10,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            8
+          ],
+          "heading_pages": [
+            8
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Italic",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prior_heading_pages": [
+            7
+          ],
+          "heading_pages": [
+            7
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 232,
+      "passed": true
+    }
+  ],
+  "checker_sha256": "56331dd75248d006e3f8e15299b767d975b49215a79b0ac279e496840c0fb51f",
+  "helper_sha256": {
+    "artifact_utils.py": "d7524e7a29d03aa35a7b7895e1a07d1f2e1fda2ce874b3bf0a636183693aaafd",
+    "check_budget_outputs.py": "cb13491830b001059877d522cb2918f543242f3320dfeaf827b8b8aa00995415",
+    "check_short_resources_outputs.py": "0de4887aa7fe3eb2adedb18b7161daf0c74bf0709e0e61738b15d90b3650b2e1",
+    "check_preservation_reading_outputs.py": "573efd87fc0db427e3447df2d37a41d6ed36d8a37eebfc025cdfd0e19e6b3ea0",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "check_word_short_budget_outputs.py": "c568bfce161d432c5d5e971d2724a98dcbe5354e8135896ecdcd8ee786320384",
+    "check_budget_spacing_outputs.py": "4f6e622cf4b833526d5d8b67a5a1fd83eafe76e18eeeb1b4ce2d8d3a28a172fa",
+    "rehearse_profile_pdf.py": "f26eb015d89937ed5416444736b6709d2dd17df18fa1485361f9ca22c419b9cd",
+    "rehearse_profile_pagination.py": "ee5d4bcef6154d9263173ba1031ae48b7774fb21288c7a63c103431623f2b4d0",
+    "rehearse_resource_prose.py": "b277439873a3af072085dc813f38d455a942c1c4316eb074c1726ae3b7add3d9",
+    "inspect_resource_punctuation.py": "28eef0fb37c99024db13d080791d978ee23ec5c642de66c3e0724c41fdff9eb5"
+  },
+  "contract_sha256": "b3c765f36741af50ad6b5d5474fa862abdc5c536de148395f375d0f096120c4c",
+  "package_sha256": {
+    "english.zip": "5502b42d4562473cc47be0db5cae30a8a8aaf7f713df8a9d91a7675a86d2abe0",
+    "chinese.zip": "3c43de03474df02a713c8a2a62905712ced09a81cdaec86e77cc1e55a375e971"
+  },
+  "prior_package_sha256": {
+    "english.zip": "a7af8673690ede62c34faaaa587d3c48ffd77cabb253d528025421eac3a35f76",
+    "chinese.zip": "5ac155c1fe05a93aeb6746cafd667167e6034b2c95ab8d3b1e7ed785549ed666"
+  },
+  "limits": [
+    "Public synthetic controls, not arbitrary real projects",
+    "Native tables-only worker, no font patch",
+    "LibreOffice previews, not Microsoft Word acceptance",
+    "No new optional-notice scope"
+  ],
+  "failure": "AssertionError('PDF text changed')"
+}

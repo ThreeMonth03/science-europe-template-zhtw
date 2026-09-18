@@ -1,0 +1,29 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "budget-many-review-english",
+      "docx_sha256": "55d632c51472cad6e58fccb3178bc86c9ad4be31965ad59784c2522b17846d53",
+      "preview_sha256": "58dc33e884f39ce4c2f88db43e20f6fcff3979302190006a93d09c2e5e0b4f59"
+    },
+    {
+      "name": "budget-many-review-chinese",
+      "docx_sha256": "01a359c88e1da32c8594f483debe2b26aaefe8854e6b4237cd08064384b5eceb",
+      "preview_sha256": "71bfd536f68a492d42006ea3217602dbe252db0e5361c25b03eef00f475ec7e9"
+    },
+    {
+      "name": "budget-many-submission-english",
+      "docx_sha256": "e219c3cc8a24e54de8a6900fe619fade1344a5d7e81ba29f83f365e8cbdaaf9a",
+      "preview_sha256": "63a5e1b5ee02537f6804978f102f2d86ceb214bac1b3b063083640420c7907a2"
+    },
+    {
+      "name": "budget-many-submission-chinese",
+      "docx_sha256": "edec85946f31052a28fb42d83ecdcbfcf32fecbfec15a97c80665c16cee5cae3",
+      "preview_sha256": "939eb8df528ce8fa95254502f56c2c14912b09e2e5761bdbde3b7a5ecd5e420c"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

@@ -1,0 +1,3521 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "language": "english",
+      "cases": [
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        }
+      ],
+      "checks": 250,
+      "joined": 20
+    },
+    {
+      "language": "chinese",
+      "cases": [
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": true
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": false,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": null,
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "unknown",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "No",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": true
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": null,
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "unknown",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "No",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": null,
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "unknown",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "No",
+          "autoescape": true,
+          "joined": false
+        },
+        {
+          "hardware": "Yes",
+          "charges": "Yes",
+          "detail": "Yes",
+          "autoescape": true,
+          "joined": false
+        }
+      ],
+      "checks": 250,
+      "joined": 20
+    }
+  ],
+  "checker_sha256": "75616db02521c391c02049d8cc9135512fd6dbbe3aeec3d64e0ef0d69289ada1"
+}
