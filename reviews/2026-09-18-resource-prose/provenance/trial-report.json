@@ -1,0 +1,313 @@
+{
+  "completed": true,
+  "native_export": false,
+  "template_modified": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "b277439873a3af072085dc813f38d455a942c1c4316eb074c1726ae3b7add3d9",
+  "rows": [
+    {
+      "stem": "profile-partial-review-english",
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "selected": true,
+      "source_html_sha256": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77",
+      "source_docx_sha256": "0e461a5212189d1595a3ca58e70e9109e8a43c9eb1ec28c11b7faa2b160fb4d5",
+      "source_pdf_sha256": "9cf7f39932fdc03675c097d360b3616924b30cd7aca8030d9af067a4e8c9d28d",
+      "pdf_pages": [
+        6,
+        6
+      ],
+      "word_pages": [
+        6,
+        6
+      ],
+      "native_pdf_baseline_geometry_identical": true,
+      "native_pdf_fonts_identical": true,
+      "paired_fonts_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "native_word_baseline_geometry_identical": true,
+      "pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "artifact_sha256": {
+        "profile-partial-review-english-baseline.pdf": "1db6dc91e55833c37549e35590e1d096970d22b16548e54ce580f3615af6dfd7",
+        "profile-partial-review-english-baseline.docx": "0e461a5212189d1595a3ca58e70e9109e8a43c9eb1ec28c11b7faa2b160fb4d5",
+        "word-preview/profile-partial-review-english-baseline.pdf": "c3334392b8d06c2366ddf61699acee064210db015a35c8edeff24cf69fbc3916",
+        "profile-partial-review-english-joined.pdf": "2904fcd09af5e66ad4cdc9e2e74b17214054e3fcdda82ada72b34f4f22ed6d4b",
+        "profile-partial-review-english-joined.docx": "de1099fcfa4a02db417cabf444df405b7c032fbca43ffa6cd9cadacb253dee72",
+        "word-preview/profile-partial-review-english-joined.pdf": "63a91a25f20b10de5e254a362d781f876cb29c79af73fe55847495799c011c9e"
+      }
+    },
+    {
+      "stem": "profile-partial-review-chinese",
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "selected": true,
+      "source_html_sha256": "4a7c1ba9d3a12636c700038b4f49ae9159d53de657dd228b80a3e6493ca4ba18",
+      "source_docx_sha256": "772a6a335e8ca084468a52c3a0526249fda0afb44556bd64f21ea058c99dda50",
+      "source_pdf_sha256": "879e5da534f566e73f7fbe4a3f1a2ad38411f2a2c2352773bc05a91be70fba23",
+      "pdf_pages": [
+        6,
+        6
+      ],
+      "word_pages": [
+        6,
+        6
+      ],
+      "native_pdf_baseline_geometry_identical": false,
+      "native_pdf_fonts_identical": false,
+      "paired_fonts_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "native_word_baseline_geometry_identical": true,
+      "pdf_line_box_overlaps": [],
+      "artifact_sha256": {
+        "profile-partial-review-chinese-baseline.pdf": "7a8eee91ec2a9612982953dd2c46694bfc285f4c87d31c4bfcfb10440db743ab",
+        "profile-partial-review-chinese-baseline.docx": "772a6a335e8ca084468a52c3a0526249fda0afb44556bd64f21ea058c99dda50",
+        "word-preview/profile-partial-review-chinese-baseline.pdf": "454dab114488affc9553d359c42683d7c16b54cdddc3275954bcd58c2fbde086",
+        "profile-partial-review-chinese-joined.pdf": "874a33226c35cdd69afb9f8660fbdd6b3ce5430b2e7283512f7ea61581a86254",
+        "profile-partial-review-chinese-joined.docx": "6062bb1a7299969dea6c64fab6dcfb947e533ef4d48c95e26adae85d66b3625f",
+        "word-preview/profile-partial-review-chinese-joined.pdf": "ca502bd8895ee62d13f57c8ca9a4c5a6959349409d0dde9b877d058ec11f9706"
+      }
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "selected": true,
+      "source_html_sha256": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7",
+      "source_docx_sha256": "89ca3345829b8c92e47eae540ee94b6de820012361d8c0e261d70c1eefa9b87c",
+      "source_pdf_sha256": "977de807b36caca7572f4a13e61ee95ed58f8f9d370098ab123aa495d124ee14",
+      "pdf_pages": [
+        6,
+        6
+      ],
+      "word_pages": [
+        6,
+        6
+      ],
+      "native_pdf_baseline_geometry_identical": true,
+      "native_pdf_fonts_identical": true,
+      "paired_fonts_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "native_word_baseline_geometry_identical": true,
+      "pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "artifact_sha256": {
+        "profile-partial-submission-english-baseline.pdf": "c79805f8c7a296e2358de911ec7b0bcf95a2809a853ab2a8248ee517d0ec04d3",
+        "profile-partial-submission-english-baseline.docx": "89ca3345829b8c92e47eae540ee94b6de820012361d8c0e261d70c1eefa9b87c",
+        "word-preview/profile-partial-submission-english-baseline.pdf": "f9905bfbca5564e21f0df697271b0775d2f1fd2ea76aba380e7d874e6cef16a7",
+        "profile-partial-submission-english-joined.pdf": "e9cdf710dc084e49770049aef86ccf1ec61c307af159bd53fc5dc5408bc3bb34",
+        "profile-partial-submission-english-joined.docx": "93f5cbe83ff136904a310673dd067dd95edc02ac9eb11cc33905f3e0b72e528a",
+        "word-preview/profile-partial-submission-english-joined.pdf": "6d744f793efcd408126030f0a6e6dc908c38102ab09d652c7dffec38a9810966"
+      }
+    },
+    {
+      "stem": "profile-partial-submission-chinese",
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": true,
+      "source_html_sha256": "7877d4be326398b445a799ccae2f0401e70dd58a681b3478247753762382d466",
+      "source_docx_sha256": "e8d6364cd74bd4aba40f2a06a62da43a109b284f158f441b0b7e4d6c60742e54",
+      "source_pdf_sha256": "231f2ec6952e84722d63a3af3eb89cc559fb1bd9ee9e991afde3b339e42ee73b",
+      "pdf_pages": [
+        6,
+        6
+      ],
+      "word_pages": [
+        6,
+        6
+      ],
+      "native_pdf_baseline_geometry_identical": true,
+      "native_pdf_fonts_identical": true,
+      "paired_fonts_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "native_word_baseline_geometry_identical": true,
+      "pdf_line_box_overlaps": [],
+      "artifact_sha256": {
+        "profile-partial-submission-chinese-baseline.pdf": "f0bc8f91376d381a8d3beda78fc3448b72f7a09f35e39c80ef00f973f277519b",
+        "profile-partial-submission-chinese-baseline.docx": "e8d6364cd74bd4aba40f2a06a62da43a109b284f158f441b0b7e4d6c60742e54",
+        "word-preview/profile-partial-submission-chinese-baseline.pdf": "d38fad858a9858e69ab9fd8e3433999b6b2e29abc664a70c7af6fff4e5425fed",
+        "profile-partial-submission-chinese-joined.pdf": "91b2cf8d0f1f7bf56f44d00cb2b8928068b43a9ca896096ec7881b542f9169f7",
+        "profile-partial-submission-chinese-joined.docx": "00d26a429cb2a5e6c75b210a1b0561d349e7aadb8f35c9fad8ce9cbba6c025ba",
+        "word-preview/profile-partial-submission-chinese-joined.pdf": "6c9e3fec54659cbd5a3cf1b942d54b1477a2dc875252c5d00b3ddcde8da3e271"
+      }
+    },
+    {
+      "stem": "empty-review-english",
+      "case": "empty",
+      "profile": "review",
+      "language": "english",
+      "selected": false,
+      "source_html_sha256": "8c99536ed01e9edfb81b817bc0d5c770dd7501c921e6ee9500464ca1b38e1708",
+      "source_docx_sha256": "2ed01f670afe033defb734be7e2294628190f8c470b2d2689da5c260222cb156",
+      "source_pdf_sha256": "ee716ac7c8fdf7439738da26559898514be8bfcd32b217d4e02c797088bed7a5",
+      "pdf_pages": [
+        4,
+        4
+      ],
+      "word_pages": [
+        3,
+        3
+      ],
+      "native_pdf_baseline_geometry_identical": true,
+      "native_pdf_fonts_identical": true,
+      "paired_fonts_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "native_word_baseline_geometry_identical": true,
+      "pdf_line_box_overlaps": [
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "artifact_sha256": {
+        "empty-review-english-baseline.pdf": "d1b5b12aafa1818154e6718cd65f5287515ed93c4dc8c33f43e0fecf2def5130",
+        "empty-review-english-baseline.docx": "2ed01f670afe033defb734be7e2294628190f8c470b2d2689da5c260222cb156",
+        "word-preview/empty-review-english-baseline.pdf": "574e74860a6971425c90071abd3a84243600c9b13f16f3f7e4f95849c5b1877e",
+        "empty-review-english-joined.pdf": "6517c8add8b1c9215a9023f56a2298c5b48e194f9534eee4358aa419fcf687fb",
+        "empty-review-english-joined.docx": "2ed01f670afe033defb734be7e2294628190f8c470b2d2689da5c260222cb156",
+        "word-preview/empty-review-english-joined.pdf": "75a5c0a31f269580e903cf9e559836d59f4ee1a3cf2a1ae00b765811d03009a0"
+      }
+    },
+    {
+      "stem": "empty-review-chinese",
+      "case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "selected": false,
+      "source_html_sha256": "27648a3baf9e7b737118fd6154b2eeb5b7930bb2ad7b015bae99c073b16a5923",
+      "source_docx_sha256": "3f0b782c504a9feaea97fd962cf77d861ce3765d4e4f1c90204b2d1f17a23ff8",
+      "source_pdf_sha256": "363ff375a89aa703dbb1210af0e9139f10fc7396bdb3b314c23363977aabd600",
+      "pdf_pages": [
+        3,
+        3
+      ],
+      "word_pages": [
+        3,
+        3
+      ],
+      "native_pdf_baseline_geometry_identical": false,
+      "native_pdf_fonts_identical": false,
+      "paired_fonts_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "native_word_baseline_geometry_identical": true,
+      "pdf_line_box_overlaps": [],
+      "artifact_sha256": {
+        "empty-review-chinese-baseline.pdf": "69731b302a0e8ad0564a719948b660c302b905f302deeba6b18c140cbac0674e",
+        "empty-review-chinese-baseline.docx": "3f0b782c504a9feaea97fd962cf77d861ce3765d4e4f1c90204b2d1f17a23ff8",
+        "word-preview/empty-review-chinese-baseline.pdf": "8eba01b9db7524f05a788d01b3a315a3105379a11002571106a07be7489d389d",
+        "empty-review-chinese-joined.pdf": "76e7608f0270f65376f0d2bbc2f6b25b0e8391a0ea1fab31084a6915daac216f",
+        "empty-review-chinese-joined.docx": "3f0b782c504a9feaea97fd962cf77d861ce3765d4e4f1c90204b2d1f17a23ff8",
+        "word-preview/empty-review-chinese-joined.pdf": "4aad301be51cf759160aaed5417f31ee123c3ca2c895daf1a21cfceb852947ee"
+      }
+    },
+    {
+      "stem": "empty-submission-english",
+      "case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "selected": false,
+      "source_html_sha256": "3a167a97c7c1d7c93656f37891591656e5baec2a3d91cdc29be15e1e870c49db",
+      "source_docx_sha256": "35e3ca1e00f7bedd86ab9bd844b2b998e89926cbdefd1362ad586fde2e023af3",
+      "source_pdf_sha256": "b27be405f04eb9bd012528b804e395f3521d3cfdc5226071c86f35619ca82163",
+      "pdf_pages": [
+        4,
+        4
+      ],
+      "word_pages": [
+        3,
+        3
+      ],
+      "native_pdf_baseline_geometry_identical": true,
+      "native_pdf_fonts_identical": true,
+      "paired_fonts_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "native_word_baseline_geometry_identical": true,
+      "pdf_line_box_overlaps": [
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "artifact_sha256": {
+        "empty-submission-english-baseline.pdf": "0fca2bc82a167f125fe8156c5dd3e5ed6c3b51a5800690e6d2c290ecebb30b21",
+        "empty-submission-english-baseline.docx": "35e3ca1e00f7bedd86ab9bd844b2b998e89926cbdefd1362ad586fde2e023af3",
+        "word-preview/empty-submission-english-baseline.pdf": "4eaaecb4040f3ca17f7e3d4e45b6e2b06bf4da9e3b3719b91d9391c89cdc894b",
+        "empty-submission-english-joined.pdf": "258360dfcf810d85a19de782fb50215b7dfac0ba394a3e93b25861bf5e99eaf2",
+        "empty-submission-english-joined.docx": "35e3ca1e00f7bedd86ab9bd844b2b998e89926cbdefd1362ad586fde2e023af3",
+        "word-preview/empty-submission-english-joined.pdf": "a74abe0c22fed4cd74b58256eab9f09aba225cc88873b53d116ffafaafaf3c78"
+      }
+    },
+    {
+      "stem": "empty-submission-chinese",
+      "case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": false,
+      "source_html_sha256": "b790218b4704332032d53e4ecac854935c1d204af2c5b9d5292bbee40a04f1b3",
+      "source_docx_sha256": "c3f0bbe787300c224966756929f1a6ac920f2e36ec3e8b4d8adfce05d155032f",
+      "source_pdf_sha256": "32ca333a8a3922138bfde616a3b752e53c83612ad2b3327945cdc8a3257e35ac",
+      "pdf_pages": [
+        3,
+        3
+      ],
+      "word_pages": [
+        3,
+        3
+      ],
+      "native_pdf_baseline_geometry_identical": true,
+      "native_pdf_fonts_identical": true,
+      "paired_fonts_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "native_word_baseline_geometry_identical": true,
+      "pdf_line_box_overlaps": [],
+      "artifact_sha256": {
+        "empty-submission-chinese-baseline.pdf": "294e787916226ad13421ebb7bb9eb67cdd7d3d73d5e7ed94bb6cc8a81626e861",
+        "empty-submission-chinese-baseline.docx": "c3f0bbe787300c224966756929f1a6ac920f2e36ec3e8b4d8adfce05d155032f",
+        "word-preview/empty-submission-chinese-baseline.pdf": "e32b52e6ab1e96c297446cb3ec729acd98f844446369f1a0c7c5a219ce17f996",
+        "empty-submission-chinese-joined.pdf": "976c0fa744c0f821e0c2c2b767d96b175c82679084d4522d838b62ff081eaa6a",
+        "empty-submission-chinese-joined.docx": "c3f0bbe787300c224966756929f1a6ac920f2e36ec3e8b4d8adfce05d155032f",
+        "word-preview/empty-submission-chinese-joined.pdf": "8e0c7780886cdef0fd8266c63afd0421ec4930e789bbde904a5687a2751b2b57"
+      }
+    }
+  ],
+  "limits": [
+    "Synthetic fixed Q15 pair only; not a template implementation",
+    "Paired offline PDF rehearsal, not native DSW exports; native-baseline differences are reported explicitly",
+    "LibreOffice previews do not establish Microsoft Word acceptance"
+  ],
+  "engine_stderr": ""
+}

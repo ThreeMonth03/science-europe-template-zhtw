@@ -1,0 +1,147 @@
+{
+  "completed": true,
+  "template_modified": false,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "profile": "review",
+      "html_word_pdf_text": [
+        "除機構通常提供的資源外，我們不需要其他硬體或軟體。",
+        "預計使用的資料儲存庫會收取服務費。"
+      ],
+      "real_whitespace_before_punctuation": false,
+      "pdf_font_runs": [
+        {
+          "text": "除機構通常提供的資源外，我們不需要其他硬體或軟體。",
+          "page": 6,
+          "font": "VHAAGJ+Pilot-CJK"
+        },
+        {
+          "text": "預計使用的資料儲存庫會收取服務費。",
+          "page": 6,
+          "font": "VHAAGJ+Pilot-CJK"
+        }
+      ],
+      "input_sha256": {
+        "html": "4a7c1ba9d3a12636c700038b4f49ae9159d53de657dd228b80a3e6493ca4ba18",
+        "pdf": "879e5da534f566e73f7fbe4a3f1a2ad38411f2a2c2352773bc05a91be70fba23",
+        "docx": "772a6a335e8ca084468a52c3a0526249fda0afb44556bd64f21ea058c99dda50"
+      }
+    },
+    {
+      "profile": "submission",
+      "html_word_pdf_text": [
+        "除機構通常提供的資源外，我們不需要其他硬體或軟體。",
+        "預計使用的資料儲存庫會收取服務費。"
+      ],
+      "real_whitespace_before_punctuation": false,
+      "pdf_font_runs": [
+        {
+          "text": "除機構通常提供的資源外，我們不需要其他硬體或軟體。",
+          "page": 6,
+          "font": "VHAAGJ+Pilot-CJK"
+        },
+        {
+          "text": "預計使用的資料儲存庫會收取服務費。",
+          "page": 6,
+          "font": "VHAAGJ+Pilot-CJK"
+        }
+      ],
+      "input_sha256": {
+        "html": "7877d4be326398b445a799ccae2f0401e70dd58a681b3478247753762382d466",
+        "pdf": "231f2ec6952e84722d63a3af3eb89cc559fb1bd9ee9e991afde3b339e42ee73b",
+        "docx": "e8d6364cd74bd4aba40f2a06a62da43a109b284f158f441b0b7e4d6c60742e54"
+      }
+    }
+  ],
+  "checker_sha256": "28eef0fb37c99024db13d080791d978ee23ec5c642de66c3e0724c41fdff9eb5",
+  "font_sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "source_font_measurement": "Default-axis source glyphs, not a reconstruction of the embedded native PDF outlines",
+  "reference": "https://www.w3.org/International/clreq/#positioning_of_punctuation_marks",
+  "source_font_metrics": {
+    "units_per_em": 1000,
+    "default_axes": {
+      "wght": 100.0
+    },
+    "glyphs": [
+      {
+        "character": "。",
+        "codepoint": "U+3002",
+        "advance": 1000,
+        "ink_bounds": [
+          360,
+          236,
+          646,
+          522
+        ]
+      },
+      {
+        "character": "，",
+        "codepoint": "U+FF0C",
+        "advance": 1000,
+        "ink_bounds": [
+          408,
+          216,
+          569,
+          520
+        ]
+      },
+      {
+        "character": "、",
+        "codepoint": "U+3001",
+        "advance": 1000,
+        "ink_bounds": [
+          371,
+          256,
+          627,
+          505
+        ]
+      },
+      {
+        "character": "？",
+        "codepoint": "U+FF1F",
+        "advance": 1000,
+        "ink_bounds": [
+          264,
+          0,
+          722,
+          762
+        ]
+      },
+      {
+        "character": "：",
+        "codepoint": "U+FF1A",
+        "advance": 1000,
+        "ink_bounds": [
+          444,
+          70,
+          556,
+          684
+        ]
+      },
+      {
+        "character": "培",
+        "codepoint": "U+57F9",
+        "advance": 1000,
+        "ink_bounds": [
+          45,
+          -70,
+          950,
+          835
+        ]
+      },
+      {
+        "character": "訓",
+        "codepoint": "U+8A13",
+        "advance": 1000,
+        "ink_bounds": [
+          50,
+          -73,
+          914,
+          834
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "completed": false,
+  "template_modified": false,
+  "release_acceptance": false,
+  "rows": [],
+  "checker_sha256": "1803b1d8dc3d9e76e61525c3bffa2310250e4f2f0ddc345b74e97924143db6be",
+  "font_sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "source_font_measurement": "Default-axis source glyphs, not a reconstruction of the embedded native PDF outlines",
+  "reference": "https://www.w3.org/International/clreq/#positioning_of_punctuation_marks",
+  "source_font_metrics": {
+    "units_per_em": 1000,
+    "default_axes": {
+      "wght": 100.0
+    },
+    "glyphs": [
+      {
+        "character": "。",
+        "codepoint": "U+3002",
+        "advance": 1000,
+        "ink_bounds": [
+          360,
+          236,
+          646,
+          522
+        ]
+      },
+      {
+        "character": "，",
+        "codepoint": "U+FF0C",
+        "advance": 1000,
+        "ink_bounds": [
+          408,
+          216,
+          569,
+          520
+        ]
+      },
+      {
+        "character": "、",
+        "codepoint": "U+3001",
+        "advance": 1000,
+        "ink_bounds": [
+          371,
+          256,
+          627,
+          505
+        ]
+      },
+      {
+        "character": "？",
+        "codepoint": "U+FF1F",
+        "advance": 1000,
+        "ink_bounds": [
+          264,
+          0,
+          722,
+          762
+        ]
+      },
+      {
+        "character": "：",
+        "codepoint": "U+FF1A",
+        "advance": 1000,
+        "ink_bounds": [
+          444,
+          70,
+          556,
+          684
+        ]
+      },
+      {
+        "character": "培",
+        "codepoint": "U+57F9",
+        "advance": 1000,
+        "ink_bounds": [
+          45,
+          -70,
+          950,
+          835
+        ]
+      },
+      {
+        "character": "訓",
+        "codepoint": "U+8A13",
+        "advance": 1000,
+        "ink_bounds": [
+          50,
+          -73,
+          914,
+          834
+        ]
+      }
+    ]
+  },
+  "failure": "KeyError('2')"
+}

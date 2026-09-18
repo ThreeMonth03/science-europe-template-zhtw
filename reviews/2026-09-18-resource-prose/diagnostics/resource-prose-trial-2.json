@@ -1,0 +1,98 @@
+{
+  "completed": false,
+  "native_export": false,
+  "template_modified": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "74e3c33c8de092e166149fc6a65a251180891a9ea0d5ab8081791faf017f20a2",
+  "rows": [
+    {
+      "stem": "profile-partial-review-english",
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "selected": true,
+      "source_html_sha256": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77",
+      "source_docx_sha256": "0e461a5212189d1595a3ca58e70e9109e8a43c9eb1ec28c11b7faa2b160fb4d5",
+      "source_pdf_sha256": "9cf7f39932fdc03675c097d360b3616924b30cd7aca8030d9af067a4e8c9d28d"
+    },
+    {
+      "stem": "profile-partial-review-chinese",
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "selected": true,
+      "source_html_sha256": "4a7c1ba9d3a12636c700038b4f49ae9159d53de657dd228b80a3e6493ca4ba18",
+      "source_docx_sha256": "772a6a335e8ca084468a52c3a0526249fda0afb44556bd64f21ea058c99dda50",
+      "source_pdf_sha256": "879e5da534f566e73f7fbe4a3f1a2ad38411f2a2c2352773bc05a91be70fba23"
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "selected": true,
+      "source_html_sha256": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7",
+      "source_docx_sha256": "89ca3345829b8c92e47eae540ee94b6de820012361d8c0e261d70c1eefa9b87c",
+      "source_pdf_sha256": "977de807b36caca7572f4a13e61ee95ed58f8f9d370098ab123aa495d124ee14"
+    },
+    {
+      "stem": "profile-partial-submission-chinese",
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": true,
+      "source_html_sha256": "7877d4be326398b445a799ccae2f0401e70dd58a681b3478247753762382d466",
+      "source_docx_sha256": "e8d6364cd74bd4aba40f2a06a62da43a109b284f158f441b0b7e4d6c60742e54",
+      "source_pdf_sha256": "231f2ec6952e84722d63a3af3eb89cc559fb1bd9ee9e991afde3b339e42ee73b"
+    },
+    {
+      "stem": "empty-review-english",
+      "case": "empty",
+      "profile": "review",
+      "language": "english",
+      "selected": false,
+      "source_html_sha256": "8c99536ed01e9edfb81b817bc0d5c770dd7501c921e6ee9500464ca1b38e1708",
+      "source_docx_sha256": "2ed01f670afe033defb734be7e2294628190f8c470b2d2689da5c260222cb156",
+      "source_pdf_sha256": "ee716ac7c8fdf7439738da26559898514be8bfcd32b217d4e02c797088bed7a5"
+    },
+    {
+      "stem": "empty-review-chinese",
+      "case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "selected": false,
+      "source_html_sha256": "27648a3baf9e7b737118fd6154b2eeb5b7930bb2ad7b015bae99c073b16a5923",
+      "source_docx_sha256": "3f0b782c504a9feaea97fd962cf77d861ce3765d4e4f1c90204b2d1f17a23ff8",
+      "source_pdf_sha256": "363ff375a89aa703dbb1210af0e9139f10fc7396bdb3b314c23363977aabd600"
+    },
+    {
+      "stem": "empty-submission-english",
+      "case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "selected": false,
+      "source_html_sha256": "3a167a97c7c1d7c93656f37891591656e5baec2a3d91cdc29be15e1e870c49db",
+      "source_docx_sha256": "35e3ca1e00f7bedd86ab9bd844b2b998e89926cbdefd1362ad586fde2e023af3",
+      "source_pdf_sha256": "b27be405f04eb9bd012528b804e395f3521d3cfdc5226071c86f35619ca82163"
+    },
+    {
+      "stem": "empty-submission-chinese",
+      "case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": false,
+      "source_html_sha256": "b790218b4704332032d53e4ecac854935c1d204af2c5b9d5292bbee40a04f1b3",
+      "source_docx_sha256": "c3f0bbe787300c224966756929f1a6ac920f2e36ec3e8b4d8adfce05d155032f",
+      "source_pdf_sha256": "32ca333a8a3922138bfde616a3b752e53c83612ad2b3327945cdc8a3257e35ac"
+    }
+  ],
+  "limits": [
+    "Synthetic fixed Q15 pair only; not a template implementation",
+    "Paired offline PDF rehearsal, not native DSW exports; native-baseline differences are reported explicitly",
+    "LibreOffice previews do not establish Microsoft Word acceptance"
+  ],
+  "engine_stderr": "",
+  "failure": "AssertionError('Missing proven footer')"
+}

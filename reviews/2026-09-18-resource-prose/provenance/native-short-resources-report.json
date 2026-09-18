@@ -1,0 +1,1544 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "version": "0.3.40",
+  "cases": [
+    "profile-partial",
+    "empty",
+    "budget-long-no-currency",
+    "budget-many"
+  ],
+  "rows": [
+    {
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "pdf_pages": 6,
+      "word_pages": 6,
+      "word_preview_paragraphs_checked": 129,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/profile-partial-review-english.html": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77",
+        "renders/profile-partial-review-english.html.fixture.json": "43e947125daf3b7f69b2bdb0efa5582dfe193e2bb3cca85733d54162c5ea2c11",
+        "renders/profile-partial-review-english.pdf": "7582af4ffef23700c25a4e37e5e95651db3e813094c4154829b77186a7d0b040",
+        "renders/profile-partial-review-english.pdf.fixture.json": "89af4c5750bb16a24f319e15ba180cdd62e2f85f1efc8e5b938052655ddcbdd5",
+        "renders/profile-partial-review-english.docx": "f32590b1c1b128034d23c13ce8f342c0002de0a86853989125ee831c0418ca4c",
+        "renders/profile-partial-review-english.docx.fixture.json": "6601f15b4262359a7f2e7177d4e0863adf27c6155598502513f6a684da8c6400",
+        "word-preview/profile-partial-review-english.pdf": "971094a6a30497d3eeb76b960d6eee203d9baa7e094241118925140edafed351"
+      },
+      "artifact_sha256": {
+        "renders/profile-partial-review-english.html": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77",
+        "renders/profile-partial-review-english.html.fixture.json": "a556cf56a0fd26904c38c47ad2c13124659022017a0d4dba0f1603a2bde240ae",
+        "renders/profile-partial-review-english.pdf": "9cf7f39932fdc03675c097d360b3616924b30cd7aca8030d9af067a4e8c9d28d",
+        "renders/profile-partial-review-english.pdf.fixture.json": "fc0c758ec54212d7ead9771f16d89041642122f7d3f8bfa11a3ba4de701b732c",
+        "renders/profile-partial-review-english.docx": "0e461a5212189d1595a3ca58e70e9109e8a43c9eb1ec28c11b7faa2b160fb4d5",
+        "renders/profile-partial-review-english.docx.fixture.json": "bf7b854b262de52bf66a5bece6da052df13092fd6f241f6d64e90050c1453e2a",
+        "word-preview/profile-partial-review-english.pdf": "4ba868c538188290f89bd374c97a5533d7867332f011c6983c5d3e117e9c92a1"
+      },
+      "prior_pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "prior_q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "prefix_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "pdf_pages": 6,
+      "word_pages": 6,
+      "word_preview_paragraphs_checked": 129,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Semi-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/profile-partial-review-chinese.html": "4a7c1ba9d3a12636c700038b4f49ae9159d53de657dd228b80a3e6493ca4ba18",
+        "renders/profile-partial-review-chinese.html.fixture.json": "804dd6d385cce6f019f719544321a7bb7c7e7a03fc68c45a29549112d2b30686",
+        "renders/profile-partial-review-chinese.pdf": "c25e4f995db4a4f00b4732710cc21078cb10b786955c53ef11b3876cec39385e",
+        "renders/profile-partial-review-chinese.pdf.fixture.json": "4b5f1487fa0b174d0ff1be452e1806825c5a9d229f3a0d16ade46e81ce5bf049",
+        "renders/profile-partial-review-chinese.docx": "323a07edb3374787b2a390c063115675a5287e032bbf2f27057c234184d34f89",
+        "renders/profile-partial-review-chinese.docx.fixture.json": "3921f42689669a1b3b08384fdf9ca11e91a85070d9f5977fe80b8221a59b6314",
+        "word-preview/profile-partial-review-chinese.pdf": "e19dc3625e0767260eee1d15db8135495a319a413d871119ba35d1218addd6b8"
+      },
+      "artifact_sha256": {
+        "renders/profile-partial-review-chinese.html": "4a7c1ba9d3a12636c700038b4f49ae9159d53de657dd228b80a3e6493ca4ba18",
+        "renders/profile-partial-review-chinese.html.fixture.json": "efe2067e8cec574ffc2422d89f8869c00640391d3a682667e7596d13672a78f3",
+        "renders/profile-partial-review-chinese.pdf": "879e5da534f566e73f7fbe4a3f1a2ad38411f2a2c2352773bc05a91be70fba23",
+        "renders/profile-partial-review-chinese.pdf.fixture.json": "f1696852e7278453950908c4000443db618491d4baf8d6e55bb24fd48591733c",
+        "renders/profile-partial-review-chinese.docx": "772a6a335e8ca084468a52c3a0526249fda0afb44556bd64f21ea058c99dda50",
+        "renders/profile-partial-review-chinese.docx.fixture.json": "e4b187fab942be235d2f3b9f18926353673af260845538ed5c83cb4349fee272",
+        "word-preview/profile-partial-review-chinese.pdf": "122e48e6c1cd216b291d059e5e3050411de8ae0e53f5247e852757df2de9f861"
+      },
+      "prior_pdf_line_box_overlaps": [],
+      "pdf_line_box_overlaps": [],
+      "prior_q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "prefix_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "pdf_pages": 6,
+      "word_pages": 6,
+      "word_preview_paragraphs_checked": 122,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/profile-partial-submission-english.html": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7",
+        "renders/profile-partial-submission-english.html.fixture.json": "844abc383a2b95c05da6fc36fdc84709e73282f539946f6cc21a78238fc4f185",
+        "renders/profile-partial-submission-english.pdf": "9ad89c6f0dcafc0b21b65ff2366cb674abb18a318402013c19e7caf8202e6cf6",
+        "renders/profile-partial-submission-english.pdf.fixture.json": "fd277023098342a7445422a9432e69b2bb5aba60e9be24f15e70d9db551643d4",
+        "renders/profile-partial-submission-english.docx": "feab8cb375a99b963d8e55556b3647930159f2d088cf70ad9fb20bb3743d6381",
+        "renders/profile-partial-submission-english.docx.fixture.json": "651f15992bce5928d9768dec5171dc5cf6f51cf4e44d276d6e40d1f7a1980bd8",
+        "word-preview/profile-partial-submission-english.pdf": "38708c6e91db76f115f1d7279eab3f08ba3b273fefd2cb99e8ec78df37c466f7"
+      },
+      "artifact_sha256": {
+        "renders/profile-partial-submission-english.html": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7",
+        "renders/profile-partial-submission-english.html.fixture.json": "1abd5f8af2cb4eea89dd67fb8ba99ae889c8516f0c5ed47bfd62f45ae9e3f9b9",
+        "renders/profile-partial-submission-english.pdf": "977de807b36caca7572f4a13e61ee95ed58f8f9d370098ab123aa495d124ee14",
+        "renders/profile-partial-submission-english.pdf.fixture.json": "11a5a301100868d416daadb8c0e4ce66e737675eee38b5270699e6fcd5a32520",
+        "renders/profile-partial-submission-english.docx": "89ca3345829b8c92e47eae540ee94b6de820012361d8c0e261d70c1eefa9b87c",
+        "renders/profile-partial-submission-english.docx.fixture.json": "6314a6e2a40abd0b237a35ae05896bb313022961ce7abadd13cef7ed49600004",
+        "word-preview/profile-partial-submission-english.pdf": "96a1788f74d28e100dacfdb1347773fe10968e06c0c1a8f28ff1d12b2a4dd42a"
+      },
+      "prior_pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "prior_q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "prefix_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "pdf_pages": 6,
+      "word_pages": 6,
+      "word_preview_paragraphs_checked": 122,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/profile-partial-submission-chinese.html": "7877d4be326398b445a799ccae2f0401e70dd58a681b3478247753762382d466",
+        "renders/profile-partial-submission-chinese.html.fixture.json": "7fe2a352da64406933d7c5b23c6f78cbe350e6006b528a3724964d0d9c02ce13",
+        "renders/profile-partial-submission-chinese.pdf": "9c8d047b79a628660efc3f12ca2c6b87b86eb11c7abeba70c4d58e5c1b453575",
+        "renders/profile-partial-submission-chinese.pdf.fixture.json": "e5d19ae6be69cc7232be89f596a12d3a60bedeb3e7144025152251b9dc6a0260",
+        "renders/profile-partial-submission-chinese.docx": "2064945591414595378bb81ea94b1827a803fe745dc00dc55a82c440b9e978ce",
+        "renders/profile-partial-submission-chinese.docx.fixture.json": "de6cda8332e9870d4d374a8bc6605f5b56f937588da3224fc6bad1c8f8376432",
+        "word-preview/profile-partial-submission-chinese.pdf": "443e96926828a4a18f0082eea424402ba8e909f5a4b9a787e3607da38f823aec"
+      },
+      "artifact_sha256": {
+        "renders/profile-partial-submission-chinese.html": "7877d4be326398b445a799ccae2f0401e70dd58a681b3478247753762382d466",
+        "renders/profile-partial-submission-chinese.html.fixture.json": "624ec794ec29e567f9d59765bf8dcec9de7b91ba7a062a385c02f76e07c3dec2",
+        "renders/profile-partial-submission-chinese.pdf": "231f2ec6952e84722d63a3af3eb89cc559fb1bd9ee9e991afde3b339e42ee73b",
+        "renders/profile-partial-submission-chinese.pdf.fixture.json": "1b5b6dfb3b1d02b4aa245c47d5ed54815a691f12df1383f0203d1ed24af4296d",
+        "renders/profile-partial-submission-chinese.docx": "e8d6364cd74bd4aba40f2a06a62da43a109b284f158f441b0b7e4d6c60742e54",
+        "renders/profile-partial-submission-chinese.docx.fixture.json": "db92a24c47db6545d54075795d8c5866ec6619c6f59fa1ddb3fed9ae768f78c4",
+        "word-preview/profile-partial-submission-chinese.pdf": "d17f3db2c1006e67fe8d16d7f2cc152b19539f92e4c50e9ff008f1e866b4486d"
+      },
+      "prior_pdf_line_box_overlaps": [],
+      "pdf_line_box_overlaps": [],
+      "prior_q15_heading_table_pages": [
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "prefix_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "review",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 4,
+      "word_pages": 3,
+      "word_preview_paragraphs_checked": 44,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/empty-review-english.html": "8c99536ed01e9edfb81b817bc0d5c770dd7501c921e6ee9500464ca1b38e1708",
+        "renders/empty-review-english.html.fixture.json": "af7ff69d5231cf05ff4c9dc39d1ec2246405d05c0961c4e21402a75fcc34b1ae",
+        "renders/empty-review-english.pdf": "507e61fc7e4a71eeea984c7c22615e7805821c8cd21ac370312ab1942c33f6b1",
+        "renders/empty-review-english.pdf.fixture.json": "5bbdf01eaab59208691594fa95020658de4886ed0ab04981f8686c4bd7ce0eac",
+        "renders/empty-review-english.docx": "d968abcb6afbd74b93fff891d369e818d2cef0a8c9e34f1a257b4ea6f5b86898",
+        "renders/empty-review-english.docx.fixture.json": "b63aa4e8bb27bf6402f8c726b6407ea680512b7b53a9a954a6e4a1c574154f4e",
+        "word-preview/empty-review-english.pdf": "62152f08010d389383abe93155bdef2de72040846f10fd114300e8e75bbac660"
+      },
+      "artifact_sha256": {
+        "renders/empty-review-english.html": "8c99536ed01e9edfb81b817bc0d5c770dd7501c921e6ee9500464ca1b38e1708",
+        "renders/empty-review-english.html.fixture.json": "763a75c39d6aede48e9cd57eacd968276ab6af4eabc4d27159eab1770c0a9f2d",
+        "renders/empty-review-english.pdf": "ee716ac7c8fdf7439738da26559898514be8bfcd32b217d4e02c797088bed7a5",
+        "renders/empty-review-english.pdf.fixture.json": "203b5a7f2aef920d177303d8d0a62bb373134e518c5f673fbda562f821b2c3e8",
+        "renders/empty-review-english.docx": "2ed01f670afe033defb734be7e2294628190f8c470b2d2689da5c260222cb156",
+        "renders/empty-review-english.docx.fixture.json": "6e66ffd02d7dcb9bafdd613a034cf52b2ebfd1d75afc2b204accf14eae93a289",
+        "word-preview/empty-review-english.pdf": "4400c997788cb79ebc0af6d452ae8359b9737ecd4a1b5a466c5d19992e24c20a"
+      },
+      "prior_pdf_line_box_overlaps": [
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "pdf_line_box_overlaps": [
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 3,
+      "word_pages": 3,
+      "word_preview_paragraphs_checked": 44,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Semi-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/empty-review-chinese.html": "27648a3baf9e7b737118fd6154b2eeb5b7930bb2ad7b015bae99c073b16a5923",
+        "renders/empty-review-chinese.html.fixture.json": "6363098a468bc732401909d5cf004dee0304d6f485b2b5a46fad93f173c0d9d9",
+        "renders/empty-review-chinese.pdf": "f4c75f8d97e39051e7c2a8734b96dba3b01ebd5b9853fc2369114ba2bb195a04",
+        "renders/empty-review-chinese.pdf.fixture.json": "37af0be32c724d6d489555b37a1370a91b8e7363c39da44d87da4ec8a6e93b47",
+        "renders/empty-review-chinese.docx": "2a1bff74a561ce08f810428febae8493c154d682420e14dd2c8594c85e638afc",
+        "renders/empty-review-chinese.docx.fixture.json": "49360ac41cc1bb9b28a3d168dfceaff6ee81e3e419c34449193b21ecc19f8707",
+        "word-preview/empty-review-chinese.pdf": "85b0d279cd00fd57519dedf8efc14805d9f52ce9851318889f60e75e64ee318c"
+      },
+      "artifact_sha256": {
+        "renders/empty-review-chinese.html": "27648a3baf9e7b737118fd6154b2eeb5b7930bb2ad7b015bae99c073b16a5923",
+        "renders/empty-review-chinese.html.fixture.json": "75a25d8b2a0ce7de307facd13bbde037aa3769af30605983a79e23cba622d660",
+        "renders/empty-review-chinese.pdf": "363ff375a89aa703dbb1210af0e9139f10fc7396bdb3b314c23363977aabd600",
+        "renders/empty-review-chinese.pdf.fixture.json": "da8bc8d7becf651bd199cb6003409bbff77c6fb225ecc8ae08a56ef062fa8fa7",
+        "renders/empty-review-chinese.docx": "3f0b782c504a9feaea97fd962cf77d861ce3765d4e4f1c90204b2d1f17a23ff8",
+        "renders/empty-review-chinese.docx.fixture.json": "ba2ed0a7a79b12d07c4c4f568f8d36719b0b05a85c90fb99e4ef2f435ce75a6f",
+        "word-preview/empty-review-chinese.pdf": "fae44decf4de0fb5d8aca8f7b2a25adf93a6fe86c1b10f062e069fce194abee3"
+      },
+      "prior_pdf_line_box_overlaps": [],
+      "pdf_line_box_overlaps": [],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 4,
+      "word_pages": 3,
+      "word_preview_paragraphs_checked": 40,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/empty-submission-english.html": "3a167a97c7c1d7c93656f37891591656e5baec2a3d91cdc29be15e1e870c49db",
+        "renders/empty-submission-english.html.fixture.json": "4a45a0fbcdb4aacb592ffff9cecf86635eee9661813e9dca7cd88796ea97db65",
+        "renders/empty-submission-english.pdf": "0dbca7012bcf87c2e737a0b80a4de7cb06589e38917156c6ada0797e99506ee7",
+        "renders/empty-submission-english.pdf.fixture.json": "3069d510236a323c05eddcea62de0a1882291cbcab1d1c12168809e81b3d7548",
+        "renders/empty-submission-english.docx": "6b019b5d19271d9aea584317ed3d0d8d6dc40b64f08771bda66b73ad88b5716d",
+        "renders/empty-submission-english.docx.fixture.json": "b7665b59e398cee0f5b1a307a1005a09eb12a4c2d86babe887fc202e0f5bb8d5",
+        "word-preview/empty-submission-english.pdf": "2a5e93c63b61ee6496a1c6c005eff59e7ed762174855e944d56dc8cdb21d8aab"
+      },
+      "artifact_sha256": {
+        "renders/empty-submission-english.html": "3a167a97c7c1d7c93656f37891591656e5baec2a3d91cdc29be15e1e870c49db",
+        "renders/empty-submission-english.html.fixture.json": "ce37ef542864bd71ba040c4ceeb1cf282b72bf9c9d4fc5b43a2cefa0b0a7c68b",
+        "renders/empty-submission-english.pdf": "b27be405f04eb9bd012528b804e395f3521d3cfdc5226071c86f35619ca82163",
+        "renders/empty-submission-english.pdf.fixture.json": "7ac5a16b424244f5ea132854318a196eae6a357361b6c8f180733157b6c210df",
+        "renders/empty-submission-english.docx": "35e3ca1e00f7bedd86ab9bd844b2b998e89926cbdefd1362ad586fde2e023af3",
+        "renders/empty-submission-english.docx.fixture.json": "6e28e37b32651071f0378a9ab2b1c113374f1a92a28815ef4a8f3c601d3bf988",
+        "word-preview/empty-submission-english.pdf": "141b183957592781438c3cfbb9db0d0f265898589ef6e26323cb34280898053b"
+      },
+      "prior_pdf_line_box_overlaps": [
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "pdf_line_box_overlaps": [
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 3,
+      "word_pages": 3,
+      "word_preview_paragraphs_checked": 40,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/empty-submission-chinese.html": "b790218b4704332032d53e4ecac854935c1d204af2c5b9d5292bbee40a04f1b3",
+        "renders/empty-submission-chinese.html.fixture.json": "2fb29c6d5e5459e27865741ab56ebaba501bbfe611da3d024441faccbee289f9",
+        "renders/empty-submission-chinese.pdf": "275a5b4d15a7562b94217efea20631340083d8c77d204dcf7077c71203e2f766",
+        "renders/empty-submission-chinese.pdf.fixture.json": "e0c787065f3f0b4613b8de7609ae40905e1d1e86ed89262eac13074c0aa4fb5d",
+        "renders/empty-submission-chinese.docx": "0a81ca82621c8dcb324beb2e43572f0e5c4e6b9936ce14352aa80512ce8b0107",
+        "renders/empty-submission-chinese.docx.fixture.json": "e0901984e1e3f431bee2724447ad2d70657abbf3af0c9413be4229da84fb39f8",
+        "word-preview/empty-submission-chinese.pdf": "b15fb4f83c99853396b81e775fd22570cd151200a932d1a5f19f68455577142c"
+      },
+      "artifact_sha256": {
+        "renders/empty-submission-chinese.html": "b790218b4704332032d53e4ecac854935c1d204af2c5b9d5292bbee40a04f1b3",
+        "renders/empty-submission-chinese.html.fixture.json": "984c051a6ee8f4c4e78e83702adee6e2e57952281a5f3ff0c7afff3e53b57541",
+        "renders/empty-submission-chinese.pdf": "32ca333a8a3922138bfde616a3b752e53c83612ad2b3327945cdc8a3257e35ac",
+        "renders/empty-submission-chinese.pdf.fixture.json": "8602841fdfc8a58a7cf287e7e7cf19ca1e24a27def08dd47cf8563c4f8d1910f",
+        "renders/empty-submission-chinese.docx": "c3f0bbe787300c224966756929f1a6ac920f2e36ec3e8b4d8adfce05d155032f",
+        "renders/empty-submission-chinese.docx.fixture.json": "7f0cbec7119b9454dc383a279815417b175b951b00d78fcec0f5d17739df1953",
+        "word-preview/empty-submission-chinese.pdf": "12c8ea6bfde990c610556468f0ce010ac45837988a2f8b3410020827b26eace1"
+      },
+      "prior_pdf_line_box_overlaps": [],
+      "pdf_line_box_overlaps": [],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 10,
+      "word_pages": 9,
+      "word_preview_paragraphs_checked": 233,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-review-english.html": "5cab90870ee8ff7ee9ed31475580f7f101a7ef520c26a84ef7ea5b2fae93e40a",
+        "renders/budget-long-no-currency-review-english.html.fixture.json": "e1726b8b7f5304e5ae812f2bbd5b42424eca63389263df1be783c0119f5ad34c",
+        "renders/budget-long-no-currency-review-english.pdf": "07bdc50b6d576ad54a3f65cced05e2e0edf100f23268d6c96225b9117e55369f",
+        "renders/budget-long-no-currency-review-english.pdf.fixture.json": "f15a7fa9e4e9da95ec93b45d504887a750a6c8d1b6461210ff0ae0cf3dc81f06",
+        "renders/budget-long-no-currency-review-english.docx": "d3899d5887ce793ef06799a89ae3975597019a87112aa71f1838907043da0422",
+        "renders/budget-long-no-currency-review-english.docx.fixture.json": "7c4a16d34c80fcc5df581fe412c0602a68ea94712a1955d1a1c2f2f5fbc60b52",
+        "word-preview/budget-long-no-currency-review-english.pdf": "274cbff64d409a57557509f56ace6442323b75d54cb79380e6be52c8981c6272"
+      },
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-review-english.html": "5cab90870ee8ff7ee9ed31475580f7f101a7ef520c26a84ef7ea5b2fae93e40a",
+        "renders/budget-long-no-currency-review-english.html.fixture.json": "8acbf369582c0cb888d450059824fb4b9c43f1b00fa7908c77ce49744ac8a6b2",
+        "renders/budget-long-no-currency-review-english.pdf": "caa674cdac8f0c782945fdb61be58a14ac4e13cd423d19dcc3f4abbedbb6d366",
+        "renders/budget-long-no-currency-review-english.pdf.fixture.json": "b829ab110f911fbbdbb0130ee4830285f37d1cbdb10a787a7b105ceafb87e9e0",
+        "renders/budget-long-no-currency-review-english.docx": "d96ac73e676b2cfa9ac50589c22e59f45981feb543e132de122eddc6bb019eb6",
+        "renders/budget-long-no-currency-review-english.docx.fixture.json": "94f7aae67e3b85c2ba3cddbb6b7f2813d68c713b5f3d8a7ad782b5677dbab276",
+        "word-preview/budget-long-no-currency-review-english.pdf": "2eb6aeb6028ed763d2af4dfcaf95b827b34e835ea06aecc8b774bdb294a38f28"
+      },
+      "prior_pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 9,
+      "word_pages": 10,
+      "word_preview_paragraphs_checked": 233,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Semi-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-review-chinese.html": "0ddc475c590a7cd49816bb6c40edb53a7655f1bde94e0d5f5fa6ef25bfd1685f",
+        "renders/budget-long-no-currency-review-chinese.html.fixture.json": "3020e3cf36b2c16e97a908f6838360a76b629edc340f6dbf9ad49d79e3a38e73",
+        "renders/budget-long-no-currency-review-chinese.pdf": "10f63bccdfdc54033cc633e33441dcc2abd990a2b6a31d27937cbcf25210617e",
+        "renders/budget-long-no-currency-review-chinese.pdf.fixture.json": "b715a2c0ded14fabfdae8866525903ea965b1a4b884c4991ecccc26273d75fa8",
+        "renders/budget-long-no-currency-review-chinese.docx": "70efb429295a5d390f8160e81a6af3fb7d444102fd10eadf5471b39b37c21e2f",
+        "renders/budget-long-no-currency-review-chinese.docx.fixture.json": "506f02a940076c55aea4310ed3780ccb724f1959d96bdbce79f5a75f4bfb7f9e",
+        "word-preview/budget-long-no-currency-review-chinese.pdf": "ee57a0eea36368d1c50d7bdad932f1d3b5b88abce2b7d67de53ae0063c514b3e"
+      },
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-review-chinese.html": "0ddc475c590a7cd49816bb6c40edb53a7655f1bde94e0d5f5fa6ef25bfd1685f",
+        "renders/budget-long-no-currency-review-chinese.html.fixture.json": "137c5ad656d0921730c045d942769ab41f90e6ceea932793f3fab8f8e1fe9c07",
+        "renders/budget-long-no-currency-review-chinese.pdf": "8b2781fc71d3e3eb9e0ad90f5d15ad3247ceeb20b7a666dcbf4cb9b02562833a",
+        "renders/budget-long-no-currency-review-chinese.pdf.fixture.json": "5251eb4f2e26f72ee70d4340ddad19d1ab430e20a865ae4f516c7e7b8281ce83",
+        "renders/budget-long-no-currency-review-chinese.docx": "b93316469d2926390046fa2d5de226ebc2f0cc7020b90555cd4a5811fcaa560f",
+        "renders/budget-long-no-currency-review-chinese.docx.fixture.json": "dae3644f021f5943bb0f2ffaf6bbfdefab38a56f04bbf3e2dd774012b316663f",
+        "word-preview/budget-long-no-currency-review-chinese.pdf": "2960694dfa7cc2ac1c0a65316067d0730ee2c0757e9b5287984ddbd7f578cf27"
+      },
+      "prior_pdf_line_box_overlaps": [],
+      "pdf_line_box_overlaps": [],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 10,
+      "word_pages": 9,
+      "word_preview_paragraphs_checked": 227,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-submission-english.html": "a9955f8fec3c06c3169188cb2fd6235f5457151398fc1c6737d611bf600b4afc",
+        "renders/budget-long-no-currency-submission-english.html.fixture.json": "a2f99a7afc5dc5e2a7226ece344175ddd2560d4f09fd061f5c701fcb9db966a1",
+        "renders/budget-long-no-currency-submission-english.pdf": "19c1fdd690b5f4852f7eb066e257b333893adf496f97e52045b935e6bdf79c08",
+        "renders/budget-long-no-currency-submission-english.pdf.fixture.json": "15436a3b476152025736ad37200ec105e94f008018356dce11277b3caf919826",
+        "renders/budget-long-no-currency-submission-english.docx": "b235e2ab144dba76078c17220ae60fc4affbbf0b8d85551bfa5f0dfb6baf9b9a",
+        "renders/budget-long-no-currency-submission-english.docx.fixture.json": "25c1f3c030b4734981ee9060e4dfb4c5eaf644ed6948cb2a946799a26459da39",
+        "word-preview/budget-long-no-currency-submission-english.pdf": "1b246c3c7b4270cabd8ba601086c49c0b4b0fad9bbba1fd0ce894e7cea780cc7"
+      },
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-submission-english.html": "a9955f8fec3c06c3169188cb2fd6235f5457151398fc1c6737d611bf600b4afc",
+        "renders/budget-long-no-currency-submission-english.html.fixture.json": "10eac762bc96534c09f7ec6009244086e3ff3af04a7e5c2a39d0ca7b288268f4",
+        "renders/budget-long-no-currency-submission-english.pdf": "035bd3379556c5ae416980f14a0e17c4b67f5f862e36db13a7a39680489b4c82",
+        "renders/budget-long-no-currency-submission-english.pdf.fixture.json": "84920c11db625a11b396a4131b89ccb9b8d9db61783dc1c295657baa6e929ed6",
+        "renders/budget-long-no-currency-submission-english.docx": "6bca2a0d10b1dfcb6874c71ddc41f3f914110ba2a45d81e6059034a6279e6e7d",
+        "renders/budget-long-no-currency-submission-english.docx.fixture.json": "ba88e3585474b59e4adf4e238c0a7e4fceb6ef456300020bc55f5b2d5b7c1910",
+        "word-preview/budget-long-no-currency-submission-english.pdf": "09f5817b106842ee3e70515493ac56ab00e14a748244e976a50b21f1308d93ea"
+      },
+      "prior_pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 9,
+      "word_pages": 10,
+      "word_preview_paragraphs_checked": 227,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-submission-chinese.html": "b9de35e1a3dcf02a265399f0171436b9586daca959b03a12cd9297accecffcef",
+        "renders/budget-long-no-currency-submission-chinese.html.fixture.json": "34c70486fe3c6e55634a9c798f3897d12cdc1c334fd100b264a7bc75ac7db4aa",
+        "renders/budget-long-no-currency-submission-chinese.pdf": "05d5442f13a9f1321b87e06fdc414d76194a3366362782dbe8f1f04813fecd3b",
+        "renders/budget-long-no-currency-submission-chinese.pdf.fixture.json": "a9819291cdc9f8fdb9cb0d94ca9b77f29acab4283968054060ca59116b5f04ac",
+        "renders/budget-long-no-currency-submission-chinese.docx": "efef8a85b5efbcfc01697d6acbb0668711a275a56b018aa555aa80a0cd1ebc76",
+        "renders/budget-long-no-currency-submission-chinese.docx.fixture.json": "41907c76632b62022fc3e2f554420a0b3c78c9b696161932287c91285ced6eda",
+        "word-preview/budget-long-no-currency-submission-chinese.pdf": "56e886e98257d8bb28944d99cf1273a87fce980e95ace37e20f414018bbc6549"
+      },
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-submission-chinese.html": "b9de35e1a3dcf02a265399f0171436b9586daca959b03a12cd9297accecffcef",
+        "renders/budget-long-no-currency-submission-chinese.html.fixture.json": "c31126fd18d47ff8a3e281069e86d19255b9df615a35fc65134564775e5fbaf4",
+        "renders/budget-long-no-currency-submission-chinese.pdf": "021e651557aa4a6888c07ce2d7d35d2c392eb947c3872b6c9304d656951d7e4b",
+        "renders/budget-long-no-currency-submission-chinese.pdf.fixture.json": "9a9a1c6c49802273bbe3edf1b3db39276366e7999ed923d23863638fb086eb42",
+        "renders/budget-long-no-currency-submission-chinese.docx": "55a18c9643ecff9e8bcae573e9e49dbaccc86e7fb6be113b2b1f2eec7e74ba5c",
+        "renders/budget-long-no-currency-submission-chinese.docx.fixture.json": "35fe489f950c019717988103a2dbe4a312c624700eb510b95c7a6a84b3abdba2",
+        "word-preview/budget-long-no-currency-submission-chinese.pdf": "f4c818d3e37c50c1ac8000e2af509464c09152272b42f1cc18a2a9b43f2a6265"
+      },
+      "prior_pdf_line_box_overlaps": [],
+      "pdf_line_box_overlaps": [],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "review",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 9,
+      "word_pages": 8,
+      "word_preview_paragraphs_checked": 197,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/budget-many-review-english.html": "97b986b2922ab98412272cd86fcc0c2f551c69e23bf47015536ede6d7b4d747e",
+        "renders/budget-many-review-english.html.fixture.json": "1302e68beb5e20eaf46eebf032c946229ea25a4c5cedcf54d4850845c99f47f0",
+        "renders/budget-many-review-english.pdf": "78d667598cb7c077c3940fb297a9da11db42ddedafa1c3143a652ed35bb1fca9",
+        "renders/budget-many-review-english.pdf.fixture.json": "3700b03e90322a542259ef0529f1bbd66e149651bd3434b2f05c71f30862c8f7",
+        "renders/budget-many-review-english.docx": "e64811848af210fa49589edc5a3d6176e644936304f8dbdf02d2d3f6e36045f5",
+        "renders/budget-many-review-english.docx.fixture.json": "e0c08ad2e10295896a0e33c1d0eb50d6047da18f7152b93611b624e874ca0a9b",
+        "word-preview/budget-many-review-english.pdf": "3530157eea502390544c0271703c0e963312d5e47faff5d0c77206c948b68c2c"
+      },
+      "artifact_sha256": {
+        "renders/budget-many-review-english.html": "97b986b2922ab98412272cd86fcc0c2f551c69e23bf47015536ede6d7b4d747e",
+        "renders/budget-many-review-english.html.fixture.json": "85d53b08419a775265b83142b93aaffcc6cdcc0d52c284e5b4de3f8319ee6b4b",
+        "renders/budget-many-review-english.pdf": "47b4ce1ce81c1dbe14408f7f978a0c928fbfb33e7f1330eebcbfa12235c0c3ce",
+        "renders/budget-many-review-english.pdf.fixture.json": "90188e756831be778f4b9bd74c5fc5b270c9030e55e599bc195e0ed72723e700",
+        "renders/budget-many-review-english.docx": "55d632c51472cad6e58fccb3178bc86c9ad4be31965ad59784c2522b17846d53",
+        "renders/budget-many-review-english.docx.fixture.json": "b8007090eb7524e0f3496bd0fb1d55b4c1dccc42ec2e0dc826f08709ceeeedd5",
+        "word-preview/budget-many-review-english.pdf": "58dc33e884f39ce4c2f88db43e20f6fcff3979302190006a93d09c2e5e0b4f59"
+      },
+      "prior_pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "review",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 8,
+      "word_pages": 8,
+      "word_preview_paragraphs_checked": 197,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Semi-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/budget-many-review-chinese.html": "31a0260073ea3a1cc869b485c9a4f28d23dd888f9a78018b26adcbaf5abf4d23",
+        "renders/budget-many-review-chinese.html.fixture.json": "4166c58e78313d58ee1c0bdc736dfae890546ee5a904428eaa03a6f1f694c0a0",
+        "renders/budget-many-review-chinese.pdf": "e22572d37bf4192734344d62e9304df7883e87cc403254bcb535b61069335d8c",
+        "renders/budget-many-review-chinese.pdf.fixture.json": "371b2a1f8c9c05e8d47379fc2520bae13a7fbd8c2448c27a2c030757b9eea799",
+        "renders/budget-many-review-chinese.docx": "7d66c989eaf20addb94424f377bc7981f1b24d2c006fa2ff13e175f3e07f56be",
+        "renders/budget-many-review-chinese.docx.fixture.json": "05527a58d893f2078d57cc2ea88e54720f0c7833f832621efe77869c142df18b",
+        "word-preview/budget-many-review-chinese.pdf": "d7fd99d2a595edf441c13108705078e1c3758d4edbc48fd33f889bffa14aa5ab"
+      },
+      "artifact_sha256": {
+        "renders/budget-many-review-chinese.html": "31a0260073ea3a1cc869b485c9a4f28d23dd888f9a78018b26adcbaf5abf4d23",
+        "renders/budget-many-review-chinese.html.fixture.json": "d4bf969a463bef943c9b2ce13766ba89410b0085cab1712cd7968ecac212b628",
+        "renders/budget-many-review-chinese.pdf": "e39a5fcc0f899508a475e907c84cbca6bfbc420cd29007c0f410202d58eb78ea",
+        "renders/budget-many-review-chinese.pdf.fixture.json": "f772d72d0407681202ba7a381edcf495843873138c942154c6d823d3acfee159",
+        "renders/budget-many-review-chinese.docx": "01a359c88e1da32c8594f483debe2b26aaefe8854e6b4237cd08064384b5eceb",
+        "renders/budget-many-review-chinese.docx.fixture.json": "31f90d86b5d712f0f3ecbcb4db3a14fae6752774908cc42e533e35c27483e197",
+        "word-preview/budget-many-review-chinese.pdf": "71bfd536f68a492d42006ea3217602dbe252db0e5361c25b03eef00f475ec7e9"
+      },
+      "prior_pdf_line_box_overlaps": [],
+      "pdf_line_box_overlaps": [],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "submission",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 9,
+      "word_pages": 7,
+      "word_preview_paragraphs_checked": 191,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/budget-many-submission-english.html": "a3e4ff884c7c5e39b450053f7ec80145b5f48dec2348af5beda86eaa4ef23e73",
+        "renders/budget-many-submission-english.html.fixture.json": "b7074261996bdcf5ec0f6bab761d7d17c7c0d67767f6f82d59b1a68a0da0a273",
+        "renders/budget-many-submission-english.pdf": "412e763789a235f179bb3032c81690301636f81fad182092931907b0d8642078",
+        "renders/budget-many-submission-english.pdf.fixture.json": "58b0a776ab63828a689ccfd178e8d7db2ea7a67962fa06ac6f47fe206d3ffa40",
+        "renders/budget-many-submission-english.docx": "39ed9bab30ee6063b947a3adc620d9afe741dcc8c19aa33e2757a7f039c79504",
+        "renders/budget-many-submission-english.docx.fixture.json": "b905c67047631d8e5fc386b3af102a0810668b14b643ac39a3927680f78b812b",
+        "word-preview/budget-many-submission-english.pdf": "57768a23ad092c790caf84e4786c0f39c3c91b9658210d8ce61483b86901a1c0"
+      },
+      "artifact_sha256": {
+        "renders/budget-many-submission-english.html": "a3e4ff884c7c5e39b450053f7ec80145b5f48dec2348af5beda86eaa4ef23e73",
+        "renders/budget-many-submission-english.html.fixture.json": "5f476b4b9b591352ad70b92d984c376c54660081921fceb3b9d9ef251be177ce",
+        "renders/budget-many-submission-english.pdf": "8aa96c474943e5602914843156b2e44e4712c3dc058c354e0a45d5aa2375dcc5",
+        "renders/budget-many-submission-english.pdf.fixture.json": "7b1b4f0573696989d0f208aea30722175ab1c323c24cb6b063651c94acf0aa7f",
+        "renders/budget-many-submission-english.docx": "e219c3cc8a24e54de8a6900fe619fade1344a5d7e81ba29f83f365e8cbdaaf9a",
+        "renders/budget-many-submission-english.docx.fixture.json": "b0a9b0c13f6022cc3c96413b76c0b926858239e54a23d652416dbd138f75fde6",
+        "word-preview/budget-many-submission-english.pdf": "63a5e1b5ee02537f6804978f102f2d86ceb214bac1b3b063083640420c7907a2"
+      },
+      "prior_pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "pdf_line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "pdf_pages": 8,
+      "word_pages": 8,
+      "word_preview_paragraphs_checked": 191,
+      "exact_word_body_unchanged": true,
+      "word_body_geometry_unchanged": true,
+      "prior_package_sha256": {
+        "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+        "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+      },
+      "pdf_font_inventory": [
+        [
+          "Noto-Sans",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Bold",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        [
+          "Pilot-CJK-Oblique",
+          "CID",
+          "TrueType",
+          "Identity-H",
+          "yes",
+          "yes",
+          "yes"
+        ]
+      ],
+      "pdf_font_inventory_unchanged": true,
+      "prior_artifact_sha256": {
+        "renders/budget-many-submission-chinese.html": "8e33ca6a85dd1a93c4bca5f813bf189034390284f117685008afbdf926c6e927",
+        "renders/budget-many-submission-chinese.html.fixture.json": "2c3d63cb4443872bb8406c8f11fc951429a981c9522105de17f3e0b672aca429",
+        "renders/budget-many-submission-chinese.pdf": "42c4d3d8b1183fd8505f6f60595cd195a982bb377ed1f0991daeed5f04b2dfef",
+        "renders/budget-many-submission-chinese.pdf.fixture.json": "aa2dab868d8299fec99dc7880a4aeacec71b1902a2277ac8c6c59ae92bd34fa3",
+        "renders/budget-many-submission-chinese.docx": "38fe70858ea32c77bd97db3fca7c1283ccbe83f09bdb585f472ead152110522d",
+        "renders/budget-many-submission-chinese.docx.fixture.json": "5ccf4e1e21ee1aaf138e047ea904d82340ae058ab9537fe43c6b48464fd77bbb",
+        "word-preview/budget-many-submission-chinese.pdf": "bd25683e9645bb7aa14e6b27149a1d228e846fb233de81dbdadd2a9efd7bbe4e"
+      },
+      "artifact_sha256": {
+        "renders/budget-many-submission-chinese.html": "8e33ca6a85dd1a93c4bca5f813bf189034390284f117685008afbdf926c6e927",
+        "renders/budget-many-submission-chinese.html.fixture.json": "e8cadabfc01854ce8ab00e1390082491506a070f128fd2dc94b27f2b0d673cb3",
+        "renders/budget-many-submission-chinese.pdf": "fd9245b75db1da18b5f859d9642c62e09d0cb5395e807c44097caf6bcbb77c85",
+        "renders/budget-many-submission-chinese.pdf.fixture.json": "2d1a5b7d4ec4ace95b06988954271ac5d718506f1798465325bf21d99563f13f",
+        "renders/budget-many-submission-chinese.docx": "edec85946f31052a28fb42d83ecdcbfcf32fecbfec15a97c80665c16cee5cae3",
+        "renders/budget-many-submission-chinese.docx.fixture.json": "8992d6e94f1bf18f110e18addb9aa85e40fddfac6520eb0d77c7fd6ca26718cc",
+        "word-preview/budget-many-submission-chinese.pdf": "939eb8df528ce8fa95254502f56c2c14912b09e2e5761bdbde3b7a5ecd5e420c"
+      },
+      "prior_pdf_line_box_overlaps": [],
+      "pdf_line_box_overlaps": [],
+      "whole_pdf_body_geometry_unchanged": true,
+      "passed": true
+    }
+  ],
+  "checker_sha256": "0de4887aa7fe3eb2adedb18b7161daf0c74bf0709e0e61738b15d90b3650b2e1",
+  "helper_sha256": {
+    "artifact_utils.py": "d7524e7a29d03aa35a7b7895e1a07d1f2e1fda2ce874b3bf0a636183693aaafd",
+    "check_budget_outputs.py": "cb13491830b001059877d522cb2918f543242f3320dfeaf827b8b8aa00995415",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "check_word_short_budget_outputs.py": "c568bfce161d432c5d5e971d2724a98dcbe5354e8135896ecdcd8ee786320384",
+    "rehearse_profile_pagination.py": "ee5d4bcef6154d9263173ba1031ae48b7774fb21288c7a63c103431623f2b4d0",
+    "rehearse_profile_pdf.py": "f26eb015d89937ed5416444736b6709d2dd17df18fa1485361f9ca22c419b9cd",
+    "check_budget_spacing_outputs.py": "4f6e622cf4b833526d5d8b67a5a1fd83eafe76e18eeeb1b4ce2d8d3a28a172fa",
+    "check_preservation_reading_outputs.py": "573efd87fc0db427e3447df2d37a41d6ed36d8a37eebfc025cdfd0e19e6b3ea0"
+  },
+  "contract_sha256": "7a76a5d5c9e049154661f3aa3d07fdaa8e13f0c7584b09234e99e9f051f0433a",
+  "package_sha256": {
+    "english.zip": "a7af8673690ede62c34faaaa587d3c48ffd77cabb253d528025421eac3a35f76",
+    "chinese.zip": "5ac155c1fe05a93aeb6746cafd667167e6034b2c95ab8d3b1e7ed785549ed666"
+  },
+  "limits": [
+    "Only selected public synthetic cases, not all DMPs",
+    "HTML exports do not contain the PDF-entry hint; eligibility is independently inspected on their identical question DOM",
+    "Outside list markers can change raw extraction order; preserve their counts and every other character",
+    "LibreOffice preview, not Microsoft Word acceptance",
+    "Tables-only local worker; no experimental font patch"
+  ]
+}

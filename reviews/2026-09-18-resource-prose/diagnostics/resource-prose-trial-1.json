@@ -1,0 +1,16 @@
+{
+  "completed": false,
+  "native_export": false,
+  "template_modified": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "811555ce264ca32062a6290521299ac30bd468ec70022e6f34cb38dbba60eec8",
+  "rows": [],
+  "limits": [
+    "Synthetic fixed Q15 pair only; not a template implementation",
+    "Paired offline PDF rehearsal, not native DSW exports; native-baseline differences are reported explicitly",
+    "LibreOffice previews do not establish Microsoft Word acceptance"
+  ],
+  "failure": "AssertionError(('profile-partial-review-english', 'Word selector differs'))"
+}

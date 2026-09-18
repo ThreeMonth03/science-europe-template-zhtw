@@ -1,0 +1,16 @@
+{
+  "method": "Manual inspection of rendered contact sheets and target-page PNGs",
+  "scope": "Eight selected joined PDF/Word previews, 48 pages of contact sheets, plus Chinese submission PDF page 6 and Word before page 5/after page 6 details",
+  "findings": [
+    "The two short fixed resource facts read as one paragraph; Chinese fits one line, English wraps to two lines without an intervening paragraph gap",
+    "Chinese submission Word Q15 heading, training content, fixed resource facts and budget share page 6 after the diagnostic join",
+    "No visible clipping or collision in the inspected joined Q15 block",
+    "The six-page documents still have uneven whitespace; grouping does not establish ideal whole-document layout",
+    "Chinese review Word Q5 still continues across pages 3 and 4",
+    "Chinese review offline PDF baseline differs from native font/geometry; only paired offline observations apply to that case"
+  ],
+  "template_modified": false,
+  "native_export": false,
+  "microsoft_word_acceptance": false,
+  "release_acceptance": false
+}

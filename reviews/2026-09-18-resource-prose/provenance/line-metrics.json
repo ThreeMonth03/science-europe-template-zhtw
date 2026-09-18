@@ -1,0 +1,245 @@
+{
+  "rows": [
+    {
+      "stem": "profile-partial-review-english",
+      "kind": "pdf",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 2
+      },
+      "before_line_count": 2,
+      "after_line_count": 2,
+      "before_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "after_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "before_pdf_sha256": "1db6dc91e55833c37549e35590e1d096970d22b16548e54ce580f3615af6dfd7",
+      "after_pdf_sha256": "2904fcd09af5e66ad4cdc9e2e74b17214054e3fcdda82ada72b34f4f22ed6d4b"
+    },
+    {
+      "stem": "profile-partial-review-english",
+      "kind": "word",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 2
+      },
+      "before_line_count": 2,
+      "after_line_count": 2,
+      "before_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "after_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "before_pdf_sha256": "c3334392b8d06c2366ddf61699acee064210db015a35c8edeff24cf69fbc3916",
+      "after_pdf_sha256": "63a91a25f20b10de5e254a362d781f876cb29c79af73fe55847495799c011c9e"
+    },
+    {
+      "stem": "profile-partial-review-chinese",
+      "kind": "pdf",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 1
+      },
+      "before_line_count": 2,
+      "after_line_count": 1,
+      "before_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "after_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "before_pdf_sha256": "7a8eee91ec2a9612982953dd2c46694bfc285f4c87d31c4bfcfb10440db743ab",
+      "after_pdf_sha256": "874a33226c35cdd69afb9f8660fbdd6b3ce5430b2e7283512f7ea61581a86254"
+    },
+    {
+      "stem": "profile-partial-review-chinese",
+      "kind": "word",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 1
+      },
+      "before_line_count": 2,
+      "after_line_count": 1,
+      "before_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "after_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "before_pdf_sha256": "454dab114488affc9553d359c42683d7c16b54cdddc3275954bcd58c2fbde086",
+      "after_pdf_sha256": "ca502bd8895ee62d13f57c8ca9a4c5a6959349409d0dde9b877d058ec11f9706"
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "kind": "pdf",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 2
+      },
+      "before_line_count": 2,
+      "after_line_count": 2,
+      "before_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "after_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "before_pdf_sha256": "c79805f8c7a296e2358de911ec7b0bcf95a2809a853ab2a8248ee517d0ec04d3",
+      "after_pdf_sha256": "e9cdf710dc084e49770049aef86ccf1ec61c307af159bd53fc5dc5408bc3bb34"
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "kind": "word",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 2
+      },
+      "before_line_count": 2,
+      "after_line_count": 2,
+      "before_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "after_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "before_pdf_sha256": "f9905bfbca5564e21f0df697271b0775d2f1fd2ea76aba380e7d874e6cef16a7",
+      "after_pdf_sha256": "6d744f793efcd408126030f0a6e6dc908c38102ab09d652c7dffec38a9810966"
+    },
+    {
+      "stem": "profile-partial-submission-chinese",
+      "kind": "pdf",
+      "before": [
+        {
+          "page": 6,
+          "line_count": 1
+        },
+        {
+          "page": 6,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 1
+      },
+      "before_line_count": 2,
+      "after_line_count": 1,
+      "before_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "after_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "before_pdf_sha256": "f0bc8f91376d381a8d3beda78fc3448b72f7a09f35e39c80ef00f973f277519b",
+      "after_pdf_sha256": "91b2cf8d0f1f7bf56f44d00cb2b8928068b43a9ca896096ec7881b542f9169f7"
+    },
+    {
+      "stem": "profile-partial-submission-chinese",
+      "kind": "word",
+      "before": [
+        {
+          "page": 5,
+          "line_count": 1
+        },
+        {
+          "page": 5,
+          "line_count": 1
+        }
+      ],
+      "after": {
+        "page": 6,
+        "line_count": 1
+      },
+      "before_line_count": 2,
+      "after_line_count": 1,
+      "before_q15_heading_budget_pages": [
+        5,
+        6
+      ],
+      "after_q15_heading_budget_pages": [
+        6,
+        6
+      ],
+      "before_pdf_sha256": "d38fad858a9858e69ab9fd8e3433999b6b2e29abc664a70c7af6fff4e5425fed",
+      "after_pdf_sha256": "6c9e3fec54659cbd5a3cf1b942d54b1477a2dc875252c5d00b3ddcde8da3e271"
+    }
+  ],
+  "release_acceptance": false
+}

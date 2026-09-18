@@ -3,6 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
+後續 [句號位置與短段落 A/B 診斷](reviews/2026-09-18-resource-prose/README.md)：
+Q15 指定句子的句號間隔來自全形置中字形，不是多加空白。
+兩句固定敘述合段後，中文 PDF／Word 由兩行變一行；提交 Word 的 Q15 與預算
+恢復同頁。但中文檢核 PDF 的離線字型基準仍不同，尚未接回模板，版號維持 0.3.40。
+
 最新 [0.3.40 Q15 PDF 短資源單元](docs/short-resources.md)：
 只把單一計畫的一至兩筆短預算與概述連頁；長篇、漏填、複雜內容保留原樣。
 只改英文共用 PDF 入口，不改 748 組譯文、共用 CSS 或 Word。
