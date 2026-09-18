@@ -1,0 +1,155 @@
+{
+  "completed": true,
+  "release_acceptance": false,
+  "native_export": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "language": "english",
+      "mode": "review",
+      "trial": "baseline",
+      "pages": 6,
+      "q11_heading_summary_pages": [
+        4,
+        4
+      ],
+      "together": true,
+      "paragraphs_checked": 130,
+      "source_sha256": "2f0ad12b38b0fe74b226708981254f252adaf96f0404d538da0c103316893851",
+      "docx_sha256": "12579b457ae02a28cbd34526d0617d3e12280007107b71afc91b72de321a9f5d",
+      "pdf_sha256": "9b9fd672a138d572b1b56539cc1fbbf427a473da8a1f6940197bade0f6c6890d",
+      "exact_xml_delta_checked": true,
+      "dataset_heading5_removed": false,
+      "native_preview_geometry_identical": true
+    },
+    {
+      "language": "english",
+      "mode": "review",
+      "trial": "joined-label",
+      "pages": 6,
+      "q11_heading_summary_pages": [
+        4,
+        4
+      ],
+      "together": true,
+      "paragraphs_checked": 129,
+      "source_sha256": "2f0ad12b38b0fe74b226708981254f252adaf96f0404d538da0c103316893851",
+      "docx_sha256": "515f0f9be07211626e610b0f38573fe9728053acfacf4db669753ee0a5072d56",
+      "pdf_sha256": "e22e796a86dc1076b24481845a08a695da573ce81267cb66434125b6a50ff2cd",
+      "exact_xml_delta_checked": true,
+      "dataset_heading5_removed": true
+    },
+    {
+      "language": "english",
+      "mode": "submission",
+      "trial": "baseline",
+      "pages": 6,
+      "q11_heading_summary_pages": [
+        4,
+        4
+      ],
+      "together": true,
+      "paragraphs_checked": 123,
+      "source_sha256": "b03958b62037a6a01450d00242245498b6c75e1bee77e8c50aba08f617d6bbce",
+      "docx_sha256": "1b690bb9477ee24d0ae21beb6600a5e4bdf277edac5ab35a0de08e9dde3f2a24",
+      "pdf_sha256": "82e85ad8e1dd873ee0cbc5e8906bb9fb87c1bc6fc3f3aea167f4ae1fe64d9004",
+      "exact_xml_delta_checked": true,
+      "dataset_heading5_removed": false,
+      "native_preview_geometry_identical": true
+    },
+    {
+      "language": "english",
+      "mode": "submission",
+      "trial": "joined-label",
+      "pages": 6,
+      "q11_heading_summary_pages": [
+        4,
+        4
+      ],
+      "together": true,
+      "paragraphs_checked": 122,
+      "source_sha256": "b03958b62037a6a01450d00242245498b6c75e1bee77e8c50aba08f617d6bbce",
+      "docx_sha256": "1bea22fc6fdea1b8e53e743dc066ea6e3eae3a27a99138c5a29069959f72093d",
+      "pdf_sha256": "c277b78b1e28e73197664a39f80a3a90c6e413064064d85ce2352554a6d119ba",
+      "exact_xml_delta_checked": true,
+      "dataset_heading5_removed": true
+    },
+    {
+      "language": "chinese",
+      "mode": "review",
+      "trial": "baseline",
+      "pages": 6,
+      "q11_heading_summary_pages": [
+        5,
+        5
+      ],
+      "together": true,
+      "paragraphs_checked": 130,
+      "source_sha256": "62c0c5d53860b0cc012ba4802004c2a7e72d9f00069d60a02e6de0637c50fe80",
+      "docx_sha256": "c16270417b155a2b1051cb4fc852d245934ecc3d0b978602cdd7e4d631afc416",
+      "pdf_sha256": "93a05c5ee4093ffac2897a7361271dd8c2b48e35e32a18cac48b5b7d72136794",
+      "exact_xml_delta_checked": true,
+      "dataset_heading5_removed": false,
+      "native_preview_geometry_identical": true
+    },
+    {
+      "language": "chinese",
+      "mode": "review",
+      "trial": "joined-label",
+      "pages": 6,
+      "q11_heading_summary_pages": [
+        5,
+        5
+      ],
+      "together": true,
+      "paragraphs_checked": 129,
+      "source_sha256": "62c0c5d53860b0cc012ba4802004c2a7e72d9f00069d60a02e6de0637c50fe80",
+      "docx_sha256": "68176ca7fa6d5a5f28abe2344b029889d18b690b2d470fe6fcb15baf3d186c84",
+      "pdf_sha256": "524d7cac8833cef9804d9c2e19375f3a85b1603db4b9235f1d9564792a8d8f62",
+      "exact_xml_delta_checked": true,
+      "dataset_heading5_removed": true
+    },
+    {
+      "language": "chinese",
+      "mode": "submission",
+      "trial": "baseline",
+      "pages": 6,
+      "q11_heading_summary_pages": [
+        4,
+        5
+      ],
+      "together": false,
+      "paragraphs_checked": 123,
+      "source_sha256": "77b4a9091f916fac9f55399adea3f691d926d9ee617086c7cce232f0b0465a5f",
+      "docx_sha256": "a8c04c27887743baefe748b9dae9cbb65ddfe18022bb23a96fe646e81bc70d08",
+      "pdf_sha256": "a01c91826fb6195a4ba812038f7cb8bc3dbbb0bfc4c21859293c53508d983b5e",
+      "exact_xml_delta_checked": true,
+      "dataset_heading5_removed": false,
+      "native_preview_geometry_identical": true
+    },
+    {
+      "language": "chinese",
+      "mode": "submission",
+      "trial": "joined-label",
+      "pages": 6,
+      "q11_heading_summary_pages": [
+        5,
+        5
+      ],
+      "together": true,
+      "paragraphs_checked": 122,
+      "source_sha256": "77b4a9091f916fac9f55399adea3f691d926d9ee617086c7cce232f0b0465a5f",
+      "docx_sha256": "c4c55d110ab02f566b075daeadc15caae4e8b9231143c7fa26335733af31e148",
+      "pdf_sha256": "11b7eee346c8b96269af18d4f8a7f11c2ad9360cf3023a2eb1707f38da7230ae",
+      "exact_xml_delta_checked": true,
+      "dataset_heading5_removed": true
+    }
+  ],
+  "checker_sha256": "ee5d4bcef6154d9263173ba1031ae48b7774fb21288c7a63c103431623f2b4d0",
+  "libreoffice_version": "LibreOffice 25.2.3.2 520(Build:2)",
+  "limits": [
+    "Exact frozen native DOCX modified for diagnosis, not a template implementation",
+    "The joined-label trial removes one dataset Heading5; Q11 Heading3 is retained",
+    "Only this short synthetic summary; no whole-questionnaire pagination guarantee"
+  ]
+}

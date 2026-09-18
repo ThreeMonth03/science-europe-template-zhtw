@@ -1,0 +1,242 @@
+{
+  "completed": true,
+  "release_acceptance": false,
+  "native_export": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "rows": [
+    {
+      "stem": "profile-partial-review-english",
+      "language": "english",
+      "mode": "review",
+      "trial": "baseline",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "e44d7de6855ecdefe3b30b0bcf508f50f86c2671bff2b7a76fbc6e9b906f9a41",
+      "source_html_sha256": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77",
+      "native_baseline_geometry_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "source_pdf_sha256": "f84d5fbd99ff23b7c82bc03ed05d30b4b64187351b363cabcc4652dc78b2a438",
+      "line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ]
+    },
+    {
+      "stem": "profile-partial-review-english",
+      "language": "english",
+      "mode": "review",
+      "trial": "keep-short-q15",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "de05302705cda36387ac36a43762c096fd07ed09f09d0ec9ba81919d9942ad67",
+      "source_html_sha256": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77",
+      "native_baseline_geometry_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "source_pdf_sha256": "f84d5fbd99ff23b7c82bc03ed05d30b4b64187351b363cabcc4652dc78b2a438",
+      "line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ]
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "language": "english",
+      "mode": "submission",
+      "trial": "baseline",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "8252c28d98d849bc23999c07a749e2c14fe28ad7da84f03366742c175cc02e8c",
+      "source_html_sha256": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7",
+      "native_baseline_geometry_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "source_pdf_sha256": "4b2967ebe5058fad3586eb4b54a112608b5c585501c7dba3675fced46d7bcfe9",
+      "line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ]
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "language": "english",
+      "mode": "submission",
+      "trial": "keep-short-q15",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "59e42af84fc7f713efb45ae1b25847fd5639590d25dc49b4addb9dc087072dec",
+      "source_html_sha256": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7",
+      "native_baseline_geometry_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "source_pdf_sha256": "4b2967ebe5058fad3586eb4b54a112608b5c585501c7dba3675fced46d7bcfe9",
+      "line_box_overlaps": [
+        [
+          "Coastalobservations:reproducibledata",
+          "management",
+          137.487,
+          4.158
+        ],
+        [
+          "Section1:Datadescriptionandcollectionorre-useofexisting",
+          "data",
+          32.895,
+          1.47
+        ]
+      ]
+    },
+    {
+      "stem": "profile-partial-review-chinese",
+      "language": "chinese",
+      "mode": "review",
+      "trial": "baseline",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "0128a306f6f288423e4cd681035ea0b05a96a50a1796b15bd1b08982201686de",
+      "source_html_sha256": "4a7c1ba9d3a12636c700038b4f49ae9159d53de657dd228b80a3e6493ca4ba18",
+      "native_baseline_geometry_identical": false,
+      "paired_prefix_geometry_identical": true,
+      "source_pdf_sha256": "bce8030f6788fb43d5389fce6b8a26cfc2b20140e93b65e5fe659ff2902aea95",
+      "line_box_overlaps": []
+    },
+    {
+      "stem": "profile-partial-review-chinese",
+      "language": "chinese",
+      "mode": "review",
+      "trial": "keep-short-q15",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "05f8fea5c7a12bf2d93fc6fa6a431b224e22cfc86db55cbeac71d70f7f9ae5b2",
+      "source_html_sha256": "4a7c1ba9d3a12636c700038b4f49ae9159d53de657dd228b80a3e6493ca4ba18",
+      "native_baseline_geometry_identical": false,
+      "paired_prefix_geometry_identical": true,
+      "source_pdf_sha256": "bce8030f6788fb43d5389fce6b8a26cfc2b20140e93b65e5fe659ff2902aea95",
+      "line_box_overlaps": []
+    },
+    {
+      "stem": "profile-partial-submission-chinese",
+      "language": "chinese",
+      "mode": "submission",
+      "trial": "baseline",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "together": false,
+      "pdf_sha256": "448bf9631298caf3d9c0a08a6566d3cbeafd12edf0aa1be6ffe444eeb3c65faf",
+      "source_html_sha256": "7877d4be326398b445a799ccae2f0401e70dd58a681b3478247753762382d466",
+      "native_baseline_geometry_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "source_pdf_sha256": "a16afc62c5eae2eddc3a8291d5b3ae1c309a475105719ea30ccc02200a125c52",
+      "line_box_overlaps": []
+    },
+    {
+      "stem": "profile-partial-submission-chinese",
+      "language": "chinese",
+      "mode": "submission",
+      "trial": "keep-short-q15",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "fc0fbecc2c19a2e898ba104939f612407a8202e6860f320a746bc4b365f149ef",
+      "source_html_sha256": "7877d4be326398b445a799ccae2f0401e70dd58a681b3478247753762382d466",
+      "native_baseline_geometry_identical": true,
+      "paired_prefix_geometry_identical": true,
+      "source_pdf_sha256": "a16afc62c5eae2eddc3a8291d5b3ae1c309a475105719ea30ccc02200a125c52",
+      "line_box_overlaps": []
+    }
+  ],
+  "checker_sha256": "f26eb015d89937ed5416444736b6709d2dd17df18fa1485361f9ca22c419b9cd",
+  "limits": [
+    "Only the existing short synthetic Q15; an unbounded keep rule is not suitable for release",
+    "Native-baseline reproduction is recorded separately, never assumed from a successful paired comparison"
+  ],
+  "all_native_baselines_reproduced": false
+}

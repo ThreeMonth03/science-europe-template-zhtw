@@ -1,0 +1,108 @@
+{
+  "template_modified": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "prior_native_archive": "reviews/2026-09-18-output-profiles",
+  "rows": [
+    {
+      "kind": "word",
+      "stem": "profile-partial-review-english-baseline",
+      "pages": 6,
+      "sha256": "9b9fd672a138d572b1b56539cc1fbbf427a473da8a1f6940197bade0f6c6890d"
+    },
+    {
+      "kind": "word",
+      "stem": "profile-partial-review-english-joined-label",
+      "pages": 6,
+      "sha256": "e22e796a86dc1076b24481845a08a695da573ce81267cb66434125b6a50ff2cd"
+    },
+    {
+      "kind": "word",
+      "stem": "profile-partial-submission-english-baseline",
+      "pages": 6,
+      "sha256": "82e85ad8e1dd873ee0cbc5e8906bb9fb87c1bc6fc3f3aea167f4ae1fe64d9004"
+    },
+    {
+      "kind": "word",
+      "stem": "profile-partial-submission-english-joined-label",
+      "pages": 6,
+      "sha256": "c277b78b1e28e73197664a39f80a3a90c6e413064064d85ce2352554a6d119ba"
+    },
+    {
+      "kind": "word",
+      "stem": "profile-partial-review-chinese-baseline",
+      "pages": 6,
+      "sha256": "93a05c5ee4093ffac2897a7361271dd8c2b48e35e32a18cac48b5b7d72136794"
+    },
+    {
+      "kind": "word",
+      "stem": "profile-partial-review-chinese-joined-label",
+      "pages": 6,
+      "sha256": "524d7cac8833cef9804d9c2e19375f3a85b1603db4b9235f1d9564792a8d8f62"
+    },
+    {
+      "kind": "word",
+      "stem": "profile-partial-submission-chinese-baseline",
+      "pages": 6,
+      "sha256": "a01c91826fb6195a4ba812038f7cb8bc3dbbb0bfc4c21859293c53508d983b5e"
+    },
+    {
+      "kind": "word",
+      "stem": "profile-partial-submission-chinese-joined-label",
+      "pages": 6,
+      "sha256": "11b7eee346c8b96269af18d4f8a7f11c2ad9360cf3023a2eb1707f38da7230ae"
+    },
+    {
+      "kind": "pdf",
+      "stem": "profile-partial-review-english-baseline",
+      "pages": 6,
+      "sha256": "e44d7de6855ecdefe3b30b0bcf508f50f86c2671bff2b7a76fbc6e9b906f9a41"
+    },
+    {
+      "kind": "pdf",
+      "stem": "profile-partial-review-english-keep-short-q15",
+      "pages": 6,
+      "sha256": "de05302705cda36387ac36a43762c096fd07ed09f09d0ec9ba81919d9942ad67"
+    },
+    {
+      "kind": "pdf",
+      "stem": "profile-partial-submission-english-baseline",
+      "pages": 6,
+      "sha256": "8252c28d98d849bc23999c07a749e2c14fe28ad7da84f03366742c175cc02e8c"
+    },
+    {
+      "kind": "pdf",
+      "stem": "profile-partial-submission-english-keep-short-q15",
+      "pages": 6,
+      "sha256": "59e42af84fc7f713efb45ae1b25847fd5639590d25dc49b4addb9dc087072dec"
+    },
+    {
+      "kind": "pdf",
+      "stem": "profile-partial-review-chinese-baseline",
+      "pages": 6,
+      "sha256": "0128a306f6f288423e4cd681035ea0b05a96a50a1796b15bd1b08982201686de"
+    },
+    {
+      "kind": "pdf",
+      "stem": "profile-partial-review-chinese-keep-short-q15",
+      "pages": 6,
+      "sha256": "05f8fea5c7a12bf2d93fc6fa6a431b224e22cfc86db55cbeac71d70f7f9ae5b2"
+    },
+    {
+      "kind": "pdf",
+      "stem": "profile-partial-submission-chinese-baseline",
+      "pages": 6,
+      "sha256": "448bf9631298caf3d9c0a08a6566d3cbeafd12edf0aa1be6ffe444eeb3c65faf"
+    },
+    {
+      "kind": "pdf",
+      "stem": "profile-partial-submission-chinese-keep-short-q15",
+      "pages": 6,
+      "sha256": "fc0fbecc2c19a2e898ba104939f612407a8202e6860f320a746bc4b365f149ef"
+    }
+  ],
+  "source_template_version": "0.3.38",
+  "collector_sha256": "21cb2e210b8f1787e7b6da35c1d2bf76665555ad3f0b38b44f6f45b0208c84b0",
+  "trial_pdfs": 16,
+  "trial_pages": 96
+}

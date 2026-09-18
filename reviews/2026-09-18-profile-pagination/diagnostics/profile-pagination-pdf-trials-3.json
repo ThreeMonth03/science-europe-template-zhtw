@@ -1,0 +1,81 @@
+{
+  "completed": false,
+  "release_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "rows": [
+    {
+      "stem": "profile-partial-review-english",
+      "language": "english",
+      "mode": "review",
+      "trial": "baseline",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "19ca219136466fa71a7f9677eb4f97c1175470ca0ab51592c0eecc127a3c856e",
+      "source_html_sha256": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77"
+    },
+    {
+      "stem": "profile-partial-review-english",
+      "language": "english",
+      "mode": "review",
+      "trial": "keep-short-q15",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "c87f28bb199847cc6f7cf22f4a6ed76c6c09488ddecbfe40827c536a8ddd33ef",
+      "source_html_sha256": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77"
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "language": "english",
+      "mode": "submission",
+      "trial": "baseline",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "29a5a33e70c625b397012893252655ca5b07dcca3914a914f437894bd08fb69c",
+      "source_html_sha256": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7"
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "language": "english",
+      "mode": "submission",
+      "trial": "keep-short-q15",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "efc41fa0b6d3eb0e838987858ae2643fe402c539bacc6d1ae8767fb1abdaba20",
+      "source_html_sha256": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7"
+    }
+  ],
+  "checker_sha256": "9ba37b59c767a999b78eff95f39bd1d42617139d60879f9e588c24b55ed4cd7d",
+  "failure": "AssertionError('Same HTML and engine must reproduce native baseline geometry exactly')"
+}

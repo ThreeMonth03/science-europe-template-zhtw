@@ -1,0 +1,23 @@
+{
+  "full_document_visual_acceptance": false,
+  "template_fix_accepted": false,
+  "scope": {
+    "contact_sheets_reviewed": 8,
+    "variant_pages_in_contact_sheets": 48,
+    "detailed_targets": ["Chinese submission Word Q11 on page 5", "Chinese submission PDF Q15 on page 6"],
+    "original_targets": "Prior 0.3.38 native archive retains the split-page counterexamples"
+  },
+  "observations": [
+    "Q11 Word title, bold dataset label and short summary now read together in the Chinese submission rehearsal.",
+    "Q15 PDF summary and two-row budget now read together on page 6 in the Chinese submission rehearsal; page count remains six.",
+    "No obvious new clipping was seen at contact-sheet scale; this is not a complete fine-resolution typography audit.",
+    "The Word-only trial does not fix its separate Q15 budget tail. The PDF-only trial does not change its separate Q11 presentation.",
+    "Existing Chinese review Word Q5 separation, English review PDF Q1 separation and Chinese spaces before punctuation remain."
+  ],
+  "adoption_blockers": [
+    "The Word rehearsal changes the dataset label from Heading5 to a bold paragraph lead; this semantic tradeoff must be deliberate in a future bounded rule.",
+    "The PDF rehearsal applies an unbounded whole-question keep to a known short case; long and complex answers need conservative fallbacks before integration.",
+    "Chinese review PDF baseline font metrics do not exactly reproduce the prior native export; the cause is not established.",
+    "Neither rule has been integrated into the template or verified through new native DSW exports or Microsoft Word."
+  ]
+}

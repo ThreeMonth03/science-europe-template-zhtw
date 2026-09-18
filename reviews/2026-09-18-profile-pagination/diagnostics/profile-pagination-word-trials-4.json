@@ -1,0 +1,33 @@
+{
+  "completed": false,
+  "release_acceptance": false,
+  "native_export": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "language": "english",
+      "mode": "review",
+      "trial": "baseline",
+      "pages": 6,
+      "q11_heading_summary_pages": [
+        4,
+        4
+      ],
+      "together": true,
+      "paragraphs_checked": 130,
+      "source_sha256": "2f0ad12b38b0fe74b226708981254f252adaf96f0404d538da0c103316893851",
+      "docx_sha256": "de8e32c1fd8a0000a4c7bb7a5aaba59934a99c4e7a6b442f157438701fb6f5f5",
+      "pdf_sha256": "1fa334898f34d93f9c75d4653fa5e3da70eb2c99681ae2a02fa38c0b00ffbf7c",
+      "exact_xml_delta_checked": true,
+      "dataset_heading5_removed": false,
+      "native_preview_geometry_identical": true
+    }
+  ],
+  "checker_sha256": "d596f566400f8f3b80afccaf627ee1d965e52e4419306161b0c722030932af80",
+  "libreoffice_version": "LibreOffice 25.2.3.2 520(Build:2)",
+  "limits": [
+    "Exact frozen native DOCX modified for diagnosis, not a template implementation",
+    "The joined-label trial removes one dataset Heading5; Q11 Heading3 is retained",
+    "Only this short synthetic summary; no whole-questionnaire pagination guarantee"
+  ]
+}

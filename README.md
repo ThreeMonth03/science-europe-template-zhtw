@@ -8,6 +8,10 @@
 [中英 PDF／Word 樣張與檢核清單](reviews/2026-09-18-output-profiles/README.md)：12 份原生輸出、
 4 份 Word 預覽已完成內容核對；版面仍有 Q11 孤立標題、短預算尾頁等未解項目。
 
+後續 [分頁修正 A/B 樣張](reviews/2026-09-18-profile-pagination/README.md)：
+中文提交 Word Q11、PDF Q15 各找到一個有效排版方向，中英兩種模式頁數不增；
+仍未修改模板。Word 標題層級、短內容適用條件及一份 PDF 基準字型差異待處理。
+
 前輪 [0.3.37 整份文件稽核](docs/whole-document-review.md)：三組中英 PDF／Word 共 83 頁概覽，
 發現 Q6/Q8 部分缺答提示不足、英文 Word 孤立章節標題、中文 PDF 短預算尾頁，
 並整理中英段落節奏。這輪只保存問題與證據，未改模板／譯文／版號；仍未正式驗收。

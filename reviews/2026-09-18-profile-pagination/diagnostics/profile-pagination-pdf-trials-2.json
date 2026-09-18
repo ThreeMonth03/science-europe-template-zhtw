@@ -1,0 +1,80 @@
+{
+  "completed": false,
+  "release_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "rows": [
+    {
+      "stem": "profile-partial-review-english",
+      "language": "english",
+      "mode": "review",
+      "trial": "baseline",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "d0c2aed0606ce9cfa4b64ebe2260f8f3a1e3a4c5aac7bd3b087ceb968b8ee763",
+      "source_html_sha256": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77"
+    },
+    {
+      "stem": "profile-partial-review-english",
+      "language": "english",
+      "mode": "review",
+      "trial": "keep-short-q15",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "05e85833b6100ee766725d57e2877dc0f6966238005e44e623de3572112c78c1",
+      "source_html_sha256": "3f0e3b2ad69fb3728dcb8455b22045614660b1f45d1e7b02c7b999c56f23bd77"
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "language": "english",
+      "mode": "submission",
+      "trial": "baseline",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "00272ddb1f57c270d80577878e0e18ef9dc408ad5983f28b76287833c39fa4ac",
+      "source_html_sha256": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7"
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "language": "english",
+      "mode": "submission",
+      "trial": "keep-short-q15",
+      "pages": 6,
+      "q15_heading_table_pages": [
+        [
+          6
+        ],
+        [
+          6
+        ]
+      ],
+      "together": true,
+      "pdf_sha256": "86f2b435c267503c485e2e928a258d5784e0b5b0197021236ceb4abb7621174f",
+      "source_html_sha256": "5160e8d9466e2d5321616235bf44cc89c1298ed5bd814dc26b36f58467371fd7"
+    }
+  ],
+  "checker_sha256": "30c262410b9e71149f6cda59d5a4eb96d8a21eae0d2e2ed0694fcc3bb3014813"
+}

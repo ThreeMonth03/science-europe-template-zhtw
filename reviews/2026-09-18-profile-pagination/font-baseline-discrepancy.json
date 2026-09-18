@@ -1,0 +1,14 @@
+{
+  "native": {
+    "sha256": "bce8030f6788fb43d5389fce6b8a26cfc2b20140e93b65e5fe659ff2902aea95",
+    "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nTRVFVV+Pilot-CJK-Semi-Bold           CID TrueType      Identity-H       yes yes yes     72  0\nUCYLHY+Pilot-CJK-Bold                CID TrueType      Identity-H       yes yes yes     76  0\nVHAAGJ+Pilot-CJK                     CID TrueType      Identity-H       yes yes yes     80  0\nIXITLZ+Pilot-CJK-Oblique             CID TrueType      Identity-H       yes yes yes     84  0\nHUHQIP+Noto-Sans                     CID TrueType      Identity-H       yes yes yes     88  0\n"
+  },
+  "baseline": {
+    "sha256": "0128a306f6f288423e4cd681035ea0b05a96a50a1796b15bd1b08982201686de",
+    "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nUCYLHY+Pilot-CJK-Bold                CID TrueType      Identity-H       yes yes yes     71  0\nVHAAGJ+Pilot-CJK                     CID TrueType      Identity-H       yes yes yes     75  0\nIXITLZ+Pilot-CJK-Oblique             CID TrueType      Identity-H       yes yes yes     79  0\nHUHQIP+Noto-Sans                     CID TrueType      Identity-H       yes yes yes     83  0\n"
+  },
+  "keep-short-q15": {
+    "sha256": "05f8fea5c7a12bf2d93fc6fa6a431b224e22cfc86db55cbeac71d70f7f9ae5b2",
+    "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nUCYLHY+Pilot-CJK-Bold                CID TrueType      Identity-H       yes yes yes     71  0\nVHAAGJ+Pilot-CJK                     CID TrueType      Identity-H       yes yes yes     75  0\nIXITLZ+Pilot-CJK-Oblique             CID TrueType      Identity-H       yes yes yes     79  0\nHUHQIP+Noto-Sans                     CID TrueType      Identity-H       yes yes yes     83  0\n"
+  }
+}

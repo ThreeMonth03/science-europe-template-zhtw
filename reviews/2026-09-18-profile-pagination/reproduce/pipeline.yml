@@ -1,0 +1,36 @@
+schema_version: 1
+source:
+  repository: https://github.com/ThreeMonth03/science-europe-template.git
+  commit: 3c4827a440ab148aca815b6830dab7dc1469d0b1
+  organization_id: threemonth03
+  template_id: science-europe-enhanced
+  version: 0.3.38
+translation:
+  organization_id: threemonth03
+  template_id: science-europe-enhanced-zhtw
+  version: 0.3.38
+  language: zh_Hant
+  name: Science Europe 資料管理方案（雙輸出局部實驗）
+  format_names:
+    a9293d08-59a4-4e6b-ae62-7a6a570b031c: HTML－內部檢核版
+    68c26e34-5e77-4e15-9bf7-06ff92582257: PDF－內部檢核版
+    f4bd941a-dfbe-4226-a1fc-200fb5269311: Word－內部檢核版
+    499d9300-0183-5157-b6f4-38e6c2b91600: HTML－提交預覽（局部實驗）
+    9fd0a115-4b8b-5013-a084-eaf2890ec940: PDF－提交預覽（局部實驗）
+    98081811-41ff-5438-b98a-0472607527c6: Word－提交預覽（局部實驗）
+tooling:
+  repository: https://github.com/ThreeMonth03/dsw-document-template-tool.git
+  commit: 25e339fbdfb1d20796471055790aad6a4226b6ed
+  profile: science-europe
+  exclude_profile_paths: []
+runtime:
+  dsw: '4.30'
+  metamodel: '18.0'
+  knowledge_models: [dsw:root:2.7.0, dsw:root-zh-hant:2.7.0]
+provenance:
+  translation_seed_repository: https://github.com/depositar/science-europe-template-zh_Hant.git
+  translation_seed_commit: 13fd8af5bdc49d9886377eadbd73acb8df570cb6
+  translation_seed_version: 1.30.1
+publication:
+  status: experimental
+  overwrite: false
