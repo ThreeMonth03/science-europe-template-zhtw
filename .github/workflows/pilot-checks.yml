@@ -78,7 +78,9 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
           # Verify exactly one new Q11 filter/style, then retain every prior profile/source gate.
-          ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english --output-profiles --preservation-reading
+          ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english --output-profiles --preservation-reading --short-resources
+          ../tooling/.venv/bin/python ../english/scripts/probe_short_resources.py --source-dir "$SE_BUILD_DIR/en" --engine --output "$SE_BUILD_DIR/short-resources-engine-en.json"
+          ../tooling/.venv/bin/python ../english/scripts/probe_short_resources.py --source-dir "$SE_BUILD_DIR/translated" --engine --output "$SE_BUILD_DIR/short-resources-engine-zh.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_preservation_reading.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/preservation-reading-engine-en.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_preservation_reading.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/preservation-reading-engine-zh.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/storage-context-engine-en.json"
@@ -112,6 +114,7 @@ jobs:
             zh/outputs/build-*/metadata-gap-prose-*.json
             zh/outputs/build-*/output-profiles-scope.json
             zh/outputs/build-*/preservation-reading-*.json
+            zh/outputs/build-*/short-resources-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
             zh/outputs/build-*/identifier-spacing-preflight.json
       - name: State acceptance boundary

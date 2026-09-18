@@ -3,7 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-最新 [0.3.39 Q11 Word 短摘要閱讀單元](docs/preservation-reading.md)：
+最新 [0.3.40 Q15 PDF 短資源單元](docs/short-resources.md)：
+只把單一計畫的一至兩筆短預算與概述連頁；長篇、漏填、複雜內容保留原樣。
+只改英文共用 PDF 入口，不改 748 組譯文、共用 CSS 或 Word。原生成品另行驗證。
+
+前版 [0.3.39 Q11 Word 短摘要閱讀單元](docs/preservation-reading.md)：
 把符合嚴格條件的資料集名稱與短摘要合段，保留文字與連結書籤；
 長回答、自由回答及漏填區塊沿用原結構。748 組譯文不變，PDF 修正另列下一步。
 [原生樣張及前後比較](reviews/2026-09-18-preservation-reading/README.md)：
