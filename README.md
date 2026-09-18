@@ -3,14 +3,19 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-最新 [0.3.38 雙輸出模式實驗](docs/output-profiles.md)：同一套來源提供內部檢核／提交預覽，
+最新 [0.3.39 Q11 Word 短摘要閱讀單元](docs/preservation-reading.md)：
+把符合嚴格條件的資料集名稱與短摘要合段，保留文字與連結書籤；
+長回答、自由回答及漏填區塊沿用原結構。748 組譯文不變，PDF 修正另列下一步。
+原生成品驗證與來源／轉檔測試分開記錄，仍非正式繳交版。
+
+前版 [0.3.38 雙輸出模式實驗](docs/output-profiles.md)：同一套來源提供內部檢核／提交預覽，
 只先切換明列的提示；不是可供任意專案直接繳交的正式模板。既有 747 組譯文全保留。
 [中英 PDF／Word 樣張與檢核清單](reviews/2026-09-18-output-profiles/README.md)：12 份原生輸出、
 4 份 Word 預覽已完成內容核對；版面仍有 Q11 孤立標題、短預算尾頁等未解項目。
 
 後續 [分頁修正 A/B 樣張](reviews/2026-09-18-profile-pagination/README.md)：
 中文提交 Word Q11、PDF Q15 各找到一個有效排版方向，中英兩種模式頁數不增；
-仍未修改模板。Word 標題層級、短內容適用條件及一份 PDF 基準字型差異待處理。
+該輪未修改模板。Word 標題層級與適用條件已納入 0.3.39；PDF 基準字型差異仍待處理。
 
 前輪 [0.3.37 整份文件稽核](docs/whole-document-review.md)：三組中英 PDF／Word 共 83 頁概覽，
 發現 Q6/Q8 部分缺答提示不足、英文 Word 孤立章節標題、中文 PDF 短預算尾頁，

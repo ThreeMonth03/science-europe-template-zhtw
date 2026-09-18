@@ -16,7 +16,9 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--build', type=Path, required=True); p.add_argument('--english', type=Path, required=True)
     p.add_argument('--output-profiles', action='store_true', help='Exact 0.3.37→0.3.38 pilot delta; retain every prior review-profile contract')
+    p.add_argument('--preservation-reading', action='store_true', help='Verify the exact 0.3.39 filter/style addition before running all historical gates')
     a = p.parse_args(); sys.path[:0] = [str(a.english.resolve()/n) for n in ['scripts', 'tests']]
+    assert not a.preservation_reading or a.output_profiles
     from storage_context_contract import check_roots as context_checks
     from probe_storage_context import strip
     from q5_word_join_contract import prior_lua
@@ -48,6 +50,13 @@ def main():
     for old_row in proof['rows']:
         folder = old_row['language']; root = a.build/folder; historic_before = old_row['after']; before = historic_before
         after = {str(f.relative_to(root)): sha(f) for f in (root/'src').rglob('*') if f.is_file()}
+        actual_after = dict(after)
+        if a.preservation_reading:
+            from preservation_reading_contract import project_prepared, source_delta
+            after = project_prepared(root, after, 'en' if folder == 'en' else 'zh-Hant')
+            frozen_profile = json.loads((ROOT/'reviews/2026-09-18-output-profiles/provenance/output-profiles-scope.json').read_text())
+            frozen_hashes = next(r['after'] for r in frozen_profile['rows'] if r['language'] == folder)
+            assert after == frozen_hashes, 'After removing exactly the new filter/style, every 0.3.38 prepared source hash must match'
         if a.output_profiles:
             from output_profile_contract import CONTRACT, check as profile_checks
             previous = json.loads((ROOT/'reviews/2026-09-18-metadata-gap-prose/probes/metadata-gap-prose-scope.json').read_text())
@@ -93,11 +102,16 @@ def main():
             'prose_checks': prose_count, 'q5_checks': len(context_rows), 'q5_eligible': sum(r['eligible'] for r in context_rows), 'q3_exact_dom_checks': metadata_count, 'q3_retained_capacity_checks': count, 'q2_exact_dom_checks': q2, 'q11_branch_checks': q11,
             'q11_gap_combinations': gaps, 'frozen_sha256': sha(frozen)})
         if a.output_profiles: checks[-1]['output_profile_checks'] = profile_rows
+        if a.preservation_reading:
+            checks[-1].update(historical_projection_after=after, after=actual_after,
+                projected_changed=differences, source_delta=source_delta(),
+                changed=sorted(n for n in before if before[n] != actual_after[n]),
+                added=sorted(set(actual_after)-set(before)))
     report = {'passed': True, 'release_acceptance': False, 'rows': checks, 'reviewed_deltas': following,
         'translation_units': len(files), 'translation_tree_sha256': hashes, 'checker_sha256': sha(Path(__file__)),
         'contract_sha256': sha(a.english/'scripts/metadata_gap_prose_contract.py'),
         'package_sha256': {n: sha(a.build/n) for n in ['english.zip', 'chinese.zip']}}
-    target = a.build/('output-profiles-scope.json' if a.output_profiles else 'metadata-gap-prose-scope.json'); assert not target.exists()
+    target = a.build/('preservation-reading-scope.json' if a.preservation_reading else 'output-profiles-scope.json' if a.output_profiles else 'metadata-gap-prose-scope.json'); assert not target.exists()
     target.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
     print(json.dumps({'passed': True, 'q5_checks': sum(r['q5_checks'] for r in checks), 'units': len(files)}))
 
