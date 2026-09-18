@@ -1,0 +1,172 @@
+# 逐頁閱讀紀錄
+
+83 個實體頁面（含封面）：全部看過頁面概覽並對照抽取文字；WD-03/04 另以 115 dpi 近看。這不是 83 頁逐字校對，也不代表正式驗收通過。Word 均指 LibreOffice 預覽，不是 Microsoft Word。
+
+問題編號與處理方式見 [README](README.md)。`complete` 只指 Q3 特定追問；長文 80 段是來源刻意輸入。
+
+## metadata-complete-english / pdf
+
+[原文件](native/metadata-complete-english.pdf) · [完整抽取文字](page-text/metadata-complete-english-pdf.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面資訊可讀；經費未填有提示。範例名稱的 complete 不代表整份 DMP 完整。 |
+| 2 | Q1：兩筆來源、版本與用途保留；多層標籤及共同政策的單複數切換增加閱讀負擔（WD-05）。 |
+| 3 | Q1 溯源續頁；Q2–Q4。Q3 明確 No 被保留，沒有錯當成漏填；Q1/Q4 品質措施重複。 |
+| 4 | Q5 有儲存細節不足提示；Q6 存取控制漏填未提示（WD-01）；Q8 只列再用授權、未提示權利歸屬缺漏（WD-02）；Q9 起始。 |
+| 5 | Q9 續；Q10–Q12。共享／保存用途分開；Q11 保存選擇不足有提示，不當作完成。 |
+| 6 | Q13–Q15。預算表與資源文字同頁；5000 TWD 與明確 0 TWD 都保留。 |
+
+## metadata-complete-english / word-preview
+
+[原文件](word-preview/metadata-complete-english.pdf) · [完整抽取文字](page-text/metadata-complete-english-word-preview.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面可讀；Word 不完全複製 PDF 的框線樣式，不單憑外觀差異判定錯誤。 |
+| 2 | Q1 含溯源表均在本頁；巢狀清單與重複標籤仍多（WD-05）。 |
+| 3 | Q2–Q6。Q6 未提示存取控制缺漏（WD-01）；Section 4 孤立於頁底，Q7 在下一頁（WD-03，另近看）。 |
+| 4 | Q7–Q11 起始；Q8 的權利歸屬缺漏未提示（WD-02）。 |
+| 5 | Q11 續、Q12–Q14。保存提醒與前頁分離；頁底留白需整體取捨，不能只追求最少頁。 |
+| 6 | Q15 與完整預算表同頁；未見尾列切斷。 |
+
+## metadata-complete-chinese / pdf
+
+[原文件](native/metadata-complete-chinese.pdf) · [完整抽取文字](page-text/metadata-complete-chinese-pdf.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面可讀；未填經費明示，不補寫成已有經費。 |
+| 2 | Q1：兩筆來源有清楚區分；每筆標籤／版本表較碎；共同管理方式仍反覆使用「此資料」（WD-05）。 |
+| 3 | Q1 溯源續、Q2–Q5。Q3 明確否定完整保留；Q5 說明可確認的安排與不能確認的細節。 |
+| 4 | Q6–Q10。Q6/Q8 的部分缺漏沒有可見提示（WD-01/02）；Q9 的否定來自輸入，不是由「無個資」推論。 |
+| 5 | Q11–Q15。保存選擇有提醒；Q15 文字到頁尾，預算表被推走（WD-04）。 |
+| 6 | 只有預算標題與兩筆表列，大片留白；不是解析遺失（WD-04，另近看）。 |
+
+## metadata-complete-chinese / word-preview
+
+[原文件](word-preview/metadata-complete-chinese.pdf) · [完整抽取文字](page-text/metadata-complete-chinese-word-preview.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面與人員資訊可讀；字型／行距採 Word 樣式。 |
+| 2 | Q1：來源與共同政策保留；段落整體仍偏表單式（WD-05）。 |
+| 3 | Q1 溯源續、Q2–Q5；Q5 整組提醒同頁。Word 無 PDF 黃框，但文字保留。 |
+| 4 | Q6–Q9；部分缺答沒有對應提示（WD-01/02）。第 5 節從下一頁開始。 |
+| 5 | Q10–Q13；單管道情境可讀，重複資料集名稱增加篇幅但不等於重複答案錯誤。 |
+| 6 | 第 6 節、Q14/Q15 與預算同頁；本格式沒有中文 PDF 的孤立預算尾頁。 |
+
+## metadata-partial-english / pdf
+
+[原文件](native/metadata-partial-english.pdf) · [完整抽取文字](page-text/metadata-partial-english-pdf.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面經費缺漏可見；本例僅刻意刪去部分 Q3 追問。 |
+| 2 | Q1 保留兩筆再用資料；與相同版本 complete 例同樣有敘事節奏問題（WD-05）。 |
+| 3 | Q1 溯源續、Q2–Q4。Q3 字典、兩項出版追問、容量四個缺漏事實仍可辨；沒有把漏填當 No。 |
+| 4 | Q5–Q9 起始。Q5 有提醒；Q6/Q8 沒有部分缺漏提示（WD-01/02）。 |
+| 5 | Q9 續、Q10–Q12。保存提醒可見；沒有以存放地點代替保存選擇說明。 |
+| 6 | Q13–Q15。兩筆預算同頁，明確零金額保留。 |
+
+## metadata-partial-english / word-preview
+
+[原文件](word-preview/metadata-partial-english.pdf) · [完整抽取文字](page-text/metadata-partial-english-word-preview.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面資訊可讀；無新增閱讀問題。 |
+| 2 | Q1 與溯源表在同頁；無文字遺失跡象，仍有表單式節奏（WD-05）。 |
+| 3 | Q2–Q6。Q3 缺漏敘述完整；Q6 未提示存取控制缺漏（WD-01）。本例沒有孤立的 Section 4。 |
+| 4 | Section 4 與 Q7 同頁；Q8 仍無權利歸屬缺漏提示（WD-02）；Q11 起始。 |
+| 5 | Q11 續、Q12–Q14。正常續頁但讀者需回看前页資料集脈絡。 |
+| 6 | Q15 及完整預算同頁；不是中文 PDF 尾頁問題。 |
+
+## metadata-partial-chinese / pdf
+
+[原文件](native/metadata-partial-chinese.pdf) · [完整抽取文字](page-text/metadata-partial-chinese-pdf.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面缺漏經費明示；不把本例稱為完整 DMP。 |
+| 2 | Q1 來源、版本與用途均可讀；共同段落指稱可改善（WD-05）。 |
+| 3 | Q1 溯源續、Q2–Q4。四項 Q3 缺漏可辨，兩項出版追問合段；尚待補充與明確否定不同。 |
+| 4 | Q5–Q9。Q5 灰色限制說明保留；Q6/Q8 仍缺部分漏填提示（WD-01/02）。 |
+| 5 | Q10–Q14。發布、保存、工具、PID 分工可辨；Q11 保存選擇不足提醒保留。 |
+| 6 | Q15 文字與預算同頁；沒有 complete 例的只剩表格尾頁。 |
+
+## metadata-partial-chinese / word-preview
+
+[原文件](word-preview/metadata-partial-chinese.pdf) · [完整抽取文字](page-text/metadata-partial-chinese-word-preview.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面可讀；標準 Word 表格風格。 |
+| 2 | Q1 來源與用途保留；仍建議減少模板自有標籤碎段（WD-05）。 |
+| 3 | Q1 溯源續、Q2–Q4。Q3 合段及容量提示可讀；沒有把兩個缺漏事實合成一個判斷。 |
+| 4 | Q5–Q9 大部分。Q6/Q8 漏填提示不足（WD-01/02）；Q9 最後一小段落將續到下一頁。 |
+| 5 | 頁首只有 Q9 最後一句倫理法規敘述，接第 5 節及 Q10–Q13；可讀但段落切分略突兀，列次級分頁觀察。 |
+| 6 | 第 6 節、Q14/Q15 及預算同頁；零金額保持可見。 |
+
+## narrative-long-english / pdf
+
+[原文件](native/narrative-long-english.pdf) · [完整抽取文字](page-text/narrative-long-english-pdf.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面標明 narrative-long；是合成壓力測試，不是自然完整案例。 |
+| 2 | Q1 與前兩例同樣保留來源、版本和共同安排（WD-05）。 |
+| 3 | Q1 溯源續、Q2–Q4；Q3 字典缺漏可見，取用說明及擷取選擇則已回答。 |
+| 4 | Q5 增加研究期間封存；Q6 的 Q5 交叉參照不等於存取控制回答（WD-01）；Q8 同 WD-02。 |
+| 5 | Q9/Q10；兩個提供管道分開；受限管道長文 [01]–[04] 起始，這些段落由來源刻意輸入。 |
+| 6 | Q10 受限管道 [05]–[38]；逐段保留，單獨看本頁缺少續頁脈絡，非遺失／模板自行重複。 |
+| 7 | Q10 受限管道 [39]–[72]；同前頁，不能為縮頁刪除。 |
+| 8 | [73]–[80] 及申請方式後，Q11–Q13 管道 1；特殊儲存庫維運尚未說明有提示。 |
+| 9 | Q13 管道 2 續、Q14/Q15 及預算。管道 2 標籤保留，可回接前頁，未混成管道 1。 |
+
+## narrative-long-english / word-preview
+
+[原文件](word-preview/narrative-long-english.pdf) · [完整抽取文字](page-text/narrative-long-english-word-preview.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面與 native 對應；Word 共 8 頁，不要求中英／格式頁數相同。 |
+| 2 | Q1 含溯源；內容可讀，模板敘事仍可簡化（WD-05）。 |
+| 3 | Q2–Q5 完整；封存與備份安排及無法確認的細節分開。 |
+| 4 | Q6–Q9；WD-01/02 仍存在；頁下留白與後續長段落相接，不以少頁數作完成判準。 |
+| 5 | Q10 兩管道＋受限條件 [01]–[23]；來源段落邊界保留。 |
+| 6 | 受限管道 [24]–[62]；無可見裁切；仍欠續頁提示，但不得改寫長文。 |
+| 7 | [63]–[80]、申請方式、Q11/Q12；完整長文後仍能接續後續題目。 |
+| 8 | Q13 两管道、Q14/Q15 與預算；明確零金額保留。 |
+
+## narrative-long-chinese / pdf
+
+[原文件](native/narrative-long-chinese.pdf) · [完整抽取文字](page-text/narrative-long-chinese-pdf.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面清楚標示合成案例；不是可提交 DMP。 |
+| 2 | Q1 來源與重複標籤的閱讀節奏同前兩例（WD-05）。 |
+| 3 | Q1 溯源續、Q2–Q5 起始；Q3 字典未填可見；Q5 有部分內容續頁。 |
+| 4 | Q5 封存續、Q6–Q9；Q5 交叉參照未掩蓋實際文字，但 Q6/Q8 缺漏仍不明示（WD-01/02）。 |
+| 5 | Q10：公開與受限兩管道可辨；來源长文 [01]–[21]，非模板重複生成。 |
+| 6 | Q10 [22]–[56]；整頁同一來源長回答，續頁脈絡可改進。 |
+| 7 | [57]–[80]、申請方式、Q11；保存選擇提醒被推到下一頁，仍保留。 |
+| 8 | 頁首為 Q11 提醒；Q12–Q15。管道 1/2 PID 各自保留；Q15 表格不在本頁（WD-04）。 |
+| 9 | 只有短預算表，與 complete 例相同尾頁失衡（WD-04）。 |
+
+## narrative-long-chinese / word-preview
+
+[原文件](word-preview/narrative-long-chinese.pdf) · [完整抽取文字](page-text/narrative-long-chinese-word-preview.txt)
+
+| 頁 | 觀察 |
+| --- | --- |
+| 1 | 封面可讀；Word 9 頁，這一例不是英文 Word 8 頁的版面複製。 |
+| 2 | Q1 來源、版本與用途完整呈現；表單式標籤仍偏多（WD-05）。 |
+| 3 | Q1 溯源續、Q2–Q5 起始；Q3 只有字典選擇缺漏，不該額外提示已回答的出版追問。 |
+| 4 | Q5 封存續、Q6–Q9 部分；WD-01/02 仍在；Q9 資料蒐集子節移到下一頁。 |
+| 5 | Q9 續、Q10 兩管道及 [01]–[16]；不同管道的限制沒有混合。 |
+| 6 | Q10 [17]–[48]；來源的獨立段落全部保留。 |
+| 7 | Q10 [49]–[80]；頁面缺少續頁主題提示屬閱讀改善，不是遺失。 |
+| 8 | Q10 申請方式續、Q11–Q14；特殊儲存庫維運與保存選擇都有提醒。 |
+| 9 | Q15 及預算在同一頁；沒有 native 中文 PDF 的孤立表格。 |

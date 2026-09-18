@@ -1,0 +1,11 @@
+{
+  "restored_stock_and_stopped": true,
+  "stock_worker_image": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "services": {
+    "science-europe-pilot-docworker-1": {"status": "exited", "exit_code": 137},
+    "science-europe-pilot-server-1": {"status": "exited", "exit_code": 0},
+    "science-europe-pilot-minio-1": {"status": "exited", "exit_code": 0},
+    "science-europe-pilot-postgres-1": {"status": "exited", "exit_code": 0}
+  },
+  "note": "Restored the stock worker and intentionally stopped only these four isolated pilot services. Exit 137 was the intentional stop, not a rendering crash. Volumes, ZIP backups and outputs retained. Two owned temporary template versions and the two synthetic inventory projects were deleted; no production DSW used."
+}

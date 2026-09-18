@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-09-18 00:52:35 UTC",
+  "english_implementation": {
+    "conclusion": "success",
+    "headSha": "0730b11c4027fcc020c441a3c36264d85649321c",
+    "status": "completed",
+    "url": "https://github.com/ThreeMonth03/science-europe-template/actions/runs/35289736511"
+  },
+  "chinese_implementation": {
+    "conclusion": "",
+    "headSha": "f6d80789db488e7cfefcb5abbe948944a373785a",
+    "status": "in_progress",
+    "url": "https://github.com/ThreeMonth03/science-europe-template-zhtw/actions/runs/35290532934"
+  },
+  "review_branch": "review/whole-document-0.3.37",
+  "review_branch_push_triggers_ci": false,
+  "local_review_unit_tests": {
+    "command": "../dsw-document-template-tool/.venv/bin/python -m unittest discover -s tests -v",
+    "count": 236,
+    "passed": true
+  },
+  "limits": [
+    "Review branch does not change the template, translation or source lock.",
+    "Implementation CI is distinct from this review branch and does not establish visual acceptance.",
+    "Chinese CI status is a snapshot, not a completion claim."
+  ]
+}

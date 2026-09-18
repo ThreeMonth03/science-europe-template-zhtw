@@ -1,0 +1,2984 @@
+{
+  "scope": "Whole-document reading inventory of three synthetic bilingual cases",
+  "version": "0.3.37",
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "fresh_native_renders": 6,
+  "reused_native_renders": 12,
+  "word_previews": 6,
+  "collector_sha256": "c2d221c7a1d506d0f9c69fdd9844e68a7d71c20f2cf8aa66283aeb1b4eef88b7",
+  "package_sha256": {
+    "english.zip": "45f9f3c20e37b9f6b0181addd28a7128dabb18f23471c0d4caf2b451f39d302d",
+    "chinese.zip": "675a6b15ef5aeca8510fc4c55e53892e447e5ea1e67e8c96024607e62486557c"
+  },
+  "source_commit": "0730b11c4027fcc020c441a3c36264d85649321c",
+  "limits": [
+    "metadata-complete means only its metadata follow-ups, NOT a complete DMP",
+    "narrative-long repeats 80 paragraphs intentionally in the source answer",
+    "15 headings and 6 sections do not establish Science Europe compliance",
+    "Word preview is LibreOffice, not Microsoft Word",
+    "Tables-only isolated worker, not deployment-worker acceptance"
+  ],
+  "rows": [
+    {
+      "case": "metadata-complete",
+      "language": "english",
+      "render_origin": "reused-exact-0.3.37",
+      "html_sha256": "06f980aa5b102484a98027e8136adb0be04ae297e246ea64cc9962422a31154e",
+      "docx_sha256": "d70aab653aa24022bcc24609e955502b63b107cb43e0ac8a4d8f33b0165f714b",
+      "verified_word_preview_paragraphs": 125,
+      "questions": [
+        {
+          "id": "q-how-data",
+          "requirement_id": "SE-1a",
+          "html_requirement_attribute": "SE-1a",
+          "heading": "1. How will new data be collected or produced and/or how will existing data be re-used?",
+          "answer": "Instrument datasets Coastal temperature measurements For this dataset, we are using the following instruments: Temperature logger – Record temperature every ten minutes; retain UTC timestamps and calibration records. Quality control measures for Coastal temperature measurements : measurement calibration, data entry validation. Re-used datasets Open coastal observations — station 1 Source: https://example.org/datasets/coastal-observations/station-1/version-2026 Compare seasonal changes in water temperature. Retain the original timestamps. Document any excluded observations. Version 2026.1 If a new version becomes available during the project, the current version will continue to be used. Open coastal observations — station 2 Source: https://example.org/datasets/coastal-observations/station-2/version-2026 Compare seasonal changes in water temperature. Retain the original timestamps. Document any excluded observations. Version 2026.1 If a new version becomes available during the project, the current version will continue to be used. Shared arrangements The following arrangements apply to all reference datasets selected for re-use above. We will retain a copy of this dataset and provide it alongside the research results. This dataset is freely available with an obligation to cite the source. The data can be used directly without format conversion. Provenance Record source versions and processing scripts in the project repository. Record Retention Processing log 10 years Source checksum 10 years",
+          "flags": []
+        },
+        {
+          "id": "q-what-data",
+          "requirement_id": "SE-1b",
+          "html_requirement_attribute": null,
+          "heading": "2. What data (for example the kinds, formats, and volumes) will be collected or produced?",
+          "answer": "Instrument datasets Data collection for Coastal temperature measurements : This dataset will be collected by experts in the project, with our own equipment. The equipment is very well described and known. Data formats and types Data format: CSV (UTF-8) . It is a standardized format suitable for long-term archiving. The estimated data volume is 120 GB .",
+          "flags": []
+        },
+        {
+          "id": "q-docs-metadata",
+          "requirement_id": "SE-2a",
+          "html_requirement_attribute": null,
+          "heading": "3. What metadata and documentation (for example the methodology of data collection and way of organising data) will accompany the data?",
+          "answer": "We will be documenting the data with Dublin Core metadata standard. We will create a data/variable dictionary. Metadata will be openly available without instructions how to get access to the data.\n        Metadata will not be available in a form that can be harvested and indexed. Data storage and file conventions We estimate the storage space that the project will require for all data and software (including temporary storage) to be 2048 gigabytes. We will use a filesystem with files and folders. We document how we manage file versioning for files and folders. File naming conventions: Name files station_YYYYMMDD.csv and document corrections in CHANGELOG.md.",
+          "flags": []
+        },
+        {
+          "id": "q-quality-control",
+          "requirement_id": "SE-2b",
+          "html_requirement_attribute": "SE-2b",
+          "heading": "4. What data quality control measures will be used?",
+          "answer": "Quality control measures for Coastal temperature measurements : measurement calibration, data entry validation.",
+          "flags": []
+        },
+        {
+          "id": "q-store-backup",
+          "requirement_id": "SE-3a",
+          "html_requirement_attribute": "SE-3a",
+          "heading": "5. How will data and metadata be stored and backed up during the research process?",
+          "answer": "There is a shared workspace used during the project for working with data. Storage needs will be the same during the whole project. All essential data will also be stored elsewhere to prevent a total loss of data. We will make automated backups of all data stored outside the workspace. The fields mapped by this template are insufficient to establish the following operational details: Exact working-storage and backup locations are not established by these mapped answers. An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule.",
+          "flags": [
+            {
+              "text": "The fields mapped by this template are insufficient to establish the following operational details: Exact working-storage and backup locations are not established by these mapped answers. An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule.",
+              "status": null,
+              "fact_id": null
+            }
+          ]
+        },
+        {
+          "id": "q-access-security",
+          "requirement_id": "SE-3b",
+          "html_requirement_attribute": null,
+          "heading": "6. How will data security and protection of sensitive data be taken care of during the research?",
+          "answer": "Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).\n          All project web services are accessible via secure HTTP (https://...).\n          Project members have been instructed about both generic and specific risks to the project.",
+          "flags": []
+        },
+        {
+          "id": "q-personal-data",
+          "requirement_id": "SE-4a",
+          "html_requirement_attribute": null,
+          "heading": "7. If personal data are processed, how will compliance with legislation on personal data and on security be ensured?",
+          "answer": "We will not collect any data related to individuals.",
+          "flags": []
+        },
+        {
+          "id": "q-copyright-ipr",
+          "requirement_id": "SE-4b",
+          "html_requirement_attribute": null,
+          "heading": "8. How will other legal issues, such as intellectual property rights and ownership, be managed? What legislation is applicable?",
+          "answer": "For the reference and non-reference data sets that we reuse, conditions are as follows: Open coastal observations — station 1 It is freely available with obligation to quote the source (e.g. CC-BY). Open coastal observations — station 2 It is freely available with obligation to quote the source (e.g. CC-BY).",
+          "flags": []
+        },
+        {
+          "id": "q-ethical-issues",
+          "requirement_id": "SE-4c",
+          "html_requirement_attribute": null,
+          "heading": "9. What ethical issues and codes of conduct are there, and how will they be taken into account?",
+          "answer": "Ethical approvals The questionnaire records the following ethical approval arrangements: Coastal observations: reproducible data management According to the questionnaire, this project does not require ethical approval. Data we produce For the data we produce, the ethical aspects are as follows: Quality-checked coastal observations It does not contain personal data. It does not contain sensitive data. Data we collect We will not collect any data related to individuals, i.e. \"personal data\". The data collection is not subject to ethical legislation.",
+          "flags": []
+        },
+        {
+          "id": "q-share-restrictions",
+          "requirement_id": "SE-5a",
+          "html_requirement_attribute": null,
+          "heading": "10. How and when will data be shared? Are there possible restrictions to data sharing or embargo reasons?",
+          "answer": "Quality-checked coastal observations This dataset will be published. Open access: this distribution will be shared with anyone. This distribution will be deposited in an institutional repository. Licence start date: 2027-12-31 . Freely available with obligation to quote the source (e.g. CC-BY).",
+          "flags": []
+        },
+        {
+          "id": "q-data-preservation",
+          "requirement_id": "SE-5b",
+          "html_requirement_attribute": null,
+          "heading": "11. How will data for preservation be selected, and where will data be preserved long-term (for example a data repository or archive)?",
+          "answer": "Quality-checked coastal observations This dataset will be published. Retention period (prepaid): 10 years. The metadata will be available even when the data no longer exists. Preservation destinations by distribution: Our institutional repository. We have budgeted for the costs in the project to pay charges of the used repositories. We have a reserved budget for the time and effort it will take to prepare the data for publication. Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.",
+          "flags": [
+            {
+              "text": "Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.",
+              "status": "needs-review",
+              "fact_id": "preservation-selection-review"
+            }
+          ]
+        },
+        {
+          "id": "q-access-data",
+          "requirement_id": "SE-5c",
+          "html_requirement_attribute": null,
+          "heading": "12. What methods or software tools are needed to access and use data?",
+          "answer": "Quality-checked coastal observations Software required to use this dataset: CoastView 1.0 (synthetic test tool) Available at: https://example.org/coastview/1.0",
+          "flags": []
+        },
+        {
+          "id": "q-persistent-identifier",
+          "requirement_id": "SE-5d",
+          "html_requirement_attribute": null,
+          "heading": "13. How will the application of a unique and persistent identifier (such as a Digital Object Identifier (DOI)) to each data set be ensured?",
+          "answer": "Quality-checked coastal observations Institutional repository The repository will assign the persistent identifier. The repository will make sure the persistent identifier can be resolved to a digital object. Possible re-use of created data in other contexts Coastal temperature measurements Other researchers in this field will be interested in re-using this data.",
+          "flags": []
+        },
+        {
+          "id": "q-dm-responsible",
+          "requirement_id": "SE-6a",
+          "html_requirement_attribute": null,
+          "heading": "14. Who (for example role, position, and institution) will be responsible for data management (i.e. the data steward)?",
+          "answer": "Example research team is responsible for the management and proficiency of data including data processing, data policies, data guidelines, and data availability. Example research team is responsible for implementing the DMP, and ensuring it is reviewed and revised.",
+          "flags": []
+        },
+        {
+          "id": "q-required-resources",
+          "requirement_id": "SE-6b",
+          "html_requirement_attribute": "SE-6b",
+          "heading": "15. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?",
+          "answer": "Additional specialist expertise is required. Existing staff will receive training. Staff will complete training before data publication. Metadata quality checks Version control and provenance We do not require any hardware or software in addition to what is usually available in the institute. The selected repositories charge for their services. Data-management budget Resource and purpose Budget Funding source Data preparation resource 1 Prepare metadata and validate deposit files. This resource supports findability and management of data. 5000 TWD Institutional research funds Data preparation resource 2 Prepare metadata and validate deposit files. This resource supports findability and management of data. 0 TWD Institutional research funds",
+          "flags": []
+        }
+      ],
+      "formats": {
+        "pdf": {
+          "sha256": "3a3cbece8866a78b7eb7c995bffab2f0f4786516166fd2fe25bfb06b06780bfa",
+          "pages": 6,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 4,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 5,
+            "q-data-preservation": 5,
+            "q-access-data": 5,
+            "q-persistent-identifier": 6,
+            "q-dm-responsible": 6,
+            "q-required-resources": 6
+          },
+          "numbered_stress_paragraphs": null
+        },
+        "word-preview": {
+          "sha256": "473d9a5e8f7726c4ea318c82d0d83cfc1237ed93ee2306d02a30d66b60d0a66f",
+          "pages": 6,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 3,
+            "q-access-security": 3,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 4,
+            "q-data-preservation": 4,
+            "q-access-data": 5,
+            "q-persistent-identifier": 5,
+            "q-dm-responsible": 5,
+            "q-required-resources": 6
+          },
+          "numbered_stress_paragraphs": null
+        }
+      },
+      "selected_input_questions": [
+        {
+          "uuid": "cb7d17a8-30c0-489d-a43c-702b27d97611",
+          "path": [
+            "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+            "cb7d17a8-30c0-489d-a43c-702b27d97611"
+          ],
+          "type": "OptionsQuestion",
+          "title": "How are the rights of the collected data arranged?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "f310952b-e946-4315-bb32-bf127d1bf96a",
+              "label": "Our data is legally not copyrightable, there is no legal rightsholder",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "91d6ee6f-c501-4d1c-a6e7-9da1789f68de",
+              "label": "The Principal Investigator will be the rightsholder",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ef4ac36a-eea0-42b4-8292-b89090a1b5ef",
+              "label": "The institute will be the rightsholder",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "115a165f-9d3f-440d-a822-4bd2795c264e",
+              "label": "We have a consortium agreement that arranges Intellectual Property",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "0fd3cd1c-e0e8-41d5-9beb-3f1faba0fb91",
+              "label": "The rights  for the data is arranged in another way",
+              "follow_up_uuids": [
+                "06655161-9a91-47f4-af3b-9d2a5e6db19b"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "ownershipQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/08-copyright-ipr.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Will you be using a shared working space to work with your data?",
+          "guidance": "Will you be using a working space containing data and software specific to the project that is shared between all the people working on the data in the project? Sometimes such a system is called a *Virtual Research Environment*.",
+          "choices": [
+            {
+              "uuid": "1d6ba101-fd62-43c8-ab53-76bc31847f58",
+              "label": "No, participants in the project each have different collections of data and tools",
+              "follow_up_uuids": [
+                "c1e83bdf-5914-44c2-8414-0a4e7fbaf272"
+              ]
+            },
+            {
+              "uuid": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+              "label": "Yes",
+              "follow_up_uuids": [
+                "5607d0bb-6b9e-4211-821c-785acc3aa25e",
+                "df36fb68-131c-4f31-a42b-684abf523bbc",
+                "b171ec17-d7b5-4726-ae22-0d892b106cf8",
+                "80d403f3-3f29-4f37-9040-b901ae9afa37"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedWorkspaceQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/05-store-backup.html.j2",
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5"
+          }
+        },
+        {
+          "uuid": "80d403f3-3f29-4f37-9040-b901ae9afa37",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "80d403f3-3f29-4f37-9040-b901ae9afa37"
+          ],
+          "type": "OptionsQuestion",
+          "title": "How will access to the work space be controlled?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "302e4b9b-9a9c-4fb0-9745-5f8ff4cca746",
+              "label": "Only all project members have read/write access to the data",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "154cd5fc-a79f-4c2e-be67-6985813bbc8d",
+              "label": "Anyone in the institute has read access to the data; all project members have read/write access.",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b21c9f70-78e7-4975-b776-59e372285662",
+              "label": "Only project members will have read access; only selected project members will be able to write data",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b19ba76a-4b6a-45f6-8ab5-8bbfb92c7b2c",
+              "label": "Anyone in the institute can read data, only project members can request write access",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedAccessControlQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "614ab69d-55a6-4214-b384-00ba21ce92a1",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Is the risk of information loss, leaks and vandalism acceptably low?",
+          "guidance": "There are many factors that can contribute to the risk of information loss or information leaks. They are often part of the behavior of the people that are involved in the project, but can also be steered by properly planned infrastructure.",
+          "choices": [
+            {
+              "uuid": "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+              "label": "Explore",
+              "follow_up_uuids": [
+                "90324a7b-f3c9-4ed8-b301-edc9869cb7b3",
+                "abaf4a70-17d4-449c-9b95-5b3bcfed7e9b",
+                "84ec46bd-e714-4d98-8525-cdd0d58777ef",
+                "2d57daa6-df2e-4bf9-b024-710e74781d88",
+                "a454fffd-f4a4-426d-b758-6d70bc4ee96b",
+                "39d8dad9-7666-405c-b35c-9e430c9691ed",
+                "dc327e53-cf4f-44e7-8e66-40ddf1b4ae0a",
+                "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+                "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+                "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+                "d5990471-0618-42cd-92cb-bbbfd4f61532"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "b2f76c0a-847a-403c-9ed6-09cad10e625e"
+          }
+        },
+        {
+          "uuid": "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "67c34ee1-2e71-423c-97a7-fe6aa3723465"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Did you consider the possible impact to the project or organization if information is lost?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "4c5d329b-6e18-4f4e-92a9-f0298adf38fe",
+              "label": "No",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a8a4dc7d-bf8c-44e3-b8b2-3e04f206f460",
+              "label": "Yes; the effect is small",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a0ec7128-1c2d-4034-b621-211bd01a9839",
+              "label": "Yes; the risk is acceptably low",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "928db5fa-e16f-4c28-a321-ad62e1849b90",
+              "label": "Yes; we will need to work on this.",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLossQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "a20ddc5d-e883-4bc4-9948-36a2cb477d10"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Did you consider the possible impact to the project or organization if information leaks?",
+          "guidance": "Your institute may have a generic risk assessment; you should be informed about this.",
+          "choices": [
+            {
+              "uuid": "04dd5577-367f-4c34-b90c-4bc25d80c819",
+              "label": "No",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "7c9c8543-b8f8-47b0-8279-757dbc14922f",
+              "label": "Yes; the effect is small",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "6306207c-7be6-4cdf-86c4-33e0d9898479",
+              "label": "Yes; the risk is acceptably low",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "efec7b38-d9a9-4495-8ba7-625dd7da6a09",
+              "label": "Yes; we will need to work on this.",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLeakQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "8cd49d8f-9af0-4ea9-985a-5d45142ac388"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Did you consider the possible impact to the project or organization if information is vandalized?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "b4dbc287-8eed-4799-800e-5ce0ede13cd8",
+              "label": "No",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ae0c3b93-f054-4052-91c0-fa9c518f5ca8",
+              "label": "Yes; the effect is small",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b1e1861b-b55f-406f-b915-b440c64d8747",
+              "label": "Yes; the risk is acceptably low",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "e8943baf-4c0c-4f30-8b57-88c06f3bc4ad",
+              "label": "Yes; we will need to work on this.",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoVandalismQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        }
+      ]
+    },
+    {
+      "case": "metadata-complete",
+      "language": "chinese",
+      "render_origin": "reused-exact-0.3.37",
+      "html_sha256": "619a201eb514b43f98b9e52a3c3445a835142986c6786543dc271781dd6d0129",
+      "docx_sha256": "d5a7f58e746ffa8d99c1e078063bc321fc1640794eb61f59258e92108a303f09",
+      "verified_word_preview_paragraphs": 125,
+      "questions": [
+        {
+          "id": "q-how-data",
+          "requirement_id": "SE-1a",
+          "html_requirement_attribute": "SE-1a",
+          "heading": "1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？",
+          "answer": "儀器資料集 沿岸水溫觀測資料 針對此資料集，我們將使用以下儀器： 水溫紀錄器 – 每十分鐘記錄水溫，保留 UTC 時間戳記與校正紀錄。 沿岸水溫觀測資料 ：品質管控措施包括校正量測結果、資料輸入檢核。 再次使用的資料集 開放海岸觀測資料——測站 1 資料來源： https://example.org/datasets/coastal-observations/station-1/version-2026 比較水溫的季節變化。 保留原始時間戳記。 記錄排除觀測值的原因。 使用版本 2026.1 即使計畫期間發布新版，仍使用原定版本。 開放海岸觀測資料——測站 2 資料來源： https://example.org/datasets/coastal-observations/station-2/version-2026 比較水溫的季節變化。 保留原始時間戳記。 記錄排除觀測值的原因。 使用版本 2026.1 即使計畫期間發布新版，仍使用原定版本。 共同管理方式 上述將再次使用的參考資料集，均採用以下管理方式。 本計畫將保留資料副本，與研究結果一併提供。 此資料可自由取得，使用時須註明來源。 此資料可直接使用，無須轉換格式。 資料溯源 在計畫的版本控制儲存庫記錄來源版本與處理程式。 紀錄 保存期間 處理紀錄 10 年 來源校驗碼 10 年",
+          "flags": []
+        },
+        {
+          "id": "q-what-data",
+          "requirement_id": "SE-1b",
+          "html_requirement_attribute": null,
+          "heading": "2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？",
+          "answer": "儀器資料集 沿岸水溫觀測資料 的蒐集方式：此資料集將由計畫內的專家使用自有設備蒐集。所用設備已有完整說明，且為研究團隊所熟悉。 資料格式與類型 資料格式： CSV (UTF-8) 。 採用標準化格式，適合長期封存。 預估資料量為 120 GB 。",
+          "flags": []
+        },
+        {
+          "id": "q-docs-metadata",
+          "requirement_id": "SE-2a",
+          "html_requirement_attribute": null,
+          "heading": "3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？",
+          "answer": "我們將使用 Dublin Core 後設資料標準記錄資料。 本計畫將建立資料字典或變項定義表。 後設資料將公開提供，但不包含如何取用資料的說明。後設資料不會以可被擷取與索引的形式提供。 資料儲存與檔案規則 預估計畫所有資料與軟體（含暫存空間）所需的儲存容量為 2048 GB。 我們將使用以檔案與資料夾組成的檔案系統。 我們會記錄如何管理檔案與資料夾的版本。 檔案命名規則： 檔名採 station_YYYYMMDD.csv，並在 CHANGELOG.md 記錄修正。",
+          "flags": []
+        },
+        {
+          "id": "q-quality-control",
+          "requirement_id": "SE-2b",
+          "html_requirement_attribute": "SE-2b",
+          "heading": "4. 將使用哪些資料品質管控措施？",
+          "answer": "沿岸水溫觀測資料 ：品質管控措施包括校正量測結果、資料輸入檢核。",
+          "flags": []
+        },
+        {
+          "id": "q-store-backup",
+          "requirement_id": "SE-3a",
+          "html_requirement_attribute": "SE-3a",
+          "heading": "5. 研究期間將如何儲存與備份資料及後設資料？",
+          "answer": "研究期間將使用共享工作空間處理資料。 所需儲存容量在計畫期間將維持不變。 為避免資料全部遺失，重要資料也將另存於其他位置。 存放於共享工作空間以外的資料，將全部自動備份。 本模板目前對應的欄位不足以確認以下執行細節： 這些對應回答尚未明確指出工作資料與備份的實際儲存地點。 這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。",
+          "flags": [
+            {
+              "text": "本模板目前對應的欄位不足以確認以下執行細節： 這些對應回答尚未明確指出工作資料與備份的實際儲存地點。 這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。",
+              "status": null,
+              "fact_id": null
+            }
+          ]
+        },
+        {
+          "id": "q-access-security",
+          "requirement_id": "SE-3b",
+          "html_requirement_attribute": null,
+          "heading": "6. 研究期間將如何處理資料安全與敏感資料保護？",
+          "answer": "計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB 隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供 HTTPS 安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。",
+          "flags": []
+        },
+        {
+          "id": "q-personal-data",
+          "requirement_id": "SE-4a",
+          "html_requirement_attribute": null,
+          "heading": "7. 若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？",
+          "answer": "我們不會蒐集任何與個人相關的資料。",
+          "flags": []
+        },
+        {
+          "id": "q-copyright-ipr",
+          "requirement_id": "SE-4b",
+          "html_requirement_attribute": null,
+          "heading": "8. 其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？",
+          "answer": "我們再次使用的參考與非參考資料集，其使用條件如下： 開放海岸觀測資料——測站 1 此資料可自由取得，使用時須註明來源（例如 CC BY）。 開放海岸觀測資料——測站 2 此資料可自由取得，使用時須註明來源（例如 CC BY）。",
+          "flags": []
+        },
+        {
+          "id": "q-ethical-issues",
+          "requirement_id": "SE-4c",
+          "html_requirement_attribute": null,
+          "heading": "9. 有哪些倫理議題與行為準則？將如何納入考量？",
+          "answer": "倫理審查核准 問卷記載的倫理審查安排如下： 海岸觀測：可重現的資料管理 依問卷填答，本計畫不需要倫理審查核准。 我們產生的資料 關於我們產生的資料，倫理面向如下： 完成品質檢查的沿岸觀測資料 不包含個人資料。 不包含敏感資料。 我們蒐集的資料 我們不會蒐集任何與個人相關的資料，即「個人資料」。 研究倫理相關法規不適用於此資料蒐集。",
+          "flags": []
+        },
+        {
+          "id": "q-share-restrictions",
+          "requirement_id": "SE-5a",
+          "html_requirement_attribute": null,
+          "heading": "10. 資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？",
+          "answer": "完成品質檢查的沿岸觀測資料 此資料集將發布。 此管道提供的資料將公開供任何人取用。 此管道的資料將存放於機構資料儲存庫。 授權起始日期： 2027-12-31 。 可自由取得，但使用時必須引用來源（例如 CC BY）。",
+          "flags": []
+        },
+        {
+          "id": "q-data-preservation",
+          "requirement_id": "SE-5b",
+          "html_requirement_attribute": null,
+          "heading": "11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？",
+          "answer": "完成品質檢查的沿岸觀測資料 此資料集將發布。 保存期間：10 年（費用已預付）。 即使資料已不存在，仍會持續提供後設資料。 各資料提供管道的保存位置： 我們的機構資料儲存庫。 本計畫已編列預算，支付資料儲存庫的服務費。 已預留預算，以支應資料發布準備工作所需的時間與人力。 保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。",
+          "flags": [
+            {
+              "text": "保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。",
+              "status": "needs-review",
+              "fact_id": "preservation-selection-review"
+            }
+          ]
+        },
+        {
+          "id": "q-access-data",
+          "requirement_id": "SE-5c",
+          "html_requirement_attribute": null,
+          "heading": "12. 取用與使用資料需要哪些方法或軟體工具？",
+          "answer": "完成品質檢查的沿岸觀測資料 使用此資料集所需的軟體： CoastView 1.0 (synthetic test tool) 取得位置：https://example.org/coastview/1.0",
+          "flags": []
+        },
+        {
+          "id": "q-persistent-identifier",
+          "requirement_id": "SE-5d",
+          "html_requirement_attribute": null,
+          "heading": "13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？",
+          "answer": "完成品質檢查的沿岸觀測資料 機構資料儲存庫 持續識別碼將由資料儲存庫指派。 資料儲存庫將確保持續識別碼可解析至數位物件。 所產生資料在其他情境下再次使用的可能性 沿岸水溫觀測資料 本領域的其他研究人員會有興趣再次使用這份資料。",
+          "flags": []
+        },
+        {
+          "id": "q-dm-responsible",
+          "requirement_id": "SE-6a",
+          "html_requirement_attribute": null,
+          "heading": "14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？",
+          "answer": "範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。 範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。",
+          "flags": []
+        },
+        {
+          "id": "q-required-resources",
+          "requirement_id": "SE-6b",
+          "html_requirement_attribute": "SE-6b",
+          "heading": "15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？",
+          "answer": "為補足所需的專業能力，本計畫將安排現有人員接受培訓。 工作人員將於資料發布前完成培訓。 後設資料品質檢核 版本控制與資料溯源 除機構通常提供的資源外，我們不需要其他硬體或軟體。 預計使用的資料儲存庫會收取服務費。 資料管理預算 資源項目與用途 預算 經費來源 資料整理資源 1 整理後設資料並檢查寄存檔案。 支援項目：資料可尋性及資料管理。 5000 TWD 機構研究經費 資料整理資源 2 整理後設資料並檢查寄存檔案。 支援項目：資料可尋性及資料管理。 0 TWD 機構研究經費",
+          "flags": []
+        }
+      ],
+      "formats": {
+        "pdf": {
+          "sha256": "257b043bdae30aeb764ac4cc5b74fe1a3bd01b240584edf904f552cda4a73dbd",
+          "pages": 6,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 3,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 4,
+            "q-data-preservation": 5,
+            "q-access-data": 5,
+            "q-persistent-identifier": 5,
+            "q-dm-responsible": 5,
+            "q-required-resources": 5
+          },
+          "numbered_stress_paragraphs": null
+        },
+        "word-preview": {
+          "sha256": "27d9417f7dc2b8f2d53fbb11df20683e6244a8ade912e7332313f429fce7f5af",
+          "pages": 6,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 3,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 5,
+            "q-data-preservation": 5,
+            "q-access-data": 5,
+            "q-persistent-identifier": 5,
+            "q-dm-responsible": 6,
+            "q-required-resources": 6
+          },
+          "numbered_stress_paragraphs": null
+        }
+      },
+      "selected_input_questions": [
+        {
+          "uuid": "cb7d17a8-30c0-489d-a43c-702b27d97611",
+          "path": [
+            "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+            "cb7d17a8-30c0-489d-a43c-702b27d97611"
+          ],
+          "type": "OptionsQuestion",
+          "title": "所蒐集資料的權利歸屬將如何安排？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "f310952b-e946-4315-bb32-bf127d1bf96a",
+              "label": "我們的資料在法律上不受著作權保護，因此沒有法律上的權利人",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "91d6ee6f-c501-4d1c-a6e7-9da1789f68de",
+              "label": "由計畫主持人擔任權利人",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ef4ac36a-eea0-42b4-8292-b89090a1b5ef",
+              "label": "由機構擔任權利人",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "115a165f-9d3f-440d-a822-4bd2795c264e",
+              "label": "我們已透過聯盟協議書安排智慧財產權事宜",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "0fd3cd1c-e0e8-41d5-9beb-3f1faba0fb91",
+              "label": "資料相關權利將以其他方式安排",
+              "follow_up_uuids": [
+                "06655161-9a91-47f4-af3b-9d2a5e6db19b"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "ownershipQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/08-copyright-ipr.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否會使用共享的工作空間來處理您的資料？",
+          "guidance": "您是否會使用一個包含本專案特定資料與軟體的工作空間，並讓專案中所有處理資料的人共同使用？這類系統有時稱為「虛擬研究環境」。",
+          "choices": [
+            {
+              "uuid": "1d6ba101-fd62-43c8-ab53-76bc31847f58",
+              "label": "否，專案參與者各自使用不同的資料與工具",
+              "follow_up_uuids": [
+                "c1e83bdf-5914-44c2-8414-0a4e7fbaf272"
+              ]
+            },
+            {
+              "uuid": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+              "label": "是",
+              "follow_up_uuids": [
+                "5607d0bb-6b9e-4211-821c-785acc3aa25e",
+                "df36fb68-131c-4f31-a42b-684abf523bbc",
+                "b171ec17-d7b5-4726-ae22-0d892b106cf8",
+                "80d403f3-3f29-4f37-9040-b901ae9afa37"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedWorkspaceQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/05-store-backup.html.j2",
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5"
+          }
+        },
+        {
+          "uuid": "80d403f3-3f29-4f37-9040-b901ae9afa37",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "80d403f3-3f29-4f37-9040-b901ae9afa37"
+          ],
+          "type": "OptionsQuestion",
+          "title": "工作空間的取用權限會如何控管？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "302e4b9b-9a9c-4fb0-9745-5f8ff4cca746",
+              "label": "只有所有專案成員才對該資料擁有讀寫權限",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "154cd5fc-a79f-4c2e-be67-6985813bbc8d",
+              "label": "機構內的任何人都可以讀取資料；所有專案成員皆有讀與寫的權限。",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b21c9f70-78e7-4975-b776-59e372285662",
+              "label": "只有專案成員具有讀取權限；只有經指定的專案成員可以寫入資料",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b19ba76a-4b6a-45f6-8ab5-8bbfb92c7b2c",
+              "label": "機構內的任何人皆可讀取資料，不過只有專案成員可申請寫入權限",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedAccessControlQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "614ab69d-55a6-4214-b384-00ba21ce92a1",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1"
+          ],
+          "type": "OptionsQuestion",
+          "title": "資訊遺失、外洩與破壞的風險是否低到可接受？",
+          "guidance": "有許多因素可能造成資訊遺失或資訊外洩風險。這些因素通常與專案相關人員的行為有關，但也可以透過妥善規劃的基礎設施來引導與降低。",
+          "choices": [
+            {
+              "uuid": "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+              "label": "探索",
+              "follow_up_uuids": [
+                "90324a7b-f3c9-4ed8-b301-edc9869cb7b3",
+                "abaf4a70-17d4-449c-9b95-5b3bcfed7e9b",
+                "84ec46bd-e714-4d98-8525-cdd0d58777ef",
+                "2d57daa6-df2e-4bf9-b024-710e74781d88",
+                "a454fffd-f4a4-426d-b758-6d70bc4ee96b",
+                "39d8dad9-7666-405c-b35c-9e430c9691ed",
+                "dc327e53-cf4f-44e7-8e66-40ddf1b4ae0a",
+                "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+                "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+                "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+                "d5990471-0618-42cd-92cb-bbbfd4f61532"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "b2f76c0a-847a-403c-9ed6-09cad10e625e"
+          }
+        },
+        {
+          "uuid": "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "67c34ee1-2e71-423c-97a7-fe6aa3723465"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否考量了資訊遺失可能對專案或組織造成的影響？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "4c5d329b-6e18-4f4e-92a9-f0298adf38fe",
+              "label": "否",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a8a4dc7d-bf8c-44e3-b8b2-3e04f206f460",
+              "label": "是，影響很小",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a0ec7128-1c2d-4034-b621-211bd01a9839",
+              "label": "是，風險低到可接受",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "928db5fa-e16f-4c28-a321-ad62e1849b90",
+              "label": "是，我們需要處理這件事。",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLossQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "a20ddc5d-e883-4bc4-9948-36a2cb477d10"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否已考量若資訊外洩可能對專案或組織造成的影響？",
+          "guidance": "您的機構可能已有通用的風險評估機制；您應了解相關內容。",
+          "choices": [
+            {
+              "uuid": "04dd5577-367f-4c34-b90c-4bc25d80c819",
+              "label": "否",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "7c9c8543-b8f8-47b0-8279-757dbc14922f",
+              "label": "是，影響很小",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "6306207c-7be6-4cdf-86c4-33e0d9898479",
+              "label": "是，風險低到可接受",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "efec7b38-d9a9-4495-8ba7-625dd7da6a09",
+              "label": "是，我們需要處理這件事。",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLeakQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "8cd49d8f-9af0-4ea9-985a-5d45142ac388"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否已考量若資訊遭到破壞，可能對專案或組織造成的影響？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "b4dbc287-8eed-4799-800e-5ce0ede13cd8",
+              "label": "否",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ae0c3b93-f054-4052-91c0-fa9c518f5ca8",
+              "label": "是，影響很小",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b1e1861b-b55f-406f-b915-b440c64d8747",
+              "label": "是，風險低到可接受",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "e8943baf-4c0c-4f30-8b57-88c06f3bc4ad",
+              "label": "是，我們需要處理這件事。",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoVandalismQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        }
+      ]
+    },
+    {
+      "case": "metadata-partial",
+      "language": "english",
+      "render_origin": "reused-exact-0.3.37",
+      "html_sha256": "6da6096654ce258402d4a069e0c9f828975115d55e96f981e65b5da4f51da442",
+      "docx_sha256": "3c1b78bf1894ab1b8f8faa627e591f724514c102a35c0393306b6474bfaacefd",
+      "verified_word_preview_paragraphs": 129,
+      "questions": [
+        {
+          "id": "q-how-data",
+          "requirement_id": "SE-1a",
+          "html_requirement_attribute": "SE-1a",
+          "heading": "1. How will new data be collected or produced and/or how will existing data be re-used?",
+          "answer": "Instrument datasets Coastal temperature measurements For this dataset, we are using the following instruments: Temperature logger – Record temperature every ten minutes; retain UTC timestamps and calibration records. Quality control measures for Coastal temperature measurements : measurement calibration, data entry validation. Re-used datasets Open coastal observations — station 1 Source: https://example.org/datasets/coastal-observations/station-1/version-2026 Compare seasonal changes in water temperature. Retain the original timestamps. Document any excluded observations. Version 2026.1 If a new version becomes available during the project, the current version will continue to be used. Open coastal observations — station 2 Source: https://example.org/datasets/coastal-observations/station-2/version-2026 Compare seasonal changes in water temperature. Retain the original timestamps. Document any excluded observations. Version 2026.1 If a new version becomes available during the project, the current version will continue to be used. Shared arrangements The following arrangements apply to all reference datasets selected for re-use above. We will retain a copy of this dataset and provide it alongside the research results. This dataset is freely available with an obligation to cite the source. The data can be used directly without format conversion. Provenance Record source versions and processing scripts in the project repository. Record Retention Processing log 10 years Source checksum 10 years",
+          "flags": []
+        },
+        {
+          "id": "q-what-data",
+          "requirement_id": "SE-1b",
+          "html_requirement_attribute": null,
+          "heading": "2. What data (for example the kinds, formats, and volumes) will be collected or produced?",
+          "answer": "Instrument datasets Data collection for Coastal temperature measurements : This dataset will be collected by experts in the project, with our own equipment. The equipment is very well described and known. Data formats and types Data format: CSV (UTF-8) . It is a standardized format suitable for long-term archiving. The estimated data volume is 120 GB .",
+          "flags": []
+        },
+        {
+          "id": "q-docs-metadata",
+          "requirement_id": "SE-2a",
+          "html_requirement_attribute": null,
+          "heading": "3. What metadata and documentation (for example the methodology of data collection and way of organising data) will accompany the data?",
+          "answer": "We will be documenting the data with Dublin Core metadata standard. Information not provided: whether a data/variable dictionary will be created. Metadata will be openly available. Information not provided: whether the metadata will include instructions for accessing the data ; whether the metadata will be available in a form that can be harvested and indexed . Data storage and file conventions Information not provided: the estimated storage space for all project data and software, including temporary storage (GB). We will use a filesystem with files and folders. We document how we manage file versioning for files and folders. File naming conventions: Name files station_YYYYMMDD.csv and document corrections in CHANGELOG.md.",
+          "flags": [
+            {
+              "text": "Information not provided: whether a data/variable dictionary will be created.",
+              "status": "missing",
+              "fact_id": "metadata-dictionary"
+            },
+            {
+              "text": "Information not provided: whether the metadata will include instructions for accessing the data ; whether the metadata will be available in a form that can be harvested and indexed .",
+              "status": null,
+              "fact_id": null
+            },
+            {
+              "text": "Information not provided: the estimated storage space for all project data and software, including temporary storage (GB).",
+              "status": "missing",
+              "fact_id": "storage-capacity"
+            }
+          ]
+        },
+        {
+          "id": "q-quality-control",
+          "requirement_id": "SE-2b",
+          "html_requirement_attribute": "SE-2b",
+          "heading": "4. What data quality control measures will be used?",
+          "answer": "Quality control measures for Coastal temperature measurements : measurement calibration, data entry validation.",
+          "flags": []
+        },
+        {
+          "id": "q-store-backup",
+          "requirement_id": "SE-3a",
+          "html_requirement_attribute": "SE-3a",
+          "heading": "5. How will data and metadata be stored and backed up during the research process?",
+          "answer": "There is a shared workspace used during the project for working with data. Storage needs will be the same during the whole project. All essential data will also be stored elsewhere to prevent a total loss of data. We will make automated backups of all data stored outside the workspace. The fields mapped by this template are insufficient to establish the following operational details: Exact working-storage and backup locations are not established by these mapped answers. An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule.",
+          "flags": [
+            {
+              "text": "The fields mapped by this template are insufficient to establish the following operational details: Exact working-storage and backup locations are not established by these mapped answers. An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule.",
+              "status": null,
+              "fact_id": null
+            }
+          ]
+        },
+        {
+          "id": "q-access-security",
+          "requirement_id": "SE-3b",
+          "html_requirement_attribute": null,
+          "heading": "6. How will data security and protection of sensitive data be taken care of during the research?",
+          "answer": "Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).\n          All project web services are accessible via secure HTTP (https://...).\n          Project members have been instructed about both generic and specific risks to the project.",
+          "flags": []
+        },
+        {
+          "id": "q-personal-data",
+          "requirement_id": "SE-4a",
+          "html_requirement_attribute": null,
+          "heading": "7. If personal data are processed, how will compliance with legislation on personal data and on security be ensured?",
+          "answer": "We will not collect any data related to individuals.",
+          "flags": []
+        },
+        {
+          "id": "q-copyright-ipr",
+          "requirement_id": "SE-4b",
+          "html_requirement_attribute": null,
+          "heading": "8. How will other legal issues, such as intellectual property rights and ownership, be managed? What legislation is applicable?",
+          "answer": "For the reference and non-reference data sets that we reuse, conditions are as follows: Open coastal observations — station 1 It is freely available with obligation to quote the source (e.g. CC-BY). Open coastal observations — station 2 It is freely available with obligation to quote the source (e.g. CC-BY).",
+          "flags": []
+        },
+        {
+          "id": "q-ethical-issues",
+          "requirement_id": "SE-4c",
+          "html_requirement_attribute": null,
+          "heading": "9. What ethical issues and codes of conduct are there, and how will they be taken into account?",
+          "answer": "Ethical approvals The questionnaire records the following ethical approval arrangements: Coastal observations: reproducible data management According to the questionnaire, this project does not require ethical approval. Data we produce For the data we produce, the ethical aspects are as follows: Quality-checked coastal observations It does not contain personal data. It does not contain sensitive data. Data we collect We will not collect any data related to individuals, i.e. \"personal data\". The data collection is not subject to ethical legislation.",
+          "flags": []
+        },
+        {
+          "id": "q-share-restrictions",
+          "requirement_id": "SE-5a",
+          "html_requirement_attribute": null,
+          "heading": "10. How and when will data be shared? Are there possible restrictions to data sharing or embargo reasons?",
+          "answer": "Quality-checked coastal observations This dataset will be published. Open access: this distribution will be shared with anyone. This distribution will be deposited in an institutional repository. Licence start date: 2027-12-31 . Freely available with obligation to quote the source (e.g. CC-BY).",
+          "flags": []
+        },
+        {
+          "id": "q-data-preservation",
+          "requirement_id": "SE-5b",
+          "html_requirement_attribute": null,
+          "heading": "11. How will data for preservation be selected, and where will data be preserved long-term (for example a data repository or archive)?",
+          "answer": "Quality-checked coastal observations This dataset will be published. Retention period (prepaid): 10 years. The metadata will be available even when the data no longer exists. Preservation destinations by distribution: Our institutional repository. We have budgeted for the costs in the project to pay charges of the used repositories. We have a reserved budget for the time and effort it will take to prepare the data for publication. Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.",
+          "flags": [
+            {
+              "text": "Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.",
+              "status": "needs-review",
+              "fact_id": "preservation-selection-review"
+            }
+          ]
+        },
+        {
+          "id": "q-access-data",
+          "requirement_id": "SE-5c",
+          "html_requirement_attribute": null,
+          "heading": "12. What methods or software tools are needed to access and use data?",
+          "answer": "Quality-checked coastal observations Software required to use this dataset: CoastView 1.0 (synthetic test tool) Available at: https://example.org/coastview/1.0",
+          "flags": []
+        },
+        {
+          "id": "q-persistent-identifier",
+          "requirement_id": "SE-5d",
+          "html_requirement_attribute": null,
+          "heading": "13. How will the application of a unique and persistent identifier (such as a Digital Object Identifier (DOI)) to each data set be ensured?",
+          "answer": "Quality-checked coastal observations Institutional repository The repository will assign the persistent identifier. The repository will make sure the persistent identifier can be resolved to a digital object. Possible re-use of created data in other contexts Coastal temperature measurements Other researchers in this field will be interested in re-using this data.",
+          "flags": []
+        },
+        {
+          "id": "q-dm-responsible",
+          "requirement_id": "SE-6a",
+          "html_requirement_attribute": null,
+          "heading": "14. Who (for example role, position, and institution) will be responsible for data management (i.e. the data steward)?",
+          "answer": "Example research team is responsible for the management and proficiency of data including data processing, data policies, data guidelines, and data availability. Example research team is responsible for implementing the DMP, and ensuring it is reviewed and revised.",
+          "flags": []
+        },
+        {
+          "id": "q-required-resources",
+          "requirement_id": "SE-6b",
+          "html_requirement_attribute": "SE-6b",
+          "heading": "15. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?",
+          "answer": "Additional specialist expertise is required. Existing staff will receive training. Staff will complete training before data publication. Metadata quality checks Version control and provenance We do not require any hardware or software in addition to what is usually available in the institute. The selected repositories charge for their services. Data-management budget Resource and purpose Budget Funding source Data preparation resource 1 Prepare metadata and validate deposit files. This resource supports findability and management of data. 5000 TWD Institutional research funds Data preparation resource 2 Prepare metadata and validate deposit files. This resource supports findability and management of data. 0 TWD Institutional research funds",
+          "flags": []
+        }
+      ],
+      "formats": {
+        "pdf": {
+          "sha256": "60e9392cfcaf94651c235147abc5ed20ad274da3181cbc9ccd81c2108d7a03ec",
+          "pages": 6,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 4,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 5,
+            "q-data-preservation": 5,
+            "q-access-data": 5,
+            "q-persistent-identifier": 6,
+            "q-dm-responsible": 6,
+            "q-required-resources": 6
+          },
+          "numbered_stress_paragraphs": null
+        },
+        "word-preview": {
+          "sha256": "582642bf5be89fbbd0043ead43df27f1fe3318b1cefd9a410891a4f10033720b",
+          "pages": 6,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 3,
+            "q-access-security": 3,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 4,
+            "q-data-preservation": 4,
+            "q-access-data": 5,
+            "q-persistent-identifier": 5,
+            "q-dm-responsible": 5,
+            "q-required-resources": 6
+          },
+          "numbered_stress_paragraphs": null
+        }
+      },
+      "selected_input_questions": [
+        {
+          "uuid": "cb7d17a8-30c0-489d-a43c-702b27d97611",
+          "path": [
+            "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+            "cb7d17a8-30c0-489d-a43c-702b27d97611"
+          ],
+          "type": "OptionsQuestion",
+          "title": "How are the rights of the collected data arranged?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "f310952b-e946-4315-bb32-bf127d1bf96a",
+              "label": "Our data is legally not copyrightable, there is no legal rightsholder",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "91d6ee6f-c501-4d1c-a6e7-9da1789f68de",
+              "label": "The Principal Investigator will be the rightsholder",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ef4ac36a-eea0-42b4-8292-b89090a1b5ef",
+              "label": "The institute will be the rightsholder",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "115a165f-9d3f-440d-a822-4bd2795c264e",
+              "label": "We have a consortium agreement that arranges Intellectual Property",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "0fd3cd1c-e0e8-41d5-9beb-3f1faba0fb91",
+              "label": "The rights  for the data is arranged in another way",
+              "follow_up_uuids": [
+                "06655161-9a91-47f4-af3b-9d2a5e6db19b"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "ownershipQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/08-copyright-ipr.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Will you be using a shared working space to work with your data?",
+          "guidance": "Will you be using a working space containing data and software specific to the project that is shared between all the people working on the data in the project? Sometimes such a system is called a *Virtual Research Environment*.",
+          "choices": [
+            {
+              "uuid": "1d6ba101-fd62-43c8-ab53-76bc31847f58",
+              "label": "No, participants in the project each have different collections of data and tools",
+              "follow_up_uuids": [
+                "c1e83bdf-5914-44c2-8414-0a4e7fbaf272"
+              ]
+            },
+            {
+              "uuid": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+              "label": "Yes",
+              "follow_up_uuids": [
+                "5607d0bb-6b9e-4211-821c-785acc3aa25e",
+                "df36fb68-131c-4f31-a42b-684abf523bbc",
+                "b171ec17-d7b5-4726-ae22-0d892b106cf8",
+                "80d403f3-3f29-4f37-9040-b901ae9afa37"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedWorkspaceQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/05-store-backup.html.j2",
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5"
+          }
+        },
+        {
+          "uuid": "80d403f3-3f29-4f37-9040-b901ae9afa37",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "80d403f3-3f29-4f37-9040-b901ae9afa37"
+          ],
+          "type": "OptionsQuestion",
+          "title": "How will access to the work space be controlled?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "302e4b9b-9a9c-4fb0-9745-5f8ff4cca746",
+              "label": "Only all project members have read/write access to the data",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "154cd5fc-a79f-4c2e-be67-6985813bbc8d",
+              "label": "Anyone in the institute has read access to the data; all project members have read/write access.",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b21c9f70-78e7-4975-b776-59e372285662",
+              "label": "Only project members will have read access; only selected project members will be able to write data",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b19ba76a-4b6a-45f6-8ab5-8bbfb92c7b2c",
+              "label": "Anyone in the institute can read data, only project members can request write access",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedAccessControlQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "614ab69d-55a6-4214-b384-00ba21ce92a1",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Is the risk of information loss, leaks and vandalism acceptably low?",
+          "guidance": "There are many factors that can contribute to the risk of information loss or information leaks. They are often part of the behavior of the people that are involved in the project, but can also be steered by properly planned infrastructure.",
+          "choices": [
+            {
+              "uuid": "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+              "label": "Explore",
+              "follow_up_uuids": [
+                "90324a7b-f3c9-4ed8-b301-edc9869cb7b3",
+                "abaf4a70-17d4-449c-9b95-5b3bcfed7e9b",
+                "84ec46bd-e714-4d98-8525-cdd0d58777ef",
+                "2d57daa6-df2e-4bf9-b024-710e74781d88",
+                "a454fffd-f4a4-426d-b758-6d70bc4ee96b",
+                "39d8dad9-7666-405c-b35c-9e430c9691ed",
+                "dc327e53-cf4f-44e7-8e66-40ddf1b4ae0a",
+                "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+                "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+                "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+                "d5990471-0618-42cd-92cb-bbbfd4f61532"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "b2f76c0a-847a-403c-9ed6-09cad10e625e"
+          }
+        },
+        {
+          "uuid": "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "67c34ee1-2e71-423c-97a7-fe6aa3723465"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Did you consider the possible impact to the project or organization if information is lost?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "4c5d329b-6e18-4f4e-92a9-f0298adf38fe",
+              "label": "No",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a8a4dc7d-bf8c-44e3-b8b2-3e04f206f460",
+              "label": "Yes; the effect is small",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a0ec7128-1c2d-4034-b621-211bd01a9839",
+              "label": "Yes; the risk is acceptably low",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "928db5fa-e16f-4c28-a321-ad62e1849b90",
+              "label": "Yes; we will need to work on this.",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLossQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "a20ddc5d-e883-4bc4-9948-36a2cb477d10"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Did you consider the possible impact to the project or organization if information leaks?",
+          "guidance": "Your institute may have a generic risk assessment; you should be informed about this.",
+          "choices": [
+            {
+              "uuid": "04dd5577-367f-4c34-b90c-4bc25d80c819",
+              "label": "No",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "7c9c8543-b8f8-47b0-8279-757dbc14922f",
+              "label": "Yes; the effect is small",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "6306207c-7be6-4cdf-86c4-33e0d9898479",
+              "label": "Yes; the risk is acceptably low",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "efec7b38-d9a9-4495-8ba7-625dd7da6a09",
+              "label": "Yes; we will need to work on this.",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLeakQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "8cd49d8f-9af0-4ea9-985a-5d45142ac388"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Did you consider the possible impact to the project or organization if information is vandalized?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "b4dbc287-8eed-4799-800e-5ce0ede13cd8",
+              "label": "No",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ae0c3b93-f054-4052-91c0-fa9c518f5ca8",
+              "label": "Yes; the effect is small",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b1e1861b-b55f-406f-b915-b440c64d8747",
+              "label": "Yes; the risk is acceptably low",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "e8943baf-4c0c-4f30-8b57-88c06f3bc4ad",
+              "label": "Yes; we will need to work on this.",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoVandalismQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        }
+      ]
+    },
+    {
+      "case": "metadata-partial",
+      "language": "chinese",
+      "render_origin": "reused-exact-0.3.37",
+      "html_sha256": "1efe107a84974843a6158070be52b5be93aab967b3b724b1d4633b040fe565cf",
+      "docx_sha256": "dae4ec84ba0ac3bc9d8bd8f4dd801e57d3b80c07019667128ac2d9da79a7e2a9",
+      "verified_word_preview_paragraphs": 129,
+      "questions": [
+        {
+          "id": "q-how-data",
+          "requirement_id": "SE-1a",
+          "html_requirement_attribute": "SE-1a",
+          "heading": "1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？",
+          "answer": "儀器資料集 沿岸水溫觀測資料 針對此資料集，我們將使用以下儀器： 水溫紀錄器 – 每十分鐘記錄水溫，保留 UTC 時間戳記與校正紀錄。 沿岸水溫觀測資料 ：品質管控措施包括校正量測結果、資料輸入檢核。 再次使用的資料集 開放海岸觀測資料——測站 1 資料來源： https://example.org/datasets/coastal-observations/station-1/version-2026 比較水溫的季節變化。 保留原始時間戳記。 記錄排除觀測值的原因。 使用版本 2026.1 即使計畫期間發布新版，仍使用原定版本。 開放海岸觀測資料——測站 2 資料來源： https://example.org/datasets/coastal-observations/station-2/version-2026 比較水溫的季節變化。 保留原始時間戳記。 記錄排除觀測值的原因。 使用版本 2026.1 即使計畫期間發布新版，仍使用原定版本。 共同管理方式 上述將再次使用的參考資料集，均採用以下管理方式。 本計畫將保留資料副本，與研究結果一併提供。 此資料可自由取得，使用時須註明來源。 此資料可直接使用，無須轉換格式。 資料溯源 在計畫的版本控制儲存庫記錄來源版本與處理程式。 紀錄 保存期間 處理紀錄 10 年 來源校驗碼 10 年",
+          "flags": []
+        },
+        {
+          "id": "q-what-data",
+          "requirement_id": "SE-1b",
+          "html_requirement_attribute": null,
+          "heading": "2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？",
+          "answer": "儀器資料集 沿岸水溫觀測資料 的蒐集方式：此資料集將由計畫內的專家使用自有設備蒐集。所用設備已有完整說明，且為研究團隊所熟悉。 資料格式與類型 資料格式： CSV (UTF-8) 。 採用標準化格式，適合長期封存。 預估資料量為 120 GB 。",
+          "flags": []
+        },
+        {
+          "id": "q-docs-metadata",
+          "requirement_id": "SE-2a",
+          "html_requirement_attribute": null,
+          "heading": "3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？",
+          "answer": "我們將使用 Dublin Core 後設資料標準記錄資料。 尚待補充：是否將建立資料字典或變項定義表。 後設資料將公開提供。 尚待補充： 後設資料是否會包含取用資料的說明 ； 後設資料是否可供自動擷取並建立索引 。 資料儲存與檔案規則 尚待補充：計畫所有資料與軟體（含暫存空間）所需的預估儲存容量（GB）。 我們將使用以檔案與資料夾組成的檔案系統。 我們會記錄如何管理檔案與資料夾的版本。 檔案命名規則： 檔名採 station_YYYYMMDD.csv，並在 CHANGELOG.md 記錄修正。",
+          "flags": [
+            {
+              "text": "尚待補充：是否將建立資料字典或變項定義表。",
+              "status": "missing",
+              "fact_id": "metadata-dictionary"
+            },
+            {
+              "text": "尚待補充： 後設資料是否會包含取用資料的說明 ； 後設資料是否可供自動擷取並建立索引 。",
+              "status": null,
+              "fact_id": null
+            },
+            {
+              "text": "尚待補充：計畫所有資料與軟體（含暫存空間）所需的預估儲存容量（GB）。",
+              "status": "missing",
+              "fact_id": "storage-capacity"
+            }
+          ]
+        },
+        {
+          "id": "q-quality-control",
+          "requirement_id": "SE-2b",
+          "html_requirement_attribute": "SE-2b",
+          "heading": "4. 將使用哪些資料品質管控措施？",
+          "answer": "沿岸水溫觀測資料 ：品質管控措施包括校正量測結果、資料輸入檢核。",
+          "flags": []
+        },
+        {
+          "id": "q-store-backup",
+          "requirement_id": "SE-3a",
+          "html_requirement_attribute": "SE-3a",
+          "heading": "5. 研究期間將如何儲存與備份資料及後設資料？",
+          "answer": "研究期間將使用共享工作空間處理資料。 所需儲存容量在計畫期間將維持不變。 為避免資料全部遺失，重要資料也將另存於其他位置。 存放於共享工作空間以外的資料，將全部自動備份。 本模板目前對應的欄位不足以確認以下執行細節： 這些對應回答尚未明確指出工作資料與備份的實際儲存地點。 這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。",
+          "flags": [
+            {
+              "text": "本模板目前對應的欄位不足以確認以下執行細節： 這些對應回答尚未明確指出工作資料與備份的實際儲存地點。 這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。",
+              "status": null,
+              "fact_id": null
+            }
+          ]
+        },
+        {
+          "id": "q-access-security",
+          "requirement_id": "SE-3b",
+          "html_requirement_attribute": null,
+          "heading": "6. 研究期間將如何處理資料安全與敏感資料保護？",
+          "answer": "計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB 隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供 HTTPS 安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。",
+          "flags": []
+        },
+        {
+          "id": "q-personal-data",
+          "requirement_id": "SE-4a",
+          "html_requirement_attribute": null,
+          "heading": "7. 若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？",
+          "answer": "我們不會蒐集任何與個人相關的資料。",
+          "flags": []
+        },
+        {
+          "id": "q-copyright-ipr",
+          "requirement_id": "SE-4b",
+          "html_requirement_attribute": null,
+          "heading": "8. 其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？",
+          "answer": "我們再次使用的參考與非參考資料集，其使用條件如下： 開放海岸觀測資料——測站 1 此資料可自由取得，使用時須註明來源（例如 CC BY）。 開放海岸觀測資料——測站 2 此資料可自由取得，使用時須註明來源（例如 CC BY）。",
+          "flags": []
+        },
+        {
+          "id": "q-ethical-issues",
+          "requirement_id": "SE-4c",
+          "html_requirement_attribute": null,
+          "heading": "9. 有哪些倫理議題與行為準則？將如何納入考量？",
+          "answer": "倫理審查核准 問卷記載的倫理審查安排如下： 海岸觀測：可重現的資料管理 依問卷填答，本計畫不需要倫理審查核准。 我們產生的資料 關於我們產生的資料，倫理面向如下： 完成品質檢查的沿岸觀測資料 不包含個人資料。 不包含敏感資料。 我們蒐集的資料 我們不會蒐集任何與個人相關的資料，即「個人資料」。 研究倫理相關法規不適用於此資料蒐集。",
+          "flags": []
+        },
+        {
+          "id": "q-share-restrictions",
+          "requirement_id": "SE-5a",
+          "html_requirement_attribute": null,
+          "heading": "10. 資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？",
+          "answer": "完成品質檢查的沿岸觀測資料 此資料集將發布。 此管道提供的資料將公開供任何人取用。 此管道的資料將存放於機構資料儲存庫。 授權起始日期： 2027-12-31 。 可自由取得，但使用時必須引用來源（例如 CC BY）。",
+          "flags": []
+        },
+        {
+          "id": "q-data-preservation",
+          "requirement_id": "SE-5b",
+          "html_requirement_attribute": null,
+          "heading": "11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？",
+          "answer": "完成品質檢查的沿岸觀測資料 此資料集將發布。 保存期間：10 年（費用已預付）。 即使資料已不存在，仍會持續提供後設資料。 各資料提供管道的保存位置： 我們的機構資料儲存庫。 本計畫已編列預算，支付資料儲存庫的服務費。 已預留預算，以支應資料發布準備工作所需的時間與人力。 保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。",
+          "flags": [
+            {
+              "text": "保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。",
+              "status": "needs-review",
+              "fact_id": "preservation-selection-review"
+            }
+          ]
+        },
+        {
+          "id": "q-access-data",
+          "requirement_id": "SE-5c",
+          "html_requirement_attribute": null,
+          "heading": "12. 取用與使用資料需要哪些方法或軟體工具？",
+          "answer": "完成品質檢查的沿岸觀測資料 使用此資料集所需的軟體： CoastView 1.0 (synthetic test tool) 取得位置：https://example.org/coastview/1.0",
+          "flags": []
+        },
+        {
+          "id": "q-persistent-identifier",
+          "requirement_id": "SE-5d",
+          "html_requirement_attribute": null,
+          "heading": "13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？",
+          "answer": "完成品質檢查的沿岸觀測資料 機構資料儲存庫 持續識別碼將由資料儲存庫指派。 資料儲存庫將確保持續識別碼可解析至數位物件。 所產生資料在其他情境下再次使用的可能性 沿岸水溫觀測資料 本領域的其他研究人員會有興趣再次使用這份資料。",
+          "flags": []
+        },
+        {
+          "id": "q-dm-responsible",
+          "requirement_id": "SE-6a",
+          "html_requirement_attribute": null,
+          "heading": "14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？",
+          "answer": "範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。 範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。",
+          "flags": []
+        },
+        {
+          "id": "q-required-resources",
+          "requirement_id": "SE-6b",
+          "html_requirement_attribute": "SE-6b",
+          "heading": "15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？",
+          "answer": "為補足所需的專業能力，本計畫將安排現有人員接受培訓。 工作人員將於資料發布前完成培訓。 後設資料品質檢核 版本控制與資料溯源 除機構通常提供的資源外，我們不需要其他硬體或軟體。 預計使用的資料儲存庫會收取服務費。 資料管理預算 資源項目與用途 預算 經費來源 資料整理資源 1 整理後設資料並檢查寄存檔案。 支援項目：資料可尋性及資料管理。 5000 TWD 機構研究經費 資料整理資源 2 整理後設資料並檢查寄存檔案。 支援項目：資料可尋性及資料管理。 0 TWD 機構研究經費",
+          "flags": []
+        }
+      ],
+      "formats": {
+        "pdf": {
+          "sha256": "5e69c4385e99bf6f1c89f65e0a2b7444b3ca0a2967c4cc7872e48a60fe08afcf",
+          "pages": 6,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 4,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 5,
+            "q-data-preservation": 5,
+            "q-access-data": 5,
+            "q-persistent-identifier": 5,
+            "q-dm-responsible": 5,
+            "q-required-resources": 6
+          },
+          "numbered_stress_paragraphs": null
+        },
+        "word-preview": {
+          "sha256": "a2cf0ab8fdd2932afbee72986ae9fd297e141905403c8db4ebc852688b72ed74",
+          "pages": 6,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 4,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 5,
+            "q-data-preservation": 5,
+            "q-access-data": 5,
+            "q-persistent-identifier": 5,
+            "q-dm-responsible": 6,
+            "q-required-resources": 6
+          },
+          "numbered_stress_paragraphs": null
+        }
+      },
+      "selected_input_questions": [
+        {
+          "uuid": "cb7d17a8-30c0-489d-a43c-702b27d97611",
+          "path": [
+            "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+            "cb7d17a8-30c0-489d-a43c-702b27d97611"
+          ],
+          "type": "OptionsQuestion",
+          "title": "所蒐集資料的權利歸屬將如何安排？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "f310952b-e946-4315-bb32-bf127d1bf96a",
+              "label": "我們的資料在法律上不受著作權保護，因此沒有法律上的權利人",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "91d6ee6f-c501-4d1c-a6e7-9da1789f68de",
+              "label": "由計畫主持人擔任權利人",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ef4ac36a-eea0-42b4-8292-b89090a1b5ef",
+              "label": "由機構擔任權利人",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "115a165f-9d3f-440d-a822-4bd2795c264e",
+              "label": "我們已透過聯盟協議書安排智慧財產權事宜",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "0fd3cd1c-e0e8-41d5-9beb-3f1faba0fb91",
+              "label": "資料相關權利將以其他方式安排",
+              "follow_up_uuids": [
+                "06655161-9a91-47f4-af3b-9d2a5e6db19b"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "ownershipQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/08-copyright-ipr.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否會使用共享的工作空間來處理您的資料？",
+          "guidance": "您是否會使用一個包含本專案特定資料與軟體的工作空間，並讓專案中所有處理資料的人共同使用？這類系統有時稱為「虛擬研究環境」。",
+          "choices": [
+            {
+              "uuid": "1d6ba101-fd62-43c8-ab53-76bc31847f58",
+              "label": "否，專案參與者各自使用不同的資料與工具",
+              "follow_up_uuids": [
+                "c1e83bdf-5914-44c2-8414-0a4e7fbaf272"
+              ]
+            },
+            {
+              "uuid": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+              "label": "是",
+              "follow_up_uuids": [
+                "5607d0bb-6b9e-4211-821c-785acc3aa25e",
+                "df36fb68-131c-4f31-a42b-684abf523bbc",
+                "b171ec17-d7b5-4726-ae22-0d892b106cf8",
+                "80d403f3-3f29-4f37-9040-b901ae9afa37"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedWorkspaceQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/05-store-backup.html.j2",
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5"
+          }
+        },
+        {
+          "uuid": "80d403f3-3f29-4f37-9040-b901ae9afa37",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "80d403f3-3f29-4f37-9040-b901ae9afa37"
+          ],
+          "type": "OptionsQuestion",
+          "title": "工作空間的取用權限會如何控管？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "302e4b9b-9a9c-4fb0-9745-5f8ff4cca746",
+              "label": "只有所有專案成員才對該資料擁有讀寫權限",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "154cd5fc-a79f-4c2e-be67-6985813bbc8d",
+              "label": "機構內的任何人都可以讀取資料；所有專案成員皆有讀與寫的權限。",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b21c9f70-78e7-4975-b776-59e372285662",
+              "label": "只有專案成員具有讀取權限；只有經指定的專案成員可以寫入資料",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b19ba76a-4b6a-45f6-8ab5-8bbfb92c7b2c",
+              "label": "機構內的任何人皆可讀取資料，不過只有專案成員可申請寫入權限",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedAccessControlQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "614ab69d-55a6-4214-b384-00ba21ce92a1",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1"
+          ],
+          "type": "OptionsQuestion",
+          "title": "資訊遺失、外洩與破壞的風險是否低到可接受？",
+          "guidance": "有許多因素可能造成資訊遺失或資訊外洩風險。這些因素通常與專案相關人員的行為有關，但也可以透過妥善規劃的基礎設施來引導與降低。",
+          "choices": [
+            {
+              "uuid": "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+              "label": "探索",
+              "follow_up_uuids": [
+                "90324a7b-f3c9-4ed8-b301-edc9869cb7b3",
+                "abaf4a70-17d4-449c-9b95-5b3bcfed7e9b",
+                "84ec46bd-e714-4d98-8525-cdd0d58777ef",
+                "2d57daa6-df2e-4bf9-b024-710e74781d88",
+                "a454fffd-f4a4-426d-b758-6d70bc4ee96b",
+                "39d8dad9-7666-405c-b35c-9e430c9691ed",
+                "dc327e53-cf4f-44e7-8e66-40ddf1b4ae0a",
+                "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+                "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+                "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+                "d5990471-0618-42cd-92cb-bbbfd4f61532"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "b2f76c0a-847a-403c-9ed6-09cad10e625e"
+          }
+        },
+        {
+          "uuid": "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "67c34ee1-2e71-423c-97a7-fe6aa3723465"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否考量了資訊遺失可能對專案或組織造成的影響？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "4c5d329b-6e18-4f4e-92a9-f0298adf38fe",
+              "label": "否",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a8a4dc7d-bf8c-44e3-b8b2-3e04f206f460",
+              "label": "是，影響很小",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a0ec7128-1c2d-4034-b621-211bd01a9839",
+              "label": "是，風險低到可接受",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "928db5fa-e16f-4c28-a321-ad62e1849b90",
+              "label": "是，我們需要處理這件事。",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLossQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "a20ddc5d-e883-4bc4-9948-36a2cb477d10"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否已考量若資訊外洩可能對專案或組織造成的影響？",
+          "guidance": "您的機構可能已有通用的風險評估機制；您應了解相關內容。",
+          "choices": [
+            {
+              "uuid": "04dd5577-367f-4c34-b90c-4bc25d80c819",
+              "label": "否",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "7c9c8543-b8f8-47b0-8279-757dbc14922f",
+              "label": "是，影響很小",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "6306207c-7be6-4cdf-86c4-33e0d9898479",
+              "label": "是，風險低到可接受",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "efec7b38-d9a9-4495-8ba7-625dd7da6a09",
+              "label": "是，我們需要處理這件事。",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLeakQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "8cd49d8f-9af0-4ea9-985a-5d45142ac388"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否已考量若資訊遭到破壞，可能對專案或組織造成的影響？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "b4dbc287-8eed-4799-800e-5ce0ede13cd8",
+              "label": "否",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ae0c3b93-f054-4052-91c0-fa9c518f5ca8",
+              "label": "是，影響很小",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b1e1861b-b55f-406f-b915-b440c64d8747",
+              "label": "是，風險低到可接受",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "e8943baf-4c0c-4f30-8b57-88c06f3bc4ad",
+              "label": "是，我們需要處理這件事。",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoVandalismQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        }
+      ]
+    },
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "render_origin": "fresh",
+      "html_sha256": "f26c7c63a0044116dbdbab2381dc99d051bcb9ce6ba9d9470a0429933aad9451",
+      "docx_sha256": "132f2ee9ef42b62a4739c7c92ff0fddbf25d9156c0229836c211a2c4c1774e1b",
+      "verified_word_preview_paragraphs": 223,
+      "questions": [
+        {
+          "id": "q-how-data",
+          "requirement_id": "SE-1a",
+          "html_requirement_attribute": "SE-1a",
+          "heading": "1. How will new data be collected or produced and/or how will existing data be re-used?",
+          "answer": "Instrument datasets Coastal temperature measurements For this dataset, we are using the following instruments: Temperature logger – Record temperature every ten minutes; retain UTC timestamps and calibration records. Quality control measures for Coastal temperature measurements : measurement calibration, data entry validation. Re-used datasets Open coastal observations — station 1 Source: https://example.org/datasets/coastal-observations/station-1/version-2026 Compare seasonal changes in water temperature. Retain the original timestamps. Document any excluded observations. Version 2026.1 If a new version becomes available during the project, the current version will continue to be used. Open coastal observations — station 2 Source: https://example.org/datasets/coastal-observations/station-2/version-2026 Compare seasonal changes in water temperature. Retain the original timestamps. Document any excluded observations. Version 2026.1 If a new version becomes available during the project, the current version will continue to be used. Shared arrangements The following arrangements apply to all reference datasets selected for re-use above. We will retain a copy of this dataset and provide it alongside the research results. This dataset is freely available with an obligation to cite the source. The data can be used directly without format conversion. Provenance Record source versions and processing scripts in the project repository. Record Retention Processing log 10 years Source checksum 10 years",
+          "flags": []
+        },
+        {
+          "id": "q-what-data",
+          "requirement_id": "SE-1b",
+          "html_requirement_attribute": null,
+          "heading": "2. What data (for example the kinds, formats, and volumes) will be collected or produced?",
+          "answer": "Instrument datasets Data collection for Coastal temperature measurements : This dataset will be collected by experts in the project, with our own equipment. The equipment is very well described and known. Data formats and types Data format: CSV (UTF-8) . It is a standardized format suitable for long-term archiving. The estimated data volume is 120 GB .",
+          "flags": []
+        },
+        {
+          "id": "q-docs-metadata",
+          "requirement_id": "SE-2a",
+          "html_requirement_attribute": null,
+          "heading": "3. What metadata and documentation (for example the methodology of data collection and way of organising data) will accompany the data?",
+          "answer": "We will be documenting the data with Dublin Core metadata standard. Information not provided: whether a data/variable dictionary will be created. Metadata will be openly available including instructions how to get access to the data.\n        Metadata will be available in a form that can be harvested and indexed (managed by the used repository / repositories). Data storage and file conventions We estimate the storage space that the project will require for all data and software (including temporary storage) to be 2048 gigabytes. We will use a filesystem with files and folders. We document how we manage file versioning for files and folders. File naming conventions: Name files station_YYYYMMDD.csv and document corrections in CHANGELOG.md.",
+          "flags": [
+            {
+              "text": "Information not provided: whether a data/variable dictionary will be created.",
+              "status": "missing",
+              "fact_id": "metadata-dictionary"
+            }
+          ]
+        },
+        {
+          "id": "q-quality-control",
+          "requirement_id": "SE-2b",
+          "html_requirement_attribute": "SE-2b",
+          "heading": "4. What data quality control measures will be used?",
+          "answer": "Quality control measures for Coastal temperature measurements : measurement calibration, data entry validation.",
+          "flags": []
+        },
+        {
+          "id": "q-store-backup",
+          "requirement_id": "SE-3a",
+          "html_requirement_attribute": "SE-3a",
+          "heading": "5. How will data and metadata be stored and backed up during the research process?",
+          "answer": "There is a shared workspace used during the project for working with data. Dedicated specialists will operate the shared workspace. Storage needs will be the same during the whole project. All essential data will also be stored elsewhere to prevent a total loss of data. We will make automated backups of all data stored outside the workspace. Archival during the project Data will be archived in cold storage during the project. The archive will be stored on tape. The archive will be stored at a remote location. Changes to archived data will require re-archival. Frequent backups are required because the archived data changes frequently. These backups will be used to recover from accidental changes or deletions. The fields mapped by this template are insufficient to establish the following operational details: Exact working-storage and backup locations are not established by these mapped answers. An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule.",
+          "flags": [
+            {
+              "text": "The fields mapped by this template are insufficient to establish the following operational details: Exact working-storage and backup locations are not established by these mapped answers. An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule.",
+              "status": null,
+              "fact_id": null
+            }
+          ]
+        },
+        {
+          "id": "q-access-security",
+          "requirement_id": "SE-3b",
+          "html_requirement_attribute": null,
+          "heading": "6. How will data security and protection of sensitive data be taken care of during the research?",
+          "answer": "Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).\n          All project web services are accessible via secure HTTP (https://...).\n          Project members have been instructed about both generic and specific risks to the project. See question 5 for archival and backup arrangements.",
+          "flags": []
+        },
+        {
+          "id": "q-personal-data",
+          "requirement_id": "SE-4a",
+          "html_requirement_attribute": null,
+          "heading": "7. If personal data are processed, how will compliance with legislation on personal data and on security be ensured?",
+          "answer": "We will not collect any data related to individuals.",
+          "flags": []
+        },
+        {
+          "id": "q-copyright-ipr",
+          "requirement_id": "SE-4b",
+          "html_requirement_attribute": null,
+          "heading": "8. How will other legal issues, such as intellectual property rights and ownership, be managed? What legislation is applicable?",
+          "answer": "For the reference and non-reference data sets that we reuse, conditions are as follows: Open coastal observations — station 1 It is freely available with obligation to quote the source (e.g. CC-BY). Open coastal observations — station 2 It is freely available with obligation to quote the source (e.g. CC-BY).",
+          "flags": []
+        },
+        {
+          "id": "q-ethical-issues",
+          "requirement_id": "SE-4c",
+          "html_requirement_attribute": null,
+          "heading": "9. What ethical issues and codes of conduct are there, and how will they be taken into account?",
+          "answer": "Ethical approvals The questionnaire records the following ethical approval arrangements: Coastal observations: reproducible data management According to the questionnaire, this project does not require ethical approval. Data we produce For the data we produce, the ethical aspects are as follows: Quality-checked coastal observations It does not contain personal data. It does not contain sensitive data. Data we collect We will not collect any data related to individuals, i.e. \"personal data\". The data collection is not subject to ethical legislation.",
+          "flags": []
+        },
+        {
+          "id": "q-share-restrictions",
+          "requirement_id": "SE-5a",
+          "html_requirement_attribute": null,
+          "heading": "10. How and when will data be shared? Are there possible restrictions to data sharing or embargo reasons?",
+          "answer": "Quality-checked coastal observations This dataset will be published. Distribution 1 Open access: this distribution will be shared with anyone. This distribution will be deposited in an institutional repository. Licence start date: 2027-12-31 . Freely available with obligation to quote the source (e.g. CC-BY). Distribution 2 Access will be limited to a predefined group of people. This distribution will be deposited in a special-purpose repository for the project. Licence start date: 2027-06-01 . Access to this distribution is subject to restrictions. This preliminary release is limited to the project review group. Do not redistribute the preliminary files. Cite the release identifier in review notes. Extended access condition remains in the document. [01] Extended access condition remains in the document. [02] Extended access condition remains in the document. [03] Extended access condition remains in the document. [04] Extended access condition remains in the document. [05] Extended access condition remains in the document. [06] Extended access condition remains in the document. [07] Extended access condition remains in the document. [08] Extended access condition remains in the document. [09] Extended access condition remains in the document. [10] Extended access condition remains in the document. [11] Extended access condition remains in the document. [12] Extended access condition remains in the document. [13] Extended access condition remains in the document. [14] Extended access condition remains in the document. [15] Extended access condition remains in the document. [16] Extended access condition remains in the document. [17] Extended access condition remains in the document. [18] Extended access condition remains in the document. [19] Extended access condition remains in the document. [20] Extended access condition remains in the document. [21] Extended access condition remains in the document. [22] Extended access condition remains in the document. [23] Extended access condition remains in the document. [24] Extended access condition remains in the document. [25] Extended access condition remains in the document. [26] Extended access condition remains in the document. [27] Extended access condition remains in the document. [28] Extended access condition remains in the document. [29] Extended access condition remains in the document. [30] Extended access condition remains in the document. [31] Extended access condition remains in the document. [32] Extended access condition remains in the document. [33] Extended access condition remains in the document. [34] Extended access condition remains in the document. [35] Extended access condition remains in the document. [36] Extended access condition remains in the document. [37] Extended access condition remains in the document. [38] Extended access condition remains in the document. [39] Extended access condition remains in the document. [40] Extended access condition remains in the document. [41] Extended access condition remains in the document. [42] Extended access condition remains in the document. [43] Extended access condition remains in the document. [44] Extended access condition remains in the document. [45] Extended access condition remains in the document. [46] Extended access condition remains in the document. [47] Extended access condition remains in the document. [48] Extended access condition remains in the document. [49] Extended access condition remains in the document. [50] Extended access condition remains in the document. [51] Extended access condition remains in the document. [52] Extended access condition remains in the document. [53] Extended access condition remains in the document. [54] Extended access condition remains in the document. [55] Extended access condition remains in the document. [56] Extended access condition remains in the document. [57] Extended access condition remains in the document. [58] Extended access condition remains in the document. [59] Extended access condition remains in the document. [60] Extended access condition remains in the document. [61] Extended access condition remains in the document. [62] Extended access condition remains in the document. [63] Extended access condition remains in the document. [64] Extended access condition remains in the document. [65] Extended access condition remains in the document. [66] Extended access condition remains in the document. [67] Extended access condition remains in the document. [68] Extended access condition remains in the document. [69] Extended access condition remains in the document. [70] Extended access condition remains in the document. [71] Extended access condition remains in the document. [72] Extended access condition remains in the document. [73] Extended access condition remains in the document. [74] Extended access condition remains in the document. [75] Extended access condition remains in the document. [76] Extended access condition remains in the document. [77] Extended access condition remains in the document. [78] Extended access condition remains in the document. [79] Extended access condition remains in the document. [80] Re-users will be able to get access by request to the contact person. The conditions will be published as part of open metadata. Restriction details: https://example.org/coast/review-terms .",
+          "flags": []
+        },
+        {
+          "id": "q-data-preservation",
+          "requirement_id": "SE-5b",
+          "html_requirement_attribute": null,
+          "heading": "11. How will data for preservation be selected, and where will data be preserved long-term (for example a data repository or archive)?",
+          "answer": "Quality-checked coastal observations This dataset will be published. Retention period (prepaid): 10 years. The metadata will be available even when the data no longer exists. Preservation destinations by distribution: Distribution 1: Our institutional repository. Distribution 2: Special-purpose repository for the project. Whether we will be able to support this repository for a sufficiently long time has not been specified. We have budgeted for the costs in the project to pay charges of the used repositories. We have a reserved budget for the time and effort it will take to prepare the data for publication. Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.",
+          "flags": [
+            {
+              "text": "Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.",
+              "status": "needs-review",
+              "fact_id": "preservation-selection-review"
+            }
+          ]
+        },
+        {
+          "id": "q-access-data",
+          "requirement_id": "SE-5c",
+          "html_requirement_attribute": null,
+          "heading": "12. What methods or software tools are needed to access and use data?",
+          "answer": "Quality-checked coastal observations Software required to use this dataset: CoastView 1.0 (synthetic test tool) Available at: https://example.org/coastview/1.0",
+          "flags": []
+        },
+        {
+          "id": "q-persistent-identifier",
+          "requirement_id": "SE-5d",
+          "html_requirement_attribute": null,
+          "heading": "13. How will the application of a unique and persistent identifier (such as a Digital Object Identifier (DOI)) to each data set be ensured?",
+          "answer": "Quality-checked coastal observations Distribution 1 Institutional repository The repository will assign the persistent identifier. The repository will make sure the persistent identifier can be resolved to a digital object. Distribution 2 Special-purpose repository An institutional data steward will assign the persistent identifier. The repository will make sure the persistent identifier can be resolved to a digital object. Possible re-use of created data in other contexts Coastal temperature measurements Other researchers in this field will be interested in re-using this data.",
+          "flags": []
+        },
+        {
+          "id": "q-dm-responsible",
+          "requirement_id": "SE-6a",
+          "html_requirement_attribute": null,
+          "heading": "14. Who (for example role, position, and institution) will be responsible for data management (i.e. the data steward)?",
+          "answer": "Example research team is responsible for the management and proficiency of data including data processing, data policies, data guidelines, and data availability. Example research team is responsible for implementing the DMP, and ensuring it is reviewed and revised.",
+          "flags": []
+        },
+        {
+          "id": "q-required-resources",
+          "requirement_id": "SE-6b",
+          "html_requirement_attribute": "SE-6b",
+          "heading": "15. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?",
+          "answer": "Additional specialist expertise is required. Existing staff will receive training. Staff will complete training before data publication. Metadata quality checks Version control and provenance We do not require any hardware or software in addition to what is usually available in the institute. The selected repositories charge for their services. Data-management budget Resource and purpose Budget Funding source Data preparation resource 1 Prepare metadata and validate deposit files. This resource supports findability and management of data. 5000 TWD Institutional research funds Data preparation resource 2 Prepare metadata and validate deposit files. This resource supports findability and management of data. 0 TWD Institutional research funds",
+          "flags": []
+        }
+      ],
+      "formats": {
+        "pdf": {
+          "sha256": "8529f42436eab001d8d9c3fcc5fb06a90eaff15f63c9ebfd52ac7cfebca68ac6",
+          "pages": 9,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 4,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 5,
+            "q-share-restrictions": 5,
+            "q-data-preservation": 8,
+            "q-access-data": 8,
+            "q-persistent-identifier": 8,
+            "q-dm-responsible": 9,
+            "q-required-resources": 9
+          },
+          "numbered_stress_paragraphs": 80
+        },
+        "word-preview": {
+          "sha256": "88e54451fc59298eb8359ca2e69b5acfc3319824fa25eb6d084be9a162a19e17",
+          "pages": 8,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 3,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 5,
+            "q-data-preservation": 7,
+            "q-access-data": 7,
+            "q-persistent-identifier": 8,
+            "q-dm-responsible": 8,
+            "q-required-resources": 8
+          },
+          "numbered_stress_paragraphs": 80
+        }
+      },
+      "selected_input_questions": [
+        {
+          "uuid": "cb7d17a8-30c0-489d-a43c-702b27d97611",
+          "path": [
+            "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+            "cb7d17a8-30c0-489d-a43c-702b27d97611"
+          ],
+          "type": "OptionsQuestion",
+          "title": "How are the rights of the collected data arranged?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "f310952b-e946-4315-bb32-bf127d1bf96a",
+              "label": "Our data is legally not copyrightable, there is no legal rightsholder",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "91d6ee6f-c501-4d1c-a6e7-9da1789f68de",
+              "label": "The Principal Investigator will be the rightsholder",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ef4ac36a-eea0-42b4-8292-b89090a1b5ef",
+              "label": "The institute will be the rightsholder",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "115a165f-9d3f-440d-a822-4bd2795c264e",
+              "label": "We have a consortium agreement that arranges Intellectual Property",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "0fd3cd1c-e0e8-41d5-9beb-3f1faba0fb91",
+              "label": "The rights  for the data is arranged in another way",
+              "follow_up_uuids": [
+                "06655161-9a91-47f4-af3b-9d2a5e6db19b"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "ownershipQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/08-copyright-ipr.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Will you be using a shared working space to work with your data?",
+          "guidance": "Will you be using a working space containing data and software specific to the project that is shared between all the people working on the data in the project? Sometimes such a system is called a *Virtual Research Environment*.",
+          "choices": [
+            {
+              "uuid": "1d6ba101-fd62-43c8-ab53-76bc31847f58",
+              "label": "No, participants in the project each have different collections of data and tools",
+              "follow_up_uuids": [
+                "c1e83bdf-5914-44c2-8414-0a4e7fbaf272"
+              ]
+            },
+            {
+              "uuid": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+              "label": "Yes",
+              "follow_up_uuids": [
+                "5607d0bb-6b9e-4211-821c-785acc3aa25e",
+                "df36fb68-131c-4f31-a42b-684abf523bbc",
+                "b171ec17-d7b5-4726-ae22-0d892b106cf8",
+                "80d403f3-3f29-4f37-9040-b901ae9afa37"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedWorkspaceQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/05-store-backup.html.j2",
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5"
+          }
+        },
+        {
+          "uuid": "80d403f3-3f29-4f37-9040-b901ae9afa37",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "80d403f3-3f29-4f37-9040-b901ae9afa37"
+          ],
+          "type": "OptionsQuestion",
+          "title": "How will access to the work space be controlled?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "302e4b9b-9a9c-4fb0-9745-5f8ff4cca746",
+              "label": "Only all project members have read/write access to the data",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "154cd5fc-a79f-4c2e-be67-6985813bbc8d",
+              "label": "Anyone in the institute has read access to the data; all project members have read/write access.",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b21c9f70-78e7-4975-b776-59e372285662",
+              "label": "Only project members will have read access; only selected project members will be able to write data",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b19ba76a-4b6a-45f6-8ab5-8bbfb92c7b2c",
+              "label": "Anyone in the institute can read data, only project members can request write access",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedAccessControlQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "614ab69d-55a6-4214-b384-00ba21ce92a1",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Is the risk of information loss, leaks and vandalism acceptably low?",
+          "guidance": "There are many factors that can contribute to the risk of information loss or information leaks. They are often part of the behavior of the people that are involved in the project, but can also be steered by properly planned infrastructure.",
+          "choices": [
+            {
+              "uuid": "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+              "label": "Explore",
+              "follow_up_uuids": [
+                "90324a7b-f3c9-4ed8-b301-edc9869cb7b3",
+                "abaf4a70-17d4-449c-9b95-5b3bcfed7e9b",
+                "84ec46bd-e714-4d98-8525-cdd0d58777ef",
+                "2d57daa6-df2e-4bf9-b024-710e74781d88",
+                "a454fffd-f4a4-426d-b758-6d70bc4ee96b",
+                "39d8dad9-7666-405c-b35c-9e430c9691ed",
+                "dc327e53-cf4f-44e7-8e66-40ddf1b4ae0a",
+                "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+                "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+                "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+                "d5990471-0618-42cd-92cb-bbbfd4f61532"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "b2f76c0a-847a-403c-9ed6-09cad10e625e"
+          }
+        },
+        {
+          "uuid": "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "67c34ee1-2e71-423c-97a7-fe6aa3723465"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Did you consider the possible impact to the project or organization if information is lost?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "4c5d329b-6e18-4f4e-92a9-f0298adf38fe",
+              "label": "No",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a8a4dc7d-bf8c-44e3-b8b2-3e04f206f460",
+              "label": "Yes; the effect is small",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a0ec7128-1c2d-4034-b621-211bd01a9839",
+              "label": "Yes; the risk is acceptably low",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "928db5fa-e16f-4c28-a321-ad62e1849b90",
+              "label": "Yes; we will need to work on this.",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLossQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "a20ddc5d-e883-4bc4-9948-36a2cb477d10"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Did you consider the possible impact to the project or organization if information leaks?",
+          "guidance": "Your institute may have a generic risk assessment; you should be informed about this.",
+          "choices": [
+            {
+              "uuid": "04dd5577-367f-4c34-b90c-4bc25d80c819",
+              "label": "No",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "7c9c8543-b8f8-47b0-8279-757dbc14922f",
+              "label": "Yes; the effect is small",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "6306207c-7be6-4cdf-86c4-33e0d9898479",
+              "label": "Yes; the risk is acceptably low",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "efec7b38-d9a9-4495-8ba7-625dd7da6a09",
+              "label": "Yes; we will need to work on this.",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLeakQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "8cd49d8f-9af0-4ea9-985a-5d45142ac388"
+          ],
+          "type": "OptionsQuestion",
+          "title": "Did you consider the possible impact to the project or organization if information is vandalized?",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "b4dbc287-8eed-4799-800e-5ce0ede13cd8",
+              "label": "No",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ae0c3b93-f054-4052-91c0-fa9c518f5ca8",
+              "label": "Yes; the effect is small",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b1e1861b-b55f-406f-b915-b440c64d8747",
+              "label": "Yes; the risk is acceptably low",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "e8943baf-4c0c-4f30-8b57-88c06f3bc4ad",
+              "label": "Yes; we will need to work on this.",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoVandalismQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        }
+      ]
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "render_origin": "fresh",
+      "html_sha256": "211b83a7d5324672debd7ac2fcbaf0620d1a38b7048a45ad560da381bbb8afd5",
+      "docx_sha256": "638c80c36cb8ead69a30fb4c90ea5a923569df789e90becfb2694b05e2826aec",
+      "verified_word_preview_paragraphs": 223,
+      "questions": [
+        {
+          "id": "q-how-data",
+          "requirement_id": "SE-1a",
+          "html_requirement_attribute": "SE-1a",
+          "heading": "1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？",
+          "answer": "儀器資料集 沿岸水溫觀測資料 針對此資料集，我們將使用以下儀器： 水溫紀錄器 – 每十分鐘記錄水溫，保留 UTC 時間戳記與校正紀錄。 沿岸水溫觀測資料 ：品質管控措施包括校正量測結果、資料輸入檢核。 再次使用的資料集 開放海岸觀測資料——測站 1 資料來源： https://example.org/datasets/coastal-observations/station-1/version-2026 比較水溫的季節變化。 保留原始時間戳記。 記錄排除觀測值的原因。 使用版本 2026.1 即使計畫期間發布新版，仍使用原定版本。 開放海岸觀測資料——測站 2 資料來源： https://example.org/datasets/coastal-observations/station-2/version-2026 比較水溫的季節變化。 保留原始時間戳記。 記錄排除觀測值的原因。 使用版本 2026.1 即使計畫期間發布新版，仍使用原定版本。 共同管理方式 上述將再次使用的參考資料集，均採用以下管理方式。 本計畫將保留資料副本，與研究結果一併提供。 此資料可自由取得，使用時須註明來源。 此資料可直接使用，無須轉換格式。 資料溯源 在計畫的版本控制儲存庫記錄來源版本與處理程式。 紀錄 保存期間 處理紀錄 10 年 來源校驗碼 10 年",
+          "flags": []
+        },
+        {
+          "id": "q-what-data",
+          "requirement_id": "SE-1b",
+          "html_requirement_attribute": null,
+          "heading": "2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？",
+          "answer": "儀器資料集 沿岸水溫觀測資料 的蒐集方式：此資料集將由計畫內的專家使用自有設備蒐集。所用設備已有完整說明，且為研究團隊所熟悉。 資料格式與類型 資料格式： CSV (UTF-8) 。 採用標準化格式，適合長期封存。 預估資料量為 120 GB 。",
+          "flags": []
+        },
+        {
+          "id": "q-docs-metadata",
+          "requirement_id": "SE-2a",
+          "html_requirement_attribute": null,
+          "heading": "3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？",
+          "answer": "我們將使用 Dublin Core 後設資料標準記錄資料。 尚待補充：是否將建立資料字典或變項定義表。 後設資料將公開提供，並包含如何取用資料的說明。後設資料將以可被擷取與索引的形式提供（由所使用的資料儲存庫管理）。 資料儲存與檔案規則 預估計畫所有資料與軟體（含暫存空間）所需的儲存容量為 2048 GB。 我們將使用以檔案與資料夾組成的檔案系統。 我們會記錄如何管理檔案與資料夾的版本。 檔案命名規則： 檔名採 station_YYYYMMDD.csv，並在 CHANGELOG.md 記錄修正。",
+          "flags": [
+            {
+              "text": "尚待補充：是否將建立資料字典或變項定義表。",
+              "status": "missing",
+              "fact_id": "metadata-dictionary"
+            }
+          ]
+        },
+        {
+          "id": "q-quality-control",
+          "requirement_id": "SE-2b",
+          "html_requirement_attribute": "SE-2b",
+          "heading": "4. 將使用哪些資料品質管控措施？",
+          "answer": "沿岸水溫觀測資料 ：品質管控措施包括校正量測結果、資料輸入檢核。",
+          "flags": []
+        },
+        {
+          "id": "q-store-backup",
+          "requirement_id": "SE-3a",
+          "html_requirement_attribute": "SE-3a",
+          "heading": "5. 研究期間將如何儲存與備份資料及後設資料？",
+          "answer": "研究期間將使用共享工作空間處理資料。 共享工作空間將由專責人員維運。 所需儲存容量在計畫期間將維持不變。 為避免資料全部遺失，重要資料也將另存於其他位置。 存放於共享工作空間以外的資料，將全部自動備份。 研究期間的資料封存 研究期間將以冷儲存方式封存資料。 封存資料將儲存於磁帶。 封存資料將存放於異地。 封存資料變動後，需要重新封存。 由於封存資料經常變動，因此需要頻繁備份。 這些備份將用於復原遭意外變更或刪除的資料。 本模板目前對應的欄位不足以確認以下執行細節： 這些對應回答尚未明確指出工作資料與備份的實際儲存地點。 這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。",
+          "flags": [
+            {
+              "text": "本模板目前對應的欄位不足以確認以下執行細節： 這些對應回答尚未明確指出工作資料與備份的實際儲存地點。 這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。",
+              "status": null,
+              "fact_id": null
+            }
+          ]
+        },
+        {
+          "id": "q-access-security",
+          "requirement_id": "SE-3b",
+          "html_requirement_attribute": null,
+          "heading": "6. 研究期間將如何處理資料安全與敏感資料保護？",
+          "answer": "計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB 隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供 HTTPS 安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。 封存與備份安排請見第 5 題。",
+          "flags": []
+        },
+        {
+          "id": "q-personal-data",
+          "requirement_id": "SE-4a",
+          "html_requirement_attribute": null,
+          "heading": "7. 若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？",
+          "answer": "我們不會蒐集任何與個人相關的資料。",
+          "flags": []
+        },
+        {
+          "id": "q-copyright-ipr",
+          "requirement_id": "SE-4b",
+          "html_requirement_attribute": null,
+          "heading": "8. 其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？",
+          "answer": "我們再次使用的參考與非參考資料集，其使用條件如下： 開放海岸觀測資料——測站 1 此資料可自由取得，使用時須註明來源（例如 CC BY）。 開放海岸觀測資料——測站 2 此資料可自由取得，使用時須註明來源（例如 CC BY）。",
+          "flags": []
+        },
+        {
+          "id": "q-ethical-issues",
+          "requirement_id": "SE-4c",
+          "html_requirement_attribute": null,
+          "heading": "9. 有哪些倫理議題與行為準則？將如何納入考量？",
+          "answer": "倫理審查核准 問卷記載的倫理審查安排如下： 海岸觀測：可重現的資料管理 依問卷填答，本計畫不需要倫理審查核准。 我們產生的資料 關於我們產生的資料，倫理面向如下： 完成品質檢查的沿岸觀測資料 不包含個人資料。 不包含敏感資料。 我們蒐集的資料 我們不會蒐集任何與個人相關的資料，即「個人資料」。 研究倫理相關法規不適用於此資料蒐集。",
+          "flags": []
+        },
+        {
+          "id": "q-share-restrictions",
+          "requirement_id": "SE-5a",
+          "html_requirement_attribute": null,
+          "heading": "10. 資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？",
+          "answer": "完成品質檢查的沿岸觀測資料 此資料集將發布。 資料提供管道 1 此管道提供的資料將公開供任何人取用。 此管道的資料將存放於機構資料儲存庫。 授權起始日期： 2027-12-31 。 可自由取得，但使用時必須引用來源（例如 CC BY）。 資料提供管道 2 資料取用對象限於事先指定的群體。 此管道的資料將存放於本計畫專用的資料儲存庫。 授權起始日期： 2027-06-01 。 此管道的資料取用須遵守以下限制。 此初步發布版本僅提供計畫審閱小組使用。 不得轉散布初步檔案。 審閱紀錄須註明發布版本的識別碼。 延伸取用條件仍須完整保留於文件中。 [01] 延伸取用條件仍須完整保留於文件中。 [02] 延伸取用條件仍須完整保留於文件中。 [03] 延伸取用條件仍須完整保留於文件中。 [04] 延伸取用條件仍須完整保留於文件中。 [05] 延伸取用條件仍須完整保留於文件中。 [06] 延伸取用條件仍須完整保留於文件中。 [07] 延伸取用條件仍須完整保留於文件中。 [08] 延伸取用條件仍須完整保留於文件中。 [09] 延伸取用條件仍須完整保留於文件中。 [10] 延伸取用條件仍須完整保留於文件中。 [11] 延伸取用條件仍須完整保留於文件中。 [12] 延伸取用條件仍須完整保留於文件中。 [13] 延伸取用條件仍須完整保留於文件中。 [14] 延伸取用條件仍須完整保留於文件中。 [15] 延伸取用條件仍須完整保留於文件中。 [16] 延伸取用條件仍須完整保留於文件中。 [17] 延伸取用條件仍須完整保留於文件中。 [18] 延伸取用條件仍須完整保留於文件中。 [19] 延伸取用條件仍須完整保留於文件中。 [20] 延伸取用條件仍須完整保留於文件中。 [21] 延伸取用條件仍須完整保留於文件中。 [22] 延伸取用條件仍須完整保留於文件中。 [23] 延伸取用條件仍須完整保留於文件中。 [24] 延伸取用條件仍須完整保留於文件中。 [25] 延伸取用條件仍須完整保留於文件中。 [26] 延伸取用條件仍須完整保留於文件中。 [27] 延伸取用條件仍須完整保留於文件中。 [28] 延伸取用條件仍須完整保留於文件中。 [29] 延伸取用條件仍須完整保留於文件中。 [30] 延伸取用條件仍須完整保留於文件中。 [31] 延伸取用條件仍須完整保留於文件中。 [32] 延伸取用條件仍須完整保留於文件中。 [33] 延伸取用條件仍須完整保留於文件中。 [34] 延伸取用條件仍須完整保留於文件中。 [35] 延伸取用條件仍須完整保留於文件中。 [36] 延伸取用條件仍須完整保留於文件中。 [37] 延伸取用條件仍須完整保留於文件中。 [38] 延伸取用條件仍須完整保留於文件中。 [39] 延伸取用條件仍須完整保留於文件中。 [40] 延伸取用條件仍須完整保留於文件中。 [41] 延伸取用條件仍須完整保留於文件中。 [42] 延伸取用條件仍須完整保留於文件中。 [43] 延伸取用條件仍須完整保留於文件中。 [44] 延伸取用條件仍須完整保留於文件中。 [45] 延伸取用條件仍須完整保留於文件中。 [46] 延伸取用條件仍須完整保留於文件中。 [47] 延伸取用條件仍須完整保留於文件中。 [48] 延伸取用條件仍須完整保留於文件中。 [49] 延伸取用條件仍須完整保留於文件中。 [50] 延伸取用條件仍須完整保留於文件中。 [51] 延伸取用條件仍須完整保留於文件中。 [52] 延伸取用條件仍須完整保留於文件中。 [53] 延伸取用條件仍須完整保留於文件中。 [54] 延伸取用條件仍須完整保留於文件中。 [55] 延伸取用條件仍須完整保留於文件中。 [56] 延伸取用條件仍須完整保留於文件中。 [57] 延伸取用條件仍須完整保留於文件中。 [58] 延伸取用條件仍須完整保留於文件中。 [59] 延伸取用條件仍須完整保留於文件中。 [60] 延伸取用條件仍須完整保留於文件中。 [61] 延伸取用條件仍須完整保留於文件中。 [62] 延伸取用條件仍須完整保留於文件中。 [63] 延伸取用條件仍須完整保留於文件中。 [64] 延伸取用條件仍須完整保留於文件中。 [65] 延伸取用條件仍須完整保留於文件中。 [66] 延伸取用條件仍須完整保留於文件中。 [67] 延伸取用條件仍須完整保留於文件中。 [68] 延伸取用條件仍須完整保留於文件中。 [69] 延伸取用條件仍須完整保留於文件中。 [70] 延伸取用條件仍須完整保留於文件中。 [71] 延伸取用條件仍須完整保留於文件中。 [72] 延伸取用條件仍須完整保留於文件中。 [73] 延伸取用條件仍須完整保留於文件中。 [74] 延伸取用條件仍須完整保留於文件中。 [75] 延伸取用條件仍須完整保留於文件中。 [76] 延伸取用條件仍須完整保留於文件中。 [77] 延伸取用條件仍須完整保留於文件中。 [78] 延伸取用條件仍須完整保留於文件中。 [79] 延伸取用條件仍須完整保留於文件中。 [80] 欲再次使用資料者，可向聯絡人申請取用。 這些取用條件將納入公開的後設資料。 使用限制的詳細資訊： https://example.org/coast/review-terms 。",
+          "flags": []
+        },
+        {
+          "id": "q-data-preservation",
+          "requirement_id": "SE-5b",
+          "html_requirement_attribute": null,
+          "heading": "11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？",
+          "answer": "完成品質檢查的沿岸觀測資料 此資料集將發布。 保存期間：10 年（費用已預付）。 即使資料已不存在，仍會持續提供後設資料。 各資料提供管道的保存位置： 資料提供管道 1： 我們的機構資料儲存庫。 資料提供管道 2： 本計畫專用的資料儲存庫。 尚未說明能否長期維運此資料儲存庫。 本計畫已編列預算，支付資料儲存庫的服務費。 已預留預算，以支應資料發布準備工作所需的時間與人力。 保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。",
+          "flags": [
+            {
+              "text": "保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。",
+              "status": "needs-review",
+              "fact_id": "preservation-selection-review"
+            }
+          ]
+        },
+        {
+          "id": "q-access-data",
+          "requirement_id": "SE-5c",
+          "html_requirement_attribute": null,
+          "heading": "12. 取用與使用資料需要哪些方法或軟體工具？",
+          "answer": "完成品質檢查的沿岸觀測資料 使用此資料集所需的軟體： CoastView 1.0 (synthetic test tool) 取得位置：https://example.org/coastview/1.0",
+          "flags": []
+        },
+        {
+          "id": "q-persistent-identifier",
+          "requirement_id": "SE-5d",
+          "html_requirement_attribute": null,
+          "heading": "13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？",
+          "answer": "完成品質檢查的沿岸觀測資料 資料提供管道 1 機構資料儲存庫 持續識別碼將由資料儲存庫指派。 資料儲存庫將確保持續識別碼可解析至數位物件。 資料提供管道 2 專用資料儲存庫 持續識別碼將由機構的資料託管員指派。 資料儲存庫將確保持續識別碼可解析至數位物件。 所產生資料在其他情境下再次使用的可能性 沿岸水溫觀測資料 本領域的其他研究人員會有興趣再次使用這份資料。",
+          "flags": []
+        },
+        {
+          "id": "q-dm-responsible",
+          "requirement_id": "SE-6a",
+          "html_requirement_attribute": null,
+          "heading": "14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？",
+          "answer": "範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。 範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。",
+          "flags": []
+        },
+        {
+          "id": "q-required-resources",
+          "requirement_id": "SE-6b",
+          "html_requirement_attribute": "SE-6b",
+          "heading": "15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？",
+          "answer": "為補足所需的專業能力，本計畫將安排現有人員接受培訓。 工作人員將於資料發布前完成培訓。 後設資料品質檢核 版本控制與資料溯源 除機構通常提供的資源外，我們不需要其他硬體或軟體。 預計使用的資料儲存庫會收取服務費。 資料管理預算 資源項目與用途 預算 經費來源 資料整理資源 1 整理後設資料並檢查寄存檔案。 支援項目：資料可尋性及資料管理。 5000 TWD 機構研究經費 資料整理資源 2 整理後設資料並檢查寄存檔案。 支援項目：資料可尋性及資料管理。 0 TWD 機構研究經費",
+          "flags": []
+        }
+      ],
+      "formats": {
+        "pdf": {
+          "sha256": "7f5c2a28945afb42d6343fe01b6fb8075dc963d8efc31f1ca06df8ecdad93720",
+          "pages": 9,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 3,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 5,
+            "q-data-preservation": 7,
+            "q-access-data": 8,
+            "q-persistent-identifier": 8,
+            "q-dm-responsible": 8,
+            "q-required-resources": 8
+          },
+          "numbered_stress_paragraphs": 80
+        },
+        "word-preview": {
+          "sha256": "717157cb6fdf3eb5dfed68b6dad1423d86d34dd6b81cd123b5dec27e11bac82b",
+          "pages": 9,
+          "question_heading_pages": {
+            "q-how-data": 2,
+            "q-what-data": 3,
+            "q-docs-metadata": 3,
+            "q-quality-control": 3,
+            "q-store-backup": 3,
+            "q-access-security": 4,
+            "q-personal-data": 4,
+            "q-copyright-ipr": 4,
+            "q-ethical-issues": 4,
+            "q-share-restrictions": 5,
+            "q-data-preservation": 8,
+            "q-access-data": 8,
+            "q-persistent-identifier": 8,
+            "q-dm-responsible": 8,
+            "q-required-resources": 9
+          },
+          "numbered_stress_paragraphs": 80
+        }
+      },
+      "selected_input_questions": [
+        {
+          "uuid": "cb7d17a8-30c0-489d-a43c-702b27d97611",
+          "path": [
+            "b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+            "cb7d17a8-30c0-489d-a43c-702b27d97611"
+          ],
+          "type": "OptionsQuestion",
+          "title": "所蒐集資料的權利歸屬將如何安排？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "f310952b-e946-4315-bb32-bf127d1bf96a",
+              "label": "我們的資料在法律上不受著作權保護，因此沒有法律上的權利人",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "91d6ee6f-c501-4d1c-a6e7-9da1789f68de",
+              "label": "由計畫主持人擔任權利人",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ef4ac36a-eea0-42b4-8292-b89090a1b5ef",
+              "label": "由機構擔任權利人",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "115a165f-9d3f-440d-a822-4bd2795c264e",
+              "label": "我們已透過聯盟協議書安排智慧財產權事宜",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "0fd3cd1c-e0e8-41d5-9beb-3f1faba0fb91",
+              "label": "資料相關權利將以其他方式安排",
+              "follow_up_uuids": [
+                "06655161-9a91-47f4-af3b-9d2a5e6db19b"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "ownershipQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/08-copyright-ipr.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "72099c46-16e7-47a2-a320-cc768b7085fe",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否會使用共享的工作空間來處理您的資料？",
+          "guidance": "您是否會使用一個包含本專案特定資料與軟體的工作空間，並讓專案中所有處理資料的人共同使用？這類系統有時稱為「虛擬研究環境」。",
+          "choices": [
+            {
+              "uuid": "1d6ba101-fd62-43c8-ab53-76bc31847f58",
+              "label": "否，專案參與者各自使用不同的資料與工具",
+              "follow_up_uuids": [
+                "c1e83bdf-5914-44c2-8414-0a4e7fbaf272"
+              ]
+            },
+            {
+              "uuid": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+              "label": "是",
+              "follow_up_uuids": [
+                "5607d0bb-6b9e-4211-821c-785acc3aa25e",
+                "df36fb68-131c-4f31-a42b-684abf523bbc",
+                "b171ec17-d7b5-4726-ae22-0d892b106cf8",
+                "80d403f3-3f29-4f37-9040-b901ae9afa37"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedWorkspaceQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/05-store-backup.html.j2",
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5"
+          }
+        },
+        {
+          "uuid": "80d403f3-3f29-4f37-9040-b901ae9afa37",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "72099c46-16e7-47a2-a320-cc768b7085fe",
+            "e7324e1a-bfcb-4f2b-855a-35701dfb1ad5",
+            "80d403f3-3f29-4f37-9040-b901ae9afa37"
+          ],
+          "type": "OptionsQuestion",
+          "title": "工作空間的取用權限會如何控管？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "302e4b9b-9a9c-4fb0-9745-5f8ff4cca746",
+              "label": "只有所有專案成員才對該資料擁有讀寫權限",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "154cd5fc-a79f-4c2e-be67-6985813bbc8d",
+              "label": "機構內的任何人都可以讀取資料；所有專案成員皆有讀與寫的權限。",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b21c9f70-78e7-4975-b776-59e372285662",
+              "label": "只有專案成員具有讀取權限；只有經指定的專案成員可以寫入資料",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b19ba76a-4b6a-45f6-8ab5-8bbfb92c7b2c",
+              "label": "機構內的任何人皆可讀取資料，不過只有專案成員可申請寫入權限",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "sharedAccessControlQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "614ab69d-55a6-4214-b384-00ba21ce92a1",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1"
+          ],
+          "type": "OptionsQuestion",
+          "title": "資訊遺失、外洩與破壞的風險是否低到可接受？",
+          "guidance": "有許多因素可能造成資訊遺失或資訊外洩風險。這些因素通常與專案相關人員的行為有關，但也可以透過妥善規劃的基礎設施來引導與降低。",
+          "choices": [
+            {
+              "uuid": "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+              "label": "探索",
+              "follow_up_uuids": [
+                "90324a7b-f3c9-4ed8-b301-edc9869cb7b3",
+                "abaf4a70-17d4-449c-9b95-5b3bcfed7e9b",
+                "84ec46bd-e714-4d98-8525-cdd0d58777ef",
+                "2d57daa6-df2e-4bf9-b024-710e74781d88",
+                "a454fffd-f4a4-426d-b758-6d70bc4ee96b",
+                "39d8dad9-7666-405c-b35c-9e430c9691ed",
+                "dc327e53-cf4f-44e7-8e66-40ddf1b4ae0a",
+                "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+                "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+                "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+                "d5990471-0618-42cd-92cb-bbbfd4f61532"
+              ]
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": {
+            "type": "AnswerReply",
+            "value": "b2f76c0a-847a-403c-9ed6-09cad10e625e"
+          }
+        },
+        {
+          "uuid": "67c34ee1-2e71-423c-97a7-fe6aa3723465",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "67c34ee1-2e71-423c-97a7-fe6aa3723465"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否考量了資訊遺失可能對專案或組織造成的影響？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "4c5d329b-6e18-4f4e-92a9-f0298adf38fe",
+              "label": "否",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a8a4dc7d-bf8c-44e3-b8b2-3e04f206f460",
+              "label": "是，影響很小",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "a0ec7128-1c2d-4034-b621-211bd01a9839",
+              "label": "是，風險低到可接受",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "928db5fa-e16f-4c28-a321-ad62e1849b90",
+              "label": "是，我們需要處理這件事。",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLossQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "a20ddc5d-e883-4bc4-9948-36a2cb477d10",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "a20ddc5d-e883-4bc4-9948-36a2cb477d10"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否已考量若資訊外洩可能對專案或組織造成的影響？",
+          "guidance": "您的機構可能已有通用的風險評估機制；您應了解相關內容。",
+          "choices": [
+            {
+              "uuid": "04dd5577-367f-4c34-b90c-4bc25d80c819",
+              "label": "否",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "7c9c8543-b8f8-47b0-8279-757dbc14922f",
+              "label": "是，影響很小",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "6306207c-7be6-4cdf-86c4-33e0d9898479",
+              "label": "是，風險低到可接受",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "efec7b38-d9a9-4495-8ba7-625dd7da6a09",
+              "label": "是，我們需要處理這件事。",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoLeakQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        },
+        {
+          "uuid": "8cd49d8f-9af0-4ea9-985a-5d45142ac388",
+          "path": [
+            "10a10ffd-bfe1-4c6b-bbb6-3dfb1e63a5d5",
+            "614ab69d-55a6-4214-b384-00ba21ce92a1",
+            "b2f76c0a-847a-403c-9ed6-09cad10e625e",
+            "8cd49d8f-9af0-4ea9-985a-5d45142ac388"
+          ],
+          "type": "OptionsQuestion",
+          "title": "您是否已考量若資訊遭到破壞，可能對專案或組織造成的影響？",
+          "guidance": null,
+          "choices": [
+            {
+              "uuid": "b4dbc287-8eed-4799-800e-5ce0ede13cd8",
+              "label": "否",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "ae0c3b93-f054-4052-91c0-fa9c518f5ca8",
+              "label": "是，影響很小",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "b1e1861b-b55f-406f-b915-b440c64d8747",
+              "label": "是，風險低到可接受",
+              "follow_up_uuids": []
+            },
+            {
+              "uuid": "e8943baf-4c0c-4f30-8b57-88c06f3bc4ad",
+              "label": "是，我們需要處理這件事。",
+              "follow_up_uuids": []
+            }
+          ],
+          "multi_choices": [],
+          "bindings": [
+            "risksInfoVandalismQUuid"
+          ],
+          "static_template_references": [
+            "src/questions/06-access-security.html.j2"
+          ],
+          "fixture_reply": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "narrative-long-english",
+      "docx_sha256": "132f2ee9ef42b62a4739c7c92ff0fddbf25d9156c0229836c211a2c4c1774e1b",
+      "preview_sha256": "88e54451fc59298eb8359ca2e69b5acfc3319824fa25eb6d084be9a162a19e17"
+    },
+    {
+      "name": "narrative-long-chinese",
+      "docx_sha256": "638c80c36cb8ead69a30fb4c90ea5a923569df789e90becfb2694b05e2826aec",
+      "preview_sha256": "717157cb6fdf3eb5dfed68b6dad1423d86d34dd6b81cd123b5dec27e11bac82b"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

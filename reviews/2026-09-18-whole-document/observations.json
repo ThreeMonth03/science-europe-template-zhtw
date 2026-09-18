@@ -1,0 +1,625 @@
+{
+  "release_acceptance": false,
+  "checker_sha256": "b100c15ca6936aa0349c2685578e603ef963b7ba7528a94e1a292e8e04fa6e42",
+  "inventory_sha256": "1b4a99b4000972d899f6befbdd6f9711b105b46511ea5e4d7bcb8286c3481afe",
+  "rows": [
+    {
+      "case": "metadata-complete",
+      "language": "english",
+      "q6_active_access_control_followup_missing": true,
+      "q6_missing_or_review_marker_count": 0,
+      "q8_ownership_reply_missing": true,
+      "q8_missing_or_review_marker_count": 0,
+      "q6_rendered_text": "Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).\n          All project web services are accessible via secure HTTP (https://...).\n          Project members have been instructed about both generic and specific risks to the project.",
+      "q8_rendered_text": "For the reference and non-reference data sets that we reuse, conditions are as follows: Open coastal observations — station 1 It is freely available with obligation to quote the source (e.g. CC-BY). Open coastal observations — station 2 It is freely available with obligation to quote the source (e.g. CC-BY).",
+      "formats": {
+        "pdf": {
+          "pages": 6,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": false,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 6,
+              "first_question_page": 6,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 6,
+          "q15_heading_page": 6
+        },
+        "word-preview": {
+          "pages": 6,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": true,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 3,
+              "first_question_page": 4,
+              "separated_from_first_question": true
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 6,
+          "q15_heading_page": 6
+        }
+      }
+    },
+    {
+      "case": "metadata-complete",
+      "language": "chinese",
+      "q6_active_access_control_followup_missing": true,
+      "q6_missing_or_review_marker_count": 0,
+      "q8_ownership_reply_missing": true,
+      "q8_missing_or_review_marker_count": 0,
+      "q6_rendered_text": "計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB 隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供 HTTPS 安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。",
+      "q8_rendered_text": "我們再次使用的參考與非參考資料集，其使用條件如下： 開放海岸觀測資料——測站 1 此資料可自由取得，使用時須註明來源（例如 CC BY）。 開放海岸觀測資料——測站 2 此資料可自由取得，使用時須註明來源（例如 CC BY）。",
+      "formats": {
+        "pdf": {
+          "pages": 6,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": false,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 6,
+          "q15_heading_page": 5
+        },
+        "word-preview": {
+          "pages": 6,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": true,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 6,
+              "first_question_page": 6,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 6,
+          "q15_heading_page": 6
+        }
+      }
+    },
+    {
+      "case": "metadata-partial",
+      "language": "english",
+      "q6_active_access_control_followup_missing": true,
+      "q6_missing_or_review_marker_count": 0,
+      "q8_ownership_reply_missing": true,
+      "q8_missing_or_review_marker_count": 0,
+      "q6_rendered_text": "Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).\n          All project web services are accessible via secure HTTP (https://...).\n          Project members have been instructed about both generic and specific risks to the project.",
+      "q8_rendered_text": "For the reference and non-reference data sets that we reuse, conditions are as follows: Open coastal observations — station 1 It is freely available with obligation to quote the source (e.g. CC-BY). Open coastal observations — station 2 It is freely available with obligation to quote the source (e.g. CC-BY).",
+      "formats": {
+        "pdf": {
+          "pages": 6,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": false,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 6,
+              "first_question_page": 6,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 6,
+          "q15_heading_page": 6
+        },
+        "word-preview": {
+          "pages": 6,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": true,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 6,
+          "q15_heading_page": 6
+        }
+      }
+    },
+    {
+      "case": "metadata-partial",
+      "language": "chinese",
+      "q6_active_access_control_followup_missing": true,
+      "q6_missing_or_review_marker_count": 0,
+      "q8_ownership_reply_missing": true,
+      "q8_missing_or_review_marker_count": 0,
+      "q6_rendered_text": "計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB 隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供 HTTPS 安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。",
+      "q8_rendered_text": "我們再次使用的參考與非參考資料集，其使用條件如下： 開放海岸觀測資料——測站 1 此資料可自由取得，使用時須註明來源（例如 CC BY）。 開放海岸觀測資料——測站 2 此資料可自由取得，使用時須註明來源（例如 CC BY）。",
+      "formats": {
+        "pdf": {
+          "pages": 6,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": false,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 6,
+          "q15_heading_page": 6
+        },
+        "word-preview": {
+          "pages": 6,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": true,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 6,
+              "first_question_page": 6,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 6,
+          "q15_heading_page": 6
+        }
+      }
+    },
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "q6_active_access_control_followup_missing": true,
+      "q6_missing_or_review_marker_count": 0,
+      "q8_ownership_reply_missing": true,
+      "q8_missing_or_review_marker_count": 0,
+      "q6_rendered_text": "Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).\n          All project web services are accessible via secure HTTP (https://...).\n          Project members have been instructed about both generic and specific risks to the project. See question 5 for archival and backup arrangements.",
+      "q8_rendered_text": "For the reference and non-reference data sets that we reuse, conditions are as follows: Open coastal observations — station 1 It is freely available with obligation to quote the source (e.g. CC-BY). Open coastal observations — station 2 It is freely available with obligation to quote the source (e.g. CC-BY).",
+      "formats": {
+        "pdf": {
+          "pages": 9,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": false,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 9,
+              "first_question_page": 9,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 9,
+          "q15_heading_page": 9
+        },
+        "word-preview": {
+          "pages": 8,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": true,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 8,
+              "first_question_page": 8,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 8,
+          "q15_heading_page": 8
+        }
+      }
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "q6_active_access_control_followup_missing": true,
+      "q6_missing_or_review_marker_count": 0,
+      "q8_ownership_reply_missing": true,
+      "q8_missing_or_review_marker_count": 0,
+      "q6_rendered_text": "計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB 隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供 HTTPS 安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。 封存與備份安排請見第 5 題。",
+      "q8_rendered_text": "我們再次使用的參考與非參考資料集，其使用條件如下： 開放海岸觀測資料——測站 1 此資料可自由取得，使用時須註明來源（例如 CC BY）。 開放海岸觀測資料——測站 2 此資料可自由取得，使用時須註明來源（例如 CC BY）。",
+      "formats": {
+        "pdf": {
+          "pages": 9,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": false,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 8,
+              "first_question_page": 8,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 9,
+          "q15_heading_page": 8
+        },
+        "word-preview": {
+          "pages": 9,
+          "word_boxes_within_page": true,
+          "within_text_block_line_overlap_checked": true,
+          "sections": [
+            {
+              "id": "sec-data-collection",
+              "heading_page": 2,
+              "first_question_page": 2,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-docs-metadata",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-storage-backup",
+              "heading_page": 3,
+              "first_question_page": 3,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-ethics-legal",
+              "heading_page": 4,
+              "first_question_page": 4,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-sharing-preservation",
+              "heading_page": 5,
+              "first_question_page": 5,
+              "separated_from_first_question": false
+            },
+            {
+              "id": "sec-responsibilities-resources",
+              "heading_page": 8,
+              "first_question_page": 8,
+              "separated_from_first_question": false
+            }
+          ],
+          "budget_heading_page": 9,
+          "q15_heading_page": 9
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Missing markers are an observed defect, not a passed completeness gate",
+    "Page bounds and within-block checks do not prove no overlap across blocks",
+    "A budget heading on another page is evidence for manual review, not automatically an error",
+    "No Microsoft Word or deployment-worker acceptance"
+  ]
+}

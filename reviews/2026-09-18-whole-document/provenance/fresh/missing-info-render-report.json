@@ -1,0 +1,65 @@
+{
+  "all_renders_succeeded": true,
+  "release_acceptance": false,
+  "validation": [
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "reachable_replies": 138,
+      "events_sha256": "682c706fe191afee11b47e78b760d52f6ad3c32467a8f9982dddb73624399cbf",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "reachable_replies": 138,
+      "events_sha256": "72347dd5d091fcb6ae7a1cd8ed33b806be3736cdedad7d080338be436aaea815",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    }
+  ],
+  "renders": [
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "narrative-long",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "narrative-long",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    }
+  ],
+  "checker_sha256": "5d66229580ef57b89dddb145154fdc6598974638f52b68f96e1eae4e0b806c67",
+  "package_sha256": {
+    "english.zip": "45f9f3c20e37b9f6b0181addd28a7128dabb18f23471c0d4caf2b451f39d302d",
+    "chinese.zip": "675a6b15ef5aeca8510fc4c55e53892e447e5ea1e67e8c96024607e62486557c"
+  }
+}
