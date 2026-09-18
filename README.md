@@ -3,7 +3,10 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-最新 [0.3.37 整份文件稽核](docs/whole-document-review.md)：三組中英 PDF／Word 共 83 頁概覽，
+最新 [0.3.38 雙輸出模式實驗](docs/output-profiles.md)：同一套來源提供內部檢核／提交預覽，
+只先切換明列的提示；不是可供任意專案直接繳交的正式模板。既有 747 組譯文全保留。
+
+前輪 [0.3.37 整份文件稽核](docs/whole-document-review.md)：三組中英 PDF／Word 共 83 頁概覽，
 發現 Q6/Q8 部分缺答提示不足、英文 Word 孤立章節標題、中文 PDF 短預算尾頁，
 並整理中英段落節奏。這輪只保存問題與證據，未改模板／譯文／版號；仍未正式驗收。
 

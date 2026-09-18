@@ -8,13 +8,14 @@ import sys
 import tarfile
 from artifact_utils import sha
 from probe_pdf_budget_translation import pair
-from probe_personal_data_translation import verify_prose_translation_chain
+from probe_personal_data_translation import verify_prose_translation_chain, verify_output_profile_translation_chain
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--build', type=Path, required=True); p.add_argument('--english', type=Path, required=True)
+    p.add_argument('--output-profiles', action='store_true', help='Exact 0.3.37→0.3.38 pilot delta; retain every prior review-profile contract')
     a = p.parse_args(); sys.path[:0] = [str(a.english.resolve()/n) for n in ['scripts', 'tests']]
     from storage_context_contract import check_roots as context_checks
     from probe_storage_context import strip
@@ -29,34 +30,46 @@ def main():
     from probe_archive_gap_panels import rows, FIRST, LAST, PAIRS
     from bs4 import BeautifulSoup
     files = sorted((ROOT/'translation/tree').rglob('translation.md'))
-    personal, following = verify_prose_translation_chain([pair(f.read_text()) for f in files])
+    verifier = verify_output_profile_translation_chain if a.output_profiles else verify_prose_translation_chain
+    personal, following = verifier([pair(f.read_text()) for f in files])
     current = json.loads((a.build/'manifest.json').read_text()); assert current['untranslated_units'] == []
     hashes = {str(f.relative_to(ROOT/'translation')): sha(f) for f in files}
     assert hashes == current['translation_tree_sha256']
-    baseline = '06513da10808ec93e69302a0cffa6a766168d09a'
+    baseline = 'ecda664c078d7e9dba6d48fcd3ca785027eb9746' if a.output_profiles else '06513da10808ec93e69302a0cffa6a766168d09a'
     data = subprocess.check_output(['git', '-C', str(ROOT), 'archive', baseline, 'translation/tree'])
     with tarfile.open(fileobj=io.BytesIO(data)) as archive:
         old = {f.name: archive.extractfile(f).read() for f in archive if f.isfile()}
     new = {str(f.relative_to(ROOT)): f.read_bytes() for f in files}
     changed = {n for n in old.keys() | new.keys() if old.get(n) != new.get(n)}
-    assert changed and all(n.startswith('translation/tree/src/questions/03-docs-metadata.html.j2/') for n in changed), 'Non-Q3 translation file changed'
+    allowed_translation = ('translation/tree/src/quality-control.html.j2/', 'translation/tree/src/questions/03-docs-metadata.html.j2/') if a.output_profiles else ('translation/tree/src/questions/03-docs-metadata.html.j2/',)
+    assert changed and all(n.startswith(allowed_translation) for n in changed), 'Unreviewed translation file changed'
     prior = ROOT/'reviews/2026-09-17-metadata-gap-panel/probes/storage-context-scope.json'
     proof = json.loads(prior.read_text()); checks = []
     for old_row in proof['rows']:
-        folder = old_row['language']; root = a.build/folder; before = old_row['after']
+        folder = old_row['language']; root = a.build/folder; historic_before = old_row['after']; before = historic_before
         after = {str(f.relative_to(root)): sha(f) for f in (root/'src').rglob('*') if f.is_file()}
-        assert before.keys() == after.keys()
-        differences = sorted(n for n in before if before[n] != after[n])
-        assert differences == ['src/layout.css', 'src/questions/03-docs-metadata.html.j2'], differences
-        source = (root/'src/layout.css').read_text()
-        assert hashlib.sha256(historical_css(source).encode()).hexdigest() == before['src/layout.css'], 'CSS delta is not the exact retired block'
+        if a.output_profiles:
+            from output_profile_contract import CONTRACT, check as profile_checks
+            previous = json.loads((ROOT/'reviews/2026-09-18-metadata-gap-prose/probes/metadata-gap-prose-scope.json').read_text())
+            before = next(row['after'] for row in previous['rows'] if row['language'] == folder)
+            assert set(after)-set(before) == set(CONTRACT['new_source_files'])
+            assert not set(before)-set(after)
+            differences = sorted(n for n in before if before[n] != after[n])
+            assert differences == sorted(CONTRACT['changed_source_files']), differences
+            profile_rows = profile_checks(root, a.english/'fixtures/pilot'/('en' if folder == 'en' else 'zh-Hant'), 'english' if folder == 'en' else 'chinese')
+        else:
+            assert before.keys() == after.keys()
+            differences = sorted(n for n in before if before[n] != after[n])
+            assert differences == ['src/layout.css', 'src/questions/03-docs-metadata.html.j2'], differences
+            source = (root/'src/layout.css').read_text()
+            assert hashlib.sha256(historical_css(source).encode()).hexdigest() == before['src/layout.css'], 'CSS delta is not the exact retired block'
         language = 'english' if folder == 'en' else 'chinese'
         fixtures = a.english/'tests/fixtures' if folder == 'en' else ROOT/'tests/fixtures'
         suffix = 'en' if folder == 'en' else 'zh-Hant'
         frozen = fixtures/f'storage-0.3.31.{suffix}.html.j2'
         assert sha(frozen) == ('0f929ac601ffb00aa6d8a7352fa4edcb2fd1ab0ed2d4a3daa3b07190bac7dded' if folder == 'en' else '682ba623c03082a9b7d25b616c1fd557d862a5fc3b552817f3d0492d1e5abce3')
         prose_frozen = fixtures/f'metadata-0.3.36.{suffix}.html.j2'
-        assert sha(prose_frozen) == before['src/questions/03-docs-metadata.html.j2']
+        assert sha(prose_frozen) == historic_before['src/questions/03-docs-metadata.html.j2']
         prose_count = prose_checks(root, prose_frozen, language)
         count = storage_checks(root, frozen, language, following_projection=metadata_projection)
         context_frozen = fixtures/f'storage-context-0.3.33.{suffix}.html.j2'
@@ -79,11 +92,12 @@ def main():
         checks.append({'language': folder, 'before': before, 'after': after, 'changed': differences,
             'prose_checks': prose_count, 'q5_checks': len(context_rows), 'q5_eligible': sum(r['eligible'] for r in context_rows), 'q3_exact_dom_checks': metadata_count, 'q3_retained_capacity_checks': count, 'q2_exact_dom_checks': q2, 'q11_branch_checks': q11,
             'q11_gap_combinations': gaps, 'frozen_sha256': sha(frozen)})
+        if a.output_profiles: checks[-1]['output_profile_checks'] = profile_rows
     report = {'passed': True, 'release_acceptance': False, 'rows': checks, 'reviewed_deltas': following,
         'translation_units': len(files), 'translation_tree_sha256': hashes, 'checker_sha256': sha(Path(__file__)),
         'contract_sha256': sha(a.english/'scripts/metadata_gap_prose_contract.py'),
         'package_sha256': {n: sha(a.build/n) for n in ['english.zip', 'chinese.zip']}}
-    target = a.build/'metadata-gap-prose-scope.json'; assert not target.exists()
+    target = a.build/('output-profiles-scope.json' if a.output_profiles else 'metadata-gap-prose-scope.json'); assert not target.exists()
     target.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
     print(json.dumps({'passed': True, 'q5_checks': sum(r['q5_checks'] for r in checks), 'units': len(files)}))
 

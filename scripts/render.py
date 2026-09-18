@@ -17,6 +17,15 @@ FORMATS = {
     "pdf": "68c26e34-5e77-4e15-9bf7-06ff92582257",
     "docx": "f4bd941a-dfbe-4226-a1fc-200fb5269311",
 }
+SUBMISSION_FORMATS = {
+    "html": "499d9300-0183-5157-b6f4-38e6c2b91600",
+    "pdf": "9fd0a115-4b8b-5013-a084-eaf2890ec940",
+    "docx": "98081811-41ff-5438-b98a-0472607527c6",
+}
+
+
+def format_uuid(profile, fmt):
+    return {'review': FORMATS, 'submission': SUBMISSION_FORMATS}[profile][fmt]
 
 # The observed worker notification fallback itself waits up to 180 seconds.
 # A 180-second client deadline can start project cleanup while that delayed job
@@ -31,6 +40,7 @@ def main():
     parser.add_argument("--project", type=Path, required=True)
     parser.add_argument("--language", choices=("english", "chinese"), required=True)
     parser.add_argument("--format", choices=tuple(FORMATS), required=True)
+    parser.add_argument("--profile", choices=('review', 'submission'), default='review')
     parser.add_argument("--name", default="demo")
     parser.add_argument("--tooling", type=Path, required=True)
     parser.add_argument("--api-url", default="http://localhost:13300/wizard-api")
@@ -70,7 +80,7 @@ def main():
             template_dir=Path("."),
             template_package=args.build / f"{args.language}.zip",
             output_path=output,
-            format_uuid=FORMATS[args.format],
+            format_uuid=format_uuid(args.profile, args.format),
             stage_id=None,
             api_url=args.api_url,
             api_key=None,
@@ -93,6 +103,8 @@ def main():
                 "transport_event_ids": [event["uuid"] for event in events],
                 "timeout_seconds": RENDER_TIMEOUT_SECONDS,
                 "runner_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+                "output_profile": args.profile,
+                "format_uuid": format_uuid(args.profile, args.format),
             },
             indent=2,
         )

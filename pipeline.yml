@@ -1,16 +1,23 @@
 schema_version: 1
 source:
   repository: https://github.com/ThreeMonth03/science-europe-template.git
-  commit: 0730b11c4027fcc020c441a3c36264d85649321c
+  commit: d1c84510e7875bc5fb36f68b101f9fd99f1ea1be
   organization_id: threemonth03
   template_id: science-europe-enhanced
-  version: 0.3.37
+  version: 0.3.38
 translation:
   organization_id: threemonth03
   template_id: science-europe-enhanced-zhtw
-  version: 0.3.37
+  version: 0.3.38
   language: zh_Hant
-  name: Science Europe 資料管理方案（客製繁體中文版）
+  name: Science Europe 資料管理方案（雙輸出局部實驗）
+  format_names:
+    a9293d08-59a4-4e6b-ae62-7a6a570b031c: HTML－內部檢核版
+    68c26e34-5e77-4e15-9bf7-06ff92582257: PDF－內部檢核版
+    f4bd941a-dfbe-4226-a1fc-200fb5269311: Word－內部檢核版
+    499d9300-0183-5157-b6f4-38e6c2b91600: HTML－提交預覽（局部實驗）
+    9fd0a115-4b8b-5013-a084-eaf2890ec940: PDF－提交預覽（局部實驗）
+    98081811-41ff-5438-b98a-0472607527c6: Word－提交預覽（局部實驗）
 tooling:
   repository: https://github.com/ThreeMonth03/dsw-document-template-tool.git
   commit: 25e339fbdfb1d20796471055790aad6a4226b6ed

@@ -77,8 +77,8 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
-          # Q3 prose and exact CSS retirement; preserve Q2/Q3/Q5/Q11 gates and all prior translations.
-          ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english
+          # Exact profile source delta; unchanged CSS/Lua/fonts, prior Q2/Q3/Q5/Q11 review gates, and all 747 translations.
+          ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english --output-profiles
           ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/storage-context-engine-en.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/storage-context-engine-zh.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q5_word_join.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/q5-word-join-engine-en.json"
@@ -108,6 +108,7 @@ jobs:
             zh/outputs/build-*/storage-context-*.json
             zh/outputs/build-*/q5-word-join-*.json
             zh/outputs/build-*/metadata-gap-prose-*.json
+            zh/outputs/build-*/output-profiles-scope.json
             zh/outputs/build-*/identifier-spacing-engine.json
             zh/outputs/build-*/identifier-spacing-preflight.json
       - name: State acceptance boundary

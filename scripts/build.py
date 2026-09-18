@@ -54,6 +54,19 @@ def write_json(path: Path, value) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def localize_format_names(metadata: dict, names: dict) -> None:
+    """Display labels only: never change format identities or rendering steps."""
+    formats = metadata['formats']
+    identifiers = [item['uuid'] for item in formats]
+    if len(set(identifiers)) != len(identifiers) or not set(names) <= set(identifiers):
+        raise ValueError('Format labels must name unique existing format UUIDs')
+    if any(not isinstance(label, str) or not label.strip() for label in names.values()):
+        raise ValueError('Format labels must be non-empty text')
+    for item in formats:
+        if item['uuid'] in names:
+            item['name'] = names[item['uuid']]
+
+
 def require_clean_lock(path: Path, lock: str, preview: bool) -> dict:
     state = fingerprint(path)
     if not preview and (state["dirty"] or state["commit"] != lock):
@@ -191,6 +204,11 @@ def build(args) -> Path:
         template_version=str(target["version"]),
         public_readme_path=package_readme(ROOT),
     )
+    if target.get('format_names'):
+        metadata_path = translated / 'template.json'
+        metadata = json.loads(metadata_path.read_text())
+        localize_format_names(metadata, target['format_names'])
+        write_json(metadata_path, metadata)
     issues = audit_translated_template_structure(source_dir=expanded, output_dir=translated)
     write_json(output / "structure-audit.json", [asdict(i) for i in issues])
     if issues:

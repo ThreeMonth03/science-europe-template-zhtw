@@ -13,7 +13,10 @@ ROOT = Path(__file__).resolve().parents[1]
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     for name in ['build', 'english', 'tooling']: p.add_argument('--'+name, type=Path, required=True)
-    p.add_argument('--cases', nargs='+', required=True); a = p.parse_args()
+    p.add_argument('--cases', nargs='+', required=True)
+    p.add_argument('--profiles', nargs='+', choices=['review', 'submission'], default=['review'])
+    a = p.parse_args()
+    assert len(set(a.profiles)) == len(a.profiles), 'Duplicate profiles'
     sys.path.insert(0, str(a.english.resolve()/'scripts'))
     from validate_pilot_fixtures import check
     from generate_pilot_fixtures import IDS
@@ -45,14 +48,15 @@ def main():
         if project_id: client.delete_project(project_id)
         client.close()
         target.write_text(json.dumps(report, indent=2)+'\n')
-    for name in a.cases:
+    for case, profile in [(case, profile) for case in a.cases for profile in a.profiles]:
+        name = case if a.profiles == ['review'] else case+'-'+profile
         for language, locale in [('english', 'en'), ('chinese', 'zh-Hant')]:
             for fmt in ['html', 'pdf', 'docx']:
                 result = subprocess.run([sys.executable, str(ROOT/'scripts/render.py'), '--build', str(a.build),
-                    '--project', str(a.english.resolve()/'fixtures/pilot'/locale/(name+'.json')), '--language', language,
-                    '--format', fmt, '--name', name, '--tooling', str(a.tooling)], capture_output=True, text=True)
+                    '--project', str(a.english.resolve()/'fixtures/pilot'/locale/(case+'.json')), '--language', language,
+                    '--format', fmt, '--profile', profile, '--name', name, '--tooling', str(a.tooling)], capture_output=True, text=True)
                 (a.build/f'render-{name}-{language}-{fmt}.log').write_text(result.stdout+result.stderr)
-                row = {'case': name, 'language': language, 'format': fmt, 'rendered': result.returncode == 0}
+                row = {'case': name, 'fixture_case': case, 'profile': profile, 'language': language, 'format': fmt, 'rendered': result.returncode == 0}
                 report['renders'].append(row); target.write_text(json.dumps(report, indent=2)+'\n')
                 print(json.dumps(row), flush=True); assert row['rendered'], 'See local render log'
     report['all_renders_succeeded'] = True
