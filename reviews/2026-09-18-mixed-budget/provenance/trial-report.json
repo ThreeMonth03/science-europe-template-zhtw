@@ -1,0 +1,2559 @@
+{
+  "completed": true,
+  "template_modified": false,
+  "native_export": false,
+  "word_modified": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "source_template_version": "0.3.42",
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "e03da53344961cd4aecc2271a0315d4c4b3a24b3fa4a5fb1736e6c61e9138282",
+  "contract_sha256": "8f5f27391aee87fc99deb1bd83289a36afbb12b589cb5de9e0806bfa722b28e3",
+  "rows": [
+    {
+      "case": "mixed-long-last",
+      "profile": "review",
+      "language": "english",
+      "stem": "mixed-long-last-review-english",
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e"
+      ],
+      "pdf_pages": [
+        11,
+        11
+      ],
+      "native_pdf_pages": 11,
+      "native_baseline_geometry_identical": true,
+      "native_baseline_fonts_identical": true,
+      "prior_rows": [
+        {
+          "index": 1,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "index": 1,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "prior_repeated_headers": [
+        {
+          "page": 9,
+          "kind": "columns"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        },
+        {
+          "page": 11,
+          "kind": "long-identity"
+        }
+      ],
+      "repeated_headers": [
+        {
+          "page": 9,
+          "kind": "columns"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        },
+        {
+          "page": 11,
+          "kind": "long-identity"
+        }
+      ],
+      "engine_metrics": [
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 8,
+                "height": 58.7795
+              },
+              {
+                "page": 9,
+                "height": 77.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              9,
+              10,
+              11
+            ]
+          }
+        }
+      ],
+      "word_pages": 11,
+      "word_preview_paragraphs_checked": 266,
+      "word_long_purpose_pages": [
+        9,
+        10
+      ],
+      "word_long_identity_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_continuation_without_row_name": [],
+      "source_sha256": {
+        "html": "6e34d45ec3c52c899f3fae151ac321cba5a68570ab91b468e19f4c56b5731bc7",
+        "pdf": "fb3ba285b3f797c340fe1535ab99c5899769c2c54e05cbc0616a7dfe405481af",
+        "docx": "80894751f1656c69b1f7bd16ea652d84e6d167ae2ed606ba8f48d8d77864e828"
+      },
+      "word_preview_sha256": "d6dc51ea491c0caed2235d487c00804d8672d44bdee8ad39c7443b0ae11cd217",
+      "trial_sha256": {
+        "mixed-long-last-review-english-baseline.pdf": "9b75279e9800a9a0a91de819f07ec24c95ac4d953ef9f4cea8b06c8d94ff10cc",
+        "mixed-long-last-review-english-keep-short-rows.pdf": "e28073878539da57221b679b88b1d4f37064663194578e4b1ace303da47ca713"
+      },
+      "passed_content_checks": true
+    },
+    {
+      "case": "mixed-long-last",
+      "profile": "review",
+      "language": "chinese",
+      "stem": "mixed-long-last-review-chinese",
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e"
+      ],
+      "pdf_pages": [
+        10,
+        10
+      ],
+      "native_pdf_pages": 9,
+      "native_baseline_geometry_identical": false,
+      "native_baseline_fonts_identical": false,
+      "prior_rows": [
+        {
+          "index": 1,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "index": 1,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "prior_repeated_headers": [
+        {
+          "page": 8,
+          "kind": "columns"
+        },
+        {
+          "page": 9,
+          "kind": "long-identity"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        }
+      ],
+      "repeated_headers": [
+        {
+          "page": 8,
+          "kind": "columns"
+        },
+        {
+          "page": 9,
+          "kind": "long-identity"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        }
+      ],
+      "engine_metrics": [
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 7,
+                "height": 69.6462
+              },
+              {
+                "page": 8,
+                "height": 57.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              8,
+              9,
+              10
+            ]
+          }
+        }
+      ],
+      "word_pages": 11,
+      "word_preview_paragraphs_checked": 266,
+      "word_long_purpose_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_long_identity_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_continuation_without_row_name": [],
+      "source_sha256": {
+        "html": "514f0d6eb73a7b54bd72457a2825057eed16acb88eb16d6eed6d6d57da821b2d",
+        "pdf": "c2515a957d3692268cd808b71c08c3fb129c4e45208034eb04cb508cf2b9cb4f",
+        "docx": "9bc18918897a74a83997336ccd6a4ac761022709e7cf40271f39ca9e4d469f84"
+      },
+      "word_preview_sha256": "4b28459d4d717f9eba3473be19913f7eb86be240357ee79b4e8d9ebfcdf457c5",
+      "trial_sha256": {
+        "mixed-long-last-review-chinese-baseline.pdf": "4ece7fb4ab4fcba01a6f81a0bf658447494322dc87bb73aa1f947e14ef00291a",
+        "mixed-long-last-review-chinese-keep-short-rows.pdf": "0f96c0c0fcecd888b9626db53af2abc796b6703a19d65d18668d53018555d1be"
+      },
+      "passed_content_checks": true
+    },
+    {
+      "case": "mixed-long-last",
+      "profile": "submission",
+      "language": "english",
+      "stem": "mixed-long-last-submission-english",
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e"
+      ],
+      "pdf_pages": [
+        11,
+        11
+      ],
+      "native_pdf_pages": 11,
+      "native_baseline_geometry_identical": true,
+      "native_baseline_fonts_identical": true,
+      "prior_rows": [
+        {
+          "index": 1,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            8,
+            9
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "index": 1,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "prior_repeated_headers": [
+        {
+          "page": 9,
+          "kind": "columns"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        },
+        {
+          "page": 11,
+          "kind": "long-identity"
+        }
+      ],
+      "repeated_headers": [
+        {
+          "page": 9,
+          "kind": "columns"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        },
+        {
+          "page": 11,
+          "kind": "long-identity"
+        }
+      ],
+      "engine_metrics": [
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 8,
+                "height": 58.7795
+              },
+              {
+                "page": 9,
+                "height": 77.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              9,
+              10,
+              11
+            ]
+          }
+        }
+      ],
+      "word_pages": 10,
+      "word_preview_paragraphs_checked": 260,
+      "word_long_purpose_pages": [
+        8,
+        9
+      ],
+      "word_long_identity_pages": [
+        8,
+        9,
+        10
+      ],
+      "word_continuation_without_row_name": [],
+      "source_sha256": {
+        "html": "5b426a7e79b43c770e24d233c725a6c17a194c1b46510c28b4b957663f5088e7",
+        "pdf": "cd3e01df2afd9ee6c0ab3b3e6484ad6cb23fe247673bfad6bf8bf30e3caae0a1",
+        "docx": "c71870d28c4ddc2ddf40049af012af170775dcb9cea8a82966c40cb0629563fb"
+      },
+      "word_preview_sha256": "b8aa495fb775a32a95dd9a7cd42bd237ee42d482f63d544f3becfa06d5e8e566",
+      "trial_sha256": {
+        "mixed-long-last-submission-english-baseline.pdf": "632c421a6123893dcf7bd70387b8ad12255f03a88d13f47c3a21a8ff88b66127",
+        "mixed-long-last-submission-english-keep-short-rows.pdf": "1c954c20963f367b945b88c23ffe9cbcf0571dbdd9056b4bed6936bb89bf9a0c"
+      },
+      "passed_content_checks": true
+    },
+    {
+      "case": "mixed-long-last",
+      "profile": "submission",
+      "language": "chinese",
+      "stem": "mixed-long-last-submission-chinese",
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e"
+      ],
+      "pdf_pages": [
+        9,
+        9
+      ],
+      "native_pdf_pages": 9,
+      "native_baseline_geometry_identical": true,
+      "native_baseline_fonts_identical": true,
+      "prior_rows": [
+        {
+          "index": 1,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "index": 1,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "prior_repeated_headers": [
+        {
+          "page": 8,
+          "kind": "columns"
+        },
+        {
+          "page": 9,
+          "kind": "long-identity"
+        }
+      ],
+      "repeated_headers": [
+        {
+          "page": 8,
+          "kind": "columns"
+        },
+        {
+          "page": 9,
+          "kind": "long-identity"
+        }
+      ],
+      "engine_metrics": [
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 7,
+                "height": 61.5795
+              },
+              {
+                "page": 8,
+                "height": 57.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              8,
+              9
+            ]
+          }
+        },
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              8,
+              9
+            ]
+          }
+        }
+      ],
+      "word_pages": 11,
+      "word_preview_paragraphs_checked": 260,
+      "word_long_purpose_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_long_identity_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_continuation_without_row_name": [],
+      "source_sha256": {
+        "html": "53ac216e43dcff5034c9d53cb41534526e740c32dd5924b37ecc630b48ef733b",
+        "pdf": "903c4438e587f699b6c5a82e28c4599b4e355806354effc7fc0f2bc67cb16904",
+        "docx": "361ff418b142da360e892c628e76360237b0a8ff261ddeb7daa4a5236ddf75f4"
+      },
+      "word_preview_sha256": "ffed64720201b1015f17e14ca5123db9c783776df71f99f27dadfd21db7accc7",
+      "trial_sha256": {
+        "mixed-long-last-submission-chinese-baseline.pdf": "aaa9250c155f2f23d63cad3c87af62fb94aa933c82cf08fd95cb0fc17b3c157b",
+        "mixed-long-last-submission-chinese-keep-short-rows.pdf": "a6d534ae46c4fa4e9e053e3eaa19be7b65e35e9e15b842879a14090775d2ec32"
+      },
+      "passed_content_checks": true
+    },
+    {
+      "case": "mixed-gaps",
+      "profile": "review",
+      "language": "english",
+      "stem": "mixed-gaps-review-english",
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e"
+      ],
+      "pdf_pages": [
+        11,
+        11
+      ],
+      "native_pdf_pages": 11,
+      "native_baseline_geometry_identical": true,
+      "native_baseline_fonts_identical": true,
+      "prior_rows": [
+        {
+          "index": 1,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "index": 1,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "prior_repeated_headers": [
+        {
+          "page": 9,
+          "kind": "columns"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        },
+        {
+          "page": 11,
+          "kind": "long-identity"
+        }
+      ],
+      "repeated_headers": [
+        {
+          "page": 9,
+          "kind": "columns"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        },
+        {
+          "page": 11,
+          "kind": "long-identity"
+        }
+      ],
+      "engine_metrics": [
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 8,
+                "height": 127.0
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 138.3333
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 8,
+                "height": 127.0
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 138.3333
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              9,
+              10,
+              11
+            ]
+          }
+        }
+      ],
+      "word_pages": 11,
+      "word_preview_paragraphs_checked": 268,
+      "word_long_purpose_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_long_identity_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_continuation_without_row_name": [],
+      "source_sha256": {
+        "html": "72dd40c614408f9488a30f7d30df52f8d0655165d4a94a72c779bfcd00bc2e4a",
+        "pdf": "16bcc63571366b41139b7d2b6b39e2dcf3c5846bc26a75dfdc0dcf088f51e789",
+        "docx": "76bb52ea325b07caf0315596122a956b4841c0bc71d3533e1fafd7e22e7ed0f7"
+      },
+      "word_preview_sha256": "a2eb2e6b6a1154fe9492cb8d575dc030634a7b50da8cc46d1436c2f66b43af44",
+      "trial_sha256": {
+        "mixed-gaps-review-english-baseline.pdf": "451ea2fd14624627ec9a4cf1099a5749745f801e5961db51f1c9b6db92945400",
+        "mixed-gaps-review-english-keep-short-rows.pdf": "905052d9dc6c440dfa6e5aa7a82eb729246fabe2aa8e357b20c0bf7fd474e36f"
+      },
+      "passed_content_checks": true
+    },
+    {
+      "case": "mixed-gaps",
+      "profile": "review",
+      "language": "chinese",
+      "stem": "mixed-gaps-review-chinese",
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e"
+      ],
+      "pdf_pages": [
+        10,
+        10
+      ],
+      "native_pdf_pages": 10,
+      "native_baseline_geometry_identical": false,
+      "native_baseline_fonts_identical": false,
+      "prior_rows": [
+        {
+          "index": 1,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "index": 1,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "prior_repeated_headers": [
+        {
+          "page": 8,
+          "kind": "columns"
+        },
+        {
+          "page": 9,
+          "kind": "long-identity"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        }
+      ],
+      "repeated_headers": [
+        {
+          "page": 8,
+          "kind": "columns"
+        },
+        {
+          "page": 9,
+          "kind": "long-identity"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        }
+      ],
+      "engine_metrics": [
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 7,
+                "height": 87.0
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 7,
+                "height": 66.3129
+              },
+              {
+                "page": 8,
+                "height": 57.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 98.3333
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 7,
+                "height": 87.0
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 98.3333
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              8,
+              9,
+              10
+            ]
+          }
+        }
+      ],
+      "word_pages": 11,
+      "word_preview_paragraphs_checked": 268,
+      "word_long_purpose_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_long_identity_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_continuation_without_row_name": [],
+      "source_sha256": {
+        "html": "62856fdbd5362733c4e0d43cfed3887a6e8d8f63000a2b278ae1f0333ef995be",
+        "pdf": "580f0487649cbc552835c8e6d937da707187107fbf26f3cb33e23acf3bb9af5f",
+        "docx": "7a45994aa4d35e521ebb8245f05ed6f9014bc7c20f0d2885dc4207ab1f48b5c5"
+      },
+      "word_preview_sha256": "c65c208d24b7e634f515bc93f31b9fc910cc2f143266daa09d5c98cb49ea6190",
+      "trial_sha256": {
+        "mixed-gaps-review-chinese-baseline.pdf": "e5aedb10d1314d65d68a5f25ae2b48d08720702fc0ddb06cba6f6b35063b7dd2",
+        "mixed-gaps-review-chinese-keep-short-rows.pdf": "a87fbea5dc6df61816833d30124c810d6a60d25d3f20b11d7fa6f8b2df22d923"
+      },
+      "passed_content_checks": true
+    },
+    {
+      "case": "mixed-gaps",
+      "profile": "submission",
+      "language": "english",
+      "stem": "mixed-gaps-submission-english",
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e"
+      ],
+      "pdf_pages": [
+        11,
+        11
+      ],
+      "native_pdf_pages": 11,
+      "native_baseline_geometry_identical": true,
+      "native_baseline_fonts_identical": true,
+      "prior_rows": [
+        {
+          "index": 1,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "index": 1,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            9
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "prior_repeated_headers": [
+        {
+          "page": 9,
+          "kind": "columns"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        },
+        {
+          "page": 11,
+          "kind": "long-identity"
+        }
+      ],
+      "repeated_headers": [
+        {
+          "page": 9,
+          "kind": "columns"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        },
+        {
+          "page": 11,
+          "kind": "long-identity"
+        }
+      ],
+      "engine_metrics": [
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 8,
+                "height": 127.0
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 138.3333
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              9,
+              10,
+              11
+            ]
+          }
+        },
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 8,
+                "height": 127.0
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 8,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 8,
+                "height": 138.3333
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 9,
+                "height": 103.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              9,
+              10,
+              11
+            ]
+          }
+        }
+      ],
+      "word_pages": 10,
+      "word_preview_paragraphs_checked": 262,
+      "word_long_purpose_pages": [
+        8,
+        9,
+        10
+      ],
+      "word_long_identity_pages": [
+        8,
+        9,
+        10
+      ],
+      "word_continuation_without_row_name": [],
+      "source_sha256": {
+        "html": "f45b021d448466f9466a6a5a09823db1feed147734bb70ea878e9bf24be8e78c",
+        "pdf": "d4fbf28979d16969b3f53a7c33bc7e109d6c58f588e14f9c571c66fdf2f36159",
+        "docx": "b4aea1abee63add6cf9c47b83606d5a07dc8592367de4d02671016661c4f69df"
+      },
+      "word_preview_sha256": "f85d21d1d393dabdca106f23cc07b0810b6e43a57d3385fbf1dc77bf462ffecf",
+      "trial_sha256": {
+        "mixed-gaps-submission-english-baseline.pdf": "1b698640f46d71e724081ffc640d60e27c07579dc1c33b2357bb3fcd671ea8e4",
+        "mixed-gaps-submission-english-keep-short-rows.pdf": "da883d154dbc3a15ac8ffef66953cfaff6a254223db5d367f48a951cdd1db87f"
+      },
+      "passed_content_checks": true
+    },
+    {
+      "case": "mixed-gaps",
+      "profile": "submission",
+      "language": "chinese",
+      "stem": "mixed-gaps-submission-chinese",
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e"
+      ],
+      "pdf_pages": [
+        10,
+        10
+      ],
+      "native_pdf_pages": 10,
+      "native_baseline_geometry_identical": true,
+      "native_baseline_fonts_identical": true,
+      "prior_rows": [
+        {
+          "index": 1,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "index": 1,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 2,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 3,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "pages": [
+            7
+          ]
+        },
+        {
+          "index": 7,
+          "pages": [
+            8
+          ]
+        },
+        {
+          "index": 8,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "prior_repeated_headers": [
+        {
+          "page": 8,
+          "kind": "columns"
+        },
+        {
+          "page": 9,
+          "kind": "long-identity"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        }
+      ],
+      "repeated_headers": [
+        {
+          "page": 8,
+          "kind": "columns"
+        },
+        {
+          "page": 9,
+          "kind": "long-identity"
+        },
+        {
+          "page": 10,
+          "kind": "long-identity"
+        }
+      ],
+      "engine_metrics": [
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 7,
+                "height": 87.0
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 7,
+                "height": 98.3333
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 7,
+                "height": 43.5795
+              },
+              {
+                "page": 8,
+                "height": 57.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              8,
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "rows": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390": [
+              {
+                "page": 7,
+                "height": 87.0
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412": [
+              {
+                "page": 7,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e": [
+              {
+                "page": 7,
+                "height": 98.3333
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ],
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e": [
+              {
+                "page": 8,
+                "height": 83.6667
+              }
+            ]
+          },
+          "long_tables": {
+            "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee": [
+              8,
+              9,
+              10
+            ]
+          }
+        }
+      ],
+      "word_pages": 11,
+      "word_preview_paragraphs_checked": 262,
+      "word_long_purpose_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_long_identity_pages": [
+        9,
+        10,
+        11
+      ],
+      "word_continuation_without_row_name": [],
+      "source_sha256": {
+        "html": "53cbe0d5ba058045457b4acba4e4128aca9dfbbf85f4287087063ff7b9271b24",
+        "pdf": "84cf81ea9fdf1c88cf1bd16303396509b4f5fc0029a822ffb5dc6919a71b069d",
+        "docx": "e42e53193bcd5c0ab2577e95b8e28461d91f4e1a4885c151ad55494182c01d83"
+      },
+      "word_preview_sha256": "8c587860cd135562527959d8f88d5ef211532125743257560c9966ca7fd45d4e",
+      "trial_sha256": {
+        "mixed-gaps-submission-chinese-baseline.pdf": "bf3332803ac3f8255df2bd284ea2de356292ae290f2a9ab380d6a86ac4bf2de2",
+        "mixed-gaps-submission-chinese-keep-short-rows.pdf": "9764a2be66cd84bdf748f24d7110408dfac319143a5b61a6b75d26456fa9fe54"
+      },
+      "passed_content_checks": true
+    }
+  ],
+  "limits": [
+    "Offline trials are not native candidate exports",
+    "Native baseline geometry/font agreement is checked explicitly",
+    "Only two public mixed-budget fixtures receive native exports; position/count controls are structural probes",
+    "Word is inspected but not modified",
+    "No new missing-notice suppression"
+  ],
+  "matrix": [
+    {
+      "case": "rows-9-long-1",
+      "selected": [
+        "resource-1",
+        "resource-2",
+        "resource-3",
+        "resource-4",
+        "resource-5",
+        "resource-6",
+        "resource-7",
+        "resource-8"
+      ]
+    },
+    {
+      "case": "rows-9-long-5",
+      "selected": [
+        "resource-0",
+        "resource-1",
+        "resource-2",
+        "resource-3",
+        "resource-5",
+        "resource-6",
+        "resource-7",
+        "resource-8"
+      ]
+    },
+    {
+      "case": "rows-9-long-9",
+      "selected": [
+        "resource-0",
+        "resource-1",
+        "resource-2",
+        "resource-3",
+        "resource-4",
+        "resource-5",
+        "resource-6",
+        "resource-7"
+      ]
+    },
+    {
+      "case": "rows-7-long-4",
+      "selected": []
+    },
+    {
+      "case": "rows-32-long-1",
+      "selected": [
+        "resource-1",
+        "resource-2",
+        "resource-3",
+        "resource-4",
+        "resource-5",
+        "resource-6",
+        "resource-7",
+        "resource-8",
+        "resource-9",
+        "resource-10",
+        "resource-11",
+        "resource-12",
+        "resource-13",
+        "resource-14",
+        "resource-15",
+        "resource-16",
+        "resource-17",
+        "resource-18",
+        "resource-19",
+        "resource-20",
+        "resource-21",
+        "resource-22",
+        "resource-23",
+        "resource-24",
+        "resource-25",
+        "resource-26",
+        "resource-27",
+        "resource-28",
+        "resource-29",
+        "resource-30",
+        "resource-31"
+      ]
+    },
+    {
+      "case": "rows-32-long-17",
+      "selected": [
+        "resource-0",
+        "resource-1",
+        "resource-2",
+        "resource-3",
+        "resource-4",
+        "resource-5",
+        "resource-6",
+        "resource-7",
+        "resource-8",
+        "resource-9",
+        "resource-10",
+        "resource-11",
+        "resource-12",
+        "resource-13",
+        "resource-14",
+        "resource-15",
+        "resource-17",
+        "resource-18",
+        "resource-19",
+        "resource-20",
+        "resource-21",
+        "resource-22",
+        "resource-23",
+        "resource-24",
+        "resource-25",
+        "resource-26",
+        "resource-27",
+        "resource-28",
+        "resource-29",
+        "resource-30",
+        "resource-31"
+      ]
+    },
+    {
+      "case": "rows-32-long-32",
+      "selected": [
+        "resource-0",
+        "resource-1",
+        "resource-2",
+        "resource-3",
+        "resource-4",
+        "resource-5",
+        "resource-6",
+        "resource-7",
+        "resource-8",
+        "resource-9",
+        "resource-10",
+        "resource-11",
+        "resource-12",
+        "resource-13",
+        "resource-14",
+        "resource-15",
+        "resource-16",
+        "resource-17",
+        "resource-18",
+        "resource-19",
+        "resource-20",
+        "resource-21",
+        "resource-22",
+        "resource-23",
+        "resource-24",
+        "resource-25",
+        "resource-26",
+        "resource-27",
+        "resource-28",
+        "resource-29",
+        "resource-30"
+      ]
+    },
+    {
+      "case": "rows-33-long-33",
+      "selected": []
+    }
+  ],
+  "engine_stderr": "",
+  "all_native_baselines_reproduced": false,
+  "all_trial_page_counts_nonincreasing": true
+}

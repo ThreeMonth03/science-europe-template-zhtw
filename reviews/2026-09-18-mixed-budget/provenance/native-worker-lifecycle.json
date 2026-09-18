@@ -1,0 +1,15 @@
+{
+  "scope": "Only science-europe-pilot; no production requests or other local-stack changes",
+  "native_run": "runtime-tables-16a353fu",
+  "expected_renders": 24,
+  "deleted_owned_templates": 2,
+  "zip_backups_retained": true,
+  "stock_worker_restored": true,
+  "observed_restored_image_id": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "after": [
+    {"name": "science-europe-pilot-docworker-1", "status": "exited"},
+    {"name": "science-europe-pilot-server-1", "status": "exited"},
+    {"name": "science-europe-pilot-minio-1", "status": "exited"},
+    {"name": "science-europe-pilot-postgres-1", "status": "exited"}
+  ]
+}

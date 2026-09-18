@@ -1,0 +1,70 @@
+{
+  "public_synthetic": true,
+  "template_modified": false,
+  "inputs": {
+    "en": {
+      "budget-many.json": "3367073773ba4fce1972e5bb2e80658c5f92acca8207769107a0b0f6050daee3",
+      "budget-many.events.json": "6c6ddf1c69d7fd5c8e1de711745ad4397cb1df98ede79cba2a948675c0a51c74",
+      "budget-long.events.json": "374824ea9d4c889364f5e28b6b9a0a64129b8fb2b6b07d7ed066455ccc50267a",
+      "knowledge_model_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965"
+    },
+    "zh-Hant": {
+      "budget-many.json": "486168c4c17bbf2e867061e905c7b9fc3cbf995eee31bf9b12bf646d50ba7b9e",
+      "budget-many.events.json": "987ab371d963e3f7bbf7d60763b3d855e637d079ea7eb11f7b1c5f7ded202ca8",
+      "budget-long.events.json": "080df7348355c3a6306167325c00a919674852c1ef0e95a71e49d007f680c18b",
+      "knowledge_model_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47"
+    }
+  },
+  "cases": {
+    "en/mixed-long-last": {
+      "events_sha256": "e967c1950e089b6cdd206899c408800e407787fbc01dc840a87dcc96dba61c6e",
+      "recipe_sha256": "0fcb7dae9d268f1fffcedc43d03551c94c8394d0c2527edf7f1167f574c8d5fd",
+      "reply_count": 208
+    },
+    "en/mixed-long-first": {
+      "events_sha256": "5cb0e0c9ce5fda0a6eaddded6c59845788f2ffade9f47739a35f9a9db4f02d0b",
+      "recipe_sha256": "e2c34bc3d78337e7e879f668f0c264a3a8b5efb86af96ea470d8fc6631e6adf4",
+      "reply_count": 208
+    },
+    "en/mixed-long-middle": {
+      "events_sha256": "c2ece7504758e5be2ead04666b3caf50895102052b8eb1cb7c305c4d3a26c464",
+      "recipe_sha256": "ddbd006221765677697121e95fb87a607b0d46893fc3fb3877b0de229d62581d",
+      "reply_count": 208
+    },
+    "en/mixed-small-groups": {
+      "events_sha256": "72963682594f09b3e043453698c8cc624c556e33f2236276f20fbc3677831639",
+      "recipe_sha256": "d6c74599e682dd24943d9d0b4be556766bee4464962a8a3d2b950a7447b9209f",
+      "reply_count": 194
+    },
+    "en/mixed-gaps": {
+      "events_sha256": "4dacd8abb058ff3500d96e024c6aa307211557552451050ef8588e7d5dd76bc9",
+      "recipe_sha256": "1619408d65546b1aa79d5457c538d5e9c34d2bc2263ce3bc7cf03496a4e0b004",
+      "reply_count": 202
+    },
+    "zh-Hant/mixed-long-last": {
+      "events_sha256": "9deed740dc5aa555f2524ca7f0d75c3695e8d51beb5cdb54e739c42af762533d",
+      "recipe_sha256": "0db0b03b85e1ad7c5c6a8906d52c0ae7f8be9ad33f74a349fb88683827103322",
+      "reply_count": 208
+    },
+    "zh-Hant/mixed-long-first": {
+      "events_sha256": "6296bce9bbcfc1f736fe7f08e7de7de0b3be7fdce23fb0c622eb0dfdf4162128",
+      "recipe_sha256": "2d0891906ab2ef751eeec04eb5466e848d1567853b50e0d65fa2ef320444fa27",
+      "reply_count": 208
+    },
+    "zh-Hant/mixed-long-middle": {
+      "events_sha256": "815a28ae784714c18e7cecb30b5bdffbb4684d14685044a409f2e68f28c58d65",
+      "recipe_sha256": "dcb7f5cfdbe247fc91ad72e48c348252df6d12b92f402772273bd59243c0e483",
+      "reply_count": 208
+    },
+    "zh-Hant/mixed-small-groups": {
+      "events_sha256": "2bf4fb4c8ab07a5d6ff2242d88dd77a710d773c332cfa92f33521aecb41c468c",
+      "recipe_sha256": "afc136acc0671b4c781a4e5d1206bf41e3b0d217aa0038c721460ddd369dd0a8",
+      "reply_count": 194
+    },
+    "zh-Hant/mixed-gaps": {
+      "events_sha256": "506f0751522d3458d63af9e9c2899489c26318f142b1ef4cd9457fbcc8ecf019",
+      "recipe_sha256": "99527acb16d74dfde45239004791f7f9c3a3f49d80a489539d276a183b3d08c7",
+      "reply_count": 202
+    }
+  }
+}

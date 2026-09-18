@@ -3,6 +3,12 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
+最新 [混合長／短預算壓力測試](reviews/2026-09-18-mixed-budget/README.md)：
+確認 0.3.42 在有長回答時仍可能拆開短列。八組 PDF A/B 的短列完整同頁且頁數不增，
+Word 長列的段落與續頁識別也完成核對；但兩組中文檢核版的離線字型／座標
+尚未重現原生基準。[加強檢查另發現原生長列續頁缺表頭](reviews/2026-09-18-mixed-budget-header/README.md)，
+須與短列規則一併處理。本輪只保存證據，模板／翻譯／版號不變，尚未原生整合。
+
 目前 [0.3.42 多筆預算短列連頁](docs/short-resource-rows.md)：只改英文共用 PDF
 的有界短列設定，中文循既有流程產生，748 組譯文／CSS／字型／Word 不變。
 [16 組原生前後對照](reviews/2026-09-18-short-resource-rows/README.md) 已通過限定檢查：

@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "mixed-gaps-submission-english",
+      "docx_sha256": "b4aea1abee63add6cf9c47b83606d5a07dc8592367de4d02671016661c4f69df",
+      "preview_sha256": "f85d21d1d393dabdca106f23cc07b0810b6e43a57d3385fbf1dc77bf462ffecf"
+    },
+    {
+      "name": "mixed-gaps-submission-chinese",
+      "docx_sha256": "e42e53193bcd5c0ab2577e95b8e28461d91f4e1a4885c151ad55494182c01d83",
+      "preview_sha256": "8c587860cd135562527959d8f88d5ef211532125743257560c9966ca7fd45d4e"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

@@ -1,0 +1,14 @@
+{
+  "template_version": "0.3.42",
+  "template_modified": false,
+  "native_header_acceptance": false,
+  "cause_confirmed": false,
+  "case": "mixed-long-last-review-chinese",
+  "source_pdf": "../2026-09-18-mixed-budget/native/mixed-long-last-review-chinese.pdf",
+  "source_pdf_sha256": "c2515a957d3692268cd808b71c08c3fb129c4e45208034eb04cb508cf2b9cb4f",
+  "source_archive_checksums_sha256": "04e2fc65cf9d5a4fc2eac5db4e114ef3a74854da56cec2fce9ed3a6d7a665911",
+  "long_row_pages": [8, 9],
+  "missing_header_pages": [9],
+  "other_native_cases_with_missing_headers": [],
+  "offline_trials_reproduce_this_defect": false
+}
