@@ -79,6 +79,8 @@ def main():
     import check_missing_info_outputs as missing
     missing.HERE = args.english.resolve()
     report = dict(selected_checks_passed=False, release_acceptance=False, rows=[], checker_sha256=sha(Path(__file__)),
+        word_contract_sha256=sha(args.english/'scripts/probe_metadata_gap_prose.py'),
+        prose_contract_sha256=sha(args.english/'scripts/metadata_gap_prose_contract.py'),
         package_sha256={n: sha(args.build / n) for n in ('english.zip', 'chinese.zip')},
         prior_package_sha256={n: sha(args.prior / n) for n in ('english.zip', 'chinese.zip')},
         limits=['Five synthetic cases per language, not all questionnaire branches',
