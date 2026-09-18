@@ -3,12 +3,18 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-目前 [0.3.41 Q15 固定敘述合段](docs/resource-prose.md) 已接回英文共用來源，
+目前 [0.3.42 多筆預算短列連頁](docs/short-resource-rows.md)：只改英文共用 PDF
+的有界短列設定，中文循既有流程產生，748 組譯文／CSS／字型／Word 不變。
+[16 組原生前後對照](reviews/2026-09-18-short-resource-rows/README.md) 已通過限定檢查：
+中英文八筆預算的短列不再跨頁，頁數不增；全空、部分填答、長篇漏填控制組及
+全部 Word 正文／分頁不變。混合長短列與真實專案、完整提交模式仍待驗收。
+
+前版 [0.3.41 Q15 固定敘述合段](docs/resource-prose.md) 已接回英文共用來源，
 中文循既有流程產生，748 組譯文不變。只合併兩項明確回答的固定敘述，
 自由回答及漏填原樣保留；原生 PDF／Word 驗證與正式發布分開記錄。
 [16 組原生前後對照](reviews/2026-09-18-resource-prose-native/README.md) 已通過限定檢查：
 中文提交 Word Q15 與預算恢復同頁，全部頁數／字型不變；全空案例的正文版面不變。
-仍看到八筆預算的英文 PDF 有單列跨頁，列為下一項排版修正，不宣稱全篇已驗收。
+該輪仍有八筆預算的短列跨頁，已由上方 0.3.42 實驗處理；不宣稱全篇已驗收。
 
 前次 [句號位置與短段落 A/B 診斷](reviews/2026-09-18-resource-prose/README.md)：
 Q15 指定句子的句號間隔來自全形置中字形，不是多加空白。

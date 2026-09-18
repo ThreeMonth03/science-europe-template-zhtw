@@ -21,6 +21,16 @@ class ShortResourceRowOutputTests(unittest.TestCase):
         self.assertEqual(len(rows),8);self.assertEqual(rows[6]['pages'],[8,9])
         self.assertTrue(all(r['paragraph_count']==5 for r in rows))
 
+    def test_both_chinese_profiles_retain_their_real_prior_split(self):
+        for profile,index in [('review',5),('submission',6)]:
+            stem='budget-many-'+profile+'-chinese'
+            pages=snapshot(BASE/'native'/(stem+'.pdf'))[0]
+            soup=BeautifulSoup((BASE/'question-content'/(stem+'.html')).read_text(),'html.parser')
+            rows=row_pages(pages,soup)
+            with self.subTest(profile=profile):
+                self.assertEqual(rows[index]['pages'],[7,8])
+                self.assertEqual(sum(len(r['pages'])>1 for r in rows),1)
+
     def test_missing_duplicate_and_wrong_row_cells_are_rejected(self):
         pages,soup=self.fixture();compact=lambda s:''.join(s.split())
         source=soup.select_one('.resource-table tbody')

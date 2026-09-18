@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "budget-many-review-english",
+      "docx_sha256": "d8e782e0ac91b3b924183f7f51378eacd10979ae381409a91c4d01a1d7ee8109",
+      "preview_sha256": "c46d880db93f955dd3327b59e6594e9d2161c22c8ab4be6a641ec7a776c8d89c"
+    },
+    {
+      "name": "budget-many-review-chinese",
+      "docx_sha256": "77d3b45a156a9e6f348b642fb67169189d0296faaf60c96a1299747b11aae460",
+      "preview_sha256": "cea0809a801db27e062702919d1ce4ac68ff2c7f266178afab9365320bb36cf4"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

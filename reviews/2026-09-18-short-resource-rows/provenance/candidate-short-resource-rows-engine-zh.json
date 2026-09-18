@@ -1,0 +1,2008 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "checker_sha256": "5d685b206dde4addb4f539e96969f18e1127b3ace01cd6de3209b6598964f781",
+  "contract_sha256": "3c9a0726a463cba6a30934bb2eb8c82401efddf402a8816f7dcf3d5ebc162329",
+  "source_sha256": {
+    "src/pdf/short-resource-rows.html.j2": "b15435defc8411135484872e3c36f579f94f821ef0df7201ee8d18c9ea06b542",
+    "src/budget-reading.html.j2": "698e37d6b4231f32b8f508fe52883ce144917d278bc0afc5f83ba309e7e927f5",
+    "src/layout.css": "91a6762170b2190f0c3bf353a595f8e4fba11897a8d8a67424022dc89f9d5d59"
+  },
+  "rows": [
+    {
+      "case": "rows-0",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "rows-1",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "rows-3",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "rows-4",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "rows-8",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.5",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.6",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.7"
+      ]
+    },
+    {
+      "case": "rows-32",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.5",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.6",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.7",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.8",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.9",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.10",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.11",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.12",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.13",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.14",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.15",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.16",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.17",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.18",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.19",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.20",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.21",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.22",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.23",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.24",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.25",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.26",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.27",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.28",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.29",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.30",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.31"
+      ]
+    },
+    {
+      "case": "rows-33",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "chinese",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "inline",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "authored-warning",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "missing-purpose",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "missing-budget",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "zero-missing-currency",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "missing-funding",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "missing-grant",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "link",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "image",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "break",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "list",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "nested-table",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "nested-inline",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "style",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "unknown-status",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "comment",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "unclosed",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "mismatched",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "stray-text",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "empty",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "four-paragraphs",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "long-purpose",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "title-units-80",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "title-cjk-80",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "title-token-40",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "title-units-81",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "title-cjk-82",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "title-token-41",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "purpose-units-240",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "purpose-cjk-240",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "purpose-token-40",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "purpose-units-241",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "purpose-cjk-242",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "purpose-token-41",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "budget-units-80",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "budget-cjk-80",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "budget-token-12",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "budget-units-81",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "budget-cjk-82",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "budget-token-13",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "funding-units-100",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "funding-cjk-100",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "funding-token-20",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "funding-units-101",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "funding-cjk-102",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "funding-token-21",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "id-0",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "id-257",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "id-6",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "id-7",
+      "autoescape": false,
+      "selected": []
+    },
+    {
+      "case": "duplicate-row",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "short-and-long",
+      "autoescape": false,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "rows-0",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "rows-1",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "rows-3",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "rows-4",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "rows-8",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.5",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.6",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.7"
+      ]
+    },
+    {
+      "case": "rows-32",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.4",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.5",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.6",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.7",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.8",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.9",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.10",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.11",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.12",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.13",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.14",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.15",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.16",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.17",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.18",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.19",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.20",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.21",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.22",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.23",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.24",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.25",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.26",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.27",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.28",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.29",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.30",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.31"
+      ]
+    },
+    {
+      "case": "rows-33",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "chinese",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "inline",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "authored-warning",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "missing-purpose",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "missing-budget",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "zero-missing-currency",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "missing-funding",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "missing-grant",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "link",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "image",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "break",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "list",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "nested-table",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "nested-inline",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "style",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "unknown-status",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "comment",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "unclosed",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "mismatched",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "stray-text",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "empty",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "four-paragraphs",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "long-purpose",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "title-units-80",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "title-cjk-80",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "title-token-40",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "title-units-81",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "title-cjk-82",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "title-token-41",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "purpose-units-240",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "purpose-cjk-240",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "purpose-token-40",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "purpose-units-241",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "purpose-cjk-242",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "purpose-token-41",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "budget-units-80",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "budget-cjk-80",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "budget-token-12",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "budget-units-81",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "budget-cjk-82",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "budget-token-13",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "funding-units-100",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "funding-cjk-100",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "funding-token-20",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "funding-units-101",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "funding-cjk-102",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "funding-token-21",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "id-0",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "id-257",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "id-6",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "id-7",
+      "autoescape": true,
+      "selected": []
+    },
+    {
+      "case": "duplicate-row",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    },
+    {
+      "case": "short-and-long",
+      "autoescape": true,
+      "selected": [
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2",
+        "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3"
+      ]
+    }
+  ],
+  "limits": [
+    "PDF-only; ordinary 4..32-row tables with no expanded long row",
+    "Unsupported rows retain prior pagination",
+    "Engine fixtures are not native DSW acceptance"
+  ],
+  "engine": {
+    "weasyprint": "68.1",
+    "rows": [
+      {
+        "case": "rows-4",
+        "media": "print",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "rows-4",
+        "media": "screen",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "rows-8",
+        "media": "print",
+        "selected_count": 8,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.4": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.5": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.6": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.7": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "rows-8",
+        "media": "screen",
+        "selected_count": 8,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.4": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.5": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.6": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.7": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "chinese",
+        "media": "print",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "chinese",
+        "media": "screen",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "missing-purpose",
+        "media": "print",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              94.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              94.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              94.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              94.3333
+            ]
+          ]
+        }
+      },
+      {
+        "case": "missing-purpose",
+        "media": "screen",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              94.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              94.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              94.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              94.3333
+            ]
+          ]
+        }
+      },
+      {
+        "case": "missing-budget",
+        "media": "print",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              121.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              121.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              121.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              121.0
+            ]
+          ]
+        }
+      },
+      {
+        "case": "missing-budget",
+        "media": "screen",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              121.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              121.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              121.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              121.0
+            ]
+          ]
+        }
+      },
+      {
+        "case": "zero-missing-currency",
+        "media": "print",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              125.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              125.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              125.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              125.0
+            ]
+          ]
+        }
+      },
+      {
+        "case": "zero-missing-currency",
+        "media": "screen",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              125.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              125.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              125.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              125.0
+            ]
+          ]
+        }
+      },
+      {
+        "case": "missing-funding",
+        "media": "print",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "missing-funding",
+        "media": "screen",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "missing-grant",
+        "media": "print",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              85.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              85.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              85.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              85.0
+            ]
+          ]
+        }
+      },
+      {
+        "case": "missing-grant",
+        "media": "screen",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              85.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              85.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              85.0
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              85.0
+            ]
+          ]
+        }
+      },
+      {
+        "case": "break",
+        "media": "print",
+        "selected_count": 0,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 1,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              79.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              79.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              79.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              1,
+              34.0932
+            ],
+            [
+              2,
+              50.3333
+            ]
+          ]
+        }
+      },
+      {
+        "case": "break",
+        "media": "screen",
+        "selected_count": 0,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 1,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              79.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              79.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              79.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              1,
+              34.0932
+            ],
+            [
+              2,
+              50.3333
+            ]
+          ]
+        }
+      },
+      {
+        "case": "long-purpose",
+        "media": "print",
+        "selected_count": 0,
+        "prior_pages": 5,
+        "pages": 5,
+        "split_before": 4,
+        "split_after": 4,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              273.0932
+            ],
+            [
+              2,
+              530.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              2,
+              401.2795
+            ],
+            [
+              3,
+              410.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              3,
+              521.2795
+            ],
+            [
+              4,
+              290.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              4,
+              641.2795
+            ],
+            [
+              5,
+              170.3333
+            ]
+          ]
+        }
+      },
+      {
+        "case": "long-purpose",
+        "media": "screen",
+        "selected_count": 0,
+        "prior_pages": 5,
+        "pages": 5,
+        "split_before": 4,
+        "split_after": 4,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              273.0932
+            ],
+            [
+              2,
+              530.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              2,
+              401.2795
+            ],
+            [
+              3,
+              410.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              3,
+              521.2795
+            ],
+            [
+              4,
+              290.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              4,
+              641.2795
+            ],
+            [
+              5,
+              170.3333
+            ]
+          ]
+        }
+      },
+      {
+        "case": "purpose-units-240",
+        "media": "print",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              119.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              119.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              119.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              119.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "purpose-units-240",
+        "media": "screen",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              119.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              119.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              119.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              119.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "purpose-cjk-240",
+        "media": "print",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              139.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              2,
+              139.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              139.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              139.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "purpose-cjk-240",
+        "media": "screen",
+        "selected_count": 4,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              139.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              2,
+              139.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              139.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              139.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "funding-token-21",
+        "media": "print",
+        "selected_count": 0,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "funding-token-21",
+        "media": "screen",
+        "selected_count": 0,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 0,
+        "split_after": 0,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "short-and-long",
+        "media": "print",
+        "selected_count": 3,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 1,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              189.4265
+            ],
+            [
+              2,
+              630.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      },
+      {
+        "case": "short-and-long",
+        "media": "screen",
+        "selected_count": 3,
+        "prior_pages": 2,
+        "pages": 2,
+        "split_before": 1,
+        "split_after": 1,
+        "regions": {
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.0": [
+            [
+              1,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1": [
+            [
+              1,
+              189.4265
+            ],
+            [
+              2,
+              630.3333
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.2": [
+            [
+              2,
+              83.6667
+            ]
+          ],
+          "1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.1e85da40-bbfc-4180-903e-6c569ed2da38.3": [
+            [
+              2,
+              83.6667
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

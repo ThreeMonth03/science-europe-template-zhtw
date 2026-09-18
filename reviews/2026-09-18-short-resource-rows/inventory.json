@@ -1,0 +1,10 @@
+{
+  "version": "0.3.42",
+  "native_export": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "collector_sha256": "3e27aec348300c39cdc9872794a4ca6dc9136f424491e9b46201087b4e75ec49",
+  "pairs": 16,
+  "native_pdf_docx": 64,
+  "word_previews": 32
+}

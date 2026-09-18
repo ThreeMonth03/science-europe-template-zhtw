@@ -1,0 +1,3470 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "version": "0.3.42",
+  "native_export": true,
+  "rows": [
+    {
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/profile-partial-review-english.html": "e5a14448bca814379c6461caebd378be0bd61a6ee6bf3b16c9d2c5276fdde984",
+        "renders/profile-partial-review-english.html.fixture.json": "daf20267f5d9b9ef41410c81fb36611382f61cd148392394a27fb804f4f37b3f",
+        "renders/profile-partial-review-english.pdf": "96705f17bfe9706b265f425a2699fcaa5b80a226ebcaa33d58d0bec2ad22b5f4",
+        "renders/profile-partial-review-english.pdf.fixture.json": "aae75fcb381b53bd72e015cd235328b36949d71ee27283029c9bf7cd6dadd067",
+        "renders/profile-partial-review-english.docx": "ced8be5b0172fe4f202238b5109f081ba9be92233c0e46749618ef4771ac955c",
+        "renders/profile-partial-review-english.docx.fixture.json": "9d930dc592f5f63f86e0b9d705d1bb9984387f436d1b33d8ab3bb8a7dcf27baf",
+        "word-preview/profile-partial-review-english.pdf": "7d453991a6727806f9d1913804eb9444b5eea108050522a80f1b3ebb9b035621"
+      },
+      "prior_artifact_sha256": {
+        "renders/profile-partial-review-english.html": "e5a14448bca814379c6461caebd378be0bd61a6ee6bf3b16c9d2c5276fdde984",
+        "renders/profile-partial-review-english.html.fixture.json": "4d51ba02a1e8cc9165ccc5e2a0997e826dfd7913fece0d369bf68e029143ccdd",
+        "renders/profile-partial-review-english.pdf": "1a1fc75aabb736c77588fc697ac59b8a037434ea22ad4788d6d3fb05ddbe32e1",
+        "renders/profile-partial-review-english.pdf.fixture.json": "49f9deee5de37a434bc9b8b5bc66fc009e1db9d7dc70eb2b88de2e2d43356afc",
+        "renders/profile-partial-review-english.docx": "4b9525f5cc3c37b3ac6b54dfa89269d16896244896b31b10a6a7a5f260e3b936",
+        "renders/profile-partial-review-english.docx.fixture.json": "c182be7ea3212d1795961eaee532aacd0d90868bd8822980b319f0b3ea4c8f1b",
+        "word-preview/profile-partial-review-english.pdf": "7d687ca28ed5b30b8ec433fa8c08c29989674458559169e4dfdc494abc2a3f99"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 128,
+      "passed": true
+    },
+    {
+      "case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/profile-partial-review-chinese.html": "96ac653d4b428161c1b76e8d3d2ba938c999d2c1adeea491b4fe79289d507e4e",
+        "renders/profile-partial-review-chinese.html.fixture.json": "0e1aba92ad0adcdc2a1b84a9359c327b04c095863dff68ff902bfaf2a5e396ef",
+        "renders/profile-partial-review-chinese.pdf": "407630a6f42eef334ee4aeb045b7b4886478b1af2961ca19106b3beb134581b8",
+        "renders/profile-partial-review-chinese.pdf.fixture.json": "2cfccb85b0522028aeec3f0438419ec59be1b9c96e1c5f785a9e69ec4dd5b964",
+        "renders/profile-partial-review-chinese.docx": "f6756d2a9d49968a13a186f9c7fdd7d9a6bb879f71511498ea9e7dbd87c28a2b",
+        "renders/profile-partial-review-chinese.docx.fixture.json": "e50936cce7cfe468ba3403e46dba64b4d7fc126d2190e9c3f042e7693e75b296",
+        "word-preview/profile-partial-review-chinese.pdf": "d55f16c92d3420982edc3e05eb6692b7e6d0534c27c21f11fa9a839106a6b81c"
+      },
+      "prior_artifact_sha256": {
+        "renders/profile-partial-review-chinese.html": "96ac653d4b428161c1b76e8d3d2ba938c999d2c1adeea491b4fe79289d507e4e",
+        "renders/profile-partial-review-chinese.html.fixture.json": "bbdfd78fcc7f9d1b235636a64b28386772385cc8e2d8bcc73ecf8800108f866e",
+        "renders/profile-partial-review-chinese.pdf": "8815ed6b20be84552be7dd13502d73d53cd300f1136f1a12d344ef0afb593188",
+        "renders/profile-partial-review-chinese.pdf.fixture.json": "59df850478fb93ab7773e595df7d901c361b20575e0212bbfd30e832137f98ce",
+        "renders/profile-partial-review-chinese.docx": "fdcecf4c16a4575fa8c8881b76b03cb509ac5f5332af1c0ff36917d93714b37d",
+        "renders/profile-partial-review-chinese.docx.fixture.json": "4de5f8fe30b2a6d13cf8e202cc2721fe6b3b7e2f643401c79427f355b97eaedf",
+        "word-preview/profile-partial-review-chinese.pdf": "9b97aefd7249c6cf756f6a3be7ae63ed4afb6c2fd2b7c17ed6421d7d0276fbf5"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Semi-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 128,
+      "passed": true
+    },
+    {
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/profile-partial-submission-english.html": "a71d9620cf31c76992e22d976ca521c56e36d79099d46dde34b05eae865bf251",
+        "renders/profile-partial-submission-english.html.fixture.json": "97ebf0e369b751a3aa86b17aa2488bfe275f7c7a0efbc86574f41a364d05bb82",
+        "renders/profile-partial-submission-english.pdf": "54a991e1d1d42e1f545775d99106a380a8f7bb4ac92df2a194924b3c38bb7676",
+        "renders/profile-partial-submission-english.pdf.fixture.json": "c7649c0361b0796d41eb807fc315d9e41b710ddecf6205067e21d6e23f3cfcd5",
+        "renders/profile-partial-submission-english.docx": "1df287c56d9ae5f3671d6d41c794ad532cd8ed82374160c26b8675b86390d6a5",
+        "renders/profile-partial-submission-english.docx.fixture.json": "7879a789c91ec21a69cbc340565d44c44e18089eed99cbee38446881250fe0b1",
+        "word-preview/profile-partial-submission-english.pdf": "b7a43fd74885ebf92ebfeba3d40be5f6f86c2e25af05113e1f566f728a1eb507"
+      },
+      "prior_artifact_sha256": {
+        "renders/profile-partial-submission-english.html": "a71d9620cf31c76992e22d976ca521c56e36d79099d46dde34b05eae865bf251",
+        "renders/profile-partial-submission-english.html.fixture.json": "4991177be2636937d9cbd817bf2e048e570545c5c1a8ef1a8b2b51ebd6135925",
+        "renders/profile-partial-submission-english.pdf": "a7c4e386ccd4e222d8c40bae89e70a7aa777e56d1c3760beaf12f5794221d810",
+        "renders/profile-partial-submission-english.pdf.fixture.json": "4137656aa4935d1990e854bd5351165d7065cc253a567f6d926642f94064ded0",
+        "renders/profile-partial-submission-english.docx": "e56b88182baae762f1d3a2b8477712322e9ea809cee2395f48c4a4ff8bc52f9b",
+        "renders/profile-partial-submission-english.docx.fixture.json": "7e2594230f6e99aacae2704f720255d3b97a515655e48d0a72346b567fc3a308",
+        "word-preview/profile-partial-submission-english.pdf": "c844dbcaed318685298e95bf9e34cd3024b234f8545c5628e1660a9b2d793910"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 121,
+      "passed": true
+    },
+    {
+      "case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/profile-partial-submission-chinese.html": "1181070ee0cdc8201ee111b924c1e659d8f5a722c2bdaeb92e713132a3ba7134",
+        "renders/profile-partial-submission-chinese.html.fixture.json": "6f38fa3b90e3e976470b9cf717406ae64a8d67ce69888bfd56acdf1cbaa41302",
+        "renders/profile-partial-submission-chinese.pdf": "f9ad56091b9a8de4f190b0adf382ae67e361ce29e7bfb3b3b950ecedc8d61731",
+        "renders/profile-partial-submission-chinese.pdf.fixture.json": "bbe430f01e7242f14588faefea37ac588f2689c652ceac0e19a8080170634ef8",
+        "renders/profile-partial-submission-chinese.docx": "f521c29b91554c1a420562c5e6244e431d484e88fea62af9f60f79ca09d9f0b8",
+        "renders/profile-partial-submission-chinese.docx.fixture.json": "b77f87de43afb3b5d924da237918bf17bd868e73bc1862f518e345e4f7fab375",
+        "word-preview/profile-partial-submission-chinese.pdf": "f3489498049ea48af06234df88e3596b60c30cc41a39c066a95fa4ff2069a751"
+      },
+      "prior_artifact_sha256": {
+        "renders/profile-partial-submission-chinese.html": "1181070ee0cdc8201ee111b924c1e659d8f5a722c2bdaeb92e713132a3ba7134",
+        "renders/profile-partial-submission-chinese.html.fixture.json": "4407eed984ff927020bd634a6f8845fa7072c24ae4bd95cc9c4be83fdb537565",
+        "renders/profile-partial-submission-chinese.pdf": "aa4b670a2cc559063b0ece8b9409152661d87b34e0c2bceeb0ba8dfac21582b8",
+        "renders/profile-partial-submission-chinese.pdf.fixture.json": "a60a6aff8806e89ad2ae5bf8ed682d8ae7694c5cfcdfe9b72741a3a633d36300",
+        "renders/profile-partial-submission-chinese.docx": "53b2df91c24e71a3c8d643bf247343b6a0260b02e3df2528ce54bbf87a70ad5d",
+        "renders/profile-partial-submission-chinese.docx.fixture.json": "e5082b27dd562d94f43615f919f84812fb5a4f8ba63d5bac8712e59425367518",
+        "word-preview/profile-partial-submission-chinese.pdf": "2a1a4b6a3b833ddb367d99537907be7593dc5b0fb6760f40675775af9f8036ba"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 6,
+          "pages": 6,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 121,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "review",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/empty-review-english.html": "8c99536ed01e9edfb81b817bc0d5c770dd7501c921e6ee9500464ca1b38e1708",
+        "renders/empty-review-english.html.fixture.json": "ff8811b2f0060e05fb55eec290f26c737c80aad58379fbf1ad493297a334f39b",
+        "renders/empty-review-english.pdf": "27d9f3f6d41eb70f34538b7a03c15708fe3c8380dc3e2df01a0fc67a18e0280e",
+        "renders/empty-review-english.pdf.fixture.json": "3c65589a80d1c6c6ea31cb8592ed0cd462c4dc085eb95d0d24b2adb990be8862",
+        "renders/empty-review-english.docx": "8fdaaea5b35539194a63a512adb53bc0df8049539708ab186e91ef45b06627cb",
+        "renders/empty-review-english.docx.fixture.json": "a770f9bf64aa0704de0d8144e448a5cb3876fdde0c9c79683d132b70026f84d2",
+        "word-preview/empty-review-english.pdf": "9b311f52b235323e5031252bc73cc219c4997c9747893677df62610e5cb6aa41"
+      },
+      "prior_artifact_sha256": {
+        "renders/empty-review-english.html": "8c99536ed01e9edfb81b817bc0d5c770dd7501c921e6ee9500464ca1b38e1708",
+        "renders/empty-review-english.html.fixture.json": "621183cf0ccabce3cb82051ef40477c6ad425b76365cbcb8c781a5cf54cd6c88",
+        "renders/empty-review-english.pdf": "6246ff039d8b1518a432f058e8341f1833b0bcdaa307a6759be0b276e7acf98e",
+        "renders/empty-review-english.pdf.fixture.json": "5b436407524f980d616dde51c0b06ce34950ab86437dc5bcb1bbadcdc607d0a2",
+        "renders/empty-review-english.docx": "e69a4ae61f18e282c94e3accb03851760911ef30468e34ac06c5f8f67c20d669",
+        "renders/empty-review-english.docx.fixture.json": "66d1a21302ccafc68e8c190c3ca54c4a83a61381f41371068b3d77e7b7fde535",
+        "word-preview/empty-review-english.pdf": "9a9c8a9a2a5efa310fa110f2858a8bcaa5b5db3149166e16475888e89c5d72ed"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 4,
+          "pages": 4,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 44,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/empty-review-chinese.html": "27648a3baf9e7b737118fd6154b2eeb5b7930bb2ad7b015bae99c073b16a5923",
+        "renders/empty-review-chinese.html.fixture.json": "a2dc93a1734359f2712d8211c46a948085a03b10fffba767389f03bfac4e30c9",
+        "renders/empty-review-chinese.pdf": "022a5b428132c2ed203342f88a8d7e2f80dfb042a6c24efab19a2b00c0ace694",
+        "renders/empty-review-chinese.pdf.fixture.json": "11e4a0121881cbef38f778bbfa14350f102f447c3d5af5f49efbc6fe6804a8b6",
+        "renders/empty-review-chinese.docx": "cd451152aeeb538bf6d3142b4633d4eae0be9e9d327c957ed5f4275a507e0917",
+        "renders/empty-review-chinese.docx.fixture.json": "ae35eb76d9f1bf0d61ae3998f94c11ffaac880fc688a65ec87e9f665429c0908",
+        "word-preview/empty-review-chinese.pdf": "e54b664b3cec6ee665bb43283690cb63891010580b98e2ab867dc36ab480c65f"
+      },
+      "prior_artifact_sha256": {
+        "renders/empty-review-chinese.html": "27648a3baf9e7b737118fd6154b2eeb5b7930bb2ad7b015bae99c073b16a5923",
+        "renders/empty-review-chinese.html.fixture.json": "524d1de35fee32a3fedc1c85ebac2c4e3799ba0b30139dd99c6473bc6bafaa99",
+        "renders/empty-review-chinese.pdf": "01f2db3f167bd657dfa4cb7b167a4bc44de85d5647ab7322338dcc5eda744cce",
+        "renders/empty-review-chinese.pdf.fixture.json": "92bdad953b4ac047719efafc579b27b847b2546530564d2cfbe4fc29d4dfa8c9",
+        "renders/empty-review-chinese.docx": "11e36b4f2a016dbbd748ff86dcf47449ccd22acc308621a907e28bbda18bfede",
+        "renders/empty-review-chinese.docx.fixture.json": "ac94717c32fbdb83afa57e56c5d682c5bee50c2030848beb1d3c14624e346c2d",
+        "word-preview/empty-review-chinese.pdf": "e32df526070eaf0bc42b91a43022f2d487184a656e1ef148d1730c4488a90df7"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Semi-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 44,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/empty-submission-english.html": "3a167a97c7c1d7c93656f37891591656e5baec2a3d91cdc29be15e1e870c49db",
+        "renders/empty-submission-english.html.fixture.json": "7af23f21579062a2d556a9503ce1a0efb30a592004f38af456582abe6accbbe8",
+        "renders/empty-submission-english.pdf": "07eeffbe0b1c0fd5cd1ee1340567b548aed6acb11b4cf1d3a9df324c6994e381",
+        "renders/empty-submission-english.pdf.fixture.json": "7f858650ec376428af49910614e6a99d4ef466d47ef119b8a1b944ed2ef4529b",
+        "renders/empty-submission-english.docx": "bccf705d54def560b29c0c1c01f15485e31236ee09320c1f0be06b533f334cea",
+        "renders/empty-submission-english.docx.fixture.json": "f6163f11d0151e9743bf97f9e132d7e238ccc7fa1b8734df7afe17a27eb558f2",
+        "word-preview/empty-submission-english.pdf": "a046506363b71f00ef4c50a0f7889fca5e15647140a77359aa0ddb7e911fd8cb"
+      },
+      "prior_artifact_sha256": {
+        "renders/empty-submission-english.html": "3a167a97c7c1d7c93656f37891591656e5baec2a3d91cdc29be15e1e870c49db",
+        "renders/empty-submission-english.html.fixture.json": "e70a37481c18e7f38f4e53f1dab2f7a4f95e5446cfec1d73e04e20871ae14ef3",
+        "renders/empty-submission-english.pdf": "af9c8683a6eb7272d76a5c379d27ca0d5921f21988c1dcc7006e0f9940cfd2b4",
+        "renders/empty-submission-english.pdf.fixture.json": "8090d6d99f4a106063d0159bf905ded4aaa46836aa36577bd733341817cdbcfb",
+        "renders/empty-submission-english.docx": "b5fea0d7fe802c4db76ae1de88c29ac387ede5407d41d85a365f935089ce22d1",
+        "renders/empty-submission-english.docx.fixture.json": "2213fcd9674f27b9e1525aec1354bafc1f578891eb4c2851f1c932195fc9c116",
+        "word-preview/empty-submission-english.pdf": "b6218a3c3f2b7df357bfe2f96237cf61388615c8aefd55e8351691619cd0ea79"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 4,
+          "pages": 4,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 40,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/empty-submission-chinese.html": "b790218b4704332032d53e4ecac854935c1d204af2c5b9d5292bbee40a04f1b3",
+        "renders/empty-submission-chinese.html.fixture.json": "db2d6966eb4c9c7b199be6cd5b07b6e040f0528b1befe939ba821c57d22abe8c",
+        "renders/empty-submission-chinese.pdf": "da973f2c65b3441a091c3c6856a444f9338d415f30b5421b7a43447f5f0a6584",
+        "renders/empty-submission-chinese.pdf.fixture.json": "c1200ce009e604c2139fa0df3e6d4e05b71f8b4a11f94bbaf11e645afef45256",
+        "renders/empty-submission-chinese.docx": "f44c4eb77d80266b229426fad05c6f43fb91189eb04a919a9412dae48e41abdf",
+        "renders/empty-submission-chinese.docx.fixture.json": "ff31b6bee9e34052202503abed9fd5fe1bcf2db6ab360ed5d505aa411ce096dc",
+        "word-preview/empty-submission-chinese.pdf": "8191a3007e0c017a544e4e32e21d56fa7bc5e5537aac9c55eae0426ffaeb38c8"
+      },
+      "prior_artifact_sha256": {
+        "renders/empty-submission-chinese.html": "b790218b4704332032d53e4ecac854935c1d204af2c5b9d5292bbee40a04f1b3",
+        "renders/empty-submission-chinese.html.fixture.json": "90c50afd722e271b0fd732c46f58d6db13ddbabebe4fc2c3b26cd8ff48476597",
+        "renders/empty-submission-chinese.pdf": "777a42719630058afb31f4354d5d57d6d7fe48605f69cb08249a7f3e3ca33b7f",
+        "renders/empty-submission-chinese.pdf.fixture.json": "c355e405ebd9bdf428231c81036bd4dd1436be9782c2f781e15791492ed41f3e",
+        "renders/empty-submission-chinese.docx": "3137805e2349d4b2c70ff65a7fecd9d20c01ede6771c06081d0fd051344e4379",
+        "renders/empty-submission-chinese.docx.fixture.json": "46c9f3851e3ab4db3368bc527f8e76da7faf0d8340baffb7b444449e65c6e477",
+        "word-preview/empty-submission-chinese.pdf": "f098e0af7ebfde6d0a2c70243852031d8baa5369f98b1b9fe29e3cc12c15cd73"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 3,
+          "pages": 3,
+          "font_inventory": [
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 40,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-review-english.html": "d81f9270350dd00918924475b79487f2d5b70577f5601f56fd7865bade74fbb5",
+        "renders/budget-long-no-currency-review-english.html.fixture.json": "9f18b3d3c5e61e8affd1809356cc402374bd4c2678cf7d8b2f51af0a89d5af34",
+        "renders/budget-long-no-currency-review-english.pdf": "e21c839304ebfda70225a9b513a0932d4f7adecaefe7030b6c872066b351ac21",
+        "renders/budget-long-no-currency-review-english.pdf.fixture.json": "b11b0dd63a1fa2de3f12ffdda4e0e1daf613917b17156886f8d6537874b45cf7",
+        "renders/budget-long-no-currency-review-english.docx": "71a30f89c5d9db7ef683897705bec8b7b14a4b433f1d198fd1d051573a44413b",
+        "renders/budget-long-no-currency-review-english.docx.fixture.json": "8a3bc6b602d713af1680f05f169ac6bcd65cf830852ece2f7d78d97947b4a3df",
+        "word-preview/budget-long-no-currency-review-english.pdf": "69eff7179a9b9df11241bcd2df430d9d95c3631b61f0559f0584e903e5f26afd"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-review-english.html": "d81f9270350dd00918924475b79487f2d5b70577f5601f56fd7865bade74fbb5",
+        "renders/budget-long-no-currency-review-english.html.fixture.json": "d75713c1fbd2bdf57255b56060ea927115c3601b5d487c6b4554d83eeae61553",
+        "renders/budget-long-no-currency-review-english.pdf": "9247cfc92a8969c66bddd00695e885b4919e2cd8ea3f14256ea0a58635f8551e",
+        "renders/budget-long-no-currency-review-english.pdf.fixture.json": "5eb08c1d6addbf4e1da16c12419da7d0dbedc2a5a4b9b81e526df02005105a6e",
+        "renders/budget-long-no-currency-review-english.docx": "d207a9a1cefb95d1abe0001e7f94310ee485c1ddd591b020c7393ec6377d7f8b",
+        "renders/budget-long-no-currency-review-english.docx.fixture.json": "bd7c44fed8f42c2f0b7c9b6112e34bbb63878ec77e4d4abde8277c3318ff3f1c",
+        "word-preview/budget-long-no-currency-review-english.pdf": "1ee03d50ab07b685537c214de4cb8df89591918b76e78d97f0a818be96e7d78e"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 10,
+          "pages": 10,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            9,
+            10
+          ],
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Italic",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9
+          ],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 232,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-review-chinese.html": "d584dbe9bd53e56a0396763f678aad0e65b39057e30f83376cb981d3610c2801",
+        "renders/budget-long-no-currency-review-chinese.html.fixture.json": "1f97dc4735269065570ad25fa54739d84218a0b4ee50cadceebb8252ceb15622",
+        "renders/budget-long-no-currency-review-chinese.pdf": "403742c982e1ee7d45eb95ab0e4f82394d4e12a93b4ccb88246df4957adadae1",
+        "renders/budget-long-no-currency-review-chinese.pdf.fixture.json": "74850941afe7bfc40d779a57bcdaa1298c82fd919a2cc23569b5061f17674a48",
+        "renders/budget-long-no-currency-review-chinese.docx": "296024d5734e7c116e997baf84716b8a863003bb1fca2598dec2e1a181f9f96b",
+        "renders/budget-long-no-currency-review-chinese.docx.fixture.json": "5a2ff5fe103f29f2d6d22a24dbc5b130c46edd5b1fddc65b68ff8ddae51ed42f",
+        "word-preview/budget-long-no-currency-review-chinese.pdf": "d9921e3d7f1edf8fb3e07f725a755679dcedbd0f2b1a9e6e3ed95f88029d4ec7"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-review-chinese.html": "d584dbe9bd53e56a0396763f678aad0e65b39057e30f83376cb981d3610c2801",
+        "renders/budget-long-no-currency-review-chinese.html.fixture.json": "f29d4b53a9e7ac1e1ab367e3bde6d38d229567d4b5138c959a5b8881424e5e48",
+        "renders/budget-long-no-currency-review-chinese.pdf": "dbec74813f13447974cb24b36d44edcd531119bb46a89a69a765e411033433f3",
+        "renders/budget-long-no-currency-review-chinese.pdf.fixture.json": "4aa5ebbd0e38b04f39e17fe505e06956f16eaeba0c1bd2b7b80c52375b014bc7",
+        "renders/budget-long-no-currency-review-chinese.docx": "d84dba88ed1f0e1ea2227045b2d4c1320e728eb724b38df17fbb4a1c54189daa",
+        "renders/budget-long-no-currency-review-chinese.docx.fixture.json": "20210f6e94746927036614796c3cc5e85bbac41e0bd07044f1608428889b1c45",
+        "word-preview/budget-long-no-currency-review-chinese.pdf": "84d4815bee221e7ac7ea414b0678853564a8fd99fc102dc436f1f6a68abec922"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Semi-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9
+          ],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 10,
+          "pages": 10,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9,
+            10
+          ],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 232,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "english",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-submission-english.html": "f0f7a0624c244fe19982c1ff38c926af048e45e5b7e11d718d12bae6a6ca791d",
+        "renders/budget-long-no-currency-submission-english.html.fixture.json": "4a9d1bf4593bc33483720526c6d4d8d70776fc53e89fc4d6e9a4d9e57a05ca41",
+        "renders/budget-long-no-currency-submission-english.pdf": "b24f3bd7afd1560f7a4153ae99e1329136c1b8bf9e16723fbd12c59edc255930",
+        "renders/budget-long-no-currency-submission-english.pdf.fixture.json": "da2ae3b22a5fcdac02a56fc31c2487bb804437a92db55ff81bc2f58fb646a03d",
+        "renders/budget-long-no-currency-submission-english.docx": "c5aad836f4944b2f2b6c7c97b40323a6f3ab18ec68bc91361230e842cc32cfe9",
+        "renders/budget-long-no-currency-submission-english.docx.fixture.json": "092d92380263fce0efaa0a2a9dbd2e1f073a19dda16e94aea6624e85a8bfa496",
+        "word-preview/budget-long-no-currency-submission-english.pdf": "b341bf310fd3b2a0c3a0f185d62084194a4155e5a8fdac9087b7a6472a5501da"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-submission-english.html": "f0f7a0624c244fe19982c1ff38c926af048e45e5b7e11d718d12bae6a6ca791d",
+        "renders/budget-long-no-currency-submission-english.html.fixture.json": "b20ecd126455108c3157e752e600d486236674fdbb17ec344c799cc3c4aa209a",
+        "renders/budget-long-no-currency-submission-english.pdf": "b4def49a3e5e10d48837ab86d58386702a37cdfd1721179fb4c079a83a1d9768",
+        "renders/budget-long-no-currency-submission-english.pdf.fixture.json": "f066804045da8ba67e11a763886c62db9b3db7cd38173ea944c5a533dc696a55",
+        "renders/budget-long-no-currency-submission-english.docx": "ab33c42cace22bed9433fc5540db77e260481983546c376f7143deca99ca8c74",
+        "renders/budget-long-no-currency-submission-english.docx.fixture.json": "7dc5e095ea192d2a5f3a905646a747e50959faf1a4c1c8c90de6c0d1cbf3cfc3",
+        "word-preview/budget-long-no-currency-submission-english.pdf": "3e053d830d8bba299b3d5d53020655ae6050c93cf3b17328a2859f09b5f2dbf9"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 10,
+          "pages": 10,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            9,
+            10
+          ],
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Italic",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9
+          ],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 226,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": false,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/budget-long-no-currency-submission-chinese.html": "667def51569dcc4083351ead718c3c348be432516d75ef8e97eab06170b2c685",
+        "renders/budget-long-no-currency-submission-chinese.html.fixture.json": "6219c883840489263ac10def1df1b98dd77cc5e746c447b0435c7cb9135a67c2",
+        "renders/budget-long-no-currency-submission-chinese.pdf": "3d15aaece73fb5dbbfde37db5e0dd2d12eb3145669df393769ddb57f9a1609a0",
+        "renders/budget-long-no-currency-submission-chinese.pdf.fixture.json": "434def70b33e3be2503854db7fd150505aee8be5a3e9558c38d150502830e141",
+        "renders/budget-long-no-currency-submission-chinese.docx": "2ae0149678fe366499ffcc0cb698d654508c1105ce9ed091f7c4dea49b432b96",
+        "renders/budget-long-no-currency-submission-chinese.docx.fixture.json": "01bb036929a536e270ead6e3f62c8d4e002ee794bb83f5fa4fdf46fc91f5c221",
+        "word-preview/budget-long-no-currency-submission-chinese.pdf": "de9bddc44d686912f8228ca8c6fba7069a96892a0f5a00cb20d27feb45fa994e"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-long-no-currency-submission-chinese.html": "667def51569dcc4083351ead718c3c348be432516d75ef8e97eab06170b2c685",
+        "renders/budget-long-no-currency-submission-chinese.html.fixture.json": "a2b48afbe1832f48b7d0d3364725d70e8a53c417f3b8525646c2a9598cbad634",
+        "renders/budget-long-no-currency-submission-chinese.pdf": "5b4869873b2ea64a4a6e1ecf61d8c4c0a8753e352c08b5f26ba1bb498a59d3b3",
+        "renders/budget-long-no-currency-submission-chinese.pdf.fixture.json": "e87bce79447804fde2e00ca4652ce016bbeb6d5e0000264dfdc4a03826502da2",
+        "renders/budget-long-no-currency-submission-chinese.docx": "8952b7dfc264e08eadc0920d295f5b36352468037d7f57952146a3fd4939edbb",
+        "renders/budget-long-no-currency-submission-chinese.docx.fixture.json": "698748d84d06f3b09a4b4d03baa908a78add2e7807b31f1778d275e5170be2de",
+        "word-preview/budget-long-no-currency-submission-chinese.pdf": "01eb2f0a93fe5227c912d2a9422792f5c0a53b65b64194030506cc713ec0bec5"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9
+          ],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        },
+        "word": {
+          "prior_pages": 10,
+          "pages": 10,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [
+            8,
+            9,
+            10
+          ],
+          "prior_line_overlaps": [],
+          "line_overlaps": []
+        }
+      },
+      "word_preview_paragraphs_checked": 226,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "review",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/budget-many-review-english.html": "96012fb01312cb5a8a7f9d3f0e3119d2f914903f0d22a6d3a328be6ce0e3a440",
+        "renders/budget-many-review-english.html.fixture.json": "e424a4a70d1332da1d879199052cc5fb0b79306eaa5f5e1691ae9ca40964a541",
+        "renders/budget-many-review-english.pdf": "ed282288af7ea66407fcedc5abf7e15a42601aa9bfbc9d580227fc09cd031c19",
+        "renders/budget-many-review-english.pdf.fixture.json": "ff3dd0db32d8446181d69d4cc1842271bb909e8eb043bc492e22c1c9f1e9c47a",
+        "renders/budget-many-review-english.docx": "d8e782e0ac91b3b924183f7f51378eacd10979ae381409a91c4d01a1d7ee8109",
+        "renders/budget-many-review-english.docx.fixture.json": "3f9d8f35f4c0cb8a870820b2b834887d34aca5882c78562fcadf314da5253221",
+        "word-preview/budget-many-review-english.pdf": "c46d880db93f955dd3327b59e6594e9d2161c22c8ab4be6a641ec7a776c8d89c"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-many-review-english.html": "96012fb01312cb5a8a7f9d3f0e3119d2f914903f0d22a6d3a328be6ce0e3a440",
+        "renders/budget-many-review-english.html.fixture.json": "eab0674512687316a18ecf1d58f0c2448afa472d2cbac617e5e673991417d3b8",
+        "renders/budget-many-review-english.pdf": "f4bae1cf9e27771b11e66ce68b54cceecc2580a4ac404b23ee5ca4693be4d7da",
+        "renders/budget-many-review-english.pdf.fixture.json": "b5addf3b94babdb00cde12f41d5d2a97e8df77cbd8fe023ca80358ed74f45be4",
+        "renders/budget-many-review-english.docx": "1146f21693b135f447fdcba9be1285fdfe66040be62505555e6dffc9b54aa936",
+        "renders/budget-many-review-english.docx.fixture.json": "0f09e59b1b4a2ea72335df7d8f3a8570c423e77008309aedd2c27c4be0e695ee",
+        "word-preview/budget-many-review-english.pdf": "fadbc27ec4debfbf8fe69157044e69ce153a29992aae87971c43713fb4f3ddc5"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": false,
+          "verified_continuation_header_pages": [
+            9
+          ],
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "prior_rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8,
+                9
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                9
+              ],
+              "paragraph_count": 5
+            }
+          ],
+          "rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                9
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                9
+              ],
+              "paragraph_count": 5
+            }
+          ]
+        },
+        "word": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Italic",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": [],
+          "prior_rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ],
+          "rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ]
+        }
+      },
+      "word_preview_paragraphs_checked": 196,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "review",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/budget-many-review-chinese.html": "e4975156478ac786e4fe2ef0a1a142a0647d4c21f598466ebca39bae96d46431",
+        "renders/budget-many-review-chinese.html.fixture.json": "ce8ea57e4116b00d8ce8079b0b0172f81adfe1b739e1345075375f0080a977ff",
+        "renders/budget-many-review-chinese.pdf": "c57123c47186b61911642824ea3e320bcd7152e8d7c382c570092a9ee233b4e3",
+        "renders/budget-many-review-chinese.pdf.fixture.json": "bec9b7862a6697226b718574dde0713241998a2a600bd98515244ff59dbcf58e",
+        "renders/budget-many-review-chinese.docx": "77d3b45a156a9e6f348b642fb67169189d0296faaf60c96a1299747b11aae460",
+        "renders/budget-many-review-chinese.docx.fixture.json": "ebff76fbb30118a93d77b9af0f4cf56ea3f68eaf75fec3094f08dd5c0346fb18",
+        "word-preview/budget-many-review-chinese.pdf": "cea0809a801db27e062702919d1ce4ac68ff2c7f266178afab9365320bb36cf4"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-many-review-chinese.html": "e4975156478ac786e4fe2ef0a1a142a0647d4c21f598466ebca39bae96d46431",
+        "renders/budget-many-review-chinese.html.fixture.json": "8d1354b6e8c7babff13fd675fd98f56f918c5f9a68a5eee5fef5e27e78dc414d",
+        "renders/budget-many-review-chinese.pdf": "d8d69e0846ea4a36b1359f155e7a99712581f07e81e870e9ae80bb1869d279b2",
+        "renders/budget-many-review-chinese.pdf.fixture.json": "003fca7ee4db473cc7954de7956db6caf002475d0195ca9d753b3995262ce8e6",
+        "renders/budget-many-review-chinese.docx": "0bb901160ac5222b67446c8ece3f0cf8c77d5b238ffd896691bee41a07eb4b4c",
+        "renders/budget-many-review-chinese.docx.fixture.json": "188c07d53d8af86d9acbb319c7efad649ea9eda4073e633ad2a68bf6235caafc",
+        "word-preview/budget-many-review-chinese.pdf": "1b6449fb8ac514df676ee02d3aad0baeba6f08084230cbb65722fd76fc388485"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Semi-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": false,
+          "verified_continuation_header_pages": [
+            8
+          ],
+          "prior_line_overlaps": [],
+          "line_overlaps": [],
+          "prior_rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                7,
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ],
+          "rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ]
+        },
+        "word": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": [],
+          "prior_rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ],
+          "rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ]
+        }
+      },
+      "word_preview_paragraphs_checked": 196,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "submission",
+      "language": "english",
+      "selected": true,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/budget-many-submission-english.html": "ae8d761693ce60f8779f6e441be9c9ae53739f14184b82a69dce79e9ac3fc2a4",
+        "renders/budget-many-submission-english.html.fixture.json": "86eb2da5d929f607f73d26625004ed82026717f9937985d05200295f2c68dbeb",
+        "renders/budget-many-submission-english.pdf": "248a75cfd0081245567c2d77b1f7e37894a7bd44819ba7e87c83f8974a4be799",
+        "renders/budget-many-submission-english.pdf.fixture.json": "4436c22197b5c79f469e42b7f6c1b1ccce286d30ff3c475168f6e44348cbb753",
+        "renders/budget-many-submission-english.docx": "7c5758cd03ef6ed208f2be5c90ed3a91948aae056fd1d76fea69394617aa6e4b",
+        "renders/budget-many-submission-english.docx.fixture.json": "d189978dec5c8854ff7c72a88fe3635c12d551f55952a4643dce0e89864eacd6",
+        "word-preview/budget-many-submission-english.pdf": "7db64d0391d3954aef88695266a6fd12aa773f5c51709bcdf62e7fea0737d27d"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-many-submission-english.html": "ae8d761693ce60f8779f6e441be9c9ae53739f14184b82a69dce79e9ac3fc2a4",
+        "renders/budget-many-submission-english.html.fixture.json": "aa4c7643967b54cd311333428f0827853055eddf7b183004ed5b763c5a3fecf2",
+        "renders/budget-many-submission-english.pdf": "f371154c402f38e3aabe5c657364280a220b0170f692d575b817410400903532",
+        "renders/budget-many-submission-english.pdf.fixture.json": "87b7abfeec631b7b403c6d04c05fffd7f8c0e4affe9503941206a647f7e0dc7c",
+        "renders/budget-many-submission-english.docx": "0c84a302e50a3a1499f3be42020da5025e8311b6dbb3faa50b387a36c637a572",
+        "renders/budget-many-submission-english.docx.fixture.json": "de1a3d6c9fe8606cce57cfe736ce8a3536aaaf1d9647651e5eb5483964a65779",
+        "word-preview/budget-many-submission-english.pdf": "f84330d6fa29847a330c08d9d31817cadc68a31bd2d45a6c41a86068ab169fd2"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 9,
+          "pages": 9,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": false,
+          "verified_continuation_header_pages": [
+            9
+          ],
+          "prior_line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "line_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "prior_rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8,
+                9
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                9
+              ],
+              "paragraph_count": 5
+            }
+          ],
+          "rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                9
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                9
+              ],
+              "paragraph_count": 5
+            }
+          ]
+        },
+        "word": {
+          "prior_pages": 7,
+          "pages": 7,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Italic",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": [],
+          "prior_rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            }
+          ],
+          "rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            }
+          ]
+        }
+      },
+      "word_preview_paragraphs_checked": 190,
+      "passed": true
+    },
+    {
+      "case": "budget-many",
+      "profile": "submission",
+      "language": "chinese",
+      "selected": true,
+      "question_comparisons": 15,
+      "exact_word_body": true,
+      "artifact_sha256": {
+        "renders/budget-many-submission-chinese.html": "90fea249c127f9880ce8cf6709e57e7794f2f819353cc90e4b69f4a9663f9a55",
+        "renders/budget-many-submission-chinese.html.fixture.json": "a4f0cf27b46c3ad0f3ee8153cd18e8ceaf8d44166ae3a82786c06e7491869683",
+        "renders/budget-many-submission-chinese.pdf": "07e668ec59e4e904ae00e24502af799178e52021dccc10cc9d5550a560b76ba7",
+        "renders/budget-many-submission-chinese.pdf.fixture.json": "fa02e6d20833e7aa4b30cbd42431001b8a7cc9ffa4e4a193c2a722d45cf20ebc",
+        "renders/budget-many-submission-chinese.docx": "1141a0c1c8df5ae07699c5665679d85ccc9b6ee5e4e5e53f8494c2f7aeb784fc",
+        "renders/budget-many-submission-chinese.docx.fixture.json": "0a0723898db9c809a40feb36fe3c109c8c4c235e76d585001417057befa23172",
+        "word-preview/budget-many-submission-chinese.pdf": "1ee458c2da32f9d0025d1f55e94243c1106d4b8460ce4616c930fcabd2b5f0f9"
+      },
+      "prior_artifact_sha256": {
+        "renders/budget-many-submission-chinese.html": "90fea249c127f9880ce8cf6709e57e7794f2f819353cc90e4b69f4a9663f9a55",
+        "renders/budget-many-submission-chinese.html.fixture.json": "6d6724f745797df8e4648d7a2fe55cbf0b23a9d1f09e540e7e6d5018a28fe5eb",
+        "renders/budget-many-submission-chinese.pdf": "05c49170930fbd2e36f4b7b02c27ffd3eb2f6635c396a2c5cde4df9a4a6bc4cf",
+        "renders/budget-many-submission-chinese.pdf.fixture.json": "5d379ab4ddc2fa2477b3df9ae8575780561d519e97bf34226e0cc1a976613c57",
+        "renders/budget-many-submission-chinese.docx": "8e81122ff549d17545573eca5d49651985355b0f53ee7d7859dd7bd703cb9a02",
+        "renders/budget-many-submission-chinese.docx.fixture.json": "ce6ed3b4ea6bd3e32b08867f896201a643b894de032567e2c564ebbcd91b9f6f",
+        "word-preview/budget-many-submission-chinese.pdf": "aff675583667a4f373adc463b290067b71c8760e81eb9ab0f762e1714c039d05"
+      },
+      "formats": {
+        "pdf": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "Noto-Sans",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Bold",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "Pilot-CJK-Oblique",
+              "CID",
+              "TrueType",
+              "Identity-H",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": false,
+          "verified_continuation_header_pages": [
+            8
+          ],
+          "prior_line_overlaps": [],
+          "line_overlaps": [],
+          "prior_rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                7,
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ],
+          "rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                7
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ]
+        },
+        "word": {
+          "prior_pages": 8,
+          "pages": 8,
+          "font_inventory": [
+            [
+              "LiberationMono",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "LiberationSans-Bold",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Bold",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "NotoSansCJKtc-Regular",
+              "Type",
+              "1",
+              "Builtin",
+              "yes",
+              "yes",
+              "yes"
+            ],
+            [
+              "OpenSymbol",
+              "TrueType",
+              "WinAnsi",
+              "yes",
+              "yes",
+              "yes"
+            ]
+          ],
+          "prefix_body_geometry_unchanged": true,
+          "full_body_geometry_unchanged": true,
+          "verified_continuation_header_pages": [],
+          "prior_line_overlaps": [],
+          "line_overlaps": [],
+          "prior_rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ],
+          "rows": [
+            {
+              "index": 1,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 2,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 3,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 4,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 5,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 6,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 7,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            },
+            {
+              "index": 8,
+              "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+              "pages": [
+                8
+              ],
+              "paragraph_count": 5
+            }
+          ]
+        }
+      },
+      "word_preview_paragraphs_checked": 190,
+      "passed": true
+    }
+  ],
+  "checker_sha256": "4157fbde6ac595471c7c0c08c2ca5a240bfe01e6521e62e29b13007d61c48957",
+  "helper_sha256": {
+    "artifact_utils.py": "d7524e7a29d03aa35a7b7895e1a07d1f2e1fda2ce874b3bf0a636183693aaafd",
+    "check_budget_outputs.py": "cb13491830b001059877d522cb2918f543242f3320dfeaf827b8b8aa00995415",
+    "check_short_resources_outputs.py": "0de4887aa7fe3eb2adedb18b7161daf0c74bf0709e0e61738b15d90b3650b2e1",
+    "check_preservation_reading_outputs.py": "573efd87fc0db427e3447df2d37a41d6ed36d8a37eebfc025cdfd0e19e6b3ea0",
+    "check_word_rhythm_outputs.py": "e7a09082611699b36d517cda3bbd7bbe4f21629e389024688aaee112b56d7aee",
+    "check_word_short_budget_outputs.py": "c568bfce161d432c5d5e971d2724a98dcbe5354e8135896ecdcd8ee786320384",
+    "check_budget_spacing_outputs.py": "4f6e622cf4b833526d5d8b67a5a1fd83eafe76e18eeeb1b4ce2d8d3a28a172fa",
+    "rehearse_profile_pdf.py": "f26eb015d89937ed5416444736b6709d2dd17df18fa1485361f9ca22c419b9cd",
+    "rehearse_profile_pagination.py": "ee5d4bcef6154d9263173ba1031ae48b7774fb21288c7a63c103431623f2b4d0",
+    "rehearse_resource_prose.py": "b277439873a3af072085dc813f38d455a942c1c4316eb074c1726ae3b7add3d9",
+    "check_resource_prose_outputs.py": "2f0083f3e88f8855fc519ff4bf2c4ddbd263fb1c31acda5edb50c62ef6848b89"
+  },
+  "contract_sha256": "3c9a0726a463cba6a30934bb2eb8c82401efddf402a8816f7dcf3d5ebc162329",
+  "package_sha256": {
+    "english.zip": "8e8d036c2623fed7a58035112a6d59d20f3a86ee32fcd36af55a14f32ac43387",
+    "chinese.zip": "14aa9f648afb1e295d4066b2eb41db0ccb1db1f26d8c067169d6d8262d4db26d"
+  },
+  "prior_package_sha256": {
+    "english.zip": "5502b42d4562473cc47be0db5cae30a8a8aaf7f713df8a9d91a7675a86d2abe0",
+    "chinese.zip": "3c43de03474df02a713c8a2a62905712ced09a81cdaec86e77cc1e55a375e971"
+  },
+  "limits": [
+    "Public synthetic fixtures only",
+    "Word previews use LibreOffice, not Microsoft Word",
+    "No additional missing-notice suppression",
+    "Long and unsupported PDF rows keep prior behavior"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "budget-long-no-currency-review-english",
+      "docx_sha256": "71a30f89c5d9db7ef683897705bec8b7b14a4b433f1d198fd1d051573a44413b",
+      "preview_sha256": "69eff7179a9b9df11241bcd2df430d9d95c3631b61f0559f0584e903e5f26afd"
+    },
+    {
+      "name": "budget-long-no-currency-review-chinese",
+      "docx_sha256": "296024d5734e7c116e997baf84716b8a863003bb1fca2598dec2e1a181f9f96b",
+      "preview_sha256": "d9921e3d7f1edf8fb3e07f725a755679dcedbd0f2b1a9e6e3ed95f88029d4ec7"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

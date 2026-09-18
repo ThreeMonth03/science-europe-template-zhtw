@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "budget-many-submission-english",
+      "docx_sha256": "7c5758cd03ef6ed208f2be5c90ed3a91948aae056fd1d76fea69394617aa6e4b",
+      "preview_sha256": "7db64d0391d3954aef88695266a6fd12aa773f5c51709bcdf62e7fea0737d27d"
+    },
+    {
+      "name": "budget-many-submission-chinese",
+      "docx_sha256": "1141a0c1c8df5ae07699c5665679d85ccc9b6ee5e4e5e53f8494c2f7aeb784fc",
+      "preview_sha256": "1ee458c2da32f9d0025d1f55e94243c1106d4b8460ce4616c930fcabd2b5f0f9"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

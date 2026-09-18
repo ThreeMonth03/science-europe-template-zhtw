@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "budget-long-no-currency-submission-english",
+      "docx_sha256": "ab33c42cace22bed9433fc5540db77e260481983546c376f7143deca99ca8c74",
+      "preview_sha256": "3e053d830d8bba299b3d5d53020655ae6050c93cf3b17328a2859f09b5f2dbf9"
+    },
+    {
+      "name": "budget-long-no-currency-submission-chinese",
+      "docx_sha256": "8952b7dfc264e08eadc0920d295f5b36352468037d7f57952146a3fd4939edbb",
+      "preview_sha256": "01eb2f0a93fe5227c912d2a9422792f5c0a53b65b64194030506cc713ec0bec5"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}
