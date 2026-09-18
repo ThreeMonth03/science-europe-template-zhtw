@@ -19,10 +19,12 @@ def main():
     p.add_argument('--preservation-reading', action='store_true', help='Verify the exact 0.3.39 filter/style addition before running all historical gates')
     p.add_argument('--short-resources', action='store_true', help='Verify exact 0.3.40 PDF-entry-only addition first')
     p.add_argument('--resource-prose', action='store_true', help='Project the exact 0.3.41 owned Q15 pair before all historical gates')
+    p.add_argument('--short-resource-rows', action='store_true', help='Project the exact 0.3.42 PDF-only short-row addition first')
     a = p.parse_args(); sys.path[:0] = [str(a.english.resolve()/n) for n in ['scripts', 'tests']]
     assert not a.preservation_reading or a.output_profiles
     assert not a.short_resources or a.preservation_reading
     assert not a.resource_prose or a.short_resources
+    assert not a.short_resource_rows or a.resource_prose
     from storage_context_contract import check_roots as context_checks
     from probe_storage_context import strip
     from q5_word_join_contract import prior_lua
@@ -55,6 +57,11 @@ def main():
         folder = old_row['language']; root = a.build/folder; historic_before = old_row['after']; before = historic_before
         after = {str(f.relative_to(root)): sha(f) for f in (root/'src').rglob('*') if f.is_file()}
         actual_after = dict(after)
+        if a.short_resource_rows:
+            from short_resource_rows_contract import project_prepared as project_rows
+            after = project_rows(root, after)
+            frozen = json.loads((ROOT/'reviews/2026-09-18-resource-prose-native/provenance/candidate-resource-prose-scope.json').read_text())
+            assert after == next(r['after'] for r in frozen['rows'] if r['language'] == folder), 'Row projection must restore every frozen 0.3.41 prepared byte'
         if a.resource_prose:
             from resource_prose_contract import project_prepared as project_resource_prose
             after = project_resource_prose(root, after)
@@ -129,11 +136,15 @@ def main():
             checks[-1]['resource_prose_delta'] = {'baseline_version':'0.3.40', 'version':'0.3.41',
                 'question_sha256':sha(root/'src/questions/15-required-resources.html.j2'),
                 'helper_sha256':sha(root/'src/resource-prose.html.j2')}
+        if a.short_resource_rows:
+            checks[-1]['short_resource_rows_delta'] = {'baseline_version':'0.3.41', 'version':'0.3.42',
+                'entry_sha256':sha(root/'src/budget-reading.html.j2'),
+                'helper_sha256':sha(root/'src/pdf/short-resource-rows.html.j2')}
     report = {'passed': True, 'release_acceptance': False, 'rows': checks, 'reviewed_deltas': following,
         'translation_units': len(files), 'translation_tree_sha256': hashes, 'checker_sha256': sha(Path(__file__)),
         'contract_sha256': sha(a.english/'scripts/metadata_gap_prose_contract.py'),
         'package_sha256': {n: sha(a.build/n) for n in ['english.zip', 'chinese.zip']}}
-    target = a.build/('resource-prose-scope.json' if a.resource_prose else 'short-resources-scope.json' if a.short_resources else 'preservation-reading-scope.json' if a.preservation_reading else 'output-profiles-scope.json' if a.output_profiles else 'metadata-gap-prose-scope.json'); assert not target.exists()
+    target = a.build/('short-resource-rows-scope.json' if a.short_resource_rows else 'resource-prose-scope.json' if a.resource_prose else 'short-resources-scope.json' if a.short_resources else 'preservation-reading-scope.json' if a.preservation_reading else 'output-profiles-scope.json' if a.output_profiles else 'metadata-gap-prose-scope.json'); assert not target.exists()
     target.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
     print(json.dumps({'passed': True, 'q5_checks': sum(r['q5_checks'] for r in checks), 'units': len(files)}))
 
