@@ -1,0 +1,16 @@
+{
+  "recipe_sha256": "479eed716a5ca8f99a4334694aee553e9541baf903d01c3cc77162e078625466",
+  "events_sha256": "536cb639ffa97dcdd3fabcba23a9b7e9b37d0a13cc2f55088940c706ba4cddc3",
+  "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+  "package_sha256": "45f9f3c20e37b9f6b0181addd28a7128dabb18f23471c0d4caf2b451f39d302d",
+  "transport_event_ids": [
+    "41b70ed3-9fa5-4ac7-87f1-f2d67ea5a87c",
+    "d5c6e8ea-3a15-47fa-a3c2-6418ecac9e13",
+    "472bc101-779a-435f-a05f-99943ddaaff8",
+    "65c2cc45-324b-4b90-8776-d3945e7197f6",
+    "49916d39-dcfb-4163-8c2f-c0191de308cf",
+    "19b86bd4-f4c0-4cf2-8db4-3a3b4f3d3794"
+  ],
+  "timeout_seconds": 600,
+  "runner_sha256": "63bbb4ec0532521eef1f6cfeb63769ee1c934b755bdd012cfa59107fd552bec8"
+}

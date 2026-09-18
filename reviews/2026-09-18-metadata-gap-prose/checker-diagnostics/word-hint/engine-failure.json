@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "release_acceptance": false,
+  "checker_sha256": "a73aff9b37d691e8ece2b255f9ec8693813d43d08f32dd5fb99c8c7712ecb894",
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "failure": "AssertionError('Unexpected joined run formatting')"
+}

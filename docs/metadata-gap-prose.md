@@ -2,6 +2,8 @@
 
 本輪在兩個 repo 的 `fix/metadata-gap-prose` 分支進行，尚未正式發布。
 英文負責條件與 HTML 結構，中文繼續走既有翻譯流程，不另寫中文 Jinja。
+已完成 [原生 PDF／Word 前後對照](../reviews/2026-09-18-metadata-gap-prose/README.md)：
+30 份輸出及 10 份 LibreOffice 預覽通過限定檢查，全部頁數不變。
 
 只在「後設資料公開」且取用說明、擷取索引兩個追問都未填時，呈現：
 

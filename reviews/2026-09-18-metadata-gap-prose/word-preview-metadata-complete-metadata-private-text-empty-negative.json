@@ -1,0 +1,49 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "metadata-complete-english",
+      "docx_sha256": "d70aab653aa24022bcc24609e955502b63b107cb43e0ac8a4d8f33b0165f714b",
+      "preview_sha256": "473d9a5e8f7726c4ea318c82d0d83cfc1237ed93ee2306d02a30d66b60d0a66f"
+    },
+    {
+      "name": "metadata-complete-chinese",
+      "docx_sha256": "d5a7f58e746ffa8d99c1e078063bc321fc1640794eb61f59258e92108a303f09",
+      "preview_sha256": "27d9417f7dc2b8f2d53fbb11df20683e6244a8ade912e7332313f429fce7f5af"
+    },
+    {
+      "name": "metadata-private-text-english",
+      "docx_sha256": "95b4bf23ac9d34578c6047e1b0674cf4dcfb874e662ce729931e5034d428fd73",
+      "preview_sha256": "277a01e7c2dacb934da4abc5fee72b03cf59c39d8d43bcfa51f9bcb9f3d25d2f"
+    },
+    {
+      "name": "metadata-private-text-chinese",
+      "docx_sha256": "a490f7c85a175f67e2428027f3d045e504d484a8b1f7aee7977c5eb7dde2fe87",
+      "preview_sha256": "b969c6f07ef68e7022b50c469a22f4194297b0e6eaf1328e3094331aa844729d"
+    },
+    {
+      "name": "empty-english",
+      "docx_sha256": "619fb7016ed46a5db6900b30fd3ea64684d1dde91e7633dc8705c017a79c2e8f",
+      "preview_sha256": "9443e2ccf932d3c74146fd04d9a0b95b5b52459c57924956a08648ba7763a1bd"
+    },
+    {
+      "name": "empty-chinese",
+      "docx_sha256": "443d24352c383c70fc3985cc3bd60fa653eb9d160bdc2c54f81e311a488e6715",
+      "preview_sha256": "d516194a0798cd4f4b9826c1d9cfefe588495a17b7da68ee9c98f87fcf80c710"
+    },
+    {
+      "name": "negative-english",
+      "docx_sha256": "95aebb88b5f210ed0f4e32871fff7efca4a3f8ede5482f5481907ed0ec7270e4",
+      "preview_sha256": "30c7f410c702e222438ec3fff497746cae0caae547c069941760c82a98a6046b"
+    },
+    {
+      "name": "negative-chinese",
+      "docx_sha256": "190f64993abddddafc076edd72fa544fbb0ff8c1034c43c90cb31031ff26efa6",
+      "preview_sha256": "950c1062cec7a06cb9dd4fee3077a40a80560e0e63370c8831c31de81ec8210a"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

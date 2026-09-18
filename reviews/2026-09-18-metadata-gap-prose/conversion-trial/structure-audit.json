@@ -1,0 +1,7 @@
+[
+  {
+    "code": "changed-html-structure",
+    "location": "src/questions/03-docs-metadata.html.j2",
+    "message": "HTML tag structure changed at item 18: expanded='<span data-fact-id=metadata-access-instructions data-status=missing>', translated='<p class=data-gap data-fact-id=metadata-access-instructions data-status=needs-review>'. expanded_count=57, translated_count=55"
+  }
+]

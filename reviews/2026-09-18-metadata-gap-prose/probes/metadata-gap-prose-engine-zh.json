@@ -1,0 +1,576 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "checker_sha256": "807fc3079217192acf4b3454a5cf55f622f141c6c6c3392473a32115793187be",
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "weasyprint": "68.1",
+  "rows": [
+    {
+      "case": "branch-0",
+      "media": "print",
+      "near_page_end": false,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-0",
+      "media": "print",
+      "near_page_end": true,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-0",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-1",
+      "media": "print",
+      "near_page_end": false,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-1",
+      "media": "print",
+      "near_page_end": true,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-1",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-2",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-2",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-3",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-3",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-4",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-4",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-5",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-5",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-6",
+      "media": "print",
+      "near_page_end": false,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-6",
+      "media": "print",
+      "near_page_end": true,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-6",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-7",
+      "media": "print",
+      "near_page_end": false,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-7",
+      "media": "print",
+      "near_page_end": true,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-7",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": true,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-8",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-8",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-9",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-9",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-10",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-10",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-11",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-11",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-12",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-12",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-13",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-13",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-14",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-14",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-15",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-15",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-16",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-16",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-17",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-17",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-18",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-18",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-19",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-19",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-20",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-20",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-21",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-21",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-22",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-22",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-23",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-23",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-24",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-24",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-25",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-25",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-26",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-26",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-27",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-27",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-28",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-28",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-29",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "branch-29",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "private",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "private",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "stale",
+      "media": "print",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    },
+    {
+      "case": "stale",
+      "media": "screen",
+      "near_page_end": false,
+      "selected": false,
+      "pages": 1,
+      "passed": true
+    }
+  ],
+  "language": "chinese",
+  "branch_checks": 33,
+  "word_joins": 4,
+  "limits": [
+    "Pinned worker engine and actual DOCX, not native DSW or Microsoft Word visual acceptance",
+    "Only two simultaneously absent Q3 publication follow-ups; other states unchanged"
+  ]
+}

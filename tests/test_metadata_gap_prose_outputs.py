@@ -18,6 +18,7 @@ class MetadataGapProseOutputTests(unittest.TestCase):
         result = prose_geometry(old, new, before, after)
         self.assertLess(result['after_span_pt'], result['before_span_pt'])
         for changed in [bbox(page((50, 'First;'))), bbox(page((50, 'First; Last.'))),
+                        new.replace(b'yMax="60"', b'yMax="58"'),
                         bbox(page((50, 'First; last.'), (100, 'First; last.'))),
                         bbox(page((50, 'First;')), page((100, 'last.')))]:
             with self.assertRaises(AssertionError):
