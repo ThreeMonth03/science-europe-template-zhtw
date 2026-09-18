@@ -1,0 +1,8 @@
+{
+  "passed": false,
+  "release_acceptance": false,
+  "rows": [],
+  "checker_sha256": "742e9b0ba771c24169633160252f6b558970d51ed33f68ea1820c1b3d5bac53c",
+  "helper_sha256": "dc6d9b1828d9bd6570a782c9b2795e589679478b5c7f7797b3f73504893d1f79",
+  "failure": "AssertionError(('english', False, 'Only the unique Q15 opening hint may change'))"
+}

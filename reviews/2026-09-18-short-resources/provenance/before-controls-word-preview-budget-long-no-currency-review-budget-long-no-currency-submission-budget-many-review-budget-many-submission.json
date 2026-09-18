@@ -1,0 +1,49 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "budget-long-no-currency-review-english",
+      "docx_sha256": "d3899d5887ce793ef06799a89ae3975597019a87112aa71f1838907043da0422",
+      "preview_sha256": "274cbff64d409a57557509f56ace6442323b75d54cb79380e6be52c8981c6272"
+    },
+    {
+      "name": "budget-long-no-currency-review-chinese",
+      "docx_sha256": "70efb429295a5d390f8160e81a6af3fb7d444102fd10eadf5471b39b37c21e2f",
+      "preview_sha256": "ee57a0eea36368d1c50d7bdad932f1d3b5b88abce2b7d67de53ae0063c514b3e"
+    },
+    {
+      "name": "budget-long-no-currency-submission-english",
+      "docx_sha256": "b235e2ab144dba76078c17220ae60fc4affbbf0b8d85551bfa5f0dfb6baf9b9a",
+      "preview_sha256": "1b246c3c7b4270cabd8ba601086c49c0b4b0fad9bbba1fd0ce894e7cea780cc7"
+    },
+    {
+      "name": "budget-long-no-currency-submission-chinese",
+      "docx_sha256": "efef8a85b5efbcfc01697d6acbb0668711a275a56b018aa555aa80a0cd1ebc76",
+      "preview_sha256": "56e886e98257d8bb28944d99cf1273a87fce980e95ace37e20f414018bbc6549"
+    },
+    {
+      "name": "budget-many-review-english",
+      "docx_sha256": "e64811848af210fa49589edc5a3d6176e644936304f8dbdf02d2d3f6e36045f5",
+      "preview_sha256": "3530157eea502390544c0271703c0e963312d5e47faff5d0c77206c948b68c2c"
+    },
+    {
+      "name": "budget-many-review-chinese",
+      "docx_sha256": "7d66c989eaf20addb94424f377bc7981f1b24d2c006fa2ff13e175f3e07f56be",
+      "preview_sha256": "d7fd99d2a595edf441c13108705078e1c3758d4edbc48fd33f889bffa14aa5ab"
+    },
+    {
+      "name": "budget-many-submission-english",
+      "docx_sha256": "39ed9bab30ee6063b947a3adc620d9afe741dcc8c19aa33e2757a7f039c79504",
+      "preview_sha256": "57768a23ad092c790caf84e4786c0f39c3c91b9658210d8ce61483b86901a1c0"
+    },
+    {
+      "name": "budget-many-submission-chinese",
+      "docx_sha256": "38fe70858ea32c77bd97db3fca7c1283ccbe83f09bdb585f472ead152110522d",
+      "preview_sha256": "bd25683e9645bb7aa14e6b27149a1d228e846fb233de81dbdadd2a9efd7bbe4e"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

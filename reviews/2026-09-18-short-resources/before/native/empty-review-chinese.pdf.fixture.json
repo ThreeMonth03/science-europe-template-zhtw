@@ -1,0 +1,11 @@
+{
+  "recipe_sha256": "e8fe1ab2d8be0f432c3976b70b081c0fa8227293e4b8765cef7406aed475ec61",
+  "events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+  "package_sha256": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc",
+  "transport_event_ids": [],
+  "timeout_seconds": 600,
+  "runner_sha256": "ec42a16c5258c0ad78457fd2f11bdb7c74cb39b2ac17e9ee361533b985be0060",
+  "output_profile": "review",
+  "format_uuid": "68c26e34-5e77-4e15-9bf7-06ff92582257"
+}

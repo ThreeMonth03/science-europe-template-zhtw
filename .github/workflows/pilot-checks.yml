@@ -20,6 +20,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      - name: Install PDF inspection tools for frozen native regressions
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
       - name: Read exact source locks
         id: locks
         run: |
@@ -77,10 +81,17 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
-          # Verify exactly one new Q11 filter/style, then retain every prior profile/source gate.
+          # Project only the Q15 PDF hook, then retain Q11 and all prior profile/source gates.
           ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english --output-profiles --preservation-reading --short-resources
-          ../tooling/.venv/bin/python ../english/scripts/probe_short_resources.py --source-dir "$SE_BUILD_DIR/en" --engine --output "$SE_BUILD_DIR/short-resources-engine-en.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_short_resources.py --source-dir "$SE_BUILD_DIR/translated" --engine --output "$SE_BUILD_DIR/short-resources-engine-zh.json"
+          # Independent processes retain fresh per-render font state; await both failures too.
+          ../tooling/.venv/bin/python ../english/scripts/probe_short_resources.py --source-dir "$SE_BUILD_DIR/en" --engine --output "$SE_BUILD_DIR/short-resources-engine-en.json" &
+          SE_Q15_EN_PID=$!
+          ../tooling/.venv/bin/python ../english/scripts/probe_short_resources.py --source-dir "$SE_BUILD_DIR/translated" --engine --output "$SE_BUILD_DIR/short-resources-engine-zh.json" &
+          SE_Q15_ZH_PID=$!
+          SE_Q15_STATUS=0
+          wait "$SE_Q15_EN_PID" || SE_Q15_STATUS=1
+          wait "$SE_Q15_ZH_PID" || SE_Q15_STATUS=1
+          test "$SE_Q15_STATUS" -eq 0
           ../tooling/.venv/bin/python ../english/scripts/probe_preservation_reading.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/preservation-reading-engine-en.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_preservation_reading.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/preservation-reading-engine-zh.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/storage-context-engine-en.json"

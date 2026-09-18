@@ -1,0 +1,201 @@
+{
+  "version": "0.3.40",
+  "native_export": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "collector_sha256": "4671ff0537f12c9cbe798cc1b92284c407a37248020012979a75cb879f60059c",
+  "rows": [
+    {
+      "phase": "before",
+      "stem": "profile-partial-review-english",
+      "pdf_pages": 6,
+      "word_pages": 6
+    },
+    {
+      "phase": "after",
+      "stem": "profile-partial-review-english",
+      "pdf_pages": 6,
+      "word_pages": 6
+    },
+    {
+      "phase": "before",
+      "stem": "profile-partial-review-chinese",
+      "pdf_pages": 6,
+      "word_pages": 6
+    },
+    {
+      "phase": "after",
+      "stem": "profile-partial-review-chinese",
+      "pdf_pages": 6,
+      "word_pages": 6
+    },
+    {
+      "phase": "before",
+      "stem": "profile-partial-submission-english",
+      "pdf_pages": 6,
+      "word_pages": 6
+    },
+    {
+      "phase": "after",
+      "stem": "profile-partial-submission-english",
+      "pdf_pages": 6,
+      "word_pages": 6
+    },
+    {
+      "phase": "before",
+      "stem": "profile-partial-submission-chinese",
+      "pdf_pages": 6,
+      "word_pages": 6
+    },
+    {
+      "phase": "after",
+      "stem": "profile-partial-submission-chinese",
+      "pdf_pages": 6,
+      "word_pages": 6
+    },
+    {
+      "phase": "before",
+      "stem": "empty-review-english",
+      "pdf_pages": 4,
+      "word_pages": 3
+    },
+    {
+      "phase": "after",
+      "stem": "empty-review-english",
+      "pdf_pages": 4,
+      "word_pages": 3
+    },
+    {
+      "phase": "before",
+      "stem": "empty-review-chinese",
+      "pdf_pages": 3,
+      "word_pages": 3
+    },
+    {
+      "phase": "after",
+      "stem": "empty-review-chinese",
+      "pdf_pages": 3,
+      "word_pages": 3
+    },
+    {
+      "phase": "before",
+      "stem": "empty-submission-english",
+      "pdf_pages": 4,
+      "word_pages": 3
+    },
+    {
+      "phase": "after",
+      "stem": "empty-submission-english",
+      "pdf_pages": 4,
+      "word_pages": 3
+    },
+    {
+      "phase": "before",
+      "stem": "empty-submission-chinese",
+      "pdf_pages": 3,
+      "word_pages": 3
+    },
+    {
+      "phase": "after",
+      "stem": "empty-submission-chinese",
+      "pdf_pages": 3,
+      "word_pages": 3
+    },
+    {
+      "phase": "before",
+      "stem": "budget-long-no-currency-review-english",
+      "pdf_pages": 10,
+      "word_pages": 9
+    },
+    {
+      "phase": "after",
+      "stem": "budget-long-no-currency-review-english",
+      "pdf_pages": 10,
+      "word_pages": 9
+    },
+    {
+      "phase": "before",
+      "stem": "budget-long-no-currency-review-chinese",
+      "pdf_pages": 9,
+      "word_pages": 10
+    },
+    {
+      "phase": "after",
+      "stem": "budget-long-no-currency-review-chinese",
+      "pdf_pages": 9,
+      "word_pages": 10
+    },
+    {
+      "phase": "before",
+      "stem": "budget-long-no-currency-submission-english",
+      "pdf_pages": 10,
+      "word_pages": 9
+    },
+    {
+      "phase": "after",
+      "stem": "budget-long-no-currency-submission-english",
+      "pdf_pages": 10,
+      "word_pages": 9
+    },
+    {
+      "phase": "before",
+      "stem": "budget-long-no-currency-submission-chinese",
+      "pdf_pages": 9,
+      "word_pages": 10
+    },
+    {
+      "phase": "after",
+      "stem": "budget-long-no-currency-submission-chinese",
+      "pdf_pages": 9,
+      "word_pages": 10
+    },
+    {
+      "phase": "before",
+      "stem": "budget-many-review-english",
+      "pdf_pages": 9,
+      "word_pages": 8
+    },
+    {
+      "phase": "after",
+      "stem": "budget-many-review-english",
+      "pdf_pages": 9,
+      "word_pages": 8
+    },
+    {
+      "phase": "before",
+      "stem": "budget-many-review-chinese",
+      "pdf_pages": 8,
+      "word_pages": 8
+    },
+    {
+      "phase": "after",
+      "stem": "budget-many-review-chinese",
+      "pdf_pages": 8,
+      "word_pages": 8
+    },
+    {
+      "phase": "before",
+      "stem": "budget-many-submission-english",
+      "pdf_pages": 9,
+      "word_pages": 7
+    },
+    {
+      "phase": "after",
+      "stem": "budget-many-submission-english",
+      "pdf_pages": 9,
+      "word_pages": 7
+    },
+    {
+      "phase": "before",
+      "stem": "budget-many-submission-chinese",
+      "pdf_pages": 8,
+      "word_pages": 8
+    },
+    {
+      "phase": "after",
+      "stem": "budget-many-submission-chinese",
+      "pdf_pages": 8,
+      "word_pages": 8
+    }
+  ]
+}

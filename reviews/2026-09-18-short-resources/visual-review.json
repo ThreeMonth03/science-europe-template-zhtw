@@ -1,0 +1,15 @@
+{
+  "method": "Manual model inspection of rendered PNGs from the native PDF exports",
+  "scope": "Four selected current PDFs: 24-page contact sheets; Chinese submission before pages 5 and 6 and after page 6 at 1600px",
+  "selected_q15_observation": "Chinese submission Q15 heading, overview and two-row budget now share page 6; no visible clipping or collision in that inspected block. Other three selected Q15 blocks remain on page 6.",
+  "remaining_observations": [
+    "Page count remains six; whitespace is redistributed, not eliminated",
+    "Chinese spaces before punctuation and short separate paragraphs remain",
+    "Chinese submission Q11 preservation narrative continues onto the next page",
+    "English line-box overlap warnings remain in the automated report; unchanged does not mean zero overlaps",
+    "Only selected contact sheets and target detail pages were manually inspected; control cases have automated comparisons, not full manual acceptance"
+  ],
+  "native_export": true,
+  "microsoft_word_acceptance": false,
+  "release_acceptance": false
+}

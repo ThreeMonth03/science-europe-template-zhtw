@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "preservation-partial-submission-english",
+      "docx_sha256": "17e8a3854cd4b1d0fb7e26d64dbd0c6e33603440a3c3cce39c7e06b4a7ca4726",
+      "preview_sha256": "efbd836161767b4a4cda672bbb96d2935d7e27ed954371c3a18899f2056ec124"
+    },
+    {
+      "name": "preservation-partial-submission-chinese",
+      "docx_sha256": "b7c080a5de5c8357c006fcbc6db5852b5d642fe83f2eaaf09a3ec32dce0df42b",
+      "preview_sha256": "82bbfd066307854b403958c85642f96d914c2bb2fc820be6ac05a363b6191c9b"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "b3c29442dcd2633a3382edf342ba4646628e5bd85a65fabccf54945d7eaf858f",
+  "completed": true
+}

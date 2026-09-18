@@ -1,0 +1,8 @@
+{
+  "passed": false,
+  "release_acceptance": false,
+  "rows": [],
+  "checker_sha256": "7becce7190124b8069b707303eb367f9c203c72b5ea51b37b4f67f3c86b1a902",
+  "helper_sha256": "2e74f441d1fdc8aaf65625024f803f1e714df9538194e72c877e12039395e98d",
+  "failure": "AssertionError()"
+}
