@@ -1,0 +1,7 @@
+{
+  "captured_at": {
+    "current_time": "2026-09-18 01:45:06 UTC"
+  },
+  "scope": "Restored stock worker and stopped only the four existing pilot services; no volumes removed.",
+  "state": "science-europe-pilot-docworker-1 Exited (137) 18 seconds ago\nscience-europe-pilot-server-1 Exited (0) 28 seconds ago\nscience-europe-pilot-minio-init-1 Exited (0) 6 days ago\nscience-europe-pilot-postgres-1 Exited (0) 28 seconds ago\nscience-europe-pilot-minio-1 Exited (0) 28 seconds ago\n\"sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc\"\n"
+}

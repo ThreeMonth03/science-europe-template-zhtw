@@ -1,0 +1,20 @@
+{
+  "review_method": "All 48 pages viewed in eight contact sheets; Chinese submission Word pages 4 and 5 additionally inspected at 1500-pixel page height",
+  "content_switching_passed": true,
+  "full_document_visual_acceptance": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "findings": [
+    {"id": "OP-V01", "status": "open", "language": "chinese", "profile": "submission", "format": "word-preview", "pages": [4, 5], "finding": "Q11 question heading and dataset name remain at the bottom of page 4; the preservation-summary answer starts on page 5. This separation is not present at that location in the review profile."},
+    {"id": "OP-V02", "status": "open", "language": "chinese", "profile": "submission", "format": "pdf", "pages": [5, 6], "finding": "The Q15 introductory answer is on page 5, while the short budget table occupies only the top of page 6. This known short-budget tail-page weakness remains visible after reflow."},
+    {"id": "OP-V03", "status": "open", "language": "chinese", "profile": "review", "format": "word-preview", "pages": [3, 4], "finding": "The Q5 question, policy and mapping-limit lead are on page 3; the two limitation bullets are on page 4. This new fixture exposes a pagination weakness despite preserved review content.", "verified_q5_heading_policy_lead_bullet_pages": [3, 3, 3, 4, 4]},
+    {"id": "OP-V04", "status": "open", "language": "english", "profile": "review", "format": "pdf", "pages": [2, 3], "finding": "Q1 Shared arrangements heading and introductory line end page 2; the actual shared-policy paragraph begins page 3. The submission profile reflows this paragraph onto page 2; the underlying keep-with-next weakness is not fixed."},
+    {"id": "OP-V05", "status": "open", "language": "chinese", "profile": "submission", "format": "word-preview", "pages": [4, 5], "finding": "Existing fixed prose still has visible spaces before some Chinese sentence-final punctuation, including Q8 licensing and Q9 personal-data text. This pilot retains those prior translations; it is not a punctuation cleanup."}
+  ],
+  "observations": [
+    "No clipped or overlapping text was apparent in the reviewed overview images; this is not a general layout guarantee.",
+    "The English native PDFs retain two identical bounding-box intersections in wrapped cover/section titles. The visible glyphs are readable in both profiles; no new line-box intersection was introduced.",
+    "Removing notices changes page breaks even when every remaining sentence is preserved. Both profiles require separate layout regression cases.",
+    "All four native PDFs and all four LibreOffice previews remain six pages; unchanged page counts do not establish acceptable pagination."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "scope": "Partial pilot, not a whole-questionnaire completeness certificate",
+  "language": "chinese",
+  "template_version": "0.3.38",
+  "review_html_sha256": "4a7c1ba9d3a12636c700038b4f49ae9159d53de657dd228b80a3e6493ca4ba18",
+  "package_sha256": "ae1dd34da7bfa9e8d18c50e7901b7bc5700e725fc5f0c4bf726f183bd6190225",
+  "items": [
+    {
+      "question": "q-how-data",
+      "fact": "quality-methods",
+      "status": "missing",
+      "text": "沿岸水溫觀測資料 ：預計進行品質管控，具體方法尚待補充。"
+    },
+    {
+      "question": "q-docs-metadata",
+      "fact": "metadata-dictionary",
+      "status": "missing",
+      "text": "尚待補充：是否將建立資料字典或變項定義表。"
+    },
+    {
+      "question": "q-docs-metadata",
+      "fact": "metadata-access-instructions",
+      "status": "missing",
+      "text": "後設資料是否會包含取用資料的說明"
+    },
+    {
+      "question": "q-docs-metadata",
+      "fact": "metadata-harvestable",
+      "status": "missing",
+      "text": "後設資料是否可供自動擷取並建立索引"
+    },
+    {
+      "question": "q-docs-metadata",
+      "fact": "storage-capacity",
+      "status": "missing",
+      "text": "尚待補充：計畫所有資料與軟體（含暫存空間）所需的預估儲存容量（GB）。"
+    },
+    {
+      "question": "q-quality-control",
+      "fact": "quality-methods",
+      "status": "missing",
+      "text": "沿岸水溫觀測資料 ：預計進行品質管控，具體方法尚待補充。"
+    },
+    {
+      "question": "q-store-backup",
+      "fact": "storage-location",
+      "status": "unmapped",
+      "text": "這些對應回答尚未明確指出工作資料與備份的實際儲存地點。"
+    },
+    {
+      "question": "q-store-backup",
+      "fact": "backup-frequency",
+      "status": "unmapped",
+      "text": "這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。"
+    },
+    {
+      "question": "q-data-preservation",
+      "fact": "preservation-selection-review",
+      "status": "needs-review",
+      "text": "保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。"
+    },
+    {
+      "question": "project-overview",
+      "fact": "funding",
+      "status": "missing",
+      "text": "尚未提供經費來源。"
+    }
+  ]
+}

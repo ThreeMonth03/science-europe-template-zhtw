@@ -1,0 +1,66 @@
+{
+  "version": "0.3.38",
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "native_renders": 12,
+  "word_previews": 4,
+  "pages": 48,
+  "rows": [
+    {
+      "language": "english",
+      "profile": "review",
+      "format": "pdf",
+      "pages": 6,
+      "sha256": "f84d5fbd99ff23b7c82bc03ed05d30b4b64187351b363cabcc4652dc78b2a438"
+    },
+    {
+      "language": "english",
+      "profile": "review",
+      "format": "word-preview",
+      "pages": 6,
+      "sha256": "a7d75941317b34f702639a84494a39f12dfffb96ba2bb2eb14c49fba538d3c96"
+    },
+    {
+      "language": "english",
+      "profile": "submission",
+      "format": "pdf",
+      "pages": 6,
+      "sha256": "4b2967ebe5058fad3586eb4b54a112608b5c585501c7dba3675fced46d7bcfe9"
+    },
+    {
+      "language": "english",
+      "profile": "submission",
+      "format": "word-preview",
+      "pages": 6,
+      "sha256": "943d8c402c0236d34c4fc40c8524407f085fe9fbbd1ebca3154f285f631c78ff"
+    },
+    {
+      "language": "chinese",
+      "profile": "review",
+      "format": "pdf",
+      "pages": 6,
+      "sha256": "bce8030f6788fb43d5389fce6b8a26cfc2b20140e93b65e5fe659ff2902aea95"
+    },
+    {
+      "language": "chinese",
+      "profile": "review",
+      "format": "word-preview",
+      "pages": 6,
+      "sha256": "78d52235e65aa9f569d93250f2be4e3dc45e0bd66e2897c99438bbbc5b31b579"
+    },
+    {
+      "language": "chinese",
+      "profile": "submission",
+      "format": "pdf",
+      "pages": 6,
+      "sha256": "a16afc62c5eae2eddc3a8291d5b3ae1c309a475105719ea30ccc02200a125c52"
+    },
+    {
+      "language": "chinese",
+      "profile": "submission",
+      "format": "word-preview",
+      "pages": 6,
+      "sha256": "d6f327af8e493b6545f05a52418aa9de1e88b725fed6ed729d75eb10522411eb"
+    }
+  ]
+}
