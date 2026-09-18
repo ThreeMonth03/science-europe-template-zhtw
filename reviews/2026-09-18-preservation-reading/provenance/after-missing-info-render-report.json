@@ -1,0 +1,349 @@
+{
+  "all_renders_succeeded": true,
+  "release_acceptance": false,
+  "validation": [
+    {
+      "case": "profile-partial",
+      "language": "english",
+      "reachable_replies": 115,
+      "events_sha256": "13d7f8533d93d0b50c3bb2c43dd48b49e5ac421b5a31c5ddd56ab621652d0f5f",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "reachable_replies": 0,
+      "events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "preservation-partial",
+      "language": "english",
+      "reachable_replies": 153,
+      "events_sha256": "59b3e635f245d0dc748423e10a70b9e1a8eb4aab2013292ee93ce5aafccd2536",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "profile-partial",
+      "language": "chinese",
+      "reachable_replies": 115,
+      "events_sha256": "fed2947a7717e945f7dc8f53cb1bfbe54d3a0434f34e9aa109a576619b889f44",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "reachable_replies": 0,
+      "events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "preservation-partial",
+      "language": "chinese",
+      "reachable_replies": 153,
+      "events_sha256": "6186e43faa80c5ca5a34abaf00141932080ff3bc33a675e86e98dd5c2fcab521",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    }
+  ],
+  "renders": [
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-review",
+      "fixture_case": "preservation-partial",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-review",
+      "fixture_case": "preservation-partial",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-review",
+      "fixture_case": "preservation-partial",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-review",
+      "fixture_case": "preservation-partial",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-review",
+      "fixture_case": "preservation-partial",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-review",
+      "fixture_case": "preservation-partial",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-submission",
+      "fixture_case": "preservation-partial",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-submission",
+      "fixture_case": "preservation-partial",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-submission",
+      "fixture_case": "preservation-partial",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-submission",
+      "fixture_case": "preservation-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-submission",
+      "fixture_case": "preservation-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "preservation-partial-submission",
+      "fixture_case": "preservation-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    }
+  ],
+  "checker_sha256": "d3f1bf6865d3f5105598d1de1c6d1476278c5738e8925a138f920150fd69ebdb",
+  "package_sha256": {
+    "english.zip": "d69da69d44d4be152a71345100e7536b19e011b15ad644f87ceba5ed70c36a19",
+    "chinese.zip": "a8d2e5a2ddc91f8f1ba0943ce9e9d1237f0c28ff2210998d9879d0331d984fbc"
+  }
+}

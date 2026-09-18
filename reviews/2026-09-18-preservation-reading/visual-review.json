@@ -1,0 +1,26 @@
+{
+  "method": "Agent inspection of rendered PNGs, not human or Microsoft Word sign-off",
+  "release_acceptance": false,
+  "reviewed": [
+    "visual/profile-partial-review-english-word.png",
+    "visual/profile-partial-submission-english-word.png",
+    "visual/profile-partial-review-chinese-word.png",
+    "visual/profile-partial-submission-chinese-word.png",
+    "visual/before-chinese-submission-p4.png",
+    "visual/after-chinese-submission-p5.png"
+  ],
+  "observations": [
+    "Chinese submission Q11 heading, dataset name and fixed summary now begin together on page 5; previously heading and name were stranded at the bottom of page 4.",
+    "Four target Word previews retain six pages each; no new obvious clipping in the inspected overview images.",
+    "The merged dataset name remains bold; Q11 remains a question heading. This does not retain the dataset's former Heading5 semantic level.",
+    "English review may still put later Q11 repository details on the next page; the rule deliberately does not hold the whole question together.",
+    "Chinese review Q5 lead and limitations still span pages 3 and 4.",
+    "Chinese submission short Q15 overview and budget table still span pages 5 and 6; this iteration does not fix that Word/PDF issue.",
+    "Existing Chinese spacing around punctuation remains; no prose was rewritten."
+  ],
+  "limits": [
+    "Twenty-four target Word pages reviewed as contact sheets; two target pages also inspected at higher resolution.",
+    "Other controls have automated exact-content and geometry comparisons, not a claim of full manual page review.",
+    "Native PDF remains a separate rendering path; no PDF style change was introduced."
+  ]
+}

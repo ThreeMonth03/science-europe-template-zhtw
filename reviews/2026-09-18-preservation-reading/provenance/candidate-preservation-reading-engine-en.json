@@ -1,0 +1,215 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "rows": [
+    {
+      "case": "short",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "chinese",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "negative-zero",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "with-tail",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "two-datasets",
+      "joined_datasets": 2,
+      "passed": true
+    },
+    {
+      "case": "empty",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "no-summary",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "wrong-question",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-lookalike",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-nested-question",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "other-question-authored-lookalike",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "cross-reference",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "empty-list-tail",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "name-boundary",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "name-too-long",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-name-boundary",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "cjk-name-too-long",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "summary-359",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "summary-360",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "summary-361",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-summary-180",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "cjk-summary-181",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "authored",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "gap",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "link",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "strong",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "span",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "code",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "break",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "list",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "table",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "image",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "unknown-dataset-class",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "unknown-policy-class",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "unknown-attribute",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "missing-identity",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "unknown-heading",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "rich-name",
+      "joined_datasets": 0,
+      "passed": true
+    },
+    {
+      "case": "mixed",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "mixed-second-only",
+      "joined_datasets": 1,
+      "passed": true
+    },
+    {
+      "case": "same-labels",
+      "joined_datasets": 2,
+      "passed": true
+    }
+  ],
+  "checker_sha256": "f4d7a9fdeaebfa8b5c78998d125ba6529450e2a707b9588f52dbc73235ae89fa",
+  "filter_sha256": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+  "pandoc_version": "pandoc 3.8.3"
+}

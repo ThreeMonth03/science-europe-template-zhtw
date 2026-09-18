@@ -1,0 +1,153 @@
+{
+  "version": "0.3.39",
+  "native_export": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "collector_sha256": "9608f2931e783387b243e01e569771cfae201381d3053d57a7792944eaf5cf16",
+  "rows": [
+    {
+      "phase": "before",
+      "stem": "empty-review-english",
+      "word_pages": 3,
+      "pdf_pages": 4
+    },
+    {
+      "phase": "after",
+      "stem": "empty-review-english",
+      "word_pages": 3,
+      "pdf_pages": 4
+    },
+    {
+      "phase": "before",
+      "stem": "empty-review-chinese",
+      "word_pages": 3,
+      "pdf_pages": 3
+    },
+    {
+      "phase": "after",
+      "stem": "empty-review-chinese",
+      "word_pages": 3,
+      "pdf_pages": 3
+    },
+    {
+      "phase": "before",
+      "stem": "empty-submission-english",
+      "word_pages": 3,
+      "pdf_pages": 4
+    },
+    {
+      "phase": "after",
+      "stem": "empty-submission-english",
+      "word_pages": 3,
+      "pdf_pages": 4
+    },
+    {
+      "phase": "before",
+      "stem": "empty-submission-chinese",
+      "word_pages": 3,
+      "pdf_pages": 3
+    },
+    {
+      "phase": "after",
+      "stem": "empty-submission-chinese",
+      "word_pages": 3,
+      "pdf_pages": 3
+    },
+    {
+      "phase": "before",
+      "stem": "preservation-partial-review-english",
+      "word_pages": 7,
+      "pdf_pages": 8
+    },
+    {
+      "phase": "after",
+      "stem": "preservation-partial-review-english",
+      "word_pages": 7,
+      "pdf_pages": 8
+    },
+    {
+      "phase": "before",
+      "stem": "preservation-partial-review-chinese",
+      "word_pages": 7,
+      "pdf_pages": 7
+    },
+    {
+      "phase": "after",
+      "stem": "preservation-partial-review-chinese",
+      "word_pages": 7,
+      "pdf_pages": 7
+    },
+    {
+      "phase": "before",
+      "stem": "preservation-partial-submission-english",
+      "word_pages": 7,
+      "pdf_pages": 8
+    },
+    {
+      "phase": "after",
+      "stem": "preservation-partial-submission-english",
+      "word_pages": 7,
+      "pdf_pages": 8
+    },
+    {
+      "phase": "before",
+      "stem": "preservation-partial-submission-chinese",
+      "word_pages": 7,
+      "pdf_pages": 7
+    },
+    {
+      "phase": "after",
+      "stem": "preservation-partial-submission-chinese",
+      "word_pages": 7,
+      "pdf_pages": 7
+    },
+    {
+      "phase": "before",
+      "stem": "profile-partial-review-english",
+      "word_pages": 6,
+      "pdf_pages": 6
+    },
+    {
+      "phase": "after",
+      "stem": "profile-partial-review-english",
+      "word_pages": 6,
+      "pdf_pages": 6
+    },
+    {
+      "phase": "before",
+      "stem": "profile-partial-review-chinese",
+      "word_pages": 6,
+      "pdf_pages": 6
+    },
+    {
+      "phase": "after",
+      "stem": "profile-partial-review-chinese",
+      "word_pages": 6,
+      "pdf_pages": 6
+    },
+    {
+      "phase": "before",
+      "stem": "profile-partial-submission-english",
+      "word_pages": 6,
+      "pdf_pages": 6
+    },
+    {
+      "phase": "after",
+      "stem": "profile-partial-submission-english",
+      "word_pages": 6,
+      "pdf_pages": 6
+    },
+    {
+      "phase": "before",
+      "stem": "profile-partial-submission-chinese",
+      "word_pages": 6,
+      "pdf_pages": 6
+    },
+    {
+      "phase": "after",
+      "stem": "profile-partial-submission-chinese",
+      "word_pages": 6,
+      "pdf_pages": 6
+    }
+  ]
+}
