@@ -1,0 +1,109 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "empty-review-english",
+      "docx_sha256": "d51cf76cb09dac1fdba4d14d774e9f6546f2da7d8317a8016cb07e8634b7b91d",
+      "preview_sha256": "864ba0edbefda136b70c2361809b18035e7e824ca69486e740da7b76d2d7671f"
+    },
+    {
+      "name": "empty-review-chinese",
+      "docx_sha256": "7cb3fcf9c731bacab101c9a49c3c26905440bdf71454d4b633dc4d63881a8b88",
+      "preview_sha256": "55c7a66e074b892480ee0121d0abfe018916944558f250ffda4a998d31440dc0"
+    },
+    {
+      "name": "empty-submission-english",
+      "docx_sha256": "0a2e6a06b78eb15f5bcd75d9e20710c87d2328b3ad7afb0b6ecfcd6aa83fe046",
+      "preview_sha256": "17d7df29023750c732d295becea83d533cbfbf2780043d3d5a38b7a5edb3678f"
+    },
+    {
+      "name": "empty-submission-chinese",
+      "docx_sha256": "a9c150c87399a210ae28dc162b256c70565f507f19ad6631e5c4cfb367cbcf33",
+      "preview_sha256": "5a284c093ec2d7599f88e11eb85fc568eaa33e536f6fe1eba3b5410cd6f8a130"
+    },
+    {
+      "name": "profile-partial-review-english",
+      "docx_sha256": "eab4268f590b6368dedb77db7fbc627ef7d6ddf3f8ba5761731ee810a63963ad",
+      "preview_sha256": "ef2268f0050a42460433b4084665f0ab1da223dfeb3d51af2b5376b320c2e8e0"
+    },
+    {
+      "name": "profile-partial-review-chinese",
+      "docx_sha256": "195382684acba92f6d748915806bec9fb247f02bef7a32e9ad4abad4e4585acb",
+      "preview_sha256": "fb47e6de0bd00dea92649cd10f933f6c9b3af96a5f514aa91fc58e616f682ad3"
+    },
+    {
+      "name": "profile-partial-submission-english",
+      "docx_sha256": "f13e1f85b804c29f95d0aa5f7c29f4e8ff022f5e5d6b73416c7c226c9727bd71",
+      "preview_sha256": "6af6beab7879c355aa50fb97ede07c8cead00a0048ec3cb83eba41b678648e6e"
+    },
+    {
+      "name": "profile-partial-submission-chinese",
+      "docx_sha256": "ceb41775f021e878e63cb930c6e78642754aee46fc7c02534eb5b6295a3ce56a",
+      "preview_sha256": "f3e4f85bfacf44d8e172234f059a9d097d5a3ae5afef9595ad24b0db2363b68a"
+    },
+    {
+      "name": "budget-many-review-english",
+      "docx_sha256": "abcfbfc4d804734ee184bc0a3c296ac03e35b37d813146131cb869118af369de",
+      "preview_sha256": "87f31f640b009309a1d04a6f44e90b76472e8c028edae3e579c29a97b709e38a"
+    },
+    {
+      "name": "budget-many-review-chinese",
+      "docx_sha256": "9c6c4b6a6f65ac8ef2007e9bac3ac4d8bc4407849a293da99dbb98843b60dcab",
+      "preview_sha256": "5e74020a8628d69e13404a410f54ed485d6f83e41a3e0cbef65adb1f183031e7"
+    },
+    {
+      "name": "budget-many-submission-english",
+      "docx_sha256": "5b41d6ca84b3c0a234bcd7fb0b902c0a59d112f583651a46eda522fdb998e45c",
+      "preview_sha256": "4dd0f77cf1cfdffc9da623e77e767d9ffae478337bca515503da7794d260d7e5"
+    },
+    {
+      "name": "budget-many-submission-chinese",
+      "docx_sha256": "3e46a7b02ca29a8965abbf28aaf71d91c5fdacbdd4214660faf0f3ae7eba873c",
+      "preview_sha256": "d4deeea60c0caddfbc87c574b066f2f98e76eeb1f31f84bafae6abcf5f13fec5"
+    },
+    {
+      "name": "budget-long-no-currency-review-english",
+      "docx_sha256": "3c3231fb560d0968611b52aa5fab2b4b4c6e9b8d6c6b94a322c310985fbc372a",
+      "preview_sha256": "8748234fcff28385008b6d96fd9376e9ac8e33602e8231fc13a093ecae44e82d"
+    },
+    {
+      "name": "budget-long-no-currency-review-chinese",
+      "docx_sha256": "bb703d7728c6ebee8dd98d2659680db81beb67f795a90a758e28fb7515eb9e3f",
+      "preview_sha256": "1e82424b37a29cdb9aeb35c10ab140e29ad217b53e5d6116c496599deda0b155"
+    },
+    {
+      "name": "budget-long-no-currency-submission-english",
+      "docx_sha256": "95cfd50e97122c289bb39325af0bdbe039d715c323dbecb365038f4c53c6c8d8",
+      "preview_sha256": "26c8a37d51e7012d46adcddedd5e31bf245f0e1fed70c1caf08f672bf92a8675"
+    },
+    {
+      "name": "budget-long-no-currency-submission-chinese",
+      "docx_sha256": "047ea18be763bbb0c8866062b8c354cb1e7d3742977dbaba8ac1cc716e398b69",
+      "preview_sha256": "e9ee13c0d9045515ed2d5b54c503657c9b18607e75eadc41d1efc8282ff86dcb"
+    },
+    {
+      "name": "budget-single-long-review-english",
+      "docx_sha256": "564de5d6693c8e59afc93ed18273419e7d1a5bf94d02a6a05586b8f94e22f741",
+      "preview_sha256": "c13af21ab879412a7bfa5188de1c82b5b314f9f480372c58f71dbd1292f5572c"
+    },
+    {
+      "name": "budget-single-long-review-chinese",
+      "docx_sha256": "64208221bf1aa10d089480f132099d272ebf77c4e1f87f18df54708d606a84a7",
+      "preview_sha256": "d3825a2fc90cfe0f29dcd5b9532c9c3cbf76248c61ec86748d0ecaa9b84af948"
+    },
+    {
+      "name": "budget-single-long-submission-english",
+      "docx_sha256": "4f35e4cdef6e03fa31ca83a562ca3b76fb7db78c024a26ab95ea28f4d4534d87",
+      "preview_sha256": "faf4f55ab367e8856f42b15d206f28c961fad231bdc98dbf0d2c0596aa1501f4"
+    },
+    {
+      "name": "budget-single-long-submission-chinese",
+      "docx_sha256": "3d6d509b55739e439235d77c767f130358d0a06f060dff3976245e5ec8bd3122",
+      "preview_sha256": "b0586884ea760471706e5a2f87e9f95efc25628732c992edaaa18ae7dfc43424"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "86ad75c56b82f18583f1e85422a05bc1127a55b9444eec2b85ae69601895e6fa",
+  "completed": true
+}

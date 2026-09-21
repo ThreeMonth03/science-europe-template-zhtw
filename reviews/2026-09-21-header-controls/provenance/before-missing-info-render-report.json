@@ -1,0 +1,573 @@
+{
+  "all_renders_succeeded": true,
+  "release_acceptance": false,
+  "validation": [
+    {
+      "case": "empty",
+      "language": "english",
+      "reachable_replies": 0,
+      "events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "profile-partial",
+      "language": "english",
+      "reachable_replies": 115,
+      "events_sha256": "13d7f8533d93d0b50c3bb2c43dd48b49e5ac421b5a31c5ddd56ab621652d0f5f",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "budget-many",
+      "language": "english",
+      "reachable_replies": 201,
+      "events_sha256": "6c6ddf1c69d7fd5c8e1de711745ad4397cb1df98ede79cba2a948675c0a51c74",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "reachable_replies": 158,
+      "events_sha256": "ea86a763d7789d48c24cbba44c5ffc85af0e3a2249b0eac387ab067780edce05",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "budget-single-long",
+      "language": "english",
+      "reachable_replies": 152,
+      "events_sha256": "f07558b88d6b52e1798bcf05902222ba25f657f5aa9721a7daa21a74603f6f21",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "reachable_replies": 0,
+      "events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "profile-partial",
+      "language": "chinese",
+      "reachable_replies": 115,
+      "events_sha256": "fed2947a7717e945f7dc8f53cb1bfbe54d3a0434f34e9aa109a576619b889f44",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "budget-many",
+      "language": "chinese",
+      "reachable_replies": 201,
+      "events_sha256": "987ab371d963e3f7bbf7d60763b3d855e637d079ea7eb11f7b1c5f7ded202ca8",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "reachable_replies": 158,
+      "events_sha256": "e5bf8b16ac73ca81853cde5e7f5ebfd35c8992f9efdb2abb9a56b08279521b6e",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "budget-single-long",
+      "language": "chinese",
+      "reachable_replies": 152,
+      "events_sha256": "b77ad505242c636a500e16e585ca60acd3302968a78fec8cf749668e1e02866b",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    }
+  ],
+  "renders": [
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty-review",
+      "fixture_case": "empty",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "empty-submission",
+      "fixture_case": "empty",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-review",
+      "fixture_case": "profile-partial",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "profile-partial-submission",
+      "fixture_case": "profile-partial",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-review",
+      "fixture_case": "budget-many",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-review",
+      "fixture_case": "budget-many",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-review",
+      "fixture_case": "budget-many",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-review",
+      "fixture_case": "budget-many",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-review",
+      "fixture_case": "budget-many",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-review",
+      "fixture_case": "budget-many",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-submission",
+      "fixture_case": "budget-many",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-submission",
+      "fixture_case": "budget-many",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-submission",
+      "fixture_case": "budget-many",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-submission",
+      "fixture_case": "budget-many",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-submission",
+      "fixture_case": "budget-many",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-many-submission",
+      "fixture_case": "budget-many",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-review",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-review",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-review",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-review",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-review",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-review",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-submission",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-submission",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-submission",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-submission",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-submission",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-long-no-currency-submission",
+      "fixture_case": "budget-long-no-currency",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-review",
+      "fixture_case": "budget-single-long",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-review",
+      "fixture_case": "budget-single-long",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-review",
+      "fixture_case": "budget-single-long",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-review",
+      "fixture_case": "budget-single-long",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-review",
+      "fixture_case": "budget-single-long",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-review",
+      "fixture_case": "budget-single-long",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-submission",
+      "fixture_case": "budget-single-long",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-submission",
+      "fixture_case": "budget-single-long",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-submission",
+      "fixture_case": "budget-single-long",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-submission",
+      "fixture_case": "budget-single-long",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-submission",
+      "fixture_case": "budget-single-long",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "budget-single-long-submission",
+      "fixture_case": "budget-single-long",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    }
+  ],
+  "checker_sha256": "7f6e1770e88b0d3744195211d358ee03c42228401e57dea6dea25cae7c49c6b7",
+  "package_sha256": {
+    "english.zip": "8e8d036c2623fed7a58035112a6d59d20f3a86ee32fcd36af55a14f32ac43387",
+    "chinese.zip": "14aa9f648afb1e295d4066b2eb41db0ccb1db1f26d8c067169d6d8262d4db26d"
+  }
+}

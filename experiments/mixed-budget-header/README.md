@@ -56,3 +56,23 @@ step、無網路、唯讀 probe/source mount；試驗輸出只寫到指定目錄
 
 本輪的分組、tbody 與尾句策略只做限定原生驗證；尚未做全空、純長列、純多列、
 更多混合順序、Microsoft Word 實機或任意真實專案的完整驗收。
+
+## 後續基本控制組
+
+`scripts/prepare_header_controls.py` 從鎖定 EN 測資複製全空、部分填答、八筆短列及
+缺幣別長回答；另由 `budget-long` 僅移除尾端短資源，建立真正單筆的
+`budget-single-long`。原來的 `budget-long` 有兩筆資源，不能冒充純長列測試。
+所有資料仍由 `run_missing_info.py` 先核對本機 DSW 編譯後的 KM graph。
+
+這批不使用只接受 MIX 標記的 observer：用 tables-only override 啟動 worker，
+`prototype.py --without-capture` 明確記錄沒有擷取 PDF-entry HTML。
+`check_header_controls.py` 直接比較原生 PDF、原生 Word 及新產生的 LibreOffice
+預覽；不把 HTML 匯出重建成「原生」PDF，也不變更既有 observer 的安全範圍。
+兩語言 × 兩模式 × 五案例，每個套件產生 60 個原生檔案、20 個 Word 預覽。
+
+基準與試作必須依序執行，完成基準後先核對 ZIP 備份及零引用，再清除該兩個
+暫存模板，避免本機配額累積。`finish.py --without-capture` 會核對 tables-only
+映像、兩批四個模板清理收據，再還原 stock worker 並停止指定 pilot。
+
+控制檢查不等於完整提交驗收：全空提交模式目前仍有系統提示。長列前／中、
+三列分組及 32／33 列邊界的原生組合也須另外檢查，不能以本批代替。

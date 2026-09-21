@@ -1,0 +1,640 @@
+<!DOCTYPE HTML>
+
+
+<html lang="en">
+  <head>
+    <title>Data Management Plan</title>
+    <meta charset="utf-8">
+    <style>
+      
+/* Layout and global styles */
+
+@page {
+  size: A4;
+
+  @bottom-left {
+    border-top: 1px solid black;
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+  @bottom-center {
+    border-top: 1px solid black;
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+  @bottom-center {
+    border-top: 1px solid black;
+    content: counter(page) " / " counter(pages);
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+}
+@page :blank {
+  @top-center { content: none }
+  @bottom-left { content: none }
+  @bottom-center { content: none }
+  @bottom-right { content: none }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  page-break-inside: avoid !important;
+  page-break-after: avoid !important;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11pt;
+  counter-reset: section;
+  counter-reset: question;
+  max-width: 21cm;
+  margin: 0 auto;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Visible completion gaps: unanswered replies must never look like "No". */
+.data-gap {
+  border-left: 3px solid #b26a00;
+  background: #fff8e8;
+  color: #573600;
+  padding: 0.45rem 0.65rem;
+  break-inside: avoid;
+}
+
+.data-gap strong {
+  color: #7a4600;
+}
+
+@media print {
+  .data-gap {
+    border: 1px solid #8a6d3b;
+    border-left-width: 3px;
+  }
+}
+
+/* Sections */
+
+section {
+  margin-bottom: 4rem;
+}
+
+.dmp-section .question + .question {
+  margin-top: 1cm;
+}
+
+/* First page */
+
+header {
+  padding-top: 5cm;
+  height: 24cm;
+  box-sizing: border-box;
+  page-break-after: always;
+  position: relative;
+}
+
+header .dmp::after {
+  font-size: 18pt;
+  content: 'Data Management Plan';
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+header div {
+  position: absolute;
+  bottom: 0;
+}
+
+header .contact-orcid {
+  white-space: nowrap;
+}
+
+header .note {
+  margin-top: 2cm;
+  text-align: center;
+  font-size: 10pt;
+  font-style: italic;
+}
+
+div.dmp-info {
+  width: 100%;
+}
+
+dl {
+  border: 1px solid #bdc8ca;
+  background-color: #f7fafa;
+  overflow: hidden;
+  width: 100%;
+}
+
+dt,
+dd {
+    box-sizing: border-box;
+    padding: 10px;
+}
+dd ~ dt,
+dd ~ dd {
+    border-top: 1px solid #bdc8ca;
+}
+dt {
+    float: left;
+    width: 25%;
+    padding-bottom: 0;
+}
+dd {
+    margin-left: 25%;
+    width: 75%;
+    border-left: 1px dotted #bdc8ca;
+    background-color: #fff;
+}
+dd:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+dl dd ul {
+  padding: 0;
+  margin: 0;
+}
+
+dl dd ul li {
+  list-style: none;
+}
+
+dl dd ul li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+dl .contact-name {
+  font-weight: bold;
+}
+
+/* Contributors */
+
+.contributor .name {
+  font-weight: bold;
+}
+
+.contributor .role,
+.contributor .affiliation {
+  font-style: italic;
+  display: inline-block;
+}
+
+/* Abstract */
+
+.abstract {
+  page-break-after: always;
+}
+
+.abstract p {
+  text-align: justify;
+}
+
+/* custom */
+
+.orcid-svg {
+  width: 0.5cm;
+  height: 0.5cm;
+  display: inline-block;
+  margin: 0px -4px -2px 2px;
+}
+
+div#dmp-content {
+  page-break-before: always;
+}
+
+div#dmp-projects,
+div#dmp-contributors,
+div#dmp-content {
+  page-break-before: always;
+}
+
+/* Versions */
+
+div#dmp-versions table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div#dmp-versions table,
+div#dmp-versions td,
+div#dmp-versions th {
+  border: 1px solid #bdc8ca;
+}
+
+div#dmp-versions td,
+div#dmp-versions th {
+  padding: 0.2em;
+}
+
+div#dmp-versions th.title {
+  text-transform: uppercase;
+  padding: 0.4em;
+  text-align: center;
+}
+
+div#dmp-versions td.version-name {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+div#dmp-versions td.version-date {
+  text-align: center;
+  width: 18ex;
+}
+
+div#dmp-versions td.version-changes {
+  word-wrap: break-word;
+}
+
+div#dmp-versions td.no-versions {
+  font-style: italic;
+  padding: 1em;
+  text-align: center;
+}
+      @font-face { font-family: "Pilot CJK"; src: url("data:font/ttf;sha256,864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f") format("truetype"); }
+html body { font-family: "DejaVu Sans", "Pilot CJK", sans-serif; }
+/* Owned layout layer; upstream styles remain separately reviewable. */
+@page { size: A4; margin: 20mm 19mm 22mm; }
+@page {
+  @bottom-left { border-top: none; }
+  @bottom-center { margin-top: 4mm; padding-top: 2mm; border-top: 1px solid #8c999e; }
+}
+html body { font-size: 10.5pt; line-height: 1.5; color: #222; }
+html body h1 { font-size: 21pt; line-height: 1.25; }
+html body h2 { font-size: 15pt; line-height: 1.35; margin: 1.3em 0 .65em; }
+html body h3 { font-size: 11pt; font-weight: normal; line-height: 1.5; margin: .9em 0 .6em; color: #47565c; }
+html body h4 { font-size: 11.5pt; margin: .85em 0 .4em; }
+html body h5 { font-size: 10.5pt; margin: .75em 0 .3em; }
+html body h1, html body h2, html body h3, html body h4, html body h5 { break-after: avoid; break-inside: avoid; }
+html body p { margin: 0 0 .5em; orphans: 2; widows: 2; }
+html body li { margin-bottom: .6em; }
+html body li > strong:first-child { display: block; break-after: avoid; }
+html body ul { padding-left: 1.4em; margin: .4em 0 .8em; }
+html body .answer-detail { margin: .3em 0 .75em; }
+html body .answer-detail > p:first-child { break-after: avoid; }
+html body .answer-lead { break-after: avoid; }
+html body a { overflow-wrap: anywhere; word-break: break-word; color: #185778; }
+html body table { border-collapse: collapse; width: 100%; margin: .6em 0; }
+html body th, html body td { border: 1px solid #bcc6cc; padding: .4em .5em; vertical-align: top; }
+html body th { background: #eef2f4; text-align: left; }
+html body thead { display: table-header-group; }
+html body tr { break-inside: avoid; }
+html body header { height: auto; min-height: 0; padding-top: 0; page-break-after: auto; }
+html body header h1 { margin-top: .3em; margin-bottom: .5em; }
+html body dl { margin: .6em 0; }
+html body dt, html body dd { padding: 6px 10px; }
+html body dl dd ul li { margin-bottom: 0; }
+html body header div { position: static; }
+html body header .note { margin-top: .6em; }
+html body header .contact-orcid { white-space: normal; }
+html body #dmp-contributors, html body #dmp-projects { page-break-before: auto; }
+html body .abstract { page-break-after: auto; }
+html body .abstract p { text-align: left; }
+html body section { margin-bottom: 1.4em; }
+html body .dmp-section .question + .question { margin-top: 1.3em; }
+html body .data-gap { padding: .45em .65em; border-left: 3px solid #95651b; background: #fff8e8; }
+
+/* Reading units, not arbitrary fixed-height pages. */
+html body #dmp-content { break-before: page; }
+html body #dmp-projects h3 { font-size: 14pt; font-weight: bold; color: #222; }
+html body .document-meta { font-size: 9pt; color: #526169; }
+html body .document-kind { font-size: 14pt; color: #526169; }
+html body .document-provenance { border-top: 1px solid #bcc6cc; margin-top: 2em; padding-top: .7em; font-size: 8.5pt; color: #526169; }
+html body .dataset-list { list-style: none; padding-left: 0; }
+html body .dataset-list > li { margin: 0 0 1em; }
+html body .dataset-list h5 { font-size: 11pt; margin: .8em 0 .35em; }
+html body .dataset-source { font-size: 9pt; }
+html body .dataset-version { margin: .4em 0; }
+html body .dataset-version th { width: 15%; font-weight: normal; }
+html body .dataset-version p { margin-bottom: .2em; }
+html body .dataset-policy > p { display: inline; margin: 0; }
+html body .dataset-policy > p::after { content: ' '; }
+html body .dataset-policy { margin: .4em 0 .6em; }
+/* Q11 scalar references may wrap, but their original text/href is never edited. */
+html body .paper-reference { overflow-wrap: anywhere; word-break: break-word; }
+html body .answer-detail ul { margin-top: .2em; }
+html body .answer-detail li { margin-bottom: .2em; }
+html body .answer-detail ul:has(> li:last-child:nth-child(-n+3)) { break-inside: avoid; }
+html body li > p:first-child { break-after: avoid; }
+html body .resource-table { font-size: 10pt; table-layout: fixed; }
+html body .resource-table col.resource-purpose { width: 57%; }
+html body .resource-table col.resource-budget { width: 17%; }
+html body .resource-table col.resource-funding { width: 26%; }
+html body .resource-table tr { break-inside: auto; }
+html body .resource-table:has(tbody > tr:last-child:nth-child(-n+3)) { break-inside: avoid; }
+/* Row count alone cannot bound a table's height. Release the whole-table keep
+   for Q15 purposes with >=12 direct authored blocks; do not rewrite answers or
+   change the short/many-row controls. One huge paragraph is outside this hint. */
+html body #q-required-resources .resource-table:has(tbody > tr > td:first-child > .answer-detail > :nth-child(12)) { break-inside: auto; }
+html body .resource-table p { margin-bottom: .3em; }
+html body .resource-table ul { padding-left: 1.2em; }
+html body .resource-table .answer-detail { margin: .25em 0; }
+html body .resource-table .data-gap { padding: .2em .35em; }
+/* BEGIN short-budget panel: PDF-only, <=3 bounded rows with a budget gap. */
+html body .pdf-short-budget col.resource-purpose { width: 49%; }
+html body .pdf-short-budget col.resource-budget { width: 25%; }
+html body .pdf-short-budget col.resource-funding { width: 26%; }
+html body .pdf-short-budget th, html body .pdf-short-budget td { padding-top: .25em; padding-bottom: .25em; }
+html body .pdf-short-budget p { margin-bottom: .2em; }
+/* END short-budget panel */
+/* PDF-only long resource: identity repeats in thead, purpose spans all columns. */
+html body #q-required-resources .pdf-resource-reading { break-inside: auto; }
+html body .pdf-resource-reading thead td { background: #eef2f4; }
+html body .pdf-resource-reading tbody td { border-top: none; }
+/* Missing metadata needs room for the original prompt, not a three-line label
+   in a 17% column. The full-width purpose and complete-header controls stay as-is. */
+html body .pdf-resource-reading:has(thead > tr > td > .data-gap) col.resource-purpose { width: 40%; }
+html body .pdf-resource-reading:has(thead > tr > td > .data-gap) col.resource-budget { width: 29%; }
+html body .pdf-resource-reading:has(thead > tr > td > .data-gap) col.resource-funding { width: 31%; }
+/* Exactly the four fixed, unanswered Q15 facts: bounded prose with no authored
+   paragraphs, resource rows or nested details. Keep its question with the group. */
+html body #q-required-resources:has(.answer > p.data-gap[data-fact-id="specialist-expertise"]:first-child):has(.answer > p.data-gap[data-fact-id="hardware-software"]:nth-child(2)):has(.answer > p.data-gap[data-fact-id="repository-charges"]:nth-child(3)):has(.answer > p.data-gap[data-fact-id="resources-costing"]:nth-child(4):last-child) { break-inside: avoid; }
+/* BEGIN empty-Q15 panel: four fixed gaps, no authored or partially answered content. */
+html body #q-required-resources > .answer:has(> p.data-gap[data-fact-id="specialist-expertise"][data-status="missing"]:first-child):has(> p.data-gap[data-fact-id="hardware-software"][data-status="missing"]:nth-child(2)):has(> p.data-gap[data-fact-id="repository-charges"][data-status="missing"]:nth-child(3)):has(> p.data-gap[data-fact-id="resources-costing"][data-status="missing"]:nth-child(4):last-child) { border: 1px solid #8a6d3b; border-left-width: 3px; background: #fff8e8; padding: .45em .65em; }
+html body #q-required-resources > .answer:has(> p.data-gap[data-fact-id="specialist-expertise"][data-status="missing"]:first-child):has(> p.data-gap[data-fact-id="hardware-software"][data-status="missing"]:nth-child(2)):has(> p.data-gap[data-fact-id="repository-charges"][data-status="missing"]:nth-child(3)):has(> p.data-gap[data-fact-id="resources-costing"][data-status="missing"]:nth-child(4):last-child) > p.data-gap { border: 0; padding: 0; margin: 0 0 .35em; background: transparent; }
+html body #q-required-resources > .answer:has(> p.data-gap[data-fact-id="specialist-expertise"][data-status="missing"]:first-child):has(> p.data-gap[data-fact-id="hardware-software"][data-status="missing"]:nth-child(2)):has(> p.data-gap[data-fact-id="repository-charges"][data-status="missing"]:nth-child(3)):has(> p.data-gap[data-fact-id="resources-costing"][data-status="missing"]:nth-child(4):last-child) > p.data-gap:last-child { margin-bottom: 0; }
+/* END empty-Q15 panel */
+html body .template-gap { font-size: 9.5pt; color: #526169; border-left-color: #8c999e; background: #f3f5f5; }
+/* Owned publication reading blocks: structure, not hidden list markers. */
+html body .dataset-section { margin: .6em 0 1em; }
+html body .dataset-section > h5 { font-size: 11pt; margin: .5em 0 .35em; }
+html body .distribution-section { margin: .35em 0 .65em; }
+html body .distribution-section + .distribution-section { border-top: 1px solid #cbd2d5; padding-top: .6em; }
+html body .license-entry { margin: .25em 0 .5em; }
+html body .license-entry + .license-entry { border-top: 1px dotted #cbd2d5; padding-top: .4em; }
+html body .storage-detail-limits li { margin-bottom: .25em; }
+/* BEGIN short Q5 context: bounded owned prose and its operational limitations. */
+@media print {
+html body #q-store-backup > .answer.q5-short-context { break-inside: avoid; }
+}
+/* END short Q5 context */
+/* Narrow reading units, not whole-question keep-together rules. */
+html body .short-reading-unit, html body .ethical-data-flags { break-inside: avoid; }
+/* Only provenanceReading marks bounded, simple tables; long answers stay free. */
+html body .short-table-unit { break-inside: avoid; }
+/* Q11 emits this hint only for <=3 bounded, inline-only repository summaries. */
+html body .short-repository-list { break-inside: avoid; }
+html body .repository-label { font-weight: bold; }
+/* Q13: one owned heading, then one contiguous identifier arrangement. */
+html body .identifier-heading { margin: .25em 0 .35em; break-after: avoid; }
+html body .identifier-heading > p { display: inline; margin: 0; }
+html body .identifier-heading > p::after { content: ' '; }
+html body .reading-gap { margin: .5em 0; }
+html body .reading-gap > p { margin-bottom: 0; }
+html body .answer-reference { font-size: 9.5pt; color: #526169; margin-top: .7em; }
+html body .data-gap[data-status="missing-output"] { border: none; border-left: 2px solid #b5bec1; background: #f5f6f6; color: #526169; font-size: 10pt; padding: .4em .65em; }
+.quantity { white-space: nowrap; }
+.date-value { white-space: nowrap; }
+/* Only fixed access / simple repository / standard licence facts join in Q10.
+   Restricted terms, complex repositories, missing answers and labels stay blocks. */
+.distribution-reading-unit > p:not(.data-gap):not(.answer-lead),
+.distribution-reading-unit > .joined-policy,
+.distribution-reading-unit .joined-policy > p,
+.distribution-reading-unit .joined-policy > .answer-lead,
+.distribution-reading-unit .joined-policy .license-summary,
+.distribution-reading-unit .joined-policy > .answer-lead > p { display: inline; margin: 0; }
+.distribution-reading-unit > p:not(.data-gap):not(.answer-lead)::after,
+.distribution-reading-unit .joined-policy p::after { content: " "; }
+/* BEGIN identifier CJK separator: fixed Q13 sentences only, not headings. */
+html[lang="zh-Hant"] body .identifier-arrangement.dataset-policy > p::after { content: none; }
+/* END identifier CJK separator */
+/* BEGIN archive gap pairs: print-only, adjacent fixed missing facts, two per panel. */
+@media print {
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*)))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*)))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*)))) { margin-bottom: 0; break-after: avoid; }
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*)))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*)))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*)))) > p.data-gap { border-bottom-width: 0; padding-bottom: .2em; }
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*))) { margin-top: 0; }
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*))) > p.data-gap { border-top-width: 0; padding-top: .2em; }
+}
+/* END archive gap pairs */
+
+/* Local prototype: keep the final purpose fragment with its allocation. */
+html body .pdf-resource-reading tbody > tr > td > .answer-detail[data-fact-id="resource-justification"] { break-after: avoid; }
+    </style>
+  </head>
+  <body>
+    <article class="dmp">
+      <header class="document-heading">
+  <p class="document-kind">Data Management Plan</p><h1>Science Europe pilot / empty</h1>
+  
+  <p class="document-meta">Generated on 2026-09-21</p>
+  
+  
+</header>
+      
+      <div id="dmp-projects">
+  <h2>Research overview</h2>
+
+  
+    <div style="font-style:italic;">There are no projects described for this DMP.</div>
+  
+</div>
+      <div id="dmp-contributors">
+  <h2>People and responsibilities</h2>
+
+  <ul>
+    <li class="contributor">
+      <span class="name">Albert Einstein</span>
+      <br><span class="contact-email"><a href="mailto:albert.einstein@example.com">albert.einstein@example.com</a></span>
+      <br>Affiliation: <span class="affiliation">My University</span>
+    </li>
+  </ul></div>
+      <aside class="document-provenance">
+  <p>Knowledge model: Common DSW Knowledge Model, 2.7.0 (dsw:root:2.7.0)</p>
+  <p>Generated with <a href="https://ds-wizard.org">Data Stewardship Wizard</a>.</p>
+</aside>
+      <div id="dmp-content">
+  <section id="sec-data-collection" class="dmp-section">
+    <h2>Section 1: Data description and collection or re-use of existing data</h2>
+    <div id="q-how-data" class="question" data-requirement-id="SE-1a">
+  <h3>1. How will new data be collected or produced and/or how will existing data be re-used?</h3>
+
+  <div class="answer"><p class="data-gap" data-requirement-id="SE-1a" data-fact-id="new-data" data-status="missing"><strong>Information not provided:</strong> whether the project will collect or produce new instrument data.</p><p class="data-gap" data-requirement-id="SE-1a" data-fact-id="reuse-sources" data-status="missing"><strong>Information not provided:</strong> whether existing data will be re-used, including constraints or reasons for discarding candidate sources.</p><p class="data-gap" data-requirement-id="SE-1a" data-fact-id="provenance" data-status="missing"><strong>Information not provided:</strong> how data provenance will be documented.</p></div>
+</div>
+    <div id="q-what-data" class="question">
+  <h3>2. What data (for example the kinds, formats, and volumes) will be collected or produced?</h3>
+  <div class="answer">
+    <p class="data-gap" data-requirement-id="SE-1b" data-status="missing-output">This document does not yet list the data types, formats and estimated volumes.</p>
+  </div>
+</div>
+  </section>
+  
+  <section id="sec-docs-metadata" class="dmp-section">
+    <h2>Section 2: Documentation and data quality</h2>
+    <div id="q-docs-metadata" class="question">
+  <h3>3. What metadata and documentation (for example the methodology of data collection and way of organising data) will accompany the data?</h3>
+
+  <div class="answer">
+  
+  
+  </div>
+</div>
+    <div id="q-quality-control" class="question" data-requirement-id="SE-2b">
+  <h3>4. What data quality control measures will be used?</h3>
+  <div class="answer">
+    
+    
+    
+    
+    
+      <p class="data-gap" data-requirement-id="SE-2b" data-status="missing-output">This document does not yet describe data quality checks. Re-used data also need appropriate quality control.</p>
+    
+  </div>
+</div>
+  </section>
+
+  <section id="sec-storage-backup" class="dmp-section">
+    <h2>Section 3: Storage and backup during research process</h2>
+    <div id="q-store-backup" class="question" data-requirement-id="SE-3a">
+  <h3>5. How will data and metadata be stored and backed up during the research process?</h3>
+  <div class="answer">
+    <div class="workspace-policy dataset-policy"><div class="reading-gap"><p class="data-gap" data-requirement-id="SE-3a" data-fact-id="working-storage-arrangement" data-status="missing"><strong>Information not provided:</strong> whether data will be kept in a shared workspace or by individual project members.</p></div>
+      <div class="reading-gap"><p class="data-gap" data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="missing"><strong>Information not provided:</strong> how project data and metadata will be backed up.</p></div></div>
+    
+    
+    
+    
+    
+    
+    
+  </div>
+
+</div>
+    <div id="q-access-security" class="question">
+  <h3>6. How will data security and protection of sensitive data be taken care of during the research?</h3>
+
+  <div class="answer">
+  
+  
+    <p class="data-gap" data-requirement-id="SE-3b" data-status="missing-output">This document does not yet contain an answer about data security and protection of sensitive data.</p>
+  
+  
+  
+  </div>
+</div>
+  </section>
+
+  <section id="sec-ethics-legal" class="dmp-section">
+    <h2>Section 4: Legal and ethical requirements, codes of conduct</h2>
+    <div id="q-personal-data" class="question">
+    <h3>7. If personal data are processed, how will compliance with legislation on personal data and on security be ensured?</h3>
+
+    <div class="answer">
+    
+    
+      <p class="data-gap" data-requirement-id="SE-4a" data-status="missing-output">This document does not yet contain an answer about personal-data protection and compliance.</p>
+    
+    </div>
+</div>
+    <div id="q-copyright-ipr" class="question">
+  <h3>8. How will other legal issues, such as intellectual property rights and ownership, be managed? What legislation is applicable?
+</h3>
+
+  <div class="answer">
+    
+    
+      <p class="data-gap" data-requirement-id="SE-4b" data-status="missing-output">This document does not yet describe arrangements for data ownership, intellectual property rights, or applicable legislation. Please review and complete this section.</p>
+    
+  </div>
+</div>
+    <div id="q-ethical-issues" class="question">
+  <h3>9. What ethical issues and codes of conduct are there, and how will they be taken into account?</h3>
+
+  <div class="answer">
+  
+  
+    <p class="data-gap" data-requirement-id="SE-4c" data-status="missing-output">This document does not yet contain an answer about ethical issues and codes of conduct.</p>
+  
+  </div>
+</div>
+  </section>
+
+  <section id="sec-sharing-preservation" class="dmp-section">
+    <h2>Section 5: Data sharing and long-term preservation</h2>
+    <div id="q-share-restrictions" class="question">
+  <h3>10. How and when will data be shared? Are there possible restrictions to data sharing or embargo reasons?</h3>
+
+  <div class="answer">
+    
+    
+      <p class="data-gap" data-requirement-id="SE-5a" data-status="missing-output">This document does not yet describe how and when data will be shared, or any restrictions.</p>
+    
+  </div>
+</div>
+    <div id="q-data-preservation" class="question">
+  <h3>11. How will data for preservation be selected, and where will data be preserved long-term (for example a data repository or archive)?</h3>
+
+  <div class="answer">
+  
+  
+    <p class="data-gap" data-requirement-id="SE-5b" data-status="missing-output">This document does not yet contain an answer about data selection and long-term preservation.</p>
+  
+  </div>
+</div>
+    <div id="q-access-data" class="question">
+  <h3>12. What methods or software tools are needed to access and use data?</h3>
+
+  <div class="answer">
+    <p class="data-gap" data-requirement-id="SE-5c" data-status="missing-output">This document does not yet identify the datasets to be shared or the tools needed to use them.</p></div>
+</div>
+    <div id="q-persistent-identifier" class="question">
+    <h3>13. How will the application of a unique and persistent identifier (such as a Digital Object Identifier (DOI)) to each data set be ensured?</h3>
+
+    <div class="answer">
+    <p class="data-gap" data-requirement-id="SE-5d" data-status="missing-output">This document does not yet describe which datasets will receive persistent identifiers or how they will be assigned.</p></div>
+</div>
+  </section>
+  
+  <section id="sec-responsibilities-resources" class="dmp-section">
+    <h2>Section 6: Data management responsibilities and resources</h2>
+    <div id="q-dm-responsible" class="question">
+  <h3>14. Who (for example role, position, and institution) will be responsible for data management (i.e. the data steward)?</h3>
+
+  <div class="answer">
+    
+    
+      <p class="data-gap" data-requirement-id="SE-6a" data-status="missing-output">This document does not yet identify a named person or team with a data management responsibility. Please check the contributor names and roles.</p>
+    
+  </div>
+</div>
+    <div id="q-required-resources" class="question" data-requirement-id="SE-6b">
+  <h3>15. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?</h3>
+
+  <div class="answer">
+    <p class="data-gap" data-requirement-id="SE-6b" data-fact-id="specialist-expertise" data-status="missing"><strong>Information not provided:</strong> whether additional specialist expertise is required.</p><p class="data-gap" data-requirement-id="SE-6b" data-fact-id="hardware-software" data-status="missing"><strong>Information not provided:</strong> whether additional hardware or software is required.</p>
+      <p class="data-gap" data-fact-id="repository-charges" data-status="missing"><strong>Information not provided:</strong> whether repository service charges will be incurred.</p>
+    <p class="data-gap" data-requirement-id="SE-6b" data-fact-id="resources-costing" data-status="missing"><strong>Information not provided:</strong> the financial and time resources budgeted for data management and FAIR data.</p></div>
+</div>
+  </section>
+</div>
+    </article>
+  </body>
+</html>

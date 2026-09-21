@@ -1,0 +1,1717 @@
+{
+  "native_export": true,
+  "native_pdf_entry_captured": false,
+  "prototype_only": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "full_control_matrix_complete": false,
+  "selected_checks_passed": true,
+  "cases": [
+    "empty",
+    "profile-partial",
+    "budget-many",
+    "budget-long-no-currency",
+    "budget-single-long"
+  ],
+  "checker_sha256": "a39e066e0d74595110f5ade601a4e21b61c9c31fd80054628effd7101721ffdc",
+  "raster_comparison_dpi": 72,
+  "poppler": "pdftoppm version 25.03.0",
+  "rows": [
+    {
+      "stem": "empty-review-english",
+      "case": "empty",
+      "language": "english",
+      "profile": "review",
+      "pages": [
+        4,
+        4
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 44,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 22,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 312.67,
+          "space_to_bottom_content_margin_pt": 466.858
+        },
+        {
+          "last_body_word_bottom_pt": 312.67,
+          "space_to_bottom_content_margin_pt": 466.858
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "d81195edef792d612fa7d039ab2b5a42721aabdd2f58c80b662c4d8868c1a1fc",
+        "90efacd8a78984c74fbaaedda4ab8fbef279e59ad725230870962834038a77ac"
+      ],
+      "word_preview_sha256": [
+        "864ba0edbefda136b70c2361809b18035e7e824ca69486e740da7b76d2d7671f",
+        "59c0ce72b9d01d3d6649dd0e17650228ab850046b13057f59b25d5983e94711b"
+      ]
+    },
+    {
+      "stem": "empty-review-chinese",
+      "case": "empty",
+      "language": "chinese",
+      "profile": "review",
+      "pages": [
+        3,
+        3
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 44,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 22,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 749.832,
+          "space_to_bottom_content_margin_pt": 29.695
+        },
+        {
+          "last_body_word_bottom_pt": 749.832,
+          "space_to_bottom_content_margin_pt": 29.695
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "f042d9c9a6c8fdd3627b65c235e512fb1309d08764b89372982ac595f9bbf620",
+        "4789d7a24c7d23d3c0bc1470f8ac7ea48bbe718e8d55c20b00676cb8d0d0285b"
+      ],
+      "word_preview_sha256": [
+        "55c7a66e074b892480ee0121d0abfe018916944558f250ffda4a998d31440dc0",
+        "57a1d212c7dd1d04a2281072515d49d538ffb17fb9bd7e767d90e82d420e63c0"
+      ]
+    },
+    {
+      "stem": "empty-submission-english",
+      "case": "empty",
+      "language": "english",
+      "profile": "submission",
+      "pages": [
+        4,
+        4
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 40,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 20,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 191.27,
+          "space_to_bottom_content_margin_pt": 588.258
+        },
+        {
+          "last_body_word_bottom_pt": 191.27,
+          "space_to_bottom_content_margin_pt": 588.258
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "3077f3eae2ea98b28fc7d65034bde63925d69927a9124ec0aecb5f4d6d7fc59e",
+        "6cc3589dd2177f6474da3d3cb28c0f1d456b0ee0f7a456be319696954c2be511"
+      ],
+      "word_preview_sha256": [
+        "17d7df29023750c732d295becea83d533cbfbf2780043d3d5a38b7a5edb3678f",
+        "d2528b3719db6cc97f97429c69d43a19cea7f4d57e8acdd309ef04ccab908c61"
+      ]
+    },
+    {
+      "stem": "empty-submission-chinese",
+      "case": "empty",
+      "language": "chinese",
+      "profile": "submission",
+      "pages": [
+        3,
+        3
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 40,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 20,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 606.02,
+          "space_to_bottom_content_margin_pt": 173.508
+        },
+        {
+          "last_body_word_bottom_pt": 606.02,
+          "space_to_bottom_content_margin_pt": 173.508
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "d59d41b5643197ca7785461156d3093ed847e49c5105c5d81e1c777a14a7a4c7",
+        "d638bc50b3e36f9cb07b8daeaaeaadfbbca18a32fbd7184e2cfaee5cc72826d2"
+      ],
+      "word_preview_sha256": [
+        "5a284c093ec2d7599f88e11eb85fc568eaa33e536f6fe1eba3b5410cd6f8a130",
+        "aadc04300f917d162bb174203126b09f948dbf97fe3af79d59f88bd953e57f40"
+      ]
+    },
+    {
+      "stem": "profile-partial-review-english",
+      "case": "profile-partial",
+      "language": "english",
+      "profile": "review",
+      "pages": [
+        6,
+        6
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 128,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 7,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 763.208,
+          "space_to_bottom_content_margin_pt": 16.32
+        },
+        {
+          "last_body_word_bottom_pt": 763.208,
+          "space_to_bottom_content_margin_pt": 16.32
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "1c82cc63c6d7cdc7f3c6d3e376632727aaafd2e1993916df6d4ae302d8dff664",
+        "e659928cb2498ed2ff79fc177e2928e0a4d77b203a0135f974041e51b23a3ef1"
+      ],
+      "word_preview_sha256": [
+        "ef2268f0050a42460433b4084665f0ab1da223dfeb3d51af2b5376b320c2e8e0",
+        "ea8c82651691afe4add06a50d89920eb51ff8abce0ab5dba2d787360b54cacf2"
+      ]
+    },
+    {
+      "stem": "profile-partial-review-chinese",
+      "case": "profile-partial",
+      "language": "chinese",
+      "profile": "review",
+      "pages": [
+        6,
+        6
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 128,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 7,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 363.903,
+          "space_to_bottom_content_margin_pt": 415.625
+        },
+        {
+          "last_body_word_bottom_pt": 363.903,
+          "space_to_bottom_content_margin_pt": 415.625
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "b0e1feec200c9c12da8c8a8ffd96d6227b0b42e32a58db2f53a2f0131dbcca45",
+        "1fea5f03b03a6d56b2dc74a21f54fc834a4d5e3317260a556323c807793cb5a5"
+      ],
+      "word_preview_sha256": [
+        "fb47e6de0bd00dea92649cd10f933f6c9b3af96a5f514aa91fc58e616f682ad3",
+        "737f2bf4fbf2efbea246c00de9e82fd432c9188e18c5c03b2eb81bc8b1c0fc6b"
+      ]
+    },
+    {
+      "stem": "profile-partial-submission-english",
+      "case": "profile-partial",
+      "language": "english",
+      "profile": "submission",
+      "pages": [
+        6,
+        6
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 121,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 0,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 568.458,
+          "space_to_bottom_content_margin_pt": 211.07
+        },
+        {
+          "last_body_word_bottom_pt": 568.458,
+          "space_to_bottom_content_margin_pt": 211.07
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "15bb585cfc71f3f775b7a6adcd3db975c3c7a4bd2e7f65d6233a890954039816",
+        "ffc22aed8be3f48f51b7ebe929805f5c26de9d82ef213356ca6b3305ca4a3432"
+      ],
+      "word_preview_sha256": [
+        "6af6beab7879c355aa50fb97ede07c8cead00a0048ec3cb83eba41b678648e6e",
+        "e82143ce6af014bf5b4ab9f073631c035f380742fc6ff07918813de148c62b39"
+      ]
+    },
+    {
+      "stem": "profile-partial-submission-chinese",
+      "case": "profile-partial",
+      "language": "chinese",
+      "profile": "submission",
+      "pages": [
+        6,
+        6
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 121,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 0,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 371.058,
+          "space_to_bottom_content_margin_pt": 408.47
+        },
+        {
+          "last_body_word_bottom_pt": 371.058,
+          "space_to_bottom_content_margin_pt": 408.47
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "b9c500a15edaa28d1f17b412a8e767447b0a2f917e202415164da40319cb5d3b",
+        "264dda09f92f3afb3f63ba1c1e9a761b7edf5e4199e6d8858b563a6137cf0ca2"
+      ],
+      "word_preview_sha256": [
+        "f3e4f85bfacf44d8e172234f059a9d097d5a3ae5afef9595ad24b0db2363b68a",
+        "6ff6ce12f477e6b2aacb05aa7d8352905e33e6241151bb200ee0a90290b7d758"
+      ]
+    },
+    {
+      "stem": "budget-many-review-english",
+      "case": "budget-many",
+      "language": "english",
+      "profile": "review",
+      "pages": [
+        9,
+        9
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 196,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 3,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 228.683,
+          "space_to_bottom_content_margin_pt": 550.845
+        },
+        {
+          "last_body_word_bottom_pt": 228.683,
+          "space_to_bottom_content_margin_pt": 550.845
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "36f88173da39c14447ac6db16f1ae93b86e15c54a9b599fd45e9089aa864c884",
+        "fb2132322935d07da7b059ef06bd5843a952a3297b429ba793061bc5d8d59af9"
+      ],
+      "word_preview_sha256": [
+        "87f31f640b009309a1d04a6f44e90b76472e8c028edae3e579c29a97b709e38a",
+        "30f225fabb982bf1f7093f051f434aa3d3ea83134323dc02e09c9bb2a5fe9827"
+      ],
+      "short_rows": [
+        {
+          "index": 1,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 4,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 5,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 6,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 7,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+          "pages": [
+            9
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 8,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+          "pages": [
+            9
+          ],
+          "paragraph_count": 5
+        }
+      ]
+    },
+    {
+      "stem": "budget-many-review-chinese",
+      "case": "budget-many",
+      "language": "chinese",
+      "profile": "review",
+      "pages": [
+        8,
+        8
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 196,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 3,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 257.183,
+          "space_to_bottom_content_margin_pt": 522.345
+        },
+        {
+          "last_body_word_bottom_pt": 257.183,
+          "space_to_bottom_content_margin_pt": 522.345
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "954bd9ff3149c4d4e4b26555c6f10d8bb473f3a14d21fea8f71be160951f5fef",
+        "5afaf3626be4f48d8406f83fcbd2be3634dd5d9354c9d9a8dfbc62fcce12339e"
+      ],
+      "word_preview_sha256": [
+        "5e74020a8628d69e13404a410f54ed485d6f83e41a3e0cbef65adb1f183031e7",
+        "e5eb0b3bc1951dbbfc9cd6f5a7ff653f60eeb28b7c012064ab2c679e3e37feb4"
+      ],
+      "short_rows": [
+        {
+          "index": 1,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 4,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 5,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 6,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 7,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 8,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        }
+      ]
+    },
+    {
+      "stem": "budget-many-submission-english",
+      "case": "budget-many",
+      "language": "english",
+      "profile": "submission",
+      "pages": [
+        9,
+        9
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 190,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 0,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 228.683,
+          "space_to_bottom_content_margin_pt": 550.845
+        },
+        {
+          "last_body_word_bottom_pt": 228.683,
+          "space_to_bottom_content_margin_pt": 550.845
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "b4d7ede8e52d4870dea1a78f37a218b24ff0dc59d1288d64d84271720a42fd46",
+        "c06bcff57f82c625a002be1910c3a44e224e0ddb2b1263aa6fe8abef4ab6dd9d"
+      ],
+      "word_preview_sha256": [
+        "4dd0f77cf1cfdffc9da623e77e767d9ffae478337bca515503da7794d260d7e5",
+        "38c43c9594019f65d807df5b1f91accb69ed295e81f2f54a29cd98a27450ee4c"
+      ],
+      "short_rows": [
+        {
+          "index": 1,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 4,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 5,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 6,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 7,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+          "pages": [
+            9
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 8,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+          "pages": [
+            9
+          ],
+          "paragraph_count": 5
+        }
+      ]
+    },
+    {
+      "stem": "budget-many-submission-chinese",
+      "case": "budget-many",
+      "language": "chinese",
+      "profile": "submission",
+      "pages": [
+        8,
+        8
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 190,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 0,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 198.683,
+          "space_to_bottom_content_margin_pt": 580.845
+        },
+        {
+          "last_body_word_bottom_pt": 198.683,
+          "space_to_bottom_content_margin_pt": 580.845
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "4da657a04ab884308506bf61ea3ecd5024e9dca8a48945a8ab4c2d22db0c97fd",
+        "9c3b7f62521de849c6e902cab71c0c98d654db8f54f065f65ac3c45a18f96ce1"
+      ],
+      "word_preview_sha256": [
+        "d4deeea60c0caddfbc87c574b066f2f98e76eeb1f31f84bafae6abcf5f13fec5",
+        "8628d071f80ab4ff65cffd8282ee06bec4fed8f838139d134be437bc5e6a481c"
+      ],
+      "short_rows": [
+        {
+          "index": 1,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 4,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 5,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 6,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e",
+          "pages": [
+            7
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 7,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        },
+        {
+          "index": 8,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e",
+          "pages": [
+            8
+          ],
+          "paragraph_count": 5
+        }
+      ]
+    },
+    {
+      "stem": "budget-long-no-currency-review-english",
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "profile": "review",
+      "pages": [
+        10,
+        10
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 232,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 4,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 345.433,
+          "space_to_bottom_content_margin_pt": 434.095
+        },
+        {
+          "last_body_word_bottom_pt": 345.433,
+          "space_to_bottom_content_margin_pt": 434.095
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "0425b4656d21d0c76ba11bdda6da1d59a6769ec15c0c42588558bad6bf6b4c59",
+        "08ac105ab6d9576935cd1833b18c39f8fcce06ae735aa8fa6650070ee5fd61b5"
+      ],
+      "word_preview_sha256": [
+        "8748234fcff28385008b6d96fd9376e9ac8e33602e8231fc13a093ecae44e82d",
+        "7d330306cdf22c296e0e50a387e6adba092ae1e06bc727e2d941b3f6d19aed05"
+      ],
+      "long": [
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            8,
+            9,
+            10
+          ],
+          "repeated_headers": [
+            9,
+            10
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 10,
+          "allocation_pages": [
+            10
+          ],
+          "short_tail_pages": [
+            10
+          ]
+        },
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            8,
+            9,
+            10
+          ],
+          "repeated_headers": [
+            9,
+            10
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 10,
+          "allocation_pages": [
+            10
+          ],
+          "short_tail_pages": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "budget-long-no-currency-review-chinese",
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "profile": "review",
+      "pages": [
+        9,
+        9
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 232,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 4,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 397.583,
+          "space_to_bottom_content_margin_pt": 381.945
+        },
+        {
+          "last_body_word_bottom_pt": 397.583,
+          "space_to_bottom_content_margin_pt": 381.945
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "09fa0a99afc5f7da95c312b804dae6207f373d01d8a480ab6b0bbd6c2a0839a2",
+        "606abf0e3edc96f18622fb381faa84b76261558173225e849c2a647f98e27251"
+      ],
+      "word_preview_sha256": [
+        "1e82424b37a29cdb9aeb35c10ab140e29ad217b53e5d6116c496599deda0b155",
+        "048363d2288e72ee00aaf47438d9ef7c869571bb6b0ed4ebfec9342646e7c697"
+      ],
+      "long": [
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            7,
+            8,
+            9
+          ],
+          "repeated_headers": [
+            8,
+            9
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 9,
+          "allocation_pages": [
+            9
+          ],
+          "short_tail_pages": [
+            9
+          ]
+        },
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            7,
+            8,
+            9
+          ],
+          "repeated_headers": [
+            8,
+            9
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 9,
+          "allocation_pages": [
+            9
+          ],
+          "short_tail_pages": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "budget-long-no-currency-submission-english",
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "profile": "submission",
+      "pages": [
+        10,
+        10
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 226,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 1,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 345.433,
+          "space_to_bottom_content_margin_pt": 434.095
+        },
+        {
+          "last_body_word_bottom_pt": 345.433,
+          "space_to_bottom_content_margin_pt": 434.095
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "96b49b2a1854d7b292de555ef40939832de449886dc44fa8edbdb9fda7a1129e",
+        "bc70db258d2c09ade090895285beb025a419dcea77cfc6bcb268b2ff0c521385"
+      ],
+      "word_preview_sha256": [
+        "26c8a37d51e7012d46adcddedd5e31bf245f0e1fed70c1caf08f672bf92a8675",
+        "7273947133b1137f2c640833599cc0d512ee8f1d0f7e026a0f1cbf90d6defa2f"
+      ],
+      "long": [
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            8,
+            9,
+            10
+          ],
+          "repeated_headers": [
+            9,
+            10
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 10,
+          "allocation_pages": [
+            10
+          ],
+          "short_tail_pages": [
+            10
+          ]
+        },
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            8,
+            9,
+            10
+          ],
+          "repeated_headers": [
+            9,
+            10
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 10,
+          "allocation_pages": [
+            10
+          ],
+          "short_tail_pages": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "budget-long-no-currency-submission-chinese",
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "profile": "submission",
+      "pages": [
+        9,
+        9
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 226,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 1,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 369.433,
+          "space_to_bottom_content_margin_pt": 410.095
+        },
+        {
+          "last_body_word_bottom_pt": 369.433,
+          "space_to_bottom_content_margin_pt": 410.095
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "d72d549d7729815b8876f6ee1b4ded1ccf972cfe64a6a3dbca2ba238146505fa",
+        "18b8b3a3fea457f9c05f3d2298b6cace20f581631c5af2e61c49766fc56d595b"
+      ],
+      "word_preview_sha256": [
+        "e9ee13c0d9045515ed2d5b54c503657c9b18607e75eadc41d1efc8282ff86dcb",
+        "fbe28f88f1a27ca597192a8633ab125ed4955845b744f8af3603dfa1914c5ef7"
+      ],
+      "long": [
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            7,
+            8,
+            9
+          ],
+          "repeated_headers": [
+            8,
+            9
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 9,
+          "allocation_pages": [
+            9
+          ],
+          "short_tail_pages": [
+            9
+          ]
+        },
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            7,
+            8,
+            9
+          ],
+          "repeated_headers": [
+            8,
+            9
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 9,
+          "allocation_pages": [
+            9
+          ],
+          "short_tail_pages": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "budget-single-long-review-english",
+      "case": "budget-single-long",
+      "language": "english",
+      "profile": "review",
+      "pages": [
+        10,
+        10
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 223,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 3,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 198.183,
+          "space_to_bottom_content_margin_pt": 581.345
+        },
+        {
+          "last_body_word_bottom_pt": 198.183,
+          "space_to_bottom_content_margin_pt": 581.345
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "49b9d3a884a399a45c9a6f907fae495d041a3f5f80b7dfb584e01145f99f96cc",
+        "8a45879e9deda83d8e1d1c679ab4e2d686cbc4f90509f7242f7c301b997f66ec"
+      ],
+      "word_preview_sha256": [
+        "c13af21ab879412a7bfa5188de1c82b5b314f9f480372c58f71dbd1292f5572c",
+        "fce20028603d9b24c5bca153b63eea33f1c3e511f633792a8f611bfdd6304b91"
+      ],
+      "long": [
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            8,
+            9,
+            10
+          ],
+          "repeated_headers": [
+            9,
+            10
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 10,
+          "allocation_pages": [
+            10
+          ],
+          "short_tail_pages": []
+        },
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            8,
+            9,
+            10
+          ],
+          "repeated_headers": [
+            9,
+            10
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 10,
+          "allocation_pages": [
+            10
+          ],
+          "short_tail_pages": []
+        }
+      ]
+    },
+    {
+      "stem": "budget-single-long-review-chinese",
+      "case": "budget-single-long",
+      "language": "chinese",
+      "profile": "review",
+      "pages": [
+        9,
+        9
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 223,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 3,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 250.333,
+          "space_to_bottom_content_margin_pt": 529.195
+        },
+        {
+          "last_body_word_bottom_pt": 250.333,
+          "space_to_bottom_content_margin_pt": 529.195
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "b762b765c79fcc4082ccba0bd7a5a4ee9c8293d0b9553a77086328db6d201466",
+        "e0876655ca7748fc20453903eb00ea08b2a08094acc61898a5195fab6bd74d18"
+      ],
+      "word_preview_sha256": [
+        "d3825a2fc90cfe0f29dcd5b9532c9c3cbf76248c61ec86748d0ecaa9b84af948",
+        "48e8293184cc4e1795fa1f8ec7cd99e3816b4fa6f73840f3b88bd884b272c159"
+      ],
+      "long": [
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            7,
+            8,
+            9
+          ],
+          "repeated_headers": [
+            8,
+            9
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 9,
+          "allocation_pages": [
+            9
+          ],
+          "short_tail_pages": []
+        },
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            7,
+            8,
+            9
+          ],
+          "repeated_headers": [
+            8,
+            9
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 9,
+          "allocation_pages": [
+            9
+          ],
+          "short_tail_pages": []
+        }
+      ]
+    },
+    {
+      "stem": "budget-single-long-submission-english",
+      "case": "budget-single-long",
+      "language": "english",
+      "profile": "submission",
+      "pages": [
+        10,
+        10
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 217,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 0,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 198.183,
+          "space_to_bottom_content_margin_pt": 581.345
+        },
+        {
+          "last_body_word_bottom_pt": 198.183,
+          "space_to_bottom_content_margin_pt": 581.345
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ],
+        [
+          [
+            "Coastalobservations:reproducibledata",
+            "management",
+            137.487,
+            4.158
+          ],
+          [
+            "Section1:Datadescriptionandcollectionorre-useofexisting",
+            "data",
+            32.895,
+            1.47
+          ]
+        ]
+      ],
+      "pdf_sha256": [
+        "4598cd6c269e1aaf698492ec23d88faac2e0c26efe1da14aebe56678b3883af2",
+        "263a0fc6a8a0001f515512197ea72b9b9ce6e5a3e717e34503a6a00f09e2816f"
+      ],
+      "word_preview_sha256": [
+        "faf4f55ab367e8856f42b15d206f28c961fad231bdc98dbf0d2c0596aa1501f4",
+        "c95697bef99d7a64e80f08afc445f6a1a8f30be6b1a7b254d2cae8774649ed99"
+      ],
+      "long": [
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            8,
+            9,
+            10
+          ],
+          "repeated_headers": [
+            9,
+            10
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 10,
+          "allocation_pages": [
+            10
+          ],
+          "short_tail_pages": []
+        },
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            8,
+            9,
+            10
+          ],
+          "repeated_headers": [
+            9,
+            10
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 10,
+          "allocation_pages": [
+            10
+          ],
+          "short_tail_pages": []
+        }
+      ]
+    },
+    {
+      "stem": "budget-single-long-submission-chinese",
+      "case": "budget-single-long",
+      "language": "chinese",
+      "profile": "submission",
+      "pages": [
+        9,
+        9
+      ],
+      "pdf_geometry_unchanged": true,
+      "pdf_page_pixels_identical": true,
+      "word_page_pixels_identical": true,
+      "word_geometry_unchanged": true,
+      "word_paragraphs_checked": 217,
+      "all_15_questions_retained": true,
+      "remaining_system_gap_nodes": 0,
+      "last_page_text_occupancy": [
+        {
+          "last_body_word_bottom_pt": 219.183,
+          "space_to_bottom_content_margin_pt": 560.345
+        },
+        {
+          "last_body_word_bottom_pt": 219.183,
+          "space_to_bottom_content_margin_pt": 560.345
+        }
+      ],
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "line_box_overlaps": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "e840dc0d05706a4a69759da3f0f24af666976326d4306559ae53c92ad0fb100b",
+        "db1caa8f585f17aa7781d5389b4e151a078a68863ee96265577460a51fd7c1a1"
+      ],
+      "word_preview_sha256": [
+        "b0586884ea760471706e5a2f87e9f95efc25628732c992edaaa18ae7dfc43424",
+        "c25459ec90892e624b2a6e78d20dc5553b3118f9ecbbde87b266e36c3e475e54"
+      ],
+      "long": [
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            7,
+            8,
+            9
+          ],
+          "repeated_headers": [
+            8,
+            9
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 9,
+          "allocation_pages": [
+            9
+          ],
+          "short_tail_pages": []
+        },
+        {
+          "purpose_paragraphs": 60,
+          "long_pages": [
+            7,
+            8,
+            9
+          ],
+          "repeated_headers": [
+            8,
+            9
+          ],
+          "missing_header_pages": [],
+          "tail_together": true,
+          "tail_page": 9,
+          "allocation_pages": [
+            9
+          ],
+          "short_tail_pages": []
+        }
+      ]
+    }
+  ]
+}

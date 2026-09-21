@@ -3,7 +3,13 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-最新 [原生混合預算診斷與試作](reviews/2026-09-21-native-mixed-header/README.md)：
+最新 [20 組原生基本控制](reviews/2026-09-21-header-controls/README.md)：
+全空、部分填答、八筆短列、缺幣別長回答及真正單筆長回答，涵蓋中英與兩種模式。
+前後 120 份原生輸出、40 份 Word 預覽通過限定檢查；全部 PDF／Word 預覽
+文字座標及逐頁影像相同。全空提交仍有 20 個系統提示節點，提示開關尚非全域；
+原有尾頁留白也未改善。混合排列／數量邊界仍待驗，來源與版號維持 0.3.42。
+
+前輪 [原生混合預算診斷與試作](reviews/2026-09-21-native-mixed-header/README.md)：
 已確認舊離線重播漏了格式 UUID 專屬的中文 CSS，並捕捉到引擎省略表頭的實際路徑。
 八組原生前後對照通過短列／續頁識別／尾句／內容與 Word 不變檢查；
 中文檢核版一組由 9 頁增為 10 頁，尾頁仍偏空。這是獨立套件試作，

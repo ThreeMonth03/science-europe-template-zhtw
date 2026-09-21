@@ -1,0 +1,27 @@
+{
+  "prototype_only": true,
+  "release_acceptance": false,
+  "source_repo_modified": false,
+  "version_modified": false,
+  "baseline_package_sha256": {
+    "english.zip": "8e8d036c2623fed7a58035112a6d59d20f3a86ee32fcd36af55a14f32ac43387",
+    "chinese.zip": "14aa9f648afb1e295d4066b2eb41db0ccb1db1f26d8c067169d6d8262d4db26d"
+  },
+  "recipe_sha256": "308d70524260f1dec3449c7927335ab2f0fe1b7f0cf8b40fd17b7963f752168d",
+  "packages": {
+    "english.zip": {
+      "sha256": "453d7ff7822c30f9428944e54cf1ad87641166733ee20d986ba18c5479a9896e",
+      "changed_files": [
+        "src/budget-reading.html.j2",
+        "src/layout.css"
+      ]
+    },
+    "chinese.zip": {
+      "sha256": "b2605b5ea44b0241799873ae8e054eae55229354dea0bfa100844a7eebfdd7bd",
+      "changed_files": [
+        "src/budget-reading.html.j2",
+        "src/layout.css"
+      ]
+    }
+  }
+}
