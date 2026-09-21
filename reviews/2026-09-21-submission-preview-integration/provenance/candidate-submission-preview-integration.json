@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "preview": false,
+  "release_acceptance": false,
+  "native_integrated_render_checked": false,
+  "global_switch_complete": false,
+  "translation_delta": {
+    "baseline": "408bbbd1f7d162f6c0c3e31a00456130298618c9",
+    "baseline_version": "0.3.43",
+    "version": "0.3.44",
+    "baseline_units": 748,
+    "current_units": 762,
+    "retained_units": 748,
+    "removed": [],
+    "added": [
+      [
+        "(applied)",
+        "（已申請）"
+      ],
+      [
+        "(granted)",
+        "（已核准）"
+      ],
+      [
+        "(planned)",
+        "（規劃中）"
+      ],
+      [
+        "(rejected)",
+        "（未核准）"
+      ],
+      [
+        "Instrument dataset",
+        "儀器資料集"
+      ],
+      [
+        "Non-equipment dataset",
+        "非儀器資料集"
+      ],
+      [
+        "Non-reference dataset",
+        "非參考資料集"
+      ],
+      [
+        "Other quality control methods are planned for {qualityName}.",
+        "本計畫將對{qualityName}採取其他品質管控方法。"
+      ],
+      [
+        "Other quality control methods are planned for {qualityName}.",
+        "本計畫將對{qualityName}採取其他品質管控方法。"
+      ],
+      [
+        "Produced dataset",
+        "產出資料集"
+      ],
+      [
+        "Quality control measures planned for {qualityName}: {qualityMethods} and other quality control methods.",
+        "{qualityName}的品質管控措施包括{qualityMethods}及其他品質管控方法。"
+      ],
+      [
+        "Reference dataset",
+        "參考資料集"
+      ],
+      [
+        "Restrictions apply to this dataset.",
+        "此資料集有使用限制。"
+      ],
+      [
+        "Software is required to use this dataset.",
+        "使用此資料集需要軟體工具。"
+      ]
+    ]
+  },
+  "packages": {
+    "english": {
+      "package_sha256": "930cbfa5f19d3236341b23ae2b288f65cdb845732f4d1c7fbf50268ce0735a0c",
+      "prepared_source_verified": true,
+      "rendering_assets_unchanged": true,
+      "deterministic_identity_verified": true,
+      "changed_source_files": [
+        "src/contributors.html.j2",
+        "src/macros.html.j2",
+        "src/post-project-archive.html.j2",
+        "src/preservation-publication-reason.html.j2",
+        "src/projects.html.j2",
+        "src/quality-control.html.j2",
+        "src/questions/01-how-data.html.j2",
+        "src/questions/02-what-data.html.j2",
+        "src/questions/03-docs-metadata.html.j2",
+        "src/questions/04-quality-control.html.j2",
+        "src/questions/05-store-backup.html.j2",
+        "src/questions/06-access-security.html.j2",
+        "src/questions/07-personal-data.html.j2",
+        "src/questions/08-copyright-ipr.html.j2",
+        "src/questions/09-ethical-issues.html.j2",
+        "src/questions/10-share-restrictions.html.j2",
+        "src/questions/11-data-preservation.html.j2",
+        "src/questions/12-access-data.html.j2",
+        "src/questions/13-persistent-identifier.html.j2",
+        "src/questions/14-dm-responsible.html.j2",
+        "src/questions/15-required-resources.html.j2"
+      ]
+    },
+    "chinese": {
+      "package_sha256": "dbe2b058cb7bac9d14dcf149cb44c7d1d253144417e99ac7c6d9b2338d1fb3b9",
+      "prepared_source_verified": true,
+      "rendering_assets_unchanged": true,
+      "deterministic_identity_verified": true,
+      "changed_source_files": [
+        "src/contributors.html.j2",
+        "src/macros.html.j2",
+        "src/post-project-archive.html.j2",
+        "src/preservation-publication-reason.html.j2",
+        "src/projects.html.j2",
+        "src/quality-control.html.j2",
+        "src/questions/01-how-data.html.j2",
+        "src/questions/02-what-data.html.j2",
+        "src/questions/03-docs-metadata.html.j2",
+        "src/questions/04-quality-control.html.j2",
+        "src/questions/05-store-backup.html.j2",
+        "src/questions/06-access-security.html.j2",
+        "src/questions/07-personal-data.html.j2",
+        "src/questions/08-copyright-ipr.html.j2",
+        "src/questions/09-ethical-issues.html.j2",
+        "src/questions/10-share-restrictions.html.j2",
+        "src/questions/11-data-preservation.html.j2",
+        "src/questions/12-access-data.html.j2",
+        "src/questions/13-persistent-identifier.html.j2",
+        "src/questions/14-dm-responsible.html.j2",
+        "src/questions/15-required-resources.html.j2"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source_version": "0.3.44",
+  "source_integrated": true,
+  "source_commit": "41bb0ac59e86f5591b641a001a04240375426545",
+  "translation_commit": "d17911ff57d29ede821193a0f03da1827f70e8de",
+  "native_integrated_render_checked": true,
+  "native_pairs": 16,
+  "native_artifacts": 48,
+  "word_previews": 16,
+  "structural_checks": 544,
+  "deleted_owned_local_templates": 2,
+  "production_touched": false,
+  "global_switch_complete": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "collector_sha256": "1862d08c8a286db2495e09f16c586208c66f1cb7219577e406cf49198448c75a"
+}

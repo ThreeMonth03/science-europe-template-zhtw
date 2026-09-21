@@ -1,0 +1,49 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "empty-review-english",
+      "docx_sha256": "1059dc5a88be051a8decc4a92c02e32ee21ced1a03c40418e5cdc464e6249016",
+      "preview_sha256": "08ec1331bbd2f687bbab92c9fed7cbda09ea2d406e73c570e2ea6a84ed7b26e5"
+    },
+    {
+      "name": "empty-review-chinese",
+      "docx_sha256": "7f0974ec4661ce15a183cb95d21a3dff6da0b03b4e357a2a93740ce8d25a9cf5",
+      "preview_sha256": "0dc706aa0df743f22f6a1b233eb7330c50034f2841837bb58f00619ce9478f09"
+    },
+    {
+      "name": "empty-submission-english",
+      "docx_sha256": "5d300170449b70b249a0526766495403e199fcbf2190361ecfdbd2b65cf0b70e",
+      "preview_sha256": "0df037a05cfb01b94a156480efbed97763862c10dfe836e15527e4b003997390"
+    },
+    {
+      "name": "empty-submission-chinese",
+      "docx_sha256": "46feb5a9ed885ca45e5c871dfd268f4a0411ef6893c3195bd7a4b5f9fdec2e68",
+      "preview_sha256": "74456c1837dfb7b9b7e6adb28889781aa6cf474d744b2a9ba631eaa9c6fdb8c5"
+    },
+    {
+      "name": "notice-mixed-review-english",
+      "docx_sha256": "6687c548a8969041f9d7f62e3fd917b8055e4e1d9cd74ae236fe69f961ac9b66",
+      "preview_sha256": "8cadf9dd2a1c453c90f293335b63c3cf10c7f284ecb33db58602e37a27c0ef16"
+    },
+    {
+      "name": "notice-mixed-review-chinese",
+      "docx_sha256": "46a154b39d5bd7f630c62df37e6c05f3fe1ba7daa67c64f499e6e1013921713c",
+      "preview_sha256": "82283e150f53f87a9646aa9170a965c848ac4906497e606e4fe7bc1178f3ee48"
+    },
+    {
+      "name": "notice-mixed-submission-english",
+      "docx_sha256": "8a83f1b304079dd925fb7e1d10c207e1e9998118fe9dcbb4bb8fe1f588edcd15",
+      "preview_sha256": "304e15c4d37263741f75183cdec201b6924409b4d6f5f47af9e24cc1636c7bfb"
+    },
+    {
+      "name": "notice-mixed-submission-chinese",
+      "docx_sha256": "9c66d0e94153c3aad748afc25c656570b08c1edce28ce0ba892025b7bdb58eb2",
+      "preview_sha256": "421550ec4c48c8d558577ee65873f0b2ba7c71a44b22ca826e3d5feb188c9e8d"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "86ad75c56b82f18583f1e85422a05bc1127a55b9444eec2b85ae69601895e6fa",
+  "completed": true
+}

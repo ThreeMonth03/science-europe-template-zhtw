@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "preflight_only": true,
+  "release_acceptance": false,
+  "checker_sha256": "a753af1f8a808bfca2853a4e61d050b099302bfa073d4383b1f66d776f787146",
+  "source_sha256": {
+    "src/layout.css": "b8fabf1e8405b74f957cc42c66d7cee45a0751ce73134a3077b0de62e0367408",
+    "src/word/pilot.lua": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547"
+  }
+}

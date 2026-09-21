@@ -1,0 +1,78 @@
+{
+  "public_synthetic": true,
+  "generator_sha256": "56b59befc5af974b40bf29926b33b524f5c8fcdd3770086cc05302abea4780f2",
+  "rows": [
+    {
+      "case": "empty",
+      "language": "english",
+      "archive": "reviews/2026-09-21-submission-polish",
+      "seal_sha256": "8005c0c66c6ad34582ca43b0e6fdba67045dee7d0b3894bd71ffba144771adf6",
+      "recipe_sha256": "bf87d2fdcf87c896034b1517bd96303cb14e4a07fb108d9c8cef9c2b3df08e17",
+      "events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "english",
+      "archive": "reviews/2026-09-21-submission-polish",
+      "seal_sha256": "8005c0c66c6ad34582ca43b0e6fdba67045dee7d0b3894bd71ffba144771adf6",
+      "recipe_sha256": "36b68b985d3e4d9df94866fa2569db5da6d0c2568ea83162be04d141a61a5dda",
+      "events_sha256": "7f771e6a0db50d70b9ff3e3575c180b2a4e204d5992ac877289faeee24b3a883",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965"
+    },
+    {
+      "case": "submission-metadata",
+      "language": "english",
+      "archive": "reviews/2026-09-21-submission-polish",
+      "seal_sha256": "8005c0c66c6ad34582ca43b0e6fdba67045dee7d0b3894bd71ffba144771adf6",
+      "recipe_sha256": "c2ddf2a00f95c7699c70125a86a56f20e729190536b97719931ac031e49a6b86",
+      "events_sha256": "775bad1aa68a4bfd6e5f0b87a57ebc22ab3fdad8de794ebc0391d5c1763c9032",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965"
+    },
+    {
+      "case": "dataset-labels",
+      "language": "english",
+      "archive": "reviews/2026-09-21-dataset-labels",
+      "seal_sha256": "c81445f317934ec5c3902d71a293f89034e4aa6980cc9104759973da976cd45a",
+      "recipe_sha256": "8c7bbb60164d2b57380797955c664e3f1a0100ba158c4a54cccc66283ab1b2c7",
+      "events_sha256": "e12379fbb39f75397feb82979b407ad4053dc6a49107a04a7cbd04c2a34e0caf",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965"
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "archive": "reviews/2026-09-21-submission-polish",
+      "seal_sha256": "8005c0c66c6ad34582ca43b0e6fdba67045dee7d0b3894bd71ffba144771adf6",
+      "recipe_sha256": "b7d5eecbf4acd5703ead09bfa1fc76615dbaf0ba9c7bf8f18afac79bde0353df",
+      "events_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "chinese",
+      "archive": "reviews/2026-09-21-submission-polish",
+      "seal_sha256": "8005c0c66c6ad34582ca43b0e6fdba67045dee7d0b3894bd71ffba144771adf6",
+      "recipe_sha256": "31fd71c6fc1ebbdf1af0d5770e360ec2cdd25dc0cd70196abdd922b5f98aa294",
+      "events_sha256": "8f9ce672d34361f9999611222ae08b3b95bc8c6be8e1d9b1fc6cca9a697392b3",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47"
+    },
+    {
+      "case": "submission-metadata",
+      "language": "chinese",
+      "archive": "reviews/2026-09-21-submission-polish",
+      "seal_sha256": "8005c0c66c6ad34582ca43b0e6fdba67045dee7d0b3894bd71ffba144771adf6",
+      "recipe_sha256": "c814209cecf30ff25fc069dbabd4a09b1d8482b36bd6b36a1000c063caa64277",
+      "events_sha256": "91542142154f10c994bb6622f006274151f1de13a9fbb20e9455d2e61bc27531",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47"
+    },
+    {
+      "case": "dataset-labels",
+      "language": "chinese",
+      "archive": "reviews/2026-09-21-dataset-labels",
+      "seal_sha256": "c81445f317934ec5c3902d71a293f89034e4aa6980cc9104759973da976cd45a",
+      "recipe_sha256": "c697d502157f60596ab15162ad5553491f92411e4b057b5f3120c9ebf6af157c",
+      "events_sha256": "f72becc9ec5464b5c8e6bae1cb7355499343ee7858b21e84c3e45dc146659fc5",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47"
+    }
+  ]
+}
