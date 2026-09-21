@@ -1,0 +1,52 @@
+{
+  "before": {
+    "uuid": "00000000-0000-0000-0000-000000000000",
+    "users": -30000,
+    "active_users": -30000,
+    "knowledge_models": -60000,
+    "knowledge_model_editors": -60000,
+    "document_templates": -60000,
+    "projects": -60000,
+    "documents": -180000,
+    "storage": -1500000000,
+    "created_at": "2021-10-18T08:25:17.016+00:00",
+    "updated_at": "2021-10-18T08:25:18.326+00:00",
+    "document_template_drafts": -60000,
+    "locales": -60000
+  },
+  "temporary_storage": -1750000000,
+  "production_touched": false,
+  "data_deleted": false,
+  "restored": true,
+  "applied": true,
+  "during": {
+    "uuid": "00000000-0000-0000-0000-000000000000",
+    "users": -30000,
+    "active_users": -30000,
+    "knowledge_models": -60000,
+    "knowledge_model_editors": -60000,
+    "document_templates": -60000,
+    "projects": -60000,
+    "documents": -180000,
+    "storage": -1750000000,
+    "created_at": "2021-10-18T08:25:17.016+00:00",
+    "updated_at": "2021-10-18T08:25:18.326+00:00",
+    "document_template_drafts": -60000,
+    "locales": -60000
+  },
+  "after": {
+    "uuid": "00000000-0000-0000-0000-000000000000",
+    "users": -30000,
+    "active_users": -30000,
+    "knowledge_models": -60000,
+    "knowledge_model_editors": -60000,
+    "document_templates": -60000,
+    "projects": -60000,
+    "documents": -180000,
+    "storage": -1500000000,
+    "created_at": "2021-10-18T08:25:17.016+00:00",
+    "updated_at": "2021-10-18T08:25:18.326+00:00",
+    "document_template_drafts": -60000,
+    "locales": -60000
+  }
+}

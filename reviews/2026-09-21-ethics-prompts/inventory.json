@@ -1,0 +1,42 @@
+{
+  "baseline_version": "0.3.44",
+  "parent_prototype": "2026-09-21-entity-labels",
+  "source_integrated": false,
+  "source_integration_allowed": false,
+  "translation_tree_modified": false,
+  "prototype_only": true,
+  "changed_jinja_files": 1,
+  "source_edit_count": 2,
+  "structural_checks": 536,
+  "native_pairs": 8,
+  "native_artifacts": 48,
+  "word_previews": 16,
+  "unchanged_native_controls": 6,
+  "deleted_owned_local_templates": 4,
+  "storage_allowance_restored": true,
+  "production_touched": false,
+  "visual_gate_passed": false,
+  "visual_blockers": [
+    {
+      "case": "ethics-missing",
+      "language": "chinese",
+      "profile": "submission",
+      "engine": "native_pdf",
+      "new_regression": true,
+      "before": {
+        "lead_page": 3,
+        "first_answer_page": 3,
+        "together": true
+      },
+      "after": {
+        "lead_page": 2,
+        "first_answer_page": 3,
+        "together": false
+      }
+    }
+  ],
+  "global_switch_complete": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "collector_sha256": "0ad0c79cb78de1e8d99a6f7b7dd5938b2f64f0c964b21247567da41b04e632f3"
+}

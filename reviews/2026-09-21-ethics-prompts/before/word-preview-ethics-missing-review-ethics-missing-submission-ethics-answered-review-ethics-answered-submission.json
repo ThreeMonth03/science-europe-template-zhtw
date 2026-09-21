@@ -1,0 +1,49 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "ethics-missing-review-english",
+      "docx_sha256": "c31027f18790bc8cc09ba5087b1300227da7e6f92420a35a8f015a4c3aa79855",
+      "preview_sha256": "8452dc11e6a2c395d5a8c715ae16df97308392d090ff72595d7f73e9cbc2d228"
+    },
+    {
+      "name": "ethics-missing-review-chinese",
+      "docx_sha256": "9eb3c8702d9bd488a191505364f4c315c08f71296d78b254791c1b749fee1610",
+      "preview_sha256": "f9124ada19c07c9e52f4bc7e3613ebe6ab4615d1c35d96ab6a877b3b2ee4c8fb"
+    },
+    {
+      "name": "ethics-missing-submission-english",
+      "docx_sha256": "8d40d7cdc4e614bf2cda27b739485f5ace8f09cd7ef7d9411e0c2f5ab2941f19",
+      "preview_sha256": "66ab5f08e79f7ef9cf8095fe3fde1da76d7e83cf9b2ed15a0edb9ff72c836fe2"
+    },
+    {
+      "name": "ethics-missing-submission-chinese",
+      "docx_sha256": "bc4ec989e7f5cbef03f06ab4ed3dfda4b9a9e05851ca43a9e74173485b073215",
+      "preview_sha256": "8437a842d03fa83d606473af7f16285931d43947087cce9c7ecff741ffa1f475"
+    },
+    {
+      "name": "ethics-answered-review-english",
+      "docx_sha256": "702e3c6e431b074da9fc4098c01baa33e5cbae516f070c1bcace4b458bf1fa60",
+      "preview_sha256": "f25080515ce0f38c58b557f097ceb56024c2826e49ee42d10ed0a3af0ae7c305"
+    },
+    {
+      "name": "ethics-answered-review-chinese",
+      "docx_sha256": "86a3cc504b4c43984ab91871cb625aa1fdf68688973f683eaaca9795f857be9c",
+      "preview_sha256": "545de9608011b39d68ff24bc321e790ccac3b450b0d1afec15cfe98bb076aba9"
+    },
+    {
+      "name": "ethics-answered-submission-english",
+      "docx_sha256": "bb1cc6ea23d17f762f9b31ad088eb1997ca50da9c13de8831add9201ce742407",
+      "preview_sha256": "33a5272252e7ea4300fffbdce27098ee9a8888a7906347350466c6ac4f9d6a02"
+    },
+    {
+      "name": "ethics-answered-submission-chinese",
+      "docx_sha256": "b12f485bb18adf733dcb77d1a4e729ae601d5b001c870255f02995ce96fc134d",
+      "preview_sha256": "b6296fcaa9ccb050fd23cf0ff0cdc66bcfd6c3ad891e771f1e51cd558de61ffc"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "86ad75c56b82f18583f1e85422a05bc1127a55b9444eec2b85ae69601895e6fa",
+  "completed": true
+}

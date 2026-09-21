@@ -1,0 +1,107 @@
+{
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "global_switch_complete": false,
+  "phase": "after",
+  "observed_worker_sources": {
+    "dsw.document_worker.model.utils": "bc8d1d61f42265b8e7219c34f9fd6b4d4b3ad988297018b67545d2a7ba731c19",
+    "weasyprint.text.fonts": "3f6662edc1f0a11e1666c39f9b72a2d2543769162ee985b216c2afbddd0312a1",
+    "weasyprint.text.ffi": "d7784b995d7d4624eca4a1e76bf46564c6abe82a53207c0f0cf48657516684d7"
+  },
+  "recipe_sha256": "9ffe043a9aa4999177fa74312a68b8fbed9214a3b26413bd469372a385e2493c",
+  "packages": {
+    "english.zip": {
+      "baseline_sha256": "dd6b9991748ccb4a67e9d14d8b2f87a09dc7ccb38808328861123fd7de5251d3",
+      "sha256": "435fcecbdabe94c1f9b7f8d4d8d8a207ce2aa7c1fc085b269084793fd3345e66",
+      "operations": {
+        "src/questions/09-ethical-issues.html.j2": [
+          {
+            "start": 6329,
+            "end": 6400,
+            "before": "<span> - <em>no information on personal nor sensitive data.</em></span>",
+            "after": "{% if output_profile|default('review') == 'submission' %}{% else %}<span> - <em>no information on personal nor sensitive data.</em></span>{% endif %}",
+            "kind": "missing-data-flags"
+          },
+          {
+            "start": 11428,
+            "end": 11546,
+            "before": "{%- do sentences.append('An alternative legal basis was selected, but it has not been specified; see Question 7.') -%}",
+            "after": "{%- if output_profile|default('review') == 'submission' -%}{%- do sentences.append('An alternative legal basis was selected.') -%}{%- else -%}{%- do sentences.append('An alternative legal basis was selected, but it has not been specified; see Question 7.') -%}{%- endif -%}",
+            "kind": "other-basis-partial-fact"
+          }
+        ]
+      },
+      "members": {
+        "template/assets/src/fonts/PilotTC.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/word/pilot.lua": {
+          "before": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+          "after": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547"
+        },
+        "template/assets/src/word/preservation-reading.lua": {
+          "before": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+          "after": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71"
+        },
+        "template/assets/src/word/reference.docx": {
+          "before": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d",
+          "after": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d"
+        },
+        "template/template.json": {
+          "before": "cd7ff1e712dea4fcae17065a64193c34154279b740e1d1aa05d260bd79367605",
+          "after": "4d7534f053928d5f4300be6f5e6ecc5f5b7889148ee4af65ceba5835c6f22fdf"
+        }
+      }
+    },
+    "chinese.zip": {
+      "baseline_sha256": "e2a51fa0e27315d14fe0488eeef7d4a0eb03942366131887076d730afd06e561",
+      "sha256": "1eb6bf22cf4a6f94314c99e65bbac4c5d61e4a7c3d6c57c008752c7f0cdebb88",
+      "operations": {
+        "src/questions/09-ethical-issues.html.j2": [
+          {
+            "start": 6871,
+            "end": 6966,
+            "before": "<span> - <em>{# __tr_block_0015:start #}尚未說明是否包含個人資料或敏感資料。{# __tr_block_0015:end #}</em></span>",
+            "after": "{% if output_profile|default('review') == 'submission' %}{% else %}<span> - <em>{# __tr_block_0015:start #}尚未說明是否包含個人資料或敏感資料。{# __tr_block_0015:end #}</em></span>{% endif %}",
+            "kind": "missing-data-flags"
+          },
+          {
+            "start": 12083,
+            "end": 12146,
+            "before": "{%- do sentences.append('本計畫選擇了其他法律依據，但尚未說明具體依據；請參閱第 7 題。') -%}",
+            "after": "{%- if output_profile|default('review') == 'submission' -%}{%- do sentences.append('本計畫已選擇其他法律依據。') -%}{%- else -%}{%- do sentences.append('本計畫選擇了其他法律依據，但尚未說明具體依據；請參閱第 7 題。') -%}{%- endif -%}",
+            "kind": "other-basis-partial-fact"
+          }
+        ]
+      },
+      "members": {
+        "template/assets/src/fonts/NotoSansTC-Variable.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/fonts/PilotTC.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/word/pilot.lua": {
+          "before": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+          "after": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547"
+        },
+        "template/assets/src/word/preservation-reading.lua": {
+          "before": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+          "after": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71"
+        },
+        "template/assets/src/word/reference.docx": {
+          "before": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae",
+          "after": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae"
+        },
+        "template/template.json": {
+          "before": "f99d2ab82fed77f9894503a31b18013c8c5c4074c322200fd8235a2a33da3f58",
+          "after": "3a172d3b1c7900f51c521789ed32cc8b3830a4b2155d69b2226f8e9ee662f149"
+        }
+      }
+    }
+  }
+}
