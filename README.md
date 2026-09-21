@@ -3,7 +3,14 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-最新 [20 組混合排列／數量邊界原生控制](reviews/2026-09-21-mixed-boundary-controls/README.md)：
+最新 [大量資源分組試作與 Word 原文核對](reviews/2026-09-21-large-resource-groups/README.md)：
+33 筆長列恢復全寬與續頁名稱，中文 PDF 13 → 12 頁、Word 預覽 16 → 14 頁；
+英文同樣減頁。八組原生對照保留原文與段落 XML，32 筆控制組完全不變。
+前輪 40 份 Word 預覽的原文證據缺口已由列／欄位位置核對補足，舊紀錄不改寫。
+37 組 Pandoc 結構、6 組 PDF 分組控制通過；英文 Word 三筆短列仍拆段跨頁。
+仍是本機套件試作，未整合英文來源、未升版或部署；全域提交提示開關仍待實作。
+
+前輪 [20 組混合排列／數量邊界原生控制](reviews/2026-09-21-mixed-boundary-controls/README.md)：
 長列在前／中、小分組與 32／33 筆資源，涵蓋中英及兩模式。
 試作修正四組、共五筆短列跨頁，20 組原生 PDF 頁數不增、全文保留，Word 前後不變。
 但 33 筆仍退回窄欄長表、續頁缺資源名稱；Word 大量資源仍有未完成的段落可見性檢查。

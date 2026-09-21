@@ -1,0 +1,25 @@
+{
+  "prototype_only": true,
+  "release_acceptance": false,
+  "version_modified": false,
+  "source_repo_modified": false,
+  "recipe_sha256": "bcdfb0d68197c35618ba1585405a7443a9323edad859f4555e1cab9c4bdfc976",
+  "packages": {
+    "english.zip": {
+      "sha256": "702ccfede71bf4d2bb7c15703e9d29f9607a53e49910234fb7a2384bd318a02f",
+      "baseline_sha256": "453d7ff7822c30f9428944e54cf1ad87641166733ee20d986ba18c5479a9896e",
+      "changed_files": [
+        "src/budget-reading.html.j2",
+        "src/word/pilot.lua"
+      ]
+    },
+    "chinese.zip": {
+      "sha256": "3717c119a8a3c69e9a28e989f1a14e78c3bb1340ce853b572af6f487a846604c",
+      "baseline_sha256": "b2605b5ea44b0241799873ae8e054eae55229354dea0bfa100844a7eebfdd7bd",
+      "changed_files": [
+        "src/budget-reading.html.j2",
+        "src/word/pilot.lua"
+      ]
+    }
+  }
+}

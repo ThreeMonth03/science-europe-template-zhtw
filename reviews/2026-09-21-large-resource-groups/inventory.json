@@ -1,0 +1,14 @@
+{
+  "prototype_only": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "version": "0.3.42",
+  "source_repo_modified": false,
+  "translation_modified": false,
+  "native_pairs": 8,
+  "new_native_artifacts": 24,
+  "new_word_previews": 8,
+  "prior_word_previews_reverified": 40,
+  "full_control_matrix_complete": false,
+  "collector_sha256": "6a8552d7fac7f52ad54a24d91279024df93aaf21416f49e0d8dd4bd6976f80a0"
+}
