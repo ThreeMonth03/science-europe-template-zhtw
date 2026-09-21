@@ -1,0 +1,29 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "dataset-labels-review-english",
+      "docx_sha256": "93392211d8080d4e772096c0312469e5fc998d251d19f3a21ef806860483449f",
+      "preview_sha256": "4e70026be097d35195a5301928babb0010dde33576d04303d5dd311058dbfd2a"
+    },
+    {
+      "name": "dataset-labels-review-chinese",
+      "docx_sha256": "ff0bfe205ff73bf2ec3e58647462483318169f38f519f8945a978f299b73244b",
+      "preview_sha256": "f82aa12f81b0aaed88433f1925ac220bccf556c510a7b664defffea44674ce7a"
+    },
+    {
+      "name": "dataset-labels-submission-english",
+      "docx_sha256": "1ef41924c35a40a2a602af45090468b3faab9495b9e84f854ee98035b2b9c41e",
+      "preview_sha256": "0a0e2e041f0a5d71e953a3b304529b671b48533f62fc9f8d9263ff73276384d5"
+    },
+    {
+      "name": "dataset-labels-submission-chinese",
+      "docx_sha256": "7a52c9d4f0ee26897c66f35f5b8eb5687c56ef4d0d174c870288d42206aac88f",
+      "preview_sha256": "2b118050b6dee4b4d57288debeb3ee2a0fee70c433bcde8e16362f0969e3e09c"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "86ad75c56b82f18583f1e85422a05bc1127a55b9444eec2b85ae69601895e6fa",
+  "completed": true
+}

@@ -1,0 +1,4233 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "global_switch_complete": false,
+  "checker_sha256": "bf058b506c6f92deb82f9aa98b794bc0867f7211023c80eabfad70855d53542f",
+  "recipe_sha256": "8dff713c9fe85bca8067ff8930eedc7f29b6b6382b24e807ffc183c7a8211acf",
+  "rows": [
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "empty.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "empty.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "negative.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "negative.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 24,
+      "passed": true
+    },
+    {
+      "case": "partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "populated.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "populated.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 31,
+      "passed": true
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 49,
+      "passed": true
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 24,
+      "passed": true
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 21,
+      "passed": true
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 5,
+      "passed": true
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "representative.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "representative.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "stress.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "stress.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "structured.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "structured.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "dataset-labels.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 15,
+      "passed": true
+    },
+    {
+      "case": "dataset-labels.events.json",
+      "language": "english",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 21,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "empty.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "empty.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "negative.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "negative.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 24,
+      "passed": true
+    },
+    {
+      "case": "partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "populated.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "populated.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 31,
+      "passed": true
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 49,
+      "passed": true
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 24,
+      "passed": true
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 21,
+      "passed": true
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 5,
+      "passed": true
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "representative.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "representative.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "stress.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "stress.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "structured.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "structured.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "dataset-labels.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 15,
+      "passed": true
+    },
+    {
+      "case": "dataset-labels.events.json",
+      "language": "english",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 21,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "empty.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "empty.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "negative.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "negative.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 24,
+      "passed": true
+    },
+    {
+      "case": "partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "populated.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "populated.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 31,
+      "passed": true
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 49,
+      "passed": true
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 24,
+      "passed": true
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 21,
+      "passed": true
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 5,
+      "passed": true
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "representative.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "representative.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "stress.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "stress.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "structured.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "structured.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "dataset-labels.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": false,
+      "labels": 15,
+      "passed": true
+    },
+    {
+      "case": "dataset-labels.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "all_names_removed": true,
+      "labels": 21,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "empty.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "empty.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "negative.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "negative.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 24,
+      "passed": true
+    },
+    {
+      "case": "partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "populated.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "populated.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 31,
+      "passed": true
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 49,
+      "passed": true
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 24,
+      "passed": true
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 21,
+      "passed": true
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 5,
+      "passed": true
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "representative.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "representative.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "stress.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "stress.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 4,
+      "passed": true
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "structured.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "structured.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 19,
+      "passed": true
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 0,
+      "passed": true
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 14,
+      "passed": true
+    },
+    {
+      "case": "dataset-labels.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": false,
+      "labels": 15,
+      "passed": true
+    },
+    {
+      "case": "dataset-labels.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "all_names_removed": true,
+      "labels": 21,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "passed": true,
+  "prototype_only": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "global_switch_complete": false,
+  "checker_sha256": "785785dd8064e5fbfdf747a2da03377416593b1f4da2ebf1ec281a105e245da0",
+  "shared_checker_sha256": "a52fa1e2be820a22bd32307e4b85c84ce6032658090a73ec6a907e6ccdcd037d",
+  "rows": [
+    {
+      "case": "empty",
+      "language": "english",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 22,
+      "word_paragraphs_verified": 44,
+      "rendered": {
+        "native_pdf": {
+          "pages": 4,
+          "paragraph_counts_verified": 26,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 4,
+          "baseline_line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 3,
+          "paragraph_counts_verified": 26,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "38b1bf8fa0ab3bbe235cb2e9004551408af1ffce9dac06004e17bcec18b418b6",
+        "pdf": "8c03c63a3138c685a0cf6ae75500f1842c4f4dd6b95df8609f2a43cb87416da9",
+        "docx": "141b675c6640f1b66a3724c287e0eda1d205fd0bf09c699edaa88e0f49007526"
+      },
+      "word_preview_sha256": "bb21c9478e26734654c3dbcff8baf677b6d49435a710f8370ccc0c035855cb43"
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 20,
+      "rendered": {
+        "native_pdf": {
+          "pages": 3,
+          "paragraph_counts_verified": 4,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 4,
+          "baseline_line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 2,
+          "paragraph_counts_verified": 4,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "0c3c743bb5934a4218ca02f3c95dd316d50488d1a254f6b51ee1762ab239a63d",
+        "pdf": "89bf1c0d064a0d05f21f2536818ef73b46116db7d906c50ff4f90ce026ca9cde",
+        "docx": "201212a763d3c0f80bcbb067bf50e8eceb8fad85ffd5c8eeaeb584c9e466fe2a"
+      },
+      "word_preview_sha256": "7d80dff8083b50a9a5c8a05034a2e5082521c5cd797a3cc58481df30efcdab75"
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 22,
+      "word_paragraphs_verified": 44,
+      "rendered": {
+        "native_pdf": {
+          "pages": 3,
+          "paragraph_counts_verified": 26,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 3,
+          "paragraph_counts_verified": 26,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "ed45133c340414e3461c36e3939c4720793644709a52f53f0472d90ae82f710d",
+        "pdf": "5081fa1053e4c7079cf8e8fadf3d5ad21ea051818c4f4649228313ec501b17a7",
+        "docx": "b9d8b009307a81549d25eff9c9654a626e1274b76f610af24f12bdfc086dcac6"
+      },
+      "word_preview_sha256": "3ae2ce0d30072136dbfd1e00a56cc8840d5a3f794b13f2a7f4259346a4133c47"
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 20,
+      "rendered": {
+        "native_pdf": {
+          "pages": 2,
+          "paragraph_counts_verified": 4,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 2,
+          "paragraph_counts_verified": 4,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "2d0db116fc9530bb7acc15a89a7d3ad31516a2a5e147a2e3b96fc39a45e6b566",
+        "pdf": "cb86bdb04522680486911d2e02b3f045bf5a27bd113e014f7c362e8b96c8e001",
+        "docx": "414f7d624f9569d6946d4d93f4f43813281adc1bb9d53f497148f38b4a360c54"
+      },
+      "word_preview_sha256": "e3eb52ba7c4add35fc55fd1100d3b656d058e0cc443b678b157c910e7c4fe539"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "english",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 12,
+      "word_paragraphs_verified": 128,
+      "rendered": {
+        "native_pdf": {
+          "pages": 7,
+          "paragraph_counts_verified": 86,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 86,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "9ba931a26cafbac4c32cd5e3e87934e3741120a7b9917444722a27132d672bf9",
+        "pdf": "ffee78076608ef7f2a7f64b160c237ba361c2d5549a09254d9a4a57ad2d7897f",
+        "docx": "d053ef87cc6e1c4bb7e61e8d5fc7ad4190eca250ad1c124bbe7fef2ba81f7e64"
+      },
+      "word_preview_sha256": "6b8491f4c82135cce4aef70668244ae3837fc1529676be093358a4cd5f84dad9"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "english",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 119,
+      "rendered": {
+        "native_pdf": {
+          "pages": 6,
+          "paragraph_counts_verified": 79,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 5,
+          "paragraph_counts_verified": 79,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "35e16d1e653df58562a4310ca6559713934793cd416c4f215ac7219529fa680c",
+        "pdf": "b6034577e7e40a3742e8bd7a3d0d0c3261f3f15c955cf9707ef3f384b8ec55e0",
+        "docx": "33f488d177217b9086c3d84e9dfdfefaa7d6bae5ae3e806a71577470c5ea19c0"
+      },
+      "word_preview_sha256": "d5998fe207353d4e16e1fd598743bae76bb16680961874de84b9155a8ecafeb0"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "chinese",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 12,
+      "word_paragraphs_verified": 128,
+      "rendered": {
+        "native_pdf": {
+          "pages": 6,
+          "paragraph_counts_verified": 86,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 86,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "569a520c510816cae0f417e7cfbc8e2b619dee88e5357fd4cc347c7a082ee0fd",
+        "pdf": "183e6883dea22ff990446dc9e9ff2ff2dc73141cf83dcddfe1a441dcb22ab0bf",
+        "docx": "0c28124db1c2b357ef4e5d85c2c8c53884611563ac773ab7d37e2fafc14b0bab"
+      },
+      "word_preview_sha256": "bde73d879544144663a23f0d9b3e24d00f366dbe14512acb6526678b02bf7a02"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "chinese",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 119,
+      "rendered": {
+        "native_pdf": {
+          "pages": 6,
+          "paragraph_counts_verified": 79,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 79,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "b12527cc33a273249dd0bdfd4edca08be86d4561b6af2cd23a24f01f6b412570",
+        "pdf": "0635da5cd0c3b3ebc2fc7892d956dbcba93dd7d57d6b35d92ac4e0c48e50eb1c",
+        "docx": "fe813e4ce8150b97cdd8ee17e3c9178fb4a424853ef41be0a16b3537fc53c9d2"
+      },
+      "word_preview_sha256": "5e55c2ebc312457bcdb40363e905681bd600e3b70f0f6fc5cea4eb84ebcce01a"
+    },
+    {
+      "case": "submission-metadata",
+      "language": "english",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 12,
+      "word_paragraphs_verified": 132,
+      "rendered": {
+        "native_pdf": {
+          "pages": 8,
+          "paragraph_counts_verified": 92,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 8,
+          "baseline_line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 92,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 5,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "ff576712488ffecc2fec9b392aeafa363a79c7d4f4300fa6312fbccbe317d5ae",
+        "pdf": "4dfc07fd7f8d88229ec155c6b79f0593c688e67d32579d96112cb9edfd587ec9",
+        "docx": "da15f53ec85fcdc790a277b9c5f9946e1aa1c946961db2460da8371d7fd6db74"
+      },
+      "word_preview_sha256": "7e34c896b7851774a29a46bae2d529c643ea267284f9504d3f4c45b6f22093db"
+    },
+    {
+      "case": "submission-metadata",
+      "language": "english",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 120,
+      "rendered": {
+        "native_pdf": {
+          "pages": 6,
+          "paragraph_counts_verified": 82,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 8,
+          "baseline_line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 82,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 5,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "437c8d94a1c68b3e42e19e15ef9a0f7ade27aabc718423d31fd0b4861504b9e7",
+        "pdf": "68cdaa4f253ab84978dbd70e0b810ae8cd2fd3cb0236659ae921b94aa1bdad97",
+        "docx": "2cd461547ae98d3ee5f7ec677aaa11f5625c9a9cb092f0bfbe299e83fd41e8d8"
+      },
+      "word_preview_sha256": "1f5230644a4406cae8c271081e867d4a1bb0ad422bcbf3e9a14de96b576e8f97"
+    },
+    {
+      "case": "submission-metadata",
+      "language": "chinese",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 12,
+      "word_paragraphs_verified": 132,
+      "rendered": {
+        "native_pdf": {
+          "pages": 7,
+          "paragraph_counts_verified": 92,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 7,
+          "paragraph_counts_verified": 92,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 5,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "2d8398f3d46010c46dd07c1c1ea664905f5af0b5200fbed5dadc79b1b2aaccb6",
+        "pdf": "96c6844908a2636ad3b6fb510089a9a1c7372bb7d10cd2cad6cb6d211e036607",
+        "docx": "0ffb006e8bf3844b61e853897a9f8000d4a75b822dcda1a83752c15c7fbc52cf"
+      },
+      "word_preview_sha256": "780ec6b2b91192d98220aad30da34f9844bc8c1a2608bc1b2048bc0c2f6b6c77"
+    },
+    {
+      "case": "submission-metadata",
+      "language": "chinese",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 120,
+      "rendered": {
+        "native_pdf": {
+          "pages": 6,
+          "paragraph_counts_verified": 82,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 82,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 5,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "d407a44b95b23bb2ab70b47d5a7c4d8258449c4b65b555d6cc8798e0573a82ad",
+        "pdf": "ca5bb52317da508f827a32690fae49463ae0c9b02166da42cf0888c3760b061b",
+        "docx": "ebe6203c5b2100ed2cc93226d3c71ca487a1e5f9ad8788d602f7ec51da9e60de"
+      },
+      "word_preview_sha256": "2d386d22e5c4d20374277519f5ccf8897a777453fb76e7a91be78bc0f0c0f68c"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "public_synthetic": true,
+  "generator_sha256": "5804abfe7891b5642ce0eeba9104facb51201e2fbf8a824b7f473ec440d65924",
+  "rows": [
+    {
+      "locale": "en",
+      "events_sha256": "775bad1aa68a4bfd6e5f0b87a57ebc22ab3fdad8de794ebc0391d5c1763c9032",
+      "source_sha256": "7f771e6a0db50d70b9ff3e3575c180b2a4e204d5992ac877289faeee24b3a883"
+    },
+    {
+      "locale": "zh-Hant",
+      "events_sha256": "91542142154f10c994bb6622f006274151f1de13a9fbb20e9455d2e61bc27531",
+      "source_sha256": "8f9ce672d34361f9999611222ae08b3b95bc8c6be8e1d9b1fc6cca9a697392b3"
+    }
+  ]
+}

@@ -3,7 +3,14 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-最新[提交版系統提示切換試作](reviews/2026-09-21-submission-notices/README.md)：
+最新[計畫概要／品管說明試作](reviews/2026-09-21-submission-polish/README.md)：
+提交模式省略空欄位提示並合併重複品管短段落；780 組結構與 12 組原生比較通過。
+使用者真的填入的 `N/A`、「尚待補充」、0、否定答案及自由回答均保留。
+資料集漏填名稱時，[採用原始清單位置的中性編號](reviews/2026-09-21-dataset-labels/README.md)：
+五類資料集、528 組結構與四組原生比較通過；篩選後仍保留原始編號，內部檢核版不變。
+這些試作尚未整合英文來源／中文翻譯樹，也沒有升版或部署。
+
+前輪[提交版系統提示切換試作](reviews/2026-09-21-submission-notices/README.md)：
 264 組中英文結構檢查、12 組原生比較通過。檢核版畫面不變，試作提交保留原文、
 肯定／否定答案、金額與長用途；全空中文 PDF／Word 都由 3 頁減為 2 頁。
 尚未整合來源或升版；未標記佔位文字與品管重複短句仍待處理，**不是全域開關完成**。

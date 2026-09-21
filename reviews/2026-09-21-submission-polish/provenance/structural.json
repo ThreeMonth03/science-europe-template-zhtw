@@ -1,0 +1,7029 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "global_switch_complete": false,
+  "checker_sha256": "cf2d6be479a7ead48c5789f818fd8da67d37c7bda3f7d93a764fa09e78d9d65b",
+  "recipe_sha256": "d625a4b30d1844dacac95eadca87a89ac8222ba9486a47e41361c92221ffb343",
+  "rows": [
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "empty.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "negative.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "populated.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 4,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "representative.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "stress.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "structured.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "notice-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "submission-metadata.events.json",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-0",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-1",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-2",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-3",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-4",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-5",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-6",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-7",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-8",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-9",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-10",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-11",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-12",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-13",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-14",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-15",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-16",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-17",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-18",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-19",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-20",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-21",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-22",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-23",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-24",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-25",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-26",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-27",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-28",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-29",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-30",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-31",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-32",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-33",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-34",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-35",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-36",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-37",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-38",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-39",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-40",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-41",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-42",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-43",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-44",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-45",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-46",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-47",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-48",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-49",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-50",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-51",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-52",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-53",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-54",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-55",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-56",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-57",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-58",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-59",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-60",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-61",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-62",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-63",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-64",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-65",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-66",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-67",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-68",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-69",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-70",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-71",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-72",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-73",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-74",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-75",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-76",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-77",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-78",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-79",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-80",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-81",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-82",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-83",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-84",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-85",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-86",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-87",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-88",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-89",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-90",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-91",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-92",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-93",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-94",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-95",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-96",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-97",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-98",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-99",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-100",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-101",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-102",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-103",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-104",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-105",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-106",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-107",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-108",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-109",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-110",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-111",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-112",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-113",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-114",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-115",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-116",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-117",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-118",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-119",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-120",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-121",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-122",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-123",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-124",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-125",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-126",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-127",
+      "language": "english",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "empty.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "negative.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "populated.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 4,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "representative.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "stress.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "structured.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "notice-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "submission-metadata.events.json",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-0",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-1",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-2",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-3",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-4",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-5",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-6",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-7",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-8",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-9",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-10",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-11",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-12",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-13",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-14",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-15",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-16",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-17",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-18",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-19",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-20",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-21",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-22",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-23",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-24",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-25",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-26",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-27",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-28",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-29",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-30",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-31",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-32",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-33",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-34",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-35",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-36",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-37",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-38",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-39",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-40",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-41",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-42",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-43",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-44",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-45",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-46",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-47",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-48",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-49",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-50",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-51",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-52",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-53",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-54",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-55",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-56",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-57",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-58",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-59",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-60",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-61",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-62",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-63",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-64",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-65",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-66",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-67",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-68",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-69",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-70",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-71",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-72",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-73",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-74",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-75",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-76",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-77",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-78",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-79",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-80",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-81",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-82",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-83",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-84",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-85",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-86",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-87",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-88",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-89",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-90",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-91",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-92",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-93",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-94",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-95",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-96",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-97",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-98",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-99",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-100",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-101",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-102",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-103",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-104",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-105",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-106",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-107",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-108",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-109",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-110",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-111",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-112",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-113",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-114",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-115",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-116",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-117",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-118",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-119",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-120",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-121",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-122",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-123",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-124",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-125",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-126",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-127",
+      "language": "english",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "empty.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "negative.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "populated.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 4,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "representative.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "stress.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "structured.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "notice-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "submission-metadata.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-0",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-1",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-2",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-3",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-4",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-5",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-6",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-7",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-8",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-9",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-10",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-11",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-12",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-13",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-14",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-15",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-16",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-17",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-18",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-19",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-20",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-21",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-22",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-23",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-24",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-25",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-26",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-27",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-28",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-29",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-30",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-31",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-32",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-33",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-34",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-35",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-36",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-37",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-38",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-39",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-40",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-41",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-42",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-43",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-44",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-45",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-46",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-47",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-48",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-49",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-50",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-51",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-52",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-53",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-54",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-55",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-56",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-57",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-58",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-59",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-60",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-61",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-62",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-63",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-64",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-65",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-66",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-67",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-68",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-69",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-70",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-71",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-72",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-73",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-74",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-75",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-76",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-77",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-78",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-79",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-80",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-81",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-82",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-83",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-84",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-85",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-86",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-87",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-88",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-89",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-90",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-91",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-92",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-93",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-94",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-95",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-96",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-97",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-98",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-99",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-100",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-101",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-102",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-103",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-104",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-105",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-106",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-107",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-108",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-109",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-110",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-111",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-112",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-113",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-114",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-115",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-116",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-117",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-118",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-119",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-120",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-121",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-122",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-123",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-124",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-125",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-126",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-127",
+      "language": "chinese",
+      "autoescape": false,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "empty.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "negative.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "populated.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 4,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "representative.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 0,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "stress.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 0,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "structured.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "notice-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "submission-metadata.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-0",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-1",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-2",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-3",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-4",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-5",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-6",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-7",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-8",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-9",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-10",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-11",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-12",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-13",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-14",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-15",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-16",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-17",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-18",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-19",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-20",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-21",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-22",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-23",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-24",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-25",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-26",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-27",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-28",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-29",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-30",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-31",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-32",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-33",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-34",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-35",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-36",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-37",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-38",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-39",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-40",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-41",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-42",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-43",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-44",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-45",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-46",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-47",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-48",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-49",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-50",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-51",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-52",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-53",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-54",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-55",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-56",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-57",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-58",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-59",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-60",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-61",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-62",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-63",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-64",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-65",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-66",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-67",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-68",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-69",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-70",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-71",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-72",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-73",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-74",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-75",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-76",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-77",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-78",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-79",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-80",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-81",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-82",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-83",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-84",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-85",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-86",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-87",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-88",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-89",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-90",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-91",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-92",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-93",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-94",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-95",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-96",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-97",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-98",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-99",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-100",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-101",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-102",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-103",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-104",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-105",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-106",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-107",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-108",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-109",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-110",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-111",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-112",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-113",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-114",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-115",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-116",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-117",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-118",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-119",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-120",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-121",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-122",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-123",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-124",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-125",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-126",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    },
+    {
+      "case": "quality-flags-127",
+      "language": "chinese",
+      "autoescape": true,
+      "passed": true,
+      "quality_paragraphs": 2,
+      "project_rows": 3,
+      "owned_gaps": 0
+    }
+  ]
+}

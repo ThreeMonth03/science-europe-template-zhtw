@@ -1,0 +1,215 @@
+{
+  "passed": true,
+  "prototype_only": true,
+  "release_acceptance": false,
+  "global_switch_complete": false,
+  "microsoft_word_acceptance": false,
+  "checker_sha256": "964362da94b29774d6fd586ab6c110a18ea019b89435044efea0e28d0650cca5",
+  "shared_checker_sha256": "a52fa1e2be820a22bd32307e4b85c84ce6032658090a73ec6a907e6ccdcd037d",
+  "rows": [
+    {
+      "case": "dataset-labels",
+      "language": "english",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 13,
+      "word_paragraphs_verified": 151,
+      "rendered": {
+        "native_pdf": {
+          "pages": 8,
+          "paragraph_counts_verified": 105,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 8,
+          "baseline_line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 7,
+          "paragraph_counts_verified": 105,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 7,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "13c0c4600350a9f0cbb2c678f080c3afd77e31734eadcf9de985e28bb72ffd88",
+        "pdf": "08bd64cafecb5c4612f551bb8b7e468d638881d130f764370063f71e106b424a",
+        "docx": "93392211d8080d4e772096c0312469e5fc998d251d19f3a21ef806860483449f"
+      },
+      "word_preview_sha256": "4e70026be097d35195a5301928babb0010dde33576d04303d5dd311058dbfd2a"
+    },
+    {
+      "case": "dataset-labels",
+      "language": "english",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 143,
+      "rendered": {
+        "native_pdf": {
+          "pages": 7,
+          "paragraph_counts_verified": 97,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 8,
+          "baseline_line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 97,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 8,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "3f9359ca205fff22a7793e134f3ed1c4543844d5b10abeacc54a9d50e03a923e",
+        "pdf": "41da66948ee18071c145317812d6e0c18096904eb07ec7fa61ef866a23bd0194",
+        "docx": "1ef41924c35a40a2a602af45090468b3faab9495b9e84f854ee98035b2b9c41e"
+      },
+      "word_preview_sha256": "0a0e2e041f0a5d71e953a3b304529b671b48533f62fc9f8d9263ff73276384d5"
+    },
+    {
+      "case": "dataset-labels",
+      "language": "chinese",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 13,
+      "word_paragraphs_verified": 151,
+      "rendered": {
+        "native_pdf": {
+          "pages": 7,
+          "paragraph_counts_verified": 105,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 7,
+          "paragraph_counts_verified": 105,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 7,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "7258df0d4d04ab61d33d3aadd0cf9f2cb9c613c30ea4527d066d756850a72501",
+        "pdf": "facf1eb3fe84dabcc57603a7b89784a3093f6852e11c74147a1d6902af74504d",
+        "docx": "ff0bfe205ff73bf2ec3e58647462483318169f38f519f8945a978f299b73244b"
+      },
+      "word_preview_sha256": "f82aa12f81b0aaed88433f1925ac220bccf556c510a7b664defffea44674ce7a"
+    },
+    {
+      "case": "dataset-labels",
+      "language": "chinese",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 143,
+      "rendered": {
+        "native_pdf": {
+          "pages": 6,
+          "paragraph_counts_verified": 97,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 97,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 8,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "25547f3e1118d09d218eee87caaa7225cf6aa194b703ce0d967e2c1e9a9b691c",
+        "pdf": "99623e6d981fdda5e87456a7af2e640d944a4f6a7bc0fd192d562c28a4040c8c",
+        "docx": "7a52c9d4f0ee26897c66f35f5b8eb5687c56ef4d0d174c870288d42206aac88f"
+      },
+      "word_preview_sha256": "2b118050b6dee4b4d57288debeb3ee2a0fee70c433bcde8e16362f0969e3e09c"
+    }
+  ]
+}

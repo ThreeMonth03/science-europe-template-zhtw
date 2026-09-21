@@ -1,0 +1,19 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "dataset-labels-english",
+      "docx_sha256": "e7adac04cd1b051c6b984f5899079e34f67df9c8f503257c52a516bce9f0d0ff",
+      "preview_sha256": "544f459899d521ab4018dbb31076a30751dbebf5fd563ff5e66ff68977da13e2"
+    },
+    {
+      "name": "dataset-labels-chinese",
+      "docx_sha256": "90c57fbd54f1bffbf81cdfa8922ef961117ef7fa4747e6dee4c528ae0061bf30",
+      "preview_sha256": "7c557e1bafca068eba9e48539681fc6806c910a0601ee0743d55400d22c76d16"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "86ad75c56b82f18583f1e85422a05bc1127a55b9444eec2b85ae69601895e6fa",
+  "completed": true
+}
