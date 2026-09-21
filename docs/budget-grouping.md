@@ -18,7 +18,8 @@ Word 保留原本逐格安全檢查；不符合條件的內容仍不轉換。
 
 `scripts/check_budget_grouping_integration.py` 只驗套件，不冒充原生排版驗收。
 整合後原生 PDF／Word 與 LibreOffice 預覽另由
-`scripts/check_budget_grouping_native.py` 比較，結果完成後獨立封存。
+`scripts/check_budget_grouping_native.py` 比較；[八組原生對照已通過](../reviews/2026-09-21-budget-grouping-integration/README.md)，
+全文、文字座標與逐頁影像均等同前輪試作。這是整合無退步的證據，不是再次減頁。
 
 尚未完成：英文 Word 大量資源的三筆短列仍會拆段跨頁；提交預覽尚未全域移除
 系統漏填提示，不能當作國科會繳交版；尾頁留白、真實專案與 Microsoft Word

@@ -1,0 +1,25 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "native_integrated_render_checked": false,
+  "source_commit": "5a0c4545fc5f0d9dac09c2c92831d002b65e8f27",
+  "translation_tree": "64a5d1cf5bc3e69d8b5d515d36426b067b3691a7",
+  "frozen_seal": "a4dc74ea334dfe5e4232e994e1c4955918f82284c9745baeaeec425b83b4c569",
+  "checker_sha256": "936af9c22d7b94e473b3c61d55c32595d6f190615a4072817de62f9ef0aa0948",
+  "packages": {
+    "english": {
+      "package_sha256": "7694516b1e279e2e50771c888c9f8034c24e66c02125f5a46d5a7defd38e8357",
+      "files": 46,
+      "assets": 4,
+      "content_and_asset_bytes_identical": true,
+      "deterministic_identity_verified": true
+    },
+    "chinese": {
+      "package_sha256": "9b4ca1638ae35067c13efb78622689abc07feb2416b772132c273671274c0403",
+      "files": 46,
+      "assets": 5,
+      "content_and_asset_bytes_identical": true,
+      "deterministic_identity_verified": true
+    }
+  }
+}

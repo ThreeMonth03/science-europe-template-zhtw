@@ -1,0 +1,274 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "short",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "long",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "threshold-eleven",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "threshold-twelve",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "chinese-purpose",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "links-inline",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "flat-list",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "two-long-same-title",
+      "expanded_rows": 2,
+      "passed": true
+    },
+    {
+      "case": "complex-then-long",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "long-title",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "long-funding",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "funding-link",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "missing-amount",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-currency",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-funding",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-allocation",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "missing-amount-and-currency",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "zero-missing-currency",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "grant-missing-number",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "unknown-gap-attributes",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "single-huge-paragraph",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "wide-paragraph",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "too-many-paragraphs",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "forced-break",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-list",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "large-list",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "image",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-table",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "rows-8",
+      "expanded_rows": 0,
+      "passed": true
+    },
+    {
+      "case": "rows-32",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "rows-33",
+      "expanded_rows": 1,
+      "passed": true
+    },
+    {
+      "case": "two-projects",
+      "expanded_rows": 2,
+      "passed": true
+    }
+  ],
+  "engine": [
+    {
+      "case": "long",
+      "passed": true,
+      "weasyprint": "68.1",
+      "purpose_pages": [
+        1,
+        2
+      ],
+      "min_purpose_width_ratio": 0.9518007105943151
+    },
+    {
+      "case": "missing-amount",
+      "passed": true,
+      "weasyprint": "68.1",
+      "purpose_pages": [
+        1,
+        2,
+        3
+      ],
+      "min_purpose_width_ratio": 0.9518007105943151
+    },
+    {
+      "case": "missing-currency",
+      "passed": true,
+      "weasyprint": "68.1",
+      "purpose_pages": [
+        1,
+        2,
+        3
+      ],
+      "min_purpose_width_ratio": 0.9518007105943151
+    },
+    {
+      "case": "missing-funding",
+      "passed": true,
+      "weasyprint": "68.1",
+      "purpose_pages": [
+        1,
+        2,
+        3
+      ],
+      "min_purpose_width_ratio": 0.9518007105943151
+    },
+    {
+      "case": "missing-allocation",
+      "passed": true,
+      "weasyprint": "68.1",
+      "purpose_pages": [
+        1,
+        2
+      ],
+      "min_purpose_width_ratio": 0.9518007105943151
+    },
+    {
+      "case": "missing-amount-and-currency",
+      "passed": true,
+      "weasyprint": "68.1",
+      "purpose_pages": [
+        1,
+        2,
+        3
+      ],
+      "min_purpose_width_ratio": 0.9518007105943151
+    },
+    {
+      "case": "zero-missing-currency",
+      "passed": true,
+      "weasyprint": "68.1",
+      "purpose_pages": [
+        1,
+        2,
+        3
+      ],
+      "min_purpose_width_ratio": 0.9518007105943151
+    },
+    {
+      "case": "grant-missing-number",
+      "passed": true,
+      "weasyprint": "68.1",
+      "purpose_pages": [
+        1,
+        2,
+        3
+      ],
+      "min_purpose_width_ratio": 0.9518007105943151
+    }
+  ],
+  "checker_sha256": "f8eff971da637465106f5148b1dd87e535fbf76bf1f25e1e7451f97652518be5",
+  "source_sha256": {
+    "src/questions/15-required-resources.html.j2": "bbd68d4bd464b7cb331e16f039cb8c648f486324b8f06851a40370f31e875405",
+    "src/budget-reading.html.j2": "0f20b29a988e17519b16201882e5d0a06acb002b197a4873f48061c39d0f2e9d",
+    "src/pdf/index.html.j2": "6c4950c608e4401fa03eeab14b8d8208f8ce7e098e49ee8f6f2ab3460900e194",
+    "src/layout.css": "b950167ab3e33a45dfdf9197ca97f5806f18b34f3f16b6e30cd5f405a08cdbb2"
+  },
+  "helper_sha256": {
+    "scripts/generate_budget_fixtures.py": "4f0c589eed13fe4d0f6a87b6c31c2b8ee01c421c554023b8811cd30a0153244f",
+    "scripts/generate_preservation_fixtures.py": "12cc955d2a4ed1db51747d7a423661dcb822c3b116b996c0d83455a74f4d5809",
+    "scripts/generate_pilot_fixtures.py": "0c8ac51f5a6692479bcc42c1cd9236444f465c3b6c11c355224f6ebc2cd6c5c9",
+    "scripts/probe_budget_word.py": "8f6aba2b5f14076de521d988c7332e5eefe7544ba409b574c782bae94b983e43",
+    "tests/test_science_europe_contract.py": "4068ed40344b85466cf81dbaefa02a6b818e622cbcef8418315b692f3dd9ee31"
+  },
+  "prior_question_sha256": "f0a66c85094dee18fa8b1aa246e3a2ab47b7491777faf5f4859b8b2d9893e55a",
+  "limits": [
+    "HTML-fragment adapters, not a replacement Markdown parser",
+    "Engine probe is not a full native DSW export",
+    "Only captured fragments move; authored prose is not rewritten"
+  ]
+}

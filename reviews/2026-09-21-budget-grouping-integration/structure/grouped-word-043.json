@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "rows": [
+    {
+      "case": "long",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "threshold-twelve",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "chinese",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "two-resources",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "two-projects",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "short-long-short",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "duplicate-titles",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "rich-inline",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "flat-list",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "threshold-eleven",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "short",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "many-short",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "too-many-resources",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "too-many-paragraphs",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "wide-paragraph",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "long-metadata",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "forced-line-breaks",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "large-amount",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "long-title",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "nested-table",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "image",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "nested-list",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "long-list",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "metadata-list",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "column-span",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "other-table",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "wrong-question",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "extra-heading",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "mixed-32",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-33",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-34",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-64",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-65",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "mixed-66",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "large-invalid-metadata",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "large-invalid-purpose",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "large-no-long",
+      "eligible": false,
+      "passed": true
+    }
+  ],
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "source_commit": "200fac5239051e1a877493c7d52c3a199964c718",
+  "checker_sha256": "60de1e9ed3561c710027ae4565049b81d90157ea9e2c30bff14e892813216c33",
+  "helper_sha256": {
+    "scripts/probe_budget_word.py": "8f6aba2b5f14076de521d988c7332e5eefe7544ba409b574c782bae94b983e43"
+  },
+  "lua_sha256": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+  "limits": [
+    "Handler-disabled AST comparison, not historic native outputs",
+    "No whole-DMP or Microsoft Word acceptance"
+  ]
+}
