@@ -1,0 +1,9 @@
+{
+  "cause_confirmed_for_baseline_mismatch": true,
+  "legacy_reconstructed_input_sha256": "fb250db5f5c0330274576a0ab8989f78ae8ee6366ad43e65bbad8c90a308edcf",
+  "captured_input_sha256": "9ff6f8d96b370b040d3a827edf02bf34abdc99bfc5997a4b94d6fe29543b6d23",
+  "only_style_delta": "Format-UUID-specific CJK fallback and typography block plus four font-family prefixes",
+  "localization_sha256": "2aac7f0f03f0f1ef52b334a9d476a9dc81090a820fd1102e5f75ff566a159455",
+  "pdf_review_format_uuid": "68c26e34-5e77-4e15-9bf7-06ff92582257",
+  "worker_font_lifetime_cause_claimed": false
+}

@@ -1,0 +1,53 @@
+{
+  "all_renders_succeeded": false,
+  "release_acceptance": false,
+  "validation": [
+    {
+      "case": "mixed-long-last",
+      "language": "english",
+      "reachable_replies": 208,
+      "events_sha256": "e967c1950e089b6cdd206899c408800e407787fbc01dc840a87dcc96dba61c6e",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "mixed-gaps",
+      "language": "english",
+      "reachable_replies": 202,
+      "events_sha256": "4dacd8abb058ff3500d96e024c6aa307211557552451050ef8588e7d5dd76bc9",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "mixed-long-last",
+      "language": "chinese",
+      "reachable_replies": 208,
+      "events_sha256": "9deed740dc5aa555f2524ca7f0d75c3695e8d51beb5cdb54e739c42af762533d",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "mixed-gaps",
+      "language": "chinese",
+      "reachable_replies": 202,
+      "events_sha256": "506f0751522d3458d63af9e9c2899489c26318f142b1ef4cd9457fbcc8ecf019",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    }
+  ],
+  "renders": [
+    {
+      "case": "mixed-long-last-review",
+      "fixture_case": "mixed-long-last",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": false
+    }
+  ],
+  "checker_sha256": "7f6e1770e88b0d3744195211d358ee03c42228401e57dea6dea25cae7c49c6b7",
+  "package_sha256": {
+    "english.zip": "453d7ff7822c30f9428944e54cf1ad87641166733ee20d986ba18c5479a9896e",
+    "chinese.zip": "b2605b5ea44b0241799873ae8e054eae55229354dea0bfa100844a7eebfdd7bd"
+  }
+}

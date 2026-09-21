@@ -1,0 +1,1160 @@
+{
+  "native_export": true,
+  "prototype_only": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "full_control_matrix_complete": false,
+  "checker_sha256": "1ccb1108eb044cfd0c6dd22c3e43d626244361a78c0de7b9cf504a33fbf1b9e1",
+  "rows": [
+    {
+      "stem": "mixed-long-last-review-english",
+      "pages": [
+        11,
+        11
+      ],
+      "missing_header_pages": [
+        [],
+        []
+      ],
+      "short_rows": [
+        [
+          {
+            "index": 1,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              8,
+              9
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              9
+            ]
+          }
+        ],
+        [
+          {
+            "index": 1,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              9
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              9
+            ]
+          }
+        ]
+      ],
+      "long_pages": [
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          9,
+          10,
+          11
+        ]
+      ],
+      "tail_together": [
+        true,
+        true
+      ],
+      "word_unchanged": true,
+      "word_paragraphs_checked": 266,
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "6f3262b04e8d2fed45d5cae03176366163b9bf7314787fdaad194e77259739eb",
+        "b5f81987fb494a60bf986a82f238cc203794d58cc2db6bb4f7b84b9fdfaf8dae"
+      ],
+      "word_preview_sha256": [
+        "a4ade9209448622513fa3e1679f87491cb4c7b18e1ec79c787da3ab50ad0d4ac",
+        "6eacf33fc1fe71093f0f7e62d8290eb80bdac8cf16250b0081b470ef681e442b"
+      ]
+    },
+    {
+      "stem": "mixed-long-last-review-chinese",
+      "pages": [
+        9,
+        10
+      ],
+      "missing_header_pages": [
+        [
+          9
+        ],
+        []
+      ],
+      "short_rows": [
+        [
+          {
+            "index": 1,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              7,
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              8
+            ]
+          }
+        ],
+        [
+          {
+            "index": 1,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              8
+            ]
+          }
+        ]
+      ],
+      "long_pages": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9,
+          10
+        ]
+      ],
+      "tail_together": [
+        true,
+        true
+      ],
+      "word_unchanged": true,
+      "word_paragraphs_checked": 266,
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "ff25f06fe89eca95b2160598e293c46be87d64a4b4d8972caf9391b4e8644550",
+        "e562330eed2b61f5f00154e1e0217ca30eef167ae79441c079b0de15d5012ef2"
+      ],
+      "word_preview_sha256": [
+        "b77dba04a976c60970389108a1d9dd22fcfa92f23f3b3e8dbffb4c2a00871418",
+        "75b77c04b260f674be3362c5058fc475866714b5d99d9efb3dcac41c39266edb"
+      ]
+    },
+    {
+      "stem": "mixed-long-last-submission-english",
+      "pages": [
+        11,
+        11
+      ],
+      "missing_header_pages": [
+        [],
+        []
+      ],
+      "short_rows": [
+        [
+          {
+            "index": 1,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              8,
+              9
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              9
+            ]
+          }
+        ],
+        [
+          {
+            "index": 1,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              9
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              9
+            ]
+          }
+        ]
+      ],
+      "long_pages": [
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          9,
+          10,
+          11
+        ]
+      ],
+      "tail_together": [
+        true,
+        true
+      ],
+      "word_unchanged": true,
+      "word_paragraphs_checked": 260,
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "cc962896d01f9f049c0a801f1dc55e3b081242b8322867bc3a504a465788656a",
+        "14b889bd868340f54710975e50ef797ac8ebb7067017b6585c20c8fa71acca48"
+      ],
+      "word_preview_sha256": [
+        "07395caf08d98f59b227a8e5177d231b65c70ac035119b4d7db1331ffd3337c3",
+        "413d6ec04fad0365395f040298d5a7a35b22ff0acd77a33598a2994e419dc16b"
+      ]
+    },
+    {
+      "stem": "mixed-long-last-submission-chinese",
+      "pages": [
+        9,
+        9
+      ],
+      "missing_header_pages": [
+        [],
+        []
+      ],
+      "short_rows": [
+        [
+          {
+            "index": 1,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              7,
+              8
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              8
+            ]
+          }
+        ],
+        [
+          {
+            "index": 1,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              8
+            ]
+          }
+        ]
+      ],
+      "long_pages": [
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "tail_together": [
+        true,
+        true
+      ],
+      "word_unchanged": true,
+      "word_paragraphs_checked": 260,
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "90be28342999518012a444a2bce7c5bd1a7934dfd88c8bfc40ca41c15669b3a0",
+        "400207b8d388f5413329f557816f9298b7953c7d25c79e1f7dcedad851a3b978"
+      ],
+      "word_preview_sha256": [
+        "27f9e3a21a8dd5019de6deea42888243f29908d26567c1e48212e314952b6ff3",
+        "bb1ad91ed21449d3a2264fcb20b27aa9383c579392d3091f5f90b20094173d45"
+      ]
+    },
+    {
+      "stem": "mixed-gaps-review-english",
+      "pages": [
+        11,
+        11
+      ],
+      "missing_header_pages": [
+        [],
+        []
+      ],
+      "short_rows": [
+        [
+          {
+            "index": 1,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              9
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              9
+            ]
+          }
+        ],
+        [
+          {
+            "index": 1,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              9
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              9
+            ]
+          }
+        ]
+      ],
+      "long_pages": [
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          9,
+          10,
+          11
+        ]
+      ],
+      "tail_together": [
+        true,
+        true
+      ],
+      "word_unchanged": true,
+      "word_paragraphs_checked": 268,
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "53febfddde97ab9355c6d48307b5a6dcb832899ab5101a38bfebfc8f422c7d0d",
+        "48aee25a97d893dc5de0cec6f51882f37b19aefce1ed65d2c479d7f8a2df59b5"
+      ],
+      "word_preview_sha256": [
+        "9c7ce449b6b86cd339acbc271812986a6c94a09dfa95a50ede4e96c87f67cd11",
+        "3de77b348cd420dde3c8c99fd8a971d8eb9d640f6f0ea454413e5fe687de4ebc"
+      ]
+    },
+    {
+      "stem": "mixed-gaps-review-chinese",
+      "pages": [
+        10,
+        10
+      ],
+      "missing_header_pages": [
+        [],
+        []
+      ],
+      "short_rows": [
+        [
+          {
+            "index": 1,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              7,
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              8
+            ]
+          }
+        ],
+        [
+          {
+            "index": 1,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              8
+            ]
+          }
+        ]
+      ],
+      "long_pages": [
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          8,
+          9,
+          10
+        ]
+      ],
+      "tail_together": [
+        false,
+        true
+      ],
+      "word_unchanged": true,
+      "word_paragraphs_checked": 268,
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "943591afa66a2ae38c4ba4f4bfc611c32ded57f1555161d640204d5b2d465d64",
+        "1c8554fd9fcb2e46ea85e72b861b5019342c2ec1144492563553deaa10aabdca"
+      ],
+      "word_preview_sha256": [
+        "dd3c2dacbf0c7dc35adb894219221e584780189dfc8c6ac2a0069e8458a3e6f7",
+        "ebe895b553ddbb63827d71b080b2467101cc4cfe552107f47ec34a5c016bc022"
+      ]
+    },
+    {
+      "stem": "mixed-gaps-submission-english",
+      "pages": [
+        11,
+        11
+      ],
+      "missing_header_pages": [
+        [],
+        []
+      ],
+      "short_rows": [
+        [
+          {
+            "index": 1,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              9
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              9
+            ]
+          }
+        ],
+        [
+          {
+            "index": 1,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              9
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              9
+            ]
+          }
+        ]
+      ],
+      "long_pages": [
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          9,
+          10,
+          11
+        ]
+      ],
+      "tail_together": [
+        true,
+        true
+      ],
+      "word_unchanged": true,
+      "word_paragraphs_checked": 262,
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "b3ba2fab513c32cf472a1262bfe6a4269ff59043ee1436a6b3aa38a8052d5aad",
+        "54df9e77a6a2353055df53a0b9e4af0e23a4f357407f04afe029f1ea23420189"
+      ],
+      "word_preview_sha256": [
+        "88376afa1708ce6214f071b1b3daa147c81d56c03725c93f8902a6247ef675ea",
+        "44051cbb12a11faf1ca232febcc4ea11ec43ce0a56f3d24d0bd0c898d267c1ea"
+      ]
+    },
+    {
+      "stem": "mixed-gaps-submission-chinese",
+      "pages": [
+        10,
+        10
+      ],
+      "missing_header_pages": [
+        [],
+        []
+      ],
+      "short_rows": [
+        [
+          {
+            "index": 1,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              7,
+              8
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              8
+            ]
+          }
+        ],
+        [
+          {
+            "index": 1,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 2,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 3,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 4,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 5,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 6,
+            "pages": [
+              7
+            ]
+          },
+          {
+            "index": 7,
+            "pages": [
+              8
+            ]
+          },
+          {
+            "index": 8,
+            "pages": [
+              8
+            ]
+          }
+        ]
+      ],
+      "long_pages": [
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          8,
+          9,
+          10
+        ]
+      ],
+      "tail_together": [
+        false,
+        true
+      ],
+      "word_unchanged": true,
+      "word_paragraphs_checked": 262,
+      "bounds_findings": [
+        [],
+        []
+      ],
+      "pdf_sha256": [
+        "59e02d3d000b46c819546b4536ee0c121b1c76366d2fe5ce8abaf2b946f2fbcf",
+        "281fb698f1559a5649def271173b25094daff2c67968f142bceadbb7d474762e"
+      ],
+      "word_preview_sha256": [
+        "8d93c3cae84d2690c7ccb5b3400178b8e5e8713e7c544b496bf36d9b80d1d260",
+        "112f2e43cd4c9f2bc057b2608ac74e184983d2122112d13e8fd8b3a65b2c39d9"
+      ]
+    }
+  ],
+  "selected_checks_passed": true
+}

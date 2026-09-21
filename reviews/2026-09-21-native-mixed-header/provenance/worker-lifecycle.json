@@ -1,0 +1,119 @@
+{
+  "before": [
+    {
+      "name": "science-europe-pilot-docworker-1",
+      "image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+      "command": [
+        "python",
+        "-u",
+        "/capture.py"
+      ],
+      "status": "running",
+      "exit_code": 0,
+      "oom_killed": false,
+      "restart_count": 0
+    },
+    {
+      "name": "science-europe-pilot-server-1",
+      "image": "sha256:8a06520490cc58c2dd2297e34b198c833442717116c7b3d9d96ba4922a07f375",
+      "command": [
+        "/app/wizard-server-bin"
+      ],
+      "status": "running",
+      "exit_code": 0,
+      "oom_killed": false,
+      "restart_count": 0
+    },
+    {
+      "name": "science-europe-pilot-minio-1",
+      "image": "sha256:a616cd8f37758b0296db62cc9e6af05a074e844cc7b5c0a0e62176d73828d440",
+      "command": [
+        "server",
+        "/data",
+        "--console-address",
+        ":9001"
+      ],
+      "status": "running",
+      "exit_code": 0,
+      "oom_killed": false,
+      "restart_count": 0
+    },
+    {
+      "name": "science-europe-pilot-postgres-1",
+      "image": "sha256:aadf2c0696f5ef357aa7a68da995137f0cf17bad0bf6e1f17de06ae5c769b302",
+      "command": [
+        "postgres"
+      ],
+      "status": "running",
+      "exit_code": 0,
+      "oom_killed": false,
+      "restart_count": 0
+    }
+  ],
+  "deleted_owned_templates": 4,
+  "production_touched": false,
+  "template_zip_backups_retained": true,
+  "stock_worker_restored": true,
+  "restored_worker": {
+    "name": "science-europe-pilot-docworker-1",
+    "image": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+    "command": [
+      "dsw-document-worker",
+      "run"
+    ],
+    "status": "running",
+    "exit_code": 0,
+    "oom_killed": false,
+    "restart_count": 0
+  },
+  "after": [
+    {
+      "name": "science-europe-pilot-docworker-1",
+      "image": "sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+      "command": [
+        "dsw-document-worker",
+        "run"
+      ],
+      "status": "exited",
+      "exit_code": 137,
+      "oom_killed": false,
+      "restart_count": 0
+    },
+    {
+      "name": "science-europe-pilot-server-1",
+      "image": "sha256:8a06520490cc58c2dd2297e34b198c833442717116c7b3d9d96ba4922a07f375",
+      "command": [
+        "/app/wizard-server-bin"
+      ],
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "restart_count": 0
+    },
+    {
+      "name": "science-europe-pilot-minio-1",
+      "image": "sha256:a616cd8f37758b0296db62cc9e6af05a074e844cc7b5c0a0e62176d73828d440",
+      "command": [
+        "server",
+        "/data",
+        "--console-address",
+        ":9001"
+      ],
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "restart_count": 0
+    },
+    {
+      "name": "science-europe-pilot-postgres-1",
+      "image": "sha256:aadf2c0696f5ef357aa7a68da995137f0cf17bad0bf6e1f17de06ae5c769b302",
+      "command": [
+        "postgres"
+      ],
+      "status": "exited",
+      "exit_code": 0,
+      "oom_killed": false,
+      "restart_count": 0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Synthetic science-europe-pilot only; input/engine are observed, not rewritten.
+services:
+  docworker:
+    image: science-europe-pilot-worker:4.30-tables-experiment
+    command: ["python", "-u", "/capture.py"]
+    environment:
+      PYTHONFAULTHANDLER: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+    volumes:
+      - ${SE_HEADER_CAPTURE_SCRIPT:?Set the observer script}:/capture.py:ro
+      - ${SE_HEADER_CAPTURE_OUTPUT:?Set a new public-only output directory}:/diagnostics

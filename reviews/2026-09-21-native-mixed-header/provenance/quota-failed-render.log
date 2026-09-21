@@ -1,0 +1,44 @@
+INFO: Authenticated as albert.einstein@example.com
+INFO: Creating render project Public mixed-budget QA / mixed-long-last
+INFO: Applying 208 project events from /tmp/dsw-pilot-fixture-wzud3d5j/events.json
+INFO: Importing released template package /tmp/dsw-template-package-lbz07c5m/english.zip
+INFO: Rendering project 335349d5-3dc5-445b-937a-47dc4007323d with released template a17ba4c7-5f73-45bf-a801-78ba7e0a94f2
+Traceback (most recent call last):
+  File "/home/trc/Downloads/science-europe-template-zhtw/scripts/render.py", line 117, in <module>
+    main()
+    ~~~~^^
+  File "/home/trc/Downloads/science-europe-template-zhtw/scripts/render.py", line 77, in main
+    render_project(
+    ~~~~~~~~~~~~~~^
+        project_uuid=None,
+        ^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+        verify_ssl=True,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/trc/Downloads/dsw-document-template-tool/src/dsw_document_template_tool/render_project.py", line 86, in render_project
+    document, render_info = _render_released_template_package(
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        client=client,
+        ^^^^^^^^^^^^^^
+    ...<4 lines>...
+        poll_seconds=poll_seconds,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/trc/Downloads/dsw-document-template-tool/src/dsw_document_template_tool/render_project.py", line 235, in _render_released_template_package
+    client.poll_document_ready(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        project_uuid=project_uuid,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        poll_seconds=poll_seconds,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/trc/Downloads/dsw-document-template-tool/src/dsw_document_template_tool/api.py", line 464, in poll_document_ready
+    raise DSWAPIError(
+    ...<2 lines>...
+    )
+dsw_document_template_tool.api.DSWAPIError: Document generation failed: No space left for this document: required 15.99 MB but only 11.99 MB remains.

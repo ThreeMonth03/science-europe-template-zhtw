@@ -1,0 +1,1383 @@
+<!DOCTYPE HTML>
+
+
+<html lang="en">
+  <head>
+    <title>Data Management Plan</title>
+    <meta charset="utf-8">
+    <style>
+      
+/* Layout and global styles */
+
+@page {
+  size: A4;
+
+  @bottom-left {
+    border-top: 1px solid black;
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+  @bottom-center {
+    border-top: 1px solid black;
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+  @bottom-center {
+    border-top: 1px solid black;
+    content: counter(page) " / " counter(pages);
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+}
+@page :blank {
+  @top-center { content: none }
+  @bottom-left { content: none }
+  @bottom-center { content: none }
+  @bottom-right { content: none }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  page-break-inside: avoid !important;
+  page-break-after: avoid !important;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11pt;
+  counter-reset: section;
+  counter-reset: question;
+  max-width: 21cm;
+  margin: 0 auto;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Visible completion gaps: unanswered replies must never look like "No". */
+.data-gap {
+  border-left: 3px solid #b26a00;
+  background: #fff8e8;
+  color: #573600;
+  padding: 0.45rem 0.65rem;
+  break-inside: avoid;
+}
+
+.data-gap strong {
+  color: #7a4600;
+}
+
+@media print {
+  .data-gap {
+    border: 1px solid #8a6d3b;
+    border-left-width: 3px;
+  }
+}
+
+/* Sections */
+
+section {
+  margin-bottom: 4rem;
+}
+
+.dmp-section .question + .question {
+  margin-top: 1cm;
+}
+
+/* First page */
+
+header {
+  padding-top: 5cm;
+  height: 24cm;
+  box-sizing: border-box;
+  page-break-after: always;
+  position: relative;
+}
+
+header .dmp::after {
+  font-size: 18pt;
+  content: 'Data Management Plan';
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+header div {
+  position: absolute;
+  bottom: 0;
+}
+
+header .contact-orcid {
+  white-space: nowrap;
+}
+
+header .note {
+  margin-top: 2cm;
+  text-align: center;
+  font-size: 10pt;
+  font-style: italic;
+}
+
+div.dmp-info {
+  width: 100%;
+}
+
+dl {
+  border: 1px solid #bdc8ca;
+  background-color: #f7fafa;
+  overflow: hidden;
+  width: 100%;
+}
+
+dt,
+dd {
+    box-sizing: border-box;
+    padding: 10px;
+}
+dd ~ dt,
+dd ~ dd {
+    border-top: 1px solid #bdc8ca;
+}
+dt {
+    float: left;
+    width: 25%;
+    padding-bottom: 0;
+}
+dd {
+    margin-left: 25%;
+    width: 75%;
+    border-left: 1px dotted #bdc8ca;
+    background-color: #fff;
+}
+dd:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+dl dd ul {
+  padding: 0;
+  margin: 0;
+}
+
+dl dd ul li {
+  list-style: none;
+}
+
+dl dd ul li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+dl .contact-name {
+  font-weight: bold;
+}
+
+/* Contributors */
+
+.contributor .name {
+  font-weight: bold;
+}
+
+.contributor .role,
+.contributor .affiliation {
+  font-style: italic;
+  display: inline-block;
+}
+
+/* Abstract */
+
+.abstract {
+  page-break-after: always;
+}
+
+.abstract p {
+  text-align: justify;
+}
+
+/* custom */
+
+.orcid-svg {
+  width: 0.5cm;
+  height: 0.5cm;
+  display: inline-block;
+  margin: 0px -4px -2px 2px;
+}
+
+div#dmp-content {
+  page-break-before: always;
+}
+
+div#dmp-projects,
+div#dmp-contributors,
+div#dmp-content {
+  page-break-before: always;
+}
+
+/* Versions */
+
+div#dmp-versions table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div#dmp-versions table,
+div#dmp-versions td,
+div#dmp-versions th {
+  border: 1px solid #bdc8ca;
+}
+
+div#dmp-versions td,
+div#dmp-versions th {
+  padding: 0.2em;
+}
+
+div#dmp-versions th.title {
+  text-transform: uppercase;
+  padding: 0.4em;
+  text-align: center;
+}
+
+div#dmp-versions td.version-name {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+div#dmp-versions td.version-date {
+  text-align: center;
+  width: 18ex;
+}
+
+div#dmp-versions td.version-changes {
+  word-wrap: break-word;
+}
+
+div#dmp-versions td.no-versions {
+  font-style: italic;
+  padding: 1em;
+  text-align: center;
+}
+      @font-face { font-family: "Pilot CJK"; src: url("data:font/ttf;sha256,864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f") format("truetype"); }
+html body { font-family: "DejaVu Sans", "Pilot CJK", sans-serif; }
+/* Owned layout layer; upstream styles remain separately reviewable. */
+@page { size: A4; margin: 20mm 19mm 22mm; }
+@page {
+  @bottom-left { border-top: none; }
+  @bottom-center { margin-top: 4mm; padding-top: 2mm; border-top: 1px solid #8c999e; }
+}
+html body { font-size: 10.5pt; line-height: 1.5; color: #222; }
+html body h1 { font-size: 21pt; line-height: 1.25; }
+html body h2 { font-size: 15pt; line-height: 1.35; margin: 1.3em 0 .65em; }
+html body h3 { font-size: 11pt; font-weight: normal; line-height: 1.5; margin: .9em 0 .6em; color: #47565c; }
+html body h4 { font-size: 11.5pt; margin: .85em 0 .4em; }
+html body h5 { font-size: 10.5pt; margin: .75em 0 .3em; }
+html body h1, html body h2, html body h3, html body h4, html body h5 { break-after: avoid; break-inside: avoid; }
+html body p { margin: 0 0 .5em; orphans: 2; widows: 2; }
+html body li { margin-bottom: .6em; }
+html body li > strong:first-child { display: block; break-after: avoid; }
+html body ul { padding-left: 1.4em; margin: .4em 0 .8em; }
+html body .answer-detail { margin: .3em 0 .75em; }
+html body .answer-detail > p:first-child { break-after: avoid; }
+html body .answer-lead { break-after: avoid; }
+html body a { overflow-wrap: anywhere; word-break: break-word; color: #185778; }
+html body table { border-collapse: collapse; width: 100%; margin: .6em 0; }
+html body th, html body td { border: 1px solid #bcc6cc; padding: .4em .5em; vertical-align: top; }
+html body th { background: #eef2f4; text-align: left; }
+html body thead { display: table-header-group; }
+html body tr { break-inside: avoid; }
+html body header { height: auto; min-height: 0; padding-top: 0; page-break-after: auto; }
+html body header h1 { margin-top: .3em; margin-bottom: .5em; }
+html body dl { margin: .6em 0; }
+html body dt, html body dd { padding: 6px 10px; }
+html body dl dd ul li { margin-bottom: 0; }
+html body header div { position: static; }
+html body header .note { margin-top: .6em; }
+html body header .contact-orcid { white-space: normal; }
+html body #dmp-contributors, html body #dmp-projects { page-break-before: auto; }
+html body .abstract { page-break-after: auto; }
+html body .abstract p { text-align: left; }
+html body section { margin-bottom: 1.4em; }
+html body .dmp-section .question + .question { margin-top: 1.3em; }
+html body .data-gap { padding: .45em .65em; border-left: 3px solid #95651b; background: #fff8e8; }
+
+/* Reading units, not arbitrary fixed-height pages. */
+html body #dmp-content { break-before: page; }
+html body #dmp-projects h3 { font-size: 14pt; font-weight: bold; color: #222; }
+html body .document-meta { font-size: 9pt; color: #526169; }
+html body .document-kind { font-size: 14pt; color: #526169; }
+html body .document-provenance { border-top: 1px solid #bcc6cc; margin-top: 2em; padding-top: .7em; font-size: 8.5pt; color: #526169; }
+html body .dataset-list { list-style: none; padding-left: 0; }
+html body .dataset-list > li { margin: 0 0 1em; }
+html body .dataset-list h5 { font-size: 11pt; margin: .8em 0 .35em; }
+html body .dataset-source { font-size: 9pt; }
+html body .dataset-version { margin: .4em 0; }
+html body .dataset-version th { width: 15%; font-weight: normal; }
+html body .dataset-version p { margin-bottom: .2em; }
+html body .dataset-policy > p { display: inline; margin: 0; }
+html body .dataset-policy > p::after { content: ' '; }
+html body .dataset-policy { margin: .4em 0 .6em; }
+/* Q11 scalar references may wrap, but their original text/href is never edited. */
+html body .paper-reference { overflow-wrap: anywhere; word-break: break-word; }
+html body .answer-detail ul { margin-top: .2em; }
+html body .answer-detail li { margin-bottom: .2em; }
+html body .answer-detail ul:has(> li:last-child:nth-child(-n+3)) { break-inside: avoid; }
+html body li > p:first-child { break-after: avoid; }
+html body .resource-table { font-size: 10pt; table-layout: fixed; }
+html body .resource-table col.resource-purpose { width: 57%; }
+html body .resource-table col.resource-budget { width: 17%; }
+html body .resource-table col.resource-funding { width: 26%; }
+html body .resource-table tr { break-inside: auto; }
+html body .resource-table:has(tbody > tr:last-child:nth-child(-n+3)) { break-inside: avoid; }
+/* Row count alone cannot bound a table's height. Release the whole-table keep
+   for Q15 purposes with >=12 direct authored blocks; do not rewrite answers or
+   change the short/many-row controls. One huge paragraph is outside this hint. */
+html body #q-required-resources .resource-table:has(tbody > tr > td:first-child > .answer-detail > :nth-child(12)) { break-inside: auto; }
+html body .resource-table p { margin-bottom: .3em; }
+html body .resource-table ul { padding-left: 1.2em; }
+html body .resource-table .answer-detail { margin: .25em 0; }
+html body .resource-table .data-gap { padding: .2em .35em; }
+/* BEGIN short-budget panel: PDF-only, <=3 bounded rows with a budget gap. */
+html body .pdf-short-budget col.resource-purpose { width: 49%; }
+html body .pdf-short-budget col.resource-budget { width: 25%; }
+html body .pdf-short-budget col.resource-funding { width: 26%; }
+html body .pdf-short-budget th, html body .pdf-short-budget td { padding-top: .25em; padding-bottom: .25em; }
+html body .pdf-short-budget p { margin-bottom: .2em; }
+/* END short-budget panel */
+/* PDF-only long resource: identity repeats in thead, purpose spans all columns. */
+html body #q-required-resources .pdf-resource-reading { break-inside: auto; }
+html body .pdf-resource-reading thead td { background: #eef2f4; }
+html body .pdf-resource-reading tbody td { border-top: none; }
+/* Missing metadata needs room for the original prompt, not a three-line label
+   in a 17% column. The full-width purpose and complete-header controls stay as-is. */
+html body .pdf-resource-reading:has(thead > tr > td > .data-gap) col.resource-purpose { width: 40%; }
+html body .pdf-resource-reading:has(thead > tr > td > .data-gap) col.resource-budget { width: 29%; }
+html body .pdf-resource-reading:has(thead > tr > td > .data-gap) col.resource-funding { width: 31%; }
+/* Exactly the four fixed, unanswered Q15 facts: bounded prose with no authored
+   paragraphs, resource rows or nested details. Keep its question with the group. */
+html body #q-required-resources:has(.answer > p.data-gap[data-fact-id="specialist-expertise"]:first-child):has(.answer > p.data-gap[data-fact-id="hardware-software"]:nth-child(2)):has(.answer > p.data-gap[data-fact-id="repository-charges"]:nth-child(3)):has(.answer > p.data-gap[data-fact-id="resources-costing"]:nth-child(4):last-child) { break-inside: avoid; }
+/* BEGIN empty-Q15 panel: four fixed gaps, no authored or partially answered content. */
+html body #q-required-resources > .answer:has(> p.data-gap[data-fact-id="specialist-expertise"][data-status="missing"]:first-child):has(> p.data-gap[data-fact-id="hardware-software"][data-status="missing"]:nth-child(2)):has(> p.data-gap[data-fact-id="repository-charges"][data-status="missing"]:nth-child(3)):has(> p.data-gap[data-fact-id="resources-costing"][data-status="missing"]:nth-child(4):last-child) { border: 1px solid #8a6d3b; border-left-width: 3px; background: #fff8e8; padding: .45em .65em; }
+html body #q-required-resources > .answer:has(> p.data-gap[data-fact-id="specialist-expertise"][data-status="missing"]:first-child):has(> p.data-gap[data-fact-id="hardware-software"][data-status="missing"]:nth-child(2)):has(> p.data-gap[data-fact-id="repository-charges"][data-status="missing"]:nth-child(3)):has(> p.data-gap[data-fact-id="resources-costing"][data-status="missing"]:nth-child(4):last-child) > p.data-gap { border: 0; padding: 0; margin: 0 0 .35em; background: transparent; }
+html body #q-required-resources > .answer:has(> p.data-gap[data-fact-id="specialist-expertise"][data-status="missing"]:first-child):has(> p.data-gap[data-fact-id="hardware-software"][data-status="missing"]:nth-child(2)):has(> p.data-gap[data-fact-id="repository-charges"][data-status="missing"]:nth-child(3)):has(> p.data-gap[data-fact-id="resources-costing"][data-status="missing"]:nth-child(4):last-child) > p.data-gap:last-child { margin-bottom: 0; }
+/* END empty-Q15 panel */
+html body .template-gap { font-size: 9.5pt; color: #526169; border-left-color: #8c999e; background: #f3f5f5; }
+/* Owned publication reading blocks: structure, not hidden list markers. */
+html body .dataset-section { margin: .6em 0 1em; }
+html body .dataset-section > h5 { font-size: 11pt; margin: .5em 0 .35em; }
+html body .distribution-section { margin: .35em 0 .65em; }
+html body .distribution-section + .distribution-section { border-top: 1px solid #cbd2d5; padding-top: .6em; }
+html body .license-entry { margin: .25em 0 .5em; }
+html body .license-entry + .license-entry { border-top: 1px dotted #cbd2d5; padding-top: .4em; }
+html body .storage-detail-limits li { margin-bottom: .25em; }
+/* BEGIN short Q5 context: bounded owned prose and its operational limitations. */
+@media print {
+html body #q-store-backup > .answer.q5-short-context { break-inside: avoid; }
+}
+/* END short Q5 context */
+/* Narrow reading units, not whole-question keep-together rules. */
+html body .short-reading-unit, html body .ethical-data-flags { break-inside: avoid; }
+/* Only provenanceReading marks bounded, simple tables; long answers stay free. */
+html body .short-table-unit { break-inside: avoid; }
+/* Q11 emits this hint only for <=3 bounded, inline-only repository summaries. */
+html body .short-repository-list { break-inside: avoid; }
+html body .repository-label { font-weight: bold; }
+/* Q13: one owned heading, then one contiguous identifier arrangement. */
+html body .identifier-heading { margin: .25em 0 .35em; break-after: avoid; }
+html body .identifier-heading > p { display: inline; margin: 0; }
+html body .identifier-heading > p::after { content: ' '; }
+html body .reading-gap { margin: .5em 0; }
+html body .reading-gap > p { margin-bottom: 0; }
+html body .answer-reference { font-size: 9.5pt; color: #526169; margin-top: .7em; }
+html body .data-gap[data-status="missing-output"] { border: none; border-left: 2px solid #b5bec1; background: #f5f6f6; color: #526169; font-size: 10pt; padding: .4em .65em; }
+.quantity { white-space: nowrap; }
+.date-value { white-space: nowrap; }
+/* Only fixed access / simple repository / standard licence facts join in Q10.
+   Restricted terms, complex repositories, missing answers and labels stay blocks. */
+.distribution-reading-unit > p:not(.data-gap):not(.answer-lead),
+.distribution-reading-unit > .joined-policy,
+.distribution-reading-unit .joined-policy > p,
+.distribution-reading-unit .joined-policy > .answer-lead,
+.distribution-reading-unit .joined-policy .license-summary,
+.distribution-reading-unit .joined-policy > .answer-lead > p { display: inline; margin: 0; }
+.distribution-reading-unit > p:not(.data-gap):not(.answer-lead)::after,
+.distribution-reading-unit .joined-policy p::after { content: " "; }
+/* BEGIN identifier CJK separator: fixed Q13 sentences only, not headings. */
+html[lang="zh-Hant"] body .identifier-arrangement.dataset-policy > p::after { content: none; }
+/* END identifier CJK separator */
+/* BEGIN archive gap pairs: print-only, adjacent fixed missing facts, two per panel. */
+@media print {
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*)))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*)))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*)))) { margin-bottom: 0; break-after: avoid; }
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*)))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*)))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*)))) > p.data-gap { border-bottom-width: 0; padding-bottom: .2em; }
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*))) { margin-top: 0; }
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*))) > p.data-gap { border-top-width: 0; padding-top: .2em; }
+}
+/* END archive gap pairs */
+    </style>
+  </head>
+  <body>
+    <article class="dmp">
+      <header class="document-heading">
+  <p class="document-kind">Data Management Plan</p><h1>Coastal observations: reproducible data management</h1>
+  <p class="document-meta">Document: Public mixed-budget QA / mixed-long-last</p>
+  <p class="document-meta">Generated on 2026-09-21</p>
+  
+  
+</header>
+      
+      <div id="dmp-projects">
+  <h2>Research overview</h2>
+
+  
+    <div class="project"><table class="project-details"><tbody>
+        <tr><th scope="row">Project Number</th><td>COAST-2026</td></tr>
+        <tr><th scope="row">Start date</th><td>2026-01-01</td></tr>
+        <tr><th scope="row">End date</th><td>2027-12-31</td></tr>
+        <tr><th scope="row">Funding</th><td>Funding information has not been provided.</td></tr>
+      </tbody></table>
+      <section class="abstract">
+        <p>Synthetic scenario for testing all fifteen output questions. New coastal temperature measurements will be compared with two open reference datasets. This is not an approved or complete DMP.</p>
+      </section></div>
+  
+</div>
+      <div id="dmp-contributors">
+  <h2>People and responsibilities</h2>
+
+  <ul>
+  
+    <li class="contributor">
+      <span class="name"><strong>Example research team</strong></span>
+        <br><span class="contact-email"><a href="mailto:research@example.org">research@example.org</a></span>
+        <br>Roles: <span class="role">Contact Person</span>, <span class="role">Creator of DMP</span>, <span class="role">Data Steward</span>
+    </li>
+  
+  </ul></div>
+      <aside class="document-provenance">
+  <p>Knowledge model: Common DSW Knowledge Model, 2.7.0 (dsw:root:2.7.0)</p>
+  <p>Generated with <a href="https://ds-wizard.org">Data Stewardship Wizard</a>.</p>
+</aside>
+      <div id="dmp-content">
+  <section id="sec-data-collection" class="dmp-section">
+    <h2>Section 1: Data description and collection or re-use of existing data</h2>
+    <div id="q-how-data" class="question" data-requirement-id="SE-1a">
+  <h3>1. How will new data be collected or produced and/or how will existing data be re-used?</h3>
+
+  <div class="answer"><h4>Instrument datasets</h4>
+      <ul><li data-item-id="b1df3c74-0b1f-4574-81c4-4cc2d780c1af.f87c331d-794a-42c8-a910-61a2a9110dab.e4ca2d31-137a-46d3-96cd-3e9e8c5e9a76.f5fef09d-ade5-4019-b089-f05bd89c34bc.cef98e0d-2780-5780-b4d1-b32fc5830517"><h5>Coastal temperature measurements</h5>
+            <p>For this dataset, we are using the following instruments:</p>
+              <ul><li><strong>Temperature logger</strong>
+                    <span class="separator">&ndash;</span>
+                    Record temperature every ten minutes; retain UTC timestamps and calibration records.
+                  </li></ul>
+
+
+
+  
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+    <p class="quality-summary" data-fact-id="quality-methods" data-status="complete">Quality control measures for <strong>Coastal temperature measurements</strong>: measurement calibration, data entry validation.</p>
+  
+  
+
+          </li></ul>
+    
+    
+      
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+      
+    
+      
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+      
+    
+    <div>
+      <h4>Re-used datasets</h4>
+      <ul class="dataset-list">
+      <li data-item-id="1f41fb97-54f7-53d1-9ae6-367f1a82d9b5"><h5>Open coastal observations — station 1</h5>
+
+            
+            <div data-fact-id="reuse-decision" data-status="complete">
+            
+              
+              <p class="dataset-source" data-fact-id="dataset-source" data-status="complete">Source: <a href="https://example.org/datasets/coastal-observations/station-1/version-2026">https://example.org/datasets/coastal-observations/station-1/version-2026</a></p>
+            
+            
+              <div class="answer-detail" data-fact-id="reuse-purpose" data-status="complete">
+                <p>Compare seasonal changes in water temperature.</p>
+<ul>
+<li>Retain the original timestamps.</li>
+<li>Document any excluded observations.</li>
+</ul>
+              </div>
+            
+
+            
+                <table class="dataset-version" data-fact-id="dataset-version" data-status="complete">
+                  <tbody><tr><th scope="row">Version</th><td><p>2026.1</p></td></tr></tbody>
+                </table>
+              
+              
+                <p>If a new version becomes available during the project, the current version will continue to be used.</p>
+              
+            
+              
+            
+            </div></li><li data-item-id="f3cb958d-101d-5605-b2ca-920fad70dd90"><h5>Open coastal observations — station 2</h5>
+
+            
+            <div data-fact-id="reuse-decision" data-status="complete">
+            
+              
+              <p class="dataset-source" data-fact-id="dataset-source" data-status="complete">Source: <a href="https://example.org/datasets/coastal-observations/station-2/version-2026">https://example.org/datasets/coastal-observations/station-2/version-2026</a></p>
+            
+            
+              <div class="answer-detail" data-fact-id="reuse-purpose" data-status="complete">
+                <p>Compare seasonal changes in water temperature.</p>
+<ul>
+<li>Retain the original timestamps.</li>
+<li>Document any excluded observations.</li>
+</ul>
+              </div>
+            
+
+            
+                <table class="dataset-version" data-fact-id="dataset-version" data-status="complete">
+                  <tbody><tr><th scope="row">Version</th><td><p>2026.1</p></td></tr></tbody>
+                </table>
+              
+              
+                <p>If a new version becomes available during the project, the current version will continue to be used.</p>
+              
+            
+              
+            
+            </div></li></ul>
+
+      
+      
+        <div class="shared-reference-policy">
+          <p><strong>Shared arrangements</strong></p>
+          <p>The following arrangements apply to all reference datasets selected for re-use above.</p>
+          
+            <div class="dataset-policy">
+            <p>We will retain a copy of this dataset and provide it alongside the research results.</p>
+
+            <p>This dataset is freely available with an obligation to cite the source.</p><p>The data can be used directly without format conversion.
+            
+            </p>
+            </div>
+
+          
+            
+        </div>
+      
+      <ul></ul>
+      </div>
+        <h4>Provenance</h4><div class="answer-detail" data-requirement-id="SE-1a" data-fact-id="provenance" data-status="complete">
+              <div class="short-table-unit"><p>Record source versions and processing scripts in the project repository.</p>
+<table>
+<thead>
+<tr>
+<th>Record</th>
+<th>Retention</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Processing log</td>
+<td>10 years</td>
+</tr>
+<tr>
+<td>Source checksum</td>
+<td>10 years</td>
+</tr>
+</tbody>
+</table></div>
+            </div></div>
+</div>
+    <div id="q-what-data" class="question">
+  <h3>2. What data (for example the kinds, formats, and volumes) will be collected or produced?</h3>
+  <div class="answer"><div>
+      <h4>Instrument datasets</h4><div class="collection-dataset" data-item-id="cef98e0d-2780-5780-b4d1-b32fc5830517">
+            
+              <p class="collection-summary">Data collection for <strong>Coastal temperature measurements</strong>: This dataset will be collected by experts in the project, with our own equipment. The equipment is very well described and known.</p>
+            
+            
+            
+            
+          </div></div><h4>Data formats and types</h4>
+    <div class="data-formats"><div class="format-description" data-item-id="eb0dd269-bbc6-5675-b516-f128d0edfc75">
+          <div class="dataset-policy format-summary">
+            
+              <p>Data format: <strong>CSV (UTF-8)</strong>.</p>
+            
+            
+              <p>It is a standardized format suitable for long-term archiving.</p>
+                <p>The estimated data volume is <span class="quantity">120&#160;GB</span>.</p></div>
+          
+          
+            
+            
+            
+            
+              
+            
+          
+        </div></div></div>
+</div>
+  </section>
+  
+  <section id="sec-docs-metadata" class="dmp-section">
+    <h2>Section 2: Documentation and data quality</h2>
+    <div id="q-docs-metadata" class="question">
+  <h3>3. What metadata and documentation (for example the methodology of data collection and way of organising data) will accompany the data?</h3>
+
+  <div class="answer">
+  
+  
+    
+
+    
+    <div class="dataset-policy metadata-policy"><p>We will be documenting the data with Dublin Core metadata standard.</p><div class="reading-gap"><p class="data-gap" data-fact-id="metadata-dictionary" data-status="missing">Information not provided: whether a data/variable dictionary will be created.</p></div><p>
+        Metadata will be openly available including instructions how to get access to the data.
+        Metadata will be available in a form that can be harvested and indexed (managed by the used repository / repositories).
+      </p></div>
+
+  
+      
+      <h4>Data storage and file conventions</h4>
+      
+      <div class="dataset-policy storage-conventions-policy">
+      <p>We estimate the storage space that the project will require for all data and software (including temporary storage) to be 2048 gigabytes.</p><p>We will use a filesystem with files and folders.</p>
+          <p>We document how we manage file versioning for files and folders.</p>
+          <div class="answer-detail" data-fact-id="file-naming"><div class="answer-lead"><p>File naming conventions:</p></div><p>Name files station_YYYYMMDD.csv and document corrections in CHANGELOG.md.</p></div></div>
+      
+      
+  
+  </div>
+</div>
+    <div id="q-quality-control" class="question" data-requirement-id="SE-2b">
+  <h3>4. What data quality control measures will be used?</h3>
+  <div class="answer">
+    
+    
+    
+    
+    
+      
+        
+        
+        <div class="quality-dataset" data-item-id="b1df3c74-0b1f-4574-81c4-4cc2d780c1af.f87c331d-794a-42c8-a910-61a2a9110dab.e4ca2d31-137a-46d3-96cd-3e9e8c5e9a76.f5fef09d-ade5-4019-b089-f05bd89c34bc.cef98e0d-2780-5780-b4d1-b32fc5830517">
+          
+
+
+
+  
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+    <p class="quality-summary" data-fact-id="quality-methods" data-status="complete">Quality control measures for <strong>Coastal temperature measurements</strong>: measurement calibration, data entry validation.</p>
+  
+  
+
+        </div>
+      
+    
+  </div>
+</div>
+  </section>
+
+  <section id="sec-storage-backup" class="dmp-section">
+    <h2>Section 3: Storage and backup during research process</h2>
+    <div id="q-store-backup" class="question" data-requirement-id="SE-3a">
+  <h3>5. How will data and metadata be stored and backed up during the research process?</h3>
+  <div class="answer">
+    <div class="workspace-policy dataset-policy"><p data-requirement-id="SE-3a" data-fact-id="working-storage-arrangement" data-status="complete">There is a shared workspace used during the project for working with data.</p>
+      
+      
+        <p data-fact-id="workspace-management" data-status="complete">Dedicated specialists will operate the shared workspace.</p>
+      <p data-requirement-id="SE-3a" data-fact-id="storage-capacity" data-status="complete">Storage needs will be the same during the whole project.</p>
+          <p data-requirement-id="SE-3a" data-fact-id="loss-prevention" data-status="complete">All essential data will also be stored elsewhere to prevent a total loss of data.</p>
+          <p data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="complete">We will make automated backups of all data stored outside the workspace.</p></div>
+    
+    
+    
+    
+    
+    
+      <h4>Archival during the project</h4>
+      <div class="archive-location-policy dataset-policy">
+      <p data-fact-id="during-project-archive" data-status="complete">Data will be archived in cold storage during the project.</p>
+      
+      
+      
+        <p data-fact-id="archive-medium" data-status="complete">The archive will be stored on tape.</p>
+      
+      
+      
+      
+        <p data-fact-id="archive-remote-location" data-status="complete">The archive will be stored at a remote location.</p>
+      
+      </div>
+      
+      
+      
+        <div class="archive-recovery-policy dataset-policy">
+        <p data-fact-id="archive-changes" data-status="complete">Changes to archived data will require re-archival.</p>
+        
+        
+        
+        
+          <p data-fact-id="archive-frequent-backup-need" data-status="complete">Frequent backups are required because the archived data changes frequently.</p>
+        
+        
+        
+          <p data-fact-id="archive-human-error-recovery" data-status="complete">These backups will be used to recover from accidental changes or deletions.</p>
+        
+        </div>
+      
+    
+    <div class="data-gap template-gap storage-detail-limits">
+    <p>The fields mapped by this template are insufficient to establish the following operational details:</p>
+      <ul>
+        <li data-requirement-id="SE-3a" data-fact-id="storage-location" data-status="partial">Exact working-storage and backup locations are not established by these mapped answers.</li>
+        <li data-requirement-id="SE-3a" data-fact-id="backup-frequency" data-status="partial">An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+    <div id="q-access-security" class="question">
+  <h3>6. How will data security and protection of sensitive data be taken care of during the research?</h3>
+
+  <div class="answer">
+  
+  
+    
+      <p>Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).
+          All project web services are accessible via secure HTTP (https://...).
+          Project members have been instructed about both generic and specific risks to the project.</p>
+  
+  
+  
+    <p class="answer-reference"><a href="#q-store-backup">See question 5 for archival and backup arrangements.</a></p>
+  
+  </div>
+</div>
+  </section>
+
+  <section id="sec-ethics-legal" class="dmp-section">
+    <h2>Section 4: Legal and ethical requirements, codes of conduct</h2>
+    <div id="q-personal-data" class="question">
+    <h3>7. If personal data are processed, how will compliance with legislation on personal data and on security be ensured?</h3>
+
+    <div class="answer">
+    
+    
+      <p>We will not collect any data related to individuals.</p>
+    
+    </div>
+</div>
+    <div id="q-copyright-ipr" class="question">
+  <h3>8. How will other legal issues, such as intellectual property rights and ownership, be managed? What legislation is applicable?
+</h3>
+
+  <div class="answer">
+    
+    
+      
+    <p>For the reference and non-reference data sets that we reuse, conditions are as follows:</p>
+        <ul><li><div>Open coastal observations — station 1</div>It is freely available with obligation to quote the source (e.g. CC-BY).</li><li><div>Open coastal observations — station 2</div>It is freely available with obligation to quote the source (e.g. CC-BY).</li></ul>
+    
+  </div>
+</div>
+    <div id="q-ethical-issues" class="question">
+  <h3>9. What ethical issues and codes of conduct are there, and how will they be taken into account?</h3>
+
+  <div class="answer">
+  
+  
+    
+
+    <h4>Ethical approvals</h4>
+      <p>The questionnaire records the following ethical approval arrangements:</p>
+      <ul><li class="ethical-project">
+          <strong>Coastal observations: reproducible data management</strong>
+          
+            <p>According to the questionnaire, this project does not require ethical approval.</p>
+          
+        </li></ul><h4>Data we produce</h4>
+      <p>For the data we produce, the ethical aspects are as follows:</p>
+      <ul><li>
+          <strong>Quality-checked coastal observations</strong><ul class="ethical-data-flags"><li>It does not contain personal data.</li><li>It does not contain sensitive data.</li></ul></li><li>
+          <strong>Internal instrument checks</strong><span> - <em>no information on personal nor sensitive data.</em></span></li></ul><h4>Data we collect</h4>
+        <p>We will not collect any data related to individuals, i.e. "personal data".</p>
+      <p>The data collection is not subject to ethical legislation.</p>
+      
+  
+  </div>
+</div>
+  </section>
+
+  <section id="sec-sharing-preservation" class="dmp-section">
+    <h2>Section 5: Data sharing and long-term preservation</h2>
+    <div id="q-share-restrictions" class="question">
+  <h3>10. How and when will data be shared? Are there possible restrictions to data sharing or embargo reasons?</h3>
+
+  <div class="answer">
+    
+    
+      
+    
+    <div class="dataset-section" data-item-id="37fb9b85-922d-51d5-9936-722cbb9bc74a">
+            <h5>Quality-checked coastal observations</h5>
+            
+                <div class="answer-lead"><p>This dataset will be published.</p></div>
+                
+                
+                <div class="distribution-section" data-item-id="7daa1605-0d04-5c7a-891f-75627a81b7c8">
+                        
+                        <div class="distribution-reading-unit short-reading-unit">
+                            <p class="answer-lead"><strong>Distribution 1</strong></p>
+                                <p data-fact-id="distribution-access" data-status="complete">Open access: this distribution will be shared with anyone.</p>
+                            <div class="repository-arrangement joined-policy">
+                            
+                                <p>This distribution will be deposited in an institutional repository.</p></div>
+                        <div class="license-entry joined-policy" data-item-id="70358daa-103f-5039-8da3-9401efb3f397">
+                                
+                                  <div class="answer-lead"><div class="license-summary dataset-policy">
+                                
+                                    
+                                    <p>Licence start date: <span class="date-value" data-iso-date="2027-12-31">2027-12-31</span>.</p>
+                                
+                                    <p>Freely available with obligation to quote the source (e.g. CC-BY).</p>
+                                </div></div>
+                                
+                                
+                                    </div></div>
+                        </div><div class="distribution-section" data-item-id="344f105d-428d-563e-a587-e185d3445cd2">
+                        
+                        <div class="distribution-reading-unit">
+                            <p class="answer-lead"><strong>Distribution 2</strong></p>
+                                <p data-fact-id="distribution-access" data-status="complete">Access will be limited to a predefined group of people.</p>
+                            <div class="repository-arrangement joined-policy">
+                            
+                                <p>This distribution will be deposited in a special-purpose repository for the project.</p>
+                            </div>
+                        <div class="license-entry" data-item-id="47ddfe09-c0aa-5607-99d8-b2f6e1f9e837">
+                                
+                                  <div class="answer-lead"><div class="license-summary dataset-policy">
+                                
+                                    
+                                    <p>Licence start date: <span class="date-value" data-iso-date="2027-06-01">2027-06-01</span>.</p>
+                                
+                                    <p>Access to this distribution is subject to restrictions.</p>
+                                
+                                </div></div>
+                                
+                                
+                                    
+                                    
+                                      <div class="answer-detail"><p>This preliminary release is limited to the project review group.</p>
+<ul>
+<li>Do not redistribute the preliminary files.</li>
+<li>Cite the release identifier in review notes.</li>
+</ul></div>
+                                    
+                                    <div class="restriction-process dataset-policy">
+                                    <p>Re-users will be able to get access by request to the contact person.</p>
+                                    <p>The conditions will be published as part of open metadata.</p>
+                                    
+                                    
+                                    <p>Restriction details: <a href="https://example.org/coast/review-terms" target="_blank">https://example.org/coast/review-terms</a>.</p>
+                                    
+                                    </div>
+                                </div></div>
+                        </div>
+            </div><div class="dataset-section" data-item-id="c14f2bcf-5bf9-582b-b0e5-4514f240ec83">
+            <h5>Internal instrument checks</h5>
+            
+                <p>This dataset will not be published.</p>
+            
+            </div>
+    
+  </div>
+</div>
+    <div id="q-data-preservation" class="question">
+  <h3>11. How will data for preservation be selected, and where will data be preserved long-term (for example a data repository or archive)?</h3>
+
+  <div class="answer">
+  
+  
+    
+    <div class="dataset-section" data-item-id="37fb9b85-922d-51d5-9936-722cbb9bc74a">
+          <h5>Quality-checked coastal observations</h5>
+          <div class="preservation-summary dataset-policy">
+          
+          
+
+
+  <div class="answer-detail" data-fact-id="preservation-dataset-description" data-status="complete"><p>Quality-checked coastal measurements with a station dictionary.</p>
+<p>Keep Selection-2027-12-31.csv alongside the processing record.</p></div>
+
+
+
+
+  <p data-fact-id="preservation-data-stage" data-status="complete">This dataset contains processed data leading to published results.</p>
+
+          
+            <p>This dataset will be published.</p>
+          
+            
+                <p>Retention period (prepaid): 10 years.</p>
+              
+              
+              
+              <p>The metadata will be available even when the data no longer exists.</p></div>
+          
+
+
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    
+    <div class="paper-reference" data-fact-id="preservation-related-paper" data-status="complete"><p><span class="paper-reference-label">Related paper:</span> <span class="paper-reference-value"><a href="https://example.org/papers/coast-study">https://example.org/papers/coast-study</a></span></p></div>
+  
+
+           
+          
+            
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+            
+            <div class="repository-destinations short-repository-list">
+              <div class="answer-lead"><p>Preservation destinations by distribution:</p></div>
+              <ul><li class="repository-distribution" data-item-id="7daa1605-0d04-5c7a-891f-75627a81b7c8">
+                  
+                  <span class="repository-label">Distribution 1:</span> 
+                    Our institutional repository.</li><li class="repository-distribution" data-item-id="344f105d-428d-563e-a587-e185d3445cd2">
+                  
+                  <span class="repository-label">Distribution 2:</span> 
+                    Special-purpose repository for the project.
+                    
+                      <span data-requirement-id="SE-5b" data-fact-id="repository-long-term-support" data-status="missing">Whether we will be able to support this repository for a sufficiently long time has not been specified.</span></li></ul>
+            </div></div><div class="dataset-section" data-item-id="c14f2bcf-5bf9-582b-b0e5-4514f240ec83">
+          <h5>Internal instrument checks</h5>
+          <div class="preservation-summary dataset-policy">
+          
+          
+
+
+  <div class="answer-detail" data-fact-id="preservation-dataset-description" data-status="complete"><p>Instrument test records retained for internal verification.</p></div>
+
+
+
+
+  <p data-fact-id="preservation-data-stage" data-status="complete">This dataset contains intermediate data.</p>
+
+          
+            <p>This dataset will not be published.</p>
+            
+
+
+
+  <div class="answer-lead"><p>Other reasons for not publishing this dataset:</p></div>
+  
+  
+    <div class="answer-detail" data-fact-id="nonpublication-reason" data-status="complete"><p>The instrument supplier restricts publication of test records.</p>
+<p>Internal verification copies will still be kept.</p>
+<ul>
+<li>Record the access decision.</li>
+<li>Retain the calibration context.</li>
+</ul></div>
+  
+
+          
+            
+                <p>Retention period (prepaid): 15 years.</p>
+              
+              
+              
+              <p>The metadata will be available even when the data no longer exists.</p></div>
+          
+
+
+           
+          </div>
+    
+    
+      
+        <h4>Repository costs and publication preparation</h4>
+      
+      
+    <div class="preservation-resources dataset-policy">
+    <p>We have budgeted for the costs in the project to pay charges of the used repositories.</p><p>We have a reserved budget for the time and effort it will take to prepare the data for publication.</p></div>
+    
+    
+    
+
+
+
+<div class="post-project-archive" data-scope="project">
+<h4>Project-wide cold storage after the project</h4>
+<div class="dataset-policy">
+
+  <p data-fact-id="post-project-archive" data-status="complete">The project will keep copies of its data in cold storage after it finishes.</p>
+  
+  
+  
+    <p data-fact-id="archive-payer" data-status="complete">Departmental budgets of one or more project participants will pay for this long-term storage.</p>
+  
+  
+  
+  
+  
+    
+  
+  
+    
+    <p data-fact-id="archive-minimum-period" data-status="complete">The archive will be kept for at least <span class="quantity">12&#160;years</span>.</p>
+  
+  
+  
+  
+    <p data-fact-id="archive-extension" data-status="complete">The archival period can be extended.</p>
+    
+    
+      <p data-fact-id="archive-extension-authority" data-status="complete">Library or archive staff will decide on an extension.</p>
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      
+      
+    
+    
+      <div class="archive-extension-basis-summary"><p>Basis for extending the archival period: <span data-fact-id="archive-extension-actual-use" data-status="complete">actual use of the archived data</span>, <span data-fact-id="archive-extension-predicted-use" data-status="complete">predicted use of the archived data</span>, <span data-fact-id="archive-extension-budget" data-status="complete">available budget</span>.</p></div>
+    
+    
+  
+  
+  
+    <p data-fact-id="archive-format-migration" data-status="complete">Obsolete data formats in cold storage will be upgraded.</p>
+  
+  
+  
+    <p data-fact-id="archive-media-migration" data-status="explicit-no">Archived data will not be migrated regularly to more modern storage media.</p>
+  
+
+</div>
+</div>
+
+  <div class="reading-gap"><p class="data-gap" data-requirement-id="SE-5b" data-fact-id="preservation-selection-review" data-status="needs-review">Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.</p></div>
+  </div>
+</div>
+    <div id="q-access-data" class="question">
+  <h3>12. What methods or software tools are needed to access and use data?</h3>
+
+  <div class="answer">
+    <div class="dataset-section" data-item-id="37fb9b85-922d-51d5-9936-722cbb9bc74a">
+            <h5>Quality-checked coastal observations</h5>
+            
+                <p>Software required to use this dataset:</p>
+                            <ul><li><strong>CoastView 1.0 (synthetic test tool)</strong><div>Available at: https://example.org/coastview/1.0</div></li></ul></div><div class="dataset-section" data-item-id="c14f2bcf-5bf9-582b-b0e5-4514f240ec83">
+            <h5>Internal instrument checks</h5>
+            <p>This dataset will not be published.</p></div></div>
+</div>
+    <div id="q-persistent-identifier" class="question">
+    <h3>13. How will the application of a unique and persistent identifier (such as a Digital Object Identifier (DOI)) to each data set be ensured?</h3>
+
+    <div class="answer">
+    <div class="dataset-section" data-item-id="37fb9b85-922d-51d5-9936-722cbb9bc74a">
+                <h5>Quality-checked coastal observations</h5>
+            
+                <div class="distribution-section" data-item-id="7daa1605-0d04-5c7a-891f-75627a81b7c8">
+                            <div class="identifier-heading">
+                            <p class="answer-lead"><strong>Distribution 1</strong></p>
+                            <p class="answer-lead"><strong>Institutional repository</strong></p>
+                            </div>
+
+                            
+                            <div class="identifier-followup-unit short-reading-unit">
+                            <div class="identifier-arrangement dataset-policy">
+                                <p data-fact-id="persistent-identifier" data-status="complete"><span data-requirement-id="SE-5d" data-fact-id="identifier-assigner" data-status="complete">The repository will assign the persistent identifier.</span></p><p data-requirement-id="SE-5d" data-fact-id="identifier-resolution" data-status="complete">The repository will make sure the persistent identifier can be resolved to a digital object.</p>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            </div></div><div class="distribution-section" data-item-id="344f105d-428d-563e-a587-e185d3445cd2">
+                            <div class="identifier-heading">
+                            <p class="answer-lead"><strong>Distribution 2</strong></p>
+                            <p class="answer-lead"><strong>Special-purpose repository</strong></p>
+                            </div>
+
+                            
+                            <div class="identifier-followup-unit short-reading-unit">
+                            <div class="identifier-arrangement dataset-policy">
+                                <p data-fact-id="persistent-identifier" data-status="complete"><span data-requirement-id="SE-5d" data-fact-id="identifier-assigner" data-status="complete">An institutional data steward will assign the persistent identifier.</span></p><p data-requirement-id="SE-5d" data-fact-id="identifier-resolution" data-status="complete">The repository will make sure the persistent identifier can be resolved to a digital object.</p>
+                            </div>
+                            
+                            
+                            
+                            
+                            
+                            </div></div></div><div class="dataset-section" data-item-id="c14f2bcf-5bf9-582b-b0e5-4514f240ec83">
+                <h5>Internal instrument checks</h5>
+            
+                <p>This dataset will not be published.</p>
+            </div><h4>Possible re-use of created data in other contexts</h4>
+        <ul><li>
+            <strong>Coastal temperature measurements</strong><p>Other researchers in this field will be interested in re-using this data.</p></li></ul></div>
+</div>
+  </section>
+  
+  <section id="sec-responsibilities-resources" class="dmp-section">
+    <h2>Section 6: Data management responsibilities and resources</h2>
+    <div id="q-dm-responsible" class="question">
+  <h3>14. Who (for example role, position, and institution) will be responsible for data management (i.e. the data steward)?</h3>
+
+  <div class="answer">
+    
+    
+      <div class="responsibilities-block short-reading-unit">
+      
+      
+      
+      
+      
+      
+      <p>Example research team is responsible for the management and proficiency of data including data processing, data policies, data guidelines, and data availability.
+          </p>
+      
+      
+      
+      
+      
+      <p>Example research team is responsible for implementing the DMP, and ensuring it is reviewed and revised.
+          </p></div>
+    
+  </div>
+</div>
+    <div id="q-required-resources" class="question" data-requirement-id="SE-6b">
+  <h3>15. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?</h3>
+
+  <div class="answer">
+    <div class="answer-lead"><p data-requirement-id="SE-6b" data-fact-id="specialist-expertise" data-status="complete">Additional specialist expertise is required. Existing staff will receive training.</p></div>
+      
+        <div class="answer-detail" data-fact-id="specialist-expertise-detail" data-status="complete">
+          <p>Staff will complete training before data publication.</p>
+<ul>
+<li>Metadata quality checks</li>
+<li>Version control and provenance</li>
+</ul>
+        </div>
+      <p data-requirement-id="SE-6b" data-fact-id="hardware-software" data-status="explicit-no">We do not require any hardware or software in addition to what is usually available in the institute. <span data-fact-id="repository-charges" data-status="complete">The selected repositories charge for their services.</span></p>
+    <h4>Data-management budget</h4><div class="project-resources" data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6">
+                <table class="resource-table"><colgroup><col class="resource-purpose"><col class="resource-budget"><col class="resource-funding"></colgroup><thead><tr><th scope="col">Resource and purpose</th><th scope="col">Budget</th><th scope="col">Funding source</th></tr></thead><tbody><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.83d5916b-e86c-59cd-8d87-bf9d5d0a802e"><td>
+                        <p><strong>Data preparation resource 1</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>Prepare metadata and validate deposit files.</p></div><p>
+                            This resource supports findability and management of data.
+                          </p></td><td><p>5000 TWD</p></td><td><div class="answer-detail"><p>Institutional research funds</p></div></td></tr><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.d61cc9fa-7412-51ea-9b69-64ecd5e15390"><td>
+                        <p><strong>Data preparation resource 2</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>Prepare metadata and validate deposit files.</p></div><p>
+                            This resource supports findability and management of data.
+                          </p></td><td><p>0 TWD</p></td><td><div class="answer-detail"><p>Institutional research funds</p></div></td></tr><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.fbd5d72d-180f-5839-92a0-9fe5ddad4d5b"><td>
+                        <p><strong>Budget resource 3</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>Prepare metadata and validate deposit files.</p></div><p>
+                            This resource supports findability and management of data.
+                          </p></td><td><p>300 TWD</p></td><td><div class="answer-detail"><p>Institutional research funds</p></div></td></tr><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.4681f248-343f-503d-9302-cd9a5f785115"><td>
+                        <p><strong>Budget resource 4</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>Prepare metadata and validate deposit files.</p></div><p>
+                            This resource supports findability and management of data.
+                          </p></td><td><p>400 TWD</p></td><td><div class="answer-detail"><p>Institutional research funds</p></div></td></tr><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.3646aabe-6fcf-5c6f-8913-6910bb2cb412"><td>
+                        <p><strong>Budget resource 5</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>Prepare metadata and validate deposit files.</p></div><p>
+                            This resource supports findability and management of data.
+                          </p></td><td><p>500 TWD</p></td><td><div class="answer-detail"><p>Institutional research funds</p></div></td></tr><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.ed9fa53a-a7c0-5f90-9378-e41cf670546e"><td>
+                        <p><strong>Budget resource 6</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>Prepare metadata and validate deposit files.</p></div><p>
+                            This resource supports findability and management of data.
+                          </p></td><td><p>600 TWD</p></td><td><div class="answer-detail"><p>Institutional research funds</p></div></td></tr><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.1d3b254a-44ef-54e1-9613-2bf65730aea4"><td>
+                        <p><strong>Budget resource 7</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>Prepare metadata and validate deposit files.</p></div><p>
+                            This resource supports findability and management of data.
+                          </p></td><td><p>700 TWD</p></td><td><div class="answer-detail"><p>Institutional research funds</p></div></td></tr><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9a90c637-0f12-540d-970f-8e607ad0f97e"><td>
+                        <p><strong>Budget resource 8</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>Prepare metadata and validate deposit files.</p></div><p>
+                            This resource supports findability and management of data.
+                          </p></td><td><p>800 TWD</p></td><td><div class="answer-detail"><p>Institutional research funds</p></div></td></tr></tbody></table><table class="resource-table pdf-resource-reading" data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.2ff7d9fd-9153-58b2-8566-e73e80e281a6.353eeaca-45fa-4958-a33c-ec6de3075701.9bebdb33-4c9a-5c0c-bd19-a3e4762433ee"><colgroup><col class="resource-purpose"><col class="resource-budget"><col class="resource-funding"></colgroup><thead><tr><th scope="col">Resource and purpose</th><th scope="col">Budget</th><th scope="col">Funding source</th></tr><tr><td><p><strong>Extended resource 9</strong></p></td><td><p>900 TWD</p></td><td><div class="answer-detail"><p>Institutional research funds</p></div></td></tr></thead><tbody><tr><td colspan="3"><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>Prepare metadata and validate deposit files.</p>
+<p>MIX-LONG-09-PARA-01: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-02: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-03: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-04: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-05: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-06: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-07: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-08: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-09: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-10: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-11: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-12: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-13: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-14: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-15: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-16: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-17: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-18: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-19: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-20: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-21: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-22: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-23: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-24: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-25: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-26: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-27: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-28: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-29: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-30: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-31: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-32: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-33: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-34: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-35: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-36: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-37: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-38: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-39: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-40: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-41: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-42: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-43: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-44: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-45: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-46: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-47: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-48: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-49: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-50: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-51: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-52: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-53: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-54: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-55: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-56: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-57: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-58: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-59: Retain the original resource justification and its audit trail.</p>
+<p>MIX-LONG-09-PARA-60: Retain the original resource justification and its audit trail.</p>
+<ul>
+<li>Preserve Budget-2027-12-31.csv.</li>
+<li>Keep the <a href="https://example.org/budget/record">funding record</a>.</li>
+</ul></div><p>
+                            This resource supports findability and management of data.
+                          </p></td></tr></tbody></table></div></div>
+</div>
+  </section>
+</div>
+    </article>
+  </body>
+</html>

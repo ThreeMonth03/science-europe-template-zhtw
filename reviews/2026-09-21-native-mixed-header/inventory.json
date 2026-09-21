@@ -1,0 +1,19 @@
+{
+  "prototype_only": true,
+  "source_template_version": "0.3.42",
+  "source_repo_modified": false,
+  "translation_modified": false,
+  "version_modified": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "native_pairs": 8,
+  "native_format_artifacts": 48,
+  "word_previews": 16,
+  "captured_pdf_entry_inputs": 16,
+  "captured_baseline_replay_exact": true,
+  "page_increase_cases": [
+    "mixed-long-last-review-chinese"
+  ],
+  "full_control_matrix_complete": false,
+  "collector_sha256": "ba1a7c71fbad1ef5b785cf706522c0146b9856458e783427724117e69e973de1"
+}
