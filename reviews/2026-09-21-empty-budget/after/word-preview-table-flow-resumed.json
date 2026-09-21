@@ -1,0 +1,82 @@
+{
+  "completed": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "resumed_from": "word-preview-ethics-long-review-ethics-long-submission-ethics-missing-review-ethics-missing-submission-ethics-answered-review-ethics-answered-submission.json",
+  "resumed_receipt_sha256": "56b31ed4dd2d038c39255c6279ba712168663f3ca4a6991509570422464edd04",
+  "checker_sha256": "fc8e96e88206dd78762a0f3ed30c3754b4f35009bbf8eabf9316bf778ef26352",
+  "rows": [
+    {
+      "name": "ethics-missing-review-english",
+      "docx_sha256": "32534aba9a702f0af40ccdd3952d2799ecb7e4118e57aed4a88aa65946a01422",
+      "preview_sha256": "80afa13d06feaeaf630df187610ae5b98cac0a613746ed2f2dccd5680e346fd5",
+      "reused": true
+    },
+    {
+      "name": "ethics-missing-review-chinese",
+      "docx_sha256": "db2b2f2570218b14b14f7905ceb3f8d63eca07c20eeb3d9c0249654fde596e38",
+      "preview_sha256": "4a857b5f5450980514e2c59d3f016843465d24c7d28337a98961001944d74943",
+      "reused": false
+    },
+    {
+      "name": "ethics-missing-submission-english",
+      "docx_sha256": "1e303209741ebcbf0a0c77092ffef67ed587cb12d739b9429391331e44bca4b2",
+      "preview_sha256": "02424955dd3b33a69fad884d85efbe4bbea0f0f1a2c74343ba37046152c0c25d",
+      "reused": false
+    },
+    {
+      "name": "ethics-missing-submission-chinese",
+      "docx_sha256": "95ce5a22f5a9d2162dec1c11e18eb01b95ad63e991ceb1f90c4ede4f1e936a72",
+      "preview_sha256": "29885895c38b66c7fde9f496b6599521ffba714a1653ba552a1aaa3511638bc8",
+      "reused": false
+    },
+    {
+      "name": "ethics-answered-review-english",
+      "docx_sha256": "3c291e1291f50bc9e3c1bbe16a6fd5a8b384535e4a7f3145f13e3d7a16f09cad",
+      "preview_sha256": "caf13218ecebdd18384a1a6d4ceea63aa9e547e2fce30217a5c4788326d4b861",
+      "reused": false
+    },
+    {
+      "name": "ethics-answered-review-chinese",
+      "docx_sha256": "fa3920711daf691bf9bc316b2ce37d80cda09f1c66f3894ba97749a48cb7f179",
+      "preview_sha256": "c393bf67a19214ee1df3527bf1caa8d3bb2d5c15270ea167fbed356c24be23b9",
+      "reused": false
+    },
+    {
+      "name": "ethics-answered-submission-english",
+      "docx_sha256": "5a81bd8898631bc3460eb0b6b4c5d4fe88685db79355313f4538c1b5b4340c30",
+      "preview_sha256": "4ac42f1003d835ab68f9cb09168cfc53331cf401bbf894ef232b00c3f67a8b87",
+      "reused": false
+    },
+    {
+      "name": "ethics-answered-submission-chinese",
+      "docx_sha256": "7b333122a5d5cad2bc5ea52a1d8b5c7052ad6f8889747b53d6f0d5847fa9f61e",
+      "preview_sha256": "3b25a66353a48ec6646b0209529a300b7024fc5fd9496977acd0fafd02151017",
+      "reused": false
+    },
+    {
+      "name": "ethics-long-review-english",
+      "docx_sha256": "6034c2ffde8909de0897fd07881ce40bb031755d8e57834b6735a6f99b28e3b5",
+      "preview_sha256": "cd5fe600df45fd2cbb3c26eb0bb162995d1b5b0994dc6430d8dba016d1d59118",
+      "reused": true
+    },
+    {
+      "name": "ethics-long-review-chinese",
+      "docx_sha256": "28911b7b548f32c912245012c9f2660a5a44bf5849f817d3a127db0aa3a477b4",
+      "preview_sha256": "1281338f6a3cea35e54d04a89837ea142f347d6b3c2c0d285d47d19d2a482055",
+      "reused": true
+    },
+    {
+      "name": "ethics-long-submission-english",
+      "docx_sha256": "548f66db9feabecb133a59a2f5aeece3b01f1a242b5ea1dd4d1c1f555dd88951",
+      "preview_sha256": "bdb79a37306871a068ad3d39da300475ba7a7ce9ae1793e1c7b8c602568d7fb2",
+      "reused": true
+    },
+    {
+      "name": "ethics-long-submission-chinese",
+      "docx_sha256": "204019e9e10022b9e5aa366d1d918cc336e0b4f86d7341d7618117c27d4816cc",
+      "preview_sha256": "777a6cf8f47f310353dbf1490ca77fd93236d14e30670d333d16d69370cd64c5",
+      "reused": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "baseline_version": "0.3.44",
+  "parent_prototype": "2026-09-21-ethics-lead",
+  "parent_seal_sha256": "9015bf798a4fb25db040d2abf713ed497f8ffa4184a0896ea422eafc7947d4ef",
+  "source_integrated": false,
+  "source_integration_allowed": false,
+  "translation_tree_modified": false,
+  "prototype_only": true,
+  "changed_jinja_files": 1,
+  "source_edit_count": 3,
+  "structural_checks": 816,
+  "native_pairs": 12,
+  "new_native_artifacts": 36,
+  "reused_native_artifacts": 36,
+  "new_word_previews": 12,
+  "reused_word_previews": 12,
+  "unchanged_native_review_controls": 6,
+  "word_diagnostic_variants": 20,
+  "word_diagnostic_not_native_fix": true,
+  "pdf_tail_page_regression_resolved": true,
+  "deleted_owned_local_templates_this_run": 2,
+  "storage_allowance_restored": true,
+  "production_touched": false,
+  "visual_gate_passed": false,
+  "visual_blockers": [
+    {
+      "case": "ethics-long",
+      "language": "chinese",
+      "profile": "review",
+      "engine": "word_preview",
+      "issue": "header-only-table-continuation",
+      "preexisting": true
+    }
+  ],
+  "full_visual_acceptance": false,
+  "global_switch_complete": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "collector_sha256": "238210fd141b070a25cb224df5035f98bca14ce8062e8f3988a72bf08f4a1c71"
+}

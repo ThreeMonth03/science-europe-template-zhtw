@@ -1,0 +1,31 @@
+{
+  "scope": "Only this finished synthetic local run; no other template or volume",
+  "run_completed_successfully": true,
+  "failed_run_explicitly_acknowledged": false,
+  "project_references": 0,
+  "document_references": 0,
+  "backups": {
+    "english.zip": {
+      "path": "/home/trc/Downloads/science-europe-template-zhtw/outputs/table-flow-budget-after-1/english.zip",
+      "sha256": "c18182ced81ed41b821424e0763b6b98f586d77c54ab29cde3e0a2b86fe7adc9"
+    },
+    "chinese.zip": {
+      "path": "/home/trc/Downloads/science-europe-template-zhtw/outputs/table-flow-budget-after-1/chinese.zip",
+      "sha256": "12b7c387ca4c6675e20f5c6a76339a4924f2f512d02e8f27111e84efa816a043"
+    }
+  },
+  "deleted": [
+    {
+      "uuid": "0936ec31-91cc-46f3-9351-bfa21b3c3c56",
+      "templateId": "science-europe-enhanced-local-419dd3df9dcb",
+      "version": "0.3.44",
+      "status_code": 204
+    },
+    {
+      "uuid": "1a11b36a-cf3f-4b05-bdaf-73e040c1f3ec",
+      "templateId": "science-europe-enhanced-zhtw-local-20173659e07c",
+      "version": "0.3.44",
+      "status_code": 204
+    }
+  ]
+}

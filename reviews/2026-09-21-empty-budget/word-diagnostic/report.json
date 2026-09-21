@@ -1,0 +1,542 @@
+{
+  "diagnostic_only": true,
+  "native_checked": false,
+  "release_acceptance": false,
+  "script_sha256": "02023b991715234c2a99733e4a1b54fd963ae00adc302f990651746aa83ac4e5",
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "rows": [
+    {
+      "language": "chinese",
+      "profile": "review",
+      "mode": "baseline",
+      "positions": {
+        "Item": [
+          7,
+          8
+        ],
+        "Value": [
+          7,
+          8
+        ],
+        "Retained.": [
+          7
+        ],
+        "LIST-B:": [
+          7
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          8
+        ]
+      },
+      "pages": 10,
+      "source_sha256": "631a21f9e61a80e2dffbf3bb358e2c7558d3f371d9586837f293b0d68a3532f8",
+      "docx_sha256": "5a48ae6601ec66bcabf32e8d54f55ebd9453e498b38059f3ac44f8bb3d754d0e",
+      "pdf_sha256": "ce3e842eda6c5f36fe8b50b9708b47ae36e5879705c520bae981e5ef52be0b64"
+    },
+    {
+      "language": "chinese",
+      "profile": "review",
+      "mode": "keep-nonfinal",
+      "positions": {
+        "Item": [
+          7,
+          8
+        ],
+        "Value": [
+          7,
+          8
+        ],
+        "Retained.": [
+          7
+        ],
+        "LIST-B:": [
+          7
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          8
+        ]
+      },
+      "pages": 10,
+      "source_sha256": "631a21f9e61a80e2dffbf3bb358e2c7558d3f371d9586837f293b0d68a3532f8",
+      "docx_sha256": "5ae482df594838a413edb50e84c61833703bef4154c79ff8619cc2c8efa98f5b",
+      "pdf_sha256": "8df1b7de221f65be413dc801485d51b728266eff9df08e95afa99289c0d99284"
+    },
+    {
+      "language": "chinese",
+      "profile": "review",
+      "mode": "cant-split",
+      "positions": {
+        "Item": [
+          7,
+          8
+        ],
+        "Value": [
+          7,
+          8
+        ],
+        "Retained.": [
+          8
+        ],
+        "LIST-B:": [
+          7
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          8
+        ]
+      },
+      "pages": 10,
+      "source_sha256": "631a21f9e61a80e2dffbf3bb358e2c7558d3f371d9586837f293b0d68a3532f8",
+      "docx_sha256": "150c3aa7961a39b8caaf05d2709c7b27fde8e790c77529a1cbf93c790fc99d9a",
+      "pdf_sha256": "7f94a0b258e465758ed471726cc0a0a6ee812bb951d9e4f16501fca3d6d55f14"
+    },
+    {
+      "language": "chinese",
+      "profile": "review",
+      "mode": "both",
+      "positions": {
+        "Item": [
+          8
+        ],
+        "Value": [
+          8
+        ],
+        "Retained.": [
+          8
+        ],
+        "LIST-B:": [
+          7
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          8
+        ]
+      },
+      "pages": 10,
+      "source_sha256": "631a21f9e61a80e2dffbf3bb358e2c7558d3f371d9586837f293b0d68a3532f8",
+      "docx_sha256": "47271f85c680e8241b1c8c9ba2d0a565128cb312e9f60a8f132ac42a354a523a",
+      "pdf_sha256": "3a2b5c09944f0a1157f87c18346cd4680228e17a95717edb5a4c8ce875b7c554"
+    },
+    {
+      "language": "chinese",
+      "profile": "review",
+      "mode": "style-both",
+      "positions": {
+        "Item": [
+          7,
+          8
+        ],
+        "Value": [
+          7,
+          8
+        ],
+        "Retained.": [
+          7
+        ],
+        "LIST-B:": [
+          7
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          8
+        ]
+      },
+      "pages": 10,
+      "source_sha256": "631a21f9e61a80e2dffbf3bb358e2c7558d3f371d9586837f293b0d68a3532f8",
+      "docx_sha256": "58a223acd39f541f864b7b7cad48db126cd120cefc1eb199017cdec4e968335b",
+      "pdf_sha256": "60f457d389ced7841ea5a190bef31cf463e908189d661b65dbc14328c5a98df0"
+    },
+    {
+      "language": "chinese",
+      "profile": "submission",
+      "mode": "baseline",
+      "positions": {
+        "Item": [
+          6
+        ],
+        "Value": [
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          6
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "bf86c07b424ac84fb01cbc8e94d8c46713498138c7f889cccaf56deb163b6d33",
+      "docx_sha256": "a3bcda5479685964f2f96dd9e388e15a1a2ead43a76a3fff3d12852eae6438e6",
+      "pdf_sha256": "72c15ad4444fee99f19df17ed0846462de3030db573e54f8b5238f6a56a52d3c"
+    },
+    {
+      "language": "chinese",
+      "profile": "submission",
+      "mode": "keep-nonfinal",
+      "positions": {
+        "Item": [
+          6
+        ],
+        "Value": [
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          6
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "bf86c07b424ac84fb01cbc8e94d8c46713498138c7f889cccaf56deb163b6d33",
+      "docx_sha256": "76575af92eaba5ef56963f1db95c385cd932d8a98690a308f58c61265241e2ca",
+      "pdf_sha256": "3b3ba0d67aaf98ab78ee3229f6c2aaed7b5da4bfc31325a601407e127d1309e7"
+    },
+    {
+      "language": "chinese",
+      "profile": "submission",
+      "mode": "cant-split",
+      "positions": {
+        "Item": [
+          6
+        ],
+        "Value": [
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          6
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "bf86c07b424ac84fb01cbc8e94d8c46713498138c7f889cccaf56deb163b6d33",
+      "docx_sha256": "fd63c53c50bd6f703467a97905dbfbe30e10c987d9eb1bd882200c4c98066bfd",
+      "pdf_sha256": "bb0081dc47c8a026ac35ccdce6b606372fdbaadeaf6b1b87028412431ff5e552"
+    },
+    {
+      "language": "chinese",
+      "profile": "submission",
+      "mode": "both",
+      "positions": {
+        "Item": [
+          6
+        ],
+        "Value": [
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          6
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "bf86c07b424ac84fb01cbc8e94d8c46713498138c7f889cccaf56deb163b6d33",
+      "docx_sha256": "7153380611e8e4022377f5532ce690c393cfcc874e5562d1a82dc1cc68df14f0",
+      "pdf_sha256": "51c9ec3f232d62fd31057b9372ce4cdb9cc499d64b4c772c10e028264dd285a6"
+    },
+    {
+      "language": "chinese",
+      "profile": "submission",
+      "mode": "style-both",
+      "positions": {
+        "Item": [
+          6
+        ],
+        "Value": [
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          6
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "bf86c07b424ac84fb01cbc8e94d8c46713498138c7f889cccaf56deb163b6d33",
+      "docx_sha256": "6411f5512e4faa0b24ee7e432f8ee1393edbe26d4fcfea7f70cfc03ca6f82f47",
+      "pdf_sha256": "3a09c303045ada33bdb943d531eac917922b5ebabc4a67f447370224a745d352"
+    },
+    {
+      "language": "english",
+      "profile": "review",
+      "mode": "baseline",
+      "positions": {
+        "Item": [
+          5,
+          6
+        ],
+        "Value": [
+          5,
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "62713e2c516a305ab09eb4393d930787a366da9151803c84a6c6af58830807f3",
+      "docx_sha256": "ee21252f0ed3b047ae4eab346f24da50fac7f52b0b8958ec14e14fdd42720e21",
+      "pdf_sha256": "6b5f8d526b7e20bc1642907a83ce905f383990d461e451d5090a7480029a0767"
+    },
+    {
+      "language": "english",
+      "profile": "review",
+      "mode": "keep-nonfinal",
+      "positions": {
+        "Item": [
+          6
+        ],
+        "Value": [
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "62713e2c516a305ab09eb4393d930787a366da9151803c84a6c6af58830807f3",
+      "docx_sha256": "12e5e64244cbe4cf1c7da0b5bbec314cd3f40f773dfdd42fa43df51813f1c6ea",
+      "pdf_sha256": "81c51bc6008499e6d0b1b69973410fcd6917b5fb1c18e46ccce80dcb6858d353"
+    },
+    {
+      "language": "english",
+      "profile": "review",
+      "mode": "cant-split",
+      "positions": {
+        "Item": [
+          5,
+          6
+        ],
+        "Value": [
+          5,
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "62713e2c516a305ab09eb4393d930787a366da9151803c84a6c6af58830807f3",
+      "docx_sha256": "c53d5981b062f63a98b74ef134c7b3078249a087dd8a807a39ce50fd1c730135",
+      "pdf_sha256": "1eb0e3466012cb44b4f98e6d5bc83708ff0a0a34227941dcc2dcb8048a635e7f"
+    },
+    {
+      "language": "english",
+      "profile": "review",
+      "mode": "both",
+      "positions": {
+        "Item": [
+          6
+        ],
+        "Value": [
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "62713e2c516a305ab09eb4393d930787a366da9151803c84a6c6af58830807f3",
+      "docx_sha256": "88a3ddca42c4b553ff664326d94d6f111a5f386db632e3ba8b44c6bc0849dadc",
+      "pdf_sha256": "871b9001c2ea03fefc6234514238c89a176f33ec2c2846f827b8cc2c274224fe"
+    },
+    {
+      "language": "english",
+      "profile": "review",
+      "mode": "style-both",
+      "positions": {
+        "Item": [
+          6
+        ],
+        "Value": [
+          6
+        ],
+        "Retained.": [
+          6
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          6
+        ]
+      },
+      "pages": 8,
+      "source_sha256": "62713e2c516a305ab09eb4393d930787a366da9151803c84a6c6af58830807f3",
+      "docx_sha256": "1bfd7fc3dbe56c82cd0532db2c6902d0ed28b9583ca538bd488710b94664271a",
+      "pdf_sha256": "608149544cc2fb86507bfa865e57925c3aeacd4bfea3b941c78a5ee061eae8c4"
+    },
+    {
+      "language": "english",
+      "profile": "submission",
+      "mode": "baseline",
+      "positions": {
+        "Item": [
+          5
+        ],
+        "Value": [
+          5
+        ],
+        "Retained.": [
+          5
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          5
+        ]
+      },
+      "pages": 7,
+      "source_sha256": "905f01b9f287ab1784581d13bfac2c057e5cf729658eff85e1c2b660dc06da9f",
+      "docx_sha256": "8373d6ae939e0757e5a082a0a0dbea511ea3e0610c4b82ab115b32e977784530",
+      "pdf_sha256": "32881a3693b6a744b4ec23becd19f3c8744ffb87affd98d7e789f23fbce0ad29"
+    },
+    {
+      "language": "english",
+      "profile": "submission",
+      "mode": "keep-nonfinal",
+      "positions": {
+        "Item": [
+          5
+        ],
+        "Value": [
+          5
+        ],
+        "Retained.": [
+          5
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          5
+        ]
+      },
+      "pages": 7,
+      "source_sha256": "905f01b9f287ab1784581d13bfac2c057e5cf729658eff85e1c2b660dc06da9f",
+      "docx_sha256": "c85d5c40603a1d6b8f45dc101cbaecd6703e6689b678ff677cda5ec05d5ae648",
+      "pdf_sha256": "c75a651be7aa0e7ac3f32f720a168adef9f3235e9ed148389b7cb01a0700d365"
+    },
+    {
+      "language": "english",
+      "profile": "submission",
+      "mode": "cant-split",
+      "positions": {
+        "Item": [
+          5
+        ],
+        "Value": [
+          5
+        ],
+        "Retained.": [
+          5
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          5
+        ]
+      },
+      "pages": 7,
+      "source_sha256": "905f01b9f287ab1784581d13bfac2c057e5cf729658eff85e1c2b660dc06da9f",
+      "docx_sha256": "c55f5b06814aa17570a019927d6edd2faa3259316f73fed34cd3f056bcd9e98f",
+      "pdf_sha256": "7260e8883383679167ad56a726665efc6e8db6a6d46871ea0cf3f2fd0de933dd"
+    },
+    {
+      "language": "english",
+      "profile": "submission",
+      "mode": "both",
+      "positions": {
+        "Item": [
+          5
+        ],
+        "Value": [
+          5
+        ],
+        "Retained.": [
+          5
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          5
+        ]
+      },
+      "pages": 7,
+      "source_sha256": "905f01b9f287ab1784581d13bfac2c057e5cf729658eff85e1c2b660dc06da9f",
+      "docx_sha256": "dba4097efea0e4d67bf4edeff434daf93f48f35daee2346e58eaa5d659c6771b",
+      "pdf_sha256": "cf02eb888c70a62f1cf5533cbea4f63fbc896e6f3f96606b17e277507592f53e"
+    },
+    {
+      "language": "english",
+      "profile": "submission",
+      "mode": "style-both",
+      "positions": {
+        "Item": [
+          5
+        ],
+        "Value": [
+          5
+        ],
+        "Retained.": [
+          5
+        ],
+        "LIST-B:": [
+          5
+        ],
+        "FINAL-AUTHORED-PARAGRAPH:": [
+          5
+        ]
+      },
+      "pages": 7,
+      "source_sha256": "905f01b9f287ab1784581d13bfac2c057e5cf729658eff85e1c2b660dc06da9f",
+      "docx_sha256": "ebd206820abd4211327d5bfdf2bed2f77edf54c568407513190eba6c0fa193c3",
+      "pdf_sha256": "2c93da51f3384e7f76a8ca7ba6743c844647e37540b4389e0258ec75722672c9"
+    }
+  ],
+  "completed": true
+}

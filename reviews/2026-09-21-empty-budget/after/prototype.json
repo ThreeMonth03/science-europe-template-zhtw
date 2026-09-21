@@ -1,0 +1,119 @@
+{
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "observed_worker_sources": {
+    "dsw.document_worker.model.utils": "bc8d1d61f42265b8e7219c34f9fd6b4d4b3ad988297018b67545d2a7ba731c19",
+    "weasyprint.text.fonts": "3f6662edc1f0a11e1666c39f9b72a2d2543769162ee985b216c2afbddd0312a1",
+    "weasyprint.text.ffi": "d7784b995d7d4624eca4a1e76bf46564c6abe82a53207c0f0cf48657516684d7"
+  },
+  "recipe_sha256": "271c68ab502615f4862cb056e7fb7becb57519fbb7b9f6c03884f43dd755dce8",
+  "packages": {
+    "english.zip": {
+      "baseline_sha256": "b4ea563be65afed7668c31c58ea0242f4e3fb1eb222821c0cdf20e2083e4dd33",
+      "sha256": "c18182ced81ed41b821424e0763b6b98f586d77c54ab29cde3e0a2b86fe7adc9",
+      "operations": {
+        "src/questions/15-required-resources.html.j2": [
+          {
+            "start": 6874,
+            "end": 6905,
+            "before": "<h4>Data-management budget</h4>",
+            "after": "{%- set visibleBudget = namespace(any=false) -%}{%- for budgetProject in projectItems -%}{%- if repliesMap[[projectPath, budgetProject, uuids.costQUuid]|reply_path]|reply_items -%}{%- set visibleBudget.any = true -%}{%- endif -%}{%- endfor -%}{% if output_profile|default('review') != 'submission' or visibleBudget.any %}<h4>Data-management budget</h4>{% endif %}",
+            "kind": "omit-heading-without-cost-items"
+          },
+          {
+            "start": 7415,
+            "end": 7479,
+            "before": "<div class=\"project-resources\" data-item-id=\"{{ projectItem }}\">",
+            "after": "{% if output_profile|default('review') != 'submission' or repliesMap[[projectItem, uuids.costQUuid]|reply_path]|reply_items %}<div class=\"project-resources\" data-item-id=\"{{ projectItem }}\">",
+            "kind": "guard-empty-project-budget"
+          },
+          {
+            "start": 18972,
+            "end": 18978,
+            "before": "</div>",
+            "after": "</div>{% endif %}",
+            "kind": "close-empty-project-budget-guard"
+          }
+        ]
+      },
+      "members": {
+        "template/assets/src/fonts/PilotTC.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/word/pilot.lua": {
+          "before": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+          "after": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547"
+        },
+        "template/assets/src/word/preservation-reading.lua": {
+          "before": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+          "after": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71"
+        },
+        "template/assets/src/word/reference.docx": {
+          "before": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d",
+          "after": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d"
+        },
+        "template/template.json": {
+          "before": "a89b0ca7f2d468b7947fa825728f70c88c869e20343a60a0d3a503b7da383b99",
+          "after": "a212301bb480026efa8b2685da31eb4fd3c20c108dc26ce9417f707cf330c43b"
+        }
+      }
+    },
+    "chinese.zip": {
+      "baseline_sha256": "df055508c254349e2f94964588edb2d8590676d7f5e271ee970cadc7f4389528",
+      "sha256": "12b7c387ca4c6675e20f5c6a76339a4924f2f512d02e8f27111e84efa816a043",
+      "operations": {
+        "src/questions/15-required-resources.html.j2": [
+          {
+            "start": 7072,
+            "end": 7087,
+            "before": "<h4>資料管理預算</h4>",
+            "after": "{%- set visibleBudget = namespace(any=false) -%}{%- for budgetProject in projectItems -%}{%- if repliesMap[[projectPath, budgetProject, uuids.costQUuid]|reply_path]|reply_items -%}{%- set visibleBudget.any = true -%}{%- endif -%}{%- endfor -%}{% if output_profile|default('review') != 'submission' or visibleBudget.any %}<h4>資料管理預算</h4>{% endif %}",
+            "kind": "omit-heading-without-cost-items"
+          },
+          {
+            "start": 7622,
+            "end": 7686,
+            "before": "<div class=\"project-resources\" data-item-id=\"{{ projectItem }}\">",
+            "after": "{% if output_profile|default('review') != 'submission' or repliesMap[[projectItem, uuids.costQUuid]|reply_path]|reply_items %}<div class=\"project-resources\" data-item-id=\"{{ projectItem }}\">",
+            "kind": "guard-empty-project-budget"
+          },
+          {
+            "start": 29134,
+            "end": 29140,
+            "before": "</div>",
+            "after": "</div>{% endif %}",
+            "kind": "close-empty-project-budget-guard"
+          }
+        ]
+      },
+      "members": {
+        "template/assets/src/fonts/NotoSansTC-Variable.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/fonts/PilotTC.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/word/pilot.lua": {
+          "before": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+          "after": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547"
+        },
+        "template/assets/src/word/preservation-reading.lua": {
+          "before": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+          "after": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71"
+        },
+        "template/assets/src/word/reference.docx": {
+          "before": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae",
+          "after": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae"
+        },
+        "template/template.json": {
+          "before": "1d5baa6883665cddcc989731fbf36734dd5585d61d0ff5eaffcb940c90eb6960",
+          "after": "dcf90220a267d5ff9c270ebdaa30fb8fec57bc8562c483513545e9c0b6fc747a"
+        }
+      }
+    }
+  }
+}
