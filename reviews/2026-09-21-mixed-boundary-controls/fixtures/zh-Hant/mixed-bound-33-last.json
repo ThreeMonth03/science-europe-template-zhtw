@@ -1,0 +1,8 @@
+{
+  "name": "Public position and boundary QA / mixed-bound-33-last",
+  "events_file": "mixed-bound-33-last.events.json",
+  "knowledge_model_package_id": "../knowledge-models/root-zh-hant-2.7.0.km",
+  "question_tag_uuids": [],
+  "visibility": "PrivateProjectVisibility",
+  "sharing": "RestrictedProjectSharing"
+}

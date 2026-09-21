@@ -1,0 +1,80 @@
+{
+  "public_synthetic": true,
+  "source_repo_modified": false,
+  "generator_sha256": "c226c15301ed4ac44b42455e84d55759c62f936e030f5bd47abbc82eeafb2b79",
+  "parent_generator_sha256": "ba9d7229d3fd55121445577c80c5126f3b4bff58da72a62ec5b43d8dfd50cb6b",
+  "inputs": {
+    "en": {
+      "budget-many.json": "3367073773ba4fce1972e5bb2e80658c5f92acca8207769107a0b0f6050daee3",
+      "budget-many.events.json": "6c6ddf1c69d7fd5c8e1de711745ad4397cb1df98ede79cba2a948675c0a51c74",
+      "budget-long.events.json": "374824ea9d4c889364f5e28b6b9a0a64129b8fb2b6b07d7ed066455ccc50267a"
+    },
+    "zh-Hant": {
+      "budget-many.json": "486168c4c17bbf2e867061e905c7b9fc3cbf995eee31bf9b12bf646d50ba7b9e",
+      "budget-many.events.json": "987ab371d963e3f7bbf7d60763b3d855e637d079ea7eb11f7b1c5f7ded202ca8",
+      "budget-long.events.json": "080df7348355c3a6306167325c00a919674852c1ef0e95a71e49d007f680c18b"
+    }
+  },
+  "cases": {
+    "en/mixed-long-first": {
+      "recipe_sha256": "1da4df7b1b35d15a15badeb49eb39f040b32783e97ef043695fe33910ed7eab1",
+      "events_sha256": "378ccffbe02d236c77187163e77e75c46c4b6019f4ee5db9e97e9e96a10e222a",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "reply_count": 208
+    },
+    "en/mixed-long-middle": {
+      "recipe_sha256": "8db86698b38afc0905b7f8c60a2f2c3517d65b1048d92cd397612e60e7a8b5e0",
+      "events_sha256": "280bd31aafb8043649a10bb409a4a6dcadb1d7790cae00096c1d609fe2030015",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "reply_count": 208
+    },
+    "en/mixed-small-groups": {
+      "recipe_sha256": "6ea7aa493b4787446a16bbe323c7395d2b8dd7f7dd2bffa40c574a93db3cdd4a",
+      "events_sha256": "0c6795e2915100184aa83eab0b8f76814ba85a9a964283decb71625bad4a815a",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "reply_count": 194
+    },
+    "en/mixed-bound-32-first": {
+      "recipe_sha256": "593ed523a514571c63752f8220c3e697cba5005c8c3a25a857502203da572e5a",
+      "events_sha256": "b2d8e7572c13356f7b7c70e82f51b165b8cac18e7508c06b9ed882e2543303a7",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "reply_count": 369
+    },
+    "en/mixed-bound-33-last": {
+      "recipe_sha256": "560e1cba6cc86c28540e692ec13e240ea41bab7f74738e0aa6b2591d568d1e2c",
+      "events_sha256": "a7a8e5abb1e8486f514b63fb2fb83518d30c2e024d7e28766389afcdcc9136b6",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "reply_count": 376
+    },
+    "zh-Hant/mixed-long-first": {
+      "recipe_sha256": "bdb71b32b38a4b1f08d2b0220f1aaa177442196dc1aceec448fc67105a5e1370",
+      "events_sha256": "99cfa408458292abe8df8ea3aa7b1d26ac57e05bb2cfe32ddfdb646a3e14d76a",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "reply_count": 208
+    },
+    "zh-Hant/mixed-long-middle": {
+      "recipe_sha256": "72b332dd56e98a192593bafafd123e283bf484c957f979c42d1327319a52585c",
+      "events_sha256": "0edf817ad5d43f9861710f838415645939190d55a645a6b42d081250c876eb37",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "reply_count": 208
+    },
+    "zh-Hant/mixed-small-groups": {
+      "recipe_sha256": "8536de65b71662040af7d8cfd242be77922877d143eb64e9405ee6b90813b3ea",
+      "events_sha256": "3e0b80657757397de6e4f4cfafda84d3484fb339666aa944cde62f98cf05e922",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "reply_count": 194
+    },
+    "zh-Hant/mixed-bound-32-first": {
+      "recipe_sha256": "0cda9305e16a2de8e155209493979aa320bf83cafd870200b03bf699ab7ad42d",
+      "events_sha256": "ee18b3c941dd00e8b5551eb9ee40594f01c24231298d302b284cfdce0db0921a",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "reply_count": 369
+    },
+    "zh-Hant/mixed-bound-33-last": {
+      "recipe_sha256": "759ebd315fe4ee3b5b426aaf0b4a4e45f3b6dfe77314a080834640f163766149",
+      "events_sha256": "07c6473548c2f2edc4b290fb6efbaf2d243f0642024b04c1c24766325336f6a8",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "reply_count": 376
+    }
+  }
+}
