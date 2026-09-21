@@ -3,7 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-最新 [大量資源分組試作與 Word 原文核對](reviews/2026-09-21-large-resource-groups/README.md)：
+目前 [0.3.43 混合預算／大量資源整合](docs/budget-grouping.md)：已接回英文共用來源，
+中文循既有流程生成，748 組譯文不變。新增完整舊版還原與套件內容一致性檢查；
+仍是實驗分支，原生整合驗證另行記錄，沒有部署或宣稱完整繳交驗收。
+
+前輪 [大量資源分組試作與 Word 原文核對](reviews/2026-09-21-large-resource-groups/README.md)：
 33 筆長列恢復全寬與續頁名稱，中文 PDF 13 → 12 頁、Word 預覽 16 → 14 頁；
 英文同樣減頁。八組原生對照保留原文與段落 XML，32 筆控制組完全不變。
 前輪 40 份 Word 預覽的原文證據缺口已由列／欄位位置核對補足，舊紀錄不改寫。
