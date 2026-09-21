@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "format": "sentence_comment_markers",
+  "files": [],
+  "workspace_readme": "README.md",
+  "upstream_readme": null,
+  "post_expand_patches": [
+    "zh_hant_allowed_package"
+  ],
+  "post_expand_patch_state": {
+    "template_json_trailing_newline": true
+  },
+  "template_id": "threemonth03:science-europe-enhanced:0.3.44",
+  "rewrite_trace": {
+    "profile": "science-europe",
+    "applications": []
+  },
+  "excluded_profile_paths": []
+}

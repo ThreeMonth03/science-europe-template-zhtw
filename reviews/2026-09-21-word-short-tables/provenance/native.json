@@ -1,0 +1,1579 @@
+{
+  "passed": true,
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "full_visual_acceptance": false,
+  "global_switch_complete": false,
+  "microsoft_word_acceptance": false,
+  "checker_sha256": "2d1e74e6c480b41bc32338520f9200b612414767cdc106f27689ec0127e0f1d3",
+  "recipe_sha256": "e218ded055733fef770c512ac79e8229c2e5b83e4c925a000a543e0a4d6a63dd",
+  "rows": [
+    {
+      "case": "ethics-missing",
+      "language": "english",
+      "profile": "review",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 7,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "missing",
+                79.8,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 7,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "missing",
+                79.8,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "5f7e89d8c543e071809d42b74b7a7a46c32449ea74592ca25f46172e9704f4fd",
+          "after_sha256": "0e99bd068712a72a55735ce88c8d9bf67b84e4c725307711ca595777b1799728",
+          "historical_page_limit": 7,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            },
+            "after": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 5,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 5,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "80afa13d06feaeaf630df187610ae5b98cac0a613746ed2f2dccd5680e346fd5",
+          "after_sha256": "b69a329217d97c4a7209f462b54dee2d3029b86977a0bc2efe1886c8dfed5076",
+          "historical_page_limit": 5,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 0,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        70,
+        70
+      ],
+      "preview_paragraphs": 119,
+      "artifacts": {
+        "html": "4dcf747adc6440e69b03572077efc98c27fac79b67b0854208dde5472d62fac3",
+        "pdf": "0e99bd068712a72a55735ce88c8d9bf67b84e4c725307711ca595777b1799728",
+        "docx": "389435142c029df283666823d78fe6a5f53781341ee6b80fcbaea59f59f3240b"
+      }
+    },
+    {
+      "case": "ethics-missing",
+      "language": "english",
+      "profile": "submission",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 5,
+            "paragraph_counts_verified": 42,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "missing",
+                79.8,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 5,
+            "paragraph_counts_verified": 42,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "missing",
+                79.8,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "0243b78d87a91cb6cecdfce4104088b456afdad9ad33acac382be587edce99ff",
+          "after_sha256": "9b58f65f891ce4d716ee9d6d5de4b42496cc759dd5cfc8967fa080177c929f6f",
+          "historical_page_limit": 5,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 4,
+            "paragraph_counts_verified": 42,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 4,
+            "paragraph_counts_verified": 42,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "02424955dd3b33a69fad884d85efbe4bbea0f0f1a2c74343ba37046152c0c25d",
+          "after_sha256": "6903c3e8e4313d00731b58f8ef336d7975dd0b95245ffcde92b49de462614021",
+          "historical_page_limit": 4,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 2,
+              "first_answer_page": 2,
+              "together": true
+            },
+            "after": {
+              "lead_page": 2,
+              "first_answer_page": 2,
+              "together": true
+            }
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 0,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        42,
+        42
+      ],
+      "preview_paragraphs": 88,
+      "artifacts": {
+        "html": "faf73bcb8c8498b9462c92ec1f62f28432c391bd43a2302bc3e54f2c8ba2f7ad",
+        "pdf": "9b58f65f891ce4d716ee9d6d5de4b42496cc759dd5cfc8967fa080177c929f6f",
+        "docx": "fd8ba298c44508962fa96179256b88c0b33ae14217ed3b8deca1e40ba30803fd"
+      }
+    },
+    {
+      "case": "ethics-missing",
+      "language": "chinese",
+      "profile": "review",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 7,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "missing",
+                78.519,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 7,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "missing",
+                78.519,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "87583c8f04494ece4aa9b80adebd0012c8286ab4ee6f67f6c67a86ea94d6355c",
+          "after_sha256": "c70b89c3fef39a919e288c56d793134b23d6f6926ead70dd16ecc66c81300aa7",
+          "historical_page_limit": 7,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            },
+            "after": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 6,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 6,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "4a857b5f5450980514e2c59d3f016843465d24c7d28337a98961001944d74943",
+          "after_sha256": "c8a24209a4c583f853cbc4c1eabc82fb41c5cf68fc49c60d51309fda820c1073",
+          "historical_page_limit": 6,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            },
+            "after": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            }
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 0,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        70,
+        70
+      ],
+      "preview_paragraphs": 119,
+      "artifacts": {
+        "html": "388aebce4394d60ce90ab3317991986b0e97b4368629cb852e4e7766e4de39da",
+        "pdf": "c70b89c3fef39a919e288c56d793134b23d6f6926ead70dd16ecc66c81300aa7",
+        "docx": "fa3d079118d75adcc46dbdf5fe1e2871f3fbd1b19f707f08baf64e3ced99872a"
+      }
+    },
+    {
+      "case": "ethics-missing",
+      "language": "chinese",
+      "profile": "submission",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 4,
+            "paragraph_counts_verified": 42,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "missing",
+                79.8,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 4,
+            "paragraph_counts_verified": 42,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "missing",
+                79.8,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "8423f2c0f5c2f5011bfd0fd59ad91aacd6d350ee189c7b3dbbf0fef0963d34c3",
+          "after_sha256": "0c5dba955322f196640e9993e5483f78470633ee8978ff9982dafbe512cb776d",
+          "historical_page_limit": 4,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 2,
+              "first_answer_page": 2,
+              "together": true
+            },
+            "after": {
+              "lead_page": 2,
+              "first_answer_page": 2,
+              "together": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 4,
+            "paragraph_counts_verified": 42,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 4,
+            "paragraph_counts_verified": 42,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "29885895c38b66c7fde9f496b6599521ffba714a1653ba552a1aaa3511638bc8",
+          "after_sha256": "63387144a8c0efdef213c33d630b63dea5732c269c3162f4164a310aba1dd54f",
+          "historical_page_limit": 4,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 2,
+              "first_answer_page": 2,
+              "together": true
+            },
+            "after": {
+              "lead_page": 2,
+              "first_answer_page": 2,
+              "together": true
+            }
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 0,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        42,
+        42
+      ],
+      "preview_paragraphs": 88,
+      "artifacts": {
+        "html": "097d7b07a55c7991ece0feb06ba20079110eb6da2f55f37e2e041d929427af3e",
+        "pdf": "0c5dba955322f196640e9993e5483f78470633ee8978ff9982dafbe512cb776d",
+        "docx": "c2f2cf6d1fcaefe1a99fc52ae98021c3c75ee5eb9fa8204299ef90873c66f905"
+      }
+    },
+    {
+      "case": "ethics-answered",
+      "language": "english",
+      "profile": "review",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 7,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "answered",
+                100.842,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 7,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "answered",
+                100.842,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "2fdfb5c61654e6678e77091498d096f3400790651f541f28d36a39d0a5f2fd9b",
+          "after_sha256": "78eb0e815cc5bbd97dc509b648df30c9290e8e61ad859f934aa3994e52ced147",
+          "historical_page_limit": 7,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 5,
+              "first_answer_page": 5,
+              "together": true
+            },
+            "after": {
+              "lead_page": 5,
+              "first_answer_page": 5,
+              "together": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 5,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 2,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 5,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 2,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "caf13218ecebdd18384a1a6d4ceea63aa9e547e2fce30217a5c4788326d4b861",
+          "after_sha256": "96d6344be7a5d2a202df05e13d8477e7e1cf860c258a8c482534ea2e4d9952c7",
+          "historical_page_limit": 5,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 0,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        70,
+        70
+      ],
+      "preview_paragraphs": 122,
+      "artifacts": {
+        "html": "a23e118d1cf904e000ad231be1deb888451540e468d7605c8c93f1037455a5da",
+        "pdf": "78eb0e815cc5bbd97dc509b648df30c9290e8e61ad859f934aa3994e52ced147",
+        "docx": "edf7247381fc6c250ac3c07c0e47165db44c16900987d58152ffbb577401cc37"
+      }
+    },
+    {
+      "case": "ethics-answered",
+      "language": "english",
+      "profile": "submission",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 5,
+            "paragraph_counts_verified": 43,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "answered",
+                100.842,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 5,
+            "paragraph_counts_verified": 43,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "answered",
+                100.842,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "288f2c5b82a55d361c4e0552da1f6a8c476902eff448d735dd28d383a97cc1d7",
+          "after_sha256": "4d2fb40ae4fdee2aabc665a1eccb98b33ef102725bf9237fdd4582a6243523bd",
+          "historical_page_limit": 5,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 4,
+            "paragraph_counts_verified": 43,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 2,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 4,
+            "paragraph_counts_verified": 43,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 2,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "4ac42f1003d835ab68f9cb09168cfc53331cf401bbf894ef232b00c3f67a8b87",
+          "after_sha256": "bf6e580a272e8b7195c44160ca19a4a634dd11e2f01e5a06e51c512c7090b086",
+          "historical_page_limit": 4,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 0,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        43,
+        43
+      ],
+      "preview_paragraphs": 92,
+      "artifacts": {
+        "html": "e7434bf4859c04595073665bc3c14213669b8a4bd28c8863dad73ef96da07fab",
+        "pdf": "4d2fb40ae4fdee2aabc665a1eccb98b33ef102725bf9237fdd4582a6243523bd",
+        "docx": "3bf80140ce60495e0958615cb1f1d7f6c689eb1f4c1d818054737e191b018fea"
+      }
+    },
+    {
+      "case": "ethics-answered",
+      "language": "chinese",
+      "profile": "review",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 7,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "answered",
+                99.246,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 7,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "answered",
+                99.246,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "03d2e2b493b11fffe0bc1ef2f2de40f147b958c6de2320172ed61aaf4c97b2ef",
+          "after_sha256": "3f9c710616223e76756c74549fba18c6800e8fd0657219646c0cf57d93a12e1e",
+          "historical_page_limit": 7,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            },
+            "after": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 6,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 2,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 6,
+            "paragraph_counts_verified": 70,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 2,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "c393bf67a19214ee1df3527bf1caa8d3bb2d5c15270ea167fbed356c24be23b9",
+          "after_sha256": "9470a4c519c6f330c57321ccce92250ef4d29975057ab08e282b0f646f9d1e9a",
+          "historical_page_limit": 6,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            },
+            "after": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            }
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 0,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        70,
+        70
+      ],
+      "preview_paragraphs": 122,
+      "artifacts": {
+        "html": "51ad2f35f9e96c097b37c7148ecfb46e057a8f05ccc8e7a487cd787d71dce2af",
+        "pdf": "3f9c710616223e76756c74549fba18c6800e8fd0657219646c0cf57d93a12e1e",
+        "docx": "8612533165e4c4c459cbbee940e1d3f28ee3b7e55f63048c27bf22f752874505"
+      }
+    },
+    {
+      "case": "ethics-answered",
+      "language": "chinese",
+      "profile": "submission",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 4,
+            "paragraph_counts_verified": 43,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "answered",
+                100.842,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 4,
+            "paragraph_counts_verified": 43,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9promptownershipcontrols/ethics-",
+                "answered",
+                100.842,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "63e73f0132ba63e9b25f5ca67255e5c891f3def35bdeacee742f27ff01319549",
+          "after_sha256": "1896ead3e187cfe55dcc08ecaf7c3fb352cd4ee2aa11cd67aabacd46f3ea74a5",
+          "historical_page_limit": 4,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 5,
+            "paragraph_counts_verified": 43,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 2,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 5,
+            "paragraph_counts_verified": 43,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 2,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "3b25a66353a48ec6646b0209529a300b7024fc5fd9496977acd0fafd02151017",
+          "after_sha256": "e4aef3d710dd3d219acfa92a5c5d0150d7e1206b45f37636a759fa86d7a61168",
+          "historical_page_limit": 5,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 0,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        43,
+        43
+      ],
+      "preview_paragraphs": 92,
+      "artifacts": {
+        "html": "99108440b5a08dc4023da7ff635f80bdb9dc0119b58c85c21cf602a88b1a63d7",
+        "pdf": "1896ead3e187cfe55dcc08ecaf7c3fb352cd4ee2aa11cd67aabacd46f3ea74a5",
+        "docx": "4b23e2d83368c1299f88312a767b96e7b7cd5d1ee1b9721bc8d01e9a011abc7a"
+      }
+    },
+    {
+      "case": "ethics-long",
+      "language": "english",
+      "profile": "review",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 10,
+            "paragraph_counts_verified": 69,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9longfirstparagraphwithlist/table",
+                "continuation",
+                132.72,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 10,
+            "paragraph_counts_verified": 69,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9longfirstparagraphwithlist/table",
+                "continuation",
+                132.72,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "2e7ae7de752bbffb78cb4757ba18fdc45d049bb953744be3f16a5a34d21d1273",
+          "after_sha256": "f6055aa2f772076c7a9e4a4f76758daa1a5d85b12872298418e4b18a04b0ffd8",
+          "historical_page_limit": 10,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            },
+            "after": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            }
+          },
+          "long_first_paragraph": {
+            "before": {
+              "first_page": 4,
+              "last_page": 7,
+              "freely_spans_pages": true
+            },
+            "after": {
+              "first_page": 4,
+              "last_page": 7,
+              "freely_spans_pages": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 8,
+            "paragraph_counts_verified": 69,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null,
+            "verified_generated_table_header": {
+              "extra_instances": 1,
+              "columns": [
+                "Item",
+                "Value"
+              ],
+              "positions": [
+                {
+                  "page": 5,
+                  "y": 720.398264,
+                  "x": [
+                    53.95,
+                    251.95
+                  ]
+                },
+                {
+                  "page": 6,
+                  "y": 59.898264,
+                  "x": [
+                    53.95,
+                    251.95
+                  ]
+                }
+              ],
+              "authored_last_cell": {
+                "page": 6,
+                "y": 82.598264
+              },
+              "header_only_continuation": false
+            }
+          },
+          "after": {
+            "pages": 8,
+            "paragraph_counts_verified": 69,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "cd5fe600df45fd2cbb3c26eb0bb162995d1b5b0994dc6430d8dba016d1d59118",
+          "after_sha256": "6c88dc170361bee308d491592f28e24923b2daf0a5beaebfed922f485d848e95",
+          "historical_page_limit": 8,
+          "pixels_and_geometry_identical": false,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          },
+          "long_first_paragraph": {
+            "before": {
+              "first_page": 3,
+              "last_page": 5,
+              "freely_spans_pages": true
+            },
+            "after": {
+              "first_page": 3,
+              "last_page": 5,
+              "freely_spans_pages": true
+            }
+          },
+          "table_placement": {
+            "page": 6,
+            "rows": 3,
+            "columns": 2,
+            "complete_short_table": true,
+            "header_only_continuation": false
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 1,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        69,
+        69
+      ],
+      "preview_paragraphs": 126,
+      "artifacts": {
+        "html": "01b56345a7c13114f2a6a036d7d90ed293448bd6c82b42a931d1245ffe6d9991",
+        "pdf": "f6055aa2f772076c7a9e4a4f76758daa1a5d85b12872298418e4b18a04b0ffd8",
+        "docx": "b0dbca4800b5f40a3830d76034cda5ba68889d0e37da39c4a2aa22824117cdc3"
+      }
+    },
+    {
+      "case": "ethics-long",
+      "language": "english",
+      "profile": "submission",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 7,
+            "paragraph_counts_verified": 41,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9longfirstparagraphwithlist/table",
+                "continuation",
+                132.72,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 7,
+            "paragraph_counts_verified": 41,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9longfirstparagraphwithlist/table",
+                "continuation",
+                132.72,
+                4.158
+              ],
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "f07eeb1fc128e5c325e27a25a52c2de030febf1661c9a275b59b81761feb999f",
+          "after_sha256": "f490b61c58cc5f59b7be956b7f64881b5fb1ae85f39750616b7561b9a74f6398",
+          "historical_page_limit": 7,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          },
+          "long_first_paragraph": {
+            "before": {
+              "first_page": 3,
+              "last_page": 5,
+              "freely_spans_pages": true
+            },
+            "after": {
+              "first_page": 3,
+              "last_page": 5,
+              "freely_spans_pages": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 7,
+            "paragraph_counts_verified": 41,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 7,
+            "paragraph_counts_verified": 41,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "bdb79a37306871a068ad3d39da300475ba7a7ce9ae1793e1c7b8c602568d7fb2",
+          "after_sha256": "a8288c172b8d5654781079d0f69f2ac4388174744c7c22b98094016063330655",
+          "historical_page_limit": 7,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 2,
+              "first_answer_page": 2,
+              "together": true
+            },
+            "after": {
+              "lead_page": 2,
+              "first_answer_page": 2,
+              "together": true
+            }
+          },
+          "long_first_paragraph": {
+            "before": {
+              "first_page": 2,
+              "last_page": 5,
+              "freely_spans_pages": true
+            },
+            "after": {
+              "first_page": 2,
+              "last_page": 5,
+              "freely_spans_pages": true
+            }
+          },
+          "table_placement": {
+            "page": 5,
+            "rows": 3,
+            "columns": 2,
+            "complete_short_table": true,
+            "header_only_continuation": false
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 1,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        41,
+        41
+      ],
+      "preview_paragraphs": 95,
+      "artifacts": {
+        "html": "6829023842a4acb26f9269be9112e5b96892e4bbabd0adb49520c77032d186dd",
+        "pdf": "f490b61c58cc5f59b7be956b7f64881b5fb1ae85f39750616b7561b9a74f6398",
+        "docx": "9627f080183f2f7f8f7443d25621ae8c2e5e0e22a4a47ccd78a1f25196b9dcc1"
+      }
+    },
+    {
+      "case": "ethics-long",
+      "language": "chinese",
+      "profile": "review",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 9,
+            "paragraph_counts_verified": 69,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9longfirstparagraphwithlist/table",
+                "continuation",
+                130.683,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 9,
+            "paragraph_counts_verified": 69,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9longfirstparagraphwithlist/table",
+                "continuation",
+                130.683,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "68fed498d57fda68da4ae35e465118369803eb238c01bf4290f7fcfe2bd000b5",
+          "after_sha256": "08d8920f93340a01b10183d00158bd355a7bf5d94dc479e2258b8341658535c6",
+          "historical_page_limit": 9,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            },
+            "after": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            }
+          },
+          "long_first_paragraph": {
+            "before": {
+              "first_page": 4,
+              "last_page": 7,
+              "freely_spans_pages": true
+            },
+            "after": {
+              "first_page": 4,
+              "last_page": 7,
+              "freely_spans_pages": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 10,
+            "paragraph_counts_verified": 69,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null,
+            "verified_generated_table_header": {
+              "extra_instances": 1,
+              "columns": [
+                "Item",
+                "Value"
+              ],
+              "positions": [
+                {
+                  "page": 7,
+                  "y": 715.698264,
+                  "x": [
+                    53.95,
+                    251.95
+                  ]
+                },
+                {
+                  "page": 8,
+                  "y": 59.898264,
+                  "x": [
+                    53.95,
+                    251.95
+                  ]
+                }
+              ],
+              "authored_last_cell": {
+                "page": 7,
+                "y": 761.098264
+              },
+              "header_only_continuation": true
+            }
+          },
+          "after": {
+            "pages": 10,
+            "paragraph_counts_verified": 69,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "1281338f6a3cea35e54d04a89837ea142f347d6b3c2c0d285d47d19d2a482055",
+          "after_sha256": "3537ca7a9f83726d68ba66b47dd702ae8dde6b1ef983b9e161ad4a5e13c68f80",
+          "historical_page_limit": 10,
+          "pixels_and_geometry_identical": false,
+          "lead_placement": {
+            "before": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            },
+            "after": {
+              "lead_page": 4,
+              "first_answer_page": 4,
+              "together": true
+            }
+          },
+          "long_first_paragraph": {
+            "before": {
+              "first_page": 4,
+              "last_page": 7,
+              "freely_spans_pages": true
+            },
+            "after": {
+              "first_page": 4,
+              "last_page": 7,
+              "freely_spans_pages": true
+            }
+          },
+          "table_placement": {
+            "page": 8,
+            "rows": 3,
+            "columns": 2,
+            "complete_short_table": true,
+            "header_only_continuation": false
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 1,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        69,
+        69
+      ],
+      "preview_paragraphs": 126,
+      "artifacts": {
+        "html": "275cadc6c4bbafad222b832e87c1d78665462dffb032c88fe89bd869c1ab2872",
+        "pdf": "08d8920f93340a01b10183d00158bd355a7bf5d94dc479e2258b8341658535c6",
+        "docx": "8a027d9aaa9616b0298ff8ccc90839602905188a0428db7e2628d95e6b6d8c03"
+      }
+    },
+    {
+      "case": "ethics-long",
+      "language": "chinese",
+      "profile": "submission",
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 7,
+            "paragraph_counts_verified": 41,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9longfirstparagraphwithlist/table",
+                "continuation",
+                132.72,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 7,
+            "paragraph_counts_verified": 41,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "PublicQ9longfirstparagraphwithlist/table",
+                "continuation",
+                132.72,
+                4.158
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "6acb0016db88c9b52e6fe4c84edb7ddd7640a7f107a5eacbfdee896882f0ab5f",
+          "after_sha256": "5a816c27ee3a6847a54b19eeb23ce3c59157da5106e733f12c17e8ef6d6c17f4",
+          "historical_page_limit": 7,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          },
+          "long_first_paragraph": {
+            "before": {
+              "first_page": 3,
+              "last_page": 6,
+              "freely_spans_pages": true
+            },
+            "after": {
+              "first_page": 3,
+              "last_page": 6,
+              "freely_spans_pages": true
+            }
+          }
+        },
+        "word_preview": {
+          "before": {
+            "pages": 8,
+            "paragraph_counts_verified": 41,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 8,
+            "paragraph_counts_verified": 41,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "777a6cf8f47f310353dbf1490ca77fd93236d14e30670d333d16d69370cd64c5",
+          "after_sha256": "7178b2a40b61e4c1d88bc5da244636df74f3f5e472857173045dfe53f7e0cfcd",
+          "historical_page_limit": 8,
+          "pixels_and_geometry_identical": true,
+          "lead_placement": {
+            "before": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            },
+            "after": {
+              "lead_page": 3,
+              "first_answer_page": 3,
+              "together": true
+            }
+          },
+          "long_first_paragraph": {
+            "before": {
+              "first_page": 3,
+              "last_page": 6,
+              "freely_spans_pages": true
+            },
+            "after": {
+              "first_page": 3,
+              "last_page": 6,
+              "freely_spans_pages": true
+            }
+          },
+          "table_placement": {
+            "page": 6,
+            "rows": 3,
+            "columns": 2,
+            "complete_short_table": true,
+            "header_only_continuation": false
+          }
+        }
+      },
+      "word_delta": {
+        "changed_tables": 1,
+        "other_components_identical": true,
+        "generated_markers_absent": true
+      },
+      "html_bytes_identical": true,
+      "word_html_paragraph_inventory": [
+        41,
+        41
+      ],
+      "preview_paragraphs": 95,
+      "artifacts": {
+        "html": "c42da92784c2abeb0e7ab7e2bf8321ed0b3911b9f99055467b85fdd027384cf2",
+        "pdf": "5a816c27ee3a6847a54b19eeb23ce3c59157da5106e733f12c17e8ef6d6c17f4",
+        "docx": "3b62da3cd53d1d67d21e4fde3971a5a0e95b3e3483977abed11fbb8ae53094cc"
+      }
+    }
+  ],
+  "bounded_word_fix_verified": true,
+  "scoped_visual_gate_passed": true
+}

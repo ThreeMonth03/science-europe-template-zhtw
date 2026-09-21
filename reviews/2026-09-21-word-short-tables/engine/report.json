@@ -1,0 +1,211 @@
+{
+  "passed": true,
+  "native_checked": false,
+  "release_acceptance": false,
+  "image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+  "rows": [
+    {
+      "case": "short",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "chinese",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "two-rows",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "four-rows",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "four-columns",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "no-header",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "cell-boundary",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "cjk-boundary",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "cell-too-long",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "cjk-too-wide",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "many-rows",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "five-rows",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "five-columns",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "one-row",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "one-column",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "large-total",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "multi-paragraph",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "list-cell",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-table",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "hard-break",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "code",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "rowspan",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "colspan",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "caption",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "attributed-table",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "attributed-cell",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "other-question",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-answer",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "nested-question-lookalike",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "other-question-lookalike",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-marker",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "html-marker",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "hyperlink",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "inline-emphasis",
+      "changed_tables": 1,
+      "passed": true
+    },
+    {
+      "case": "long-token",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "adjacent-tables",
+      "changed_tables": 0,
+      "passed": true
+    },
+    {
+      "case": "mixed-separated",
+      "changed_tables": 2,
+      "passed": true
+    }
+  ],
+  "no_op_all_components_identical": true,
+  "package_sha256": "c18182ced81ed41b821424e0763b6b98f586d77c54ab29cde3e0a2b86fe7adc9",
+  "source_sha256": {
+    "short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002",
+    "short-tables.xml.j2": "56e226a93692c59ad65cadc1ede9863d47623f7297969776e79e63adb17ff6de",
+    "engine_runner.py": "2b559bccc5184a9f1365977c7e57deb0724d913d82fdec3a0ce80ff9f597cb11",
+    "table_probe.py": "401a5c3a665bb64068223f2fe5770aeff773317e2d384290cdf65c1c316247d3"
+  },
+  "artifacts": {
+    "before.ast.json": "7b9a201c6e72305906b61e22884ecca4b44a7a06f75d99a1b3db9f10bead650c",
+    "noop.docx": "9e2522ee542e10a1886c81d116d5c2cb37aaa77ff6eff3ff7998aa6e2b673ede",
+    "runtime.json": "0fc886e5495a195bb823ed7eba0ecd41764eb84bfb5cd76e2822db3eb21eb876",
+    "before.docx": "703547d6aa04a4361e3677b93398279de59321fa44f9940a546ec847896d45ed",
+    "marked.docx": "1ed9fc50daca11232e9ea7cd92abc90f28955cc3e4fe03fca99dd2b177ad745c",
+    "after.docx": "3c1c2930c83e6cdcf6d80b54e647caab270b0ba536dbce97c6569b257cb9893b",
+    "marked.ast.json": "f7e822f1a1cc86114aa74d8dc49cd425a95d2afd83d237fa84c54c61de24a711",
+    "input.html": "09a213fb79d16f0992da8e346e51f311aa084357325f310cbf9f24979897b884"
+  }
+}

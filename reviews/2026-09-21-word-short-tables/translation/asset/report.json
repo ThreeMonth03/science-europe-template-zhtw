@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "minimal_shared_files_probe": true,
+  "full_source_integration": false,
+  "storage": "asset",
+  "native_asset_pipeline_checked": false,
+  "translation_units": 0,
+  "unchanged_file_sha256": {
+    "src/word/short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002",
+    "src/word/short-tables.xml": "56e226a93692c59ad65cadc1ede9863d47623f7297969776e79e63adb17ff6de"
+  },
+  "checker_sha256": "8da7cebc4ef4a925d756d65575016d6578d3d413353c62ca834077361338c761"
+}

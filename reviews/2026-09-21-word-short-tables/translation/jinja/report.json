@@ -1,0 +1,21 @@
+{
+  "passed": false,
+  "minimal_shared_files_probe": true,
+  "full_source_integration": false,
+  "storage": "jinja",
+  "integration_blocked": true,
+  "issue": "machine-xml-misclassified-as-translatable-prose",
+  "translation_units": 7,
+  "source_files": [
+    "src/word/short-tables.xml.j2"
+  ],
+  "source_sha256": {
+    "src/word/short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002",
+    "src/word/short-tables.xml.j2": "56e226a93692c59ad65cadc1ede9863d47623f7297969776e79e63adb17ff6de"
+  },
+  "expanded_sha256": {
+    "src/word/short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002",
+    "src/word/short-tables.xml.j2": "59830fb520fb75eb721f4253d290ab92109ee6001a3e0e8c4c176afafaf8e425"
+  },
+  "checker_sha256": "8da7cebc4ef4a925d756d65575016d6578d3d413353c62ca834077361338c761"
+}

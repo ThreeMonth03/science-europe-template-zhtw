@@ -1,0 +1,10 @@
+{
+  "pandoc": "pandoc 3.8.3",
+  "sources": {
+    "dsw.document_worker.templates.steps.word": "663628ff9f6fbeb4e3c48344bf742386112d9d02b77f982aec88378b0417f682",
+    "dsw.document_worker.templates.steps.template": "271b3182ad23539d251fe0c8d8b856b6cb09a11951d9c29ad17cd3b8fd4be140",
+    "dsw.document_worker.templates.steps.conversion": "95d11d5d00b837bd734bca5a0aa0eefacc5c671089915d39a2e69a79dc6b08fa",
+    "dsw.document_worker.utils": "ed5b8213b03a3f7d7721133df22f10a28cb2a55141ff8d560a8a21206f9d054b"
+  },
+  "app_constructor_exercised": false
+}

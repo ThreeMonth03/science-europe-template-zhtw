@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "native_checked": false,
+  "release_acceptance": false,
+  "checker_sha256": "be878ea06982cf3232b268e77c488e63ca03fa9153c57d3267dfe9e838fdf891",
+  "rows": [
+    {
+      "phase": "before",
+      "pages": 15,
+      "long_controls": {
+        "many-rows": [
+          3,
+          4,
+          5
+        ],
+        "mixed-separated": [
+          13,
+          14,
+          15
+        ]
+      },
+      "docx_sha256": "703547d6aa04a4361e3677b93398279de59321fa44f9940a546ec847896d45ed",
+      "pdf_sha256": "3a4eaf6bfb29ea60d0e2c5870a400503cafc0aec24f4453bae80b62ee0bfc093",
+      "exact_nonheader_characters": true,
+      "verified_extra_headers": {
+        "1": 5
+      }
+    },
+    {
+      "phase": "after",
+      "pages": 15,
+      "long_controls": {
+        "many-rows": [
+          4,
+          5
+        ],
+        "mixed-separated": [
+          13,
+          14,
+          15
+        ]
+      },
+      "docx_sha256": "3c1c2930c83e6cdcf6d80b54e647caab270b0ba536dbce97c6569b257cb9893b",
+      "pdf_sha256": "e83698188bc8aa3ed08a222a6f4dbf0783f07974fe7e81f58aff2376604afdd4",
+      "exact_nonheader_characters": true,
+      "verified_extra_headers": {
+        "1": 4
+      }
+    }
+  ]
+}
