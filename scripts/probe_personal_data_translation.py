@@ -126,6 +126,20 @@ def verify_output_profile_translation_chain(current):
     return personal, {**following, 'output_profiles': delta}
 
 
+def verify_submission_translation_chain(current):
+    """All 748 prior pairs survive; allow only the 14 declared new occurrences."""
+    delta = json.loads((ROOT / 'docs/submission-preview-translation-delta.json').read_text())
+    previous = archived_pairs(delta['baseline'])
+    personal, following = verify_output_profile_translation_chain(previous)
+    old, new = Counter(previous), Counter(current)
+    assert sum(old.values()) == delta['baseline_units']
+    assert sum(new.values()) == delta['current_units']
+    assert old-new == Counter(map(tuple, delta['removed'])), 'Lost or changed pre-existing translation'
+    assert new-old == Counter(map(tuple, delta['added'])), 'Unreviewed submission translation'
+    assert sum((old & new).values()) == delta['retained_units']
+    return personal, {**following, 'submission_preview': delta}
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--build', type=Path, required=True); p.add_argument('--english', type=Path, required=True)
@@ -134,7 +148,7 @@ def main():
     import test_science_europe_contract as adapter
     from generate_personal_data_fixtures import personal_data_cases, personal_paths, IDS
     files = sorted((ROOT/'translation/tree').rglob('translation.md'))
-    delta, followup_delta = verify_output_profile_translation_chain([pair(f.read_text()) for f in files])
+    delta, followup_delta = verify_submission_translation_chain([pair(f.read_text()) for f in files])
     hashes = {str(f.relative_to(ROOT/'translation')): sha(f) for f in files}
     assert hashes == json.loads((a.build/'manifest.json').read_text())['translation_tree_sha256']
     rows = []; paths = personal_paths()

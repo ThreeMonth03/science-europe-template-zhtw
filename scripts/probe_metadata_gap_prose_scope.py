@@ -21,12 +21,14 @@ def main():
     p.add_argument('--resource-prose', action='store_true', help='Project the exact 0.3.41 owned Q15 pair before all historical gates')
     p.add_argument('--short-resource-rows', action='store_true', help='Project the exact 0.3.42 PDF-only short-row addition first')
     p.add_argument('--budget-grouping', action='store_true', help='Prove exact 0.3.43 source/prepared projection before every older gate')
+    p.add_argument('--submission-preview', action='store_true', help='Validate 0.3.44, then run historical gates on exactly verified 0.3.43 source views')
     a = p.parse_args(); sys.path[:0] = [str(a.english.resolve()/n) for n in ['scripts', 'tests']]
     assert not a.preservation_reading or a.output_profiles
     assert not a.short_resources or a.preservation_reading
     assert not a.resource_prose or a.short_resources
     assert not a.short_resource_rows or a.resource_prose
     assert not a.budget_grouping or a.short_resource_rows
+    assert not a.submission_preview or a.budget_grouping
     from storage_context_contract import check_roots as context_checks
     from probe_storage_context import strip
     from q5_word_join_contract import prior_lua
@@ -41,6 +43,9 @@ def main():
     from bs4 import BeautifulSoup
     files = sorted((ROOT/'translation/tree').rglob('translation.md'))
     verifier = verify_output_profile_translation_chain if a.output_profiles else verify_prose_translation_chain
+    if a.submission_preview:
+        from probe_personal_data_translation import verify_submission_translation_chain
+        verifier = verify_submission_translation_chain
     personal, following = verifier([pair(f.read_text()) for f in files])
     current = json.loads((a.build/'manifest.json').read_text()); assert current['untranslated_units'] == []
     hashes = {str(f.relative_to(ROOT/'translation')): sha(f) for f in files}
@@ -50,6 +55,9 @@ def main():
     with tarfile.open(fileobj=io.BytesIO(data)) as archive:
         old = {f.name: archive.extractfile(f).read() for f in archive if f.isfile()}
     new = {str(f.relative_to(ROOT)): f.read_bytes() for f in files}
+    if a.submission_preview:
+        from submission_preview_integration import historical_translation_documents
+        new = historical_translation_documents()
     changed = {n for n in old.keys() | new.keys() if old.get(n) != new.get(n)}
     allowed_translation = ('translation/tree/src/quality-control.html.j2/', 'translation/tree/src/questions/03-docs-metadata.html.j2/') if a.output_profiles else ('translation/tree/src/questions/03-docs-metadata.html.j2/',)
     assert changed and all(n.startswith(allowed_translation) for n in changed), 'Unreviewed translation file changed'
@@ -59,6 +67,11 @@ def main():
         folder = old_row['language']; root = a.build/folder; historic_before = old_row['after']; before = historic_before
         after = {str(f.relative_to(root)): sha(f) for f in (root/'src').rglob('*') if f.is_file()}
         actual_after = dict(after)
+        if a.submission_preview:
+            from submission_preview_integration import historical_view
+            language = 'english' if folder == 'en' else 'chinese'
+            root = historical_view(root, language, a.build / 'historical-0.3.43' / folder)
+            after = {str(f.relative_to(root)): sha(f) for f in (root / 'src').rglob('*') if f.is_file()}
         if a.budget_grouping:
             from budget_grouping_contract import project_prepared as project_grouping
             after = project_grouping(root, after)
@@ -150,6 +163,10 @@ def main():
         if a.budget_grouping:
             checks[-1]['budget_grouping_delta'] = {'baseline_version':'0.3.42', 'version':'0.3.43',
                 'changed_files':['src/budget-reading.html.j2','src/word/pilot.lua','src/layout.css']}
+        if a.submission_preview:
+            checks[-1]['submission_preview_delta'] = {'baseline_version': '0.3.43', 'version': '0.3.44',
+                'historical_checks_use_exact_verified_source_view': True,
+                'current_behavior_checker': 'scripts/probe_submission_preview.py'}
     report = {'passed': True, 'release_acceptance': False, 'rows': checks, 'reviewed_deltas': following,
         'translation_units': len(files), 'translation_tree_sha256': hashes, 'checker_sha256': sha(Path(__file__)),
         'contract_sha256': sha(a.english/'scripts/metadata_gap_prose_contract.py'),

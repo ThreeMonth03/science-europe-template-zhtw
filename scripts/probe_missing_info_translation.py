@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from jinja2 import Environment, FileSystemLoader
 from artifact_utils import sha
 from probe_pdf_budget_translation import pair
-from probe_personal_data_translation import archived_pairs, verify_output_profile_translation_chain
+from probe_personal_data_translation import archived_pairs, verify_submission_translation_chain
 
 ROOT = Path(__file__).resolve().parents[1]
 PRIOR = '39a3a42da718d29b59513153b8a2b15c8f53701c'
@@ -33,7 +33,7 @@ def main():
     assert len(old) == 722 and len(baseline) == 723
     assert not Counter(old) - Counter(baseline)
     assert Counter(baseline) - Counter(old) == Counter({(EN, ZH): 1})
-    current_delta, followup_delta = verify_output_profile_translation_chain(new)
+    current_delta, followup_delta = verify_submission_translation_chain(new)
     manifest = json.loads((a.build/'manifest.json').read_text())
     hashes = {str(f.relative_to(ROOT/'translation')): sha(f) for f in files}
     assert hashes == manifest['translation_tree_sha256']

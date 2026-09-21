@@ -1,4 +1,13 @@
 {
+  "Instrument dataset": "儀器資料集",
+  "Reference dataset": "參考資料集",
+  "Non-reference dataset": "非參考資料集",
+  "Non-equipment dataset": "非儀器資料集",
+  "Produced dataset": "產出資料集",
+  "Quality control measures planned for {qualityName}: {qualityMethods} and other quality control methods.": "{qualityName}的品質管控措施包括{qualityMethods}及其他品質管控方法。",
+  "Other quality control methods are planned for {qualityName}.": "本計畫將對{qualityName}採取其他品質管控方法。",
+  "Restrictions apply to this dataset.": "此資料集有使用限制。",
+  "Software is required to use this dataset.": "使用此資料集需要軟體工具。",
   "We will create a data/variable dictionary.": "本計畫將建立資料字典或變項定義表。",
   "We will not create a data/variable dictionary.": "本計畫不會建立資料字典或變項定義表。",
   "Information not provided: whether a data/variable dictionary will be created.": "尚待補充：是否將建立資料字典或變項定義表。",

@@ -81,9 +81,10 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
-          # Reverse 0.3.43 to the complete frozen 0.3.42 source before the older gates.
-          ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english --output-profiles --preservation-reading --short-resources --resource-prose --short-resource-rows --budget-grouping
-          ../tooling/.venv/bin/python scripts/check_budget_grouping_integration.py --build "$SE_BUILD_DIR" --english ../english
+          # Validate the actual 0.3.44 package before exact projections into all older gates.
+          ../tooling/.venv/bin/python scripts/check_submission_preview_integration.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python scripts/probe_submission_preview.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english --output-profiles --preservation-reading --short-resources --resource-prose --short-resource-rows --budget-grouping --submission-preview
           ../tooling/.venv/bin/python scripts/probe_resource_prose_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python ../english/scripts/probe_short_resource_rows.py --source-dir "$SE_BUILD_DIR/en" --engine --output "$SE_BUILD_DIR/short-resource-rows-engine-en.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_short_resource_rows.py --source-dir "$SE_BUILD_DIR/translated" --engine --output "$SE_BUILD_DIR/short-resource-rows-engine-zh.json"

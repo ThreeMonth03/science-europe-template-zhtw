@@ -21,12 +21,13 @@ def asset_uuid(package_id, kind, name):
     return str(uuid.uuid5(uuid.NAMESPACE_URL, f'dsw-template/{package_id}/{kind}/{name}'))
 
 
-def project_metadata(candidate, baseline, timestamp):
+def project_metadata(candidate, baseline, timestamp, versions=('0.3.42', '0.3.43')):
     """Do not discard UUIDs/timestamps: validate their exact deterministic values."""
     result = copy.deepcopy(candidate)
-    assert baseline['version'] == '0.3.42' and candidate['version'] == '0.3.43'
-    assert baseline['id'].endswith(':0.3.42')
-    assert candidate['id'] == baseline['id'][:-len('0.3.42')] + '0.3.43'
+    old_version, new_version = versions
+    assert baseline['version'] == old_version and candidate['version'] == new_version
+    assert baseline['id'].endswith(':' + old_version)
+    assert candidate['id'] == baseline['id'][:-len(old_version)] + new_version
     for field in ['createdAt', 'updatedAt']:
         assert candidate[field] == timestamp, field
         result[field] = baseline[field]

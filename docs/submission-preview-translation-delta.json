@@ -1,0 +1,67 @@
+{
+  "baseline": "408bbbd1f7d162f6c0c3e31a00456130298618c9",
+  "baseline_version": "0.3.43",
+  "version": "0.3.44",
+  "baseline_units": 748,
+  "current_units": 762,
+  "retained_units": 748,
+  "removed": [],
+  "added": [
+    [
+      "(applied)",
+      "（已申請）"
+    ],
+    [
+      "(granted)",
+      "（已核准）"
+    ],
+    [
+      "(planned)",
+      "（規劃中）"
+    ],
+    [
+      "(rejected)",
+      "（未核准）"
+    ],
+    [
+      "Instrument dataset",
+      "儀器資料集"
+    ],
+    [
+      "Non-equipment dataset",
+      "非儀器資料集"
+    ],
+    [
+      "Non-reference dataset",
+      "非參考資料集"
+    ],
+    [
+      "Other quality control methods are planned for {qualityName}.",
+      "本計畫將對{qualityName}採取其他品質管控方法。"
+    ],
+    [
+      "Other quality control methods are planned for {qualityName}.",
+      "本計畫將對{qualityName}採取其他品質管控方法。"
+    ],
+    [
+      "Produced dataset",
+      "產出資料集"
+    ],
+    [
+      "Quality control measures planned for {qualityName}: {qualityMethods} and other quality control methods.",
+      "{qualityName}的品質管控措施包括{qualityMethods}及其他品質管控方法。"
+    ],
+    [
+      "Reference dataset",
+      "參考資料集"
+    ],
+    [
+      "Restrictions apply to this dataset.",
+      "此資料集有使用限制。"
+    ],
+    [
+      "Software is required to use this dataset.",
+      "使用此資料集需要軟體工具。"
+    ]
+  ]
+}
