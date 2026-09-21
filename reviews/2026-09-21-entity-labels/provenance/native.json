@@ -1,0 +1,386 @@
+{
+  "passed": true,
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "global_switch_complete": false,
+  "checker_sha256": "97698f0d09d9f6ed55bc27d59137a99532fb8bbe9d94b2003380c12b96299cfe",
+  "recipe_sha256": "003e90460c0e2158f562ac4127d453aa2ba1d3bbb885fc4dabddd747996ef20a",
+  "rows": [
+    {
+      "language": "english",
+      "profile": "review",
+      "changes": [],
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 7,
+            "paragraph_counts_verified": 66,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 7,
+            "paragraph_counts_verified": 66,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "0cb448e58fa573b87a45f4c95e20996886d49bc8c4f36ef85aeb93dd4a1b946f",
+          "after_sha256": "4cbceeaec0c36b945f6e9e380ca5925b530a604903cd2c74e539fa2a84fb83be"
+        },
+        "word_preview": {
+          "before": {
+            "pages": 5,
+            "paragraph_counts_verified": 66,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 5,
+            "paragraph_counts_verified": 66,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "0756ed90d7e0a18291d5de1cb59e293f38f00eb1ad628b40ec1aaca98da077b6",
+          "after_sha256": "521491a5753c253d41c53abae86737f4b1924cbadabe40b16930b26e15116d92"
+        }
+      },
+      "word_html_paragraph_inventory": [
+        66,
+        66
+      ],
+      "preview_paragraphs": 113,
+      "artifacts": {
+        "html": "817b4f95b33fcd0f3ed3fdc655ef952008356c7d7e9f92929b5b63fcbfd2995a",
+        "pdf": "4cbceeaec0c36b945f6e9e380ca5925b530a604903cd2c74e539fa2a84fb83be",
+        "docx": "45c1bdba77e273644a2f546d4acf671335e6d4dc7032673e53784f74c5efdf9d"
+      }
+    },
+    {
+      "language": "english",
+      "profile": "submission",
+      "changes": [
+        {
+          "kind": "project",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10"
+        },
+        {
+          "kind": "project",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10"
+        },
+        {
+          "kind": "project",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10"
+        },
+        {
+          "kind": "resource",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.cbf7a757-cd1f-5fda-9898-910dcb970356"
+        },
+        {
+          "kind": "project",
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b"
+        },
+        {
+          "kind": "project",
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b"
+        },
+        {
+          "kind": "project",
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b"
+        },
+        {
+          "kind": "resource",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.b6e6baab-6fd3-594c-aa0f-b7e21642749f"
+        },
+        {
+          "kind": "software",
+          "index": 2,
+          "identity": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.35afce52-6e91-5e42-a6bf-d4d01b78abb4"
+        },
+        {
+          "kind": "software",
+          "index": 2,
+          "identity": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.16489c36-3361-5a37-8495-f4e6b8614d04"
+        }
+      ],
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 4,
+            "paragraph_counts_verified": 39,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "after": {
+            "pages": 4,
+            "paragraph_counts_verified": 39,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [
+              [
+                "Section1:Datadescriptionandcollectionorre-useofexisting",
+                "data",
+                32.895,
+                1.47
+              ]
+            ],
+            "long_row": null
+          },
+          "before_sha256": "aa36e18aa8a1e5194d986b2363aecfb39f9967a424ccba937e7bd2a9c72c91ef",
+          "after_sha256": "f7c87cb035ddbb4ce4e063c888d68623af2dbbaaffaa4e37f36eb170d7c3af5c"
+        },
+        "word_preview": {
+          "before": {
+            "pages": 4,
+            "paragraph_counts_verified": 39,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 4,
+            "paragraph_counts_verified": 39,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "9f6e54899fa51e57479da331a4feeeb6ea69ea41116f0fd00a227828907028e1",
+          "after_sha256": "6de6c45c871ea0e7a40187f61a80cd6bc5998caa81e2b8f66e9f78c653d1b630"
+        }
+      },
+      "word_html_paragraph_inventory": [
+        39,
+        39
+      ],
+      "preview_paragraphs": 84,
+      "artifacts": {
+        "html": "99d9f5be2726ba6ece3f0faaf621ae4cb9189bb4975718ebe0985a5a6f5202c0",
+        "pdf": "f7c87cb035ddbb4ce4e063c888d68623af2dbbaaffaa4e37f36eb170d7c3af5c",
+        "docx": "a781fb842ebda9711b6f683507e6a82abeade106824d927fd47ba7e2e9f09883"
+      }
+    },
+    {
+      "language": "chinese",
+      "profile": "review",
+      "changes": [],
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 6,
+            "paragraph_counts_verified": 66,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 6,
+            "paragraph_counts_verified": 66,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "cde43c005b9571c21a54ab4c0c9f6dbccb72b4a30e82b251ac5363302743aa01",
+          "after_sha256": "bbcbf3b1584f954afae8a3c798f41b7568c69d854eafbfd3c6fdb81f239f2298"
+        },
+        "word_preview": {
+          "before": {
+            "pages": 6,
+            "paragraph_counts_verified": 66,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 6,
+            "paragraph_counts_verified": 66,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "7bb62e0c05d19bd34028a45e1b63197287d31bd34875d8a99b7df9f666b14f5e",
+          "after_sha256": "4738eb739188ad1702347aecd91460ed9a388e9abbea939f6a95556391be9338"
+        }
+      },
+      "word_html_paragraph_inventory": [
+        66,
+        66
+      ],
+      "preview_paragraphs": 113,
+      "artifacts": {
+        "html": "60ebaacd5311534107134200c2a0fb5ecc00eaef1a3dde4b6871b511ed3b1ecb",
+        "pdf": "bbcbf3b1584f954afae8a3c798f41b7568c69d854eafbfd3c6fdb81f239f2298",
+        "docx": "0267394c76f1197dd5dc6dde7dffdf53b80919bd0ac6db742226b548cacf7642"
+      }
+    },
+    {
+      "language": "chinese",
+      "profile": "submission",
+      "changes": [
+        {
+          "kind": "project",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10"
+        },
+        {
+          "kind": "project",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10"
+        },
+        {
+          "kind": "project",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10"
+        },
+        {
+          "kind": "resource",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.cbf7a757-cd1f-5fda-9898-910dcb970356"
+        },
+        {
+          "kind": "project",
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b"
+        },
+        {
+          "kind": "project",
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b"
+        },
+        {
+          "kind": "project",
+          "index": 3,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b"
+        },
+        {
+          "kind": "resource",
+          "index": 2,
+          "identity": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.b6e6baab-6fd3-594c-aa0f-b7e21642749f"
+        },
+        {
+          "kind": "software",
+          "index": 2,
+          "identity": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.35afce52-6e91-5e42-a6bf-d4d01b78abb4"
+        },
+        {
+          "kind": "software",
+          "index": 2,
+          "identity": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.16489c36-3361-5a37-8495-f4e6b8614d04"
+        }
+      ],
+      "rendered": {
+        "native_pdf": {
+          "before": {
+            "pages": 4,
+            "paragraph_counts_verified": 39,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 4,
+            "paragraph_counts_verified": 39,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "c81036a9389cc027f7d823e8201a9e145e48a8aad9a2d39d8667bc12291f61a6",
+          "after_sha256": "d8b3d5871d2a846799591fb02476be346ab940186bb1694fe222b2f5b8f7878a"
+        },
+        "word_preview": {
+          "before": {
+            "pages": 4,
+            "paragraph_counts_verified": 39,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "after": {
+            "pages": 4,
+            "paragraph_counts_verified": 39,
+            "character_inventory_verified": true,
+            "bounds_issues": [],
+            "verified_generated_o_markers": 0,
+            "line_box_overlaps": [],
+            "long_row": null
+          },
+          "before_sha256": "50e9f3a2dad0f5954cf141e22d5d59edd153db850da000d1101a7b6634774891",
+          "after_sha256": "e6e58eceeef58fe99424c7be8d4de2f9a37c52c70b092274ba730d8d267db6f7"
+        }
+      },
+      "word_html_paragraph_inventory": [
+        39,
+        39
+      ],
+      "preview_paragraphs": 84,
+      "artifacts": {
+        "html": "14dabde69b613ce95fda6b706c9e89fec43cacd3369b3017049dfc1fa8d3feb5",
+        "pdf": "d8b3d5871d2a846799591fb02476be346ab940186bb1694fe222b2f5b8f7878a",
+        "docx": "6fd154e9e476d286d285d7d0939c825d9f152b62cd1626d6fc77506b18d5475b"
+      }
+    }
+  ]
+}

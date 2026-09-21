@@ -1,0 +1,19 @@
+{
+  "baseline_version": "0.3.44",
+  "source_integrated": false,
+  "translation_tree_modified": false,
+  "prototype_only": true,
+  "changed_jinja_files": 5,
+  "structural_checks": 1056,
+  "native_pairs": 4,
+  "native_artifacts": 24,
+  "word_previews": 8,
+  "deleted_owned_local_templates": 5,
+  "failed_quota_run_retained": true,
+  "storage_allowance_restored": true,
+  "production_touched": false,
+  "global_switch_complete": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "collector_sha256": "30bb7577611921521e8e37ced5fe111991af0ee574695682fa0ab48c1fee58f8"
+}

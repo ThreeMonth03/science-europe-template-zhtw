@@ -1,0 +1,187 @@
+{
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "global_switch_complete": false,
+  "recipe_sha256": "003e90460c0e2158f562ac4127d453aa2ba1d3bbb885fc4dabddd747996ef20a",
+  "packages": {
+    "english.zip": {
+      "baseline_sha256": "930cbfa5f19d3236341b23ae2b288f65cdb845732f4d1c7fbf50268ce0735a0c",
+      "sha256": "dd6b9991748ccb4a67e9d14d8b2f87a09dc7ccb38808328861123fd7de5251d3",
+      "operations": {
+        "src/macros.html.j2": [
+          {
+            "start": 6880,
+            "end": 6880,
+            "before": "",
+            "after": "\n{%- macro projectLabel(index) -%}Project {{ index }}{%- endmacro -%}\n\n{%- macro resourceLabel(index) -%}Resource {{ index }}{%- endmacro -%}\n\n{%- macro softwareLabel(index) -%}Software tool {{ index }}{%- endmacro -%}\n",
+            "kind": "helpers"
+          }
+        ],
+        "src/projects.html.j2": [
+          {
+            "start": 646,
+            "end": 699,
+            "before": "<h3 class=\"empty-value\">(project name not given)</h3>",
+            "after": "{% if output_profile|default('review') == 'submission' %}<h3>{{ macros.projectLabel(projectsItems.index(projectsItem) + 1) }}</h3>{% else %}<h3 class=\"empty-value\">(project name not given)</h3>{% endif %}",
+            "kind": "project-overview"
+          }
+        ],
+        "src/questions/09-ethical-issues.html.j2": [
+          {
+            "start": 1929,
+            "end": 2013,
+            "before": "{'name': projectName, 'approval': projEthicalApprovalAUuid, 'authorities': projAuth}",
+            "after": "{'name': projectName, 'approval': projEthicalApprovalAUuid, 'authorities': projAuth, 'index': projectsItems.index(projectItem) + 1}",
+            "kind": "unfiltered-project-identity"
+          },
+          {
+            "start": 2314,
+            "end": 2373,
+            "before": "{{ project.name|e if project.name else \"(no name given)\" }}",
+            "after": "{% if output_profile|default('review') == 'submission' and not project.name %}{{ macros.projectLabel(project.index) }}{% else %}{{ project.name|e if project.name else \"(no name given)\" }}{% endif %}",
+            "kind": "project"
+          }
+        ],
+        "src/questions/12-access-data.html.j2": [
+          {
+            "start": 2646,
+            "end": 2701,
+            "before": "{{ swNameReply if swNameReply else \"(no name given)\" }}",
+            "after": "{% if output_profile|default('review') == 'submission' and not swNameReply %}{{ macros.softwareLabel(isPublishedSwItems.index(swItem) + 1) }}{% else %}{{ swNameReply if swNameReply else \"(no name given)\" }}{% endif %}",
+            "kind": "software"
+          }
+        ],
+        "src/questions/15-required-resources.html.j2": [
+          {
+            "start": 7539,
+            "end": 7612,
+            "before": "{{ projectItemNameReply if projectItemNameReply else \"(no name given)\" }}",
+            "after": "{% if output_profile|default('review') == 'submission' and not projectItemNameReply %}{{ macros.projectLabel(projectItems.index(i) + 1) }}{% else %}{{ projectItemNameReply if projectItemNameReply else \"(no name given)\" }}{% endif %}",
+            "kind": "project"
+          },
+          {
+            "start": 9185,
+            "end": 9277,
+            "before": "{{ projectCostItemTitleReply if projectCostItemTitleReply else \"(no resource name given)\" }}",
+            "after": "{% if output_profile|default('review') == 'submission' and not projectCostItemTitleReply %}{{ macros.resourceLabel(projectCostItems.index(j) + 1) }}{% else %}{{ projectCostItemTitleReply if projectCostItemTitleReply else \"(no resource name given)\" }}{% endif %}",
+            "kind": "resource"
+          }
+        ]
+      },
+      "members": {
+        "template/assets/src/fonts/PilotTC.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/word/pilot.lua": {
+          "before": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+          "after": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547"
+        },
+        "template/assets/src/word/preservation-reading.lua": {
+          "before": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+          "after": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71"
+        },
+        "template/assets/src/word/reference.docx": {
+          "before": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d",
+          "after": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d"
+        },
+        "template/template.json": {
+          "before": "0670b719602080101830e16916b3516b66566a6081317650d2989c59c2749e99",
+          "after": "cd7ff1e712dea4fcae17065a64193c34154279b740e1d1aa05d260bd79367605"
+        }
+      }
+    },
+    "chinese.zip": {
+      "baseline_sha256": "dbe2b058cb7bac9d14dcf149cb44c7d1d253144417e99ac7c6d9b2338d1fb3b9",
+      "sha256": "e2a51fa0e27315d14fe0488eeef7d4a0eb03942366131887076d730afd06e561",
+      "operations": {
+        "src/macros.html.j2": [
+          {
+            "start": 7274,
+            "end": 7274,
+            "before": "",
+            "after": "\n{%- macro projectLabel(index) -%}計畫 {{ index }}{%- endmacro -%}\n\n{%- macro resourceLabel(index) -%}資源 {{ index }}{%- endmacro -%}\n\n{%- macro softwareLabel(index) -%}軟體工具 {{ index }}{%- endmacro -%}\n",
+            "kind": "helpers"
+          }
+        ],
+        "src/projects.html.j2": [
+          {
+            "start": 714,
+            "end": 753,
+            "before": "<h3 class=\"empty-value\">（尚未提供專案名稱）</h3>",
+            "after": "{% if output_profile|default('review') == 'submission' %}<h3>{{ macros.projectLabel(projectsItems.index(projectsItem) + 1) }}</h3>{% else %}<h3 class=\"empty-value\">（尚未提供專案名稱）</h3>{% endif %}",
+            "kind": "project-overview"
+          }
+        ],
+        "src/questions/09-ethical-issues.html.j2": [
+          {
+            "start": 1910,
+            "end": 1994,
+            "before": "{'name': projectName, 'approval': projEthicalApprovalAUuid, 'authorities': projAuth}",
+            "after": "{'name': projectName, 'approval': projEthicalApprovalAUuid, 'authorities': projAuth, 'index': projectsItems.index(projectItem) + 1}",
+            "kind": "unfiltered-project-identity"
+          },
+          {
+            "start": 2469,
+            "end": 2539,
+            "before": "{% if project.name %}{{ project.name|e }}{% else %}（名稱尚未提供）{% endif %}",
+            "after": "{% if output_profile|default('review') == 'submission' and not project.name %}{{ macros.projectLabel(project.index) }}{% else %}{% if project.name %}{{ project.name|e }}{% else %}（名稱尚未提供）{% endif %}{% endif %}",
+            "kind": "project"
+          }
+        ],
+        "src/questions/12-access-data.html.j2": [
+          {
+            "start": 3029,
+            "end": 3095,
+            "before": "{% if swNameReply %}{{ swNameReply }}{% else %}（名稱尚未提供）{% endif %}",
+            "after": "{% if output_profile|default('review') == 'submission' and not swNameReply %}{{ macros.softwareLabel(isPublishedSwItems.index(swItem) + 1) }}{% else %}{% if swNameReply %}{{ swNameReply }}{% else %}（名稱尚未提供）{% endif %}{% endif %}",
+            "kind": "software"
+          }
+        ],
+        "src/questions/15-required-resources.html.j2": [
+          {
+            "start": 8576,
+            "end": 8672,
+            "before": "<p><strong>（計畫名稱尚未提供）{{ \" - \" + projectItemNumberReply if projectItemNumberReply }}</strong></p>",
+            "after": "<p><strong>{% if output_profile|default('review') == 'submission' %}{{ macros.projectLabel(projectItems.index(i) + 1) }}{% else %}（計畫名稱尚未提供）{% endif %}{{ \" - \" + projectItemNumberReply if projectItemNumberReply }}</strong></p>",
+            "kind": "project-budget"
+          },
+          {
+            "start": 18491,
+            "end": 18587,
+            "before": "{% if projectCostItemTitleReply %}{{ projectCostItemTitleReply }}{% else %}（尚未填寫資源名稱）{% endif %}",
+            "after": "{% if output_profile|default('review') == 'submission' and not projectCostItemTitleReply %}{{ macros.resourceLabel(projectCostItems.index(j) + 1) }}{% else %}{% if projectCostItemTitleReply %}{{ projectCostItemTitleReply }}{% else %}（尚未填寫資源名稱）{% endif %}{% endif %}",
+            "kind": "resource"
+          }
+        ]
+      },
+      "members": {
+        "template/assets/src/fonts/NotoSansTC-Variable.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/fonts/PilotTC.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/word/pilot.lua": {
+          "before": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+          "after": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547"
+        },
+        "template/assets/src/word/preservation-reading.lua": {
+          "before": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+          "after": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71"
+        },
+        "template/assets/src/word/reference.docx": {
+          "before": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae",
+          "after": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae"
+        },
+        "template/template.json": {
+          "before": "7c36fd2979803b386ff824076cc6161e5fc39caf4e3b2d62427ced5a2a133354",
+          "after": "f99d2ab82fed77f9894503a31b18013c8c5c4074c322200fd8235a2a33da3f58"
+        }
+      }
+    }
+  }
+}
