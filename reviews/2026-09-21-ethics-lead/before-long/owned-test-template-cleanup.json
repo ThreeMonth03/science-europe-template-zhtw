@@ -1,0 +1,31 @@
+{
+  "scope": "Only this finished synthetic local run; no other template or volume",
+  "run_completed_successfully": true,
+  "failed_run_explicitly_acknowledged": false,
+  "project_references": 0,
+  "document_references": 0,
+  "backups": {
+    "english.zip": {
+      "path": "/home/trc/Downloads/science-europe-template-zhtw/outputs/ethics-lead-long-before-1/english.zip",
+      "sha256": "435fcecbdabe94c1f9b7f8d4d8d8a207ce2aa7c1fc085b269084793fd3345e66"
+    },
+    "chinese.zip": {
+      "path": "/home/trc/Downloads/science-europe-template-zhtw/outputs/ethics-lead-long-before-1/chinese.zip",
+      "sha256": "1eb6bf22cf4a6f94314c99e65bbac4c5d61e4a7c3d6c57c008752c7f0cdebb88"
+    }
+  },
+  "deleted": [
+    {
+      "uuid": "e0766650-e4d3-40a4-9ecc-0d1e18996099",
+      "templateId": "science-europe-enhanced-zhtw-local-94e4cb2d7600",
+      "version": "0.3.44",
+      "status_code": 204
+    },
+    {
+      "uuid": "fb66b33d-0c12-4a93-abfb-937522f59a55",
+      "templateId": "science-europe-enhanced-local-686bd594ed35",
+      "version": "0.3.44",
+      "status_code": 204
+    }
+  ]
+}

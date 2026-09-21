@@ -1,0 +1,29 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "ethics-long-review-english",
+      "docx_sha256": "7bd113aa2107173eb2a8c639b50cb67108fdeb0114c4aa09c6fdd2737c825a6b",
+      "preview_sha256": "2b3586b9572dd2371967f7a4225bdce91844597b472b015a22beab3e41a2afd8"
+    },
+    {
+      "name": "ethics-long-review-chinese",
+      "docx_sha256": "796a5762e093b23a649250afff083ac0e843816668b5013e3052c3f6892b592a",
+      "preview_sha256": "698c5d8901ee2a1ff4223bf64ee1caa2713ee7055a8cbd5ad210f791f7f915b8"
+    },
+    {
+      "name": "ethics-long-submission-english",
+      "docx_sha256": "fb899f3b71d7a8d93c5b8691ced213af361d4e1386f0c05ae06fd7bac4e40faf",
+      "preview_sha256": "fa46cf31e85d47afb7b7599799e7616869b87fc8d5fdc2f5c735809651632a7e"
+    },
+    {
+      "name": "ethics-long-submission-chinese",
+      "docx_sha256": "20dc0ad2c4e78e69e00ebcc8f254796778ec3f0baaf67b222c420cd6b0a03bae",
+      "preview_sha256": "aad3c8a33353b9973c0d1cb69b0c61e36e26c633dbf06da42eed0665eb5c92e1"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "86ad75c56b82f18583f1e85422a05bc1127a55b9444eec2b85ae69601895e6fa",
+  "completed": true
+}

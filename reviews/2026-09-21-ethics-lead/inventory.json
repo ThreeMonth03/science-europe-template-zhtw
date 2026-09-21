@@ -1,0 +1,113 @@
+{
+  "baseline_version": "0.3.44",
+  "parent_prototype": "2026-09-21-ethics-prompts",
+  "parent_seal_sha256": "7bbe9c7eb8bc9dffbfa818271e796e528af3f5ef8241063216761eb68f1b6a34",
+  "source_integrated": false,
+  "translation_tree_modified": false,
+  "prototype_only": true,
+  "lead_separation_resolved": true,
+  "source_integration_allowed": false,
+  "changed_jinja_files": 1,
+  "source_edit_count": 6,
+  "structural_checks": 544,
+  "native_pairs": 12,
+  "native_artifacts": 72,
+  "reused_native_artifacts": 24,
+  "new_native_artifacts": 48,
+  "unsuccessful_attempt_native_artifacts_generated": 72,
+  "total_new_native_artifacts_generated_this_turn": 120,
+  "word_previews": 24,
+  "unchanged_native_review_controls": 6,
+  "deleted_owned_local_templates_this_run": 8,
+  "prior_cleanup_receipt_retained": true,
+  "storage_allowance_restored": true,
+  "unsuccessful_native_attempt_preserved": true,
+  "production_touched": false,
+  "visual_gate_passed": false,
+  "visual_blockers": [
+    {
+      "case": "ethics-long",
+      "language": "chinese",
+      "profile": "submission",
+      "engine": "native_pdf",
+      "issue": "page-count-increase",
+      "before_pages": 7,
+      "after_pages": 8
+    }
+  ],
+  "known_preexisting_visual_issues": [
+    {
+      "case": "ethics-long",
+      "language": "chinese",
+      "profile": "review",
+      "engine": "word_preview",
+      "issue": "header-only-table-continuation",
+      "before": {
+        "extra_instances": 1,
+        "columns": [
+          "Item",
+          "Value"
+        ],
+        "positions": [
+          {
+            "page": 7,
+            "y": 715.698264,
+            "x": [
+              53.95,
+              251.95
+            ]
+          },
+          {
+            "page": 8,
+            "y": 59.898264,
+            "x": [
+              53.95,
+              251.95
+            ]
+          }
+        ],
+        "authored_last_cell": {
+          "page": 7,
+          "y": 761.098264
+        },
+        "header_only_continuation": true
+      },
+      "after": {
+        "extra_instances": 1,
+        "columns": [
+          "Item",
+          "Value"
+        ],
+        "positions": [
+          {
+            "page": 7,
+            "y": 715.698264,
+            "x": [
+              53.95,
+              251.95
+            ]
+          },
+          {
+            "page": 8,
+            "y": 59.898264,
+            "x": [
+              53.95,
+              251.95
+            ]
+          }
+        ],
+        "authored_last_cell": {
+          "page": 7,
+          "y": 761.098264
+        },
+        "header_only_continuation": true
+      }
+    }
+  ],
+  "full_visual_acceptance": false,
+  "native_stress_scope": "Long first purpose paragraph followed by authored list and table; first-list/table boundaries are structural tests only.",
+  "global_switch_complete": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "collector_sha256": "676140adbb49beafd1ce62d504e71e270cfc93629672af7e8a63f6a0a6950db3"
+}

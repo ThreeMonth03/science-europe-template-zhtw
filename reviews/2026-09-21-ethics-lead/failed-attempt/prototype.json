@@ -1,0 +1,148 @@
+{
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "phase": "after",
+  "observed_worker_sources": {
+    "dsw.document_worker.model.utils": "bc8d1d61f42265b8e7219c34f9fd6b4d4b3ad988297018b67545d2a7ba731c19",
+    "weasyprint.text.fonts": "3f6662edc1f0a11e1666c39f9b72a2d2543769162ee985b216c2afbddd0312a1",
+    "weasyprint.text.ffi": "d7784b995d7d4624eca4a1e76bf46564c6abe82a53207c0f0cf48657516684d7"
+  },
+  "recipe_sha256": "e0927ec342c6bad26700370617e7038092b9b2d6d0d024b86e85c90e96b289bd",
+  "packages": {
+    "english.zip": {
+      "baseline_sha256": "435fcecbdabe94c1f9b7f8d4d8d8a207ce2aa7c1fc085b269084793fd3345e66",
+      "sha256": "d87e9d0d86705de6d380fe11847148d3b9bcfd3a61d75054bbdc3fb0358a757e",
+      "operations": {
+        "src/questions/09-ethical-issues.html.j2": [
+          {
+            "start": 7292,
+            "end": 7386,
+            "before": "{%- set sentences = ['We will collect data related to individuals, i.e. \"personal data\".'] -%}",
+            "after": "{%- set sentences = ['We will collect data related to individuals, i.e. \"personal data\".'] -%}{%- set ethicsLead = namespace(first=none) -%}",
+            "kind": "initialize-owned-boundary"
+          },
+          {
+            "start": 9760,
+            "end": 9818,
+            "before": "{%- do sentences.append(cpersExplainInformed|markdown) -%}",
+            "after": "{%- if ethicsLead.first is none -%}{%- set ethicsLead.first = sentences|length -%}{%- endif -%}{%- do sentences.append(cpersExplainInformed|markdown) -%}",
+            "kind": "record-first-cpersExplainInformed"
+          },
+          {
+            "start": 10822,
+            "end": 10882,
+            "before": "{%- do sentences.append(cpersDescribeProcedure|markdown) -%}",
+            "after": "{%- if ethicsLead.first is none -%}{%- set ethicsLead.first = sentences|length -%}{%- endif -%}{%- do sentences.append(cpersDescribeProcedure|markdown) -%}",
+            "kind": "record-first-cpersDescribeProcedure"
+          },
+          {
+            "start": 12951,
+            "end": 13005,
+            "before": "{%- do sentences.append(cpersGdprPurpose|markdown) -%}",
+            "after": "{%- if ethicsLead.first is none -%}{%- set ethicsLead.first = sentences|length -%}{%- endif -%}{%- do sentences.append(cpersGdprPurpose|markdown) -%}",
+            "kind": "record-first-cpersGdprPurpose"
+          },
+          {
+            "start": 13471,
+            "end": 13529,
+            "before": "<div class=\"answer-detail\">{{ sentences|join(' ') }}</div>",
+            "after": "{% if output_profile|default('review') == 'submission' and ethicsLead.first is not none %}<div class=\"answer-detail\"><p class=\"answer-lead\">{{ sentences[:ethicsLead.first]|join(' ') }}</p>{{ sentences[ethicsLead.first:]|join(' ') }}</div>{% else %}<div class=\"answer-detail\">{{ sentences|join(' ') }}</div>{% endif %}",
+            "kind": "render-owned-lead-in-submission"
+          }
+        ]
+      },
+      "members": {
+        "template/assets/src/fonts/PilotTC.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/word/pilot.lua": {
+          "before": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+          "after": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547"
+        },
+        "template/assets/src/word/preservation-reading.lua": {
+          "before": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+          "after": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71"
+        },
+        "template/assets/src/word/reference.docx": {
+          "before": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d",
+          "after": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d"
+        },
+        "template/template.json": {
+          "before": "4d7534f053928d5f4300be6f5e6ecc5f5b7889148ee4af65ceba5835c6f22fdf",
+          "after": "19393b8aa3680888f8b52420997f04c74786381b8e4e7621e22b844fe483186a"
+        }
+      }
+    },
+    "chinese.zip": {
+      "baseline_sha256": "1eb6bf22cf4a6f94314c99e65bbac4c5d61e4a7c3d6c57c008752c7f0cdebb88",
+      "sha256": "0a3cfd6ca282c00de39798d955df1054310114c7994c919563090dc102ba7d10",
+      "operations": {
+        "src/questions/09-ethical-issues.html.j2": [
+          {
+            "start": 7932,
+            "end": 7982,
+            "before": "{%- set sentences = ['我們將蒐集與個人相關的資料，即「個人資料」。'] -%}",
+            "after": "{%- set sentences = ['我們將蒐集與個人相關的資料，即「個人資料」。'] -%}{%- set ethicsLead = namespace(first=none) -%}",
+            "kind": "initialize-owned-boundary"
+          },
+          {
+            "start": 10388,
+            "end": 10446,
+            "before": "{%- do sentences.append(cpersExplainInformed|markdown) -%}",
+            "after": "{%- if ethicsLead.first is none -%}{%- set ethicsLead.first = sentences|length -%}{%- endif -%}{%- do sentences.append(cpersExplainInformed|markdown) -%}",
+            "kind": "record-first-cpersExplainInformed"
+          },
+          {
+            "start": 11478,
+            "end": 11538,
+            "before": "{%- do sentences.append(cpersDescribeProcedure|markdown) -%}",
+            "after": "{%- if ethicsLead.first is none -%}{%- set ethicsLead.first = sentences|length -%}{%- endif -%}{%- do sentences.append(cpersDescribeProcedure|markdown) -%}",
+            "kind": "record-first-cpersDescribeProcedure"
+          },
+          {
+            "start": 13699,
+            "end": 13753,
+            "before": "{%- do sentences.append(cpersGdprPurpose|markdown) -%}",
+            "after": "{%- if ethicsLead.first is none -%}{%- set ethicsLead.first = sentences|length -%}{%- endif -%}{%- do sentences.append(cpersGdprPurpose|markdown) -%}",
+            "kind": "record-first-cpersGdprPurpose"
+          },
+          {
+            "start": 14230,
+            "end": 14287,
+            "before": "<div class=\"answer-detail\">{{ sentences|join(\"\") }}</div>",
+            "after": "{% if output_profile|default('review') == 'submission' and ethicsLead.first is not none %}<div class=\"answer-detail\"><p class=\"answer-lead\">{{ sentences[:ethicsLead.first]|join(\"\") }}</p>{{ sentences[ethicsLead.first:]|join(\"\") }}</div>{% else %}<div class=\"answer-detail\">{{ sentences|join(\"\") }}</div>{% endif %}",
+            "kind": "render-owned-lead-in-submission"
+          }
+        ]
+      },
+      "members": {
+        "template/assets/src/fonts/NotoSansTC-Variable.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/fonts/PilotTC.ttf": {
+          "before": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+          "after": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+        },
+        "template/assets/src/word/pilot.lua": {
+          "before": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+          "after": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547"
+        },
+        "template/assets/src/word/preservation-reading.lua": {
+          "before": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+          "after": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71"
+        },
+        "template/assets/src/word/reference.docx": {
+          "before": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae",
+          "after": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae"
+        },
+        "template/template.json": {
+          "before": "3a172d3b1c7900f51c521789ed32cc8b3830a4b2155d69b2226f8e9ee662f149",
+          "after": "524f47a32d5c1855d90dba2945b4cdfa327d076f294874037ff696b79555b5f3"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "global_switch_complete": false,
+  "microsoft_word_acceptance": false,
+  "checker_sha256": "b92775a3e67e44901f3e0b9ef941dddba3fc88a7112f5ddd7e643329cfe39636",
+  "recipe_sha256": "e0927ec342c6bad26700370617e7038092b9b2d6d0d024b86e85c90e96b289bd",
+  "failure": "AssertionError(('Rendered character inventory differs', {'a': 1, 't': 1, 'e': 2, 'm': 1, 'l': 1, 'u': 1, 'I': 1, 'V': 1}, {}))"
+}

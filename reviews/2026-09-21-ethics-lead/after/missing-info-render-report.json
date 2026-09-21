@@ -1,0 +1,349 @@
+{
+  "all_renders_succeeded": true,
+  "release_acceptance": false,
+  "validation": [
+    {
+      "case": "ethics-long",
+      "language": "english",
+      "reachable_replies": 55,
+      "events_sha256": "aaadbb498177bb6253050e27cade618b39693294d05bae68eb4a3bc99d835936",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "ethics-missing",
+      "language": "english",
+      "reachable_replies": 55,
+      "events_sha256": "78e751a01028472b1a79a3084ee15a5e918b7a1d2b17f79ef52b3fac623ff637",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "ethics-answered",
+      "language": "english",
+      "reachable_replies": 60,
+      "events_sha256": "32199e3d6742abfb918140bb5574c7996b15eedaf130d56651bc63d48d3d8d66",
+      "km_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "errors": []
+    },
+    {
+      "case": "ethics-long",
+      "language": "chinese",
+      "reachable_replies": 55,
+      "events_sha256": "fcb9f1191c909014a5db57a56d7d08458b225642ba5a0a6cd0f7999d231e847c",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "ethics-missing",
+      "language": "chinese",
+      "reachable_replies": 55,
+      "events_sha256": "3ffc3125b1bb973a9f104a53a21239575ef450031a02be111726e330b2f5a20e",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    },
+    {
+      "case": "ethics-answered",
+      "language": "chinese",
+      "reachable_replies": 60,
+      "events_sha256": "43bed4a15661cf09bef0d0fab38f62754f351a4edae73a811eab57498cc2eff7",
+      "km_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "errors": []
+    }
+  ],
+  "renders": [
+    {
+      "case": "ethics-long-submission",
+      "fixture_case": "ethics-long",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-submission",
+      "fixture_case": "ethics-long",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-submission",
+      "fixture_case": "ethics-long",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-submission",
+      "fixture_case": "ethics-long",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-submission",
+      "fixture_case": "ethics-long",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-submission",
+      "fixture_case": "ethics-long",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-review",
+      "fixture_case": "ethics-long",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-review",
+      "fixture_case": "ethics-long",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-review",
+      "fixture_case": "ethics-long",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-review",
+      "fixture_case": "ethics-long",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-review",
+      "fixture_case": "ethics-long",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-long-review",
+      "fixture_case": "ethics-long",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-submission",
+      "fixture_case": "ethics-missing",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-submission",
+      "fixture_case": "ethics-missing",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-submission",
+      "fixture_case": "ethics-missing",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-submission",
+      "fixture_case": "ethics-missing",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-submission",
+      "fixture_case": "ethics-missing",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-submission",
+      "fixture_case": "ethics-missing",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-review",
+      "fixture_case": "ethics-missing",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-review",
+      "fixture_case": "ethics-missing",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-review",
+      "fixture_case": "ethics-missing",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-review",
+      "fixture_case": "ethics-missing",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-review",
+      "fixture_case": "ethics-missing",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-missing-review",
+      "fixture_case": "ethics-missing",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-submission",
+      "fixture_case": "ethics-answered",
+      "profile": "submission",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-submission",
+      "fixture_case": "ethics-answered",
+      "profile": "submission",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-submission",
+      "fixture_case": "ethics-answered",
+      "profile": "submission",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-submission",
+      "fixture_case": "ethics-answered",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-submission",
+      "fixture_case": "ethics-answered",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-submission",
+      "fixture_case": "ethics-answered",
+      "profile": "submission",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-review",
+      "fixture_case": "ethics-answered",
+      "profile": "review",
+      "language": "english",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-review",
+      "fixture_case": "ethics-answered",
+      "profile": "review",
+      "language": "english",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-review",
+      "fixture_case": "ethics-answered",
+      "profile": "review",
+      "language": "english",
+      "format": "docx",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-review",
+      "fixture_case": "ethics-answered",
+      "profile": "review",
+      "language": "chinese",
+      "format": "html",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-review",
+      "fixture_case": "ethics-answered",
+      "profile": "review",
+      "language": "chinese",
+      "format": "pdf",
+      "rendered": true
+    },
+    {
+      "case": "ethics-answered-review",
+      "fixture_case": "ethics-answered",
+      "profile": "review",
+      "language": "chinese",
+      "format": "docx",
+      "rendered": true
+    }
+  ],
+  "checker_sha256": "7f6e1770e88b0d3744195211d358ee03c42228401e57dea6dea25cae7c49c6b7",
+  "package_sha256": {
+    "english.zip": "b4ea563be65afed7668c31c58ea0242f4e3fb1eb222821c0cdf20e2083e4dd33",
+    "chinese.zip": "df055508c254349e2f94964588edb2d8590676d7f5e271ee970cadc7f4389528"
+  }
+}

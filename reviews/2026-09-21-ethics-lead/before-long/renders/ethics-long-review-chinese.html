@@ -1,0 +1,814 @@
+<!DOCTYPE HTML>
+
+
+<html lang="zh-Hant">
+  <head>
+    <title>資料管理方案</title>
+    <meta charset="utf-8">
+    <style>
+      
+/* Layout and global styles */
+
+@page {
+  size: A4;
+
+  @bottom-left {
+    border-top: 1px solid black;
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+  @bottom-center {
+    border-top: 1px solid black;
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+  @bottom-center {
+    border-top: 1px solid black;
+    content: counter(page) " / " counter(pages);
+    display: block;
+    width: 100%;
+    padding-top: 1rem;
+    vertical-align: top;
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+  }
+}
+@page :blank {
+  @top-center { content: none }
+  @bottom-left { content: none }
+  @bottom-center { content: none }
+  @bottom-right { content: none }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  page-break-inside: avoid !important;
+  page-break-after: avoid !important;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11pt;
+  counter-reset: section;
+  counter-reset: question;
+  max-width: 21cm;
+  margin: 0 auto;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+/* Visible completion gaps: unanswered replies must never look like "No". */
+.data-gap {
+  border-left: 3px solid #b26a00;
+  background: #fff8e8;
+  color: #573600;
+  padding: 0.45rem 0.65rem;
+  break-inside: avoid;
+}
+
+.data-gap strong {
+  color: #7a4600;
+}
+
+@media print {
+  .data-gap {
+    border: 1px solid #8a6d3b;
+    border-left-width: 3px;
+  }
+}
+
+/* Sections */
+
+section {
+  margin-bottom: 4rem;
+}
+
+.dmp-section .question + .question {
+  margin-top: 1cm;
+}
+
+/* First page */
+
+header {
+  padding-top: 5cm;
+  height: 24cm;
+  box-sizing: border-box;
+  page-break-after: always;
+  position: relative;
+}
+
+header .dmp::after {
+  font-size: 18pt;
+  content: '資料管理方案';
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+header div {
+  position: absolute;
+  bottom: 0;
+}
+
+header .contact-orcid {
+  white-space: nowrap;
+}
+
+header .note {
+  margin-top: 2cm;
+  text-align: center;
+  font-size: 10pt;
+  font-style: italic;
+}
+
+div.dmp-info {
+  width: 100%;
+}
+
+dl {
+  border: 1px solid #bdc8ca;
+  background-color: #f7fafa;
+  overflow: hidden;
+  width: 100%;
+}
+
+dt,
+dd {
+    box-sizing: border-box;
+    padding: 10px;
+}
+dd ~ dt,
+dd ~ dd {
+    border-top: 1px solid #bdc8ca;
+}
+dt {
+    float: left;
+    width: 25%;
+    padding-bottom: 0;
+}
+dd {
+    margin-left: 25%;
+    width: 75%;
+    border-left: 1px dotted #bdc8ca;
+    background-color: #fff;
+}
+dd:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+dl dd ul {
+  padding: 0;
+  margin: 0;
+}
+
+dl dd ul li {
+  list-style: none;
+}
+
+dl dd ul li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+dl .contact-name {
+  font-weight: bold;
+}
+
+/* Contributors */
+
+.contributor .name {
+  font-weight: bold;
+}
+
+.contributor .role,
+.contributor .affiliation {
+  font-style: italic;
+  display: inline-block;
+}
+
+/* Abstract */
+
+.abstract {
+  page-break-after: always;
+}
+
+.abstract p {
+  text-align: justify;
+}
+
+/* custom */
+
+.orcid-svg {
+  width: 0.5cm;
+  height: 0.5cm;
+  display: inline-block;
+  margin: 0px -4px -2px 2px;
+}
+
+div#dmp-content {
+  page-break-before: always;
+}
+
+div#dmp-projects,
+div#dmp-contributors,
+div#dmp-content {
+  page-break-before: always;
+}
+
+/* Versions */
+
+div#dmp-versions table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+div#dmp-versions table,
+div#dmp-versions td,
+div#dmp-versions th {
+  border: 1px solid #bdc8ca;
+}
+
+div#dmp-versions td,
+div#dmp-versions th {
+  padding: 0.2em;
+}
+
+div#dmp-versions th.title {
+  text-transform: uppercase;
+  padding: 0.4em;
+  text-align: center;
+}
+
+div#dmp-versions td.version-name {
+  text-align: center;
+  word-wrap: break-word;
+}
+
+div#dmp-versions td.version-date {
+  text-align: center;
+  width: 18ex;
+}
+
+div#dmp-versions td.version-changes {
+  word-wrap: break-word;
+}
+
+div#dmp-versions td.no-versions {
+  font-style: italic;
+  padding: 1em;
+  text-align: center;
+}
+      @font-face { font-family: "Pilot CJK"; src: url("data:font/ttf;sha256,864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f") format("truetype"); }
+html body { font-family: "DejaVu Sans", "Pilot CJK", sans-serif; }
+/* Owned layout layer; upstream styles remain separately reviewable. */
+@page { size: A4; margin: 20mm 19mm 22mm; }
+@page {
+  @bottom-left { border-top: none; }
+  @bottom-center { margin-top: 4mm; padding-top: 2mm; border-top: 1px solid #8c999e; }
+}
+html body { font-size: 10.5pt; line-height: 1.5; color: #222; }
+html body h1 { font-size: 21pt; line-height: 1.25; }
+html body h2 { font-size: 15pt; line-height: 1.35; margin: 1.3em 0 .65em; }
+html body h3 { font-size: 11pt; font-weight: normal; line-height: 1.5; margin: .9em 0 .6em; color: #47565c; }
+html body h4 { font-size: 11.5pt; margin: .85em 0 .4em; }
+html body h5 { font-size: 10.5pt; margin: .75em 0 .3em; }
+html body h1, html body h2, html body h3, html body h4, html body h5 { break-after: avoid; break-inside: avoid; }
+html body p { margin: 0 0 .5em; orphans: 2; widows: 2; }
+html body li { margin-bottom: .6em; }
+html body li > strong:first-child { display: block; break-after: avoid; }
+html body ul { padding-left: 1.4em; margin: .4em 0 .8em; }
+html body .answer-detail { margin: .3em 0 .75em; }
+html body .answer-detail > p:first-child { break-after: avoid; }
+html body .answer-lead { break-after: avoid; }
+html body a { overflow-wrap: anywhere; word-break: break-word; color: #185778; }
+html body table { border-collapse: collapse; width: 100%; margin: .6em 0; }
+html body th, html body td { border: 1px solid #bcc6cc; padding: .4em .5em; vertical-align: top; }
+html body th { background: #eef2f4; text-align: left; }
+html body thead { display: table-header-group; }
+html body tr { break-inside: avoid; }
+html body header { height: auto; min-height: 0; padding-top: 0; page-break-after: auto; }
+html body header h1 { margin-top: .3em; margin-bottom: .5em; }
+html body dl { margin: .6em 0; }
+html body dt, html body dd { padding: 6px 10px; }
+html body dl dd ul li { margin-bottom: 0; }
+html body header div { position: static; }
+html body header .note { margin-top: .6em; }
+html body header .contact-orcid { white-space: normal; }
+html body #dmp-contributors, html body #dmp-projects { page-break-before: auto; }
+html body .abstract { page-break-after: auto; }
+html body .abstract p { text-align: left; }
+html body section { margin-bottom: 1.4em; }
+html body .dmp-section .question + .question { margin-top: 1.3em; }
+html body .data-gap { padding: .45em .65em; border-left: 3px solid #95651b; background: #fff8e8; }
+
+/* Reading units, not arbitrary fixed-height pages. */
+html body #dmp-content { break-before: page; }
+html body #dmp-projects h3 { font-size: 14pt; font-weight: bold; color: #222; }
+html body .document-meta { font-size: 9pt; color: #526169; }
+html body .document-kind { font-size: 14pt; color: #526169; }
+html body .document-provenance { border-top: 1px solid #bcc6cc; margin-top: 2em; padding-top: .7em; font-size: 8.5pt; color: #526169; }
+html body .dataset-list { list-style: none; padding-left: 0; }
+html body .dataset-list > li { margin: 0 0 1em; }
+html body .dataset-list h5 { font-size: 11pt; margin: .8em 0 .35em; }
+html body .dataset-source { font-size: 9pt; }
+html body .dataset-version { margin: .4em 0; }
+html body .dataset-version th { width: 15%; font-weight: normal; }
+html body .dataset-version p { margin-bottom: .2em; }
+html body .dataset-policy > p { display: inline; margin: 0; }
+html body .dataset-policy > p::after { content: ' '; }
+html body .dataset-policy { margin: .4em 0 .6em; }
+/* Q11 scalar references may wrap, but their original text/href is never edited. */
+html body .paper-reference { overflow-wrap: anywhere; word-break: break-word; }
+html body .answer-detail ul { margin-top: .2em; }
+html body .answer-detail li { margin-bottom: .2em; }
+html body .answer-detail ul:has(> li:last-child:nth-child(-n+3)) { break-inside: avoid; }
+html body li > p:first-child { break-after: avoid; }
+html body .resource-table { font-size: 10pt; table-layout: fixed; }
+html body .resource-table col.resource-purpose { width: 57%; }
+html body .resource-table col.resource-budget { width: 17%; }
+html body .resource-table col.resource-funding { width: 26%; }
+html body .resource-table tr { break-inside: auto; }
+html body .resource-table:has(tbody > tr:last-child:nth-child(-n+3)) { break-inside: avoid; }
+/* Row count alone cannot bound a table's height. Release the whole-table keep
+   for Q15 purposes with >=12 direct authored blocks; do not rewrite answers or
+   change the short/many-row controls. One huge paragraph is outside this hint. */
+html body #q-required-resources .resource-table:has(tbody > tr > td:first-child > .answer-detail > :nth-child(12)) { break-inside: auto; }
+html body .resource-table p { margin-bottom: .3em; }
+html body .resource-table ul { padding-left: 1.2em; }
+html body .resource-table .answer-detail { margin: .25em 0; }
+html body .resource-table .data-gap { padding: .2em .35em; }
+/* BEGIN short-budget panel: PDF-only, <=3 bounded rows with a budget gap. */
+html body .pdf-short-budget col.resource-purpose { width: 49%; }
+html body .pdf-short-budget col.resource-budget { width: 25%; }
+html body .pdf-short-budget col.resource-funding { width: 26%; }
+html body .pdf-short-budget th, html body .pdf-short-budget td { padding-top: .25em; padding-bottom: .25em; }
+html body .pdf-short-budget p { margin-bottom: .2em; }
+/* END short-budget panel */
+/* PDF-only long resource: identity repeats in thead, purpose spans all columns. */
+html body #q-required-resources .pdf-resource-reading { break-inside: auto; }
+html body .pdf-resource-reading thead td { background: #eef2f4; }
+html body .pdf-resource-reading tbody td { border-top: none; }
+/* Missing metadata needs room for the original prompt, not a three-line label
+   in a 17% column. The full-width purpose and complete-header controls stay as-is. */
+html body .pdf-resource-reading:has(thead > tr > td > .data-gap) col.resource-purpose { width: 40%; }
+html body .pdf-resource-reading:has(thead > tr > td > .data-gap) col.resource-budget { width: 29%; }
+html body .pdf-resource-reading:has(thead > tr > td > .data-gap) col.resource-funding { width: 31%; }
+/* Exactly the four fixed, unanswered Q15 facts: bounded prose with no authored
+   paragraphs, resource rows or nested details. Keep its question with the group. */
+html body #q-required-resources:has(.answer > p.data-gap[data-fact-id="specialist-expertise"]:first-child):has(.answer > p.data-gap[data-fact-id="hardware-software"]:nth-child(2)):has(.answer > p.data-gap[data-fact-id="repository-charges"]:nth-child(3)):has(.answer > p.data-gap[data-fact-id="resources-costing"]:nth-child(4):last-child) { break-inside: avoid; }
+/* BEGIN empty-Q15 panel: four fixed gaps, no authored or partially answered content. */
+html body #q-required-resources > .answer:has(> p.data-gap[data-fact-id="specialist-expertise"][data-status="missing"]:first-child):has(> p.data-gap[data-fact-id="hardware-software"][data-status="missing"]:nth-child(2)):has(> p.data-gap[data-fact-id="repository-charges"][data-status="missing"]:nth-child(3)):has(> p.data-gap[data-fact-id="resources-costing"][data-status="missing"]:nth-child(4):last-child) { border: 1px solid #8a6d3b; border-left-width: 3px; background: #fff8e8; padding: .45em .65em; }
+html body #q-required-resources > .answer:has(> p.data-gap[data-fact-id="specialist-expertise"][data-status="missing"]:first-child):has(> p.data-gap[data-fact-id="hardware-software"][data-status="missing"]:nth-child(2)):has(> p.data-gap[data-fact-id="repository-charges"][data-status="missing"]:nth-child(3)):has(> p.data-gap[data-fact-id="resources-costing"][data-status="missing"]:nth-child(4):last-child) > p.data-gap { border: 0; padding: 0; margin: 0 0 .35em; background: transparent; }
+html body #q-required-resources > .answer:has(> p.data-gap[data-fact-id="specialist-expertise"][data-status="missing"]:first-child):has(> p.data-gap[data-fact-id="hardware-software"][data-status="missing"]:nth-child(2)):has(> p.data-gap[data-fact-id="repository-charges"][data-status="missing"]:nth-child(3)):has(> p.data-gap[data-fact-id="resources-costing"][data-status="missing"]:nth-child(4):last-child) > p.data-gap:last-child { margin-bottom: 0; }
+/* END empty-Q15 panel */
+html body .template-gap { font-size: 9.5pt; color: #526169; border-left-color: #8c999e; background: #f3f5f5; }
+/* Owned publication reading blocks: structure, not hidden list markers. */
+html body .dataset-section { margin: .6em 0 1em; }
+html body .dataset-section > h5 { font-size: 11pt; margin: .5em 0 .35em; }
+html body .distribution-section { margin: .35em 0 .65em; }
+html body .distribution-section + .distribution-section { border-top: 1px solid #cbd2d5; padding-top: .6em; }
+html body .license-entry { margin: .25em 0 .5em; }
+html body .license-entry + .license-entry { border-top: 1px dotted #cbd2d5; padding-top: .4em; }
+html body .storage-detail-limits li { margin-bottom: .25em; }
+/* BEGIN short Q5 context: bounded owned prose and its operational limitations. */
+@media print {
+html body #q-store-backup > .answer.q5-short-context { break-inside: avoid; }
+}
+/* END short Q5 context */
+/* Narrow reading units, not whole-question keep-together rules. */
+html body .short-reading-unit, html body .ethical-data-flags { break-inside: avoid; }
+/* Only provenanceReading marks bounded, simple tables; long answers stay free. */
+html body .short-table-unit { break-inside: avoid; }
+/* Q11 emits this hint only for <=3 bounded, inline-only repository summaries. */
+html body .short-repository-list { break-inside: avoid; }
+html body .repository-label { font-weight: bold; }
+/* Q13: one owned heading, then one contiguous identifier arrangement. */
+html body .identifier-heading { margin: .25em 0 .35em; break-after: avoid; }
+html body .identifier-heading > p { display: inline; margin: 0; }
+html body .identifier-heading > p::after { content: ' '; }
+html body .reading-gap { margin: .5em 0; }
+html body .reading-gap > p { margin-bottom: 0; }
+html body .answer-reference { font-size: 9.5pt; color: #526169; margin-top: .7em; }
+html body .data-gap[data-status="missing-output"] { border: none; border-left: 2px solid #b5bec1; background: #f5f6f6; color: #526169; font-size: 10pt; padding: .4em .65em; }
+.quantity { white-space: nowrap; }
+.date-value { white-space: nowrap; }
+/* Only fixed access / simple repository / standard licence facts join in Q10.
+   Restricted terms, complex repositories, missing answers and labels stay blocks. */
+.distribution-reading-unit > p:not(.data-gap):not(.answer-lead),
+.distribution-reading-unit > .joined-policy,
+.distribution-reading-unit .joined-policy > p,
+.distribution-reading-unit .joined-policy > .answer-lead,
+.distribution-reading-unit .joined-policy .license-summary,
+.distribution-reading-unit .joined-policy > .answer-lead > p { display: inline; margin: 0; }
+.distribution-reading-unit > p:not(.data-gap):not(.answer-lead)::after,
+.distribution-reading-unit .joined-policy p::after { content: " "; }
+/* BEGIN identifier CJK separator: fixed Q13 sentences only, not headings. */
+html[lang="zh-Hant"] body .identifier-arrangement.dataset-policy > p::after { content: none; }
+/* END identifier CJK separator */
+/* BEGIN archive gap pairs: print-only, adjacent fixed missing facts, two per panel. */
+@media print {
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*)))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*)))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*)))) { margin-bottom: 0; break-after: avoid; }
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*)))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*)))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))):has(+ .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*)))) > p.data-gap { border-bottom-width: 0; padding-bottom: .2em; }
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*))),
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*))) { margin-top: 0; }
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-payer"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-minimum-period"][data-status="missing"]:only-child:not(:has(*))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-authority"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-extension-basis"][data-status="missing"]:only-child:not(:has(*))) > p.data-gap,
+html body #q-data-preservation .post-project-archive[data-scope="project"] > .dataset-policy > .reading-gap:has(> p.data-gap[data-fact-id="archive-format-migration"][data-status="missing"]:only-child:not(:has(*))) + .reading-gap:has(> p.data-gap[data-fact-id="archive-media-migration"][data-status="missing"]:only-child:not(:has(*))) > p.data-gap { border-top-width: 0; padding-top: .2em; }
+}
+/* END archive gap pairs */
+
+/* Local prototype: keep the final purpose fragment with its allocation. */
+html body .pdf-resource-reading tbody > tr > td > .answer-detail[data-fact-id="resource-justification"] { break-after: avoid; }
+    </style>
+  </head>
+  <body>
+    <article class="dmp">
+      <header class="document-heading">
+  <p class="document-kind">資料管理方案</p><h1>Public Q9 long first paragraph with list/table continuation</h1>
+  
+  <p class="document-meta">產生日期：2026-09-21</p>
+  
+  
+</header>
+      
+      <div id="dmp-projects">
+  <h2>研究計畫概要</h2>
+
+  
+    <div class="project"><h3>N/A</h3><table class="project-details"><tbody>
+        <tr><th scope="row">專案編號</th><td>尚未提供</td></tr>
+        <tr><th scope="row">開始日期</th><td>尚未提供</td></tr>
+        <tr><th scope="row">結束日期</th><td>尚未提供</td></tr>
+        <tr><th scope="row">經費</th><td>尚未提供經費來源。</td></tr>
+      </tbody></table></div>
+  
+    <div class="project"><h3 class="empty-value">（尚未提供專案名稱）</h3><table class="project-details"><tbody>
+        <tr><th scope="row">專案編號</th><td>0</td></tr>
+        <tr><th scope="row">開始日期</th><td>尚未提供</td></tr>
+        <tr><th scope="row">結束日期</th><td>尚未提供</td></tr>
+        <tr><th scope="row">經費</th><td>尚未提供經費來源。</td></tr>
+      </tbody></table>
+      <section class="abstract">
+        <p>AUTHORED-PROJECT: 尚待補充 / N/A / 0 / Original.csv.</p>
+      </section></div>
+  
+    <div class="project"><h3 class="empty-value">（尚未提供專案名稱）</h3><table class="project-details"><tbody>
+        <tr><th scope="row">專案編號</th><td>TW-3</td></tr>
+        <tr><th scope="row">開始日期</th><td>尚未提供</td></tr>
+        <tr><th scope="row">結束日期</th><td>尚未提供</td></tr>
+        <tr><th scope="row">經費</th><td>尚未提供經費來源。</td></tr>
+      </tbody></table>
+      <section class="abstract">
+        <p>AUTHORED-PROJECT: 尚待補充 / N/A / 0 / Original.csv.</p>
+      </section></div>
+  
+</div>
+      <div id="dmp-contributors">
+  <h2>參與人員與職責</h2>
+
+  <ul>
+    <li class="contributor">
+      <span class="name">Albert Einstein</span>
+      <br><span class="contact-email"><a href="mailto:albert.einstein@example.com">albert.einstein@example.com</a></span>
+      <br>所屬機構：<span class="affiliation">My University</span>
+    </li>
+  </ul></div>
+      <aside class="document-provenance">
+  <p>問卷知識模型：Common DSW Knowledge Model (zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）</p>
+  <p>本文件由 <a href="https://ds-wizard.org">Data Stewardship Wizard</a> 產生。</p>
+</aside>
+      <div id="dmp-content">
+  <section id="sec-data-collection" class="dmp-section">
+    <h2>第 1 節：資料的描述與蒐集，或既有資料的再次使用</h2>
+    <div id="q-how-data" class="question" data-requirement-id="SE-1a">
+  <h3>1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？</h3>
+
+  <div class="answer"><p class="data-gap" data-requirement-id="SE-1a" data-fact-id="new-data" data-status="missing">尚待補充：本計畫是否將蒐集或產生新的儀器資料。</p><p class="data-gap" data-requirement-id="SE-1a" data-fact-id="reuse-sources" data-status="missing">尚待補充：是否再次使用既有資料，以及使用限制或未採用候選來源的原因。</p><p class="data-gap" data-requirement-id="SE-1a" data-fact-id="provenance" data-status="missing">尚待補充：資料來源與處理歷程的記錄方式。</p></div>
+</div>
+    <div id="q-what-data" class="question">
+  <h3>2. 將蒐集或產生哪些資料（例如種類、格式與資料量）？</h3>
+  <div class="answer">
+    <p class="data-gap" data-requirement-id="SE-1b" data-status="missing-output">本文件尚未列出資料種類、格式及預估資料量。</p>
+  </div>
+</div>
+  </section>
+  
+  <section id="sec-docs-metadata" class="dmp-section">
+    <h2>第 2 節：文件與資料品質</h2>
+    <div id="q-docs-metadata" class="question">
+  <h3>3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？</h3>
+
+  <div class="answer">
+  
+  
+    <p class="data-gap" data-requirement-id="SE-2a" data-status="missing-output">本文件尚未說明將提供哪些後設資料與說明文件。</p>
+  
+  </div>
+</div>
+    <div id="q-quality-control" class="question" data-requirement-id="SE-2b">
+  <h3>4. 將使用哪些資料品質管控措施？</h3>
+  <div class="answer">
+    
+    
+    
+    
+    
+      <p class="data-gap" data-requirement-id="SE-2b" data-status="missing-output">本文件尚未說明資料品質檢查方式。使用既有資料時，也需進行適當的品質管控。</p>
+    
+  </div>
+</div>
+  </section>
+
+  <section id="sec-storage-backup" class="dmp-section">
+    <h2>第 3 節：研究過程中的資料儲存與備份</h2>
+    <div id="q-store-backup" class="question" data-requirement-id="SE-3a">
+  <h3>5. 研究期間將如何儲存與備份資料及後設資料？</h3>
+  <div class="answer">
+    <div class="workspace-policy dataset-policy"><div class="reading-gap"><p class="data-gap" data-requirement-id="SE-3a" data-fact-id="working-storage-arrangement" data-status="missing">尚待補充：資料將存放於共享工作空間，或由計畫成員個別存放。</p></div>
+      <div class="reading-gap"><p class="data-gap" data-requirement-id="SE-3a" data-fact-id="backup-arrangement" data-status="missing">尚待補充：計畫資料與後設資料的備份方式。</p></div></div>
+    
+    
+    
+    
+    
+    
+    <div class="data-gap template-gap storage-detail-limits">
+    <p>本模板目前對應的欄位不足以確認以下執行細節：</p>
+      <ul>
+        <li data-requirement-id="SE-3a" data-fact-id="storage-location" data-status="unmapped">這些對應回答尚未明確指出工作資料與備份的實際儲存地點。</li>
+        <li data-requirement-id="SE-3a" data-fact-id="backup-frequency" data-status="unmapped">這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+    <div id="q-access-security" class="question">
+  <h3>6. 研究期間將如何處理資料安全與敏感資料保護？</h3>
+
+  <div class="answer">
+  
+  
+    <p class="data-gap" data-requirement-id="SE-3b" data-status="missing-output">本文件尚未說明資料安全與敏感資料的保護措施。</p>
+  
+  
+  
+  </div>
+</div>
+  </section>
+
+  <section id="sec-ethics-legal" class="dmp-section">
+    <h2>第 4 節：法律與倫理要求、行為準則</h2>
+    <div id="q-personal-data" class="question">
+    <h3>7. 若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？</h3>
+
+    <div class="answer">
+    
+    
+      <p class="data-gap" data-requirement-id="SE-4a" data-fact-id="personal-data-other-legal-basis" data-status="missing">尚待補充：蒐集及處理個人資料所採用的其他法律依據。</p><p class="data-gap" data-requirement-id="SE-4a" data-fact-id="personal-data-safeguards" data-status="missing">尚待補充：保護個人資料所採取的技術與程序措施。</p>
+    
+    </div>
+</div>
+    <div id="q-copyright-ipr" class="question">
+  <h3>8. 其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？
+</h3>
+
+  <div class="answer">
+    
+    
+      <p class="data-gap" data-requirement-id="SE-4b" data-status="missing-output">本文件尚未呈現資料所有權、智慧財產權或適用法規的安排，請核對並補充本節內容。</p>
+    
+  </div>
+</div>
+    <div id="q-ethical-issues" class="question">
+  <h3>9. 有哪些倫理議題與行為準則？將如何納入考量？</h3>
+
+  <div class="answer">
+  
+  
+    
+
+    <h4>倫理審查核准</h4>
+      <p>問卷記載的倫理審查安排如下：</p>
+      <ul><li class="ethical-project">
+          <strong>（名稱尚未提供）</strong>
+          
+            <p>依問卷填答，本計畫不需要倫理審查核准。</p>
+          
+        </li><li class="ethical-project">
+          <strong>（名稱尚未提供）</strong>
+          
+          <p>本計畫需要倫理審查核准。</p>
+          
+            <p class="data-gap" data-status="missing-output">倫理審查紀錄尚未提供。</p>
+          
+          
+        </li></ul><h4>我們產生的資料</h4>
+      <p>關於我們產生的資料，倫理面向如下：</p>
+      <ul><li>
+          <strong>Original-1.csv</strong><span> - <em>尚未說明是否包含個人資料或敏感資料。</em></span></li><li>
+          <strong>Original-2.csv</strong><span> - <em>尚未說明是否包含個人資料或敏感資料。</em></span></li></ul><h4>我們蒐集的資料</h4>
+        
+
+          <div class="answer-detail">我們將蒐集與個人相關的資料，即「個人資料」。本計畫選擇了其他法律依據，但尚未說明具體依據；請參閱第 7 題。處理個人資料的目的可描述如下：<p>AUTHORED-PURPOSE: N/A / 0 / Original.csv. [1] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[2] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[3] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[4] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[5] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[6] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[7] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[8] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[9] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[10] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[11] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[12] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[13] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[14] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[15] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[16] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[17] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[18] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[19] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[20] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[21] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[22] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[23] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[24] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[25] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[26] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[27] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[28] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[29] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[30] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[31] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[32] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[33] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[34] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[35] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[36] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[37] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[38] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[39] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[40] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[41] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[42] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[43] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[44] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[45] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[46] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[47] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[48] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[49] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[50] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[51] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[52] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[53] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[54] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[55] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[56] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[57] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[58] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[59] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[60] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[61] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[62] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[63] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[64] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[65] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[66] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[67] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[68] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[69] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[70] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[71] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[72] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[73] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[74] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[75] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[76] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[77] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[78] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[79] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[80] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[81] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[82] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[83] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[84] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[85] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[86] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[87] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[88] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[89] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[90] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[91] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[92] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[93] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[94] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[95] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[96] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[97] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[98] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[99] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[100] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[101] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[102] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[103] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[104] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[105] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[106] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[107] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[108] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[109] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[110] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[111] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[112] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[113] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[114] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[115] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[116] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[117] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[118] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[119] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[120] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[121] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[122] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[123] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[124] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[125] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[126] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[127] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[128] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[129] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[130] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[131] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[132] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[133] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[134] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[135] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[136] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[137] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[138] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[139] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[140] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[141] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[142] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[143] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[144] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[145] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[146] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[147] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[148] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[149] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[150] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。END-OF-LONG-FIRST-PARAGRAPH.</p>
+<ul><li>LIST-A: N/A.</li><li>LIST-B: 0.</li></ul>
+<table><thead><tr><th>Item</th><th>Value</th></tr></thead><tbody><tr><td>Original.csv</td><td>0</td></tr><tr><td>N/A</td><td>Retained.</td></tr></tbody></table>
+<p>FINAL-AUTHORED-PARAGRAPH: <a href="https://example.org/ethics">https://example.org/ethics</a></p></div>
+  
+  </div>
+</div>
+  </section>
+
+  <section id="sec-sharing-preservation" class="dmp-section">
+    <h2>第 5 節：資料共享與長期保存</h2>
+    <div id="q-share-restrictions" class="question">
+  <h3>10. 資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？</h3>
+
+  <div class="answer">
+    
+    
+      
+    
+    <div class="dataset-section" data-item-id="9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e">
+            <h5>Original-1.csv</h5>
+            
+                <div class="answer-lead"><p>此資料集將發布。</p></div>
+                
+                
+                
+                    <p class="data-gap" data-fact-id="publication-distributions" data-status="missing">資料發布位置尚未列出。</p>
+            </div><div class="dataset-section" data-item-id="4afcd3c9-b12d-571c-911b-e81b66663e1c">
+            <h5>Original-2.csv</h5>
+            
+                <div class="answer-lead"><p>此資料集將發布。</p></div>
+                
+                
+                
+                    <p class="data-gap" data-fact-id="publication-distributions" data-status="missing">資料發布位置尚未列出。</p>
+            </div>
+    
+  </div>
+</div>
+    <div id="q-data-preservation" class="question">
+  <h3>11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？</h3>
+
+  <div class="answer">
+  
+  
+    
+    <div class="dataset-section" data-item-id="9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e">
+          <h5>Original-1.csv</h5>
+          <div class="preservation-summary dataset-policy">
+          
+          
+
+
+
+
+
+          
+            <p>此資料集將發布。</p>
+          </div>
+          
+
+
+           
+          </div><div class="dataset-section" data-item-id="4afcd3c9-b12d-571c-911b-e81b66663e1c">
+          <h5>Original-2.csv</h5>
+          <div class="preservation-summary dataset-policy">
+          
+          
+
+
+
+
+
+          
+            <p>此資料集將發布。</p>
+          </div>
+          
+
+
+           
+          </div>
+    
+    
+    
+
+
+
+  <div class="reading-gap"><p class="data-gap" data-requirement-id="SE-5b" data-fact-id="preservation-selection-review" data-status="needs-review">保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。</p></div>
+  </div>
+</div>
+    <div id="q-access-data" class="question">
+  <h3>12. 取用與使用資料需要哪些方法或軟體工具？</h3>
+
+  <div class="answer">
+    <div class="dataset-section" data-item-id="9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e">
+            <h5>Original-1.csv</h5>
+            
+                <p>使用此資料集所需的軟體：</p>
+                            <ul><li><strong>N/A</strong><div>取得位置：https://example.org/tool/1/1</div></li><li><strong>（名稱尚未提供）</strong><div>取得位置：https://example.org/tool/1/2</div></li><li><strong>軟體工具 2</strong><div>取得位置：https://example.org/tool/1/3</div></li></ul></div><div class="dataset-section" data-item-id="4afcd3c9-b12d-571c-911b-e81b66663e1c">
+            <h5>Original-2.csv</h5>
+            
+                <p>使用此資料集所需的軟體：</p>
+                            <ul><li><strong>N/A</strong><div>取得位置：https://example.org/tool/2/1</div></li><li><strong>（名稱尚未提供）</strong><div>取得位置：https://example.org/tool/2/2</div></li><li><strong>軟體工具 2</strong><div>取得位置：https://example.org/tool/2/3</div></li></ul></div></div>
+</div>
+    <div id="q-persistent-identifier" class="question">
+    <h3>13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？</h3>
+
+    <div class="answer">
+    <div class="dataset-section" data-item-id="9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e">
+                <h5>Original-1.csv</h5>
+            
+                
+                        <p class="data-gap" data-fact-id="identifier-distributions" data-status="missing">資料發布位置尚未列出。</p></div><div class="dataset-section" data-item-id="4afcd3c9-b12d-571c-911b-e81b66663e1c">
+                <h5>Original-2.csv</h5>
+            
+                
+                        <p class="data-gap" data-fact-id="identifier-distributions" data-status="missing">資料發布位置尚未列出。</p></div></div>
+</div>
+  </section>
+  
+  <section id="sec-responsibilities-resources" class="dmp-section">
+    <h2>第 6 節：資料管理責任與資源</h2>
+    <div id="q-dm-responsible" class="question">
+  <h3>14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？</h3>
+
+  <div class="answer">
+    
+    
+      <p class="data-gap" data-requirement-id="SE-6a" data-status="missing-output">本文件尚未列出具名且負有資料管理職責的人員或團隊，請核對參與人員的姓名與角色。</p>
+    
+  </div>
+</div>
+    <div id="q-required-resources" class="question" data-requirement-id="SE-6b">
+  <h3>15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？</h3>
+
+  <div class="answer">
+    <p class="data-gap" data-requirement-id="SE-6b" data-fact-id="specialist-expertise" data-status="missing">尚待補充：是否需要額外的專業知識。</p><p class="data-gap" data-requirement-id="SE-6b" data-fact-id="hardware-software" data-status="missing">尚待補充：是否需要額外的硬體或軟體。</p>
+      <p class="data-gap" data-fact-id="repository-charges" data-status="missing">尚待補充：是否需支付資料儲存庫服務費。</p>
+    <h4>資料管理預算</h4><div class="project-resources" data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.53754417-98c5-59d9-ace7-ff050dbfcae7">
+                <p><strong>N/A </strong></p><p class="data-gap" data-requirement-id="SE-6b" data-fact-id="resources-costing" data-status="missing">尚待補充：本計畫編列的資料管理資源，例如工作人員時間、儲存空間、寄存準備工作及資料儲存庫費用。</p></div><div class="project-resources" data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10">
+                <p><strong>（計畫名稱尚未提供） - 0</strong></p><table class="resource-table">
+                      <colgroup><col class="resource-purpose"><col class="resource-budget"><col class="resource-funding"></colgroup>
+                      <thead><tr><th scope="col">資源項目與用途</th><th scope="col">預算</th><th scope="col">經費來源</th></tr></thead>
+                      <tbody><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.ba59b2c0-666d-5e9a-8777-b5979dcb9039"><td>
+                        <p><strong>（尚未填寫資源名稱）</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>AUTHORED-RESOURCE-2-1: N/A / 0 / Original.csv. https://example.org/resource</p></div><p>支援項目：資料管理。</p></td><td>
+                            
+                              <p data-fact-id="resource-amount-value" data-status="complete">0</p>
+                            
+                            
+                            <p class="data-gap" data-requirement-id="SE-6b" data-fact-id="resource-amount" data-status="missing">幣別尚未提供。</p>
+                        </td><td><div class="answer-detail"><p>AUTHORED-FUNDING: N/A</p></div></td></tr><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.cbf7a757-cd1f-5fda-9898-910dcb970356"><td>
+                        <p><strong>（尚未填寫資源名稱）</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>AUTHORED-RESOURCE-2-2: N/A / 0 / Original.csv. https://example.org/resource</p></div><p>支援項目：資料管理。</p></td><td>
+                            
+                              <p data-fact-id="resource-amount-value" data-status="complete">0</p>
+                            
+                            
+                            <p class="data-gap" data-requirement-id="SE-6b" data-fact-id="resource-amount" data-status="missing">幣別尚未提供。</p>
+                        </td><td><div class="answer-detail"><p>AUTHORED-FUNDING: N/A</p></div></td></tr></tbody>
+                    </table></div><div class="project-resources" data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b">
+                <p><strong>（計畫名稱尚未提供） - TW-3</strong></p><table class="resource-table">
+                      <colgroup><col class="resource-purpose"><col class="resource-budget"><col class="resource-funding"></colgroup>
+                      <thead><tr><th scope="col">資源項目與用途</th><th scope="col">預算</th><th scope="col">經費來源</th></tr></thead>
+                      <tbody><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.6dd30650-f6a6-5374-a5fa-8e1e8e3b6b73"><td>
+                        <p><strong>（尚未填寫資源名稱）</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>AUTHORED-RESOURCE-3-1: N/A / 0 / Original.csv. https://example.org/resource</p></div><p>支援項目：資料管理。</p></td><td>
+                            
+                              <p data-fact-id="resource-amount-value" data-status="complete">0</p>
+                            
+                            
+                            <p class="data-gap" data-requirement-id="SE-6b" data-fact-id="resource-amount" data-status="missing">幣別尚未提供。</p>
+                        </td><td><div class="answer-detail"><p>AUTHORED-FUNDING: N/A</p></div></td></tr><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.b6e6baab-6fd3-594c-aa0f-b7e21642749f"><td>
+                        <p><strong>（尚未填寫資源名稱）</strong></p><div class="answer-detail" data-fact-id="resource-justification" data-status="complete"><p>AUTHORED-RESOURCE-3-2: N/A / 0 / Original.csv. https://example.org/resource</p></div><p>支援項目：資料管理。</p></td><td>
+                            
+                              <p data-fact-id="resource-amount-value" data-status="complete">0</p>
+                            
+                            
+                            <p class="data-gap" data-requirement-id="SE-6b" data-fact-id="resource-amount" data-status="missing">幣別尚未提供。</p>
+                        </td><td><div class="answer-detail"><p>AUTHORED-FUNDING: N/A</p></div></td></tr></tbody>
+                    </table></div></div>
+</div>
+  </section>
+</div>
+    </article>
+  </body>
+</html>

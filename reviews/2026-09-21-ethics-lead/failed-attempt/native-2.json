@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "global_switch_complete": false,
+  "microsoft_word_acceptance": false,
+  "checker_sha256": "4c3aaf2547b2a61c156033e79cb03741028e6e4436923207935ae418937026f3",
+  "recipe_sha256": "e0927ec342c6bad26700370617e7038092b9b2d6d0d024b86e85c90e96b289bd",
+  "failure": "AssertionError(('ethics-long-submission-chinese', 'native_pdf', 'More pages'))"
+}
