@@ -1,0 +1,526 @@
+[
+  {
+    "type": "SetReplyEvent",
+    "uuid": "6c310cdf-954a-52c5-a790-b3652e507887",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667",
+    "value": {
+      "type": "ItemListReply",
+      "value": [
+        "53754417-98c5-59d9-ace7-ff050dbfcae7",
+        "00a84618-bdaf-5068-9af3-d2c953409e10",
+        "d6953c68-e33b-51e4-bbe9-57e7b7489b4b"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "4d871565-4df9-5c12-8680-1b2918f7b988",
+    "path": "b1df3c74-0b1f-4574-81c4-4cc2d780c1af.49c009cb-a38c-4836-9780-8a8b3dd1cbac",
+    "value": {
+      "type": "AnswerReply",
+      "value": "421e2d3e-c95c-4244-9465-de8f1cb8aeba"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "67f57818-3828-5712-ad81-b21528e04733",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30",
+    "value": {
+      "type": "ItemListReply",
+      "value": [
+        "9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e",
+        "4afcd3c9-b12d-571c-911b-e81b66663e1c"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "9eea491b-d4f5-57b9-8a40-1b808fc8f4d7",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.22583d74-3c98-4e0a-b363-26d767c88212",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-PROJECT: 尚待補充 / N/A / 0 / Original.csv."
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "8b292345-841d-5497-bc34-2923e5c87c40",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701",
+    "value": {
+      "type": "ItemListReply",
+      "value": [
+        "ba59b2c0-666d-5e9a-8777-b5979dcb9039",
+        "cbf7a757-cd1f-5fda-9898-910dcb970356"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "e1c2a0e4-f92f-5ca0-be46-e02dd2bf7f64",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.56163eb0-0101-40b4-b1c1-580875196b5c",
+    "value": {
+      "type": "StringReply",
+      "value": "0"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "afe5832a-5049-579a-84d9-f688c3c5351f",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.dbb99f35-bdd9-4637-890e-23ba5bc19d6a",
+    "value": {
+      "type": "AnswerReply",
+      "value": "2eb83683-86bc-4615-86b7-1d9bf0e414cc"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "8fd84d5b-545c-53c1-9762-555d16530295",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.53754417-98c5-59d9-ace7-ff050dbfcae7.f0ef08fd-d733-465c-bc66-5de0b826c41b",
+    "value": {
+      "type": "StringReply",
+      "value": "N/A"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "116ff1c5-f2a6-51ae-aa33-578ed4a2d0e0",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.22583d74-3c98-4e0a-b363-26d767c88212",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-PROJECT: 尚待補充 / N/A / 0 / Original.csv."
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "78b5e38a-0c68-5b9b-9082-39530eb03e56",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701",
+    "value": {
+      "type": "ItemListReply",
+      "value": [
+        "6dd30650-f6a6-5374-a5fa-8e1e8e3b6b73",
+        "b6e6baab-6fd3-594c-aa0f-b7e21642749f"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "f585186e-5177-558d-8009-41f30ceb4eed",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.56163eb0-0101-40b4-b1c1-580875196b5c",
+    "value": {
+      "type": "StringReply",
+      "value": "TW-3"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "f46b19ac-badc-5814-852e-3feded0622cc",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.dbb99f35-bdd9-4637-890e-23ba5bc19d6a",
+    "value": {
+      "type": "AnswerReply",
+      "value": "f301ae6e-5bbe-4fe9-a637-f2d5c5f05c73"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "0b83576e-0a55-573f-8847-a7aa142c7873",
+    "path": "b1df3c74-0b1f-4574-81c4-4cc2d780c1af.49c009cb-a38c-4836-9780-8a8b3dd1cbac.421e2d3e-c95c-4244-9465-de8f1cb8aeba.c8687abf-ac88-4bef-b1cc-7070bd039a07",
+    "value": {
+      "type": "AnswerReply",
+      "value": "d8ecede2-f952-4b08-8a68-20d97849733f"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "e0044d17-b259-52a0-a4e1-c7b7bb129958",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292",
+    "value": {
+      "type": "AnswerReply",
+      "value": "8d1b07a7-f177-41f5-9532-05536223a8d6"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "8130f1ba-1530-57fb-9d33-1472441e4794",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.b0949d09-d179-4491-9fb4-14b0deb9f862",
+    "value": {
+      "type": "StringReply",
+      "value": "Original-2.csv"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "2141175c-58b7-5a4e-aa6c-0c99b5d2783b",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292",
+    "value": {
+      "type": "AnswerReply",
+      "value": "8d1b07a7-f177-41f5-9532-05536223a8d6"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "543f5234-8363-5618-85f4-f2e39afa0fcd",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.b0949d09-d179-4491-9fb4-14b0deb9f862",
+    "value": {
+      "type": "StringReply",
+      "value": "Original-1.csv"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "79cbba82-7445-54b9-9506-148cdccb76d8",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.ba59b2c0-666d-5e9a-8777-b5979dcb9039.028909e8-7392-4385-96a3-467d79c43a42",
+    "value": {
+      "type": "MultiChoiceReply",
+      "value": [
+        "d2a9d717-c0b2-44ee-8a6d-8476831b6225"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "96f28aa5-36f8-5b18-af9f-65ba44ed6d6a",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.ba59b2c0-666d-5e9a-8777-b5979dcb9039.46cd176a-138a-4f6c-8cd5-dfcb1f23f04a",
+    "value": {
+      "type": "AnswerReply",
+      "value": "2e37f71b-b7aa-4182-888a-8b7a5156b53c"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "84eaac8a-a800-5312-a306-21a05ca53fb9",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.ba59b2c0-666d-5e9a-8777-b5979dcb9039.7098b454-bc5e-4f83-a95d-970aa42e1479",
+    "value": {
+      "type": "StringReply",
+      "value": "（尚未填寫資源名稱）"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "caa65de4-de47-558b-b5cb-82479889919d",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.ba59b2c0-666d-5e9a-8777-b5979dcb9039.b3d9b6ca-bd24-4fa3-a3bd-d15005b9ae8b",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-RESOURCE-2-1: N/A / 0 / Original.csv. https://example.org/resource"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "209a34fc-0533-522f-82ab-510301b97a96",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.ba59b2c0-666d-5e9a-8777-b5979dcb9039.e53fdad9-7799-4eb4-8b4d-fa9aa05f9d2d",
+    "value": {
+      "type": "StringReply",
+      "value": "0"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "e29e1032-a2db-52de-bd4f-fe430d4f40a9",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.cbf7a757-cd1f-5fda-9898-910dcb970356.028909e8-7392-4385-96a3-467d79c43a42",
+    "value": {
+      "type": "MultiChoiceReply",
+      "value": [
+        "d2a9d717-c0b2-44ee-8a6d-8476831b6225"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "a9dc319f-6efe-5e64-a956-918fd2daacb5",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.cbf7a757-cd1f-5fda-9898-910dcb970356.46cd176a-138a-4f6c-8cd5-dfcb1f23f04a",
+    "value": {
+      "type": "AnswerReply",
+      "value": "2e37f71b-b7aa-4182-888a-8b7a5156b53c"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "2bffd9b6-3501-56b2-aa03-0f4e0cb24dda",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.cbf7a757-cd1f-5fda-9898-910dcb970356.b3d9b6ca-bd24-4fa3-a3bd-d15005b9ae8b",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-RESOURCE-2-2: N/A / 0 / Original.csv. https://example.org/resource"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "7be71c39-e264-57ca-ab03-fe8db3423eea",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.cbf7a757-cd1f-5fda-9898-910dcb970356.e53fdad9-7799-4eb4-8b4d-fa9aa05f9d2d",
+    "value": {
+      "type": "StringReply",
+      "value": "0"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "6bb65916-d439-5c03-9e6a-f6da49f929bb",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.6dd30650-f6a6-5374-a5fa-8e1e8e3b6b73.028909e8-7392-4385-96a3-467d79c43a42",
+    "value": {
+      "type": "MultiChoiceReply",
+      "value": [
+        "d2a9d717-c0b2-44ee-8a6d-8476831b6225"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "d87fc49d-4e6a-5e94-a777-654c344905fe",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.6dd30650-f6a6-5374-a5fa-8e1e8e3b6b73.46cd176a-138a-4f6c-8cd5-dfcb1f23f04a",
+    "value": {
+      "type": "AnswerReply",
+      "value": "2e37f71b-b7aa-4182-888a-8b7a5156b53c"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "6be91608-100e-5e08-80bf-2bfb67d6b207",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.6dd30650-f6a6-5374-a5fa-8e1e8e3b6b73.7098b454-bc5e-4f83-a95d-970aa42e1479",
+    "value": {
+      "type": "StringReply",
+      "value": "（尚未填寫資源名稱）"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "5d12d2e8-ff42-5945-bcbf-73dad4e1f13a",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.6dd30650-f6a6-5374-a5fa-8e1e8e3b6b73.b3d9b6ca-bd24-4fa3-a3bd-d15005b9ae8b",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-RESOURCE-3-1: N/A / 0 / Original.csv. https://example.org/resource"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "bcb7de56-bd39-5a87-b9e5-1e64da467ca3",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.6dd30650-f6a6-5374-a5fa-8e1e8e3b6b73.e53fdad9-7799-4eb4-8b4d-fa9aa05f9d2d",
+    "value": {
+      "type": "StringReply",
+      "value": "0"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "00fd778e-72ef-5e53-be3a-6cc7d903dcb7",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.b6e6baab-6fd3-594c-aa0f-b7e21642749f.028909e8-7392-4385-96a3-467d79c43a42",
+    "value": {
+      "type": "MultiChoiceReply",
+      "value": [
+        "d2a9d717-c0b2-44ee-8a6d-8476831b6225"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "406d7200-3dbb-5f1e-8548-984c267a89f6",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.b6e6baab-6fd3-594c-aa0f-b7e21642749f.46cd176a-138a-4f6c-8cd5-dfcb1f23f04a",
+    "value": {
+      "type": "AnswerReply",
+      "value": "2e37f71b-b7aa-4182-888a-8b7a5156b53c"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "56dbc80e-fdda-5a32-8341-b5f024a560d1",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.b6e6baab-6fd3-594c-aa0f-b7e21642749f.b3d9b6ca-bd24-4fa3-a3bd-d15005b9ae8b",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-RESOURCE-3-2: N/A / 0 / Original.csv. https://example.org/resource"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "319ed7f4-d53f-5939-b7b3-a14b55915f9d",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.b6e6baab-6fd3-594c-aa0f-b7e21642749f.e53fdad9-7799-4eb4-8b4d-fa9aa05f9d2d",
+    "value": {
+      "type": "StringReply",
+      "value": "0"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "5e10378b-e924-512e-8be5-c1f69f62f3fc",
+    "path": "b1df3c74-0b1f-4574-81c4-4cc2d780c1af.49c009cb-a38c-4836-9780-8a8b3dd1cbac.421e2d3e-c95c-4244-9465-de8f1cb8aeba.c8687abf-ac88-4bef-b1cc-7070bd039a07.d8ecede2-f952-4b08-8a68-20d97849733f.be4651c9-9a8c-4e10-a158-61b94ca0e139",
+    "value": {
+      "type": "AnswerReply",
+      "value": "2a84c15c-f5ca-4471-b1fe-10f3d1231f24"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "4dc813fe-a130-5ce0-8d0e-b72458b3a2c6",
+    "path": "b1df3c74-0b1f-4574-81c4-4cc2d780c1af.49c009cb-a38c-4836-9780-8a8b3dd1cbac.421e2d3e-c95c-4244-9465-de8f1cb8aeba.c8687abf-ac88-4bef-b1cc-7070bd039a07.d8ecede2-f952-4b08-8a68-20d97849733f.c7496ece-4535-4f5d-bcf7-7845989906e9",
+    "value": {
+      "type": "StringReply",
+      "value": "<p>AUTHORED-PURPOSE: N/A / 0 / Original.csv. [1] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[2] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[3] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[4] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[5] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[6] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[7] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[8] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[9] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[10] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[11] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[12] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[13] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[14] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[15] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[16] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[17] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[18] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[19] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[20] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[21] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[22] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[23] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[24] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[25] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[26] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[27] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[28] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[29] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[30] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[31] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[32] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[33] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[34] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[35] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[36] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[37] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[38] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[39] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[40] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[41] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[42] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[43] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[44] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[45] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[46] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[47] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[48] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[49] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[50] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[51] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[52] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[53] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[54] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[55] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[56] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[57] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[58] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[59] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[60] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[61] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[62] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[63] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[64] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[65] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[66] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[67] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[68] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[69] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[70] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[71] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[72] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[73] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[74] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[75] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[76] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[77] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[78] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[79] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[80] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[81] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[82] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[83] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[84] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[85] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[86] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[87] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[88] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[89] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[90] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[91] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[92] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[93] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[94] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[95] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[96] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[97] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[98] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[99] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[100] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[101] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[102] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[103] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[104] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[105] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[106] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[107] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[108] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[109] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[110] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[111] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[112] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[113] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[114] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[115] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[116] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[117] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[118] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[119] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[120] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[121] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[122] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[123] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[124] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[125] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[126] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[127] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[128] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[129] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[130] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[131] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[132] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[133] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[134] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[135] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[136] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[137] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[138] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[139] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[140] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[141] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[142] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[143] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[144] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[145] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[146] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[147] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[148] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[149] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。[150] 這是用於跨頁測試的公開合成文字；N/A 與 0 均須原樣保留，不代表研究計畫的承諾。END-OF-LONG-FIRST-PARAGRAPH.</p><ul><li>LIST-A: N/A.</li><li>LIST-B: 0.</li></ul><table><thead><tr><th>Item</th><th>Value</th></tr></thead><tbody><tr><td>Original.csv</td><td>0</td></tr><tr><td>N/A</td><td>Retained.</td></tr></tbody></table><p>FINAL-AUTHORED-PARAGRAPH: <a href=\"https://example.org/ethics\">https://example.org/ethics</a></p>"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "f4bf51e0-bc4f-5467-b425-9a0c8e8b5218",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a",
+    "value": {
+      "type": "AnswerReply",
+      "value": "371461b3-3758-443d-b06a-fa37514be4da"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "0b894381-d81f-5dd5-82bf-2017dd41ebf6",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a",
+    "value": {
+      "type": "AnswerReply",
+      "value": "371461b3-3758-443d-b06a-fa37514be4da"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "b22f5231-cfe9-5a57-a3d2-a08a10a8265d",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.ba59b2c0-666d-5e9a-8777-b5979dcb9039.46cd176a-138a-4f6c-8cd5-dfcb1f23f04a.2e37f71b-b7aa-4182-888a-8b7a5156b53c.2964c7f7-d9be-42ac-8cfe-dbcf4d62f8a2",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-FUNDING: N/A"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "91608697-d557-5fb4-959b-853433a86922",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.cbf7a757-cd1f-5fda-9898-910dcb970356.46cd176a-138a-4f6c-8cd5-dfcb1f23f04a.2e37f71b-b7aa-4182-888a-8b7a5156b53c.2964c7f7-d9be-42ac-8cfe-dbcf4d62f8a2",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-FUNDING: N/A"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "3b42c6a6-d36c-5809-9a23-3d63069ab35e",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.6dd30650-f6a6-5374-a5fa-8e1e8e3b6b73.46cd176a-138a-4f6c-8cd5-dfcb1f23f04a.2e37f71b-b7aa-4182-888a-8b7a5156b53c.2964c7f7-d9be-42ac-8cfe-dbcf4d62f8a2",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-FUNDING: N/A"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "9ab91d36-7936-5ed6-bcd4-258d0f3eba3e",
+    "path": "1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.b6e6baab-6fd3-594c-aa0f-b7e21642749f.46cd176a-138a-4f6c-8cd5-dfcb1f23f04a.2e37f71b-b7aa-4182-888a-8b7a5156b53c.2964c7f7-d9be-42ac-8cfe-dbcf4d62f8a2",
+    "value": {
+      "type": "StringReply",
+      "value": "AUTHORED-FUNDING: N/A"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "cb64aac3-39af-590f-85c6-f33e4be1ba8e",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818",
+    "value": {
+      "type": "ItemListReply",
+      "value": [
+        "6762d747-6fbb-5a18-a001-69591f01558f",
+        "16489c36-3361-5a37-8495-f4e6b8614d04",
+        "a46c3704-a202-5a3c-ab8a-0b7a06aeac2d"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "c8d652f9-33cd-5d36-8b62-8c50a364658f",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818",
+    "value": {
+      "type": "ItemListReply",
+      "value": [
+        "c1404f01-1413-5b31-a1b1-f6026a161813",
+        "35afce52-6e91-5e42-a6bf-d4d01b78abb4",
+        "a7ebf970-0775-5246-9f4b-e9b81ecea24b"
+      ]
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "344b2f0f-46b8-5352-8e54-ffb9c5b49f1e",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.16489c36-3361-5a37-8495-f4e6b8614d04.f29e2dbd-8edc-4ac3-92ba-96a6d507789b",
+    "value": {
+      "type": "StringReply",
+      "value": "https://example.org/tool/2/2"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "04a464d3-62a3-5ad7-8560-135f9a336670",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.6762d747-6fbb-5a18-a001-69591f01558f.235b36a8-3df7-44b7-9d0f-2ced3e4281a3",
+    "value": {
+      "type": "StringReply",
+      "value": "N/A"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "ae2c907c-18fa-5b07-9982-77a6546eb4bf",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.6762d747-6fbb-5a18-a001-69591f01558f.f29e2dbd-8edc-4ac3-92ba-96a6d507789b",
+    "value": {
+      "type": "StringReply",
+      "value": "https://example.org/tool/2/1"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "679a521d-e907-5513-b9eb-c7507fd3d74e",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.a46c3704-a202-5a3c-ab8a-0b7a06aeac2d.235b36a8-3df7-44b7-9d0f-2ced3e4281a3",
+    "value": {
+      "type": "StringReply",
+      "value": "軟體工具 2"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "9830d51d-8ba6-55b1-9f1d-de233d1ce8c8",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.4afcd3c9-b12d-571c-911b-e81b66663e1c.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.a46c3704-a202-5a3c-ab8a-0b7a06aeac2d.f29e2dbd-8edc-4ac3-92ba-96a6d507789b",
+    "value": {
+      "type": "StringReply",
+      "value": "https://example.org/tool/2/3"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "96d02ab5-0930-573f-8534-25280d6df096",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.35afce52-6e91-5e42-a6bf-d4d01b78abb4.f29e2dbd-8edc-4ac3-92ba-96a6d507789b",
+    "value": {
+      "type": "StringReply",
+      "value": "https://example.org/tool/1/2"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "c315ec4c-a92d-5cb9-b0fe-5ea59dc7edff",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.a7ebf970-0775-5246-9f4b-e9b81ecea24b.235b36a8-3df7-44b7-9d0f-2ced3e4281a3",
+    "value": {
+      "type": "StringReply",
+      "value": "軟體工具 2"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "6ec306c6-23a6-5ac0-b69e-0b037af9717d",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.a7ebf970-0775-5246-9f4b-e9b81ecea24b.f29e2dbd-8edc-4ac3-92ba-96a6d507789b",
+    "value": {
+      "type": "StringReply",
+      "value": "https://example.org/tool/1/3"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "82ce1acd-c3c7-53c9-9758-f9775a58fd48",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.c1404f01-1413-5b31-a1b1-f6026a161813.235b36a8-3df7-44b7-9d0f-2ced3e4281a3",
+    "value": {
+      "type": "StringReply",
+      "value": "N/A"
+    }
+  },
+  {
+    "type": "SetReplyEvent",
+    "uuid": "242a74b0-97f6-5f6d-b83e-443fc8725a5c",
+    "path": "d5b27482-b598-4b8c-b534-417d4ad27394.4e0c1edf-660c-4ebf-81f5-9fa959dead30.9e525c0e-d9b8-53f2-9fe5-9a9d246fd03e.a063da1c-aaea-4e18-85ec-f560d833f292.8d1b07a7-f177-41f5-9532-05536223a8d6.1302cb21-6a98-490e-b64d-acf4744a8b1a.371461b3-3758-443d-b06a-fa37514be4da.b8543a67-2a6b-4f45-a0b0-d245227f9818.c1404f01-1413-5b31-a1b1-f6026a161813.f29e2dbd-8edc-4ac3-92ba-96a6d507789b",
+    "value": {
+      "type": "StringReply",
+      "value": "https://example.org/tool/1/1"
+    }
+  }
+]

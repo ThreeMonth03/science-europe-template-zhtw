@@ -1,0 +1,34 @@
+{
+  "full_source_rehearsal": true,
+  "source_integrated": false,
+  "translation_units": 766,
+  "machine_helper_translation_units": 0,
+  "blanks": [
+    {
+      "document_path": "tree/src/macros.html.j2/0010-project-163ddc1abe/0001-project-989b458754/translation.md",
+      "source_file": "src/macros.html.j2",
+      "sentence": "Project {index}"
+    },
+    {
+      "document_path": "tree/src/macros.html.j2/0011-resource-93994cb7f7/0001-resource-3835b05c31/translation.md",
+      "source_file": "src/macros.html.j2",
+      "sentence": "Resource {index}"
+    },
+    {
+      "document_path": "tree/src/macros.html.j2/0012-software-tool-87f0b8f115/0001-software-tool-44694f7a4a/translation.md",
+      "source_file": "src/macros.html.j2",
+      "sentence": "Software tool {index}"
+    },
+    {
+      "document_path": "tree/src/questions/09-ethical-issues.html.j2/0031-an-alternative-legal-basis-was-selected-b8f52e8a16/0001-an-alternative-legal-basis-was-selected-ab4b5c67ce/translation.md",
+      "source_file": "src/questions/09-ethical-issues.html.j2",
+      "sentence": "An alternative legal basis was selected."
+    },
+    {
+      "document_path": "tree/src/questions/15-required-resources.html.j2/0019-no-name-given-3b7679a70b/0001-no-name-given-a93a26bdb4/translation.md",
+      "source_file": "src/questions/15-required-resources.html.j2",
+      "sentence": "(no name given)"
+    }
+  ],
+  "native_checked": false
+}

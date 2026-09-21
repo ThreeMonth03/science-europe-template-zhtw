@@ -1,0 +1,11 @@
+{
+  "all_renders_succeeded": false,
+  "release_acceptance": false,
+  "validation": [],
+  "renders": [],
+  "checker_sha256": "7f6e1770e88b0d3744195211d358ee03c42228401e57dea6dea25cae7c49c6b7",
+  "package_sha256": {
+    "english.zip": "d352815d18bfd651bf7e03dc37e1a3a5e8002cd7118e75e684c9eff47afc4584",
+    "chinese.zip": "c733d055ef1a52c66fc85c5bef3c04e616fcd069024ba29b068224ca574309c2"
+  }
+}

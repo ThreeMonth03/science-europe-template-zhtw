@@ -1,0 +1,11 @@
+{
+  "passed": false,
+  "prototype_only": true,
+  "source_integrated": false,
+  "full_source_translation_checked": false,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "checker_sha256": "4867a1d9961607f054891f21c257fe0e19ba1bd76a6f2548613f05507d6f4063",
+  "recipe_sha256": "bdcfa935cfdcc2e078a8765b4370b556b2c0973d1e0e766d3e2589f8ae514d90",
+  "failure": "AssertionError()"
+}

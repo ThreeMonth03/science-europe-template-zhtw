@@ -1,0 +1,69 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "ethics-missing-review-english",
+      "docx_sha256": "a7a387c3dbbe6f6fc8fd361e59c0a416810b78097c7c70029e0e9ff6494a8e90",
+      "preview_sha256": "b10914075d7b6f23689ab84a591f7c4474a99433e546382300d3c385c523d58f"
+    },
+    {
+      "name": "ethics-missing-review-chinese",
+      "docx_sha256": "64e916ebe924839fb583a7c236751294c28ffa3f11454e92fd559f2fce08229c",
+      "preview_sha256": "3cbceeeb12bdcd4a0a0b195b2e27d31f1e3776ddf0d8310bc6db6f4631be3fa8"
+    },
+    {
+      "name": "ethics-missing-submission-english",
+      "docx_sha256": "263d8a80dfec13fcfe738212d9feaa98de40e11445c97408795e350e29b79c88",
+      "preview_sha256": "9a57039be65be53ed745f6d20cad90afecba0d521169c69a8a2e771fe0c01ba3"
+    },
+    {
+      "name": "ethics-missing-submission-chinese",
+      "docx_sha256": "d0ea38a857f1a167c94b7ff5e8c52914cee962647a7c8bd7370f39a8061cbfea",
+      "preview_sha256": "8dbfde0b4b4ce3115de5640878425cfc4a2acfb427106953266346df49555def"
+    },
+    {
+      "name": "ethics-answered-review-english",
+      "docx_sha256": "8ef4a4a45f8408d0f917584be8d5ac0b33ad7fbf3361492e48c2b429e57f4d94",
+      "preview_sha256": "13275291e010ceae8ce57765e66176cc528550378e42b178523416f0bb85e446"
+    },
+    {
+      "name": "ethics-answered-review-chinese",
+      "docx_sha256": "4695c77fff0a7cbe1d14d999cd6ba9801d2f4b9138b23c2b9f144e8cc65cfd5f",
+      "preview_sha256": "1f01fc4bbe30d09df7021dccca16c6ba06fa2549feba4db9dfba08dbca2c8889"
+    },
+    {
+      "name": "ethics-answered-submission-english",
+      "docx_sha256": "4eaeeb07e86c54f739b3d1dc0419f20c48aed62e3ffa3d1020c8209cbc00b3b9",
+      "preview_sha256": "2c7d049a17694bd237500301a281d63ab32dc6d658b30b31152c9d37dec13042"
+    },
+    {
+      "name": "ethics-answered-submission-chinese",
+      "docx_sha256": "98879a9dfcff8adb2249ef669551ffdb99a1be404c14160bb06ddd83a16091e5",
+      "preview_sha256": "0406a3f8fa84b18cfce49f5706facea6a580f3d234936a3aa5bd61fff809b55c"
+    },
+    {
+      "name": "ethics-long-review-english",
+      "docx_sha256": "e536910d1c6f8f5c7942a4668e806f8a55b3b13cfa2de10bb368813ece1534cf",
+      "preview_sha256": "541de46aa5bf3817c772ed8d1b27f5b35ea30eafb063a1fa9e9487f1f137188f"
+    },
+    {
+      "name": "ethics-long-review-chinese",
+      "docx_sha256": "c9e98ce7bec7de6a4ca84ec5ab14482c838a76ea82c159ce9b9424b555c20cbb",
+      "preview_sha256": "96ffd8ceb98055ccf2fcd80822a77f7021ca1839e4536c694a70542f645be696"
+    },
+    {
+      "name": "ethics-long-submission-english",
+      "docx_sha256": "3b470a00adaaea908188f197b340e07c282c9018e29c44a91af3c61c91bfcf77",
+      "preview_sha256": "676d235ef84a58b571fc13b43fb4edecedbf07df4917ee2551acc1e3fa75af61"
+    },
+    {
+      "name": "ethics-long-submission-chinese",
+      "docx_sha256": "0f4076c0aae20676c9052765055553daa7f2eb895d94510b397bdead5189f02f",
+      "preview_sha256": "6adf9246e46ff2f4b8541a67379f96a88c00de3bbf98094d027f0c66efc75fdb"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "86ad75c56b82f18583f1e85422a05bc1127a55b9444eec2b85ae69601895e6fa",
+  "completed": true
+}

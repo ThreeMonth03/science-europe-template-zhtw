@@ -1,0 +1,146 @@
+{# Formatting macros #}
+{%- macro provenanceReading(value) -%}
+  {# Conservative keep hint, never a Markdown rewrite. Unknown/complex HTML
+     remains breakable. Bounds include the lead, header and every data cell. #}
+  {%- set rendered = value|markdown -%}
+  {%- set small = namespace(ok=rendered.count('<table>') == 1 and rendered.count('</table>') == 1 and rendered.count('<tr>') >= 2 and rendered.count('<tr>') <= 4 and rendered|striptags|length <= 500) -%}
+  {%- for fragment in rendered.split('<')[1:] -%}
+    {%- if fragment.split('>')[0] not in ['p', '/p', 'table', '/table', 'thead', '/thead', 'tbody', '/tbody', 'tr', '/tr', 'th', '/th', 'td', '/td', 'strong', '/strong', 'em', '/em', 'code', '/code'] -%}
+      {%- set small.ok = false -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- for row in rendered.split('<tr>')[1:] -%}
+    {%- set cells = row.split('</tr>')[0] -%}
+    {%- if cells.count('<td>') + cells.count('<th>') > 4 -%}{%- set small.ok = false -%}{%- endif -%}
+  {%- endfor -%}
+  {%- set normalized = rendered|replace('<th>', '<td>')|replace('</th>', '</td>') -%}
+  {%- for cell in normalized.split('<td>')[1:] -%}
+    {%- if cell.split('</td>')[0]|striptags|length > 80 -%}{%- set small.ok = false -%}{%- endif -%}
+  {%- endfor -%}
+  {% if small.ok %}<div class="short-table-unit">{{ rendered }}</div>{% else %}{{ rendered }}{% endif %}
+{%- endmacro -%}
+
+{%- macro formatEmail(email) -%}
+  <span class="contact-email"><a href="mailto:{{ email }}">{{ email }}</a></span>
+{%- endmacro -%}
+
+{%- macro formatOrcid(reply) -%}
+  {%- if reply and reply.value.value.type == "IntegrationType" -%}
+    {%- if reply.value.value.raw -%}
+      {%- set replyObject = reply.value.value.raw -%}
+      <span class="contact-orcid">ORCID: <a href="https://orcid.org/{{ replyObject["orcid-id"] }}" target="_blank">{{ replyObject["orcid-id"] }}</a></span>
+    {%- else -%}
+      {# Extract ORCID number from the value string #}
+      {%- set value = reply.value.value.value %}
+      {%- set orcid = value.split('ORCID:')[-1].strip().split()[0]|replace("**", "")|markdown|replace("<p>", "")|replace("</p>", "") if 'ORCID:' in value else None %}
+      {%- if orcid and orcid|length >= 15 -%}
+        <span class="contact-orcid">ORCID: {{ orcid }}</span>
+      {%- else -%}
+        <span class="contact-orcid">ORCID: Not found</span>
+      {%- endif -%}
+    {%- endif -%}
+  {%- elif reply and reply.value.value.type == "PlainType" -%}
+    <span class="contact-orcid">ORCID: <a href="https://orcid.org/{{ reply.value.value.value }}" target="_blank">{{ reply.value.value.value }}</a></span>
+  {%- endif -%}
+{%- endmacro -%}
+
+{# Keep a short owned quantity together in PDF and Word; never bind a long free answer. #}
+{%- macro quantity(value, unit) -%}
+  {%- if value|trim|length <= 24 -%}
+    <span class="quantity">{{ value|e }}&#160;{{ unit|e }}</span>
+  {%- else -%}
+    {{ value|e }} {{ unit|e }}
+  {%- endif -%}
+{%- endmacro -%}
+
+{# A date-shaped field, not date validation or a rewrite of arbitrary prose. #}
+{%- macro calendarDate(value) -%}
+  {%- set dateText = value|string -%}
+  {%- if dateText|length == 10 and dateText[4] == '-' and dateText[7] == '-' and (dateText[:4] ~ dateText[5:7] ~ dateText[8:]).isascii() and (dateText[:4] ~ dateText[5:7] ~ dateText[8:]).isdigit() -%}
+    <span class="date-value" data-iso-date="{{ dateText|e }}">{{ dateText|e }}</span>
+  {%- else -%}
+    {{ dateText|e }}
+  {%- endif -%}
+{%- endmacro -%}
+
+{%- macro integrationFairSharing(reply) -%}
+  {%- if reply and reply.value.value.type == "IntegrationType" -%}
+    {%- if reply.value.value.raw -%}
+      {%- set replyObject = reply.value.value.raw -%}
+      {%- if replyObject.doi -%}
+        <a href="https://doi.org/{{ replyObject.doi }}" target="_blank">{{ replyObject.name }}</a>
+      {%- else -%}
+        <a href="https://fairsharing.org/{{ replyObject.id }}" target="_blank">{{ replyObject.name }}</a>
+      {%- endif -%}
+    {%- else -%}
+      {{ reply.value.value.value.rsplit(" ![]")[0]|replace("**", "")|markdown|replace("<p>", "")|replace("</p>", "") }}
+    {%- endif -%}
+  {%- elif reply and reply.value.value.type == "PlainType" -%}
+    {{ reply.value.value.value }}
+  {%- endif -%}
+{%- endmacro -%}
+
+{%- macro integrationCrossref(reply) -%}
+  {%- if reply and reply.value.value.type == "IntegrationType" -%}
+    {%- if reply.value.value.raw -%}
+      {%- set replyObject = reply.value.value.raw -%}
+      <a href="{{ replyObject.uri }}" target="_blank">{{ replyObject.name }}</a>
+    {%- else -%}
+      {{ reply.value.value.value.rsplit(" ![]")[0]|replace("**", "")|markdown|replace("<p>", "")|replace("</p>", "") }}
+    {%- endif -%}
+  {%- elif reply and reply.value.value.type == "PlainType" -%}
+    {{ reply.value.value.value }}
+  {%- endif -%}
+{%- endmacro -%}
+
+{%- macro integrationROR(reply) -%}
+  {%- if reply and reply.value.value.type == "IntegrationType" -%}
+    {%- if reply.value.value.raw -%}
+      {%- set item = reply.value.value.raw -%}
+      {% for name in item.names -%}
+        {% if "ror_display" in name.types -%}
+          <a href="{{ item.id }}" target="_blank">{{ name.value }}</a>
+        {%- endif %}
+      {%- endfor %}
+      {% for name in item.names -%}
+        {% if "acronym" in name.types -%}
+          ({{ name.value }})
+        {%- endif %}
+      {%- endfor %}
+    {%- else -%}
+      {{ reply.value.value.value.rsplit(" ![]")[0]|replace("**", "")|markdown|replace("<p>", "")|replace("</p>", "") }}
+    {%- endif -%}
+  {%- elif reply and reply.value.value.type == "PlainType" -%}
+    {{ reply.value.value.value }}
+  {%- endif -%}
+{%- endmacro -%}
+
+{%- macro integrationCurrency(reply) -%}
+  {%- if reply and reply.value.value.type == "IntegrationType" -%}
+    {%- if reply.value.value.raw -%}
+      {%- set replyObject = reply.value.value.raw -%}
+      {{replyObject.code}} ({{replyObject.name}})
+    {%- else -%}
+      {{ reply.value.value.value.rsplit(" ![]")[0]|replace("**", "")|markdown|replace("<p>", "")|replace("</p>", "") }}
+    {%- endif -%}
+  {%- elif reply and reply.value.value.type == "PlainType" -%}
+    {{ reply.value.value.value }}
+  {%- endif -%}
+{%- endmacro -%}
+
+{%- macro integrationValue(reply) -%}
+    {{ reply.value.value.value }}
+{%- endmacro -%}
+
+{%- set DATASET_INSTRUMENT = "instrument" -%}
+{%- set DATASET_REFERENCE = "reference" -%}
+{%- set DATASET_NON_REFERENCE = "non-reference" -%}
+{%- set DATASET_NON_EQUIPMENT = "non-equipment" -%}
+{%- set DATASET_PRODUCED = "produced" -%}
+{%- macro datasetLabel(kind, index) -%}<span class="dataset-label" data-list-kind="{{ kind }}" data-list-index="{{ index }}">{%- if kind == "instrument" -%}Instrument dataset{%- elif kind == "reference" -%}Reference dataset{%- elif kind == "non-reference" -%}Non-reference dataset{%- elif kind == "non-equipment" -%}Non-equipment dataset{%- elif kind == "produced" -%}Produced dataset{%- endif %} {{ index }}</span>{%- endmacro -%}
+
+{%- macro projectLabel(index) -%}Project {{ index }}{%- endmacro -%}
+
+{%- macro resourceLabel(index) -%}Resource {{ index }}{%- endmacro -%}
+
+{%- macro softwareLabel(index) -%}Software tool {{ index }}{%- endmacro -%}

@@ -1,0 +1,31 @@
+{
+  "scope": "Only this finished synthetic local run; no other template or volume",
+  "run_completed_successfully": true,
+  "failed_run_explicitly_acknowledged": false,
+  "project_references": 0,
+  "document_references": 0,
+  "backups": {
+    "english.zip": {
+      "path": "/home/trc/Downloads/science-europe-template-zhtw/outputs/word-asset-after-1/english.zip",
+      "sha256": "d352815d18bfd651bf7e03dc37e1a3a5e8002cd7118e75e684c9eff47afc4584"
+    },
+    "chinese.zip": {
+      "path": "/home/trc/Downloads/science-europe-template-zhtw/outputs/word-asset-after-1/chinese.zip",
+      "sha256": "c733d055ef1a52c66fc85c5bef3c04e616fcd069024ba29b068224ca574309c2"
+    }
+  },
+  "deleted": [
+    {
+      "uuid": "9d4d6e76-a9e4-4e90-a854-2c594e9836b8",
+      "templateId": "science-europe-enhanced-local-0cfa7f7c0979",
+      "version": "0.3.44",
+      "status_code": 204
+    },
+    {
+      "uuid": "b5ea83d5-ccf5-4726-980e-d067b497a436",
+      "templateId": "science-europe-enhanced-zhtw-local-5b978952adce",
+      "version": "0.3.44",
+      "status_code": 204
+    }
+  ]
+}

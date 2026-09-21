@@ -1,0 +1,63 @@
+{
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "observed_worker_sources": {
+    "dsw.document_worker.model.utils": "bc8d1d61f42265b8e7219c34f9fd6b4d4b3ad988297018b67545d2a7ba731c19",
+    "weasyprint.text.fonts": "3f6662edc1f0a11e1666c39f9b72a2d2543769162ee985b216c2afbddd0312a1",
+    "weasyprint.text.ffi": "d7784b995d7d4624eca4a1e76bf46564c6abe82a53207c0f0cf48657516684d7"
+  },
+  "observed_word_sources": {
+    "dsw.document_worker.templates.steps.word": "663628ff9f6fbeb4e3c48344bf742386112d9d02b77f982aec88378b0417f682",
+    "dsw.document_worker.templates.steps.template": "271b3182ad23539d251fe0c8d8b856b6cb09a11951d9c29ad17cd3b8fd4be140",
+    "dsw.document_worker.templates.steps.conversion": "95d11d5d00b837bd734bca5a0aa0eefacc5c671089915d39a2e69a79dc6b08fa",
+    "dsw.document_worker.utils": "ed5b8213b03a3f7d7721133df22f10a28cb2a55141ff8d560a8a21206f9d054b"
+  },
+  "recipe_sha256": "bdcfa935cfdcc2e078a8765b4370b556b2c0973d1e0e766d3e2589f8ae514d90",
+  "packages": {
+    "english.zip": {
+      "baseline_sha256": "e17b258c2802cc81af4a55670ee9edc5605d25f533611b94bbdd46891cd3c3d8",
+      "sha256": "d352815d18bfd651bf7e03dc37e1a3a5e8002cd7118e75e684c9eff47afc4584",
+      "before_members": {
+        "template/assets/src/fonts/PilotTC.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+        "template/assets/src/word/pilot.lua": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+        "template/assets/src/word/preservation-reading.lua": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+        "template/assets/src/word/reference.docx": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d",
+        "template/template.json": "7f61125609575bb53fed7bf414c1c9cc5d93655bf5140e67cad73e68bc98e1c3",
+        "template/assets/src/word/short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002"
+      },
+      "after_members": {
+        "template/assets/src/fonts/PilotTC.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+        "template/assets/src/word/pilot.lua": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+        "template/assets/src/word/preservation-reading.lua": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+        "template/assets/src/word/reference.docx": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d",
+        "template/template.json": "be63adb1e68bc6ff3986601e31876b9692b74b8668e1b5f5fd6885089bda8a7b",
+        "template/assets/src/word/short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002",
+        "template/assets/src/word/short-tables.xml": "56e226a93692c59ad65cadc1ede9863d47623f7297969776e79e63adb17ff6de"
+      }
+    },
+    "chinese.zip": {
+      "baseline_sha256": "392a5427bdf0676978a8522f12d1dcab7e017874d157ede45aed990ddc7c6e6a",
+      "sha256": "c733d055ef1a52c66fc85c5bef3c04e616fcd069024ba29b068224ca574309c2",
+      "before_members": {
+        "template/assets/src/fonts/NotoSansTC-Variable.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+        "template/assets/src/fonts/PilotTC.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+        "template/assets/src/word/pilot.lua": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+        "template/assets/src/word/preservation-reading.lua": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+        "template/assets/src/word/reference.docx": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae",
+        "template/template.json": "b0893ec060414a0d8e00dac9c1a312951af4242befed122204ffceebf1b4595c",
+        "template/assets/src/word/short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002"
+      },
+      "after_members": {
+        "template/assets/src/fonts/NotoSansTC-Variable.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+        "template/assets/src/fonts/PilotTC.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+        "template/assets/src/word/pilot.lua": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+        "template/assets/src/word/preservation-reading.lua": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+        "template/assets/src/word/reference.docx": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae",
+        "template/template.json": "67a1339565267577b53352eb57d38755b2efbf3627da97568fa1d577129e578a",
+        "template/assets/src/word/short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002",
+        "template/assets/src/word/short-tables.xml": "56e226a93692c59ad65cadc1ede9863d47623f7297969776e79e63adb17ff6de"
+      }
+    }
+  }
+}

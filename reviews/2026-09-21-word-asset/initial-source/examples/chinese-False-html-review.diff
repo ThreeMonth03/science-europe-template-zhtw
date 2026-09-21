@@ -1,0 +1,20 @@
+--- 
++++ 
+@@ -298,7 +298,7 @@
+       <p class="data-gap" data-fact-id="repository-charges" data-status="missing">尚待補充：是否需支付資料儲存庫服務費。</p>
+     <h4>資料管理預算</h4><div class="project-resources" data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.53754417-98c5-59d9-ace7-ff050dbfcae7">
+                 <p><strong>N/A </strong></p><p class="data-gap" data-requirement-id="SE-6b" data-fact-id="resources-costing" data-status="missing">尚待補充：本計畫編列的資料管理資源，例如工作人員時間、儲存空間、寄存準備工作及資料儲存庫費用。</p></div><div class="project-resources" data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10">
+-                <p><strong>（計畫名稱尚未提供） - 0</strong></p><table class="resource-table">
++                <p><strong>（計畫名稱尚未提供） - 0 </strong></p><table class="resource-table">
+                       <colgroup><col class="resource-purpose"><col class="resource-budget"><col class="resource-funding"></colgroup>
+                       <thead><tr><th scope="col">資源項目與用途</th><th scope="col">預算</th><th scope="col">經費來源</th></tr></thead>
+                       <tbody><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.00a84618-bdaf-5068-9af3-d2c953409e10.353eeaca-45fa-4958-a33c-ec6de3075701.ba59b2c0-666d-5e9a-8777-b5979dcb9039"><td>
+@@ -317,7 +317,7 @@
+                             <p class="data-gap" data-requirement-id="SE-6b" data-fact-id="resource-amount" data-status="missing">幣別尚未提供。</p>
+                         </td><td><div class="answer-detail">AUTHORED-FUNDING: N/A</div></td></tr></tbody>
+                     </table></div><div class="project-resources" data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b">
+-                <p><strong>（計畫名稱尚未提供） - TW-3</strong></p><table class="resource-table">
++                <p><strong>（計畫名稱尚未提供） - TW-3 </strong></p><table class="resource-table">
+                       <colgroup><col class="resource-purpose"><col class="resource-budget"><col class="resource-funding"></colgroup>
+                       <thead><tr><th scope="col">資源項目與用途</th><th scope="col">預算</th><th scope="col">經費來源</th></tr></thead>
+                       <tbody><tr data-item-id="1e85da40-bbfc-4180-903e-6c569ed2da38.c3dabaaf-c946-4a0d-889c-ede966f97667.d6953c68-e33b-51e4-bbe9-57e7b7489b4b.353eeaca-45fa-4958-a33c-ec6de3075701.6dd30650-f6a6-5374-a5fa-8e1e8e3b6b73"><td>
