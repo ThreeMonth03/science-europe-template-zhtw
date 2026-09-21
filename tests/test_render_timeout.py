@@ -7,7 +7,7 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import render
-from cleanup_owned_runtime_templates import validate_render_report
+from cleanup_owned_runtime_templates import validate_render_report, validate_template_scope
 
 
 class RenderTimeoutTests(unittest.TestCase):
@@ -39,3 +39,11 @@ class RenderTimeoutTests(unittest.TestCase):
             with self.assertRaises(AssertionError):
                 validate_render_report(dict(all_renders_succeeded=False, renders=[dict(rendered=v) for v in rows]), 2, True)
         validate_render_report(dict(all_renders_succeeded=True, renders=[dict(rendered=True)]), 1)
+
+    def test_single_template_cleanup_is_only_for_first_failed_english_render(self):
+        failed = dict(all_renders_succeeded=False, renders=[dict(rendered=False, language='english')])
+        validate_template_scope(failed, 1, 1, True)
+        for count, renders, allow in [(0, 1, True), (3, 1, True), (1, 2, True), (1, 1, False)]:
+            with self.assertRaises(AssertionError): validate_template_scope(failed, count, renders, allow)
+        failed['renders'][0]['language'] = 'chinese'
+        with self.assertRaises(AssertionError): validate_template_scope(failed, 1, 1, True)

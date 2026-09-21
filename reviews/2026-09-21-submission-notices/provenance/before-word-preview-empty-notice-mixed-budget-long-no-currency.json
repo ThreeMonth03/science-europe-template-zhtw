@@ -1,0 +1,39 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "empty-english",
+      "docx_sha256": "4e98b6accf997996c742d5397f01caf41653b0811f6173edb0bf89015f2431cf",
+      "preview_sha256": "d0a4dff34898c482dc2eee276fe2c0275a235ea68ebfc331a263e85d8f912c5f"
+    },
+    {
+      "name": "empty-chinese",
+      "docx_sha256": "9e592002efb2c2fe045924d98d524b50ce95d39d919774b59ef51b8c735bbaf2",
+      "preview_sha256": "ac305ffba45ef1b57f743fd4a9f19fd992283bac6122fcb5b08b49a0aae2e606"
+    },
+    {
+      "name": "notice-mixed-english",
+      "docx_sha256": "cf9755fe4809e67080c05738145080aa6be8d05e7532536adc13c4fba862c2d6",
+      "preview_sha256": "595858cf15ea19afc388f09526cb1370da732551475bc24e069d65491380c541"
+    },
+    {
+      "name": "notice-mixed-chinese",
+      "docx_sha256": "9bcb099e0ff3e95edcdceba3576f3cc0f403bdf0dd76846325d02e1cc46d15b9",
+      "preview_sha256": "5a8f774356ff038c6428882adf7418dffd79822a3352956d7ff4592725e9f722"
+    },
+    {
+      "name": "budget-long-no-currency-english",
+      "docx_sha256": "40610fb82c1eb04da3b921fbd57a4f04fa29c07b434f46e265fccf59bbacb080",
+      "preview_sha256": "b307ac71d7d003da14b9137ccf573b82fd58af7e95b3da60f84e36fee2bc5d0d"
+    },
+    {
+      "name": "budget-long-no-currency-chinese",
+      "docx_sha256": "a7be9afcc02d1a8675eccde62dd7d50be93b397b6568baae21acb0c96ffe9b11",
+      "preview_sha256": "0c4f19f1785ce1e140179b79b634d235fc67aa8566340ea44db0bd0a2d14b2c1"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "86ad75c56b82f18583f1e85422a05bc1127a55b9444eec2b85ae69601895e6fa",
+  "completed": true
+}

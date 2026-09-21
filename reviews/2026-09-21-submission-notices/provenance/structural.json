@@ -1,0 +1,2385 @@
+{
+  "selected_checks_passed": true,
+  "release_acceptance": false,
+  "global_switch_complete": false,
+  "checker_sha256": "888ee5865174e83d3065d86f20a55859e4e6e8b062e5070278f4f1035522ea2f",
+  "recipe_sha256": "174d4e900a836b223bb6e52d804b5b4d8ed00a4e090e90655a73aa36c115af59",
+  "rows": [
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 25,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 8,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "empty.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 4
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "negative.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 14,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 5
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 12,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 7,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "populated.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 10,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 17,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 22,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 24,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 11,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 11,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "representative.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "stress.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 10,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "structured.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "notice-mixed.events.json",
+      "language": "english",
+      "autoescape": false,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 25,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 8,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "empty.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 4
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "negative.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 14,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 5
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 12,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 7,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "populated.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 10,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 17,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 22,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 24,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 11,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 11,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "representative.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "stress.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 10,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "structured.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "notice-mixed.events.json",
+      "language": "english",
+      "autoescape": true,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 25,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 8,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "empty.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 4
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "negative.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 14,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 5
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 12,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 7,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "populated.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 10,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 17,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 22,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 24,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 11,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 11,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "representative.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "stress.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 10,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "structured.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "notice-mixed.events.json",
+      "language": "chinese",
+      "autoescape": false,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-basis-pair.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "archive-basis-single.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "archive-migration-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-only.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "archive-single-gap.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-archive-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-amount.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-currency.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long-no-funding.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-many.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 25,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "budget-mixed-gaps.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "contact-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 8,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "empty.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "format-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "format-reading.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "format-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "identifier-followups.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 4
+    },
+    {
+      "case": "metadata-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-dictionary-no.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-dictionary.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "metadata-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-private-text.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "metadata-private.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "narrative-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "negative.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 14,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 5
+    },
+    {
+      "case": "paper-references.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 12,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 7,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-data-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-followups-empty.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "personal-transfer-no.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 15,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "populated.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 10,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-custom.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "preservation-no-cold.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "preservation-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "profile-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "q8-long-permissions.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 17,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q8-many-references.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 22,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-long-purpose.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-many-datasets.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 24,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "q9-partial-flags.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 16,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "quality-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "quality-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 11,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "reading-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 6,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 11,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "reading-rich.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "repository-gap.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 4,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "repository-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 14,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "representative.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "retention-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "sharing-custom.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 12,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "sharing-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-complete.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-missing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 20,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 0,
+      "explicit_no_nodes": 0
+    },
+    {
+      "case": "storage-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-sharing-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 2,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-sharing.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 10,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "storage-zero.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "stress.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 10,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 2
+    },
+    {
+      "case": "structured-partial.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 1,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 8,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "structured.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "support-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 3,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 13,
+      "explicit_no_nodes": 3
+    },
+    {
+      "case": "table-long.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 0,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    },
+    {
+      "case": "notice-mixed.events.json",
+      "language": "chinese",
+      "autoescape": true,
+      "removed_notices": 5,
+      "remaining_owned_notices": 0,
+      "authored_blocks": 9,
+      "explicit_no_nodes": 1
+    }
+  ]
+}

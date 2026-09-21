@@ -1,0 +1,29 @@
+{
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "rows": [
+    {
+      "name": "budget-long-no-currency-review-english",
+      "docx_sha256": "798b46ed5dffc584dd2c717f36c19d4d9864b7658139449dcac67bd984dd3787",
+      "preview_sha256": "34afe5a585274112a24669aa6be739852bd27480f0b40b4cd70e3b492dcb0f4d"
+    },
+    {
+      "name": "budget-long-no-currency-review-chinese",
+      "docx_sha256": "9c21f3d935355bc8e3914f7ab248ddba1056b8925fbb3a279ec233edc4bfa180",
+      "preview_sha256": "b3f215be8b436b190cc3d96cd3b583667efa99a2de734c79cc5096bc51bb3e31"
+    },
+    {
+      "name": "budget-long-no-currency-submission-english",
+      "docx_sha256": "bd5d83724b54e738ecdfbcb1a31f78fef190461a33781a86b1a14b99d744e0c1",
+      "preview_sha256": "2c2575e59c6b0434605e249acc08014a4fbb7a4d3a70be2c97720ea669e45d55"
+    },
+    {
+      "name": "budget-long-no-currency-submission-chinese",
+      "docx_sha256": "136ef165e99f18ed9ca0b5a2f5893624b58e2a825db18f0f398cb4b04f284352",
+      "preview_sha256": "026d9e9674ef61aa6dce7f7626a2755248bf4806280c99f759367f03cdcef121"
+    }
+  ],
+  "libreoffice": "LibreOffice 25.2.3.2 520(Build:2)",
+  "checker_sha256": "86ad75c56b82f18583f1e85422a05bc1127a55b9444eec2b85ae69601895e6fa",
+  "completed": true
+}

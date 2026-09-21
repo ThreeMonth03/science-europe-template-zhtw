@@ -1,0 +1,1951 @@
+{
+  "prototype_only": true,
+  "release_acceptance": false,
+  "global_switch_complete": false,
+  "source_repo_modified": false,
+  "translation_tree_modified": false,
+  "version_modified": false,
+  "recipe_sha256": "174d4e900a836b223bb6e52d804b5b4d8ed00a4e090e90655a73aa36c115af59",
+  "packages": {
+    "english.zip": {
+      "baseline_sha256": "7694516b1e279e2e50771c888c9f8034c24e66c02125f5a46d5a7defd38e8357",
+      "sha256": "71e99f61f3609679873caf1e761b1c7648905920af6f5f70c973fe56b349ef3b",
+      "operations": {
+        "src/post-project-archive.html.j2": [
+          {
+            "start": 1666,
+            "end": 1804,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-payer\" data-status=\"missing\">The payer for post-project cold storage has not been specified.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-payer\" data-status=\"missing\">The payer for post-project cold storage has not been specified.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3193,
+            "end": 3359,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-minimum-period\" data-status=\"missing\">The other arrangements for the archive's minimum lifetime have not been described.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-minimum-period\" data-status=\"missing\">The other arrangements for the archive's minimum lifetime have not been described.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3424,
+            "end": 3561,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-minimum-period\" data-status=\"missing\">The archive's minimum lifetime has not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-minimum-period\" data-status=\"missing\">The archive's minimum lifetime has not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4469,
+            "end": 4627,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension-limit\" data-status=\"missing\">The reason the archival period cannot be extended has not been specified.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension-limit\" data-status=\"missing\">The reason the archival period cannot be extended has not been specified.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5432,
+            "end": 5604,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension-authority\" data-status=\"missing\">The person or team responsible for deciding on an extension has not been specified.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension-authority\" data-status=\"missing\">The person or team responsible for deciding on an extension has not been specified.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7193,
+            "end": 7340,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension-basis\" data-status=\"missing\">The basis for deciding on an extension has not been specified.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension-basis\" data-status=\"missing\">The basis for deciding on an extension has not been specified.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7431,
+            "end": 7642,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension-basis\" data-status=\"needs-review\">Some selected reasons for extending the archival period cannot be interpreted by this template. Please review the answer.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension-basis\" data-status=\"needs-review\">Some selected reasons for extending the archival period cannot be interpreted by this template. Please review the answer.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7707,
+            "end": 7856,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension\" data-status=\"missing\">It has not been specified whether the archival period can be extended.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension\" data-status=\"missing\">It has not been specified whether the archival period can be extended.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8411,
+            "end": 8578,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-format-migration\" data-status=\"missing\">The arrangement for obsolete data formats in cold storage has not been specified.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-format-migration\" data-status=\"missing\">The arrangement for obsolete data formats in cold storage has not been specified.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9149,
+            "end": 9316,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-media-migration\" data-status=\"missing\">The arrangement for migration to more modern storage media has not been specified.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-media-migration\" data-status=\"missing\">The arrangement for migration to more modern storage media has not been specified.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/preservation-publication-reason.html.j2": [
+          {
+            "start": 2022,
+            "end": 2166,
+            "before": "<p class=\"data-gap\" data-fact-id=\"nonpublication-reason\" data-status=\"missing\">The other reasons for not publishing have not been described.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"nonpublication-reason\" data-status=\"missing\">The other reasons for not publishing have not been described.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 2225,
+            "end": 2360,
+            "before": "<p class=\"data-gap\" data-fact-id=\"nonpublication-reason\" data-status=\"missing\">The reason for not publishing has not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"nonpublication-reason\" data-status=\"missing\">The reason for not publishing has not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/quality-control.html.j2": [
+          {
+            "start": 3318,
+            "end": 3502,
+            "before": "<p class=\"data-gap\" data-fact-id=\"quality-methods\" data-status=\"missing\">Quality control is planned for <strong>{{ qualityName }}</strong>, but the methods have not been specified.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"quality-methods\" data-status=\"missing\">Quality control is planned for <strong>{{ qualityName }}</strong>, but the methods have not been specified.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3846,
+            "end": 4044,
+            "before": "<p class=\"data-gap\" data-fact-id=\"quality-other\" data-status=\"missing\">Other quality control methods were selected for <strong>{{ qualityName }}</strong>, but the details have not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"quality-other\" data-status=\"missing\">Other quality control methods were selected for <strong>{{ qualityName }}</strong>, but the details have not been provided.</p>{% else %}<p class=\"quality-summary\" data-fact-id=\"quality-other\" data-status=\"partial\">Other quality control methods are planned for <strong>{{ qualityName }}</strong>.</p>{% endif %}",
+            "retained_fact": true,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4072,
+            "end": 4261,
+            "before": "<p class=\"data-gap\" data-fact-id=\"quality-control\" data-status=\"missing\">It has not been specified whether quality control processes will be used for <strong>{{ qualityName }}</strong>.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"quality-control\" data-status=\"missing\">It has not been specified whether quality control processes will be used for <strong>{{ qualityName }}</strong>.</p>{% else %}<p class=\"quality-context\"><strong>{{ qualityName }}</strong></p>{% endif %}",
+            "retained_fact": true,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/01-how-data.html.j2": [
+          {
+            "start": 2776,
+            "end": 3028,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"collection-methods\" data-status=\"missing\"><strong>Information not provided:</strong> the datasets to be collected or produced and the methods, instruments, or software that will be used.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"collection-methods\" data-status=\"missing\"><strong>Information not provided:</strong> the datasets to be collected or produced and the methods, instruments, or software that will be used.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3270,
+            "end": 3475,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"new-data\" data-status=\"missing\"><strong>Information not provided:</strong> whether the project will collect or produce new instrument data.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"new-data\" data-status=\"missing\"><strong>Information not provided:</strong> whether the project will collect or produce new instrument data.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7566,
+            "end": 7720,
+            "before": "<p class=\"data-gap\" data-fact-id=\"dataset-source\" data-status=\"missing\"><strong>Information not provided:</strong> where this dataset can be obtained.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"dataset-source\" data-status=\"missing\"><strong>Information not provided:</strong> where this dataset can be obtained.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8167,
+            "end": 8336,
+            "before": "<p class=\"data-gap\" data-fact-id=\"reuse-purpose\" data-status=\"missing\"><strong>Information not provided:</strong> the purpose for which this dataset will be re-used.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"reuse-purpose\" data-status=\"missing\"><strong>Information not provided:</strong> the purpose for which this dataset will be re-used.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9525,
+            "end": 9688,
+            "before": "<p class=\"data-gap\" data-fact-id=\"dataset-version\" data-status=\"missing\"><strong>Information not provided:</strong> which version of this dataset will be used.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"dataset-version\" data-status=\"missing\"><strong>Information not provided:</strong> which version of this dataset will be used.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10388,
+            "end": 10556,
+            "before": "<p class=\"data-gap\" data-fact-id=\"dataset-version-policy\" data-status=\"missing\"><strong>Information not provided:</strong> how new dataset versions will be handled.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"dataset-version-policy\" data-status=\"missing\"><strong>Information not provided:</strong> how new dataset versions will be handled.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 12806,
+            "end": 12927,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">Restrictions apply, but the conditions of use are not yet described.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">Restrictions apply, but the conditions of use are not yet described.</p>{% else %}<p data-fact-id=\"reuse-restrictions\" data-status=\"partial\">Restrictions apply to this dataset.</p>{% endif %}",
+            "retained_fact": true,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 17935,
+            "end": 18089,
+            "before": "<p class=\"data-gap\" data-fact-id=\"dataset-source\" data-status=\"missing\"><strong>Information not provided:</strong> where this dataset can be obtained.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"dataset-source\" data-status=\"missing\"><strong>Information not provided:</strong> where this dataset can be obtained.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 18581,
+            "end": 18750,
+            "before": "<p class=\"data-gap\" data-fact-id=\"reuse-purpose\" data-status=\"missing\"><strong>Information not provided:</strong> the purpose for which this dataset will be re-used.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"reuse-purpose\" data-status=\"missing\"><strong>Information not provided:</strong> the purpose for which this dataset will be re-used.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 28586,
+            "end": 28743,
+            "before": "<p class=\"data-gap\" data-fact-id=\"nonreuse-reason\" data-status=\"missing\"><strong>Information not provided:</strong> why this dataset will not be re-used.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"nonreuse-reason\" data-status=\"missing\"><strong>Information not provided:</strong> why this dataset will not be re-used.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 28795,
+            "end": 28951,
+            "before": "<p class=\"data-gap\" data-fact-id=\"reuse-decision\" data-status=\"missing\"><strong>Information not provided:</strong> whether this dataset will be re-used.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"reuse-decision\" data-status=\"missing\"><strong>Information not provided:</strong> whether this dataset will be re-used.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 29055,
+            "end": 29303,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"reuse-sources\" data-status=\"missing\"><strong>Information not provided:</strong> the existing datasets considered for re-use, including any sources that were considered but discarded.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"reuse-sources\" data-status=\"missing\"><strong>Information not provided:</strong> the existing datasets considered for re-use, including any sources that were considered but discarded.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 33368,
+            "end": 33619,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"reuse-sources\" data-status=\"missing\"><strong>Information not provided:</strong> whether existing data will be re-used, including constraints or reasons for discarding candidate sources.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"reuse-sources\" data-status=\"missing\"><strong>Information not provided:</strong> whether existing data will be re-used, including constraints or reasons for discarding candidate sources.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 35435,
+            "end": 35642,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance-detail\" data-status=\"missing\"><strong>Information not provided:</strong> the other arrangement that will document data provenance.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance-detail\" data-status=\"missing\"><strong>Information not provided:</strong> the other arrangement that will document data provenance.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 35716,
+            "end": 35898,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance\" data-status=\"missing\"><strong>Information not provided:</strong> how data provenance will be documented.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance\" data-status=\"missing\"><strong>Information not provided:</strong> how data provenance will be documented.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 35942,
+            "end": 36124,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance\" data-status=\"missing\"><strong>Information not provided:</strong> how data provenance will be documented.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance\" data-status=\"missing\"><strong>Information not provided:</strong> how data provenance will be documented.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/02-what-data.html.j2": [
+          {
+            "start": 4862,
+            "end": 5022,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"data-collector\" data-status=\"missing\">Information not provided: who will collect this dataset.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"data-collector\" data-status=\"missing\">Information not provided: who will collect this dataset.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5186,
+            "end": 5414,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"equipment-documentation\" data-status=\"missing\">Information not provided: whether the equipment is adequately documented or needs additional process documentation.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"equipment-documentation\" data-status=\"missing\">Information not provided: whether the equipment is adequately documented or needs additional process documentation.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5778,
+            "end": 5976,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"external-ownership\" data-status=\"missing\">Information not provided: ownership arrangements for data collected by the external party.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"external-ownership\" data-status=\"missing\">Information not provided: ownership arrangements for data collected by the external party.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10149,
+            "end": 10308,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-status=\"missing-output\">This document does not yet list the data types, formats and estimated volumes.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-status=\"missing-output\">This document does not yet list the data types, formats and estimated volumes.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 19718,
+            "end": 19824,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\">Information still needed: {{ formatGaps|join(\", \") }}.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\">Information still needed: {{ formatGaps|join(\", \") }}.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4542,
+            "end": 4661,
+            "before": "<p class=\"collection-summary\">Data collection for <strong>{{ collectionName }}</strong> has not yet been described.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"collection-summary\">Data collection for <strong>{{ collectionName }}</strong> has not yet been described.</p>{% else %}<p class=\"collection-context\"><strong>{{ collectionName }}</strong></p>{% endif %}",
+            "retained_fact": true,
+            "kind": "unmarked-collection-context"
+          }
+        ],
+        "src/questions/03-docs-metadata.html.j2": [
+          {
+            "start": 4740,
+            "end": 4919,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-dictionary\" data-status=\"needs-review\">The selected data-dictionary option cannot be represented by this template; please review it.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-dictionary\" data-status=\"needs-review\">The selected data-dictionary option cannot be represented by this template; please review it.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4953,
+            "end": 5111,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-dictionary\" data-status=\"missing\">Information not provided: whether a data/variable dictionary will be created.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-dictionary\" data-status=\"missing\">Information not provided: whether a data/variable dictionary will be created.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5894,
+            "end": 6055,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-access-explanation\" data-status=\"missing\">Information not provided: why the metadata will not be openly available.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-access-explanation\" data-status=\"missing\">Information not provided: why the metadata will not be openly available.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8365,
+            "end": 8496,
+            "before": "<p class=\"data-gap metadata-publication-gap\">Information not provided: {{ metadataInstructionsGap }}; {{ metadataHarvestGap }}.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap metadata-publication-gap\">Information not provided: {{ metadataInstructionsGap }}; {{ metadataHarvestGap }}.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8617,
+            "end": 8818,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-access-instructions\" data-status=\"needs-review\">The selected metadata access-instructions option cannot be represented by this template; please review it.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-access-instructions\" data-status=\"needs-review\">The selected metadata access-instructions option cannot be represented by this template; please review it.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8852,
+            "end": 9038,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-access-instructions\" data-status=\"missing\">Information not provided: whether the metadata will include instructions for accessing the data.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-access-instructions\" data-status=\"missing\">Information not provided: whether the metadata will include instructions for accessing the data.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9176,
+            "end": 9373,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-harvestable\" data-status=\"needs-review\">The selected metadata harvesting and indexing option cannot be represented by this template; please review it.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-harvestable\" data-status=\"needs-review\">The selected metadata harvesting and indexing option cannot be represented by this template; please review it.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9407,
+            "end": 9598,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-harvestable\" data-status=\"missing\">Information not provided: whether the metadata will be available in a form that can be harvested and indexed.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-harvestable\" data-status=\"missing\">Information not provided: whether the metadata will be available in a form that can be harvested and indexed.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 11853,
+            "end": 12053,
+            "before": "<p class=\"data-gap\" data-fact-id=\"storage-capacity\" data-status=\"missing\">Information not provided: the estimated storage space for all project data and software, including temporary storage (GB).</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"storage-capacity\" data-status=\"missing\">Information not provided: the estimated storage space for all project data and software, including temporary storage (GB).</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 19096,
+            "end": 19255,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-2a\" data-status=\"missing-output\">This document does not yet contain an answer about metadata and documentation.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-2a\" data-status=\"missing-output\">This document does not yet contain an answer about metadata and documentation.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/04-quality-control.html.j2": [
+          {
+            "start": 1007,
+            "end": 1196,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-2b\" data-status=\"missing-output\">This document does not yet describe data quality checks. Re-used data also need appropriate quality control.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-2b\" data-status=\"missing-output\">This document does not yet describe data quality checks. Re-used data also need appropriate quality control.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/05-store-backup.html.j2": [
+          {
+            "start": 1669,
+            "end": 1909,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-reliability\" data-status=\"missing\"><strong>Information not provided:</strong> whether data stored by individual project members are adequately backed up and traceable.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-reliability\" data-status=\"missing\"><strong>Information not provided:</strong> whether data stored by individual project members are adequately backed up and traceable.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4242,
+            "end": 4449,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"storage-capacity\" data-status=\"missing\"><strong>Information not provided:</strong> how storage capacity needs will change during the project.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"storage-capacity\" data-status=\"missing\"><strong>Information not provided:</strong> how storage capacity needs will change during the project.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4530,
+            "end": 4737,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"storage-capacity\" data-status=\"missing\"><strong>Information not provided:</strong> how storage capacity needs will change during the project.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"storage-capacity\" data-status=\"missing\"><strong>Information not provided:</strong> how storage capacity needs will change during the project.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 6175,
+            "end": 6366,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"loss-prevention\" data-status=\"missing\"><strong>Information not provided:</strong> how a total loss of data will be prevented.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"loss-prevention\" data-status=\"missing\"><strong>Information not provided:</strong> how a total loss of data will be prevented.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7586,
+            "end": 7800,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\"><strong>Information not provided:</strong> how data in and outside the shared workspace will be backed up.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\"><strong>Information not provided:</strong> how data in and outside the shared workspace will be backed up.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7881,
+            "end": 8072,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"loss-prevention\" data-status=\"missing\"><strong>Information not provided:</strong> how a total loss of data will be prevented.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"loss-prevention\" data-status=\"missing\"><strong>Information not provided:</strong> how a total loss of data will be prevented.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8112,
+            "end": 8326,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\"><strong>Information not provided:</strong> how data in and outside the shared workspace will be backed up.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\"><strong>Information not provided:</strong> how data in and outside the shared workspace will be backed up.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8401,
+            "end": 8642,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"working-storage-arrangement\" data-status=\"missing\"><strong>Information not provided:</strong> whether data will be kept in a shared workspace or by individual project members.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"working-storage-arrangement\" data-status=\"missing\"><strong>Information not provided:</strong> whether data will be kept in a shared workspace or by individual project members.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8680,
+            "end": 8879,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\"><strong>Information not provided:</strong> how project data and metadata will be backed up.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\"><strong>Information not provided:</strong> how project data and metadata will be backed up.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/06-access-security.html.j2": [
+          {
+            "start": 11952,
+            "end": 12131,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3b\" data-status=\"missing-output\">This document does not yet contain an answer about data security and protection of sensitive data.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3b\" data-status=\"missing-output\">This document does not yet contain an answer about data security and protection of sensitive data.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/07-personal-data.html.j2": [
+          {
+            "start": 1612,
+            "end": 1857,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-other-legal-basis\" data-status=\"missing\"><strong>Information not provided:</strong> the alternative legal basis selected for collecting and processing personal data.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-other-legal-basis\" data-status=\"missing\"><strong>Information not provided:</strong> the alternative legal basis selected for collecting and processing personal data.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 1939,
+            "end": 2157,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-legal-basis\" data-status=\"missing\"><strong>Information not provided:</strong> the legal basis for collecting and processing personal data.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-legal-basis\" data-status=\"missing\"><strong>Information not provided:</strong> the legal basis for collecting and processing personal data.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5036,
+            "end": 5269,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-identifiability\" data-status=\"missing\"><strong>Information not provided:</strong> whether the stored data are anonymized, pseudonymized, or identifiable.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-identifiability\" data-status=\"missing\"><strong>Information not provided:</strong> whether the stored data are anonymized, pseudonymized, or identifiable.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 6027,
+            "end": 6252,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-additional-safeguards\" data-status=\"missing\"><strong>Information not provided:</strong> details of any other technical and procedural safeguards.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-additional-safeguards\" data-status=\"missing\"><strong>Information not provided:</strong> details of any other technical and procedural safeguards.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7632,
+            "end": 7860,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-transfer-measures\" data-status=\"missing\"><strong>Information not provided:</strong> the measures for protecting data transferred outside the EU/EEA.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-transfer-measures\" data-status=\"missing\"><strong>Information not provided:</strong> the measures for protecting data transferred outside the EU/EEA.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8190,
+            "end": 8397,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-transfer\" data-status=\"missing\"><strong>Information not provided:</strong> whether data will be transferred outside the EU/EEA.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-transfer\" data-status=\"missing\"><strong>Information not provided:</strong> whether data will be transferred outside the EU/EEA.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8512,
+            "end": 8736,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-safeguards\" data-status=\"missing\"><strong>Information not provided:</strong> the technical and procedural measures for protecting personal data.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-safeguards\" data-status=\"missing\"><strong>Information not provided:</strong> the technical and procedural measures for protecting personal data.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10570,
+            "end": 10742,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-status=\"missing-output\">This document does not yet contain an answer about personal-data protection and compliance.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-status=\"missing-output\">This document does not yet contain an answer about personal-data protection and compliance.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/08-copyright-ipr.html.j2": [
+          {
+            "start": 15529,
+            "end": 15776,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4b\" data-status=\"missing-output\">This document does not yet describe arrangements for data ownership, intellectual property rights, or applicable legislation. Please review and complete this section.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4b\" data-status=\"missing-output\">This document does not yet describe arrangements for data ownership, intellectual property rights, or applicable legislation. Please review and complete this section.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/09-ethical-issues.html.j2": [
+          {
+            "start": 3417,
+            "end": 3508,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">Approval status has not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">Approval status has not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3683,
+            "end": 3772,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">A case number has not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">A case number has not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3895,
+            "end": 3996,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">Ethical approval records have not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">Ethical approval records have not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 14048,
+            "end": 14216,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4c\" data-status=\"missing-output\">This document does not yet contain an answer about ethical issues and codes of conduct.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4c\" data-status=\"missing-output\">This document does not yet contain an answer about ethical issues and codes of conduct.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/10-share-restrictions.html.j2": [
+          {
+            "start": 5787,
+            "end": 5935,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-access\" data-status=\"missing\">The access arrangement for this distribution has not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-access\" data-status=\"missing\">The access arrangement for this distribution has not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10124,
+            "end": 10268,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-repository\" data-status=\"missing\">The repository for this distribution has not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-repository\" data-status=\"missing\">The repository for this distribution has not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 14746,
+            "end": 14897,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-restriction-terms\" data-status=\"missing\">The conditions of restricted access have not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-restriction-terms\" data-status=\"missing\">The conditions of restricted access have not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 16416,
+            "end": 16558,
+            "before": "<p class=\"data-gap\" data-fact-id=\"restriction-custom-process\" data-status=\"missing\">The specialized access process has not been described.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"restriction-custom-process\" data-status=\"missing\">The specialized access process has not been described.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 16723,
+            "end": 16867,
+            "before": "<p class=\"data-gap\" data-fact-id=\"restriction-access-process\" data-status=\"missing\">How to request restricted access has not been specified.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"restriction-access-process\" data-status=\"missing\">How to request restricted access has not been specified.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 17474,
+            "end": 17658,
+            "before": "<p class=\"data-gap\" data-fact-id=\"restriction-metadata-publication\" data-status=\"missing\">It has not been specified whether the access conditions will be included in open metadata.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"restriction-metadata-publication\" data-status=\"missing\">It has not been specified whether the access conditions will be included in open metadata.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 18196,
+            "end": 18334,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-licence\" data-status=\"missing\">The licence or conditions of use have not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-licence\" data-status=\"missing\">The licence or conditions of use have not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 18551,
+            "end": 18689,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-licence\" data-status=\"missing\">The licence or conditions of use have not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-licence\" data-status=\"missing\">The licence or conditions of use have not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 19113,
+            "end": 19247,
+            "before": "<p class=\"data-gap\" data-fact-id=\"publication-distributions\" data-status=\"missing\">The publication locations have not been listed.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"publication-distributions\" data-status=\"missing\">The publication locations have not been listed.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 19317,
+            "end": 19468,
+            "before": "<p class=\"data-gap\" data-fact-id=\"publication-decision\" data-status=\"missing\">It has not yet been specified whether this dataset will be published.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"publication-decision\" data-status=\"missing\">It has not yet been specified whether this dataset will be published.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 27914,
+            "end": 28085,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5a\" data-status=\"missing-output\">This document does not yet describe how and when data will be shared, or any restrictions.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5a\" data-status=\"missing-output\">This document does not yet describe how and when data will be shared, or any restrictions.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/11-data-preservation.html.j2": [
+          {
+            "start": 1817,
+            "end": 1981,
+            "before": "<p class=\"data-gap\" data-fact-id=\"preservation-publication-decision\" data-status=\"missing\">It has not yet been specified whether this dataset will be published.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"preservation-publication-decision\" data-status=\"missing\">It has not yet been specified whether this dataset will be published.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3825,
+            "end": 3953,
+            "before": "<p class=\"data-gap\" data-fact-id=\"retention-period\" data-status=\"missing-output\">The retention period has not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"retention-period\" data-status=\"missing-output\">The retention period has not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4096,
+            "end": 4231,
+            "before": "<p class=\"data-gap\" data-fact-id=\"retention-period\" data-status=\"needs-review\">Please specify a time unit for the retention period.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"retention-period\" data-status=\"needs-review\">Please specify a time unit for the retention period.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4443,
+            "end": 4636,
+            "before": "<p class=\"data-gap\" data-fact-id=\"retention-payment\" data-status=\"needs-review\">Please check how the prepaid retention period relates to the answer that repository services have no charges.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"retention-payment\" data-status=\"needs-review\">Please check how the prepaid retention period relates to the answer that repository services have no charges.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9115,
+            "end": 9274,
+            "before": "<p class=\"data-gap\" data-fact-id=\"repository-contact-arrangements\" data-status=\"missing\">The other repository contact arrangements have not been described.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"repository-contact-arrangements\" data-status=\"missing\">The other repository contact arrangements have not been described.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 17832,
+            "end": 18140,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5b\" data-fact-id=\"preservation-selection-review\" data-status=\"needs-review\">Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5b\" data-fact-id=\"preservation-selection-review\" data-status=\"needs-review\">Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 18182,
+            "end": 18356,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5b\" data-status=\"missing-output\">This document does not yet contain an answer about data selection and long-term preservation.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5b\" data-status=\"missing-output\">This document does not yet contain an answer about data selection and long-term preservation.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/12-access-data.html.j2": [
+          {
+            "start": 2731,
+            "end": 2865,
+            "before": "<p class=\"data-gap\" data-fact-id=\"software-location\" data-status=\"missing\">An access location for this tool has not been provided.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"software-location\" data-status=\"missing\">An access location for this tool has not been provided.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3084,
+            "end": 3257,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-list\" data-status=\"missing\">Software is required, but the tools have not yet been listed.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-list\" data-status=\"missing\">Software is required, but the tools have not yet been listed.</p>{% else %}<p data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-list\" data-status=\"partial\">Software is required to use this dataset.</p>{% endif %}",
+            "retained_fact": true,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3509,
+            "end": 3704,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-decision\" data-status=\"missing\">It has not yet been specified whether software is required to use this dataset.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-decision\" data-status=\"missing\">It has not yet been specified whether software is required to use this dataset.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3913,
+            "end": 4092,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"publication-decision\" data-status=\"missing\">It has not yet been specified whether this dataset will be published.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"publication-decision\" data-status=\"missing\">It has not yet been specified whether this dataset will be published.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4186,
+            "end": 4361,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-status=\"missing-output\">This document does not yet identify the datasets to be shared or the tools needed to use them.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-status=\"missing-output\">This document does not yet identify the datasets to be shared or the tools needed to use them.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/13-persistent-identifier.html.j2": [
+          {
+            "start": 9555,
+            "end": 9668,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5d\">Information still needed: {{ identifierMissing|join(\", \") }}.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5d\">Information still needed: {{ identifierMissing|join(\", \") }}.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9737,
+            "end": 9880,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5d\">This template cannot interpret the selected answers for: {{ identifierReview|join(\", \") }}.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5d\">This template cannot interpret the selected answers for: {{ identifierReview|join(\", \") }}.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10301,
+            "end": 10413,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">The persistent identifier arrangement is not yet described.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">The persistent identifier arrangement is not yet described.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10585,
+            "end": 10718,
+            "before": "<p class=\"data-gap\" data-fact-id=\"identifier-distributions\" data-status=\"missing\">The publication locations have not been listed.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"identifier-distributions\" data-status=\"missing\">The publication locations have not been listed.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10927,
+            "end": 11078,
+            "before": "<p class=\"data-gap\" data-fact-id=\"publication-decision\" data-status=\"missing\">It has not yet been specified whether this dataset will be published.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"publication-decision\" data-status=\"missing\">It has not yet been specified whether this dataset will be published.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 11170,
+            "end": 11367,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5d\" data-status=\"missing-output\">This document does not yet describe which datasets will receive persistent identifiers or how they will be assigned.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5d\" data-status=\"missing-output\">This document does not yet describe which datasets will receive persistent identifiers or how they will be assigned.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/14-dm-responsible.html.j2": [
+          {
+            "start": 3386,
+            "end": 3610,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6a\" data-status=\"missing-output\">This document does not yet identify a named person or team with a data management responsibility. Please check the contributor names and roles.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6a\" data-status=\"missing-output\">This document does not yet identify a named person or team with a data management responsibility. Please check the contributor names and roles.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/15-required-resources.html.j2": [
+          {
+            "start": 1857,
+            "end": 2063,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise-detail\" data-status=\"missing\"><strong>Information not provided:</strong> the training that existing staff will receive.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise-detail\" data-status=\"missing\"><strong>Information not provided:</strong> the training that existing staff will receive.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 2924,
+            "end": 3132,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise-detail\" data-status=\"missing\"><strong>Information not provided:</strong> the expertise for which new staff will be hired.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise-detail\" data-status=\"missing\"><strong>Information not provided:</strong> the expertise for which new staff will be hired.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3176,
+            "end": 3381,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise\" data-status=\"missing\"><strong>Information not provided:</strong> whether additional specialist expertise is required.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise\" data-status=\"missing\"><strong>Information not provided:</strong> whether additional specialist expertise is required.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4805,
+            "end": 5007,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"hardware-software-detail\" data-status=\"missing\"><strong>Information not provided:</strong> the additional hardware or software required.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"hardware-software-detail\" data-status=\"missing\"><strong>Information not provided:</strong> the additional hardware or software required.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5051,
+            "end": 5253,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"hardware-software\" data-status=\"missing\"><strong>Information not provided:</strong> whether additional hardware or software is required.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"hardware-software\" data-status=\"missing\"><strong>Information not provided:</strong> whether additional hardware or software is required.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5713,
+            "end": 5888,
+            "before": "<p class=\"data-gap\" data-fact-id=\"repository-charges\" data-status=\"missing\"><strong>Information not provided:</strong> whether repository service charges will be incurred.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"repository-charges\" data-status=\"missing\"><strong>Information not provided:</strong> whether repository service charges will be incurred.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9575,
+            "end": 9779,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-justification\" data-status=\"missing\"><strong>Information not provided:</strong> why this resource is needed to deliver FAIR data.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-justification\" data-status=\"missing\"><strong>Information not provided:</strong> why this resource is needed to deliver FAIR data.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 11140,
+            "end": 11437,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-amount\" data-status=\"missing\"><strong>Information not provided:</strong> {% if projectCostItemAmountReply %}currency.{% elif projectCostItemCurrencyReply %}budgeted amount.{% else %}budgeted amount and currency.{% endif %}</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-amount\" data-status=\"missing\"><strong>Information not provided:</strong> {% if projectCostItemAmountReply %}currency.{% elif projectCostItemCurrencyReply %}budgeted amount.{% else %}budgeted amount and currency.{% endif %}</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 13875,
+            "end": 14091,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-allocation\" data-status=\"missing\"><strong>Information not provided:</strong> which FAIR or data-management activities this resource supports.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-allocation\" data-status=\"missing\"><strong>Information not provided:</strong> which FAIR or data-management activities this resource supports.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 15235,
+            "end": 15369,
+            "before": "<p class=\"data-gap\" data-fact-id=\"grant-number\" data-status=\"missing\"><strong>Information not provided:</strong> the grant number.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"grant-number\" data-status=\"missing\"><strong>Information not provided:</strong> the grant number.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 15997,
+            "end": 16173,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"cost-coverage\" data-status=\"missing\"><strong>Information not provided:</strong> how this cost will be covered.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"cost-coverage\" data-status=\"missing\"><strong>Information not provided:</strong> how this cost will be covered.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 16277,
+            "end": 16453,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"cost-coverage\" data-status=\"missing\"><strong>Information not provided:</strong> how this cost will be covered.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"cost-coverage\" data-status=\"missing\"><strong>Information not provided:</strong> how this cost will be covered.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 17457,
+            "end": 17716,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resources-costing\" data-status=\"missing\"><strong>Information not provided:</strong> resources such as staff time, storage, deposit preparation, and repository charges budgeted for this project.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resources-costing\" data-status=\"missing\"><strong>Information not provided:</strong> resources such as staff time, storage, deposit preparation, and repository charges budgeted for this project.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 17814,
+            "end": 18040,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resources-costing\" data-status=\"missing\"><strong>Information not provided:</strong> the financial and time resources budgeted for data management and FAIR data.</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resources-costing\" data-status=\"missing\"><strong>Information not provided:</strong> the financial and time resources budgeted for data management and FAIR data.</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ]
+      }
+    },
+    "chinese.zip": {
+      "baseline_sha256": "9b4ca1638ae35067c13efb78622689abc07feb2416b772132c273671274c0403",
+      "sha256": "2cca66c3fe1fe317b8ad93625bcaffd49373465b0bba425d45d5a9dcb51b9d4e",
+      "operations": {
+        "src/post-project-archive.html.j2": [
+          {
+            "start": 1685,
+            "end": 1781,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-payer\" data-status=\"missing\">尚待補充：計畫結束後冷儲存費用的負擔單位。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-payer\" data-status=\"missing\">尚待補充：計畫結束後冷儲存費用的負擔單位。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3308,
+            "end": 3413,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-minimum-period\" data-status=\"missing\">尚待補充：典藏資料最低保存期限的其他安排。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-minimum-period\" data-status=\"missing\">尚待補充：典藏資料最低保存期限的其他安排。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3530,
+            "end": 3631,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-minimum-period\" data-status=\"missing\">尚待補充：典藏資料的最低保存期限。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-minimum-period\" data-status=\"missing\">尚待補充：典藏資料的最低保存期限。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4652,
+            "end": 4758,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension-limit\" data-status=\"missing\">尚待補充：典藏資料保存期限無法延長的原因。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension-limit\" data-status=\"missing\">尚待補充：典藏資料保存期限無法延長的原因。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5670,
+            "end": 5781,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension-authority\" data-status=\"missing\">尚待補充：決定是否延長保存期限的人員或單位。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension-authority\" data-status=\"missing\">尚待補充：決定是否延長保存期限的人員或單位。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7545,
+            "end": 7649,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension-basis\" data-status=\"missing\">尚待補充：決定是否延長保存期限的依據。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension-basis\" data-status=\"missing\">尚待補充：決定是否延長保存期限的依據。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7792,
+            "end": 7915,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension-basis\" data-status=\"needs-review\">部分已選取的延長保存期限考量因素無法由本模板辨識，請核對填答內容。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension-basis\" data-status=\"needs-review\">部分已選取的延長保存期限考量因素無法由本模板辨識，請核對填答內容。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8032,
+            "end": 8130,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-extension\" data-status=\"missing\">尚待補充：典藏資料的保存期限能否延長。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-extension\" data-status=\"missing\">尚待補充：典藏資料的保存期限能否延長。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8767,
+            "end": 8874,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-format-migration\" data-status=\"missing\">尚待補充：冷儲存中過時資料格式的處理方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-format-migration\" data-status=\"missing\">尚待補充：冷儲存中過時資料格式的處理方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9494,
+            "end": 9601,
+            "before": "<p class=\"data-gap\" data-fact-id=\"archive-media-migration\" data-status=\"missing\">尚待補充：典藏資料移轉至較新儲存媒體的安排。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"archive-media-migration\" data-status=\"missing\">尚待補充：典藏資料移轉至較新儲存媒體的安排。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/preservation-publication-reason.html.j2": [
+          {
+            "start": 2016,
+            "end": 2117,
+            "before": "<p class=\"data-gap\" data-fact-id=\"nonpublication-reason\" data-status=\"missing\">尚待補充：此資料集不發布的其他原因。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"nonpublication-reason\" data-status=\"missing\">尚待補充：此資料集不發布的其他原因。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 2228,
+            "end": 2327,
+            "before": "<p class=\"data-gap\" data-fact-id=\"nonpublication-reason\" data-status=\"missing\">尚待補充：此資料集不發布的原因。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"nonpublication-reason\" data-status=\"missing\">尚待補充：此資料集不發布的原因。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/quality-control.html.j2": [
+          {
+            "start": 3669,
+            "end": 3799,
+            "before": "<p class=\"data-gap\" data-fact-id=\"quality-methods\" data-status=\"missing\"><strong>{{ qualityName }}</strong>：預計進行品質管控，具體方法尚待補充。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"quality-methods\" data-status=\"missing\"><strong>{{ qualityName }}</strong>：預計進行品質管控，具體方法尚待補充。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4217,
+            "end": 4348,
+            "before": "<p class=\"data-gap\" data-fact-id=\"quality-other\" data-status=\"missing\"><strong>{{ qualityName }}</strong>：已勾選其他品質管控方法，詳細說明尚待補充。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"quality-other\" data-status=\"missing\"><strong>{{ qualityName }}</strong>：已勾選其他品質管控方法，詳細說明尚待補充。</p>{% else %}<p class=\"quality-summary\" data-fact-id=\"quality-other\" data-status=\"partial\">本計畫將對 <strong>{{ qualityName }}</strong> 採取其他品質管控方法。</p>{% endif %}",
+            "retained_fact": true,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4428,
+            "end": 4555,
+            "before": "<p class=\"data-gap\" data-fact-id=\"quality-control\" data-status=\"missing\"><strong>{{ qualityName }}</strong>：尚待說明是否採用品質管控流程。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"quality-control\" data-status=\"missing\"><strong>{{ qualityName }}</strong>：尚待說明是否採用品質管控流程。</p>{% else %}<p class=\"quality-context\"><strong>{{ qualityName }}</strong></p>{% endif %}",
+            "retained_fact": true,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/01-how-data.html.j2": [
+          {
+            "start": 3075,
+            "end": 3213,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"collection-methods\" data-status=\"missing\">尚待補充：將蒐集或產生的資料集，以及使用的方法、儀器或軟體。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"collection-methods\" data-status=\"missing\">尚待補充：將蒐集或產生的資料集，以及使用的方法、儀器或軟體。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3514,
+            "end": 3635,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"new-data\" data-status=\"missing\">尚待補充：本計畫是否將蒐集或產生新的儀器資料。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"new-data\" data-status=\"missing\">尚待補充：本計畫是否將蒐集或產生新的儀器資料。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7809,
+            "end": 7899,
+            "before": "<p class=\"data-gap\" data-fact-id=\"dataset-source\" data-status=\"missing\">尚待補充：資料集的取得來源。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"dataset-source\" data-status=\"missing\">尚待補充：資料集的取得來源。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8346,
+            "end": 8436,
+            "before": "<p class=\"data-gap\" data-fact-id=\"reuse-purpose\" data-status=\"missing\">尚待補充：使用此資料集的目的。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"reuse-purpose\" data-status=\"missing\">尚待補充：使用此資料集的目的。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9622,
+            "end": 9714,
+            "before": "<p class=\"data-gap\" data-fact-id=\"dataset-version\" data-status=\"missing\">尚待補充：將使用的資料集版本。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"dataset-version\" data-status=\"missing\">尚待補充：將使用的資料集版本。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10198,
+            "end": 10302,
+            "before": "<p class=\"data-gap\" data-fact-id=\"dataset-version-policy\" data-status=\"missing\">尚待補充：資料集發布新版本時的處理方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"dataset-version-policy\" data-status=\"missing\">尚待補充：資料集發布新版本時的處理方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 12156,
+            "end": 12229,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">此資料的使用受到限制，具體條件尚待說明。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">此資料的使用受到限制，具體條件尚待說明。</p>{% else %}<p data-fact-id=\"reuse-restrictions\" data-status=\"partial\">此資料集有使用限制。</p>{% endif %}",
+            "retained_fact": true,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 21540,
+            "end": 21630,
+            "before": "<p class=\"data-gap\" data-fact-id=\"dataset-source\" data-status=\"missing\">尚待補充：資料集的取得來源。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"dataset-source\" data-status=\"missing\">尚待補充：資料集的取得來源。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 22112,
+            "end": 22202,
+            "before": "<p class=\"data-gap\" data-fact-id=\"reuse-purpose\" data-status=\"missing\">尚待補充：使用此資料集的目的。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"reuse-purpose\" data-status=\"missing\">尚待補充：使用此資料集的目的。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 37909,
+            "end": 38004,
+            "before": "<p class=\"data-gap\" data-fact-id=\"nonreuse-reason\" data-status=\"missing\">尚待補充：不再次使用此資料集的原因。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"nonreuse-reason\" data-status=\"missing\">尚待補充：不再次使用此資料集的原因。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 38056,
+            "end": 38148,
+            "before": "<p class=\"data-gap\" data-fact-id=\"reuse-decision\" data-status=\"missing\">尚待補充：是否再次使用此資料集。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"reuse-decision\" data-status=\"missing\">尚待補充：是否再次使用此資料集。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 38304,
+            "end": 38437,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"reuse-sources\" data-status=\"missing\">尚待補充：曾考慮再次使用的既有資料集，包括最後未採用的來源。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"reuse-sources\" data-status=\"missing\">尚待補充：曾考慮再次使用的既有資料集，包括最後未採用的來源。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 46521,
+            "end": 46658,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"reuse-sources\" data-status=\"missing\">尚待補充：是否再次使用既有資料，以及使用限制或未採用候選來源的原因。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"reuse-sources\" data-status=\"missing\">尚待補充：是否再次使用既有資料，以及使用限制或未採用候選來源的原因。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 48559,
+            "end": 48685,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance-detail\" data-status=\"missing\">尚待補充：用於記錄資料溯源的其他安排。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance-detail\" data-status=\"missing\">尚待補充：用於記錄資料溯源的其他安排。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 48811,
+            "end": 48931,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance\" data-status=\"missing\">尚待補充：資料來源與處理歷程的記錄方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance\" data-status=\"missing\">尚待補充：資料來源與處理歷程的記錄方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 49027,
+            "end": 49147,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance\" data-status=\"missing\">尚待補充：資料來源與處理歷程的記錄方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance\" data-status=\"missing\">尚待補充：資料來源與處理歷程的記錄方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/02-what-data.html.j2": [
+          {
+            "start": 5010,
+            "end": 5128,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"data-collector\" data-status=\"missing\">尚待補充：此資料集由誰蒐集。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"data-collector\" data-status=\"missing\">尚待補充：此資料集由誰蒐集。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5344,
+            "end": 5486,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"equipment-documentation\" data-status=\"missing\">尚待補充：設備說明是否完整，以及是否需要加強記錄蒐集過程。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"equipment-documentation\" data-status=\"missing\">尚待補充：設備說明是否完整，以及是否需要加強記錄蒐集過程。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5934,
+            "end": 6065,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"external-ownership\" data-status=\"missing\">尚待補充：委由外部單位蒐集資料時的所有權安排。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-fact-id=\"external-ownership\" data-status=\"missing\">尚待補充：委由外部單位蒐集資料時的所有權安排。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 11411,
+            "end": 11513,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-status=\"missing-output\">本文件尚未列出資料種類、格式及預估資料量。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\" data-status=\"missing-output\">本文件尚未列出資料種類、格式及預估資料量。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 21526,
+            "end": 21610,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-1b\">尚待補充：{{ formatGaps|join(\"、\") }}。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-1b\">尚待補充：{{ formatGaps|join(\"、\") }}。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4676,
+            "end": 4757,
+            "before": "<p class=\"collection-summary\"><strong>{{ collectionName }}</strong>的蒐集方式尚待說明。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"collection-summary\"><strong>{{ collectionName }}</strong>的蒐集方式尚待說明。</p>{% else %}<p class=\"collection-context\"><strong>{{ collectionName }}</strong></p>{% endif %}",
+            "retained_fact": true,
+            "kind": "unmarked-collection-context"
+          }
+        ],
+        "src/questions/03-docs-metadata.html.j2": [
+          {
+            "start": 5731,
+            "end": 5838,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-dictionary\" data-status=\"needs-review\">本模板無法呈現所選的資料字典選項，請核對。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-dictionary\" data-status=\"needs-review\">本模板無法呈現所選的資料字典選項，請核對。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5924,
+            "end": 6026,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-dictionary\" data-status=\"missing\">尚待補充：是否將建立資料字典或變項定義表。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-dictionary\" data-status=\"missing\">尚待補充：是否將建立資料字典或變項定義表。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 6886,
+            "end": 6993,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-access-explanation\" data-status=\"missing\">尚待補充：後設資料不公開提供的原因。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-access-explanation\" data-status=\"missing\">尚待補充：後設資料不公開提供的原因。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8948,
+            "end": 9057,
+            "before": "<p class=\"data-gap metadata-publication-gap\">尚待補充：{{ metadataInstructionsGap }}；{{ metadataHarvestGap }}。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap metadata-publication-gap\">尚待補充：{{ metadataInstructionsGap }}；{{ metadataHarvestGap }}。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9230,
+            "end": 9350,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-access-instructions\" data-status=\"needs-review\">本模板無法呈現所選的後設資料取用說明選項，請核對。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-access-instructions\" data-status=\"needs-review\">本模板無法呈現所選的後設資料取用說明選項，請核對。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9436,
+            "end": 9548,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-access-instructions\" data-status=\"missing\">尚待補充：後設資料是否會包含取用資料的說明。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-access-instructions\" data-status=\"missing\">尚待補充：後設資料是否會包含取用資料的說明。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9738,
+            "end": 9851,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-harvestable\" data-status=\"needs-review\">本模板無法呈現所選的後設資料擷取與索引選項，請核對。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-harvestable\" data-status=\"needs-review\">本模板無法呈現所選的後設資料擷取與索引選項，請核對。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9937,
+            "end": 10042,
+            "before": "<p class=\"data-gap\" data-fact-id=\"metadata-harvestable\" data-status=\"missing\">尚待補充：後設資料是否可供自動擷取並建立索引。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"metadata-harvestable\" data-status=\"missing\">尚待補充：後設資料是否可供自動擷取並建立索引。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 12258,
+            "end": 12371,
+            "before": "<p class=\"data-gap\" data-fact-id=\"storage-capacity\" data-status=\"missing\">尚待補充：計畫所有資料與軟體（含暫存空間）所需的預估儲存容量（GB）。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"storage-capacity\" data-status=\"missing\">尚待補充：計畫所有資料與軟體（含暫存空間）所需的預估儲存容量（GB）。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 19316,
+            "end": 19419,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-2a\" data-status=\"missing-output\">本文件尚未說明將提供哪些後設資料與說明文件。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-2a\" data-status=\"missing-output\">本文件尚未說明將提供哪些後設資料與說明文件。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/04-quality-control.html.j2": [
+          {
+            "start": 1052,
+            "end": 1169,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-2b\" data-status=\"missing-output\">本文件尚未說明資料品質檢查方式。使用既有資料時，也需進行適當的品質管控。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-2b\" data-status=\"missing-output\">本文件尚未說明資料品質檢查方式。使用既有資料時，也需進行適當的品質管控。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/05-store-backup.html.j2": [
+          {
+            "start": 1614,
+            "end": 1751,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-reliability\" data-status=\"missing\">尚待補充：計畫成員個別存放的資料是否已妥善備份，並可追溯。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-reliability\" data-status=\"missing\">尚待補充：計畫成員個別存放的資料是否已妥善備份，並可追溯。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4178,
+            "end": 4303,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"storage-capacity\" data-status=\"missing\">尚待補充：計畫期間儲存容量需求的變化。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"storage-capacity\" data-status=\"missing\">尚待補充：計畫期間儲存容量需求的變化。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4436,
+            "end": 4561,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"storage-capacity\" data-status=\"missing\">尚待補充：計畫期間儲存容量需求的變化。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"storage-capacity\" data-status=\"missing\">尚待補充：計畫期間儲存容量需求的變化。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 6047,
+            "end": 6168,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"loss-prevention\" data-status=\"missing\">尚待補充：如何防止資料全部遺失。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"loss-prevention\" data-status=\"missing\">尚待補充：如何防止資料全部遺失。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7394,
+            "end": 7523,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\">尚待補充：共享工作空間內外資料的備份方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\">尚待補充：共享工作空間內外資料的備份方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7656,
+            "end": 7777,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"loss-prevention\" data-status=\"missing\">尚待補充：如何防止資料全部遺失。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"loss-prevention\" data-status=\"missing\">尚待補充：如何防止資料全部遺失。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7869,
+            "end": 7998,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\">尚待補充：共享工作空間內外資料的備份方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\">尚待補充：共享工作空間內外資料的備份方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8125,
+            "end": 8271,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"working-storage-arrangement\" data-status=\"missing\">尚待補充：資料將存放於共享工作空間，或由計畫成員個別存放。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"working-storage-arrangement\" data-status=\"missing\">尚待補充：資料將存放於共享工作空間，或由計畫成員個別存放。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8361,
+            "end": 8489,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\">尚待補充：計畫資料與後設資料的備份方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3a\" data-fact-id=\"backup-arrangement\" data-status=\"missing\">尚待補充：計畫資料與後設資料的備份方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/06-access-security.html.j2": [
+          {
+            "start": 15266,
+            "end": 15369,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-3b\" data-status=\"missing-output\">本文件尚未說明資料安全與敏感資料的保護措施。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-3b\" data-status=\"missing-output\">本文件尚未說明資料安全與敏感資料的保護措施。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/07-personal-data.html.j2": [
+          {
+            "start": 1609,
+            "end": 1755,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-other-legal-basis\" data-status=\"missing\">尚待補充：蒐集及處理個人資料所採用的其他法律依據。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-other-legal-basis\" data-status=\"missing\">尚待補充：蒐集及處理個人資料所採用的其他法律依據。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 1889,
+            "end": 2024,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-legal-basis\" data-status=\"missing\">尚待補充：蒐集及處理個人資料的法律依據。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-legal-basis\" data-status=\"missing\">尚待補充：蒐集及處理個人資料的法律依據。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4716,
+            "end": 4868,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-identifiability\" data-status=\"missing\">尚待補充：所儲存資料的可識別程度（匿名化、擬匿名化或可識別個人）。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-identifiability\" data-status=\"missing\">尚待補充：所儲存資料的可識別程度（匿名化、擬匿名化或可識別個人）。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5700,
+            "end": 5845,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-additional-safeguards\" data-status=\"missing\">尚待補充：其他技術與程序保護措施的說明。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-additional-safeguards\" data-status=\"missing\">尚待補充：其他技術與程序保護措施的說明。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7308,
+            "end": 7456,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-transfer-measures\" data-status=\"missing\">尚待補充：資料傳輸至歐盟／歐洲經濟區以外時的保護措施。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-transfer-measures\" data-status=\"missing\">尚待補充：資料傳輸至歐盟／歐洲經濟區以外時的保護措施。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 7864,
+            "end": 8002,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-transfer\" data-status=\"missing\">尚待補充：是否規劃將資料傳輸至歐盟／歐洲經濟區以外。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-transfer\" data-status=\"missing\">尚待補充：是否規劃將資料傳輸至歐盟／歐洲經濟區以外。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 8169,
+            "end": 8306,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-safeguards\" data-status=\"missing\">尚待補充：保護個人資料所採取的技術與程序措施。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-safeguards\" data-status=\"missing\">尚待補充：保護個人資料所採取的技術與程序措施。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10240,
+            "end": 10345,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-status=\"missing-output\">本文件尚未說明個人資料保護及相關法規的遵循方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-status=\"missing-output\">本文件尚未說明個人資料保護及相關法規的遵循方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/08-copyright-ipr.html.j2": [
+          {
+            "start": 15376,
+            "end": 15495,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4b\" data-status=\"missing-output\">本文件尚未呈現資料所有權、智慧財產權或適用法規的安排，請核對並補充本節內容。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4b\" data-status=\"missing-output\">本文件尚未呈現資料所有權、智慧財產權或適用法規的安排，請核對並補充本節內容。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/09-ethical-issues.html.j2": [
+          {
+            "start": 3601,
+            "end": 3666,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">尚待補充：倫理審查進度。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">尚待補充：倫理審查進度。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3831,
+            "end": 3891,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">案號尚未提供。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">案號尚未提供。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4066,
+            "end": 4130,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">倫理審查紀錄尚未提供。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">倫理審查紀錄尚未提供。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 14718,
+            "end": 14824,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-4c\" data-status=\"missing-output\">本文件尚未說明適用的倫理要求、行為準則及因應方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-4c\" data-status=\"missing-output\">本文件尚未說明適用的倫理要求、行為準則及因應方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/10-share-restrictions.html.j2": [
+          {
+            "start": 6394,
+            "end": 6491,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-access\" data-status=\"missing\">尚待補充：此管道的資料取用方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-access\" data-status=\"missing\">尚待補充：此管道的資料取用方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10717,
+            "end": 10819,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-repository\" data-status=\"missing\">尚待補充：此管道使用的資料儲存庫。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-repository\" data-status=\"missing\">尚待補充：此管道使用的資料儲存庫。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 15711,
+            "end": 15818,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-restriction-terms\" data-status=\"missing\">尚待補充：受限取用的具體條件。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-restriction-terms\" data-status=\"missing\">尚待補充：受限取用的具體條件。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 17415,
+            "end": 17520,
+            "before": "<p class=\"data-gap\" data-fact-id=\"restriction-custom-process\" data-status=\"missing\">尚待補充：專用申請流程的具體內容。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"restriction-custom-process\" data-status=\"missing\">尚待補充：專用申請流程的具體內容。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 17737,
+            "end": 17842,
+            "before": "<p class=\"data-gap\" data-fact-id=\"restriction-access-process\" data-status=\"missing\">尚待補充：受限資料的取用申請方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"restriction-access-process\" data-status=\"missing\">尚待補充：受限資料的取用申請方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 18520,
+            "end": 18636,
+            "before": "<p class=\"data-gap\" data-fact-id=\"restriction-metadata-publication\" data-status=\"missing\">尚待補充：是否將取用條件納入公開的後設資料。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"restriction-metadata-publication\" data-status=\"missing\">尚待補充：是否將取用條件納入公開的後設資料。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 19267,
+            "end": 19362,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-licence\" data-status=\"missing\">尚待補充：授權或使用條件。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-licence\" data-status=\"missing\">尚待補充：授權或使用條件。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 19631,
+            "end": 19726,
+            "before": "<p class=\"data-gap\" data-fact-id=\"distribution-licence\" data-status=\"missing\">尚待補充：授權或使用條件。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"distribution-licence\" data-status=\"missing\">尚待補充：授權或使用條件。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 20471,
+            "end": 20569,
+            "before": "<p class=\"data-gap\" data-fact-id=\"publication-distributions\" data-status=\"missing\">資料發布位置尚未列出。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"publication-distributions\" data-status=\"missing\">資料發布位置尚未列出。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 20691,
+            "end": 20790,
+            "before": "<p class=\"data-gap\" data-fact-id=\"publication-decision\" data-status=\"missing\">尚待補充：此資料集是否將公開發布。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"publication-decision\" data-status=\"missing\">尚待補充：此資料集是否將公開發布。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 28555,
+            "end": 28661,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5a\" data-status=\"missing-output\">本文件尚未說明資料共享方式、開放時程及可能的限制。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5a\" data-status=\"missing-output\">本文件尚未說明資料共享方式、開放時程及可能的限制。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/11-data-preservation.html.j2": [
+          {
+            "start": 2079,
+            "end": 2191,
+            "before": "<p class=\"data-gap\" data-fact-id=\"preservation-publication-decision\" data-status=\"missing\">尚待補充：此資料集是否將公開發布。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"preservation-publication-decision\" data-status=\"missing\">尚待補充：此資料集是否將公開發布。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4101,
+            "end": 4198,
+            "before": "<p class=\"data-gap\" data-fact-id=\"retention-period\" data-status=\"missing-output\">尚待補充：資料保存期間。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"retention-period\" data-status=\"missing-output\">尚待補充：資料保存期間。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4393,
+            "end": 4495,
+            "before": "<p class=\"data-gap\" data-fact-id=\"retention-period\" data-status=\"needs-review\">請補充保存期間的時間單位，例如年或月。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"retention-period\" data-status=\"needs-review\">請補充保存期間的時間單位，例如年或月。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4759,
+            "end": 4875,
+            "before": "<p class=\"data-gap\" data-fact-id=\"retention-payment\" data-status=\"needs-review\">請核對保存期間「費用已預付」與儲存庫「不收費」這兩項填答的關係。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"retention-payment\" data-status=\"needs-review\">請核對保存期間「費用已預付」與儲存庫「不收費」這兩項填答的關係。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 9060,
+            "end": 9169,
+            "before": "<p class=\"data-gap\" data-fact-id=\"repository-contact-arrangements\" data-status=\"missing\">尚待補充：儲存庫聯繫的其他安排。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"repository-contact-arrangements\" data-status=\"missing\">尚待補充：儲存庫聯繫的其他安排。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 17161,
+            "end": 17329,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5b\" data-fact-id=\"preservation-selection-review\" data-status=\"needs-review\">保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5b\" data-fact-id=\"preservation-selection-review\" data-status=\"needs-review\">保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 17423,
+            "end": 17532,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5b\" data-status=\"missing-output\">本文件尚未說明哪些資料需要長期保存，以及保存地點與方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5b\" data-status=\"missing-output\">本文件尚未說明哪些資料需要長期保存，以及保存地點與方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/12-access-data.html.j2": [
+          {
+            "start": 3255,
+            "end": 3347,
+            "before": "<p class=\"data-gap\" data-fact-id=\"software-location\" data-status=\"missing\">此工具的取得位置尚未提供。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"software-location\" data-status=\"missing\">此工具的取得位置尚未提供。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3618,
+            "end": 3753,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-list\" data-status=\"missing\">使用此資料集需要特定軟體，但所需工具尚未列出。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-list\" data-status=\"missing\">使用此資料集需要特定軟體，但所需工具尚未列出。</p>{% else %}<p data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-list\" data-status=\"partial\">使用此資料集需要軟體工具。</p>{% endif %}",
+            "retained_fact": true,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4070,
+            "end": 4206,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-decision\" data-status=\"missing\">尚待補充：使用此資料集是否需要特定軟體。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"required-software-decision\" data-status=\"missing\">尚待補充：使用此資料集是否需要特定軟體。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4495,
+            "end": 4622,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"publication-decision\" data-status=\"missing\">尚待補充：此資料集是否將公開發布。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-fact-id=\"publication-decision\" data-status=\"missing\">尚待補充：此資料集是否將公開發布。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 4768,
+            "end": 4878,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-status=\"missing-output\">本文件尚未列出將共享的資料，以及取用或使用資料所需的工具。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5c\" data-status=\"missing-output\">本文件尚未列出將共享的資料，以及取用或使用資料所需的工具。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/13-persistent-identifier.html.j2": [
+          {
+            "start": 10161,
+            "end": 10252,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5d\">尚待補充：{{ identifierMissing|join(\"、\") }}。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5d\">尚待補充：{{ identifierMissing|join(\"、\") }}。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10373,
+            "end": 10477,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5d\">本模板無法判讀下列欄位的選項，請核對：{{ identifierReview|join(\"、\") }}。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5d\">本模板無法判讀下列欄位的選項，請核對：{{ identifierReview|join(\"、\") }}。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 10950,
+            "end": 11016,
+            "before": "<p class=\"data-gap\" data-status=\"missing-output\">持續識別碼的安排尚待說明。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-status=\"missing-output\">持續識別碼的安排尚待說明。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 11240,
+            "end": 11337,
+            "before": "<p class=\"data-gap\" data-fact-id=\"identifier-distributions\" data-status=\"missing\">資料發布位置尚未列出。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"identifier-distributions\" data-status=\"missing\">資料發布位置尚未列出。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 11626,
+            "end": 11725,
+            "before": "<p class=\"data-gap\" data-fact-id=\"publication-decision\" data-status=\"missing\">尚待補充：此資料集是否將公開發布。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"publication-decision\" data-status=\"missing\">尚待補充：此資料集是否將公開發布。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 11869,
+            "end": 11982,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-5d\" data-status=\"missing-output\">本文件尚未說明哪些資料集將取得持續識別碼，以及識別碼的指派方式。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-5d\" data-status=\"missing-output\">本文件尚未說明哪些資料集將取得持續識別碼，以及識別碼的指派方式。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/14-dm-responsible.html.j2": [
+          {
+            "start": 3449,
+            "end": 3569,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6a\" data-status=\"missing-output\">本文件尚未列出具名且負有資料管理職責的人員或團隊，請核對參與人員的姓名與角色。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6a\" data-status=\"missing-output\">本文件尚未列出具名且負有資料管理職責的人員或團隊，請核對參與人員的姓名與角色。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ],
+        "src/questions/15-required-resources.html.j2": [
+          {
+            "start": 1962,
+            "end": 2096,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise-detail\" data-status=\"missing\">尚待補充：既有工作人員的培訓內容。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise-detail\" data-status=\"missing\">尚待補充：既有工作人員的培訓內容。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3210,
+            "end": 3345,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise-detail\" data-status=\"missing\">尚待補充：新進人員應具備的專業知識。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise-detail\" data-status=\"missing\">尚待補充：新進人員應具備的專業知識。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 3441,
+            "end": 3568,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise\" data-status=\"missing\">尚待補充：是否需要額外的專業知識。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"specialist-expertise\" data-status=\"missing\">尚待補充：是否需要額外的專業知識。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5029,
+            "end": 5159,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"hardware-software-detail\" data-status=\"missing\">尚待補充：所需的額外硬體或軟體。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"hardware-software-detail\" data-status=\"missing\">尚待補充：所需的額外硬體或軟體。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5255,
+            "end": 5380,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"hardware-software\" data-status=\"missing\">尚待補充：是否需要額外的硬體或軟體。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"hardware-software\" data-status=\"missing\">尚待補充：是否需要額外的硬體或軟體。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 5935,
+            "end": 6034,
+            "before": "<p class=\"data-gap\" data-fact-id=\"repository-charges\" data-status=\"missing\">尚待補充：是否需支付資料儲存庫服務費。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"repository-charges\" data-status=\"missing\">尚待補充：是否需支付資料儲存庫服務費。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 18646,
+            "end": 18787,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-justification\" data-status=\"missing\">尚待補充：這項資源如何協助產出符合 FAIR 原則的資料。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-justification\" data-status=\"missing\">尚待補充：這項資源如何協助產出符合 FAIR 原則的資料。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 20175,
+            "end": 20287,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-amount\" data-status=\"missing\">幣別尚未提供。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-amount\" data-status=\"missing\">幣別尚未提供。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 20879,
+            "end": 20993,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-amount\" data-status=\"missing\">預算金額尚未提供。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-amount\" data-status=\"missing\">預算金額尚未提供。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 21556,
+            "end": 21673,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-amount\" data-status=\"missing\">預算金額與幣別尚未提供。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-amount\" data-status=\"missing\">預算金額與幣別尚未提供。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 23891,
+            "end": 24028,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-allocation\" data-status=\"missing\">尚待補充：這項資源將支援哪些 FAIR 或資料管理工作。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-allocation\" data-status=\"missing\">尚待補充：這項資源將支援哪些 FAIR 或資料管理工作。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 25222,
+            "end": 25306,
+            "before": "<p class=\"data-gap\" data-fact-id=\"grant-number\" data-status=\"missing\">尚待補充：補助編號。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-fact-id=\"grant-number\" data-status=\"missing\">尚待補充：補助編號。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 25934,
+            "end": 26047,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"cost-coverage\" data-status=\"missing\">尚待補充：經費來源。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"cost-coverage\" data-status=\"missing\">尚待補充：經費來源。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 26151,
+            "end": 26264,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"cost-coverage\" data-status=\"missing\">尚待補充：經費來源。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"cost-coverage\" data-status=\"missing\">尚待補充：經費來源。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 27320,
+            "end": 27474,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resources-costing\" data-status=\"missing\">尚待補充：本計畫編列的資料管理資源，例如工作人員時間、儲存空間、寄存準備工作及資料儲存庫費用。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resources-costing\" data-status=\"missing\">尚待補充：本計畫編列的資料管理資源，例如工作人員時間、儲存空間、寄存準備工作及資料儲存庫費用。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          },
+          {
+            "start": 27624,
+            "end": 27761,
+            "before": "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resources-costing\" data-status=\"missing\">尚待補充：資料管理及落實 FAIR 原則所編列的經費與時間。</p>",
+            "after": "{% if output_profile|default('review') != 'submission' %}<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resources-costing\" data-status=\"missing\">尚待補充：資料管理及落實 FAIR 原則所編列的經費與時間。</p>{% endif %}",
+            "retained_fact": false,
+            "kind": "marked-notice"
+          }
+        ]
+      }
+    }
+  }
+}

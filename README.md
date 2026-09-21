@@ -3,6 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
+最新[提交版系統提示切換試作](reviews/2026-09-21-submission-notices/README.md)：
+264 組中英文結構檢查、12 組原生比較通過。檢核版畫面不變，試作提交保留原文、
+肯定／否定答案、金額與長用途；全空中文 PDF／Word 都由 3 頁減為 2 頁。
+尚未整合來源或升版；未標記佔位文字與品管重複短句仍待處理，**不是全域開關完成**。
+
 目前 [0.3.43 混合預算／大量資源整合](docs/budget-grouping.md)：已接回英文共用來源，
 中文循既有流程生成，748 組譯文不變。新增完整舊版還原與套件內容一致性檢查；
 已完成[八組原生整合對照](reviews/2026-09-21-budget-grouping-integration/README.md)：

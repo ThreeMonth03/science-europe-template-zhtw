@@ -1,0 +1,20 @@
+{
+  "public_synthetic": true,
+  "generator_sha256": "ef792a3601b5eb60cd8a3f1fc8d41b7817728351d529b4e471f7fd3bccb8cb67",
+  "rows": [
+    {
+      "locale": "en",
+      "source_events_sha256": "13d7f8533d93d0b50c3bb2c43dd48b49e5ac421b5a31c5ddd56ab621652d0f5f",
+      "events_sha256": "7f771e6a0db50d70b9ff3e3575c180b2a4e204d5992ac877289faeee24b3a883",
+      "knowledge_model_sha256": "aabca6f7de8ad41cf9989afd25d4827f3de134fb8f0d965fcc6c336cfeb3e965",
+      "authored_path": "82fd0cce-2b41-423f-92ad-636d0872045c.efc80cc8-8318-4f8c-acb7-dc1c60e491c1.2663b978-5125-4224-9930-0a50dbe895c9.fcc51962-08df-4f4c-85ad-6bb932107010.1f41fb97-54f7-53d1-9ae6-367f1a82d9b5.58401091-2d48-4231-983a-c972d11d9f6e.8a1937d8-39dc-4efd-a3f6-b62e789f225b.bf02f456-0a60-4b50-ae86-5cd56d430b2e"
+    },
+    {
+      "locale": "zh-Hant",
+      "source_events_sha256": "fed2947a7717e945f7dc8f53cb1bfbe54d3a0434f34e9aa109a576619b889f44",
+      "events_sha256": "8f9ce672d34361f9999611222ae08b3b95bc8c6be8e1d9b1fc6cca9a697392b3",
+      "knowledge_model_sha256": "a3030cb9048a8842fe43ebac9ece00011e26936111789443d85422473c4cae47",
+      "authored_path": "82fd0cce-2b41-423f-92ad-636d0872045c.efc80cc8-8318-4f8c-acb7-dc1c60e491c1.2663b978-5125-4224-9930-0a50dbe895c9.fcc51962-08df-4f4c-85ad-6bb932107010.1f41fb97-54f7-53d1-9ae6-367f1a82d9b5.58401091-2d48-4231-983a-c972d11d9f6e.8a1937d8-39dc-4efd-a3f6-b62e789f225b.bf02f456-0a60-4b50-ae86-5cd56d430b2e"
+    }
+  ]
+}

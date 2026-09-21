@@ -1,0 +1,766 @@
+{
+  "selected_checks_passed": true,
+  "prototype_only": true,
+  "release_acceptance": false,
+  "microsoft_word_acceptance": false,
+  "global_switch_complete": false,
+  "checker_sha256": "4ee933bca4bb06d5a39254847d5156664320d29352106c0a98e9e816b5322b85",
+  "rows": [
+    {
+      "case": "empty",
+      "language": "english",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 22,
+      "word_paragraphs_verified": 44,
+      "rendered": {
+        "native_pdf": {
+          "pages": 4,
+          "paragraph_counts_verified": 26,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 4,
+          "baseline_line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 3,
+          "paragraph_counts_verified": 26,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "38b1bf8fa0ab3bbe235cb2e9004551408af1ffce9dac06004e17bcec18b418b6",
+        "pdf": "aaf66db4c0d6553cfeb5c6c11cb2fe7a3d72410203935d03bd0d4736adf77755",
+        "docx": "072975f31cd94d979693c1f800f7bd439f9434a45731fc2180180b4d86bc63da"
+      },
+      "word_preview_sha256": "05f863621538b7864b5adbe0bf4d8d4d1e1870fc5dda832ddc472710813b1470"
+    },
+    {
+      "case": "empty",
+      "language": "english",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 20,
+      "rendered": {
+        "native_pdf": {
+          "pages": 3,
+          "paragraph_counts_verified": 4,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 4,
+          "baseline_line_box_overlaps": [
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 2,
+          "paragraph_counts_verified": 4,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "bf1a7d2f3b3ed149668b748eec0680eb25ef5d0ed36937109d0e99e1a4d7b29c",
+        "pdf": "da1e55a82b2e13008a915d420207a7b050bb4c220dec0abfa5ed452a6382746b",
+        "docx": "182b88fd44b067641ea0bb67955f790cc5af7881dad61272a1c4791be8b40e0e"
+      },
+      "word_preview_sha256": "ef8a360cfa5b089a2d3832aff9bf4f7c1a0011bbb3036f03761c08cda7c9369b"
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 22,
+      "word_paragraphs_verified": 44,
+      "rendered": {
+        "native_pdf": {
+          "pages": 3,
+          "paragraph_counts_verified": 26,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 3,
+          "paragraph_counts_verified": 26,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "ed45133c340414e3461c36e3939c4720793644709a52f53f0472d90ae82f710d",
+        "pdf": "e577ccbc82c2d49ed4fe8dd8c3c108172e0ad5881b63c6d94442af01da3f7233",
+        "docx": "f9c15c4021256011b9ec40c664d171474063be347d040ab4388c4d62997b792f"
+      },
+      "word_preview_sha256": "759674c929236586cfa75db550afce9315c3bfce76d2e7d4306e41e242f681c8"
+    },
+    {
+      "case": "empty",
+      "language": "chinese",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 20,
+      "rendered": {
+        "native_pdf": {
+          "pages": 2,
+          "paragraph_counts_verified": 4,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 2,
+          "paragraph_counts_verified": 4,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 3,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "3bb6e874342f5a1c23abb40a8c1ec63e48ec471ddd826c25ff2b317a506d5a97",
+        "pdf": "35c51e945ad18e09017cb5c81e126fe735a57ed170011c5569e7c9156e500678",
+        "docx": "54d1fd2ca4d765d72de8a6462edc219b80d95489fd432c1ae84dcab4bf86364a"
+      },
+      "word_preview_sha256": "5fcda920ae0e62369cd96b36665cab1a02f461990d310e8dec14da39792358d1"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "english",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 12,
+      "word_paragraphs_verified": 128,
+      "rendered": {
+        "native_pdf": {
+          "pages": 7,
+          "paragraph_counts_verified": 86,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 86,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "9ba931a26cafbac4c32cd5e3e87934e3741120a7b9917444722a27132d672bf9",
+        "pdf": "8280cd5f6fdc622ee7acd26a71be043d61ac984402a407be76db92730009884e",
+        "docx": "beeec61b7adbb190ba880e24ee53650ff166dcf7252b478198b38ee0c8409856"
+      },
+      "word_preview_sha256": "684825115b8a747ee35a34782d155408edd8dc37a55f34cf6a58eb3dd3b988ae"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "english",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 121,
+      "rendered": {
+        "native_pdf": {
+          "pages": 6,
+          "paragraph_counts_verified": 81,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": null,
+          "baseline_pages": 7,
+          "baseline_line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 81,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "2555760fa9179c5a20600535e92ab0e88a5f4190852fccdf4d68733e1b60a0b8",
+        "pdf": "f869cb2dab345940aa69fdb764c48a0da1dbf1dec81fa6d50d8ee48f2cf74d94",
+        "docx": "851911bd7721f48791cead9b95125cc607df517b7a37d56a82291e323396c40b"
+      },
+      "word_preview_sha256": "c9e25d9789e4d731cffcd6d40bec8dd314fba7fa81eece1c66ce3241b7c3ebc0"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "chinese",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 12,
+      "word_paragraphs_verified": 128,
+      "rendered": {
+        "native_pdf": {
+          "pages": 6,
+          "paragraph_counts_verified": 86,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 86,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "569a520c510816cae0f417e7cfbc8e2b619dee88e5357fd4cc347c7a082ee0fd",
+        "pdf": "3f5fb81f24288df1a88e91c1b325ff0f73e79d116114c31e46f78c082c8a83d3",
+        "docx": "3b2e1c13b63235fbcef8ed76a1f14c05c40df92ed891fe108063183e9e5ab726"
+      },
+      "word_preview_sha256": "c3a8a1db7cd111d38ba6d1ef950eca2c223a74d8f5a18a64f8facc8aee67e3c2"
+    },
+    {
+      "case": "notice-mixed",
+      "language": "chinese",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 121,
+      "rendered": {
+        "native_pdf": {
+          "pages": 6,
+          "paragraph_counts_verified": 81,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 6,
+          "paragraph_counts_verified": 81,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": null,
+          "baseline_pages": 6,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "c5a6288b7b98c204072eb31c9ab29f175d574f0587d78ff9a72844d16ece47be",
+        "pdf": "642e5fd19c602dff69135b4c6aec2a13cf4db3b256056e0a345b018d13a0dbd3",
+        "docx": "f01f0a1a44cad9c27fb84b87840ad60a36359a9ab6f376489b910efa19fceba7"
+      },
+      "word_preview_sha256": "7520e2661aa4b3e9ad4ca26796e7454d92a52d3ba0026372b895b204d031b63b"
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 4,
+      "word_paragraphs_verified": 232,
+      "rendered": {
+        "native_pdf": {
+          "pages": 10,
+          "paragraph_counts_verified": 187,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": {
+            "canonical": "ResearchoverviewProjectNumberCOAST-2026Startdate2026-01-01Enddate2027-12-31FundingFundinginformationhasnotbeenprovided.Syntheticscenariofortestingallfifteenoutputquestions.Newcoastaltemperaturemeasurementswillbecomparedwithtwoopenreferencedatasets.ThisisnotanapprovedorcompleteDMP.PeopleandresponsibilitiesExampleresearchteamresearch@example.orgRoles:ContactPerson,CreatorofDMP,DataStewardKnowledgemodel:CommonDSWKnowledgeModel,2.7.0(dsw:root:2.7.0)GeneratedwithDataStewardshipWizard.DataManagementPlanCoastalobservations:reproducibledatamanagementDocument:MissinginformationQA/budget-long-no-currencyGeneratedon2026-09-21Section1:Datadescriptionandcollectionorre-useofexistingdata1.Howwillnewdatabecollectedorproducedand/orhowwillexistingdatabere-used?InstrumentdatasetsCoastaltemperaturemeasurementsForthisdataset,weareusingthefollowinginstruments:Temperaturelogger–Recordtemperatureeverytenminutes;retainUTCtimestampsandcalibrationrecords.QualitycontrolmeasuresforCoastaltemperaturemeasurements:measurementcalibration,dataentryvalidation.Re-useddatasetsOpencoastalobservations—station1Source:https://example.org/datasets/coastal-observations/station-1/version-2026Compareseasonalchangesinwatertemperature.Retaintheoriginaltimestamps.Documentanyexcludedobservations.Version2026.1Ifanewversionbecomesavailableduringtheproject,thecurrentversionwillcontinuetobeused.Opencoastalobservations—station2Source:https://example.org/datasets/coastal-observations/station-2/version-2026Compareseasonalchangesinwatertemperature.Retaintheoriginaltimestamps.Documentanyexcludedobservations.Version2026.1Ifanewversionbecomesavailableduringtheproject,thecurrentversionwillcontinuetobeused.SharedarrangementsThefollowingarrangementsapplytoallreferencedatasetsselectedforre-useabove.Wewillretainacopyofthisdatasetandprovideitalongsidetheresearchresults.Thisdatasetisfreelyavailablewithanobligationtocitethesource.Thedatacanbeuseddirectlywithoutformatconversion.ProvenanceRecordsourceversionsandprocessingscriptsintheprojectrepository.RecordRetentionProcessinglog10yearsSourcechecksum10years2.Whatdata(forexamplethekinds,formats,andvolumes)willbecollectedorproduced?InstrumentdatasetsDatacollectionforCoastaltemperaturemeasurements:Thisdatasetwillbecollectedbyexpertsintheproject,withourownequipment.Theequipmentisverywelldescribedandknown.DataformatsandtypesDataformat:CSV(UTF-8).Itisastandardizedformatsuitableforlong-termarchiving.Theestimateddatavolumeis120GB.Section2:Documentationanddataquality3.Whatmetadataanddocumentation(forexamplethemethodologyofdatacollectionandwayoforganisingdata)willaccompanythedata?WewillbedocumentingthedatawithDublinCoremetadatastandard.Informationnotprovided:whetheradata/variabledictionarywillbecreated.Metadatawillbeopenlyavailableincludinginstructionshowtogetaccesstothedata.Metadatawillbeavailableinaformthatcanbeharvestedandindexed(managedbytheusedrepository/repositories).DatastorageandfileconventionsWeestimatethestoragespacethattheprojectwillrequireforalldataandsoftware(includingtemporarystorage)tobe2048gigabytes.Wewilluseafilesystemwithfilesandfolders.Wedocumenthowwemanagefileversioningforfilesandfolders.Filenamingconventions:Namefilesstation_YYYYMMDD.csvanddocumentcorrectionsinCHANGELOG.md.4.Whatdataqualitycontrolmeasureswillbeused?QualitycontrolmeasuresforCoastaltemperaturemeasurements:measurementcalibration,dataentryvalidation.Section3:Storageandbackupduringresearchprocess5.Howwilldataandmetadatabestoredandbackedupduringtheresearchprocess?Thereisasharedworkspaceusedduringtheprojectforworkingwithdata.Dedicatedspecialistswilloperatethesharedworkspace.Storageneedswillbethesameduringthewholeproject.Allessentialdatawillalsobestoredelsewheretopreventatotallossofdata.Wewillmakeautomatedbackupsofalldatastoredoutsidetheworkspace.ArchivalduringtheprojectDatawillbearchivedincoldstorageduringtheproject.Thearchivewillbestoredontape.Thearchivewillbestoredataremotelocation.Changestoarchiveddatawillrequirere-archival.Frequentbackupsarerequiredbecausethearchiveddatachangesfrequently.Thesebackupswillbeusedtorecoverfromaccidentalchangesordeletions.Thefieldsmappedbythistemplateareinsufficienttoestablishthefollowingoperationaldetails:Exactworking-storageandbackuplocationsarenotestablishedbythesemappedanswers.Anactualbackupscheduleisnotestablishedbythesemappedanswers;aneedforfrequentbackupsisnotaschedule.6.Howwilldatasecurityandprotectionofsensitivedatabetakencareofduringtheresearch?Projectmemberswillnotcarrydatawiththem(e.g.onlaptops,USBsticks,orotherexternalmedia).AllprojectwebservicesareaccessibleviasecureHTTP(https://...).Projectmembershavebeeninstructedaboutbothgenericandspecificriskstotheproject.Seequestion5forarchivalandbackuparrangements.Section4:Legalandethicalrequirements,codesofconduct7.Ifpersonaldataareprocessed,howwillcompliancewithlegislationonpersonaldataandonsecuritybeensured?Wewillnotcollectanydatarelatedtoindividuals.8.Howwillotherlegalissues,suchasintellectualpropertyrightsandownership,bemanaged?Whatlegislationisapplicable?Forthereferenceandnon-referencedatasetsthatwereuse,conditionsareasfollows:Opencoastalobservations—station1Itisfreelyavailablewithobligationtoquotethesource(e.g.CC-BY).Opencoastalobservations—station2Itisfreelyavailablewithobligationtoquotethesource(e.g.CC-BY).9.Whatethicalissuesandcodesofconductarethere,andhowwilltheybetakenintoaccount?EthicalapprovalsThequestionnairerecordsthefollowingethicalapprovalarrangements:Coastalobservations:reproducibledatamanagementAccordingtothequestionnaire,thisprojectdoesnotrequireethicalapproval.DataweproduceForthedataweproduce,theethicalaspectsareasfollows:Quality-checkedcoastalobservationsItdoesnotcontainpersonaldata.Itdoesnotcontainsensitivedata.Internalinstrumentchecks-noinformationonpersonalnorsensitivedata.DatawecollectWewillnotcollectanydatarelatedtoindividuals,i.e.\"personaldata\".Thedatacollectionisnotsubjecttoethicallegislation.Section5:Datasharingandlong-termpreservation10.Howandwhenwilldatabeshared?Aretherepossiblerestrictionstodatasharingorembargoreasons?Quality-checkedcoastalobservationsThisdatasetwillbepublished.Distribution1Openaccess:thisdistributionwillbesharedwithanyone.Thisdistributionwillbedepositedinaninstitutionalrepository.Licencestartdate:2027-12-31.Freelyavailablewithobligationtoquotethesource(e.g.CC-BY).Distribution2Accesswillbelimitedtoapredefinedgroupofpeople.Thisdistributionwillbedepositedinaspecial-purposerepositoryfortheproject.Licencestartdate:2027-06-01.Accesstothisdistributionissubjecttorestrictions.Thispreliminaryreleaseislimitedtotheprojectreviewgroup.Donotredistributethepreliminaryfiles.Citethereleaseidentifierinreviewnotes.Re-userswillbeabletogetaccessbyrequesttothecontactperson.Theconditionswillbepublishedaspartofopenmetadata.Restrictiondetails:https://example.org/coast/review-terms.InternalinstrumentchecksThisdatasetwillnotbepublished.11.Howwilldataforpreservationbeselected,andwherewilldatabepreservedlong-term(forexampleadatarepositoryorarchive)?Quality-checkedcoastalobservationsQuality-checkedcoastalmeasurementswithastationdictionary.KeepSelection-2027-12-31.csvalongsidetheprocessingrecord.Thisdatasetcontainsprocesseddataleadingtopublishedresults.Thisdatasetwillbepublished.Retentionperiod(prepaid):10years.Themetadatawillbeavailableevenwhenthedatanolongerexists.Relatedpaper:https://example.org/papers/coast-studyPreservationdestinationsbydistribution:Distribution1:Ourinstitutionalrepository.Distribution2:Special-purposerepositoryfortheproject.Whetherwewillbeabletosupportthisrepositoryforasufficientlylongtimehasnotbeenspecified.InternalinstrumentchecksInstrumenttestrecordsretainedforinternalverification.Thisdatasetcontainsintermediatedata.Thisdatasetwillnotbepublished.Otherreasonsfornotpublishingthisdataset:Theinstrumentsupplierrestrictspublicationoftestrecords.Internalverificationcopieswillstillbekept.Recordtheaccessdecision.Retainthecalibrationcontext.Retentionperiod(prepaid):15years.Themetadatawillbeavailableevenwhenthedatanolongerexists.RepositorycostsandpublicationpreparationWehavebudgetedforthecostsintheprojecttopaychargesoftheusedrepositories.Wehaveareservedbudgetforthetimeandeffortitwilltaketopreparethedataforpublication.Project-widecoldstorageaftertheprojectTheprojectwillkeepcopiesofitsdataincoldstorageafteritfinishes.Departmentalbudgetsofoneormoreprojectparticipantswillpayforthislong-termstorage.Thearchivewillbekeptforatleast12years.Thearchivalperiodcanbeextended.Libraryorarchivestaffwilldecideonanextension.Basisforextendingthearchivalperiod:actualuseofthearchiveddata,predicteduseofthearchiveddata,availablebudget.Obsoletedataformatsincoldstoragewillbeupgraded.Archiveddatawillnotbemigratedregularlytomoremodernstoragemedia.Preservationselectionstillrequiresreview:publicationdecisionsandarchiverenewalcriteriadonotbythemselvesexplainwhichdatasetsandversionsmustberetainedordestroyed.12.Whatmethodsorsoftwaretoolsareneededtoaccessandusedata?Quality-checkedcoastalobservationsSoftwarerequiredtousethisdataset:CoastView1.0(synthetictesttool)Availableat:https://example.org/coastview/1.0InternalinstrumentchecksThisdatasetwillnotbepublished.13.Howwilltheapplicationofauniqueandpersistentidentifier(suchasaDigitalObjectIdentifier(DOI))toeachdatasetbeensured?Quality-checkedcoastalobservationsDistribution1InstitutionalrepositoryTherepositorywillassignthepersistentidentifier.Therepositorywillmakesurethepersistentidentifiercanberesolvedtoadigitalobject.Distribution2Special-purposerepositoryAninstitutionaldatastewardwillassignthepersistentidentifier.Therepositorywillmakesurethepersistentidentifiercanberesolvedtoadigitalobject.InternalinstrumentchecksThisdatasetwillnotbepublished.Possiblere-useofcreateddatainothercontextsCoastaltemperaturemeasurementsOtherresearchersinthisfieldwillbeinterestedinre-usingthisdata.Section6:Datamanagementresponsibilitiesandresources14.Who(forexamplerole,position,andinstitution)willberesponsiblefordatamanagement(i.e.thedatasteward)?Exampleresearchteamisresponsibleforthemanagementandproficiencyofdataincludingdataprocessing,datapolicies,dataguidelines,anddataavailability.ExampleresearchteamisresponsibleforimplementingtheDMP,andensuringitisreviewedandrevised.15.Whatresources(forexamplefinancialandtime)willbededicatedtodatamanagementandensuringthatdatawillbeFAIR(Findable,Accessible,Interoperable,Re-usable)?Additionalspecialistexpertiseisrequired.Existingstaffwillreceivetraining.Staffwillcompletetrainingbeforedatapublication.MetadataqualitychecksVersioncontrolandprovenanceWedonotrequireanyhardwareorsoftwareinadditiontowhatisusuallyavailableintheinstitute.Theselectedrepositorieschargefortheirservices.Data-managementbudgetResourceandpurposeBudgetFundingsourceDatapreparationresource15000Informationnotprovided:currency.InstitutionalresearchfundsPreparemetadataandvalidatedepositfiles.BUDGET-PARA-01:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-02:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-03:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-04:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-05:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-06:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-07:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-08:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-09:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-10:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-11:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-12:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-13:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-14:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-15:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-16:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-17:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-18:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-19:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-20:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-21:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-22:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-23:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-24:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-25:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-26:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-27:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-28:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-29:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-30:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-31:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-32:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-33:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-34:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-35:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-36:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-37:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-38:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-39:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-40:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-41:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-42:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-43:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-44:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-45:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-46:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-47:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-48:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-49:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-50:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-51:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-52:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-53:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-54:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-55:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-56:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-57:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-58:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-59:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-60:Retaintheoriginalresourcejustificationanditsaudittrail.PreserveBudget-2027-12-31.csv.Keepthefundingrecord.Thisresourcesupportsfindabilityandmanagementofdata.ResourceandpurposeBudgetFundingsourceDatapreparationresource2Preparemetadataandvalidatedepositfiles.Thisresourcesupportsfindabilityandmanagementofdata.0TWDInstitutionalresearchfunds",
+            "purpose_paragraphs": 60,
+            "long_pages": [
+              8,
+              9,
+              10
+            ],
+            "repeated_headers": [
+              9,
+              10
+            ],
+            "missing_header_pages": [],
+            "tail_together": true,
+            "tail_page": 10,
+            "allocation_pages": [
+              10
+            ],
+            "short_tail_pages": [
+              10
+            ]
+          },
+          "baseline_pages": 10,
+          "baseline_line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 9,
+          "paragraph_counts_verified": 187,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": {
+            "canonical": "DataManagementPlanCoastalobservations:reproducibledatamanagementDocument:MissinginformationQA/budget-long-no-currencyGeneratedon2026-09-21ResearchoverviewProjectNumberCOAST-2026Startdate2026-01-01Enddate2027-12-31FundingFundinginformationhasnotbeenprovided.Syntheticscenariofortestingallfifteenoutputquestions.Newcoastaltemperaturemeasurementswillbecomparedwithtwoopenreferencedatasets.ThisisnotanapprovedorcompleteDMP.PeopleandresponsibilitiesExampleresearchteamresearch@example.orgRoles:ContactPerson,CreatorofDMP,DataStewardKnowledgemodel:CommonDSWKnowledgeModel,2.7.0(dsw:root:2.7.0)GeneratedwithDataStewardshipWizard.Section1:Datadescriptionandcollectionorre-useofexistingdata1.Howwillnewdatabecollectedorproducedand/orhowwillexistingdatabere-used?InstrumentdatasetsCoastaltemperaturemeasurementsForthisdataset,weareusingthefollowinginstruments:oTemperaturelogger–Recordtemperatureeverytenminutes;retainUTCtimestampsandcalibrationrecords.QualitycontrolmeasuresforCoastaltemperaturemeasurements:measurementcalibration,dataentryvalidation.Re-useddatasetsOpencoastalobservations—station1Source:https://example.org/datasets/coastal-observations/station-1/version-2026Compareseasonalchangesinwatertemperature.oRetaintheoriginaltimestamps.oDocumentanyexcludedobservations.Version2026.1Ifanewversionbecomesavailableduringtheproject,thecurrentversionwillcontinuetobeused.Opencoastalobservations—station2Source:https://example.org/datasets/coastal-observations/station-2/version-2026Compareseasonalchangesinwatertemperature.oRetaintheoriginaltimestamps.oDocumentanyexcludedobservations.Version2026.1Ifanewversionbecomesavailableduringtheproject,thecurrentversionwillcontinuetobeused.SharedarrangementsThefollowingarrangementsapplytoallreferencedatasetsselectedforre-useabove.Wewillretainacopyofthisdatasetandprovideitalongsidetheresearchresults.Thisdatasetisfreelyavailablewithanobligationtocitethesource.Thedatacanbeuseddirectlywithoutformatconversion.ProvenanceRecordsourceversionsandprocessingscriptsintheprojectrepository.RecordRetentionProcessinglog10yearsSourcechecksum10years2.Whatdata(forexamplethekinds,formats,andvolumes)willbecollectedorproduced?InstrumentdatasetsDatacollectionforCoastaltemperaturemeasurements:Thisdatasetwillbecollectedbyexpertsintheproject,withourownequipment.Theequipmentisverywelldescribedandknown.DataformatsandtypesDataformat:CSV(UTF-8).Itisastandardizedformatsuitableforlong-termarchiving.Theestimateddatavolumeis120GB.Section2:Documentationanddataquality3.Whatmetadataanddocumentation(forexamplethemethodologyofdatacollectionandwayoforganisingdata)willaccompanythedata?WewillbedocumentingthedatawithDublinCoremetadatastandard.Informationnotprovided:whetheradata/variabledictionarywillbecreated.Metadatawillbeopenlyavailableincludinginstructionshowtogetaccesstothedata.Metadatawillbeavailableinaformthatcanbeharvestedandindexed(managedbytheusedrepository/repositories).DatastorageandfileconventionsWeestimatethestoragespacethattheprojectwillrequireforalldataandsoftware(includingtemporarystorage)tobe2048gigabytes.Wewilluseafilesystemwithfilesandfolders.Wedocumenthowwemanagefileversioningforfilesandfolders.Filenamingconventions:Namefilesstation_YYYYMMDD.csvanddocumentcorrectionsinCHANGELOG.md.4.Whatdataqualitycontrolmeasureswillbeused?QualitycontrolmeasuresforCoastaltemperaturemeasurements:measurementcalibration,dataentryvalidation.Section3:Storageandbackupduringresearchprocess5.Howwilldataandmetadatabestoredandbackedupduringtheresearchprocess?Thereisasharedworkspaceusedduringtheprojectforworkingwithdata.Dedicatedspecialistswilloperatethesharedworkspace.Storageneedswillbethesameduringthewholeproject.Allessentialdatawillalsobestoredelsewheretopreventatotallossofdata.Wewillmakeautomatedbackupsofalldatastoredoutsidetheworkspace.ArchivalduringtheprojectDatawillbearchivedincoldstorageduringtheproject.Thearchivewillbestoredontape.Thearchivewillbestoredataremotelocation.Changestoarchiveddatawillrequirere-archival.Frequentbackupsarerequiredbecausethearchiveddatachangesfrequently.Thesebackupswillbeusedtorecoverfromaccidentalchangesordeletions.Thefieldsmappedbythistemplateareinsufficienttoestablishthefollowingoperationaldetails:Exactworking-storageandbackuplocationsarenotestablishedbythesemappedanswers.Anactualbackupscheduleisnotestablishedbythesemappedanswers;aneedforfrequentbackupsisnotaschedule.6.Howwilldatasecurityandprotectionofsensitivedatabetakencareofduringtheresearch?Projectmemberswillnotcarrydatawiththem(e.g.onlaptops,USBsticks,orotherexternalmedia).AllprojectwebservicesareaccessibleviasecureHTTP(https://...).Projectmembershavebeeninstructedaboutbothgenericandspecificriskstotheproject.Seequestion5forarchivalandbackuparrangements.Section4:Legalandethicalrequirements,codesofconduct7.Ifpersonaldataareprocessed,howwillcompliancewithlegislationonpersonaldataandonsecuritybeensured?Wewillnotcollectanydatarelatedtoindividuals.8.Howwillotherlegalissues,suchasintellectualpropertyrightsandownership,bemanaged?Whatlegislationisapplicable?Forthereferenceandnon-referencedatasetsthatwereuse,conditionsareasfollows:Opencoastalobservations—station1Itisfreelyavailablewithobligationtoquotethesource(e.g.CC-BY).Opencoastalobservations—station2Itisfreelyavailablewithobligationtoquotethesource(e.g.CC-BY).9.Whatethicalissuesandcodesofconductarethere,andhowwilltheybetakenintoaccount?EthicalapprovalsThequestionnairerecordsthefollowingethicalapprovalarrangements:Coastalobservations:reproducibledatamanagementAccordingtothequestionnaire,thisprojectdoesnotrequireethicalapproval.DataweproduceForthedataweproduce,theethicalaspectsareasfollows:Quality-checkedcoastalobservationsoItdoesnotcontainpersonaldata.Itdoesnotcontainsensitivedata.Internalinstrumentchecks-noinformationonpersonalnorsensitivedata.DatawecollectWewillnotcollectanydatarelatedtoindividuals,i.e.\"personaldata\".Thedatacollectionisnotsubjecttoethicallegislation.Section5:Datasharingandlong-termpreservation10.Howandwhenwilldatabeshared?Aretherepossiblerestrictionstodatasharingorembargoreasons?Quality-checkedcoastalobservationsThisdatasetwillbepublished.Distribution1Openaccess:thisdistributionwillbesharedwithanyone.Thisdistributionwillbedepositedinaninstitutionalrepository.Licencestartdate:2027-12-31.Freelyavailablewithobligationtoquotethesource(e.g.CC-BY).Distribution2Accesswillbelimitedtoapredefinedgroupofpeople.Thisdistributionwillbedepositedinaspecial-purposerepositoryfortheproject.Licencestartdate:2027-06-01.Accesstothisdistributionissubjecttorestrictions.Thispreliminaryreleaseislimitedtotheprojectreviewgroup.Donotredistributethepreliminaryfiles.Citethereleaseidentifierinreviewnotes.Re-userswillbeabletogetaccessbyrequesttothecontactperson.Theconditionswillbepublishedaspartofopenmetadata.Restrictiondetails:https://example.org/coast/review-terms.InternalinstrumentchecksThisdatasetwillnotbepublished.11.Howwilldataforpreservationbeselected,andwherewilldatabepreservedlong-term(forexampleadatarepositoryorarchive)?Quality-checkedcoastalobservationsQuality-checkedcoastalmeasurementswithastationdictionary.KeepSelection-2027-12-31.csvalongsidetheprocessingrecord.Thisdatasetcontainsprocesseddataleadingtopublishedresults.Thisdatasetwillbepublished.Retentionperiod(prepaid):10years.Themetadatawillbeavailableevenwhenthedatanolongerexists.Relatedpaper:https://example.org/papers/coast-studyPreservationdestinationsbydistribution:Distribution1:Ourinstitutionalrepository.Distribution2:Special-purposerepositoryfortheproject.Whetherwewillbeabletosupportthisrepositoryforasufficientlylongtimehasnotbeenspecified.InternalinstrumentchecksInstrumenttestrecordsretainedforinternalverification.Thisdatasetcontainsintermediatedata.Thisdatasetwillnotbepublished.Otherreasonsfornotpublishingthisdataset:Theinstrumentsupplierrestrictspublicationoftestrecords.Internalverificationcopieswillstillbekept.Recordtheaccessdecision.Retainthecalibrationcontext.Retentionperiod(prepaid):15years.Themetadatawillbeavailableevenwhenthedatanolongerexists.RepositorycostsandpublicationpreparationWehavebudgetedforthecostsintheprojecttopaychargesoftheusedrepositories.Wehaveareservedbudgetforthetimeandeffortitwilltaketopreparethedataforpublication.Project-widecoldstorageaftertheprojectTheprojectwillkeepcopiesofitsdataincoldstorageafteritfinishes.Departmentalbudgetsofoneormoreprojectparticipantswillpayforthislong-termstorage.Thearchivewillbekeptforatleast12years.Thearchivalperiodcanbeextended.Libraryorarchivestaffwilldecideonanextension.Basisforextendingthearchivalperiod:actualuseofthearchiveddata,predicteduseofthearchiveddata,availablebudget.Obsoletedataformatsincoldstoragewillbeupgraded.Archiveddatawillnotbemigratedregularlytomoremodernstoragemedia.Preservationselectionstillrequiresreview:publicationdecisionsandarchiverenewalcriteriadonotbythemselvesexplainwhichdatasetsandversionsmustberetainedordestroyed.12.Whatmethodsorsoftwaretoolsareneededtoaccessandusedata?Quality-checkedcoastalobservationsSoftwarerequiredtousethisdataset:CoastView1.0(synthetictesttool)Availableat:https://example.org/coastview/1.0InternalinstrumentchecksThisdatasetwillnotbepublished.13.Howwilltheapplicationofauniqueandpersistentidentifier(suchasaDigitalObjectIdentifier(DOI))toeachdatasetbeensured?Quality-checkedcoastalobservationsDistribution1InstitutionalrepositoryTherepositorywillassignthepersistentidentifier.Therepositorywillmakesurethepersistentidentifiercanberesolvedtoadigitalobject.Distribution2Special-purposerepositoryAninstitutionaldatastewardwillassignthepersistentidentifier.Therepositorywillmakesurethepersistentidentifiercanberesolvedtoadigitalobject.InternalinstrumentchecksThisdatasetwillnotbepublished.Possiblere-useofcreateddatainothercontextsCoastaltemperaturemeasurementsOtherresearchersinthisfieldwillbeinterestedinre-usingthisdata.Section6:Datamanagementresponsibilitiesandresources14.Who(forexamplerole,position,andinstitution)willberesponsiblefordatamanagement(i.e.thedatasteward)?Exampleresearchteamisresponsibleforthemanagementandproficiencyofdataincludingdataprocessing,datapolicies,dataguidelines,anddataavailability.ExampleresearchteamisresponsibleforimplementingtheDMP,andensuringitisreviewedandrevised.15.Whatresources(forexamplefinancialandtime)willbededicatedtodatamanagementandensuringthatdatawillbeFAIR(Findable,Accessible,Interoperable,Re-usable)?Additionalspecialistexpertiseisrequired.Existingstaffwillreceivetraining.Staffwillcompletetrainingbeforedatapublication.MetadataqualitychecksVersioncontrolandprovenanceWedonotrequireanyhardwareorsoftwareinadditiontowhatisusuallyavailableintheinstitute.Theselectedrepositorieschargefortheirservices.Data-managementbudgetResourceandpurposeBudgetFundingsourceDatapreparationresource15000Informationnotprovided:currency.InstitutionalresearchfundsPreparemetadataandvalidatedepositfiles.BUDGET-PARA-01:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-02:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-03:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-04:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-05:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-06:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-07:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-08:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-09:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-10:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-11:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-12:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-13:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-14:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-15:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-16:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-17:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-18:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-19:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-20:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-21:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-22:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-23:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-24:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-25:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-26:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-27:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-28:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-29:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-30:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-31:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-32:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-33:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-34:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-35:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-36:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-37:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-38:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-39:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-40:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-41:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-42:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-43:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-44:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-45:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-46:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-47:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-48:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-49:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-50:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-51:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-52:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-53:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-54:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-55:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-56:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-57:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-58:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-59:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-60:Retaintheoriginalresourcejustificationanditsaudittrail.PreserveBudget-2027-12-31.csv.Keepthefundingrecord.Thisresourcesupportsfindabilityandmanagementofdata.ResourceandpurposeBudgetFundingsourceDatapreparationresource2Preparemetadataandvalidatedepositfiles.Thisresourcesupportsfindabilityandmanagementofdata.0TWDInstitutionalresearchfunds",
+            "purpose_paragraphs": 60,
+            "long_pages": [
+              7,
+              8,
+              9
+            ],
+            "repeated_headers": [
+              8,
+              9
+            ],
+            "missing_header_pages": [],
+            "tail_together": true,
+            "tail_page": 9,
+            "allocation_pages": [
+              9
+            ],
+            "short_tail_pages": [
+              9
+            ]
+          },
+          "baseline_pages": 9,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "75cd01b51a2b5f3038c4f766d00372f585ad05359863eab3726073dfa3b97e96",
+        "pdf": "64a98fc4ecc7668883caab891cdecdcb664aabd9160c2c391f114a6343185566",
+        "docx": "798b46ed5dffc584dd2c717f36c19d4d9864b7658139449dcac67bd984dd3787"
+      },
+      "word_preview_sha256": "34afe5a585274112a24669aa6be739852bd27480f0b40b4cd70e3b492dcb0f4d"
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "english",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 225,
+      "rendered": {
+        "native_pdf": {
+          "pages": 10,
+          "paragraph_counts_verified": 183,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ],
+          "long_row": {
+            "canonical": "ResearchoverviewProjectNumberCOAST-2026Startdate2026-01-01Enddate2027-12-31Syntheticscenariofortestingallfifteenoutputquestions.Newcoastaltemperaturemeasurementswillbecomparedwithtwoopenreferencedatasets.ThisisnotanapprovedorcompleteDMP.PeopleandresponsibilitiesExampleresearchteamresearch@example.orgRoles:ContactPerson,CreatorofDMP,DataStewardKnowledgemodel:CommonDSWKnowledgeModel,2.7.0(dsw:root:2.7.0)GeneratedwithDataStewardshipWizard.DataManagementPlanCoastalobservations:reproducibledatamanagementDocument:MissinginformationQA/budget-long-no-currencyGeneratedon2026-09-21Section1:Datadescriptionandcollectionorre-useofexistingdata1.Howwillnewdatabecollectedorproducedand/orhowwillexistingdatabere-used?InstrumentdatasetsCoastaltemperaturemeasurementsForthisdataset,weareusingthefollowinginstruments:Temperaturelogger–Recordtemperatureeverytenminutes;retainUTCtimestampsandcalibrationrecords.QualitycontrolmeasuresforCoastaltemperaturemeasurements:measurementcalibration,dataentryvalidation.Re-useddatasetsOpencoastalobservations—station1Source:https://example.org/datasets/coastal-observations/station-1/version-2026Compareseasonalchangesinwatertemperature.Retaintheoriginaltimestamps.Documentanyexcludedobservations.Version2026.1Ifanewversionbecomesavailableduringtheproject,thecurrentversionwillcontinuetobeused.Opencoastalobservations—station2Source:https://example.org/datasets/coastal-observations/station-2/version-2026Compareseasonalchangesinwatertemperature.Retaintheoriginaltimestamps.Documentanyexcludedobservations.Version2026.1Ifanewversionbecomesavailableduringtheproject,thecurrentversionwillcontinuetobeused.SharedarrangementsThefollowingarrangementsapplytoallreferencedatasetsselectedforre-useabove.Wewillretainacopyofthisdatasetandprovideitalongsidetheresearchresults.Thisdatasetisfreelyavailablewithanobligationtocitethesource.Thedatacanbeuseddirectlywithoutformatconversion.ProvenanceRecordsourceversionsandprocessingscriptsintheprojectrepository.RecordRetentionProcessinglog10yearsSourcechecksum10years2.Whatdata(forexamplethekinds,formats,andvolumes)willbecollectedorproduced?InstrumentdatasetsDatacollectionforCoastaltemperaturemeasurements:Thisdatasetwillbecollectedbyexpertsintheproject,withourownequipment.Theequipmentisverywelldescribedandknown.DataformatsandtypesDataformat:CSV(UTF-8).Itisastandardizedformatsuitableforlong-termarchiving.Theestimateddatavolumeis120GB.Section2:Documentationanddataquality3.Whatmetadataanddocumentation(forexamplethemethodologyofdatacollectionandwayoforganisingdata)willaccompanythedata?WewillbedocumentingthedatawithDublinCoremetadatastandard.Metadatawillbeopenlyavailableincludinginstructionshowtogetaccesstothedata.Metadatawillbeavailableinaformthatcanbeharvestedandindexed(managedbytheusedrepository/repositories).DatastorageandfileconventionsWeestimatethestoragespacethattheprojectwillrequireforalldataandsoftware(includingtemporarystorage)tobe2048gigabytes.Wewilluseafilesystemwithfilesandfolders.Wedocumenthowwemanagefileversioningforfilesandfolders.Filenamingconventions:Namefilesstation_YYYYMMDD.csvanddocumentcorrectionsinCHANGELOG.md.4.Whatdataqualitycontrolmeasureswillbeused?QualitycontrolmeasuresforCoastaltemperaturemeasurements:measurementcalibration,dataentryvalidation.Section3:Storageandbackupduringresearchprocess5.Howwilldataandmetadatabestoredandbackedupduringtheresearchprocess?Thereisasharedworkspaceusedduringtheprojectforworkingwithdata.Dedicatedspecialistswilloperatethesharedworkspace.Storageneedswillbethesameduringthewholeproject.Allessentialdatawillalsobestoredelsewheretopreventatotallossofdata.Wewillmakeautomatedbackupsofalldatastoredoutsidetheworkspace.ArchivalduringtheprojectDatawillbearchivedincoldstorageduringtheproject.Thearchivewillbestoredontape.Thearchivewillbestoredataremotelocation.Changestoarchiveddatawillrequirere-archival.Frequentbackupsarerequiredbecausethearchiveddatachangesfrequently.Thesebackupswillbeusedtorecoverfromaccidentalchangesordeletions.6.Howwilldatasecurityandprotectionofsensitivedatabetakencareofduringtheresearch?Projectmemberswillnotcarrydatawiththem(e.g.onlaptops,USBsticks,orotherexternalmedia).AllprojectwebservicesareaccessibleviasecureHTTP(https://...).Projectmembershavebeeninstructedaboutbothgenericandspecificriskstotheproject.Seequestion5forarchivalandbackuparrangements.Section4:Legalandethicalrequirements,codesofconduct7.Ifpersonaldataareprocessed,howwillcompliancewithlegislationonpersonaldataandonsecuritybeensured?Wewillnotcollectanydatarelatedtoindividuals.8.Howwillotherlegalissues,suchasintellectualpropertyrightsandownership,bemanaged?Whatlegislationisapplicable?Forthereferenceandnon-referencedatasetsthatwereuse,conditionsareasfollows:Opencoastalobservations—station1Itisfreelyavailablewithobligationtoquotethesource(e.g.CC-BY).Opencoastalobservations—station2Itisfreelyavailablewithobligationtoquotethesource(e.g.CC-BY).9.Whatethicalissuesandcodesofconductarethere,andhowwilltheybetakenintoaccount?EthicalapprovalsThequestionnairerecordsthefollowingethicalapprovalarrangements:Coastalobservations:reproducibledatamanagementAccordingtothequestionnaire,thisprojectdoesnotrequireethicalapproval.DataweproduceForthedataweproduce,theethicalaspectsareasfollows:Quality-checkedcoastalobservationsItdoesnotcontainpersonaldata.Itdoesnotcontainsensitivedata.Internalinstrumentchecks-noinformationonpersonalnorsensitivedata.DatawecollectWewillnotcollectanydatarelatedtoindividuals,i.e.\"personaldata\".Thedatacollectionisnotsubjecttoethicallegislation.Section5:Datasharingandlong-termpreservation10.Howandwhenwilldatabeshared?Aretherepossiblerestrictionstodatasharingorembargoreasons?Quality-checkedcoastalobservationsThisdatasetwillbepublished.Distribution1Openaccess:thisdistributionwillbesharedwithanyone.Thisdistributionwillbedepositedinaninstitutionalrepository.Licencestartdate:2027-12-31.Freelyavailablewithobligationtoquotethesource(e.g.CC-BY).Distribution2Accesswillbelimitedtoapredefinedgroupofpeople.Thisdistributionwillbedepositedinaspecial-purposerepositoryfortheproject.Licencestartdate:2027-06-01.Accesstothisdistributionissubjecttorestrictions.Thispreliminaryreleaseislimitedtotheprojectreviewgroup.Donotredistributethepreliminaryfiles.Citethereleaseidentifierinreviewnotes.Re-userswillbeabletogetaccessbyrequesttothecontactperson.Theconditionswillbepublishedaspartofopenmetadata.Restrictiondetails:https://example.org/coast/review-terms.InternalinstrumentchecksThisdatasetwillnotbepublished.11.Howwilldataforpreservationbeselected,andwherewilldatabepreservedlong-term(forexampleadatarepositoryorarchive)?Quality-checkedcoastalobservationsQuality-checkedcoastalmeasurementswithastationdictionary.KeepSelection-2027-12-31.csvalongsidetheprocessingrecord.Thisdatasetcontainsprocesseddataleadingtopublishedresults.Thisdatasetwillbepublished.Retentionperiod(prepaid):10years.Themetadatawillbeavailableevenwhenthedatanolongerexists.Relatedpaper:https://example.org/papers/coast-studyPreservationdestinationsbydistribution:Distribution1:Ourinstitutionalrepository.Distribution2:Special-purposerepositoryfortheproject.Whetherwewillbeabletosupportthisrepositoryforasufficientlylongtimehasnotbeenspecified.InternalinstrumentchecksInstrumenttestrecordsretainedforinternalverification.Thisdatasetcontainsintermediatedata.Thisdatasetwillnotbepublished.Otherreasonsfornotpublishingthisdataset:Theinstrumentsupplierrestrictspublicationoftestrecords.Internalverificationcopieswillstillbekept.Recordtheaccessdecision.Retainthecalibrationcontext.Retentionperiod(prepaid):15years.Themetadatawillbeavailableevenwhenthedatanolongerexists.RepositorycostsandpublicationpreparationWehavebudgetedforthecostsintheprojecttopaychargesoftheusedrepositories.Wehaveareservedbudgetforthetimeandeffortitwilltaketopreparethedataforpublication.Project-widecoldstorageaftertheprojectTheprojectwillkeepcopiesofitsdataincoldstorageafteritfinishes.Departmentalbudgetsofoneormoreprojectparticipantswillpayforthislong-termstorage.Thearchivewillbekeptforatleast12years.Thearchivalperiodcanbeextended.Libraryorarchivestaffwilldecideonanextension.Basisforextendingthearchivalperiod:actualuseofthearchiveddata,predicteduseofthearchiveddata,availablebudget.Obsoletedataformatsincoldstoragewillbeupgraded.Archiveddatawillnotbemigratedregularlytomoremodernstoragemedia.12.Whatmethodsorsoftwaretoolsareneededtoaccessandusedata?Quality-checkedcoastalobservationsSoftwarerequiredtousethisdataset:CoastView1.0(synthetictesttool)Availableat:https://example.org/coastview/1.0InternalinstrumentchecksThisdatasetwillnotbepublished.13.Howwilltheapplicationofauniqueandpersistentidentifier(suchasaDigitalObjectIdentifier(DOI))toeachdatasetbeensured?Quality-checkedcoastalobservationsDistribution1InstitutionalrepositoryTherepositorywillassignthepersistentidentifier.Therepositorywillmakesurethepersistentidentifiercanberesolvedtoadigitalobject.Distribution2Special-purposerepositoryAninstitutionaldatastewardwillassignthepersistentidentifier.Therepositorywillmakesurethepersistentidentifiercanberesolvedtoadigitalobject.InternalinstrumentchecksThisdatasetwillnotbepublished.Possiblere-useofcreateddatainothercontextsCoastaltemperaturemeasurementsOtherresearchersinthisfieldwillbeinterestedinre-usingthisdata.Section6:Datamanagementresponsibilitiesandresources14.Who(forexamplerole,position,andinstitution)willberesponsiblefordatamanagement(i.e.thedatasteward)?Exampleresearchteamisresponsibleforthemanagementandproficiencyofdataincludingdataprocessing,datapolicies,dataguidelines,anddataavailability.ExampleresearchteamisresponsibleforimplementingtheDMP,andensuringitisreviewedandrevised.15.Whatresources(forexamplefinancialandtime)willbededicatedtodatamanagementandensuringthatdatawillbeFAIR(Findable,Accessible,Interoperable,Re-usable)?Additionalspecialistexpertiseisrequired.Existingstaffwillreceivetraining.Staffwillcompletetrainingbeforedatapublication.MetadataqualitychecksVersioncontrolandprovenanceWedonotrequireanyhardwareorsoftwareinadditiontowhatisusuallyavailableintheinstitute.Theselectedrepositorieschargefortheirservices.Data-managementbudgetResourceandpurposeBudgetFundingsourceDatapreparationresource15000InstitutionalresearchfundsPreparemetadataandvalidatedepositfiles.BUDGET-PARA-01:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-02:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-03:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-04:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-05:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-06:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-07:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-08:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-09:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-10:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-11:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-12:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-13:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-14:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-15:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-16:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-17:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-18:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-19:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-20:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-21:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-22:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-23:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-24:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-25:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-26:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-27:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-28:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-29:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-30:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-31:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-32:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-33:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-34:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-35:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-36:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-37:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-38:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-39:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-40:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-41:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-42:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-43:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-44:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-45:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-46:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-47:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-48:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-49:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-50:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-51:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-52:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-53:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-54:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-55:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-56:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-57:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-58:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-59:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-60:Retaintheoriginalresourcejustificationanditsaudittrail.PreserveBudget-2027-12-31.csv.Keepthefundingrecord.Thisresourcesupportsfindabilityandmanagementofdata.ResourceandpurposeBudgetFundingsourceDatapreparationresource2Preparemetadataandvalidatedepositfiles.Thisresourcesupportsfindabilityandmanagementofdata.0TWDInstitutionalresearchfunds",
+            "purpose_paragraphs": 60,
+            "long_pages": [
+              8,
+              9,
+              10
+            ],
+            "repeated_headers": [
+              9,
+              10
+            ],
+            "missing_header_pages": [],
+            "tail_together": true,
+            "tail_page": 10,
+            "allocation_pages": [
+              10
+            ],
+            "short_tail_pages": [
+              10
+            ]
+          },
+          "baseline_pages": 10,
+          "baseline_line_box_overlaps": [
+            [
+              "Coastalobservations:reproducibledata",
+              "management",
+              137.487,
+              4.158
+            ],
+            [
+              "Section1:Datadescriptionandcollectionorre-useofexisting",
+              "data",
+              32.895,
+              1.47
+            ]
+          ]
+        },
+        "word_preview": {
+          "pages": 9,
+          "paragraph_counts_verified": 183,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": {
+            "canonical": "DataManagementPlanCoastalobservations:reproducibledatamanagementDocument:MissinginformationQA/budget-long-no-currencyGeneratedon2026-09-21ResearchoverviewProjectNumberCOAST-2026Startdate2026-01-01Enddate2027-12-31Syntheticscenariofortestingallfifteenoutputquestions.Newcoastaltemperaturemeasurementswillbecomparedwithtwoopenreferencedatasets.ThisisnotanapprovedorcompleteDMP.PeopleandresponsibilitiesExampleresearchteamresearch@example.orgRoles:ContactPerson,CreatorofDMP,DataStewardKnowledgemodel:CommonDSWKnowledgeModel,2.7.0(dsw:root:2.7.0)GeneratedwithDataStewardshipWizard.Section1:Datadescriptionandcollectionorre-useofexistingdata1.Howwillnewdatabecollectedorproducedand/orhowwillexistingdatabere-used?InstrumentdatasetsCoastaltemperaturemeasurementsForthisdataset,weareusingthefollowinginstruments:oTemperaturelogger–Recordtemperatureeverytenminutes;retainUTCtimestampsandcalibrationrecords.QualitycontrolmeasuresforCoastaltemperaturemeasurements:measurementcalibration,dataentryvalidation.Re-useddatasetsOpencoastalobservations—station1Source:https://example.org/datasets/coastal-observations/station-1/version-2026Compareseasonalchangesinwatertemperature.oRetaintheoriginaltimestamps.oDocumentanyexcludedobservations.Version2026.1Ifanewversionbecomesavailableduringtheproject,thecurrentversionwillcontinuetobeused.Opencoastalobservations—station2Source:https://example.org/datasets/coastal-observations/station-2/version-2026Compareseasonalchangesinwatertemperature.oRetaintheoriginaltimestamps.oDocumentanyexcludedobservations.Version2026.1Ifanewversionbecomesavailableduringtheproject,thecurrentversionwillcontinuetobeused.SharedarrangementsThefollowingarrangementsapplytoallreferencedatasetsselectedforre-useabove.Wewillretainacopyofthisdatasetandprovideitalongsidetheresearchresults.Thisdatasetisfreelyavailablewithanobligationtocitethesource.Thedatacanbeuseddirectlywithoutformatconversion.ProvenanceRecordsourceversionsandprocessingscriptsintheprojectrepository.RecordRetentionProcessinglog10yearsSourcechecksum10years2.Whatdata(forexamplethekinds,formats,andvolumes)willbecollectedorproduced?InstrumentdatasetsDatacollectionforCoastaltemperaturemeasurements:Thisdatasetwillbecollectedbyexpertsintheproject,withourownequipment.Theequipmentisverywelldescribedandknown.DataformatsandtypesDataformat:CSV(UTF-8).Itisastandardizedformatsuitableforlong-termarchiving.Theestimateddatavolumeis120GB.Section2:Documentationanddataquality3.Whatmetadataanddocumentation(forexamplethemethodologyofdatacollectionandwayoforganisingdata)willaccompanythedata?WewillbedocumentingthedatawithDublinCoremetadatastandard.Metadatawillbeopenlyavailableincludinginstructionshowtogetaccesstothedata.Metadatawillbeavailableinaformthatcanbeharvestedandindexed(managedbytheusedrepository/repositories).DatastorageandfileconventionsWeestimatethestoragespacethattheprojectwillrequireforalldataandsoftware(includingtemporarystorage)tobe2048gigabytes.Wewilluseafilesystemwithfilesandfolders.Wedocumenthowwemanagefileversioningforfilesandfolders.Filenamingconventions:Namefilesstation_YYYYMMDD.csvanddocumentcorrectionsinCHANGELOG.md.4.Whatdataqualitycontrolmeasureswillbeused?QualitycontrolmeasuresforCoastaltemperaturemeasurements:measurementcalibration,dataentryvalidation.Section3:Storageandbackupduringresearchprocess5.Howwilldataandmetadatabestoredandbackedupduringtheresearchprocess?Thereisasharedworkspaceusedduringtheprojectforworkingwithdata.Dedicatedspecialistswilloperatethesharedworkspace.Storageneedswillbethesameduringthewholeproject.Allessentialdatawillalsobestoredelsewheretopreventatotallossofdata.Wewillmakeautomatedbackupsofalldatastoredoutsidetheworkspace.ArchivalduringtheprojectDatawillbearchivedincoldstorageduringtheproject.Thearchivewillbestoredontape.Thearchivewillbestoredataremotelocation.Changestoarchiveddatawillrequirere-archival.Frequentbackupsarerequiredbecausethearchiveddatachangesfrequently.Thesebackupswillbeusedtorecoverfromaccidentalchangesordeletions.6.Howwilldatasecurityandprotectionofsensitivedatabetakencareofduringtheresearch?Projectmemberswillnotcarrydatawiththem(e.g.onlaptops,USBsticks,orotherexternalmedia).AllprojectwebservicesareaccessibleviasecureHTTP(https://...).Projectmembershavebeeninstructedaboutbothgenericandspecificriskstotheproject.Seequestion5forarchivalandbackuparrangements.Section4:Legalandethicalrequirements,codesofconduct7.Ifpersonaldataareprocessed,howwillcompliancewithlegislationonpersonaldataandonsecuritybeensured?Wewillnotcollectanydatarelatedtoindividuals.8.Howwillotherlegalissues,suchasintellectualpropertyrightsandownership,bemanaged?Whatlegislationisapplicable?Forthereferenceandnon-referencedatasetsthatwereuse,conditionsareasfollows:Opencoastalobservations—station1Itisfreelyavailablewithobligationtoquotethesource(e.g.CC-BY).Opencoastalobservations—station2Itisfreelyavailablewithobligationtoquotethesource(e.g.CC-BY).9.Whatethicalissuesandcodesofconductarethere,andhowwilltheybetakenintoaccount?EthicalapprovalsThequestionnairerecordsthefollowingethicalapprovalarrangements:Coastalobservations:reproducibledatamanagementAccordingtothequestionnaire,thisprojectdoesnotrequireethicalapproval.DataweproduceForthedataweproduce,theethicalaspectsareasfollows:Quality-checkedcoastalobservationsoItdoesnotcontainpersonaldata.Itdoesnotcontainsensitivedata.Internalinstrumentchecks-noinformationonpersonalnorsensitivedata.DatawecollectWewillnotcollectanydatarelatedtoindividuals,i.e.\"personaldata\".Thedatacollectionisnotsubjecttoethicallegislation.Section5:Datasharingandlong-termpreservation10.Howandwhenwilldatabeshared?Aretherepossiblerestrictionstodatasharingorembargoreasons?Quality-checkedcoastalobservationsThisdatasetwillbepublished.Distribution1Openaccess:thisdistributionwillbesharedwithanyone.Thisdistributionwillbedepositedinaninstitutionalrepository.Licencestartdate:2027-12-31.Freelyavailablewithobligationtoquotethesource(e.g.CC-BY).Distribution2Accesswillbelimitedtoapredefinedgroupofpeople.Thisdistributionwillbedepositedinaspecial-purposerepositoryfortheproject.Licencestartdate:2027-06-01.Accesstothisdistributionissubjecttorestrictions.Thispreliminaryreleaseislimitedtotheprojectreviewgroup.Donotredistributethepreliminaryfiles.Citethereleaseidentifierinreviewnotes.Re-userswillbeabletogetaccessbyrequesttothecontactperson.Theconditionswillbepublishedaspartofopenmetadata.Restrictiondetails:https://example.org/coast/review-terms.InternalinstrumentchecksThisdatasetwillnotbepublished.11.Howwilldataforpreservationbeselected,andwherewilldatabepreservedlong-term(forexampleadatarepositoryorarchive)?Quality-checkedcoastalobservationsQuality-checkedcoastalmeasurementswithastationdictionary.KeepSelection-2027-12-31.csvalongsidetheprocessingrecord.Thisdatasetcontainsprocesseddataleadingtopublishedresults.Thisdatasetwillbepublished.Retentionperiod(prepaid):10years.Themetadatawillbeavailableevenwhenthedatanolongerexists.Relatedpaper:https://example.org/papers/coast-studyPreservationdestinationsbydistribution:Distribution1:Ourinstitutionalrepository.Distribution2:Special-purposerepositoryfortheproject.Whetherwewillbeabletosupportthisrepositoryforasufficientlylongtimehasnotbeenspecified.InternalinstrumentchecksInstrumenttestrecordsretainedforinternalverification.Thisdatasetcontainsintermediatedata.Thisdatasetwillnotbepublished.Otherreasonsfornotpublishingthisdataset:Theinstrumentsupplierrestrictspublicationoftestrecords.Internalverificationcopieswillstillbekept.Recordtheaccessdecision.Retainthecalibrationcontext.Retentionperiod(prepaid):15years.Themetadatawillbeavailableevenwhenthedatanolongerexists.RepositorycostsandpublicationpreparationWehavebudgetedforthecostsintheprojecttopaychargesoftheusedrepositories.Wehaveareservedbudgetforthetimeandeffortitwilltaketopreparethedataforpublication.Project-widecoldstorageaftertheprojectTheprojectwillkeepcopiesofitsdataincoldstorageafteritfinishes.Departmentalbudgetsofoneormoreprojectparticipantswillpayforthislong-termstorage.Thearchivewillbekeptforatleast12years.Thearchivalperiodcanbeextended.Libraryorarchivestaffwilldecideonanextension.Basisforextendingthearchivalperiod:actualuseofthearchiveddata,predicteduseofthearchiveddata,availablebudget.Obsoletedataformatsincoldstoragewillbeupgraded.Archiveddatawillnotbemigratedregularlytomoremodernstoragemedia.12.Whatmethodsorsoftwaretoolsareneededtoaccessandusedata?Quality-checkedcoastalobservationsSoftwarerequiredtousethisdataset:CoastView1.0(synthetictesttool)Availableat:https://example.org/coastview/1.0InternalinstrumentchecksThisdatasetwillnotbepublished.13.Howwilltheapplicationofauniqueandpersistentidentifier(suchasaDigitalObjectIdentifier(DOI))toeachdatasetbeensured?Quality-checkedcoastalobservationsDistribution1InstitutionalrepositoryTherepositorywillassignthepersistentidentifier.Therepositorywillmakesurethepersistentidentifiercanberesolvedtoadigitalobject.Distribution2Special-purposerepositoryAninstitutionaldatastewardwillassignthepersistentidentifier.Therepositorywillmakesurethepersistentidentifiercanberesolvedtoadigitalobject.InternalinstrumentchecksThisdatasetwillnotbepublished.Possiblere-useofcreateddatainothercontextsCoastaltemperaturemeasurementsOtherresearchersinthisfieldwillbeinterestedinre-usingthisdata.Section6:Datamanagementresponsibilitiesandresources14.Who(forexamplerole,position,andinstitution)willberesponsiblefordatamanagement(i.e.thedatasteward)?Exampleresearchteamisresponsibleforthemanagementandproficiencyofdataincludingdataprocessing,datapolicies,dataguidelines,anddataavailability.ExampleresearchteamisresponsibleforimplementingtheDMP,andensuringitisreviewedandrevised.15.Whatresources(forexamplefinancialandtime)willbededicatedtodatamanagementandensuringthatdatawillbeFAIR(Findable,Accessible,Interoperable,Re-usable)?Additionalspecialistexpertiseisrequired.Existingstaffwillreceivetraining.Staffwillcompletetrainingbeforedatapublication.MetadataqualitychecksVersioncontrolandprovenanceWedonotrequireanyhardwareorsoftwareinadditiontowhatisusuallyavailableintheinstitute.Theselectedrepositorieschargefortheirservices.Data-managementbudgetResourceandpurposeBudgetFundingsourceDatapreparationresource15000InstitutionalresearchfundsPreparemetadataandvalidatedepositfiles.BUDGET-PARA-01:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-02:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-03:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-04:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-05:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-06:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-07:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-08:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-09:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-10:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-11:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-12:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-13:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-14:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-15:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-16:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-17:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-18:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-19:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-20:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-21:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-22:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-23:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-24:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-25:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-26:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-27:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-28:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-29:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-30:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-31:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-32:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-33:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-34:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-35:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-36:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-37:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-38:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-39:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-40:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-41:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-42:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-43:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-44:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-45:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-46:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-47:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-48:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-49:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-50:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-51:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-52:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-53:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-54:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-55:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-56:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-57:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-58:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-59:Retaintheoriginalresourcejustificationanditsaudittrail.BUDGET-PARA-60:Retaintheoriginalresourcejustificationanditsaudittrail.PreserveBudget-2027-12-31.csv.Keepthefundingrecord.Thisresourcesupportsfindabilityandmanagementofdata.ResourceandpurposeBudgetFundingsourceDatapreparationresource2Preparemetadataandvalidatedepositfiles.Thisresourcesupportsfindabilityandmanagementofdata.0TWDInstitutionalresearchfunds",
+            "purpose_paragraphs": 60,
+            "long_pages": [
+              7,
+              8
+            ],
+            "repeated_headers": [
+              8,
+              9
+            ],
+            "missing_header_pages": [],
+            "tail_together": false,
+            "tail_page": 8,
+            "allocation_pages": [
+              9
+            ],
+            "short_tail_pages": [
+              9
+            ]
+          },
+          "baseline_pages": 9,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "927b8f8d4d5bca5c7159b7936edd990bfc8324cdd36d1a245eeba87e24d74ffe",
+        "pdf": "e7890025710d435adfdbb6a6e559a7ab542b5ac748e5b4162494e76abae0cbbf",
+        "docx": "bd5d83724b54e738ecdfbcb1a31f78fef190461a33781a86b1a14b99d744e0c1"
+      },
+      "word_preview_sha256": "2c2575e59c6b0434605e249acc08014a4fbb7a4d3a70be2c97720ea669e45d55"
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "profile": "review",
+      "review_unchanged": true,
+      "remaining_owned_notices": 4,
+      "word_paragraphs_verified": 232,
+      "rendered": {
+        "native_pdf": {
+          "pages": 9,
+          "paragraph_counts_verified": 187,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": {
+            "canonical": "研究計畫概要專案編號COAST-2026開始日期2026-01-01結束日期2027-12-31經費尚未提供經費來源。本合成案例用於測試十五題的文件輸出。計畫將蒐集新的沿岸水溫觀測資料，並與兩筆開放參考資料集比較。本文件並非已核定或已完成的資料管理方案。參與人員與職責範例研究團隊research@example.org角色：聯絡人、資料管理方案創作者、資料託管員問卷知識模型：CommonDSWKnowledgeModel(zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）本文件由DataStewardshipWizard產生。資料管理方案海岸觀測：可重現的資料管理文件名稱：MissinginformationQA/budget-long-no-currency產生日期：2026-09-21第1節：資料的描述與蒐集，或既有資料的再次使用1.新資料將如何蒐集或產生？既有資料又將如何被再次使用？儀器資料集沿岸水溫觀測資料針對此資料集，我們將使用以下儀器：水溫紀錄器–每十分鐘記錄水溫，保留UTC時間戳記與校正紀錄。沿岸水溫觀測資料：品質管控措施包括校正量測結果、資料輸入檢核。再次使用的資料集開放海岸觀測資料——測站1資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026比較水溫的季節變化。保留原始時間戳記。記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。開放海岸觀測資料——測站2資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026比較水溫的季節變化。保留原始時間戳記。記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。共同管理方式上述將再次使用的參考資料集，均採用以下管理方式。本計畫將保留資料副本，與研究結果一併提供。此資料可自由取得，使用時須註明來源。此資料可直接使用，無須轉換格式。資料溯源在計畫的版本控制儲存庫記錄來源版本與處理程式。紀錄保存期間處理紀錄10年來源校驗碼10年2.將蒐集或產生哪些資料（例如種類、格式與資料量）？儀器資料集沿岸水溫觀測資料的蒐集方式：此資料集將由計畫內的專家使用自有設備蒐集。所用設備已有完整說明，且為研究團隊所熟悉。資料格式與類型資料格式：CSV(UTF-8)。採用標準化格式，適合長期封存。預估資料量為120GB。第2節：文件與資料品質3.將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？我們將使用DublinCore後設資料標準記錄資料。尚待補充：是否將建立資料字典或變項定義表。後設資料將公開提供，並包含如何取用資料的說明。後設資料將以可被擷取與索引的形式提供（由所使用的資料儲存庫管理）。資料儲存與檔案規則預估計畫所有資料與軟體（含暫存空間）所需的儲存容量為2048GB。我們將使用以檔案與資料夾組成的檔案系統。我們會記錄如何管理檔案與資料夾的版本。檔案命名規則：檔名採station_YYYYMMDD.csv，並在CHANGELOG.md記錄修正。4.將使用哪些資料品質管控措施？沿岸水溫觀測資料：品質管控措施包括校正量測結果、資料輸入檢核。第3節：研究過程中的資料儲存與備份5.研究期間將如何儲存與備份資料及後設資料？研究期間將使用共享工作空間處理資料。共享工作空間將由專責人員維運。所需儲存容量在計畫期間將維持不變。為避免資料全部遺失，重要資料也將另存於其他位置。存放於共享工作空間以外的資料，將全部自動備份。研究期間的資料封存研究期間將以冷儲存方式封存資料。封存資料將儲存於磁帶。封存資料將存放於異地。封存資料變動後，需要重新封存。由於封存資料經常變動，因此需要頻繁備份。這些備份將用於復原遭意外變更或刪除的資料。本模板目前對應的欄位不足以確認以下執行細節：這些對應回答尚未明確指出工作資料與備份的實際儲存地點。這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。6.研究期間將如何處理資料安全與敏感資料保護？計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供HTTPS安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。封存與備份安排請見第5題。第4節：法律與倫理要求、行為準則7.若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？我們不會蒐集任何與個人相關的資料。8.其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？我們再次使用的參考與非參考資料集，其使用條件如下：開放海岸觀測資料——測站1此資料可自由取得，使用時須註明來源（例如CCBY）。開放海岸觀測資料——測站2此資料可自由取得，使用時須註明來源（例如CCBY）。9.有哪些倫理議題與行為準則？將如何納入考量？倫理審查核准問卷記載的倫理審查安排如下：海岸觀測：可重現的資料管理依問卷填答，本計畫不需要倫理審查核准。我們產生的資料關於我們產生的資料，倫理面向如下：完成品質檢查的沿岸觀測資料不包含個人資料。不包含敏感資料。內部儀器檢核資料-尚未說明是否包含個人資料或敏感資料。我們蒐集的資料我們不會蒐集任何與個人相關的資料，即「個人資料」。研究倫理相關法規不適用於此資料蒐集。第5節：資料共享與長期保存10.資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？完成品質檢查的沿岸觀測資料此資料集將發布。資料提供管道1此管道提供的資料將公開供任何人取用。此管道的資料將存放於機構資料儲存庫。授權起始日期：2027-12-31。可自由取得，但使用時必須引用來源（例如CCBY）。資料提供管道2資料取用對象限於事先指定的群體。此管道的資料將存放於本計畫專用的資料儲存庫。授權起始日期：2027-06-01。此管道的資料取用須遵守以下限制。此初步發布版本僅提供計畫審閱小組使用。不得轉散布初步檔案。審閱紀錄須註明發布版本的識別碼。欲再次使用資料者，可向聯絡人申請取用。這些取用條件將納入公開的後設資料。使用限制的詳細資訊：https://example.org/coast/review-terms。內部儀器檢核資料此資料集將不公開發布。11.如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？完成品質檢查的沿岸觀測資料經品質檢核的沿岸觀測資料，附有測站代碼表。Selection-2027-12-31.csv應與處理紀錄一併保留。此資料集包含經處理的資料，其研究結果已發表。此資料集將發布。保存期間：10年（費用已預付）。即使資料已不存在，仍會持續提供後設資料。相關論文：https://example.org/papers/coast-study各資料提供管道的保存位置：資料提供管道1：我們的機構資料儲存庫。資料提供管道2：本計畫專用的資料儲存庫。尚未說明能否長期維運此資料儲存庫。內部儀器檢核資料供內部查核使用的儀器測試紀錄。此資料集包含中間處理資料。此資料集將不公開發布。此資料集不發布的其他原因：儀器供應商限制公開測試紀錄。內部查核用的副本仍會保留。記錄取用決定。保留校正脈絡。保存期間：15年（費用已預付）。即使資料已不存在，仍會持續提供後設資料。資料儲存庫與發布準備經費本計畫已編列預算，支付資料儲存庫的服務費。已預留預算，以支應資料發布準備工作所需的時間與人力。計畫結束後的冷儲存安排（計畫層級）本計畫結束後，將以冷儲存方式保存資料副本。這項長期儲存費用將由一個或多個參與單位的部門預算支付。典藏資料將至少保留12年。典藏資料的保存期限可以延長。是否延長保存期限，將由圖書館或典藏單位人員決定。延長保存期限的考量因素：典藏資料的實際使用情況、典藏資料的預期使用情況、可用預算。冷儲存中的資料格式若已過時，將予以更新。典藏資料不會定期移轉至較新的儲存媒體。保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。12.取用與使用資料需要哪些方法或軟體工具？完成品質檢查的沿岸觀測資料使用此資料集所需的軟體：CoastView1.0(synthetictesttool)取得位置：https://example.org/coastview/1.0內部儀器檢核資料此資料集將不公開發布。13.如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？完成品質檢查的沿岸觀測資料資料提供管道1機構資料儲存庫持續識別碼將由資料儲存庫指派。資料儲存庫將確保持續識別碼可解析至數位物件。資料提供管道2專用資料儲存庫持續識別碼將由機構的資料託管員指派。資料儲存庫將確保持續識別碼可解析至數位物件。內部儀器檢核資料此資料集將不公開發布。所產生資料在其他情境下再次使用的可能性沿岸水溫觀測資料本領域的其他研究人員會有興趣再次使用這份資料。第6節：資料管理責任與資源14.誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。15.將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？為補足所需的專業能力，本計畫將安排現有人員接受培訓。工作人員將於資料發布前完成培訓。後設資料品質檢核版本控制與資料溯源除機構通常提供的資源外，我們不需要其他硬體或軟體。預計使用的資料儲存庫會收取服務費。資料管理預算資源項目與用途預算經費來源資料整理資源15000幣別尚未提供。機構研究經費整理後設資料並檢查寄存檔案。BUDGET-PARA-01:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-02:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-03:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-04:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-05:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-06:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-07:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-08:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-09:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-10:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-11:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-12:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-13:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-14:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-15:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-16:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-17:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-18:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-19:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-20:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-21:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-22:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-23:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-24:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-25:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-26:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-27:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-28:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-29:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-30:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-31:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-32:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-33:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-34:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-35:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-36:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-37:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-38:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-39:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-40:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-41:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-42:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-43:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-44:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-45:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-46:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-47:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-48:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-49:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-50:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-51:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-52:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-53:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-54:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-55:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-56:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-57:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-58:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-59:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-60:保留此資源用途的原始說明及其查核紀錄。PreserveBudget-2027-12-31.csv.Keepthefundingrecord.支援項目：資料可尋性及資料管理。資源項目與用途預算經費來源資料整理資源2整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。0TWD機構研究經費",
+            "purpose_paragraphs": 60,
+            "long_pages": [
+              7,
+              8,
+              9
+            ],
+            "repeated_headers": [
+              8,
+              9
+            ],
+            "missing_header_pages": [],
+            "tail_together": true,
+            "tail_page": 9,
+            "allocation_pages": [
+              9
+            ],
+            "short_tail_pages": [
+              9
+            ]
+          },
+          "baseline_pages": 9,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 10,
+          "paragraph_counts_verified": 187,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": {
+            "canonical": "資料管理方案海岸觀測：可重現的資料管理文件名稱：MissinginformationQA/budget-long-no-currency產生日期：2026-09-21研究計畫概要專案編號COAST-2026開始日期2026-01-01結束日期2027-12-31經費尚未提供經費來源。本合成案例用於測試十五題的文件輸出。計畫將蒐集新的沿岸水溫觀測資料，並與兩筆開放參考資料集比較。本文件並非已核定或已完成的資料管理方案。參與人員與職責範例研究團隊research@example.org角色：聯絡人、資料管理方案創作者、資料託管員問卷知識模型：CommonDSWKnowledgeModel(zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）本文件由DataStewardshipWizard產生。第1節：資料的描述與蒐集，或既有資料的再次使用1.新資料將如何蒐集或產生？既有資料又將如何被再次使用？儀器資料集沿岸水溫觀測資料針對此資料集，我們將使用以下儀器：o水溫紀錄器–每十分鐘記錄水溫，保留UTC時間戳記與校正紀錄。沿岸水溫觀測資料：品質管控措施包括校正量測結果、資料輸入檢核。再次使用的資料集開放海岸觀測資料——測站1資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026比較水溫的季節變化。o保留原始時間戳記。o記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。開放海岸觀測資料——測站2資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026比較水溫的季節變化。o保留原始時間戳記。o記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。共同管理方式上述將再次使用的參考資料集，均採用以下管理方式。本計畫將保留資料副本，與研究結果一併提供。此資料可自由取得，使用時須註明來源。此資料可直接使用，無須轉換格式。資料溯源在計畫的版本控制儲存庫記錄來源版本與處理程式。紀錄保存期間處理紀錄10年來源校驗碼10年2.將蒐集或產生哪些資料（例如種類、格式與資料量）？儀器資料集沿岸水溫觀測資料的蒐集方式：此資料集將由計畫內的專家使用自有設備蒐集。所用設備已有完整說明，且為研究團隊所熟悉。資料格式與類型資料格式：CSV(UTF-8)。採用標準化格式，適合長期封存。預估資料量為120GB。第2節：文件與資料品質3.將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？我們將使用DublinCore後設資料標準記錄資料。尚待補充：是否將建立資料字典或變項定義表。後設資料將公開提供，並包含如何取用資料的說明。後設資料將以可被擷取與索引的形式提供（由所使用的資料儲存庫管理）。資料儲存與檔案規則預估計畫所有資料與軟體（含暫存空間）所需的儲存容量為2048GB。我們將使用以檔案與資料夾組成的檔案系統。我們會記錄如何管理檔案與資料夾的版本。檔案命名規則：檔名採station_YYYYMMDD.csv，並在CHANGELOG.md記錄修正。4.將使用哪些資料品質管控措施？沿岸水溫觀測資料：品質管控措施包括校正量測結果、資料輸入檢核。第3節：研究過程中的資料儲存與備份5.研究期間將如何儲存與備份資料及後設資料？研究期間將使用共享工作空間處理資料。共享工作空間將由專責人員維運。所需儲存容量在計畫期間將維持不變。為避免資料全部遺失，重要資料也將另存於其他位置。存放於共享工作空間以外的資料，將全部自動備份。研究期間的資料封存研究期間將以冷儲存方式封存資料。封存資料將儲存於磁帶。封存資料將存放於異地。封存資料變動後，需要重新封存。由於封存資料經常變動，因此需要頻繁備份。這些備份將用於復原遭意外變更或刪除的資料。本模板目前對應的欄位不足以確認以下執行細節：這些對應回答尚未明確指出工作資料與備份的實際儲存地點。這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。6.研究期間將如何處理資料安全與敏感資料保護？計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供HTTPS安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。封存與備份安排請見第5題。第4節：法律與倫理要求、行為準則7.若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？我們不會蒐集任何與個人相關的資料。8.其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？我們再次使用的參考與非參考資料集，其使用條件如下：開放海岸觀測資料——測站1此資料可自由取得，使用時須註明來源（例如CCBY）。開放海岸觀測資料——測站2此資料可自由取得，使用時須註明來源（例如CCBY）。9.有哪些倫理議題與行為準則？將如何納入考量？倫理審查核准問卷記載的倫理審查安排如下：海岸觀測：可重現的資料管理依問卷填答，本計畫不需要倫理審查核准。我們產生的資料關於我們產生的資料，倫理面向如下：完成品質檢查的沿岸觀測資料o不包含個人資料。不包含敏感資料。內部儀器檢核資料-尚未說明是否包含個人資料或敏感資料。我們蒐集的資料我們不會蒐集任何與個人相關的資料，即「個人資料」。研究倫理相關法規不適用於此資料蒐集。第5節：資料共享與長期保存10.資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？完成品質檢查的沿岸觀測資料此資料集將發布。資料提供管道1此管道提供的資料將公開供任何人取用。此管道的資料將存放於機構資料儲存庫。授權起始日期：2027-12-31。可自由取得，但使用時必須引用來源（例如CCBY）。資料提供管道2資料取用對象限於事先指定的群體。此管道的資料將存放於本計畫專用的資料儲存庫。授權起始日期：2027-06-01。此管道的資料取用須遵守以下限制。此初步發布版本僅提供計畫審閱小組使用。不得轉散布初步檔案。審閱紀錄須註明發布版本的識別碼。欲再次使用資料者，可向聯絡人申請取用。這些取用條件將納入公開的後設資料。使用限制的詳細資訊：https://example.org/coast/review-terms。內部儀器檢核資料此資料集將不公開發布。11.如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？完成品質檢查的沿岸觀測資料經品質檢核的沿岸觀測資料，附有測站代碼表。Selection-2027-12-31.csv應與處理紀錄一併保留。此資料集包含經處理的資料，其研究結果已發表。此資料集將發布。保存期間：10年（費用已預付）。即使資料已不存在，仍會持續提供後設資料。相關論文：https://example.org/papers/coast-study各資料提供管道的保存位置：資料提供管道1：我們的機構資料儲存庫。資料提供管道2：本計畫專用的資料儲存庫。尚未說明能否長期維運此資料儲存庫。內部儀器檢核資料供內部查核使用的儀器測試紀錄。此資料集包含中間處理資料。此資料集將不公開發布。此資料集不發布的其他原因：儀器供應商限制公開測試紀錄。內部查核用的副本仍會保留。記錄取用決定。保留校正脈絡。保存期間：15年（費用已預付）。即使資料已不存在，仍會持續提供後設資料。資料儲存庫與發布準備經費本計畫已編列預算，支付資料儲存庫的服務費。已預留預算，以支應資料發布準備工作所需的時間與人力。計畫結束後的冷儲存安排（計畫層級）本計畫結束後，將以冷儲存方式保存資料副本。這項長期儲存費用將由一個或多個參與單位的部門預算支付。典藏資料將至少保留12年。典藏資料的保存期限可以延長。是否延長保存期限，將由圖書館或典藏單位人員決定。延長保存期限的考量因素：典藏資料的實際使用情況、典藏資料的預期使用情況、可用預算。冷儲存中的資料格式若已過時，將予以更新。典藏資料不會定期移轉至較新的儲存媒體。保存選擇仍需核對：發布決定與典藏續存依據，本身不足以說明哪些資料集及版本必須保留或銷毀。12.取用與使用資料需要哪些方法或軟體工具？完成品質檢查的沿岸觀測資料使用此資料集所需的軟體：CoastView1.0(synthetictesttool)取得位置：https://example.org/coastview/1.0內部儀器檢核資料此資料集將不公開發布。13.如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？完成品質檢查的沿岸觀測資料資料提供管道1機構資料儲存庫持續識別碼將由資料儲存庫指派。資料儲存庫將確保持續識別碼可解析至數位物件。資料提供管道2專用資料儲存庫持續識別碼將由機構的資料託管員指派。資料儲存庫將確保持續識別碼可解析至數位物件。內部儀器檢核資料此資料集將不公開發布。所產生資料在其他情境下再次使用的可能性沿岸水溫觀測資料本領域的其他研究人員會有興趣再次使用這份資料。第6節：資料管理責任與資源14.誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。15.將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？為補足所需的專業能力，本計畫將安排現有人員接受培訓。工作人員將於資料發布前完成培訓。後設資料品質檢核版本控制與資料溯源除機構通常提供的資源外，我們不需要其他硬體或軟體。預計使用的資料儲存庫會收取服務費。資料管理預算資源項目與用途預算經費來源資料整理資源15000幣別尚未提供。機構研究經費整理後設資料並檢查寄存檔案。BUDGET-PARA-01:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-02:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-03:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-04:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-05:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-06:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-07:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-08:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-09:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-10:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-11:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-12:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-13:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-14:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-15:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-16:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-17:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-18:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-19:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-20:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-21:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-22:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-23:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-24:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-25:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-26:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-27:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-28:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-29:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-30:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-31:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-32:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-33:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-34:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-35:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-36:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-37:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-38:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-39:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-40:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-41:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-42:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-43:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-44:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-45:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-46:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-47:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-48:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-49:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-50:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-51:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-52:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-53:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-54:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-55:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-56:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-57:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-58:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-59:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-60:保留此資源用途的原始說明及其查核紀錄。PreserveBudget-2027-12-31.csv.Keepthefundingrecord.支援項目：資料可尋性及資料管理。資源項目與用途預算經費來源資料整理資源2整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。0TWD機構研究經費",
+            "purpose_paragraphs": 60,
+            "long_pages": [
+              7,
+              8,
+              9
+            ],
+            "repeated_headers": [
+              8,
+              9,
+              10
+            ],
+            "missing_header_pages": [],
+            "tail_together": false,
+            "tail_page": 9,
+            "allocation_pages": [
+              10
+            ],
+            "short_tail_pages": [
+              10
+            ]
+          },
+          "baseline_pages": 10,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "793df27af859c9bf5978b3cce244226d913af05a8673a81c0df56af1894f0207",
+        "pdf": "685a6d65113bab39c047bf87a15ac064d7f602cb28ceb134f41d7f41da1113f5",
+        "docx": "9c21f3d935355bc8e3914f7ab248ddba1056b8925fbb3a279ec233edc4bfa180"
+      },
+      "word_preview_sha256": "b3f215be8b436b190cc3d96cd3b583667efa99a2de734c79cc5096bc51bb3e31"
+    },
+    {
+      "case": "budget-long-no-currency",
+      "language": "chinese",
+      "profile": "submission",
+      "review_unchanged": false,
+      "remaining_owned_notices": 0,
+      "word_paragraphs_verified": 225,
+      "rendered": {
+        "native_pdf": {
+          "pages": 9,
+          "paragraph_counts_verified": 183,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 0,
+          "line_box_overlaps": [],
+          "long_row": {
+            "canonical": "研究計畫概要專案編號COAST-2026開始日期2026-01-01結束日期2027-12-31本合成案例用於測試十五題的文件輸出。計畫將蒐集新的沿岸水溫觀測資料，並與兩筆開放參考資料集比較。本文件並非已核定或已完成的資料管理方案。參與人員與職責範例研究團隊research@example.org角色：聯絡人、資料管理方案創作者、資料託管員問卷知識模型：CommonDSWKnowledgeModel(zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）本文件由DataStewardshipWizard產生。資料管理方案海岸觀測：可重現的資料管理文件名稱：MissinginformationQA/budget-long-no-currency產生日期：2026-09-21第1節：資料的描述與蒐集，或既有資料的再次使用1.新資料將如何蒐集或產生？既有資料又將如何被再次使用？儀器資料集沿岸水溫觀測資料針對此資料集，我們將使用以下儀器：水溫紀錄器–每十分鐘記錄水溫，保留UTC時間戳記與校正紀錄。沿岸水溫觀測資料：品質管控措施包括校正量測結果、資料輸入檢核。再次使用的資料集開放海岸觀測資料——測站1資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026比較水溫的季節變化。保留原始時間戳記。記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。開放海岸觀測資料——測站2資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026比較水溫的季節變化。保留原始時間戳記。記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。共同管理方式上述將再次使用的參考資料集，均採用以下管理方式。本計畫將保留資料副本，與研究結果一併提供。此資料可自由取得，使用時須註明來源。此資料可直接使用，無須轉換格式。資料溯源在計畫的版本控制儲存庫記錄來源版本與處理程式。紀錄保存期間處理紀錄10年來源校驗碼10年2.將蒐集或產生哪些資料（例如種類、格式與資料量）？儀器資料集沿岸水溫觀測資料的蒐集方式：此資料集將由計畫內的專家使用自有設備蒐集。所用設備已有完整說明，且為研究團隊所熟悉。資料格式與類型資料格式：CSV(UTF-8)。採用標準化格式，適合長期封存。預估資料量為120GB。第2節：文件與資料品質3.將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？我們將使用DublinCore後設資料標準記錄資料。後設資料將公開提供，並包含如何取用資料的說明。後設資料將以可被擷取與索引的形式提供（由所使用的資料儲存庫管理）。資料儲存與檔案規則預估計畫所有資料與軟體（含暫存空間）所需的儲存容量為2048GB。我們將使用以檔案與資料夾組成的檔案系統。我們會記錄如何管理檔案與資料夾的版本。檔案命名規則：檔名採station_YYYYMMDD.csv，並在CHANGELOG.md記錄修正。4.將使用哪些資料品質管控措施？沿岸水溫觀測資料：品質管控措施包括校正量測結果、資料輸入檢核。第3節：研究過程中的資料儲存與備份5.研究期間將如何儲存與備份資料及後設資料？研究期間將使用共享工作空間處理資料。共享工作空間將由專責人員維運。所需儲存容量在計畫期間將維持不變。為避免資料全部遺失，重要資料也將另存於其他位置。存放於共享工作空間以外的資料，將全部自動備份。研究期間的資料封存研究期間將以冷儲存方式封存資料。封存資料將儲存於磁帶。封存資料將存放於異地。封存資料變動後，需要重新封存。由於封存資料經常變動，因此需要頻繁備份。這些備份將用於復原遭意外變更或刪除的資料。6.研究期間將如何處理資料安全與敏感資料保護？計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供HTTPS安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。封存與備份安排請見第5題。第4節：法律與倫理要求、行為準則7.若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？我們不會蒐集任何與個人相關的資料。8.其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？我們再次使用的參考與非參考資料集，其使用條件如下：開放海岸觀測資料——測站1此資料可自由取得，使用時須註明來源（例如CCBY）。開放海岸觀測資料——測站2此資料可自由取得，使用時須註明來源（例如CCBY）。9.有哪些倫理議題與行為準則？將如何納入考量？倫理審查核准問卷記載的倫理審查安排如下：海岸觀測：可重現的資料管理依問卷填答，本計畫不需要倫理審查核准。我們產生的資料關於我們產生的資料，倫理面向如下：完成品質檢查的沿岸觀測資料不包含個人資料。不包含敏感資料。內部儀器檢核資料-尚未說明是否包含個人資料或敏感資料。我們蒐集的資料我們不會蒐集任何與個人相關的資料，即「個人資料」。研究倫理相關法規不適用於此資料蒐集。第5節：資料共享與長期保存10.資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？完成品質檢查的沿岸觀測資料此資料集將發布。資料提供管道1此管道提供的資料將公開供任何人取用。此管道的資料將存放於機構資料儲存庫。授權起始日期：2027-12-31。可自由取得，但使用時必須引用來源（例如CCBY）。資料提供管道2資料取用對象限於事先指定的群體。此管道的資料將存放於本計畫專用的資料儲存庫。授權起始日期：2027-06-01。此管道的資料取用須遵守以下限制。此初步發布版本僅提供計畫審閱小組使用。不得轉散布初步檔案。審閱紀錄須註明發布版本的識別碼。欲再次使用資料者，可向聯絡人申請取用。這些取用條件將納入公開的後設資料。使用限制的詳細資訊：https://example.org/coast/review-terms。內部儀器檢核資料此資料集將不公開發布。11.如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？完成品質檢查的沿岸觀測資料經品質檢核的沿岸觀測資料，附有測站代碼表。Selection-2027-12-31.csv應與處理紀錄一併保留。此資料集包含經處理的資料，其研究結果已發表。此資料集將發布。保存期間：10年（費用已預付）。即使資料已不存在，仍會持續提供後設資料。相關論文：https://example.org/papers/coast-study各資料提供管道的保存位置：資料提供管道1：我們的機構資料儲存庫。資料提供管道2：本計畫專用的資料儲存庫。尚未說明能否長期維運此資料儲存庫。內部儀器檢核資料供內部查核使用的儀器測試紀錄。此資料集包含中間處理資料。此資料集將不公開發布。此資料集不發布的其他原因：儀器供應商限制公開測試紀錄。內部查核用的副本仍會保留。記錄取用決定。保留校正脈絡。保存期間：15年（費用已預付）。即使資料已不存在，仍會持續提供後設資料。資料儲存庫與發布準備經費本計畫已編列預算，支付資料儲存庫的服務費。已預留預算，以支應資料發布準備工作所需的時間與人力。計畫結束後的冷儲存安排（計畫層級）本計畫結束後，將以冷儲存方式保存資料副本。這項長期儲存費用將由一個或多個參與單位的部門預算支付。典藏資料將至少保留12年。典藏資料的保存期限可以延長。是否延長保存期限，將由圖書館或典藏單位人員決定。延長保存期限的考量因素：典藏資料的實際使用情況、典藏資料的預期使用情況、可用預算。冷儲存中的資料格式若已過時，將予以更新。典藏資料不會定期移轉至較新的儲存媒體。12.取用與使用資料需要哪些方法或軟體工具？完成品質檢查的沿岸觀測資料使用此資料集所需的軟體：CoastView1.0(synthetictesttool)取得位置：https://example.org/coastview/1.0內部儀器檢核資料此資料集將不公開發布。13.如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？完成品質檢查的沿岸觀測資料資料提供管道1機構資料儲存庫持續識別碼將由資料儲存庫指派。資料儲存庫將確保持續識別碼可解析至數位物件。資料提供管道2專用資料儲存庫持續識別碼將由機構的資料託管員指派。資料儲存庫將確保持續識別碼可解析至數位物件。內部儀器檢核資料此資料集將不公開發布。所產生資料在其他情境下再次使用的可能性沿岸水溫觀測資料本領域的其他研究人員會有興趣再次使用這份資料。第6節：資料管理責任與資源14.誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。15.將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？為補足所需的專業能力，本計畫將安排現有人員接受培訓。工作人員將於資料發布前完成培訓。後設資料品質檢核版本控制與資料溯源除機構通常提供的資源外，我們不需要其他硬體或軟體。預計使用的資料儲存庫會收取服務費。資料管理預算資源項目與用途預算經費來源資料整理資源15000機構研究經費整理後設資料並檢查寄存檔案。BUDGET-PARA-01:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-02:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-03:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-04:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-05:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-06:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-07:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-08:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-09:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-10:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-11:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-12:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-13:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-14:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-15:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-16:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-17:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-18:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-19:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-20:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-21:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-22:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-23:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-24:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-25:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-26:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-27:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-28:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-29:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-30:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-31:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-32:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-33:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-34:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-35:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-36:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-37:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-38:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-39:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-40:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-41:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-42:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-43:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-44:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-45:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-46:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-47:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-48:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-49:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-50:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-51:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-52:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-53:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-54:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-55:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-56:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-57:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-58:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-59:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-60:保留此資源用途的原始說明及其查核紀錄。PreserveBudget-2027-12-31.csv.Keepthefundingrecord.支援項目：資料可尋性及資料管理。資源項目與用途預算經費來源資料整理資源2整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。0TWD機構研究經費",
+            "purpose_paragraphs": 60,
+            "long_pages": [
+              7,
+              8,
+              9
+            ],
+            "repeated_headers": [
+              8,
+              9
+            ],
+            "missing_header_pages": [],
+            "tail_together": true,
+            "tail_page": 9,
+            "allocation_pages": [
+              9
+            ],
+            "short_tail_pages": [
+              9
+            ]
+          },
+          "baseline_pages": 9,
+          "baseline_line_box_overlaps": []
+        },
+        "word_preview": {
+          "pages": 10,
+          "paragraph_counts_verified": 183,
+          "character_inventory_verified": true,
+          "bounds_issues": [],
+          "verified_generated_o_markers": 6,
+          "line_box_overlaps": [],
+          "long_row": {
+            "canonical": "資料管理方案海岸觀測：可重現的資料管理文件名稱：MissinginformationQA/budget-long-no-currency產生日期：2026-09-21研究計畫概要專案編號COAST-2026開始日期2026-01-01結束日期2027-12-31本合成案例用於測試十五題的文件輸出。計畫將蒐集新的沿岸水溫觀測資料，並與兩筆開放參考資料集比較。本文件並非已核定或已完成的資料管理方案。參與人員與職責範例研究團隊research@example.org角色：聯絡人、資料管理方案創作者、資料託管員問卷知識模型：CommonDSWKnowledgeModel(zh_Hant)，2.7.0（dsw：root-zh-hant：2.7.0）本文件由DataStewardshipWizard產生。第1節：資料的描述與蒐集，或既有資料的再次使用1.新資料將如何蒐集或產生？既有資料又將如何被再次使用？儀器資料集沿岸水溫觀測資料針對此資料集，我們將使用以下儀器：o水溫紀錄器–每十分鐘記錄水溫，保留UTC時間戳記與校正紀錄。沿岸水溫觀測資料：品質管控措施包括校正量測結果、資料輸入檢核。再次使用的資料集開放海岸觀測資料——測站1資料來源：https://example.org/datasets/coastal-observations/station-1/version-2026比較水溫的季節變化。o保留原始時間戳記。o記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。開放海岸觀測資料——測站2資料來源：https://example.org/datasets/coastal-observations/station-2/version-2026比較水溫的季節變化。o保留原始時間戳記。o記錄排除觀測值的原因。使用版本2026.1即使計畫期間發布新版，仍使用原定版本。共同管理方式上述將再次使用的參考資料集，均採用以下管理方式。本計畫將保留資料副本，與研究結果一併提供。此資料可自由取得，使用時須註明來源。此資料可直接使用，無須轉換格式。資料溯源在計畫的版本控制儲存庫記錄來源版本與處理程式。紀錄保存期間處理紀錄10年來源校驗碼10年2.將蒐集或產生哪些資料（例如種類、格式與資料量）？儀器資料集沿岸水溫觀測資料的蒐集方式：此資料集將由計畫內的專家使用自有設備蒐集。所用設備已有完整說明，且為研究團隊所熟悉。資料格式與類型資料格式：CSV(UTF-8)。採用標準化格式，適合長期封存。預估資料量為120GB。第2節：文件與資料品質3.將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？我們將使用DublinCore後設資料標準記錄資料。後設資料將公開提供，並包含如何取用資料的說明。後設資料將以可被擷取與索引的形式提供（由所使用的資料儲存庫管理）。資料儲存與檔案規則預估計畫所有資料與軟體（含暫存空間）所需的儲存容量為2048GB。我們將使用以檔案與資料夾組成的檔案系統。我們會記錄如何管理檔案與資料夾的版本。檔案命名規則：檔名採station_YYYYMMDD.csv，並在CHANGELOG.md記錄修正。4.將使用哪些資料品質管控措施？沿岸水溫觀測資料：品質管控措施包括校正量測結果、資料輸入檢核。第3節：研究過程中的資料儲存與備份5.研究期間將如何儲存與備份資料及後設資料？研究期間將使用共享工作空間處理資料。共享工作空間將由專責人員維運。所需儲存容量在計畫期間將維持不變。為避免資料全部遺失，重要資料也將另存於其他位置。存放於共享工作空間以外的資料，將全部自動備份。研究期間的資料封存研究期間將以冷儲存方式封存資料。封存資料將儲存於磁帶。封存資料將存放於異地。封存資料變動後，需要重新封存。由於封存資料經常變動，因此需要頻繁備份。這些備份將用於復原遭意外變更或刪除的資料。6.研究期間將如何處理資料安全與敏感資料保護？計畫成員不會隨身攜帶資料（例如存放於筆記型電腦、USB隨身碟或其他外接媒體）。本計畫的所有網路服務皆提供HTTPS安全連線。計畫成員已接受一般性風險及本計畫特有風險的說明。封存與備份安排請見第5題。第4節：法律與倫理要求、行為準則7.若處理個人資料，將如何確保遵循個人資料保護與資料安全相關法規？我們不會蒐集任何與個人相關的資料。8.其他法律議題將如何管理，例如智慧財產權與所有權？適用哪些法規？我們再次使用的參考與非參考資料集，其使用條件如下：開放海岸觀測資料——測站1此資料可自由取得，使用時須註明來源（例如CCBY）。開放海岸觀測資料——測站2此資料可自由取得，使用時須註明來源（例如CCBY）。9.有哪些倫理議題與行為準則？將如何納入考量？倫理審查核准問卷記載的倫理審查安排如下：海岸觀測：可重現的資料管理依問卷填答，本計畫不需要倫理審查核准。我們產生的資料關於我們產生的資料，倫理面向如下：完成品質檢查的沿岸觀測資料o不包含個人資料。不包含敏感資料。內部儀器檢核資料-尚未說明是否包含個人資料或敏感資料。我們蒐集的資料我們不會蒐集任何與個人相關的資料，即「個人資料」。研究倫理相關法規不適用於此資料蒐集。第5節：資料共享與長期保存10.資料該在何時、以何種方式共享？資料共享是否可能受限，或有任何需要延後開放的理由？完成品質檢查的沿岸觀測資料此資料集將發布。資料提供管道1此管道提供的資料將公開供任何人取用。此管道的資料將存放於機構資料儲存庫。授權起始日期：2027-12-31。可自由取得，但使用時必須引用來源（例如CCBY）。資料提供管道2資料取用對象限於事先指定的群體。此管道的資料將存放於本計畫專用的資料儲存庫。授權起始日期：2027-06-01。此管道的資料取用須遵守以下限制。此初步發布版本僅提供計畫審閱小組使用。不得轉散布初步檔案。審閱紀錄須註明發布版本的識別碼。欲再次使用資料者，可向聯絡人申請取用。這些取用條件將納入公開的後設資料。使用限制的詳細資訊：https://example.org/coast/review-terms。內部儀器檢核資料此資料集將不公開發布。11.如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？完成品質檢查的沿岸觀測資料經品質檢核的沿岸觀測資料，附有測站代碼表。Selection-2027-12-31.csv應與處理紀錄一併保留。此資料集包含經處理的資料，其研究結果已發表。此資料集將發布。保存期間：10年（費用已預付）。即使資料已不存在，仍會持續提供後設資料。相關論文：https://example.org/papers/coast-study各資料提供管道的保存位置：資料提供管道1：我們的機構資料儲存庫。資料提供管道2：本計畫專用的資料儲存庫。尚未說明能否長期維運此資料儲存庫。內部儀器檢核資料供內部查核使用的儀器測試紀錄。此資料集包含中間處理資料。此資料集將不公開發布。此資料集不發布的其他原因：儀器供應商限制公開測試紀錄。內部查核用的副本仍會保留。記錄取用決定。保留校正脈絡。保存期間：15年（費用已預付）。即使資料已不存在，仍會持續提供後設資料。資料儲存庫與發布準備經費本計畫已編列預算，支付資料儲存庫的服務費。已預留預算，以支應資料發布準備工作所需的時間與人力。計畫結束後的冷儲存安排（計畫層級）本計畫結束後，將以冷儲存方式保存資料副本。這項長期儲存費用將由一個或多個參與單位的部門預算支付。典藏資料將至少保留12年。典藏資料的保存期限可以延長。是否延長保存期限，將由圖書館或典藏單位人員決定。延長保存期限的考量因素：典藏資料的實際使用情況、典藏資料的預期使用情況、可用預算。冷儲存中的資料格式若已過時，將予以更新。典藏資料不會定期移轉至較新的儲存媒體。12.取用與使用資料需要哪些方法或軟體工具？完成品質檢查的沿岸觀測資料使用此資料集所需的軟體：CoastView1.0(synthetictesttool)取得位置：https://example.org/coastview/1.0內部儀器檢核資料此資料集將不公開發布。13.如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？完成品質檢查的沿岸觀測資料資料提供管道1機構資料儲存庫持續識別碼將由資料儲存庫指派。資料儲存庫將確保持續識別碼可解析至數位物件。資料提供管道2專用資料儲存庫持續識別碼將由機構的資料託管員指派。資料儲存庫將確保持續識別碼可解析至數位物件。內部儀器檢核資料此資料集將不公開發布。所產生資料在其他情境下再次使用的可能性沿岸水溫觀測資料本領域的其他研究人員會有興趣再次使用這份資料。第6節：資料管理責任與資源14.誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？範例研究團隊負責資料管理與品質提升，包括資料處理、資料政策、資料指引與資料可用性。範例研究團隊負責執行資料管理方案，並確保其經過審查與修訂。15.將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？為補足所需的專業能力，本計畫將安排現有人員接受培訓。工作人員將於資料發布前完成培訓。後設資料品質檢核版本控制與資料溯源除機構通常提供的資源外，我們不需要其他硬體或軟體。預計使用的資料儲存庫會收取服務費。資料管理預算資源項目與用途預算經費來源資料整理資源15000機構研究經費整理後設資料並檢查寄存檔案。BUDGET-PARA-01:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-02:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-03:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-04:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-05:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-06:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-07:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-08:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-09:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-10:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-11:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-12:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-13:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-14:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-15:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-16:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-17:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-18:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-19:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-20:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-21:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-22:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-23:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-24:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-25:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-26:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-27:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-28:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-29:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-30:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-31:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-32:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-33:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-34:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-35:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-36:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-37:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-38:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-39:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-40:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-41:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-42:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-43:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-44:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-45:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-46:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-47:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-48:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-49:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-50:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-51:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-52:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-53:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-54:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-55:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-56:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-57:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-58:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-59:保留此資源用途的原始說明及其查核紀錄。BUDGET-PARA-60:保留此資源用途的原始說明及其查核紀錄。PreserveBudget-2027-12-31.csv.Keepthefundingrecord.支援項目：資料可尋性及資料管理。資源項目與用途預算經費來源資料整理資源2整理後設資料並檢查寄存檔案。支援項目：資料可尋性及資料管理。0TWD機構研究經費",
+            "purpose_paragraphs": 60,
+            "long_pages": [
+              7,
+              8,
+              9
+            ],
+            "repeated_headers": [
+              8,
+              9
+            ],
+            "missing_header_pages": [],
+            "tail_together": true,
+            "tail_page": 9,
+            "allocation_pages": [
+              9
+            ],
+            "short_tail_pages": [
+              10
+            ]
+          },
+          "baseline_pages": 10,
+          "baseline_line_box_overlaps": []
+        }
+      },
+      "artifacts": {
+        "html": "1633b23dd1fdddf8720dc8a00e94b66a77d8ef00d82bee6bece28693ea7390e9",
+        "pdf": "9b81f2b409a7f57f6fe0e6a3fd0229175c3c749f2cb4a82552dc6e31ee790fca",
+        "docx": "136ef165e99f18ed9ca0b5a2f5893624b58e2a825db18f0f398cb4b04f284352"
+      },
+      "word_preview_sha256": "026d9e9674ef61aa6dce7f7626a2755248bf4806280c99f759367f03cdcef121"
+    }
+  ]
+}
