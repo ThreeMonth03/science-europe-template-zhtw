@@ -1,0 +1,582 @@
+{
+  "passed": true,
+  "github_actions_run": false,
+  "workflow_sha256": "94069550aeee41dd768fcb3c0baae0cdbb5c9a2e6541cf377ade9af4217ab0c2",
+  "unit_tests": {
+    "english": {
+      "tests": 237,
+      "passed": true,
+      "log_sha256": "8d05d7ab98928ba9970c3773914f85a27509cf2d513e84b71ab7ebaf8097af35"
+    },
+    "chinese": {
+      "tests": 453,
+      "passed": true,
+      "log_sha256": "c236dc0f5bb8ffde21074422de863216165e2d7c78fe5ed7e5163635ae55f8ce"
+    }
+  },
+  "lifecycle_probes": 46,
+  "probes": [
+    {
+      "index": 0,
+      "command": [
+        "scripts/full_km_followups_integration.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "c45178afb321907a4470804559c12ec9f9d79fb673a7268c07918c15bb87e16b"
+    },
+    {
+      "index": 1,
+      "command": [
+        "<english>/scripts/probe_identifier_spacing.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--preflight-only",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/identifier-spacing-preflight.json"
+      ],
+      "passed": true,
+      "log_sha256": "19ea9ef8658e4e5bbb03468b85e3f8167117796bf4017cf8daf2a79da08688a8"
+    },
+    {
+      "index": 2,
+      "command": [
+        "scripts/probe_format_translation.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "69cfe3bdb18127e93dd181cf4ebee469505df3364b692799f7bf961bf76388e1"
+    },
+    {
+      "index": 3,
+      "command": [
+        "scripts/probe_sharing_translation.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "e4fc0f829a10d1b6feb1cc5615cd6b829997e23d1054f9dcbd0d4c034ff5b2d1"
+    },
+    {
+      "index": 4,
+      "command": [
+        "scripts/probe_preservation_translation.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "01c696ebc7e623301295e50cd2894362ce4a73eaca113b557dd5224ea8029145"
+    },
+    {
+      "index": 5,
+      "command": [
+        "scripts/probe_answer_states.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "a3c3e001543f5c541a5d92ef29e98262da34e2abc08d16946c4e6aeab58c40ad"
+    },
+    {
+      "index": 6,
+      "command": [
+        "scripts/probe_repository_reading.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "eaca428f6bdcb436535c74cc7c43c6bf3ba8c3773d634678d1972e6557e850c9"
+    },
+    {
+      "index": 7,
+      "command": [
+        "scripts/probe_contact_translation.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "b022f8e0bd5e0f2cfa12e272428433f241d65e49f2d3d483a14385e29819f4fa"
+    },
+    {
+      "index": 8,
+      "command": [
+        "scripts/probe_paper_translation.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "0cf530c50c59d89bdf1db693a9aef6d2e6289e4cdfc811b3489cbea3442f4b20"
+    },
+    {
+      "index": 9,
+      "command": [
+        "scripts/probe_identifier_translation.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "9f2b0b0ca6fe077651026db5d2408ce32cb33d45bc8380292b35398b48cae6a6"
+    },
+    {
+      "index": 10,
+      "command": [
+        "scripts/probe_missing_info_translation.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "3947bb208fcdc55fd4bc1dce71b691e8127a6dcc22b94900aec9c59e1d0190f0"
+    },
+    {
+      "index": 11,
+      "command": [
+        "scripts/probe_personal_data_translation.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "1f8acef46e9b499429974557219812441376b966a9cf62a327d250f608a1f45e"
+    },
+    {
+      "index": 12,
+      "command": [
+        "scripts/probe_missing_info_group.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "7779db5d2f631adb11b45f35806834ba7d069ff16e6f053816e600b869b1ae4b"
+    },
+    {
+      "index": 13,
+      "command": [
+        "<english>/scripts/probe_budget_word.py",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/budget-word-probe.json"
+      ],
+      "passed": true,
+      "log_sha256": "2c56868edbe24a4e656eddfa737fa8795300fe6f75f126c4e0f6b0329a59b67b"
+    },
+    {
+      "index": 14,
+      "command": [
+        "<english>/scripts/probe_q8_word.py",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/q8-word-probe.json"
+      ],
+      "passed": true,
+      "log_sha256": "6f9c93be0659ce9f5f30b7430812e1b055ad74bcc7c4cf2596ebed9978e79ec4"
+    },
+    {
+      "index": 15,
+      "command": [
+        "<english>/scripts/probe_q9_word.py",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/q9-word-probe.json"
+      ],
+      "passed": true,
+      "log_sha256": "9bcafc43df866cd3c522d37d255f9cc8dd9e23229b0e511c65f9fbf553b3f614"
+    },
+    {
+      "index": 16,
+      "command": [
+        "scripts/submission_reading_integration.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "b6eac47fb2c999f7aad093064b00eac0bae9bea77426d333a375ec76b3bcf08a"
+    },
+    {
+      "index": 17,
+      "command": [
+        "scripts/probe_submission_reading.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "79ed2d41fdf5b337c497a9cfc7a69aca8a836618deb3deb875a8af01ff7bd34a"
+    },
+    {
+      "index": 18,
+      "command": [
+        "scripts/probe_submission_preview.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "3fca1c409158a5bbc1a767be1e12fc00986826a4c10b5d48941fe9926ca2bf1e"
+    },
+    {
+      "index": 19,
+      "command": [
+        "scripts/probe_metadata_gap_prose_scope.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>",
+        "--output-profiles",
+        "--preservation-reading",
+        "--short-resources",
+        "--resource-prose",
+        "--short-resource-rows",
+        "--budget-grouping",
+        "--submission-preview"
+      ],
+      "passed": true,
+      "log_sha256": "c339a20c567d95b6dc4b674ee79934a2f1fc28e3f19e723a69cc4672a6498a9d"
+    },
+    {
+      "index": 20,
+      "command": [
+        "scripts/probe_resource_prose_translation.py",
+        "--build",
+        "<zh>/outputs/build-guxhms_j",
+        "--english",
+        "<english>"
+      ],
+      "passed": true,
+      "log_sha256": "2d062d6b53184a2a3c1dbcc8af1d0ee0d5f05e842fc65f471cb317f4c0c24ee6"
+    },
+    {
+      "index": 21,
+      "command": [
+        "<english>/scripts/probe_short_resource_rows.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--engine",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/short-resource-rows-engine-en.json"
+      ],
+      "passed": true,
+      "log_sha256": "6f6ff61f4550135a8c0e3cc87fba5824db8ffd57e280a77d2abf89d7e5f77f11"
+    },
+    {
+      "index": 22,
+      "command": [
+        "<english>/scripts/probe_short_resource_rows.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--engine",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/short-resource-rows-engine-zh.json"
+      ],
+      "passed": true,
+      "log_sha256": "6f6ff61f4550135a8c0e3cc87fba5824db8ffd57e280a77d2abf89d7e5f77f11"
+    },
+    {
+      "index": 23,
+      "command": [
+        "<english>/scripts/probe_short_resources.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--engine",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/short-resources-engine-en.json"
+      ],
+      "passed": true,
+      "log_sha256": "04e9f71993e5af89f2a6409ea90b89656379a22a9e5c5aae9d7abdf40e6983b6"
+    },
+    {
+      "index": 24,
+      "command": [
+        "<english>/scripts/probe_short_resources.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--engine",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/short-resources-engine-zh.json"
+      ],
+      "passed": true,
+      "log_sha256": "04e9f71993e5af89f2a6409ea90b89656379a22a9e5c5aae9d7abdf40e6983b6"
+    },
+    {
+      "index": 25,
+      "command": [
+        "<english>/scripts/probe_preservation_reading.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/preservation-reading-engine-en.json"
+      ],
+      "passed": true,
+      "log_sha256": "81aa9a4e61642c9f42a029955d7e897083e34a5273c2c7bd1ea1abeb809a70b3"
+    },
+    {
+      "index": 26,
+      "command": [
+        "<english>/scripts/probe_preservation_reading.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/preservation-reading-engine-zh.json"
+      ],
+      "passed": true,
+      "log_sha256": "81aa9a4e61642c9f42a029955d7e897083e34a5273c2c7bd1ea1abeb809a70b3"
+    },
+    {
+      "index": 27,
+      "command": [
+        "<english>/scripts/probe_storage_context.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/storage-context-engine-en.json"
+      ],
+      "passed": true,
+      "log_sha256": "3bfce335b9b8bf228d26ce611c79ec9430ea80f20bee0feff6b3cf40e77ef76f"
+    },
+    {
+      "index": 28,
+      "command": [
+        "<english>/scripts/probe_storage_context.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/storage-context-engine-zh.json"
+      ],
+      "passed": true,
+      "log_sha256": "3bfce335b9b8bf228d26ce611c79ec9430ea80f20bee0feff6b3cf40e77ef76f"
+    },
+    {
+      "index": 29,
+      "command": [
+        "<english>/scripts/probe_q5_word_join.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/q5-word-join-engine-en.json"
+      ],
+      "passed": true,
+      "log_sha256": "02610fa12b39fdaf610160ace70b19b6b11e22e8e5f2d82f4b83d7c79c416ee8"
+    },
+    {
+      "index": 30,
+      "command": [
+        "<english>/scripts/probe_q5_word_join.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/q5-word-join-engine-zh.json"
+      ],
+      "passed": true,
+      "log_sha256": "02610fa12b39fdaf610160ace70b19b6b11e22e8e5f2d82f4b83d7c79c416ee8"
+    },
+    {
+      "index": 31,
+      "command": [
+        "<english>/scripts/probe_metadata_gap_prose.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/metadata-gap-prose-engine-en.json"
+      ],
+      "passed": true,
+      "log_sha256": "03af555f8bbb81d144bf5335474dbff08e5540fa10c90ab033e5c403e8c88cd7"
+    },
+    {
+      "index": 32,
+      "command": [
+        "<english>/scripts/probe_metadata_gap_prose.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--frozen",
+        "tests/fixtures/metadata-0.3.36.zh-Hant.html.j2",
+        "--language",
+        "chinese",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/metadata-gap-prose-engine-zh.json"
+      ],
+      "passed": true,
+      "log_sha256": "03af555f8bbb81d144bf5335474dbff08e5540fa10c90ab033e5c403e8c88cd7"
+    },
+    {
+      "index": 33,
+      "command": [
+        "<english>/scripts/probe_archive_gap_panels.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/archive-gap-engine-english.json"
+      ],
+      "passed": true,
+      "log_sha256": "9f107fa976c83b64779dc8cb1155f246990a817ce3ffb0a17018b49f3f246601"
+    },
+    {
+      "index": 34,
+      "command": [
+        "<english>/scripts/probe_archive_gap_panels.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/archive-gap-engine-chinese.json"
+      ],
+      "passed": true,
+      "log_sha256": "9f107fa976c83b64779dc8cb1155f246990a817ce3ffb0a17018b49f3f246601"
+    },
+    {
+      "index": 35,
+      "command": [
+        "<english>/scripts/probe_identifier_spacing.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/identifier-spacing-engine.json"
+      ],
+      "passed": true,
+      "log_sha256": "f85f94f2d36f0f95de24d9b48c46d5b0cc3c518757efe2118adf0e1f15d0b9c2"
+    },
+    {
+      "index": 36,
+      "command": [
+        "<english>/scripts/probe_word_short_budget.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/word-short-budget-english.json"
+      ],
+      "passed": true,
+      "log_sha256": "463b4ae88896c3e0cb96db332dcad59efb903304fe1247b5f74eb2257d762593"
+    },
+    {
+      "index": 37,
+      "command": [
+        "<english>/scripts/probe_word_short_budget.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/word-short-budget-chinese.json"
+      ],
+      "passed": true,
+      "log_sha256": "463b4ae88896c3e0cb96db332dcad59efb903304fe1247b5f74eb2257d762593"
+    },
+    {
+      "index": 38,
+      "command": [
+        "<english>/scripts/probe_short_budget.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/short-budget-english.json"
+      ],
+      "passed": true,
+      "log_sha256": "1cf3062832f643a5a540b26739900f94e87e946a12833062aecc679470234dda"
+    },
+    {
+      "index": 39,
+      "command": [
+        "<english>/scripts/probe_short_budget.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/short-budget-chinese.json"
+      ],
+      "passed": true,
+      "log_sha256": "1cf3062832f643a5a540b26739900f94e87e946a12833062aecc679470234dda"
+    },
+    {
+      "index": 40,
+      "command": [
+        "<english>/scripts/probe_empty_pdf.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/en",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/empty-pdf-probe-english.json"
+      ],
+      "passed": true,
+      "log_sha256": "38539e2cd2f62f0c13cfb847b05b10def46cbd1cda8d4b4a43e465c0e6df1742"
+    },
+    {
+      "index": 41,
+      "command": [
+        "<english>/scripts/probe_empty_pdf.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/empty-pdf-probe-chinese.json"
+      ],
+      "passed": true,
+      "log_sha256": "38539e2cd2f62f0c13cfb847b05b10def46cbd1cda8d4b4a43e465c0e6df1742"
+    },
+    {
+      "index": 42,
+      "command": [
+        "<english>/scripts/probe_long_budget_word.py",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/long-budget-word-probe.json"
+      ],
+      "passed": true,
+      "log_sha256": "cfbd2b37b6065a528c87b95b756bad849664e90692692f86158b158a7b0b0df6"
+    },
+    {
+      "index": 43,
+      "command": [
+        "<english>/scripts/probe_budget_pdf.py",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/budget-pdf-probe.json"
+      ],
+      "passed": true,
+      "log_sha256": "88886d78d44fda33e92f5600a8b082a855322840f72441aeb14e90b3c41d7b01"
+    },
+    {
+      "index": 44,
+      "command": [
+        "<english>/scripts/probe_pdf_budget_reading.py",
+        "--engine",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/pdf-budget-reading-probe-english.json"
+      ],
+      "passed": true,
+      "log_sha256": "693b041a5d59bdac7cfc7e6ff33fe7af2fb59d64f86f78538cbab8d24f24ad9f"
+    },
+    {
+      "index": 45,
+      "command": [
+        "<english>/scripts/probe_pdf_budget_reading.py",
+        "--source-dir",
+        "<zh>/outputs/build-guxhms_j/translated",
+        "--prior-question",
+        "tests/fixtures/budget-0.3.18.zh-Hant.html.j2",
+        "--output",
+        "<zh>/outputs/build-guxhms_j/pdf-budget-reading-probe-chinese.json"
+      ],
+      "passed": true,
+      "log_sha256": "727be2462e4d1477c73c493e718ca78d27fb0824c341ec76bea1c23c8678e4f7"
+    }
+  ],
+  "orchestration": "same-build exact commands; serial prefix plus independent parallel tail",
+  "historical_reading_comparisons": 3312,
+  "new_branch_checks_per_language": 240
+}

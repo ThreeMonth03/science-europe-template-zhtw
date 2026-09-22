@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "aggregate_private_attestation": true,
+  "public_replay_available": false,
+  "context_count": 8,
+  "existing_project_contexts": 3,
+  "synthetic_controls": 5,
+  "languages": 2,
+  "profiles": 2,
+  "combinations": 32,
+  "native_outputs": 96,
+  "libreoffice_previews": 32,
+  "html_bytes_identical": true,
+  "word_components_identical_except_core_timestamps": true,
+  "pdf_and_word_preview_text_coordinates_fonts_and_72dpi_page_images_identical": true,
+  "native_pdf_pages": 206,
+  "word_preview_pages": 213,
+  "private_checker_sha256": "df9228eabc678100d46a5621cc82d7cd0b8c4c7aef508eed7f67c66d196abca3",
+  "private_report_sha256": "6951f43d11822e3332807b213a4a5577f0b91d8cd77370b0da5a224957111000",
+  "private_seal_sha256": "4379fce26bd3940efd035e925e0ceea14e3641082e35454ed28d05bee491d211",
+  "prototype_files_unchanged": 560,
+  "original_audit_files_unchanged": 486,
+  "tested_packages": {
+    "english.zip": "2644ee2a3a1ec07be183a7f34c927729e13c7a09245a62874c1404c46bc31695",
+    "chinese.zip": "0df6effa882bf7001ca545f8846bcae8689e2c1969516d399151222917628e5c"
+  },
+  "remote_writes": 0,
+  "credentials_used": false,
+  "native_ms_word": false,
+  "native_dsw_server_replay": false,
+  "release_acceptance": false,
+  "limits": [
+    "Selected three facts, not full KM coverage",
+    "Identical output to reviewed prototype does not establish whole-document visual acceptance"
+  ],
+  "selected_submission_htmls_without_owned_gap_nodes": 16,
+  "rejected_first_checker": "Zero-page raster loop; retained privately and superseded by nonempty page-inventory validation",
+  "comparator_negative_controls": 4,
+  "clean_rebuild_packages_identical": true
+}
