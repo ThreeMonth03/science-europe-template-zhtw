@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "9d18e9879321054bd2618c3d31a3bbe5d8ad970161f4f0cbe28f1bddb04be3cb"
+    },
+    {
+      "path": "build/full-km-followups-integration.json",
+      "sha256": "d9b7f4d85b95ef6ca809780cdb380d5347b342797da7b9d71daaa5448e2a1554"
+    },
+    {
+      "path": "build/local-checks.json",
+      "sha256": "8a7c042086ab4295f4d58ee87c0ddba2b43241b891b6b78d50f60ab3f2571d64"
+    },
+    {
+      "path": "build/manifest.json",
+      "sha256": "f521b7b786bc541f3eb2e1ceaa1ed4c40994614a7147c65d01612eb1a9b772f1"
+    },
+    {
+      "path": "build/rebuild-manifest.json",
+      "sha256": "f521b7b786bc541f3eb2e1ceaa1ed4c40994614a7147c65d01612eb1a9b772f1"
+    },
+    {
+      "path": "build/submission-flow-engine-en.json",
+      "sha256": "1a349c93e1252f127bc0501394827bf4c58523335c7154e5a63f5ca300b18856"
+    },
+    {
+      "path": "build/submission-flow-engine-zh.json",
+      "sha256": "1a349c93e1252f127bc0501394827bf4c58523335c7154e5a63f5ca300b18856"
+    },
+    {
+      "path": "build/submission-flow-integration.json",
+      "sha256": "158121af80e259801958b571125e92cb1dd3251abcc9d0253dbe1d6a07337aed"
+    },
+    {
+      "path": "build/submission-reading-integration.json",
+      "sha256": "e5a05b54292d045b77299e333392c9e6f057d413659776ff13401536e2d790f2"
+    },
+    {
+      "path": "checkers/check.py",
+      "sha256": "3e2155e1142c74322e093c4a8b54adefb43e425058e300dce0bcba11d0ef9777"
+    },
+    {
+      "path": "checkers/combine_ci.py",
+      "sha256": "6df19658f22d5c886edf24ee87a1d5dcdc7b091535ed8ed9b500a8da639c8122"
+    },
+    {
+      "path": "checkers/confirm_scheduler.py",
+      "sha256": "ad627f6afd67dd962a36f244d3ff2c4bff97d133eb900f256aebad79f29ce38d"
+    },
+    {
+      "path": "checkers/diagnose_empty.py",
+      "sha256": "6f7796b467dd360275393adc1ac562038b181cb07577736716cb5850e4666fb4"
+    },
+    {
+      "path": "checkers/diagnose_selectors.py",
+      "sha256": "014cb109532cca18b1146621f401b9774f4433f24002332ae5e414650ec4753e"
+    },
+    {
+      "path": "checkers/full_km_followups_integration.py",
+      "sha256": "81fe749c785abd27daa9e1be4413e27c720a7f77d17716ea39ec3e0f145f2bd5"
+    },
+    {
+      "path": "checkers/run_ci.py",
+      "sha256": "8b195a265e4fef33685e1514435e3a9e668da6650c70679374e366303073ea69"
+    },
+    {
+      "path": "checkers/run_ci_remaining.py",
+      "sha256": "6d0dd63bf3b376977c5045d2a621fbd3a7da158dcfc2ebbb6373fdf8bf63c299"
+    },
+    {
+      "path": "checkers/stop_redundant.py",
+      "sha256": "456961ea025be6d112dee5121204d6c0405154ef379eb0184ea00c8d067f4e69"
+    },
+    {
+      "path": "checkers/submission_flow_integration.py",
+      "sha256": "9b6c152c23f8f8cae8fa221a2831fc948cd4210b46b97d0dfcc1afe6459c315b"
+    },
+    {
+      "path": "checkers/submission_reading_integration.py",
+      "sha256": "73ba2c8bec172318027a3a33c1e9909fe9d390263fe287918552572f1a71f330"
+    },
+    {
+      "path": "checkers/test_check.py",
+      "sha256": "ad3aa6966e5e59ce39ddde4022fdfbaa2b9a232124466c0d478b9896128a2a2b"
+    },
+    {
+      "path": "diagnostics/next-empty-diagnostic.json",
+      "sha256": "48b890dae2297774f92866abb2300873cc4882d3e1d1db97d8449aa145f52d95"
+    },
+    {
+      "path": "diagnostics/next-empty-selector-diagnostic.json",
+      "sha256": "0dc42c49f74655960077814b92a9eaeece3b64568e60f460b58f7333e7b4bf58"
+    },
+    {
+      "path": "native/private-parity-summary.json",
+      "sha256": "25ee981b9633fb7d8fb801703dae729852f4b7742871a6abcf266de353624b10"
+    },
+    {
+      "path": "native/visual-review.json",
+      "sha256": "2968eab98eb85a49128954b474ac66ec9bea020b3bc5f9f6beb6ce7fa150df0b"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "rows": [
+    {
+      "locale": "en",
+      "variant": "control",
+      "selector_matches": {
+        "whole-document-descendant-chain": 0,
+        "per-section-guard": 6,
+        "unconditional-diagnostic-only": 6
+      },
+      "css": "",
+      "pdf": "en-control.pdf",
+      "pages": 3,
+      "heading_break_after": [
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid"
+      ],
+      "question_heading_count": 15,
+      "all_original_text_retained": true
+    },
+    {
+      "locale": "en",
+      "variant": "empty-heading-break",
+      "selector_matches": {
+        "whole-document-descendant-chain": 0,
+        "per-section-guard": 6,
+        "unconditional-diagnostic-only": 6
+      },
+      "css": "html body #dmp-content > .dmp-section > .question.compact-empty-question > h3 { page-break-after:auto !important; }",
+      "pdf": "en-empty-heading-break.pdf",
+      "pages": 3,
+      "heading_break_after": [
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto"
+      ],
+      "question_heading_count": 15,
+      "all_original_text_retained": true
+    },
+    {
+      "locale": "en",
+      "variant": "empty-section-spacing",
+      "selector_matches": {
+        "whole-document-descendant-chain": 0,
+        "per-section-guard": 6,
+        "unconditional-diagnostic-only": 6
+      },
+      "css": "html body #dmp-content > .dmp-section { margin-bottom:.8em; } html body #dmp-content > .dmp-section > h2 { margin-top:.9em; margin-bottom:.4em; }",
+      "pdf": "en-empty-section-spacing.pdf",
+      "pages": 2,
+      "heading_break_after": [
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid"
+      ],
+      "question_heading_count": 15,
+      "all_original_text_retained": true
+    },
+    {
+      "locale": "en",
+      "variant": "combined",
+      "selector_matches": {
+        "whole-document-descendant-chain": 0,
+        "per-section-guard": 6,
+        "unconditional-diagnostic-only": 6
+      },
+      "css": "html body #dmp-content > .dmp-section > .question.compact-empty-question > h3 { page-break-after:auto !important; }html body #dmp-content > .dmp-section { margin-bottom:.8em; } html body #dmp-content > .dmp-section > h2 { margin-top:.9em; margin-bottom:.4em; }",
+      "pdf": "en-combined.pdf",
+      "pages": 2,
+      "heading_break_after": [
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto"
+      ],
+      "question_heading_count": 15,
+      "all_original_text_retained": true
+    },
+    {
+      "locale": "zh-Hant",
+      "variant": "control",
+      "selector_matches": {
+        "whole-document-descendant-chain": 0,
+        "per-section-guard": 6,
+        "unconditional-diagnostic-only": 6
+      },
+      "css": "",
+      "pdf": "zh-Hant-control.pdf",
+      "pages": 2,
+      "heading_break_after": [
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid"
+      ],
+      "question_heading_count": 15,
+      "all_original_text_retained": true
+    },
+    {
+      "locale": "zh-Hant",
+      "variant": "empty-heading-break",
+      "selector_matches": {
+        "whole-document-descendant-chain": 0,
+        "per-section-guard": 6,
+        "unconditional-diagnostic-only": 6
+      },
+      "css": "html body #dmp-content > .dmp-section > .question.compact-empty-question > h3 { page-break-after:auto !important; }",
+      "pdf": "zh-Hant-empty-heading-break.pdf",
+      "pages": 2,
+      "heading_break_after": [
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto"
+      ],
+      "question_heading_count": 15,
+      "all_original_text_retained": true
+    },
+    {
+      "locale": "zh-Hant",
+      "variant": "empty-section-spacing",
+      "selector_matches": {
+        "whole-document-descendant-chain": 0,
+        "per-section-guard": 6,
+        "unconditional-diagnostic-only": 6
+      },
+      "css": "html body #dmp-content > .dmp-section { margin-bottom:.8em; } html body #dmp-content > .dmp-section > h2 { margin-top:.9em; margin-bottom:.4em; }",
+      "pdf": "zh-Hant-empty-section-spacing.pdf",
+      "pages": 2,
+      "heading_break_after": [
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid",
+        "avoid"
+      ],
+      "question_heading_count": 15,
+      "all_original_text_retained": true
+    },
+    {
+      "locale": "zh-Hant",
+      "variant": "combined",
+      "selector_matches": {
+        "whole-document-descendant-chain": 0,
+        "per-section-guard": 6,
+        "unconditional-diagnostic-only": 6
+      },
+      "css": "html body #dmp-content > .dmp-section > .question.compact-empty-question > h3 { page-break-after:auto !important; }html body #dmp-content > .dmp-section { margin-bottom:.8em; } html body #dmp-content > .dmp-section > h2 { margin-top:.9em; margin-bottom:.4em; }",
+      "pdf": "zh-Hant-combined.pdf",
+      "pages": 2,
+      "heading_break_after": [
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto",
+        "auto"
+      ],
+      "question_heading_count": 15,
+      "all_original_text_retained": true
+    }
+  ],
+  "diagnostic_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "unguarded_spacing_is_not_a_candidate": true,
+  "mixed_or_long_document_cases_checked": false
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Eight selected pages from the actual integrated 0.3.47 packages",
+  "candidate_pages_viewed": 8,
+  "all_candidate_pages_visually_inspected": false,
+  "overall_visual_acceptance": false,
+  "native_ms_word": false,
+  "samples": [
+    {"case": "EMPTY", "locale": "zh-Hant", "format": "pdf", "page": 2, "result": "All 15 questions and six sections fit the content page; no system missing-answer notices."},
+    {"case": "EMPTY", "locale": "en", "format": "pdf", "page": 2, "result": "Q1-Q14 remain visible, but Q15 continues on the next page."},
+    {"case": "EMPTY", "locale": "en", "format": "pdf", "page": 3, "result": "Q15 alone leaves a large blank area. This pre-existing prototype limitation is not accepted as finished layout."},
+    {"case": "REAL-SNAPSHOT-A", "locale": "zh-Hant", "format": "pdf", "page": 2, "result": "The Q1 reuse summary remains a coherent paragraph, original answers and file-naming follow-up survive; wording elsewhere still needs separate review."},
+    {"case": "EMPTY", "locale": "zh-Hant", "format": "word_preview", "page": 2, "result": "All 15 questions fit the content page; labels and section hierarchy remain clear."},
+    {"case": "SYN-OTHER", "locale": "en", "format": "word_preview", "page": 2, "result": "The summary, authored list and table survive; Q2 and subsequent sections follow the table without the rejected blank-space regression."},
+    {"case": "SYN-LONG", "locale": "zh-Hant", "format": "pdf", "page": 4, "result": "The second dataset summary and Q8 restriction material remain readable and within page bounds; long content can continue."},
+    {"case": "SYN-OTHER", "locale": "zh-Hant", "format": "pdf", "page": 2, "result": "Q2 and later sections follow the authored table; the rejected hidden-empty-container regression has not returned."}
+  ],
+  "remaining_work": [
+    "Fix the English all-empty submission PDF orphan Q15 in a separate bounded layout experiment, retaining every original question.",
+    "Continue Chinese quantity-sentence quality and bilingual whole-document reading review without rewriting authored answers.",
+    "Microsoft Word and eventual target DSW server acceptance remain unverified."
+  ]
+}
