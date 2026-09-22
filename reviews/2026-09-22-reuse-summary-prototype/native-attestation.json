@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "prototype_only": true,
+  "release_acceptance": false,
+  "contexts": {
+    "real": 2,
+    "empty": 1,
+    "synthetic": 4
+  },
+  "pairs": 28,
+  "new_native_combinations": 44,
+  "reused_baseline_combinations": 12,
+  "candidate_pages": {
+    "pdf": 151,
+    "word_preview": 156
+  },
+  "all_page_counts_unchanged": true,
+  "scoped_pdf_documents": 56,
+  "q2_to_q15_dom_unchanged": true,
+  "restriction_markdown_and_editable_tables_retained": true,
+  "submission_owned_gap_nodes": 0,
+  "private_seal_sha256": "144f7d2b6141e252354da75a4555aa39666d34273fe4d745140c4a1a367ba5c9",
+  "private_file_count": 902,
+  "prior_private_files_unchanged": 499,
+  "worker_image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+  "word_preview_image": "sha256:d71ab8c13b6bd47c7bc81195082005dfb17eaa75e8b1fadd347a64ee66ed98d5",
+  "native_ms_word": false,
+  "native_dsw_server": false,
+  "remote_writes": 0,
+  "credentials_used": false,
+  "checker_tests": 8,
+  "all_candidate_pages_visually_inspected": false
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "README.md": "c18dab232f33cdf9b992ce5cb29b13c7a8fae141f632409d5635dbf6b5e32dea",
+    "build-manifest.json": "9c7cc30d994f6c8d237b553fe27cae3937c2f3a2859dd0ea191afb390df90b37",
+    "local-validation.json": "9d2bc5bfbc8c75d54596cdb7577f3b1ac97eddd22f2ba6b49777f3bbaad3f0d8",
+    "native-attestation.json": "13b6865bb8a14ac4bb1de6f90008bb68d08e433fec195d2706e0f071081f5320",
+    "native-check.py": "c2e56d3434ee7a0f45dc7fd2eb5f82d2a8e382c98a3ea02c2acfa054f588568f",
+    "native-check_pdf_scope.py": "cf6281c1a847947ba46759c0c8d77c8955d701a69bc243fcda0eae05ba3b4e7a",
+    "native-test_check.py": "b55d372ca9a7cbe50460e045f559e33b6f958e7ec00ff6aa457850ea960b0943",
+    "synthetic-checks.json": "e3e30f3fc7031ec64def6fe3ff99db92f3b48223db667666627d251b93d72fda",
+    "translation-delta.json": "ccc8dabe86b8513407c284cad384090f194b3a471d9aea8e73cc4960cb30d274"
+  }
+}

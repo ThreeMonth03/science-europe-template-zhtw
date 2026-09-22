@@ -1,0 +1,51 @@
+{
+  "status": "prototype",
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "baseline_source_commit": "1b0c82d9bee6984df7f11dc072ebf3c8f7726e08",
+  "tooling_commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+  "baseline_packages": {
+    "english.zip": "2644ee2a3a1ec07be183a7f34c927729e13c7a09245a62874c1404c46bc31695",
+    "chinese.zip": "0df6effa882bf7001ca545f8846bcae8689e2c1969516d399151222917628e5c"
+  },
+  "changed_source_files": [
+    "src/questions/01-how-data.html.j2"
+  ],
+  "added_source_files": [
+    "src/reuse-summary.html.j2"
+  ],
+  "translation_delta": {
+    "retained": 763,
+    "removed": 10,
+    "added": 12,
+    "total": 775
+  },
+  "checks": {
+    "english": 1844,
+    "chinese": 1844
+  },
+  "sha256": {
+    "english.zip": "c6d6bcb7e18cd6733107b24894e4bd23513e205e9b310e994cf477062d53dcf0",
+    "chinese.zip": "bf1151e7c2b2a436f4dd47177bda2294bc2f2b342cd9757eaaa3891dcad6b45b"
+  },
+  "recipes": {
+    "experiments/reuse-summary/README.md": "fb8db65e0c7f1ef9fb94fe7617d07739285713ad7d9902c12494255801bd74a0",
+    "experiments/reuse-summary/probe.py": "8e9bcf028319483a0a0f6eff5e77139a4bcd13223a51858fe9458866f689dabb",
+    "experiments/reuse-summary/recipe.py": "dacb171df6b947abb0c329599fb635c107e3ff1e265a57b96f34ff2f47b8680e",
+    "experiments/reuse-summary/src/reuse-summary.html.j2": "9906f630deda0358ce401199eef19e9091c46a6084ce6d8ad46ccc0469ff9893",
+    "experiments/reuse-summary/build_prototype.py": "13a3898c6ec8fa905fb83e27eda32ba9ef1c66f53b1991836458d9150b57588b",
+    "experiments/reuse-summary/removed-translations.json": "deb0d07ad151eeba65a1bffcdeba7e8d08c5beeb7a0c713197dd046e9074a062",
+    "experiments/reuse-summary/translations.json": "a0c36f5f8a754f2cc00017114841315fca0133eef251004f1f3f0fdd7e8d4679"
+  },
+  "checkouts": {
+    "english": {
+      "commit": "891a816c511a1df9445cf50eb26653fb5ceb45c7",
+      "dirty": false
+    },
+    "chinese": {
+      "commit": "ba3a4636c447ef151060697bedf272e7200dfc82",
+      "dirty": false
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "english_unit_tests": 239,
+  "english_tdk_verify": true,
+  "chinese_unit_tests": 453,
+  "prototype_package_checks_per_language": 1844,
+  "clean_rebuild_identical": true,
+  "remote_ci_run": false,
+  "production_unchanged": true,
+  "checkout_commits": {
+    "english": {
+      "commit": "891a816c511a1df9445cf50eb26653fb5ceb45c7",
+      "dirty": false
+    },
+    "chinese": {
+      "commit": "ba3a4636c447ef151060697bedf272e7200dfc82",
+      "dirty": false
+    }
+  },
+  "evidence_logs": {
+    "english-check.log": "74a1ba7b2b640124e2dc6dd853e6fd25c52f6c2d56454f2406be8e015f57e408",
+    "chinese-tests.log": "1d7d4d9ccd1a6de29a7898ed28126d69cf47f00fe3695cbc45c808a2089f8960",
+    "checker-tests-v2.log": "698d16d7b93c4bd9707d3cfacda6fb1e0fea99ed0cda6e69bedc42772940540a"
+  }
+}

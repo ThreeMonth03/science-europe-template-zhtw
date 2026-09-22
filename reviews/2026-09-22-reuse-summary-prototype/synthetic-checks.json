@@ -1,0 +1,36 @@
+{
+  "english": {
+    "total": 1844,
+    "cases": {
+      "choices": 1600,
+      "detail-0": 4,
+      "detail-1": 4,
+      "detail-2": 4,
+      "detail-3": 4,
+      "detail-4": 4,
+      "inactive-parent": 24,
+      "filtered": 84,
+      "detached-edge": 80,
+      "wrong-type": 32,
+      "two-nameless-datasets": 4
+    },
+    "detailed_rows_sha256": "9a9ec33274cbb30d47d60d68ff49f59a512dcfda1ea78030d38a283c185dd885"
+  },
+  "chinese": {
+    "total": 1844,
+    "cases": {
+      "choices": 1600,
+      "detail-0": 4,
+      "detail-1": 4,
+      "detail-2": 4,
+      "detail-3": 4,
+      "detail-4": 4,
+      "inactive-parent": 24,
+      "filtered": 84,
+      "detached-edge": 80,
+      "wrong-type": 32,
+      "two-nameless-datasets": 4
+    },
+    "detailed_rows_sha256": "9a9ec33274cbb30d47d60d68ff49f59a512dcfda1ea78030d38a283c185dd885"
+  }
+}
