@@ -280,7 +280,7 @@
 
           [T] [translation](<tree/src/index.html.j2/0001-data-management-plan-9db5c94135/0001-data-management-plan-221f0c786f/translation.md>)
 
-- [ ] [file] src/macros.html.j2 (9/12)
+- [x] [file] src/macros.html.j2 (12/12)
 
   [J2] `src/macros.html.j2`
 
@@ -356,27 +356,27 @@
 
           [T] [translation](<tree/src/macros.html.j2/0009-produced-dataset-db42041b6d/0001-produced-dataset-f0caee631d/translation.md>)
 
-    - [ ] [wrapper] 0010-project-163ddc1abe (0/1)
+    - [x] [wrapper] 0010-project-163ddc1abe (1/1)
 
       [W] `0010-project-163ddc1abe`
 
-        - [ ] [unit] 0001-project-989b458754: Project {index}
+        - [x] [unit] 0001-project-989b458754: Project {index}
 
           [T] [translation](<tree/src/macros.html.j2/0010-project-163ddc1abe/0001-project-989b458754/translation.md>)
 
-    - [ ] [wrapper] 0011-resource-93994cb7f7 (0/1)
+    - [x] [wrapper] 0011-resource-93994cb7f7 (1/1)
 
       [W] `0011-resource-93994cb7f7`
 
-        - [ ] [unit] 0001-resource-3835b05c31: Resource {index}
+        - [x] [unit] 0001-resource-3835b05c31: Resource {index}
 
           [T] [translation](<tree/src/macros.html.j2/0011-resource-93994cb7f7/0001-resource-3835b05c31/translation.md>)
 
-    - [ ] [wrapper] 0012-software-tool-87f0b8f115 (0/1)
+    - [x] [wrapper] 0012-software-tool-87f0b8f115 (1/1)
 
       [W] `0012-software-tool-87f0b8f115`
 
-        - [ ] [unit] 0001-software-tool-44694f7a4a: Software tool {index}
+        - [x] [unit] 0001-software-tool-44694f7a4a: Software tool {index}
 
           [T] [translation](<tree/src/macros.html.j2/0012-software-tool-87f0b8f115/0001-software-tool-44694f7a4a/translation.md>)
 
@@ -771,6 +771,26 @@
         - [x] [unit] 0001-the-reason-for-not-publishing-has-not-been-dc959d7a0b: The reason for not publishing has not been provided.
 
           [T] [translation](<tree/src/preservation-publication-reason.html.j2/0009-the-reason-for-not-publishing-has-not-been-f872350444/0001-the-reason-for-not-publishing-has-not-been-dc959d7a0b/translation.md>)
+
+- [ ] [file] src/project-file-naming.html.j2 (1/2)
+
+  [J2] `src/project-file-naming.html.j2`
+
+    - [x] [wrapper] 0001-file-naming-conventions-8ed0f983b8 (1/1)
+
+      [W] `0001-file-naming-conventions-8ed0f983b8`
+
+        - [x] [unit] 0001-file-naming-conventions-950230b1d4: File naming conventions:
+
+          [T] [translation](<tree/src/project-file-naming.html.j2/0001-file-naming-conventions-8ed0f983b8/0001-file-naming-conventions-950230b1d4/translation.md>)
+
+    - [ ] [wrapper] 0002-information-not-provided-the-agreed-file-naming-conventions-53dc3d7b51 (0/1)
+
+      [W] `0002-information-not-provided-the-agreed-file-naming-conventions-53dc3d7b51`
+
+        - [ ] [unit] 0001-information-not-provided-the-agreed-file-naming-conventions-db35f7adfa: Information not provided: the agreed file naming conventions.
+
+          [T] [translation](<tree/src/project-file-naming.html.j2/0002-information-not-provided-the-agreed-file-naming-conventions-53dc3d7b51/0001-information-not-provided-the-agreed-file-naming-conventions-db35f7adfa/translation.md>)
 
 - [x] [file] src/projects.html.j2 (20/20)
 
@@ -3508,7 +3528,7 @@
 
           [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-this-document-does-not-yet-describe-arrangements-for-409dc01360/0001-this-document-does-not-yet-describe-arrangements-for-bd0ea785a3/translation.md>)
 
-- [ ] [file] src/questions/09-ethical-issues.html.j2 (50/51)
+- [x] [file] src/questions/09-ethical-issues.html.j2 (51/51)
 
   [J2] `src/questions/09-ethical-issues.html.j2`
 
@@ -3776,11 +3796,11 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0030-we-use-a-different-legal-base-for-collection-3e995155fc/0001-we-use-a-different-legal-base-for-collection-c7a5471afa/translation.md>)
 
-    - [ ] [wrapper] 0031-an-alternative-legal-basis-was-selected-b8f52e8a16 (0/1)
+    - [x] [wrapper] 0031-an-alternative-legal-basis-was-selected-b8f52e8a16 (1/1)
 
       [W] `0031-an-alternative-legal-basis-was-selected-b8f52e8a16`
 
-        - [ ] [unit] 0001-an-alternative-legal-basis-was-selected-ab4b5c67ce: An alternative legal basis was selected.
+        - [x] [unit] 0001-an-alternative-legal-basis-was-selected-ab4b5c67ce: An alternative legal basis was selected.
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0031-an-alternative-legal-basis-was-selected-b8f52e8a16/0001-an-alternative-legal-basis-was-selected-ab4b5c67ce/translation.md>)
 
@@ -5068,7 +5088,7 @@
 
           [T] [translation](<tree/src/questions/14-dm-responsible.html.j2/0010-this-document-does-not-yet-identify-a-named-02da801dc4/0001-this-document-does-not-yet-identify-a-named-a45c9b0a8b/translation.md>)
 
-- [ ] [file] src/questions/15-required-resources.html.j2 (41/47)
+- [x] [file] src/questions/15-required-resources.html.j2 (47/47)
 
   [J2] `src/questions/15-required-resources.html.j2`
 
@@ -5216,11 +5236,11 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0018-data-management-budget-2d7e8e3861/0001-data-management-budget-f61ccd84d6/translation.md>)
 
-    - [ ] [wrapper] 0019-project-346040d892 (0/1)
+    - [x] [wrapper] 0019-project-346040d892 (1/1)
 
       [W] `0019-project-346040d892`
 
-        - [ ] [unit] 0001-project-c1441f4c3b: Project {i}{projectItemNumberReply}
+        - [x] [unit] 0001-project-c1441f4c3b: Project {i}{projectItemNumberReply}
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0019-project-346040d892/0001-project-c1441f4c3b/translation.md>)
 
@@ -5256,7 +5276,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-funding-source-24355dbdc4/0001-funding-source-c2c0eb768d/translation.md>)
 
-    - [ ] [wrapper] 0024-no-resource-name-given-information-not-provided-why-d42e880477 (14/17)
+    - [x] [wrapper] 0024-no-resource-name-given-information-not-provided-why-d42e880477 (17/17)
 
       [W] `0024-no-resource-name-given-information-not-provided-why-d42e880477`
 
@@ -5268,7 +5288,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0002-information-not-provided-why-this-resource-is-needed-c2d6d8de80/translation.md>)
 
-        - [ ] [unit] 0003-currency-ec4123483d: Currency: {projectCostItemCurrencyReply}.
+        - [x] [unit] 0003-currency-ec4123483d: Currency: {projectCostItemCurrencyReply}.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0003-currency-ec4123483d/translation.md>)
 
@@ -5276,7 +5296,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0004-information-not-provided-currency-21fdb4b991/translation.md>)
 
-        - [ ] [unit] 0005-currency-ec4123483d-2: Currency: {projectCostItemCurrencyReply}.
+        - [x] [unit] 0005-currency-ec4123483d-2: Currency: {projectCostItemCurrencyReply}.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0005-currency-ec4123483d-2/translation.md>)
 
@@ -5284,7 +5304,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0006-information-not-provided-budgeted-amount-30b329399c/translation.md>)
 
-        - [ ] [unit] 0007-currency-ec4123483d-3: Currency: {projectCostItemCurrencyReply}.
+        - [x] [unit] 0007-currency-ec4123483d-3: Currency: {projectCostItemCurrencyReply}.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0007-currency-ec4123483d-3/translation.md>)
 
@@ -5328,7 +5348,7 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0017-information-not-provided-which-fair-or-data-management-9ad3e3ceb6/translation.md>)
 
-    - [ ] [wrapper] 0025-this-cost-will-be-covered-by-a-funding-1b5f800711 (3/5)
+    - [x] [wrapper] 0025-this-cost-will-be-covered-by-a-funding-1b5f800711 (5/5)
 
       [W] `0025-this-cost-will-be-covered-by-a-funding-1b5f800711`
 
@@ -5344,11 +5364,11 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-this-cost-will-be-covered-by-a-funding-1b5f800711/0003-information-not-provided-the-grant-number-f6e683598d/translation.md>)
 
-        - [ ] [unit] 0004-information-not-provided-how-this-cost-will-be-93a67b4e25: Information not provided: how this cost will be covered.
+        - [x] [unit] 0004-information-not-provided-how-this-cost-will-be-93a67b4e25: Information not provided: how this cost will be covered.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-this-cost-will-be-covered-by-a-funding-1b5f800711/0004-information-not-provided-how-this-cost-will-be-93a67b4e25/translation.md>)
 
-        - [ ] [unit] 0005-information-not-provided-how-this-cost-will-be-93a67b4e25-2: Information not provided: how this cost will be covered.
+        - [x] [unit] 0005-information-not-provided-how-this-cost-will-be-93a67b4e25-2: Information not provided: how this cost will be covered.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-this-cost-will-be-covered-by-a-funding-1b5f800711/0005-information-not-provided-how-this-cost-will-be-93a67b4e25-2/translation.md>)
 
@@ -5367,6 +5387,46 @@
         - [x] [unit] 0001-information-not-provided-the-financial-and-time-resources-f197093500: Information not provided: the financial and time resources budgeted for data management and FAIR data.
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0027-information-not-provided-the-financial-and-time-resources-59018491f9/0001-information-not-provided-the-financial-and-time-resources-f197093500/translation.md>)
+
+- [ ] [file] src/reference-maintenance-plan.html.j2 (0/2)
+
+  [J2] `src/reference-maintenance-plan.html.j2`
+
+    - [ ] [wrapper] 0001-maintenance-of-reference-data-created-by-the-project-2364dee90e (0/1)
+
+      [W] `0001-maintenance-of-reference-data-created-by-the-project-2364dee90e`
+
+        - [ ] [unit] 0001-maintenance-of-reference-data-created-by-the-project-b6709d1b93: Maintenance of reference data created by the project:
+
+          [T] [translation](<tree/src/reference-maintenance-plan.html.j2/0001-maintenance-of-reference-data-created-by-the-project-2364dee90e/0001-maintenance-of-reference-data-created-by-the-project-b6709d1b93/translation.md>)
+
+    - [ ] [wrapper] 0002-information-not-provided-how-reference-data-created-by-899dbc4133 (0/1)
+
+      [W] `0002-information-not-provided-how-reference-data-created-by-899dbc4133`
+
+        - [ ] [unit] 0001-information-not-provided-how-reference-data-created-by-f705697ddc: Information not provided: how reference data created by the project will be maintained.
+
+          [T] [translation](<tree/src/reference-maintenance-plan.html.j2/0002-information-not-provided-how-reference-data-created-by-899dbc4133/0001-information-not-provided-how-reference-data-created-by-f705697ddc/translation.md>)
+
+- [ ] [file] src/reference-publication-plan.html.j2 (0/2)
+
+  [J2] `src/reference-publication-plan.html.j2`
+
+    - [ ] [wrapper] 0001-publication-schedule-for-reference-data-created-by-the-ef40380383 (0/1)
+
+      [W] `0001-publication-schedule-for-reference-data-created-by-the-ef40380383`
+
+        - [ ] [unit] 0001-publication-schedule-for-reference-data-created-by-the-9b2f00daab: Publication schedule for reference data created by the project:
+
+          [T] [translation](<tree/src/reference-publication-plan.html.j2/0001-publication-schedule-for-reference-data-created-by-the-ef40380383/0001-publication-schedule-for-reference-data-created-by-the-9b2f00daab/translation.md>)
+
+    - [ ] [wrapper] 0002-information-not-provided-the-publication-schedule-for-reference-b85a780799 (0/1)
+
+      [W] `0002-information-not-provided-the-publication-schedule-for-reference-b85a780799`
+
+        - [ ] [unit] 0001-information-not-provided-the-publication-schedule-for-reference-69b3abfca8: Information not provided: the publication schedule for reference data created by the project.
+
+          [T] [translation](<tree/src/reference-publication-plan.html.j2/0002-information-not-provided-the-publication-schedule-for-reference-b85a780799/0001-information-not-provided-the-publication-schedule-for-reference-69b3abfca8/translation.md>)
 
 - [x] [file] src/versions.html.j2 (5/5)
 

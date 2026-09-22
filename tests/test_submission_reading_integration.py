@@ -9,13 +9,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import submission_reading_integration as contract
 from probe_pdf_budget_translation import pair
-from probe_personal_data_translation import project_submission_reading_translations, verify_submission_translation_chain
+from probe_personal_data_translation import project_submission_reading_translations, verify_submission_translation_chain, archived_pairs
 from check_budget_grouping_integration import project_metadata, asset_uuid
 
 
 class SubmissionReadingIntegrationTests(unittest.TestCase):
     def test_exact_translation_delta_keeps_all_762_occurrences(self):
-        current = [pair(p.read_text()) for p in (ROOT / 'translation/tree').rglob('translation.md')]
+        current = archived_pairs('0b14a4ead11bbd1c2b77888d94639740409fc6f4')
         previous, delta = project_submission_reading_translations(current)
         self.assertEqual((len(previous), len(current), len(delta['added'])), (762, 767, 5))
         self.assertEqual(delta['removed'], [])

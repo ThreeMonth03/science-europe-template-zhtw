@@ -64,6 +64,8 @@ jobs:
         run: |
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
           SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
+          # Validate all actual 0.3.46 bytes and branches before historical projections.
+          ../tooling/.venv/bin/python scripts/full_km_followups_integration.py --build "$SE_BUILD_DIR" --english ../english
           # Fail fast on the historic prepared-source hash gates; the complete
           # Q13 engine check still runs below. Never replace it with preflight.
           ../tooling/.venv/bin/python ../english/scripts/probe_identifier_spacing.py --source-dir "$SE_BUILD_DIR/translated" --preflight-only --output "$SE_BUILD_DIR/identifier-spacing-preflight.json"
@@ -81,7 +83,7 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
-          # Validate actual 0.3.45 packages before exact projections into older gates.
+          # Preserve the exact 0.3.45 and earlier oracles on verified historical views.
           ../tooling/.venv/bin/python scripts/submission_reading_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_submission_reading.py --build "$SE_BUILD_DIR" --english ../english
           # Retain the unchanged 0.3.44 oracle on its byte-verified historical view.
@@ -137,6 +139,7 @@ jobs:
             zh/outputs/build-*/short-resource-rows-*.json
             zh/outputs/build-*/budget-grouping-*.json
             zh/outputs/build-*/submission-reading-*.json
+            zh/outputs/build-*/full-km-followups-*.json
             zh/outputs/build-*/submission-preview-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
             zh/outputs/build-*/identifier-spacing-preflight.json

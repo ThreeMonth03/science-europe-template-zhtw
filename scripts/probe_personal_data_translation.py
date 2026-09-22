@@ -129,6 +129,8 @@ def verify_output_profile_translation_chain(current):
 def verify_submission_translation_chain(current):
     """All 748 prior pairs survive; allow only the 14 declared new occurrences."""
     reading = {}
+    if len(current) == 773:
+        current, reading['full_km_followups'] = project_full_km_followup_translations(current)
     if len(current) != 762:
         previous, delta = project_submission_reading_translations(current)
         current = previous
@@ -147,6 +149,8 @@ def verify_submission_translation_chain(current):
 
 def project_submission_reading_translations(current):
     """Validate the exact 767-occurrence tree before returning the prior 762."""
+    if len(current) == 773:
+        current, _ = project_full_km_followup_translations(current)
     delta = json.loads((ROOT / 'docs/submission-reading-translation-delta.json').read_text())
     previous = archived_pairs(delta['baseline'])
     old, new = Counter(previous), Counter(current)
@@ -155,6 +159,19 @@ def project_submission_reading_translations(current):
     assert old - new == Counter(map(tuple, delta['removed'])), 'Lost or changed reviewed translation'
     assert new - old == Counter(map(tuple, delta['added'])), 'Unreviewed reading translation'
     assert sum((old & new).values()) == delta['retained_units'] == 762
+    return previous, delta
+
+
+def project_full_km_followup_translations(current):
+    """All 767 reviewed occurrences survive; exactly six approved additions."""
+    delta = json.loads((ROOT / 'docs/full-km-followups-translation-delta.json').read_text())
+    previous = archived_pairs(delta['baseline'])
+    old, new = Counter(previous), Counter(current)
+    assert sum(old.values()) == delta['baseline_units'] == 767
+    assert sum(new.values()) == delta['current_units'] == 773
+    assert old - new == Counter(map(tuple, delta['removed'])), 'Lost or changed reviewed translation'
+    assert new - old == Counter(map(tuple, delta['added'])), 'Unreviewed full-KM translation'
+    assert sum((old & new).values()) == delta['retained_units'] == 767
     return previous, delta
 
 

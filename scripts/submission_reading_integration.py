@@ -30,6 +30,8 @@ def frozen_package(language, prototype=True):
 
 
 def project_sources(current, language):
+    from full_km_followups_integration import ADDED as FOLLOWUPS, project_sources as before_followups
+    if FOLLOWUPS.intersection(current): current = before_followups(current, language)
     expected = CONTRACT['languages'][language]
     hashes = lambda sources: {n: hashlib.sha256(v).hexdigest() for n, v in sources.items()}
     assert hashes(current) == expected['after'], 'Unreviewed 0.3.45 prepared source or asset'
@@ -71,8 +73,14 @@ def check_package(path, prepared, language, timestamp):
         candidate = json.loads(package.read('template/template.json'))
     for file in candidate['files']:
         assert file['content'].encode() == current[file['fileName']]
+    historical_scope = candidate['version'] == '0.3.46'
+    if historical_scope:
+        from full_km_followups_integration import project_package
+        candidate = project_package(candidate, language, timestamp)
+        timestamp = candidate['createdAt']  # New timestamp was strictly validated above.
     project_metadata(candidate, baseline, timestamp, versions=('0.3.44', '0.3.45'))
     return dict(package_sha256=sha(path), prepared_source_verified=True,
+        historical_scope=historical_scope, comparison_version='0.3.45',
         prototype_content_and_assets_identical=True, deterministic_identity_verified=True,
         changed_source_files=CONTRACT['languages'][language]['changed'], added_assets=sorted(ADDED))
 
@@ -84,7 +92,8 @@ def check(build, english, preview=False):
     project_source()
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
-    assert manifest['source']['version'] == manifest['translation']['version'] == '0.3.45'
+    version = manifest['source']['version']
+    assert version == manifest['translation']['version'] and version in ['0.3.45', '0.3.46']
     if not preview:
         assert all(not state['dirty'] for state in manifest['checkouts'].values())
         head = subprocess.check_output(['git', '-C', str(english), 'rev-parse', 'HEAD'], text=True).strip()
@@ -93,7 +102,7 @@ def check(build, english, preview=False):
     current = [pair(p.read_text()) for p in files]
     project_submission_reading_translations(current)
     _, chain = verify_submission_translation_chain(current)
-    assert manifest['translation_units'] == len(files) == 767 and not manifest['untranslated_units']
+    assert manifest['translation_units'] == len(files) == (773 if version == '0.3.46' else 767) and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256'] == {str(p.relative_to(ROOT / 'translation')): sha(p) for p in files}
     assert manifest['package_timestamp'] == package_timestamp(english)
     results = {}
