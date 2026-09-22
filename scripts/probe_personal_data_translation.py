@@ -129,6 +129,8 @@ def verify_output_profile_translation_chain(current):
 def verify_submission_translation_chain(current):
     """All 748 prior pairs survive; allow only the 14 declared new occurrences."""
     reading = {}
+    if len(current) == 775:
+        current, reading['submission_flow'] = project_submission_flow_translations(current)
     if len(current) == 773:
         current, reading['full_km_followups'] = project_full_km_followup_translations(current)
     if len(current) != 762:
@@ -149,6 +151,8 @@ def verify_submission_translation_chain(current):
 
 def project_submission_reading_translations(current):
     """Validate the exact 767-occurrence tree before returning the prior 762."""
+    if len(current) == 775:
+        current, _ = project_submission_flow_translations(current)
     if len(current) == 773:
         current, _ = project_full_km_followup_translations(current)
     delta = json.loads((ROOT / 'docs/submission-reading-translation-delta.json').read_text())
@@ -164,6 +168,8 @@ def project_submission_reading_translations(current):
 
 def project_full_km_followup_translations(current):
     """All 767 reviewed occurrences survive; exactly six approved additions."""
+    if len(current) == 775:
+        current, _ = project_submission_flow_translations(current)
     delta = json.loads((ROOT / 'docs/full-km-followups-translation-delta.json').read_text())
     previous = archived_pairs(delta['baseline'])
     old, new = Counter(previous), Counter(current)
@@ -172,6 +178,19 @@ def project_full_km_followup_translations(current):
     assert old - new == Counter(map(tuple, delta['removed'])), 'Lost or changed reviewed translation'
     assert new - old == Counter(map(tuple, delta['added'])), 'Unreviewed full-KM translation'
     assert sum((old & new).values()) == delta['retained_units'] == 767
+    return previous, delta
+
+
+def project_submission_flow_translations(current):
+    """Validate exactly the sealed Q1 773 -> 775 delta, not arbitrary rewording."""
+    delta = json.loads((ROOT / 'docs/submission-flow-translation-delta.json').read_text())
+    previous = archived_pairs(delta['baseline'])
+    old, new = Counter(previous), Counter(current)
+    assert old.total() == delta['baseline_units'] == 773
+    assert new.total() == delta['current_units'] == 775
+    assert old - new == Counter(map(tuple, delta['removed'])), 'Unreviewed lost Q1 translation'
+    assert new - old == Counter(map(tuple, delta['added'])), 'Unreviewed new Q1 translation'
+    assert (old & new).total() == delta['retained_units'] == 763
     return previous, delta
 
 

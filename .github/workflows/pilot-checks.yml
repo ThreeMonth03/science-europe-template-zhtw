@@ -64,7 +64,11 @@ jobs:
         run: |
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
           SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
-          # Validate all actual 0.3.46 bytes and branches before historical projections.
+          # Validate actual 0.3.47 content, steps and branches before older views.
+          ../tooling/.venv/bin/python scripts/submission_flow_integration.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python ../english/scripts/probe_submission_flow_word.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/submission-flow-engine-en.json"
+          ../tooling/.venv/bin/python ../english/scripts/probe_submission_flow_word.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/submission-flow-engine-zh.json"
+          # Exact 0.3.46 and older proofs remain separate from current behavior.
           ../tooling/.venv/bin/python scripts/full_km_followups_integration.py --build "$SE_BUILD_DIR" --english ../english
           # Fail fast on the historic prepared-source hash gates; the complete
           # Q13 engine check still runs below. Never replace it with preflight.
@@ -140,6 +144,7 @@ jobs:
             zh/outputs/build-*/budget-grouping-*.json
             zh/outputs/build-*/submission-reading-*.json
             zh/outputs/build-*/full-km-followups-*.json
+            zh/outputs/build-*/submission-flow-*.json
             zh/outputs/build-*/submission-preview-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
             zh/outputs/build-*/identifier-spacing-preflight.json

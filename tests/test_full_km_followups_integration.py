@@ -10,12 +10,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import full_km_followups_integration as contract
 from probe_pdf_budget_translation import pair
-from probe_personal_data_translation import project_full_km_followup_translations, verify_submission_translation_chain
+from probe_personal_data_translation import project_full_km_followup_translations, verify_submission_translation_chain, project_submission_flow_translations
 
 
 class FullKmFollowupsIntegrationTests(unittest.TestCase):
     def test_current_translation_multiset_is_exactly_767_plus_six(self):
         current = [pair(p.read_text()) for p in (ROOT / 'translation/tree').rglob('translation.md')]
+        current, _ = project_submission_flow_translations(current)
         previous, delta = project_full_km_followup_translations(current)
         self.assertEqual((len(previous), len(current), len(delta['added'])), (767, 773, 6))
         _, chain = verify_submission_translation_chain(current)

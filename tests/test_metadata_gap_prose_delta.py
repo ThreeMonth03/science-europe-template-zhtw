@@ -14,7 +14,8 @@ class MetadataGapProseDelta(unittest.TestCase):
         current = [pair(p.read_text()) for p in (ROOT/'translation/tree').rglob('translation.md')]
         _, following = verify_submission_translation_chain(current)
         self.assertEqual(following['metadata_gap_prose']['retained_units'], 744)
-        self.assertEqual(len(current), 773)
+        self.assertEqual(len(current), 775)
+        self.assertEqual(following['submission_flow']['retained_units'], 763)
         self.assertEqual(following['full_km_followups']['retained_units'], 767)
         self.assertEqual(following['submission_reading']['retained_units'], 762)
 

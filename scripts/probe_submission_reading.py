@@ -13,14 +13,14 @@ def run(build, english, preview=False):
     sys.path.insert(0, str(ROOT / 'experiments/word-asset'))
     from source_parity import run as compare
     historical = build
-    if json.loads((build / 'manifest.json').read_text())['source']['version'] == '0.3.46':
+    if json.loads((build / 'manifest.json').read_text())['source']['version'] in ['0.3.46', '0.3.47']:
         from full_km_followups_integration import historical_build
         historical = historical_build(build, build / 'submission-reading-historical-0345')
     report = compare(historical, english, build / 'submission-reading-parity')
     assert report['passed'] and len(report['rows']) == 3312
     report.update(source_integrated=True, native_rebuilt_source_checked=False)
     report['historical_scope'] = historical != build
-    report['current_behavior_checker'] = 'scripts/full_km_followups_integration.py'
+    report['current_behavior_checker'] = 'scripts/submission_flow_integration.py'
     with (build / 'submission-reading-structure.json').open('x') as stream:
         stream.write(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     return report
