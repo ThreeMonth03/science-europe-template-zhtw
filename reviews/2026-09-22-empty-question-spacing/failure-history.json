@@ -1,0 +1,22 @@
+{
+  "word_escaping": {
+    "rejected_builds": [
+      "04",
+      "05"
+    ],
+    "seal_sha256": "20ac41ac999b443b510412800914dd818e0ec4de91a18702113b1df9ccd9f31e",
+    "fixed_in_build": "06"
+  },
+  "pdf_pagination": {
+    "rejected_builds": [
+      "06",
+      "07"
+    ],
+    "seal_sha256": "c145114f2d68e5dbe83e57bbd8cd4e99a33a613529ad59eefec9907217cd6646",
+    "ablation_cases": 10,
+    "display_none_removed": true,
+    "fixed_in_build": "08"
+  },
+  "empty_chinese_pdf_baseline_pages": 2,
+  "early_pdf_reduction_claim_corrected": true
+}

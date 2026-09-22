@@ -1,0 +1,54 @@
+{
+  "status": "prototype",
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "baseline_packages": {
+    "english.zip": "c6d6bcb7e18cd6733107b24894e4bd23513e205e9b310e994cf477062d53dcf0",
+    "chinese.zip": "bf1151e7c2b2a436f4dd47177bda2294bc2f2b342cd9757eaaa3891dcad6b45b"
+  },
+  "translation_units": 775,
+  "translation_pairs_unchanged": true,
+  "tooling_commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+  "checks": {
+    "english": 480,
+    "chinese": 480
+  },
+  "sha256": {
+    "english.zip": "dea55de531cb7944da2c5f04abf63c5ca81ca965ea3aff5c5407c3cf90055bce",
+    "chinese.zip": "bf30888f12c97df42e594d61c5fc07f0a988f8237aa03a5540b2c19a24973608"
+  },
+  "source_changes": [
+    "src/content.html.j2",
+    "src/layout.css",
+    "src/question-spacing.html.j2",
+    "src/word/question-spacing.lua",
+    "src/word/question-spacing.xml"
+  ],
+  "metadata_change": "Only submission Word filter and document.xml rewrite; separate prototype identity",
+  "recipes": {
+    "english": {
+      "experiments/empty-question-spacing/engine.py": "5371ad10a2d83341c174f20381c0ee5a23dbe207329747942bb4149a7f74ef44",
+      "experiments/empty-question-spacing/README.md": "e60569018c7318f78d02006db84e07562de2bd2bb2771cc4f4385ef7dfccccc3",
+      "experiments/empty-question-spacing/probe.py": "dbc5817779d03a8db38d4378cbb154e0dff1df55a0f5a041e5e874508366929d",
+      "experiments/empty-question-spacing/recipe.py": "fc38798815ccd0ac5db5972e1bc0817b7b8424ac0e2d946dd78ec071a75960bb",
+      "experiments/empty-question-spacing/src/question-spacing.html.j2": "38e9b3e28adb1a9192a6cc78b380671efe9d2f4c8cdae5ca6e1fac9cccabb0c3",
+      "experiments/empty-question-spacing/src/word/question-spacing.xml": "e2de14b0e7be3a2793c4acc4d7146d64f83bc1df571b0a36d5e8d480b82a9cde",
+      "experiments/empty-question-spacing/src/word/question-spacing.lua": "1b3ae9cb333323d0182ed608097648f2dc3a383c88aa40f339d0964cf8730b5a"
+    },
+    "chinese": {
+      "experiments/empty-question-spacing/build_prototype.py": "2923f9c8243849669ee2e69891541b3db4bde161b7f2c7055e6544c78d6527d4",
+      "experiments/empty-question-spacing/README.md": "a5be60e08c300bad41d49c4f52cf6d0e33ca35fd605864c4613b49bd549247fd"
+    }
+  },
+  "checkouts": {
+    "english": {
+      "commit": "9847397dd1e2a7e29385c0d1f67eb4bfc0f93b4f",
+      "dirty": false
+    },
+    "chinese": {
+      "commit": "b472d0becf7bea5a12234d8fac4d3d66d4bb79d5",
+      "dirty": false
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "scope": "Selected final candidate pages, not exhaustive document acceptance",
+  "candidate_pages_viewed": 8,
+  "all_candidate_pages_visually_inspected": false,
+  "native_ms_word": false,
+  "samples": [
+    {
+      "case": "SYN-OTHER",
+      "locale": "zh-Hant",
+      "format": "pdf",
+      "page": 2,
+      "result": "Q2 and later sections follow the authored Q1 table; the introduced large blank area is gone"
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "en",
+      "format": "pdf",
+      "page": 2,
+      "result": "Q2 and later sections follow the authored Q1 table; the introduced large blank area is gone"
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "format": "pdf",
+      "page": 2,
+      "result": "All 15 original questions and 6 sections retained; page count stays 2"
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "format": "word_preview",
+      "page": 2,
+      "result": "All 15 questions fit the content page with the real Heading3 styles preserved"
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "zh-Hant",
+      "format": "word_preview",
+      "page": 2,
+      "result": "Later sections use the space following Q1; Q8 label and permission remain together"
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "en",
+      "format": "word_preview",
+      "page": 3,
+      "result": "Q8 name, restrictions and authored table remain together in this case"
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "zh-Hant",
+      "format": "pdf",
+      "page": 2,
+      "result": "Filled text retained and empty question tightened; existing quantity-sentence wording still needs separate follow-up"
+    },
+    {
+      "case": "SYN-LONG",
+      "locale": "zh-Hant",
+      "format": "pdf",
+      "page": 4,
+      "result": "Long answers remain breakable; original content and empty questions coexist without the introduced blank-page regression"
+    }
+  ],
+  "remaining_work": [
+    "Source integration and exact paired-package replay",
+    "Existing Chinese sentence quality and wider whole-document review",
+    "Microsoft Word acceptance"
+  ]
+}

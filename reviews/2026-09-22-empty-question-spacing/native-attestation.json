@@ -1,0 +1,95 @@
+{
+  "mechanical_preservation_passed": true,
+  "scoped_layout_gate_passed": true,
+  "release_acceptance": false,
+  "source_integrated": false,
+  "contexts": {
+    "real": 2,
+    "empty": 1,
+    "synthetic": 4
+  },
+  "pairs": 28,
+  "new_native_combinations": 28,
+  "reused_baseline_combinations": 28,
+  "candidate_pages": {
+    "pdf": 151,
+    "word_preview": 151
+  },
+  "baseline_pages": {
+    "pdf": 151,
+    "word_preview": 156
+  },
+  "page_regressions": [],
+  "page_improvements": [
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "format": "word_preview",
+      "before": 3,
+      "after": 2
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "format": "word_preview",
+      "before": 4,
+      "after": 3
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "en",
+      "profile": "submission",
+      "format": "word_preview",
+      "before": 4,
+      "after": 3
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "format": "word_preview",
+      "before": 4,
+      "after": 3
+    },
+    {
+      "case": "SYN-PARTIAL",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "format": "word_preview",
+      "before": 4,
+      "after": 3
+    }
+  ],
+  "original_questions": 15,
+  "original_sections": 6,
+  "original_text_answers_and_bookmarks_unchanged": true,
+  "review_geometry_fonts_pixels_unchanged_pairs": 14,
+  "submission_owned_gap_nodes": 0,
+  "q8_synthetic_boundary_observations": 16,
+  "q8_split_boundaries": [],
+  "private_seal_sha256": "bcbd250b4f7b2e05c9cdcaabb892575c286a4e0f3f1e9c3b43811ecd875d324b",
+  "private_file_count": 921,
+  "prior_seals_unchanged": [
+    {
+      "seal_sha256": "144f7d2b6141e252354da75a4555aa39666d34273fe4d745140c4a1a367ba5c9",
+      "files_unchanged": 902
+    },
+    {
+      "seal_sha256": "20ac41ac999b443b510412800914dd818e0ec4de91a18702113b1df9ccd9f31e",
+      "files_unchanged": 898
+    },
+    {
+      "seal_sha256": "c145114f2d68e5dbe83e57bbd8cd4e99a33a613529ad59eefec9907217cd6646",
+      "files_unchanged": 938
+    }
+  ],
+  "worker_image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+  "word_preview_image": "sha256:d71ab8c13b6bd47c7bc81195082005dfb17eaa75e8b1fadd347a64ee66ed98d5",
+  "native_ms_word": false,
+  "native_dsw_server": false,
+  "remote_writes": 0,
+  "credentials_used": false,
+  "all_candidate_pages_visually_inspected": false
+}

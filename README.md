@@ -3,6 +3,12 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
+新增[提交版空題間距原型](reviews/2026-09-22-empty-question-spacing/README.md)：
+依使用者選擇保留 15 題、緊縮空白，不新增提交提示。28 組中英原生 A/B 保留題目
+與答案；檢核版不變，PDF 無增頁，五組 Word 預覽各減一頁。過程攔下並修正 Word
+跳脫與 PDF 隱藏空容器的回歸。英文 243／中文 453 項本地測試通過；正式來源仍
+為 0.3.46，尚待將本原型與 Q1 摘要回收整合，未推送、部署或全面提交驗收。
+
 新增[第 1 題再利用摘要原型](reviews/2026-09-22-reuse-summary-prototype/README.md)：
 四項相關資訊合成一段，補回「無須轉換格式」，保留原始限制說明與檢核／提交差異。
 中英實際套件各 1,844 個分支檢查、28 組原生 A/B，以及英文 239／中文 453 項

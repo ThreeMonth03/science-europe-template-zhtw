@@ -1,0 +1,150 @@
+{
+  "observation_only": true,
+  "native_ms_word": false,
+  "rows": [
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "en",
+      "profile": "review",
+      "arm": "baseline",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "en",
+      "profile": "review",
+      "arm": "candidate",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "en",
+      "profile": "submission",
+      "arm": "baseline",
+      "label_end_page": 2,
+      "permission_start_page": 2,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "en",
+      "profile": "submission",
+      "arm": "candidate",
+      "label_end_page": 2,
+      "permission_start_page": 2,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "arm": "baseline",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "arm": "candidate",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "arm": "baseline",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "arm": "candidate",
+      "label_end_page": 2,
+      "permission_start_page": 2,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "en",
+      "profile": "review",
+      "arm": "baseline",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "en",
+      "profile": "review",
+      "arm": "candidate",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "en",
+      "profile": "submission",
+      "arm": "baseline",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "en",
+      "profile": "submission",
+      "arm": "candidate",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "arm": "baseline",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "arm": "candidate",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "arm": "baseline",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "arm": "candidate",
+      "label_end_page": 3,
+      "permission_start_page": 3,
+      "label_kept_with_permission": true
+    }
+  ]
+}
