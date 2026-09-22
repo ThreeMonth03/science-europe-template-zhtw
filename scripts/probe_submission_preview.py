@@ -26,6 +26,12 @@ def run(build, english):
     fields = {IDS[k] for k in ['measuredDataNameQUuid', 'refDataNameQUuid', 'nrefDataNameQUuid', 'neqDataSetsNameQUuid', 'producedDataNameQUuid']}
     rows = []
     for language, locale, folder in [('english', 'en', 'en'), ('chinese', 'zh-Hant', 'translated')]:
+        root = build / folder
+        # The 0.3.44 oracle remains exact; validate all 0.3.45 bytes first.
+        # This script tests historical behavior, not current submission output.
+        if (root / 'src/word/short-tables.xml').exists():
+            from submission_reading_integration import historical_view
+            root = historical_view(root, language, build / 'historical-0.3.44' / folder)
         old, prototype = [json.loads((ARCHIVE / 'package' / (phase + '-' + language + '.json')).read_text())
                           for phase in ['before', 'after']]
         sources = list((english / 'fixtures/pilot' / locale).glob('*.events.json'))
@@ -36,7 +42,7 @@ def run(build, english):
         for escape in [False, True]:
             old_template, trial_template = [environment(english, escape,
                 {f['fileName']: f['content'] for f in data['files']}).from_string(wrapper) for data in [old, prototype]]
-            current = environment(build / folder, escape).from_string(wrapper)
+            current = environment(root, escape).from_string(wrapper)
             dc = {'project': {'created_by': None}, 'e': {'choices': {}}}
             for source in sources:
                 for nameless in [False, True]:

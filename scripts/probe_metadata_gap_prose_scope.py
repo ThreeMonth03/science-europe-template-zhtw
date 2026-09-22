@@ -167,6 +167,10 @@ def main():
             checks[-1]['submission_preview_delta'] = {'baseline_version': '0.3.43', 'version': '0.3.44',
                 'historical_checks_use_exact_verified_source_view': True,
                 'current_behavior_checker': 'scripts/probe_submission_preview.py'}
+            if current['source']['version'] == '0.3.45':
+                checks[-1]['submission_reading_delta'] = {'baseline_version': '0.3.44', 'version': '0.3.45',
+                    'historical_checks_use_exact_verified_source_view': True,
+                    'current_behavior_checker': 'scripts/probe_submission_reading.py'}
     report = {'passed': True, 'release_acceptance': False, 'rows': checks, 'reviewed_deltas': following,
         'translation_units': len(files), 'translation_tree_sha256': hashes, 'checker_sha256': sha(Path(__file__)),
         'contract_sha256': sha(a.english/'scripts/metadata_gap_prose_contract.py'),

@@ -81,8 +81,10 @@ jobs:
           ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
-          # Validate the actual 0.3.44 package before exact projections into all older gates.
-          ../tooling/.venv/bin/python scripts/check_submission_preview_integration.py --build "$SE_BUILD_DIR" --english ../english
+          # Validate actual 0.3.45 packages before exact projections into older gates.
+          ../tooling/.venv/bin/python scripts/submission_reading_integration.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python scripts/probe_submission_reading.py --build "$SE_BUILD_DIR" --english ../english
+          # Retain the unchanged 0.3.44 oracle on its byte-verified historical view.
           ../tooling/.venv/bin/python scripts/probe_submission_preview.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english --output-profiles --preservation-reading --short-resources --resource-prose --short-resource-rows --budget-grouping --submission-preview
           ../tooling/.venv/bin/python scripts/probe_resource_prose_translation.py --build "$SE_BUILD_DIR" --english ../english
@@ -134,6 +136,8 @@ jobs:
             zh/outputs/build-*/resource-prose-*.json
             zh/outputs/build-*/short-resource-rows-*.json
             zh/outputs/build-*/budget-grouping-*.json
+            zh/outputs/build-*/submission-reading-*.json
+            zh/outputs/build-*/submission-preview-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
             zh/outputs/build-*/identifier-spacing-preflight.json
       - name: State acceptance boundary

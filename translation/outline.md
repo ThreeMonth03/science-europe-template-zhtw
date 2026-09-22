@@ -280,7 +280,7 @@
 
           [T] [translation](<tree/src/index.html.j2/0001-data-management-plan-9db5c94135/0001-data-management-plan-221f0c786f/translation.md>)
 
-- [ ] [file] src/macros.html.j2 (4/9)
+- [ ] [file] src/macros.html.j2 (9/12)
 
   [J2] `src/macros.html.j2`
 
@@ -316,45 +316,69 @@
 
           [T] [translation](<tree/src/macros.html.j2/0004-orcid-1de1d52d66/0001-orcid-e8a9c7bd7d/translation.md>)
 
-    - [ ] [wrapper] 0005-instrument-dataset-f418272547 (0/1)
+    - [x] [wrapper] 0005-instrument-dataset-f418272547 (1/1)
 
       [W] `0005-instrument-dataset-f418272547`
 
-        - [ ] [unit] 0001-instrument-dataset-6acaf1aaeb: Instrument dataset
+        - [x] [unit] 0001-instrument-dataset-6acaf1aaeb: Instrument dataset
 
           [T] [translation](<tree/src/macros.html.j2/0005-instrument-dataset-f418272547/0001-instrument-dataset-6acaf1aaeb/translation.md>)
 
-    - [ ] [wrapper] 0006-reference-dataset-ac3f28a07b (0/1)
+    - [x] [wrapper] 0006-reference-dataset-ac3f28a07b (1/1)
 
       [W] `0006-reference-dataset-ac3f28a07b`
 
-        - [ ] [unit] 0001-reference-dataset-8e91264077: Reference dataset
+        - [x] [unit] 0001-reference-dataset-8e91264077: Reference dataset
 
           [T] [translation](<tree/src/macros.html.j2/0006-reference-dataset-ac3f28a07b/0001-reference-dataset-8e91264077/translation.md>)
 
-    - [ ] [wrapper] 0007-non-reference-dataset-1ace39f36f (0/1)
+    - [x] [wrapper] 0007-non-reference-dataset-1ace39f36f (1/1)
 
       [W] `0007-non-reference-dataset-1ace39f36f`
 
-        - [ ] [unit] 0001-non-reference-dataset-0964313aea: Non-reference dataset
+        - [x] [unit] 0001-non-reference-dataset-0964313aea: Non-reference dataset
 
           [T] [translation](<tree/src/macros.html.j2/0007-non-reference-dataset-1ace39f36f/0001-non-reference-dataset-0964313aea/translation.md>)
 
-    - [ ] [wrapper] 0008-non-equipment-dataset-9f5479b237 (0/1)
+    - [x] [wrapper] 0008-non-equipment-dataset-9f5479b237 (1/1)
 
       [W] `0008-non-equipment-dataset-9f5479b237`
 
-        - [ ] [unit] 0001-non-equipment-dataset-2f5cde2b58: Non-equipment dataset
+        - [x] [unit] 0001-non-equipment-dataset-2f5cde2b58: Non-equipment dataset
 
           [T] [translation](<tree/src/macros.html.j2/0008-non-equipment-dataset-9f5479b237/0001-non-equipment-dataset-2f5cde2b58/translation.md>)
 
-    - [ ] [wrapper] 0009-produced-dataset-db42041b6d (0/1)
+    - [x] [wrapper] 0009-produced-dataset-db42041b6d (1/1)
 
       [W] `0009-produced-dataset-db42041b6d`
 
-        - [ ] [unit] 0001-produced-dataset-f0caee631d: Produced dataset
+        - [x] [unit] 0001-produced-dataset-f0caee631d: Produced dataset
 
           [T] [translation](<tree/src/macros.html.j2/0009-produced-dataset-db42041b6d/0001-produced-dataset-f0caee631d/translation.md>)
+
+    - [ ] [wrapper] 0010-project-163ddc1abe (0/1)
+
+      [W] `0010-project-163ddc1abe`
+
+        - [ ] [unit] 0001-project-989b458754: Project {index}
+
+          [T] [translation](<tree/src/macros.html.j2/0010-project-163ddc1abe/0001-project-989b458754/translation.md>)
+
+    - [ ] [wrapper] 0011-resource-93994cb7f7 (0/1)
+
+      [W] `0011-resource-93994cb7f7`
+
+        - [ ] [unit] 0001-resource-3835b05c31: Resource {index}
+
+          [T] [translation](<tree/src/macros.html.j2/0011-resource-93994cb7f7/0001-resource-3835b05c31/translation.md>)
+
+    - [ ] [wrapper] 0012-software-tool-87f0b8f115 (0/1)
+
+      [W] `0012-software-tool-87f0b8f115`
+
+        - [ ] [unit] 0001-software-tool-44694f7a4a: Software tool {index}
+
+          [T] [translation](<tree/src/macros.html.j2/0012-software-tool-87f0b8f115/0001-software-tool-44694f7a4a/translation.md>)
 
 - [x] [file] src/post-project-archive.html.j2 (33/33)
 
@@ -876,15 +900,15 @@
 
           [T] [translation](<tree/src/projects.html.j2/0011-there-are-no-projects-described-for-this-dmp-60c01c963f/0001-there-are-no-projects-described-for-this-dmp-be6b49f634/translation.md>)
 
-- [ ] [file] src/quality-control.html.j2 (14/18)
+- [x] [file] src/quality-control.html.j2 (18/18)
 
   [J2] `src/quality-control.html.j2`
 
-    - [ ] [wrapper] 0001-no-name-given-a3c5592437 (0/1)
+    - [x] [wrapper] 0001-no-name-given-a3c5592437 (1/1)
 
       [W] `0001-no-name-given-a3c5592437`
 
-        - [ ] [unit] 0001-no-name-given-30648b224e: (no name given)
+        - [x] [unit] 0001-no-name-given-30648b224e: (no name given)
 
           [T] [translation](<tree/src/quality-control.html.j2/0001-no-name-given-a3c5592437/0001-no-name-given-30648b224e/translation.md>)
 
@@ -952,15 +976,15 @@
 
           [T] [translation](<tree/src/quality-control.html.j2/0009-measurement-of-samples-with-known-outcomes-to-monitor-2776b72e91/0001-measurement-of-samples-with-known-outcomes-to-monitor-7bc969f6c5/translation.md>)
 
-    - [ ] [wrapper] 0010-quality-control-measures-planned-for-and-other-quality-055dda9d20 (0/2)
+    - [x] [wrapper] 0010-quality-control-measures-planned-for-and-other-quality-055dda9d20 (2/2)
 
       [W] `0010-quality-control-measures-planned-for-and-other-quality-055dda9d20`
 
-        - [ ] [unit] 0001-quality-control-measures-planned-for-and-other-quality-291c182bea: Quality control measures planned for {qualityName}: {qualityMethods} and other quality control methods.
+        - [x] [unit] 0001-quality-control-measures-planned-for-and-other-quality-291c182bea: Quality control measures planned for {qualityName}: {qualityMethods} and other quality control methods.
 
           [T] [translation](<tree/src/quality-control.html.j2/0010-quality-control-measures-planned-for-and-other-quality-055dda9d20/0001-quality-control-measures-planned-for-and-other-quality-291c182bea/translation.md>)
 
-        - [ ] [unit] 0002-other-quality-control-methods-are-planned-for-7073193c48: Other quality control methods are planned for {qualityName}.
+        - [x] [unit] 0002-other-quality-control-methods-are-planned-for-7073193c48: Other quality control methods are planned for {qualityName}.
 
           [T] [translation](<tree/src/quality-control.html.j2/0010-quality-control-measures-planned-for-and-other-quality-055dda9d20/0002-other-quality-control-methods-are-planned-for-7073193c48/translation.md>)
 
@@ -1004,11 +1028,11 @@
 
           [T] [translation](<tree/src/quality-control.html.j2/0015-other-quality-control-methods-were-selected-for-but-83057d0ea2/0001-other-quality-control-methods-were-selected-for-but-13625ca965/translation.md>)
 
-    - [ ] [wrapper] 0016-other-quality-control-methods-are-planned-for-1ea65ba70f (0/1)
+    - [x] [wrapper] 0016-other-quality-control-methods-are-planned-for-1ea65ba70f (1/1)
 
       [W] `0016-other-quality-control-methods-are-planned-for-1ea65ba70f`
 
-        - [ ] [unit] 0001-other-quality-control-methods-are-planned-for-5636349d6d: Other quality control methods are planned for {qualityName}.
+        - [x] [unit] 0001-other-quality-control-methods-are-planned-for-5636349d6d: Other quality control methods are planned for {qualityName}.
 
           [T] [translation](<tree/src/quality-control.html.j2/0016-other-quality-control-methods-are-planned-for-1ea65ba70f/0001-other-quality-control-methods-are-planned-for-5636349d6d/translation.md>)
 
@@ -1020,7 +1044,7 @@
 
           [T] [translation](<tree/src/quality-control.html.j2/0017-it-has-not-been-specified-whether-quality-control-59607aedf9/0001-it-has-not-been-specified-whether-quality-control-75bf53cf19/translation.md>)
 
-- [ ] [file] src/questions/01-how-data.html.j2 (111/112)
+- [x] [file] src/questions/01-how-data.html.j2 (112/112)
 
   [J2] `src/questions/01-how-data.html.j2`
 
@@ -1096,7 +1120,7 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0009-re-used-datasets-cab1e5312b/0001-re-used-datasets-a68e45710e/translation.md>)
 
-    - [ ] [wrapper] 0010-no-name-given-source-source-information-not-provided-9dc5fae935 (41/42)
+    - [x] [wrapper] 0010-no-name-given-source-source-information-not-provided-9dc5fae935 (42/42)
 
       [W] `0010-no-name-given-source-source-information-not-provided-9dc5fae935`
 
@@ -1172,7 +1196,7 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-9dc5fae935/0018-restrictions-apply-but-the-conditions-of-use-are-94aef677d9/translation.md>)
 
-        - [ ] [unit] 0019-restrictions-apply-to-this-dataset-92da2c6778: Restrictions apply to this dataset.
+        - [x] [unit] 0019-restrictions-apply-to-this-dataset-92da2c6778: Restrictions apply to this dataset.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-9dc5fae935/0019-restrictions-apply-to-this-dataset-92da2c6778/translation.md>)
 
@@ -1580,7 +1604,7 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0027-information-not-provided-how-data-provenance-will-be-1a1565d1bb/0001-information-not-provided-how-data-provenance-will-be-af7c37e5b3/translation.md>)
 
-- [ ] [file] src/questions/02-what-data.html.j2 (52/54)
+- [x] [file] src/questions/02-what-data.html.j2 (54/54)
 
   [J2] `src/questions/02-what-data.html.j2`
 
@@ -1600,11 +1624,11 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0002-instrument-datasets-b801872916/0001-instrument-datasets-d5d4150a5a/translation.md>)
 
-    - [ ] [wrapper] 0003-no-name-given-b9538d5687 (0/1)
+    - [x] [wrapper] 0003-no-name-given-b9538d5687 (1/1)
 
       [W] `0003-no-name-given-b9538d5687`
 
-        - [ ] [unit] 0001-no-name-given-d4abda789c: (no name given)
+        - [x] [unit] 0001-no-name-given-d4abda789c: (no name given)
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0003-no-name-given-b9538d5687/0001-no-name-given-d4abda789c/translation.md>)
 
@@ -1776,11 +1800,11 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0024-the-non-equipment-datasets-are-9d2f72db6f/0001-the-non-equipment-datasets-are-fcdabc20c1/translation.md>)
 
-    - [ ] [wrapper] 0025-no-name-given-76f15c65b9 (0/1)
+    - [x] [wrapper] 0025-no-name-given-76f15c65b9 (1/1)
 
       [W] `0025-no-name-given-76f15c65b9`
 
-        - [ ] [unit] 0001-no-name-given-b2ced6699f: (no name given)
+        - [x] [unit] 0001-no-name-given-b2ced6699f: (no name given)
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0025-no-name-given-76f15c65b9/0001-no-name-given-b2ced6699f/translation.md>)
 
@@ -3484,7 +3508,7 @@
 
           [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-this-document-does-not-yet-describe-arrangements-for-409dc01360/0001-this-document-does-not-yet-describe-arrangements-for-bd0ea785a3/translation.md>)
 
-- [x] [file] src/questions/09-ethical-issues.html.j2 (50/50)
+- [ ] [file] src/questions/09-ethical-issues.html.j2 (50/51)
 
   [J2] `src/questions/09-ethical-issues.html.j2`
 
@@ -3512,13 +3536,13 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0003-the-questionnaire-records-the-following-ethical-approval-arrangements-845e5d03f8/0001-the-questionnaire-records-the-following-ethical-approval-arrangements-e839b2239a/translation.md>)
 
-    - [x] [wrapper] 0004-no-name-given-bb580954ce (1/1)
+    - [x] [wrapper] 0004-no-name-given-ebe1a142d7 (1/1)
 
-      [W] `0004-no-name-given-bb580954ce`
+      [W] `0004-no-name-given-ebe1a142d7`
 
         - [x] [unit] 0001-no-name-given-a8cf2255d7: (no name given)
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0004-no-name-given-bb580954ce/0001-no-name-given-a8cf2255d7/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0004-no-name-given-ebe1a142d7/0001-no-name-given-a8cf2255d7/translation.md>)
 
     - [x] [wrapper] 0005-according-to-the-questionnaire-this-project-does-not-3ce4454d47 (1/1)
 
@@ -3592,13 +3616,13 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0010-for-the-data-we-produce-the-ethical-aspects-18ce7fdf19/0001-for-the-data-we-produce-the-ethical-aspects-079ad0f604/translation.md>)
 
-    - [x] [wrapper] 0011-no-name-given-f345ccffb9 (1/1)
+    - [x] [wrapper] 0011-no-name-given-b149cd96d8 (1/1)
 
-      [W] `0011-no-name-given-f345ccffb9`
+      [W] `0011-no-name-given-b149cd96d8`
 
         - [x] [unit] 0001-no-name-given-5b0575613a: (no name given)
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0011-no-name-given-f345ccffb9/0001-no-name-given-5b0575613a/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0011-no-name-given-b149cd96d8/0001-no-name-given-5b0575613a/translation.md>)
 
     - [x] [wrapper] 0012-it-does-not-contain-personal-data-cd368bba12 (1/1)
 
@@ -3752,101 +3776,109 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0030-we-use-a-different-legal-base-for-collection-3e995155fc/0001-we-use-a-different-legal-base-for-collection-c7a5471afa/translation.md>)
 
-    - [x] [wrapper] 0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2 (1/1)
+    - [ ] [wrapper] 0031-an-alternative-legal-basis-was-selected-b8f52e8a16 (0/1)
 
-      [W] `0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2`
+      [W] `0031-an-alternative-legal-basis-was-selected-b8f52e8a16`
 
-        - [x] [unit] 0001-an-alternative-legal-basis-was-selected-but-it-63608bf06a: An alternative legal basis was selected, but it has not been specified; see Question 7.
+        - [ ] [unit] 0001-an-alternative-legal-basis-was-selected-ab4b5c67ce: An alternative legal basis was selected.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0031-an-alternative-legal-basis-was-selected-but-it-1ff23666a2/0001-an-alternative-legal-basis-was-selected-but-it-63608bf06a/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0031-an-alternative-legal-basis-was-selected-b8f52e8a16/0001-an-alternative-legal-basis-was-selected-ab4b5c67ce/translation.md>)
 
-    - [x] [wrapper] 0032-to-fulfil-a-contract-9844b04880 (1/1)
+    - [x] [wrapper] 0032-an-alternative-legal-basis-was-selected-but-it-e55dfcdbaa (1/1)
 
-      [W] `0032-to-fulfil-a-contract-9844b04880`
+      [W] `0032-an-alternative-legal-basis-was-selected-but-it-e55dfcdbaa`
 
-        - [x] [unit] 0001-to-fulfil-a-contract-bebb72a20f: to fulfil a contract.
+        - [x] [unit] 0001-an-alternative-legal-basis-was-selected-but-it-701107eb09: An alternative legal basis was selected, but it has not been specified; see Question 7.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0032-to-fulfil-a-contract-9844b04880/0001-to-fulfil-a-contract-bebb72a20f/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0032-an-alternative-legal-basis-was-selected-but-it-e55dfcdbaa/0001-an-alternative-legal-basis-was-selected-but-it-701107eb09/translation.md>)
 
-    - [x] [wrapper] 0033-legitimate-interest-df910d94a6 (1/1)
+    - [x] [wrapper] 0033-to-fulfil-a-contract-9844b04880 (1/1)
 
-      [W] `0033-legitimate-interest-df910d94a6`
+      [W] `0033-to-fulfil-a-contract-9844b04880`
 
-        - [x] [unit] 0001-legitimate-interest-35e39afd8a: legitimate interest.
+        - [x] [unit] 0001-to-fulfil-a-contract-eb181a42c8: to fulfil a contract.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0033-legitimate-interest-df910d94a6/0001-legitimate-interest-35e39afd8a/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0033-to-fulfil-a-contract-9844b04880/0001-to-fulfil-a-contract-eb181a42c8/translation.md>)
 
-    - [x] [wrapper] 0034-vital-interest-62dfb9ab6e (1/1)
+    - [x] [wrapper] 0034-legitimate-interest-df910d94a6 (1/1)
 
-      [W] `0034-vital-interest-62dfb9ab6e`
+      [W] `0034-legitimate-interest-df910d94a6`
 
-        - [x] [unit] 0001-vital-interest-d046288f36: vital interest.
+        - [x] [unit] 0001-legitimate-interest-ec8a491fab: legitimate interest.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0034-vital-interest-62dfb9ab6e/0001-vital-interest-d046288f36/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0034-legitimate-interest-df910d94a6/0001-legitimate-interest-ec8a491fab/translation.md>)
 
-    - [x] [wrapper] 0035-legal-requirement-f8f46cb242 (1/1)
+    - [x] [wrapper] 0035-vital-interest-62dfb9ab6e (1/1)
 
-      [W] `0035-legal-requirement-f8f46cb242`
+      [W] `0035-vital-interest-62dfb9ab6e`
 
-        - [x] [unit] 0001-legal-requirement-1db3d96a22: legal requirement.
+        - [x] [unit] 0001-vital-interest-b1fd1fcffe: vital interest.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0035-legal-requirement-f8f46cb242/0001-legal-requirement-1db3d96a22/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0035-vital-interest-62dfb9ab6e/0001-vital-interest-b1fd1fcffe/translation.md>)
 
-    - [x] [wrapper] 0036-the-purpose-of-processing-the-personal-data-can-bdf6778c2d (1/1)
+    - [x] [wrapper] 0036-legal-requirement-f8f46cb242 (1/1)
 
-      [W] `0036-the-purpose-of-processing-the-personal-data-can-bdf6778c2d`
+      [W] `0036-legal-requirement-f8f46cb242`
 
-        - [x] [unit] 0001-the-purpose-of-processing-the-personal-data-can-fecfcd9686: The purpose of processing the personal data can be described as follows:
+        - [x] [unit] 0001-legal-requirement-b03dead2a0: legal requirement.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0036-the-purpose-of-processing-the-personal-data-can-bdf6778c2d/0001-the-purpose-of-processing-the-personal-data-can-fecfcd9686/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0036-legal-requirement-f8f46cb242/0001-legal-requirement-b03dead2a0/translation.md>)
 
-    - [x] [wrapper] 0037-we-need-to-conduct-a-data-protection-impact-ff63f188f7 (1/1)
+    - [x] [wrapper] 0037-the-purpose-of-processing-the-personal-data-can-bdf6778c2d (1/1)
 
-      [W] `0037-we-need-to-conduct-a-data-protection-impact-ff63f188f7`
+      [W] `0037-the-purpose-of-processing-the-personal-data-can-bdf6778c2d`
 
-        - [x] [unit] 0001-we-need-to-conduct-a-data-protection-impact-6947aa25c6: We need to conduct a data protection impact assessment (DPIA).
+        - [x] [unit] 0001-the-purpose-of-processing-the-personal-data-can-94c4570249: The purpose of processing the personal data can be described as follows:
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0037-we-need-to-conduct-a-data-protection-impact-ff63f188f7/0001-we-need-to-conduct-a-data-protection-impact-6947aa25c6/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0037-the-purpose-of-processing-the-personal-data-can-bdf6778c2d/0001-the-purpose-of-processing-the-personal-data-can-94c4570249/translation.md>)
 
-    - [x] [wrapper] 0038-the-data-collection-is-not-subject-to-ethical-2e23b75895 (1/1)
+    - [x] [wrapper] 0038-we-need-to-conduct-a-data-protection-impact-ff63f188f7 (1/1)
 
-      [W] `0038-the-data-collection-is-not-subject-to-ethical-2e23b75895`
+      [W] `0038-we-need-to-conduct-a-data-protection-impact-ff63f188f7`
 
-        - [x] [unit] 0001-the-data-collection-is-not-subject-to-ethical-5c0d86a8b9: The data collection is not subject to ethical legislation.
+        - [x] [unit] 0001-we-need-to-conduct-a-data-protection-impact-ce454ff5d4: We need to conduct a data protection impact assessment (DPIA).
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0038-the-data-collection-is-not-subject-to-ethical-2e23b75895/0001-the-data-collection-is-not-subject-to-ethical-5c0d86a8b9/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0038-we-need-to-conduct-a-data-protection-impact-ff63f188f7/0001-we-need-to-conduct-a-data-protection-impact-ce454ff5d4/translation.md>)
 
-    - [x] [wrapper] 0039-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50 (5/5)
+    - [x] [wrapper] 0039-the-data-collection-is-not-subject-to-ethical-2e23b75895 (1/1)
 
-      [W] `0039-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50`
+      [W] `0039-the-data-collection-is-not-subject-to-ethical-2e23b75895`
 
-        - [x] [unit] 0001-the-data-collection-is-subject-to-ethical-legislation-e1cca387d7: The data collection is subject to ethical legislation.
+        - [x] [unit] 0001-the-data-collection-is-not-subject-to-ethical-fd979318c0: The data collection is not subject to ethical legislation.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0001-the-data-collection-is-subject-to-ethical-legislation-e1cca387d7/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-the-data-collection-is-not-subject-to-ethical-2e23b75895/0001-the-data-collection-is-not-subject-to-ethical-fd979318c0/translation.md>)
 
-        - [x] [unit] 0002-it-is-not-covered-by-ethical-review-3cb539a22f: It is not covered by ethical review.
+    - [x] [wrapper] 0040-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50 (5/5)
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0002-it-is-not-covered-by-ethical-review-3cb539a22f/translation.md>)
+      [W] `0040-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50`
 
-        - [x] [unit] 0003-it-is-covered-by-ethical-review-8738b0ef2c: It is covered by ethical review.
+        - [x] [unit] 0001-the-data-collection-is-subject-to-ethical-legislation-2165c54b07: The data collection is subject to ethical legislation.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0003-it-is-covered-by-ethical-review-8738b0ef2c/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0040-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0001-the-data-collection-is-subject-to-ethical-legislation-2165c54b07/translation.md>)
 
-        - [x] [unit] 0004-it-does-not-involve-human-subjects-c6caf2ee5d: It does not involve human subjects.
+        - [x] [unit] 0002-it-is-not-covered-by-ethical-review-f7afd6b4ee: It is not covered by ethical review.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0004-it-does-not-involve-human-subjects-c6caf2ee5d/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0040-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0002-it-is-not-covered-by-ethical-review-f7afd6b4ee/translation.md>)
 
-        - [x] [unit] 0005-it-involves-human-subjects-d446b1447b: It involves human subjects.
+        - [x] [unit] 0003-it-is-covered-by-ethical-review-e7471c7fab: It is covered by ethical review.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0005-it-involves-human-subjects-d446b1447b/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0040-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0003-it-is-covered-by-ethical-review-e7471c7fab/translation.md>)
 
-    - [x] [wrapper] 0040-this-document-does-not-yet-contain-an-answer-02388f733d (1/1)
+        - [x] [unit] 0004-it-does-not-involve-human-subjects-b0e1a2c0c1: It does not involve human subjects.
 
-      [W] `0040-this-document-does-not-yet-contain-an-answer-02388f733d`
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0040-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0004-it-does-not-involve-human-subjects-b0e1a2c0c1/translation.md>)
 
-        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-100c9a76d5: This document does not yet contain an answer about ethical issues and codes of conduct.
+        - [x] [unit] 0005-it-involves-human-subjects-abbf0e7d03: It involves human subjects.
 
-          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0040-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-100c9a76d5/translation.md>)
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0040-the-data-collection-is-subject-to-ethical-legislation-27cbb89b50/0005-it-involves-human-subjects-abbf0e7d03/translation.md>)
+
+    - [x] [wrapper] 0041-this-document-does-not-yet-contain-an-answer-02388f733d (1/1)
+
+      [W] `0041-this-document-does-not-yet-contain-an-answer-02388f733d`
+
+        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-a3f3850bb2: This document does not yet contain an answer about ethical issues and codes of conduct.
+
+          [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0041-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-a3f3850bb2/translation.md>)
 
 - [x] [file] src/questions/10-share-restrictions.html.j2 (63/63)
 
@@ -4608,7 +4640,7 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0025-this-document-does-not-yet-contain-an-answer-33896db936/0001-this-document-does-not-yet-contain-an-answer-258449bc6d/translation.md>)
 
-- [ ] [file] src/questions/12-access-data.html.j2 (10/13)
+- [x] [file] src/questions/12-access-data.html.j2 (13/13)
 
   [J2] `src/questions/12-access-data.html.j2`
 
@@ -4636,13 +4668,13 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0003-software-required-to-use-this-dataset-4c4dcb064a/0001-software-required-to-use-this-dataset-5bea10e417/translation.md>)
 
-    - [x] [wrapper] 0004-no-name-given-85b3c66d31 (1/1)
+    - [x] [wrapper] 0004-no-name-given-0a19f16f4a (1/1)
 
-      [W] `0004-no-name-given-85b3c66d31`
+      [W] `0004-no-name-given-0a19f16f4a`
 
         - [x] [unit] 0001-no-name-given-42691a6abf: (no name given)
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0004-no-name-given-85b3c66d31/0001-no-name-given-42691a6abf/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0004-no-name-given-0a19f16f4a/0001-no-name-given-42691a6abf/translation.md>)
 
     - [x] [wrapper] 0005-available-at-d0c8b020f2 (1/1)
 
@@ -4668,11 +4700,11 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0007-software-is-required-but-the-tools-have-not-57e856c866/0001-software-is-required-but-the-tools-have-not-7e225786fe/translation.md>)
 
-    - [ ] [wrapper] 0008-software-is-required-to-use-this-dataset-658df9050a (0/1)
+    - [x] [wrapper] 0008-software-is-required-to-use-this-dataset-658df9050a (1/1)
 
       [W] `0008-software-is-required-to-use-this-dataset-658df9050a`
 
-        - [ ] [unit] 0001-software-is-required-to-use-this-dataset-9c272c1950: Software is required to use this dataset.
+        - [x] [unit] 0001-software-is-required-to-use-this-dataset-9c272c1950: Software is required to use this dataset.
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0008-software-is-required-to-use-this-dataset-658df9050a/0001-software-is-required-to-use-this-dataset-9c272c1950/translation.md>)
 
@@ -4692,19 +4724,19 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0010-it-has-not-yet-been-specified-whether-software-01c8dbd574/0001-it-has-not-yet-been-specified-whether-software-5f7d0a7fc3/translation.md>)
 
-    - [ ] [wrapper] 0011-this-dataset-will-not-be-published-1b246648a5 (0/1)
+    - [x] [wrapper] 0011-this-dataset-will-not-be-published-1b246648a5 (1/1)
 
       [W] `0011-this-dataset-will-not-be-published-1b246648a5`
 
-        - [ ] [unit] 0001-this-dataset-will-not-be-published-2616a1a93f: This dataset will not be published.
+        - [x] [unit] 0001-this-dataset-will-not-be-published-2616a1a93f: This dataset will not be published.
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0011-this-dataset-will-not-be-published-1b246648a5/0001-this-dataset-will-not-be-published-2616a1a93f/translation.md>)
 
-    - [ ] [wrapper] 0012-it-has-not-yet-been-specified-whether-this-c1ceb4f29d (0/1)
+    - [x] [wrapper] 0012-it-has-not-yet-been-specified-whether-this-c1ceb4f29d (1/1)
 
       [W] `0012-it-has-not-yet-been-specified-whether-this-c1ceb4f29d`
 
-        - [ ] [unit] 0001-it-has-not-yet-been-specified-whether-this-9395ffe490: It has not yet been specified whether this dataset will be published.
+        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-this-9395ffe490: It has not yet been specified whether this dataset will be published.
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0012-it-has-not-yet-been-specified-whether-this-c1ceb4f29d/0001-it-has-not-yet-been-specified-whether-this-9395ffe490/translation.md>)
 
@@ -5036,7 +5068,7 @@
 
           [T] [translation](<tree/src/questions/14-dm-responsible.html.j2/0010-this-document-does-not-yet-identify-a-named-02da801dc4/0001-this-document-does-not-yet-identify-a-named-a45c9b0a8b/translation.md>)
 
-- [x] [file] src/questions/15-required-resources.html.j2 (46/46)
+- [ ] [file] src/questions/15-required-resources.html.j2 (41/47)
 
   [J2] `src/questions/15-required-resources.html.j2`
 
@@ -5184,149 +5216,157 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0018-data-management-budget-2d7e8e3861/0001-data-management-budget-f61ccd84d6/translation.md>)
 
-    - [x] [wrapper] 0019-no-name-given-49b4df2086 (1/1)
+    - [ ] [wrapper] 0019-project-346040d892 (0/1)
 
-      [W] `0019-no-name-given-49b4df2086`
+      [W] `0019-project-346040d892`
 
-        - [x] [unit] 0001-no-name-given-4bb8ae10ab: (no name given) {projectItemNumberReply}
+        - [ ] [unit] 0001-project-c1441f4c3b: Project {i}{projectItemNumberReply}
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0019-no-name-given-49b4df2086/0001-no-name-given-4bb8ae10ab/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0019-project-346040d892/0001-project-c1441f4c3b/translation.md>)
 
-    - [x] [wrapper] 0020-resource-and-purpose-683bd9d31f (1/1)
+    - [x] [wrapper] 0020-no-name-given-49b4df2086 (1/1)
 
-      [W] `0020-resource-and-purpose-683bd9d31f`
+      [W] `0020-no-name-given-49b4df2086`
 
-        - [x] [unit] 0001-resource-and-purpose-4b7f27da2f: Resource and purpose
+        - [x] [unit] 0001-no-name-given-7b2392a5fc: (no name given) {projectItemNumberReply}
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0020-resource-and-purpose-683bd9d31f/0001-resource-and-purpose-4b7f27da2f/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0020-no-name-given-49b4df2086/0001-no-name-given-7b2392a5fc/translation.md>)
 
-    - [x] [wrapper] 0021-budget-a3a133e727 (1/1)
+    - [x] [wrapper] 0021-resource-and-purpose-683bd9d31f (1/1)
 
-      [W] `0021-budget-a3a133e727`
+      [W] `0021-resource-and-purpose-683bd9d31f`
 
-        - [x] [unit] 0001-budget-a325c1504b: Budget
+        - [x] [unit] 0001-resource-and-purpose-9655cc5237: Resource and purpose
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0021-budget-a3a133e727/0001-budget-a325c1504b/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0021-resource-and-purpose-683bd9d31f/0001-resource-and-purpose-9655cc5237/translation.md>)
 
-    - [x] [wrapper] 0022-funding-source-24355dbdc4 (1/1)
+    - [x] [wrapper] 0022-budget-a3a133e727 (1/1)
 
-      [W] `0022-funding-source-24355dbdc4`
+      [W] `0022-budget-a3a133e727`
 
-        - [x] [unit] 0001-funding-source-1202438b83: Funding source
+        - [x] [unit] 0001-budget-2ecc04f3f0: Budget
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0022-funding-source-24355dbdc4/0001-funding-source-1202438b83/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0022-budget-a3a133e727/0001-budget-2ecc04f3f0/translation.md>)
 
-    - [x] [wrapper] 0023-no-resource-name-given-information-not-provided-why-9cb8951f19 (17/17)
+    - [x] [wrapper] 0023-funding-source-24355dbdc4 (1/1)
 
-      [W] `0023-no-resource-name-given-information-not-provided-why-9cb8951f19`
+      [W] `0023-funding-source-24355dbdc4`
 
-        - [x] [unit] 0001-no-resource-name-given-81b0789e65: (no resource name given)
+        - [x] [unit] 0001-funding-source-c2c0eb768d: Funding source
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0001-no-resource-name-given-81b0789e65/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-funding-source-24355dbdc4/0001-funding-source-c2c0eb768d/translation.md>)
 
-        - [x] [unit] 0002-information-not-provided-why-this-resource-is-needed-1a63c33881: Information not provided: why this resource is needed to deliver FAIR data.
+    - [ ] [wrapper] 0024-no-resource-name-given-information-not-provided-why-d42e880477 (14/17)
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0002-information-not-provided-why-this-resource-is-needed-1a63c33881/translation.md>)
+      [W] `0024-no-resource-name-given-information-not-provided-why-d42e880477`
 
-        - [x] [unit] 0003-currency-7fdf2a0c96: Currency: {projectCostItemCurrencyReply}.
+        - [x] [unit] 0001-no-resource-name-given-728b66dadd: (no resource name given)
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0003-currency-7fdf2a0c96/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0001-no-resource-name-given-728b66dadd/translation.md>)
 
-        - [x] [unit] 0004-information-not-provided-currency-0baaffdf7c: Information not provided: currency.
+        - [x] [unit] 0002-information-not-provided-why-this-resource-is-needed-c2d6d8de80: Information not provided: why this resource is needed to deliver FAIR data.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0004-information-not-provided-currency-0baaffdf7c/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0002-information-not-provided-why-this-resource-is-needed-c2d6d8de80/translation.md>)
 
-        - [x] [unit] 0005-currency-7fdf2a0c96-2: Currency: {projectCostItemCurrencyReply}.
+        - [ ] [unit] 0003-currency-ec4123483d: Currency: {projectCostItemCurrencyReply}.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0005-currency-7fdf2a0c96-2/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0003-currency-ec4123483d/translation.md>)
 
-        - [x] [unit] 0006-information-not-provided-budgeted-amount-477d8eed8e: Information not provided: budgeted amount.
+        - [x] [unit] 0004-information-not-provided-currency-21fdb4b991: Information not provided: currency.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0006-information-not-provided-budgeted-amount-477d8eed8e/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0004-information-not-provided-currency-21fdb4b991/translation.md>)
 
-        - [x] [unit] 0007-currency-7fdf2a0c96-3: Currency: {projectCostItemCurrencyReply}.
+        - [ ] [unit] 0005-currency-ec4123483d-2: Currency: {projectCostItemCurrencyReply}.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0007-currency-7fdf2a0c96-3/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0005-currency-ec4123483d-2/translation.md>)
 
-        - [x] [unit] 0008-information-not-provided-budgeted-amount-and-currency-f939a03034: Information not provided: budgeted amount and currency.
+        - [x] [unit] 0006-information-not-provided-budgeted-amount-30b329399c: Information not provided: budgeted amount.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0008-information-not-provided-budgeted-amount-and-currency-f939a03034/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0006-information-not-provided-budgeted-amount-30b329399c/translation.md>)
 
-        - [x] [unit] 0009-findability-f10dc2eecc: findability
+        - [ ] [unit] 0007-currency-ec4123483d-3: Currency: {projectCostItemCurrencyReply}.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0009-findability-f10dc2eecc/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0007-currency-ec4123483d-3/translation.md>)
 
-        - [x] [unit] 0010-accessibility-9aedd8d3a4: accessibility
+        - [x] [unit] 0008-information-not-provided-budgeted-amount-and-currency-0cf8205707: Information not provided: budgeted amount and currency.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0010-accessibility-9aedd8d3a4/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0008-information-not-provided-budgeted-amount-and-currency-0cf8205707/translation.md>)
 
-        - [x] [unit] 0011-interoperability-91ea8fee5b: interoperability
+        - [x] [unit] 0009-findability-f8e8de562a: findability
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0011-interoperability-91ea8fee5b/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0009-findability-f8e8de562a/translation.md>)
 
-        - [x] [unit] 0012-reusability-752d9b937e: reusability
+        - [x] [unit] 0010-accessibility-da6c5b4e21: accessibility
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0012-reusability-752d9b937e/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0010-accessibility-da6c5b4e21/translation.md>)
 
-        - [x] [unit] 0013-management-4f4bc2bd2b: management
+        - [x] [unit] 0011-interoperability-a04a64a0c2: interoperability
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0013-management-4f4bc2bd2b/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0011-interoperability-a04a64a0c2/translation.md>)
 
-        - [x] [unit] 0014-this-resource-supports-and-of-data-ee9d3aefb6: This resource supports {projectCostItemAllocations_0_minus_1}, and {projectCostItemAllocations_minus_1} of data.
+        - [x] [unit] 0012-reusability-606e128fcc: reusability
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0014-this-resource-supports-and-of-data-ee9d3aefb6/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0012-reusability-606e128fcc/translation.md>)
 
-        - [x] [unit] 0015-this-resource-supports-and-of-data-0e08d81c68: This resource supports {projectCostItemAllocations_0} and {projectCostItemAllocations_1} of data.
+        - [x] [unit] 0013-management-9468b50e3a: management
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0015-this-resource-supports-and-of-data-0e08d81c68/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0013-management-9468b50e3a/translation.md>)
 
-        - [x] [unit] 0016-this-resource-supports-of-data-10a1d174f0: This resource supports {projectCostItemAllocations_0} of data.
+        - [x] [unit] 0014-this-resource-supports-and-of-data-b51f8e5cb4: This resource supports {projectCostItemAllocations_0_minus_1}, and {projectCostItemAllocations_minus_1} of data.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0016-this-resource-supports-of-data-10a1d174f0/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0014-this-resource-supports-and-of-data-b51f8e5cb4/translation.md>)
 
-        - [x] [unit] 0017-information-not-provided-which-fair-or-data-management-30948d8018: Information not provided: which FAIR or data-management activities this resource supports.
+        - [x] [unit] 0015-this-resource-supports-and-of-data-f6d118ee95: This resource supports {projectCostItemAllocations_0} and {projectCostItemAllocations_1} of data.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-no-resource-name-given-information-not-provided-why-9cb8951f19/0017-information-not-provided-which-fair-or-data-management-30948d8018/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0015-this-resource-supports-and-of-data-f6d118ee95/translation.md>)
 
-    - [x] [wrapper] 0024-this-cost-will-be-covered-by-a-funding-1b5f800711 (5/5)
+        - [x] [unit] 0016-this-resource-supports-of-data-3e70a1d554: This resource supports {projectCostItemAllocations_0} of data.
 
-      [W] `0024-this-cost-will-be-covered-by-a-funding-1b5f800711`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0016-this-resource-supports-of-data-3e70a1d554/translation.md>)
 
-        - [x] [unit] 0001-this-cost-will-be-covered-by-a-funding-bf970b4426: This cost will be covered by a funding grant.
+        - [x] [unit] 0017-information-not-provided-which-fair-or-data-management-9ad3e3ceb6: Information not provided: which FAIR or data-management activities this resource supports.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-1b5f800711/0001-this-cost-will-be-covered-by-a-funding-bf970b4426/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-no-resource-name-given-information-not-provided-why-d42e880477/0017-information-not-provided-which-fair-or-data-management-9ad3e3ceb6/translation.md>)
 
-        - [x] [unit] 0002-grant-number-1787becfbc: Grant number: {costCoverGrantIdReply}.
+    - [ ] [wrapper] 0025-this-cost-will-be-covered-by-a-funding-1b5f800711 (3/5)
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-1b5f800711/0002-grant-number-1787becfbc/translation.md>)
+      [W] `0025-this-cost-will-be-covered-by-a-funding-1b5f800711`
 
-        - [x] [unit] 0003-information-not-provided-the-grant-number-16c8714aac: Information not provided: the grant number.
+        - [x] [unit] 0001-this-cost-will-be-covered-by-a-funding-7e981f4ac2: This cost will be covered by a funding grant.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-1b5f800711/0003-information-not-provided-the-grant-number-16c8714aac/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-this-cost-will-be-covered-by-a-funding-1b5f800711/0001-this-cost-will-be-covered-by-a-funding-7e981f4ac2/translation.md>)
 
-        - [x] [unit] 0004-information-not-provided-how-this-cost-will-be-74656cfc4e: Information not provided: how this cost will be covered.
+        - [x] [unit] 0002-grant-number-886e416f9d: Grant number: {costCoverGrantIdReply}.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-1b5f800711/0004-information-not-provided-how-this-cost-will-be-74656cfc4e/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-this-cost-will-be-covered-by-a-funding-1b5f800711/0002-grant-number-886e416f9d/translation.md>)
 
-        - [x] [unit] 0005-information-not-provided-how-this-cost-will-be-74656cfc4e-2: Information not provided: how this cost will be covered.
+        - [x] [unit] 0003-information-not-provided-the-grant-number-f6e683598d: Information not provided: the grant number.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0024-this-cost-will-be-covered-by-a-funding-1b5f800711/0005-information-not-provided-how-this-cost-will-be-74656cfc4e-2/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-this-cost-will-be-covered-by-a-funding-1b5f800711/0003-information-not-provided-the-grant-number-f6e683598d/translation.md>)
 
-    - [x] [wrapper] 0025-information-not-provided-resources-such-as-staff-time-64a33cb3cb (1/1)
+        - [ ] [unit] 0004-information-not-provided-how-this-cost-will-be-93a67b4e25: Information not provided: how this cost will be covered.
 
-      [W] `0025-information-not-provided-resources-such-as-staff-time-64a33cb3cb`
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-this-cost-will-be-covered-by-a-funding-1b5f800711/0004-information-not-provided-how-this-cost-will-be-93a67b4e25/translation.md>)
 
-        - [x] [unit] 0001-information-not-provided-resources-such-as-staff-time-d6a2902483: Information not provided: resources such as staff time, storage, deposit preparation, and repository charges budgeted for this project.
+        - [ ] [unit] 0005-information-not-provided-how-this-cost-will-be-93a67b4e25-2: Information not provided: how this cost will be covered.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-information-not-provided-resources-such-as-staff-time-64a33cb3cb/0001-information-not-provided-resources-such-as-staff-time-d6a2902483/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0025-this-cost-will-be-covered-by-a-funding-1b5f800711/0005-information-not-provided-how-this-cost-will-be-93a67b4e25-2/translation.md>)
 
-    - [x] [wrapper] 0026-information-not-provided-the-financial-and-time-resources-59018491f9 (1/1)
+    - [x] [wrapper] 0026-information-not-provided-resources-such-as-staff-time-64a33cb3cb (1/1)
 
-      [W] `0026-information-not-provided-the-financial-and-time-resources-59018491f9`
+      [W] `0026-information-not-provided-resources-such-as-staff-time-64a33cb3cb`
 
-        - [x] [unit] 0001-information-not-provided-the-financial-and-time-resources-cd46b4ab67: Information not provided: the financial and time resources budgeted for data management and FAIR data.
+        - [x] [unit] 0001-information-not-provided-resources-such-as-staff-time-e412a01406: Information not provided: resources such as staff time, storage, deposit preparation, and repository charges budgeted for this project.
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0026-information-not-provided-the-financial-and-time-resources-59018491f9/0001-information-not-provided-the-financial-and-time-resources-cd46b4ab67/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0026-information-not-provided-resources-such-as-staff-time-64a33cb3cb/0001-information-not-provided-resources-such-as-staff-time-e412a01406/translation.md>)
+
+    - [x] [wrapper] 0027-information-not-provided-the-financial-and-time-resources-59018491f9 (1/1)
+
+      [W] `0027-information-not-provided-the-financial-and-time-resources-59018491f9`
+
+        - [x] [unit] 0001-information-not-provided-the-financial-and-time-resources-f197093500: Information not provided: the financial and time resources budgeted for data management and FAIR data.
+
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0027-information-not-provided-the-financial-and-time-resources-59018491f9/0001-information-not-provided-the-financial-and-time-resources-f197093500/translation.md>)
 
 - [x] [file] src/versions.html.j2 (5/5)
 

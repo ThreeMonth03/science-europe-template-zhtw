@@ -27,6 +27,9 @@ def frozen_package(language):
 
 def verified_sources(root, language):
     current = {str(p.relative_to(root)): p.read_bytes() for p in (root / 'src').rglob('*') if p.is_file()}
+    if {'src/word/short-tables.lua', 'src/word/short-tables.xml'} & current.keys():
+        from submission_reading_integration import project_sources
+        current = project_sources(current, language)
     expected = CONTRACT['languages'][language]
     assert {name: hashlib.sha256(value).hexdigest() for name, value in current.items()} == expected['after'], 'Unreviewed prepared source or asset'
     assert expected['before'].keys() == expected['after'].keys()

@@ -128,6 +128,11 @@ def verify_output_profile_translation_chain(current):
 
 def verify_submission_translation_chain(current):
     """All 748 prior pairs survive; allow only the 14 declared new occurrences."""
+    reading = {}
+    if len(current) != 762:
+        previous, delta = project_submission_reading_translations(current)
+        current = previous
+        reading['submission_reading'] = delta
     delta = json.loads((ROOT / 'docs/submission-preview-translation-delta.json').read_text())
     previous = archived_pairs(delta['baseline'])
     personal, following = verify_output_profile_translation_chain(previous)
@@ -137,7 +142,20 @@ def verify_submission_translation_chain(current):
     assert old-new == Counter(map(tuple, delta['removed'])), 'Lost or changed pre-existing translation'
     assert new-old == Counter(map(tuple, delta['added'])), 'Unreviewed submission translation'
     assert sum((old & new).values()) == delta['retained_units']
-    return personal, {**following, 'submission_preview': delta}
+    return personal, {**following, 'submission_preview': delta, **reading}
+
+
+def project_submission_reading_translations(current):
+    """Validate the exact 767-occurrence tree before returning the prior 762."""
+    delta = json.loads((ROOT / 'docs/submission-reading-translation-delta.json').read_text())
+    previous = archived_pairs(delta['baseline'])
+    old, new = Counter(previous), Counter(current)
+    assert sum(old.values()) == delta['baseline_units'] == 762
+    assert sum(new.values()) == delta['current_units'] == 767
+    assert old - new == Counter(map(tuple, delta['removed'])), 'Lost or changed reviewed translation'
+    assert new - old == Counter(map(tuple, delta['added'])), 'Unreviewed reading translation'
+    assert sum((old & new).values()) == delta['retained_units'] == 762
+    return previous, delta
 
 
 def main():
