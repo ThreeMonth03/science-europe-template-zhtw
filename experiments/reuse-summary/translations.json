@@ -1,0 +1,14 @@
+{
+  "The project will reuse the complete dataset.": "本計畫將使用完整的既有資料集。",
+  "The project will reuse a subset of the data and document the filtering or selection process.": "本計畫將使用既有資料的子集，並記錄篩選或選取的過程。",
+  "The project will reuse a selected subset of the data and make it available with the research results.": "本計畫將使用既有資料中選定的子集，並與研究結果一併提供。",
+  "The data format needs to be converted before reuse.": "使用前須先轉換資料格式。",
+  "The data can be reused without format conversion.": "資料可直接使用，無須轉換格式。",
+  "The dataset is fixed, so changes to the source data will not affect the reproducibility of the research results.": "此資料集固定不變，因此研究結果的可重現性不會受來源資料變動影響。",
+  "The dataset may change, which could affect the reproducibility of the research results.": "此資料集未來可能變動，進而影響研究結果的可重現性。",
+  "The dataset is freely available for any use.": "此資料集可自由用於任何用途。",
+  "The dataset is freely available provided that the source is cited.": "此資料集可自由使用，但須註明來源。",
+  "Use of this dataset is subject to restrictions, which the project will observe.": "使用此資料集須遵守相關限制，本計畫將依其規定使用。",
+  "Conditions of use.": "使用條件",
+  "Information not provided: the specific conditions of use.": "尚待補充：具體的資料使用條件。"
+}
