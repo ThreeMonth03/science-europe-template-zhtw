@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "preview": false,
+  "source_integrated": true,
+  "release_acceptance": false,
+  "native_integrated_render_checked": false,
+  "global_switch_complete": false,
+  "translation_delta": {
+    "schema_version": 1,
+    "baseline": "71ae7c33323b8b794c3add6f0537dfe86f4dcb7e",
+    "baseline_units": 762,
+    "current_units": 767,
+    "retained_units": 762,
+    "removed": [],
+    "added": [
+      [
+        "Project {index}",
+        "計畫 {index}"
+      ],
+      [
+        "Resource {index}",
+        "資源 {index}"
+      ],
+      [
+        "Software tool {index}",
+        "軟體工具 {index}"
+      ],
+      [
+        "An alternative legal basis was selected.",
+        "本計畫已選擇其他法律依據。"
+      ],
+      [
+        "Project {i}{projectItemNumberReply}",
+        "計畫 {i}{projectItemNumberReply}"
+      ]
+    ],
+    "duplicate_recovery": {
+      "Currency: {projectCostItemCurrencyReply}.": "幣別：{projectCostItemCurrencyReply}",
+      "Information not provided: how this cost will be covered.": "尚待補充：經費來源。"
+    }
+  },
+  "packages": {
+    "english": {
+      "package_sha256": "8a3911517d0968d7af37eb672d4e2a6d3529721587d0d0754042b6ce07970f60",
+      "prepared_source_verified": true,
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "changed_source_files": [
+        "src/macros.html.j2",
+        "src/projects.html.j2",
+        "src/questions/09-ethical-issues.html.j2",
+        "src/questions/12-access-data.html.j2",
+        "src/questions/15-required-resources.html.j2"
+      ],
+      "added_assets": [
+        "src/word/short-tables.lua",
+        "src/word/short-tables.xml"
+      ]
+    },
+    "chinese": {
+      "package_sha256": "5b7e464a0913f1d8a61ab6226cce74defb15322653d04d328ddc88146438a7d3",
+      "prepared_source_verified": true,
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "changed_source_files": [
+        "src/macros.html.j2",
+        "src/projects.html.j2",
+        "src/questions/09-ethical-issues.html.j2",
+        "src/questions/12-access-data.html.j2",
+        "src/questions/15-required-resources.html.j2"
+      ],
+      "added_assets": [
+        "src/word/short-tables.lua",
+        "src/word/short-tables.xml"
+      ]
+    }
+  }
+}

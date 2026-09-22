@@ -1,0 +1,21 @@
+{
+  "english": {
+    "template/assets/src/fonts/PilotTC.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+    "template/assets/src/word/pilot.lua": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+    "template/assets/src/word/preservation-reading.lua": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+    "template/assets/src/word/reference.docx": "c2457e2f6a53e258ab885b387fe6877f02b5184046a8def561ec6503ef53e00d",
+    "template/template.json": "be63adb1e68bc6ff3986601e31876b9692b74b8668e1b5f5fd6885089bda8a7b",
+    "template/assets/src/word/short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002",
+    "template/assets/src/word/short-tables.xml": "56e226a93692c59ad65cadc1ede9863d47623f7297969776e79e63adb17ff6de"
+  },
+  "chinese": {
+    "template/assets/src/fonts/NotoSansTC-Variable.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+    "template/assets/src/fonts/PilotTC.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+    "template/assets/src/word/pilot.lua": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+    "template/assets/src/word/preservation-reading.lua": "33e698d52863d300fb51fed2aa634eb8b238f2b46319d83d1a0725a053710e71",
+    "template/assets/src/word/reference.docx": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae",
+    "template/template.json": "67a1339565267577b53352eb57d38755b2efbf3627da97568fa1d577129e578a",
+    "template/assets/src/word/short-tables.lua": "e32bec49cf702e07e385eaeb32222e01ca59a9fc0a45bd5b1c8c2f541352c002",
+    "template/assets/src/word/short-tables.xml": "56e226a93692c59ad65cadc1ede9863d47623f7297969776e79e63adb17ff6de"
+  }
+}

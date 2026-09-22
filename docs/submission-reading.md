@@ -40,8 +40,12 @@ Q9 的句子切片先存成具名陣列，讓既有中文連句規則生效；Q1
 - 原生驗證必須把乾淨建置的 ZIP 原封不動送進本機 DSW，生成 HTML／PDF／DOCX，
   再檢查 Word 預覽、全文、標點、表格、座標及逐頁影像。演練套件不冒充新版套件。
 
-目前的原生驗證腳本為 `scripts/check_submission_reading_native.py`；具體執行結果
-由後續封存紀錄記載。LibreOffice 預覽不代表 Microsoft Word 跨版本排版驗收。
+原生驗證腳本為 `scripts/check_submission_reading_native.py`。跨日產生日期會改變文件
+內容，因此另以 `prepare_submission_reading_control.py` 複製封存時的原型 ZIP 原檔，
+在同一天重跑基準與新版。不可修改輸出日期、遮罩日期所在整頁或放寬像素檢查。
+已完成[12 組新版原生對照](../reviews/2026-09-22-submission-reading-integration/README.md)：
+新版與同日舊版各 36 份文件、12 份 Word 預覽，全文、Word 組件及逐頁座標／像素
+一致；四張短表完整同頁。LibreOffice 預覽不代表 Microsoft Word 跨版本排版驗收。
 
 ## 後續升級
 
