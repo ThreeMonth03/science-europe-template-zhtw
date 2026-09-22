@@ -1,0 +1,59 @@
+{
+  "status": "prototype",
+  "source_integrated": false,
+  "release_acceptance": false,
+  "baseline_packages": {
+    "english.zip": "f210dcfce3643b83b07ce1bf2b3d9ac5efff11cb7068471e04439c9fe267c39d",
+    "chinese.zip": "86a2e6f2ee5f5c1e3abf714f0061eb29f9c460ff3ee55f15dd0ebe849ec33248"
+  },
+  "source_changes": [
+    "src/layout.css"
+  ],
+  "translation_units": 775,
+  "translation_pairs_unchanged": true,
+  "format_steps_unchanged": true,
+  "checks": {
+    "english": 396,
+    "chinese": 396
+  },
+  "sha256": {
+    "english.zip": "d4c683137c3deb66b15b3390375f91ab4d0405191ba445f7e8c26781c70b46da",
+    "chinese.zip": "a1ce38d67ca8dee0412599dd0421d0ed83a007b00f71e8cd748e737b71609356"
+  },
+  "css_sha256": "11c978d781e49d32f801074188183c271d199d33c7efdce602c8d0d45ab2bbec",
+  "experiment_lock": {
+    "production_source_commit": "2eebf1f783a6017fe25712c1b01c6a708adfedab",
+    "english_recipe_commit": "c875c950353fae1e36fc4df547e856249f9a7b72",
+    "tooling_commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+    "baseline_review": "reviews/2026-09-22-submission-flow-integration",
+    "baseline_review_seal": "517b87d4a07a47037c9a602669147b3fcad5195a3cdbf56acba4ce820851a867",
+    "prototype_only": true
+  },
+  "checkouts": {
+    "english": {
+      "commit": "c875c950353fae1e36fc4df547e856249f9a7b72",
+      "dirty": false
+    },
+    "chinese": {
+      "commit": "b206a74afae7b40798906940d7d8ea1ff357c826",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    }
+  },
+  "recipes": {
+    "english": {
+      "experiments/empty-section-spacing/engine.py": "22f8bbc162113381004678e7e427d21d261949e039b2c596e7dd0fe11f3ef74f",
+      "experiments/empty-section-spacing/README.md": "6ffc2366c4377d1e9c6fc86861d5e9dd82b5c8c0646f79cd47b83ce7f82631fe",
+      "experiments/empty-section-spacing/probe.py": "3f7c54068ef3948ace002817e6f3c0df814b79a1d40ba410b2fc03636605cc21",
+      "experiments/empty-section-spacing/recipe.py": "45f5dcae315ad6f077e2b5f3f11ad2596186bcd8feb28d935a7d08ede0078312"
+    },
+    "chinese": {
+      "experiments/empty-section-spacing/build_prototype.py": "e3b1d8ae1fc447aaa417ef979b5070f48402b65a635e80481a5ad62b54187f8b",
+      "experiments/empty-section-spacing/README.md": "79d5fb858d18dfa0c3e3e7ff8864a8c546f5430a469ba6a32bc58c1917f5f9d8",
+      "experiments/empty-section-spacing/lock.json": "c0c8dc8c337891ac3a3e7613782614d118d244e517062702c01381133dc2f69a"
+    }
+  }
+}

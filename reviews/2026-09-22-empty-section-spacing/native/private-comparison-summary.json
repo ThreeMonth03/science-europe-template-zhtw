@@ -1,0 +1,3726 @@
+{
+  "passed": true,
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "native_ms_word": false,
+  "native_dsw_server": false,
+  "remote_writes": 0,
+  "credentials_used": false,
+  "prior_files_unchanged": 1052,
+  "page_totals": {
+    "pdf": {
+      "before": 151,
+      "after": 149
+    },
+    "word_preview": {
+      "before": 151,
+      "after": 151
+    }
+  },
+  "regressions": [],
+  "rows": [
+    {
+      "case": "EMPTY",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "EMPTY",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-data-collection",
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-ethics-legal",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 2,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-data-collection",
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-ethics-legal",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 5,
+          "after": 5,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 7,
+          "after": 7,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 5,
+          "after": 5,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 12,
+          "after": 12,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 11,
+          "after": 11,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 12,
+          "after": 12,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 11,
+          "after": 11,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 11,
+          "after": 11,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 13,
+          "after": 13,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 11,
+          "after": 11,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 13,
+          "after": 13,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-COMPLETE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-LONG",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 8,
+          "after": 8,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 7,
+          "after": 7,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-LONG",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 7,
+          "after": 6,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-LONG",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 7,
+          "after": 7,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 7,
+          "after": 7,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-LONG",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-OTHER",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": {
+            "before": true,
+            "after": true
+          }
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-PARTIAL",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-PARTIAL",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-PARTIAL",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "eligible_sections": [],
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "SYN-PARTIAL",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "eligible_sections": [
+        "sec-docs-metadata",
+        "sec-storage-backup",
+        "sec-sharing-preservation",
+        "sec-responsibilities-resources"
+      ],
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": false,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "unchanged_geometry_and_pixels": true,
+          "section_boundaries_before": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "section_boundaries_after": [
+            {
+              "section": "sec-data-collection",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-docs-metadata",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-storage-backup",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-ethics-legal",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-sharing-preservation",
+              "heading_kept_with_question": true
+            },
+            {
+              "section": "sec-responsibilities-resources",
+              "heading_kept_with_question": true
+            }
+          ],
+          "q8_boundary": null
+        }
+      },
+      "html_unchanged_except_exact_css": true,
+      "all_text_retained": true,
+      "docx_unchanged_except_core_timestamps": true
+    }
+  ],
+  "private_evidence_seal_sha256": "bc65ed565af8536247f00fb3ecb71adf5dd23e024e26d77afa273a639410520e",
+  "private_evidence_files": 921,
+  "evidence_contains_private_documents": true,
+  "public_summary_is_not_a_replayable_private_fixture": true,
+  "comparator_tests": 14,
+  "checker_sha256": "bed456efd0197cbf3e9a32f56ceec3e3037a4b99778aebf462b5eafaa8fd47c0",
+  "package_sha256": {
+    "english.zip": "d4c683137c3deb66b15b3390375f91ab4d0405191ba445f7e8c26781c70b46da",
+    "chinese.zip": "a1ce38d67ca8dee0412599dd0421d0ed83a007b00f71e8cd748e737b71609356"
+  },
+  "first_comparison_attempt": {
+    "passed": false,
+    "cause": "Comparator assumed numbered Word cover; no template failure",
+    "log_sha256": "306d2cfba911574db987433faf5481124cb3e49c1b0893039964af03de1fd2d1",
+    "checker_sha256": "045ea1e35ed366be6871539f2a29f59d0c67de83093723c092fd63bbf1cc8673"
+  }
+}

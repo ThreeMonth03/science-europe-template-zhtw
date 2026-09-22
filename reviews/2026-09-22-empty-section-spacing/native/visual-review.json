@@ -1,0 +1,24 @@
+{
+  "scope": "Manual inspection of selected candidate pages only",
+  "all_pages_manually_reviewed": false,
+  "native_ms_word": false,
+  "release_acceptance": false,
+  "selected_pages": [
+    {"sample": "SYN-LONG-en-submission", "format": "pdf", "page": 4, "note": "Compact empty middle sections retain all questions. Q8 dataset label and restrictions lead remain together above the page boundary."},
+    {"sample": "SYN-LONG-en-submission", "format": "pdf", "page": 6, "note": "Last page retains authored tables and Q9 through Q15 without an extra tail page. No visible overlap or clipping in this selected view."},
+    {"sample": "EMPTY-en-submission", "format": "pdf", "page": 2, "note": "All fifteen questions fit on one content page; Q15 no longer occupies an otherwise empty tail page. Heading hierarchy and readable body size retained."},
+    {"sample": "EMPTY-zh-Hant-submission", "format": "pdf", "page": 2, "note": "All fifteen original questions remain on the content page, with tighter section gaps and no generated missing-answer notices."},
+    {"sample": "REAL-SNAPSHOT-A-en-submission", "format": "pdf", "page": 2, "note": "Filled section retains its prose, nested dataset label and link. Existing English sentence-quality issues remain out of scope."},
+    {"sample": "REAL-SNAPSHOT-A-zh-Hant-submission", "format": "pdf", "page": 2, "note": "Filled prose, original free text and section/question hierarchy remain visible. Some fixed wording and punctuation spacing still need a separate language review."},
+    {"sample": "SYN-OTHER-en-submission", "format": "pdf", "page": 2, "note": "Authored list, table, original placeholder-like text and answers remain visible; empty sections tighten without shrinking text."},
+    {"sample": "SYN-OTHER-zh-Hant-submission", "format": "pdf", "page": 2, "note": "Authored table/list retained; section 4 heading stays with Q7 at the bottom of this page."},
+    {"sample": "SYN-LONG-zh-Hant-submission", "format": "pdf", "page": 4, "note": "Empty middle sections are compact; Q8 label/lead stays together and the authored table is visible. Long answers continue across pages by design."},
+    {"sample": "SYN-OTHER-en-submission", "format": "word_preview", "page": 2, "note": "LibreOffice preview retains authored table and original text; section 4 stays with Q7. Not a Microsoft Word inspection."},
+    {"sample": "EMPTY-zh-Hant-submission", "format": "word_preview", "page": 2, "note": "Original fifteen questions remain visible on one content page. Word spacing is intentionally unchanged."}
+  ],
+  "open_items": [
+    "Prototype is not yet integrated into production sources or deployed.",
+    "This does not constitute full bilingual language-quality or submission-readiness acceptance.",
+    "Fixed English wording and Chinese sentence flow/punctuation need a separately scoped review; no authored answers were rewritten."
+  ]
+}

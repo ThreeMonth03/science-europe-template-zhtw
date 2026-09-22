@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "github_actions_run": false,
+  "english": {
+    "unit_tests": 250,
+    "tdk_verified": true,
+    "exit_code": 0,
+    "only_declared_requirements_installed": true,
+    "command": "make check PYTHON=/tmp/se-flow-en-check.nQ1FzZ/bin/python DSW_TDK=/tmp/se-flow-en-check.nQ1FzZ/bin/dsw-tdk",
+    "log_sha256": "7031c03e8a5f1fa8e34f3e63d67f4377aca05b29de15f2869db8bd6bd2056a28"
+  },
+  "chinese": {
+    "unit_tests": 458,
+    "exit_code": 0,
+    "command": "python -m unittest discover -s tests -v",
+    "log_sha256": "14fac350673482d15058cdfa8f80d646eb7d9eb9a42c0becda9317c89bbfc693"
+  },
+  "public_worker_engine": {
+    "selector_cases": 63,
+    "render_cases": 28,
+    "exit_code": 0,
+    "log_sha256": "ba78ad0cdf03a8c27d4b9f425df3bb20aa009f4d0c2a87bf4afa4cca844a6435"
+  },
+  "private_comparator": {
+    "tests": 14,
+    "exit_code": 0,
+    "log_sha256": "04554baee82182db9ab254bd041a498209bd5aa0d9c387e1b74af4f1ed846ed8"
+  },
+  "native_run": {
+    "exit_code": 0,
+    "log_sha256": "aeb0bfe0fd3d2a859e5454019a9d3f8005abcac7d9afe3b817d5fc54a6a06967"
+  },
+  "native_comparison": {
+    "exit_code": 0,
+    "log_sha256": "e3a061a43d8312659b546857adfb3dece1305685ccf5390cbba8044530e74da1"
+  },
+  "older_49_workflow_checks_rerun": false,
+  "remote_writes": 0,
+  "credentials_used": false
+}
