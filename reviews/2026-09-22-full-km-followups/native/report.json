@@ -1,0 +1,187 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "output_profile": "submission",
+  "native_word": false,
+  "release_acceptance": false,
+  "renderer": "WeasyPrint in DSW 4.30.2 worker",
+  "checker_sha256": "f4f93d4c62884a35e0017222a272490f1e0baa73944e2ff74606bb006a3667ba",
+  "packages": {
+    "before": {
+      "english": "8a3911517d0968d7af37eb672d4e2a6d3529721587d0d0754042b6ce07970f60",
+      "chinese": "5b7e464a0913f1d8a61ab6226cce74defb15322653d04d328ddc88146438a7d3"
+    },
+    "after": {
+      "english": "129b20d7c335f1f4efeb6fb4c7139c810a65e86b90fd8f1e2ff0dc281dee5179",
+      "chinese": "b296827ed57b4fb095c0518004199c6fc0acc0216afec13638d38eabc7bc8a74"
+    }
+  },
+  "rows": [
+    {
+      "language": "english",
+      "case": "short-identifier-boundary",
+      "height": 920,
+      "before": [
+        {
+          "text": "ARK:",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 1003.9905511811023,
+          "width": 30.3369140625,
+          "height": 20.2724609375
+        },
+        {
+          "text": "ark:/12345/public-synthetic-control",
+          "page": 2,
+          "x": 91.41102362204725,
+          "y": 75.59055118110237,
+          "width": 245.55859375,
+          "height": 20.2724609375
+        }
+      ],
+      "after": [
+        {
+          "text": "ARK:",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 1003.9905511811023,
+          "width": 33.47265625,
+          "height": 20.2724609375
+        },
+        {
+          "text": "ark:/12345/public-synthetic-control",
+          "page": 1,
+          "x": 124.88367987204725,
+          "y": 1003.9905511811023,
+          "width": 245.55859375,
+          "height": 20.2724609375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "language": "english",
+      "case": "authored-list-control",
+      "before": [
+        {
+          "text": "ARK:",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 83.99055118110238,
+          "width": 30.3369140625,
+          "height": 20.2724609375
+        },
+        {
+          "text": "ark:/12345/public-synthetic-control",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 104.99055118110238,
+          "width": 245.55859375,
+          "height": 20.2724609375
+        }
+      ],
+      "after": [
+        {
+          "text": "ARK:",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 83.99055118110238,
+          "width": 30.3369140625,
+          "height": 20.2724609375
+        },
+        {
+          "text": "ark:/12345/public-synthetic-control",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 104.99055118110238,
+          "width": 245.55859375,
+          "height": 20.2724609375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "language": "chinese",
+      "case": "short-identifier-boundary",
+      "height": 920,
+      "before": [
+        {
+          "text": "ARK:",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 1003.9905511811023,
+          "width": 30.3369140625,
+          "height": 20.2724609375
+        },
+        {
+          "text": "ark:/12345/public-synthetic-control",
+          "page": 2,
+          "x": 91.41102362204725,
+          "y": 75.59055118110237,
+          "width": 245.55859375,
+          "height": 20.2724609375
+        }
+      ],
+      "after": [
+        {
+          "text": "ARK:",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 1003.9905511811023,
+          "width": 33.47265625,
+          "height": 20.2724609375
+        },
+        {
+          "text": "ark:/12345/public-synthetic-control",
+          "page": 1,
+          "x": 124.88367987204725,
+          "y": 1003.9905511811023,
+          "width": 245.55859375,
+          "height": 20.2724609375
+        }
+      ],
+      "passed": true
+    },
+    {
+      "language": "chinese",
+      "case": "authored-list-control",
+      "before": [
+        {
+          "text": "ARK:",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 83.99055118110238,
+          "width": 30.3369140625,
+          "height": 20.2724609375
+        },
+        {
+          "text": "ark:/12345/public-synthetic-control",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 104.99055118110238,
+          "width": 245.55859375,
+          "height": 20.2724609375
+        }
+      ],
+      "after": [
+        {
+          "text": "ARK:",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 83.99055118110238,
+          "width": 30.3369140625,
+          "height": 20.2724609375
+        },
+        {
+          "text": "ark:/12345/public-synthetic-control",
+          "page": 1,
+          "x": 91.41102362204725,
+          "y": 104.99055118110238,
+          "width": 245.55859375,
+          "height": 20.2724609375
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,1438 @@
+[
+  {
+    "fact": "project-file-naming",
+    "case": "value-0",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-1",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-2",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-3",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-4",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-None",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-unknown",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-None",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-unknown",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-explicit-other-choice",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-8e886b55-3287-48e7-b353-daf6ab40f7d8",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-c05f27a2-30ac-44fd-9ac9-cd6f62b16d0c",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-d4fe0b55-4aee-4d05-88d4-a3f4cad2cfa9",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-8b13234e-879b-4221-be12-4df24e6de00e",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-9ff389f0-2236-48cf-880c-040ea1bb0d2f",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-8e886b55-3287-48e7-b353-daf6ab40f7d8",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-d4fe0b55-4aee-4d05-88d4-a3f4cad2cfa9",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-9ff389f0-2236-48cf-880c-040ea1bb0d2f",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-1",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-2",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-3",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-4",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-5",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-0",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-1",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-2",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-3",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-4",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-None",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-unknown",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-d5b27482-b598-4b8c-b534-417d4ad27394",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-bdf55011-db06-4f4a-b26f-ebbbe029da04",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-2679736a-800e-4eaa-a70f-818070540c48",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "wrong-type-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "wrong-type-2679736a-800e-4eaa-a70f-818070540c48",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-1",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-2",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-3",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-0",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-1",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-2",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-3",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-4",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-None",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-unknown",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-d5b27482-b598-4b8c-b534-417d4ad27394",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-bdf55011-db06-4f4a-b26f-ebbbe029da04",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-27769a31-717b-4204-8468-175ac93b195a",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "wrong-type-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "wrong-type-27769a31-717b-4204-8468-175ac93b195a",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-1",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-2",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-3",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "case": "both-file-naming-branches-retained",
+    "profile": "review",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-0",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-1",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-2",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-3",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-4",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-None",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-unknown",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-None",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-unknown",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-explicit-other-choice",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-8e886b55-3287-48e7-b353-daf6ab40f7d8",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-c05f27a2-30ac-44fd-9ac9-cd6f62b16d0c",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-d4fe0b55-4aee-4d05-88d4-a3f4cad2cfa9",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-8b13234e-879b-4221-be12-4df24e6de00e",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-9ff389f0-2236-48cf-880c-040ea1bb0d2f",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-8e886b55-3287-48e7-b353-daf6ab40f7d8",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-d4fe0b55-4aee-4d05-88d4-a3f4cad2cfa9",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-9ff389f0-2236-48cf-880c-040ea1bb0d2f",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-1",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-2",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-3",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-4",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-5",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-0",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-1",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-2",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-3",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-4",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-None",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-unknown",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-d5b27482-b598-4b8c-b534-417d4ad27394",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-bdf55011-db06-4f4a-b26f-ebbbe029da04",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-2679736a-800e-4eaa-a70f-818070540c48",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "wrong-type-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "wrong-type-2679736a-800e-4eaa-a70f-818070540c48",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-1",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-2",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-3",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-0",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-1",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-2",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-3",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-4",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-None",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-unknown",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-d5b27482-b598-4b8c-b534-417d4ad27394",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-bdf55011-db06-4f4a-b26f-ebbbe029da04",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-27769a31-717b-4204-8468-175ac93b195a",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "wrong-type-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "wrong-type-27769a31-717b-4204-8468-175ac93b195a",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-1",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-2",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-3",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "case": "both-file-naming-branches-retained",
+    "profile": "submission",
+    "autoescape": false
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-0",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-1",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-2",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-3",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-4",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-None",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-unknown",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-None",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-unknown",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-explicit-other-choice",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-8e886b55-3287-48e7-b353-daf6ab40f7d8",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-c05f27a2-30ac-44fd-9ac9-cd6f62b16d0c",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-d4fe0b55-4aee-4d05-88d4-a3f4cad2cfa9",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-8b13234e-879b-4221-be12-4df24e6de00e",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-9ff389f0-2236-48cf-880c-040ea1bb0d2f",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-8e886b55-3287-48e7-b353-daf6ab40f7d8",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-d4fe0b55-4aee-4d05-88d4-a3f4cad2cfa9",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-9ff389f0-2236-48cf-880c-040ea1bb0d2f",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-1",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-2",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-3",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-4",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-5",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-0",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-1",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-2",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-3",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-4",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-None",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-unknown",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-d5b27482-b598-4b8c-b534-417d4ad27394",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-bdf55011-db06-4f4a-b26f-ebbbe029da04",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-2679736a-800e-4eaa-a70f-818070540c48",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "wrong-type-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "wrong-type-2679736a-800e-4eaa-a70f-818070540c48",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-1",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-2",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-3",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-0",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-1",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-2",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-3",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-4",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-None",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-unknown",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-d5b27482-b598-4b8c-b534-417d4ad27394",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-bdf55011-db06-4f4a-b26f-ebbbe029da04",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-27769a31-717b-4204-8468-175ac93b195a",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "wrong-type-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "wrong-type-27769a31-717b-4204-8468-175ac93b195a",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-1",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-2",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-3",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "case": "both-file-naming-branches-retained",
+    "profile": "review",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-0",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-1",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-2",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-3",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "value-4",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-None",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-unknown",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-None",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-unknown",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "inactive-parent-4-explicit-other-choice",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-b1df3c74-0b1f-4574-81c4-4cc2d780c1af",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-8e886b55-3287-48e7-b353-daf6ab40f7d8",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-c05f27a2-30ac-44fd-9ac9-cd6f62b16d0c",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-d4fe0b55-4aee-4d05-88d4-a3f4cad2cfa9",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-8b13234e-879b-4221-be12-4df24e6de00e",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "filtered-9ff389f0-2236-48cf-880c-040ea1bb0d2f",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-8e886b55-3287-48e7-b353-daf6ab40f7d8",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-d4fe0b55-4aee-4d05-88d4-a3f4cad2cfa9",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "wrong-type-9ff389f0-2236-48cf-880c-040ea1bb0d2f",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-1",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-2",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-3",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-4",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "project-file-naming",
+    "case": "detached-edge-5",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-0",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-1",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-2",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-3",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "value-4",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-None",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-unknown",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-d5b27482-b598-4b8c-b534-417d4ad27394",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-bdf55011-db06-4f4a-b26f-ebbbe029da04",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "filtered-2679736a-800e-4eaa-a70f-818070540c48",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "wrong-type-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "wrong-type-2679736a-800e-4eaa-a70f-818070540c48",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-1",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-2",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-publication-schedule",
+    "case": "detached-edge-3",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-0",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-1",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-2",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-3",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "value-4",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-None",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-unknown",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "inactive-parent-2-explicit-other-choice",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-d5b27482-b598-4b8c-b534-417d4ad27394",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-bdf55011-db06-4f4a-b26f-ebbbe029da04",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "filtered-27769a31-717b-4204-8468-175ac93b195a",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "wrong-type-588ad032-56ba-4d52-b29c-6a5b56aa6569",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "wrong-type-27769a31-717b-4204-8468-175ac93b195a",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-1",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-2",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "fact": "reference-data-maintenance",
+    "case": "detached-edge-3",
+    "profile": "submission",
+    "autoescape": true
+  },
+  {
+    "case": "both-file-naming-branches-retained",
+    "profile": "submission",
+    "autoescape": true
+  }
+]
