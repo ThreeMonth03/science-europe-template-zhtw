@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "preview": false,
+  "source_integrated": true,
+  "release_acceptance": false,
+  "historical_scope": true,
+  "comparison_version": "0.3.46",
+  "native_integrated_render_checked": false,
+  "global_switch_complete": false,
+  "translation_delta": {
+    "baseline": "0b14a4ead11bbd1c2b77888d94639740409fc6f4",
+    "baseline_units": 767,
+    "current_units": 773,
+    "retained_units": 767,
+    "removed": [],
+    "added": [
+      [
+        "File naming conventions:",
+        "檔案命名規則："
+      ],
+      [
+        "Information not provided: how reference data created by the project will be maintained.",
+        "尚待補充：本計畫建立之參考資料的維護方式。"
+      ],
+      [
+        "Information not provided: the agreed file naming conventions.",
+        "尚待補充：已約定的檔案命名規則。"
+      ],
+      [
+        "Information not provided: the publication schedule for reference data created by the project.",
+        "尚待補充：本計畫建立之參考資料的發布時程。"
+      ],
+      [
+        "Maintenance of reference data created by the project:",
+        "本計畫建立之參考資料的維護方式："
+      ],
+      [
+        "Publication schedule for reference data created by the project:",
+        "本計畫建立之參考資料的發布時程："
+      ]
+    ]
+  },
+  "packages": {
+    "english": {
+      "package_sha256": "491d5fe62c4b54aeabb4c202e1eb9cad42046e8e54f99a962cf5fbc83a2a29b7",
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "prepared_source_verified": true,
+      "historical_scope": true,
+      "comparison_version": "0.3.46"
+    },
+    "chinese": {
+      "package_sha256": "becfe300a604db4b117bffc686d5febfbd993e5bfb1f647f2ba3b35ddec433f3",
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "prepared_source_verified": true,
+      "historical_scope": true,
+      "comparison_version": "0.3.46"
+    }
+  },
+  "branch_checks": {
+    "english": 240,
+    "chinese": 240
+  }
+}

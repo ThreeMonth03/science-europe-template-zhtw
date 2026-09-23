@@ -1,0 +1,50 @@
+{
+  "all_inspected_images_match_successful_replay": true,
+  "images": [
+    {
+      "image": "q3-active-pdf.png",
+      "page": 2,
+      "sha256": "13bacbc9eacf052d87e283aad2455cb487e11e40fa340d146aac43c96f4a24a4"
+    },
+    {
+      "image": "q3-active-word.png",
+      "page": 2,
+      "sha256": "4d9f6fb522fadcc325a428429364bd773b0545371d13520b274493f50dd729c2"
+    },
+    {
+      "image": "q3-active-word-tail.png",
+      "page": 3,
+      "sha256": "0d7cf6f5a811a13b670a2f5fce83bc4bc1bb4b57c80343c0e4c0ce7267fb8c4e"
+    },
+    {
+      "image": "q3-gaps-review.png",
+      "page": 2,
+      "sha256": "eb9e7ee99e915b2e4dafc0218096de1a248432dba69b3dc2b749a2c441825664"
+    },
+    {
+      "image": "q3-gaps-submission.png",
+      "page": 2,
+      "sha256": "bd418b3d5cb7bf71bb04c5b5632962ee0163787bfbc1e90a7b46df0b6b0251a7"
+    },
+    {
+      "image": "q3-authored.png",
+      "page": 2,
+      "sha256": "ffd95fbc48d5aed93b4f26dae9fc654ce09a2ac0b3f221ed5ad9ec23cad531e4"
+    },
+    {
+      "image": "q3-english-pdf.png",
+      "page": 2,
+      "sha256": "3aa732d725631809a13f0da55e4bf0309b218ab56954777ec51ac4c0fd9004b2"
+    },
+    {
+      "image": "q3-english-word.png",
+      "page": 2,
+      "sha256": "85cc9276b53e73c5ecad5f97739344d35f353893ee4c75eac63ca66ea3d97eea"
+    },
+    {
+      "image": "real-a-pdf.png",
+      "page": 2,
+      "sha256": "d999d93c9d218cb22dc9a78e0b93f58b558e40298ec64126d8a766882dc68613"
+    }
+  ]
+}

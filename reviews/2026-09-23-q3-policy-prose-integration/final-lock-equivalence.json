@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "full_workflow_rerun_after_chinese_test_fix": false,
+  "effective_workflow_checks_passed": 55,
+  "final_unit_suite_rerun": true,
+  "final_identity_and_content_gate_rerun": true,
+  "prior_manifest_sha256": "5949469672c87fa8e90ee237d73024a0fb555a405dccfc1a27772b06dbbc2b14",
+  "workflow_manifest_sha256": "8ebc53294ca9770e6449b93831d74756eae946243bcf641a2700bc44c97c5f03",
+  "final_manifest_sha256": "d64f9a98766dd3bbf288eb194eb863e9dd2ddfa20b101f699fc9dd7eb5336705",
+  "final_rebuild_manifest_sha256": "d64f9a98766dd3bbf288eb194eb863e9dd2ddfa20b101f699fc9dd7eb5336705",
+  "prior_checkouts": {
+    "english": {
+      "commit": "55422ff6d2744a9b5a93bd83da23cf3c9ce3b805",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    },
+    "translation": {
+      "commit": "cadf7a1e4f0d856434b49e90a636b48a4027572e",
+      "dirty": false
+    }
+  },
+  "workflow_checkouts": {
+    "english": {
+      "commit": "bff774569148d925aa08fd0d5bea85acae24a73d",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    },
+    "translation": {
+      "commit": "5bcbd93cfea8096ac415b483406fa7affca358b6",
+      "dirty": false
+    }
+  },
+  "final_checkouts": {
+    "english": {
+      "commit": "bff774569148d925aa08fd0d5bea85acae24a73d",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    },
+    "translation": {
+      "commit": "3c14f0dfd5ee2af2a1a929afabc03b4f2cd1573c",
+      "dirty": false
+    }
+  },
+  "commit_differences": {
+    "english": [
+      "tests/test_word_empty_section_spacing.py"
+    ],
+    "translation": [
+      "pipeline.yml",
+      "tests/test_word_empty_section_prototype.py"
+    ]
+  },
+  "packages_bitwise_identical_across_six_builds": true,
+  "package_sha256": {
+    "english.zip": "491d5fe62c4b54aeabb4c202e1eb9cad42046e8e54f99a962cf5fbc83a2a29b7",
+    "chinese.zip": "becfe300a604db4b117bffc686d5febfbd993e5bfb1f647f2ba3b35ddec433f3"
+  },
+  "final_ci_sha256": "ce53a4ff1107cc522b79d9585c7f33a1eb2b25437a37e4d29d98a2004aee4b3f",
+  "english_full_check_exit_sha256": "16ef1dbbd9b01501fae326cc18243a1b389d662774a836b45573b05dd83e6532",
+  "native_comparison_sha256": "1ffbd3ed06bcd6a206b047f6256c1d3a12cdde0691611eb2417b025f68169817"
+}

@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "scope": "Local integration equivalence, not full document-quality acceptance",
+  "english_make_check": {
+    "unit_tests": 281,
+    "tdk_verified": true,
+    "child_exit_code": 0,
+    "only_declared_requirements_installed": true,
+    "log_sha256": "3cd751cdcea515e4cce7388d3f45b9ed8b445add391724527eee2fcd35c52057"
+  },
+  "chinese_unit_tests": 481,
+  "chinese_rerun_exit_code": 0,
+  "chinese_rerun_log_sha256": "0ab8714c048221496be665a05b161ba75a1bff96fbae1bc20f1d86ef5cdcc0e7",
+  "effective_workflow_checks_passed": 55,
+  "unchanged_non_unit_commands_passed": 54,
+  "original_full_workflow_passed": false,
+  "full_workflow_rerun_after_chinese_test_fix": false,
+  "final_identity_and_content_gate_rerun": true,
+  "final_lock_equivalence_required": true,
+  "github_ci_run": false,
+  "comparator_tests": 9,
+  "comparator_tests_log_sha256": "68fcc2cf8832b1577e47e66808f89ff92d4b0bf3eed95ce48b3a7e553d29e787",
+  "native_groups": 40,
+  "page_totals": {
+    "pdf": 168,
+    "word_preview": 167
+  },
+  "manually_viewed_pages": 9,
+  "package_bitwise_identical_across_six_builds": true,
+  "translation_file_bytes_unchanged": 775,
+  "initial_failed_english_test": "Old Word prototype test compared raw 0.3.51 sources to 0.3.50 before exact projection",
+  "initial_failure_log_sha256": "a37ba6d743588b707315f33d8fc94d709db703158ea6e24033f8075f7db2f04b",
+  "failed_chinese_test": "Old Word prototype test required current version 0.3.50",
+  "failed_chinese_suite_log_sha256": "b244214f477a042c1a4123052b6f39537f45f28b6954ba5fd4cafb15c684a039",
+  "interrupted_attempts": {
+    "native_first_attempt": {
+      "outer_exit_code": 143,
+      "child_completion_receipt": false,
+      "cause_confirmed": false,
+      "accepted_as_pass": false,
+      "action": "Retain all first-attempt outputs and rerun all 40 groups in a detached session with explicit child status."
+    },
+    "english_make_check_second_attempt": {
+      "outer_exit_code": 143,
+      "log": "/tmp/se-q3-integration-en-check-02.log",
+      "complete_test_summary": false,
+      "cause_confirmed": false,
+      "accepted_as_pass": false,
+      "action": "Run the complete corrected make check again in a detached session with explicit child status."
+    },
+    "workflow_first_attempt": {
+      "outer_exit_code": 143,
+      "completed_commands": 33,
+      "expected_commands": 55,
+      "completed_workflow_report": false,
+      "cause_confirmed": false,
+      "accepted_as_pass": false,
+      "retained_receipt_path_mapping": {
+        "original_prefix": "ci/",
+        "retained_prefix": "ci-interrupted/"
+      },
+      "action": "Retain initial logs in ci-interrupted, stop only the two identified abandoned test containers, and rerun all 55 commands on the final clean locked candidate in a detached session."
+    }
+  },
+  "no_interrupted_attempt_counted_as_pass": true,
+  "credentials_used": false,
+  "remote_writes": 0,
+  "release_acceptance": false,
+  "native_ms_word": false
+}

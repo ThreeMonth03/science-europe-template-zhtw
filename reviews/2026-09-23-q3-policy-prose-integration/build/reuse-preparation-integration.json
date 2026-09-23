@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "source_integrated": true,
+  "release_acceptance": false,
+  "native_integrated_render_checked": false,
+  "version": "0.3.51",
+  "comparison_version": "0.3.49",
+  "historical_scope": true,
+  "baseline_version": "0.3.48",
+  "translation_delta": {
+    "baseline_units": 775,
+    "current_units": 775,
+    "retained_units": 766,
+    "removed_units": 9,
+    "added_units": 9
+  },
+  "packages": {
+    "english": {
+      "package_sha256": "491d5fe62c4b54aeabb4c202e1eb9cad42046e8e54f99a962cf5fbc83a2a29b7",
+      "prepared_source_verified": true,
+      "deterministic_identity_verified": true,
+      "prototype_content_and_assets_identical": true,
+      "added_source_files": [
+        "src/metadata-prose.html.j2"
+      ],
+      "changed_source_files": [
+        "src/questions/03-docs-metadata.html.j2"
+      ]
+    },
+    "chinese": {
+      "package_sha256": "becfe300a604db4b117bffc686d5febfbd993e5bfb1f647f2ba3b35ddec433f3",
+      "prepared_source_verified": true,
+      "deterministic_identity_verified": true,
+      "prototype_content_and_assets_identical": true,
+      "added_source_files": [
+        "src/metadata-prose.html.j2"
+      ],
+      "changed_source_files": [
+        "src/questions/03-docs-metadata.html.j2"
+      ]
+    }
+  },
+  "branch_checks": {
+    "english": 8208,
+    "chinese": 8208
+  },
+  "css_and_word_steps_unchanged": true
+}

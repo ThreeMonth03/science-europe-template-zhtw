@@ -1,0 +1,18 @@
+{
+  "scope": "Manual inspection of nine actual-package pages; not every-page quality acceptance",
+  "manually_viewed_pages": 9,
+  "raster_dpi": 100,
+  "native_ms_word": false,
+  "observations": [
+    {"image": "q3-active-pdf.png", "case": "Q3ACTIVE", "language": "zh-Hant", "profile": "submission", "kind": "pdf", "page": 2, "finding": "Q3 fixed policy reads continuously; all 15 original questions remain, with empty questions compact and no generated notices."},
+    {"image": "q3-active-word.png", "case": "Q3ACTIVE", "language": "zh-Hant", "profile": "submission", "kind": "libreoffice", "page": 2, "finding": "Joined Q3 text retained. Existing large Chinese line spacing remains, unlike the denser PDF."},
+    {"image": "q3-active-word-tail.png", "case": "Q3ACTIVE", "language": "zh-Hant", "profile": "submission", "kind": "libreoffice", "page": 3, "finding": "Existing mostly empty final page containing section 6 remains. This is not fixed or accepted as final submission quality."},
+    {"image": "q3-gaps-review.png", "case": "Q3GAPS", "language": "zh-Hant", "profile": "review", "kind": "pdf", "page": 2, "finding": "Dictionary and publication follow-up notices retained between filled facts; no merging across notices."},
+    {"image": "q3-gaps-submission.png", "case": "Q3GAPS", "language": "zh-Hant", "profile": "submission", "kind": "pdf", "page": 2, "finding": "Filled standards, keywords, provenance and open metadata survive. Generated missing-field notices absent, original questions retained."},
+    {"image": "q3-authored.png", "case": "Q3AUTHORED", "language": "zh-Hant", "profile": "submission", "kind": "pdf", "page": 2, "finding": "Authored text, mixed-language lines, bold file name, link and two list items retain their distinct structure."},
+    {"image": "q3-english-pdf.png", "case": "Q3ACTIVE", "language": "en", "profile": "submission", "kind": "pdf", "page": 2, "finding": "English question/answer flow has no visible clipping. English output is required to be unchanged by independent exact comparisons."},
+    {"image": "q3-english-word.png", "case": "Q3ACTIVE", "language": "en", "profile": "submission", "kind": "libreoffice", "page": 2, "finding": "All six sections fit this page; English fixed policy, headings and question labels remain readable."},
+    {"image": "real-a-pdf.png", "case": "REAL-SNAPSHOT-A", "language": "zh-Hant", "profile": "submission", "kind": "pdf", "page": 2, "finding": "Authored file-naming content and adjacent fixed policy retained. No new visible clipping or orphan Q4 heading on the inspected page."}
+  ],
+  "limits": ["Existing Chinese Word line spacing and sparse final pages remain a separate task.", "Chinese wording and fullwidth punctuation glyph widths unchanged.", "No Microsoft Word application inspection; no live DSW server render."]
+}

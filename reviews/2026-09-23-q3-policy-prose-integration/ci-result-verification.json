@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "effective_workflow_checks_passed": 55,
+  "unchanged_non_unit_commands_passed": 54,
+  "original_workflow_passed": false,
+  "original_driver_exit_code": 1,
+  "completed_driver_report_sha256": "ce53a4ff1107cc522b79d9585c7f33a1eb2b25437a37e4d29d98a2004aee4b3f",
+  "entire_chinese_unit_suite_rerun": true,
+  "chinese_unit_tests": 481,
+  "chinese_rerun_exit_code": 0,
+  "chinese_rerun_log_sha256": "0ab8714c048221496be665a05b161ba75a1bff96fbae1bc20f1d86ef5cdcc0e7",
+  "full_workflow_rerun_after_chinese_test_fix": false,
+  "final_package_equivalence_required": true,
+  "explanation": "Original workflow failure is retained. The sole failed old-version test was corrected, then the entire 481-test Chinese suite was rerun. All 54 other commands succeeded; a separate exact tests-only diff and package-equivalence proof binds them to the final candidate."
+}

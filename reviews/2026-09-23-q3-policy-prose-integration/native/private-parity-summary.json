@@ -1,0 +1,1360 @@
+{
+  "passed": true,
+  "scope": "Native integration equivalence to accepted prototype",
+  "release_acceptance": false,
+  "native_ms_word": false,
+  "native_dsw_server": false,
+  "remote_writes": 0,
+  "credentials_used": false,
+  "prior_files_unchanged": 1345,
+  "page_totals": {
+    "pdf": 168,
+    "word_preview": 167
+  },
+  "rows": [
+    {
+      "case": "EMPTY",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "efa5016db8795254bcfd5da14443055cadbc1a5981087049502975d8394987fb",
+            "a97eb086f0ab674106bb27410974c440f730c55c46acf8046dc5303acd0b5d9e",
+            "ee44b4884b7ce8e064760fff924480ca2fe8994cda98dd13ad607fe84ff9c772",
+            "d2fec5b76475dd75afda4d618723f7f004e7ca74f61f6ff6d79dc9ef85f01c3d"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "9c9e4f4f8a90bbd011d0352da5418fe646a5adee6486e4bca1de4940d1f347bf",
+            "a415a34595f5cfb8761789e2caad5392946933c2afaa7f3fa3ef769592f88276",
+            "9452b25e8a4d73800f69bbaa64817a552cfdfcbb6750736bedfc8e0a9b188141"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "EMPTY",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 15,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "ac943d0a673cbc42b9018fd744e98d6a92ac4201047d36dd1bf1de12b6fbaa19",
+            "5256464f28e1916db3ba24126d963895b1000aa75c53b91d3b5a8c21f03df161"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "5eb2b207562c5bcfb14664a874823ededa641bff47e0f7b72c3ce91d1207c836",
+            "d1e390005f2becadf5a968f09897f2414e91bbfbcced8c55e65ed34ef4d22b00"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "246c600edbffb29781982e13b8bb27675bacd674890bcfa97261f1d916674aa7",
+            "0dfc326d4a27eda4d07b48581eaeaa40baa643ded80b93f15df635b06a2016b2",
+            "a8dc3edd76fa531d71361995aed226651876768354a8993473a56ce4015a457d"
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "2b02b213bfdb7a9302029ba454f27d8e06e2d58c8327bf5d764d7c6bbe8c350a",
+            "da3c42c473ed0fe215eb3eeb72d9feb0205df4dbad5e1cc3d675311a0cc4e738",
+            "d51ffbf8092793203024fcc3be951ce7dfa7c4784f6958602a64f1d4978062bd",
+            "ccab7a9a9f37a48c1d9bd8440357f23e3837e07742822fe0ef6e18740327856a"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 15,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "2517bbbf1437f0d38e7a2e04127136463592970e7dbfc3804a305effd25f0f1d",
+            "ab065e52c302803cb00fcbb9a29658d695fceb460750badb5c3535dc4225d24f"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "0b6e04c0324be6881c4b2ae87700bdabdaee371f770d493dcf5e6f4e72c38856",
+            "e1f47513a435273a152d1de0d4a97f19505afeefbf9265c89dc8409b763a0885"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "LONG",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "efa5016db8795254bcfd5da14443055cadbc1a5981087049502975d8394987fb",
+            "ae3a3ee7d8d7639aa93fb0b96d037ca7b6c98c8b7d4d95eeae1edbe0d8fdc1ae",
+            "9a8d46dfbb53116c8b830c22e09ce3cb6204193c54c6b4e5f5aa32b2912efd78",
+            "1243e213f6aeacdfcebad9b8fbc17dc0b3e20e9b1151542c286e8d71fe31501c"
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "9c9e4f4f8a90bbd011d0352da5418fe646a5adee6486e4bca1de4940d1f347bf",
+            "d8f530d8ba8104a2b40cb3d626f6ff610c09db0eb17e7544cb1b1d0527ac3eef",
+            "7079808dcb86fcc30a04bb683cf089f59a2c9dbe73eb00cbf87278503d69e0dc",
+            "30ffb9e6e512b426bd64a21b3c482f8761b12c1963e5cf9df6c6f1f85598fd40"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "LONG",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "03809b11d48553a84366f8a9fcf4ae6b07944d0f6d2e8176fd50b21dd0e76710",
+            "a26c7a0fb9ec6b8b1c9a3fcea05a9fddc8fd2531a5fac8a8ca77f940f44fc091",
+            "fa4a8cbd062d64a2e8fab3f092bc7d2c26f38c6c646fb91a47578a624826ee8f"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "5eb2b207562c5bcfb14664a874823ededa641bff47e0f7b72c3ce91d1207c836",
+            "297a20e56eb1e185ad0fc5c66d83414657cb4b4a642ebcbdbbd49b14304144d8",
+            "56b4bc238d801ec853fb2db5cb09adc23e103e222ff8a7f5da4887faf968e98d"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "LONG",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "45551a3b495e2489f71e612d5af4eed3741cb91a0098e0182eb0e216526a1eb5",
+            "2de147291030031907d52996ceaf7bf4b3d0d3831a9a142d482fe0b7337ea5b6",
+            "3d2d7eccfa00be66a4226340517c9d294f5c577d3973318e190ccdb24f48f28a",
+            "ff1b0bf4adb5bca68a596c133d89a312082b73ed0b047959b128f2af22b9eb3f"
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "2b02b213bfdb7a9302029ba454f27d8e06e2d58c8327bf5d764d7c6bbe8c350a",
+            "57b3e2f6b21dc7c1fed02c4d7ab887dda3007e1a0351454185e288d1ec1f5f5b",
+            "6cb3500d2014cec7384e991a9ff95bc88e71336e4d170f9fd88c3b6692471742",
+            "92e51d198ba58b5b92264b18b97958af7d096922e423fb29a613afd69c06a9a3"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "LONG",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "65e1c4a720516fc18f04e9383c0b7c3005a0038a4cc5cd077249fd06477e6fcf",
+            "17608596536c635cc7544c0da6b63390ede41d138db1741b276b4a724c524c60",
+            "c2224f52e2efc7f2d4966acbf6ad161f83a996123c162c38a35a655b8f7f93bd"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "0b6e04c0324be6881c4b2ae87700bdabdaee371f770d493dcf5e6f4e72c38856",
+            "c5b5b1238a17639931d7aefa6e16b4f81f3ba2a365a1dbcaa4e9a46c59968dec",
+            "601d6b19e14079853c7e1dc308313de27b2b420338ce998e0d360a929539414a"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "MISSING",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "efa5016db8795254bcfd5da14443055cadbc1a5981087049502975d8394987fb",
+            "3bac83921ec467a383636237fed7e11d4c5e637f4c8b430fbaeda126b7dfcb57",
+            "021b2b3124ccef29a77a995c2d25f9a3bb6ce4a3e4b58c1a8d7285812626f6ab",
+            "b683fc0057ee78dd5238f70bf5203399df4c7c2e5b31fd95bb054bef17454d78"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "9c9e4f4f8a90bbd011d0352da5418fe646a5adee6486e4bca1de4940d1f347bf",
+            "b6728c16a08109383226acbd705947f1778cf0d622f20d100d1984dd9fdb2fb2",
+            "68f910283e203ede65e0bd1f8d466428dbf6200ad1968dd52b0b1a3268442961"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "MISSING",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "03809b11d48553a84366f8a9fcf4ae6b07944d0f6d2e8176fd50b21dd0e76710",
+            "7853b8ffd6dbb21f6cc55cabb791544b7fa39f527e56af2a9bd07a830a5c4ca3",
+            "0bf1b007b5724d7340035a5b2401b6b8a318c842752f07d4bdd4dd3306a1c155"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "5eb2b207562c5bcfb14664a874823ededa641bff47e0f7b72c3ce91d1207c836",
+            "8c0f9b7462c4d8ebfc4686843a638264e1017d14fd63c3e8776bc44a2d6d2a3a"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "MISSING",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "246c600edbffb29781982e13b8bb27675bacd674890bcfa97261f1d916674aa7",
+            "c5649c00d3f05f164cd96882049e8a5b2a97f833736fd18a61b24318e40f1059",
+            "a8dc3edd76fa531d71361995aed226651876768354a8993473a56ce4015a457d"
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "2b02b213bfdb7a9302029ba454f27d8e06e2d58c8327bf5d764d7c6bbe8c350a",
+            "a71f6be216e652fb641f6cc61e07288fee27cd1cc1b85fe956b774636c1228ea",
+            "d51ffbf8092793203024fcc3be951ce7dfa7c4784f6958602a64f1d4978062bd",
+            "ccab7a9a9f37a48c1d9bd8440357f23e3837e07742822fe0ef6e18740327856a"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "MISSING",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "2517bbbf1437f0d38e7a2e04127136463592970e7dbfc3804a305effd25f0f1d",
+            "3a6efa2d60f415faa6b86335aa22f8c0f1e793758c12665e722f60520e5b309b"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "0b6e04c0324be6881c4b2ae87700bdabdaee371f770d493dcf5e6f4e72c38856",
+            "b7b602971dee52f67ed76674e98d8d4e6b46c8acc4f3f20b5edc8b746d2e3679"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "efa5016db8795254bcfd5da14443055cadbc1a5981087049502975d8394987fb",
+            "e4bcacb78b84da08e205451cbb4892c56bd9ce74b3b921a1080feab47e51415b",
+            "021b2b3124ccef29a77a995c2d25f9a3bb6ce4a3e4b58c1a8d7285812626f6ab",
+            "b683fc0057ee78dd5238f70bf5203399df4c7c2e5b31fd95bb054bef17454d78"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "9c9e4f4f8a90bbd011d0352da5418fe646a5adee6486e4bca1de4940d1f347bf",
+            "b927eceafece0ff05d1775be1476f5ec5fef4b20414b66941614b6e0538333fd",
+            "68f910283e203ede65e0bd1f8d466428dbf6200ad1968dd52b0b1a3268442961"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "03809b11d48553a84366f8a9fcf4ae6b07944d0f6d2e8176fd50b21dd0e76710",
+            "8ba728d19eb4d961af8bcc6ca42cf3a9cfdc8b0c5ec16a54078b842247c704b5",
+            "528e814aa639fff2d8a0f82297d7733280d4cdf021122af83777830c92fda6a4"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "5eb2b207562c5bcfb14664a874823ededa641bff47e0f7b72c3ce91d1207c836",
+            "09fcee503c4cb3621e480843ea9bb536528aa305e0455a53f88c0141d92a7877"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "246c600edbffb29781982e13b8bb27675bacd674890bcfa97261f1d916674aa7",
+            "f447a576a874ffaa21586de728029af02d211776f9225bcf4488b9b2b05aaedf",
+            "a8dc3edd76fa531d71361995aed226651876768354a8993473a56ce4015a457d"
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "2b02b213bfdb7a9302029ba454f27d8e06e2d58c8327bf5d764d7c6bbe8c350a",
+            "7c2d854560093c59dee90c1a8444e0a8ce52943c418161b208d2fafe0cb28f87",
+            "d51ffbf8092793203024fcc3be951ce7dfa7c4784f6958602a64f1d4978062bd",
+            "ccab7a9a9f37a48c1d9bd8440357f23e3837e07742822fe0ef6e18740327856a"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "2517bbbf1437f0d38e7a2e04127136463592970e7dbfc3804a305effd25f0f1d",
+            "ab7eb727aa82a988468d892c2ed9bc125bba3997e404968b18192624852a09eb"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "0b6e04c0324be6881c4b2ae87700bdabdaee371f770d493dcf5e6f4e72c38856",
+            "e72d88f76a6939fcf2c7879f58117d0e8081103deabc1f0e5247242321cd933a"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "ca8ac1c8a2751a951e4c9af80c4bf9d7513602b8d97763cde97b5f193319f046",
+            "4d797f6d0e41c5efb5bf8159e9d8fe45f57e1eb1da51d3e206c1600b13fc280d",
+            "354416aaca196c0d0d761dada17f41b417f83fc32a54996e598abaab0744c7ec",
+            "58d2a8a55381d90a96b1b70c7226e2da3e8244a572f04e222e0efb5c3037cd56",
+            "eabe265d8e1e37f74d6574310f2fdccd1410f799a2cce296400b9bd8045ef3bc",
+            "afae880322502aef412ae73fe32fc13c427a4c8ab80e27453e9156b0795c1c0e"
+          ]
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "fc89209fa6f0b8ba2827bb646e19e67b73e5def9e6c4ec0c91bacec9fe2605db",
+            "7c68aee8032aaa117869737f343a87a30e4af237fb9ece1ae77c78b064f1ee40",
+            "97d7188fa738738a0551c73301e9bb7acbefa4d4b5afceda35fdcbe26682adb7",
+            "ecc430f10e31c82a57b9c398d030f8c0ad7e8f0a6ed71c0b9c8bcec60c716df4",
+            "b5926c93b2c695d0b9d0d64ed34377f87c4f20b3f2538bb3c16d4f72d523ca8b",
+            "02693ead1a135d856059a569ac4d48fcb5a273d5eb5d04f394859ff1c1a426c6"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 1,
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "b619b96a272069d795477afa35069aab2d566b6cf922a50555c40a07cfbd3963",
+            "76fc93da8bd50779da03e549a599bb4d6ba18f5de6c057173538b5c47fdcfc0e",
+            "16899d4f5194ed0b783cf0826d616edb409a891482dffde03879789928598d12",
+            "b631184e4da60f4a88adeb6a9d1215f08d86a05ed381ec4f9149436020d2f5f5",
+            "04e9e0e7376d7edd2aabfd3ca565575411f4ef6e74ec63b4b5b69ea852b92a75",
+            "64c0e88243e0c8417c12f00e7fc3a96ec7fa8c74b7b087223e5817d569fddee8"
+          ]
+        },
+        "word_preview": {
+          "before": 5,
+          "after": 5,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "5c9e565f7b1330bda66829791136383ce9527b1f7027f293f670948c85f36ad1",
+            "db3e1ba6e4af08e07afa022ccdaf8daffb064167bbcac976cfa21e8186151025",
+            "fdf5ea81fcf62483335769990bd928027c19e797656f9d4c2381c846b38f6634",
+            "ea6e6629f7e64bf6998b488a8bb81377dbdd47ab04d378d72791662488cb6d23",
+            "46a143bc598bfaed91d393fc480bdf80765803d5d02313cb13b3d0dbccd5b6c5"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "4eba045ad9328d3ebfc24b5225500c948b311959e77a13c8337e48c3f2349933",
+            "bb8360c38b6a6934d065712f22c4e90b2b4afed87b4b193c208950d0cd8d7407",
+            "34e0418bc010836f8a6714e888d3957551e620af2ab0c34461ff1c5b8e517d97",
+            "6521badb9ad067ff941dbb7db98c16f91288fc58f074ec1d273cb830223d1c20",
+            "f50e8fd7e4d9489345f99878c071c98bb446687de9ee698985ab1da05f51608b",
+            "2a8947efa89cb016f7a383809badb117b83f49d9ed00057183b683df06821f05"
+          ]
+        },
+        "word_preview": {
+          "before": 7,
+          "after": 7,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "4ff89b64be7b2fe54e666efae2cbd3cf30faa70b8a8b6cf126752b7053831ffb",
+            "f7e0c7c5f1c421e4d9cd5f13f205df146ba2d51013be2fe921e049b0ff55e7e1",
+            "0dd9e444fb9304d2f90f6e351fdd7d1dd2aaad7c55e94f4e8ce2e380a882b19a",
+            "24d3384f2ae3750bb21e5823936057ac9fc5d3a29651e8f2a03142802c454179",
+            "a165430e96b8e29b2b0779b2facef1c79c954f80eb277c14b1dfdf040933cd47",
+            "1ec2700246dd17abf2ae2c2275763fd6e46e432d058306c771cef53aab4265b7",
+            "291fa555b4465b67331ee5ddf38d7e886aa7eadb89db431d9b94961e0de9e328"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 1,
+      "pages": {
+        "pdf": {
+          "before": 5,
+          "after": 5,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "8e9d8161ecd3ac0d25547905f9e138aed9f4eeb059e94abc9459928311f1c7a2",
+            "0d4c7e37493c06f236c4d7c99263ab4c4754b1aebec16eb9b5880c4a8f00dc9e",
+            "2e949bd7b4cacb36c16dd5870de1d50f9fa150c1f423138ccdb4b786c77b9ace",
+            "599b2cf5ff38b609348eb780cd42c0045686f740733a6ed8133d280733ad1bdf",
+            "25c67a0416c7a97b79dcbb0aba06aeb6768d1dcff2ffd0866beed2c47460e22c"
+          ]
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "c2e4fdaaddf4263a4e5ba1d1a45be8ce264f8f1578a0dce10f96300377780220",
+            "59f3be342fb3893876f18dfd49a96c4050ffe1794b3d3f6d0f8f65669725bc36",
+            "d05512069e6bcfdee3756aab85e62bb00f4ad3337bb4fa87d7db6a5f1cd7b7a5",
+            "028c08065609d7d541afd4b0d368d7d459a61b6fd6696b3ec0101d84a750ecf9",
+            "4ef25fc5227f5e4af33cfc2d891cda6abd921f802757b8ed7eba0b94d5ff7215",
+            "78c3d4e4adef260acade5a50b12a21c52a4c3e1af26675744fdef09e5398e6e2"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 12,
+          "after": 12,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "455471d60a46f6a0fc733350079be7c8c6a00f1904261514a5f4761b36345d79",
+            "2cee6979fe7950a48adadcef76f1fcbbb0e9f055d5c115490fbcb3c40682ace7",
+            "b3efa89a0ffe1ffb22f23e41d63b09d5580cd2c684720370124192937eda42f8",
+            "af201123a1d28b8014b6497a31627c0247614b2988f295c3a64ea243c6f77d97",
+            "7a0bfa37cfbe723d018c9f26ae11d634edd5622a5b35be05e8cad9e24b8329b8",
+            "efa5c8bbd83b2cd3ff352409d05fe5fa2907f5c4ab95e9a8c4926233fe765931",
+            "22fe5eabd0c785443868faf9e90a8510b04ef244148a26573b2231423785b992",
+            "ba6b0ddb1c2d36c93f0b84e046d8df648c9c99f383fb65afb47b5f60dce3adbe",
+            "faa35bb0fa06c43400f5b56eb7ad5e1918f5e4342561128fe977314ac44f465b",
+            "fef0138b543a0b4b25b766b78e86ba8cf6a3fcf84edbbdc7480b0284d3fdd4a8",
+            "02b5a5a57bdd7112cbb13ece320a73e800d13224e5fcebe0e5eaa8698161709f",
+            "43720857140ac589adac7b66d341991a21104578089ec5497eae8df12544e95d"
+          ]
+        },
+        "word_preview": {
+          "before": 11,
+          "after": 11,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "347db0591cda64f261ffe31f1e2a673c1fea448db23d963e3222ca65e71b29d1",
+            "4f6057a3071958b4bed19160566a5b4f58eaf117179f0bf0a29e1a2038ee0ce1",
+            "4609f2927365cb6933f246a74cc9547d3186ded42aef9207d853e2e9b977518d",
+            "d233bddb68b0a8b268f7cc4e6f72a9ad777174c7d2e36651252a72a619a1fce5",
+            "a877da8c9e4b445d48ab7cafbb3a13eb2693248b2782fda14ae11afafd0ad440",
+            "0aafea34e1b2e513d3b9b4e81f503e37f60f4c9e3b96326a8ba48ba9ae4a5111",
+            "210d8d27cb9fba9e1294d6b69385a2b82a8c871e3b5e5e693db9c3f0e9b957e4",
+            "54c424f2bfb083a74bdf31f075149232c833f0839b946052bbd67a9f3ba2533e",
+            "9179e3529afb37676cf97ea63c8a5924d6cc968466668d45bc47f45b1bd82d6e",
+            "eb8c2d05dd68453e1bf32b134bff210387b5c1f6fef655f37198bb56b34f2609",
+            "b442a7bb8e29b8bc8c32ae4c5fdcb944de52c557ab3e1c7f61aa6b7e40f80b05"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 12,
+          "after": 12,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "5d75c1980a1d6e0486eed18d51a3c1e77218cbe117922d28a01b98bea612da81",
+            "2cee6979fe7950a48adadcef76f1fcbbb0e9f055d5c115490fbcb3c40682ace7",
+            "b3efa89a0ffe1ffb22f23e41d63b09d5580cd2c684720370124192937eda42f8",
+            "589079c909ecc3262322d42f96ec05d014bbb438b5e3801a499485976a1c1e9d",
+            "e7e34b131cf2b10d8fceac384298139ef702ab369be9f90a908832f6d739d825",
+            "efa5c8bbd83b2cd3ff352409d05fe5fa2907f5c4ab95e9a8c4926233fe765931",
+            "22fe5eabd0c785443868faf9e90a8510b04ef244148a26573b2231423785b992",
+            "ba6b0ddb1c2d36c93f0b84e046d8df648c9c99f383fb65afb47b5f60dce3adbe",
+            "faa35bb0fa06c43400f5b56eb7ad5e1918f5e4342561128fe977314ac44f465b",
+            "4e7046d93690242961ae11c070311e2d38c1f8a2b334b74d4301543b70bf1289",
+            "4845b80a951acbd83691976194c993c832dceb366f8956c33cce8de66b67194f",
+            "4b2b3b4b279dd080d850007cd3a1d2092d197867bc5506e7093fff622331a6ac"
+          ]
+        },
+        "word_preview": {
+          "before": 11,
+          "after": 11,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "6ad8f4e8bbf073d23bc4a68829c32bc0fee56b2ea0cdd1963892eda6ca3f50e9",
+            "4f6057a3071958b4bed19160566a5b4f58eaf117179f0bf0a29e1a2038ee0ce1",
+            "4609f2927365cb6933f246a74cc9547d3186ded42aef9207d853e2e9b977518d",
+            "69f403114df56294d0cf75f49a9ec916915f527080def0818c7cdeef8996f5bb",
+            "d150450543f0d0622e65bf3228130e9cc22abe293f5fce87c24ecdd7ae364068",
+            "3cd06adcbe83318b228674b52ef66a74b55a5ffab73ab5f90e5d23ea03d81080",
+            "9aee6d4dc7f45611112c50dcb4e4f7dc863e3e519bafd7f5ccf647c1b3053eee",
+            "c6cf1a6c83052724ce5cc73fd276d0e4ff1f4e71532cce9a1499e49ec92efe92",
+            "2ead7b1d8b4373c478abf4e54f0b09df14c9473fd6374ef95f4f92d5da27ed5a",
+            "724626744ad59429fcbe73b55ce47a1a5b21188256a741a9ca3216cd33c5a2f8",
+            "688c9c32d605b3dcc9a1f4e96f36dc3a30c2266498ae2df2e754c81a594c2167"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 11,
+          "after": 11,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "31984df047ad2baef08a96800841541305649e29ef3c96b98bd72c8ede2d3c0c",
+            "5a79b0b1ef6aec45b3f5d590ff832a99ef5331be4114855784573372a3a8d849",
+            "268c7800e31cdf822535f3fe1166dda4ac8ad9ce001bf1814c41c5b4fc413224",
+            "9f346c92800a8861db7e31cd87271f7f25dcffbd16829e60ba0ae43ee1432906",
+            "7d4e9b90bcc81bb772f27a384526a4102d0ce10ca68141f94813b7cbfa47c655",
+            "d75ab91f4c8f39e672b5937f9d4cc5450a52660940475b9dc208c763de30f58b",
+            "e33dbbf200e8894b2a8e32f2136ca8a4aeab1944126f14d0c5bdc4f57d5e5064",
+            "94143f5fd44582ad43a888ad71fb29931a69191490df588235366974783e50dd",
+            "33982ee54311e1412160f2ff9fe5f30dc72e4046ed4075bcabd174ad16f0d5ab",
+            "9bbb74933c855a88b626ce159fb07e50c94c79a0d694ea35ab98e71b3851b163",
+            "d19c58a31af7ab91222fd840b23dca677e2498f12397857fe29dc95eeb01b204"
+          ]
+        },
+        "word_preview": {
+          "before": 13,
+          "after": 13,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "9b1962a0f8fa055e465a0b9d76e4f1e255f6c57f4735cf3c308663032d12552f",
+            "99cd02050ea2bd08e0c04cfa0867527f048091960b70a3beff75cbc0f51e49f7",
+            "d0002a6c48bf1f550dc934739521abe44596f44581102e10dbbde102c19653bc",
+            "dd5e29814f4fa82ae93a0649c93214069397f51f24c56609b57c436b085ef9f7",
+            "e4ee0fe01e94780b36318cb00499cc81c2193e9206906d5814891734cb742763",
+            "7f68066078de63a13a770b51e049ecdef9669a85df8be2bbdc65e9dd402bd450",
+            "bf186cd4b5d03dac7a488834f46bef94b8769d81297ed11f67ab5cd7ff2d164a",
+            "b0f31d050a05662a70135108950b4ee13c022d441762190546a951dcf6724f40",
+            "180f355d958ffe6eebfa3c4772b89a6879bcace05e1224ef10c4a49280a94252",
+            "66e4afd73f0e0d2fd44101f0928377371955394ffa40dce7071fdb0e87fb300f",
+            "5a453f646a626d1476488ebd4271c109f3317368acd74343f315ef4864b9756d",
+            "29d1e0fe939250c686d83ad1a5850df55822f2116b6cb5821b8e2c0d99d4f4b0",
+            "1adadacb055f11d9b1e4b74e3f068429b026aa846746a5802f302e8cb12f8228"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 11,
+          "after": 11,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "8aa1ff173721f750155f3fd620e92964119aa7d3274f0c0d76b22c3d4ed9a658",
+            "56bef07a46b1cc539dd36cb672bdbc5cc59a538e1b07fe556c4e2e73e6624380",
+            "ac786bd8b93a95524722810078aaddea347bfc4e932d693c4a9ecdbff6a6aa81",
+            "2cfffbdd0653e4ae547b4818559198a94f2c064d355780f3e0919ff756fff5ec",
+            "59f4456f92266212c9b5ac15f579ce24ca5d9436996412a9501972f0eba3e593",
+            "da50e4679b5b25070ca5b09ea359db2ed7de9055239e392597a5e0a901d8e73d",
+            "07598eaab9114fc0bf6eca6ef2137d357cb3de8315e1bf52efcb0e8ed6b6a60e",
+            "6447215fa776c08c726182deeec373d7511bf507c2166b638cff919a9276ba32",
+            "b8d81959f4defaf065f4edf19cbea188834e8e294c30da2cdae0320163d9d5a8",
+            "b5d0f1dd386d6ae9755cf52385b5ec431c2b3a663eb2210d1cbc5d8f099e0118",
+            "9c066d8dea0df11e74d62051c686558489ba65c064d4cc29a4224fc819851688"
+          ]
+        },
+        "word_preview": {
+          "before": 13,
+          "after": 13,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "f8714fc3a5de82d05e509bce1156fd18715b0a7c202658bbbf8d61b67b40056e",
+            "99cd02050ea2bd08e0c04cfa0867527f048091960b70a3beff75cbc0f51e49f7",
+            "d0002a6c48bf1f550dc934739521abe44596f44581102e10dbbde102c19653bc",
+            "d89269a73cee999b1a810ce1987c179a22bd84181c98606f3c607140445760f8",
+            "72ffbe421a9f6f66b3f95f3ae5c48889c02ef2d476fe6b9dd7e7a922118eb163",
+            "8704f383d65184fd5b2a87e31be06ccc40f12ab77041887e30a65eaf7f897885",
+            "63f3a6dd63c52222c9a2f25d0e0a2968f6a8ee9e40feda75d7f50fdf0921e2b7",
+            "21a56530fe2725cb3aec54cb9ab03d7919fa8fe6b574a73dd68a51ade0e30748",
+            "5d260abb4f5a608c8a5d990c2fc3b140b8d955687fa300a367993e161cd473cb",
+            "ae8730ccb1e0c1fa1a0b70f27ac1930f87247d8d936e941efd02711087083a0c",
+            "2a639e78ad2d78995b91bb6ca8c6adaad1b8492a6f8b3f33ccbbd5134b547b75",
+            "9bf394958199f3b35f1d8e15ce8bb17dcece46d97e2f73c02afb1fddb876c626",
+            "d9d47efb7c349d2de605e5ee2ae5b4d53df81663014e8ecc0ca777c7a9d3e2b0"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "efa5016db8795254bcfd5da14443055cadbc1a5981087049502975d8394987fb",
+            "932a2b7684d9d36217e788bfa5f55cc679651608b588d4988dad809c20d2c733",
+            "021b2b3124ccef29a77a995c2d25f9a3bb6ce4a3e4b58c1a8d7285812626f6ab",
+            "b683fc0057ee78dd5238f70bf5203399df4c7c2e5b31fd95bb054bef17454d78"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "9c9e4f4f8a90bbd011d0352da5418fe646a5adee6486e4bca1de4940d1f347bf",
+            "97d201d52d1566314b577b5880eb70ae25ccf9ec07e93257c025ffb900da0a2b",
+            "9ca3e3bf3458ee4aad60d59a15281c11cd2e31cd73b7366f79f15ffdf4d2fb05"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "03809b11d48553a84366f8a9fcf4ae6b07944d0f6d2e8176fd50b21dd0e76710",
+            "186eb03be80174a78cb9e8861a169791bde6bc997dcd3f2d60b7d046a150cb4a",
+            "528e814aa639fff2d8a0f82297d7733280d4cdf021122af83777830c92fda6a4"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "5eb2b207562c5bcfb14664a874823ededa641bff47e0f7b72c3ce91d1207c836",
+            "0c0f94f085cc3d789a2fb359fb7867a144171a2372846b4f5fd57121abe16a7e"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "246c600edbffb29781982e13b8bb27675bacd674890bcfa97261f1d916674aa7",
+            "dedaf2661ef569ff0d1e0eb5a6d088aad1c718366b7c27950e02a30deffa38c3",
+            "a8dc3edd76fa531d71361995aed226651876768354a8993473a56ce4015a457d"
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "2b02b213bfdb7a9302029ba454f27d8e06e2d58c8327bf5d764d7c6bbe8c350a",
+            "781e0f7023893c2f05c4f3d5e2ad2cb5c263682ed36d95d58bc6614448a429d4",
+            "b686191cdab8da7d31c933c88246315dcdd23a7e15f303f9d0551a120a3d7d5d",
+            "ccab7a9a9f37a48c1d9bd8440357f23e3837e07742822fe0ef6e18740327856a"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "2517bbbf1437f0d38e7a2e04127136463592970e7dbfc3804a305effd25f0f1d",
+            "24f963ee7ed2fc28a94ee08db0b3452b53b1969f6a6a29effc0c028b74971740"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "0b6e04c0324be6881c4b2ae87700bdabdaee371f770d493dcf5e6f4e72c38856",
+            "a6828048655b687af39c04ad04a2cb6d008a277bf802233a3cc7ec83287c91eb",
+            "5d167f00f042024a6fe340682856f15f8721ba960dd9a1d67c245ca2efe9c025"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "dd7ab44912245b69d8e9d8e0c724a14a7977b7166deb39061e3158c882104a96",
+            "5e11d00a36e0a4ff9cae74d073226561dbcc607de2b41034333c04d32b0590af",
+            "021b2b3124ccef29a77a995c2d25f9a3bb6ce4a3e4b58c1a8d7285812626f6ab",
+            "b683fc0057ee78dd5238f70bf5203399df4c7c2e5b31fd95bb054bef17454d78"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "7c8f41c4653555f57aaf956a41448bd538bd498218163a5d16869d21ce679d08",
+            "a2cde9a3e2b7ec6c8f308f3e36234bd6299cfe3e61e1e18be846bbe8faad4777",
+            "68f910283e203ede65e0bd1f8d466428dbf6200ad1968dd52b0b1a3268442961"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "25bf9d65f14e21f179cced7aa65e14ed782dbd095989614ffd09ecd3ae27cd6b",
+            "278badfc6df1e44d1cfb4fc4763a3645db18cd3aa53295af8dbbab6972d00530",
+            "528e814aa639fff2d8a0f82297d7733280d4cdf021122af83777830c92fda6a4"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "a87a05171d802c40e81d0e7c0e4617178332db9554d7e20b66097b6931e6a2ab",
+            "785223b8675f96d2549597c3d3f6986b8db1906ef4220d175d4eae684d8d0e40"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "d79150327240060bccfaffe846c995b30ae8249024150f21b6dc17f4f56ac177",
+            "6dd6e9f2ade85719eda877c6dc740e8653a4525e614fcc57f4961f1203943024",
+            "a8dc3edd76fa531d71361995aed226651876768354a8993473a56ce4015a457d"
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "28ded91c25a8331d6620de81e394b511f9e17539de7816194823cd9abfb9613c",
+            "b8621319ee201708d807a83a3e5e2747b38dd0d3a2b4404f46c699147ca78026",
+            "b686191cdab8da7d31c933c88246315dcdd23a7e15f303f9d0551a120a3d7d5d",
+            "ccab7a9a9f37a48c1d9bd8440357f23e3837e07742822fe0ef6e18740327856a"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "4201d3b3ae208cc26ac8b2a1d3cbff35d360aa2170775a00a85cda05176d6127",
+            "8deacb2396703147eae88b3232ac08d0d020ed217b077ccd3398cc1fdb7e0bad"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "dfa3c4d9baed13f69ecce376615ca95ca291d0825adb2b9b29a24a18c4a5e4f1",
+            "abb92987e43ad4c23dd46b73d62b8f46c76c8ccb58addff2a736746e98667757",
+            "5d167f00f042024a6fe340682856f15f8721ba960dd9a1d67c245ca2efe9c025"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "dd7ab44912245b69d8e9d8e0c724a14a7977b7166deb39061e3158c882104a96",
+            "01bd48802171002f18201173cc88a56eb23d6e61b55ca53ad21e39ec714f251e",
+            "021b2b3124ccef29a77a995c2d25f9a3bb6ce4a3e4b58c1a8d7285812626f6ab",
+            "b683fc0057ee78dd5238f70bf5203399df4c7c2e5b31fd95bb054bef17454d78"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "7c8f41c4653555f57aaf956a41448bd538bd498218163a5d16869d21ce679d08",
+            "c76c4f32e1cb826540053f7b4a1678ca9cc295b9ac9c9efa74fb9bfcf33fe047",
+            "9ca3e3bf3458ee4aad60d59a15281c11cd2e31cd73b7366f79f15ffdf4d2fb05"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "25bf9d65f14e21f179cced7aa65e14ed782dbd095989614ffd09ecd3ae27cd6b",
+            "e2fe6367f3cb01ad6ce4bad88134fa191aabb6674c03a9969757deb3123d901f",
+            "6b86b77e670a44da889210b445844c9a91d019f44e6e4f92229944cc123fabbd"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "a87a05171d802c40e81d0e7c0e4617178332db9554d7e20b66097b6931e6a2ab",
+            "6e1f284ad9d36ea3d081d2e7e8a5d485ee3afc6e2ab5e475863375a77f29489b"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "282e09885e93fbcc73469742b28deb820b0db5f8ab5b1593c3e788a2cafcbeea",
+            "13b025b46f2638b7582df842f2137defcd8c8294fb5ebd32a1a37850a6104b7f",
+            "b06d05dae20d3abab44c67b9003bd1676e70276fb7ab0c8e4b59ed664f74dc7e",
+            "7c14a9a073464237eded984fcd79af081ea06ca4f76c82572a6b54f7a2c20a88"
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "28ded91c25a8331d6620de81e394b511f9e17539de7816194823cd9abfb9613c",
+            "3d63a55a3ab8eae758a614b92bd5184bbafb5d56f26bd79488ce66a884855e11",
+            "30fc173bf0bffd1e45e9ff376b58c6599b4994553a15eb4123aff772af3cc960",
+            "6d5af4c954ea2cc019d145b904dce9e51108b8145914321ede446684bb08d5d6"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "4201d3b3ae208cc26ac8b2a1d3cbff35d360aa2170775a00a85cda05176d6127",
+            "bc30cd20019e27b308533af2dacc30b576e35f12fde04bd68a6b85e7cf318eae"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "dfa3c4d9baed13f69ecce376615ca95ca291d0825adb2b9b29a24a18c4a5e4f1",
+            "d40220cc50135763b9c6a2a89f2127b3ad255d2d04c4ab15d89de5b663d4816e",
+            "5d167f00f042024a6fe340682856f15f8721ba960dd9a1d67c245ca2efe9c025"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "dd7ab44912245b69d8e9d8e0c724a14a7977b7166deb39061e3158c882104a96",
+            "c29c63ce4390f5f3486292fdc6020d3a8816fb204446fd76157cba203aa4f97b",
+            "a805a9acfba4655d432c445755083bf1ed943bca6fafc55eaec53d85928d0666",
+            "b683fc0057ee78dd5238f70bf5203399df4c7c2e5b31fd95bb054bef17454d78"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "7c8f41c4653555f57aaf956a41448bd538bd498218163a5d16869d21ce679d08",
+            "fe66c31a2f88fe7631021d696f4b72c2a3e6c6b25fcbae00298ff3ed61d7e83e",
+            "9ca3e3bf3458ee4aad60d59a15281c11cd2e31cd73b7366f79f15ffdf4d2fb05"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "25bf9d65f14e21f179cced7aa65e14ed782dbd095989614ffd09ecd3ae27cd6b",
+            "727c88eeb815f8a2f358381b803e085afe4c20d99d37b559c6706498c5b98c27",
+            "528e814aa639fff2d8a0f82297d7733280d4cdf021122af83777830c92fda6a4"
+          ]
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "a87a05171d802c40e81d0e7c0e4617178332db9554d7e20b66097b6931e6a2ab",
+            "7d58b4e267e84fc953861a6f4542223536ea27eb82aef6556d2932186129da74"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "empty_headings": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "282e09885e93fbcc73469742b28deb820b0db5f8ab5b1593c3e788a2cafcbeea",
+            "07c3e0999f389510077e2a8bdb69f3849bb46aa63a3cc44f7695d1322e1d2d2a",
+            "b06d05dae20d3abab44c67b9003bd1676e70276fb7ab0c8e4b59ed664f74dc7e",
+            "7c14a9a073464237eded984fcd79af081ea06ca4f76c82572a6b54f7a2c20a88"
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "28ded91c25a8331d6620de81e394b511f9e17539de7816194823cd9abfb9613c",
+            "b97830cdc32522f5957e5b98d4e36675b596038f56a2581b67eaaf39cea442bd",
+            "30fc173bf0bffd1e45e9ff376b58c6599b4994553a15eb4123aff772af3cc960",
+            "6d5af4c954ea2cc019d145b904dce9e51108b8145914321ede446684bb08d5d6"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "empty_headings": 14,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "4201d3b3ae208cc26ac8b2a1d3cbff35d360aa2170775a00a85cda05176d6127",
+            "fe904a2c0d0525b6c632b5845033fb25f250b9d54276c59a7baaa3b0535e94ed"
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_and_fonts_unchanged": true,
+          "page_pixel_sha256": [
+            "dfa3c4d9baed13f69ecce376615ca95ca291d0825adb2b9b29a24a18c4a5e4f1",
+            "b3e3b058fc640ba8b66b195c45c54749b90a451afbe670574f30be3b7d7c5aaa",
+            "5d167f00f042024a6fe340682856f15f8721ba960dd9a1d67c245ca2efe9c025"
+          ]
+        }
+      },
+      "html_bytes_unchanged": true,
+      "docx_components_unchanged_except_core_timestamps": true
+    }
+  ],
+  "private_evidence_seal_sha256": "09f72ccb952eb86d14d0d28593eedbd6db2ca3046cd5055f454689045dc77ec4",
+  "private_evidence_files": 1977,
+  "public_summary_is_not_a_replayable_private_fixture": true,
+  "comparator_tests": 9,
+  "package_sha256": {
+    "english.zip": "491d5fe62c4b54aeabb4c202e1eb9cad42046e8e54f99a962cf5fbc83a2a29b7",
+    "chinese.zip": "becfe300a604db4b117bffc686d5febfbd993e5bfb1f647f2ba3b35ddec433f3"
+  },
+  "checker_sha256": "fdfe71f2436d43a55c1413ae16b9d8b3241730acc2f755640e493e52a1384f64"
+}

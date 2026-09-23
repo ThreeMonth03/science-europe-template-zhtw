@@ -11,8 +11,11 @@
 
 新 gate 先驗證實際新版全部來源、資產、套件 metadata 與答案矩陣，再提供
 精確 0.3.50 舊版視圖供既有回歸測試使用。舊 fixture、雜湊與封存證據不改。
-兩次乾淨建置、完整本機 workflow 與私有離線原生 PDF／Word 等價檢查完成後，
-才記錄本輪整合驗證結果；不能以原型通過代替新正式套件的驗證。
+[本輪整合驗證](../reviews/2026-09-23-q3-policy-prose-integration/README.md)完成：
+最終兩次乾淨建置相同，英文 281／中文 481 項完整測試與其餘 54 項本機
+workflow 檢查通過。原始測試失敗與完整重跑分別保存；tests-only 修正後未重跑
+整套 workflow，而以精確 commit 差異、相同套件及新版 gate 綁定其餘結果。
+40 組實際套件重產的 168 頁 PDF／167 頁 Word 預覽逐頁重現已接受原型，另抽看九頁。
 
 這次不改善 Word 既有行距、中文語氣或全形標點字寬。LibreOffice 預覽不代表
 Microsoft Word 驗收，本機 workflow 不代表 GitHub Actions 執行或部署。
