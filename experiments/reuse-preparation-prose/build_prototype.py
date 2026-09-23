@@ -166,7 +166,8 @@ def run(english, tooling, baseline, output):
                             (output / folder / QUESTION).read_bytes(), language)
         packaged = {f['fileName']: f['content'] for f in spec['files']}
         old_files = {f['fileName']: f['content'] for f in json.loads(original_spec(baseline / path.name))['files']}
-        rows = probe.check(english, old_files, packaged, words if language == 'chinese' else None)
+        rows = probe.check(english, old_files, packaged, words if language == 'chinese' else None,
+                           {u['en']: u['old_zh'] for u in units} if language == 'chinese' else None)
         write(output / (language + '-checks.json'), rows)
         result['checks'][language] = len(rows); result['sha256'][path.name] = sha(path)
     write(output / 'manifest.json', result)
