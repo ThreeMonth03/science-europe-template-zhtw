@@ -4,6 +4,7 @@ from pathlib import Path
 import yaml
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'scripts'))
 def builder():
     path=ROOT/'experiments/word-empty-section-spacing/build_prototype.py'
     spec=importlib.util.spec_from_file_location('word_empty_sections_build',path)
@@ -35,7 +36,17 @@ class WordEmptySectionPrototypeTests(unittest.TestCase):
         delta=json.loads((ROOT/'docs/word-empty-section-delta.json').read_text())
         self.assertEqual(delta['production_source_commit'],lock['production_source_commit'])
         self.assertEqual(delta['english_recipe_commit'],lock['english_recipe_commit'])
-        self.assertEqual(config['source']['version'],delta['version'])
+        current_version=config['source']['version']
+        if current_version=='0.3.51':
+            from q3_policy_prose_integration import integrated_package,project_package
+            self.assertEqual(config['translation']['version'],current_version)
+            for language in ['english','chinese']:
+                current=integrated_package(language,'2000-01-01T00:00:00Z')
+                self.assertEqual(current['version'],current_version)
+                previous=project_package(current,language,'2000-01-01T00:00:00Z')
+                self.assertEqual(previous['version'],delta['version'])
+        else:
+            self.assertEqual(current_version,delta['version'])
         self.assertEqual(config['tooling']['commit'],lock['tooling_commit'])
         self.assertTrue(lock['prototype_only'])
         self.assertRegex(lock['english_recipe_commit'],r'^[0-9a-f]{40}$')
