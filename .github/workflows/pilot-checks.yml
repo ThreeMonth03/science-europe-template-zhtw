@@ -64,7 +64,9 @@ jobs:
         run: |
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
           SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
-          # Validate actual 0.3.47 content, steps and branches before older views.
+          # Validate actual 0.3.48 content and immutable spacing before older views.
+          ../tooling/.venv/bin/python scripts/empty_section_spacing_integration.py --build "$SE_BUILD_DIR" --english ../english
+          ../tooling/.venv/bin/python ../english/scripts/probe_empty_section_spacing.py --output "$SE_BUILD_DIR/empty-section-engine.json"
           ../tooling/.venv/bin/python scripts/submission_flow_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python ../english/scripts/probe_submission_flow_word.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/submission-flow-engine-en.json"
           ../tooling/.venv/bin/python ../english/scripts/probe_submission_flow_word.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/submission-flow-engine-zh.json"
@@ -145,6 +147,7 @@ jobs:
             zh/outputs/build-*/submission-reading-*.json
             zh/outputs/build-*/full-km-followups-*.json
             zh/outputs/build-*/submission-flow-*.json
+            zh/outputs/build-*/empty-section-*.json
             zh/outputs/build-*/submission-preview-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
             zh/outputs/build-*/identifier-spacing-preflight.json

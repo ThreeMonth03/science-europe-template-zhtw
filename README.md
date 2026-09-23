@@ -3,6 +3,11 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
+0.3.48 [空節間距修正](docs/empty-section-spacing.md)已接回英文共用來源，中文鎖定
+完整英文 commit 配對重建。只改全空節的列印間距，775 組譯文與 Word 步驟不變；
+實際新版套件的原生對照另記錄，未推送、部署或全面繳交驗收。下方原型紀錄保留
+當時狀態，不代表目前正式來源仍未整合。
+
 新增[全空節列印間距原型](reviews/2026-09-22-empty-section-spacing/README.md)：
 英文全空提交 PDF 由 3 → 2 頁，第 15 題不再獨占尾頁；英文長文控制 7 → 6 頁。
 28 組中英原生對照保留全部題目與內容，檢核 PDF／Word 預覽不變，沒有增頁。

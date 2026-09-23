@@ -75,7 +75,7 @@ def integrated_package(language, timestamp):
 
 
 def project_package(candidate, language, timestamp):
-    if candidate['version'] == '0.3.47':
+    if candidate['version'] in ['0.3.47', '0.3.48']:
         from submission_flow_integration import project_package as before_flow
         candidate = before_flow(candidate, language, timestamp)
         timestamp = candidate['createdAt']
@@ -114,7 +114,7 @@ def check_package(path, prepared, language, timestamp):
 def historical_build(build, destination):
     """Validate both actual packages before writing old ZIPs for the old byte oracle."""
     manifest = json.loads((build / 'manifest.json').read_text())
-    assert manifest['source']['version'] == manifest['translation']['version'] and manifest['source']['version'] in ['0.3.46', '0.3.47']
+    assert manifest['source']['version'] == manifest['translation']['version'] and manifest['source']['version'] in ['0.3.46', '0.3.47', '0.3.48']
     destination.mkdir(parents=True, exist_ok=False)
     for language, folder in [('english', 'en'), ('chinese', 'translated')]:
         path = build / (language + '.zip')
@@ -139,14 +139,14 @@ def check(build, english, preview=False):
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
     version = manifest['source']['version']
-    assert version == manifest['translation']['version'] and version in ['0.3.46', '0.3.47']
+    assert version == manifest['translation']['version'] and version in ['0.3.46', '0.3.47', '0.3.48']
     if not preview:
         assert all(not state['dirty'] for state in manifest['checkouts'].values())
         head = subprocess.check_output(['git', '-C', str(english), 'rev-parse', 'HEAD'], text=True).strip()
         assert manifest['source']['commit'] == manifest['checkouts']['english']['commit'] == head
     files = list((ROOT / 'translation/tree').rglob('translation.md'))
     _, chain = verify_submission_translation_chain([pair(p.read_text()) for p in files])
-    assert manifest['translation_units'] == len(files) == (775 if version == '0.3.47' else 773) and not manifest['untranslated_units']
+    assert manifest['translation_units'] == len(files) == (775 if version in ['0.3.47', '0.3.48'] else 773) and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256'] == {str(p.relative_to(ROOT / 'translation')): sha(p) for p in files}
     assert manifest['package_timestamp'] == package_timestamp(english)
     packages = {}; checks = {}
@@ -154,12 +154,12 @@ def check(build, english, preview=False):
         path = build / (language + '.zip'); assert sha(path) == manifest['sha256'][path.name]
         packages[language] = check_package(path, build / folder, language, manifest['package_timestamp'])
         actual = sources(build / folder)
-        if version == '0.3.47':
+        if version in ['0.3.47', '0.3.48']:
             from submission_flow_integration import project_sources as before_flow
             actual = before_flow(actual, language)
         checks[language] = len(branches(english, actual)); assert checks[language] == 240
     return dict(passed=True, preview=preview, source_integrated=True, release_acceptance=False,
-        historical_scope=version == '0.3.47', comparison_version='0.3.46',
+        historical_scope=version in ['0.3.47', '0.3.48'], comparison_version='0.3.46',
         native_integrated_render_checked=False, global_switch_complete=False,
         translation_delta=chain['full_km_followups'], packages=packages, branch_checks=checks)
 
