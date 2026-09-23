@@ -31,7 +31,11 @@ class WordEmptySectionPrototypeTests(unittest.TestCase):
     def test_exact_sealed_baseline_and_separate_recipe_lock(self):
         config=yaml.safe_load((ROOT/'pipeline.yml').read_text())
         lock=json.loads((ROOT/'experiments/word-empty-section-spacing/lock.json').read_text())
-        self.assertEqual(config['source']['commit'],lock['production_source_commit'])
+        # The frozen prototype retains its historical source lock after integration.
+        delta=json.loads((ROOT/'docs/word-empty-section-delta.json').read_text())
+        self.assertEqual(delta['production_source_commit'],lock['production_source_commit'])
+        self.assertEqual(delta['english_recipe_commit'],lock['english_recipe_commit'])
+        self.assertEqual(config['source']['version'],delta['version'])
         self.assertEqual(config['tooling']['commit'],lock['tooling_commit'])
         self.assertTrue(lock['prototype_only'])
         self.assertRegex(lock['english_recipe_commit'],r'^[0-9a-f]{40}$')

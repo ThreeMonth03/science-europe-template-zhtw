@@ -1,0 +1,32 @@
+{
+  "baseline_version": "0.3.49",
+  "version": "0.3.50",
+  "prototype_archive": "reviews/2026-09-23-word-empty-section-spacing",
+  "prototype_seal": "8a2bb43d446ed80cd4d251fca89bd0400009a2e0237473a008a1920f4d569746",
+  "baseline_archive": "reviews/2026-09-23-preparation-prose-integration",
+  "baseline_seal": "d9b9f1f1764483636496ded8852da2a46672aa74f5236bc90d24ce76a6f56c95",
+  "production_source_commit": "ff6eea886d27f5bca4682cd3f3c59e1701a83f10",
+  "english_recipe_commit": "2f63e964c481d08b949ec4663209f3d2e0f1b8e4",
+  "helpers": {
+    "src/word/question-spacing.lua": {
+      "before": {
+        "fixture": "tests/fixtures/word-empty-sections/before/question-spacing.lua",
+        "sha256": "1b3ae9cb333323d0182ed608097648f2dc3a383c88aa40f339d0964cf8730b5a"
+      },
+      "after": {
+        "fixture": "tests/fixtures/word-empty-sections/after/question-spacing.lua",
+        "sha256": "dee10c9dd4e043c7c360f59bb5f66c209654513a01f67bd652140b5a10ac1fa9"
+      }
+    },
+    "src/word/question-spacing.xml": {
+      "before": {
+        "fixture": "tests/fixtures/word-empty-sections/before/question-spacing.xml",
+        "sha256": "e2de14b0e7be3a2793c4acc4d7146d64f83bc1df571b0a36d5e8d480b82a9cde"
+      },
+      "after": {
+        "fixture": "tests/fixtures/word-empty-sections/after/question-spacing.xml",
+        "sha256": "fd92daee8fc8a7962b51598af7b07932eb6ec3757e85ab74b9147682b070878c"
+      }
+    }
+  }
+}

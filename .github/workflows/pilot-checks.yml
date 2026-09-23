@@ -64,7 +64,8 @@ jobs:
         run: |
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
           SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
-          # Validate actual 0.3.49 prose and translations before historical views.
+          # Validate actual 0.3.50 Word assets and both language engines first.
+          ../tooling/.venv/bin/python scripts/word_empty_section_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/reuse_preparation_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/empty_section_spacing_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python ../english/scripts/probe_empty_section_spacing.py --output "$SE_BUILD_DIR/empty-section-engine.json"
@@ -150,6 +151,7 @@ jobs:
             zh/outputs/build-*/submission-flow-*.json
             zh/outputs/build-*/empty-section-*.json
             zh/outputs/build-*/reuse-preparation-*.json
+            zh/outputs/build-*/word-empty-section-*.json
             zh/outputs/build-*/submission-preview-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
             zh/outputs/build-*/identifier-spacing-preflight.json

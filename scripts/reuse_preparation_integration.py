@@ -36,6 +36,8 @@ def needs_projection(current, language):
 
 
 def project_sources(current, language):
+    from word_empty_section_integration import needs_projection, project_sources as before_word
+    if needs_projection(current): current = before_word(current, language)
     record = CONTRACT['languages'][language]
     hashes = lambda values: {n: hashlib.sha256(v).hexdigest() for n, v in values.items()}
     assert hashes(current) == record['after'], 'Unreviewed 0.3.49 prepared source or asset'
@@ -61,6 +63,9 @@ def integrated_package(language, timestamp):
 
 
 def project_package(candidate, language, timestamp):
+    if candidate['version'] == '0.3.50':
+        from word_empty_section_integration import project_package as before_word
+        candidate = before_word(candidate, language, timestamp)
     from empty_section_spacing_integration import integrated_package as old
     assert candidate == integrated_package(language, timestamp), 'Unreviewed identity, source, asset, UUID, timestamp or format step'
     return old(language, timestamp)
@@ -92,7 +97,8 @@ def check(build, english, preview=False):
     project_source()
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
-    assert manifest['source']['version'] == manifest['translation']['version'] == '0.3.49'
+    version = manifest['source']['version']
+    assert version == manifest['translation']['version'] and version in ['0.3.49', '0.3.50']
     if not preview:
         assert all(not state['dirty'] for state in manifest['checkouts'].values())
         assert manifest['source']['commit'] == manifest['checkouts']['english']['commit'] == git(english, 'rev-parse', 'HEAD')
@@ -106,13 +112,17 @@ def check(build, english, preview=False):
     for language, folder in [('english', 'en'), ('chinese', 'translated')]:
         path = build / (language + '.zip'); assert sha(path) == manifest['sha256'][path.name]
         packages[language] = check_package(path, build / folder, language, manifest['package_timestamp'])
-        after = sources(build / folder); before = project_sources(after, language)
+        after = sources(build / folder)
+        if version == '0.3.50':
+            from word_empty_section_integration import project_sources as before_word
+            after = before_word(after, language)
+        before = project_sources(after, language)
         rows = load('probe').check(english, before, after,
             {u['en']: u['zh'] for u in units()} if language == 'chinese' else None,
             {u['en']: u['old_zh'] for u in units()} if language == 'chinese' else None)
         branches[language] = len(rows); assert len(rows) == 8208
     return dict(passed=True, source_integrated=True, release_acceptance=False, native_integrated_render_checked=False,
-        version='0.3.49', baseline_version='0.3.48', translation_delta=delta,
+        version=version, comparison_version='0.3.49', historical_scope=version=='0.3.50', baseline_version='0.3.48', translation_delta=delta,
         packages=packages, branch_checks=branches, css_and_word_steps_unchanged=True)
 
 

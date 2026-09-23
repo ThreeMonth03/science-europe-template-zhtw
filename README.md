@@ -3,7 +3,12 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-新增 [Word 全空節間距與連頁原型](reviews/2026-09-23-word-empty-section-spacing/README.md)：
+0.3.50 [Word 空節間距與連頁規則](docs/word-empty-sections.md)接回共用英文來源，
+中文鎖定完整英文 commit 配對建置。只改兩個 Word 資產，775 組翻譯檔案不變；
+完整本機 workflow 與新版原生等價對照另留紀錄，未推送或部署。
+以下原型／舊版紀錄保留當時狀態，不代表目前來源尚未整合。
+
+先前 [Word 全空節間距與連頁原型](reviews/2026-09-23-word-empty-section-spacing/README.md)：
 中文漏填／否定提交 Word 由 3 → 2 頁，第 15 題不再獨占尾頁；肯定與長文
 維持原頁數，以完整空節換頁。28 組原生對照、英文 262／中文 469 項測試及
 中英各 121 個範圍案例通過，另抽看九頁；130 頁 PDF 與全部檢核版不變，

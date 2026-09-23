@@ -104,7 +104,7 @@ def check(build, english, preview=False):
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
     version = manifest['source']['version']
-    assert version == manifest['translation']['version'] and version in ['0.3.45', '0.3.46', '0.3.47', '0.3.48', '0.3.49']
+    assert version == manifest['translation']['version'] and version in ['0.3.45', '0.3.46', '0.3.47', '0.3.48', '0.3.49', '0.3.50']
     if not preview:
         assert all(not state['dirty'] for state in manifest['checkouts'].values())
         head = subprocess.check_output(['git', '-C', str(english), 'rev-parse', 'HEAD'], text=True).strip()
@@ -113,7 +113,7 @@ def check(build, english, preview=False):
     current = [pair(p.read_text()) for p in files]
     project_submission_reading_translations(current)
     _, chain = verify_submission_translation_chain(current)
-    assert manifest['translation_units'] == len(files) == {'0.3.45':767, '0.3.46':773, '0.3.47':775, '0.3.48':775, '0.3.49':775}[version] and not manifest['untranslated_units']
+    assert manifest['translation_units'] == len(files) == {'0.3.45':767, '0.3.46':773, '0.3.47':775, '0.3.48':775, '0.3.49':775, '0.3.50':775}[version] and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256'] == {str(p.relative_to(ROOT / 'translation')): sha(p) for p in files}
     assert manifest['package_timestamp'] == package_timestamp(english)
     results = {}
