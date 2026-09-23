@@ -1,0 +1,110 @@
+[
+  {
+    "case": "MISSING",
+    "before_twips": 80,
+    "after_twips": 40,
+    "pages": 3,
+    "q15_alone": true,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "NEGATIVE",
+    "before_twips": 80,
+    "after_twips": 40,
+    "pages": 3,
+    "q15_alone": true,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "POSITIVE",
+    "before_twips": 80,
+    "after_twips": 40,
+    "pages": 3,
+    "q15_alone": true,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "LONG",
+    "before_twips": 80,
+    "after_twips": 40,
+    "pages": 3,
+    "q15_alone": false,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "MISSING",
+    "before_twips": 60,
+    "after_twips": 40,
+    "pages": 2,
+    "q15_alone": false,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "NEGATIVE",
+    "before_twips": 60,
+    "after_twips": 40,
+    "pages": 2,
+    "q15_alone": false,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "POSITIVE",
+    "before_twips": 60,
+    "after_twips": 40,
+    "pages": 3,
+    "q15_alone": true,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "LONG",
+    "before_twips": 60,
+    "after_twips": 40,
+    "pages": 3,
+    "q15_alone": false,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "MISSING",
+    "before_twips": 40,
+    "after_twips": 40,
+    "pages": 2,
+    "q15_alone": false,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "NEGATIVE",
+    "before_twips": 40,
+    "after_twips": 40,
+    "pages": 2,
+    "q15_alone": false,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "POSITIVE",
+    "before_twips": 40,
+    "after_twips": 40,
+    "pages": 3,
+    "q15_alone": true,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  },
+  {
+    "case": "LONG",
+    "before_twips": 40,
+    "after_twips": 40,
+    "pages": 3,
+    "q15_alone": false,
+    "diagnostic_only": true,
+    "source_built_acceptance": false
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "9b097fcab8fae9f1d57be3764ab0a650485f4ad0c9b5d93701422846e56be1f6"
+    },
+    {
+      "path": "build-manifest.json",
+      "sha256": "4fa9d9c97c514ad765d1ddd5d1e5037f374bc26d4b67316d1ef706bf0d9101da"
+    },
+    {
+      "path": "checkers/check.py",
+      "sha256": "36279d7357ad3f1c1afe500f14f02b79bb23a3dcd2e8fd27f3f7058cefb9c46d"
+    },
+    {
+      "path": "checkers/comparison_helpers.py",
+      "sha256": "6090af29612fe72b4c346bbeb30da543e06bd134f74e9b11ebc16a9f215ae4a0"
+    },
+    {
+      "path": "checkers/export.py",
+      "sha256": "07c740bba86737ad484104d59acfe2c255bd3d695daded4bbc21a79d02e32fd3"
+    },
+    {
+      "path": "checkers/prepare.py",
+      "sha256": "ecf3c4fd6031912fae9f604d289b1a624b6fd787f800c11b6ce79dda73f7629f"
+    },
+    {
+      "path": "checkers/run.py",
+      "sha256": "5ada49148c91c36b2313ad3dca6083bf34264637b2b5a5ab1a94b8cf7bec30e9"
+    },
+    {
+      "path": "checkers/spacing_sweep.py",
+      "sha256": "40082c1e777ca1757faa4957a9ac1116e2e470074328b154a79ed0247676338c"
+    },
+    {
+      "path": "checkers/test_check.py",
+      "sha256": "095d26fa478d20a21a35efacef8a95861993032ccca2c682ba61e73254999913"
+    },
+    {
+      "path": "diagnostics/failed-attempt-summary.json",
+      "sha256": "beb269f087ff851ca10aec7d834d4ba762ff114a81d42a4daa3013863e4f877f"
+    },
+    {
+      "path": "diagnostics/spacing-sweep.json",
+      "sha256": "1b0bfa6dd7cab8dcb935eaf38c54b8f769f7c55c4165e55126a890b28d7b520d"
+    },
+    {
+      "path": "engine/chinese-package-engine.json",
+      "sha256": "1895e0f0b594ce5e58a82b4a5f05a75abdd5ca9eae0f3af0c956bf6d81b95a8b"
+    },
+    {
+      "path": "engine/english-engine.json",
+      "sha256": "1895e0f0b594ce5e58a82b4a5f05a75abdd5ca9eae0f3af0c956bf6d81b95a8b"
+    },
+    {
+      "path": "engine/english-package-engine.json",
+      "sha256": "1895e0f0b594ce5e58a82b4a5f05a75abdd5ca9eae0f3af0c956bf6d81b95a8b"
+    },
+    {
+      "path": "local-checks.json",
+      "sha256": "f6bd74dd9d2949828fc4937b90018cf15a0c485057ee4db6b55d23e444fe95c0"
+    },
+    {
+      "path": "native/checks.json",
+      "sha256": "3b8082b645a9c7e2361ba709e922b1b5b4d581bb3bb9c7af84b39ca652712182"
+    },
+    {
+      "path": "native/runtime.json",
+      "sha256": "23f6afdae84117fc9ad822da71992d1ec7a6b6df948026439f745288e66217a2"
+    },
+    {
+      "path": "native/visual-review.json",
+      "sha256": "ba7fbd2610897951bd7743ec1b67d4d1763327651541430aa4ac9580627b0694"
+    },
+    {
+      "path": "private-evidence-receipt.json",
+      "sha256": "8ed7d817786f0aac9e585afe0b38c7c3920e717832118b4d15042e4e0b93a11d"
+    },
+    {
+      "path": "rebuild-manifest.json",
+      "sha256": "4fa9d9c97c514ad765d1ddd5d1e5037f374bc26d4b67316d1ef706bf0d9101da"
+    }
+  ]
+}

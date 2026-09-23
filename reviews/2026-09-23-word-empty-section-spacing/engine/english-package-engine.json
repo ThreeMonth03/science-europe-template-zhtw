@@ -1,0 +1,734 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "case": "all-empty",
+      "section_headings_changed": 6,
+      "question_links_changed": 9,
+      "passed": true
+    },
+    {
+      "case": "review",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-how-data",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-what-data",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-section-wrong-element",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-section-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-section-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-section-extra-child",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-section-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-section-wrong-level",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-question-extra-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-question-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-question-unmarked",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-question-wrong-id",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-question-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-empty-authored-paragraph",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-empty-authored-container",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-authored-table",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "1-question-reordered",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-docs-metadata",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-quality-control",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-section-wrong-element",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-section-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-section-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-section-extra-child",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-section-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-section-wrong-level",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-question-extra-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-question-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-question-unmarked",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-question-wrong-id",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-question-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-empty-authored-paragraph",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-empty-authored-container",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-authored-table",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "2-question-reordered",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-store-backup",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-access-security",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-section-wrong-element",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-section-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-section-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-section-extra-child",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-section-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-section-wrong-level",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-question-extra-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-question-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-question-unmarked",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-question-wrong-id",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-question-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-empty-authored-paragraph",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-empty-authored-container",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-authored-table",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "3-question-reordered",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-personal-data",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-copyright-ipr",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-ethical-issues",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-section-wrong-element",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-section-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-section-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-section-extra-child",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-section-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-section-wrong-level",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-question-extra-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-question-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-question-unmarked",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-question-wrong-id",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-question-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-empty-authored-paragraph",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-empty-authored-container",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-authored-table",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "4-question-reordered",
+      "section_headings_changed": 5,
+      "question_links_changed": 7,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-share-restrictions",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-data-preservation",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-access-data",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-persistent-identifier",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-section-wrong-element",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-section-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-section-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-section-extra-child",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-section-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-section-wrong-level",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-question-extra-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-question-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-question-unmarked",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-question-wrong-id",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-question-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-empty-authored-paragraph",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-empty-authored-container",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-authored-table",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "5-question-reordered",
+      "section_headings_changed": 5,
+      "question_links_changed": 6,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-dm-responsible",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "nonempty-q-required-resources",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-section-wrong-element",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-section-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-section-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-section-extra-child",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-section-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-section-wrong-level",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-question-extra-class",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-question-rich-heading",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-question-unmarked",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-question-wrong-id",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-question-attribute",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-empty-authored-paragraph",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-empty-authored-container",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-authored-table",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "6-question-reordered",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    },
+    {
+      "case": "wrong-root-id",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "root-class",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "root-attribute",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "root-leading-prose",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "root-missing-section",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "root-extra-section",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "root-reordered",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "root-wrong-section-id",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "standalone-section",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-answer",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-answer-detail",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "authored-abstract",
+      "section_headings_changed": 0,
+      "question_links_changed": 0,
+      "passed": true
+    },
+    {
+      "case": "q5-known-empty-skeleton",
+      "section_headings_changed": 6,
+      "question_links_changed": 9,
+      "passed": true
+    },
+    {
+      "case": "q5-unknown-empty-skeleton",
+      "section_headings_changed": 5,
+      "question_links_changed": 8,
+      "passed": true
+    }
+  ],
+  "pandoc": "pandoc 3.8.3",
+  "image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "release_acceptance": false
+}

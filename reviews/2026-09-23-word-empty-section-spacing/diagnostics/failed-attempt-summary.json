@@ -1,0 +1,17 @@
+{
+  "accepted": false,
+  "prototype_only": true,
+  "source_integrated": false,
+  "reason": "Chinese MISSING submission Word still has Q15 alone on page 3 despite correctly applied 6pt/3pt spacing",
+  "scope_cases_per_language": 121,
+  "native_groups_rendered": 28,
+  "word_previews_rendered": 28,
+  "english_unit_tests": 261,
+  "chinese_unit_tests": 469,
+  "comparator_tests": 8,
+  "english_recipe_commit": "a08ca7c2caf61d9e180c7c280cf5b8bfda6cb20b",
+  "chinese_recipe_commit": "aa26af1e683fa38a06d27243fdd145af6f04fcb0",
+  "target_before_pages": 3,
+  "target_after_pages": 3,
+  "remote_writes": 0
+}

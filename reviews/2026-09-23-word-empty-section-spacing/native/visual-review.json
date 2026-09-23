@@ -1,0 +1,65 @@
+{
+  "scope": "Selected final source-built Word previews; not full Microsoft Word or release acceptance",
+  "native_ms_word": false,
+  "release_acceptance": false,
+  "manually_viewed_pages": 9,
+  "rows": [
+    {
+      "case": "MISSING",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "pages": [2],
+      "observation": "All six sections and fifteen headings now fit on one body page. Q15 has both lines above the footer. No missing-answer notice or inferred sharing promise appears. Section labels remain visibly distinct without changing font size."
+    },
+    {
+      "case": "NEGATIVE",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "pages": [2],
+      "observation": "Explicit negative preparation statements remain intact. The last question no longer occupies a separate third page; the full final section is readable above the footer."
+    },
+    {
+      "case": "POSITIVE",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "pages": [2, 3],
+      "observation": "Still three pages. The final section heading and Q14/Q15 travel together to page 3, rather than leaving Q15 by itself. This produces a sparse final page and is a documented pagination tradeoff, not a claim of fully optimized page density. Authored mixed-script standard names and punctuation remain unchanged."
+    },
+    {
+      "case": "LONG",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "pages": [2, 3],
+      "observation": "The long synthetic standard name still wraps as authored. Empty sections remain coherent across the existing three-page layout, with their headings and questions together. No visible clipping or added page was observed."
+    },
+    {
+      "case": "MISSING",
+      "language": "en",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "pages": [2],
+      "observation": "English remains two pages with all fifteen questions on the body page. Large bold section labels still distinguish sections despite tighter local spacing; no question text is clipped."
+    },
+    {
+      "case": "LONG",
+      "language": "en",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "pages": [3],
+      "observation": "The final page contains complete sections 5 and 6. Wrapped English question headings are readable and not separated from their section heading. The control remains three pages."
+    },
+    {
+      "case": "EMPTY",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "pages": [2],
+      "observation": "All six empty sections and fifteen original headings remain on a single body page. No answer placeholders or missing-answer notices appear; visible space remains above the footer."
+    }
+  ],
+  "images_exported": false
+}

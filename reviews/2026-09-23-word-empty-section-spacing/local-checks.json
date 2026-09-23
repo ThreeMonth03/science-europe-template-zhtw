@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "english_tests": 262,
+  "english_tdk_verify": true,
+  "english_unit_log_sha256": "20c7061f912254e3ccf4f27ddbc58c78353b55600917f2919e44a66026f1dc99",
+  "chinese_tests": 469,
+  "chinese_unit_log_sha256": "358dd6b5ded82e9acac9bb754ece15ccf31e2719946793a24735dbe2808b9117",
+  "comparator_tests": 9,
+  "comparator_log_sha256": "28541c0ad74f37be0250416d56ee74f66159e22eff4c7ec8e95ad88cdad29947",
+  "new_english_ci_scope_cases": 121,
+  "package_scope_cases": {
+    "english": 121,
+    "chinese": 121
+  },
+  "github_actions_run": false,
+  "all_53_historical_workflow_commands_rerun": false,
+  "two_clean_builds_bitwise_equal": true,
+  "native_groups": 28,
+  "page_totals": {
+    "pdf": {
+      "before": 130,
+      "after": 130
+    },
+    "word_preview": {
+      "before": 133,
+      "after": 131
+    }
+  },
+  "manual_pages": 9,
+  "credentials_used": false,
+  "remote_writes": 0
+}
