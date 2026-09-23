@@ -1,0 +1,49 @@
+{
+  "status": "prototype",
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "experiment_lock": {
+    "production_source_commit": "678787f2fdf047a3d6cc3577d4589d64ba2cd846",
+    "english_recipe_commit": "57f79b33feaec4f3daf30a33841c59cb58d41b0e",
+    "tooling_commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+    "baseline_review": "reviews/2026-09-23-empty-section-integration",
+    "baseline_review_seal": "bcf99c76ae43e7f768043ba71d683bb5cad09d0581f72b59a1ec21f386a2f4e5",
+    "prototype_only": true
+  },
+  "baseline_packages": {
+    "english.zip": "460df2d9f584ea76641e90178b39fdbe184480dc59b1eebb636606b4af946bdb",
+    "chinese.zip": "7a2bef5bd26f42c58e3a6c8698bc60d1d10ee1299891c0782611b4332762fa60"
+  },
+  "changed_source_files": [
+    "src/questions/01-how-data.html.j2"
+  ],
+  "translation_delta": {
+    "retained": 766,
+    "removed": 9,
+    "added": 9,
+    "total": 775
+  },
+  "checks": {
+    "english": 8208,
+    "chinese": 8208
+  },
+  "sha256": {
+    "english.zip": "a23bf23df0201887201606ad3d718450e65737dd7a675f624e36591a91c4ce36",
+    "chinese.zip": "c0b6809a0862fea04b646ad1a5fe16251aca3d0a55e7742ce611a26c7d34be5f"
+  },
+  "checkouts": {
+    "english": {
+      "commit": "57f79b33feaec4f3daf30a33841c59cb58d41b0e",
+      "dirty": false
+    },
+    "chinese": {
+      "commit": "c2b0042b329c008ba9cc4933f872c7a624167c43",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    }
+  }
+}

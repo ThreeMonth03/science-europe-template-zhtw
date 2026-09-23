@@ -1,0 +1,32 @@
+{
+  "release_acceptance": false,
+  "observation": "Question 4 is an intentionally retained empty submission question, not a heading separated from its answer. HTML confirms compact-empty-question and an empty answer div. Its location is unchanged in both versions.",
+  "initial_visual_hypothesis_rejected": "An orphaned heading with its answer on the next page",
+  "html_confirmation": {"answer_characters": 0, "answer_child_tags": 0, "class": "compact-empty-question"},
+  "rows": [
+    {
+      "arm": "baseline",
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "zh-Hant",
+      "format": "PDF",
+      "profile": "submission",
+      "page": 2,
+      "question": 4,
+      "heading_y_max": "769.081671",
+      "page_height": "841.889764",
+      "intentional_empty_question_unchanged": true
+    },
+    {
+      "arm": "candidate",
+      "case": "REAL-SNAPSHOT-A",
+      "locale": "zh-Hant",
+      "format": "PDF",
+      "profile": "submission",
+      "page": 2,
+      "question": 4,
+      "heading_y_max": "769.081671",
+      "page_height": "841.889764",
+      "intentional_empty_question_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "reviewed": true,
+  "scope": "Selected-page visual inspection, not full-document manual acceptance",
+  "native_ms_word": false,
+  "release_acceptance": false,
+  "pages_viewed": 11,
+  "images": [
+    "REAL-SNAPSHOT-A-zh-pdf-2.png",
+    "REAL-SNAPSHOT-A-zh-baseline-pdf-2.png",
+    "POSITIVE-zh-pdf-2.png",
+    "POSITIVE-en-pdf-2.png",
+    "REAL-SNAPSHOT-A-zh-Hant-submission-word-2.png",
+    "POSITIVE-en-submission-word-2.png",
+    "POSITIVE-zh-Hant-submission-word-2.png",
+    "MISSING-zh-Hant-submission-word-2.png",
+    "LONG-zh-Hant-submission-word-2.png",
+    "NEGATIVE-zh-pdf-2.png",
+    "LONG-zh-pdf-2.png"
+  ],
+  "observations": [
+    "Chinese wording identifies the converted data explicitly rather than referring ambiguously to a form.",
+    "Harmonization remains one paragraph; conversion and metadata remain another paragraph. No additional short paragraphs were introduced.",
+    "Affirmative and negative statements remain distinct. Missing sharing answers do not acquire either promise.",
+    "Fixed Chinese punctuation is readable; punctuation in authored standard labels remains untouched.",
+    "Long standard labels wrap within the page in the selected PDF and LibreOffice previews.",
+    "An apparent bottom-page heading issue was checked against HTML: question 4 is intentionally empty, not separated from an answer. See heading-observation.json.",
+    "PDF and Word retain their different existing layout densities; this experiment does not redesign either layout."
+  ],
+  "image_sha256": {
+    "REAL-SNAPSHOT-A-zh-pdf-2.png": "3c574c3864ee773d4fd2f515ee3d415322ba5a3528883c686b70cd4e06f8425e",
+    "REAL-SNAPSHOT-A-zh-baseline-pdf-2.png": "61b11535019ca053527272d54a7e4c7a0d3afb1929b0dc88ad13d93ea77ad7a5",
+    "POSITIVE-zh-pdf-2.png": "3fbc203526f2589719bc84defecf7bdb5852853fb74778d7da14be722779da5e",
+    "POSITIVE-en-pdf-2.png": "307a3e20d3a2c671cf5ea6087a26ab03f8e77e3b74be9b460768d551a49f6b53",
+    "REAL-SNAPSHOT-A-zh-Hant-submission-word-2.png": "815982b2c2a8facdff03379d785ffa5fdf269b4be3deb6992389ee8f0afcf587",
+    "POSITIVE-en-submission-word-2.png": "0031b31b76b43cef6877aee95457663af42a136c268b1a0e9d841c02e7c3478e",
+    "POSITIVE-zh-Hant-submission-word-2.png": "c759a88de1e725a8ad26b1c8ce6dbaf5b076ae3d823be8679baaa7db7ddc2fa4",
+    "MISSING-zh-Hant-submission-word-2.png": "b8bd90a8e768b9e2288141b3534c416f6571a4b9bf5dad5a295371471c99e5a0",
+    "LONG-zh-Hant-submission-word-2.png": "e329715a8d0dc8c20142c00d054b2a19b11c7ef278d585fc1cf98a592ff1eafb",
+    "NEGATIVE-zh-pdf-2.png": "eafd9bfd0917975b60a6c387990e8a91bc6ab1209feae6ed16b73d5cba589fb9",
+    "LONG-zh-pdf-2.png": "67991b4dd4e657c00a7d9a75c20634c37f68f5fca9de2417d89eccde6ec893a5"
+  }
+}

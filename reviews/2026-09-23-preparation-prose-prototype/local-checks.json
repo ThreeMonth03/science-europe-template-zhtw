@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "local_only": true,
+  "github_actions_run": false,
+  "release_acceptance": false,
+  "unit_tests": {
+    "english": {
+      "passed": true,
+      "tests": 256,
+      "log_sha256": "269e66f1503ffbd6b68910fd93571bbef66c54c7b9b57a75251322fd7d10ad98"
+    },
+    "chinese": {
+      "passed": true,
+      "tests": 464,
+      "log_sha256": "b19bc8cf6240f6169f56836c70b9deaadf505ba0756b2fadda8cf7794370a6c8"
+    },
+    "native_checker": {
+      "passed": true,
+      "tests": 4,
+      "log_sha256": "52452392fb64e0dc203897a2d5b19e7028fbe2a1123a1b629b06512492129e9c"
+    }
+  },
+  "packaged_checks_per_language": {
+    "english": 8208,
+    "chinese": 8208
+  },
+  "translation_delta": {
+    "retained": 766,
+    "removed": 9,
+    "added": 9,
+    "total": 775
+  },
+  "reproducible_packages": {
+    "english.zip": "a23bf23df0201887201606ad3d718450e65737dd7a675f624e36591a91c4ce36",
+    "chinese.zip": "c0b6809a0862fea04b646ad1a5fe16251aca3d0a55e7742ce611a26c7d34be5f"
+  },
+  "production_inputs_unchanged": true,
+  "native_pairs": 28,
+  "candidate_page_totals": {
+    "pdf": 130,
+    "word_preview": 133
+  },
+  "manual_pages_viewed": 11,
+  "remote_writes": 0,
+  "credentials_used": false,
+  "native_ms_word": false
+}

@@ -1,0 +1,22 @@
+{
+  "accepted_builds": [
+    "preparation-prototype-03",
+    "preparation-prototype-04"
+  ],
+  "rejected_builds": [
+    {
+      "build": "preparation-prototype-01",
+      "reason": "Unexpected untranslated metadata connector after literal replacement"
+    },
+    {
+      "build": "preparation-prototype-02",
+      "reason": "Exact-match upstream rewrite no longer applied; machine-readable sentence fragmented"
+    }
+  ],
+  "root_cause": "Existing translator balanced rule matches the entire old upstream computer-readable block literally.",
+  "resolution": "Emit complete sentences in the English prototype; keep the translation tool unchanged.",
+  "diagnostic_log_sha256": {
+    "01": "91daf71071c665fe5f3cbc1484d17874e2868c3229e802c0bd6596caec155768",
+    "02": "32a59ec5a17d3c8d115483489f0a4cd7aea1345b97f4d450c23f71b5a53aa772"
+  }
+}

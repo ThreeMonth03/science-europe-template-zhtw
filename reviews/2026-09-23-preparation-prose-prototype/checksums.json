@@ -1,0 +1,58 @@
+{
+  "status": "sealed-public-prototype",
+  "release_acceptance": false,
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "e3eb7ff0a9a4e0132b51acb4987f71f6f391aa89f2b33cfcb8704e39ee35646f"
+    },
+    {
+      "path": "baseline_helpers.py",
+      "sha256": "3e2155e1142c74322e093c4a8b54adefb43e425058e300dce0bcba11d0ef9777"
+    },
+    {
+      "path": "build-manifest.json",
+      "sha256": "7e3725bcfd0d0af07ed95751f7966e8045a8def9d03f8a4a465e7d5c0e6e0f19"
+    },
+    {
+      "path": "check.py",
+      "sha256": "9bc3cc2c7219267622ed302a360f8a8f5b0a2d871b35f58c271fcd3814a057f4"
+    },
+    {
+      "path": "checks.json",
+      "sha256": "ec9323c7c52c6ce715c1d9ebdb220d0c39c87fe2b5c0bb84a41950dc2a40c061"
+    },
+    {
+      "path": "diagnostics.json",
+      "sha256": "bab169ac4685da8afd879c0241bd49e5e10c86da36c5c2334ca338ba5fea0024"
+    },
+    {
+      "path": "heading-observation.json",
+      "sha256": "b350e104ebdcf2c088b4c479e14dd1dfe6e4da9c216ea11973dcdcbd933cdedf"
+    },
+    {
+      "path": "local-checks.json",
+      "sha256": "f9ad7215cdc22b0b91bea5e7b1418f43b4b65e2396deb32a375cb62b12a44af7"
+    },
+    {
+      "path": "private-evidence-receipt.json",
+      "sha256": "7b79697cfa3fc2ef1190aac6a6df4481ff5dd5417bd4826ee6bce29f4f87bb52"
+    },
+    {
+      "path": "rebuild-manifest.json",
+      "sha256": "7e3725bcfd0d0af07ed95751f7966e8045a8def9d03f8a4a465e7d5c0e6e0f19"
+    },
+    {
+      "path": "test_check.py",
+      "sha256": "2441584bce3db45605ce070df509624f49dbde5e4a2d6c841717bbd7e082de48"
+    },
+    {
+      "path": "units.json",
+      "sha256": "dbd05b2ac645c5b99fa14679351169d9767c98d0f0c4f8d78b98e5b57d8781c3"
+    },
+    {
+      "path": "visual-review.json",
+      "sha256": "0ac5ab69770a62d174bfe6ec6dcf649f06f70e1e759e852434b4b73fa5eab610"
+    }
+  ]
+}

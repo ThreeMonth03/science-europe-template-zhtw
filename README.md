@@ -3,6 +3,13 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
+新增 [Q1 再利用準備敘述原型](reviews/2026-09-23-preparation-prose-prototype/README.md)：
+修正九組中英固定句子，並將英文機器可讀段落改為分支內完整句子，避開與舊英文
+逐字綁定的特殊轉換規則；仍使用既有工具產中文，不另寫中文 Jinja。
+中英各 8,208 組檢查、28 組原生 A/B 通過；130 頁 PDF／133 頁 Word 預覽
+沒有增頁或超出範圍的內容變動，另抽看 11 頁。正式來源仍是 0.3.48，
+這個新原型尚未整合、推送或部署；不是 Microsoft Word／全面提交驗收。
+
 0.3.48 [空節間距修正](docs/empty-section-spacing.md)已接回英文共用來源，中文鎖定
 完整英文 commit 配對重建。只改全空節的列印間距，775 組譯文與 Word 步驟不變；
 已完成[28 組新版套件的原生整合對照](reviews/2026-09-23-empty-section-integration/README.md)：

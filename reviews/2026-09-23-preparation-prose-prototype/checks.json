@@ -1,0 +1,663 @@
+{
+  "passed": true,
+  "release_acceptance": false,
+  "prototype_only": true,
+  "native_dsw_server": false,
+  "native_ms_word": false,
+  "package_sha256": {
+    "english.zip": "a23bf23df0201887201606ad3d718450e65737dd7a675f624e36591a91c4ce36",
+    "chinese.zip": "c0b6809a0862fea04b646ad1a5fe16251aca3d0a55e7742ce611a26c7d34be5f"
+  },
+  "rows": [
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "language": "en",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 3,
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "language": "en",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 3,
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 5,
+          "after": 5,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "language": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 3,
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 7,
+          "after": 7,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 3,
+      "pages": {
+        "pdf": {
+          "before": 5,
+          "after": 5,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "language": "en",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 1,
+      "pages": {
+        "pdf": {
+          "before": 12,
+          "after": 12,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 11,
+          "after": 11,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "language": "en",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 1,
+      "pages": {
+        "pdf": {
+          "before": 12,
+          "after": 12,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 11,
+          "after": 11,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "language": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 1,
+      "pages": {
+        "pdf": {
+          "before": 11,
+          "after": 11,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 13,
+          "after": 13,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "REAL-SNAPSHOT-B",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 1,
+      "pages": {
+        "pdf": {
+          "before": 11,
+          "after": 11,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 13,
+          "after": 13,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "EMPTY",
+      "language": "en",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 0,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": true
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": true
+        }
+      }
+    },
+    {
+      "case": "EMPTY",
+      "language": "en",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 0,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": true
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": true
+        }
+      }
+    },
+    {
+      "case": "EMPTY",
+      "language": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 0,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": true
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": true
+        }
+      }
+    },
+    {
+      "case": "EMPTY",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 0,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": true
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": true
+        }
+      }
+    },
+    {
+      "case": "POSITIVE",
+      "language": "en",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 3,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "POSITIVE",
+      "language": "en",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 3,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "POSITIVE",
+      "language": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 3,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "POSITIVE",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 3,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "NEGATIVE",
+      "language": "en",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "NEGATIVE",
+      "language": "en",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "NEGATIVE",
+      "language": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "NEGATIVE",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "MISSING",
+      "language": "en",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "MISSING",
+      "language": "en",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "MISSING",
+      "language": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "MISSING",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "LONG",
+      "language": "en",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "LONG",
+      "language": "en",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "LONG",
+      "language": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    },
+    {
+      "case": "LONG",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "fixed_units_changed": 2,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "text_scope_checked": true,
+          "all_words_inside_page": true,
+          "unchanged_case_pixel_parity": false
+        }
+      }
+    }
+  ],
+  "credentials_used": false,
+  "remote_writes": 0,
+  "totals": {
+    "pdf": 130,
+    "word_preview": 133
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "old_en": "We need to harmonize different sources of existing data before reusing them and we will make this harmonization results available to others.",
+    "old_zh": "再次使用既有資料前，我們需要先調和不同來源的資料，並會將調和結果提供給他人。",
+    "en": "Before reuse, we need to harmonize existing data from different sources and will make the results available to others.",
+    "zh": "再利用前，我們需要先對不同來源的既有資料進行一致化處理，並會將處理結果提供給他人使用。"
+  },
+  {
+    "old_en": "We need to harmonize different sources of existing data before reusing them but we won't make this harmonization results available to others.",
+    "old_zh": "再次使用既有資料前，我們需要先調和不同來源的資料，但不會將調和結果提供給他人。",
+    "en": "Before reuse, we need to harmonize existing data from different sources but will not make the results available to others.",
+    "zh": "再利用前，我們需要先對不同來源的既有資料進行一致化處理，但不會將處理結果提供給他人使用。"
+  },
+  {
+    "old_en": "We need to harmonize different sources of existing data before reusing them.",
+    "old_zh": "再次使用既有資料前，我們需要先調和不同來源的資料。",
+    "en": "Before reuse, we need to harmonize existing data from different sources.",
+    "zh": "再利用前，我們需要先對不同來源的既有資料進行一致化處理。"
+  },
+  {
+    "old_en": "We will need to (re-)made the data into computer readable form before their using and we will make this computer readable form available to others through a standard repository.",
+    "old_zh": "使用前，我們需要將資料轉換成電腦可讀形式，並會透過標準資料儲存庫將此形式提供給他人。",
+    "en": "Before reuse, we will need to convert the data into a machine-readable form and will make this version available to others through a standard repository.",
+    "zh": "再利用前，我們需要將資料轉換為機器可讀格式，並會透過標準資料儲存庫提供轉換後的資料，供他人使用。"
+  },
+  {
+    "old_en": "We will need to (re-)made the data into computer readable form before their using and we will make this computer readable form available to others.",
+    "old_zh": "使用前，我們需要將資料轉換成電腦可讀形式，並會將此形式提供給他人。",
+    "en": "Before reuse, we will need to convert the data into a machine-readable form and will make this version available to others.",
+    "zh": "再利用前，我們需要將資料轉換為機器可讀格式，並會將轉換後的資料提供給他人使用。"
+  },
+  {
+    "old_en": "We will need to (re-)made the data into computer readable form before their using but we won't make this computer readable form available to others.",
+    "old_zh": "使用前，我們需要將資料轉換成電腦可讀形式，但不會將此形式提供給他人。",
+    "en": "Before reuse, we will need to convert the data into a machine-readable form but will not make this version available to others.",
+    "zh": "再利用前，我們需要將資料轉換為機器可讀格式，但不會將轉換後的資料提供給他人使用。"
+  },
+  {
+    "old_en": "We will need to (re-)made the data into computer readable form before their using.",
+    "old_zh": "使用前，我們需要將資料轉換成電腦可讀形式。",
+    "en": "Before reuse, we will need to convert the data into a machine-readable form.",
+    "zh": "再利用前，我們需要將資料轉換為機器可讀格式。"
+  },
+  {
+    "old_en": "We will provide machine readable, standardized metadata to others and we will use following Metadata Standards:",
+    "old_zh": "我們會向他人提供機器可讀且標準化的後設資料，並使用以下後設資料標準：",
+    "en": "We will provide others with standardized, machine-readable metadata and we will use the following metadata standards:",
+    "zh": "我們會採用以下標準，提供機器可讀的標準化後設資料，供他人使用："
+  },
+  {
+    "old_en": "We will provide machine readable, standardized metadata to others.",
+    "old_zh": "我們會向他人提供機器可讀且標準化的後設資料。",
+    "en": "We will provide others with standardized, machine-readable metadata.",
+    "zh": "我們會提供機器可讀的標準化後設資料，供他人使用。"
+  }
+]
