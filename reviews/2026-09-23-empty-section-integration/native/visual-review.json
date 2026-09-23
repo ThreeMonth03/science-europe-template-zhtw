@@ -1,0 +1,22 @@
+{
+  "scope": "Selected native pages from the actual integrated 0.3.48 packages",
+  "all_pages_manually_reviewed": false,
+  "native_ms_word": false,
+  "release_acceptance": false,
+  "selected_pages": [
+    {"sample":"EMPTY-en-submission","format":"pdf","page":2,"note":"All fifteen questions remain on a readable content page; Q15 is not on an isolated third page."},
+    {"sample":"EMPTY-zh-Hant-submission","format":"pdf","page":2,"note":"Six sections and fifteen questions retained, compact section spacing, no generated missing-answer prompts."},
+    {"sample":"REAL-SNAPSHOT-A-en-submission","format":"pdf","page":2,"note":"Filled prose, links and original answer blocks retain the prototype structure. Existing fixed English grammar still needs a separate change."},
+    {"sample":"REAL-SNAPSHOT-A-zh-Hant-submission","format":"pdf","page":2,"note":"Filled text and section hierarchy retained. This is not acceptance of all Chinese wording or punctuation spacing."},
+    {"sample":"SYN-LONG-en-submission","format":"pdf","page":6,"note":"Last page retains authored tables and Q9 through Q15 without a new sparse seventh page."},
+    {"sample":"SYN-LONG-zh-Hant-submission","format":"pdf","page":4,"note":"Compact empty middle sections retain their questions; Q8 label and restrictions lead remain together. Authored table/list content visible."},
+    {"sample":"SYN-OTHER-zh-Hant-submission","format":"pdf","page":2,"note":"Authored placeholder-like text, list and table retained. Section 4 heading remains with Q7."},
+    {"sample":"SYN-OTHER-en-submission","format":"word_preview","page":2,"note":"LibreOffice preview retains the original table/list and text. No Microsoft Word inspection performed."}
+  ],
+  "remaining_quality_work": [
+    "Q1 fixed English harmonization and machine-readable-conversion wording needs grammar repair.",
+    "Chinese fixed sentence flow, terminology and punctuation spacing need a separate bilingual experiment.",
+    "Do not alter authored answers or infer unfilled positive/negative choices.",
+    "Target DSW server and Microsoft Word acceptance remain separate; no deployment occurred."
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "attempt": "01",
+    "accepted": false,
+    "reason": "Earlier source/checker lock before final regression fixes",
+    "manifest_sha256": "de14f41c0814714b34a03589c324b2de792cb88c75673b68836333397c78dfe1",
+    "checkouts": {
+      "english": {
+        "commit": "993291a60976f8e28e3b5e7607da301814eeb8a0",
+        "dirty": false
+      },
+      "tooling": {
+        "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+        "dirty": false
+      },
+      "translation": {
+        "commit": "30f4eef1d03dc929d0842f54a719ccaee0486aa5",
+        "dirty": false
+      }
+    },
+    "package_sha256": {
+      "english.zip": "460df2d9f584ea76641e90178b39fdbe184480dc59b1eebb636606b4af946bdb",
+      "chinese.zip": "7a2bef5bd26f42c58e3a6c8698bc60d1d10ee1299891c0782611b4332762fa60"
+    }
+  },
+  {
+    "attempt": "02",
+    "accepted": false,
+    "reason": "Earlier source/checker lock before final regression fixes",
+    "manifest_sha256": "f92c9d69f1a8a185117b24ddf9b10b565ae7810f6dd4ae351af75e0d9a0d99c0",
+    "checkouts": {
+      "english": {
+        "commit": "d0d2b0c9d40114a296c680b73ad87ed347250b83",
+        "dirty": false
+      },
+      "tooling": {
+        "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+        "dirty": false
+      },
+      "translation": {
+        "commit": "ea4b3af471725e24aa28947705ba477a34f84cc6",
+        "dirty": false
+      }
+    },
+    "package_sha256": {
+      "english.zip": "460df2d9f584ea76641e90178b39fdbe184480dc59b1eebb636606b4af946bdb",
+      "chinese.zip": "7a2bef5bd26f42c58e3a6c8698bc60d1d10ee1299891c0782611b4332762fa60"
+    }
+  },
+  {
+    "attempt": "03",
+    "accepted": false,
+    "reason": "Earlier source/checker lock before final regression fixes",
+    "manifest_sha256": "f92c9d69f1a8a185117b24ddf9b10b565ae7810f6dd4ae351af75e0d9a0d99c0",
+    "checkouts": {
+      "english": {
+        "commit": "d0d2b0c9d40114a296c680b73ad87ed347250b83",
+        "dirty": false
+      },
+      "tooling": {
+        "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+        "dirty": false
+      },
+      "translation": {
+        "commit": "ea4b3af471725e24aa28947705ba477a34f84cc6",
+        "dirty": false
+      }
+    },
+    "package_sha256": {
+      "english.zip": "460df2d9f584ea76641e90178b39fdbe184480dc59b1eebb636606b4af946bdb",
+      "chinese.zip": "7a2bef5bd26f42c58e3a6c8698bc60d1d10ee1299891c0782611b4332762fa60"
+    }
+  }
+]

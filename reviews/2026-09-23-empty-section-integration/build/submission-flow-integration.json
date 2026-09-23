@@ -1,0 +1,130 @@
+{
+  "passed": true,
+  "source_integrated": true,
+  "release_acceptance": false,
+  "native_integrated_render_checked": false,
+  "historical_scope": true,
+  "comparison_version": "0.3.47",
+  "translation_delta": {
+    "baseline": "6a25bc328a8addc7b7fe644529fe01ebf7538030",
+    "baseline_units": 773,
+    "current_units": 775,
+    "retained_units": 763,
+    "removed": [
+      [
+        "This data are freely available with obligation to quote the source.",
+        "此資料可自由取得，但使用時必須引用來源。"
+      ],
+      [
+        "This data are available with following restrictions: {nrefDataConditionsOtherReply}.",
+        "此資料可在以下限制下取得：{nrefDataConditionsOtherReply}。"
+      ],
+      [
+        "We will use the complete data set.",
+        "我們將使用完整資料集。"
+      ],
+      [
+        "This data are available with restrictions, that will be specified.",
+        "此資料可在限制下取得，限制內容將另行說明。"
+      ],
+      [
+        "This data are freely available for any use.",
+        "此資料可自由取得並用於任何用途。"
+      ],
+      [
+        "The format of this data needs to be transformed before our using.",
+        "使用前需要先轉換此資料的格式。"
+      ],
+      [
+        "This data are fixed, therefore will not influence reproducibility of our results.",
+        "此資料是固定的，因此不會影響研究結果的可重現性。"
+      ],
+      [
+        "This data may change in the future, which might influence reproducibility of our results.",
+        "此資料未來可能變動，進而影響研究結果的可重現性。"
+      ],
+      [
+        "We will use only selected subset of data, which will be available together with our results.",
+        "我們只會使用選定的部分資料，且該部分資料將與研究結果一併提供。"
+      ],
+      [
+        "We will use only subset of data and we will select it by filtering and/or selection (which will be documented).",
+        "我們只會使用部分資料，並會透過篩選及／或選取來決定使用範圍（此過程將加以記錄）。"
+      ]
+    ],
+    "added": [
+      [
+        "Conditions of use.",
+        "使用條件"
+      ],
+      [
+        "The project will reuse a selected subset of the data and make it available with the research results.",
+        "本計畫將使用既有資料中選定的子集，並與研究結果一併提供。"
+      ],
+      [
+        "The project will reuse a subset of the data and document the filtering or selection process.",
+        "本計畫將使用既有資料的子集，並記錄篩選或選取的過程。"
+      ],
+      [
+        "The dataset may change, which could affect the reproducibility of the research results.",
+        "此資料集未來可能變動，進而影響研究結果的可重現性。"
+      ],
+      [
+        "The project will reuse the complete dataset.",
+        "本計畫將使用完整的既有資料集。"
+      ],
+      [
+        "The dataset is fixed, so changes to the source data will not affect the reproducibility of the research results.",
+        "此資料集固定不變，因此研究結果的可重現性不會受來源資料變動影響。"
+      ],
+      [
+        "Use of this dataset is subject to restrictions, which the project will observe.",
+        "使用此資料集須遵守相關限制，本計畫將依其規定使用。"
+      ],
+      [
+        "Information not provided: the specific conditions of use.",
+        "尚待補充：具體的資料使用條件。"
+      ],
+      [
+        "The dataset is freely available for any use.",
+        "此資料集可自由用於任何用途。"
+      ],
+      [
+        "The data format needs to be converted before reuse.",
+        "使用前須先轉換資料格式。"
+      ],
+      [
+        "The dataset is freely available provided that the source is cited.",
+        "此資料集可自由使用，但須註明來源。"
+      ],
+      [
+        "The data can be reused without format conversion.",
+        "資料可直接使用，無須轉換格式。"
+      ]
+    ]
+  },
+  "packages": {
+    "english": {
+      "package_sha256": "460df2d9f584ea76641e90178b39fdbe184480dc59b1eebb636606b4af946bdb",
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "prepared_source_verified": true
+    },
+    "chinese": {
+      "package_sha256": "7a2bef5bd26f42c58e3a6c8698bc60d1d10ee1299891c0782611b4332762fa60",
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "prepared_source_verified": true
+    }
+  },
+  "branch_checks": {
+    "english": {
+      "q1": 1844,
+      "empty_questions": 480
+    },
+    "chinese": {
+      "q1": 1844,
+      "empty_questions": 480
+    }
+  }
+}

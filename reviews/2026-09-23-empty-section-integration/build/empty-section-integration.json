@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "source_integrated": true,
+  "release_acceptance": false,
+  "native_integrated_render_checked": false,
+  "baseline_version": "0.3.47",
+  "version": "0.3.48",
+  "translation_units": 775,
+  "translation_files_unchanged": true,
+  "css_sha256": "11c978d781e49d32f801074188183c271d199d33c7efdce602c8d0d45ab2bbec",
+  "packages": {
+    "english": {
+      "package_sha256": "460df2d9f584ea76641e90178b39fdbe184480dc59b1eebb636606b4af946bdb",
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "prepared_source_verified": true
+    },
+    "chinese": {
+      "package_sha256": "7a2bef5bd26f42c58e3a6c8698bc60d1d10ee1299891c0782611b4332762fa60",
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "prepared_source_verified": true
+    }
+  },
+  "branch_checks": {
+    "english": 396,
+    "chinese": 396
+  }
+}

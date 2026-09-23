@@ -1,0 +1,763 @@
+{
+  "passed": true,
+  "local_only": true,
+  "github_ci_run": false,
+  "workflow_sha256": "808faba824cd79f30689d65963e880bdbc8b58a286a2fc389547b0d8f6a50d36",
+  "clean_candidate_manifest_sha256": "5afdfa9264635dea8c89a4111cfcccb4252a3a74a5640c823e33e610989f1d24",
+  "seconds": 1600.04,
+  "rows": [
+    {
+      "number": 0,
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 738.36,
+      "log": "ci/00.log",
+      "log_sha256": "d36aa47c9e360973153a86a87637b39add686c9796d92379d044c5e20a0f34ac"
+    },
+    {
+      "number": 1,
+      "args": [
+        "scripts/empty_section_spacing_integration.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 33.4,
+      "log": "ci/01.log",
+      "log_sha256": "44c680b1c098da9f517d0b34e3a2103dde3a17b01714e9e5f57e79516f982c45"
+    },
+    {
+      "number": 2,
+      "args": [
+        "../english/scripts/probe_empty_section_spacing.py",
+        "--output",
+        "$SE_BUILD_DIR/empty-section-engine.json"
+      ],
+      "returncode": 0,
+      "seconds": 8.07,
+      "log": "ci/02.log",
+      "log_sha256": "ba78ad0cdf03a8c27d4b9f425df3bb20aa009f4d0c2a87bf4afa4cca844a6435"
+    },
+    {
+      "number": 3,
+      "args": [
+        "scripts/submission_flow_integration.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 148.03,
+      "log": "ci/03.log",
+      "log_sha256": "08bb67e47e11c46ac4652abaf1012e8381332e1d8e31ea73aeedc05e7c803010"
+    },
+    {
+      "number": 4,
+      "args": [
+        "../english/scripts/probe_submission_flow_word.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--output",
+        "$SE_BUILD_DIR/submission-flow-engine-en.json"
+      ],
+      "returncode": 0,
+      "seconds": 8.73,
+      "log": "ci/04.log",
+      "log_sha256": "b16169964355c0c0e8a577271a1fbcbcdfe61d00522767fdeaf45b7abca7447f"
+    },
+    {
+      "number": 5,
+      "args": [
+        "../english/scripts/probe_submission_flow_word.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--output",
+        "$SE_BUILD_DIR/submission-flow-engine-zh.json"
+      ],
+      "returncode": 0,
+      "seconds": 7.57,
+      "log": "ci/05.log",
+      "log_sha256": "b16169964355c0c0e8a577271a1fbcbcdfe61d00522767fdeaf45b7abca7447f"
+    },
+    {
+      "number": 6,
+      "args": [
+        "scripts/full_km_followups_integration.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 14.3,
+      "log": "ci/06.log",
+      "log_sha256": "4fa61b2b85352a57e91504dd01d475bfc27f01f6b44d86ca644bdfbc18db34bc"
+    },
+    {
+      "number": 7,
+      "args": [
+        "../english/scripts/probe_identifier_spacing.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--preflight-only",
+        "--output",
+        "$SE_BUILD_DIR/identifier-spacing-preflight.json"
+      ],
+      "returncode": 0,
+      "seconds": 0.27,
+      "log": "ci/07.log",
+      "log_sha256": "19ea9ef8658e4e5bbb03468b85e3f8167117796bf4017cf8daf2a79da08688a8"
+    },
+    {
+      "number": 8,
+      "args": [
+        "scripts/probe_format_translation.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 0.62,
+      "log": "ci/08.log",
+      "log_sha256": "778f0ce1959822fa2590f2d53c75f4c6aa24403277fd0e59e8acea84ef420237"
+    },
+    {
+      "number": 9,
+      "args": [
+        "scripts/probe_sharing_translation.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 1.17,
+      "log": "ci/09.log",
+      "log_sha256": "b486767096ac7f5d139644332250b9fc4908899fc8f54152c8e2b5a6889eb481"
+    },
+    {
+      "number": 10,
+      "args": [
+        "scripts/probe_preservation_translation.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 1.97,
+      "log": "ci/10.log",
+      "log_sha256": "da9234615abda7250511621333d1a86ebdec3ca2171797eb676287cf04004931"
+    },
+    {
+      "number": 11,
+      "args": [
+        "scripts/probe_answer_states.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 1.18,
+      "log": "ci/11.log",
+      "log_sha256": "7c71d3c95c147e318aeccd7420a9f664d9071c8b9f49caa27530da2cf7c160b1"
+    },
+    {
+      "number": 12,
+      "args": [
+        "scripts/probe_repository_reading.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 1.39,
+      "log": "ci/12.log",
+      "log_sha256": "408d7bc19d193dc603a184d070b6dc7b29483cf76f69720bde4ea07d7229ff41"
+    },
+    {
+      "number": 13,
+      "args": [
+        "scripts/probe_contact_translation.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 1.37,
+      "log": "ci/13.log",
+      "log_sha256": "9d6a000edd4ab35c00170535ba09c968925d85930e0ad783a649d830fa172c5f"
+    },
+    {
+      "number": 14,
+      "args": [
+        "scripts/probe_paper_translation.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 1.27,
+      "log": "ci/14.log",
+      "log_sha256": "d80fedb0d91616237c01ca4dd677d60e44d861d57f0beb4b5993dab436f3b6fd"
+    },
+    {
+      "number": 15,
+      "args": [
+        "scripts/probe_identifier_translation.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 15.24,
+      "log": "ci/15.log",
+      "log_sha256": "441c18a631247f15b4c5e6ae7a08b4982bf26108d9a93b51af567c13071da102"
+    },
+    {
+      "number": 16,
+      "args": [
+        "scripts/probe_missing_info_translation.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 1.72,
+      "log": "ci/16.log",
+      "log_sha256": "9f947f555c54687a647d174e8053c4a4fba902f0f40aa6629b431c43dd048b47"
+    },
+    {
+      "number": 17,
+      "args": [
+        "scripts/probe_personal_data_translation.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 14.09,
+      "log": "ci/17.log",
+      "log_sha256": "36d2600ac3e2e93c6db2887accc6b05261b7dba691f102232d75f13842e3a1fd"
+    },
+    {
+      "number": 18,
+      "args": [
+        "scripts/probe_missing_info_group.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 13.29,
+      "log": "ci/18.log",
+      "log_sha256": "7779db5d2f631adb11b45f35806834ba7d069ff16e6f053816e600b869b1ae4b"
+    },
+    {
+      "number": 19,
+      "args": [
+        "../english/scripts/probe_budget_word.py",
+        "--output",
+        "$SE_BUILD_DIR/budget-word-probe.json"
+      ],
+      "returncode": 0,
+      "seconds": 5.24,
+      "log": "ci/19.log",
+      "log_sha256": "2c56868edbe24a4e656eddfa737fa8795300fe6f75f126c4e0f6b0329a59b67b"
+    },
+    {
+      "number": 20,
+      "args": [
+        "../english/scripts/probe_q8_word.py",
+        "--output",
+        "$SE_BUILD_DIR/q8-word-probe.json"
+      ],
+      "returncode": 0,
+      "seconds": 4.87,
+      "log": "ci/20.log",
+      "log_sha256": "6f9c93be0659ce9f5f30b7430812e1b055ad74bcc7c4cf2596ebed9978e79ec4"
+    },
+    {
+      "number": 21,
+      "args": [
+        "../english/scripts/probe_q9_word.py",
+        "--output",
+        "$SE_BUILD_DIR/q9-word-probe.json"
+      ],
+      "returncode": 0,
+      "seconds": 5.45,
+      "log": "ci/21.log",
+      "log_sha256": "9bcafc43df866cd3c522d37d255f9cc8dd9e23229b0e511c65f9fbf553b3f614"
+    },
+    {
+      "number": 22,
+      "args": [
+        "scripts/submission_reading_integration.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 8.66,
+      "log": "ci/22.log",
+      "log_sha256": "33659379e326bb1e907d93ad10ff023b733f590a93c546b6e11f018c23623a88"
+    },
+    {
+      "number": 23,
+      "args": [
+        "scripts/probe_submission_reading.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 248.63,
+      "log": "ci/23.log",
+      "log_sha256": "79ed2d41fdf5b337c497a9cfc7a69aca8a836618deb3deb875a8af01ff7bd34a"
+    },
+    {
+      "number": 24,
+      "args": [
+        "scripts/probe_submission_preview.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 132.08,
+      "log": "ci/24.log",
+      "log_sha256": "3fca1c409158a5bbc1a767be1e12fc00986826a4c10b5d48941fe9926ca2bf1e"
+    },
+    {
+      "number": 25,
+      "args": [
+        "scripts/probe_metadata_gap_prose_scope.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english",
+        "--output-profiles",
+        "--preservation-reading",
+        "--short-resources",
+        "--resource-prose",
+        "--short-resource-rows",
+        "--budget-grouping",
+        "--submission-preview"
+      ],
+      "returncode": 0,
+      "seconds": 166.4,
+      "log": "ci/25.log",
+      "log_sha256": "0fe374ec8772cc5c3be1fc3a1f3a0fd9514105c333c93c84c22ab035d7f37758"
+    },
+    {
+      "number": 26,
+      "args": [
+        "scripts/probe_resource_prose_translation.py",
+        "--build",
+        "$SE_BUILD_DIR",
+        "--english",
+        "../english"
+      ],
+      "returncode": 0,
+      "seconds": 4.9,
+      "log": "ci/26.log",
+      "log_sha256": "2d062d6b53184a2a3c1dbcc8af1d0ee0d5f05e842fc65f471cb317f4c0c24ee6"
+    },
+    {
+      "number": 27,
+      "args": [
+        "../english/scripts/probe_short_resource_rows.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--engine",
+        "--output",
+        "$SE_BUILD_DIR/short-resource-rows-engine-en.json"
+      ],
+      "returncode": 0,
+      "seconds": 243.68,
+      "log": "ci/27.log",
+      "log_sha256": "6f6ff61f4550135a8c0e3cc87fba5824db8ffd57e280a77d2abf89d7e5f77f11"
+    },
+    {
+      "number": 28,
+      "args": [
+        "../english/scripts/probe_short_resource_rows.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--engine",
+        "--output",
+        "$SE_BUILD_DIR/short-resource-rows-engine-zh.json"
+      ],
+      "returncode": 0,
+      "seconds": 238.72,
+      "log": "ci/28.log",
+      "log_sha256": "6f6ff61f4550135a8c0e3cc87fba5824db8ffd57e280a77d2abf89d7e5f77f11"
+    },
+    {
+      "number": 29,
+      "args": [
+        "../english/scripts/probe_short_resources.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--engine",
+        "--output",
+        "$SE_BUILD_DIR/short-resources-engine-en.json"
+      ],
+      "returncode": 0,
+      "seconds": 884.77,
+      "log": "ci/29.log",
+      "log_sha256": "04e9f71993e5af89f2a6409ea90b89656379a22a9e5c5aae9d7abdf40e6983b6"
+    },
+    {
+      "number": 30,
+      "args": [
+        "../english/scripts/probe_short_resources.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--engine",
+        "--output",
+        "$SE_BUILD_DIR/short-resources-engine-zh.json"
+      ],
+      "returncode": 0,
+      "seconds": 886.66,
+      "log": "ci/30.log",
+      "log_sha256": "04e9f71993e5af89f2a6409ea90b89656379a22a9e5c5aae9d7abdf40e6983b6"
+    },
+    {
+      "number": 31,
+      "args": [
+        "../english/scripts/probe_preservation_reading.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--output",
+        "$SE_BUILD_DIR/preservation-reading-engine-en.json"
+      ],
+      "returncode": 0,
+      "seconds": 8.99,
+      "log": "ci/31.log",
+      "log_sha256": "81aa9a4e61642c9f42a029955d7e897083e34a5273c2c7bd1ea1abeb809a70b3"
+    },
+    {
+      "number": 32,
+      "args": [
+        "../english/scripts/probe_preservation_reading.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--output",
+        "$SE_BUILD_DIR/preservation-reading-engine-zh.json"
+      ],
+      "returncode": 0,
+      "seconds": 7.78,
+      "log": "ci/32.log",
+      "log_sha256": "81aa9a4e61642c9f42a029955d7e897083e34a5273c2c7bd1ea1abeb809a70b3"
+    },
+    {
+      "number": 33,
+      "args": [
+        "../english/scripts/probe_storage_context.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--output",
+        "$SE_BUILD_DIR/storage-context-engine-en.json"
+      ],
+      "returncode": 0,
+      "seconds": 238.52,
+      "log": "ci/33.log",
+      "log_sha256": "3bfce335b9b8bf228d26ce611c79ec9430ea80f20bee0feff6b3cf40e77ef76f"
+    },
+    {
+      "number": 34,
+      "args": [
+        "../english/scripts/probe_storage_context.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--output",
+        "$SE_BUILD_DIR/storage-context-engine-zh.json"
+      ],
+      "returncode": 0,
+      "seconds": 274.13,
+      "log": "ci/34.log",
+      "log_sha256": "3bfce335b9b8bf228d26ce611c79ec9430ea80f20bee0feff6b3cf40e77ef76f"
+    },
+    {
+      "number": 35,
+      "args": [
+        "../english/scripts/probe_q5_word_join.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--output",
+        "$SE_BUILD_DIR/q5-word-join-engine-en.json"
+      ],
+      "returncode": 0,
+      "seconds": 2.92,
+      "log": "ci/35.log",
+      "log_sha256": "02610fa12b39fdaf610160ace70b19b6b11e22e8e5f2d82f4b83d7c79c416ee8"
+    },
+    {
+      "number": 36,
+      "args": [
+        "../english/scripts/probe_q5_word_join.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--output",
+        "$SE_BUILD_DIR/q5-word-join-engine-zh.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.12,
+      "log": "ci/36.log",
+      "log_sha256": "02610fa12b39fdaf610160ace70b19b6b11e22e8e5f2d82f4b83d7c79c416ee8"
+    },
+    {
+      "number": 37,
+      "args": [
+        "../english/scripts/probe_metadata_gap_prose.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--output",
+        "$SE_BUILD_DIR/metadata-gap-prose-engine-en.json"
+      ],
+      "returncode": 0,
+      "seconds": 448.17,
+      "log": "ci/37.log",
+      "log_sha256": "03af555f8bbb81d144bf5335474dbff08e5540fa10c90ab033e5c403e8c88cd7"
+    },
+    {
+      "number": 38,
+      "args": [
+        "../english/scripts/probe_metadata_gap_prose.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--frozen",
+        "tests/fixtures/metadata-0.3.36.zh-Hant.html.j2",
+        "--language",
+        "chinese",
+        "--output",
+        "$SE_BUILD_DIR/metadata-gap-prose-engine-zh.json"
+      ],
+      "returncode": 0,
+      "seconds": 469.94,
+      "log": "ci/38.log",
+      "log_sha256": "03af555f8bbb81d144bf5335474dbff08e5540fa10c90ab033e5c403e8c88cd7"
+    },
+    {
+      "number": 39,
+      "args": [
+        "../english/scripts/probe_archive_gap_panels.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--output",
+        "$SE_BUILD_DIR/archive-gap-engine-english.json"
+      ],
+      "returncode": 0,
+      "seconds": 286.28,
+      "log": "ci/39.log",
+      "log_sha256": "9f107fa976c83b64779dc8cb1155f246990a817ce3ffb0a17018b49f3f246601"
+    },
+    {
+      "number": 40,
+      "args": [
+        "../english/scripts/probe_archive_gap_panels.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--output",
+        "$SE_BUILD_DIR/archive-gap-engine-chinese.json"
+      ],
+      "returncode": 0,
+      "seconds": 287.86,
+      "log": "ci/40.log",
+      "log_sha256": "9f107fa976c83b64779dc8cb1155f246990a817ce3ffb0a17018b49f3f246601"
+    },
+    {
+      "number": 41,
+      "args": [
+        "../english/scripts/probe_identifier_spacing.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--output",
+        "$SE_BUILD_DIR/identifier-spacing-engine.json"
+      ],
+      "returncode": 0,
+      "seconds": 108.24,
+      "log": "ci/41.log",
+      "log_sha256": "f85f94f2d36f0f95de24d9b48c46d5b0cc3c518757efe2118adf0e1f15d0b9c2"
+    },
+    {
+      "number": 42,
+      "args": [
+        "../english/scripts/probe_word_short_budget.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--output",
+        "$SE_BUILD_DIR/word-short-budget-english.json"
+      ],
+      "returncode": 0,
+      "seconds": 8.14,
+      "log": "ci/42.log",
+      "log_sha256": "463b4ae88896c3e0cb96db332dcad59efb903304fe1247b5f74eb2257d762593"
+    },
+    {
+      "number": 43,
+      "args": [
+        "../english/scripts/probe_word_short_budget.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--output",
+        "$SE_BUILD_DIR/word-short-budget-chinese.json"
+      ],
+      "returncode": 0,
+      "seconds": 8.74,
+      "log": "ci/43.log",
+      "log_sha256": "463b4ae88896c3e0cb96db332dcad59efb903304fe1247b5f74eb2257d762593"
+    },
+    {
+      "number": 44,
+      "args": [
+        "../english/scripts/probe_short_budget.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--output",
+        "$SE_BUILD_DIR/short-budget-english.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.82,
+      "log": "ci/44.log",
+      "log_sha256": "1cf3062832f643a5a540b26739900f94e87e946a12833062aecc679470234dda"
+    },
+    {
+      "number": 45,
+      "args": [
+        "../english/scripts/probe_short_budget.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--output",
+        "$SE_BUILD_DIR/short-budget-chinese.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.82,
+      "log": "ci/45.log",
+      "log_sha256": "1cf3062832f643a5a540b26739900f94e87e946a12833062aecc679470234dda"
+    },
+    {
+      "number": 46,
+      "args": [
+        "../english/scripts/probe_empty_pdf.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/en",
+        "--output",
+        "$SE_BUILD_DIR/empty-pdf-probe-english.json"
+      ],
+      "returncode": 0,
+      "seconds": 80.77,
+      "log": "ci/46.log",
+      "log_sha256": "38539e2cd2f62f0c13cfb847b05b10def46cbd1cda8d4b4a43e465c0e6df1742"
+    },
+    {
+      "number": 47,
+      "args": [
+        "../english/scripts/probe_empty_pdf.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--output",
+        "$SE_BUILD_DIR/empty-pdf-probe-chinese.json"
+      ],
+      "returncode": 0,
+      "seconds": 84.2,
+      "log": "ci/47.log",
+      "log_sha256": "38539e2cd2f62f0c13cfb847b05b10def46cbd1cda8d4b4a43e465c0e6df1742"
+    },
+    {
+      "number": 48,
+      "args": [
+        "../english/scripts/probe_long_budget_word.py",
+        "--output",
+        "$SE_BUILD_DIR/long-budget-word-probe.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.22,
+      "log": "ci/48.log",
+      "log_sha256": "cfbd2b37b6065a528c87b95b756bad849664e90692692f86158b158a7b0b0df6"
+    },
+    {
+      "number": 49,
+      "args": [
+        "../english/scripts/probe_budget_pdf.py",
+        "--output",
+        "$SE_BUILD_DIR/budget-pdf-probe.json"
+      ],
+      "returncode": 0,
+      "seconds": 2.67,
+      "log": "ci/49.log",
+      "log_sha256": "88886d78d44fda33e92f5600a8b082a855322840f72441aeb14e90b3c41d7b01"
+    },
+    {
+      "number": 50,
+      "args": [
+        "../english/scripts/probe_pdf_budget_reading.py",
+        "--engine",
+        "--output",
+        "$SE_BUILD_DIR/pdf-budget-reading-probe-english.json"
+      ],
+      "returncode": 0,
+      "seconds": 53.56,
+      "log": "ci/50.log",
+      "log_sha256": "693b041a5d59bdac7cfc7e6ff33fe7af2fb59d64f86f78538cbab8d24f24ad9f"
+    },
+    {
+      "number": 51,
+      "args": [
+        "../english/scripts/probe_pdf_budget_reading.py",
+        "--source-dir",
+        "$SE_BUILD_DIR/translated",
+        "--prior-question",
+        "tests/fixtures/budget-0.3.18.zh-Hant.html.j2",
+        "--output",
+        "$SE_BUILD_DIR/pdf-budget-reading-probe-chinese.json"
+      ],
+      "returncode": 0,
+      "seconds": 21.83,
+      "log": "ci/51.log",
+      "log_sha256": "727be2462e4d1477c73c493e718ca78d27fb0824c341ec76bea1c23c8678e4f7"
+    }
+  ],
+  "english_clean_make_check": {
+    "passed": true,
+    "unit_tests": 253,
+    "tdk_verified": true,
+    "exit_code": 0,
+    "only_declared_requirements_installed": true,
+    "log_sha256": "a582e5e84e6c9378eabf55a8a696ae67a8d80d5503eafbb4142888d7914561d8"
+  },
+  "chinese_unit_tests": 461,
+  "initial_failed_unit_run": {
+    "failures": 3,
+    "log_sha256": "6eebf4d90da3907e86e00262cbdec5f636968a71cca0721c1ef42871deae6789",
+    "causes": [
+      "Two historical CSS diagnostics append a retired block after current CSS",
+      "Version-mutation control accidentally used newly valid 0.3.48"
+    ],
+    "original_failure_retained": true,
+    "production_css_changed_after_first_build": false
+  }
+}
