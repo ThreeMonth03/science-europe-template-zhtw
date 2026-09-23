@@ -54,7 +54,7 @@ def integrated_package(language,timestamp):
     return result
 
 def project_package(candidate,language,timestamp):
-    if candidate['version']=='0.3.48':
+    if candidate['version'] in ['0.3.48','0.3.49']:
         from empty_section_spacing_integration import project_package as before_sections
         candidate=before_sections(candidate,language,timestamp)
     assert candidate==integrated_package(language,timestamp),'Unreviewed content, identity, UUID or conversion step'
@@ -95,7 +95,7 @@ def check(build,english,preview=False):
     project_source()
     manifest=json.loads((build/'manifest.json').read_text())
     assert manifest['status']==('preview' if preview else 'candidate')
-    assert manifest['source']['version']==manifest['translation']['version'] and manifest['source']['version'] in ['0.3.47','0.3.48']
+    assert manifest['source']['version']==manifest['translation']['version'] and manifest['source']['version'] in ['0.3.47','0.3.48','0.3.49']
     if not preview:
         assert all(not v['dirty'] for v in manifest['checkouts'].values())
         head=subprocess.check_output(['git','-C',str(english),'rev-parse','HEAD'],text=True).strip()
@@ -121,7 +121,7 @@ def check(build,english,preview=False):
             empty_questions=len(spacing.check(english,before,current)))
         assert branches[language]==dict(q1=1844,empty_questions=480)
     return dict(passed=True,source_integrated=True,release_acceptance=False,native_integrated_render_checked=False,
-        historical_scope=manifest['source']['version']=='0.3.48',comparison_version='0.3.47',
+        historical_scope=manifest['source']['version'] in ['0.3.48','0.3.49'],comparison_version='0.3.47',
         translation_delta=chain['submission_flow'],packages=results,branch_checks=branches)
 
 if __name__=='__main__':

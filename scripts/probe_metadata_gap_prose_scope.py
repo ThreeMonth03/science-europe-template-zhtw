@@ -167,15 +167,15 @@ def main():
             checks[-1]['submission_preview_delta'] = {'baseline_version': '0.3.43', 'version': '0.3.44',
                 'historical_checks_use_exact_verified_source_view': True,
                 'current_behavior_checker': 'scripts/probe_submission_preview.py'}
-            if current['source']['version'] in ['0.3.45', '0.3.46', '0.3.47', '0.3.48']:
+            if current['source']['version'] in ['0.3.45', '0.3.46', '0.3.47', '0.3.48', '0.3.49']:
                 checks[-1]['submission_reading_delta'] = {'baseline_version': '0.3.44', 'version': '0.3.45',
                     'historical_checks_use_exact_verified_source_view': True,
                     'current_behavior_checker': 'scripts/probe_submission_reading.py'}
-            if current['source']['version'] in ['0.3.46', '0.3.47', '0.3.48']:
+            if current['source']['version'] in ['0.3.46', '0.3.47', '0.3.48', '0.3.49']:
                 checks[-1]['full_km_followups_delta'] = {'baseline_version': '0.3.45', 'version': '0.3.46',
                     'historical_checks_use_exact_verified_source_view': True,
                     'current_behavior_checker': 'scripts/full_km_followups_integration.py'}
-            if current['source']['version'] in ['0.3.47', '0.3.48']:
+            if current['source']['version'] in ['0.3.47', '0.3.48', '0.3.49']:
                 checks[-1]['submission_flow_delta'] = {'baseline_version': '0.3.46', 'version': '0.3.47',
                     'historical_checks_use_exact_verified_source_view': True,
                     'current_behavior_checker': 'scripts/submission_flow_integration.py'}

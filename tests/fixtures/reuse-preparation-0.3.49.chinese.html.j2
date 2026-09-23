@@ -1,0 +1,418 @@
+<div id="q-how-data" class="question" data-requirement-id="SE-1a">
+  {# __tr_block_0000:start #}<h3>1. 新資料將如何蒐集或產生？既有資料又將如何被再次使用？</h3>{# __tr_block_0000:end #}
+
+  <div class="answer">
+
+  
+  {%- set measuredPath = [uuids.creatingCUuid, uuids.measuredQUuid]|reply_path -%}
+  {%- set measuredAUuid = repliesMap[measuredPath]|reply_str_value -%}
+  {%- if measuredAUuid == uuids.measuredYesAUuid -%}
+    {# Measured datasets #}
+    {%- set measuredDataPath = [measuredPath, uuids.measuredYesAUuid, uuids.measuredDataQUuid]|reply_path -%}
+    {%- set measuredDataItems = repliesMap[measuredDataPath]|reply_items -%}
+    {%- if measuredDataItems|length > 0 -%}
+      {# __tr_block_0001:start #}<h4>儀器資料集</h4>{# __tr_block_0001:end #}
+      <ul>
+        {%- for datasetItem in measuredDataItems -%}
+          {%- set pathPrefix = [measuredDataPath, datasetItem]|reply_path -%}
+          {# __tr_block_0002:start #}<li data-item-id="{{ pathPrefix }}">
+            {%- set measuredDataNamePath = [pathPrefix, uuids.measuredDataNameQUuid]|reply_path -%}
+            {%- set measuredDataName = repliesMap[measuredDataNamePath]|reply_str_value -%}
+            <h5>{% if output_profile|default('review') == 'submission' and not measuredDataName %}{{ macros.datasetLabel(macros.DATASET_INSTRUMENT, measuredDataItems.index(datasetItem) + 1) }}{% else %}{# __tr_inline_if_original:e3sgbWVhc3VyZWREYXRhTmFtZSBpZiBtZWFzdXJlZERhdGFOYW1lIGVsc2UgIihubyBuYW1lIGdpdmVuKSIgfX0= #}{% if measuredDataName %}{{ measuredDataName }}{% else %}（名稱尚未提供）{% endif %}{# __tr_inline_if_original:end #}{% endif %}{# __tr_block_0002:end #}</h5>
+            {# Instruments #}
+            {%- set measuredDataInstrPath = [pathPrefix, uuids.measuredDataInstrQUuid]|reply_path -%}
+            {%- set measuredDataInstrItems = repliesMap[measuredDataInstrPath]|reply_items -%}
+            {%- if measuredDataInstrItems|length > 0 -%}
+              {# __tr_block_0003:start #}<p>針對此資料集，我們將使用以下儀器：</p>{# __tr_block_0003:end #}
+              <ul>
+                {%- for instrItem in measuredDataInstrItems -%}
+                  {%- set instrPathPrefix = [measuredDataInstrPath, instrItem]|reply_path -%}
+                  <li>
+                    {%- set measuredDataInstrNamePath = [instrPathPrefix, uuids.measuredDataInstrNameQUuid]|reply_path -%}
+                    {%- set measuredDataInstrName = repliesMap[measuredDataInstrNamePath]|reply_str_value -%}
+                    {%- set measuredDataInstrDescPath = [instrPathPrefix, uuids.measuredDataInstrDescQUuid]|reply_path -%}
+                    {%- set measuredDataInstrDesc = repliesMap[measuredDataInstrDescPath]|reply_str_value -%}
+                    <strong>{{ measuredDataInstrName }}</strong>
+                    {% if measuredDataInstrName and measuredDataInstrDesc -%}<span class="separator">&ndash;</span>{%- endif %}
+                    {{ measuredDataInstrDesc }}
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- else -%}
+              {% if output_profile|default('review') != 'submission' %}{# __tr_block_0004:start #}<p>尚未指定此資料集使用的儀器。</p>{# __tr_block_0004:end #}{% endif %}
+            {%- endif -%}
+            {% include "src/quality-control.html.j2" with context %}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- else -%}
+      {% if output_profile|default('review') != 'submission' %}{# __tr_block_0005:start #}<p class="data-gap" data-requirement-id="SE-1a" data-fact-id="collection-methods" data-status="missing">尚待補充：將蒐集或產生的資料集，以及使用的方法、儀器或軟體。</p>{# __tr_block_0005:end #}{% endif %}
+    {%- endif -%}
+  {%- elif measuredAUuid == uuids.measuredNoAUuid -%}
+    {# __tr_block_0006:start #}<p data-requirement-id="SE-1a" data-fact-id="new-data" data-status="explicit-no">本計畫不會產生新的儀器資料集。</p>{# __tr_block_0006:end #}
+  {%- else -%}
+    {% if output_profile|default('review') != 'submission' %}{# __tr_block_0007:start #}<p class="data-gap" data-requirement-id="SE-1a" data-fact-id="new-data" data-status="missing">尚待補充：本計畫是否將蒐集或產生新的儀器資料。</p>{# __tr_block_0007:end #}{% endif %}
+  {%- endif -%}
+
+ {# Existing datasets #}
+  {%- set preexistingPath = [uuids.reusingCUuid, uuids.preexistingQUuid]|reply_path -%}
+  {%- set preexistingAUuid = repliesMap[preexistingPath]|reply_str_value -%}
+  {%- if preexistingAUuid == uuids.preexistingYesAUuid -%}
+    {%- set refDataPath = [preexistingPath, uuids.preexistingYesAUuid, uuids.refDataQUuid]|reply_path -%}
+    {%- set refDataItems = repliesMap[refDataPath]|reply_items -%}
+    {%- set nrefDataPath = [preexistingPath, uuids.preexistingYesAUuid, uuids.nrefDataQUuid]|reply_path -%}
+    {%- set nrefDataItems = repliesMap[nrefDataPath]|reply_items -%}
+
+    {# Share only identical, fully specified rules for selected reference data.
+       Free answers, unknown conditions and non-reference scopes stay separate. #}
+    {% set referencePolicies = namespace(signatures=[], names=[], content='') %}
+    {% for item in refDataItems %}
+      {% set itemPath = [refDataPath, item]|reply_path %}
+      {% set usePath = [itemPath, uuids.refDataUseQUuid]|reply_path %}
+      {% if repliesMap[usePath]|reply_str_value == uuids.refDataUseYesAUuid %}
+        {% set usedPath = [usePath, uuids.refDataUseYesAUuid]|reply_path %}
+        {% set reproduction = repliesMap[[usedPath, uuids.refDataReproduceQUuid]|reply_path]|reply_str_value %}
+        {% set conditions = repliesMap[[usedPath, uuids.refDataConditionsQUuid]|reply_path]|reply_str_value %}
+        {% set format = repliesMap[[usedPath, uuids.refDataFormatQUuid]|reply_path]|reply_str_value %}
+        {% set name = repliesMap[[itemPath, uuids.refDataNameQUuid]|reply_path]|reply_str_value %}
+        {% set known = name and reproduction in [uuids.refDataReproduceProviderAUuid, uuids.refDataReproduceCopyAUuid, uuids.refDataReproduceBothAUuid] and conditions in [uuids.refDataConditionsCC0AUuid, uuids.refDataConditionsCCBYAUuid] and format in [uuids.refDataFormatConvertAUuid, uuids.refDataFormatUseAUuid] %}
+        {% do referencePolicies.signatures.append([reproduction, conditions, format] if known else [item]) %}
+        {% do referencePolicies.names.append(name) %}
+      {% endif %}
+    {% endfor %}
+    {% set sharedReferencePolicy = referencePolicies.signatures|length > 1 and referencePolicies.signatures|select('equalto', referencePolicies.signatures[0])|list|length == referencePolicies.signatures|length %}
+
+    {%- if (refDataItems|length > 0) or (nrefDataItems|length > 0) -%}
+      <div>
+      {# __tr_block_0008:start #}<h4>再次使用的資料集</h4>{# __tr_block_0008:end #}
+      <ul class="dataset-list">
+      {# Reference Data #}
+        {%- for refDataItem in refDataItems -%}
+          {# __tr_block_0009:start #}<li data-item-id="{{ refDataItem }}">
+          {%- set refDataPrefix = [refDataPath, refDataItem]|reply_path -%}
+          {%- set refDataUse = [refDataPrefix, uuids.refDataUseQUuid]|reply_path -%}
+          {%- set refDataUseReply = repliesMap[refDataUse]|reply_str_value -%}
+          {%- set refDataUsedPrefix = [refDataUse, uuids.refDataUseYesAUuid]|reply_path -%}
+          {%- set refDataNameReply = repliesMap[[refDataPrefix, uuids.refDataNameQUuid]|reply_path]|reply_str_value -%}
+
+          {%- set refDataWhere = repliesMap[[refDataPrefix, uuids.refDataWhereQUuid]|reply_path]|reply_str_value -%}
+
+          {%- if refDataNameReply -%}
+            <h5>{{ refDataNameReply }}</h5>
+          {%- else -%}
+            {% if output_profile|default('review') == 'submission' %}<strong>{{ macros.datasetLabel(macros.DATASET_REFERENCE, refDataItems.index(refDataItem) + 1) }}</strong>{% else %}<strong>（名稱尚未提供）</strong>{% endif %}
+          {%- endif -%}
+          
+          {# Reference data set will be used #}
+          {%- if refDataUseReply == uuids.refDataUseYesAUuid  %}
+
+            {# identification #}
+            <div data-fact-id="reuse-decision" data-status="complete">
+            {% if refDataWhere %}
+              {% if refDataWhere.startswith("https://") or refDataWhere.startswith("http://") or refDataWhere.startswith("ftp://") %}
+              <p class="dataset-source" data-fact-id="dataset-source" data-status="complete">資料來源：<a href="{{ refDataWhere }}">{{ refDataWhere }}</a></p>
+            {% else %}
+              <p data-fact-id="dataset-source" data-status="complete">資料來源：{{ refDataWhere }}</p>
+            {% endif %}
+            {% else %}
+              {% if output_profile|default('review') != 'submission' %}<p class="data-gap" data-fact-id="dataset-source" data-status="missing">尚待補充：資料集的取得來源。</p>{% endif %}
+            {% endif %}
+            {%- set refDataUsageQ = [refDataUsedPrefix, uuids.refDataUsageQUuid]|reply_path -%}
+            {%- set refDataUsageReply = repliesMap[refDataUsageQ]|reply_str_value -%}
+            {% if refDataUsageReply %}
+              <div class="answer-detail" data-fact-id="reuse-purpose" data-status="complete">
+                {{ refDataUsageReply|markdown }}
+              </div>
+            {% else %}
+              {% if output_profile|default('review') != 'submission' %}<p class="data-gap" data-fact-id="reuse-purpose" data-status="missing">尚待補充：使用此資料集的目的。</p>{% endif %}
+            {% endif %}
+
+            {# version #}
+            {%- set refDataVersionedPath = [refDataUsedPrefix, uuids.refDataVersionedQUuid]|reply_path -%}
+            {%- set refDataVersionedAUuid = repliesMap[refDataVersionedPath]|reply_str_value -%}
+            {%- if refDataVersionedAUuid == uuids.refDataVersionedYesAUuid -%}
+              {%- set refDataVersionedWhichPath = [refDataVersionedPath, uuids.refDataVersionedYesAUuid, uuids.refDataVersionedWhichQUuid]|reply_path -%}
+              {%- set refDataVersionedWhich = repliesMap[refDataVersionedWhichPath]|reply_str_value -%}
+              {%- set refDataVersionedChangePath = [refDataVersionedPath, uuids.refDataVersionedYesAUuid, uuids.refDataVersionedChangeQUuid]|reply_path -%}
+              {%- set refDataVersionedChangeAUuid = repliesMap[refDataVersionedChangePath]|reply_str_value -%}
+              {% if refDataVersionedWhich %}
+                <table class="dataset-version" data-fact-id="dataset-version" data-status="complete">
+                  <tbody><tr><th scope="row">使用版本</th><td>{{ refDataVersionedWhich|markdown }}</td></tr></tbody>
+                </table>
+              {% else %}
+                {% if output_profile|default('review') != 'submission' %}<p class="data-gap" data-fact-id="dataset-version" data-status="missing">尚待補充：將使用的資料集版本。</p>{% endif %}
+              {% endif %}
+              {% if refDataVersionedChangeAUuid == uuids.refDataVersionedChangeStayAUuid %}
+                <p>即使計畫期間發布新版，仍使用原定版本。</p>
+              {% elif refDataVersionedChangeAUuid == uuids.refDataVersionedChangeNewAUuid %}
+                <p>若計畫期間發布新版，後續分析將改用新版資料。</p>
+              {% elif refDataVersionedChangeAUuid == uuids.refDataVersionedChangeAllAUuid %}
+                <p>若計畫期間發布新版，將以新版資料重新進行所有分析。</p>
+              {% else %}
+                {% if output_profile|default('review') != 'submission' %}<p class="data-gap" data-fact-id="dataset-version-policy" data-status="missing">尚待補充：資料集發布新版本時的處理方式。</p>{% endif %}
+              {% endif %}
+            {%- endif -%}
+
+            {% set referencePolicy %}
+            {# availability of the standard reference data for future results reproduction #}
+            {%- set refDataReproduce = [refDataUsedPrefix, uuids.refDataReproduceQUuid]|reply_path -%}
+            {%- set refDataReproduceReply = repliesMap[refDataReproduce]|reply_str_value -%}
+            <div class="dataset-policy">
+            <p>{%- if refDataReproduceReply == uuids.refDataReproduceProviderAUuid -%}資料提供者將長期提供此資料集。{%- elif refDataReproduceReply == uuids.refDataReproduceCopyAUuid  -%}本計畫將保留資料副本，與研究結果一併提供。{%- elif refDataReproduceReply == uuids.refDataReproduceBothAUuid -%}資料提供者將長期提供此資料集；本計畫也將保留副本，與研究結果一併提供。
+            {%- endif -%}
+            </p>
+
+            {# licence #}
+            {%- set refDataConditions = [refDataUsedPrefix, uuids.refDataConditionsQUuid]|reply_path -%}
+            {%- set refDataConditionsReply = repliesMap[refDataConditions]|reply_str_value -%}
+            {%- set refDataConditionsOther = [refDataConditions, uuids.refDataConditionsOtherAUuid, uuids.refDataConditionsOtherQUuid]|reply_path -%}
+            {%- set refDataConditionsOtherReply = repliesMap[refDataConditionsOther]|reply_str_value -%}
+            {%- if refDataConditionsReply %}
+              {%- if refDataConditionsReply == uuids.refDataConditionsCC0AUuid -%}
+                <p>此資料可自由取得及使用。</p>
+              {%- elif refDataConditionsReply == uuids.refDataConditionsCCBYAUuid -%}
+                <p>此資料可自由取得，使用時須註明來源。</p>
+              {%- elif refDataConditionsReply == uuids.refDataConditionsOtherAUuid -%}
+                  {%- if refDataConditionsOtherReply -%}
+                    <div class="answer-detail"><p><strong>使用條件</strong></p>{{refDataConditionsOtherReply|markdown}}</div>
+                  {%- else -%}
+                    {% if output_profile|default('review') != 'submission' %}<p class="data-gap" data-status="missing-output">此資料的使用受到限制，具體條件尚待說明。</p>{% else %}<p data-fact-id="reuse-restrictions" data-status="partial">此資料集有使用限制。</p>{% endif %}
+                  {%- endif -%}
+              {%- endif -%}
+            {%- endif -%}
+
+            {# format #}
+            {%- set refDataFormat = [refDataUsedPrefix, uuids.refDataFormatQUuid]|reply_path -%}
+            {%- set refDataFormatReply = repliesMap[refDataFormat]|reply_str_value -%}
+            <p>{%- if refDataFormatReply == uuids.refDataFormatConvertAUuid -%}此資料須先轉換格式才能使用。{%- elif refDataFormatReply == uuids.refDataFormatUseAUuid -%}此資料可直接使用，無須轉換格式。
+            {% endif %}
+            </p>
+            </div>
+
+          {# Reference data set that will NOT be used #}
+            {% endset %}
+            {% if sharedReferencePolicy %}
+              {% set referencePolicies.content = referencePolicy %}
+            {% else %}
+              {{ referencePolicy }}
+            {% endif %}
+            </div>
+          {%- elif refDataUseReply == uuids.refDataUseNoAUuid -%}
+            {%- set refDataUsedNoPrefix = [refDataUse, uuids.refDataUseNoAUuid, uuids.refDataUseNoWhyQUuid]|reply_path -%}
+            {%- set refDataUseNoReply = repliesMap[refDataUsedNoPrefix]|reply_str_value -%}
+            {%- set refDataUseNoOtherReason = [refDataUsedNoPrefix, uuids.refDataUseNoReasonAUuid ,uuids.refDataUseNoReasonQUuid]|reply_path -%}
+            {%- set refDataUseNoOtherReasonReply = repliesMap[refDataUseNoOtherReason]|reply_str_value %}
+          
+            {# identification #}{# __tr_branch_sentence_original:CiAgICAgICAgICAgIDxwPiBXZSBjb25zaWRlcmVkIHJldXNpbmcgdGhpcyBzdGFuZGFyZCByZWZlcmVuY2UgZGF0YQogICAgICAgICAgICB7JS0gaWYgcmVmRGF0YVdoZXJlIC0lfQogICAgICAgICAgICB7eyIgIn19YXZhaWxhYmxlIHZpYTp7eyIgIn19CiAgICAgICAgICAgICAgeyUtIGlmIHJlZkRhdGFXaGVyZS5zdGFydHN3aXRoKCJodHRwOi8vIikgb3IgcmVmRGF0YVdoZXJlLnN0YXJ0c3dpdGgoImh0dHBzOi8vIikgb3IgcmVmRGF0YVdoZXJlLnN0YXJ0c3dpdGgoImZ0cDovLyIpIC0lfQogICAgICAgICAgICAgICAgPGEgaHJlZj0ie3sgcmVmRGF0YVdoZXJlIH19IiB0YXJnZXQ9Il9ibGFuayI-e3sgcmVmRGF0YVdoZXJlIH19IDwvYT4uCiAgICAgICAgICAgICAgeyUtIGVsc2UgLSV9CiAgICAgICAgICAgICAgICB7eyByZWZEYXRhV2hlcmV9fQogICAgICAgICAgICAgIHslLSBlbmRpZiAtJX0KICAgICAgICAgICAgeyUtIGVuZGlmIC0lfQoKICAgICAgICAgICAgeyMgbm8gdXNhZ2UgcmVhc29uICN9CiAgICAgICAgICAgIHslLSBpZiByZWZEYXRhVXNlTm9SZXBseSAtJX0KICAgICAgICAgICAgICAsIGJ1dCBkZWNpZGVkIG5vdCB0byByZS11c2UgaXQKICAgICAgICAgICAgICB7JS0gaWYgcmVmRGF0YVVzZU5vUmVwbHkgPT0gdXVpZHMucmVmRGF0YVVzZU5vRGF0YUFVdWlkIC0lfQogICAgICAgICAgICAgICAge3siICJ9fWJlY2F1c2UgaXQgbWlzc2VzIGRhdGEgd2UgbmVlZC4KICAgICAgICAgICAgICB7JS0gZWxpZiByZWZEYXRhVXNlTm9SZXBseSA9PSB1dWlkcy5yZWZEYXRhVXNlTm9Bc3BlY3RBVXVpZCAtJX0KICAgICAgICAgICAgICAgIHt7IiAifX1iZWNhdXNlIGl0IG1pc3NlcyByZXF1aXJlZCBhc3BlY3RzLgogICAgICAgICAgICAgIHslLSBlbGlmIHJlZkRhdGFVc2VOb1JlcGx5ID09IHV1aWRzLnJlZkRhdGFVc2VOb1F1YWxpdHlBVXVpZCAtJX0KICAgICAgICAgICAgICAgIHt7IiAifX1iZWNhdXNlIGl0IGlzIG5vdCBzdWZmaWNpZW50IHF1YWxpdHkuCiAgICAgICAgICAgICAgeyUtIGVsaWYgcmVmRGF0YVVzZU5vUmVwbHkgPT0gdXVpZHMucmVmRGF0YVVzZU5vQ29uZEFVdWlkIC0lfQogICAgICAgICAgICAgICAge3siICJ9fWJlY2F1c2UgaXRzIGNvbmRpdGlvbnMgb2YgdXNlIGRvIG5vdCBhbGxvdyB1cyB0byB1c2UgaXQuCiAgICAgICAgICAgICAgeyUtIGVsaWYgcmVmRGF0YVVzZU5vUmVwbHkgPT0gdXVpZHMucmVmRGF0YVVzZU5vUmVhc29uQVV1aWQgYW5kIHJlZkRhdGFVc2VOb090aGVyUmVhc29uUmVwbHkgLSV9CiAgICAgICAgICAgICAgICB7eyIgIn19YmVjYXVzZToge3tyZWZEYXRhVXNlTm9PdGhlclJlYXNvblJlcGx5fG1hcmtkb3dufX0KICAgICAgICAgICAgICB7JS0gZWxzZSAtJX0uCiAgICAgICAgICAgICAgeyUtIGVuZGlmIC0lfQogICAgICAgICAgICB7JS0gZWxzZSAtJX0KICAgICAgICAgICAgLiA8L3A-CiAgICAgICAgICAgIHslLSBlbmRpZiAtJX0K #}
+            <p>{# no usage reason #}{%- if refDataWhere and (refDataWhere.startswith("http://") or refDataWhere.startswith("https://") or refDataWhere.startswith("ftp://")) and refDataUseNoReply == uuids.refDataUseNoDataAUuid -%}我們曾考慮再次使用可透過 <a href="{{ refDataWhere }}" target="_blank">{{ refDataWhere }} </a> 取得的此標準參考資料，但決定不再次使用，因為其中缺少我們需要的資料。{%- elif refDataWhere and (refDataWhere.startswith("http://") or refDataWhere.startswith("https://") or refDataWhere.startswith("ftp://")) and refDataUseNoReply == uuids.refDataUseNoAspectAUuid -%}我們曾考慮再次使用可透過 <a href="{{ refDataWhere }}" target="_blank">{{ refDataWhere }} </a> 取得的此標準參考資料，但決定不再次使用，因為其中缺少必要面向。{%- elif refDataWhere and (refDataWhere.startswith("http://") or refDataWhere.startswith("https://") or refDataWhere.startswith("ftp://")) and refDataUseNoReply == uuids.refDataUseNoQualityAUuid -%}我們曾考慮再次使用可透過 <a href="{{ refDataWhere }}" target="_blank">{{ refDataWhere }} </a> 取得的此標準參考資料，但決定不再次使用，因為其品質不足。{%- elif refDataWhere and (refDataWhere.startswith("http://") or refDataWhere.startswith("https://") or refDataWhere.startswith("ftp://")) and refDataUseNoReply == uuids.refDataUseNoCondAUuid -%}我們曾考慮再次使用可透過 <a href="{{ refDataWhere }}" target="_blank">{{ refDataWhere }} </a> 取得的此標準參考資料，但決定不再次使用，因為其使用條件不允許我們使用。{%- elif refDataWhere and (refDataWhere.startswith("http://") or refDataWhere.startswith("https://") or refDataWhere.startswith("ftp://")) and refDataUseNoReply == uuids.refDataUseNoReasonAUuid and refDataUseNoOtherReasonReply -%}我們曾考慮再次使用可透過 <a href="{{ refDataWhere }}" target="_blank">{{ refDataWhere }} </a> 取得的此標準參考資料，但決定不再次使用，原因如下：{{ refDataUseNoOtherReasonReply|markdown }}{%- elif refDataWhere and (refDataWhere.startswith("http://") or refDataWhere.startswith("https://") or refDataWhere.startswith("ftp://")) and refDataUseNoReply -%}我們曾考慮再次使用可透過 <a href="{{ refDataWhere }}" target="_blank">{{ refDataWhere }} </a> 取得的此標準參考資料，但決定不再次使用。{%- elif refDataWhere and (refDataWhere.startswith("http://") or refDataWhere.startswith("https://") or refDataWhere.startswith("ftp://")) -%}我們曾考慮再次使用可透過 <a href="{{ refDataWhere }}" target="_blank">{{ refDataWhere }} </a> 取得的此標準參考資料。{%- elif refDataWhere and refDataUseNoReply == uuids.refDataUseNoDataAUuid -%}我們曾考慮再次使用可透過 {{ refDataWhere }} 取得的此標準參考資料，但決定不再次使用，因為其中缺少我們需要的資料。{%- elif refDataWhere and refDataUseNoReply == uuids.refDataUseNoAspectAUuid -%}我們曾考慮再次使用可透過 {{ refDataWhere }} 取得的此標準參考資料，但決定不再次使用，因為其中缺少必要面向。{%- elif refDataWhere and refDataUseNoReply == uuids.refDataUseNoQualityAUuid -%}我們曾考慮再次使用可透過 {{ refDataWhere }} 取得的此標準參考資料，但決定不再次使用，因為其品質不足。{%- elif refDataWhere and refDataUseNoReply == uuids.refDataUseNoCondAUuid -%}我們曾考慮再次使用可透過 {{ refDataWhere }} 取得的此標準參考資料，但決定不再次使用，因為其使用條件不允許我們使用。{%- elif refDataWhere and refDataUseNoReply == uuids.refDataUseNoReasonAUuid and refDataUseNoOtherReasonReply -%}我們曾考慮再次使用可透過 {{ refDataWhere }} 取得的此標準參考資料，但決定不再次使用，原因如下：{{ refDataUseNoOtherReasonReply|markdown }}{%- elif refDataWhere and refDataUseNoReply -%}我們曾考慮再次使用可透過 {{ refDataWhere }} 取得的此標準參考資料，但決定不再次使用。{%- elif refDataWhere -%}我們曾考慮再次使用可透過 {{ refDataWhere }} 取得的此標準參考資料。{%- elif refDataUseNoReply == uuids.refDataUseNoDataAUuid -%}我們曾考慮再次使用此標準參考資料，但決定不再次使用，因為其中缺少我們需要的資料。{%- elif refDataUseNoReply == uuids.refDataUseNoAspectAUuid -%}我們曾考慮再次使用此標準參考資料，但決定不再次使用，因為其中缺少必要面向。{%- elif refDataUseNoReply == uuids.refDataUseNoQualityAUuid -%}我們曾考慮再次使用此標準參考資料，但決定不再次使用，因為其品質不足。{%- elif refDataUseNoReply == uuids.refDataUseNoCondAUuid -%}我們曾考慮再次使用此標準參考資料，但決定不再次使用，因為其使用條件不允許我們使用。{%- elif refDataUseNoReply == uuids.refDataUseNoReasonAUuid and refDataUseNoOtherReasonReply -%}我們曾考慮再次使用此標準參考資料，但決定不再次使用，原因如下：{{ refDataUseNoOtherReasonReply|markdown }}{%- elif refDataUseNoReply -%}我們曾考慮再次使用此標準參考資料，但決定不再次使用。{%- else -%}我們曾考慮再次使用此標準參考資料。
+            {%- endif -%}
+            </p>
+{# __tr_branch_sentence_original:end #}
+          {%- endif -%}
+        </li>{# __tr_block_0009:end #}
+      {%- endfor -%}
+      </ul>
+
+      {# Non-reference Data #}
+      {% if sharedReferencePolicy %}
+        <div class="shared-reference-policy">
+          {# __tr_block_0010:start #}<p><strong>共同管理方式</strong></p>{# __tr_block_0010:end #}
+          {# __tr_block_0011:start #}<p>上述將再次使用的參考資料集，均採用以下管理方式。</p>{# __tr_block_0011:end #}
+          {{ referencePolicies.content }}
+        </div>
+      {% endif %}
+      <ul>
+      {%- for nrefDataItem in nrefDataItems -%}
+      {# __tr_block_0012:start #}<li data-item-id="{{ nrefDataItem }}">
+        {%- set nrefDataPrefix = [nrefDataPath, nrefDataItem]|reply_path  -%}
+        {%- set nrefDataUse = [nrefDataPrefix, uuids.nrefDataUseQUuid]|reply_path -%}
+        {%- set nrefDataUseReply = repliesMap[nrefDataUse]|reply_str_value -%}
+        {%- set nrefDataUsedPrefix = [nrefDataUse, uuids.nrefDataUseYesAUuid]|reply_path -%}
+        {%- set nrefDataNameReply = repliesMap[[nrefDataPrefix, uuids.nrefDataNameQUuid]|reply_path]|reply_str_value-%}
+        {%- set nrefDataWhere = repliesMap[[nrefDataPrefix, uuids.nrefDataWhereQUuid]|reply_path]|reply_str_value -%}
+
+        {%- if nrefDataNameReply -%}
+          <h5>{{ nrefDataNameReply }}</h5>
+        {%- else -%}
+          {% if output_profile|default('review') == 'submission' %}<strong>{{ macros.datasetLabel(macros.DATASET_NON_REFERENCE, nrefDataItems.index(nrefDataItem) + 1) }}</strong>{% else %}<strong>（名稱尚未提供）</strong>{% endif %}
+        {%- endif -%}
+        
+        {# Non-reference data set will be used #}
+        {%- if nrefDataUseReply == uuids.nrefDataUseYesAUuid %}
+
+          {# identification #}
+          <p data-fact-id="reuse-decision" data-status="complete">本計畫將再次使用此資料集。</p>
+          {% if nrefDataWhere %}
+            {% if nrefDataWhere.startswith("https://") or nrefDataWhere.startswith("http://") or nrefDataWhere.startswith("ftp://") %}
+              <p data-fact-id="dataset-source" data-status="complete">資料來源：<a href="{{ nrefDataWhere }}">{{ nrefDataWhere }}</a></p>
+            {% else %}
+              <p data-fact-id="dataset-source" data-status="complete">資料來源：{{ nrefDataWhere }}</p>
+            {% endif %}
+          {% else %}
+            {% if output_profile|default('review') != 'submission' %}<p class="data-gap" data-fact-id="dataset-source" data-status="missing">尚待補充：資料集的取得來源。</p>{% endif %}
+          {% endif %}
+          {%- set nrefDataUsageQ = [nrefDataUsedPrefix, uuids.nrefDataUsageQUuid]|reply_path -%}
+          {%- set nrefDataUsageReply = repliesMap[nrefDataUsageQ]|reply_str_value -%}
+          {% if nrefDataUsageReply %}
+            <div class="answer-detail" data-fact-id="reuse-purpose" data-status="complete">
+              <p><strong>再次使用的目的</strong></p>
+              {{ nrefDataUsageReply|markdown }}
+            </div>
+          {% else %}
+            {% if output_profile|default('review') != 'submission' %}<p class="data-gap" data-fact-id="reuse-purpose" data-status="missing">尚待補充：使用此資料集的目的。</p>{% endif %}
+          {% endif %}
+
+          {% include 'src/reuse-summary.html.j2' with context %}
+
+          {# Personal Data #}
+          {%- set nrefDataPersonal = [nrefDataUsedPrefix, uuids.nrefDataPersonalQUuid]|reply_path -%}
+          {%- set nrefDataPersonalReply = repliesMap[nrefDataPersonal]|reply_str_value -%}
+          {%- if nrefDataPersonalReply == uuids.nrefDataPersonalYesAUuid %}{# __tr_branch_sentence_original:CiAgICAgICAgICA8cD4KICAgICAgICAgICAgVGhpcyBkYXRhIGluY2x1ZGUgcGVyc29uYWwgZGF0YQogICAgICAgICAgICB7JS0gc2V0IG5yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzID0gW25yZWZEYXRhUGVyc29uYWwsIHV1aWRzLm5yZWZEYXRhUGVyc29uYWxZZXNBVXVpZCwgdXVpZHMubnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNRVXVpZF18cmVwbHlfcGF0aCAtJX0KICAgICAgICAgICAgeyUtIHNldCBucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc1JlcGx5ID0gcmVwbGllc01hcFtucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc118cmVwbHlfc3RyX3ZhbHVlIC0lfQogICAgICAgICAgICB7JS0gaWYgbnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNSZXBseSAtJX0KICAgICAgICAgICAgICAsIGxlZ2FseSBiYXNlZCBvbnt7KyIgIn19CiAgICAgICAgICAgICAgeyUtIGlmIG5yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzUmVwbHkgPT0gdXVpZHMubnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNQdWJJbnRlcmVzdEFVdWlkIC0lfQogICAgICAgICAgICAgICAgcHVibGljIGludGVyZXN0IGZvciBwcm9jZXNzaW5nIHRoZSBkYXRhIHVuZGVyIEdEUFIuCiAgICAgICAgICAgICAgeyUtIGVsaWYgbnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNSZXBseSA9PSB1dWlkcy5ucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc0NvbnNlbnRBVXVpZCAtJX0KICAgICAgICAgICAgICAgIGNvbnNlbnQgZ2l2ZW4gYnkgdGhlIHJlc2VhcmNoIHN1YmplY3QgZm9yIHByb2Nlc3NpbmcgdGhlIGRhdGEgdW5kZXIgR0RQUgogICAgICAgICAgICAgICAgeyUtIHNldCBucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc1JldXNlID0gW25yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzLCB1dWlkcy5ucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc0NvbnNlbnRBVXVpZCwgdXVpZHMubnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNDb25zZW50UmV1c2VRVXVpZF18cmVwbHlfcGF0aCAtJX0KICAgICAgICAgICAgICAgIHslLSBzZXQgbnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNSZXVzZVJlcGx5ID0gcmVwbGllc01hcFtucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc1JldXNlXXxyZXBseV9zdHJfdmFsdWUgLSV9CiAgICAgICAgICAgICAgICB7JS0gaWYgbnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNSZXVzZVJlcGx5IC0lfQogICAgICAgICAgICAgICAgICAsIHdoaWNoe3srIiAifX0KICAgICAgICAgICAgICAgICAgeyUtIGlmIG5yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzUmV1c2VSZXBseSA9PSB1dWlkcy5ucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc0NvbnNlbnRSZXVzZVllc0FVdWlkIC0lfQogICAgICAgICAgICAgICAgICAgIGNvdmVycyBhbHNvIG91ciByZXVzZS4KICAgICAgICAgICAgICAgICAgeyUtIGVsaWYgbnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNSZXVzZVJlcGx5ID09IHV1aWRzLm5yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzQ29uc2VudFJldXNlTm9BVXVpZCAtJX0KICAgICAgICAgICAgICAgICAgICBkb2VzIG5vdCBjb3ZlciBvdXIgcmV1c2U7IHRoZXJlZm9yZSwgbmV3IGNvbnNlbnQgd2lsbCBiZSBuZWVkZWQuCiAgICAgICAgICAgICAgICAgIHslLSBlbmRpZiAtJX0KICAgICAgICAgICAgICAgIHslLSBlbHNlIC0lfQogICAgICAgICAgICAgICAgLgogICAgICAgICAgICAgICAgeyUtIGVuZGlmIC0lfQogICAgICAgICAgICAgIHslLSBlbGlmIG5yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzUmVwbHkgPT0gdXVpZHMubnJlZkRhdGFQZXJzb25hbExlYmFsQmFzaXNPdGhlckFVdWlkIC0lfQogICAgICAgICAgICAgICAgeyUtIHNldCBucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc090aGVyID0gW25yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzLCB1dWlkcy5ucmVmRGF0YVBlcnNvbmFsTGViYWxCYXNpc090aGVyQVV1aWQsIHV1aWRzLm5yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzT3RoZXJRVXVpZF18cmVwbHlfcGF0aCAtJX0KICAgICAgICAgICAgICAgIHslLSBzZXQgbnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNPdGhlclJlcGx5ID0gcmVwbGllc01hcFtucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc090aGVyXXxyZXBseV9zdHJfdmFsdWUgLSV9CiAgICAgICAgICAgICAgICB7JS0gaWYgbnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNPdGhlclJlcGx5ID09IHV1aWRzLm5yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzT3RoZXJMZWdhbEFVdWlkIC0lfQogICAgICAgICAgICAgICAgICBhIGxlZ2FsIHJlcXVpcmVtZW50IChtZWFuaW5nIGEgbGVnYWwgb2JsaWdhdGlvbiB0byBkbyB0aGlzIGRhdGEgcHJvY2Vzc2luZykuCiAgICAgICAgICAgICAgICB7JS0gZWxpZiBucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc090aGVyUmVwbHkgPT0gdXVpZHMubnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNPdGhlclZpdGFsQVV1aWQgLSV9CiAgICAgICAgICAgICAgICAgIGEgdml0YWwgaW50ZXJlc3QgKG1lYW5pbmcgaXQgbmVlZHMgdG8gYmUgZG9uZSB0byBwcm90ZWN0IHRoZSB2aXRhbCBpbnRlcmVzdHMgb2YgdGhlIGRhdGEgc3ViamVjdCkuCiAgICAgICAgICAgICAgICB7JS0gZWxpZiBucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc090aGVyUmVwbHkgPT0gdXVpZHMubnJlZkRhdGFQZXJzb25hbExlZ2FsQmFzaXNPdGhlckxlZ2l0QVV1aWQgLSV9CiAgICAgICAgICAgICAgICAgIGEgbGVnaXRpbWF0ZSBpbnRlcmVzdCAobWVhbmluZyBkYXRhIHN1YmplY3RzIGFsbCBleHBlY3QgdXMgdG8gZG8gdGhpcyBkYXRhIHByb2Nlc3NpbmcgYmVjYXVzZSBvZiB3aG8gd2UgYXJlKS4KICAgICAgICAgICAgICAgIHslLSBlbGlmIG5yZWZEYXRhUGVyc29uYWxMZWdhbEJhc2lzT3RoZXJSZXBseSA9PSB1dWlkcy5ucmVmRGF0YVBlcnNvbmFsTGVnYWxCYXNpc090aGVyQ29udHJhY3RBVXVpZCAtJX0KICAgICAgICAgICAgICAgICAgYSByZXF1aXJlbWVudCB0byBmdWxmaWxsIG91ciBjb250cmFjdCB3aXRoIHRoZSBkYXRhIHN1YmplY3RzLgogICAgICAgICAgICAgICAgeyUtIGVuZGlmIC0lfQogICAgICAgICAgICAgIHslLSBlbmRpZiAtJX0gCiAgICAgICAgICAgIHslLSBlbmRpZiAtJX0KICAgICAgICAgIDwvcD4K #}
+          {%- set nrefDataPersonalLegalBasis = [nrefDataPersonal, uuids.nrefDataPersonalYesAUuid, uuids.nrefDataPersonalLegalBasisQUuid]|reply_path -%}
+          {%- set nrefDataPersonalLegalBasisReply = repliesMap[nrefDataPersonalLegalBasis]|reply_str_value -%}
+          {%- if nrefDataPersonalLegalBasisReply == uuids.nrefDataPersonalLegalBasisPubInterestAUuid -%}
+              <p>此資料包含個人資料，其處理係以 GDPR 所定的公共利益為法律依據。</p>
+          {%- elif nrefDataPersonalLegalBasisReply == uuids.nrefDataPersonalLegalBasisConsentAUuid -%}
+            {%- set nrefDataPersonalLegalBasisReuse = [nrefDataPersonalLegalBasis, uuids.nrefDataPersonalLegalBasisConsentAUuid, uuids.nrefDataPersonalLegalBasisConsentReuseQUuid]|reply_path -%}
+            {%- set nrefDataPersonalLegalBasisReuseReply = repliesMap[nrefDataPersonalLegalBasisReuse]|reply_str_value -%}
+            {%- if nrefDataPersonalLegalBasisReuseReply == uuids.nrefDataPersonalLegalBasisConsentReuseYesAUuid -%}
+              <p>此資料包含個人資料，其處理係以研究參與者依 GDPR 所給予的同意為法律依據，且該同意亦涵蓋我們的再次使用。</p>
+            {%- elif nrefDataPersonalLegalBasisReuseReply == uuids.nrefDataPersonalLegalBasisConsentReuseNoAUuid -%}
+              <p>此資料包含個人資料，其處理係以研究參與者依 GDPR 所給予的同意為法律依據；該同意未涵蓋我們的再次使用，因此需要另行取得同意。</p>
+            {%- else -%}
+              <p>此資料包含個人資料，其處理係以研究參與者依 GDPR 所給予的同意為法律依據。</p>
+            {%- endif -%}
+          {%- elif nrefDataPersonalLegalBasisReply == uuids.nrefDataPersonalLebalBasisOtherAUuid -%}
+            {%- set nrefDataPersonalLegalBasisOther = [nrefDataPersonalLegalBasis, uuids.nrefDataPersonalLebalBasisOtherAUuid, uuids.nrefDataPersonalLegalBasisOtherQUuid]|reply_path -%}
+            {%- set nrefDataPersonalLegalBasisOtherReply = repliesMap[nrefDataPersonalLegalBasisOther]|reply_str_value -%}
+            {%- if nrefDataPersonalLegalBasisOtherReply == uuids.nrefDataPersonalLegalBasisOtherLegalAUuid -%}
+              <p>此資料包含個人資料，其處理係以法律要求為依據（亦即負有進行此資料處理的法律義務）。</p>
+            {%- elif nrefDataPersonalLegalBasisOtherReply == uuids.nrefDataPersonalLegalBasisOtherVitalAUuid -%}
+              <p>此資料包含個人資料，其處理係以保護資料主體的重大利益為法律依據（亦即必須進行此資料處理，才能保護該重大利益）。</p>
+            {%- elif nrefDataPersonalLegalBasisOtherReply == uuids.nrefDataPersonalLegalBasisOtherLegitAUuid -%}
+              <p>此資料包含個人資料，其處理係以正當利益為法律依據（亦即資料主體基於我們的身分，可合理預期我們會進行此資料處理）。</p>
+            {%- elif nrefDataPersonalLegalBasisOtherReply == uuids.nrefDataPersonalLegalBasisOtherContractAUuid -%}
+              <p>此資料包含個人資料，其處理係以履行我們與資料主體間的契約為法律依據。</p>
+            {%- else -%}
+              <p>此資料包含個人資料。</p>
+            {%- endif -%}
+          {%- else -%}
+            <p>此資料包含個人資料。</p>
+          {%- endif -%}
+{# __tr_branch_sentence_original:end #}          {%- endif -%}
+
+          {# Ethical Approval for Reuse #}
+          {%- set nrefDataEthicalApproval = [nrefDataUsedPrefix, uuids.nrefDataEthicalApprovalQUuid]|reply_path -%}
+          {%- set nrefDataEthicalApprovalReply = repliesMap[nrefDataEthicalApproval]|reply_str_value -%}
+          {%- if nrefDataEthicalApprovalReply == uuids.nrefDataEthicalApprovalCoversAUuid -%}
+            <p>此非參考資料集既有的倫理審查核准已涵蓋我們的再次使用。</p>
+          {%- elif nrefDataEthicalApprovalReply == uuids.nrefDataEthicalApprovalExtensionAUuid -%}
+            <p>需要申請擴大此非參考資料集既有倫理審查核准的適用範圍，才能涵蓋本次使用。</p>
+          {%- elif nrefDataEthicalApprovalReply == uuids.nrefDataEthicalApprovalNewAUuid -%}
+            <p>需要取得新的倫理審查核准，才能涵蓋我們對此非參考資料集的使用。</p>
+          {%- endif -%}
+
+        {# Non-reference data set that will NOT be used #}
+        {%- elif nrefDataUseReply == uuids.nrefDataUseNoAUuid -%}
+          {%- set nrefDataUsedNoPrefix = [nrefDataUse, uuids.nrefDataUseNoAUuid, uuids.nrefDataUseNoWhyQUuid]|reply_path -%}
+          {%- set nrefDataUseNoReply = repliesMap[nrefDataUsedNoPrefix]|reply_str_value -%}
+          {%- set nrefDataUseNoOtherReason = [nrefDataUsedNoPrefix, uuids.nrefDataUseNoReasonAUuid ,uuids.nrefDataUseNoReasonQUuid]|reply_path -%}
+          {%- set nrefDataUseNoOtherReasonReply = repliesMap[nrefDataUseNoOtherReason]|reply_str_value %}
+          
+          {# identification #}
+          <p data-fact-id="reuse-decision" data-status="explicit-no">本計畫曾考慮使用此資料集，最後決定不採用。</p>
+          {% if nrefDataWhere %}
+            {% if nrefDataWhere.startswith("https://") or nrefDataWhere.startswith("http://") or nrefDataWhere.startswith("ftp://") %}
+              <p>資料來源：<a href="{{ nrefDataWhere }}">{{ nrefDataWhere }}</a></p>
+            {% else %}
+              <p>資料來源：{{ nrefDataWhere }}</p>
+            {% endif %}
+          {% endif %}
+          {% if nrefDataUseNoReply == uuids.nrefDataUseNoDataAUuid %}
+            <p>此資料集未包含本計畫所需的資料。</p>
+          {% elif nrefDataUseNoReply == uuids.nrefDataUseNoAspectAUuid %}
+            <p>此資料集未涵蓋本計畫所需的面向。</p>
+          {% elif nrefDataUseNoReply == uuids.nrefDataUseNoQualityAUuid %}
+            <p>此資料集的品質不足以滿足本計畫的需求。</p>
+          {% elif nrefDataUseNoReply == uuids.nrefDataUseNoCondAUuid %}
+            <p>此資料集的使用條件不允許本計畫規劃的再次使用方式。</p>
+          {% elif nrefDataUseNoReply == uuids.nrefDataUseNoReasonAUuid and nrefDataUseNoOtherReasonReply %}
+            <div class="answer-detail"><p><strong>不再次使用此資料集的原因</strong></p>{{ nrefDataUseNoOtherReasonReply|markdown }}</div>
+          {% else %}
+            {% if output_profile|default('review') != 'submission' %}<p class="data-gap" data-fact-id="nonreuse-reason" data-status="missing">尚待補充：不再次使用此資料集的原因。</p>{% endif %}
+          {% endif %}
+        {% else %}
+          {% if output_profile|default('review') != 'submission' %}<p class="data-gap" data-fact-id="reuse-decision" data-status="missing">尚待補充：是否再次使用此資料集。</p>{% endif %}
+        {%- endif -%}
+      </li>{# __tr_block_0012:end #}
+      {%- endfor -%}
+      </ul>
+      </div>
+    {%- else -%}
+      {% if output_profile|default('review') != 'submission' %}{# __tr_block_0013:start #}<p class="data-gap" data-requirement-id="SE-1a" data-fact-id="reuse-sources" data-status="missing">尚待補充：曾考慮再次使用的既有資料集，包括最後未採用的來源。</p>{# __tr_block_0013:end #}{% endif %}
+    {%- endif -%}
+
+    {# Constrains - Data Harmonization #}
+    {%- set dataHarmo = [preexistingPath, uuids.preexistingYesAUuid, uuids.dataHarmoQUuid]|reply_path -%}
+    {%- set dataHarmoReply = repliesMap [dataHarmo]|reply_str_value -%}
+    {%- if dataHarmoReply == uuids.dataHarmoYesAUuid -%}
+      {# __tr_branch_sentence_original:PHA-QmVmb3JlIHJldXNlLCB3ZSBuZWVkIHRvIGhhcm1vbml6ZSBleGlzdGluZyBkYXRhIGZyb20gZGlmZmVyZW50IHNvdXJjZXMKICAgICAgeyUtIHNldCBkYXRhSGFybW9uQXZhaWxhYmxlID0gW2RhdGFIYXJtbywgdXVpZHMuZGF0YUhhcm1vWWVzQVV1aWQsIHV1aWRzLmRhdGFIYXJtb090aGVyc1FVdWlkXXxyZXBseV9wYXRoICAtJX0KICAgICAgeyUtIHNldCBkYXRhSGFybW9uQXZhaWxhYmxlUmVwbHkgPSByZXBsaWVzTWFwW2RhdGFIYXJtb25BdmFpbGFibGVdfHJlcGx5X3N0cl92YWx1ZSAtJX0KICAgICAgeyUtIGlmIGRhdGFIYXJtb25BdmFpbGFibGVSZXBseSA9PSB1dWlkcy5kYXRhSGFybW9PdGhlcnNZZXNBVXVpZCAtJX0KICAgICAgICB7eysiICJ9fWFuZCB3aWxsIG1ha2UgdGhlIHJlc3VsdHMgYXZhaWxhYmxlIHRvIG90aGVycwogICAgICB7JS0gZWxpZiBkYXRhSGFybW9uQXZhaWxhYmxlUmVwbHkgPT0gdXVpZHMuZGF0YUhhcm1vT3RoZXJzTm9BVXVpZCAtJX0KICAgICAgICB7eysiICJ9fWJ1dCB3aWxsIG5vdCBtYWtlIHRoZSByZXN1bHRzIGF2YWlsYWJsZSB0byBvdGhlcnMKICAgICAgeyUtIGVuZGlmIC0lfQogICAgICAuPC9wPg== #}{%- set dataHarmonAvailable = [dataHarmo, uuids.dataHarmoYesAUuid, uuids.dataHarmoOthersQUuid]|reply_path  -%}{%- set dataHarmonAvailableReply = repliesMap[dataHarmonAvailable]|reply_str_value -%}{%- if dataHarmonAvailableReply == uuids.dataHarmoOthersYesAUuid -%}{# __tr_block_0014:start #}<p>再利用前，我們需要先對不同來源的既有資料進行一致化處理，並會將處理結果提供給他人使用。</p>{# __tr_block_0014:end #}{%- elif dataHarmonAvailableReply == uuids.dataHarmoOthersNoAUuid -%}{# __tr_block_0015:start #}<p>再利用前，我們需要先對不同來源的既有資料進行一致化處理，但不會將處理結果提供給他人使用。</p>{# __tr_block_0015:end #}{% else %}{# __tr_block_0016:start #}<p>再利用前，我們需要先對不同來源的既有資料進行一致化處理。</p>{# __tr_block_0016:end #}{%- endif -%}{# __tr_branch_sentence_original:end #}
+    {%- endif -%}
+
+    {# Constrains - (Re)made data computer readable #}
+    {%- set dataCompRead = [preexistingPath, uuids.preexistingYesAUuid, uuids.dataCompReadQUuid]|reply_path -%}
+    {%- set dataCompReadReply = repliesMap[dataCompRead]|reply_str_value -%}
+    {%- if dataCompReadReply == uuids.dataCompReadYesAUuid -%}
+      {%- set dataCompReadItself = [dataCompRead, uuids.dataCompReadYesAUuid, uuids.dataCompReadItselfQUuid]|reply_path -%}
+      {%- set dataCompReadItselfReply = repliesMap[dataCompReadItself]|reply_str_value -%}
+      {%- set dataCompReadOthers = [dataCompRead, uuids.dataCompReadYesAUuid, uuids.dataCompReadOthersQUuid]|reply_path -%}
+      {%- set dataCompReadOthersReply = repliesMap[dataCompReadOthers]|reply_str_value -%}
+      {# __tr_block_0017:start #}<p>{%- if dataCompReadItselfReply == uuids.dataCompReadItselfYesAUuid -%}再利用前，我們需要將資料轉換為機器可讀格式，並會透過標準資料儲存庫提供轉換後的資料，供他人使用。{%- elif dataCompReadItselfReply == uuids.dataCompReadItselfYesOtherAUuid -%}再利用前，我們需要將資料轉換為機器可讀格式，並會將轉換後的資料提供給他人使用。{%- elif dataCompReadItselfReply == uuids.dataCompReadItselfNoAUuid -%}再利用前，我們需要將資料轉換為機器可讀格式，但不會將轉換後的資料提供給他人使用。{%- else -%}再利用前，我們需要將資料轉換為機器可讀格式。{%- endif -%}{%- if dataCompReadOthersReply == uuids.dataCompReadOthersYesAUuid -%}{%- set dataCompReadWhichMetadataStandardPath = [dataCompReadOthers, uuids.dataCompReadOthersYesAUuid, uuids.dataCompReadOthersYesStandardsQUuid]|reply_path -%}{%- set dataCompReadMetadataStandardItems = repliesMap[dataCompReadWhichMetadataStandardPath]|reply_items -%}{%- if dataCompReadMetadataStandardItems|length > 0 -%}我們會採用以下標準，提供機器可讀的標準化後設資料，供他人使用：
+          {%- for dataCompReadMetadataStandardItem in dataCompReadMetadataStandardItems -%}
+            {%- set dataCompReadMetadataStandardPrefix = [dataCompReadWhichMetadataStandardPath, dataCompReadMetadataStandardItem]|reply_path -%}
+            {%- set dataCompReadMetadataStandard = [dataCompReadMetadataStandardPrefix, uuids.dataCompReadOthersYesStandardQUuid]|reply_path -%}
+            {%- set dataCompReadMetadataStandardReply = repliesMap[dataCompReadMetadataStandard] -%}
+            {{ macros.integrationFairSharing(dataCompReadMetadataStandardReply) }}{{ "、" if not loop.last else "。" }}{%- endfor -%}{%- else -%}我們會提供機器可讀的標準化後設資料，供他人使用。
+        {%- endif -%}
+      {%- endif -%}
+      </p>{# __tr_block_0017:end #}
+    {%- endif -%}
+  {%- elif preexistingAUuid == uuids.preexistingNoAUuid -%}
+    {# __tr_block_0018:start #}<p data-requirement-id="SE-1a" data-fact-id="reuse-sources" data-status="explicit-no">本計畫不會再次使用既有資料集。</p>{# __tr_block_0018:end #}
+  {%- else -%}
+    {% if output_profile|default('review') != 'submission' %}{# __tr_block_0019:start #}<p class="data-gap" data-requirement-id="SE-1a" data-fact-id="reuse-sources" data-status="missing">尚待補充：是否再次使用既有資料，以及使用限制或未採用候選來源的原因。</p>{# __tr_block_0019:end #}{% endif %}
+  {%- endif -%}
+
+  {# Provenance (lab notebooks)#}
+  {%- set metadataPath = [uuids.creatingCUuid, uuids.metadataQUuid]|reply_path -%}
+    {%- set metadataAUuid = repliesMap[metadataPath]|reply_str_value -%}
+    {%- if metadataAUuid == uuids.metadataExploreAUuid -%}
+      {%- set provenancePath = [metadataPath, uuids.metadataExploreAUuid, uuids.provenanceQUuid]|reply_path -%}
+      {%- set provenanceAUuid = repliesMap[provenancePath]|reply_str_value -%}
+      {%- if provenanceAUuid %}
+        {# __tr_block_0020:start #}<h4>資料溯源</h4>{# __tr_block_0020:end #}
+        {%- if provenanceAUuid == uuids.provenanceLabNotebooksAUuid -%}
+          {# __tr_block_0021:start #}<p data-requirement-id="SE-1a" data-fact-id="provenance" data-status="complete">本計畫將使用實驗室記錄本，記錄資料分析的溯源資訊。</p>{# __tr_block_0021:end #}
+        {%- elif provenanceAUuid == uuids.provenanceELabNotebookAUuid -%}
+          {# __tr_block_0022:start #}<p data-requirement-id="SE-1a" data-fact-id="provenance" data-status="complete">本計畫將使用電子實驗室記錄本，記錄資料分析的溯源資訊。</p>{# __tr_block_0022:end #}
+        {%- elif provenanceAUuid == uuids.provenanceSystemAUuid -%}
+          {# __tr_block_0023:start #}<p data-requirement-id="SE-1a" data-fact-id="provenance" data-status="complete">本計畫的運算工作流程系統會記錄資料分析的溯源資訊。</p>{# __tr_block_0023:end #}
+        {%- elif provenanceAUuid == uuids.provenanceOtherAUuid -%}
+          {%- set provenanceOtherPath = [provenancePath, uuids.provenanceOtherAUuid, uuids.provenanceOtherQUuid]|reply_path -%}
+          {%- set provenanceOther = repliesMap[provenanceOtherPath]|reply_str_value -%}
+          {%- if provenanceOther -%}
+            <div class="answer-detail" data-requirement-id="SE-1a" data-fact-id="provenance" data-status="complete">
+              {{ macros.provenanceReading(provenanceOther) }}
+            </div>
+          {%- else -%}
+            {% if output_profile|default('review') != 'submission' %}{# __tr_block_0024:start #}<p class="data-gap" data-requirement-id="SE-1a" data-fact-id="provenance-detail" data-status="missing">尚待補充：用於記錄資料溯源的其他安排。</p>{# __tr_block_0024:end #}{% endif %}
+          {%- endif -%}
+        {%- endif -%}
+      {%- else -%}
+        {% if output_profile|default('review') != 'submission' %}{# __tr_block_0025:start #}<p class="data-gap" data-requirement-id="SE-1a" data-fact-id="provenance" data-status="missing">尚待補充：資料來源與處理歷程的記錄方式。</p>{# __tr_block_0025:end #}{% endif %}
+      {%- endif -%}
+    {%- else -%}
+      {% if output_profile|default('review') != 'submission' %}{# __tr_block_0026:start #}<p class="data-gap" data-requirement-id="SE-1a" data-fact-id="provenance" data-status="missing">尚待補充：資料來源與處理歷程的記錄方式。</p>{# __tr_block_0026:end #}{% endif %}
+    {%- endif -%}
+  </div>
+</div>

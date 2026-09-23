@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-We will provide machine readable, standardized metadata to others and we will use following Metadata Standards:
+Before reuse, we will need to convert the data into a machine-readable form but will not make this version available to others.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-我們會向他人提供機器可讀且標準化的後設資料，並使用以下後設資料標準：
+再利用前，我們需要將資料轉換為機器可讀格式，但不會將轉換後的資料提供給他人使用。
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ We will provide machine readable, standardized metadata to others and we will us
 - Source File: `src/questions/01-how-data.html.j2`
 - Wrapper Name: `__tr_block_0017`
 - Wrapper Order: `18`
-- Wrapper Key: `we-will-need-to-re-made-the-data-db7b86ca41`
-- Unit Key: `we-will-provide-machine-readable-standardized-metadata-to-c08ff294fb`
-- Source Hash: `129cc43207320c8c8a7a74d1d6ad50a3898313b5`
+- Wrapper Key: `before-reuse-we-will-need-to-convert-the-0ceb69f7b1`
+- Unit Key: `before-reuse-we-will-need-to-convert-the-66adb50b21`
+- Source Hash: `88d100989a08569b8d05b1e9ff83e53681ac47a6`
 
 Do not edit this section manually.
 

@@ -1064,7 +1064,7 @@
 
           [T] [translation](<tree/src/quality-control.html.j2/0017-it-has-not-been-specified-whether-quality-control-59607aedf9/0001-it-has-not-been-specified-whether-quality-control-75bf53cf19/translation.md>)
 
-- [x] [file] src/questions/01-how-data.html.j2 (102/102)
+- [ ] [file] src/questions/01-how-data.html.j2 (93/102)
 
   [J2] `src/questions/01-how-data.html.j2`
 
@@ -1460,57 +1460,57 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0014-information-not-provided-the-existing-datasets-considered-for-4b36e7cee7/0001-information-not-provided-the-existing-datasets-considered-for-19040c753d/translation.md>)
 
-    - [x] [wrapper] 0015-we-need-to-harmonize-different-sources-of-existing-99a58d57d4 (1/1)
+    - [ ] [wrapper] 0015-before-reuse-we-need-to-harmonize-existing-data-7bd40f663b (0/1)
 
-      [W] `0015-we-need-to-harmonize-different-sources-of-existing-99a58d57d4`
+      [W] `0015-before-reuse-we-need-to-harmonize-existing-data-7bd40f663b`
 
-        - [x] [unit] 0001-we-need-to-harmonize-different-sources-of-existing-8322c6fa7a: We need to harmonize different sources of existing data before reusing them and we will make this harmonization results available to others.
+        - [ ] [unit] 0001-before-reuse-we-need-to-harmonize-existing-data-94c57a4a4e: Before reuse, we need to harmonize existing data from different sources and will make the results available to others.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0015-we-need-to-harmonize-different-sources-of-existing-99a58d57d4/0001-we-need-to-harmonize-different-sources-of-existing-8322c6fa7a/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0015-before-reuse-we-need-to-harmonize-existing-data-7bd40f663b/0001-before-reuse-we-need-to-harmonize-existing-data-94c57a4a4e/translation.md>)
 
-    - [x] [wrapper] 0016-we-need-to-harmonize-different-sources-of-existing-06f210cff2 (1/1)
+    - [ ] [wrapper] 0016-before-reuse-we-need-to-harmonize-existing-data-f4ea3ae54d (0/1)
 
-      [W] `0016-we-need-to-harmonize-different-sources-of-existing-06f210cff2`
+      [W] `0016-before-reuse-we-need-to-harmonize-existing-data-f4ea3ae54d`
 
-        - [x] [unit] 0001-we-need-to-harmonize-different-sources-of-existing-64c38b03e7: We need to harmonize different sources of existing data before reusing them but we won't make this harmonization results available to others.
+        - [ ] [unit] 0001-before-reuse-we-need-to-harmonize-existing-data-964a9dc103: Before reuse, we need to harmonize existing data from different sources but will not make the results available to others.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0016-we-need-to-harmonize-different-sources-of-existing-06f210cff2/0001-we-need-to-harmonize-different-sources-of-existing-64c38b03e7/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0016-before-reuse-we-need-to-harmonize-existing-data-f4ea3ae54d/0001-before-reuse-we-need-to-harmonize-existing-data-964a9dc103/translation.md>)
 
-    - [x] [wrapper] 0017-we-need-to-harmonize-different-sources-of-existing-7c61816d75 (1/1)
+    - [ ] [wrapper] 0017-before-reuse-we-need-to-harmonize-existing-data-4e81cf9ce4 (0/1)
 
-      [W] `0017-we-need-to-harmonize-different-sources-of-existing-7c61816d75`
+      [W] `0017-before-reuse-we-need-to-harmonize-existing-data-4e81cf9ce4`
 
-        - [x] [unit] 0001-we-need-to-harmonize-different-sources-of-existing-26c0084d86: We need to harmonize different sources of existing data before reusing them.
+        - [ ] [unit] 0001-before-reuse-we-need-to-harmonize-existing-data-08050f809a: Before reuse, we need to harmonize existing data from different sources.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0017-we-need-to-harmonize-different-sources-of-existing-7c61816d75/0001-we-need-to-harmonize-different-sources-of-existing-26c0084d86/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0017-before-reuse-we-need-to-harmonize-existing-data-4e81cf9ce4/0001-before-reuse-we-need-to-harmonize-existing-data-08050f809a/translation.md>)
 
-    - [x] [wrapper] 0018-we-will-need-to-re-made-the-data-db7b86ca41 (6/6)
+    - [ ] [wrapper] 0018-before-reuse-we-will-need-to-convert-the-0ceb69f7b1 (0/6)
 
-      [W] `0018-we-will-need-to-re-made-the-data-db7b86ca41`
+      [W] `0018-before-reuse-we-will-need-to-convert-the-0ceb69f7b1`
 
-        - [x] [unit] 0001-we-will-need-to-re-made-the-data-b676b62876: We will need to (re-)made the data into computer readable form before their using and we will make this computer readable form available to others through a standard repository.
+        - [ ] [unit] 0001-before-reuse-we-will-need-to-convert-the-a0fd6aa605: Before reuse, we will need to convert the data into a machine-readable form and will make this version available to others through a standard repository.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-we-will-need-to-re-made-the-data-db7b86ca41/0001-we-will-need-to-re-made-the-data-b676b62876/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-0ceb69f7b1/0001-before-reuse-we-will-need-to-convert-the-a0fd6aa605/translation.md>)
 
-        - [x] [unit] 0002-we-will-need-to-re-made-the-data-41c253e673: We will need to (re-)made the data into computer readable form before their using and we will make this computer readable form available to others.
+        - [ ] [unit] 0002-before-reuse-we-will-need-to-convert-the-831fb73faf: Before reuse, we will need to convert the data into a machine-readable form and will make this version available to others.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-we-will-need-to-re-made-the-data-db7b86ca41/0002-we-will-need-to-re-made-the-data-41c253e673/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-0ceb69f7b1/0002-before-reuse-we-will-need-to-convert-the-831fb73faf/translation.md>)
 
-        - [x] [unit] 0003-we-will-need-to-re-made-the-data-86952b6037: We will need to (re-)made the data into computer readable form before their using but we won't make this computer readable form available to others.
+        - [ ] [unit] 0003-before-reuse-we-will-need-to-convert-the-66adb50b21: Before reuse, we will need to convert the data into a machine-readable form but will not make this version available to others.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-we-will-need-to-re-made-the-data-db7b86ca41/0003-we-will-need-to-re-made-the-data-86952b6037/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-0ceb69f7b1/0003-before-reuse-we-will-need-to-convert-the-66adb50b21/translation.md>)
 
-        - [x] [unit] 0004-we-will-need-to-re-made-the-data-21e244a3b3: We will need to (re-)made the data into computer readable form before their using.
+        - [ ] [unit] 0004-before-reuse-we-will-need-to-convert-the-8f0224e067: Before reuse, we will need to convert the data into a machine-readable form.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-we-will-need-to-re-made-the-data-db7b86ca41/0004-we-will-need-to-re-made-the-data-21e244a3b3/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-0ceb69f7b1/0004-before-reuse-we-will-need-to-convert-the-8f0224e067/translation.md>)
 
-        - [x] [unit] 0005-we-will-provide-machine-readable-standardized-metadata-to-c08ff294fb: We will provide machine readable, standardized metadata to others and we will use following Metadata Standards:
+        - [ ] [unit] 0005-we-will-provide-others-with-standardized-machine-readable-7881f62def: We will provide others with standardized, machine-readable metadata and we will use the following metadata standards:
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-we-will-need-to-re-made-the-data-db7b86ca41/0005-we-will-provide-machine-readable-standardized-metadata-to-c08ff294fb/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-0ceb69f7b1/0005-we-will-provide-others-with-standardized-machine-readable-7881f62def/translation.md>)
 
-        - [x] [unit] 0006-we-will-provide-machine-readable-standardized-metadata-to-c9d824b88f: We will provide machine readable, standardized metadata to others.
+        - [ ] [unit] 0006-we-will-provide-others-with-standardized-machine-readable-9afe42fce1: We will provide others with standardized, machine-readable metadata.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-we-will-need-to-re-made-the-data-db7b86ca41/0006-we-will-provide-machine-readable-standardized-metadata-to-c9d824b88f/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-0ceb69f7b1/0006-we-will-provide-others-with-standardized-machine-readable-9afe42fce1/translation.md>)
 
     - [x] [wrapper] 0019-no-existing-datasets-will-be-re-used-c2bb24650c (1/1)
 
@@ -5388,87 +5388,87 @@
 
           [T] [translation](<tree/src/reference-publication-plan.html.j2/0002-information-not-provided-the-publication-schedule-for-reference-b85a780799/0001-information-not-provided-the-publication-schedule-for-reference-69b3abfca8/translation.md>)
 
-- [ ] [file] src/reuse-summary.html.j2 (1/12)
+- [x] [file] src/reuse-summary.html.j2 (12/12)
 
   [J2] `src/reuse-summary.html.j2`
 
-    - [ ] [wrapper] 0001-the-project-will-reuse-the-complete-dataset-c2d11f095f (0/1)
+    - [x] [wrapper] 0001-the-project-will-reuse-the-complete-dataset-c2d11f095f (1/1)
 
       [W] `0001-the-project-will-reuse-the-complete-dataset-c2d11f095f`
 
-        - [ ] [unit] 0001-the-project-will-reuse-the-complete-dataset-a4861ecbf7: The project will reuse the complete dataset.
+        - [x] [unit] 0001-the-project-will-reuse-the-complete-dataset-a4861ecbf7: The project will reuse the complete dataset.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0001-the-project-will-reuse-the-complete-dataset-c2d11f095f/0001-the-project-will-reuse-the-complete-dataset-a4861ecbf7/translation.md>)
 
-    - [ ] [wrapper] 0002-the-project-will-reuse-a-subset-of-the-1e22b81670 (0/1)
+    - [x] [wrapper] 0002-the-project-will-reuse-a-subset-of-the-1e22b81670 (1/1)
 
       [W] `0002-the-project-will-reuse-a-subset-of-the-1e22b81670`
 
-        - [ ] [unit] 0001-the-project-will-reuse-a-subset-of-the-e027fe39ce: The project will reuse a subset of the data and document the filtering or selection process.
+        - [x] [unit] 0001-the-project-will-reuse-a-subset-of-the-e027fe39ce: The project will reuse a subset of the data and document the filtering or selection process.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0002-the-project-will-reuse-a-subset-of-the-1e22b81670/0001-the-project-will-reuse-a-subset-of-the-e027fe39ce/translation.md>)
 
-    - [ ] [wrapper] 0003-the-project-will-reuse-a-selected-subset-of-2989ace7ac (0/1)
+    - [x] [wrapper] 0003-the-project-will-reuse-a-selected-subset-of-2989ace7ac (1/1)
 
       [W] `0003-the-project-will-reuse-a-selected-subset-of-2989ace7ac`
 
-        - [ ] [unit] 0001-the-project-will-reuse-a-selected-subset-of-d2f5df4996: The project will reuse a selected subset of the data and make it available with the research results.
+        - [x] [unit] 0001-the-project-will-reuse-a-selected-subset-of-d2f5df4996: The project will reuse a selected subset of the data and make it available with the research results.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0003-the-project-will-reuse-a-selected-subset-of-2989ace7ac/0001-the-project-will-reuse-a-selected-subset-of-d2f5df4996/translation.md>)
 
-    - [ ] [wrapper] 0004-the-data-format-needs-to-be-converted-before-b85da6948c (0/1)
+    - [x] [wrapper] 0004-the-data-format-needs-to-be-converted-before-b85da6948c (1/1)
 
       [W] `0004-the-data-format-needs-to-be-converted-before-b85da6948c`
 
-        - [ ] [unit] 0001-the-data-format-needs-to-be-converted-before-3398f0c6ef: The data format needs to be converted before reuse.
+        - [x] [unit] 0001-the-data-format-needs-to-be-converted-before-3398f0c6ef: The data format needs to be converted before reuse.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0004-the-data-format-needs-to-be-converted-before-b85da6948c/0001-the-data-format-needs-to-be-converted-before-3398f0c6ef/translation.md>)
 
-    - [ ] [wrapper] 0005-the-data-can-be-reused-without-format-conversion-dd52a219c0 (0/1)
+    - [x] [wrapper] 0005-the-data-can-be-reused-without-format-conversion-dd52a219c0 (1/1)
 
       [W] `0005-the-data-can-be-reused-without-format-conversion-dd52a219c0`
 
-        - [ ] [unit] 0001-the-data-can-be-reused-without-format-conversion-ef96c87be0: The data can be reused without format conversion.
+        - [x] [unit] 0001-the-data-can-be-reused-without-format-conversion-ef96c87be0: The data can be reused without format conversion.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0005-the-data-can-be-reused-without-format-conversion-dd52a219c0/0001-the-data-can-be-reused-without-format-conversion-ef96c87be0/translation.md>)
 
-    - [ ] [wrapper] 0006-the-dataset-is-fixed-so-changes-to-the-071f6dcabc (0/1)
+    - [x] [wrapper] 0006-the-dataset-is-fixed-so-changes-to-the-071f6dcabc (1/1)
 
       [W] `0006-the-dataset-is-fixed-so-changes-to-the-071f6dcabc`
 
-        - [ ] [unit] 0001-the-dataset-is-fixed-so-changes-to-the-67dc361982: The dataset is fixed, so changes to the source data will not affect the reproducibility of the research results.
+        - [x] [unit] 0001-the-dataset-is-fixed-so-changes-to-the-67dc361982: The dataset is fixed, so changes to the source data will not affect the reproducibility of the research results.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0006-the-dataset-is-fixed-so-changes-to-the-071f6dcabc/0001-the-dataset-is-fixed-so-changes-to-the-67dc361982/translation.md>)
 
-    - [ ] [wrapper] 0007-the-dataset-may-change-which-could-affect-the-b37e601072 (0/1)
+    - [x] [wrapper] 0007-the-dataset-may-change-which-could-affect-the-b37e601072 (1/1)
 
       [W] `0007-the-dataset-may-change-which-could-affect-the-b37e601072`
 
-        - [ ] [unit] 0001-the-dataset-may-change-which-could-affect-the-986fffd0ba: The dataset may change, which could affect the reproducibility of the research results.
+        - [x] [unit] 0001-the-dataset-may-change-which-could-affect-the-986fffd0ba: The dataset may change, which could affect the reproducibility of the research results.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0007-the-dataset-may-change-which-could-affect-the-b37e601072/0001-the-dataset-may-change-which-could-affect-the-986fffd0ba/translation.md>)
 
-    - [ ] [wrapper] 0008-the-dataset-is-freely-available-for-any-use-e37d794708 (0/1)
+    - [x] [wrapper] 0008-the-dataset-is-freely-available-for-any-use-e37d794708 (1/1)
 
       [W] `0008-the-dataset-is-freely-available-for-any-use-e37d794708`
 
-        - [ ] [unit] 0001-the-dataset-is-freely-available-for-any-use-0c5a23d5f0: The dataset is freely available for any use.
+        - [x] [unit] 0001-the-dataset-is-freely-available-for-any-use-0c5a23d5f0: The dataset is freely available for any use.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0008-the-dataset-is-freely-available-for-any-use-e37d794708/0001-the-dataset-is-freely-available-for-any-use-0c5a23d5f0/translation.md>)
 
-    - [ ] [wrapper] 0009-the-dataset-is-freely-available-provided-that-the-a02c3814e6 (0/1)
+    - [x] [wrapper] 0009-the-dataset-is-freely-available-provided-that-the-a02c3814e6 (1/1)
 
       [W] `0009-the-dataset-is-freely-available-provided-that-the-a02c3814e6`
 
-        - [ ] [unit] 0001-the-dataset-is-freely-available-provided-that-the-f41280a286: The dataset is freely available provided that the source is cited.
+        - [x] [unit] 0001-the-dataset-is-freely-available-provided-that-the-f41280a286: The dataset is freely available provided that the source is cited.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0009-the-dataset-is-freely-available-provided-that-the-a02c3814e6/0001-the-dataset-is-freely-available-provided-that-the-f41280a286/translation.md>)
 
-    - [ ] [wrapper] 0010-use-of-this-dataset-is-subject-to-restrictions-ff0878b824 (0/1)
+    - [x] [wrapper] 0010-use-of-this-dataset-is-subject-to-restrictions-ff0878b824 (1/1)
 
       [W] `0010-use-of-this-dataset-is-subject-to-restrictions-ff0878b824`
 
-        - [ ] [unit] 0001-use-of-this-dataset-is-subject-to-restrictions-18b5367afc: Use of this dataset is subject to restrictions, which the project will observe.
+        - [x] [unit] 0001-use-of-this-dataset-is-subject-to-restrictions-18b5367afc: Use of this dataset is subject to restrictions, which the project will observe.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0010-use-of-this-dataset-is-subject-to-restrictions-ff0878b824/0001-use-of-this-dataset-is-subject-to-restrictions-18b5367afc/translation.md>)
 
@@ -5480,11 +5480,11 @@
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0011-conditions-of-use-a0b0d771f2/0001-conditions-of-use-ff303ccfa7/translation.md>)
 
-    - [ ] [wrapper] 0012-information-not-provided-the-specific-conditions-of-use-3e8b5419a5 (0/1)
+    - [x] [wrapper] 0012-information-not-provided-the-specific-conditions-of-use-3e8b5419a5 (1/1)
 
       [W] `0012-information-not-provided-the-specific-conditions-of-use-3e8b5419a5`
 
-        - [ ] [unit] 0001-information-not-provided-the-specific-conditions-of-use-d82543dd92: Information not provided: the specific conditions of use.
+        - [x] [unit] 0001-information-not-provided-the-specific-conditions-of-use-d82543dd92: Information not provided: the specific conditions of use.
 
           [T] [translation](<tree/src/reuse-summary.html.j2/0012-information-not-provided-the-specific-conditions-of-use-3e8b5419a5/0001-information-not-provided-the-specific-conditions-of-use-d82543dd92/translation.md>)
 

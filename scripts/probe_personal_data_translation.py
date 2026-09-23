@@ -129,6 +129,9 @@ def verify_output_profile_translation_chain(current):
 def verify_submission_translation_chain(current):
     """All 748 prior pairs survive; allow only the 14 declared new occurrences."""
     reading = {}
+    from reuse_preparation_integration import has_new_translations, project_translations
+    if has_new_translations(current):
+        current, reading['reuse_preparation'] = project_translations(current)
     if len(current) == 775:
         current, reading['submission_flow'] = project_submission_flow_translations(current)
     if len(current) == 773:
@@ -183,6 +186,8 @@ def project_full_km_followup_translations(current):
 
 def project_submission_flow_translations(current):
     """Validate exactly the sealed Q1 773 -> 775 delta, not arbitrary rewording."""
+    from reuse_preparation_integration import has_new_translations, project_translations
+    if has_new_translations(current): current, _ = project_translations(current)
     delta = json.loads((ROOT / 'docs/submission-flow-translation-delta.json').read_text())
     previous = archived_pairs(delta['baseline'])
     old, new = Counter(previous), Counter(current)

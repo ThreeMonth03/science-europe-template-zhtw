@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-We need to harmonize different sources of existing data before reusing them and we will make this harmonization results available to others.
+Before reuse, we need to harmonize existing data from different sources and will make the results available to others.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-再次使用既有資料前，我們需要先調和不同來源的資料，並會將調和結果提供給他人。
+再利用前，我們需要先對不同來源的既有資料進行一致化處理，並會將處理結果提供給他人使用。
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ We need to harmonize different sources of existing data before reusing them and 
 - Source File: `src/questions/01-how-data.html.j2`
 - Wrapper Name: `__tr_block_0014`
 - Wrapper Order: `15`
-- Wrapper Key: `we-need-to-harmonize-different-sources-of-existing-99a58d57d4`
-- Unit Key: `we-need-to-harmonize-different-sources-of-existing-8322c6fa7a`
-- Source Hash: `57c8afa05d26238f0eb374c8ddf6fd69cccb12dc`
+- Wrapper Key: `before-reuse-we-need-to-harmonize-existing-data-7bd40f663b`
+- Unit Key: `before-reuse-we-need-to-harmonize-existing-data-94c57a4a4e`
+- Source Hash: `b4ff4a9e4718aee8e38a986a1500f66b9b086156`
 
 Do not edit this section manually.
 
