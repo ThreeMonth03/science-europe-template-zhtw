@@ -5,6 +5,10 @@
 原型使用獨立 `science-europe-word-empty-sections-prototype[-zhtw]:0.3.49` ID，
 不是發布或正式升版。`pipeline.yml` 與正式翻譯樹不變。
 
+第一版只有節標題 6pt／3pt 縮距，實際 Word 仍有孤立尾頁，已保留失敗紀錄。
+第二版使用 3pt／2pt，並只將同一全空節的非末題與下一題保持連頁；
+不改有答案的節、字級、題目文字、PDF 或檢核版。
+
 `lock.json` 分開鎖定英文正式基線、英文實驗提交及工具；兩個 repo 使用短期
 `fix/word-empty-section-spacing`，檢核／提交仍為同一來源的格式選項。
 
