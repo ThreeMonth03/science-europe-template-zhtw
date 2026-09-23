@@ -1,0 +1,345 @@
+{
+  "scope": "Read-only actual DOCX spacing diagnostic",
+  "passed": true,
+  "rows": [
+    {
+      "sample": "EMPTY-en-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "EMPTY-en-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 15,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "EMPTY-zh-Hant-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "EMPTY-zh-Hant-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 15,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "LONG-en-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "LONG-en-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 14,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "LONG-zh-Hant-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "LONG-zh-Hant-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 14,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "MISSING-en-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "MISSING-en-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 14,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "MISSING-zh-Hant-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "MISSING-zh-Hant-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 14,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "NEGATIVE-en-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "NEGATIVE-en-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 14,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "NEGATIVE-zh-Hant-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "NEGATIVE-zh-Hant-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 14,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "REAL-SNAPSHOT-A-en-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "REAL-SNAPSHOT-A-en-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 1,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "REAL-SNAPSHOT-A-zh-Hant-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "REAL-SNAPSHOT-A-zh-Hant-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 1,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "REAL-SNAPSHOT-B-en-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "REAL-SNAPSHOT-B-en-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "REAL-SNAPSHOT-B-zh-Hant-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "REAL-SNAPSHOT-B-zh-Hant-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "POSITIVE-en-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "POSITIVE-en-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 14,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "POSITIVE-zh-Hant-review",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 0,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    },
+    {
+      "sample": "POSITIVE-zh-Hant-submission",
+      "section_headings": 6,
+      "question_headings": 15,
+      "compact_empty_question_headings": 14,
+      "heading2_spacing_twips": {
+        "after": "120",
+        "before": "240"
+      },
+      "heading2_direct_spacing_overrides": 0,
+      "docx_unchanged": true
+    }
+  ],
+  "diagnostic_scope_correction": "Initial all-body Heading2 count also included frontmatter headings; final diagnostic matches the six actual DMP section titles from HTML.",
+  "hypothesis": "Word empty-section headings still use general Heading2 spacing; test bounded per-section spacing rather than shrinking all text.",
+  "causality_proven_by_fix_ab": false
+}

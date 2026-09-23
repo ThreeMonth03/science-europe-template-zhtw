@@ -15,5 +15,9 @@ upstream 特例都已移除。775 組譯句中 766 組保留、9 組精確替換
 CSS、字型、Word 參考文件與步驟未改；不新增提交提示、不臆造漏填答案，
 保留六節、十五題及使用者原文。原型的驗證範圍見
 [原型紀錄](../reviews/2026-09-23-preparation-prose-prototype/README.md)。
-正式套件仍須完成本機候選流程及與封存原型的原生文件對照。
+已完成兩次一致的乾淨建置與
+[正式套件原生對照](../reviews/2026-09-23-preparation-prose-integration/README.md)：
+28 組、130 頁 PDF／133 頁 Word 預覽重現封存原型，英文 258／中文 467 項
+測試及全部 53 個本機候選 workflow 指令通過。抽看六頁後確認稀疏填答的中文
+Word 仍有第 15 題孤立尾頁；它是既有排版問題，不是整合回歸，仍須修補。
 不推送、不部署；LibreOffice 預覽不等於 Microsoft Word 全面驗收。

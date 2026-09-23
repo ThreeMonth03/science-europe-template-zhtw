@@ -1,0 +1,565 @@
+{
+  "passed": true,
+  "weasyprint": "68.1",
+  "selector_cases": [
+    {
+      "case": "sec-data-collection-00",
+      "matched": [
+        "sec-data-collection"
+      ],
+      "passed": true
+    },
+    {
+      "case": "sec-data-collection-01",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-data-collection-10",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-data-collection-11",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-docs-metadata-00",
+      "matched": [
+        "sec-docs-metadata"
+      ],
+      "passed": true
+    },
+    {
+      "case": "sec-docs-metadata-01",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-docs-metadata-10",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-docs-metadata-11",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-storage-backup-00",
+      "matched": [
+        "sec-storage-backup"
+      ],
+      "passed": true
+    },
+    {
+      "case": "sec-storage-backup-01",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-storage-backup-10",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-storage-backup-11",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-ethics-legal-000",
+      "matched": [
+        "sec-ethics-legal"
+      ],
+      "passed": true
+    },
+    {
+      "case": "sec-ethics-legal-001",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-ethics-legal-010",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-ethics-legal-011",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-ethics-legal-100",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-ethics-legal-101",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-ethics-legal-110",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-ethics-legal-111",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-0000",
+      "matched": [
+        "sec-sharing-preservation"
+      ],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-0001",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-0010",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-0011",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-0100",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-0101",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-0110",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-0111",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-1000",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-1001",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-1010",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-1011",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-1100",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-1101",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-1110",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-sharing-preservation-1111",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-responsibilities-resources-00",
+      "matched": [
+        "sec-responsibilities-resources"
+      ],
+      "passed": true
+    },
+    {
+      "case": "sec-responsibilities-resources-01",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-responsibilities-resources-10",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "sec-responsibilities-resources-11",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "unknown-section",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "wrong-parent",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "nested-owned-section",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "extra-heading",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "missing-question",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "extra-question",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "wrong-heading-tag",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "wrong-section-tag",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "wrong-question-tag",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "heading-not-first",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "extra-authored-p",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "extra-authored-img",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "extra-authored-table",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "extra-authored-br",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "extra-authored-div",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "authored-fallback-55",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "authored-fallback-56",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "authored-fallback-57",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "authored-fallback-58",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "authored-fallback-59",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "authored-fallback-60",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "authored-fallback-61",
+      "matched": [],
+      "passed": true
+    },
+    {
+      "case": "nested-authored-markers",
+      "matched": [],
+      "passed": true
+    }
+  ],
+  "render_cases": [
+    {
+      "case": "sec-data-collection-00",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 2,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-data-collection-00",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-docs-metadata-00",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 2,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-docs-metadata-00",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-storage-backup-00",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 2,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-storage-backup-00",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-ethics-legal-000",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 2,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-ethics-legal-000",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-sharing-preservation-0000",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 2,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-sharing-preservation-0000",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-responsibilities-resources-00",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 2,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-responsibilities-resources-00",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-data-collection-01",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-data-collection-01",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-data-collection-10",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-data-collection-10",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-sharing-preservation-0001",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-sharing-preservation-0001",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-sharing-preservation-1000",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "sec-sharing-preservation-1000",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "unknown-section",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "unknown-section",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "wrong-parent",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "wrong-parent",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "extra-authored-table",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "extra-authored-table",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "nested-authored-markers",
+      "media": "print",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    },
+    {
+      "case": "nested-authored-markers",
+      "media": "screen",
+      "passed": true,
+      "changed_blocks": 0,
+      "pages_before": 1,
+      "pages_after": 1
+    }
+  ],
+  "worker_image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc",
+  "prototype_only": true,
+  "release_acceptance": false,
+  "full_document_typography_checked": false,
+  "checker_sha256": "22f8bbc162113381004678e7e427d21d261949e039b2c596e7dd0fe11f3ef74f",
+  "css_sha256": "11c978d781e49d32f801074188183c271d199d33c7efdce602c8d0d45ab2bbec"
+}

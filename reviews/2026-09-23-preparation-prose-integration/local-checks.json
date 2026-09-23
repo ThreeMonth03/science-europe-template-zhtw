@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "scope": "Local integration regression checks, not full document-quality acceptance",
+  "english_clean_make_check": {
+    "passed": true,
+    "unit_tests": 258,
+    "tdk_verified": true,
+    "exit_code": 0,
+    "only_declared_requirements_installed": true,
+    "log_sha256": "f8d8477a4c3430d849a5d13ab4dfcc584901cd24c6cbed25b34d8956c269961f"
+  },
+  "chinese_unit_tests": 467,
+  "workflow_python_commands": 53,
+  "github_ci_run": false,
+  "comparator_tests": 9,
+  "comparator_tests_log_sha256": "2ca3c896dd63c784a367ae229331bacd20aff658e67445e00911742f8bc31b6d",
+  "initial_comparator_harness_error": {
+    "kind": "Missing local check.py compatibility wrapper",
+    "fixed_before_native_comparison": true,
+    "production_sources_changed": false,
+    "log_sha256": "9809b3caf3b6d5399fe0273c54920f8c4877e9fac4d30b269561d9b22b70b114"
+  },
+  "native_groups": 28,
+  "page_totals": {
+    "pdf": 130,
+    "word_preview": 133
+  },
+  "manually_viewed_pages": 6,
+  "package_rebuild_bitwise_identical": true,
+  "credentials_used": false,
+  "remote_writes": 0,
+  "release_acceptance": false,
+  "known_open_quality_issue": "MISSING zh-Hant submission LibreOffice preview: Q15 alone on page 3, unchanged from prototype"
+}

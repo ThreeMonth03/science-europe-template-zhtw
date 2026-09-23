@@ -1,0 +1,26 @@
+{
+  "scope": "Observation verification; not a release acceptance test",
+  "english_conjunction_present_in_html_and_pdf": true,
+  "suspected_english_conjunction_loss_rejected": true,
+  "known_word_pagination_issue": [
+    {
+      "arm": "baseline",
+      "case": "MISSING",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "question_15_alone_on_last_page": true,
+      "pages": 3
+    },
+    {
+      "arm": "candidate",
+      "case": "MISSING",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "question_15_alone_on_last_page": true,
+      "pages": 3
+    }
+  ],
+  "production_changed": false
+}

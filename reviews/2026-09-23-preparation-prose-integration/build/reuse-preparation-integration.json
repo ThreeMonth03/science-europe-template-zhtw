@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "source_integrated": true,
+  "release_acceptance": false,
+  "native_integrated_render_checked": false,
+  "version": "0.3.49",
+  "baseline_version": "0.3.48",
+  "translation_delta": {
+    "baseline_units": 775,
+    "current_units": 775,
+    "retained_units": 766,
+    "removed_units": 9,
+    "added_units": 9
+  },
+  "packages": {
+    "english": {
+      "package_sha256": "9912fb9454190970614c4b260a305695dfe9bcb60c85480c4e9ed03fff863103",
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "prepared_source_verified": true
+    },
+    "chinese": {
+      "package_sha256": "1896530e3d340f1b0894ddedab90fc6d8697def24a68f9be9264bd468ffafec5",
+      "prototype_content_and_assets_identical": true,
+      "deterministic_identity_verified": true,
+      "prepared_source_verified": true
+    }
+  },
+  "branch_checks": {
+    "english": 8208,
+    "chinese": 8208
+  },
+  "css_and_word_steps_unchanged": true
+}

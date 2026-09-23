@@ -1,0 +1,50 @@
+{
+  "scope": "Selected-page visual review of integrated 0.3.49 packages",
+  "manually_viewed_pages": 6,
+  "full_release_acceptance": false,
+  "native_ms_word": false,
+  "observations": [
+    {
+      "case": "POSITIVE",
+      "language": "en",
+      "profile": "submission",
+      "format": "pdf",
+      "pages": [2],
+      "observation": "Q1 fixed prose, metadata links and retained empty question headings are readable. Initial suspicion of a missing conjunction was rejected after checking the HTML and PDF text layers: 'metadata and we will use' is intact. The long sentence remains a possible editorial refinement, not a confirmed parsing defect."
+    },
+    {
+      "case": "POSITIVE",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "pdf",
+      "pages": [2],
+      "observation": "Chinese preparation statements read as complete sentences. Sharing statements match affirmative answers; all fifteen headings fit on the body page. Mixed-script synthetic standard labels are intentionally preserved, including their original punctuation."
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "pages": [2],
+      "observation": "Re-use paragraphs and dataset hierarchy remain readable; fixed Chinese preparation sentences are continuous. No new overflow or clipped text was observed on this selected page. Private project text and screenshot are not exported."
+    },
+    {
+      "case": "MISSING",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "libreoffice-word-preview",
+      "pages": [2, 3],
+      "observation": "Confirmed existing layout limitation: sparse answers leave Q15 alone on page 3. Q14 and the section heading remain on page 2. All questions are retained and no missing-answer prompts or inferred sharing promises appear, but this pagination is not submission-quality acceptance. It also exists in the accepted prototype and is not introduced by integration."
+    },
+    {
+      "case": "EMPTY",
+      "language": "zh-Hant",
+      "profile": "submission",
+      "format": "pdf",
+      "pages": [2],
+      "observation": "All six sections and fifteen original empty question headings remain on one body page with compact spacing and no template-generated missing-answer notices."
+    }
+  ],
+  "next_priority": "Reproduce and locally correct sparse-submission Word heading/section spacing without removing questions, shrinking all document text, or changing review output. Check both languages and long-answer controls.",
+  "private_images_exported": false
+}

@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "case": "q-how-data",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-what-data",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-docs-metadata",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-quality-control",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-store-backup",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-access-security",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-personal-data",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-copyright-ipr",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-ethical-issues",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-share-restrictions",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-data-preservation",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-access-data",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-persistent-identifier",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-dm-responsible",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "q-required-resources",
+      "eligible": true,
+      "passed": true
+    },
+    {
+      "case": "review-unmarked",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "wrong-requirement",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "wrong-id",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "wrong-heading",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "additional-class",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "zero",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "empty-authored",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "authored-lookalike",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "raw-text-lookalike",
+      "eligible": false,
+      "passed": true
+    },
+    {
+      "case": "q5-empty-skeleton",
+      "eligible": true,
+      "passed": true
+    }
+  ],
+  "pandoc": "pandoc 3.8.3",
+  "image": "datastewardshipwizard/document-worker@sha256:5e5c5e1e436feb49fc4cbcd62c2e0ab2785db2141b0fe40d2926906bcfeaebfc"
+}
