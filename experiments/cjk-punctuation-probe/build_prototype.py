@@ -127,7 +127,9 @@ def run(english, tooling, baseline, output):
     path = output / 'translated/template.json'; metadata = json.loads(path.read_text())
     localize_format_names(metadata, config['translation']['format_names']); write(path, metadata)
     assert not audit_translated_template_structure(source_dir=expanded, output_dir=output / 'translated')
-    result = dict(status='prototype', prototype_only=True, source_integrated=False, release_acceptance=False,
+    result = dict(status='rejected-no-benefit', prototype_only=True, source_integrated=False, release_acceptance=False,
+        recommended_for_integration=False, validation_passed=True,
+        reason='The locked translator already removes the owned Q3 sentence-list separators; rendered HTML is unchanged.',
         experiment_lock=lock, baseline_packages=BASELINE_HASHES, changed_source_files=[QUESTION],
         translation_delta=delta, checks={}, sha256={},
         checkouts={name: dict(commit=git(root, 'rev-parse', 'HEAD'), dirty=bool(git(root, 'status', '--porcelain')))
