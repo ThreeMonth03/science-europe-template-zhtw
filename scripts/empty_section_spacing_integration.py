@@ -43,7 +43,7 @@ def integrated_package(language,timestamp):
     return result
 
 def project_package(candidate,language,timestamp):
-    if candidate['version'] in ['0.3.49', '0.3.50']:
+    if candidate['version'] in ['0.3.49', '0.3.50', '0.3.51']:
         from reuse_preparation_integration import project_package as before_preparation
         candidate=before_preparation(candidate,language,timestamp)
     from submission_flow_integration import integrated_package as old
@@ -59,7 +59,7 @@ def check(build,english,preview=False):
     manifest=json.loads((build/'manifest.json').read_text())
     assert manifest['status']==('preview' if preview else 'candidate')
     version=manifest['source']['version']
-    assert version==manifest['translation']['version'] and version in ['0.3.48','0.3.49', '0.3.50']
+    assert version==manifest['translation']['version'] and version in ['0.3.48','0.3.49', '0.3.50', '0.3.51']
     if not preview:
         assert all(not state['dirty'] for state in manifest['checkouts'].values())
         assert manifest['source']['commit']==manifest['checkouts']['english']['commit']==git(english,'rev-parse','HEAD')
@@ -67,7 +67,7 @@ def check(build,english,preview=False):
     files=list((ROOT/'translation/tree').rglob('translation.md'))
     assert len(files)==manifest['translation_units']==775 and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256']=={str(p.relative_to(ROOT/'translation')):sha(p) for p in files}
-    if version in ['0.3.49', '0.3.50']:
+    if version in ['0.3.49', '0.3.50', '0.3.51']:
         from reuse_preparation_integration import project_translations
         from probe_pdf_budget_translation import pair
         project_translations([pair(p.read_text()) for p in files])
@@ -77,16 +77,16 @@ def check(build,english,preview=False):
         path=build/(language+'.zip');assert sha(path)==manifest['sha256'][path.name]
         packages[language]=check_package(path,build/folder,language,manifest['package_timestamp'])
         after=sources(build/folder)
-        if version=='0.3.50':
+        if version in ['0.3.50', '0.3.51']:
             from word_empty_section_integration import project_sources as before_word
             after=before_word(after,language)
-        if version in ['0.3.49', '0.3.50']:
+        if version in ['0.3.49', '0.3.50', '0.3.51']:
             from reuse_preparation_integration import project_sources as before_preparation
             after=before_preparation(after,language)
         before=project_sources(after,language)
         branches[language]=len(load('probe').check(english,before,after));assert branches[language]==396
     return dict(passed=True,source_integrated=True,release_acceptance=False,native_integrated_render_checked=False,
-        baseline_version='0.3.47',version=version,comparison_version='0.3.48',historical_scope=version in ['0.3.49', '0.3.50'],
+        baseline_version='0.3.47',version=version,comparison_version='0.3.48',historical_scope=version in ['0.3.49', '0.3.50', '0.3.51'],
         translation_units=775,translation_files_unchanged=version=='0.3.48',
         css_sha256=hashlib.sha256(css()).hexdigest(),packages=packages,branch_checks=branches)
 

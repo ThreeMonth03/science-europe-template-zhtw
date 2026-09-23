@@ -63,7 +63,7 @@ def integrated_package(language, timestamp):
 
 
 def project_package(candidate, language, timestamp):
-    if candidate['version'] == '0.3.50':
+    if candidate['version'] in ['0.3.50', '0.3.51']:
         from word_empty_section_integration import project_package as before_word
         candidate = before_word(candidate, language, timestamp)
     from empty_section_spacing_integration import integrated_package as old
@@ -98,7 +98,7 @@ def check(build, english, preview=False):
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
     version = manifest['source']['version']
-    assert version == manifest['translation']['version'] and version in ['0.3.49', '0.3.50']
+    assert version == manifest['translation']['version'] and version in ['0.3.49', '0.3.50', '0.3.51']
     if not preview:
         assert all(not state['dirty'] for state in manifest['checkouts'].values())
         assert manifest['source']['commit'] == manifest['checkouts']['english']['commit'] == git(english, 'rev-parse', 'HEAD')
@@ -113,7 +113,7 @@ def check(build, english, preview=False):
         path = build / (language + '.zip'); assert sha(path) == manifest['sha256'][path.name]
         packages[language] = check_package(path, build / folder, language, manifest['package_timestamp'])
         after = sources(build / folder)
-        if version == '0.3.50':
+        if version in ['0.3.50', '0.3.51']:
             from word_empty_section_integration import project_sources as before_word
             after = before_word(after, language)
         before = project_sources(after, language)
@@ -122,7 +122,7 @@ def check(build, english, preview=False):
             {u['en']: u['old_zh'] for u in units()} if language == 'chinese' else None)
         branches[language] = len(rows); assert len(rows) == 8208
     return dict(passed=True, source_integrated=True, release_acceptance=False, native_integrated_render_checked=False,
-        version=version, comparison_version='0.3.49', historical_scope=version=='0.3.50', baseline_version='0.3.48', translation_delta=delta,
+        version=version, comparison_version='0.3.49', historical_scope=version in ['0.3.50', '0.3.51'], baseline_version='0.3.48', translation_delta=delta,
         packages=packages, branch_checks=branches, css_and_word_steps_unchanged=True)
 
 

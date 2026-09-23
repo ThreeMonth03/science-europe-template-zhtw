@@ -34,6 +34,8 @@ def needs_projection(current):
                for name, phases in CONTRACT['helpers'].items())
 
 def project_sources(current, language):
+    from q3_policy_prose_integration import HELPER, project_sources as before_q3
+    if HELPER in current: current = before_q3(current, language)
     from reuse_preparation_integration import CONTRACT as previous
     expected = dict(previous['languages'][language]['after'])
     before_helpers, after_helpers = helpers('before'), helpers('after')
@@ -55,11 +57,18 @@ def integrated_package(language, timestamp):
     return result
 
 def project_package(candidate, language, timestamp):
+    if candidate['version'] == '0.3.51':
+        from q3_policy_prose_integration import project_package as before_q3
+        candidate = before_q3(candidate, language, timestamp)
     from reuse_preparation_integration import integrated_package as old
     assert candidate == integrated_package(language, timestamp), 'Unreviewed identity, source, asset metadata, UUID, timestamp or step'
     return old(language, timestamp)
 
 def check_package(path, prepared, language, timestamp):
+    with zipfile.ZipFile(path) as z:version = json.loads(z.read('template/template.json'))['version']
+    if version == '0.3.51':
+        from q3_policy_prose_integration import check_package as check_current
+        return check_current(path, prepared, language, timestamp)
     from submission_flow_integration import sources, CONTRACT as old
     current = sources(prepared); previous = project_sources(current, language)
     members = old['languages'][language]['prototype']['assets']
@@ -85,7 +94,8 @@ def check(build, english, preview=False):
     assert helpers('after') == {n:(english / n).read_bytes() for n in CONTRACT['helpers']}
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
-    assert manifest['source']['version'] == manifest['translation']['version'] == '0.3.50'
+    version = manifest['source']['version']
+    assert version == manifest['translation']['version'] and version in ['0.3.50', '0.3.51']
     if not preview:
         assert all(not row['dirty'] for row in manifest['checkouts'].values())
         assert manifest['source']['commit'] == manifest['checkouts']['english']['commit'] == git(english, 'rev-parse', 'HEAD')
@@ -105,7 +115,8 @@ def check(build, english, preview=False):
                 p = baseline / name; p.parent.mkdir(parents=True, exist_ok=True); p.write_bytes(value)
             rows = load('engine').run(baseline, build / folder, build / ('word-empty-section-engine-' + language + '.json'))
         engines[language] = len(rows['rows']); assert engines[language] == 121
-    return dict(passed=True,source_integrated=True,version='0.3.50',baseline_version='0.3.49',
+    return dict(passed=True,source_integrated=True,version=version,comparison_version='0.3.50',
+                historical_scope=version=='0.3.51',baseline_version='0.3.49',
                 translation_units=775,translation_file_bytes_unchanged=True,changed_assets=sorted(CONTRACT['helpers']),
                 packages=packages,engine_cases=engines,native_integrated_render_checked=False,release_acceptance=False)
 

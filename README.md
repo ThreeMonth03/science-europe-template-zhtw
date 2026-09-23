@@ -3,7 +3,12 @@
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
-0.3.50 [Word 空節間距與連頁規則](docs/word-empty-sections.md)接回共用英文來源，
+0.3.51 [第 3 題固定政策共用接句](docs/q3-policy-prose.md)接回英文共用來源，
+中文仍以完整英文 commit 配對建置。只合併符合條件的中文固定段落；英文、
+中英混排、使用者原文和漏填提示原樣保留。775 份翻譯與所有渲染資產不變。
+整合驗證進行中，尚未推送、部署或通過全面繳交品質驗收。
+
+先前 0.3.50 [Word 空節間距與連頁規則](docs/word-empty-sections.md)接回共用英文來源，
 中文鎖定完整英文 commit 配對建置。只改兩個 Word 資產，775 組翻譯檔案不變。
 [本輪整合驗證](reviews/2026-09-23-word-empty-section-integration/README.md)完成：
 兩次乾淨建置一致，英文 265／中文 472 項測試與全部 54 個本機 workflow 指令通過；

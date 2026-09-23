@@ -13,7 +13,7 @@ def run(build, english, preview=False):
     sys.path.insert(0, str(ROOT / 'experiments/word-asset'))
     from source_parity import run as compare
     historical = build
-    if json.loads((build / 'manifest.json').read_text())['source']['version'] in ['0.3.46', '0.3.47', '0.3.48', '0.3.49', '0.3.50']:
+    if json.loads((build / 'manifest.json').read_text())['source']['version'] in ['0.3.46', '0.3.47', '0.3.48', '0.3.49', '0.3.50', '0.3.51']:
         from full_km_followups_integration import historical_build
         historical = historical_build(build, build / 'submission-reading-historical-0345')
     report = compare(historical, english, build / 'submission-reading-parity')

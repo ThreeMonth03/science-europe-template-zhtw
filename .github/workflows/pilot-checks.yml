@@ -64,7 +64,8 @@ jobs:
         run: |
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
           SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
-          # Validate actual 0.3.50 Word assets and both language engines first.
+          # Validate actual 0.3.51 packages before every historical projection.
+          ../tooling/.venv/bin/python scripts/q3_policy_prose_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/word_empty_section_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/reuse_preparation_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/empty_section_spacing_integration.py --build "$SE_BUILD_DIR" --english ../english
@@ -152,6 +153,7 @@ jobs:
             zh/outputs/build-*/empty-section-*.json
             zh/outputs/build-*/reuse-preparation-*.json
             zh/outputs/build-*/word-empty-section-*.json
+            zh/outputs/build-*/q3-policy-prose-*.json
             zh/outputs/build-*/submission-preview-*.json
             zh/outputs/build-*/identifier-spacing-engine.json
             zh/outputs/build-*/identifier-spacing-preflight.json
