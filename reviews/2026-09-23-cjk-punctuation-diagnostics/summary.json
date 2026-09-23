@@ -1,0 +1,81 @@
+{
+  "status": "diagnosed-not-integrated",
+  "release_acceptance": false,
+  "production_version": "0.3.50",
+  "production_sources_and_translation_unchanged": true,
+  "checkouts": {
+    "english": {
+      "commit": "b69c27bcc45c302cc434e8c7c9eb2912855c7f8d",
+      "dirty": false
+    },
+    "chinese": {
+      "commit": "54953dbed0fae64deba93ae0ce45296a286425a3",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    }
+  },
+  "paired_rebuild_bitwise_identical": true,
+  "prototype_package_sha256": {
+    "english.zip": "90e95155fb55a10b9257ac3e6c91339cbc095dff9c42ebedad0b6f7a06062931",
+    "chinese.zip": "03b71514999322da2193a1d114ae25b286fa118205ecb377eef9ef2a223ee657"
+  },
+  "packaged_answer_comparisons_per_language": 6378,
+  "full_document_comparisons_per_language": 396,
+  "rendered_html_changes": 0,
+  "translation_file_bytes_unchanged": 775,
+  "first_build_expected_improvement_gate_failed": true,
+  "font": {
+    "sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+    "pages": 4,
+    "samples_per_variant": 7,
+    "chws_has_no_effect": true,
+    "features_adopted": [],
+    "manually_viewed_pages": [
+      1,
+      3,
+      4
+    ]
+  },
+  "boundary": {
+    "synthetic_cases": 6,
+    "pdf_word_mismatch_counterexamples": [
+      "mixed-boundary"
+    ],
+    "naive_extension_rejected": true
+  },
+  "local_tests": {
+    "english_full": 271,
+    "english_tdk_verified": true,
+    "chinese_full": 475,
+    "chinese_full_test_commit": "08f5d18f5ea42fbc30d8734e82089ba899494a03",
+    "chinese_final_builder_tests": 3,
+    "chinese_final_builder_commit": "54953dbed0fae64deba93ae0ce45296a286425a3",
+    "english_final_targeted_tests": 6,
+    "github_actions_run": false,
+    "full_integration_workflow_rerun": false
+  },
+  "preserved_prior_private_files": 1049,
+  "new_private_project_replays": 0,
+  "native_ms_word": false,
+  "libreoffice_previews_this_round": false,
+  "credentials_used": false,
+  "remote_writes": 0,
+  "limits": [
+    "Negative experiments, not an accepted layout fix.",
+    "Six boundary probes use CSS/Pandoc assets, not the complete worker pipeline or project documents.",
+    "Chinese full suite ran before the final report-status-only builder change; final builder tests and two builds reran afterward."
+  ],
+  "logs": {
+    "en-check": "ca2436bf6a5035f6e70fda44fa5626bcc85a161723365f36cb4d0119a2942b9e",
+    "en-check-initial": "651801d1581f4dfd16d6187425538013c60e1c94c1ac8e8d56e079dc908de6c4",
+    "zh-check": "92d8aa72662d819ca8406354fc9cad0a34b3b72f9b55406ede8c3ae8120b4e7a",
+    "en-target": "284db4702fcf68402916cffaa3200109b29252a09d83dc92ee48770fe79a50a6",
+    "zh-target": "a389f5afaecc09752b4f03681c537eb45089a047bd853d387fce5ace482a3556",
+    "build-initial": "7c14f90bcfaf7bdb67e6c59f02c5a7a5b2c3b3967ad20cf80e98da708939b006",
+    "build-02": "7682e6377680ba632b18c7726c482266128fa0753196cc4540f03723be0015fb",
+    "build-03": "7682e6377680ba632b18c7726c482266128fa0753196cc4540f03723be0015fb"
+  }
+}

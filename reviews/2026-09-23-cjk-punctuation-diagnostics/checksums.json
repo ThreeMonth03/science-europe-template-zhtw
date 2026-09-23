@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "17419533a49a5612b9dfc5030f43bf92d10b1f722d37931124b0d6bc88f8a932"
+    },
+    {
+      "path": "boundary-lab.json",
+      "sha256": "a09c0e91bcc85adc16d10a67e79560b981f78ac2077d4ccae8e9dba63ecfc561"
+    },
+    {
+      "path": "build-manifest.json",
+      "sha256": "1c51b3a1c8c4fa78352c8e7e7a290f8378291776a8aa4e4b62d2023cfbb7a803"
+    },
+    {
+      "path": "font-lab/metrics.json",
+      "sha256": "88be87bdb9e06956bad75b9e8a8f41a3ad35a898b0bea15e704c369ae599a09d"
+    },
+    {
+      "path": "font-lab/samples.pdf",
+      "sha256": "a4c7cb664ea91887ab55b8b8edc4da88625354b06d2a295ad9ed6c0068fe0dd5"
+    },
+    {
+      "path": "private-evidence-receipt.json",
+      "sha256": "2efedb742249e87348a2a6da652bf13382eab7a219e6631c351f28f17f7eda09"
+    },
+    {
+      "path": "rebuild-manifest.json",
+      "sha256": "1c51b3a1c8c4fa78352c8e7e7a290f8378291776a8aa4e4b62d2023cfbb7a803"
+    },
+    {
+      "path": "summary.json",
+      "sha256": "c2b101453c1803073ea70071d3b3269b55bf5f7ad63f9eb097b09c4541043cd7"
+    }
+  ]
+}

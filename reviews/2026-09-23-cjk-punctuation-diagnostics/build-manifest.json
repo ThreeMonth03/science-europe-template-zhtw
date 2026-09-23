@@ -1,0 +1,51 @@
+{
+  "status": "rejected-no-benefit",
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "recommended_for_integration": false,
+  "validation_passed": true,
+  "reason": "The locked translator already removes the owned Q3 sentence-list separators; rendered HTML is unchanged.",
+  "experiment_lock": {
+    "prototype_only": true,
+    "production_source_commit": "a2f97d9312b4ce811b92f5943944997638cc67b8",
+    "english_recipe_commit": "b69c27bcc45c302cc434e8c7c9eb2912855c7f8d",
+    "tooling_commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+    "baseline_review": "reviews/2026-09-23-word-empty-section-integration",
+    "baseline_review_seal": "fc7c5d893451a841162510a09d118feae5d052d3f8b40a4e39cf37f8dbb5aa12"
+  },
+  "baseline_packages": {
+    "english.zip": "4f26c8cf53bc8bb4870ddb0aac5ac494948508e67bf295e34179458fde8c4a36",
+    "chinese.zip": "99648e6f99ae8d8467dad177acc87cb741f311a2212919d6a9ef94cda6f73497"
+  },
+  "changed_source_files": [
+    "src/questions/03-docs-metadata.html.j2"
+  ],
+  "translation_delta": {
+    "total": 775,
+    "byte_identical": 775,
+    "changed": 0
+  },
+  "checks": {
+    "english": 6378,
+    "chinese": 6378
+  },
+  "sha256": {
+    "english.zip": "90e95155fb55a10b9257ac3e6c91339cbc095dff9c42ebedad0b6f7a06062931",
+    "chinese.zip": "03b71514999322da2193a1d114ae25b286fa118205ecb377eef9ef2a223ee657"
+  },
+  "checkouts": {
+    "english": {
+      "commit": "b69c27bcc45c302cc434e8c7c9eb2912855c7f8d",
+      "dirty": false
+    },
+    "chinese": {
+      "commit": "54953dbed0fae64deba93ae0ce45296a286425a3",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    }
+  }
+}

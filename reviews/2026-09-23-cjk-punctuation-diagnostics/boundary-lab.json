@@ -1,0 +1,1536 @@
+{
+  "diagnostic_passed": true,
+  "source_integrated": false,
+  "recommended_for_integration": false,
+  "reason": "The naive CSS selector removes a separator that the Word boundary guard retains in mixed text.",
+  "worker_image": "sha256:6d3cbcab3294e760a4d92e27bec72d4fb23a0adb2cc1734d981478688741ab11",
+  "synthetic_cases": 6,
+  "counterexamples": [
+    "mixed-boundary"
+  ],
+  "source_sha256": {
+    "src/layout.css": "06c35175f94197dbbe76e98954d52139cd3918e9926a95edc26ba1163a2b2530",
+    "src/word/pilot.lua": "eb79e7cbb7a96972cc49e0e76bae462eeea66e0be911f049a259f48e8a7b0547",
+    "src/word/reference.docx": "28dc237bf00a0e6ba9d311966d38bb9170b218fe2d03b5bab8a7acd54cf729ae",
+    "src/fonts/PilotTC.ttf": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f"
+  },
+  "word": [
+    {
+      "case": "zh-owned",
+      "word_separator_removed": true,
+      "word": [
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "metadata-policy",
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "本計畫將建立資料字典或變項定義表。"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "後設資料將公開提供。"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "本計畫將建立資料字典或變項定義表。 後設資料將公開提供。",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">後設資料將公開提供。</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">後設資料將公開提供。</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        },
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "metadata-policy",
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "本計畫將建立資料字典或變項定義表。"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "後設資料將公開提供。"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "本計畫將建立資料字典或變項定義表。後設資料將公開提供。",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。後設資料將公開提供。</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。後設資料將公開提供。</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        }
+      ]
+    },
+    {
+      "case": "zh-internal-latin",
+      "word_separator_removed": true,
+      "word": [
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "metadata-policy",
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "資料溯源將以"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "W3C"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "PROV"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "記錄。"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "本計畫將建立資料字典或變項定義表。"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "資料溯源將以 W3C PROV 記錄。 本計畫將建立資料字典或變項定義表。",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">資料溯源將以</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> W3C PROV </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">記錄。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">資料溯源將以</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> W3C PROV </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">記錄。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        },
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "metadata-policy",
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "資料溯源將以"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "W3C"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "PROV"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "記錄。"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "本計畫將建立資料字典或變項定義表。"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "資料溯源將以 W3C PROV 記錄。本計畫將建立資料字典或變項定義表。",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">資料溯源將以</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> W3C PROV </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">記錄。本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">資料溯源將以</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> W3C PROV </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">記錄。本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        }
+      ]
+    },
+    {
+      "case": "en-owned",
+      "word_separator_removed": false,
+      "word": [
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "en"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "metadata-policy",
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "We"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "will"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "create"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "a"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "data"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "dictionary."
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "Metadata"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "will"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "be"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "openly"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "available."
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "We will create a data dictionary. Metadata will be openly available.",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:t xml:space=\"preserve\">We will create a data dictionary. Metadata will be openly available.</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:t xml:space=\"preserve\">We will create a data dictionary. Metadata will be openly available.</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        },
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "en"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "metadata-policy",
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "We"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "will"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "create"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "a"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "data"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "dictionary."
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "Metadata"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "will"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "be"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "openly"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "available."
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "We will create a data dictionary. Metadata will be openly available.",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:t xml:space=\"preserve\">We will create a data dictionary. Metadata will be openly available.</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:t xml:space=\"preserve\">We will create a data dictionary. Metadata will be openly available.</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        }
+      ]
+    },
+    {
+      "case": "unrelated-policy",
+      "word_separator_removed": false,
+      "word": [
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "原文。"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "原文。"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "原文。 原文。",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文。</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文。</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        },
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "原文。"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "原文。"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "原文。 原文。",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文。</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> </ns0:t></ns0:r><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文。</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        }
+      ]
+    },
+    {
+      "case": "authored",
+      "word_separator_removed": false,
+      "word": [
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "answer-detail"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Div",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          [
+                            [
+                              "custom-style",
+                              "Pilot Lead"
+                            ]
+                          ]
+                        ],
+                        [
+                          {
+                            "t": "Para",
+                            "c": [
+                              {
+                                "t": "Str",
+                                "c": "原文）。"
+                              },
+                              {
+                                "t": "Space"
+                              },
+                              {
+                                "t": "Str",
+                                "c": "Keep"
+                              },
+                              {
+                                "t": "Space"
+                              },
+                              {
+                                "t": "Str",
+                                "c": "spaces;"
+                              },
+                              {
+                                "t": "Space"
+                              },
+                              {
+                                "t": "Str",
+                                "c": "v1.25."
+                              }
+                            ]
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "第二段。"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "https://example.org/a?x=1&y=2"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "原文）。 Keep spaces; v1.25.",
+              "style": "PilotLead",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文）。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> Keep spaces; v1.25.</ns0:t></ns0:r></ns0:p>\n    "
+            },
+            {
+              "text": "第二段。 https://example.org/a?x=1&y=2",
+              "style": "BodyText",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">第二段。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> https://example.org/a?x=1&amp;y=2</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"PilotLead\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文）。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> Keep spaces; v1.25.</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"BodyText\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">第二段。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> https://example.org/a?x=1&amp;y=2</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        },
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "answer-detail"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Div",
+                      "c": [
+                        [
+                          "",
+                          [],
+                          [
+                            [
+                              "custom-style",
+                              "Pilot Lead"
+                            ]
+                          ]
+                        ],
+                        [
+                          {
+                            "t": "Para",
+                            "c": [
+                              {
+                                "t": "Str",
+                                "c": "原文）。"
+                              },
+                              {
+                                "t": "Space"
+                              },
+                              {
+                                "t": "Str",
+                                "c": "Keep"
+                              },
+                              {
+                                "t": "Space"
+                              },
+                              {
+                                "t": "Str",
+                                "c": "spaces;"
+                              },
+                              {
+                                "t": "Space"
+                              },
+                              {
+                                "t": "Str",
+                                "c": "v1.25."
+                              }
+                            ]
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "第二段。"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "https://example.org/a?x=1&y=2"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "原文）。 Keep spaces; v1.25.",
+              "style": "PilotLead",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文）。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> Keep spaces; v1.25.</ns0:t></ns0:r></ns0:p>\n    "
+            },
+            {
+              "text": "第二段。 https://example.org/a?x=1&y=2",
+              "style": "BodyText",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">第二段。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> https://example.org/a?x=1&amp;y=2</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"PilotLead\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">原文）。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> Keep spaces; v1.25.</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"BodyText\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">第二段。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> https://example.org/a?x=1&amp;y=2</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        }
+      ]
+    },
+    {
+      "case": "mixed-boundary",
+      "word_separator_removed": false,
+      "word": [
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "metadata-policy",
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "本計畫將建立資料字典或變項定義表。"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "W3C"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "PROV"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "is"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "supported."
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "本計畫將建立資料字典或變項定義表。 W3C PROV is supported.",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> W3C PROV is supported.</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> W3C PROV is supported.</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        },
+        {
+          "ast": {
+            "pandoc-api-version": [
+              1,
+              23,
+              1
+            ],
+            "meta": {
+              "lang": {
+                "t": "MetaInlines",
+                "c": [
+                  {
+                    "t": "Str",
+                    "c": "zh-Hant"
+                  }
+                ]
+              }
+            },
+            "blocks": [
+              {
+                "t": "Div",
+                "c": [
+                  [
+                    "",
+                    [
+                      "metadata-policy",
+                      "dataset-policy"
+                    ],
+                    []
+                  ],
+                  [
+                    {
+                      "t": "Para",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "本計畫將建立資料字典或變項定義表。"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "W3C"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "PROV"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "is"
+                        },
+                        {
+                          "t": "Space"
+                        },
+                        {
+                          "t": "Str",
+                          "c": "supported."
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "text": "本計畫將建立資料字典或變項定義表。 W3C PROV is supported.",
+              "style": "FirstParagraph",
+              "other_xml": "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr /><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> W3C PROV is supported.</ns0:t></ns0:r></ns0:p>\n    "
+            }
+          ],
+          "word_blocks": [
+            "<ns0:p xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\"><ns0:pPr><ns0:pStyle ns0:val=\"FirstParagraph\" /></ns0:pPr><ns0:r><ns0:rPr><ns0:rFonts ns0:hint=\"eastAsia\" /></ns0:rPr><ns0:t xml:space=\"preserve\">本計畫將建立資料字典或變項定義表。</ns0:t></ns0:r><ns0:r><ns0:t xml:space=\"preserve\"> W3C PROV is supported.</ns0:t></ns0:r></ns0:p>\n    ",
+            "<ns0:sectPr xmlns:ns0=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:ns1=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" ns0:rsidR=\"00A0379A\" ns0:rsidSect=\"00646003\">\n      <ns0:headerReference ns1:id=\"rId17\" ns0:type=\"default\" />\n      <ns0:footerReference ns1:id=\"rId18\" ns0:type=\"default\" />\n      <ns0:headerReference ns1:id=\"rId19\" ns0:type=\"first\" />\n      <ns0:footerReference ns1:id=\"rId20\" ns0:type=\"first\" />\n      <ns0:headerReference ns1:id=\"rId23\" ns0:type=\"even\" />\n      <ns0:pgSz ns0:h=\"16838\" ns0:w=\"11906\" />\n      <ns0:pgMar ns0:bottom=\"1247\" ns0:footer=\"708\" ns0:gutter=\"0\" ns0:header=\"708\" ns0:left=\"1077\" ns0:right=\"1077\" ns0:top=\"1134\" />\n      <ns0:cols ns0:space=\"708\" />\n      <ns0:titlePg />\n      <ns0:docGrid ns0:linePitch=\"326\" />\n    </ns0:sectPr>\n  "
+          ]
+        }
+      ]
+    }
+  ],
+  "pdf": {
+    "weasyprint": "68.1",
+    "rows": [
+      {
+        "case": "zh-owned",
+        "eligible": true,
+        "before": {
+          "text": "本計畫將建立資料字典或變項定義表。 後設資料將公開提供。",
+          "boxes": [
+            [
+              "本計畫將建立資料字典或變項定義表。",
+              79.81102362204726,
+              83.59055118110237,
+              238.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              " ",
+              317.8110236220473,
+              83.59055118110237,
+              3.1357421875,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "後設資料將公開提供。",
+              320.9467658095473,
+              83.59055118110237,
+              140.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "",
+              460.9467658095473,
+              83.59055118110237,
+              0,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        },
+        "after": {
+          "text": "本計畫將建立資料字典或變項定義表。後設資料將公開提供。",
+          "boxes": [
+            [
+              "本計畫將建立資料字典或變項定義表。",
+              79.81102362204726,
+              83.59055118110237,
+              238.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "後設資料將公開提供。",
+              317.8110236220473,
+              83.59055118110237,
+              140.0,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        }
+      },
+      {
+        "case": "zh-internal-latin",
+        "eligible": true,
+        "before": {
+          "text": "資料溯源將以 W3C PROV 記錄。 本計畫將建立資料字典或變項定義表。",
+          "boxes": [
+            [
+              "資料溯源將以 W3C PROV 記錄。",
+              79.81102362204726,
+              83.59055118110237,
+              200.3916015625,
+              20.2724609375,
+              14.0
+            ],
+            [
+              " ",
+              280.2026251845473,
+              83.59055118110237,
+              3.1357421875,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "本計畫將建立資料字典或變項定義表。",
+              283.3383673720473,
+              83.59055118110237,
+              238.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "",
+              521.3383673720473,
+              83.59055118110237,
+              0,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        },
+        "after": {
+          "text": "資料溯源將以 W3C PROV 記錄。本計畫將建立資料字典或變項定義表。",
+          "boxes": [
+            [
+              "資料溯源將以 W3C PROV 記錄。",
+              79.81102362204726,
+              83.59055118110237,
+              200.3916015625,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "本計畫將建立資料字典或變項定義表。",
+              280.2026251845473,
+              83.59055118110237,
+              238.0,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        }
+      },
+      {
+        "case": "en-owned",
+        "eligible": false,
+        "before": {
+          "text": "We will create a data dictionary. Metadata will be openly available.",
+          "boxes": [
+            [
+              "We will create a data dictionary.",
+              79.81102362204726,
+              83.59055118110237,
+              205.9228515625,
+              20.2724609375,
+              14.0
+            ],
+            [
+              " ",
+              285.7338751845473,
+              83.59055118110237,
+              3.1357421875,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "Metadata will be openly available.",
+              288.8696173720473,
+              83.59055118110237,
+              220.2041015625,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "",
+              509.0737189345473,
+              83.59055118110237,
+              0,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        },
+        "after": {
+          "text": "We will create a data dictionary. Metadata will be openly available.",
+          "boxes": [
+            [
+              "We will create a data dictionary.",
+              79.81102362204726,
+              83.59055118110237,
+              205.9228515625,
+              20.2724609375,
+              14.0
+            ],
+            [
+              " ",
+              285.7338751845473,
+              83.59055118110237,
+              3.1357421875,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "Metadata will be openly available.",
+              288.8696173720473,
+              83.59055118110237,
+              220.2041015625,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "",
+              509.0737189345473,
+              83.59055118110237,
+              0,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        }
+      },
+      {
+        "case": "unrelated-policy",
+        "eligible": false,
+        "before": {
+          "text": "原文。 原文。",
+          "boxes": [
+            [
+              "原文。",
+              79.81102362204726,
+              83.59055118110237,
+              42.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              " ",
+              121.81102362204726,
+              83.59055118110237,
+              3.1357421875,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "原文。",
+              124.94676580954726,
+              83.59055118110237,
+              42.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "",
+              166.94676580954726,
+              83.59055118110237,
+              0,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        },
+        "after": {
+          "text": "原文。 原文。",
+          "boxes": [
+            [
+              "原文。",
+              79.81102362204726,
+              83.59055118110237,
+              42.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              " ",
+              121.81102362204726,
+              83.59055118110237,
+              3.1357421875,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "原文。",
+              124.94676580954726,
+              83.59055118110237,
+              42.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "",
+              166.94676580954726,
+              83.59055118110237,
+              0,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        }
+      },
+      {
+        "case": "authored",
+        "eligible": false,
+        "before": {
+          "text": "原文）。 Keep spaces; v1.25.第二段。 https://example.org/a?x=1&y=2",
+          "boxes": [
+            [
+              "原文）。 Keep spaces; v1.25.",
+              79.81102362204726,
+              83.59055118110237,
+              184.6923828125,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "第二段。 https://example.org/a?x=1&y=2",
+              79.81102362204726,
+              111.59055118110237,
+              263.2060546875,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        },
+        "after": {
+          "text": "原文）。 Keep spaces; v1.25.第二段。 https://example.org/a?x=1&y=2",
+          "boxes": [
+            [
+              "原文）。 Keep spaces; v1.25.",
+              79.81102362204726,
+              83.59055118110237,
+              184.6923828125,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "第二段。 https://example.org/a?x=1&y=2",
+              79.81102362204726,
+              111.59055118110237,
+              263.2060546875,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        }
+      },
+      {
+        "case": "mixed-boundary",
+        "eligible": true,
+        "before": {
+          "text": "本計畫將建立資料字典或變項定義表。 W3C PROV is supported.",
+          "boxes": [
+            [
+              "本計畫將建立資料字典或變項定義表。",
+              79.81102362204726,
+              83.59055118110237,
+              238.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              " ",
+              317.8110236220473,
+              83.59055118110237,
+              3.1357421875,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "W3C PROV is supported.",
+              320.9467658095473,
+              83.59055118110237,
+              156.470703125,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "",
+              477.4174689345473,
+              83.59055118110237,
+              0,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        },
+        "after": {
+          "text": "本計畫將建立資料字典或變項定義表。W3C PROV is supported.",
+          "boxes": [
+            [
+              "本計畫將建立資料字典或變項定義表。",
+              79.81102362204726,
+              83.59055118110237,
+              238.0,
+              20.2724609375,
+              14.0
+            ],
+            [
+              "W3C PROV is supported.",
+              317.8110236220473,
+              83.59055118110237,
+              156.470703125,
+              20.2724609375,
+              14.0
+            ]
+          ],
+          "pages": 1
+        }
+      }
+    ]
+  },
+  "native_project_replay": false,
+  "native_ms_word": false
+}

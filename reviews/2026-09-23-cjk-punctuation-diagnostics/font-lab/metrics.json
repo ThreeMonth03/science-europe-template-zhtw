@@ -1,0 +1,387 @@
+{
+  "diagnostic_only": true,
+  "adopted": false,
+  "font_sha256": "864727d210d54f2537bbe23b3a839436c3992af72de9322af5270897246bd44f",
+  "units_per_em": 1000,
+  "features": {
+    "GSUB": [
+      "aalt",
+      "ccmp",
+      "dlig",
+      "fwid",
+      "hist",
+      "hwid",
+      "liga",
+      "locl",
+      "pwid",
+      "ruby",
+      "vert",
+      "vrt2"
+    ],
+    "GPOS": [
+      "halt",
+      "kern",
+      "mark",
+      "palt",
+      "vert",
+      "vhal",
+      "vkrn",
+      "vpal"
+    ]
+  },
+  "advance_and_lsb": {
+    "資": [
+      1000,
+      56
+    ],
+    "料": [
+      1000,
+      45
+    ],
+    "（": [
+      1000,
+      727
+    ],
+    "）": [
+      1000,
+      47
+    ],
+    "。": [
+      1000,
+      360
+    ],
+    "、": [
+      1000,
+      371
+    ],
+    "，": [
+      1000,
+      408
+    ],
+    "：": [
+      1000,
+      444
+    ],
+    "；": [
+      1000,
+      408
+    ],
+    "！": [
+      1000,
+      460
+    ],
+    "？": [
+      1000,
+      264
+    ],
+    "A": [
+      574,
+      11
+    ],
+    "B": [
+      632,
+      110
+    ],
+    "C": [
+      619,
+      62
+    ]
+  },
+  "logical_text_unchanged": true,
+  "literal_adjacent_punctuation": "）。",
+  "literal_codepoints": [
+    "U+FF09",
+    "U+3002"
+  ],
+  "pages": 4,
+  "rows": {
+    "normal-adjacent": [
+      {
+        "text": "資料儲存庫管理）。下一句。",
+        "width": 208.0,
+        "height": 23.16796875
+      }
+    ],
+    "normal-list": [
+      {
+        "text": "資料、後設資料、文件；查核：完成。",
+        "width": 272.0,
+        "height": 23.16796875
+      }
+    ],
+    "normal-quotes": [
+      {
+        "text": "「資料」（校正後）。",
+        "width": 160.0,
+        "height": 23.16796875
+      }
+    ],
+    "normal-joined": [
+      {
+        "text": "我們將記錄資料。我們將納入關鍵字。",
+        "width": 272.0,
+        "height": 23.16796875
+      }
+    ],
+    "normal-spaced": [
+      {
+        "text": "我們將記錄資料。 我們將納入關鍵字。",
+        "width": 275.583984375,
+        "height": 23.16796875
+      }
+    ],
+    "normal-mixed": [
+      {
+        "text": "Dublin Core v1.2、W3C PROV；1.25 TB；https://example.org/a?x=1&y=2",
+        "width": 535.62890625,
+        "height": 23.16796875
+      }
+    ],
+    "normal-english": [
+      {
+        "text": "First sentence. Second sentence (metadata).",
+        "width": 327.484375,
+        "height": 23.16796875
+      }
+    ],
+    "chws-adjacent": [
+      {
+        "text": "資料儲存庫管理）。下一句。",
+        "width": 208.0,
+        "height": 23.16796875
+      }
+    ],
+    "chws-list": [
+      {
+        "text": "資料、後設資料、文件；查核：完成。",
+        "width": 272.0,
+        "height": 23.16796875
+      }
+    ],
+    "chws-quotes": [
+      {
+        "text": "「資料」（校正後）。",
+        "width": 160.0,
+        "height": 23.16796875
+      }
+    ],
+    "chws-joined": [
+      {
+        "text": "我們將記錄資料。我們將納入關鍵字。",
+        "width": 272.0,
+        "height": 23.16796875
+      }
+    ],
+    "chws-spaced": [
+      {
+        "text": "我們將記錄資料。 我們將納入關鍵字。",
+        "width": 275.583984375,
+        "height": 23.16796875
+      }
+    ],
+    "chws-mixed": [
+      {
+        "text": "Dublin Core v1.2、W3C PROV；1.25 TB；https://example.org/a?x=1&y=2",
+        "width": 535.62890625,
+        "height": 23.16796875
+      }
+    ],
+    "chws-english": [
+      {
+        "text": "First sentence. Second sentence (metadata).",
+        "width": 327.484375,
+        "height": 23.16796875
+      }
+    ],
+    "halt-adjacent": [
+      {
+        "text": "資料儲存庫管理）。下一句。",
+        "width": 184.0,
+        "height": 23.16796875
+      }
+    ],
+    "halt-list": [
+      {
+        "text": "資料、後設資料、文件；查核：完成。",
+        "width": 232.0,
+        "height": 23.16796875
+      }
+    ],
+    "halt-quotes": [
+      {
+        "text": "「資料」（校正後）。",
+        "width": 120.0,
+        "height": 23.16796875
+      }
+    ],
+    "halt-joined": [
+      {
+        "text": "我們將記錄資料。我們將納入關鍵字。",
+        "width": 256.0,
+        "height": 23.16796875
+      }
+    ],
+    "halt-spaced": [
+      {
+        "text": "我們將記錄資料。 我們將納入關鍵字。",
+        "width": 259.583984375,
+        "height": 23.16796875
+      }
+    ],
+    "halt-mixed": [
+      {
+        "text": "Dublin Core v1.2、W3C PROV；1.25 TB；https://example.org/a?x=1&y=2",
+        "width": 511.62890625,
+        "height": 23.16796875
+      }
+    ],
+    "halt-english": [
+      {
+        "text": "First sentence. Second sentence (metadata).",
+        "width": 327.484375,
+        "height": 23.16796875
+      }
+    ],
+    "palt-adjacent": [
+      {
+        "text": "資料儲存庫管理）。下一句。",
+        "width": 184.0,
+        "height": 23.16796875
+      }
+    ],
+    "palt-list": [
+      {
+        "text": "資料、後設資料、文件；查核：完成。",
+        "width": 232.0,
+        "height": 23.16796875
+      }
+    ],
+    "palt-quotes": [
+      {
+        "text": "「資料」（校正後）。",
+        "width": 120.0,
+        "height": 23.16796875
+      }
+    ],
+    "palt-joined": [
+      {
+        "text": "我們將記錄資料。我們將納入關鍵字。",
+        "width": 256.0,
+        "height": 23.16796875
+      }
+    ],
+    "palt-spaced": [
+      {
+        "text": "我們將記錄資料。 我們將納入關鍵字。",
+        "width": 259.583984375,
+        "height": 23.16796875
+      }
+    ],
+    "palt-mixed": [
+      {
+        "text": "Dublin Core v1.2、W3C PROV；1.25 TB；https://example.org/a?x=1&y=2",
+        "width": 511.62890625,
+        "height": 23.16796875
+      }
+    ],
+    "palt-english": [
+      {
+        "text": "First sentence. Second sentence (metadata).",
+        "width": 327.484375,
+        "height": 23.16796875
+      }
+    ]
+  },
+  "comparisons": {
+    "chws": {
+      "adjacent": {
+        "identical": true,
+        "width_delta": 0.0
+      },
+      "list": {
+        "identical": true,
+        "width_delta": 0.0
+      },
+      "quotes": {
+        "identical": true,
+        "width_delta": 0.0
+      },
+      "joined": {
+        "identical": true,
+        "width_delta": 0.0
+      },
+      "spaced": {
+        "identical": true,
+        "width_delta": 0.0
+      },
+      "mixed": {
+        "identical": true,
+        "width_delta": 0.0
+      },
+      "english": {
+        "identical": true,
+        "width_delta": 0.0
+      }
+    },
+    "halt": {
+      "adjacent": {
+        "identical": false,
+        "width_delta": -24.0
+      },
+      "list": {
+        "identical": false,
+        "width_delta": -40.0
+      },
+      "quotes": {
+        "identical": false,
+        "width_delta": -40.0
+      },
+      "joined": {
+        "identical": false,
+        "width_delta": -16.0
+      },
+      "spaced": {
+        "identical": false,
+        "width_delta": -16.0
+      },
+      "mixed": {
+        "identical": false,
+        "width_delta": -24.0
+      },
+      "english": {
+        "identical": true,
+        "width_delta": 0.0
+      }
+    },
+    "palt": {
+      "adjacent": {
+        "identical": false,
+        "width_delta": -24.0
+      },
+      "list": {
+        "identical": false,
+        "width_delta": -40.0
+      },
+      "quotes": {
+        "identical": false,
+        "width_delta": -40.0
+      },
+      "joined": {
+        "identical": false,
+        "width_delta": -16.0
+      },
+      "spaced": {
+        "identical": false,
+        "width_delta": -16.0
+      },
+      "mixed": {
+        "identical": false,
+        "width_delta": -24.0
+      },
+      "english": {
+        "identical": true,
+        "width_delta": 0.0
+      }
+    }
+  }
+}
