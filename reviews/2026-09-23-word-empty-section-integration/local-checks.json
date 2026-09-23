@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "scope": "Local integration parity, not full document-quality acceptance",
+  "english_make_check": {
+    "passed": true,
+    "unit_tests": 265,
+    "tdk_verified": true,
+    "only_declared_requirements_installed": true,
+    "log_sha256": "16b7092075bed918df9a6ff54e05bda16d5cb773e1f85ae9c9c91f4fdbe347ea"
+  },
+  "chinese_unit_tests": 472,
+  "workflow_python_commands": 54,
+  "github_ci_run": false,
+  "comparator_tests": 9,
+  "comparator_tests_log_sha256": "18a81a750dae83806d222c8780be1822dbafc495f0824fcfcf01037c72002ec0",
+  "native_groups": 28,
+  "page_totals": {
+    "pdf": 130,
+    "word_preview": 131
+  },
+  "manually_viewed_pages": 8,
+  "package_rebuild_bitwise_identical": true,
+  "translation_file_bytes_unchanged": 775,
+  "initial_harness_failures": [
+    {
+      "kind": "Q1 historical unit test compared current Word assets before projection",
+      "log_sha256": "e83fa5322c2dac28e9f6d7d187615b076f9042ac637c489fa8e4fd48a57d239b"
+    },
+    {
+      "kind": "New test used wrong archived manifest relative path",
+      "log_sha256": "e55864058978ef7bc0f793cc3a0184f0092816001217cf91c04011e6517244b2"
+    }
+  ],
+  "interrupted_english_rerun": {
+    "exit_code": 143,
+    "reason_unconfirmed": true,
+    "log_sha256": "cab778f8914c55127a754c2130bc064f8fb1895298a61c7983d36506714bf020",
+    "superseded_by_full_successful_rerun": true
+  },
+  "credentials_used": false,
+  "remote_writes": 0,
+  "release_acceptance": false,
+  "native_ms_word": false
+}

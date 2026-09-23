@@ -17,3 +17,8 @@ UUID，再以實際建置的中英文資產各跑 121 個 Pandoc 邊界案例。
 不等於發布或繳交驗收。Word 預覽使用 LibreOffice，不宣稱 Microsoft Word 已驗收。
 保留原型的歷史 commit、失敗紀錄及封存雜湊，不改寫舊證據。原型重播使用其鎖定
 checkout，正式新版使用目前 build 與 integration 腳本。
+
+已完成[本輪驗證與封存](../reviews/2026-09-23-word-empty-section-integration/README.md)：
+兩次乾淨建置一致，英文 265／中文 472 項測試、全部 54 個本機 workflow 指令通過。
+28 組原生對照的 130 頁 PDF／131 頁 Word 預覽重現原型，另抽看八頁；775 組翻譯不變。
+這份記錄不等同 GitHub Actions 或 Microsoft Word 驗收，未推送或部署。

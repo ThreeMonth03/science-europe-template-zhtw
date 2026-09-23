@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "source_integrated": true,
+  "release_acceptance": false,
+  "native_integrated_render_checked": false,
+  "baseline_version": "0.3.47",
+  "version": "0.3.50",
+  "comparison_version": "0.3.48",
+  "historical_scope": true,
+  "translation_units": 775,
+  "translation_files_unchanged": false,
+  "css_sha256": "11c978d781e49d32f801074188183c271d199d33c7efdce602c8d0d45ab2bbec",
+  "packages": {
+    "english": {
+      "package_sha256": "4f26c8cf53bc8bb4870ddb0aac5ac494948508e67bf295e34179458fde8c4a36",
+      "prepared_source_verified": true,
+      "deterministic_identity_verified": true,
+      "exact_reviewed_word_assets": true,
+      "unchanged_nonword_assets": true
+    },
+    "chinese": {
+      "package_sha256": "99648e6f99ae8d8467dad177acc87cb741f311a2212919d6a9ef94cda6f73497",
+      "prepared_source_verified": true,
+      "deterministic_identity_verified": true,
+      "exact_reviewed_word_assets": true,
+      "unchanged_nonword_assets": true
+    }
+  },
+  "branch_checks": {
+    "english": 396,
+    "chinese": 396
+  }
+}

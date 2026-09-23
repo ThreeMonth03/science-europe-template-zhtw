@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "source_integrated": true,
+  "version": "0.3.50",
+  "baseline_version": "0.3.49",
+  "translation_units": 775,
+  "translation_file_bytes_unchanged": true,
+  "changed_assets": [
+    "src/word/question-spacing.lua",
+    "src/word/question-spacing.xml"
+  ],
+  "packages": {
+    "english": {
+      "package_sha256": "4f26c8cf53bc8bb4870ddb0aac5ac494948508e67bf295e34179458fde8c4a36",
+      "prepared_source_verified": true,
+      "deterministic_identity_verified": true,
+      "exact_reviewed_word_assets": true,
+      "unchanged_nonword_assets": true
+    },
+    "chinese": {
+      "package_sha256": "99648e6f99ae8d8467dad177acc87cb741f311a2212919d6a9ef94cda6f73497",
+      "prepared_source_verified": true,
+      "deterministic_identity_verified": true,
+      "exact_reviewed_word_assets": true,
+      "unchanged_nonword_assets": true
+    }
+  },
+  "engine_cases": {
+    "english": 121,
+    "chinese": 121
+  },
+  "native_integrated_render_checked": false,
+  "release_acceptance": false
+}

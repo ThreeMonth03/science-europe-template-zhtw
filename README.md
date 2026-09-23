@@ -4,8 +4,12 @@
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 
 0.3.50 [Word 空節間距與連頁規則](docs/word-empty-sections.md)接回共用英文來源，
-中文鎖定完整英文 commit 配對建置。只改兩個 Word 資產，775 組翻譯檔案不變；
-完整本機 workflow 與新版原生等價對照另留紀錄，未推送或部署。
+中文鎖定完整英文 commit 配對建置。只改兩個 Word 資產，775 組翻譯檔案不變。
+[本輪整合驗證](reviews/2026-09-23-word-empty-section-integration/README.md)完成：
+兩次乾淨建置一致，英文 265／中文 472 項測試與全部 54 個本機 workflow 指令通過；
+28 組對照的 130 頁 PDF／131 頁 Word 預覽重現已接受原型，另抽看八頁。
+中文漏填／否定 Word 維持 2 頁；較長案例仍可能有偏空末頁。未推送、部署，
+不是 GitHub Actions 執行結果，也不代表 Microsoft Word 或全面繳交驗收。
 以下原型／舊版紀錄保留當時狀態，不代表目前來源尚未整合。
 
 先前 [Word 全空節間距與連頁原型](reviews/2026-09-23-word-empty-section-spacing/README.md)：

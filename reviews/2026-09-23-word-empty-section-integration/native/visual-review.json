@@ -1,0 +1,95 @@
+{
+  "scope": "Eight manually inspected current integrated-package pages including one real snapshot in both languages; not full language or Microsoft Word acceptance",
+  "manually_viewed_pages": 8,
+  "native_ms_word": false,
+  "observations": [
+    {
+      "case": "MISSING",
+      "language": "zh-Hant",
+      "format": "LibreOffice Word preview",
+      "pages": [
+        2
+      ],
+      "image": "visual-missing-zh-word-p2.png",
+      "observation": "All six sections and 15 original question headings fit on the body page; Q15 no longer alone. No template-generated missing prompts or visible clipping.",
+      "image_sha256": "4bf063bfab5c207019eeda0fb39fc5feca4d3aa395cad42652a25c26efa3ef85"
+    },
+    {
+      "case": "NEGATIVE",
+      "language": "zh-Hant",
+      "format": "LibreOffice Word preview",
+      "pages": [
+        2
+      ],
+      "image": "visual-negative-zh-word-p2.png",
+      "observation": "Original negative-answer prose remains; six sections and all questions fit on page 2 without an orphan final question.",
+      "image_sha256": "88f688a161a6839f2b65e3449c8f32b2b258b192e60604d132d0158dcd5c34d6"
+    },
+    {
+      "case": "POSITIVE",
+      "language": "zh-Hant",
+      "format": "LibreOffice Word preview",
+      "pages": [
+        3
+      ],
+      "image": "visual-positive-zh-word-p3.png",
+      "observation": "Final page remains sparse. Section 6 heading, Q14 and Q15 stay together; no claim that overall sparse-document design is solved.",
+      "image_sha256": "6f49c3f2b9f186786606b8da99e862e050701368cf0de60f8b3c332680c742e0"
+    },
+    {
+      "case": "LONG",
+      "language": "zh-Hant",
+      "format": "LibreOffice Word preview",
+      "pages": [
+        3
+      ],
+      "image": "visual-long-zh-word-p3.png",
+      "observation": "Sections 4–6 remain coherent; headings/questions visible and unclipped. Lower-page whitespace remains.",
+      "image_sha256": "68bbebc2b29de3fe274ee6fa31030626faa05e5c3d0a5393be44ceeab5756c85"
+    },
+    {
+      "case": "LONG",
+      "language": "en",
+      "format": "LibreOffice Word preview",
+      "pages": [
+        3
+      ],
+      "image": "visual-long-en-word-p3.png",
+      "observation": "Sections 5–6 and their complete question headings remain together without visible clipping. Sparse remainder unchanged.",
+      "image_sha256": "6ab39d28f2a917f8189da8f408f3443147039f82a8db42e5335919df35c53d6a"
+    },
+    {
+      "case": "EMPTY",
+      "language": "en",
+      "format": "PDF",
+      "pages": [
+        2
+      ],
+      "image": "visual-empty-en-pdf-p2.png",
+      "observation": "All six sections and all 15 questions remain on page 2, with no missing-answer notices or visibly off-page text.",
+      "image_sha256": "087ba750525531be2f17ee2d33b09fd94b16d6020a16c344e23ce770979c31bb"
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "language": "zh-Hant",
+      "format": "PDF",
+      "pages": [
+        2
+      ],
+      "image": "visual-real-a-zh-pdf-p2.png",
+      "image_sha256": "d6c9cebd74302314acc8a63341dc441f9f281012c3b39d1b216c587332529260",
+      "observation": "Questions 1–3 retain readable paragraphs and authored information. Q4 at page end is genuinely unanswered (separately checked); no answer was separated or lost. A visually loose closing parenthesis/period pair is adjacent in HTML, so future review must distinguish glyph/layout spacing from literal template whitespace."
+    },
+    {
+      "case": "REAL-SNAPSHOT-A",
+      "language": "en",
+      "format": "PDF",
+      "pages": [
+        2
+      ],
+      "image": "visual-real-a-en-pdf-p2.png",
+      "image_sha256": "9e85dfec459a55480d2ce1222cfe73dbff9221af4fd7b82a6a684a4ec5d4044a",
+      "observation": "Q1 reuse content, explicit negative and positive facts, and Q2 format details remain readable and uncut. Chinese user-authored dataset names and answers stay unchanged, rather than being translated automatically."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "case": "REAL-SNAPSHOT-A",
+  "language": "zh-Hant",
+  "profile": "submission",
+  "page_end_question": 4,
+  "question_is_unanswered": true,
+  "answer_visible_text_empty": true,
+  "original_question_kept": true,
+  "next_section_starts_on_following_page": true,
+  "suspected_answer_separation_rejected": true,
+  "baseline_and_candidate_question_identical": true,
+  "fixed_parenthesis_period_have_no_literal_whitespace": true,
+  "interpretation": "An intentionally retained empty question, not a lost answer or a new integration regression"
+}
