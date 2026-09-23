@@ -1,0 +1,1005 @@
+{
+  "passed": true,
+  "prototype_only": true,
+  "release_acceptance": false,
+  "native_ms_word": false,
+  "native_server_replay": false,
+  "rows": [
+    {
+      "case": "EMPTY",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "EMPTY",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 15,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 15,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "LONG",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "LONG",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "LONG",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "LONG",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "MISSING",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "MISSING",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "MISSING",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "MISSING",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "P19",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "P19",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 1,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 5,
+          "after": 5,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "P19",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": true,
+      "removed_inserted_spaces": 2,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 6,
+          "after": 6,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            2
+          ]
+        },
+        "word_preview": {
+          "before": 7,
+          "after": 7,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            3
+          ]
+        }
+      }
+    },
+    {
+      "case": "P19",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": true,
+      "removed_inserted_spaces": 2,
+      "empty_headings": 1,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 5,
+          "after": 5,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            2
+          ]
+        },
+        "word_preview": {
+          "before": 6,
+          "after": 6,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            3
+          ]
+        }
+      }
+    },
+    {
+      "case": "P21",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 12,
+          "after": 12,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 11,
+          "after": 11,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "P21",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 12,
+          "after": 12,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 11,
+          "after": 11,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "P21",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 11,
+          "after": 11,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 13,
+          "after": 13,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "P21",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": true,
+      "removed_inserted_spaces": 1,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 11,
+          "after": 11,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            4
+          ]
+        },
+        "word_preview": {
+          "before": 13,
+          "after": 13,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            4
+          ]
+        }
+      }
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": true,
+      "removed_inserted_spaces": 2,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            2
+          ]
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": true,
+      "removed_inserted_spaces": 2,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            2
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "joined_policy": false,
+      "removed_inserted_spaces": 0,
+      "empty_headings": 0,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        },
+        "word_preview": {
+          "before": 4,
+          "after": 4,
+          "geometry_unchanged": true,
+          "changed_pages": []
+        }
+      }
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "joined_policy": true,
+      "removed_inserted_spaces": 1,
+      "empty_headings": 14,
+      "other_html_and_word_text_and_style_unchanged": true,
+      "pages": {
+        "pdf": {
+          "before": 2,
+          "after": 2,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            2
+          ]
+        },
+        "word_preview": {
+          "before": 3,
+          "after": 3,
+          "geometry_unchanged": false,
+          "changed_pages": [
+            2
+          ]
+        }
+      }
+    }
+  ],
+  "page_totals": {
+    "pdf": {
+      "before": 168,
+      "after": 168
+    },
+    "word_preview": {
+      "before": 167,
+      "after": 167
+    }
+  },
+  "credentials_used": false,
+  "remote_writes": 0
+}

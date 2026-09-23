@@ -1,0 +1,369 @@
+{
+  "passed": true,
+  "independent_read_only_validation": true,
+  "outer_driver_exit_code": 143,
+  "verified_native_groups": 40,
+  "verified_preview_groups": 40,
+  "rows": [
+    {
+      "case": "EMPTY",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "EMPTY",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "EMPTY",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "LONG",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "LONG",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "LONG",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "LONG",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "MISSING",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "MISSING",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "MISSING",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "MISSING",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "NEGATIVE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "P19",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "P19",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "P19",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "P19",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "P21",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "P21",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "P21",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "P21",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "POSITIVE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3ACTIVE",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3AUTHORED",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "en",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "en",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "zh-Hant",
+      "profile": "review",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    },
+    {
+      "case": "Q3GAPS",
+      "locale": "zh-Hant",
+      "profile": "submission",
+      "passed": true,
+      "all_worker_outputs_match_hashes": true,
+      "expected_pipeline_steps": 6,
+      "word_preview_present": true
+    }
+  ]
+}

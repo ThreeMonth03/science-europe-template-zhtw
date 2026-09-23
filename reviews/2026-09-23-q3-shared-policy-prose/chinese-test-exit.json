@@ -1,0 +1,8 @@
+{
+  "commit": "1614a38ea3b25dc91bcfad1985a025d2e7bd8e92",
+  "child_exit_code": 0,
+  "tests": 477,
+  "passed": true,
+  "elapsed_seconds": 363.477,
+  "purpose": "Explicit child exit capture after earlier outer session reported 143 despite unittest OK."
+}

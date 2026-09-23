@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "00fb1e26955f9ca1bad71297780b196ee02d276f9e6f6f28774315a557773d1c"
+    },
+    {
+      "path": "build-manifest.json",
+      "sha256": "5715e2401db4858851ad68382a5509f504be9438f63e607a54e8fa16fd1049ba"
+    },
+    {
+      "path": "chinese-test-exit.json",
+      "sha256": "f1efed24695f3d13a921ee344151e668d6c8b1334aa2f80515a821d87ac0551a"
+    },
+    {
+      "path": "completion-checks.json",
+      "sha256": "53208bcfd5e4752385f8b7264cc37380af0456580b30b058266d7a2b0c0fa184"
+    },
+    {
+      "path": "driver-status.json",
+      "sha256": "73a1e98731d963720383ac848f93feaf5d08c194c19df0de2f6a6894e64dec1a"
+    },
+    {
+      "path": "engine-checks.json",
+      "sha256": "1f51b9b2ddb2930e9899bd234a2d908f4da6bb61df4b17c8134e4959552a1d6d"
+    },
+    {
+      "path": "initial-rejection.json",
+      "sha256": "c0322a900d62a56bda56b1d46fb9e6da7322923e1c3d089e670ebddd60f4ecb4"
+    },
+    {
+      "path": "native-summary.json",
+      "sha256": "603f3b11cc2202a3daadc5b20e260c9e94aa2413573426cc68b194eec211b5db"
+    },
+    {
+      "path": "private-evidence-receipt.json",
+      "sha256": "2e51c999eb2cc72ba1787b8806e9cf201cdf26a5c907c01f43fb6081b5385c94"
+    },
+    {
+      "path": "rebuild-manifest.json",
+      "sha256": "5715e2401db4858851ad68382a5509f504be9438f63e607a54e8fa16fd1049ba"
+    },
+    {
+      "path": "runtime.json",
+      "sha256": "23f6afdae84117fc9ad822da71992d1ec7a6b6df948026439f745288e66217a2"
+    },
+    {
+      "path": "summary.json",
+      "sha256": "2c5800894c0a08732a7c4d7100d55e5bdabe93ea3c1999db253cff32e53dda92"
+    },
+    {
+      "path": "validation-source.json",
+      "sha256": "cf0381c1cd69b4918e6826665eb8c253979188dd64cb354940216e6d735cad62"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "655a5498875e2f6e8a0eb92e143d0161bd7cf664887f832cec5c29d16af29a79"
+    }
+  ]
+}

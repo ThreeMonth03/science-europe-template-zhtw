@@ -1,0 +1,189 @@
+{
+  "passed": true,
+  "synthetic_pairs": 20,
+  "actual_packaged_helpers": true,
+  "native_ms_word": false,
+  "full_worker_pipeline": false,
+  "rows": [
+    {
+      "locale": "en",
+      "case": "zh-owned",
+      "passed": true,
+      "joined": true,
+      "removed_inserted_spaces": 2,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "en",
+      "case": "en-owned",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "en",
+      "case": "mixed-opening",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "en",
+      "case": "mixed-three",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "en",
+      "case": "internal-space",
+      "passed": true,
+      "joined": true,
+      "removed_inserted_spaces": 1,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "en",
+      "case": "explicit-no",
+      "passed": true,
+      "joined": true,
+      "removed_inserted_spaces": 1,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "en",
+      "case": "authored",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "en",
+      "case": "gap",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "en",
+      "case": "unknown-attribute",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "en",
+      "case": "single",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "zh-owned",
+      "passed": true,
+      "joined": true,
+      "removed_inserted_spaces": 2,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "en-owned",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "mixed-opening",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "mixed-three",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "internal-space",
+      "passed": true,
+      "joined": true,
+      "removed_inserted_spaces": 1,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "explicit-no",
+      "passed": true,
+      "joined": true,
+      "removed_inserted_spaces": 1,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "authored",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "gap",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "unknown-attribute",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    },
+    {
+      "locale": "zh-Hant",
+      "case": "single",
+      "passed": true,
+      "joined": false,
+      "removed_inserted_spaces": 0,
+      "pdf_word_boundary_aligned": true,
+      "original_text_and_style_preserved": true
+    }
+  ]
+}

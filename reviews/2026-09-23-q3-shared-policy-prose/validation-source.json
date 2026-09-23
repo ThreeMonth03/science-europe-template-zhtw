@@ -1,0 +1,25 @@
+{
+  "checkouts": {
+    "english": {
+      "commit": "a0ed46715842a01c154beb430f97ac58a0549347",
+      "dirty": false
+    },
+    "chinese": {
+      "commit": "1614a38ea3b25dc91bcfad1985a025d2e7bd8e92",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    }
+  },
+  "sha256": {
+    "english/experiments/q3-shared-policy-prose/metadata-prose.html.j2": "9537806b7f1f65bc0c5c64d840709373290de70ae194afe51aa1d2068751374c",
+    "english/experiments/q3-shared-policy-prose/probe.py": "22bb8029d499fb456308ec711fa6449707cdf06adb38cb37ea050ee85d54309f",
+    "english/experiments/q3-shared-policy-prose/recipe.py": "32ee9bf4356da74ed5ccd4ed671eb1ceefb8c5c3ad294fb4550e722e496ebf78",
+    "english/tests/test_q3_shared_policy_prose.py": "07af96543eacd24c1463e137fdfade960950cc76629d88febb3ed13aa3d7340f",
+    "english/scripts/probe_identifier_spacing.py": "a753af1f8a808bfca2853a4e61d050b099302bfa073d4383b1f66d776f787146",
+    "chinese/experiments/q3-shared-policy-prose/build_prototype.py": "7587b0eaa128e6fad57cfecbb9febf849058c88744dcfd96cfe09fe3459d51c8",
+    "chinese/experiments/q3-shared-policy-prose/lock.json": "6413910bbdd8e58b7188077a5bd5b1e46a4b3790a803629e17f658017c22c64d"
+  }
+}

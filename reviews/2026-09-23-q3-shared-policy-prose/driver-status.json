@@ -1,0 +1,16 @@
+{
+  "native_render_driver_tool_session": 78525,
+  "reported_outer_exit_code": 143,
+  "other_outer_session_statuses": {
+    "initial_final_chinese_full_suite": {"session": 63054, "outer_exit_code": 143, "unittest_summary": "477 tests OK", "explicit_child_exit_rerun_required": true},
+    "synthetic_engine_driver": {"session": 33716, "outer_exit_code": 143, "completion_summary": "20 pairs rendered", "independent_engine_checker_exit_code": 0},
+    "full_document_comparator": {"session": 72715, "outer_exit_code": 0},
+    "english_full_check": {"session": 87686, "outer_exit_code": 0}
+  },
+  "driver_emitted_complete_success_report": true,
+  "driver_reported_native_groups": 40,
+  "driver_reported_libreoffice_previews": 40,
+  "cause_of_outer_exit_status": "Not determined; do not report the driver process itself as exit 0.",
+  "chinese_suite_resolution": "Full rerun passed all 477 tests; explicit unittest child exit 0 and outer session exit 0. See chinese-test-exit.json.",
+  "acceptance_basis": "Require independent validation of the complete expected file set, every worker result, every HTML/DOCX pair, and every PDF/LibreOffice page."
+}

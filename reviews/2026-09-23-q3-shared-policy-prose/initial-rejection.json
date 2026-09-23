@@ -1,0 +1,48 @@
+{
+  "status": "rejected-initial-prototype",
+  "english_commit": "2eb0d903ae2f87150156a6ea462cda469389198c",
+  "chinese_commit": "6ca98c10d7385f65fbfed33e267192f2a2d7ab5b",
+  "coordinate_tolerance_not_relaxed": true,
+  "rows": [
+    {
+      "language": "en",
+      "case": "en-owned",
+      "max_coordinate_delta_pt": 0.013055000000008476,
+      "same_72dpi_pixels": false,
+      "pdf_sha256": [
+        "bfa4c5b6ae9e689fc95c6814002638007e1b51f00764f7759e3cace0cbffaa2a",
+        "781c4f4befcb79a79a5d47ce3b673d5473433e598aa68e555b2b84e60961c072"
+      ]
+    },
+    {
+      "language": "en",
+      "case": "mixed-opening",
+      "max_coordinate_delta_pt": 0.0001930000000243126,
+      "same_72dpi_pixels": true,
+      "pdf_sha256": [
+        "64ddf946d5e2444483e9cc074d6fb5160928b9084c5f1a59b25ea735dcb07387",
+        "011c3e2e8cbb3feeed1b1b610d46461a7c5e2a10494674c2977e5c0055e58d8b"
+      ]
+    },
+    {
+      "language": "zh-Hant",
+      "case": "en-owned",
+      "max_coordinate_delta_pt": 0.013055000000008476,
+      "same_72dpi_pixels": false,
+      "pdf_sha256": [
+        "b33fe8708421676d0c789a0b6552755862e1934543d0d9edb822c66b1c8c9657",
+        "219828e3a46515e89f532f92d9288b138df582b67e52412dac125de007d392e8"
+      ]
+    },
+    {
+      "language": "zh-Hant",
+      "case": "mixed-opening",
+      "max_coordinate_delta_pt": 0.0001930000000243126,
+      "same_72dpi_pixels": true,
+      "pdf_sha256": [
+        "bc68b610ec6cc3dc459d224298271c1a6f3d2f04bf60fbed8d24cce632cda294",
+        "cbf20365f0103ad865b6895ab1c183e8a88832ac070e659205759c622a5f82f3"
+      ]
+    }
+  ]
+}

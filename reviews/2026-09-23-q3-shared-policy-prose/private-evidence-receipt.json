@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "final": {
+    "file_count": 1345,
+    "seal_sha256": "02d6d54731e58d09e127ea9a31e49e9faa2304c99527531e86c3ca000d779325"
+  },
+  "rejected_initial": {
+    "status": "rejected-initial-prototype",
+    "private": true,
+    "file_count": 1322,
+    "seal_sha256": "c9befbe02e786d5d5a6b4df9b2151e67ff093be589fdc08a4627bdebd5c37249",
+    "release_acceptance": false
+  },
+  "prior_preserved_files": 1049,
+  "project_contents_exported": false
+}

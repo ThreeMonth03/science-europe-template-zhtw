@@ -1,0 +1,51 @@
+{
+  "status": "prototype",
+  "prototype_only": true,
+  "source_integrated": false,
+  "release_acceptance": false,
+  "experiment_lock": {
+    "prototype_only": true,
+    "production_source_commit": "a2f97d9312b4ce811b92f5943944997638cc67b8",
+    "english_recipe_commit": "a0ed46715842a01c154beb430f97ac58a0549347",
+    "tooling_commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+    "baseline_review": "reviews/2026-09-23-word-empty-section-integration",
+    "baseline_review_seal": "fc7c5d893451a841162510a09d118feae5d052d3f8b40a4e39cf37f8dbb5aa12"
+  },
+  "baseline_packages": {
+    "english.zip": "4f26c8cf53bc8bb4870ddb0aac5ac494948508e67bf295e34179458fde8c4a36",
+    "chinese.zip": "99648e6f99ae8d8467dad177acc87cb741f311a2212919d6a9ef94cda6f73497"
+  },
+  "changed_source_files": [
+    "src/questions/03-docs-metadata.html.j2"
+  ],
+  "added_source_files": [
+    "src/metadata-prose.html.j2"
+  ],
+  "translation_delta": {
+    "total": 775,
+    "byte_identical": 775,
+    "changed": 0
+  },
+  "checks": {
+    "english": 7932,
+    "chinese": 7932
+  },
+  "sha256": {
+    "english.zip": "b5f24897b03b556b43f555c60e55d45fb4ddc147445f3b20937ccae29143ebea",
+    "chinese.zip": "0c198e056002eafe5f6929b90af058941e5b73b334443a375135b286aceb98fe"
+  },
+  "checkouts": {
+    "english": {
+      "commit": "a0ed46715842a01c154beb430f97ac58a0549347",
+      "dirty": false
+    },
+    "chinese": {
+      "commit": "1614a38ea3b25dc91bcfad1985a025d2e7bd8e92",
+      "dirty": false
+    },
+    "tooling": {
+      "commit": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "dirty": false
+    }
+  }
+}
