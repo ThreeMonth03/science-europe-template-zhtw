@@ -58,12 +58,11 @@ jobs:
           ref: ${{ steps.locks.outputs.source }}
           path: english
           fetch-depth: 0  # Package timestamps require actual input history, not a shallow boundary.
-      - name: Check locked English source with only its declared dependencies
+      - name: Install isolated English dependencies
         working-directory: english
         run: |
           python -m venv "$RUNNER_TEMP/english-check-venv"
           "$RUNNER_TEMP/english-check-venv/bin/python" -m pip install -r requirements-dev.txt
-          make check PYTHON="$RUNNER_TEMP/english-check-venv/bin/python" DSW_TDK="$RUNNER_TEMP/english-check-venv/bin/dsw-tdk"
       - uses: actions/checkout@v4
         with:
           repository: ThreeMonth03/dsw-document-template-tool
@@ -73,6 +72,12 @@ jobs:
         run: |
           python -m venv tooling/.venv
           tooling/.venv/bin/pip install -e './tooling[dev]' -r zh/requirements-dev.txt
+      - name: Check current source and historical Word boundary before long tests
+        working-directory: zh
+        run: ../tooling/.venv/bin/python scripts/word_empty_section_integration.py --english ../english --preflight-only
+      - name: Check locked English source with only its declared dependencies
+        working-directory: english
+        run: make check PYTHON="$RUNNER_TEMP/english-check-venv/bin/python" DSW_TDK="$RUNNER_TEMP/english-check-venv/bin/dsw-tdk"
       - name: Check Chinese unit and translation contracts
         working-directory: zh
         run: |

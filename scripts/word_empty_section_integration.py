@@ -84,14 +84,26 @@ def check_package(path, prepared, language, timestamp):
     return dict(package_sha256=sha(path),prepared_source_verified=True,deterministic_identity_verified=True,
                 exact_reviewed_word_assets=True,unchanged_nonword_assets=True)
 
+def check_source(english):
+    """Verify current bytes before comparing the frozen 0.3.50 Word helpers."""
+    sys.path.insert(0, str(english / 'scripts'))
+    from word_empty_section_contract import project_source, load
+    from submission_flow_integration import sources
+    current = sources(english)
+    metadata = json.loads((english / 'template.json').read_text())
+    if metadata['version'] == '0.3.51':
+        from q3_policy_prose_contract import project_source as before_q3
+        current, metadata = before_q3(current, metadata)
+    prior_source, _ = project_source(current, metadata)
+    assert helpers('before') == {n:prior_source[n] for n in CONTRACT['helpers']}
+    assert helpers('after') == {n:current[n] for n in CONTRACT['helpers']}
+    return dict(passed=True, current_source_verified=True, historical_word_helpers_verified=True)
+
 def check(build, english, preview=False):
     from build import git, package_timestamp
     from submission_flow_integration import sources
-    sys.path.insert(0, str(english / 'scripts'))
-    from word_empty_section_contract import project_source, load
-    prior_source, _ = project_source()
-    assert helpers('before') == {n:prior_source[n] for n in CONTRACT['helpers']}
-    assert helpers('after') == {n:(english / n).read_bytes() for n in CONTRACT['helpers']}
+    check_source(english)
+    from word_empty_section_contract import load
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
     version = manifest['source']['version']
@@ -132,8 +144,13 @@ def check(build, english, preview=False):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--build', type=Path, required=True); parser.add_argument('--english', type=Path, required=True)
+    parser.add_argument('--build', type=Path); parser.add_argument('--english', type=Path, required=True)
+    parser.add_argument('--preflight-only', action='store_true')
     parser.add_argument('--preview', action='store_true'); args = parser.parse_args()
+    if args.preflight_only:
+        print(json.dumps(check_source(args.english.resolve())))
+        raise SystemExit(0)
+    if args.build is None: parser.error('--build is required unless --preflight-only is used')
     result = check(args.build.resolve(), args.english.resolve(), args.preview)
     with (args.build / 'word-empty-section-integration.json').open('x') as f:
         json.dump(result, f, indent=2); f.write('\n')

@@ -13,6 +13,16 @@ import word_empty_section_integration as contract
 import reuse_preparation_integration as old
 
 class WordSectionIntegrationTests(unittest.TestCase):
+    def test_current_word_assets_are_verified_before_historical_comparison(self):
+        english = next(p for p in [ROOT.parent / 'english', ROOT.parent / 'science-europe-template']
+                       if (p / 'scripts/current_repairs_contract.py').is_file())
+        self.assertTrue(contract.check_source(english)['current_source_verified'])
+        from submission_flow_integration import sources
+        current = sources(english)
+        for name in ['src/word/question-spacing.xml', 'src/word/short-tables.xml', 'src/layout.css']:
+            with patch('submission_flow_integration.sources', return_value={**current, name:current[name]+b'!'}):
+                with self.assertRaises(AssertionError): contract.check_source(english)
+
     def test_sealed_fixtures_and_unchanged_translation_tree(self):
         before, after = contract.helpers('before'), contract.helpers('after')
         self.assertEqual(set(before), {'src/word/question-spacing.lua', 'src/word/question-spacing.xml'})
