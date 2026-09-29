@@ -14,6 +14,7 @@ from probe_pdf_budget_translation import pair
 
 ROOT = Path(__file__).resolve().parents[1]
 DELTA = ROOT/'docs/personal-data-translation-delta.json'
+CURRENT_POLISH = json.loads((ROOT / 'docs/current-language-polish-translation-delta.json').read_text())
 
 
 def archived_pairs(ref):
@@ -29,9 +30,9 @@ def pair_multiset_sha256(values):
 
 
 def project_current_language_polish_translations(current):
-    """Validate the reviewed 785-unit tree, then restore the sealed 775-unit view."""
+    """Validate the reviewed current tree, then restore the sealed 775-unit view."""
     from reuse_preparation_integration import CONTRACT, units
-    delta = json.loads((ROOT / 'docs/current-language-polish-translation-delta.json').read_text())
+    delta = CURRENT_POLISH
     current_counter = Counter(current)
     assert current_counter.total() == delta['current_units']
     assert pair_multiset_sha256(current_counter.elements()) == delta['current_pair_multiset_sha256'], \
@@ -158,7 +159,7 @@ def verify_submission_translation_chain(current):
     """All 748 prior pairs survive; allow only the 14 declared new occurrences."""
     reading = {}
     from reuse_preparation_integration import has_new_translations, project_translations
-    if len(current) == 785:
+    if len(current) == CURRENT_POLISH['current_units']:
         current, reading['current_language_polish'] = project_current_language_polish_translations(current)
     if has_new_translations(current):
         current, reading['reuse_preparation'] = project_translations(current)
@@ -184,7 +185,7 @@ def verify_submission_translation_chain(current):
 
 def project_submission_reading_translations(current):
     """Validate the exact 767-occurrence tree before returning the prior 762."""
-    if len(current) == 785:
+    if len(current) == CURRENT_POLISH['current_units']:
         current, _ = project_current_language_polish_translations(current)
     if len(current) == 775:
         current, _ = project_submission_flow_translations(current)
@@ -219,7 +220,7 @@ def project_full_km_followup_translations(current):
 def project_submission_flow_translations(current):
     """Validate exactly the sealed Q1 773 -> 775 delta, not arbitrary rewording."""
     from reuse_preparation_integration import has_new_translations, project_translations
-    if len(current) == 785: current, _ = project_current_language_polish_translations(current)
+    if len(current) == CURRENT_POLISH['current_units']: current, _ = project_current_language_polish_translations(current)
     if has_new_translations(current): current, _ = project_translations(current)
     delta = json.loads((ROOT / 'docs/submission-flow-translation-delta.json').read_text())
     previous = archived_pairs(delta['baseline'])

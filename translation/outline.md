@@ -4012,7 +4012,7 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-2a3a4167e8/translation.md>)
 
-- [x] [file] src/questions/10-share-restrictions.html.j2 (55/55)
+- [ ] [file] src/questions/10-share-restrictions.html.j2 (47/53)
 
   [J2] `src/questions/10-share-restrictions.html.j2`
 
@@ -4024,413 +4024,397 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0001-10-how-and-when-will-data-be-shared-615a34b6ea/0001-10-how-and-when-will-data-be-shared-70c8f2c91c/translation.md>)
 
-    - [x] [wrapper] 0002-the-dataset-has-the-following-identifiers-0ff8aa2297 (1/1)
+    - [ ] [wrapper] 0002-other-identifier-2b980f773a (0/1)
 
-      [W] `0002-the-dataset-has-the-following-identifiers-0ff8aa2297`
+      [W] `0002-other-identifier-2b980f773a`
 
-        - [x] [unit] 0001-the-dataset-has-the-following-identifiers-88d0d37372: The dataset has the following identifiers:
+        - [ ] [unit] 0001-other-identifier-0e59a0ba2f: Other identifier
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0002-the-dataset-has-the-following-identifiers-0ff8aa2297/0001-the-dataset-has-the-following-identifiers-88d0d37372/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0002-other-identifier-2b980f773a/0001-other-identifier-0e59a0ba2f/translation.md>)
 
-    - [x] [wrapper] 0003-handle-1808414bd6 (1/1)
+    - [ ] [wrapper] 0003-identifier-8d9fae53aa (0/1)
 
-      [W] `0003-handle-1808414bd6`
+      [W] `0003-identifier-8d9fae53aa`
 
-        - [x] [unit] 0001-handle-87c23406fc: Handle: {identifierValue}
+        - [ ] [unit] 0001-identifier-c3eccf2858: Identifier
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0003-handle-1808414bd6/0001-handle-87c23406fc/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0003-identifier-8d9fae53aa/0001-identifier-c3eccf2858/translation.md>)
 
-    - [x] [wrapper] 0004-doi-dcec26ec95 (1/1)
+    - [x] [wrapper] 0004-the-dataset-has-the-following-identifiers-0ff8aa2297 (1/1)
 
-      [W] `0004-doi-dcec26ec95`
+      [W] `0004-the-dataset-has-the-following-identifiers-0ff8aa2297`
 
-        - [x] [unit] 0001-doi-cf5a0500cf: DOI: {identifierValue}
+        - [x] [unit] 0001-the-dataset-has-the-following-identifiers-e6a48dbef0: The dataset has the following identifiers:
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0004-doi-dcec26ec95/0001-doi-cf5a0500cf/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0004-the-dataset-has-the-following-identifiers-0ff8aa2297/0001-the-dataset-has-the-following-identifiers-e6a48dbef0/translation.md>)
 
-    - [x] [wrapper] 0005-ark-7f1b82271a (1/1)
+    - [x] [wrapper] 0005-open-access-this-distribution-will-be-shared-with-60b6fd9d93 (1/1)
 
-      [W] `0005-ark-7f1b82271a`
+      [W] `0005-open-access-this-distribution-will-be-shared-with-60b6fd9d93`
 
-        - [x] [unit] 0001-ark-7fd27dae75: ARK: {identifierValue}
+        - [x] [unit] 0001-open-access-this-distribution-will-be-shared-with-38d0c9c02d: Open access: this distribution will be shared with anyone.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0005-ark-7f1b82271a/0001-ark-7fd27dae75/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0005-open-access-this-distribution-will-be-shared-with-60b6fd9d93/0001-open-access-this-distribution-will-be-shared-with-38d0c9c02d/translation.md>)
 
-    - [x] [wrapper] 0006-url-9b3847a756 (1/1)
+    - [x] [wrapper] 0006-access-will-be-limited-to-a-predefined-group-1e43986319 (1/1)
 
-      [W] `0006-url-9b3847a756`
+      [W] `0006-access-will-be-limited-to-a-predefined-group-1e43986319`
 
-        - [x] [unit] 0001-url-8a5ff2cd6e: URL: {identifierValue}
+        - [x] [unit] 0001-access-will-be-limited-to-a-predefined-group-f6112ca296: Access will be limited to a predefined group of people.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0006-url-9b3847a756/0001-url-8a5ff2cd6e/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0006-access-will-be-limited-to-a-predefined-group-1e43986319/0001-access-will-be-limited-to-a-predefined-group-f6112ca296/translation.md>)
 
-    - [x] [wrapper] 0007-open-access-this-distribution-will-be-shared-with-60b6fd9d93 (1/1)
+    - [x] [wrapper] 0007-this-distribution-is-not-intended-for-sharing-2a19a5f05c (1/1)
 
-      [W] `0007-open-access-this-distribution-will-be-shared-with-60b6fd9d93`
+      [W] `0007-this-distribution-is-not-intended-for-sharing-2a19a5f05c`
 
-        - [x] [unit] 0001-open-access-this-distribution-will-be-shared-with-b4adfa4813: Open access: this distribution will be shared with anyone.
+        - [x] [unit] 0001-this-distribution-is-not-intended-for-sharing-819a69989e: This distribution is not intended for sharing.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0007-open-access-this-distribution-will-be-shared-with-60b6fd9d93/0001-open-access-this-distribution-will-be-shared-with-b4adfa4813/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0007-this-distribution-is-not-intended-for-sharing-2a19a5f05c/0001-this-distribution-is-not-intended-for-sharing-819a69989e/translation.md>)
 
-    - [x] [wrapper] 0008-access-will-be-limited-to-a-predefined-group-1e43986319 (1/1)
+    - [x] [wrapper] 0008-the-access-arrangement-for-this-distribution-has-not-636ae517fb (1/1)
 
-      [W] `0008-access-will-be-limited-to-a-predefined-group-1e43986319`
+      [W] `0008-the-access-arrangement-for-this-distribution-has-not-636ae517fb`
 
-        - [x] [unit] 0001-access-will-be-limited-to-a-predefined-group-c588324c09: Access will be limited to a predefined group of people.
+        - [x] [unit] 0001-the-access-arrangement-for-this-distribution-has-not-acc8330775: The access arrangement for this distribution has not been provided.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0008-access-will-be-limited-to-a-predefined-group-1e43986319/0001-access-will-be-limited-to-a-predefined-group-c588324c09/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0008-the-access-arrangement-for-this-distribution-has-not-636ae517fb/0001-the-access-arrangement-for-this-distribution-has-not-acc8330775/translation.md>)
 
-    - [x] [wrapper] 0009-this-distribution-is-not-intended-for-sharing-2a19a5f05c (1/1)
+    - [x] [wrapper] 0009-domain-specific-repository-13d652ff32 (1/1)
 
-      [W] `0009-this-distribution-is-not-intended-for-sharing-2a19a5f05c`
+      [W] `0009-domain-specific-repository-13d652ff32`
 
-        - [x] [unit] 0001-this-distribution-is-not-intended-for-sharing-bb2ddab11f: This distribution is not intended for sharing.
+        - [x] [unit] 0001-domain-specific-repository-a62205e7c2: Domain-specific repository
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0009-this-distribution-is-not-intended-for-sharing-2a19a5f05c/0001-this-distribution-is-not-intended-for-sharing-bb2ddab11f/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0009-domain-specific-repository-13d652ff32/0001-domain-specific-repository-a62205e7c2/translation.md>)
 
-    - [x] [wrapper] 0010-the-access-arrangement-for-this-distribution-has-not-636ae517fb (1/1)
+    - [x] [wrapper] 0010-we-don-t-need-to-contact-the-repository-c92844c045 (1/1)
 
-      [W] `0010-the-access-arrangement-for-this-distribution-has-not-636ae517fb`
+      [W] `0010-we-don-t-need-to-contact-the-repository-c92844c045`
 
-        - [x] [unit] 0001-the-access-arrangement-for-this-distribution-has-not-8d55a6f216: The access arrangement for this distribution has not been provided.
+        - [x] [unit] 0001-we-don-t-need-to-contact-the-repository-f3715aa231: We don't need to contact the repository because it is a routine for us.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0010-the-access-arrangement-for-this-distribution-has-not-636ae517fb/0001-the-access-arrangement-for-this-distribution-has-not-8d55a6f216/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0010-we-don-t-need-to-contact-the-repository-c92844c045/0001-we-don-t-need-to-contact-the-repository-f3715aa231/translation.md>)
 
-    - [x] [wrapper] 0011-domain-specific-repository-13d652ff32 (1/1)
+    - [x] [wrapper] 0011-we-have-already-contacted-the-repository-6471ccef52 (1/1)
 
-      [W] `0011-domain-specific-repository-13d652ff32`
+      [W] `0011-we-have-already-contacted-the-repository-6471ccef52`
 
-        - [x] [unit] 0001-domain-specific-repository-4adfd23a34: Domain-specific repository
+        - [x] [unit] 0001-we-have-already-contacted-the-repository-824c6fbe9b: We have already contacted the repository.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0011-domain-specific-repository-13d652ff32/0001-domain-specific-repository-4adfd23a34/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0011-we-have-already-contacted-the-repository-6471ccef52/0001-we-have-already-contacted-the-repository-824c6fbe9b/translation.md>)
 
-    - [x] [wrapper] 0012-we-don-t-need-to-contact-the-repository-c92844c045 (1/1)
+    - [x] [wrapper] 0012-we-are-going-to-contact-the-repository-95acf1afff (1/1)
 
-      [W] `0012-we-don-t-need-to-contact-the-repository-c92844c045`
+      [W] `0012-we-are-going-to-contact-the-repository-95acf1afff`
 
-        - [x] [unit] 0001-we-don-t-need-to-contact-the-repository-546e756790: We don't need to contact the repository because it is a routine for us.
+        - [x] [unit] 0001-we-are-going-to-contact-the-repository-67c6908323: We are going to contact the repository.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0012-we-don-t-need-to-contact-the-repository-c92844c045/0001-we-don-t-need-to-contact-the-repository-546e756790/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0012-we-are-going-to-contact-the-repository-95acf1afff/0001-we-are-going-to-contact-the-repository-67c6908323/translation.md>)
 
-    - [x] [wrapper] 0013-we-have-already-contacted-the-repository-6471ccef52 (1/1)
+    - [x] [wrapper] 0013-for-repository-contact-arrangements-see-question-11-distribution-e8d429b5fc (1/1)
 
-      [W] `0013-we-have-already-contacted-the-repository-6471ccef52`
+      [W] `0013-for-repository-contact-arrangements-see-question-11-distribution-e8d429b5fc`
 
-        - [x] [unit] 0001-we-have-already-contacted-the-repository-2d0d2d7229: We have already contacted the repository.
+        - [x] [unit] 0001-for-repository-contact-arrangements-see-question-11-distribution-86b5eb54a4: For repository contact arrangements, see Question 11, distribution {loop.index} of this dataset.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0013-we-have-already-contacted-the-repository-6471ccef52/0001-we-have-already-contacted-the-repository-2d0d2d7229/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0013-for-repository-contact-arrangements-see-question-11-distribution-e8d429b5fc/0001-for-repository-contact-arrangements-see-question-11-distribution-86b5eb54a4/translation.md>)
 
-    - [x] [wrapper] 0014-we-are-going-to-contact-the-repository-95acf1afff (1/1)
+    - [x] [wrapper] 0014-for-repository-contact-arrangements-see-question-11-under-36a9b17e2a (1/1)
 
-      [W] `0014-we-are-going-to-contact-the-repository-95acf1afff`
+      [W] `0014-for-repository-contact-arrangements-see-question-11-under-36a9b17e2a`
 
-        - [x] [unit] 0001-we-are-going-to-contact-the-repository-1be69f41d3: We are going to contact the repository.
+        - [x] [unit] 0001-for-repository-contact-arrangements-see-question-11-under-65f11b5919: For repository contact arrangements, see Question 11 under this dataset.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0014-we-are-going-to-contact-the-repository-95acf1afff/0001-we-are-going-to-contact-the-repository-1be69f41d3/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0014-for-repository-contact-arrangements-see-question-11-under-36a9b17e2a/0001-for-repository-contact-arrangements-see-question-11-under-65f11b5919/translation.md>)
 
-    - [x] [wrapper] 0015-for-repository-contact-arrangements-see-question-11-distribution-e8d429b5fc (1/1)
+    - [x] [wrapper] 0015-general-purpose-repository-32923dd847 (1/1)
 
-      [W] `0015-for-repository-contact-arrangements-see-question-11-distribution-e8d429b5fc`
+      [W] `0015-general-purpose-repository-32923dd847`
 
-        - [x] [unit] 0001-for-repository-contact-arrangements-see-question-11-distribution-fd9ea570df: For repository contact arrangements, see Question 11, distribution {loop.index} of this dataset.
+        - [x] [unit] 0001-general-purpose-repository-ea9d9ed263: General-purpose repository
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0015-for-repository-contact-arrangements-see-question-11-distribution-e8d429b5fc/0001-for-repository-contact-arrangements-see-question-11-distribution-fd9ea570df/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0015-general-purpose-repository-32923dd847/0001-general-purpose-repository-ea9d9ed263/translation.md>)
 
-    - [x] [wrapper] 0016-for-repository-contact-arrangements-see-question-11-under-36a9b17e2a (1/1)
+    - [x] [wrapper] 0016-this-distribution-will-be-deposited-in-a-national-741272b407 (1/1)
 
-      [W] `0016-for-repository-contact-arrangements-see-question-11-under-36a9b17e2a`
+      [W] `0016-this-distribution-will-be-deposited-in-a-national-741272b407`
 
-        - [x] [unit] 0001-for-repository-contact-arrangements-see-question-11-under-55fdfd88ad: For repository contact arrangements, see Question 11 under this dataset.
+        - [x] [unit] 0001-this-distribution-will-be-deposited-in-a-national-cf29500fcd: This distribution will be deposited in a national repository.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0016-for-repository-contact-arrangements-see-question-11-under-36a9b17e2a/0001-for-repository-contact-arrangements-see-question-11-under-55fdfd88ad/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0016-this-distribution-will-be-deposited-in-a-national-741272b407/0001-this-distribution-will-be-deposited-in-a-national-cf29500fcd/translation.md>)
 
-    - [x] [wrapper] 0017-general-purpose-repository-32923dd847 (1/1)
+    - [x] [wrapper] 0017-this-distribution-will-be-deposited-in-an-institutional-18a705ea3b (1/1)
 
-      [W] `0017-general-purpose-repository-32923dd847`
+      [W] `0017-this-distribution-will-be-deposited-in-an-institutional-18a705ea3b`
 
-        - [x] [unit] 0001-general-purpose-repository-3e55611ea4: General-purpose repository
+        - [x] [unit] 0001-this-distribution-will-be-deposited-in-an-institutional-932e20edea: This distribution will be deposited in an institutional repository.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0017-general-purpose-repository-32923dd847/0001-general-purpose-repository-3e55611ea4/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0017-this-distribution-will-be-deposited-in-an-institutional-18a705ea3b/0001-this-distribution-will-be-deposited-in-an-institutional-932e20edea/translation.md>)
 
-    - [x] [wrapper] 0018-this-distribution-will-be-deposited-in-a-national-741272b407 (1/1)
+    - [x] [wrapper] 0018-this-distribution-will-be-deposited-in-a-special-262ad7a87a (1/1)
 
-      [W] `0018-this-distribution-will-be-deposited-in-a-national-741272b407`
+      [W] `0018-this-distribution-will-be-deposited-in-a-special-262ad7a87a`
 
-        - [x] [unit] 0001-this-distribution-will-be-deposited-in-a-national-9a64f3edb3: This distribution will be deposited in a national repository.
+        - [x] [unit] 0001-this-distribution-will-be-deposited-in-a-special-5210d855e2: This distribution will be deposited in a special-purpose repository for the project.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0018-this-distribution-will-be-deposited-in-a-national-741272b407/0001-this-distribution-will-be-deposited-in-a-national-9a64f3edb3/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0018-this-distribution-will-be-deposited-in-a-special-262ad7a87a/0001-this-distribution-will-be-deposited-in-a-special-5210d855e2/translation.md>)
 
-    - [x] [wrapper] 0019-this-distribution-will-be-deposited-in-an-institutional-18a705ea3b (1/1)
+    - [x] [wrapper] 0019-the-repository-for-this-distribution-has-not-been-480ee5f7eb (1/1)
 
-      [W] `0019-this-distribution-will-be-deposited-in-an-institutional-18a705ea3b`
+      [W] `0019-the-repository-for-this-distribution-has-not-been-480ee5f7eb`
 
-        - [x] [unit] 0001-this-distribution-will-be-deposited-in-an-institutional-98ba7bdb0e: This distribution will be deposited in an institutional repository.
+        - [x] [unit] 0001-the-repository-for-this-distribution-has-not-been-6a976f479a: The repository for this distribution has not been provided.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0019-this-distribution-will-be-deposited-in-an-institutional-18a705ea3b/0001-this-distribution-will-be-deposited-in-an-institutional-98ba7bdb0e/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0019-the-repository-for-this-distribution-has-not-been-480ee5f7eb/0001-the-repository-for-this-distribution-has-not-been-6a976f479a/translation.md>)
 
-    - [x] [wrapper] 0020-this-distribution-will-be-deposited-in-a-special-262ad7a87a (1/1)
+    - [x] [wrapper] 0020-licence-start-date-67548c5293 (1/1)
 
-      [W] `0020-this-distribution-will-be-deposited-in-a-special-262ad7a87a`
+      [W] `0020-licence-start-date-67548c5293`
 
-        - [x] [unit] 0001-this-distribution-will-be-deposited-in-a-special-a66c56cee6: This distribution will be deposited in a special-purpose repository for the project.
+        - [x] [unit] 0001-licence-start-date-9d3ec74df3: Licence start date: {licenseDate}.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0020-this-distribution-will-be-deposited-in-a-special-262ad7a87a/0001-this-distribution-will-be-deposited-in-a-special-a66c56cee6/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0020-licence-start-date-67548c5293/0001-licence-start-date-9d3ec74df3/translation.md>)
 
-    - [x] [wrapper] 0021-the-repository-for-this-distribution-has-not-been-480ee5f7eb (1/1)
+    - [x] [wrapper] 0021-freely-available-for-any-use-public-domain-or-d76ea86551 (1/1)
 
-      [W] `0021-the-repository-for-this-distribution-has-not-been-480ee5f7eb`
+      [W] `0021-freely-available-for-any-use-public-domain-or-d76ea86551`
 
-        - [x] [unit] 0001-the-repository-for-this-distribution-has-not-been-cf73c8da1d: The repository for this distribution has not been provided.
+        - [x] [unit] 0001-freely-available-for-any-use-public-domain-or-4aa648de05: Freely available for any use (public domain or CC0).
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0021-the-repository-for-this-distribution-has-not-been-480ee5f7eb/0001-the-repository-for-this-distribution-has-not-been-cf73c8da1d/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0021-freely-available-for-any-use-public-domain-or-d76ea86551/0001-freely-available-for-any-use-public-domain-or-4aa648de05/translation.md>)
 
-    - [x] [wrapper] 0022-licence-start-date-67548c5293 (1/1)
+    - [x] [wrapper] 0022-freely-available-with-an-obligation-to-cite-the-02b89bb0d4 (1/1)
 
-      [W] `0022-licence-start-date-67548c5293`
+      [W] `0022-freely-available-with-an-obligation-to-cite-the-02b89bb0d4`
 
-        - [x] [unit] 0001-licence-start-date-86511af612: Licence start date: {licenseDate}.
+        - [x] [unit] 0001-freely-available-with-an-obligation-to-cite-the-3db97cf224: Freely available with an obligation to cite the source (e.g. CC BY).
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0022-licence-start-date-67548c5293/0001-licence-start-date-86511af612/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0022-freely-available-with-an-obligation-to-cite-the-02b89bb0d4/0001-freely-available-with-an-obligation-to-cite-the-3db97cf224/translation.md>)
 
-    - [x] [wrapper] 0023-freely-available-for-any-use-public-domain-or-d76ea86551 (1/1)
+    - [x] [wrapper] 0023-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f (1/1)
 
-      [W] `0023-freely-available-for-any-use-public-domain-or-d76ea86551`
+      [W] `0023-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f`
 
-        - [x] [unit] 0001-freely-available-for-any-use-public-domain-or-6e8422e1e0: Freely available for any use (public domain or CC0).
+        - [x] [unit] 0001-access-to-this-distribution-is-subject-to-restrictions-89540f2b21: Access to this distribution is subject to restrictions.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0023-freely-available-for-any-use-public-domain-or-d76ea86551/0001-freely-available-for-any-use-public-domain-or-6e8422e1e0/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0023-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f/0001-access-to-this-distribution-is-subject-to-restrictions-89540f2b21/translation.md>)
 
-    - [x] [wrapper] 0024-freely-available-with-an-obligation-to-cite-the-02b89bb0d4 (1/1)
+    - [x] [wrapper] 0024-the-conditions-of-restricted-access-have-not-been-75995fc02b (1/1)
 
-      [W] `0024-freely-available-with-an-obligation-to-cite-the-02b89bb0d4`
+      [W] `0024-the-conditions-of-restricted-access-have-not-been-75995fc02b`
 
-        - [x] [unit] 0001-freely-available-with-an-obligation-to-cite-the-0f42537979: Freely available with an obligation to cite the source (e.g. CC BY).
+        - [x] [unit] 0001-the-conditions-of-restricted-access-have-not-been-3b6a1d1b44: The conditions of restricted access have not been provided.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0024-freely-available-with-an-obligation-to-cite-the-02b89bb0d4/0001-freely-available-with-an-obligation-to-cite-the-0f42537979/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0024-the-conditions-of-restricted-access-have-not-been-75995fc02b/0001-the-conditions-of-restricted-access-have-not-been-3b6a1d1b44/translation.md>)
 
-    - [x] [wrapper] 0025-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f (1/1)
+    - [x] [wrapper] 0025-re-users-will-be-able-to-get-access-e5dbdae2c2 (1/1)
 
-      [W] `0025-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f`
+      [W] `0025-re-users-will-be-able-to-get-access-e5dbdae2c2`
 
-        - [x] [unit] 0001-access-to-this-distribution-is-subject-to-restrictions-8392b1ea0d: Access to this distribution is subject to restrictions.
+        - [x] [unit] 0001-re-users-will-be-able-to-get-access-6508b85d41: Re-users will be able to get access by request to the contact person.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0025-access-to-this-distribution-is-subject-to-restrictions-537fa19e5f/0001-access-to-this-distribution-is-subject-to-restrictions-8392b1ea0d/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0025-re-users-will-be-able-to-get-access-e5dbdae2c2/0001-re-users-will-be-able-to-get-access-6508b85d41/translation.md>)
 
-    - [x] [wrapper] 0026-the-conditions-of-restricted-access-have-not-been-75995fc02b (1/1)
+    - [x] [wrapper] 0026-re-users-can-request-access-through-the-project-09e5f489f7 (1/1)
 
-      [W] `0026-the-conditions-of-restricted-access-have-not-been-75995fc02b`
+      [W] `0026-re-users-can-request-access-through-the-project-09e5f489f7`
 
-        - [x] [unit] 0001-the-conditions-of-restricted-access-have-not-been-f8425175a6: The conditions of restricted access have not been provided.
+        - [x] [unit] 0001-re-users-can-request-access-through-the-project-d7b6d3ca9c: Re-users can request access through the project's Data Access Committee.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0026-the-conditions-of-restricted-access-have-not-been-75995fc02b/0001-the-conditions-of-restricted-access-have-not-been-f8425175a6/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0026-re-users-can-request-access-through-the-project-09e5f489f7/0001-re-users-can-request-access-through-the-project-d7b6d3ca9c/translation.md>)
 
-    - [x] [wrapper] 0027-re-users-will-be-able-to-get-access-e5dbdae2c2 (1/1)
+    - [x] [wrapper] 0027-access-requests-will-follow-a-specialized-process-aa9644f11c (1/1)
 
-      [W] `0027-re-users-will-be-able-to-get-access-e5dbdae2c2`
+      [W] `0027-access-requests-will-follow-a-specialized-process-aa9644f11c`
 
-        - [x] [unit] 0001-re-users-will-be-able-to-get-access-a608fbaf16: Re-users will be able to get access by request to the contact person.
+        - [x] [unit] 0001-access-requests-will-follow-a-specialized-process-c1d2b0db2b: Access requests will follow a specialized process.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0027-re-users-will-be-able-to-get-access-e5dbdae2c2/0001-re-users-will-be-able-to-get-access-a608fbaf16/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0027-access-requests-will-follow-a-specialized-process-aa9644f11c/0001-access-requests-will-follow-a-specialized-process-c1d2b0db2b/translation.md>)
 
-    - [x] [wrapper] 0028-re-users-can-request-access-through-the-project-09e5f489f7 (1/1)
+    - [x] [wrapper] 0028-the-specialized-access-process-has-not-been-described-6c50d65f72 (1/1)
 
-      [W] `0028-re-users-can-request-access-through-the-project-09e5f489f7`
+      [W] `0028-the-specialized-access-process-has-not-been-described-6c50d65f72`
 
-        - [x] [unit] 0001-re-users-can-request-access-through-the-project-229bff6a9a: Re-users can request access through the project's Data Access Committee.
+        - [x] [unit] 0001-the-specialized-access-process-has-not-been-described-38fc59c01d: The specialized access process has not been described.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0028-re-users-can-request-access-through-the-project-09e5f489f7/0001-re-users-can-request-access-through-the-project-229bff6a9a/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0028-the-specialized-access-process-has-not-been-described-6c50d65f72/0001-the-specialized-access-process-has-not-been-described-38fc59c01d/translation.md>)
 
-    - [x] [wrapper] 0029-access-requests-will-follow-a-specialized-process-aa9644f11c (1/1)
+    - [x] [wrapper] 0029-how-to-request-restricted-access-has-not-been-4b99c6a6c2 (1/1)
 
-      [W] `0029-access-requests-will-follow-a-specialized-process-aa9644f11c`
+      [W] `0029-how-to-request-restricted-access-has-not-been-4b99c6a6c2`
 
-        - [x] [unit] 0001-access-requests-will-follow-a-specialized-process-1f2ebd75ff: Access requests will follow a specialized process.
+        - [x] [unit] 0001-how-to-request-restricted-access-has-not-been-57ed8fd9d9: How to request restricted access has not been specified.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0029-access-requests-will-follow-a-specialized-process-aa9644f11c/0001-access-requests-will-follow-a-specialized-process-1f2ebd75ff/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0029-how-to-request-restricted-access-has-not-been-4b99c6a6c2/0001-how-to-request-restricted-access-has-not-been-57ed8fd9d9/translation.md>)
 
-    - [x] [wrapper] 0030-the-specialized-access-process-has-not-been-described-6c50d65f72 (1/1)
+    - [x] [wrapper] 0030-the-conditions-will-be-published-as-part-of-09ea77d09b (1/1)
 
-      [W] `0030-the-specialized-access-process-has-not-been-described-6c50d65f72`
+      [W] `0030-the-conditions-will-be-published-as-part-of-09ea77d09b`
 
-        - [x] [unit] 0001-the-specialized-access-process-has-not-been-described-b0d8dd6e51: The specialized access process has not been described.
+        - [x] [unit] 0001-the-conditions-will-be-published-as-part-of-827a2f5c0d: The conditions will be published as part of open metadata.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0030-the-specialized-access-process-has-not-been-described-6c50d65f72/0001-the-specialized-access-process-has-not-been-described-b0d8dd6e51/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0030-the-conditions-will-be-published-as-part-of-09ea77d09b/0001-the-conditions-will-be-published-as-part-of-827a2f5c0d/translation.md>)
 
-    - [x] [wrapper] 0031-how-to-request-restricted-access-has-not-been-4b99c6a6c2 (1/1)
+    - [x] [wrapper] 0031-the-conditions-will-not-be-published-as-part-cc622879fb (1/1)
 
-      [W] `0031-how-to-request-restricted-access-has-not-been-4b99c6a6c2`
+      [W] `0031-the-conditions-will-not-be-published-as-part-cc622879fb`
 
-        - [x] [unit] 0001-how-to-request-restricted-access-has-not-been-fa0f6926cd: How to request restricted access has not been specified.
+        - [x] [unit] 0001-the-conditions-will-not-be-published-as-part-237efd2415: The conditions will not be published as part of open metadata.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0031-how-to-request-restricted-access-has-not-been-4b99c6a6c2/0001-how-to-request-restricted-access-has-not-been-fa0f6926cd/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0031-the-conditions-will-not-be-published-as-part-cc622879fb/0001-the-conditions-will-not-be-published-as-part-237efd2415/translation.md>)
 
-    - [x] [wrapper] 0032-the-conditions-will-be-published-as-part-of-09ea77d09b (1/1)
+    - [x] [wrapper] 0032-it-has-not-been-specified-whether-the-access-bc4b896044 (1/1)
 
-      [W] `0032-the-conditions-will-be-published-as-part-of-09ea77d09b`
+      [W] `0032-it-has-not-been-specified-whether-the-access-bc4b896044`
 
-        - [x] [unit] 0001-the-conditions-will-be-published-as-part-of-952e329e15: The conditions will be published as part of open metadata.
+        - [x] [unit] 0001-it-has-not-been-specified-whether-the-access-e288c7efb4: It has not been specified whether the access conditions will be included in open metadata.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0032-the-conditions-will-be-published-as-part-of-09ea77d09b/0001-the-conditions-will-be-published-as-part-of-952e329e15/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0032-it-has-not-been-specified-whether-the-access-bc4b896044/0001-it-has-not-been-specified-whether-the-access-e288c7efb4/translation.md>)
 
-    - [x] [wrapper] 0033-the-conditions-will-not-be-published-as-part-cc622879fb (1/1)
+    - [x] [wrapper] 0033-restriction-details-6698157409 (1/1)
 
-      [W] `0033-the-conditions-will-not-be-published-as-part-cc622879fb`
+      [W] `0033-restriction-details-6698157409`
 
-        - [x] [unit] 0001-the-conditions-will-not-be-published-as-part-41b6e140f9: The conditions will not be published as part of open metadata.
+        - [x] [unit] 0001-restriction-details-999a531bc4: Restriction details: {restrictionLink}.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0033-the-conditions-will-not-be-published-as-part-cc622879fb/0001-the-conditions-will-not-be-published-as-part-41b6e140f9/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0033-restriction-details-6698157409/0001-restriction-details-999a531bc4/translation.md>)
 
-    - [x] [wrapper] 0034-it-has-not-been-specified-whether-the-access-bc4b896044 (1/1)
+    - [ ] [wrapper] 0034-the-licence-or-conditions-of-use-have-not-4957c7d79f (0/1)
 
-      [W] `0034-it-has-not-been-specified-whether-the-access-bc4b896044`
+      [W] `0034-the-licence-or-conditions-of-use-have-not-4957c7d79f`
 
-        - [x] [unit] 0001-it-has-not-been-specified-whether-the-access-f572f1d22e: It has not been specified whether the access conditions will be included in open metadata.
+        - [ ] [unit] 0001-the-licence-or-conditions-of-use-have-not-65a7025094: The licence or conditions of use have not been provided.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0034-it-has-not-been-specified-whether-the-access-bc4b896044/0001-it-has-not-been-specified-whether-the-access-f572f1d22e/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0034-the-licence-or-conditions-of-use-have-not-4957c7d79f/0001-the-licence-or-conditions-of-use-have-not-65a7025094/translation.md>)
 
-    - [x] [wrapper] 0035-restriction-details-6698157409 (1/1)
+    - [ ] [wrapper] 0035-the-licence-or-conditions-of-use-have-not-4957c7d79f (0/1)
 
-      [W] `0035-restriction-details-6698157409`
+      [W] `0035-the-licence-or-conditions-of-use-have-not-4957c7d79f`
 
-        - [x] [unit] 0001-restriction-details-29f17ead23: Restriction details: {restrictionLink}.
+        - [ ] [unit] 0001-the-licence-or-conditions-of-use-have-not-0fba1359d4: The licence or conditions of use have not been provided.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0035-restriction-details-6698157409/0001-restriction-details-29f17ead23/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0035-the-licence-or-conditions-of-use-have-not-4957c7d79f/0001-the-licence-or-conditions-of-use-have-not-0fba1359d4/translation.md>)
 
-    - [x] [wrapper] 0036-the-licence-or-conditions-of-use-have-not-4957c7d79f (1/1)
+    - [x] [wrapper] 0036-distribution-4a2a6c0534 (1/1)
 
-      [W] `0036-the-licence-or-conditions-of-use-have-not-4957c7d79f`
+      [W] `0036-distribution-4a2a6c0534`
 
-        - [x] [unit] 0001-the-licence-or-conditions-of-use-have-not-360e01d0eb: The licence or conditions of use have not been provided.
+        - [x] [unit] 0001-distribution-8ce8e244c2: Distribution {loop.index}
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0036-the-licence-or-conditions-of-use-have-not-4957c7d79f/0001-the-licence-or-conditions-of-use-have-not-360e01d0eb/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0036-distribution-4a2a6c0534/0001-distribution-8ce8e244c2/translation.md>)
 
-    - [x] [wrapper] 0037-the-licence-or-conditions-of-use-have-not-4957c7d79f (1/1)
+    - [x] [wrapper] 0037-the-publication-locations-have-not-been-listed-df9cecaacf (1/1)
 
-      [W] `0037-the-licence-or-conditions-of-use-have-not-4957c7d79f`
+      [W] `0037-the-publication-locations-have-not-been-listed-df9cecaacf`
 
-        - [x] [unit] 0001-the-licence-or-conditions-of-use-have-not-afb3c7a5f9: The licence or conditions of use have not been provided.
+        - [x] [unit] 0001-the-publication-locations-have-not-been-listed-af1be81110: The publication locations have not been listed.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0037-the-licence-or-conditions-of-use-have-not-4957c7d79f/0001-the-licence-or-conditions-of-use-have-not-afb3c7a5f9/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0037-the-publication-locations-have-not-been-listed-df9cecaacf/0001-the-publication-locations-have-not-been-listed-af1be81110/translation.md>)
 
-    - [x] [wrapper] 0038-distribution-4a2a6c0534 (1/1)
+    - [ ] [wrapper] 0038-it-has-not-yet-been-specified-whether-this-26da6f110a (0/1)
 
-      [W] `0038-distribution-4a2a6c0534`
+      [W] `0038-it-has-not-yet-been-specified-whether-this-26da6f110a`
 
-        - [x] [unit] 0001-distribution-e16f79e925: Distribution {loop.index}
+        - [ ] [unit] 0001-it-has-not-yet-been-specified-whether-this-e55e7848a3: It has not yet been specified whether this dataset will be published.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0038-distribution-4a2a6c0534/0001-distribution-e16f79e925/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0038-it-has-not-yet-been-specified-whether-this-26da6f110a/0001-it-has-not-yet-been-specified-whether-this-e55e7848a3/translation.md>)
 
-    - [x] [wrapper] 0039-the-publication-locations-have-not-been-listed-df9cecaacf (1/1)
+    - [x] [wrapper] 0039-the-following-qualified-references-to-other-data-sets-ab059d21a0 (1/1)
 
-      [W] `0039-the-publication-locations-have-not-been-listed-df9cecaacf`
+      [W] `0039-the-following-qualified-references-to-other-data-sets-ab059d21a0`
 
-        - [x] [unit] 0001-the-publication-locations-have-not-been-listed-899e866756: The publication locations have not been listed.
+        - [x] [unit] 0001-the-following-qualified-references-to-other-data-sets-250baacbf5: The following qualified references to other data sets will be included:
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0039-the-publication-locations-have-not-been-listed-df9cecaacf/0001-the-publication-locations-have-not-been-listed-899e866756/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0039-the-following-qualified-references-to-other-data-sets-ab059d21a0/0001-the-following-qualified-references-to-other-data-sets-250baacbf5/translation.md>)
 
-    - [x] [wrapper] 0040-it-has-not-yet-been-specified-whether-this-26da6f110a (1/1)
+    - [ ] [wrapper] 0040-no-name-given-ddb0e9460b (0/1)
 
-      [W] `0040-it-has-not-yet-been-specified-whether-this-26da6f110a`
+      [W] `0040-no-name-given-ddb0e9460b`
 
-        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-this-694b2b634e: It has not yet been specified whether this dataset will be published.
+        - [ ] [unit] 0001-no-name-given-dbe88cd400: (no name given)
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0040-it-has-not-yet-been-specified-whether-this-26da6f110a/0001-it-has-not-yet-been-specified-whether-this-694b2b634e/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0040-no-name-given-ddb0e9460b/0001-no-name-given-dbe88cd400/translation.md>)
 
-    - [x] [wrapper] 0041-the-following-qualified-references-to-other-data-sets-ab059d21a0 (1/1)
+    - [x] [wrapper] 0041-no-data-sharing-agreement-will-be-required-2bf1dd5063 (1/1)
 
-      [W] `0041-the-following-qualified-references-to-other-data-sets-ab059d21a0`
+      [W] `0041-no-data-sharing-agreement-will-be-required-2bf1dd5063`
 
-        - [x] [unit] 0001-the-following-qualified-references-to-other-data-sets-3cefa92fa3: The following qualified references to other data sets will be included:
+        - [x] [unit] 0001-no-data-sharing-agreement-will-be-required-711ce8b7ac: No data sharing agreement will be required.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0041-the-following-qualified-references-to-other-data-sets-ab059d21a0/0001-the-following-qualified-references-to-other-data-sets-3cefa92fa3/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0041-no-data-sharing-agreement-will-be-required-2bf1dd5063/0001-no-data-sharing-agreement-will-be-required-711ce8b7ac/translation.md>)
 
-    - [x] [wrapper] 0042-no-name-given-ddb0e9460b (1/1)
+    - [x] [wrapper] 0042-data-cannot-be-completely-open-due-to-legal-95a3529f52 (2/2)
 
-      [W] `0042-no-name-given-ddb0e9460b`
+      [W] `0042-data-cannot-be-completely-open-due-to-legal-95a3529f52`
 
-        - [x] [unit] 0001-no-name-given-44218de952: (no name given)
+        - [x] [unit] 0001-data-cannot-be-completely-open-due-to-legal-f6ac5894f2: Data cannot be completely open due to legal reasons. But data that is not legally restrained will be released after a fixed time period.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-no-name-given-ddb0e9460b/0001-no-name-given-44218de952/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-data-cannot-be-completely-open-due-to-legal-95a3529f52/0001-data-cannot-be-completely-open-due-to-legal-f6ac5894f2/translation.md>)
 
-    - [x] [wrapper] 0043-no-data-sharing-agreement-will-be-required-2bf1dd5063 (1/1)
+        - [x] [unit] 0002-the-embargo-period-will-be-cdfadccf37: The embargo period will be {embargoPeriod}
 
-      [W] `0043-no-data-sharing-agreement-will-be-required-2bf1dd5063`
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-data-cannot-be-completely-open-due-to-legal-95a3529f52/0002-the-embargo-period-will-be-cdfadccf37/translation.md>)
 
-        - [x] [unit] 0001-no-data-sharing-agreement-will-be-required-3340f3d406: No data sharing agreement will be required.
+    - [x] [wrapper] 0043-a-data-sharing-agreement-will-be-required-people-f9a570ff26 (6/6)
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-no-data-sharing-agreement-will-be-required-2bf1dd5063/0001-no-data-sharing-agreement-will-be-required-3340f3d406/translation.md>)
+      [W] `0043-a-data-sharing-agreement-will-be-required-people-f9a570ff26`
 
-    - [x] [wrapper] 0044-data-cannot-be-completely-open-due-to-legal-95a3529f52 (2/2)
+        - [x] [unit] 0001-a-data-sharing-agreement-will-be-required-cf86f0b8a0: A data sharing agreement will be required.
 
-      [W] `0044-data-cannot-be-completely-open-due-to-legal-95a3529f52`
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0001-a-data-sharing-agreement-will-be-required-cf86f0b8a0/translation.md>)
 
-        - [x] [unit] 0001-data-cannot-be-completely-open-due-to-legal-942af59510: Data cannot be completely open due to legal reasons. But data that is not legally restrained will be released after a fixed time period.
+        - [x] [unit] 0002-people-can-apply-to-one-of-the-project-cf5a7bf86d: People can apply to one of the project members.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0044-data-cannot-be-completely-open-due-to-legal-95a3529f52/0001-data-cannot-be-completely-open-due-to-legal-942af59510/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0002-people-can-apply-to-one-of-the-project-cf5a7bf86d/translation.md>)
 
-        - [x] [unit] 0002-the-embargo-period-will-be-6a28bff136: The embargo period will be {embargoPeriod}
+        - [x] [unit] 0003-people-can-apply-to-the-data-access-committee-13651edd69: People can apply to the data access committee that we will set up.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0044-data-cannot-be-completely-open-due-to-legal-95a3529f52/0002-the-embargo-period-will-be-6a28bff136/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0003-people-can-apply-to-the-data-access-committee-13651edd69/translation.md>)
 
-    - [x] [wrapper] 0045-a-data-sharing-agreement-will-be-required-people-f9a570ff26 (6/6)
+        - [x] [unit] 0004-people-can-apply-to-the-following-data-access-9e460c863b: People can apply to the following data access committee: {legalReasonsAuthorizeOldCommittee}
 
-      [W] `0045-a-data-sharing-agreement-will-be-required-people-f9a570ff26`
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0004-people-can-apply-to-the-following-data-access-9e460c863b/translation.md>)
 
-        - [x] [unit] 0001-a-data-sharing-agreement-will-be-required-5506f48991: A data sharing agreement will be required.
+        - [x] [unit] 0005-people-can-apply-to-an-existing-data-access-b746bdb648: People can apply to an existing data access committee.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0045-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0001-a-data-sharing-agreement-will-be-required-5506f48991/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0005-people-can-apply-to-an-existing-data-access-b746bdb648/translation.md>)
 
-        - [x] [unit] 0002-people-can-apply-to-one-of-the-project-ea0538487a: People can apply to one of the project members.
+        - [x] [unit] 0006-for-the-authorization-of-potential-users-we-will-426b74394e: For the authorization of potential users, we will make special arrangements{legalReasonsAuthorizeOther}
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0045-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0002-people-can-apply-to-one-of-the-project-ea0538487a/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0006-for-the-authorization-of-potential-users-we-will-426b74394e/translation.md>)
 
-        - [x] [unit] 0003-people-can-apply-to-the-data-access-committee-103d5b5c1b: People can apply to the data access committee that we will set up.
+    - [x] [wrapper] 0044-we-are-not-running-the-project-in-a-9f5968c070 (1/1)
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0045-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0003-people-can-apply-to-the-data-access-committee-103d5b5c1b/translation.md>)
+      [W] `0044-we-are-not-running-the-project-in-a-9f5968c070`
 
-        - [x] [unit] 0004-people-can-apply-to-the-following-data-access-f5031357f3: People can apply to the following data access committee: {legalReasonsAuthorizeOldCommittee}
+        - [x] [unit] 0001-we-are-not-running-the-project-in-a-ca33170e77: We are not running the project in a collaboration between different groups nor institutes. Therefore, no collaboration agreement related to data access is needed.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0045-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0004-people-can-apply-to-the-following-data-access-f5031357f3/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0044-we-are-not-running-the-project-in-a-9f5968c070/0001-we-are-not-running-the-project-in-a-ca33170e77/translation.md>)
 
-        - [x] [unit] 0005-people-can-apply-to-an-existing-data-access-82df9fdbfe: People can apply to an existing data access committee.
+    - [x] [wrapper] 0045-we-are-running-the-project-in-a-collaboration-4418efcc74 (1/1)
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0045-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0005-people-can-apply-to-an-existing-data-access-82df9fdbfe/translation.md>)
+      [W] `0045-we-are-running-the-project-in-a-collaboration-4418efcc74`
 
-        - [x] [unit] 0006-for-the-authorization-of-potential-users-we-will-28152db271: For the authorization of potential users, we will make special arrangements{legalReasonsAuthorizeOther}
+        - [x] [unit] 0001-we-are-running-the-project-in-a-collaboration-4daf39d7fb: We are running the project in a collaboration between different groups and institutes. However, there is no collaboration agreement in the project that describes who can have access to what data.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0045-a-data-sharing-agreement-will-be-required-people-f9a570ff26/0006-for-the-authorization-of-potential-users-we-will-28152db271/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0045-we-are-running-the-project-in-a-collaboration-4418efcc74/0001-we-are-running-the-project-in-a-collaboration-4daf39d7fb/translation.md>)
 
-    - [x] [wrapper] 0046-we-are-not-running-the-project-in-a-9f5968c070 (1/1)
+    - [x] [wrapper] 0046-we-are-running-the-project-in-a-collaboration-937ebd518e (1/1)
 
-      [W] `0046-we-are-not-running-the-project-in-a-9f5968c070`
+      [W] `0046-we-are-running-the-project-in-a-collaboration-937ebd518e`
 
-        - [x] [unit] 0001-we-are-not-running-the-project-in-a-5b29b11259: We are not running the project in a collaboration between different groups nor institutes. Therefore, no collaboration agreement related to data access is needed.
+        - [x] [unit] 0001-we-are-running-the-project-in-a-collaboration-74640ec1e0: We are running the project in a collaboration between different groups and institutes. A collaboration agreement that describes who can have access to what data in the project is set.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0046-we-are-not-running-the-project-in-a-9f5968c070/0001-we-are-not-running-the-project-in-a-5b29b11259/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0046-we-are-running-the-project-in-a-collaboration-937ebd518e/0001-we-are-running-the-project-in-a-collaboration-74640ec1e0/translation.md>)
 
-    - [x] [wrapper] 0047-we-are-running-the-project-in-a-collaboration-4418efcc74 (1/1)
+    - [x] [wrapper] 0047-this-document-does-not-yet-describe-how-and-dc1e5de524 (1/1)
 
-      [W] `0047-we-are-running-the-project-in-a-collaboration-4418efcc74`
+      [W] `0047-this-document-does-not-yet-describe-how-and-dc1e5de524`
 
-        - [x] [unit] 0001-we-are-running-the-project-in-a-collaboration-e48f83aef9: We are running the project in a collaboration between different groups and institutes. However, there is no collaboration agreement in the project that describes who can have access to what data.
+        - [x] [unit] 0001-this-document-does-not-yet-describe-how-and-85f4013889: This document does not yet describe how and when data will be shared, or any restrictions.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0047-we-are-running-the-project-in-a-collaboration-4418efcc74/0001-we-are-running-the-project-in-a-collaboration-e48f83aef9/translation.md>)
-
-    - [x] [wrapper] 0048-we-are-running-the-project-in-a-collaboration-937ebd518e (1/1)
-
-      [W] `0048-we-are-running-the-project-in-a-collaboration-937ebd518e`
-
-        - [x] [unit] 0001-we-are-running-the-project-in-a-collaboration-15794f3c03: We are running the project in a collaboration between different groups and institutes. A collaboration agreement that describes who can have access to what data in the project is set.
-
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0048-we-are-running-the-project-in-a-collaboration-937ebd518e/0001-we-are-running-the-project-in-a-collaboration-15794f3c03/translation.md>)
-
-    - [x] [wrapper] 0049-this-document-does-not-yet-describe-how-and-dc1e5de524 (1/1)
-
-      [W] `0049-this-document-does-not-yet-describe-how-and-dc1e5de524`
-
-        - [x] [unit] 0001-this-document-does-not-yet-describe-how-and-d76f7a893c: This document does not yet describe how and when data will be shared, or any restrictions.
-
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0049-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-d76f7a893c/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0047-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-85f4013889/translation.md>)
 
 - [x] [file] src/questions/11-data-preservation.html.j2 (36/36)
 

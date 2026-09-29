@@ -15,6 +15,7 @@
   ],
   "deleted": [],
   "changed": [
+    "src/budget-reading.html.j2",
     "src/contributors.html.j2",
     "src/layout.css",
     "src/macros.html.j2",
@@ -42,14 +43,14 @@
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "a8b8e72dd8100019e9e10bbdbe71d598953f83b9251e2fdf54c3cd0f97962aa5",
-      "candidate_metadata_sha256": "13ed749403589d08f2bb88aa9d04bca88bd287ba23a8b89fa511e148c31e0c89"
+      "candidate_tree_sha256": "97a623fc6e82a3e8aad3ad9217612164b73632d11167af8b5edc45d6aedb4979",
+      "candidate_metadata_sha256": "ef659b7340e335540e2d318a61dc64a7fbc2ce603287fc7c353e3b9b96ebf7ca"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "745d75e1bde54101e8d4e0ca9f4258c854d13c1c73f424e2a482978bfd20a048",
-      "candidate_metadata_sha256": "e3a87fc0ef51bc05a076dad53ec3a29e361d68fcf8183190f953f886d9d0bb4c"
+      "candidate_tree_sha256": "efce4754b675f17b02a55df8bf5eebd067a0a17a7b2299e4d2f2e6f3d957454f",
+      "candidate_metadata_sha256": "d8e6b9e6bf83655338638bc36d0bc0bc545858eb69048a883d9318e98ddd5b3b"
     }
   }
 }

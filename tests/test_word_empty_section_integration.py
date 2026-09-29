@@ -25,9 +25,8 @@ class WordSectionIntegrationTests(unittest.TestCase):
         from probe_pdf_budget_translation import pair
         from probe_personal_data_translation import project_current_language_polish_translations
         previous, delta = project_current_language_polish_translations([pair(p.read_text()) for p in files])
-        self.assertEqual((len(files), len(previous)), (785, 775))
+        self.assertEqual((len(files), len(previous)), (delta['current_units'], 775))
         self.assertEqual(len(manifest['translation_tree_sha256']), 775)
-        self.assertEqual(delta['retained_units'], 660)
 
     def test_metadata_projection_rejects_unreviewed_changes(self):
         timestamp = '2026-09-23T00:00:00Z'

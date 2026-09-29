@@ -5,7 +5,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
 from build import localize_format_names
-from probe_personal_data_translation import verify_submission_translation_chain
+from probe_personal_data_translation import CURRENT_POLISH, verify_submission_translation_chain
 from probe_pdf_budget_translation import pair
 from render import format_uuid, FORMATS, SUBMISSION_FORMATS
 
@@ -29,7 +29,7 @@ class OutputProfileTests(unittest.TestCase):
     def test_exact_one_sentence_delta_and_no_lost_review_hints(self):
         values = [pair(f.read_text()) for f in (ROOT/'translation/tree').rglob('translation.md')]
         _, chain = verify_submission_translation_chain(values)
-        self.assertEqual(chain['current_language_polish']['current_units'], 785)
+        self.assertEqual(chain['current_language_polish'], CURRENT_POLISH)
         self.assertEqual(chain['current_language_polish']['baseline_units'], 775)
         self.assertEqual(chain['output_profiles']['retained_units'], 747)
         for mutant in [values[:-1], values + [('extra', '額外')], [(a, b+'。') for a, b in values]]:

@@ -21,8 +21,7 @@ class PreparationIntegrationTests(unittest.TestCase):
         prepared, polish = project_current_language_polish_translations(current)
         previous, delta = contract.project_translations(prepared)
         self.assertEqual(len(previous), 775); self.assertEqual(delta['retained_units'], 766)
-        self.assertEqual((len(current), len(prepared)), (785, 775))
-        self.assertEqual(polish['retained_units'], 660)
+        self.assertEqual((len(current), len(prepared)), (polish['current_units'], 775))
         self.assertTrue(contract.has_new_translations(prepared)); self.assertFalse(contract.has_new_translations(previous))
         for unit in contract.units():
             changed = list(prepared); changed.remove((unit['en'], unit['zh'])); changed.append((unit['en'], unit['zh'] + '!'))

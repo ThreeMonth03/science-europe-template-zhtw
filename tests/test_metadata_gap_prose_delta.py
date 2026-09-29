@@ -5,7 +5,7 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'scripts'))
-from probe_personal_data_translation import archived_pairs, verify_prose_translation_chain, verify_submission_translation_chain
+from probe_personal_data_translation import CURRENT_POLISH, archived_pairs, verify_prose_translation_chain, verify_submission_translation_chain
 from probe_pdf_budget_translation import pair
 
 
@@ -14,8 +14,8 @@ class MetadataGapProseDelta(unittest.TestCase):
         current = [pair(p.read_text()) for p in (ROOT/'translation/tree').rglob('translation.md')]
         _, following = verify_submission_translation_chain(current)
         self.assertEqual(following['metadata_gap_prose']['retained_units'], 744)
-        self.assertEqual(len(current), 785)
-        self.assertEqual(following['current_language_polish']['current_units'], 785)
+        self.assertEqual(len(current), CURRENT_POLISH['current_units'])
+        self.assertEqual(following['current_language_polish'], CURRENT_POLISH)
         self.assertEqual(following['submission_flow']['retained_units'], 763)
         self.assertEqual(following['full_km_followups']['retained_units'], 767)
         self.assertEqual(following['submission_reading']['retained_units'], 762)

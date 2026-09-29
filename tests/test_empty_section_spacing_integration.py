@@ -9,10 +9,11 @@ import submission_flow_integration as old
 class EmptySectionIntegrationTests(unittest.TestCase):
     def test_seals_and_unchanged_translation_tree(self):
         self.assertEqual(len(contract.css()),len(contract.CONTRACT['css'].encode()))
-        files=list((ROOT/'translation/tree').rglob('translation.md'));self.assertEqual(len(files),785)
+        files=list((ROOT/'translation/tree').rglob('translation.md'))
         from probe_pdf_budget_translation import pair
         from probe_personal_data_translation import project_current_language_polish_translations
-        current,_=project_current_language_polish_translations([pair(p.read_text()) for p in files])
+        current,polish=project_current_language_polish_translations([pair(p.read_text()) for p in files])
+        self.assertEqual(len(files),polish['current_units'])
         from reuse_preparation_integration import project_translations
         old,delta=project_translations(current)
         from probe_personal_data_translation import archived_pairs
