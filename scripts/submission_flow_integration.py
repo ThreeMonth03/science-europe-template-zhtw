@@ -108,7 +108,7 @@ def check(build,english,preview=False):
     assert manifest['package_timestamp']==package_timestamp(english)
     files=list((ROOT/'translation/tree').rglob('translation.md'));pairs=[pair(p.read_text()) for p in files]
     _,chain=verify_submission_translation_chain(pairs)
-    assert manifest['translation_units']==len(files)==775 and not manifest['untranslated_units']
+    assert manifest['translation_units']==len(files)==chain['current_language_polish']['current_units'] and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256']=={str(p.relative_to(ROOT/'translation')):sha(p) for p in files}
     def load(name,path):
         spec=importlib.util.spec_from_file_location(name,english/path)

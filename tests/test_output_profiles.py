@@ -29,6 +29,8 @@ class OutputProfileTests(unittest.TestCase):
     def test_exact_one_sentence_delta_and_no_lost_review_hints(self):
         values = [pair(f.read_text()) for f in (ROOT/'translation/tree').rglob('translation.md')]
         _, chain = verify_submission_translation_chain(values)
+        self.assertEqual(chain['current_language_polish']['current_units'], 785)
+        self.assertEqual(chain['current_language_polish']['baseline_units'], 775)
         self.assertEqual(chain['output_profiles']['retained_units'], 747)
         for mutant in [values[:-1], values + [('extra', '額外')], [(a, b+'。') for a, b in values]]:
             with self.assertRaises(AssertionError): verify_submission_translation_chain(mutant)

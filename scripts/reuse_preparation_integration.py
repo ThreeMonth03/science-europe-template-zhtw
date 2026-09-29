@@ -105,8 +105,10 @@ def check(build, english, preview=False):
     assert manifest['package_timestamp'] == package_timestamp(english)
     documents = list((ROOT / 'translation/tree').rglob('translation.md'))
     pairs = [pair(p.read_text()) for p in documents]
-    _, delta = project_translations(pairs)
-    assert len(documents) == manifest['translation_units'] == 775 and not manifest['untranslated_units']
+    from probe_personal_data_translation import project_current_language_polish_translations
+    prepared_pairs, polish_delta = project_current_language_polish_translations(pairs)
+    _, delta = project_translations(prepared_pairs)
+    assert len(documents) == manifest['translation_units'] == polish_delta['current_units'] and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256'] == {str(p.relative_to(ROOT / 'translation')): sha(p) for p in documents}
     packages, branches = {}, {}
     for language, folder in [('english', 'en'), ('chinese', 'translated')]:
@@ -122,7 +124,8 @@ def check(build, english, preview=False):
             {u['en']: u['old_zh'] for u in units()} if language == 'chinese' else None)
         branches[language] = len(rows); assert len(rows) == 8208
     return dict(passed=True, source_integrated=True, release_acceptance=False, native_integrated_render_checked=False,
-        version=version, comparison_version='0.3.49', historical_scope=version in ['0.3.50', '0.3.51'], baseline_version='0.3.48', translation_delta=delta,
+        version=version, comparison_version='0.3.49', historical_scope=version in ['0.3.50', '0.3.51'], baseline_version='0.3.48',
+        current_translation_delta=polish_delta, translation_delta=delta,
         packages=packages, branch_checks=branches, css_and_word_steps_unchanged=True)
 
 

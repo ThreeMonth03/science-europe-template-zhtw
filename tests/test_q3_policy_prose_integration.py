@@ -19,8 +19,13 @@ class Q3IntegrationTests(unittest.TestCase):
             self.assertEqual({n for n in record['before'] if record['before'][n]!=record['after'][n]},{contract.QUESTION})
             self.assertEqual(set(values),{contract.QUESTION,contract.HELPER})
         manifest=json.loads((contract.archive('baseline')/'build-manifest.json').read_text())
-        tree={str(p.relative_to(ROOT/'translation')):contract.sha(p) for p in (ROOT/'translation').rglob('translation.md')}
-        self.assertEqual(len(tree),775);self.assertEqual(tree,manifest['translation_tree_sha256'])
+        files=list((ROOT/'translation').rglob('translation.md'))
+        from probe_pdf_budget_translation import pair
+        from probe_personal_data_translation import project_current_language_polish_translations
+        previous,delta=project_current_language_polish_translations([pair(p.read_text()) for p in files])
+        self.assertEqual((len(files),len(previous)),(785,775))
+        self.assertEqual(len(manifest['translation_tree_sha256']),775)
+        self.assertEqual(delta['retained_units'],660)
 
     def test_package_metadata_projection_and_mutations(self):
         timestamp='2026-09-23T00:00:00Z'

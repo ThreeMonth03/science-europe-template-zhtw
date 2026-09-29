@@ -16,8 +16,9 @@ class SubmissionFlowIntegrationTests(unittest.TestCase):
     def test_exact_current_tree_and_all_historical_stages(self):
         current=[pair(p.read_text()) for p in (ROOT/'translation/tree').rglob('translation.md')]
         old,delta=project_submission_flow_translations(current)
-        self.assertEqual((len(old),len(current),len(delta['removed']),len(delta['added'])),(773,775,10,12))
+        self.assertEqual((len(old),len(current),len(delta['removed']),len(delta['added'])),(773,785,10,12))
         _,chain=verify_submission_translation_chain(current)
+        self.assertEqual(chain['current_language_polish']['retained_units'],660)
         self.assertEqual(chain['submission_flow']['retained_units'],763)
         self.assertEqual(chain['full_km_followups']['retained_units'],767)
         for bad in [current[:-1],current+current[:1],current[1:]+[(current[0][0],current[0][1]+'!')]]:

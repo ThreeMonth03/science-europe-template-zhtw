@@ -146,7 +146,8 @@ def check(build, english, preview=False):
         assert manifest['source']['commit'] == manifest['checkouts']['english']['commit'] == head
     files = list((ROOT / 'translation/tree').rglob('translation.md'))
     _, chain = verify_submission_translation_chain([pair(p.read_text()) for p in files])
-    assert manifest['translation_units'] == len(files) == (775 if version in ['0.3.47', '0.3.48', '0.3.49', '0.3.50', '0.3.51'] else 773) and not manifest['untranslated_units']
+    expected_units = chain['current_language_polish']['current_units'] if version == '0.3.51' else (775 if version in ['0.3.47', '0.3.48', '0.3.49', '0.3.50'] else 773)
+    assert manifest['translation_units'] == len(files) == expected_units and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256'] == {str(p.relative_to(ROOT / 'translation')): sha(p) for p in files}
     assert manifest['package_timestamp'] == package_timestamp(english)
     packages = {}; checks = {}

@@ -1,5 +1,8 @@
 # Science Europe 客製繁體中文模板
 
+目前未發布修正的共用測試與 CI 配對限制，見[日常檢查指南](docs/testing.md)。
+本頁既有版本紀錄保留當時狀態，不代表新的修正已發布。
+
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
 

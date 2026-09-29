@@ -23,7 +23,20 @@ def main():
     phrases = json.loads((Path(__file__).resolve().parents[1]/'docs/readability-phrases.json').read_text())
     count = phrase_checks = 0
     for folder, language in [('en','english'), ('translated','chinese')]:
-        env = Environment(loader=FileSystemLoader(a.build/folder), extensions=['jinja2.ext.do'])
+        # This is the frozen concise-Q13 oracle. Validate the complete repaired
+        # source first, then run the historical comparison on the exact Q3-era
+        # view instead of treating every later template repair as Q13 scope.
+        from submission_flow_integration import sources
+        from q3_policy_prose_integration import current_q3_sources
+        current_q3_sources(sources(a.build/folder), language)
+        archive = Path(__file__).resolve().parents[1]/'reviews/2026-09-16-identifier-concise'
+        inventory = json.loads((archive/'checksums.json').read_text())
+        suffix = 'en' if language == 'english' else 'zh-Hant'
+        frozen = archive/f'source/after-{suffix}.html.j2'
+        assert sha(frozen) == inventory[str(frozen.relative_to(archive))]
+        texts = {'src/questions/13-persistent-identifier.html.j2': frozen.read_text()}
+        env = Environment(loader=ChoiceLoader([DictLoader(texts), FileSystemLoader(a.build/folder)]),
+                          extensions=['jinja2.ext.do'])
         env.filters.update(reply_path=adapter.reply_path, reply_items=adapter.reply_items,
                            reply_str_value=adapter.reply_str_value, markdown=lambda v:v)
         template = env.from_string("{% import 'src/macros.html.j2' as macros with context %}{% import 'src/uuids.j2' as uuids with context %}{% include 'src/questions/13-persistent-identifier.html.j2' %}")
@@ -93,13 +106,15 @@ def main():
             assert not soup.select('.identifier-heading, .identifier-arrangement')
             check_followups(soup,replies,IDS,language,concise=True)
             count += 1
-    report = {'passed':True,'release_acceptance':False,'local_branch_language_checks':count,'fixed_phrase_checks':phrase_checks,
+    report = {'passed':True,'release_acceptance':False,
+              'scope':'Frozen Q13 prose after exact current-source validation; current behavior is checked by check_current.py',
+              'historical_language_checks':count,'fixed_phrase_checks':phrase_checks,
               'checker_sha256':sha(Path(__file__)), 'package_sha256':{n:sha(a.build/n) for n in ['english.zip','chinese.zip']},
               'source_helper_sha256':{n:sha(a.english/n) for n in ['tests/test_identifier_reading.py','tests/test_answer_states.py','tests/test_science_europe_contract.py']},
               'phrase_sha256':sha(Path(__file__).resolve().parents[1]/'docs/readability-phrases.json'),
               'helper_sha256':{'identifier_followup_contract.py':sha(Path(__file__).with_name('identifier_followup_contract.py'))},
               'fixture_source_sha256':sha(a.english/'scripts/generate_identifier_fixtures.py'),
-              'limits':['Offline adapters, not native layout acceptance','Unsupported UUIDs are tested offline; they are not valid new KM choices','Only Q13 identifier assignment/resolution follow-ups are newly covered']}
+              'limits':['Historical prose, not current-template behavior or native layout acceptance','Unsupported UUIDs are tested offline; they are not valid new KM choices','Only Q13 identifier assignment/resolution follow-ups are covered']}
     (a.build/'identifier-translation-probe.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report))
 

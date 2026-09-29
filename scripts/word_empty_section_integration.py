@@ -101,23 +101,33 @@ def check(build, english, preview=False):
         assert manifest['source']['commit'] == manifest['checkouts']['english']['commit'] == git(english, 'rev-parse', 'HEAD')
     assert manifest['package_timestamp'] == package_timestamp(english)
     old_manifest = json.loads((archive('baseline') / 'build-manifest.json').read_text())
-    tree = {str(p.relative_to(ROOT / 'translation')):sha(p) for p in (ROOT / 'translation/tree').rglob('translation.md')}
-    assert len(tree) == manifest['translation_units'] == 775 and not manifest['untranslated_units']
-    assert tree == manifest['translation_tree_sha256'] == old_manifest['translation_tree_sha256']
+    files = list((ROOT / 'translation/tree').rglob('translation.md'))
+    tree = {str(p.relative_to(ROOT / 'translation')):sha(p) for p in files}
+    from probe_pdf_budget_translation import pair
+    from probe_personal_data_translation import project_current_language_polish_translations
+    historical_pairs, translation_delta = project_current_language_polish_translations([pair(p.read_text()) for p in files])
+    assert len(tree) == manifest['translation_units'] == translation_delta['current_units'] and not manifest['untranslated_units']
+    assert tree == manifest['translation_tree_sha256']
+    assert len(historical_pairs) == translation_delta['baseline_units'] == len(old_manifest['translation_tree_sha256'])
     packages, engines = {}, {}
     for language, folder in [('english','en'), ('chinese','translated')]:
         path = build / (language + '.zip'); assert sha(path) == manifest['sha256'][path.name]
         packages[language] = check_package(path, build / folder, language, manifest['package_timestamp'])
-        before = project_sources(sources(build / folder), language)
+        current = sources(build / folder)
+        from q3_policy_prose_integration import project_sources as before_q3
+        after = before_q3(current, language) if version == '0.3.51' else current
+        before = project_sources(after, language)
         with tempfile.TemporaryDirectory(prefix='se-word-section-prior-') as temp:
-            baseline = Path(temp)
-            for name, value in before.items():
-                p = baseline / name; p.parent.mkdir(parents=True, exist_ok=True); p.write_bytes(value)
-            rows = load('engine').run(baseline, build / folder, build / ('word-empty-section-engine-' + language + '.json'))
+            baseline = Path(temp) / 'before'; candidate = Path(temp) / 'after'
+            for root, values in ((baseline, before), (candidate, after)):
+                for name, value in values.items():
+                    p = root / name; p.parent.mkdir(parents=True, exist_ok=True); p.write_bytes(value)
+            rows = load('engine').run(baseline, candidate, build / ('word-empty-section-engine-' + language + '.json'))
         engines[language] = len(rows['rows']); assert engines[language] == 121
     return dict(passed=True,source_integrated=True,version=version,comparison_version='0.3.50',
                 historical_scope=version=='0.3.51',baseline_version='0.3.49',
-                translation_units=775,translation_file_bytes_unchanged=True,changed_assets=sorted(CONTRACT['helpers']),
+                translation_units=len(tree),historical_translation_units=len(historical_pairs),
+                translation_delta=translation_delta,changed_assets=sorted(CONTRACT['helpers']),
                 packages=packages,engine_cases=engines,native_integrated_render_checked=False,release_acceptance=False)
 
 if __name__ == '__main__':

@@ -122,7 +122,10 @@ def main():
         assert sha(prose_frozen) == historic_before['src/questions/03-docs-metadata.html.j2']
         prose_count = prose_checks(root, prose_frozen, language)
         count = storage_checks(root, frozen, language, following_projection=metadata_projection)
-        context_frozen = fixtures/f'storage-context-0.3.33.{suffix}.html.j2'
+        context_archive = ROOT/'reviews/2026-09-17-storage-context-pagination'
+        context_frozen = context_archive/f'reproduce/storage-context-0.3.33.{suffix}.html.j2'
+        context_inventory = json.loads((context_archive/'checksums.json').read_text())
+        assert sha(context_frozen) == context_inventory[str(context_frozen.relative_to(context_archive))]
         context_proof = json.loads((ROOT/'reviews/2026-09-17-metadata-followups/probes/metadata-followup-scope.json').read_text())
         context_row = next(row for row in context_proof['rows'] if row['language'] == folder)
         assert sha(context_frozen) == context_row['after']['src/questions/05-store-backup.html.j2']

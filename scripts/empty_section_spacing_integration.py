@@ -65,12 +65,14 @@ def check(build,english,preview=False):
         assert manifest['source']['commit']==manifest['checkouts']['english']['commit']==git(english,'rev-parse','HEAD')
     assert manifest['package_timestamp']==package_timestamp(english)
     files=list((ROOT/'translation/tree').rglob('translation.md'))
-    assert len(files)==manifest['translation_units']==775 and not manifest['untranslated_units']
+    from probe_pdf_budget_translation import pair
+    from probe_personal_data_translation import project_current_language_polish_translations
+    historical_pairs,translation_delta=project_current_language_polish_translations([pair(p.read_text()) for p in files])
+    assert len(files)==manifest['translation_units']==translation_delta['current_units'] and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256']=={str(p.relative_to(ROOT/'translation')):sha(p) for p in files}
     if version in ['0.3.49', '0.3.50', '0.3.51']:
         from reuse_preparation_integration import project_translations
-        from probe_pdf_budget_translation import pair
-        project_translations([pair(p.read_text()) for p in files])
+        project_translations(historical_pairs)
     else:assert manifest['translation_tree_sha256']==receipt('baseline')['translation_tree_sha256']
     packages={};branches={}
     for language,folder in [('english','en'),('chinese','translated')]:
@@ -87,7 +89,8 @@ def check(build,english,preview=False):
         branches[language]=len(load('probe').check(english,before,after));assert branches[language]==396
     return dict(passed=True,source_integrated=True,release_acceptance=False,native_integrated_render_checked=False,
         baseline_version='0.3.47',version=version,comparison_version='0.3.48',historical_scope=version in ['0.3.49', '0.3.50', '0.3.51'],
-        translation_units=775,translation_files_unchanged=version=='0.3.48',
+        translation_units=len(files),historical_translation_units=len(historical_pairs),translation_delta=translation_delta,
+        translation_files_unchanged=False,
         css_sha256=hashlib.sha256(css()).hexdigest(),packages=packages,branch_checks=branches)
 
 if __name__=='__main__':

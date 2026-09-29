@@ -113,7 +113,8 @@ def check(build, english, preview=False):
     current = [pair(p.read_text()) for p in files]
     project_submission_reading_translations(current)
     _, chain = verify_submission_translation_chain(current)
-    assert manifest['translation_units'] == len(files) == {'0.3.45':767, '0.3.46':773, '0.3.47':775, '0.3.48':775, '0.3.49':775, '0.3.50':775, '0.3.51':775}[version] and not manifest['untranslated_units']
+    expected_units = chain['current_language_polish']['current_units'] if version == '0.3.51' else {'0.3.45':767, '0.3.46':773, '0.3.47':775, '0.3.48':775, '0.3.49':775, '0.3.50':775}[version]
+    assert manifest['translation_units'] == len(files) == expected_units and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256'] == {str(p.relative_to(ROOT / 'translation')): sha(p) for p in files}
     assert manifest['package_timestamp'] == package_timestamp(english)
     results = {}

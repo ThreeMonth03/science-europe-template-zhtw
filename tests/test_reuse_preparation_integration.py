@@ -17,13 +17,17 @@ from probe_pdf_budget_translation import pair
 class PreparationIntegrationTests(unittest.TestCase):
     def test_exact_translation_delta_and_mutations(self):
         current = [pair(p.read_text()) for p in (ROOT / 'translation/tree').rglob('translation.md')]
-        previous, delta = contract.project_translations(current)
+        from probe_personal_data_translation import project_current_language_polish_translations
+        prepared, polish = project_current_language_polish_translations(current)
+        previous, delta = contract.project_translations(prepared)
         self.assertEqual(len(previous), 775); self.assertEqual(delta['retained_units'], 766)
-        self.assertTrue(contract.has_new_translations(current)); self.assertFalse(contract.has_new_translations(previous))
+        self.assertEqual((len(current), len(prepared)), (785, 775))
+        self.assertEqual(polish['retained_units'], 660)
+        self.assertTrue(contract.has_new_translations(prepared)); self.assertFalse(contract.has_new_translations(previous))
         for unit in contract.units():
-            changed = list(current); changed.remove((unit['en'], unit['zh'])); changed.append((unit['en'], unit['zh'] + '!'))
+            changed = list(prepared); changed.remove((unit['en'], unit['zh'])); changed.append((unit['en'], unit['zh'] + '!'))
             with self.assertRaises(AssertionError): contract.project_translations(changed)
-        for changed in [current[:-1], current + current[:1], current[1:] + [(current[0][0], 'wrong')]]:
+        for changed in [prepared[:-1], prepared + prepared[:1], prepared[1:] + [(prepared[0][0], 'wrong')]]:
             with self.assertRaises(AssertionError): contract.project_translations(changed)
 
     def test_actual_fixture_and_full_metadata_before_old_projection(self):
