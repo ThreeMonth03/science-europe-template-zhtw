@@ -4012,7 +4012,7 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-2a3a4167e8/translation.md>)
 
-- [ ] [file] src/questions/10-share-restrictions.html.j2 (47/53)
+- [x] [file] src/questions/10-share-restrictions.html.j2 (53/53)
 
   [J2] `src/questions/10-share-restrictions.html.j2`
 
@@ -4024,19 +4024,19 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0001-10-how-and-when-will-data-be-shared-615a34b6ea/0001-10-how-and-when-will-data-be-shared-70c8f2c91c/translation.md>)
 
-    - [ ] [wrapper] 0002-other-identifier-2b980f773a (0/1)
+    - [x] [wrapper] 0002-other-identifier-2b980f773a (1/1)
 
       [W] `0002-other-identifier-2b980f773a`
 
-        - [ ] [unit] 0001-other-identifier-0e59a0ba2f: Other identifier
+        - [x] [unit] 0001-other-identifier-0e59a0ba2f: Other identifier
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0002-other-identifier-2b980f773a/0001-other-identifier-0e59a0ba2f/translation.md>)
 
-    - [ ] [wrapper] 0003-identifier-8d9fae53aa (0/1)
+    - [x] [wrapper] 0003-identifier-8d9fae53aa (1/1)
 
       [W] `0003-identifier-8d9fae53aa`
 
-        - [ ] [unit] 0001-identifier-c3eccf2858: Identifier
+        - [x] [unit] 0001-identifier-c3eccf2858: Identifier
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0003-identifier-8d9fae53aa/0001-identifier-c3eccf2858/translation.md>)
 
@@ -4280,19 +4280,19 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0033-restriction-details-6698157409/0001-restriction-details-999a531bc4/translation.md>)
 
-    - [ ] [wrapper] 0034-the-licence-or-conditions-of-use-have-not-4957c7d79f (0/1)
+    - [x] [wrapper] 0034-the-licence-or-conditions-of-use-have-not-4957c7d79f (1/1)
 
       [W] `0034-the-licence-or-conditions-of-use-have-not-4957c7d79f`
 
-        - [ ] [unit] 0001-the-licence-or-conditions-of-use-have-not-65a7025094: The licence or conditions of use have not been provided.
+        - [x] [unit] 0001-the-licence-or-conditions-of-use-have-not-65a7025094: The licence or conditions of use have not been provided.
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0034-the-licence-or-conditions-of-use-have-not-4957c7d79f/0001-the-licence-or-conditions-of-use-have-not-65a7025094/translation.md>)
 
-    - [ ] [wrapper] 0035-the-licence-or-conditions-of-use-have-not-4957c7d79f (0/1)
+    - [x] [wrapper] 0035-the-licence-or-conditions-of-use-have-not-4957c7d79f (1/1)
 
       [W] `0035-the-licence-or-conditions-of-use-have-not-4957c7d79f`
 
-        - [ ] [unit] 0001-the-licence-or-conditions-of-use-have-not-0fba1359d4: The licence or conditions of use have not been provided.
+        - [x] [unit] 0001-the-licence-or-conditions-of-use-have-not-0fba1359d4: The licence or conditions of use have not been provided.
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0035-the-licence-or-conditions-of-use-have-not-4957c7d79f/0001-the-licence-or-conditions-of-use-have-not-0fba1359d4/translation.md>)
 
@@ -4312,11 +4312,11 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0037-the-publication-locations-have-not-been-listed-df9cecaacf/0001-the-publication-locations-have-not-been-listed-af1be81110/translation.md>)
 
-    - [ ] [wrapper] 0038-it-has-not-yet-been-specified-whether-this-26da6f110a (0/1)
+    - [x] [wrapper] 0038-it-has-not-yet-been-specified-whether-this-26da6f110a (1/1)
 
       [W] `0038-it-has-not-yet-been-specified-whether-this-26da6f110a`
 
-        - [ ] [unit] 0001-it-has-not-yet-been-specified-whether-this-e55e7848a3: It has not yet been specified whether this dataset will be published.
+        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-this-e55e7848a3: It has not yet been specified whether this dataset will be published.
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0038-it-has-not-yet-been-specified-whether-this-26da6f110a/0001-it-has-not-yet-been-specified-whether-this-e55e7848a3/translation.md>)
 
@@ -4328,11 +4328,11 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0039-the-following-qualified-references-to-other-data-sets-ab059d21a0/0001-the-following-qualified-references-to-other-data-sets-250baacbf5/translation.md>)
 
-    - [ ] [wrapper] 0040-no-name-given-ddb0e9460b (0/1)
+    - [x] [wrapper] 0040-no-name-given-ddb0e9460b (1/1)
 
       [W] `0040-no-name-given-ddb0e9460b`
 
-        - [ ] [unit] 0001-no-name-given-dbe88cd400: (no name given)
+        - [x] [unit] 0001-no-name-given-dbe88cd400: (no name given)
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0040-no-name-given-ddb0e9460b/0001-no-name-given-dbe88cd400/translation.md>)
 
@@ -5168,13 +5168,13 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0017-information-not-provided-whether-repository-service-charges-will-0581b2b4e4/0001-information-not-provided-whether-repository-service-charges-will-0b411ce693/translation.md>)
 
-    - [x] [wrapper] 0018-data-management-budget-2d7e8e3861 (1/1)
+    - [x] [wrapper] 0018-data-management-budget-9b7929fa37 (1/1)
 
-      [W] `0018-data-management-budget-2d7e8e3861`
+      [W] `0018-data-management-budget-9b7929fa37`
 
         - [x] [unit] 0001-data-management-budget-f61ccd84d6: Data-management budget
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0018-data-management-budget-2d7e8e3861/0001-data-management-budget-f61ccd84d6/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0018-data-management-budget-9b7929fa37/0001-data-management-budget-f61ccd84d6/translation.md>)
 
     - [x] [wrapper] 0019-project-346040d892 (1/1)
 

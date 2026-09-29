@@ -35,22 +35,25 @@
     "src/questions/12-access-data.html.j2",
     "src/questions/13-persistent-identifier.html.j2",
     "src/questions/14-dm-responsible.html.j2",
+    "src/questions/15-required-resources.html.j2",
     "src/uuids.j2",
     "src/word/pilot.lua",
-    "src/word/reference.docx"
+    "src/word/question-spacing.xml",
+    "src/word/reference.docx",
+    "src/word/short-tables.xml"
   ],
   "languages": {
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "97a623fc6e82a3e8aad3ad9217612164b73632d11167af8b5edc45d6aedb4979",
-      "candidate_metadata_sha256": "ef659b7340e335540e2d318a61dc64a7fbc2ce603287fc7c353e3b9b96ebf7ca"
+      "candidate_tree_sha256": "561dcc457da8d9120ee4cbd215c7c1db14c7eb980de1b3dda6e13d6546bb60d3",
+      "candidate_metadata_sha256": "e6698af83a05d1eb99fcfab04cef6159907bd13038841ac6287d2eff5e36101a"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "efce4754b675f17b02a55df8bf5eebd067a0a17a7b2299e4d2f2e6f3d957454f",
-      "candidate_metadata_sha256": "d8e6b9e6bf83655338638bc36d0bc0bc545858eb69048a883d9318e98ddd5b3b"
+      "candidate_tree_sha256": "2307deeffd2df7f8f4edf734f9e7ec125366f1e738be0ed885f5454eff37ed7b",
+      "candidate_metadata_sha256": "88e9733fc738721e8f41827f07cd0409d05bc1e38171fe78e06c0d95b6680561"
     }
   }
 }
