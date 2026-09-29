@@ -9,9 +9,19 @@ on:
 permissions:
   contents: read
 
+# Do not spend another hour checking a superseded revision of the same branch.
+# Manual runs have their own group so they remain available as evidence.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'workflow_dispatch' && github.run_id || github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,6 +30,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+          cache: pip
+          cache-dependency-path: |
+            zh/requirements-dev.txt
+            zh/pipeline.yml
       - name: Install PDF inspection tools for frozen native regressions
         run: |
           sudo apt-get update
@@ -59,28 +73,38 @@ jobs:
         run: |
           python -m venv tooling/.venv
           tooling/.venv/bin/pip install -e './tooling[dev]' -r zh/requirements-dev.txt
-      - name: Build a locked candidate and check lifecycle gates
+      - name: Check Chinese unit and translation contracts
         working-directory: zh
         run: |
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
+      - name: Build exact locked bilingual packages
+        working-directory: zh
+        run: |
           SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
+          echo "SE_BUILD_DIR=$SE_BUILD_DIR" >> "$GITHUB_ENV"
+      - name: Check current bilingual answers on the prepared packages
+        working-directory: zh
+        run: |
           # Land together with the exact English source-lock update; never skip
           # this check when the locked source is missing the shared runner.
           ../tooling/.venv/bin/python ../english/scripts/check_current.py --build "$SE_BUILD_DIR" --output "$SE_BUILD_DIR/current-behavior.json"
+      - name: Check package integrity and historical integration contracts
+        working-directory: zh
+        run: |
           # Validate actual 0.3.51 packages before every historical projection.
           ../tooling/.venv/bin/python scripts/q3_policy_prose_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/word_empty_section_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/reuse_preparation_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/empty_section_spacing_integration.py --build "$SE_BUILD_DIR" --english ../english
-          ../tooling/.venv/bin/python ../english/scripts/probe_empty_section_spacing.py --output "$SE_BUILD_DIR/empty-section-engine.json"
           ../tooling/.venv/bin/python scripts/submission_flow_integration.py --build "$SE_BUILD_DIR" --english ../english
-          ../tooling/.venv/bin/python ../english/scripts/probe_submission_flow_word.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/submission-flow-engine-en.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_submission_flow_word.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/submission-flow-engine-zh.json"
           # Exact 0.3.46 and older proofs remain separate from current behavior.
           ../tooling/.venv/bin/python scripts/full_km_followups_integration.py --build "$SE_BUILD_DIR" --english ../english
           # Fail fast on the historic prepared-source hash gates; the complete
           # Q13 engine check still runs below. Never replace it with preflight.
           ../tooling/.venv/bin/python ../english/scripts/probe_identifier_spacing.py --source-dir "$SE_BUILD_DIR/translated" --preflight-only --output "$SE_BUILD_DIR/identifier-spacing-preflight.json"
+      - name: Check translated reading and historical scopes
+        working-directory: zh
+        run: |
           ../tooling/.venv/bin/python scripts/probe_format_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_sharing_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_preservation_translation.py --build "$SE_BUILD_DIR" --english ../english
@@ -92,9 +116,6 @@ jobs:
           ../tooling/.venv/bin/python scripts/probe_missing_info_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_personal_data_translation.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_missing_info_group.py --build "$SE_BUILD_DIR" --english ../english
-          ../tooling/.venv/bin/python ../english/scripts/probe_budget_word.py --output "$SE_BUILD_DIR/budget-word-probe.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_q8_word.py --output "$SE_BUILD_DIR/q8-word-probe.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_q9_word.py --output "$SE_BUILD_DIR/q9-word-probe.json"
           # Preserve the exact 0.3.45 and earlier oracles on verified historical views.
           ../tooling/.venv/bin/python scripts/submission_reading_integration.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_submission_reading.py --build "$SE_BUILD_DIR" --english ../english
@@ -102,66 +123,45 @@ jobs:
           ../tooling/.venv/bin/python scripts/probe_submission_preview.py --build "$SE_BUILD_DIR" --english ../english
           ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english --output-profiles --preservation-reading --short-resources --resource-prose --short-resource-rows --budget-grouping --submission-preview
           ../tooling/.venv/bin/python scripts/probe_resource_prose_translation.py --build "$SE_BUILD_DIR" --english ../english
-          ../tooling/.venv/bin/python ../english/scripts/probe_short_resource_rows.py --source-dir "$SE_BUILD_DIR/en" --engine --output "$SE_BUILD_DIR/short-resource-rows-engine-en.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_short_resource_rows.py --source-dir "$SE_BUILD_DIR/translated" --engine --output "$SE_BUILD_DIR/short-resource-rows-engine-zh.json"
-          # Independent processes retain fresh per-render font state; await both failures too.
-          ../tooling/.venv/bin/python ../english/scripts/probe_short_resources.py --source-dir "$SE_BUILD_DIR/en" --engine --output "$SE_BUILD_DIR/short-resources-engine-en.json" &
-          SE_Q15_EN_PID=$!
-          ../tooling/.venv/bin/python ../english/scripts/probe_short_resources.py --source-dir "$SE_BUILD_DIR/translated" --engine --output "$SE_BUILD_DIR/short-resources-engine-zh.json" &
-          SE_Q15_ZH_PID=$!
-          SE_Q15_STATUS=0
-          wait "$SE_Q15_EN_PID" || SE_Q15_STATUS=1
-          wait "$SE_Q15_ZH_PID" || SE_Q15_STATUS=1
-          test "$SE_Q15_STATUS" -eq 0
-          ../tooling/.venv/bin/python ../english/scripts/probe_preservation_reading.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/preservation-reading-engine-en.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_preservation_reading.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/preservation-reading-engine-zh.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/storage-context-engine-en.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_storage_context.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/storage-context-engine-zh.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_q5_word_join.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/q5-word-join-engine-en.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_q5_word_join.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/q5-word-join-engine-zh.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_metadata_gap_prose.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/metadata-gap-prose-engine-en.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_metadata_gap_prose.py --source-dir "$SE_BUILD_DIR/translated" --frozen tests/fixtures/metadata-0.3.36.zh-Hant.html.j2 --language chinese --output "$SE_BUILD_DIR/metadata-gap-prose-engine-zh.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_archive_gap_panels.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/archive-gap-engine-english.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_archive_gap_panels.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/archive-gap-engine-chinese.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_identifier_spacing.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/identifier-spacing-engine.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_word_short_budget.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/word-short-budget-english.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_word_short_budget.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/word-short-budget-chinese.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_short_budget.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/short-budget-english.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_short_budget.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/short-budget-chinese.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_empty_pdf.py --source-dir "$SE_BUILD_DIR/en" --output "$SE_BUILD_DIR/empty-pdf-probe-english.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_empty_pdf.py --source-dir "$SE_BUILD_DIR/translated" --output "$SE_BUILD_DIR/empty-pdf-probe-chinese.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_long_budget_word.py --output "$SE_BUILD_DIR/long-budget-word-probe.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_budget_pdf.py --output "$SE_BUILD_DIR/budget-pdf-probe.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_pdf_budget_reading.py --engine --output "$SE_BUILD_DIR/pdf-budget-reading-probe-english.json"
-          ../tooling/.venv/bin/python ../english/scripts/probe_pdf_budget_reading.py --source-dir "$SE_BUILD_DIR/translated" --prior-question tests/fixtures/budget-0.3.18.zh-Hant.html.j2 --output "$SE_BUILD_DIR/pdf-budget-reading-probe-chinese.json"
-      - uses: actions/upload-artifact@v4
+      - name: Check all existing PDF and DOCX regressions (two language lanes)
+        working-directory: zh
+        timeout-minutes: 90
+        run: |
+          mkdir -p outputs/ci
+          bash scripts/check_native_regressions.sh english "$SE_BUILD_DIR" > outputs/ci/native-english.log 2>&1 &
+          SE_EN_PID=$!
+          bash scripts/check_native_regressions.sh chinese "$SE_BUILD_DIR" > outputs/ci/native-chinese.log 2>&1 &
+          SE_ZH_PID=$!
+          SE_NATIVE_STATUS=0
+          wait "$SE_EN_PID" || SE_NATIVE_STATUS=1
+          wait "$SE_ZH_PID" || SE_NATIVE_STATUS=1
+          if [ "$SE_NATIVE_STATUS" -ne 0 ]; then
+            tail -n 60 outputs/ci/native-english.log outputs/ci/native-chinese.log
+          fi
+          exit "$SE_NATIVE_STATUS"
+      - name: Preserve candidate and diagnostics even after failure
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: experimental-candidate-not-a-release
+          retention-days: 14
           path: |
+            zh/outputs/ci/
             zh/outputs/build-*/*.zip
-            zh/outputs/build-*/manifest.json
-            zh/outputs/build-*/current-behavior.json
-            zh/outputs/build-*/*audit.json
-            zh/outputs/build-*/storage-context-*.json
-            zh/outputs/build-*/q5-word-join-*.json
-            zh/outputs/build-*/metadata-gap-prose-*.json
-            zh/outputs/build-*/output-profiles-scope.json
-            zh/outputs/build-*/preservation-reading-*.json
-            zh/outputs/build-*/short-resources-*.json
-            zh/outputs/build-*/resource-prose-*.json
-            zh/outputs/build-*/short-resource-rows-*.json
-            zh/outputs/build-*/budget-grouping-*.json
-            zh/outputs/build-*/submission-reading-*.json
-            zh/outputs/build-*/full-km-followups-*.json
-            zh/outputs/build-*/submission-flow-*.json
-            zh/outputs/build-*/empty-section-*.json
-            zh/outputs/build-*/reuse-preparation-*.json
-            zh/outputs/build-*/word-empty-section-*.json
-            zh/outputs/build-*/q3-policy-prose-*.json
-            zh/outputs/build-*/submission-preview-*.json
-            zh/outputs/build-*/identifier-spacing-engine.json
-            zh/outputs/build-*/identifier-spacing-preflight.json
+            zh/outputs/build-*/*.json
       - name: State acceptance boundary
+        if: always()
+        working-directory: zh
         run: |
+          for SE_TIMINGS in outputs/ci/native-english.tsv outputs/ci/native-chinese.tsv; do
+            if [ -f "$SE_TIMINGS" ]; then
+              echo "### $SE_TIMINGS" >> "$GITHUB_STEP_SUMMARY"
+              echo '' >> "$GITHUB_STEP_SUMMARY"
+              echo '| Probe | Seconds | Exit code |' >> "$GITHUB_STEP_SUMMARY"
+              echo '| --- | ---: | ---: |' >> "$GITHUB_STEP_SUMMARY"
+              awk -F '\t' 'NR > 1 {printf "| %s | %s | %s |\n", $1, $2, $3}' "$SE_TIMINGS" >> "$GITHUB_STEP_SUMMARY"
+              echo '' >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done
           echo 'Build checks do not establish full DMP, PDF or Microsoft Word acceptance. See docs/pilot-results.md.' >> "$GITHUB_STEP_SUMMARY"
           echo 'Historic 0.3.34 Q5 failure is retained. The bounded 0.3.35 native fix and its remaining acceptance limits are documented in docs/q5-word-join.md.' >> "$GITHUB_STEP_SUMMARY"
