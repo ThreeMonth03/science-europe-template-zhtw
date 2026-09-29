@@ -140,6 +140,7 @@ jobs:
           path: |
             zh/outputs/build-*/*.zip
             zh/outputs/build-*/manifest.json
+            zh/outputs/build-*/current-behavior.json
             zh/outputs/build-*/*audit.json
             zh/outputs/build-*/storage-context-*.json
             zh/outputs/build-*/q5-word-join-*.json
