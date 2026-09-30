@@ -7,24 +7,24 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-We have a reserved budget for the time and effort it will take to prepare the data for publication.
+The project budget includes the repository service fees.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-已預留預算，以支應資料發布準備工作所需的時間與人力。
+本計畫已編列資料儲存庫服務費預算。
 ~~~
 
 <details>
 <summary>Machine metadata</summary>
 
 - Source File: `src/questions/11-data-preservation.html.j2`
-- Wrapper Name: `__tr_block_0021`
-- Wrapper Order: `22`
-- Wrapper Key: `we-have-a-reserved-budget-for-the-time-806727c013`
-- Unit Key: `we-have-a-reserved-budget-for-the-time-d1577f69b0`
-- Source Hash: `3f4ae8f30a7f2619d4363db016e3332cb7087a7d`
+- Wrapper Name: `__tr_block_0017`
+- Wrapper Order: `18`
+- Wrapper Key: `the-project-budget-includes-the-repository-service-fees-f7e0a84eed`
+- Unit Key: `the-project-budget-includes-the-repository-service-fees-64e577c63a`
+- Source Hash: `25c08b79909945fb8a30ea98bb268263a3516a13`
 
 Do not edit this section manually.
 

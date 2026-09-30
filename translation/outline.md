@@ -2148,7 +2148,7 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0054-information-still-needed-efe9afd7cc/0001-information-still-needed-3a9b99f63b/translation.md>)
 
-- [x] [file] src/questions/03-docs-metadata.html.j2 (52/52)
+- [ ] [file] src/questions/03-docs-metadata.html.j2 (49/52)
 
   [J2] `src/questions/03-docs-metadata.html.j2`
 
@@ -2184,29 +2184,29 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0004-ddi-data-documentation-initiative-f2154856cf/0001-ddi-data-documentation-initiative-552062d5cc/translation.md>)
 
-    - [x] [wrapper] 0005-we-will-be-documenting-the-data-with-metadata-de9c7537f1 (1/1)
+    - [ ] [wrapper] 0005-we-will-document-the-data-using-the-metadata-b1f536edb7 (0/1)
 
-      [W] `0005-we-will-be-documenting-the-data-with-metadata-de9c7537f1`
+      [W] `0005-we-will-document-the-data-using-the-metadata-b1f536edb7`
 
-        - [x] [unit] 0001-we-will-be-documenting-the-data-with-metadata-7f7512f200: We will be documenting the data with {metadataStandards_0} metadata standard.
+        - [ ] [unit] 0001-we-will-document-the-data-using-the-metadata-2cc67d8e6b: We will document the data using the {metadataStandards_0} metadata standard.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0005-we-will-be-documenting-the-data-with-metadata-de9c7537f1/0001-we-will-be-documenting-the-data-with-metadata-7f7512f200/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0005-we-will-document-the-data-using-the-metadata-b1f536edb7/0001-we-will-document-the-data-using-the-metadata-2cc67d8e6b/translation.md>)
 
-    - [x] [wrapper] 0006-we-will-be-documenting-the-data-with-and-ee22d12d70 (1/1)
+    - [ ] [wrapper] 0006-we-will-document-the-data-using-the-and-16398edee1 (0/1)
 
-      [W] `0006-we-will-be-documenting-the-data-with-and-ee22d12d70`
+      [W] `0006-we-will-document-the-data-using-the-and-16398edee1`
 
-        - [x] [unit] 0001-we-will-be-documenting-the-data-with-and-f63053b1ac: We will be documenting the data with {metadataStandards_0} and {metadataStandards_1} metadata standards.
+        - [ ] [unit] 0001-we-will-document-the-data-using-the-and-7f41b60bfc: We will document the data using the {metadataStandards_0} and {metadataStandards_1} metadata standards.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0006-we-will-be-documenting-the-data-with-and-ee22d12d70/0001-we-will-be-documenting-the-data-with-and-f63053b1ac/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0006-we-will-document-the-data-using-the-and-16398edee1/0001-we-will-document-the-data-using-the-and-7f41b60bfc/translation.md>)
 
-    - [x] [wrapper] 0007-we-will-be-documenting-the-data-with-and-1526d9cdc4 (1/1)
+    - [ ] [wrapper] 0007-we-will-document-the-data-using-the-and-686fdf0909 (0/1)
 
-      [W] `0007-we-will-be-documenting-the-data-with-and-1526d9cdc4`
+      [W] `0007-we-will-document-the-data-using-the-and-686fdf0909`
 
-        - [x] [unit] 0001-we-will-be-documenting-the-data-with-and-846087ef0f: We will be documenting the data with {metadataStandards_0}, {metadataStandards_1}, and {metadataStandards_2} metadata standards.
+        - [ ] [unit] 0001-we-will-document-the-data-using-the-and-d30b2bb03e: We will document the data using the {metadataStandards_0}, {metadataStandards_1}, and {metadataStandards_2} metadata standards.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0007-we-will-be-documenting-the-data-with-and-1526d9cdc4/0001-we-will-be-documenting-the-data-with-and-846087ef0f/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0007-we-will-document-the-data-using-the-and-686fdf0909/0001-we-will-document-the-data-using-the-and-d30b2bb03e/translation.md>)
 
     - [x] [wrapper] 0008-we-will-include-keywords-and-relevant-ontology-references-f9c803c772 (1/1)
 
@@ -4416,7 +4416,7 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0047-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-85f4013889/translation.md>)
 
-- [x] [file] src/questions/11-data-preservation.html.j2 (36/36)
+- [ ] [file] src/questions/11-data-preservation.html.j2 (31/36)
 
   [J2] `src/questions/11-data-preservation.html.j2`
 
@@ -4592,37 +4592,37 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0016-no-name-given-b380d61313/0001-no-name-given-1d45966ce8/translation.md>)
 
-    - [x] [wrapper] 0017-none-of-the-used-repositories-charge-for-their-f756b6b7be (1/1)
+    - [ ] [wrapper] 0017-the-repositories-we-use-do-not-charge-for-e2b05f666b (0/1)
 
-      [W] `0017-none-of-the-used-repositories-charge-for-their-f756b6b7be`
+      [W] `0017-the-repositories-we-use-do-not-charge-for-e2b05f666b`
 
-        - [x] [unit] 0001-none-of-the-used-repositories-charge-for-their-85ac710712: None of the used repositories charge for their services.
+        - [ ] [unit] 0001-the-repositories-we-use-do-not-charge-for-7ba9cb3251: The repositories we use do not charge for their services.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-none-of-the-used-repositories-charge-for-their-f756b6b7be/0001-none-of-the-used-repositories-charge-for-their-85ac710712/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-the-repositories-we-use-do-not-charge-for-e2b05f666b/0001-the-repositories-we-use-do-not-charge-for-7ba9cb3251/translation.md>)
 
-    - [x] [wrapper] 0018-we-have-budgeted-for-the-costs-in-the-2a8aa6d082 (1/1)
+    - [ ] [wrapper] 0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed (0/1)
 
-      [W] `0018-we-have-budgeted-for-the-costs-in-the-2a8aa6d082`
+      [W] `0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed`
 
-        - [x] [unit] 0001-we-have-budgeted-for-the-costs-in-the-c0d9a63b21: We have budgeted for the costs in the project to pay charges of the used repositories.
+        - [ ] [unit] 0001-the-project-budget-includes-the-repository-service-fees-64e577c63a: The project budget includes the repository service fees.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0018-we-have-budgeted-for-the-costs-in-the-2a8aa6d082/0001-we-have-budgeted-for-the-costs-in-the-c0d9a63b21/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed/0001-the-project-budget-includes-the-repository-service-fees-64e577c63a/translation.md>)
 
-    - [x] [wrapper] 0019-the-costs-related-to-the-used-repositories-will-8600c2d6b1 (1/1)
+    - [ ] [wrapper] 0019-a-participating-department-will-cover-the-repository-service-4a560a902f (0/1)
 
-      [W] `0019-the-costs-related-to-the-used-repositories-will-8600c2d6b1`
+      [W] `0019-a-participating-department-will-cover-the-repository-service-4a560a902f`
 
-        - [x] [unit] 0001-the-costs-related-to-the-used-repositories-will-37985f0897: The costs related to the used repositories will be carried by (one of) the departments involved in the project.
+        - [ ] [unit] 0001-a-participating-department-will-cover-the-repository-service-85d53c5438: A participating department will cover the repository service fees.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0019-the-costs-related-to-the-used-repositories-will-8600c2d6b1/0001-the-costs-related-to-the-used-repositories-will-37985f0897/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0019-a-participating-department-will-cover-the-repository-service-4a560a902f/0001-a-participating-department-will-cover-the-repository-service-85d53c5438/translation.md>)
 
-    - [x] [wrapper] 0020-the-costs-related-to-the-used-repositories-will-0170341739 (1/1)
+    - [ ] [wrapper] 0020-a-participating-institute-will-cover-the-repository-service-49522e7234 (0/1)
 
-      [W] `0020-the-costs-related-to-the-used-repositories-will-0170341739`
+      [W] `0020-a-participating-institute-will-cover-the-repository-service-49522e7234`
 
-        - [x] [unit] 0001-the-costs-related-to-the-used-repositories-will-0628c23e19: The costs related to the used repositories will be carried by (one of) the institutes involved in the project.
+        - [ ] [unit] 0001-a-participating-institute-will-cover-the-repository-service-459b840ed0: A participating institute will cover the repository service fees.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0020-the-costs-related-to-the-used-repositories-will-0170341739/0001-the-costs-related-to-the-used-repositories-will-0628c23e19/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0020-a-participating-institute-will-cover-the-repository-service-49522e7234/0001-a-participating-institute-will-cover-the-repository-service-459b840ed0/translation.md>)
 
     - [x] [wrapper] 0021-other-arrangements-for-paying-repository-costs-03de836cea (1/1)
 
@@ -4632,13 +4632,13 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0021-other-arrangements-for-paying-repository-costs-03de836cea/0001-other-arrangements-for-paying-repository-costs-cbe3783822/translation.md>)
 
-    - [x] [wrapper] 0022-we-have-a-reserved-budget-for-the-time-806727c013 (1/1)
+    - [ ] [wrapper] 0022-we-have-allocated-funds-for-the-time-and-1693ed3606 (0/1)
 
-      [W] `0022-we-have-a-reserved-budget-for-the-time-806727c013`
+      [W] `0022-we-have-allocated-funds-for-the-time-and-1693ed3606`
 
-        - [x] [unit] 0001-we-have-a-reserved-budget-for-the-time-d1577f69b0: We have a reserved budget for the time and effort it will take to prepare the data for publication.
+        - [ ] [unit] 0001-we-have-allocated-funds-for-the-time-and-faa2058f43: We have allocated funds for the time and effort needed to prepare the data for publication.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0022-we-have-a-reserved-budget-for-the-time-806727c013/0001-we-have-a-reserved-budget-for-the-time-d1577f69b0/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0022-we-have-allocated-funds-for-the-time-and-1693ed3606/0001-we-have-allocated-funds-for-the-time-and-faa2058f43/translation.md>)
 
     - [x] [wrapper] 0023-repository-costs-and-publication-preparation-becdeb534d (1/1)
 

@@ -24,6 +24,7 @@
     "src/projects.html.j2",
     "src/questions/01-how-data.html.j2",
     "src/questions/02-what-data.html.j2",
+    "src/questions/03-docs-metadata.html.j2",
     "src/questions/04-quality-control.html.j2",
     "src/questions/05-store-backup.html.j2",
     "src/questions/06-access-security.html.j2",
@@ -46,14 +47,14 @@
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "561dcc457da8d9120ee4cbd215c7c1db14c7eb980de1b3dda6e13d6546bb60d3",
-      "candidate_metadata_sha256": "e6698af83a05d1eb99fcfab04cef6159907bd13038841ac6287d2eff5e36101a"
+      "candidate_tree_sha256": "36e3861b8c2a3d63f47a9af892e8bc5db1c785d047ec24ab1ea48ddf2bd40d0c",
+      "candidate_metadata_sha256": "cffde1af38af1fda48470e8d57ef1acc963ebc0ab29161966ed3ef8cdf85db5a"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "2307deeffd2df7f8f4edf734f9e7ec125366f1e738be0ed885f5454eff37ed7b",
-      "candidate_metadata_sha256": "88e9733fc738721e8f41827f07cd0409d05bc1e38171fe78e06c0d95b6680561"
+      "candidate_tree_sha256": "8c4ffaba68eb4c83c7c81ae2f734c8ecb04c76a720370fc6f5258ed68b60cd65",
+      "candidate_metadata_sha256": "13e12b285641701285cd56cbe919ef3ad6b839eaff29d45a919a91d5d4374114"
     }
   }
 }

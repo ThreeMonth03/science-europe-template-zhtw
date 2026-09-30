@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-The costs related to the used repositories will be carried by (one of) the institutes involved in the project.
+A participating institute will cover the repository service fees.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-所使用資料儲存庫的相關費用將由參與專案的某個機構負擔。
+資料儲存庫的服務費將由參與本計畫的某個機構負擔。
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ The costs related to the used repositories will be carried by (one of) the insti
 - Source File: `src/questions/11-data-preservation.html.j2`
 - Wrapper Name: `__tr_block_0019`
 - Wrapper Order: `20`
-- Wrapper Key: `the-costs-related-to-the-used-repositories-will-0170341739`
-- Unit Key: `the-costs-related-to-the-used-repositories-will-0628c23e19`
-- Source Hash: `37a37277d27a3e8933b7c616f41b5ec621aa8237`
+- Wrapper Key: `a-participating-institute-will-cover-the-repository-service-49522e7234`
+- Unit Key: `a-participating-institute-will-cover-the-repository-service-459b840ed0`
+- Source Hash: `9f87c92199fcd1287f05a2e45761295bd215af0b`
 
 Do not edit this section manually.
 

@@ -2,9 +2,9 @@
   "purpose": "Seal the complete reviewed language-polish translation multiset before projecting it into the historical 775-unit translation contract.",
   "baseline_units": 775,
   "current_units": 783,
-  "retained_units": 656,
-  "removed_units": 119,
-  "added_units": 127,
+  "retained_units": 648,
+  "removed_units": 127,
+  "added_units": 135,
   "baseline_pair_multiset_sha256": "dbf0b474b0319d70482caf97d4875753339c076c1539731dcdbf6b11467812c8",
-  "current_pair_multiset_sha256": "a601ce4b0f6be00e3fe3a44549311295b9b89ce2f09f54b86eed29ebe97c5690"
+  "current_pair_multiset_sha256": "bad805f6df5dded3b1ea8bcc9b36617544c7aa48fb2fefa12c7885f8d2c552e6"
 }

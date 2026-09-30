@@ -7,24 +7,24 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-We have budgeted for the costs in the project to pay charges of the used repositories.
+The repositories we use do not charge for their services.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-本計畫已編列預算，支付資料儲存庫的服務費。
+所使用的資料儲存庫皆不收取服務費。
 ~~~
 
 <details>
 <summary>Machine metadata</summary>
 
 - Source File: `src/questions/11-data-preservation.html.j2`
-- Wrapper Name: `__tr_block_0017`
-- Wrapper Order: `18`
-- Wrapper Key: `we-have-budgeted-for-the-costs-in-the-2a8aa6d082`
-- Unit Key: `we-have-budgeted-for-the-costs-in-the-c0d9a63b21`
-- Source Hash: `b210ccd4109098f97d037019fef39a751ef5b784`
+- Wrapper Name: `__tr_block_0016`
+- Wrapper Order: `17`
+- Wrapper Key: `the-repositories-we-use-do-not-charge-for-e2b05f666b`
+- Unit Key: `the-repositories-we-use-do-not-charge-for-7ba9cb3251`
+- Source Hash: `ee32ed373224d5f662a0d87e3664fa1cf0b48938`
 
 Do not edit this section manually.
 

@@ -7,24 +7,24 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-None of the used repositories charge for their services.
+We have allocated funds for the time and effort needed to prepare the data for publication.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-所使用的資料儲存庫皆不收取服務費。
+已預留預算，以支應資料發布準備工作所需的時間與人力。
 ~~~
 
 <details>
 <summary>Machine metadata</summary>
 
 - Source File: `src/questions/11-data-preservation.html.j2`
-- Wrapper Name: `__tr_block_0016`
-- Wrapper Order: `17`
-- Wrapper Key: `none-of-the-used-repositories-charge-for-their-f756b6b7be`
-- Unit Key: `none-of-the-used-repositories-charge-for-their-85ac710712`
-- Source Hash: `042ecea63bc48753e545e53747d317a5537b5ad8`
+- Wrapper Name: `__tr_block_0021`
+- Wrapper Order: `22`
+- Wrapper Key: `we-have-allocated-funds-for-the-time-and-1693ed3606`
+- Unit Key: `we-have-allocated-funds-for-the-time-and-faa2058f43`
+- Source Hash: `49337ce6579191f2a3acc183328fe90b2c4e5535`
 
 Do not edit this section manually.
 

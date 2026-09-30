@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-We will be documenting the data with {metadataStandards_0} metadata standard.
+We will document the data using the {metadataStandards_0} metadata standard.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-我們將使用 {metadataStandards_0} 後設資料標準記錄資料。
+本計畫將以 {metadataStandards_0} 後設資料標準描述資料。
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ We will be documenting the data with {metadataStandards_0} metadata standard.
 - Source File: `src/questions/03-docs-metadata.html.j2`
 - Wrapper Name: `__tr_block_0004`
 - Wrapper Order: `5`
-- Wrapper Key: `we-will-be-documenting-the-data-with-metadata-de9c7537f1`
-- Unit Key: `we-will-be-documenting-the-data-with-metadata-7f7512f200`
-- Source Hash: `c995eb53f7b9452db5e2c87b4794aec48cc0d88f`
+- Wrapper Key: `we-will-document-the-data-using-the-metadata-b1f536edb7`
+- Unit Key: `we-will-document-the-data-using-the-metadata-2cc67d8e6b`
+- Source Hash: `5d338ae2386ef3a1e3aece483b8700bc4c873e35`
 
 Do not edit this section manually.
 
