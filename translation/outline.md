@@ -2148,7 +2148,7 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0054-information-still-needed-efe9afd7cc/0001-information-still-needed-3a9b99f63b/translation.md>)
 
-- [ ] [file] src/questions/03-docs-metadata.html.j2 (49/52)
+- [x] [file] src/questions/03-docs-metadata.html.j2 (52/52)
 
   [J2] `src/questions/03-docs-metadata.html.j2`
 
@@ -2184,27 +2184,27 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0004-ddi-data-documentation-initiative-f2154856cf/0001-ddi-data-documentation-initiative-552062d5cc/translation.md>)
 
-    - [ ] [wrapper] 0005-we-will-document-the-data-using-the-metadata-b1f536edb7 (0/1)
+    - [x] [wrapper] 0005-we-will-document-the-data-using-the-metadata-b1f536edb7 (1/1)
 
       [W] `0005-we-will-document-the-data-using-the-metadata-b1f536edb7`
 
-        - [ ] [unit] 0001-we-will-document-the-data-using-the-metadata-2cc67d8e6b: We will document the data using the {metadataStandards_0} metadata standard.
+        - [x] [unit] 0001-we-will-document-the-data-using-the-metadata-2cc67d8e6b: We will document the data using the {metadataStandards_0} metadata standard.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0005-we-will-document-the-data-using-the-metadata-b1f536edb7/0001-we-will-document-the-data-using-the-metadata-2cc67d8e6b/translation.md>)
 
-    - [ ] [wrapper] 0006-we-will-document-the-data-using-the-and-16398edee1 (0/1)
+    - [x] [wrapper] 0006-we-will-document-the-data-using-the-and-16398edee1 (1/1)
 
       [W] `0006-we-will-document-the-data-using-the-and-16398edee1`
 
-        - [ ] [unit] 0001-we-will-document-the-data-using-the-and-7f41b60bfc: We will document the data using the {metadataStandards_0} and {metadataStandards_1} metadata standards.
+        - [x] [unit] 0001-we-will-document-the-data-using-the-and-7f41b60bfc: We will document the data using the {metadataStandards_0} and {metadataStandards_1} metadata standards.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0006-we-will-document-the-data-using-the-and-16398edee1/0001-we-will-document-the-data-using-the-and-7f41b60bfc/translation.md>)
 
-    - [ ] [wrapper] 0007-we-will-document-the-data-using-the-and-686fdf0909 (0/1)
+    - [x] [wrapper] 0007-we-will-document-the-data-using-the-and-686fdf0909 (1/1)
 
       [W] `0007-we-will-document-the-data-using-the-and-686fdf0909`
 
-        - [ ] [unit] 0001-we-will-document-the-data-using-the-and-d30b2bb03e: We will document the data using the {metadataStandards_0}, {metadataStandards_1}, and {metadataStandards_2} metadata standards.
+        - [x] [unit] 0001-we-will-document-the-data-using-the-and-d30b2bb03e: We will document the data using the {metadataStandards_0}, {metadataStandards_1}, and {metadataStandards_2} metadata standards.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0007-we-will-document-the-data-using-the-and-686fdf0909/0001-we-will-document-the-data-using-the-and-d30b2bb03e/translation.md>)
 
@@ -4416,7 +4416,7 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0047-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-85f4013889/translation.md>)
 
-- [ ] [file] src/questions/11-data-preservation.html.j2 (31/36)
+- [x] [file] src/questions/11-data-preservation.html.j2 (36/36)
 
   [J2] `src/questions/11-data-preservation.html.j2`
 
@@ -4592,35 +4592,35 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0016-no-name-given-b380d61313/0001-no-name-given-1d45966ce8/translation.md>)
 
-    - [ ] [wrapper] 0017-the-repositories-we-use-do-not-charge-for-e2b05f666b (0/1)
+    - [x] [wrapper] 0017-the-repositories-we-use-do-not-charge-for-e2b05f666b (1/1)
 
       [W] `0017-the-repositories-we-use-do-not-charge-for-e2b05f666b`
 
-        - [ ] [unit] 0001-the-repositories-we-use-do-not-charge-for-7ba9cb3251: The repositories we use do not charge for their services.
+        - [x] [unit] 0001-the-repositories-we-use-do-not-charge-for-7ba9cb3251: The repositories we use do not charge for their services.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-the-repositories-we-use-do-not-charge-for-e2b05f666b/0001-the-repositories-we-use-do-not-charge-for-7ba9cb3251/translation.md>)
 
-    - [ ] [wrapper] 0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed (0/1)
+    - [x] [wrapper] 0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed (1/1)
 
       [W] `0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed`
 
-        - [ ] [unit] 0001-the-project-budget-includes-the-repository-service-fees-64e577c63a: The project budget includes the repository service fees.
+        - [x] [unit] 0001-the-project-budget-includes-the-repository-service-fees-64e577c63a: The project budget includes the repository service fees.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed/0001-the-project-budget-includes-the-repository-service-fees-64e577c63a/translation.md>)
 
-    - [ ] [wrapper] 0019-a-participating-department-will-cover-the-repository-service-4a560a902f (0/1)
+    - [x] [wrapper] 0019-a-participating-department-will-cover-the-repository-service-4a560a902f (1/1)
 
       [W] `0019-a-participating-department-will-cover-the-repository-service-4a560a902f`
 
-        - [ ] [unit] 0001-a-participating-department-will-cover-the-repository-service-85d53c5438: A participating department will cover the repository service fees.
+        - [x] [unit] 0001-a-participating-department-will-cover-the-repository-service-85d53c5438: A participating department will cover the repository service fees.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0019-a-participating-department-will-cover-the-repository-service-4a560a902f/0001-a-participating-department-will-cover-the-repository-service-85d53c5438/translation.md>)
 
-    - [ ] [wrapper] 0020-a-participating-institute-will-cover-the-repository-service-49522e7234 (0/1)
+    - [x] [wrapper] 0020-a-participating-institute-will-cover-the-repository-service-49522e7234 (1/1)
 
       [W] `0020-a-participating-institute-will-cover-the-repository-service-49522e7234`
 
-        - [ ] [unit] 0001-a-participating-institute-will-cover-the-repository-service-459b840ed0: A participating institute will cover the repository service fees.
+        - [x] [unit] 0001-a-participating-institute-will-cover-the-repository-service-459b840ed0: A participating institute will cover the repository service fees.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0020-a-participating-institute-will-cover-the-repository-service-49522e7234/0001-a-participating-institute-will-cover-the-repository-service-459b840ed0/translation.md>)
 
@@ -4632,11 +4632,11 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0021-other-arrangements-for-paying-repository-costs-03de836cea/0001-other-arrangements-for-paying-repository-costs-cbe3783822/translation.md>)
 
-    - [ ] [wrapper] 0022-we-have-allocated-funds-for-the-time-and-1693ed3606 (0/1)
+    - [x] [wrapper] 0022-we-have-allocated-funds-for-the-time-and-1693ed3606 (1/1)
 
       [W] `0022-we-have-allocated-funds-for-the-time-and-1693ed3606`
 
-        - [ ] [unit] 0001-we-have-allocated-funds-for-the-time-and-faa2058f43: We have allocated funds for the time and effort needed to prepare the data for publication.
+        - [x] [unit] 0001-we-have-allocated-funds-for-the-time-and-faa2058f43: We have allocated funds for the time and effort needed to prepare the data for publication.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0022-we-have-allocated-funds-for-the-time-and-1693ed3606/0001-we-have-allocated-funds-for-the-time-and-faa2058f43/translation.md>)
 
@@ -4716,13 +4716,13 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0006-specific-software-is-required-to-use-this-dataset-aadb8b2c5f/0001-specific-software-is-required-to-use-this-dataset-180c1dc065/translation.md>)
 
-    - [x] [wrapper] 0007-no-name-given-6fcfeb17d5 (1/1)
+    - [x] [wrapper] 0007-no-name-given-550b695e1e (1/1)
 
-      [W] `0007-no-name-given-6fcfeb17d5`
+      [W] `0007-no-name-given-550b695e1e`
 
         - [x] [unit] 0001-no-name-given-c02a7a98e6: (no name given)
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0007-no-name-given-6fcfeb17d5/0001-no-name-given-c02a7a98e6/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0007-no-name-given-550b695e1e/0001-no-name-given-c02a7a98e6/translation.md>)
 
     - [x] [wrapper] 0008-available-at-0a88cd0c71 (1/1)
 
