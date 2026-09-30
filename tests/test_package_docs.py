@@ -66,7 +66,7 @@ class PackageDocumentationTests(unittest.TestCase):
     def test_ci_downloads_full_english_history(self):
         root = Path(__file__).resolve().parents[1]
         workflow = yaml.safe_load((root/'.github/workflows/pilot-checks.yml').read_text())
-        checkouts = [step['with'] for step in workflow['jobs']['build']['steps']
+        checkouts = [step['with'] for step in workflow['jobs']['checks']['steps']
                      if step.get('with', {}).get('repository') == 'ThreeMonth03/science-europe-template']
         self.assertEqual(len(checkouts), 1)
         self.assertEqual(checkouts[0]['fetch-depth'], 0)

@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 class NativeRunnerTests(unittest.TestCase):
     def run_step(self, failure=''):
         workflow = yaml.safe_load((ROOT / '.github/workflows/pilot-checks.yml').read_text())
-        step = next(s for s in workflow['jobs']['build']['steps']
+        step = next(s for s in workflow['jobs']['checks']['steps']
                     if s.get('name', '').startswith('Check all existing PDF and DOCX'))
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -59,3 +59,19 @@ class NativeRunnerTests(unittest.TestCase):
         result = subprocess.run(['bash', str(ROOT / 'scripts/check_native_regressions.sh'),
                                  'typo', 'unused'], capture_output=True, text=True)
         self.assertEqual(result.returncode, 2)
+
+    def test_parallel_groups_keep_a_fail_closed_required_check(self):
+        workflow = yaml.safe_load((ROOT / '.github/workflows/pilot-checks.yml').read_text())
+        checks, gate = workflow['jobs']['checks'], workflow['jobs']['build']
+        self.assertEqual(checks['strategy']['matrix']['group'],
+                         ['english-unit', 'chinese-unit', 'integration', 'reading', 'native'])
+        self.assertIs(checks['strategy']['fail-fast'], False)
+        self.assertNotIn('needs', checks)
+        self.assertEqual((gate['needs'], gate['if']), ('checks', 'always()'))
+        step, = gate['steps']
+        self.assertEqual(step['env']['CHECK_RESULT'], '${{ needs.checks.result }}')
+        for result in ('success', 'failure', 'cancelled', 'skipped', ''):
+            with self.subTest(result=result):
+                run = subprocess.run(['bash', '-e', '-c', step['run']],
+                                     env=dict(os.environ, CHECK_RESULT=result))
+                self.assertEqual(run.returncode == 0, result == 'success')
