@@ -47,13 +47,13 @@
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "36e3861b8c2a3d63f47a9af892e8bc5db1c785d047ec24ab1ea48ddf2bd40d0c",
+      "candidate_tree_sha256": "66080e3de0f9dbc6cca4f10e6c82e964b82f45bf1d5d639d33ed66f933cccccd",
       "candidate_metadata_sha256": "cffde1af38af1fda48470e8d57ef1acc963ebc0ab29161966ed3ef8cdf85db5a"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "0abf120164f8a29aca99f54c487d319bf2f8d6e1938bfbcf1e6bc4ee877d4c0f",
+      "candidate_tree_sha256": "5e3b8232636fa4f25ef3dd04de5add00970d4ab6125575aacb16190792afec67",
       "candidate_metadata_sha256": "13e12b285641701285cd56cbe919ef3ad6b839eaff29d45a919a91d5d4374114"
     }
   }
