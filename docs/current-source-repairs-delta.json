@@ -50,13 +50,13 @@
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "2894f8ed883e2ace3324d8505eaec0a57d41622a29c1c3ea4c75877bd040f95c",
+      "candidate_tree_sha256": "8de8220e0c7ebed450a080120789830f03af48d12baa10009bbd3b6c06754d02",
       "candidate_metadata_sha256": "fc4604a7c279049cc54e5a19f43be8927311cc550440085b6d594e031364e2d7"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "43de5ab62060310c09f0ddf8bcb2f67dc2de8bd17bac4832944f067a7dfb9685",
+      "candidate_tree_sha256": "b0723776f3493dcf79bd73e774cb0acae33478ecf6783a98fbbedbc283154ae7",
       "candidate_metadata_sha256": "1144bea22dfb66a647494f63a9b41e0e77c70971fcb39fba29b2cf19892ae016"
     }
   }
