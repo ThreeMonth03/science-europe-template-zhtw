@@ -4836,7 +4836,7 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0018-this-document-does-not-yet-identify-the-datasets-12bef983b5/0001-this-document-does-not-yet-identify-the-datasets-576065e0bb/translation.md>)
 
-- [ ] [file] src/questions/13-persistent-identifier.html.j2 (27/30)
+- [x] [file] src/questions/13-persistent-identifier.html.j2 (30/30)
 
   [J2] `src/questions/13-persistent-identifier.html.j2`
 
@@ -5032,27 +5032,27 @@
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0022-other-researchers-in-this-field-will-be-interested-49fae43ece/0001-other-researchers-in-this-field-will-be-interested-a26f775358/translation.md>)
 
-    - [ ] [wrapper] 0023-researchers-working-in-other-fields-will-be-interested-38b5e52ab8 (0/1)
+    - [x] [wrapper] 0023-researchers-working-in-other-fields-will-be-interested-38b5e52ab8 (1/1)
 
       [W] `0023-researchers-working-in-other-fields-will-be-interested-38b5e52ab8`
 
-        - [ ] [unit] 0001-researchers-working-in-other-fields-will-be-interested-7cdbd690a1: Researchers working in other fields will be interested in re-using this data.
+        - [x] [unit] 0001-researchers-working-in-other-fields-will-be-interested-7cdbd690a1: Researchers working in other fields will be interested in re-using this data.
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0023-researchers-working-in-other-fields-will-be-interested-38b5e52ab8/0001-researchers-working-in-other-fields-will-be-interested-7cdbd690a1/translation.md>)
 
-    - [ ] [wrapper] 0024-no-name-given-1cb54eee54 (0/1)
+    - [x] [wrapper] 0024-no-name-given-cf6a848ed2 (1/1)
 
-      [W] `0024-no-name-given-1cb54eee54`
+      [W] `0024-no-name-given-cf6a848ed2`
 
-        - [ ] [unit] 0001-no-name-given-1a466ff85e: (no name given)
+        - [x] [unit] 0001-no-name-given-1a466ff85e: (no name given)
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0024-no-name-given-1cb54eee54/0001-no-name-given-1a466ff85e/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0024-no-name-given-cf6a848ed2/0001-no-name-given-1a466ff85e/translation.md>)
 
-    - [ ] [wrapper] 0025-potential-uses-in-other-fields-de039f53fc (0/1)
+    - [x] [wrapper] 0025-potential-uses-in-other-fields-de039f53fc (1/1)
 
       [W] `0025-potential-uses-in-other-fields-de039f53fc`
 
-        - [ ] [unit] 0001-potential-uses-in-other-fields-153b29e0a0: Potential uses in other fields:
+        - [x] [unit] 0001-potential-uses-in-other-fields-153b29e0a0: Potential uses in other fields:
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0025-potential-uses-in-other-fields-de039f53fc/0001-potential-uses-in-other-fields-153b29e0a0/translation.md>)
 
