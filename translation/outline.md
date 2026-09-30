@@ -4664,7 +4664,7 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0025-this-document-does-not-yet-contain-an-answer-33896db936/0001-this-document-does-not-yet-contain-an-answer-258449bc6d/translation.md>)
 
-- [x] [file] src/questions/12-access-data.html.j2 (13/13)
+- [x] [file] src/questions/12-access-data.html.j2 (18/18)
 
   [J2] `src/questions/12-access-data.html.j2`
 
@@ -4676,101 +4676,141 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0001-12-what-methods-or-software-tools-are-needed-e88cdcc4a1/0001-12-what-methods-or-software-tools-are-needed-ccdd04b06b/translation.md>)
 
-    - [x] [wrapper] 0002-no-name-given-331b68f6f1 (1/1)
+    - [x] [wrapper] 0002-documentation-for-this-software-will-be-included-in-080c80caa9 (1/1)
 
-      [W] `0002-no-name-given-331b68f6f1`
+      [W] `0002-documentation-for-this-software-will-be-included-in-080c80caa9`
 
-        - [x] [unit] 0001-no-name-given-bb3051fe57: (no name given)
+        - [x] [unit] 0001-documentation-for-this-software-will-be-included-in-36a9e1bb99: Documentation for this software will be included in the metadata.
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0002-no-name-given-331b68f6f1/0001-no-name-given-bb3051fe57/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0002-documentation-for-this-software-will-be-included-in-080c80caa9/0001-documentation-for-this-software-will-be-included-in-36a9e1bb99/translation.md>)
 
-    - [x] [wrapper] 0003-this-dataset-will-not-be-published-b963e9b2e8 (1/1)
+    - [x] [wrapper] 0003-documentation-for-this-software-will-not-be-included-2c0b158ed1 (1/1)
 
-      [W] `0003-this-dataset-will-not-be-published-b963e9b2e8`
+      [W] `0003-documentation-for-this-software-will-not-be-included-2c0b158ed1`
 
-        - [x] [unit] 0001-this-dataset-will-not-be-published-0e1c6a5c87: This dataset will not be published.
+        - [x] [unit] 0001-documentation-for-this-software-will-not-be-included-b058fb5842: Documentation for this software will not be included in the metadata.
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0003-this-dataset-will-not-be-published-b963e9b2e8/0001-this-dataset-will-not-be-published-0e1c6a5c87/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0003-documentation-for-this-software-will-not-be-included-2c0b158ed1/0001-documentation-for-this-software-will-not-be-included-b058fb5842/translation.md>)
 
-    - [x] [wrapper] 0004-no-specific-software-is-required-to-access-or-62902ea2bc (1/1)
+    - [x] [wrapper] 0004-this-software-will-be-included-51d470a5a4 (1/1)
 
-      [W] `0004-no-specific-software-is-required-to-access-or-62902ea2bc`
+      [W] `0004-this-software-will-be-included-51d470a5a4`
 
-        - [x] [unit] 0001-no-specific-software-is-required-to-access-or-b4d18c6b22: No specific software is required to access or use this dataset.
+        - [x] [unit] 0001-this-software-will-be-included-0cb8fe39cb: This software will be included.
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0004-no-specific-software-is-required-to-access-or-62902ea2bc/0001-no-specific-software-is-required-to-access-or-b4d18c6b22/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0004-this-software-will-be-included-51d470a5a4/0001-this-software-will-be-included-0cb8fe39cb/translation.md>)
 
-    - [x] [wrapper] 0005-software-required-to-use-this-dataset-bade222369 (1/1)
+    - [x] [wrapper] 0005-this-software-will-not-be-included-b04e9e069d (1/1)
 
-      [W] `0005-software-required-to-use-this-dataset-bade222369`
+      [W] `0005-this-software-will-not-be-included-b04e9e069d`
 
-        - [x] [unit] 0001-software-required-to-use-this-dataset-03dde1a72b: Software required to use this dataset:
+        - [x] [unit] 0001-this-software-will-not-be-included-99ff06fb3c: This software will not be included.
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0005-software-required-to-use-this-dataset-bade222369/0001-software-required-to-use-this-dataset-03dde1a72b/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0005-this-software-will-not-be-included-b04e9e069d/0001-this-software-will-not-be-included-99ff06fb3c/translation.md>)
 
-    - [x] [wrapper] 0006-specific-software-is-required-to-use-this-dataset-aadb8b2c5f (1/1)
+    - [x] [wrapper] 0006-reason-for-not-including-software-documentation-1c4abf10df (1/1)
 
-      [W] `0006-specific-software-is-required-to-use-this-dataset-aadb8b2c5f`
+      [W] `0006-reason-for-not-including-software-documentation-1c4abf10df`
 
-        - [x] [unit] 0001-specific-software-is-required-to-use-this-dataset-180c1dc065: Specific software is required to use this dataset.
+        - [x] [unit] 0001-reason-for-not-including-software-documentation-9f963d8d8b: Reason for not including software documentation:
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0006-specific-software-is-required-to-use-this-dataset-aadb8b2c5f/0001-specific-software-is-required-to-use-this-dataset-180c1dc065/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0006-reason-for-not-including-software-documentation-1c4abf10df/0001-reason-for-not-including-software-documentation-9f963d8d8b/translation.md>)
 
-    - [x] [wrapper] 0007-no-name-given-550b695e1e (1/1)
+    - [x] [wrapper] 0007-no-name-given-331b68f6f1 (1/1)
 
-      [W] `0007-no-name-given-550b695e1e`
+      [W] `0007-no-name-given-331b68f6f1`
 
         - [x] [unit] 0001-no-name-given-c02a7a98e6: (no name given)
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0007-no-name-given-550b695e1e/0001-no-name-given-c02a7a98e6/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0007-no-name-given-331b68f6f1/0001-no-name-given-c02a7a98e6/translation.md>)
 
-    - [x] [wrapper] 0008-available-at-0a88cd0c71 (1/1)
+    - [x] [wrapper] 0008-this-dataset-will-not-be-published-b963e9b2e8 (1/1)
 
-      [W] `0008-available-at-0a88cd0c71`
+      [W] `0008-this-dataset-will-not-be-published-b963e9b2e8`
 
-        - [x] [unit] 0001-available-at-bdd29bfd18: Available at: {swPIDReply}
+        - [x] [unit] 0001-this-dataset-will-not-be-published-c0c25f467a: This dataset will not be published.
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0008-available-at-0a88cd0c71/0001-available-at-bdd29bfd18/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0008-this-dataset-will-not-be-published-b963e9b2e8/0001-this-dataset-will-not-be-published-c0c25f467a/translation.md>)
 
-    - [x] [wrapper] 0009-an-access-location-for-this-tool-has-not-f46b3c2af4 (1/1)
+    - [x] [wrapper] 0009-no-specific-software-is-required-to-access-or-62902ea2bc (1/1)
 
-      [W] `0009-an-access-location-for-this-tool-has-not-f46b3c2af4`
+      [W] `0009-no-specific-software-is-required-to-access-or-62902ea2bc`
 
-        - [x] [unit] 0001-an-access-location-for-this-tool-has-not-a184201ea1: An access location for this tool has not been provided.
+        - [x] [unit] 0001-no-specific-software-is-required-to-access-or-6e3a732fca: No specific software is required to access or use this dataset.
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0009-an-access-location-for-this-tool-has-not-f46b3c2af4/0001-an-access-location-for-this-tool-has-not-a184201ea1/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0009-no-specific-software-is-required-to-access-or-62902ea2bc/0001-no-specific-software-is-required-to-access-or-6e3a732fca/translation.md>)
 
-    - [x] [wrapper] 0010-software-is-required-but-the-tools-have-not-57e856c866 (1/1)
+    - [x] [wrapper] 0010-software-required-to-use-this-dataset-bade222369 (1/1)
 
-      [W] `0010-software-is-required-but-the-tools-have-not-57e856c866`
+      [W] `0010-software-required-to-use-this-dataset-bade222369`
 
-        - [x] [unit] 0001-software-is-required-but-the-tools-have-not-8f29ab50c7: Software is required, but the tools have not yet been listed.
+        - [x] [unit] 0001-software-required-to-use-this-dataset-e1441b65bf: Software required to use this dataset:
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0010-software-is-required-but-the-tools-have-not-57e856c866/0001-software-is-required-but-the-tools-have-not-8f29ab50c7/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0010-software-required-to-use-this-dataset-bade222369/0001-software-required-to-use-this-dataset-e1441b65bf/translation.md>)
 
-    - [x] [wrapper] 0011-it-has-not-yet-been-specified-whether-software-01c8dbd574 (1/1)
+    - [x] [wrapper] 0011-specific-software-is-required-to-use-this-dataset-aadb8b2c5f (1/1)
 
-      [W] `0011-it-has-not-yet-been-specified-whether-software-01c8dbd574`
+      [W] `0011-specific-software-is-required-to-use-this-dataset-aadb8b2c5f`
 
-        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-software-5ba2e12c40: It has not yet been specified whether software is required to use this dataset.
+        - [x] [unit] 0001-specific-software-is-required-to-use-this-dataset-548e2ffbbb: Specific software is required to use this dataset.
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0011-it-has-not-yet-been-specified-whether-software-01c8dbd574/0001-it-has-not-yet-been-specified-whether-software-5ba2e12c40/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0011-specific-software-is-required-to-use-this-dataset-aadb8b2c5f/0001-specific-software-is-required-to-use-this-dataset-548e2ffbbb/translation.md>)
 
-    - [x] [wrapper] 0012-it-has-not-yet-been-specified-whether-this-c1ceb4f29d (1/1)
+    - [x] [wrapper] 0012-no-name-given-550b695e1e (1/1)
 
-      [W] `0012-it-has-not-yet-been-specified-whether-this-c1ceb4f29d`
+      [W] `0012-no-name-given-550b695e1e`
 
-        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-this-9395ffe490: It has not yet been specified whether this dataset will be published.
+        - [x] [unit] 0001-no-name-given-42f39e9a89: (no name given)
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0012-it-has-not-yet-been-specified-whether-this-c1ceb4f29d/0001-it-has-not-yet-been-specified-whether-this-9395ffe490/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0012-no-name-given-550b695e1e/0001-no-name-given-42f39e9a89/translation.md>)
 
-    - [x] [wrapper] 0013-this-document-does-not-yet-identify-the-datasets-12bef983b5 (1/1)
+    - [x] [wrapper] 0013-available-at-0a88cd0c71 (1/1)
 
-      [W] `0013-this-document-does-not-yet-identify-the-datasets-12bef983b5`
+      [W] `0013-available-at-0a88cd0c71`
 
-        - [x] [unit] 0001-this-document-does-not-yet-identify-the-datasets-418c97b694: This document does not yet identify the datasets to be shared or the tools needed to use them.
+        - [x] [unit] 0001-available-at-4de0ff3ddb: Available at: {swPIDReply}
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0013-this-document-does-not-yet-identify-the-datasets-12bef983b5/0001-this-document-does-not-yet-identify-the-datasets-418c97b694/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0013-available-at-0a88cd0c71/0001-available-at-4de0ff3ddb/translation.md>)
+
+    - [x] [wrapper] 0014-an-access-location-for-this-tool-has-not-f46b3c2af4 (1/1)
+
+      [W] `0014-an-access-location-for-this-tool-has-not-f46b3c2af4`
+
+        - [x] [unit] 0001-an-access-location-for-this-tool-has-not-ef91627257: An access location for this tool has not been provided.
+
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0014-an-access-location-for-this-tool-has-not-f46b3c2af4/0001-an-access-location-for-this-tool-has-not-ef91627257/translation.md>)
+
+    - [x] [wrapper] 0015-software-is-required-but-the-tools-have-not-57e856c866 (1/1)
+
+      [W] `0015-software-is-required-but-the-tools-have-not-57e856c866`
+
+        - [x] [unit] 0001-software-is-required-but-the-tools-have-not-d9036b88d8: Software is required, but the tools have not yet been listed.
+
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0015-software-is-required-but-the-tools-have-not-57e856c866/0001-software-is-required-but-the-tools-have-not-d9036b88d8/translation.md>)
+
+    - [x] [wrapper] 0016-it-has-not-yet-been-specified-whether-software-01c8dbd574 (1/1)
+
+      [W] `0016-it-has-not-yet-been-specified-whether-software-01c8dbd574`
+
+        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-software-9cbee88f8c: It has not yet been specified whether software is required to use this dataset.
+
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0016-it-has-not-yet-been-specified-whether-software-01c8dbd574/0001-it-has-not-yet-been-specified-whether-software-9cbee88f8c/translation.md>)
+
+    - [x] [wrapper] 0017-it-has-not-yet-been-specified-whether-this-c1ceb4f29d (1/1)
+
+      [W] `0017-it-has-not-yet-been-specified-whether-this-c1ceb4f29d`
+
+        - [x] [unit] 0001-it-has-not-yet-been-specified-whether-this-4f93430755: It has not yet been specified whether this dataset will be published.
+
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0017-it-has-not-yet-been-specified-whether-this-c1ceb4f29d/0001-it-has-not-yet-been-specified-whether-this-4f93430755/translation.md>)
+
+    - [x] [wrapper] 0018-this-document-does-not-yet-identify-the-datasets-12bef983b5 (1/1)
+
+      [W] `0018-this-document-does-not-yet-identify-the-datasets-12bef983b5`
+
+        - [x] [unit] 0001-this-document-does-not-yet-identify-the-datasets-576065e0bb: This document does not yet identify the datasets to be shared or the tools needed to use them.
+
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0018-this-document-does-not-yet-identify-the-datasets-12bef983b5/0001-this-document-does-not-yet-identify-the-datasets-576065e0bb/translation.md>)
 
 - [x] [file] src/questions/13-persistent-identifier.html.j2 (30/30)
 
