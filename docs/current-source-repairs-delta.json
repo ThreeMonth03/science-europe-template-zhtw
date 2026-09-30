@@ -42,20 +42,22 @@
     "src/word/pilot.lua",
     "src/word/question-spacing.xml",
     "src/word/reference.docx",
-    "src/word/short-tables.xml"
+    "src/word/short-tables.lua",
+    "src/word/short-tables.xml",
+    "src/word/versions.html.j2"
   ],
   "languages": {
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "a40ae43a9d142d1d64f43a45c7d88afe93457873f641e7ad9ff5bdc4ce0d485f",
-      "candidate_metadata_sha256": "7b46691be7607fa291054751b791403e7bfdd8e679626bf5d7c6f10fd99b66c2"
+      "candidate_tree_sha256": "2894f8ed883e2ace3324d8505eaec0a57d41622a29c1c3ea4c75877bd040f95c",
+      "candidate_metadata_sha256": "fc4604a7c279049cc54e5a19f43be8927311cc550440085b6d594e031364e2d7"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "ef761692c5251b568915c28c2a69cb39e649508628d2cd56ae990ebbe089d6a2",
-      "candidate_metadata_sha256": "fa9284a258787ca80203af3178b2cdfb26f8a9f2be564b98353592a63ef3855e"
+      "candidate_tree_sha256": "43de5ab62060310c09f0ddf8bcb2f67dc2de8bd17bac4832944f067a7dfb9685",
+      "candidate_metadata_sha256": "1144bea22dfb66a647494f63a9b41e0e77c70971fcb39fba29b2cf19892ae016"
     }
   }
 }
