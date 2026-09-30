@@ -7,24 +7,24 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-because: {measuredDataReuseOtherFieldHowReply}
+Only we will be interested in re-using this data.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-原因如下：{measuredDataReuseOtherFieldHowReply}
+只有我們有意再次使用這份資料。
 ~~~
 
 <details>
 <summary>Machine metadata</summary>
 
 - Source File: `src/questions/13-persistent-identifier.html.j2`
-- Wrapper Name: `__tr_block_0025`
-- Wrapper Order: `26`
-- Wrapper Key: `because-40cb0b9431`
-- Unit Key: `because-e8f7e7eafb`
-- Source Hash: `e0d8ad7e84d7e64cee1ad6b1abbe3c5fab26cefb`
+- Wrapper Name: `__tr_block_0020`
+- Wrapper Order: `21`
+- Wrapper Key: `only-we-will-be-interested-in-re-using-49953db953`
+- Unit Key: `only-we-will-be-interested-in-re-using-cb5b5fcc39`
+- Source Hash: `9ffa90e777261d7d273abff56c98b05552e9536b`
 
 Do not edit this section manually.
 

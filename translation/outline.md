@@ -4416,7 +4416,7 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0047-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-85f4013889/translation.md>)
 
-- [ ] [file] src/questions/11-data-preservation.html.j2 (34/39)
+- [x] [file] src/questions/11-data-preservation.html.j2 (39/39)
 
   [J2] `src/questions/11-data-preservation.html.j2`
 
@@ -4524,11 +4524,11 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-the-metadata-will-not-remain-available-once-the-73108c444c/0001-the-metadata-will-not-remain-available-once-the-cc635f7a5f/translation.md>)
 
-    - [ ] [wrapper] 0014-we-will-add-a-reference-to-the-published-c1c3ecabf7 (0/1)
+    - [x] [wrapper] 0014-we-will-add-a-reference-to-the-published-c1c3ecabf7 (1/1)
 
       [W] `0014-we-will-add-a-reference-to-the-published-c1c3ecabf7`
 
-        - [ ] [unit] 0001-we-will-add-a-reference-to-the-published-6f95c721ce: We will add a reference to the published data in at least one data catalogue.
+        - [x] [unit] 0001-we-will-add-a-reference-to-the-published-6f95c721ce: We will add a reference to the published data in at least one data catalogue.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-we-will-add-a-reference-to-the-published-c1c3ecabf7/0001-we-will-add-a-reference-to-the-published-6f95c721ce/translation.md>)
 
@@ -4548,7 +4548,7 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0016-we-will-not-add-a-separate-data-catalogue-54454a4c5c/0001-we-will-not-add-a-separate-data-catalogue-b812f55489/translation.md>)
 
-    - [ ] [wrapper] 0017-distribution-domain-specific-repository-we-don-t-need-01140dc144 (8/12)
+    - [x] [wrapper] 0017-distribution-domain-specific-repository-we-don-t-need-01140dc144 (12/12)
 
       [W] `0017-distribution-domain-specific-repository-we-don-t-need-01140dc144`
 
@@ -4556,19 +4556,19 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0001-distribution-fc92600eeb/translation.md>)
 
-        - [ ] [unit] 0002-domain-specific-repository-dd385a4f4c: Domain-specific repository
+        - [x] [unit] 0002-domain-specific-repository-dd385a4f4c: Domain-specific repository
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0002-domain-specific-repository-dd385a4f4c/translation.md>)
 
-        - [ ] [unit] 0003-we-don-t-need-to-contact-the-repository-ecb4e1ecb5: We don't need to contact the repository because it is a routine for us.
+        - [x] [unit] 0003-we-don-t-need-to-contact-the-repository-ecb4e1ecb5: We don't need to contact the repository because it is a routine for us.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0003-we-don-t-need-to-contact-the-repository-ecb4e1ecb5/translation.md>)
 
-        - [ ] [unit] 0004-we-have-already-contacted-the-repository-6c485869df: We have already contacted the repository.
+        - [x] [unit] 0004-we-have-already-contacted-the-repository-6c485869df: We have already contacted the repository.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0004-we-have-already-contacted-the-repository-6c485869df/translation.md>)
 
-        - [ ] [unit] 0005-we-are-going-to-contact-the-repository-6c24ef100c: We are going to contact the repository.
+        - [x] [unit] 0005-we-are-going-to-contact-the-repository-6c24ef100c: We are going to contact the repository.
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0005-we-are-going-to-contact-the-repository-6c24ef100c/translation.md>)
 
@@ -4836,7 +4836,7 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0018-this-document-does-not-yet-identify-the-datasets-12bef983b5/0001-this-document-does-not-yet-identify-the-datasets-576065e0bb/translation.md>)
 
-- [x] [file] src/questions/13-persistent-identifier.html.j2 (30/30)
+- [ ] [file] src/questions/13-persistent-identifier.html.j2 (27/30)
 
   [J2] `src/questions/13-persistent-identifier.html.j2`
 
@@ -5016,53 +5016,53 @@
 
           [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0020-this-document-does-not-yet-describe-which-datasets-295a395eaa/0001-this-document-does-not-yet-describe-which-datasets-f1cd48a907/translation.md>)
 
-    - [x] [wrapper] 0021-possible-re-use-of-created-data-in-other-96145ffe55 (1/1)
+    - [x] [wrapper] 0021-only-we-will-be-interested-in-re-using-49953db953 (1/1)
 
-      [W] `0021-possible-re-use-of-created-data-in-other-96145ffe55`
+      [W] `0021-only-we-will-be-interested-in-re-using-49953db953`
 
-        - [x] [unit] 0001-possible-re-use-of-created-data-in-other-0643f0d134: Possible re-use of created data in other contexts
+        - [x] [unit] 0001-only-we-will-be-interested-in-re-using-cb5b5fcc39: Only we will be interested in re-using this data.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0021-possible-re-use-of-created-data-in-other-96145ffe55/0001-possible-re-use-of-created-data-in-other-0643f0d134/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0021-only-we-will-be-interested-in-re-using-49953db953/0001-only-we-will-be-interested-in-re-using-cb5b5fcc39/translation.md>)
 
-    - [x] [wrapper] 0022-no-name-given-decb35ce44 (1/1)
+    - [x] [wrapper] 0022-other-researchers-in-this-field-will-be-interested-49fae43ece (1/1)
 
-      [W] `0022-no-name-given-decb35ce44`
+      [W] `0022-other-researchers-in-this-field-will-be-interested-49fae43ece`
 
-        - [x] [unit] 0001-no-name-given-9f8170171b: (no name given)
+        - [x] [unit] 0001-other-researchers-in-this-field-will-be-interested-a26f775358: Other researchers in this field will be interested in re-using this data.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0022-no-name-given-decb35ce44/0001-no-name-given-9f8170171b/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0022-other-researchers-in-this-field-will-be-interested-49fae43ece/0001-other-researchers-in-this-field-will-be-interested-a26f775358/translation.md>)
 
-    - [x] [wrapper] 0023-only-we-will-be-interested-in-re-using-22c2f5e94b (1/1)
+    - [ ] [wrapper] 0023-researchers-working-in-other-fields-will-be-interested-38b5e52ab8 (0/1)
 
-      [W] `0023-only-we-will-be-interested-in-re-using-22c2f5e94b`
+      [W] `0023-researchers-working-in-other-fields-will-be-interested-38b5e52ab8`
 
-        - [x] [unit] 0001-only-we-will-be-interested-in-re-using-22eb4e9ea2: Only we will be interested in re-using this data.
+        - [ ] [unit] 0001-researchers-working-in-other-fields-will-be-interested-7cdbd690a1: Researchers working in other fields will be interested in re-using this data.
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0023-only-we-will-be-interested-in-re-using-22c2f5e94b/0001-only-we-will-be-interested-in-re-using-22eb4e9ea2/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0023-researchers-working-in-other-fields-will-be-interested-38b5e52ab8/0001-researchers-working-in-other-fields-will-be-interested-7cdbd690a1/translation.md>)
 
-    - [x] [wrapper] 0024-other-researchers-in-this-field-will-be-interested-fc64081eb4 (1/1)
+    - [ ] [wrapper] 0024-no-name-given-1cb54eee54 (0/1)
 
-      [W] `0024-other-researchers-in-this-field-will-be-interested-fc64081eb4`
+      [W] `0024-no-name-given-1cb54eee54`
 
-        - [x] [unit] 0001-other-researchers-in-this-field-will-be-interested-af3da94e0b: Other researchers in this field will be interested in re-using this data.
+        - [ ] [unit] 0001-no-name-given-1a466ff85e: (no name given)
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0024-other-researchers-in-this-field-will-be-interested-fc64081eb4/0001-other-researchers-in-this-field-will-be-interested-af3da94e0b/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0024-no-name-given-1cb54eee54/0001-no-name-given-1a466ff85e/translation.md>)
 
-    - [x] [wrapper] 0025-researchers-working-in-other-fields-will-be-interested-9a1c6346fc (1/1)
+    - [ ] [wrapper] 0025-potential-uses-in-other-fields-de039f53fc (0/1)
 
-      [W] `0025-researchers-working-in-other-fields-will-be-interested-9a1c6346fc`
+      [W] `0025-potential-uses-in-other-fields-de039f53fc`
 
-        - [x] [unit] 0001-researchers-working-in-other-fields-will-be-interested-f2c3f7fc64: Researchers working in other fields will be interested in re-using this data
+        - [ ] [unit] 0001-potential-uses-in-other-fields-153b29e0a0: Potential uses in other fields:
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0025-researchers-working-in-other-fields-will-be-interested-9a1c6346fc/0001-researchers-working-in-other-fields-will-be-interested-f2c3f7fc64/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0025-potential-uses-in-other-fields-de039f53fc/0001-potential-uses-in-other-fields-153b29e0a0/translation.md>)
 
-    - [x] [wrapper] 0026-because-40cb0b9431 (1/1)
+    - [x] [wrapper] 0026-possible-re-use-of-created-data-in-other-96145ffe55 (1/1)
 
-      [W] `0026-because-40cb0b9431`
+      [W] `0026-possible-re-use-of-created-data-in-other-96145ffe55`
 
-        - [x] [unit] 0001-because-e8f7e7eafb: because: {measuredDataReuseOtherFieldHowReply}
+        - [x] [unit] 0001-possible-re-use-of-created-data-in-other-cbbcabc30e: Possible re-use of created data in other contexts
 
-          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0026-because-40cb0b9431/0001-because-e8f7e7eafb/translation.md>)
+          [T] [translation](<tree/src/questions/13-persistent-identifier.html.j2/0026-possible-re-use-of-created-data-in-other-96145ffe55/0001-possible-re-use-of-created-data-in-other-cbbcabc30e/translation.md>)
 
 - [x] [file] src/questions/14-dm-responsible.html.j2 (3/3)
 

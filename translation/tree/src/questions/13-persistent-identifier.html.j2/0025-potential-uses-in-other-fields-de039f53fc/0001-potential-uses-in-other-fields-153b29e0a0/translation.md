@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-Researchers working in other fields will be interested in re-using this data
+Potential uses in other fields:
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-其他領域的研究人員會有興趣再次使用這份資料
+其他領域的可能用途：
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ Researchers working in other fields will be interested in re-using this data
 - Source File: `src/questions/13-persistent-identifier.html.j2`
 - Wrapper Name: `__tr_block_0024`
 - Wrapper Order: `25`
-- Wrapper Key: `researchers-working-in-other-fields-will-be-interested-9a1c6346fc`
-- Unit Key: `researchers-working-in-other-fields-will-be-interested-f2c3f7fc64`
-- Source Hash: `4f0361e5bb2363a6b30f96c570bcd8fdc6ee7b30`
+- Wrapper Key: `potential-uses-in-other-fields-de039f53fc`
+- Unit Key: `potential-uses-in-other-fields-153b29e0a0`
+- Source Hash: `e6e9ef6110195be478255d0667d7e6b839539b0f`
 
 Do not edit this section manually.
 
