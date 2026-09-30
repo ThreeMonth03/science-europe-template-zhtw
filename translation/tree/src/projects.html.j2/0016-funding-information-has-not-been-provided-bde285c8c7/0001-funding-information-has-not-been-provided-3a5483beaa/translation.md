@@ -7,24 +7,24 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-Funding
+Funding information has not been provided.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-經費
+尚未提供經費來源。
 ~~~
 
 <details>
 <summary>Machine metadata</summary>
 
 - Source File: `src/projects.html.j2`
-- Wrapper Name: `__tr_block_0014`
-- Wrapper Order: `15`
-- Wrapper Key: `funding-5d92399888`
-- Unit Key: `funding-ac4e3b19a4`
-- Source Hash: `6ff171c66738f3aca6840ae3df12a51c55bce440`
+- Wrapper Name: `__tr_block_0015`
+- Wrapper Order: `16`
+- Wrapper Key: `funding-information-has-not-been-provided-bde285c8c7`
+- Unit Key: `funding-information-has-not-been-provided-3a5483beaa`
+- Source Hash: `98f37527ccd3bb8431f9d8c0ffc021a86e65a355`
 
 Do not edit this section manually.
 

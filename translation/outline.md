@@ -964,7 +964,7 @@
 
           [T] [translation](<tree/src/project-file-naming.html.j2/0002-information-not-provided-the-agreed-file-naming-conventions-53dc3d7b51/0001-information-not-provided-the-agreed-file-naming-conventions-db35f7adfa/translation.md>)
 
-- [ ] [file] src/projects.html.j2 (10/17)
+- [x] [file] src/projects.html.j2 (17/17)
 
   [J2] `src/projects.html.j2`
 
@@ -984,35 +984,35 @@
 
           [T] [translation](<tree/src/projects.html.j2/0002-project-name-not-given-aa11ad3af8/0001-project-name-not-given-514c0227c8/translation.md>)
 
-    - [ ] [wrapper] 0003-planned-48eebb6401 (0/1)
+    - [x] [wrapper] 0003-planned-48eebb6401 (1/1)
 
       [W] `0003-planned-48eebb6401`
 
-        - [ ] [unit] 0001-planned-e8c41279f3: (planned)
+        - [x] [unit] 0001-planned-e8c41279f3: (planned)
 
           [T] [translation](<tree/src/projects.html.j2/0003-planned-48eebb6401/0001-planned-e8c41279f3/translation.md>)
 
-    - [ ] [wrapper] 0004-applied-f652a564d2 (0/1)
+    - [x] [wrapper] 0004-applied-f652a564d2 (1/1)
 
       [W] `0004-applied-f652a564d2`
 
-        - [ ] [unit] 0001-applied-df149b7a27: (applied)
+        - [x] [unit] 0001-applied-df149b7a27: (applied)
 
           [T] [translation](<tree/src/projects.html.j2/0004-applied-f652a564d2/0001-applied-df149b7a27/translation.md>)
 
-    - [ ] [wrapper] 0005-granted-0bc7401a67 (0/1)
+    - [x] [wrapper] 0005-granted-0bc7401a67 (1/1)
 
       [W] `0005-granted-0bc7401a67`
 
-        - [ ] [unit] 0001-granted-713614a941: (granted)
+        - [x] [unit] 0001-granted-713614a941: (granted)
 
           [T] [translation](<tree/src/projects.html.j2/0005-granted-0bc7401a67/0001-granted-713614a941/translation.md>)
 
-    - [ ] [wrapper] 0006-rejected-7474662779 (0/1)
+    - [x] [wrapper] 0006-rejected-7474662779 (1/1)
 
       [W] `0006-rejected-7474662779`
 
-        - [ ] [unit] 0001-rejected-d31e102050: (rejected)
+        - [x] [unit] 0001-rejected-d31e102050: (rejected)
 
           [T] [translation](<tree/src/projects.html.j2/0006-rejected-7474662779/0001-rejected-d31e102050/translation.md>)
 
@@ -1040,11 +1040,11 @@
 
           [T] [translation](<tree/src/projects.html.j2/0009-project-number-01e345b0d9/0001-project-number-034412baf4/translation.md>)
 
-    - [ ] [wrapper] 0010-n-a-2041827306 (0/1)
+    - [x] [wrapper] 0010-n-a-2041827306 (1/1)
 
       [W] `0010-n-a-2041827306`
 
-        - [ ] [unit] 0001-n-a-a705bef069: N/A
+        - [x] [unit] 0001-n-a-a705bef069: N/A
 
           [T] [translation](<tree/src/projects.html.j2/0010-n-a-2041827306/0001-n-a-a705bef069/translation.md>)
 
@@ -1056,11 +1056,11 @@
 
           [T] [translation](<tree/src/projects.html.j2/0011-start-date-6dff5d82d7/0001-start-date-793f1ba129/translation.md>)
 
-    - [ ] [wrapper] 0012-n-a-186014e292 (0/1)
+    - [x] [wrapper] 0012-n-a-186014e292 (1/1)
 
       [W] `0012-n-a-186014e292`
 
-        - [ ] [unit] 0001-n-a-f394309d08: N/A
+        - [x] [unit] 0001-n-a-f394309d08: N/A
 
           [T] [translation](<tree/src/projects.html.j2/0012-n-a-186014e292/0001-n-a-f394309d08/translation.md>)
 
@@ -1072,29 +1072,29 @@
 
           [T] [translation](<tree/src/projects.html.j2/0013-end-date-3fa960d0f6/0001-end-date-2100296f3a/translation.md>)
 
-    - [ ] [wrapper] 0014-n-a-1ffdd71ef6 (0/1)
+    - [x] [wrapper] 0014-n-a-1ffdd71ef6 (1/1)
 
       [W] `0014-n-a-1ffdd71ef6`
 
-        - [ ] [unit] 0001-n-a-49dd56a009: N/A
+        - [x] [unit] 0001-n-a-49dd56a009: N/A
 
           [T] [translation](<tree/src/projects.html.j2/0014-n-a-1ffdd71ef6/0001-n-a-49dd56a009/translation.md>)
 
-    - [x] [wrapper] 0015-funding-5d92399888 (1/1)
+    - [x] [wrapper] 0015-funding-c2b9bfd88f (1/1)
 
-      [W] `0015-funding-5d92399888`
+      [W] `0015-funding-c2b9bfd88f`
 
         - [x] [unit] 0001-funding-ac4e3b19a4: Funding
 
-          [T] [translation](<tree/src/projects.html.j2/0015-funding-5d92399888/0001-funding-ac4e3b19a4/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0015-funding-c2b9bfd88f/0001-funding-ac4e3b19a4/translation.md>)
 
-    - [x] [wrapper] 0016-funding-information-has-not-been-provided-3580827aa9 (1/1)
+    - [x] [wrapper] 0016-funding-information-has-not-been-provided-bde285c8c7 (1/1)
 
-      [W] `0016-funding-information-has-not-been-provided-3580827aa9`
+      [W] `0016-funding-information-has-not-been-provided-bde285c8c7`
 
         - [x] [unit] 0001-funding-information-has-not-been-provided-3a5483beaa: Funding information has not been provided.
 
-          [T] [translation](<tree/src/projects.html.j2/0016-funding-information-has-not-been-provided-3580827aa9/0001-funding-information-has-not-been-provided-3a5483beaa/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0016-funding-information-has-not-been-provided-bde285c8c7/0001-funding-information-has-not-been-provided-3a5483beaa/translation.md>)
 
     - [x] [wrapper] 0017-there-are-no-projects-described-for-this-dmp-60c01c963f (1/1)
 
