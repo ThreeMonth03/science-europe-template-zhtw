@@ -964,7 +964,7 @@
 
           [T] [translation](<tree/src/project-file-naming.html.j2/0002-information-not-provided-the-agreed-file-naming-conventions-53dc3d7b51/0001-information-not-provided-the-agreed-file-naming-conventions-db35f7adfa/translation.md>)
 
-- [x] [file] src/projects.html.j2 (21/21)
+- [ ] [file] src/projects.html.j2 (10/17)
 
   [J2] `src/projects.html.j2`
 
@@ -984,121 +984,125 @@
 
           [T] [translation](<tree/src/projects.html.j2/0002-project-name-not-given-aa11ad3af8/0001-project-name-not-given-514c0227c8/translation.md>)
 
-    - [x] [wrapper] 0003-project-acronym-b6b6c1a2ec (1/1)
+    - [ ] [wrapper] 0003-planned-48eebb6401 (0/1)
 
-      [W] `0003-project-acronym-b6b6c1a2ec`
+      [W] `0003-planned-48eebb6401`
 
-        - [x] [unit] 0001-project-acronym-b064b1db68: Project acronym
+        - [ ] [unit] 0001-planned-e8c41279f3: (planned)
 
-          [T] [translation](<tree/src/projects.html.j2/0003-project-acronym-b6b6c1a2ec/0001-project-acronym-b064b1db68/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0003-planned-48eebb6401/0001-planned-e8c41279f3/translation.md>)
 
-    - [x] [wrapper] 0004-project-number-01e345b0d9 (1/1)
+    - [ ] [wrapper] 0004-applied-f652a564d2 (0/1)
 
-      [W] `0004-project-number-01e345b0d9`
+      [W] `0004-applied-f652a564d2`
 
-        - [x] [unit] 0001-project-number-c1c12caea6: Project Number
+        - [ ] [unit] 0001-applied-df149b7a27: (applied)
 
-          [T] [translation](<tree/src/projects.html.j2/0004-project-number-01e345b0d9/0001-project-number-c1c12caea6/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0004-applied-f652a564d2/0001-applied-df149b7a27/translation.md>)
 
-    - [x] [wrapper] 0005-n-a-2041827306 (1/1)
+    - [ ] [wrapper] 0005-granted-0bc7401a67 (0/1)
 
-      [W] `0005-n-a-2041827306`
+      [W] `0005-granted-0bc7401a67`
 
-        - [x] [unit] 0001-n-a-cbcd84ecba: N/A
+        - [ ] [unit] 0001-granted-713614a941: (granted)
 
-          [T] [translation](<tree/src/projects.html.j2/0005-n-a-2041827306/0001-n-a-cbcd84ecba/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0005-granted-0bc7401a67/0001-granted-713614a941/translation.md>)
 
-    - [x] [wrapper] 0006-start-date-6dff5d82d7 (1/1)
+    - [ ] [wrapper] 0006-rejected-7474662779 (0/1)
 
-      [W] `0006-start-date-6dff5d82d7`
+      [W] `0006-rejected-7474662779`
 
-        - [x] [unit] 0001-start-date-8d149ae288: Start date
+        - [ ] [unit] 0001-rejected-d31e102050: (rejected)
 
-          [T] [translation](<tree/src/projects.html.j2/0006-start-date-6dff5d82d7/0001-start-date-8d149ae288/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0006-rejected-7474662779/0001-rejected-d31e102050/translation.md>)
 
-    - [x] [wrapper] 0007-n-a-186014e292 (1/1)
+    - [x] [wrapper] 0007-grant-number-not-yet-given-b0f45d5bf2 (1/1)
 
-      [W] `0007-n-a-186014e292`
+      [W] `0007-grant-number-not-yet-given-b0f45d5bf2`
 
-        - [x] [unit] 0001-n-a-e047b52217: N/A
+        - [x] [unit] 0001-grant-number-not-yet-given-936d7ea918: grant number not yet given
 
-          [T] [translation](<tree/src/projects.html.j2/0007-n-a-186014e292/0001-n-a-e047b52217/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0007-grant-number-not-yet-given-b0f45d5bf2/0001-grant-number-not-yet-given-936d7ea918/translation.md>)
 
-    - [x] [wrapper] 0008-end-date-3fa960d0f6 (1/1)
+    - [x] [wrapper] 0008-project-acronym-b6b6c1a2ec (1/1)
 
-      [W] `0008-end-date-3fa960d0f6`
+      [W] `0008-project-acronym-b6b6c1a2ec`
 
-        - [x] [unit] 0001-end-date-1b192b6025: End date
+        - [x] [unit] 0001-project-acronym-28f5bdbd83: Project acronym
 
-          [T] [translation](<tree/src/projects.html.j2/0008-end-date-3fa960d0f6/0001-end-date-1b192b6025/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0008-project-acronym-b6b6c1a2ec/0001-project-acronym-28f5bdbd83/translation.md>)
 
-    - [x] [wrapper] 0009-n-a-1ffdd71ef6 (1/1)
+    - [x] [wrapper] 0009-project-number-01e345b0d9 (1/1)
 
-      [W] `0009-n-a-1ffdd71ef6`
+      [W] `0009-project-number-01e345b0d9`
 
-        - [x] [unit] 0001-n-a-cca8dea3b4: N/A
+        - [x] [unit] 0001-project-number-034412baf4: Project Number
 
-          [T] [translation](<tree/src/projects.html.j2/0009-n-a-1ffdd71ef6/0001-n-a-cca8dea3b4/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0009-project-number-01e345b0d9/0001-project-number-034412baf4/translation.md>)
 
-    - [x] [wrapper] 0010-funding-5d92399888 (1/1)
+    - [ ] [wrapper] 0010-n-a-2041827306 (0/1)
 
-      [W] `0010-funding-5d92399888`
+      [W] `0010-n-a-2041827306`
 
-        - [x] [unit] 0001-funding-ae41fd636c: Funding
+        - [ ] [unit] 0001-n-a-a705bef069: N/A
 
-          [T] [translation](<tree/src/projects.html.j2/0010-funding-5d92399888/0001-funding-ae41fd636c/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0010-n-a-2041827306/0001-n-a-a705bef069/translation.md>)
 
-    - [x] [wrapper] 0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb (10/10)
+    - [x] [wrapper] 0011-start-date-6dff5d82d7 (1/1)
 
-      [W] `0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb`
+      [W] `0011-start-date-6dff5d82d7`
 
-        - [x] [unit] 0001-planned-491477d934: (planned)
+        - [x] [unit] 0001-start-date-793f1ba129: Start date
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0001-planned-491477d934/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0011-start-date-6dff5d82d7/0001-start-date-793f1ba129/translation.md>)
 
-        - [x] [unit] 0002-applied-dcbdc9596c: (applied)
+    - [ ] [wrapper] 0012-n-a-186014e292 (0/1)
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0002-applied-dcbdc9596c/translation.md>)
+      [W] `0012-n-a-186014e292`
 
-        - [x] [unit] 0003-granted-cbf3064821: (granted)
+        - [ ] [unit] 0001-n-a-f394309d08: N/A
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0003-granted-cbf3064821/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0012-n-a-186014e292/0001-n-a-f394309d08/translation.md>)
 
-        - [x] [unit] 0004-rejected-6ad3995440: (rejected)
+    - [x] [wrapper] 0013-end-date-3fa960d0f6 (1/1)
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0004-rejected-6ad3995440/translation.md>)
+      [W] `0013-end-date-3fa960d0f6`
 
-        - [x] [unit] 0005-grant-number-not-yet-given-cf039a3246: grant number not yet given
+        - [x] [unit] 0001-end-date-2100296f3a: End date
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0005-grant-number-not-yet-given-cf039a3246/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0013-end-date-3fa960d0f6/0001-end-date-2100296f3a/translation.md>)
 
-        - [x] [unit] 0006-planned-491477d934-2: (planned)
+    - [ ] [wrapper] 0014-n-a-1ffdd71ef6 (0/1)
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0006-planned-491477d934-2/translation.md>)
+      [W] `0014-n-a-1ffdd71ef6`
 
-        - [x] [unit] 0007-applied-dcbdc9596c-2: (applied)
+        - [ ] [unit] 0001-n-a-49dd56a009: N/A
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0007-applied-dcbdc9596c-2/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0014-n-a-1ffdd71ef6/0001-n-a-49dd56a009/translation.md>)
 
-        - [x] [unit] 0008-granted-cbf3064821-2: (granted)
+    - [x] [wrapper] 0015-funding-5d92399888 (1/1)
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0008-granted-cbf3064821-2/translation.md>)
+      [W] `0015-funding-5d92399888`
 
-        - [x] [unit] 0009-rejected-6ad3995440-2: (rejected)
+        - [x] [unit] 0001-funding-ac4e3b19a4: Funding
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0009-rejected-6ad3995440-2/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0015-funding-5d92399888/0001-funding-ac4e3b19a4/translation.md>)
 
-        - [x] [unit] 0010-funding-information-has-not-been-provided-2fa6370da0: Funding information has not been provided.
+    - [x] [wrapper] 0016-funding-information-has-not-been-provided-3580827aa9 (1/1)
 
-          [T] [translation](<tree/src/projects.html.j2/0011-planned-applied-granted-rejected-grant-number-not-yet-a489fb6bcb/0010-funding-information-has-not-been-provided-2fa6370da0/translation.md>)
+      [W] `0016-funding-information-has-not-been-provided-3580827aa9`
 
-    - [x] [wrapper] 0012-there-are-no-projects-described-for-this-dmp-60c01c963f (1/1)
+        - [x] [unit] 0001-funding-information-has-not-been-provided-3a5483beaa: Funding information has not been provided.
 
-      [W] `0012-there-are-no-projects-described-for-this-dmp-60c01c963f`
+          [T] [translation](<tree/src/projects.html.j2/0016-funding-information-has-not-been-provided-3580827aa9/0001-funding-information-has-not-been-provided-3a5483beaa/translation.md>)
 
-        - [x] [unit] 0001-there-are-no-projects-described-for-this-dmp-7282aecc5c: There are no projects described for this DMP.
+    - [x] [wrapper] 0017-there-are-no-projects-described-for-this-dmp-60c01c963f (1/1)
 
-          [T] [translation](<tree/src/projects.html.j2/0012-there-are-no-projects-described-for-this-dmp-60c01c963f/0001-there-are-no-projects-described-for-this-dmp-7282aecc5c/translation.md>)
+      [W] `0017-there-are-no-projects-described-for-this-dmp-60c01c963f`
+
+        - [x] [unit] 0001-there-are-no-projects-described-for-this-dmp-1d8e91ed92: There are no projects described for this DMP.
+
+          [T] [translation](<tree/src/projects.html.j2/0017-there-are-no-projects-described-for-this-dmp-60c01c963f/0001-there-are-no-projects-described-for-this-dmp-1d8e91ed92/translation.md>)
 
 - [x] [file] src/publication-summary.html.j2 (8/8)
 
