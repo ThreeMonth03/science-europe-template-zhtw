@@ -4416,7 +4416,7 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0047-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-85f4013889/translation.md>)
 
-- [x] [file] src/questions/11-data-preservation.html.j2 (36/36)
+- [ ] [file] src/questions/11-data-preservation.html.j2 (34/39)
 
   [J2] `src/questions/11-data-preservation.html.j2`
 
@@ -4508,161 +4508,185 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0011-please-check-how-the-prepaid-retention-period-relates-28c44daf09/0001-please-check-how-the-prepaid-retention-period-relates-ee15ad2775/translation.md>)
 
-    - [x] [wrapper] 0012-the-metadata-will-be-available-even-when-the-b23c1d0a38 (1/1)
+    - [x] [wrapper] 0012-the-metadata-will-be-available-even-when-the-adbbee8d1f (1/1)
 
-      [W] `0012-the-metadata-will-be-available-even-when-the-b23c1d0a38`
+      [W] `0012-the-metadata-will-be-available-even-when-the-adbbee8d1f`
 
         - [x] [unit] 0001-the-metadata-will-be-available-even-when-the-cee78bdc3e: The metadata will be available even when the data no longer exists.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0012-the-metadata-will-be-available-even-when-the-b23c1d0a38/0001-the-metadata-will-be-available-even-when-the-cee78bdc3e/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0012-the-metadata-will-be-available-even-when-the-adbbee8d1f/0001-the-metadata-will-be-available-even-when-the-cee78bdc3e/translation.md>)
 
-    - [x] [wrapper] 0013-distribution-domain-specific-repository-we-don-t-need-01140dc144 (12/12)
+    - [x] [wrapper] 0013-the-metadata-will-not-remain-available-once-the-73108c444c (1/1)
 
-      [W] `0013-distribution-domain-specific-repository-we-don-t-need-01140dc144`
+      [W] `0013-the-metadata-will-not-remain-available-once-the-73108c444c`
 
-        - [x] [unit] 0001-distribution-131350bf1d: Distribution {loop.index}:
+        - [x] [unit] 0001-the-metadata-will-not-remain-available-once-the-cc635f7a5f: The metadata will not remain available once the data no longer exists.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0001-distribution-131350bf1d/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-the-metadata-will-not-remain-available-once-the-73108c444c/0001-the-metadata-will-not-remain-available-once-the-cc635f7a5f/translation.md>)
 
-        - [x] [unit] 0002-domain-specific-repository-f9365a7e48: Domain-specific repository
+    - [ ] [wrapper] 0014-we-will-add-a-reference-to-the-published-c1c3ecabf7 (0/1)
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0002-domain-specific-repository-f9365a7e48/translation.md>)
+      [W] `0014-we-will-add-a-reference-to-the-published-c1c3ecabf7`
 
-        - [x] [unit] 0003-we-don-t-need-to-contact-the-repository-ac7ebce306: We don't need to contact the repository because it is a routine for us.
+        - [ ] [unit] 0001-we-will-add-a-reference-to-the-published-6f95c721ce: We will add a reference to the published data in at least one data catalogue.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0003-we-don-t-need-to-contact-the-repository-ac7ebce306/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-we-will-add-a-reference-to-the-published-c1c3ecabf7/0001-we-will-add-a-reference-to-the-published-6f95c721ce/translation.md>)
 
-        - [x] [unit] 0004-we-have-already-contacted-the-repository-300814e3eb: We have already contacted the repository.
+    - [x] [wrapper] 0015-we-will-not-add-a-reference-to-the-ca30910d76 (1/1)
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0004-we-have-already-contacted-the-repository-300814e3eb/translation.md>)
+      [W] `0015-we-will-not-add-a-reference-to-the-ca30910d76`
 
-        - [x] [unit] 0005-we-are-going-to-contact-the-repository-8e091472cb: We are going to contact the repository.
+        - [x] [unit] 0001-we-will-not-add-a-reference-to-the-b9ba21bdbb: We will not add a reference to the published data in a data catalogue.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0005-we-are-going-to-contact-the-repository-8e091472cb/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0015-we-will-not-add-a-reference-to-the-ca30910d76/0001-we-will-not-add-a-reference-to-the-b9ba21bdbb/translation.md>)
 
-        - [x] [unit] 0006-other-repository-contact-arrangements-5c944bf488: Other repository contact arrangements:
+    - [x] [wrapper] 0016-we-will-not-add-a-separate-data-catalogue-54454a4c5c (1/1)
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0006-other-repository-contact-arrangements-5c944bf488/translation.md>)
+      [W] `0016-we-will-not-add-a-separate-data-catalogue-54454a4c5c`
 
-        - [x] [unit] 0007-the-other-repository-contact-arrangements-have-not-been-ce399d64af: The other repository contact arrangements have not been described.
+        - [x] [unit] 0001-we-will-not-add-a-separate-data-catalogue-b812f55489: We will not add a separate data catalogue reference because the repository is the main source of reusable data in this field.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0007-the-other-repository-contact-arrangements-have-not-been-ce399d64af/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0016-we-will-not-add-a-separate-data-catalogue-54454a4c5c/0001-we-will-not-add-a-separate-data-catalogue-b812f55489/translation.md>)
 
-        - [x] [unit] 0008-general-purpose-repository-5ec79ada72: General-purpose repository
+    - [ ] [wrapper] 0017-distribution-domain-specific-repository-we-don-t-need-01140dc144 (8/12)
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0008-general-purpose-repository-5ec79ada72/translation.md>)
+      [W] `0017-distribution-domain-specific-repository-we-don-t-need-01140dc144`
 
-        - [x] [unit] 0009-our-national-repository-a39cf35b2b: Our national repository.
+        - [x] [unit] 0001-distribution-fc92600eeb: Distribution {loop.index}:
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0009-our-national-repository-a39cf35b2b/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0001-distribution-fc92600eeb/translation.md>)
 
-        - [x] [unit] 0010-our-institutional-repository-eb50f5cd2f: Our institutional repository.
+        - [ ] [unit] 0002-domain-specific-repository-dd385a4f4c: Domain-specific repository
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0010-our-institutional-repository-eb50f5cd2f/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0002-domain-specific-repository-dd385a4f4c/translation.md>)
 
-        - [x] [unit] 0011-the-selected-repository-type-cannot-be-described-by-43db857a79: The selected repository type cannot be described by this template.
+        - [ ] [unit] 0003-we-don-t-need-to-contact-the-repository-ecb4e1ecb5: We don't need to contact the repository because it is a routine for us.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0011-the-selected-repository-type-cannot-be-described-by-43db857a79/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0003-we-don-t-need-to-contact-the-repository-ecb4e1ecb5/translation.md>)
 
-        - [x] [unit] 0012-the-repository-for-this-distribution-has-not-been-d9c6dd8509: The repository for this distribution has not been specified.
+        - [ ] [unit] 0004-we-have-already-contacted-the-repository-6c485869df: We have already contacted the repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0013-distribution-domain-specific-repository-we-don-t-need-01140dc144/0012-the-repository-for-this-distribution-has-not-been-d9c6dd8509/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0004-we-have-already-contacted-the-repository-6c485869df/translation.md>)
 
-    - [x] [wrapper] 0014-preservation-destinations-by-distribution-27b12005b0 (1/1)
+        - [ ] [unit] 0005-we-are-going-to-contact-the-repository-6c24ef100c: We are going to contact the repository.
 
-      [W] `0014-preservation-destinations-by-distribution-27b12005b0`
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0005-we-are-going-to-contact-the-repository-6c24ef100c/translation.md>)
 
-        - [x] [unit] 0001-preservation-destinations-by-distribution-76aa381398: Preservation destinations by distribution:
+        - [x] [unit] 0006-other-repository-contact-arrangements-d58fa55efb: Other repository contact arrangements:
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0014-preservation-destinations-by-distribution-27b12005b0/0001-preservation-destinations-by-distribution-76aa381398/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0006-other-repository-contact-arrangements-d58fa55efb/translation.md>)
 
-    - [x] [wrapper] 0015-we-will-add-a-reference-to-the-published-3d369f2672 (1/1)
+        - [x] [unit] 0007-the-other-repository-contact-arrangements-have-not-been-1d82a79d0a: The other repository contact arrangements have not been described.
 
-      [W] `0015-we-will-add-a-reference-to-the-published-3d369f2672`
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0007-the-other-repository-contact-arrangements-have-not-been-1d82a79d0a/translation.md>)
 
-        - [x] [unit] 0001-we-will-add-a-reference-to-the-published-a43da17c7a: We will add a reference to the published data in at least one data catalogue.
+        - [x] [unit] 0008-general-purpose-repository-9b379b7a69: General-purpose repository
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0015-we-will-add-a-reference-to-the-published-3d369f2672/0001-we-will-add-a-reference-to-the-published-a43da17c7a/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0008-general-purpose-repository-9b379b7a69/translation.md>)
 
-    - [x] [wrapper] 0016-no-name-given-b380d61313 (1/1)
+        - [x] [unit] 0009-our-national-repository-6eefac405c: Our national repository.
 
-      [W] `0016-no-name-given-b380d61313`
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0009-our-national-repository-6eefac405c/translation.md>)
 
-        - [x] [unit] 0001-no-name-given-1d45966ce8: (no name given)
+        - [x] [unit] 0010-our-institutional-repository-f4cc5682bb: Our institutional repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0016-no-name-given-b380d61313/0001-no-name-given-1d45966ce8/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0010-our-institutional-repository-f4cc5682bb/translation.md>)
 
-    - [x] [wrapper] 0017-the-repositories-we-use-do-not-charge-for-e2b05f666b (1/1)
+        - [x] [unit] 0011-the-selected-repository-type-cannot-be-described-by-2a429e4b1b: The selected repository type cannot be described by this template.
 
-      [W] `0017-the-repositories-we-use-do-not-charge-for-e2b05f666b`
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0011-the-selected-repository-type-cannot-be-described-by-2a429e4b1b/translation.md>)
 
-        - [x] [unit] 0001-the-repositories-we-use-do-not-charge-for-7ba9cb3251: The repositories we use do not charge for their services.
+        - [x] [unit] 0012-the-repository-for-this-distribution-has-not-been-7b8efaed6b: The repository for this distribution has not been specified.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-the-repositories-we-use-do-not-charge-for-e2b05f666b/0001-the-repositories-we-use-do-not-charge-for-7ba9cb3251/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-01140dc144/0012-the-repository-for-this-distribution-has-not-been-7b8efaed6b/translation.md>)
 
-    - [x] [wrapper] 0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed (1/1)
+    - [x] [wrapper] 0018-preservation-destinations-by-distribution-27b12005b0 (1/1)
 
-      [W] `0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed`
+      [W] `0018-preservation-destinations-by-distribution-27b12005b0`
 
-        - [x] [unit] 0001-the-project-budget-includes-the-repository-service-fees-64e577c63a: The project budget includes the repository service fees.
+        - [x] [unit] 0001-preservation-destinations-by-distribution-1b2a3a03c2: Preservation destinations by distribution:
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0018-the-project-budget-includes-the-repository-service-fees-f7e0a84eed/0001-the-project-budget-includes-the-repository-service-fees-64e577c63a/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0018-preservation-destinations-by-distribution-27b12005b0/0001-preservation-destinations-by-distribution-1b2a3a03c2/translation.md>)
 
-    - [x] [wrapper] 0019-a-participating-department-will-cover-the-repository-service-4a560a902f (1/1)
+    - [x] [wrapper] 0019-no-name-given-b380d61313 (1/1)
 
-      [W] `0019-a-participating-department-will-cover-the-repository-service-4a560a902f`
+      [W] `0019-no-name-given-b380d61313`
 
-        - [x] [unit] 0001-a-participating-department-will-cover-the-repository-service-85d53c5438: A participating department will cover the repository service fees.
+        - [x] [unit] 0001-no-name-given-e645815e97: (no name given)
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0019-a-participating-department-will-cover-the-repository-service-4a560a902f/0001-a-participating-department-will-cover-the-repository-service-85d53c5438/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0019-no-name-given-b380d61313/0001-no-name-given-e645815e97/translation.md>)
 
-    - [x] [wrapper] 0020-a-participating-institute-will-cover-the-repository-service-49522e7234 (1/1)
+    - [x] [wrapper] 0020-the-repositories-we-use-do-not-charge-for-e2b05f666b (1/1)
 
-      [W] `0020-a-participating-institute-will-cover-the-repository-service-49522e7234`
+      [W] `0020-the-repositories-we-use-do-not-charge-for-e2b05f666b`
 
-        - [x] [unit] 0001-a-participating-institute-will-cover-the-repository-service-459b840ed0: A participating institute will cover the repository service fees.
+        - [x] [unit] 0001-the-repositories-we-use-do-not-charge-for-640364bf9d: The repositories we use do not charge for their services.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0020-a-participating-institute-will-cover-the-repository-service-49522e7234/0001-a-participating-institute-will-cover-the-repository-service-459b840ed0/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0020-the-repositories-we-use-do-not-charge-for-e2b05f666b/0001-the-repositories-we-use-do-not-charge-for-640364bf9d/translation.md>)
 
-    - [x] [wrapper] 0021-other-arrangements-for-paying-repository-costs-03de836cea (1/1)
+    - [x] [wrapper] 0021-the-project-budget-includes-the-repository-service-fees-f7e0a84eed (1/1)
 
-      [W] `0021-other-arrangements-for-paying-repository-costs-03de836cea`
+      [W] `0021-the-project-budget-includes-the-repository-service-fees-f7e0a84eed`
 
-        - [x] [unit] 0001-other-arrangements-for-paying-repository-costs-cbe3783822: Other arrangements for paying repository costs:
+        - [x] [unit] 0001-the-project-budget-includes-the-repository-service-fees-a02df63b12: The project budget includes the repository service fees.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0021-other-arrangements-for-paying-repository-costs-03de836cea/0001-other-arrangements-for-paying-repository-costs-cbe3783822/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0021-the-project-budget-includes-the-repository-service-fees-f7e0a84eed/0001-the-project-budget-includes-the-repository-service-fees-a02df63b12/translation.md>)
 
-    - [x] [wrapper] 0022-we-have-allocated-funds-for-the-time-and-1693ed3606 (1/1)
+    - [x] [wrapper] 0022-a-participating-department-will-cover-the-repository-service-4a560a902f (1/1)
 
-      [W] `0022-we-have-allocated-funds-for-the-time-and-1693ed3606`
+      [W] `0022-a-participating-department-will-cover-the-repository-service-4a560a902f`
 
-        - [x] [unit] 0001-we-have-allocated-funds-for-the-time-and-faa2058f43: We have allocated funds for the time and effort needed to prepare the data for publication.
+        - [x] [unit] 0001-a-participating-department-will-cover-the-repository-service-c01dd9e923: A participating department will cover the repository service fees.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0022-we-have-allocated-funds-for-the-time-and-1693ed3606/0001-we-have-allocated-funds-for-the-time-and-faa2058f43/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0022-a-participating-department-will-cover-the-repository-service-4a560a902f/0001-a-participating-department-will-cover-the-repository-service-c01dd9e923/translation.md>)
 
-    - [x] [wrapper] 0023-repository-costs-and-publication-preparation-becdeb534d (1/1)
+    - [x] [wrapper] 0023-a-participating-institute-will-cover-the-repository-service-49522e7234 (1/1)
 
-      [W] `0023-repository-costs-and-publication-preparation-becdeb534d`
+      [W] `0023-a-participating-institute-will-cover-the-repository-service-49522e7234`
 
-        - [x] [unit] 0001-repository-costs-and-publication-preparation-70b349e703: Repository costs and publication preparation
+        - [x] [unit] 0001-a-participating-institute-will-cover-the-repository-service-1573410503: A participating institute will cover the repository service fees.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0023-repository-costs-and-publication-preparation-becdeb534d/0001-repository-costs-and-publication-preparation-70b349e703/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0023-a-participating-institute-will-cover-the-repository-service-49522e7234/0001-a-participating-institute-will-cover-the-repository-service-1573410503/translation.md>)
 
-    - [x] [wrapper] 0024-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60 (1/1)
+    - [x] [wrapper] 0024-other-arrangements-for-paying-repository-costs-03de836cea (1/1)
 
-      [W] `0024-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60`
+      [W] `0024-other-arrangements-for-paying-repository-costs-03de836cea`
 
-        - [x] [unit] 0001-preservation-selection-still-requires-review-publication-decisions-and-339824e0ba: Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.
+        - [x] [unit] 0001-other-arrangements-for-paying-repository-costs-d389e58618: Other arrangements for paying repository costs:
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0024-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60/0001-preservation-selection-still-requires-review-publication-decisions-and-339824e0ba/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0024-other-arrangements-for-paying-repository-costs-03de836cea/0001-other-arrangements-for-paying-repository-costs-d389e58618/translation.md>)
 
-    - [x] [wrapper] 0025-this-document-does-not-yet-contain-an-answer-33896db936 (1/1)
+    - [x] [wrapper] 0025-we-have-allocated-funds-for-the-time-and-1693ed3606 (1/1)
 
-      [W] `0025-this-document-does-not-yet-contain-an-answer-33896db936`
+      [W] `0025-we-have-allocated-funds-for-the-time-and-1693ed3606`
 
-        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-258449bc6d: This document does not yet contain an answer about data selection and long-term preservation.
+        - [x] [unit] 0001-we-have-allocated-funds-for-the-time-and-99470b38e8: We have allocated funds for the time and effort needed to prepare the data for publication.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0025-this-document-does-not-yet-contain-an-answer-33896db936/0001-this-document-does-not-yet-contain-an-answer-258449bc6d/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0025-we-have-allocated-funds-for-the-time-and-1693ed3606/0001-we-have-allocated-funds-for-the-time-and-99470b38e8/translation.md>)
+
+    - [x] [wrapper] 0026-repository-costs-and-publication-preparation-becdeb534d (1/1)
+
+      [W] `0026-repository-costs-and-publication-preparation-becdeb534d`
+
+        - [x] [unit] 0001-repository-costs-and-publication-preparation-0cfc7e4e80: Repository costs and publication preparation
+
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0026-repository-costs-and-publication-preparation-becdeb534d/0001-repository-costs-and-publication-preparation-0cfc7e4e80/translation.md>)
+
+    - [x] [wrapper] 0027-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60 (1/1)
+
+      [W] `0027-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60`
+
+        - [x] [unit] 0001-preservation-selection-still-requires-review-publication-decisions-and-d82c191161: Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.
+
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0027-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60/0001-preservation-selection-still-requires-review-publication-decisions-and-d82c191161/translation.md>)
+
+    - [x] [wrapper] 0028-this-document-does-not-yet-contain-an-answer-33896db936 (1/1)
+
+      [W] `0028-this-document-does-not-yet-contain-an-answer-33896db936`
+
+        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-fc066721e1: This document does not yet contain an answer about data selection and long-term preservation.
+
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0028-this-document-does-not-yet-contain-an-answer-33896db936/0001-this-document-does-not-yet-contain-an-answer-fc066721e1/translation.md>)
 
 - [x] [file] src/questions/12-access-data.html.j2 (18/18)
 
