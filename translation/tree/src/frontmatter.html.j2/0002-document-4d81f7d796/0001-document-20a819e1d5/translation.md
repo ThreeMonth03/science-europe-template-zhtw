@@ -7,24 +7,24 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-(no name given) {projectItemNumberReply}
+Document: {dc.project.name}
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-（計畫名稱尚未提供）{projectItemNumberReply}
+文件名稱：{dc.project.name}
 ~~~
 
 <details>
 <summary>Machine metadata</summary>
 
-- Source File: `src/questions/15-required-resources.html.j2`
-- Wrapper Name: `__tr_block_0019`
-- Wrapper Order: `20`
-- Wrapper Key: `no-name-given-49b4df2086`
-- Unit Key: `no-name-given-7b2392a5fc`
-- Source Hash: `088299a42e36ff61a857c1b63cfb7bade4c0cbe5`
+- Source File: `src/frontmatter.html.j2`
+- Wrapper Name: `__tr_block_0001`
+- Wrapper Order: `2`
+- Wrapper Key: `document-4d81f7d796`
+- Unit Key: `document-20a819e1d5`
+- Source Hash: `168c8be0278090ca9b2647410b60e858c5516d02`
 
 Do not edit this section manually.
 

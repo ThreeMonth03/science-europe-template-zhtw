@@ -17,6 +17,7 @@
   "changed": [
     "src/budget-reading.html.j2",
     "src/contributors.html.j2",
+    "src/frontmatter.html.j2",
     "src/layout.css",
     "src/macros.html.j2",
     "src/pdf/index.html.j2",
@@ -47,14 +48,14 @@
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "b2be2159754445b7e2d9fb3b53d7985b76aecb0e9856367338ed03b53c69a6cb",
-      "candidate_metadata_sha256": "dc7edc77e1bc863a6c502af3b20712b8b28a80184c3278029034feacc3806962"
+      "candidate_tree_sha256": "040e1d73933c93b3257d573f8d1c1c7cbebc8610ab8f7782c25474d482bd60ac",
+      "candidate_metadata_sha256": "c53b082ed9b7013b4d0747ffad1a039618a58703ec0f8c03d82b7474210bcf60"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "4264f1a4643a84f28edf69db6ee103f55d294e769037bccd024fba8845add324",
-      "candidate_metadata_sha256": "2da733fac268078d5aea67060e3fd8ce2c86f4430d1e1b9a90401ec22fb26ebf"
+      "candidate_tree_sha256": "008c6d9e9ffb3c067e2c22e2551b87b5f5de0f1b892fb2c33b9f4c467ab2794f",
+      "candidate_metadata_sha256": "062cb545475ef1a316bbeb95d303f4e06cdb5fefbd0e888d2f0eafe00386921f"
     }
   }
 }
