@@ -23,6 +23,7 @@ def main():
     from test_preservation_coverage import archive_matrix, plain, AUTHORED
     from generate_pilot_fixtures import IDS, path
     from generate_preservation_fixtures import preservation_cases
+    from check_repository_profiles import preservation_schema
     phrases = json.loads((ROOT / 'docs/readability-phrases.json').read_text())
     cases = [r for r,_,_ in archive_matrix()] + [plain(c) for c in preservation_cases('en')]
     base = plain(); ap = path('preservingCUuid','archivedAfterQUuid','archivedAfterYesAUuid')
@@ -55,7 +56,7 @@ def main():
         env=Environment(loader=FileSystemLoader(args.build/folder),extensions=['jinja2.ext.do'])
         env.filters.update(reply_path=adapter.reply_path,reply_items=adapter.reply_items,reply_str_value=adapter.reply_str_value,markdown=lambda v:v)
         template=env.from_string("{% import 'src/macros.html.j2' as macros with context %}{% import 'src/uuids.j2' as uuids with context %}{% include 'src/questions/11-data-preservation.html.j2' %}")
-        rendered.append([BeautifulSoup(template.render(repliesMap=replies),'html.parser') for replies in cases])
+        rendered.append([BeautifulSoup(template.render(repliesMap=replies, km=preservation_schema()),'html.parser') for replies in cases])
     for en,zh in zip(*rendered):
         a,b=[s.select('[data-fact-id]') for s in (en,zh)]
         assert [(n['data-fact-id'],n['data-status']) for n in a]==[(n['data-fact-id'],n['data-status']) for n in b]

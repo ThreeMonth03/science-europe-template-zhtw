@@ -17,6 +17,7 @@ def main():
     import test_science_europe_contract as adapter
     from test_sharing_preservation import matrix_cases, AUTHORED
     from generate_sharing_fixtures import sharing_cases
+    from check_repository_profiles import preservation_schema
     count = 0
     for language, folder in [('english', 'en'), ('chinese', 'translated')]:
         env = Environment(loader=FileSystemLoader(args.build / folder), extensions=['jinja2.ext.do'])
@@ -24,7 +25,7 @@ def main():
         env.tests['true'] = lambda v: v is True
         def render(question, replies):
             template = env.from_string("{% import 'src/macros.html.j2' as macros with context %}{% import 'src/uuids.j2' as uuids with context %}{% include 'src/questions/" + question + "' %}")
-            return BeautifulSoup(template.render(repliesMap=replies), 'html.parser')
+            return BeautifulSoup(template.render(repliesMap=replies, km=preservation_schema()), 'html.parser')
         for replies, access, metadata, has_custom in matrix_cases():
             soup = render('10-share-restrictions.html.j2', replies)
             proc = soup.select_one('.restriction-process')
