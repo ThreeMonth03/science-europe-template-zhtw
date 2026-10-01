@@ -388,5 +388,15 @@
   "Only a small volume of data is expected.": "預估資料量不大。",
   "The estimated data volume is {formatTotalQuantity}.": "預估資料量為 {formatTotalQuantity}。",
   "We expect {formatsVolumeFiles} files, with an estimated average size of {formatAverageQuantity}.": "預估共有 {formatsVolumeFiles} 個檔案，平均每個檔案約 {formatAverageQuantity}。",
-  "We expect {formatsVolumeFiles} files.": "預估共有 {formatsVolumeFiles} 個檔案。"
+  "We expect {formatsVolumeFiles} files.": "預估共有 {formatsVolumeFiles} 個檔案。",
+  "The stated legal basis for processing these data under the GDPR is public interest.": "問卷所述依 GDPR 處理這些資料的法律依據為公共利益。",
+  "The stated legal basis for processing these data under the GDPR is consent from the data subjects.": "問卷所述依 GDPR 處理這些資料的法律依據為資料當事人的同意。",
+  "The consent also covers our reuse.": "該同意亦涵蓋本計畫的資料再利用。",
+  "The consent does not cover our reuse; new consent will be needed.": "該同意未涵蓋本計畫的資料再利用，須另行取得同意。",
+  "The stated legal basis for processing these data is a legal obligation.": "問卷所述處理這些資料的法律依據為履行法律義務。",
+  "The stated legal basis for processing these data is the protection of vital interests of the data subjects.": "問卷所述處理這些資料的法律依據為保護資料當事人的重大利益。",
+  "The stated legal basis for processing these data is legitimate interests.": "問卷所述處理這些資料的法律依據為正當利益。",
+  "The stated legal basis for processing these data is performance of a contract with the data subjects.": "問卷所述處理這些資料的法律依據為履行與資料當事人訂立的契約。",
+  "We will provide others with standardized, machine-readable metadata and we will use the following metadata standards: {namedMetadataStandards}.": "我們將提供標準化且機器可讀的後設資料，並採用以下後設資料標準：{namedMetadataStandards}。",
+  "References to other datasets:": "其他資料集的參照資訊："
 }
