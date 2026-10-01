@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-People can apply to an existing data access committee.
+A data sharing agreement will be required.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-可向既有資料取用委員會申請。
+需要資料共享協議。
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ People can apply to an existing data access committee.
 - Source File: `src/questions/10-share-restrictions.html.j2`
 - Wrapper Name: `__tr_block_0042`
 - Wrapper Order: `43`
-- Wrapper Key: `a-data-sharing-agreement-will-be-required-people-72d4f5e8c4`
-- Unit Key: `people-can-apply-to-an-existing-data-access-b746bdb648`
-- Source Hash: `080d02de3a0d2a9b0cda8bad9d69a8b8e2cdcb87`
+- Wrapper Key: `a-data-sharing-agreement-will-be-required-people-40e33e542b`
+- Unit Key: `a-data-sharing-agreement-will-be-required-cf86f0b8a0`
+- Source Hash: `e7e4ad12031b8a5866d749ff7aa0e2664fa0a17e`
 
 Do not edit this section manually.
 

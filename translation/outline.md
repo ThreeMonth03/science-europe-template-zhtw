@@ -4024,7 +4024,7 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-2a3a4167e8/translation.md>)
 
-- [x] [file] src/questions/10-share-restrictions.html.j2 (53/53)
+- [x] [file] src/questions/10-share-restrictions.html.j2 (54/54)
 
   [J2] `src/questions/10-share-restrictions.html.j2`
 
@@ -4368,33 +4368,37 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-data-cannot-be-completely-open-due-to-legal-95a3529f52/0002-the-embargo-period-will-be-cdfadccf37/translation.md>)
 
-    - [x] [wrapper] 0043-a-data-sharing-agreement-will-be-required-people-72d4f5e8c4 (6/6)
+    - [x] [wrapper] 0043-a-data-sharing-agreement-will-be-required-people-40e33e542b (7/7)
 
-      [W] `0043-a-data-sharing-agreement-will-be-required-people-72d4f5e8c4`
+      [W] `0043-a-data-sharing-agreement-will-be-required-people-40e33e542b`
 
         - [x] [unit] 0001-a-data-sharing-agreement-will-be-required-cf86f0b8a0: A data sharing agreement will be required.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-72d4f5e8c4/0001-a-data-sharing-agreement-will-be-required-cf86f0b8a0/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0001-a-data-sharing-agreement-will-be-required-cf86f0b8a0/translation.md>)
 
         - [x] [unit] 0002-people-can-apply-to-one-of-the-project-cf5a7bf86d: People can apply to one of the project members.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-72d4f5e8c4/0002-people-can-apply-to-one-of-the-project-cf5a7bf86d/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0002-people-can-apply-to-one-of-the-project-cf5a7bf86d/translation.md>)
 
         - [x] [unit] 0003-people-can-apply-to-the-data-access-committee-13651edd69: People can apply to the data access committee that we will set up.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-72d4f5e8c4/0003-people-can-apply-to-the-data-access-committee-13651edd69/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0003-people-can-apply-to-the-data-access-committee-13651edd69/translation.md>)
 
-        - [x] [unit] 0004-people-can-apply-to-the-following-data-access-9e460c863b: People can apply to the following data access committee: {legalReasonsAuthorizeOldCommittee}
+        - [x] [unit] 0004-people-can-apply-to-the-following-data-access-2ddd7d1c62: People can apply to the following data access committee:
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-72d4f5e8c4/0004-people-can-apply-to-the-following-data-access-9e460c863b/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0004-people-can-apply-to-the-following-data-access-2ddd7d1c62/translation.md>)
 
         - [x] [unit] 0005-people-can-apply-to-an-existing-data-access-b746bdb648: People can apply to an existing data access committee.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-72d4f5e8c4/0005-people-can-apply-to-an-existing-data-access-b746bdb648/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0005-people-can-apply-to-an-existing-data-access-b746bdb648/translation.md>)
 
-        - [x] [unit] 0006-for-the-authorization-of-potential-users-we-will-426b74394e: For the authorization of potential users, we will make special arrangements{legalReasonsAuthorizeOther}
+        - [x] [unit] 0006-for-the-authorization-of-potential-users-we-will-94d68d621e: For the authorization of potential users, we will make special arrangements:
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-72d4f5e8c4/0006-for-the-authorization-of-potential-users-we-will-426b74394e/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0006-for-the-authorization-of-potential-users-we-will-94d68d621e/translation.md>)
+
+        - [x] [unit] 0007-for-the-authorization-of-potential-users-we-will-fd5c8c90eb: For the authorization of potential users, we will make special arrangements.
+
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0007-for-the-authorization-of-potential-users-we-will-fd5c8c90eb/translation.md>)
 
     - [x] [wrapper] 0044-we-are-not-running-the-project-in-a-9f5968c070 (1/1)
 
