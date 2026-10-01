@@ -13,7 +13,7 @@ because the processing is necessary to protect vital interests.
 ### Translation (zh_Hant)
 
 ~~~jinja
-因保護重大利益所必需。
+此資料處理是保護重大利益所必需。
 ~~~
 
 <details>

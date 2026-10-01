@@ -13,7 +13,7 @@ because the processing is necessary to perform a contract.
 ### Translation (zh_Hant)
 
 ~~~jinja
-因履行契約所必需。
+此資料處理是履行契約所必需。
 ~~~
 
 <details>

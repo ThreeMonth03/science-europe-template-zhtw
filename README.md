@@ -1,10 +1,16 @@
 # Science Europe 客製繁體中文模板
 
-目前未發布修正的共用測試與 CI 配對限制，見[日常檢查指南](docs/testing.md)。
+目前候選修正的共用測試與 CI 配對限制，見[日常檢查指南](docs/testing.md)。
 本頁既有版本紀錄保留當時狀態，不代表新的修正已發布。
 
 這個 repo 翻譯 `ThreeMonth03/science-europe-template` 的客製英文模板。
 原有 `depositar/science-europe-template-zh_Hant` 仍對應官方英文來源。
+
+0.3.52 候選版收斂目前的已填資訊保留、中英文固定語句及 PDF／Word
+局部排版修補；796 份譯文沿既有流程產生，中文鎖定英文精確 commit。
+提交版保留 15 題、未具名項目的中性編號與使用者原文，不加入內部漏填提示。
+新版套件先完整驗證，再提供 0.3.51 歷史視圖；不改寫舊驗收檔。
+這是實驗候選版本，不代表已部署或 Microsoft Word 相容性認證。
 
 0.3.51 [第 3 題固定政策共用接句](docs/q3-policy-prose.md)接回英文共用來源，
 中文仍以完整英文 commit 配對建置。只合併符合條件的中文固定段落；英文、

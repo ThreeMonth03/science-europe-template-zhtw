@@ -10,6 +10,7 @@ import sys
 import zipfile
 from artifact_utils import sha
 from check_budget_grouping_integration import asset_uuid
+from current_source_repairs import is_q3_version
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT = json.loads((ROOT/'docs/submission-flow-prepared-delta.json').read_text())
@@ -54,7 +55,7 @@ def integrated_package(language,timestamp):
     return result
 
 def project_package(candidate,language,timestamp):
-    if candidate['version'] in ['0.3.48','0.3.49', '0.3.50', '0.3.51']:
+    if candidate['version'] in ['0.3.48','0.3.49', '0.3.50'] or is_q3_version(candidate['version']):
         from empty_section_spacing_integration import project_package as before_sections
         candidate=before_sections(candidate,language,timestamp)
     assert candidate==integrated_package(language,timestamp),'Unreviewed content, identity, UUID or conversion step'
@@ -63,7 +64,7 @@ def project_package(candidate,language,timestamp):
 def check_package(path,prepared,language,timestamp):
     with zipfile.ZipFile(path) as z:
         version=json.loads(z.read('template/template.json'))['version']
-    if version in ['0.3.50', '0.3.51']:
+    if version == '0.3.50' or is_q3_version(version):
         from word_empty_section_integration import check_package as check_current
         return check_current(path,prepared,language,timestamp)
     current=sources(prepared);project_sources(current,language)
@@ -100,7 +101,8 @@ def check(build,english,preview=False):
     project_source()
     manifest=json.loads((build/'manifest.json').read_text())
     assert manifest['status']==('preview' if preview else 'candidate')
-    assert manifest['source']['version']==manifest['translation']['version'] and manifest['source']['version'] in ['0.3.47','0.3.48','0.3.49', '0.3.50', '0.3.51']
+    version=manifest['source']['version']
+    assert version==manifest['translation']['version'] and (version in ['0.3.47','0.3.48','0.3.49', '0.3.50'] or is_q3_version(version))
     if not preview:
         assert all(not v['dirty'] for v in manifest['checkouts'].values())
         head=subprocess.check_output(['git','-C',str(english),'rev-parse','HEAD'],text=True).strip()
@@ -126,7 +128,7 @@ def check(build,english,preview=False):
             empty_questions=len(spacing.check(english,before,current)))
         assert branches[language]==dict(q1=1844,empty_questions=480)
     return dict(passed=True,source_integrated=True,release_acceptance=False,native_integrated_render_checked=False,
-        historical_scope=manifest['source']['version'] in ['0.3.48','0.3.49', '0.3.50', '0.3.51'],comparison_version='0.3.47',
+        historical_scope=version in ['0.3.48','0.3.49', '0.3.50'] or is_q3_version(version),comparison_version='0.3.47',
         translation_delta=chain['submission_flow'],packages=results,branch_checks=branches)
 
 if __name__=='__main__':

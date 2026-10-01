@@ -1340,7 +1340,7 @@
 
           [T] [translation](<tree/src/quality-control.html.j2/0017-it-has-not-been-specified-whether-quality-control-59607aedf9/0001-it-has-not-been-specified-whether-quality-control-75bf53cf19/translation.md>)
 
-- [x] [file] src/questions/01-how-data.html.j2 (70/70)
+- [ ] [file] src/questions/01-how-data.html.j2 (64/75)
 
   [J2] `src/questions/01-how-data.html.j2`
 
@@ -1416,101 +1416,121 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0009-re-used-datasets-cab1e5312b/0001-re-used-datasets-a68e45710e/translation.md>)
 
-    - [x] [wrapper] 0010-no-name-given-source-source-information-not-provided-996746122b (21/21)
+    - [ ] [wrapper] 0010-no-name-given-source-source-information-not-provided-2268259c16 (19/26)
 
-      [W] `0010-no-name-given-source-source-information-not-provided-996746122b`
+      [W] `0010-no-name-given-source-source-information-not-provided-2268259c16`
 
         - [x] [unit] 0001-no-name-given-3f3a72d334: (no name given)
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0001-no-name-given-3f3a72d334/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0001-no-name-given-3f3a72d334/translation.md>)
 
         - [x] [unit] 0002-source-f1fcb75bea: Source: {refDataWhere}.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0002-source-f1fcb75bea/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0002-source-f1fcb75bea/translation.md>)
 
         - [x] [unit] 0003-source-dd805941e2: Source: {refDataWhere}.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0003-source-dd805941e2/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0003-source-dd805941e2/translation.md>)
 
         - [x] [unit] 0004-information-not-provided-where-this-dataset-can-be-0813948465: Information not provided: where this dataset can be obtained.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0004-information-not-provided-where-this-dataset-can-be-0813948465/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0004-information-not-provided-where-this-dataset-can-be-0813948465/translation.md>)
 
         - [x] [unit] 0005-information-not-provided-the-purpose-for-which-this-39ff2c78d7: Information not provided: the purpose for which this dataset will be re-used.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0005-information-not-provided-the-purpose-for-which-this-39ff2c78d7/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0005-information-not-provided-the-purpose-for-which-this-39ff2c78d7/translation.md>)
 
         - [x] [unit] 0006-version-247e58dba7: Version.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0006-version-247e58dba7/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0006-version-247e58dba7/translation.md>)
 
         - [x] [unit] 0007-information-not-provided-which-version-of-this-dataset-2ed7b4be95: Information not provided: which version of this dataset will be used.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0007-information-not-provided-which-version-of-this-dataset-2ed7b4be95/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0007-information-not-provided-which-version-of-this-dataset-2ed7b4be95/translation.md>)
 
         - [x] [unit] 0008-if-a-new-version-becomes-available-during-the-0bbb02761d: If a new version becomes available during the project, the current version will continue to be used.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0008-if-a-new-version-becomes-available-during-the-0bbb02761d/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0008-if-a-new-version-becomes-available-during-the-0bbb02761d/translation.md>)
 
         - [x] [unit] 0009-if-a-new-version-becomes-available-during-the-633847f7db: If a new version becomes available during the project, it will be used for new analyses.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0009-if-a-new-version-becomes-available-during-the-633847f7db/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0009-if-a-new-version-becomes-available-during-the-633847f7db/translation.md>)
 
         - [x] [unit] 0010-if-a-new-version-becomes-available-during-the-2f488455ad: If a new version becomes available during the project, all analyses will be repeated using it.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0010-if-a-new-version-becomes-available-during-the-2f488455ad/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0010-if-a-new-version-becomes-available-during-the-2f488455ad/translation.md>)
 
         - [x] [unit] 0011-information-not-provided-how-new-dataset-versions-will-fb9f472472: Information not provided: how new dataset versions will be handled.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0011-information-not-provided-how-new-dataset-versions-will-fb9f472472/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0011-information-not-provided-how-new-dataset-versions-will-fb9f472472/translation.md>)
 
-        - [x] [unit] 0012-the-provider-will-keep-this-dataset-available-in-638aba30ca: The provider will keep this dataset available in the long term.
+        - [ ] [unit] 0012-each-dataset-will-remain-available-from-its-provider-9f8b1d9a07: Each dataset will remain available from its provider in the long term.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0012-the-provider-will-keep-this-dataset-available-in-638aba30ca/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0012-each-dataset-will-remain-available-from-its-provider-9f8b1d9a07/translation.md>)
 
-        - [x] [unit] 0013-we-will-retain-a-copy-of-this-dataset-159f77b6fd: We will retain a copy of this dataset and provide it alongside the research results.
+        - [x] [unit] 0013-the-provider-will-keep-this-dataset-available-in-638aba30ca: The provider will keep this dataset available in the long term.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0013-we-will-retain-a-copy-of-this-dataset-159f77b6fd/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0013-the-provider-will-keep-this-dataset-available-in-638aba30ca/translation.md>)
 
-        - [x] [unit] 0014-the-provider-will-keep-this-dataset-available-in-8bf9603e8d: The provider will keep this dataset available in the long term. We will also retain a copy and provide it alongside the research results.
+        - [ ] [unit] 0014-we-will-retain-a-copy-of-each-dataset-de97909b84: We will retain a copy of each dataset and provide these copies alongside the research results.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0014-the-provider-will-keep-this-dataset-available-in-8bf9603e8d/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0014-we-will-retain-a-copy-of-each-dataset-de97909b84/translation.md>)
 
-        - [x] [unit] 0015-this-dataset-is-freely-available-for-any-use-6a3a38a82a: This dataset is freely available for any use.
+        - [x] [unit] 0015-we-will-retain-a-copy-of-this-dataset-159f77b6fd: We will retain a copy of this dataset and provide it alongside the research results.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0015-this-dataset-is-freely-available-for-any-use-6a3a38a82a/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0015-we-will-retain-a-copy-of-this-dataset-159f77b6fd/translation.md>)
 
-        - [x] [unit] 0016-this-dataset-is-freely-available-with-an-obligation-cbfa3ae25d: This dataset is freely available with an obligation to cite the source.
+        - [ ] [unit] 0016-each-dataset-will-remain-available-from-its-provider-4cd52586ec: Each dataset will remain available from its provider in the long term. We will also retain a copy of each dataset and provide these copies alongside the research results.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0016-this-dataset-is-freely-available-with-an-obligation-cbfa3ae25d/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0016-each-dataset-will-remain-available-from-its-provider-4cd52586ec/translation.md>)
 
-        - [x] [unit] 0017-conditions-of-use-1318cad9d7: Conditions of use.
+        - [x] [unit] 0017-the-provider-will-keep-this-dataset-available-in-8bf9603e8d: The provider will keep this dataset available in the long term. We will also retain a copy and provide it alongside the research results.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0017-conditions-of-use-1318cad9d7/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0017-the-provider-will-keep-this-dataset-available-in-8bf9603e8d/translation.md>)
 
-        - [x] [unit] 0018-restrictions-apply-but-the-conditions-of-use-are-94aef677d9: Restrictions apply, but the conditions of use are not yet described.
+        - [ ] [unit] 0018-these-datasets-are-freely-available-for-any-use-a6d42ae16a: These datasets are freely available for any use.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0018-restrictions-apply-but-the-conditions-of-use-are-94aef677d9/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0018-these-datasets-are-freely-available-for-any-use-a6d42ae16a/translation.md>)
 
-        - [x] [unit] 0019-restrictions-apply-to-this-dataset-92da2c6778: Restrictions apply to this dataset.
+        - [ ] [unit] 0019-this-dataset-is-freely-available-for-any-use-c666200288: This dataset is freely available for any use.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0019-restrictions-apply-to-this-dataset-92da2c6778/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0019-this-dataset-is-freely-available-for-any-use-c666200288/translation.md>)
 
-        - [x] [unit] 0020-the-data-format-must-be-converted-before-use-1ecc3c594e: The data format must be converted before use.
+        - [ ] [unit] 0020-these-datasets-are-freely-available-with-an-obligation-0f6783c037: These datasets are freely available with an obligation to cite their sources.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0020-the-data-format-must-be-converted-before-use-1ecc3c594e/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0020-these-datasets-are-freely-available-with-an-obligation-0f6783c037/translation.md>)
 
-        - [x] [unit] 0021-the-data-can-be-used-directly-without-format-af01824480: The data can be used directly without format conversion.
+        - [ ] [unit] 0021-this-dataset-is-freely-available-with-an-obligation-37776d3964: This dataset is freely available with an obligation to cite the source.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-996746122b/0021-the-data-can-be-used-directly-without-format-af01824480/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0021-this-dataset-is-freely-available-with-an-obligation-37776d3964/translation.md>)
 
-    - [x] [wrapper] 0011-shared-arrangements-677449e315 (1/1)
+        - [x] [unit] 0022-conditions-of-use-1318cad9d7: Conditions of use.
 
-      [W] `0011-shared-arrangements-677449e315`
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0022-conditions-of-use-1318cad9d7/translation.md>)
 
-        - [x] [unit] 0001-shared-arrangements-3afb01614d: Shared arrangements.
+        - [x] [unit] 0023-restrictions-apply-but-the-conditions-of-use-are-94aef677d9: Restrictions apply, but the conditions of use are not yet described.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0011-shared-arrangements-677449e315/0001-shared-arrangements-3afb01614d/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0023-restrictions-apply-but-the-conditions-of-use-are-94aef677d9/translation.md>)
+
+        - [x] [unit] 0024-restrictions-apply-to-this-dataset-92da2c6778: Restrictions apply to this dataset.
+
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0024-restrictions-apply-to-this-dataset-92da2c6778/translation.md>)
+
+        - [x] [unit] 0025-the-data-format-must-be-converted-before-use-1ecc3c594e: The data format must be converted before use.
+
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0025-the-data-format-must-be-converted-before-use-1ecc3c594e/translation.md>)
+
+        - [x] [unit] 0026-the-data-can-be-used-directly-without-format-af01824480: The data can be used directly without format conversion.
+
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-no-name-given-source-source-information-not-provided-2268259c16/0026-the-data-can-be-used-directly-without-format-af01824480/translation.md>)
+
+    - [ ] [wrapper] 0011-shared-arrangements-98d8650d96 (0/1)
+
+      [W] `0011-shared-arrangements-98d8650d96`
+
+        - [ ] [unit] 0001-shared-arrangements-802268a230: Shared arrangements.
+
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0011-shared-arrangements-98d8650d96/0001-shared-arrangements-802268a230/translation.md>)
 
     - [x] [wrapper] 0012-the-following-arrangements-apply-to-all-reference-datasets-0006b5189d (1/1)
 
@@ -1520,85 +1540,85 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0012-the-following-arrangements-apply-to-all-reference-datasets-0006b5189d/0001-the-following-arrangements-apply-to-all-reference-datasets-f4e9684fca/translation.md>)
 
-    - [x] [wrapper] 0013-no-name-given-this-dataset-will-be-re-8d269ecdc5 (19/19)
+    - [ ] [wrapper] 0013-no-name-given-this-dataset-will-be-re-9e9918b390 (16/19)
 
-      [W] `0013-no-name-given-this-dataset-will-be-re-8d269ecdc5`
+      [W] `0013-no-name-given-this-dataset-will-be-re-9e9918b390`
 
         - [x] [unit] 0001-no-name-given-fcd6508939: (no name given)
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0001-no-name-given-fcd6508939/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0001-no-name-given-fcd6508939/translation.md>)
 
         - [x] [unit] 0002-this-dataset-will-be-re-used-aa947a56c6: This dataset will be re-used.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0002-this-dataset-will-be-re-used-aa947a56c6/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0002-this-dataset-will-be-re-used-aa947a56c6/translation.md>)
 
         - [x] [unit] 0003-source-4f22fc8a60: Source: {nrefDataWhere}.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0003-source-4f22fc8a60/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0003-source-4f22fc8a60/translation.md>)
 
         - [x] [unit] 0004-source-f1a7dc3380: Source: {nrefDataWhere}.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0004-source-f1a7dc3380/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0004-source-f1a7dc3380/translation.md>)
 
         - [x] [unit] 0005-information-not-provided-where-this-dataset-can-be-f029600635: Information not provided: where this dataset can be obtained.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0005-information-not-provided-where-this-dataset-can-be-f029600635/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0005-information-not-provided-where-this-dataset-can-be-f029600635/translation.md>)
 
         - [x] [unit] 0006-purpose-of-re-use-a2d100b755: Purpose of re-use.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0006-purpose-of-re-use-a2d100b755/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0006-purpose-of-re-use-a2d100b755/translation.md>)
 
         - [x] [unit] 0007-information-not-provided-the-purpose-for-which-this-4768d95a03: Information not provided: the purpose for which this dataset will be re-used.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0007-information-not-provided-the-purpose-for-which-this-4768d95a03/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0007-information-not-provided-the-purpose-for-which-this-4768d95a03/translation.md>)
 
         - [x] [unit] 0008-this-dataset-contains-personal-data-77ea79c591: This dataset contains personal data.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0008-this-dataset-contains-personal-data-77ea79c591/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0008-this-dataset-contains-personal-data-77ea79c591/translation.md>)
 
         - [x] [unit] 0009-the-stated-legal-basis-for-processing-these-data-6f0b20edda: The stated legal basis for processing these data under the GDPR is public interest.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0009-the-stated-legal-basis-for-processing-these-data-6f0b20edda/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0009-the-stated-legal-basis-for-processing-these-data-6f0b20edda/translation.md>)
 
         - [x] [unit] 0010-the-stated-legal-basis-for-processing-these-data-f510456805: The stated legal basis for processing these data under the GDPR is consent from the data subjects.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0010-the-stated-legal-basis-for-processing-these-data-f510456805/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0010-the-stated-legal-basis-for-processing-these-data-f510456805/translation.md>)
 
         - [x] [unit] 0011-the-consent-also-covers-our-reuse-88012ad8fc: The consent also covers our reuse.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0011-the-consent-also-covers-our-reuse-88012ad8fc/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0011-the-consent-also-covers-our-reuse-88012ad8fc/translation.md>)
 
         - [x] [unit] 0012-the-consent-does-not-cover-our-reuse-new-6c5fd53c57: The consent does not cover our reuse; new consent will be needed.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0012-the-consent-does-not-cover-our-reuse-new-6c5fd53c57/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0012-the-consent-does-not-cover-our-reuse-new-6c5fd53c57/translation.md>)
 
         - [x] [unit] 0013-the-stated-legal-basis-for-processing-these-data-1420ad0caa: The stated legal basis for processing these data is a legal obligation.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0013-the-stated-legal-basis-for-processing-these-data-1420ad0caa/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0013-the-stated-legal-basis-for-processing-these-data-1420ad0caa/translation.md>)
 
         - [x] [unit] 0014-the-stated-legal-basis-for-processing-these-data-9e576a5e0e: The stated legal basis for processing these data is the protection of vital interests of the data subjects.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0014-the-stated-legal-basis-for-processing-these-data-9e576a5e0e/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0014-the-stated-legal-basis-for-processing-these-data-9e576a5e0e/translation.md>)
 
         - [x] [unit] 0015-the-stated-legal-basis-for-processing-these-data-37b4a48df4: The stated legal basis for processing these data is legitimate interests.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0015-the-stated-legal-basis-for-processing-these-data-37b4a48df4/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0015-the-stated-legal-basis-for-processing-these-data-37b4a48df4/translation.md>)
 
         - [x] [unit] 0016-the-stated-legal-basis-for-processing-these-data-857230d33b: The stated legal basis for processing these data is performance of a contract with the data subjects.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0016-the-stated-legal-basis-for-processing-these-data-857230d33b/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0016-the-stated-legal-basis-for-processing-these-data-857230d33b/translation.md>)
 
-        - [x] [unit] 0017-the-existing-ethical-approval-under-research-ethics-laws-c88498d36f: The existing ethical approval under research ethics laws of this non-reference data covers our reuse.
+        - [ ] [unit] 0017-the-existing-ethical-approval-under-research-ethics-laws-beb08c3b66: The existing ethical approval under research ethics laws covers our re-use of this dataset.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0017-the-existing-ethical-approval-under-research-ethics-laws-c88498d36f/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0017-the-existing-ethical-approval-under-research-ethics-laws-beb08c3b66/translation.md>)
 
-        - [x] [unit] 0018-an-extension-of-existing-ethical-approval-under-research-c75a0fe467: An extension of existing ethical approval under research ethics laws of this non-reference data will be needed.
+        - [ ] [unit] 0018-the-existing-ethical-approval-under-research-ethics-laws-36f204e495: The existing ethical approval under research ethics laws will need to be extended to cover our re-use of this dataset.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0018-an-extension-of-existing-ethical-approval-under-research-c75a0fe467/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0018-the-existing-ethical-approval-under-research-ethics-laws-36f204e495/translation.md>)
 
-        - [x] [unit] 0019-new-ethical-approval-under-research-ethics-laws-of-18b7b882ca: New ethical approval under research ethics laws of this non-reference data will be needed to cover our usage of the data.
+        - [ ] [unit] 0019-new-ethical-approval-under-research-ethics-laws-will-8303278be9: New ethical approval under research ethics laws will be needed for our re-use of this dataset.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-8d269ecdc5/0019-new-ethical-approval-under-research-ethics-laws-of-18b7b882ca/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0019-new-ethical-approval-under-research-ethics-laws-will-8303278be9/translation.md>)
 
     - [x] [wrapper] 0014-information-not-provided-the-existing-datasets-considered-for-4b36e7cee7 (1/1)
 
@@ -2176,7 +2196,7 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0055-information-still-needed-efe9afd7cc/0001-information-still-needed-cb5e967faf/translation.md>)
 
-- [x] [file] src/questions/03-docs-metadata.html.j2 (52/52)
+- [ ] [file] src/questions/03-docs-metadata.html.j2 (47/52)
 
   [J2] `src/questions/03-docs-metadata.html.j2`
 
@@ -2300,33 +2320,33 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0015-information-not-provided-why-the-metadata-will-not-5e1ed580d2/0001-information-not-provided-why-the-metadata-will-not-50872fb0f9/translation.md>)
 
-    - [x] [wrapper] 0016-metadata-will-be-openly-available-including-instructions-how-e9e148399c (6/6)
+    - [ ] [wrapper] 0016-metadata-will-be-openly-available-including-instructions-on-92e6aa4c31 (1/6)
 
-      [W] `0016-metadata-will-be-openly-available-including-instructions-how-e9e148399c`
+      [W] `0016-metadata-will-be-openly-available-including-instructions-on-92e6aa4c31`
 
-        - [x] [unit] 0001-metadata-will-be-openly-available-including-instructions-how-6bb2bff341: Metadata will be openly available including instructions how to get access to the data.
+        - [ ] [unit] 0001-metadata-will-be-openly-available-including-instructions-on-cd05e7333d: Metadata will be openly available, including instructions on how to access the data.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-how-e9e148399c/0001-metadata-will-be-openly-available-including-instructions-how-6bb2bff341/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-on-92e6aa4c31/0001-metadata-will-be-openly-available-including-instructions-on-cd05e7333d/translation.md>)
 
-        - [x] [unit] 0002-metadata-will-be-openly-available-without-instructions-how-44a11c668b: Metadata will be openly available without instructions how to get access to the data.
+        - [ ] [unit] 0002-metadata-will-be-openly-available-without-instructions-on-11bd1d40bf: Metadata will be openly available without instructions on how to access the data.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-how-e9e148399c/0002-metadata-will-be-openly-available-without-instructions-how-44a11c668b/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-on-92e6aa4c31/0002-metadata-will-be-openly-available-without-instructions-on-11bd1d40bf/translation.md>)
 
         - [x] [unit] 0003-metadata-will-be-openly-available-6fa2c3c66b: Metadata will be openly available.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-how-e9e148399c/0003-metadata-will-be-openly-available-6fa2c3c66b/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-on-92e6aa4c31/0003-metadata-will-be-openly-available-6fa2c3c66b/translation.md>)
 
-        - [x] [unit] 0004-metadata-will-not-be-available-in-a-form-44942f808b: Metadata will not be available in a form that can be harvested and indexed.
+        - [ ] [unit] 0004-it-will-not-be-provided-in-a-form-043ae7ba51: It will not be provided in a form that can be harvested and indexed.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-how-e9e148399c/0004-metadata-will-not-be-available-in-a-form-44942f808b/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-on-92e6aa4c31/0004-it-will-not-be-provided-in-a-form-043ae7ba51/translation.md>)
 
-        - [x] [unit] 0005-metadata-will-be-available-in-a-form-that-c4ae8394b9: Metadata will be available in a form that can be harvested and indexed (managed by the used repository / repositories).
+        - [ ] [unit] 0005-the-selected-repository-or-repositories-will-provide-it-0faea083d9: The selected repository or repositories will provide it in a form that can be harvested and indexed.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-how-e9e148399c/0005-metadata-will-be-available-in-a-form-that-c4ae8394b9/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-on-92e6aa4c31/0005-the-selected-repository-or-repositories-will-provide-it-0faea083d9/translation.md>)
 
-        - [x] [unit] 0006-metadata-will-be-available-in-a-form-that-6a0425012c: Metadata will be available in a form that can be harvested and indexed.
+        - [ ] [unit] 0006-it-will-also-be-provided-in-a-form-e58b692c4a: It will also be provided in a form that can be harvested and indexed.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-how-e9e148399c/0006-metadata-will-be-available-in-a-form-that-6a0425012c/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0016-metadata-will-be-openly-available-including-instructions-on-92e6aa4c31/0006-it-will-also-be-provided-in-a-form-e58b692c4a/translation.md>)
 
     - [x] [wrapper] 0017-whether-the-metadata-will-include-instructions-for-accessing-d2fb11ec30 (1/1)
 
@@ -4048,7 +4068,7 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-2a3a4167e8/translation.md>)
 
-- [x] [file] src/questions/10-share-restrictions.html.j2 (54/54)
+- [ ] [file] src/questions/10-share-restrictions.html.j2 (50/54)
 
   [J2] `src/questions/10-share-restrictions.html.j2`
 
@@ -4124,13 +4144,13 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0009-domain-specific-repository-13d652ff32/0001-domain-specific-repository-a62205e7c2/translation.md>)
 
-    - [x] [wrapper] 0010-we-don-t-need-to-contact-the-repository-c92844c045 (1/1)
+    - [ ] [wrapper] 0010-we-do-not-need-to-contact-the-repository-80894678d5 (0/1)
 
-      [W] `0010-we-don-t-need-to-contact-the-repository-c92844c045`
+      [W] `0010-we-do-not-need-to-contact-the-repository-80894678d5`
 
-        - [x] [unit] 0001-we-don-t-need-to-contact-the-repository-f3715aa231: We don't need to contact the repository because it is a routine for us.
+        - [ ] [unit] 0001-we-do-not-need-to-contact-the-repository-3eb46ddae5: We do not need to contact the repository in advance because depositing data there is routine for us.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0010-we-don-t-need-to-contact-the-repository-c92844c045/0001-we-don-t-need-to-contact-the-repository-f3715aa231/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0010-we-do-not-need-to-contact-the-repository-80894678d5/0001-we-do-not-need-to-contact-the-repository-3eb46ddae5/translation.md>)
 
     - [x] [wrapper] 0011-we-have-already-contacted-the-repository-6471ccef52 (1/1)
 
@@ -4424,29 +4444,29 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0007-for-the-authorization-of-potential-users-we-will-fd5c8c90eb/translation.md>)
 
-    - [x] [wrapper] 0044-we-are-not-running-the-project-in-a-9f5968c070 (1/1)
+    - [ ] [wrapper] 0044-this-project-does-not-involve-collaboration-between-different-47a2085de5 (0/1)
 
-      [W] `0044-we-are-not-running-the-project-in-a-9f5968c070`
+      [W] `0044-this-project-does-not-involve-collaboration-between-different-47a2085de5`
 
-        - [x] [unit] 0001-we-are-not-running-the-project-in-a-ca33170e77: We are not running the project in a collaboration between different groups nor institutes. Therefore, no collaboration agreement related to data access is needed.
+        - [ ] [unit] 0001-this-project-does-not-involve-collaboration-between-different-6ae1946329: This project does not involve collaboration between different groups or institutions. Therefore, no collaboration agreement for data access is needed.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0044-we-are-not-running-the-project-in-a-9f5968c070/0001-we-are-not-running-the-project-in-a-ca33170e77/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0044-this-project-does-not-involve-collaboration-between-different-47a2085de5/0001-this-project-does-not-involve-collaboration-between-different-6ae1946329/translation.md>)
 
-    - [x] [wrapper] 0045-we-are-running-the-project-in-a-collaboration-4418efcc74 (1/1)
+    - [ ] [wrapper] 0045-this-project-involves-collaboration-between-different-groups-and-25986ee35c (0/1)
 
-      [W] `0045-we-are-running-the-project-in-a-collaboration-4418efcc74`
+      [W] `0045-this-project-involves-collaboration-between-different-groups-and-25986ee35c`
 
-        - [x] [unit] 0001-we-are-running-the-project-in-a-collaboration-4daf39d7fb: We are running the project in a collaboration between different groups and institutes. However, there is no collaboration agreement in the project that describes who can have access to what data.
+        - [ ] [unit] 0001-this-project-involves-collaboration-between-different-groups-and-7ce624e657: This project involves collaboration between different groups and institutions. However, no collaboration agreement is in place to specify who can access which project data.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0045-we-are-running-the-project-in-a-collaboration-4418efcc74/0001-we-are-running-the-project-in-a-collaboration-4daf39d7fb/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0045-this-project-involves-collaboration-between-different-groups-and-25986ee35c/0001-this-project-involves-collaboration-between-different-groups-and-7ce624e657/translation.md>)
 
-    - [x] [wrapper] 0046-we-are-running-the-project-in-a-collaboration-937ebd518e (1/1)
+    - [ ] [wrapper] 0046-this-project-involves-collaboration-between-different-groups-and-fa778d69b6 (0/1)
 
-      [W] `0046-we-are-running-the-project-in-a-collaboration-937ebd518e`
+      [W] `0046-this-project-involves-collaboration-between-different-groups-and-fa778d69b6`
 
-        - [x] [unit] 0001-we-are-running-the-project-in-a-collaboration-74640ec1e0: We are running the project in a collaboration between different groups and institutes. A collaboration agreement that describes who can have access to what data in the project is set.
+        - [ ] [unit] 0001-this-project-involves-collaboration-between-different-groups-and-0af5a93e4f: This project involves collaboration between different groups and institutions. A collaboration agreement is in place to specify who can access which project data.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0046-we-are-running-the-project-in-a-collaboration-937ebd518e/0001-we-are-running-the-project-in-a-collaboration-74640ec1e0/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0046-this-project-involves-collaboration-between-different-groups-and-fa778d69b6/0001-this-project-involves-collaboration-between-different-groups-and-0af5a93e4f/translation.md>)
 
     - [x] [wrapper] 0047-this-document-does-not-yet-describe-how-and-dc1e5de524 (1/1)
 
@@ -4456,7 +4476,7 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0047-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-85f4013889/translation.md>)
 
-- [x] [file] src/questions/11-data-preservation.html.j2 (39/39)
+- [ ] [file] src/questions/11-data-preservation.html.j2 (38/39)
 
   [J2] `src/questions/11-data-preservation.html.j2`
 
@@ -4588,57 +4608,57 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0016-we-will-not-add-a-separate-data-catalogue-54454a4c5c/0001-we-will-not-add-a-separate-data-catalogue-b812f55489/translation.md>)
 
-    - [x] [wrapper] 0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc (12/12)
+    - [ ] [wrapper] 0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf (11/12)
 
-      [W] `0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc`
+      [W] `0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf`
 
         - [x] [unit] 0001-distribution-fc92600eeb: Distribution {loop.index}:
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0001-distribution-fc92600eeb/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0001-distribution-fc92600eeb/translation.md>)
 
         - [x] [unit] 0002-domain-specific-repository-dd385a4f4c: Domain-specific repository
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0002-domain-specific-repository-dd385a4f4c/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0002-domain-specific-repository-dd385a4f4c/translation.md>)
 
-        - [x] [unit] 0003-we-don-t-need-to-contact-the-repository-ecb4e1ecb5: We don't need to contact the repository because it is a routine for us.
+        - [ ] [unit] 0003-we-do-not-need-to-contact-the-repository-900fd8cbd4: We do not need to contact the repository in advance because depositing data there is routine for us.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0003-we-don-t-need-to-contact-the-repository-ecb4e1ecb5/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0003-we-do-not-need-to-contact-the-repository-900fd8cbd4/translation.md>)
 
         - [x] [unit] 0004-we-have-already-contacted-the-repository-6c485869df: We have already contacted the repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0004-we-have-already-contacted-the-repository-6c485869df/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0004-we-have-already-contacted-the-repository-6c485869df/translation.md>)
 
         - [x] [unit] 0005-we-are-going-to-contact-the-repository-6c24ef100c: We are going to contact the repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0005-we-are-going-to-contact-the-repository-6c24ef100c/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0005-we-are-going-to-contact-the-repository-6c24ef100c/translation.md>)
 
         - [x] [unit] 0006-other-repository-contact-arrangements-d58fa55efb: Other repository contact arrangements:
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0006-other-repository-contact-arrangements-d58fa55efb/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0006-other-repository-contact-arrangements-d58fa55efb/translation.md>)
 
         - [x] [unit] 0007-the-other-repository-contact-arrangements-have-not-been-1d82a79d0a: The other repository contact arrangements have not been described.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0007-the-other-repository-contact-arrangements-have-not-been-1d82a79d0a/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0007-the-other-repository-contact-arrangements-have-not-been-1d82a79d0a/translation.md>)
 
         - [x] [unit] 0008-general-purpose-repository-9b379b7a69: General-purpose repository
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0008-general-purpose-repository-9b379b7a69/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0008-general-purpose-repository-9b379b7a69/translation.md>)
 
         - [x] [unit] 0009-our-national-repository-6eefac405c: Our national repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0009-our-national-repository-6eefac405c/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0009-our-national-repository-6eefac405c/translation.md>)
 
         - [x] [unit] 0010-our-institutional-repository-f4cc5682bb: Our institutional repository.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0010-our-institutional-repository-f4cc5682bb/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0010-our-institutional-repository-f4cc5682bb/translation.md>)
 
         - [x] [unit] 0011-the-selected-repository-type-cannot-be-described-by-2a429e4b1b: The selected repository type cannot be described by this template.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0011-the-selected-repository-type-cannot-be-described-by-2a429e4b1b/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0011-the-selected-repository-type-cannot-be-described-by-2a429e4b1b/translation.md>)
 
         - [x] [unit] 0012-the-repository-for-this-distribution-has-not-been-7b8efaed6b: The repository for this distribution has not been specified.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-don-t-need-3a32d8b4fc/0012-the-repository-for-this-distribution-has-not-been-7b8efaed6b/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0017-distribution-domain-specific-repository-we-do-not-need-6de31b6abf/0012-the-repository-for-this-distribution-has-not-been-7b8efaed6b/translation.md>)
 
     - [x] [wrapper] 0018-preservation-destinations-by-distribution-27b12005b0 (1/1)
 
@@ -4820,13 +4840,13 @@
 
           [T] [translation](<tree/src/questions/12-access-data.html.j2/0011-specific-software-is-required-to-use-this-dataset-aadb8b2c5f/0001-specific-software-is-required-to-use-this-dataset-548e2ffbbb/translation.md>)
 
-    - [x] [wrapper] 0012-no-name-given-550b695e1e (1/1)
+    - [x] [wrapper] 0012-no-name-given-3af7cd433d (1/1)
 
-      [W] `0012-no-name-given-550b695e1e`
+      [W] `0012-no-name-given-3af7cd433d`
 
         - [x] [unit] 0001-no-name-given-42f39e9a89: (no name given)
 
-          [T] [translation](<tree/src/questions/12-access-data.html.j2/0012-no-name-given-550b695e1e/0001-no-name-given-42f39e9a89/translation.md>)
+          [T] [translation](<tree/src/questions/12-access-data.html.j2/0012-no-name-given-3af7cd433d/0001-no-name-given-42f39e9a89/translation.md>)
 
     - [x] [wrapper] 0013-available-at-0a88cd0c71 (1/1)
 

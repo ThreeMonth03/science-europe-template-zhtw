@@ -13,7 +13,7 @@ because the processing is necessary to comply with a legal obligation.
 ### Translation (zh_Hant)
 
 ~~~jinja
-因履行法定義務所必需。
+此資料處理是履行法定義務所必需。
 ~~~
 
 <details>

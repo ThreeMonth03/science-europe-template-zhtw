@@ -2,17 +2,27 @@
 
 The candidate is validated byte-for-byte before the committed English source
 and layout preparation script reconstruct the historical prepared tree.  This
-keeps old integration proofs meaningful while 0.3.51 is repaired in place.
+keeps old integration proofs meaningful for the registered current candidate.
 """
 import hashlib
 import json
 from pathlib import Path
 import tempfile
 from copy import deepcopy
+from check_budget_grouping_integration import asset_uuid
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT = json.loads((ROOT / 'docs/current-source-repairs-delta.json').read_text())
 Q3 = json.loads((ROOT / 'docs/q3-policy-prose-delta.json').read_text())
+
+
+def is_current_version(version):
+    return version == CONTRACT['candidate_version']
+
+
+def is_q3_version(version):
+    """Route the frozen Q3 version and only the registered current candidate."""
+    return version == Q3['version'] or is_current_version(version)
 
 
 def sha(value):
@@ -94,8 +104,9 @@ def project_sources(current, language, historical_files):
 
 
 def project_package(candidate, language, timestamp, historical):
-    """Validate the complete current metadata, then restore frozen file rows."""
+    """Seal current metadata, then restore the exact frozen identity and files."""
     record = CONTRACT['languages'][language]
+    assert CONTRACT['release_approved'] is False, 'Development delta cannot approve release'
     assert candidate['createdAt'] == candidate['updatedAt'] == timestamp
     normalized = deepcopy(candidate)
     normalized['createdAt'] = normalized['updatedAt'] = '<timestamp>'
@@ -104,18 +115,34 @@ def project_package(candidate, language, timestamp, historical):
     ).encode()
     assert sha(encoded) == record['candidate_metadata_sha256'], \
         'Unreviewed current package identity, source, UUID, format or asset metadata'
-    current_files = {item['fileName']: item for item in candidate['files']}
+    assert is_current_version(candidate['version']), 'Unregistered candidate version'
+    assert historical['version'] == CONTRACT['baseline_version'] == Q3['version']
+    assert historical['id'].endswith(':' + historical['version'])
+    assert candidate['id'] == historical['id'][:-len(historical['version'])] + candidate['version'], \
+        'Candidate package identity is not the registered version-only change'
+    previous = deepcopy(candidate)
+    for kind in ['files', 'assets']:
+        assert len({item['fileName'] for item in candidate[kind]}) == len(candidate[kind])
+        for item in previous[kind]:
+            assert item['uuid'] == asset_uuid(candidate['id'], kind, item['fileName']), \
+                'Candidate file or asset UUID is not deterministic'
+            item['uuid'] = asset_uuid(historical['id'], kind, item['fileName'])
+        for item in historical[kind]:
+            assert item['uuid'] == asset_uuid(historical['id'], kind, item['fileName'])
+    previous['id'], previous['version'] = historical['id'], historical['version']
+    current_files = {item['fileName']: item for item in previous['files']}
     old_files = {item['fileName']: item for item in historical['files']}
     assert sorted(set(current_files) - set(old_files)) == CONTRACT['added']
     assert not set(old_files) - set(current_files)
     assert sorted(
         name for name in old_files if current_files[name] != old_files[name]
     ) == [name for name in CONTRACT['changed'] if name in old_files]
-    previous = deepcopy(candidate)
     previous['files'] = deepcopy(historical['files'])
     assert previous == historical, 'Current package cannot project exactly to frozen 0.3.51'
     return previous, {
         'current_file_records': len(candidate['files']),
         'historical_file_records': len(historical['files']),
+        'candidate_version': candidate['version'],
+        'historical_version': historical['version'],
         'candidate_metadata_sha256': record['candidate_metadata_sha256'],
     }

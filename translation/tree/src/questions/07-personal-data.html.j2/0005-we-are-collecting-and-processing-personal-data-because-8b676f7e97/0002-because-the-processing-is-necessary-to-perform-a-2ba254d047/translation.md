@@ -13,7 +13,7 @@ because the processing is necessary to perform a task carried out in the public 
 ### Translation (zh_Hant)
 
 ~~~jinja
-法律依據為執行公共利益任務。
+此資料處理是執行公共利益任務所必需。
 ~~~
 
 <details>

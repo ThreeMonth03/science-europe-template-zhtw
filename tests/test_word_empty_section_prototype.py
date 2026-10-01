@@ -37,12 +37,14 @@ class WordEmptySectionPrototypeTests(unittest.TestCase):
         self.assertEqual(delta['production_source_commit'],lock['production_source_commit'])
         self.assertEqual(delta['english_recipe_commit'],lock['english_recipe_commit'])
         current_version=config['source']['version']
-        if current_version=='0.3.51':
+        from current_source_repairs import CONTRACT as current_delta,is_q3_version
+        if is_q3_version(current_version):
             from q3_policy_prose_integration import integrated_package,project_package
             self.assertEqual(config['translation']['version'],current_version)
+            self.assertEqual(current_version,current_delta['candidate_version'])
             for language in ['english','chinese']:
                 current=integrated_package(language,'2000-01-01T00:00:00Z')
-                self.assertEqual(current['version'],current_version)
+                self.assertEqual(current['version'],current_delta['baseline_version'])
                 previous=project_package(current,language,'2000-01-01T00:00:00Z')
                 self.assertEqual(previous['version'],delta['version'])
         else:

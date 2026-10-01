@@ -14,6 +14,7 @@ import zipfile
 
 from artifact_utils import sha
 from check_budget_grouping_integration import asset_uuid
+from current_source_repairs import is_q3_version
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT = json.loads((ROOT / 'docs/full-km-followups-prepared-delta.json').read_text())
@@ -75,7 +76,7 @@ def integrated_package(language, timestamp):
 
 
 def project_package(candidate, language, timestamp):
-    if candidate['version'] in ['0.3.47', '0.3.48', '0.3.49', '0.3.50', '0.3.51']:
+    if candidate['version'] in ['0.3.47', '0.3.48', '0.3.49', '0.3.50'] or is_q3_version(candidate['version']):
         from submission_flow_integration import project_package as before_flow
         candidate = before_flow(candidate, language, timestamp)
         timestamp = candidate['createdAt']
@@ -114,7 +115,8 @@ def check_package(path, prepared, language, timestamp):
 def historical_build(build, destination):
     """Validate both actual packages before writing old ZIPs for the old byte oracle."""
     manifest = json.loads((build / 'manifest.json').read_text())
-    assert manifest['source']['version'] == manifest['translation']['version'] and manifest['source']['version'] in ['0.3.46', '0.3.47', '0.3.48', '0.3.49', '0.3.50', '0.3.51']
+    version = manifest['source']['version']
+    assert version == manifest['translation']['version'] and (version in ['0.3.46', '0.3.47', '0.3.48', '0.3.49', '0.3.50'] or is_q3_version(version))
     destination.mkdir(parents=True, exist_ok=False)
     for language, folder in [('english', 'en'), ('chinese', 'translated')]:
         path = build / (language + '.zip')
@@ -139,14 +141,14 @@ def check(build, english, preview=False):
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
     version = manifest['source']['version']
-    assert version == manifest['translation']['version'] and version in ['0.3.46', '0.3.47', '0.3.48', '0.3.49', '0.3.50', '0.3.51']
+    assert version == manifest['translation']['version'] and (version in ['0.3.46', '0.3.47', '0.3.48', '0.3.49', '0.3.50'] or is_q3_version(version))
     if not preview:
         assert all(not state['dirty'] for state in manifest['checkouts'].values())
         head = subprocess.check_output(['git', '-C', str(english), 'rev-parse', 'HEAD'], text=True).strip()
         assert manifest['source']['commit'] == manifest['checkouts']['english']['commit'] == head
     files = list((ROOT / 'translation/tree').rglob('translation.md'))
     _, chain = verify_submission_translation_chain([pair(p.read_text()) for p in files])
-    expected_units = chain['current_language_polish']['current_units'] if version == '0.3.51' else (775 if version in ['0.3.47', '0.3.48', '0.3.49', '0.3.50'] else 773)
+    expected_units = chain['current_language_polish']['current_units'] if is_q3_version(version) else (775 if version in ['0.3.47', '0.3.48', '0.3.49', '0.3.50'] else 773)
     assert manifest['translation_units'] == len(files) == expected_units and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256'] == {str(p.relative_to(ROOT / 'translation')): sha(p) for p in files}
     assert manifest['package_timestamp'] == package_timestamp(english)
@@ -155,12 +157,12 @@ def check(build, english, preview=False):
         path = build / (language + '.zip'); assert sha(path) == manifest['sha256'][path.name]
         packages[language] = check_package(path, build / folder, language, manifest['package_timestamp'])
         actual = sources(build / folder)
-        if version in ['0.3.47', '0.3.48', '0.3.49', '0.3.50', '0.3.51']:
+        if version in ['0.3.47', '0.3.48', '0.3.49', '0.3.50'] or is_q3_version(version):
             from submission_flow_integration import project_sources as before_flow
             actual = before_flow(actual, language)
         checks[language] = len(branches(english, actual)); assert checks[language] == 240
     return dict(passed=True, preview=preview, source_integrated=True, release_acceptance=False,
-        historical_scope=version in ['0.3.47', '0.3.48', '0.3.49', '0.3.50', '0.3.51'], comparison_version='0.3.46',
+        historical_scope=version in ['0.3.47', '0.3.48', '0.3.49', '0.3.50'] or is_q3_version(version), comparison_version='0.3.46',
         native_integrated_render_checked=False, global_switch_complete=False,
         translation_delta=chain['full_km_followups'], packages=packages, branch_checks=checks)
 

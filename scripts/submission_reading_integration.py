@@ -10,6 +10,7 @@ import zipfile
 from artifact_utils import sha
 from probe_pdf_budget_translation import pair
 from probe_personal_data_translation import verify_submission_translation_chain, project_submission_reading_translations
+from current_source_repairs import is_q3_version
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT = json.loads((ROOT / 'docs/submission-reading-prepared-delta.json').read_text())
@@ -104,7 +105,7 @@ def check(build, english, preview=False):
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
     version = manifest['source']['version']
-    assert version == manifest['translation']['version'] and version in ['0.3.45', '0.3.46', '0.3.47', '0.3.48', '0.3.49', '0.3.50', '0.3.51']
+    assert version == manifest['translation']['version'] and (version in ['0.3.45', '0.3.46', '0.3.47', '0.3.48', '0.3.49', '0.3.50'] or is_q3_version(version))
     if not preview:
         assert all(not state['dirty'] for state in manifest['checkouts'].values())
         head = subprocess.check_output(['git', '-C', str(english), 'rev-parse', 'HEAD'], text=True).strip()
@@ -113,7 +114,7 @@ def check(build, english, preview=False):
     current = [pair(p.read_text()) for p in files]
     project_submission_reading_translations(current)
     _, chain = verify_submission_translation_chain(current)
-    expected_units = chain['current_language_polish']['current_units'] if version == '0.3.51' else {'0.3.45':767, '0.3.46':773, '0.3.47':775, '0.3.48':775, '0.3.49':775, '0.3.50':775}[version]
+    expected_units = chain['current_language_polish']['current_units'] if is_q3_version(version) else {'0.3.45':767, '0.3.46':773, '0.3.47':775, '0.3.48':775, '0.3.49':775, '0.3.50':775}[version]
     assert manifest['translation_units'] == len(files) == expected_units and not manifest['untranslated_units']
     assert manifest['translation_tree_sha256'] == {str(p.relative_to(ROOT / 'translation')): sha(p) for p in files}
     assert manifest['package_timestamp'] == package_timestamp(english)

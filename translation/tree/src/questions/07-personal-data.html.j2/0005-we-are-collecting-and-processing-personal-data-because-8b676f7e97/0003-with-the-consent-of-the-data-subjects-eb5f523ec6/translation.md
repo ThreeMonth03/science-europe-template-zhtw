@@ -13,7 +13,7 @@ with the consent of the data subjects.
 ### Translation (zh_Hant)
 
 ~~~jinja
-並已取得資料當事人的同意。
+以資料當事人的同意為法律依據。
 ~~~
 
 <details>

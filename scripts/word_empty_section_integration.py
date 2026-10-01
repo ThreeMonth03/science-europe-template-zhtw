@@ -9,6 +9,7 @@ import tempfile
 import zipfile
 from artifact_utils import sha
 from check_budget_grouping_integration import asset_uuid
+from current_source_repairs import is_q3_version
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT = json.loads((ROOT / 'docs/word-empty-section-delta.json').read_text())
@@ -57,7 +58,7 @@ def integrated_package(language, timestamp):
     return result
 
 def project_package(candidate, language, timestamp):
-    if candidate['version'] == '0.3.51':
+    if is_q3_version(candidate['version']):
         from q3_policy_prose_integration import project_package as before_q3
         candidate = before_q3(candidate, language, timestamp)
     from reuse_preparation_integration import integrated_package as old
@@ -66,7 +67,7 @@ def project_package(candidate, language, timestamp):
 
 def check_package(path, prepared, language, timestamp):
     with zipfile.ZipFile(path) as z:version = json.loads(z.read('template/template.json'))['version']
-    if version == '0.3.51':
+    if is_q3_version(version):
         from q3_policy_prose_integration import check_package as check_current
         return check_current(path, prepared, language, timestamp)
     from submission_flow_integration import sources, CONTRACT as old
@@ -91,7 +92,7 @@ def check_source(english):
     from submission_flow_integration import sources
     current = sources(english)
     metadata = json.loads((english / 'template.json').read_text())
-    if metadata['version'] == '0.3.51':
+    if is_q3_version(metadata['version']):
         from q3_policy_prose_contract import project_source as before_q3
         current, metadata = before_q3(current, metadata)
     prior_source, _ = project_source(current, metadata)
@@ -107,7 +108,7 @@ def check(build, english, preview=False):
     manifest = json.loads((build / 'manifest.json').read_text())
     assert manifest['status'] == ('preview' if preview else 'candidate')
     version = manifest['source']['version']
-    assert version == manifest['translation']['version'] and version in ['0.3.50', '0.3.51']
+    assert version == manifest['translation']['version'] and (version == '0.3.50' or is_q3_version(version))
     if not preview:
         assert all(not row['dirty'] for row in manifest['checkouts'].values())
         assert manifest['source']['commit'] == manifest['checkouts']['english']['commit'] == git(english, 'rev-parse', 'HEAD')
@@ -127,7 +128,7 @@ def check(build, english, preview=False):
         packages[language] = check_package(path, build / folder, language, manifest['package_timestamp'])
         current = sources(build / folder)
         from q3_policy_prose_integration import project_sources as before_q3
-        after = before_q3(current, language) if version == '0.3.51' else current
+        after = before_q3(current, language) if is_q3_version(version) else current
         before = project_sources(after, language)
         with tempfile.TemporaryDirectory(prefix='se-word-section-prior-') as temp:
             baseline = Path(temp) / 'before'; candidate = Path(temp) / 'after'
@@ -137,7 +138,7 @@ def check(build, english, preview=False):
             rows = load('engine').run(baseline, candidate, build / ('word-empty-section-engine-' + language + '.json'))
         engines[language] = len(rows['rows']); assert engines[language] == 121
     return dict(passed=True,source_integrated=True,version=version,comparison_version='0.3.50',
-                historical_scope=version=='0.3.51',baseline_version='0.3.49',
+                historical_scope=is_q3_version(version),baseline_version='0.3.49',
                 translation_units=len(tree),historical_translation_units=len(historical_pairs),
                 translation_delta=translation_delta,changed_assets=sorted(CONTRACT['helpers']),
                 packages=packages,engine_cases=engines,native_integrated_render_checked=False,release_acceptance=False)

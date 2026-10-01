@@ -8,6 +8,7 @@ import sys
 import zipfile
 from artifact_utils import sha
 from check_budget_grouping_integration import asset_uuid
+from current_source_repairs import is_current_version
 
 ROOT=Path(__file__).resolve().parents[1]
 CONTRACT=json.loads((ROOT/'docs/q3-policy-prose-delta.json').read_text())
@@ -96,7 +97,8 @@ def check(build,english,preview=False):
     project_source()
     manifest=json.loads((build/'manifest.json').read_text())
     assert manifest['status']==('preview' if preview else 'candidate')
-    assert manifest['source']['version']==manifest['translation']['version']=='0.3.51'
+    version=manifest['source']['version']
+    assert version==manifest['translation']['version'] and is_current_version(version)
     if not preview:
         assert all(not c['dirty'] for c in manifest['checkouts'].values())
         assert manifest['source']['commit']==manifest['checkouts']['english']['commit']==git(english,'rev-parse','HEAD')
@@ -121,7 +123,7 @@ def check(build,english,preview=False):
             joined=sum(r['joined_policies'] for r in rows),removed_inserted_spaces=sum(r['removed_owned_separators'] for r in rows))
         assert comparisons[language]==dict(total=7932,full_document=396,joined=1090 if language=='chinese' else 0,
             removed_inserted_spaces=1258 if language=='chinese' else 0)
-    return dict(passed=True,source_integrated=True,version='0.3.51',baseline_version='0.3.50',
+    return dict(passed=True,source_integrated=True,version=version,historical_version=CONTRACT['version'],baseline_version='0.3.50',
         translation_units=len(tree),historical_translation_units=len(historical_pairs),
         translation_delta=translation_delta,packages=packages,comparisons=comparisons,
         native_integrated_render_checked=False,release_acceptance=False)

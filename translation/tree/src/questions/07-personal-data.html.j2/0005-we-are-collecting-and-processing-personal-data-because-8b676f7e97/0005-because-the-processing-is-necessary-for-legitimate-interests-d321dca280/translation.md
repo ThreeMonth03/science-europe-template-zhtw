@@ -13,7 +13,7 @@ because the processing is necessary for legitimate interests.
 ### Translation (zh_Hant)
 
 ~~~jinja
-因追求正當利益所必需。
+此資料處理是追求正當利益所必需。
 ~~~
 
 <details>
