@@ -51,14 +51,14 @@
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "88f8954c75cf9e3273d2db08b08358931339c4d57cf43c38de0c15241c843c7e",
-      "candidate_metadata_sha256": "20abd8c7f3cb023e667ba4e5909ed4b08b6eae15506f044b2b698ffeb80b6d8c"
+      "candidate_tree_sha256": "3b4bef865c60f3cf4c7c0b2aed9dd004f96c451be475106b2a34a04c8cf00e2b",
+      "candidate_metadata_sha256": "d03377104a4f601e127e5a5050c31629d6975fd894eeee451a9a99b26f3c360b"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "327fee8be54d7d5bc961453b3be26ad06b9cc07de69e5356a9499d16aa564bfe",
-      "candidate_metadata_sha256": "c45dffa8b888d0ea5f3769d56bd9091602ca5b2d70a3aeddf097ced84c895080"
+      "candidate_tree_sha256": "30586af65fc840f4dabde5780c392405ef6ba47ced43526ca00628d25e9a763a",
+      "candidate_metadata_sha256": "cf35193590386bd33a350897160a16772d2a20b2390e8e953e7e2f3d492f9579"
     }
   }
 }
