@@ -4,6 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 import sys
+import tempfile
 import unittest
 from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[1]
@@ -14,6 +15,28 @@ import current_source_repairs as current_contract
 from check_budget_grouping_integration import asset_uuid
 
 class Q3IntegrationTests(unittest.TestCase):
+    def test_metadata_gap_view_changes_only_verified_question_and_rejects_drift(self):
+        from submission_flow_integration import sources
+        with tempfile.TemporaryDirectory() as folder:
+            source=Path(folder)/'current'
+            question=source/contract.QUESTION;question.parent.mkdir(parents=True)
+            question.write_text('current wording')
+            (source/'src/style.css').write_text('current style')
+            original=sources(source)
+            historical={**original,contract.QUESTION:b'frozen wording'}
+            view=Path(folder)/'view'
+            with patch.object(contract,'current_q3_sources',return_value=historical) as verifier:
+                proof=current_contract.metadata_gap_view(source,'chinese',view)
+            verifier.assert_called_once_with(original,'chinese')
+            self.assertEqual(sources(view),historical)
+            self.assertEqual(sources(source),original)
+            self.assertTrue(proof['historical_scope'])
+            self.assertFalse(proof['view_is_package'])
+            rejected=Path(folder)/'rejected'
+            with patch.object(contract,'current_q3_sources',side_effect=AssertionError('source drift')):
+                with self.assertRaises(AssertionError):current_contract.metadata_gap_view(source,'chinese',rejected)
+            self.assertFalse(rejected.exists())
+
     def current_candidate(self,language,timestamp):
         historical=contract.integrated_package(language,timestamp)
         candidate=copy.deepcopy(historical)

@@ -55,6 +55,12 @@ class NativeRunnerTests(unittest.TestCase):
         self.assertEqual(len(rows['chinese']), 9)
         self.assertTrue(rows['chinese'][-1].endswith('\t7'))
 
+    def test_metadata_history_view_failure_stops_both_lanes(self):
+        # The view command passes '-' as the Python stdin entry point.
+        result, rows = self.run_step('-')
+        self.assertNotEqual(result.returncode, 0)
+        self.assertEqual([len(rows[x]) for x in ('english', 'chinese')], [10, 6])
+
     def test_unknown_lane_is_rejected(self):
         result = subprocess.run(['bash', str(ROOT / 'scripts/check_native_regressions.sh'),
                                  'typo', 'unused'], capture_output=True, text=True)

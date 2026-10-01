@@ -7,6 +7,7 @@ keeps old integration proofs meaningful for the registered current candidate.
 import hashlib
 import json
 from pathlib import Path
+import shutil
 import tempfile
 from copy import deepcopy
 from check_budget_grouping_integration import asset_uuid
@@ -145,4 +146,30 @@ def project_package(candidate, language, timestamp, historical):
         'candidate_version': candidate['version'],
         'historical_version': historical['version'],
         'candidate_metadata_sha256': record['candidate_metadata_sha256'],
+    }
+
+
+def metadata_gap_view(prepared, language, destination):
+    """Test-only Q3 view for the frozen 0.3.36 -> 0.3.37 engine proof.
+
+    Validate the complete current prepared tree first. Restore only its Q3
+    question; retain current CSS, fonts and Word helpers for the engine checks.
+    This directory is not a package or a test of current Q3 wording.
+    """
+    from submission_flow_integration import sources
+    from q3_policy_prose_integration import current_q3_sources, QUESTION
+    current = sources(prepared)
+    historical = current_q3_sources(current, language)
+    shutil.copytree(prepared, destination)
+    (destination / QUESTION).write_bytes(historical[QUESTION])
+    assert sources(prepared) == current, 'Production prepared source modified'
+    assert sources(destination) == {**current, QUESTION: historical[QUESTION]}
+    return {
+        'historical_scope': True,
+        'current_version': CONTRACT['candidate_version'],
+        'historical_version': CONTRACT['baseline_version'],
+        'current_prepared_tree_sha256': tree_sha(current),
+        'historical_question_sha256': sha(historical[QUESTION]),
+        'current_nonquestion_sources_unchanged': True,
+        'view_is_package': False,
     }
