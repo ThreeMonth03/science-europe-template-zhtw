@@ -22,6 +22,8 @@
     "src/macros.html.j2",
     "src/pdf/index.html.j2",
     "src/pdf/short-resources.html.j2",
+    "src/post-project-archive.html.j2",
+    "src/preservation-publication-reason.html.j2",
     "src/projects.html.j2",
     "src/quality-control.html.j2",
     "src/questions/01-how-data.html.j2",
@@ -51,14 +53,14 @@
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "da477aaa5abc7aa8409d189835f188fa440e6263bb15a79db0dd243c3d6e2760",
-      "candidate_metadata_sha256": "c72ebcb1cc9abe396f6544df6bc0744a0ca321262fccd6ed113af406f43c5878"
+      "candidate_tree_sha256": "dcfafdb75087af6e1c45aa5ba9727eba775ac2cf97fcce85307214eeb589a5b9",
+      "candidate_metadata_sha256": "cd53a10d307007a681bda7f2ca854639882c9e6d757f881dc1be9c77276a5756"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "edc794293686206acc8cd5592c50c2495c8dd07a2694d8bc6a1abf1beb1e3f06",
-      "candidate_metadata_sha256": "0106d1692cc270d5fa83316833208392af0057459547e5b2117b4664f9197506"
+      "candidate_tree_sha256": "59ba6549b6b029250f1baa7b89f2c5d248571b2d357be4729e81a27c0899bed9",
+      "candidate_metadata_sha256": "1010ea9e8e0aaf9e8449f0108f45861525e2b5828026aa651251a5a5f9aa9b8f"
     }
   }
 }

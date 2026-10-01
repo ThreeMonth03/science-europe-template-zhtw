@@ -13,7 +13,7 @@ Expertise to recruit.
 ### Translation (zh_Hant)
 
 ~~~jinja
-擬招募的專業知識
+擬聘人員所需專長
 ~~~
 
 <details>

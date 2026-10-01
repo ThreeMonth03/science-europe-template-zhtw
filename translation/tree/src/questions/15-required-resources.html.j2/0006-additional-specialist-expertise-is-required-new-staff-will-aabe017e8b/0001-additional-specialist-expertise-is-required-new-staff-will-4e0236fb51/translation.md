@@ -22,7 +22,7 @@ Additional specialist expertise is required. New staff will be recruited.
 - Source File: `src/questions/15-required-resources.html.j2`
 - Wrapper Name: `__tr_block_0005`
 - Wrapper Order: `6`
-- Wrapper Key: `additional-specialist-expertise-is-required-new-staff-will-cc31c71865`
+- Wrapper Key: `additional-specialist-expertise-is-required-new-staff-will-aabe017e8b`
 - Unit Key: `additional-specialist-expertise-is-required-new-staff-will-4e0236fb51`
 - Source Hash: `e912748fdfaa149b9a0d3d6dd2646153580c4b48`
 
