@@ -1,6 +1,6 @@
 {
   "baseline_version": "0.3.51",
-  "candidate_version": "0.3.52",
+  "candidate_version": "0.3.53",
   "release_approved": false,
   "added": [
     "src/active-answer.j2",
@@ -53,14 +53,14 @@
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "7a4440b0a42a7adb7d5ae681fe2ee94323ab28f60a8d00ecbe077f4dc865ac25",
-      "candidate_metadata_sha256": "021cb8f0d7695eb65d8245281c7ac2e0ccc83422ba450109b49c8755f64e5414"
+      "candidate_tree_sha256": "8d0a246f008786f7842ffe3804b420bd6a97695acf273138ba9de0e46d5e2359",
+      "candidate_metadata_sha256": "1ebfdf460d8995fe3f581483f5e231ab6bc2bb43c204f038c70133b545e12b32"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "5f6dc5cd4ffb466496fd478f1d09e413725c2d83487840987d8060b7b6bbe64f",
-      "candidate_metadata_sha256": "e5b47548e4c4aabcff67153fa3547689e1197c665553d4963b53323120606add"
+      "candidate_tree_sha256": "b0a91dc4c6666f02fd141842212e0987c0bfebb0b4147ff10fffbb7f9d28df2c",
+      "candidate_metadata_sha256": "5265a4bb8c798b5f71f1fad77d900215fb91900c18597edd424f8fab1479aff9"
     }
   }
 }
