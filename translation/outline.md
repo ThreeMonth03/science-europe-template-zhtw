@@ -992,141 +992,141 @@
 
   [J2] `src/projects.html.j2`
 
-    - [x] [wrapper] 0001-research-overview-3c28a17a07 (1/1)
+    - [x] [wrapper] 0001-planned-48eebb6401 (1/1)
 
-      [W] `0001-research-overview-3c28a17a07`
+      [W] `0001-planned-48eebb6401`
 
-        - [x] [unit] 0001-research-overview-31258419fe: Research overview
+        - [x] [unit] 0001-planned-da4131eaba: (planned)
 
-          [T] [translation](<tree/src/projects.html.j2/0001-research-overview-3c28a17a07/0001-research-overview-31258419fe/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0001-planned-48eebb6401/0001-planned-da4131eaba/translation.md>)
 
-    - [x] [wrapper] 0002-project-name-not-given-aa11ad3af8 (1/1)
+    - [x] [wrapper] 0002-applied-f652a564d2 (1/1)
 
-      [W] `0002-project-name-not-given-aa11ad3af8`
+      [W] `0002-applied-f652a564d2`
 
-        - [x] [unit] 0001-project-name-not-given-514c0227c8: (project name not given)
+        - [x] [unit] 0001-applied-1a4d250987: (applied)
 
-          [T] [translation](<tree/src/projects.html.j2/0002-project-name-not-given-aa11ad3af8/0001-project-name-not-given-514c0227c8/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0002-applied-f652a564d2/0001-applied-1a4d250987/translation.md>)
 
-    - [x] [wrapper] 0003-planned-48eebb6401 (1/1)
+    - [x] [wrapper] 0003-granted-0bc7401a67 (1/1)
 
-      [W] `0003-planned-48eebb6401`
+      [W] `0003-granted-0bc7401a67`
 
-        - [x] [unit] 0001-planned-e8c41279f3: (planned)
+        - [x] [unit] 0001-granted-5e1c4b2980: (granted)
 
-          [T] [translation](<tree/src/projects.html.j2/0003-planned-48eebb6401/0001-planned-e8c41279f3/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0003-granted-0bc7401a67/0001-granted-5e1c4b2980/translation.md>)
 
-    - [x] [wrapper] 0004-applied-f652a564d2 (1/1)
+    - [x] [wrapper] 0004-rejected-7474662779 (1/1)
 
-      [W] `0004-applied-f652a564d2`
+      [W] `0004-rejected-7474662779`
 
-        - [x] [unit] 0001-applied-df149b7a27: (applied)
+        - [x] [unit] 0001-rejected-9f512f671e: (rejected)
 
-          [T] [translation](<tree/src/projects.html.j2/0004-applied-f652a564d2/0001-applied-df149b7a27/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0004-rejected-7474662779/0001-rejected-9f512f671e/translation.md>)
 
-    - [x] [wrapper] 0005-granted-0bc7401a67 (1/1)
+    - [x] [wrapper] 0005-grant-number-not-yet-given-b0f45d5bf2 (1/1)
 
-      [W] `0005-granted-0bc7401a67`
+      [W] `0005-grant-number-not-yet-given-b0f45d5bf2`
 
-        - [x] [unit] 0001-granted-713614a941: (granted)
+        - [x] [unit] 0001-grant-number-not-yet-given-3ee81e1c06: grant number not yet given
 
-          [T] [translation](<tree/src/projects.html.j2/0005-granted-0bc7401a67/0001-granted-713614a941/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0005-grant-number-not-yet-given-b0f45d5bf2/0001-grant-number-not-yet-given-3ee81e1c06/translation.md>)
 
-    - [x] [wrapper] 0006-rejected-7474662779 (1/1)
+    - [x] [wrapper] 0006-project-acronym-b6b6c1a2ec (1/1)
 
-      [W] `0006-rejected-7474662779`
+      [W] `0006-project-acronym-b6b6c1a2ec`
 
-        - [x] [unit] 0001-rejected-d31e102050: (rejected)
+        - [x] [unit] 0001-project-acronym-3efcdf540e: Project acronym
 
-          [T] [translation](<tree/src/projects.html.j2/0006-rejected-7474662779/0001-rejected-d31e102050/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0006-project-acronym-b6b6c1a2ec/0001-project-acronym-3efcdf540e/translation.md>)
 
-    - [x] [wrapper] 0007-grant-number-not-yet-given-b0f45d5bf2 (1/1)
+    - [x] [wrapper] 0007-project-number-01e345b0d9 (1/1)
 
-      [W] `0007-grant-number-not-yet-given-b0f45d5bf2`
+      [W] `0007-project-number-01e345b0d9`
 
-        - [x] [unit] 0001-grant-number-not-yet-given-936d7ea918: grant number not yet given
+        - [x] [unit] 0001-project-number-566b7b96b2: Project Number
 
-          [T] [translation](<tree/src/projects.html.j2/0007-grant-number-not-yet-given-b0f45d5bf2/0001-grant-number-not-yet-given-936d7ea918/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0007-project-number-01e345b0d9/0001-project-number-566b7b96b2/translation.md>)
 
-    - [x] [wrapper] 0008-project-acronym-b6b6c1a2ec (1/1)
+    - [x] [wrapper] 0008-n-a-13dd55ba68 (1/1)
 
-      [W] `0008-project-acronym-b6b6c1a2ec`
+      [W] `0008-n-a-13dd55ba68`
 
-        - [x] [unit] 0001-project-acronym-28f5bdbd83: Project acronym
+        - [x] [unit] 0001-n-a-9daf25e8a8: N/A
 
-          [T] [translation](<tree/src/projects.html.j2/0008-project-acronym-b6b6c1a2ec/0001-project-acronym-28f5bdbd83/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0008-n-a-13dd55ba68/0001-n-a-9daf25e8a8/translation.md>)
 
-    - [x] [wrapper] 0009-project-number-01e345b0d9 (1/1)
+    - [x] [wrapper] 0009-start-date-6dff5d82d7 (1/1)
 
-      [W] `0009-project-number-01e345b0d9`
+      [W] `0009-start-date-6dff5d82d7`
 
-        - [x] [unit] 0001-project-number-034412baf4: Project Number
+        - [x] [unit] 0001-start-date-cd207b64ea: Start date
 
-          [T] [translation](<tree/src/projects.html.j2/0009-project-number-01e345b0d9/0001-project-number-034412baf4/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0009-start-date-6dff5d82d7/0001-start-date-cd207b64ea/translation.md>)
 
-    - [x] [wrapper] 0010-n-a-13dd55ba68 (1/1)
+    - [x] [wrapper] 0010-n-a-6b2e79c2e2 (1/1)
 
-      [W] `0010-n-a-13dd55ba68`
+      [W] `0010-n-a-6b2e79c2e2`
 
         - [x] [unit] 0001-n-a-a705bef069: N/A
 
-          [T] [translation](<tree/src/projects.html.j2/0010-n-a-13dd55ba68/0001-n-a-a705bef069/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0010-n-a-6b2e79c2e2/0001-n-a-a705bef069/translation.md>)
 
-    - [x] [wrapper] 0011-start-date-6dff5d82d7 (1/1)
+    - [x] [wrapper] 0011-end-date-3fa960d0f6 (1/1)
 
-      [W] `0011-start-date-6dff5d82d7`
+      [W] `0011-end-date-3fa960d0f6`
 
-        - [x] [unit] 0001-start-date-793f1ba129: Start date
+        - [x] [unit] 0001-end-date-041373419d: End date
 
-          [T] [translation](<tree/src/projects.html.j2/0011-start-date-6dff5d82d7/0001-start-date-793f1ba129/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0011-end-date-3fa960d0f6/0001-end-date-041373419d/translation.md>)
 
-    - [x] [wrapper] 0012-n-a-6b2e79c2e2 (1/1)
+    - [x] [wrapper] 0012-n-a-b3dbd94993 (1/1)
 
-      [W] `0012-n-a-6b2e79c2e2`
+      [W] `0012-n-a-b3dbd94993`
 
         - [x] [unit] 0001-n-a-f394309d08: N/A
 
-          [T] [translation](<tree/src/projects.html.j2/0012-n-a-6b2e79c2e2/0001-n-a-f394309d08/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0012-n-a-b3dbd94993/0001-n-a-f394309d08/translation.md>)
 
-    - [x] [wrapper] 0013-end-date-3fa960d0f6 (1/1)
+    - [x] [wrapper] 0013-funding-c2b9bfd88f (1/1)
 
-      [W] `0013-end-date-3fa960d0f6`
+      [W] `0013-funding-c2b9bfd88f`
 
-        - [x] [unit] 0001-end-date-2100296f3a: End date
+        - [x] [unit] 0001-funding-3c300b41cc: Funding
 
-          [T] [translation](<tree/src/projects.html.j2/0013-end-date-3fa960d0f6/0001-end-date-2100296f3a/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0013-funding-c2b9bfd88f/0001-funding-3c300b41cc/translation.md>)
 
-    - [x] [wrapper] 0014-n-a-b3dbd94993 (1/1)
+    - [x] [wrapper] 0014-funding-information-has-not-been-provided-bde285c8c7 (1/1)
 
-      [W] `0014-n-a-b3dbd94993`
+      [W] `0014-funding-information-has-not-been-provided-bde285c8c7`
 
-        - [x] [unit] 0001-n-a-49dd56a009: N/A
+        - [x] [unit] 0001-funding-information-has-not-been-provided-ca0e3a58ce: Funding information has not been provided.
 
-          [T] [translation](<tree/src/projects.html.j2/0014-n-a-b3dbd94993/0001-n-a-49dd56a009/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0014-funding-information-has-not-been-provided-bde285c8c7/0001-funding-information-has-not-been-provided-ca0e3a58ce/translation.md>)
 
-    - [x] [wrapper] 0015-funding-c2b9bfd88f (1/1)
+    - [x] [wrapper] 0015-project-name-not-given-aa11ad3af8 (1/1)
 
-      [W] `0015-funding-c2b9bfd88f`
+      [W] `0015-project-name-not-given-aa11ad3af8`
 
-        - [x] [unit] 0001-funding-ac4e3b19a4: Funding
+        - [x] [unit] 0001-project-name-not-given-f6441bd091: (project name not given)
 
-          [T] [translation](<tree/src/projects.html.j2/0015-funding-c2b9bfd88f/0001-funding-ac4e3b19a4/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0015-project-name-not-given-aa11ad3af8/0001-project-name-not-given-f6441bd091/translation.md>)
 
-    - [x] [wrapper] 0016-funding-information-has-not-been-provided-bde285c8c7 (1/1)
+    - [x] [wrapper] 0016-there-are-no-projects-described-for-this-dmp-60c01c963f (1/1)
 
-      [W] `0016-funding-information-has-not-been-provided-bde285c8c7`
+      [W] `0016-there-are-no-projects-described-for-this-dmp-60c01c963f`
 
-        - [x] [unit] 0001-funding-information-has-not-been-provided-3a5483beaa: Funding information has not been provided.
+        - [x] [unit] 0001-there-are-no-projects-described-for-this-dmp-0599bda39b: There are no projects described for this DMP.
 
-          [T] [translation](<tree/src/projects.html.j2/0016-funding-information-has-not-been-provided-bde285c8c7/0001-funding-information-has-not-been-provided-3a5483beaa/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0016-there-are-no-projects-described-for-this-dmp-60c01c963f/0001-there-are-no-projects-described-for-this-dmp-0599bda39b/translation.md>)
 
-    - [x] [wrapper] 0017-there-are-no-projects-described-for-this-dmp-60c01c963f (1/1)
+    - [x] [wrapper] 0017-research-overview-3c28a17a07 (1/1)
 
-      [W] `0017-there-are-no-projects-described-for-this-dmp-60c01c963f`
+      [W] `0017-research-overview-3c28a17a07`
 
-        - [x] [unit] 0001-there-are-no-projects-described-for-this-dmp-1d8e91ed92: There are no projects described for this DMP.
+        - [x] [unit] 0001-research-overview-5c202ca71d: Research overview
 
-          [T] [translation](<tree/src/projects.html.j2/0017-there-are-no-projects-described-for-this-dmp-60c01c963f/0001-there-are-no-projects-described-for-this-dmp-1d8e91ed92/translation.md>)
+          [T] [translation](<tree/src/projects.html.j2/0017-research-overview-3c28a17a07/0001-research-overview-5c202ca71d/translation.md>)
 
 - [x] [file] src/publication-summary.html.j2 (8/8)
 
@@ -1696,45 +1696,45 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0020-information-not-provided-whether-existing-data-will-be-73096727a6/0001-information-not-provided-whether-existing-data-will-be-3dc099af42/translation.md>)
 
-    - [x] [wrapper] 0021-provenance-1e1e840446 (1/1)
+    - [x] [wrapper] 0021-we-will-use-lab-notebooks-to-document-the-5dc420d991 (1/1)
 
-      [W] `0021-provenance-1e1e840446`
+      [W] `0021-we-will-use-lab-notebooks-to-document-the-5dc420d991`
 
-        - [x] [unit] 0001-provenance-1ed9e0c02f: Provenance
+        - [x] [unit] 0001-we-will-use-lab-notebooks-to-document-the-b0cf872b80: We will use lab notebooks to document the provenance of the data analysis.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0021-provenance-1e1e840446/0001-provenance-1ed9e0c02f/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0021-we-will-use-lab-notebooks-to-document-the-5dc420d991/0001-we-will-use-lab-notebooks-to-document-the-b0cf872b80/translation.md>)
 
-    - [x] [wrapper] 0022-we-will-use-lab-notebooks-to-document-the-5dc420d991 (1/1)
+    - [x] [wrapper] 0022-we-will-use-an-electronic-lab-notebook-to-de66f8cecd (1/1)
 
-      [W] `0022-we-will-use-lab-notebooks-to-document-the-5dc420d991`
+      [W] `0022-we-will-use-an-electronic-lab-notebook-to-de66f8cecd`
 
-        - [x] [unit] 0001-we-will-use-lab-notebooks-to-document-the-5c7636beb3: We will use lab notebooks to document the provenance of the data analysis.
+        - [x] [unit] 0001-we-will-use-an-electronic-lab-notebook-to-ad5172510f: We will use an electronic lab notebook to document the provenance of the data analysis.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0022-we-will-use-lab-notebooks-to-document-the-5dc420d991/0001-we-will-use-lab-notebooks-to-document-the-5c7636beb3/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0022-we-will-use-an-electronic-lab-notebook-to-de66f8cecd/0001-we-will-use-an-electronic-lab-notebook-to-ad5172510f/translation.md>)
 
-    - [x] [wrapper] 0023-we-will-use-an-electronic-lab-notebook-to-de66f8cecd (1/1)
+    - [x] [wrapper] 0023-our-computing-workflow-system-records-provenance-information-about-f2e35c8c79 (1/1)
 
-      [W] `0023-we-will-use-an-electronic-lab-notebook-to-de66f8cecd`
+      [W] `0023-our-computing-workflow-system-records-provenance-information-about-f2e35c8c79`
 
-        - [x] [unit] 0001-we-will-use-an-electronic-lab-notebook-to-d54d4900c7: We will use an electronic lab notebook to document the provenance of the data analysis.
+        - [x] [unit] 0001-our-computing-workflow-system-records-provenance-information-about-5c51398b1d: Our computing workflow system records provenance information about the data analysis.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0023-we-will-use-an-electronic-lab-notebook-to-de66f8cecd/0001-we-will-use-an-electronic-lab-notebook-to-d54d4900c7/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0023-our-computing-workflow-system-records-provenance-information-about-f2e35c8c79/0001-our-computing-workflow-system-records-provenance-information-about-5c51398b1d/translation.md>)
 
-    - [x] [wrapper] 0024-our-computing-workflow-system-records-provenance-information-about-f2e35c8c79 (1/1)
+    - [x] [wrapper] 0024-information-not-provided-the-other-arrangement-that-will-2a8c056f07 (1/1)
 
-      [W] `0024-our-computing-workflow-system-records-provenance-information-about-f2e35c8c79`
+      [W] `0024-information-not-provided-the-other-arrangement-that-will-2a8c056f07`
 
-        - [x] [unit] 0001-our-computing-workflow-system-records-provenance-information-about-b4c4d408cf: Our computing workflow system records provenance information about the data analysis.
+        - [x] [unit] 0001-information-not-provided-the-other-arrangement-that-will-fef1589b7d: Information not provided: the other arrangement that will document data provenance.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0024-our-computing-workflow-system-records-provenance-information-about-f2e35c8c79/0001-our-computing-workflow-system-records-provenance-information-about-b4c4d408cf/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0024-information-not-provided-the-other-arrangement-that-will-2a8c056f07/0001-information-not-provided-the-other-arrangement-that-will-fef1589b7d/translation.md>)
 
-    - [x] [wrapper] 0025-information-not-provided-the-other-arrangement-that-will-2a8c056f07 (1/1)
+    - [x] [wrapper] 0025-provenance-1e1e840446 (1/1)
 
-      [W] `0025-information-not-provided-the-other-arrangement-that-will-2a8c056f07`
+      [W] `0025-provenance-1e1e840446`
 
-        - [x] [unit] 0001-information-not-provided-the-other-arrangement-that-will-dece6a6ef5: Information not provided: the other arrangement that will document data provenance.
+        - [x] [unit] 0001-provenance-c5f9eceb17: Provenance
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0025-information-not-provided-the-other-arrangement-that-will-2a8c056f07/0001-information-not-provided-the-other-arrangement-that-will-dece6a6ef5/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0025-provenance-1e1e840446/0001-provenance-c5f9eceb17/translation.md>)
 
     - [x] [wrapper] 0026-information-not-provided-how-data-provenance-will-be-1a1565d1bb (1/1)
 
@@ -3200,7 +3200,7 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0025-see-question-5-for-archival-and-backup-arrangements-574d6fce6d/0001-see-question-5-for-archival-and-backup-arrangements-780af9f423/translation.md>)
 
-- [x] [file] src/questions/07-personal-data.html.j2 (28/28)
+- [x] [file] src/questions/07-personal-data.html.j2 (29/29)
 
   [J2] `src/questions/07-personal-data.html.j2`
 
@@ -3380,29 +3380,37 @@
 
           [T] [translation](<tree/src/questions/07-personal-data.html.j2/0019-we-will-not-collect-any-data-related-to-dd86306947/0001-we-will-not-collect-any-data-related-to-799c3605b6/translation.md>)
 
-    - [x] [wrapper] 0020-access-procedure-to-personal-data-15464d8ec9 (1/1)
+    - [x] [wrapper] 0020-privacy-restrictions-prevent-some-project-data-from-being-cc6ceb86ce (1/1)
 
-      [W] `0020-access-procedure-to-personal-data-15464d8ec9`
+      [W] `0020-privacy-restrictions-prevent-some-project-data-from-being-cc6ceb86ce`
 
-        - [x] [unit] 0001-access-procedure-to-personal-data-ec11fca8d9: Access procedure to personal data
+        - [x] [unit] 0001-privacy-restrictions-prevent-some-project-data-from-being-55e4244f48: Privacy restrictions prevent some project data from being made openly available.
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0020-access-procedure-to-personal-data-15464d8ec9/0001-access-procedure-to-personal-data-ec11fca8d9/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0020-privacy-restrictions-prevent-some-project-data-from-being-cc6ceb86ce/0001-privacy-restrictions-prevent-some-project-data-from-being-55e4244f48/translation.md>)
 
-    - [x] [wrapper] 0021-there-is-a-procedure-for-users-to-access-db19520b48 (1/1)
+    - [x] [wrapper] 0021-access-procedure-to-personal-data-15464d8ec9 (1/1)
 
-      [W] `0021-there-is-a-procedure-for-users-to-access-db19520b48`
+      [W] `0021-access-procedure-to-personal-data-15464d8ec9`
 
-        - [x] [unit] 0001-there-is-a-procedure-for-users-to-access-49c3780fc6: There is a procedure for users to access private data as follows: {personalDataManagedAccessReply}
+        - [x] [unit] 0001-access-procedure-to-personal-data-e16a951fe6: Access procedure to personal data
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0021-there-is-a-procedure-for-users-to-access-db19520b48/0001-there-is-a-procedure-for-users-to-access-49c3780fc6/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0021-access-procedure-to-personal-data-15464d8ec9/0001-access-procedure-to-personal-data-e16a951fe6/translation.md>)
 
-    - [x] [wrapper] 0022-this-document-does-not-yet-contain-an-answer-2fab69ca3c (1/1)
+    - [x] [wrapper] 0022-there-is-a-procedure-for-users-to-access-db19520b48 (1/1)
 
-      [W] `0022-this-document-does-not-yet-contain-an-answer-2fab69ca3c`
+      [W] `0022-there-is-a-procedure-for-users-to-access-db19520b48`
 
-        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-846a92f09b: This document does not yet contain an answer about personal-data protection and compliance.
+        - [x] [unit] 0001-there-is-a-procedure-for-users-to-access-c339224a90: There is a procedure for users to access private data as follows: {personalDataManagedAccessReply}
 
-          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0022-this-document-does-not-yet-contain-an-answer-2fab69ca3c/0001-this-document-does-not-yet-contain-an-answer-846a92f09b/translation.md>)
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0022-there-is-a-procedure-for-users-to-access-db19520b48/0001-there-is-a-procedure-for-users-to-access-c339224a90/translation.md>)
+
+    - [x] [wrapper] 0023-this-document-does-not-yet-contain-an-answer-2fab69ca3c (1/1)
+
+      [W] `0023-this-document-does-not-yet-contain-an-answer-2fab69ca3c`
+
+        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-1fdc50d598: This document does not yet contain an answer about personal-data protection and compliance.
+
+          [T] [translation](<tree/src/questions/07-personal-data.html.j2/0023-this-document-does-not-yet-contain-an-answer-2fab69ca3c/0001-this-document-does-not-yet-contain-an-answer-1fdc50d598/translation.md>)
 
 - [x] [file] src/questions/08-copyright-ipr.html.j2 (43/43)
 
@@ -3432,303 +3440,303 @@
 
           [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0003-all-project-data-can-eventually-be-made-openly-b9f80392bd/0001-all-project-data-can-eventually-be-made-openly-c2368f634c/translation.md>)
 
-    - [x] [wrapper] 0004-the-data-cannot-be-made-fully-open-because-c22d12331b (1/1)
+    - [x] [wrapper] 0004-the-data-cannot-be-made-fully-open-because-fc2e4c8e74 (1/1)
 
-      [W] `0004-the-data-cannot-be-made-fully-open-because-c22d12331b`
+      [W] `0004-the-data-cannot-be-made-fully-open-because-fc2e4c8e74`
 
-        - [x] [unit] 0001-the-data-cannot-be-made-fully-open-because-56b4da7227: The data cannot be made fully open because
+        - [x] [unit] 0001-the-data-cannot-be-made-fully-open-because-902f9d6263: The data cannot be made fully open because of legal restrictions.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0004-the-data-cannot-be-made-fully-open-because-c22d12331b/0001-the-data-cannot-be-made-fully-open-because-56b4da7227/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0004-the-data-cannot-be-made-fully-open-because-fc2e4c8e74/0001-the-data-cannot-be-made-fully-open-because-902f9d6263/translation.md>)
 
-    - [x] [wrapper] 0005-of-legal-restrictions-a14281092f (1/1)
+    - [x] [wrapper] 0005-the-data-cannot-be-made-fully-open-because-115280879c (1/1)
 
-      [W] `0005-of-legal-restrictions-a14281092f`
+      [W] `0005-the-data-cannot-be-made-fully-open-because-115280879c`
 
-        - [x] [unit] 0001-of-legal-restrictions-c60bc37d0f: of legal restrictions.
+        - [x] [unit] 0001-the-data-cannot-be-made-fully-open-because-60de6450d7: The data cannot be made fully open because of patent-related commercial considerations.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0005-of-legal-restrictions-a14281092f/0001-of-legal-restrictions-c60bc37d0f/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0005-the-data-cannot-be-made-fully-open-because-115280879c/0001-the-data-cannot-be-made-fully-open-because-60de6450d7/translation.md>)
 
-    - [x] [wrapper] 0006-of-patent-related-commercial-considerations-5d2aeaff00 (1/1)
+    - [x] [wrapper] 0006-the-data-cannot-be-made-fully-open-because-b555cf804b (1/1)
 
-      [W] `0006-of-patent-related-commercial-considerations-5d2aeaff00`
+      [W] `0006-the-data-cannot-be-made-fully-open-because-b555cf804b`
 
-        - [x] [unit] 0001-of-patent-related-commercial-considerations-f4c1ac394b: of patent-related commercial considerations.
+        - [x] [unit] 0001-the-data-cannot-be-made-fully-open-because-e351a48e39: The data cannot be made fully open because of commercial considerations unrelated to patents{notOpenBusinessReasonsOther}
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0006-of-patent-related-commercial-considerations-5d2aeaff00/0001-of-patent-related-commercial-considerations-f4c1ac394b/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0006-the-data-cannot-be-made-fully-open-because-b555cf804b/0001-the-data-cannot-be-made-fully-open-because-e351a48e39/translation.md>)
 
-    - [x] [wrapper] 0007-of-commercial-considerations-unrelated-to-patents-ec3a6d14b0 (1/1)
+    - [x] [wrapper] 0007-the-data-cannot-be-made-fully-open-because-c1cf23eeac (1/1)
 
-      [W] `0007-of-commercial-considerations-unrelated-to-patents-ec3a6d14b0`
+      [W] `0007-the-data-cannot-be-made-fully-open-because-c1cf23eeac`
 
-        - [x] [unit] 0001-of-commercial-considerations-unrelated-to-patents-14034eaa8c: of commercial considerations unrelated to patents{notOpenBusinessReasonsOther}
+        - [x] [unit] 0001-the-data-cannot-be-made-fully-open-because-fbbb28de89: The data cannot be made fully open because papers need to be submitted first.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0007-of-commercial-considerations-unrelated-to-patents-ec3a6d14b0/0001-of-commercial-considerations-unrelated-to-patents-14034eaa8c/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0007-the-data-cannot-be-made-fully-open-because-c1cf23eeac/0001-the-data-cannot-be-made-fully-open-because-fbbb28de89/translation.md>)
 
-    - [x] [wrapper] 0008-we-intend-to-publish-a-paper-first-637c76111b (1/1)
+    - [x] [wrapper] 0008-the-data-cannot-be-made-fully-open-because-cf743fa372 (1/1)
 
-      [W] `0008-we-intend-to-publish-a-paper-first-637c76111b`
+      [W] `0008-the-data-cannot-be-made-fully-open-because-cf743fa372`
 
-        - [x] [unit] 0001-we-intend-to-publish-a-paper-first-ab2f7f2345: we intend to publish a paper first.
+        - [x] [unit] 0001-the-data-cannot-be-made-fully-open-because-8a11e48dc1: The data cannot be made fully open because of reasons other than publishing a paper{notOpenOtherReasonsOther}
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0008-we-intend-to-publish-a-paper-first-637c76111b/0001-we-intend-to-publish-a-paper-first-ab2f7f2345/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0008-the-data-cannot-be-made-fully-open-because-cf743fa372/0001-the-data-cannot-be-made-fully-open-because-8a11e48dc1/translation.md>)
 
-    - [x] [wrapper] 0009-of-reasons-other-than-publishing-a-paper-c00fc99643 (1/1)
+    - [x] [wrapper] 0009-the-data-cannot-be-made-fully-open-for-54bbe8eca7 (1/1)
 
-      [W] `0009-of-reasons-other-than-publishing-a-paper-c00fc99643`
+      [W] `0009-the-data-cannot-be-made-fully-open-for-54bbe8eca7`
 
-        - [x] [unit] 0001-of-reasons-other-than-publishing-a-paper-37e2365a38: of reasons other than publishing a paper{notOpenOtherReasonsOther}
+        - [x] [unit] 0001-the-data-cannot-be-made-fully-open-for-135cc25c4d: The data cannot be made fully open for the following reasons:
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0009-of-reasons-other-than-publishing-a-paper-c00fc99643/0001-of-reasons-other-than-publishing-a-paper-37e2365a38/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0009-the-data-cannot-be-made-fully-open-for-54bbe8eca7/0001-the-data-cannot-be-made-fully-open-for-135cc25c4d/translation.md>)
 
-    - [x] [wrapper] 0011-legal-restrictions-bea53924ea (1/1)
+    - [x] [wrapper] 0010-legal-restrictions-bea53924ea (1/1)
 
-      [W] `0011-legal-restrictions-bea53924ea`
+      [W] `0010-legal-restrictions-bea53924ea`
 
-        - [x] [unit] 0001-legal-restrictions-c7622681b8: legal restrictions
+        - [x] [unit] 0001-legal-restrictions-c384800ce2: legal restrictions
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0011-legal-restrictions-bea53924ea/0001-legal-restrictions-c7622681b8/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0010-legal-restrictions-bea53924ea/0001-legal-restrictions-c384800ce2/translation.md>)
 
-    - [x] [wrapper] 0012-patent-related-commercial-considerations-ab2f12e5a0 (1/1)
+    - [x] [wrapper] 0011-patent-related-commercial-considerations-ab2f12e5a0 (1/1)
 
-      [W] `0012-patent-related-commercial-considerations-ab2f12e5a0`
+      [W] `0011-patent-related-commercial-considerations-ab2f12e5a0`
 
-        - [x] [unit] 0001-patent-related-commercial-considerations-656d84531d: patent-related commercial considerations
+        - [x] [unit] 0001-patent-related-commercial-considerations-a000e8e168: patent-related commercial considerations
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0012-patent-related-commercial-considerations-ab2f12e5a0/0001-patent-related-commercial-considerations-656d84531d/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0011-patent-related-commercial-considerations-ab2f12e5a0/0001-patent-related-commercial-considerations-a000e8e168/translation.md>)
 
-    - [x] [wrapper] 0013-commercial-considerations-unrelated-to-patents-4934c4b576 (1/1)
+    - [x] [wrapper] 0012-commercial-considerations-unrelated-to-patents-4934c4b576 (1/1)
 
-      [W] `0013-commercial-considerations-unrelated-to-patents-4934c4b576`
+      [W] `0012-commercial-considerations-unrelated-to-patents-4934c4b576`
 
-        - [x] [unit] 0001-commercial-considerations-unrelated-to-patents-858b131bc4: commercial considerations unrelated to patents{notOpenBusinessReasonsOther}
+        - [x] [unit] 0001-commercial-considerations-unrelated-to-patents-7ad6437c5a: commercial considerations unrelated to patents{notOpenBusinessReasonsOther}
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0013-commercial-considerations-unrelated-to-patents-4934c4b576/0001-commercial-considerations-unrelated-to-patents-858b131bc4/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0012-commercial-considerations-unrelated-to-patents-4934c4b576/0001-commercial-considerations-unrelated-to-patents-7ad6437c5a/translation.md>)
 
-    - [x] [wrapper] 0014-we-intend-to-publish-a-paper-first-5cfcdcbab0 (1/1)
+    - [x] [wrapper] 0013-papers-need-to-be-submitted-first-3f6c5fef9a (1/1)
 
-      [W] `0014-we-intend-to-publish-a-paper-first-5cfcdcbab0`
+      [W] `0013-papers-need-to-be-submitted-first-3f6c5fef9a`
 
-        - [x] [unit] 0001-we-intend-to-publish-a-paper-first-1f58612cd5: we intend to publish a paper first
+        - [x] [unit] 0001-papers-need-to-be-submitted-first-8b4077f673: papers need to be submitted first
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0014-we-intend-to-publish-a-paper-first-5cfcdcbab0/0001-we-intend-to-publish-a-paper-first-1f58612cd5/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0013-papers-need-to-be-submitted-first-3f6c5fef9a/0001-papers-need-to-be-submitted-first-8b4077f673/translation.md>)
 
-    - [x] [wrapper] 0015-reasons-other-than-publishing-a-paper-a2b2edd573 (1/1)
+    - [x] [wrapper] 0014-reasons-other-than-publishing-a-paper-a2b2edd573 (1/1)
 
-      [W] `0015-reasons-other-than-publishing-a-paper-a2b2edd573`
+      [W] `0014-reasons-other-than-publishing-a-paper-a2b2edd573`
 
-        - [x] [unit] 0001-reasons-other-than-publishing-a-paper-756b251540: reasons other than publishing a paper{notOpenOtherReasonsOther}
+        - [x] [unit] 0001-reasons-other-than-publishing-a-paper-2868461b3d: reasons other than publishing a paper{notOpenOtherReasonsOther}
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0015-reasons-other-than-publishing-a-paper-a2b2edd573/0001-reasons-other-than-publishing-a-paper-756b251540/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0014-reasons-other-than-publishing-a-paper-a2b2edd573/0001-reasons-other-than-publishing-a-paper-2868461b3d/translation.md>)
 
-    - [x] [wrapper] 0016-the-data-cannot-be-made-fully-open-b5d6a59e68 (1/1)
+    - [x] [wrapper] 0015-the-data-cannot-be-made-fully-open-b5d6a59e68 (1/1)
 
-      [W] `0016-the-data-cannot-be-made-fully-open-b5d6a59e68`
+      [W] `0015-the-data-cannot-be-made-fully-open-b5d6a59e68`
 
-        - [x] [unit] 0001-the-data-cannot-be-made-fully-open-22f14f0e1f: The data cannot be made fully open.
+        - [x] [unit] 0001-the-data-cannot-be-made-fully-open-65cebc072d: The data cannot be made fully open.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0016-the-data-cannot-be-made-fully-open-b5d6a59e68/0001-the-data-cannot-be-made-fully-open-22f14f0e1f/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0015-the-data-cannot-be-made-fully-open-b5d6a59e68/0001-the-data-cannot-be-made-fully-open-65cebc072d/translation.md>)
 
-    - [x] [wrapper] 0017-authentication-and-authorization-of-users-6e833e97f9 (1/1)
+    - [x] [wrapper] 0016-authentication-and-authorization-of-users-6e833e97f9 (1/1)
 
-      [W] `0017-authentication-and-authorization-of-users-6e833e97f9`
+      [W] `0016-authentication-and-authorization-of-users-6e833e97f9`
 
-        - [x] [unit] 0001-authentication-and-authorization-of-users-6e4ee400e9: Authentication and Authorization of Users
+        - [x] [unit] 0001-authentication-and-authorization-of-users-788dbb2961: Authentication and Authorization of Users
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0017-authentication-and-authorization-of-users-6e833e97f9/0001-authentication-and-authorization-of-users-6e4ee400e9/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0016-authentication-and-authorization-of-users-6e833e97f9/0001-authentication-and-authorization-of-users-788dbb2961/translation.md>)
 
-    - [x] [wrapper] 0018-one-of-the-project-members-will-authorize-potential-17d9a8517d (1/1)
+    - [x] [wrapper] 0017-one-of-the-project-members-will-authorize-potential-17d9a8517d (1/1)
 
-      [W] `0018-one-of-the-project-members-will-authorize-potential-17d9a8517d`
+      [W] `0017-one-of-the-project-members-will-authorize-potential-17d9a8517d`
 
-        - [x] [unit] 0001-one-of-the-project-members-will-authorize-potential-6d22358a59: One of the project members will authorize potential users of the data.
+        - [x] [unit] 0001-one-of-the-project-members-will-authorize-potential-2cde790b30: One of the project members will authorize potential users of the data.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0018-one-of-the-project-members-will-authorize-potential-17d9a8517d/0001-one-of-the-project-members-will-authorize-potential-6d22358a59/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0017-one-of-the-project-members-will-authorize-potential-17d9a8517d/0001-one-of-the-project-members-will-authorize-potential-2cde790b30/translation.md>)
 
-    - [x] [wrapper] 0019-we-will-set-up-a-data-access-committee-2cc4bb92b7 (1/1)
+    - [x] [wrapper] 0018-we-will-set-up-a-data-access-committee-2cc4bb92b7 (1/1)
 
-      [W] `0019-we-will-set-up-a-data-access-committee-2cc4bb92b7`
+      [W] `0018-we-will-set-up-a-data-access-committee-2cc4bb92b7`
 
-        - [x] [unit] 0001-we-will-set-up-a-data-access-committee-a2c9788ce1: We will set up a data access committee for authorization of potential users of the data.
+        - [x] [unit] 0001-we-will-set-up-a-data-access-committee-4f39f76ca1: We will set up a data access committee for authorization of potential users of the data.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0019-we-will-set-up-a-data-access-committee-2cc4bb92b7/0001-we-will-set-up-a-data-access-committee-a2c9788ce1/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0018-we-will-set-up-a-data-access-committee-2cc4bb92b7/0001-we-will-set-up-a-data-access-committee-4f39f76ca1/translation.md>)
 
-    - [x] [wrapper] 0020-we-will-make-use-of-an-existing-data-ca76976127 (1/1)
+    - [x] [wrapper] 0019-we-will-make-use-of-an-existing-data-ca76976127 (1/1)
 
-      [W] `0020-we-will-make-use-of-an-existing-data-ca76976127`
+      [W] `0019-we-will-make-use-of-an-existing-data-ca76976127`
 
-        - [x] [unit] 0001-we-will-make-use-of-an-existing-data-b79d726a5c: We will make use of an existing data committee: {legalReasonsAuthenticatedCommitteeReply}
+        - [x] [unit] 0001-we-will-make-use-of-an-existing-data-851bf923e9: We will make use of an existing data committee: {legalReasonsAuthenticatedCommitteeReply}
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0020-we-will-make-use-of-an-existing-data-ca76976127/0001-we-will-make-use-of-an-existing-data-b79d726a5c/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0019-we-will-make-use-of-an-existing-data-ca76976127/0001-we-will-make-use-of-an-existing-data-851bf923e9/translation.md>)
 
-    - [x] [wrapper] 0021-we-will-make-use-of-an-existing-data-ef4fdeffeb (1/1)
+    - [x] [wrapper] 0020-we-will-make-use-of-an-existing-data-ef4fdeffeb (1/1)
 
-      [W] `0021-we-will-make-use-of-an-existing-data-ef4fdeffeb`
+      [W] `0020-we-will-make-use-of-an-existing-data-ef4fdeffeb`
 
-        - [x] [unit] 0001-we-will-make-use-of-an-existing-data-461f81ecb6: We will make use of an existing data committee.
+        - [x] [unit] 0001-we-will-make-use-of-an-existing-data-e33841d610: We will make use of an existing data committee.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0021-we-will-make-use-of-an-existing-data-ef4fdeffeb/0001-we-will-make-use-of-an-existing-data-461f81ecb6/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0020-we-will-make-use-of-an-existing-data-ef4fdeffeb/0001-we-will-make-use-of-an-existing-data-e33841d610/translation.md>)
 
-    - [x] [wrapper] 0022-we-will-use-the-following-authorization-arrangements-93bc943d81 (1/1)
+    - [x] [wrapper] 0021-we-will-use-the-following-authorization-arrangements-8b475c4977 (1/1)
 
-      [W] `0022-we-will-use-the-following-authorization-arrangements-93bc943d81`
+      [W] `0021-we-will-use-the-following-authorization-arrangements-8b475c4977`
 
-        - [x] [unit] 0001-we-will-use-the-following-authorization-arrangements-326fbc7c14: We will use the following authorization arrangements: {legalReasonsAuthenticatedOtherReply}
+        - [x] [unit] 0001-we-will-use-the-following-authorization-arrangements-83a9754f55: We will use the following authorization arrangements:
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0022-we-will-use-the-following-authorization-arrangements-93bc943d81/0001-we-will-use-the-following-authorization-arrangements-326fbc7c14/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0021-we-will-use-the-following-authorization-arrangements-8b475c4977/0001-we-will-use-the-following-authorization-arrangements-83a9754f55/translation.md>)
 
-    - [x] [wrapper] 0023-we-will-make-other-arrangements-for-authorizing-potential-7757cbc668 (1/1)
+    - [x] [wrapper] 0022-we-will-make-other-arrangements-for-authorizing-potential-7757cbc668 (1/1)
 
-      [W] `0023-we-will-make-other-arrangements-for-authorizing-potential-7757cbc668`
+      [W] `0022-we-will-make-other-arrangements-for-authorizing-potential-7757cbc668`
 
-        - [x] [unit] 0001-we-will-make-other-arrangements-for-authorizing-potential-70902743ef: We will make other arrangements for authorizing potential users.
+        - [x] [unit] 0001-we-will-make-other-arrangements-for-authorizing-potential-1971733140: We will make other arrangements for authorizing potential users.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0023-we-will-make-other-arrangements-for-authorizing-potential-7757cbc668/0001-we-will-make-other-arrangements-for-authorizing-potential-70902743ef/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0022-we-will-make-other-arrangements-for-authorizing-potential-7757cbc668/0001-we-will-make-other-arrangements-for-authorizing-potential-1971733140/translation.md>)
 
-    - [x] [wrapper] 0024-information-not-provided-details-of-the-authorization-arrangements-8bf5734b65 (1/1)
+    - [x] [wrapper] 0023-information-not-provided-details-of-the-authorization-arrangements-8bf5734b65 (1/1)
 
-      [W] `0024-information-not-provided-details-of-the-authorization-arrangements-8bf5734b65`
+      [W] `0023-information-not-provided-details-of-the-authorization-arrangements-8bf5734b65`
 
-        - [x] [unit] 0001-information-not-provided-details-of-the-authorization-arrangements-fe7b34139c: Information not provided: details of the authorization arrangements.
+        - [x] [unit] 0001-information-not-provided-details-of-the-authorization-arrangements-c2b26cf4a5: Information not provided: details of the authorization arrangements.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0024-information-not-provided-details-of-the-authorization-arrangements-8bf5734b65/0001-information-not-provided-details-of-the-authorization-arrangements-fe7b34139c/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0023-information-not-provided-details-of-the-authorization-arrangements-8bf5734b65/0001-information-not-provided-details-of-the-authorization-arrangements-c2b26cf4a5/translation.md>)
 
-    - [x] [wrapper] 0025-no-embargo-period-is-needed-because-all-data-304ae3aa4c (1/1)
+    - [x] [wrapper] 0024-no-embargo-period-is-needed-because-all-data-304ae3aa4c (1/1)
 
-      [W] `0025-no-embargo-period-is-needed-because-all-data-304ae3aa4c`
+      [W] `0024-no-embargo-period-is-needed-because-all-data-304ae3aa4c`
 
-        - [x] [unit] 0001-no-embargo-period-is-needed-because-all-data-91770076cc: No embargo period is needed because all data will be made openly available.
+        - [x] [unit] 0001-no-embargo-period-is-needed-because-all-data-76bc8a9086: No embargo period is needed because all data will be made openly available.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0025-no-embargo-period-is-needed-because-all-data-304ae3aa4c/0001-no-embargo-period-is-needed-because-all-data-91770076cc/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0024-no-embargo-period-is-needed-because-all-data-304ae3aa4c/0001-no-embargo-period-is-needed-because-all-data-76bc8a9086/translation.md>)
 
-    - [x] [wrapper] 0026-a-fixed-embargo-period-cannot-be-used-because-41471c65af (1/1)
+    - [x] [wrapper] 0025-a-fixed-embargo-period-cannot-be-used-because-41471c65af (1/1)
 
-      [W] `0026-a-fixed-embargo-period-cannot-be-used-because-41471c65af`
+      [W] `0025-a-fixed-embargo-period-cannot-be-used-because-41471c65af`
 
-        - [x] [unit] 0001-a-fixed-embargo-period-cannot-be-used-because-caf5c580a0: A fixed embargo period cannot be used because some restricted data must remain closed indefinitely.
+        - [x] [unit] 0001-a-fixed-embargo-period-cannot-be-used-because-0b0e963379: A fixed embargo period cannot be used because some restricted data must remain closed indefinitely.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0026-a-fixed-embargo-period-cannot-be-used-because-41471c65af/0001-a-fixed-embargo-period-cannot-be-used-because-caf5c580a0/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0025-a-fixed-embargo-period-cannot-be-used-because-41471c65af/0001-a-fixed-embargo-period-cannot-be-used-because-0b0e963379/translation.md>)
 
-    - [x] [wrapper] 0027-data-will-be-released-as-soon-as-the-7a5f8f4c0a (1/1)
+    - [x] [wrapper] 0026-data-will-be-released-as-soon-as-the-7a5f8f4c0a (1/1)
 
-      [W] `0027-data-will-be-released-as-soon-as-the-7a5f8f4c0a`
+      [W] `0026-data-will-be-released-as-soon-as-the-7a5f8f4c0a`
 
-        - [x] [unit] 0001-data-will-be-released-as-soon-as-the-e02fa7b10a: Data will be released as soon as the restrictions no longer apply.
+        - [x] [unit] 0001-data-will-be-released-as-soon-as-the-28695a7338: Data will be released as soon as the restrictions no longer apply.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0027-data-will-be-released-as-soon-as-the-7a5f8f4c0a/0001-data-will-be-released-as-soon-as-the-e02fa7b10a/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0026-data-will-be-released-as-soon-as-the-7a5f8f4c0a/0001-data-will-be-released-as-soon-as-the-28695a7338/translation.md>)
 
-    - [x] [wrapper] 0028-data-not-subject-to-legal-restrictions-will-be-a503567098 (1/1)
+    - [x] [wrapper] 0027-data-not-subject-to-legal-restrictions-will-be-a503567098 (1/1)
 
-      [W] `0028-data-not-subject-to-legal-restrictions-will-be-a503567098`
+      [W] `0027-data-not-subject-to-legal-restrictions-will-be-a503567098`
 
-        - [x] [unit] 0001-data-not-subject-to-legal-restrictions-will-be-bad9320174: Data not subject to legal restrictions will be released unconditionally after a fixed period ({embargoPeriod}).
+        - [x] [unit] 0001-data-not-subject-to-legal-restrictions-will-be-92ba954898: Data not subject to legal restrictions will be released unconditionally after a fixed period ({embargoPeriod}).
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0028-data-not-subject-to-legal-restrictions-will-be-a503567098/0001-data-not-subject-to-legal-restrictions-will-be-bad9320174/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0027-data-not-subject-to-legal-restrictions-will-be-a503567098/0001-data-not-subject-to-legal-restrictions-will-be-92ba954898/translation.md>)
 
-    - [x] [wrapper] 0029-data-not-subject-to-legal-restrictions-will-be-73eecfc142 (1/1)
+    - [x] [wrapper] 0028-data-not-subject-to-legal-restrictions-will-be-73eecfc142 (1/1)
 
-      [W] `0029-data-not-subject-to-legal-restrictions-will-be-73eecfc142`
+      [W] `0028-data-not-subject-to-legal-restrictions-will-be-73eecfc142`
 
-        - [x] [unit] 0001-data-not-subject-to-legal-restrictions-will-be-37f8eae2c9: Data not subject to legal restrictions will be released unconditionally after a fixed period.
+        - [x] [unit] 0001-data-not-subject-to-legal-restrictions-will-be-6e9acebc84: Data not subject to legal restrictions will be released unconditionally after a fixed period.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0029-data-not-subject-to-legal-restrictions-will-be-73eecfc142/0001-data-not-subject-to-legal-restrictions-will-be-37f8eae2c9/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0028-data-not-subject-to-legal-restrictions-will-be-73eecfc142/0001-data-not-subject-to-legal-restrictions-will-be-6e9acebc84/translation.md>)
 
-    - [x] [wrapper] 0030-the-project-data-are-not-protected-by-copyright-d741e7ba9d (1/1)
+    - [x] [wrapper] 0029-the-project-data-are-not-protected-by-copyright-d741e7ba9d (1/1)
 
-      [W] `0030-the-project-data-are-not-protected-by-copyright-d741e7ba9d`
+      [W] `0029-the-project-data-are-not-protected-by-copyright-d741e7ba9d`
 
-        - [x] [unit] 0001-the-project-data-are-not-protected-by-copyright-b507fea93a: The project data are not protected by copyright and therefore have no copyright owner.
+        - [x] [unit] 0001-the-project-data-are-not-protected-by-copyright-d39036c8f8: The project data are not protected by copyright and therefore have no copyright owner.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0030-the-project-data-are-not-protected-by-copyright-d741e7ba9d/0001-the-project-data-are-not-protected-by-copyright-b507fea93a/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0029-the-project-data-are-not-protected-by-copyright-d741e7ba9d/0001-the-project-data-are-not-protected-by-copyright-d39036c8f8/translation.md>)
 
-    - [x] [wrapper] 0031-all-data-will-be-owned-by-the-principal-cb0db655e1 (1/1)
+    - [x] [wrapper] 0030-all-data-will-be-owned-by-the-principal-cb0db655e1 (1/1)
 
-      [W] `0031-all-data-will-be-owned-by-the-principal-cb0db655e1`
+      [W] `0030-all-data-will-be-owned-by-the-principal-cb0db655e1`
 
-        - [x] [unit] 0001-all-data-will-be-owned-by-the-principal-9ae23e99e8: All data will be owned by the Principal Investigator.
+        - [x] [unit] 0001-all-data-will-be-owned-by-the-principal-1d8b1016d2: All data will be owned by the Principal Investigator.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0031-all-data-will-be-owned-by-the-principal-cb0db655e1/0001-all-data-will-be-owned-by-the-principal-9ae23e99e8/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0030-all-data-will-be-owned-by-the-principal-cb0db655e1/0001-all-data-will-be-owned-by-the-principal-1d8b1016d2/translation.md>)
 
-    - [x] [wrapper] 0032-all-data-will-be-owned-by-the-institute-1b82913873 (1/1)
+    - [x] [wrapper] 0031-all-data-will-be-owned-by-the-institute-1b82913873 (1/1)
 
-      [W] `0032-all-data-will-be-owned-by-the-institute-1b82913873`
+      [W] `0031-all-data-will-be-owned-by-the-institute-1b82913873`
 
-        - [x] [unit] 0001-all-data-will-be-owned-by-the-institute-60402a5bf7: All data will be owned by the institute.
+        - [x] [unit] 0001-all-data-will-be-owned-by-the-institute-90fd239ac7: All data will be owned by the institute.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0032-all-data-will-be-owned-by-the-institute-1b82913873/0001-all-data-will-be-owned-by-the-institute-60402a5bf7/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0031-all-data-will-be-owned-by-the-institute-1b82913873/0001-all-data-will-be-owned-by-the-institute-90fd239ac7/translation.md>)
 
-    - [x] [wrapper] 0033-our-consortium-agreement-defines-ownership-of-intellectual-property-a0ec2338b9 (1/1)
+    - [x] [wrapper] 0032-our-consortium-agreement-defines-ownership-of-intellectual-property-a0ec2338b9 (1/1)
 
-      [W] `0033-our-consortium-agreement-defines-ownership-of-intellectual-property-a0ec2338b9`
+      [W] `0032-our-consortium-agreement-defines-ownership-of-intellectual-property-a0ec2338b9`
 
-        - [x] [unit] 0001-our-consortium-agreement-defines-ownership-of-intellectual-property-3fbf03e778: Our consortium agreement defines ownership of intellectual property rights.
+        - [x] [unit] 0001-our-consortium-agreement-defines-ownership-of-intellectual-property-175e2cf2a3: Our consortium agreement defines ownership of intellectual property rights.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0033-our-consortium-agreement-defines-ownership-of-intellectual-property-a0ec2338b9/0001-our-consortium-agreement-defines-ownership-of-intellectual-property-3fbf03e778/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0032-our-consortium-agreement-defines-ownership-of-intellectual-property-a0ec2338b9/0001-our-consortium-agreement-defines-ownership-of-intellectual-property-175e2cf2a3/translation.md>)
 
-    - [x] [wrapper] 0034-we-have-made-the-following-arrangements-regarding-data-09d30a124d (1/1)
+    - [x] [wrapper] 0033-we-have-made-the-following-arrangements-regarding-data-09d30a124d (1/1)
 
-      [W] `0034-we-have-made-the-following-arrangements-regarding-data-09d30a124d`
+      [W] `0033-we-have-made-the-following-arrangements-regarding-data-09d30a124d`
 
-        - [x] [unit] 0001-we-have-made-the-following-arrangements-regarding-data-88f632c759: We have made the following arrangements regarding data ownership: {ownershipOther}
+        - [x] [unit] 0001-we-have-made-the-following-arrangements-regarding-data-3342420f0e: We have made the following arrangements regarding data ownership: {ownershipOther}
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0034-we-have-made-the-following-arrangements-regarding-data-09d30a124d/0001-we-have-made-the-following-arrangements-regarding-data-88f632c759/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0033-we-have-made-the-following-arrangements-regarding-data-09d30a124d/0001-we-have-made-the-following-arrangements-regarding-data-3342420f0e/translation.md>)
 
-    - [x] [wrapper] 0035-the-following-conditions-apply-to-the-reference-and-9e4bd9ff77 (1/1)
+    - [x] [wrapper] 0034-the-following-conditions-apply-to-the-reference-and-9e4bd9ff77 (1/1)
 
-      [W] `0035-the-following-conditions-apply-to-the-reference-and-9e4bd9ff77`
+      [W] `0034-the-following-conditions-apply-to-the-reference-and-9e4bd9ff77`
 
-        - [x] [unit] 0001-the-following-conditions-apply-to-the-reference-and-4b031ebb11: The following conditions apply to the reference and non-reference datasets that we reuse:
+        - [x] [unit] 0001-the-following-conditions-apply-to-the-reference-and-296b9cc604: The following conditions apply to the reference and non-reference datasets that we reuse:
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0035-the-following-conditions-apply-to-the-reference-and-9e4bd9ff77/0001-the-following-conditions-apply-to-the-reference-and-4b031ebb11/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0034-the-following-conditions-apply-to-the-reference-and-9e4bd9ff77/0001-the-following-conditions-apply-to-the-reference-and-296b9cc604/translation.md>)
 
-    - [x] [wrapper] 0036-no-name-given-it-is-freely-available-for-77d2dbd570 (4/4)
+    - [x] [wrapper] 0035-no-name-given-it-is-freely-available-for-77d2dbd570 (4/4)
 
-      [W] `0036-no-name-given-it-is-freely-available-for-77d2dbd570`
+      [W] `0035-no-name-given-it-is-freely-available-for-77d2dbd570`
+
+        - [x] [unit] 0001-no-name-given-72b6c69eac: (no name given)
+
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0035-no-name-given-it-is-freely-available-for-77d2dbd570/0001-no-name-given-72b6c69eac/translation.md>)
+
+        - [x] [unit] 0002-it-is-freely-available-for-any-use-public-16e816bab2: It is freely available for any use (public domain or CC0).
+
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0035-no-name-given-it-is-freely-available-for-77d2dbd570/0002-it-is-freely-available-for-any-use-public-16e816bab2/translation.md>)
+
+        - [x] [unit] 0003-it-is-freely-available-with-an-obligation-to-f3fffadd00: It is freely available with an obligation to cite the source (e.g. CC BY).
+
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0035-no-name-given-it-is-freely-available-for-77d2dbd570/0003-it-is-freely-available-with-an-obligation-to-f3fffadd00/translation.md>)
+
+        - [x] [unit] 0004-it-is-available-under-specific-restrictions-which-we-bf1444e685: It is available under specific restrictions, which we will follow in our project{refDataConditionsOther}
+
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0035-no-name-given-it-is-freely-available-for-77d2dbd570/0004-it-is-available-under-specific-restrictions-which-we-bf1444e685/translation.md>)
+
+    - [x] [wrapper] 0036-no-name-given-it-is-freely-available-for-eff9e5c876 (4/4)
+
+      [W] `0036-no-name-given-it-is-freely-available-for-eff9e5c876`
 
         - [x] [unit] 0001-no-name-given-62395b45a5: (no name given)
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0036-no-name-given-it-is-freely-available-for-77d2dbd570/0001-no-name-given-62395b45a5/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0036-no-name-given-it-is-freely-available-for-eff9e5c876/0001-no-name-given-62395b45a5/translation.md>)
 
         - [x] [unit] 0002-it-is-freely-available-for-any-use-public-36e56d8722: It is freely available for any use (public domain or CC0).
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0036-no-name-given-it-is-freely-available-for-77d2dbd570/0002-it-is-freely-available-for-any-use-public-36e56d8722/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0036-no-name-given-it-is-freely-available-for-eff9e5c876/0002-it-is-freely-available-for-any-use-public-36e56d8722/translation.md>)
 
         - [x] [unit] 0003-it-is-freely-available-with-an-obligation-to-8219aaeb1f: It is freely available with an obligation to cite the source (e.g. CC BY).
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0036-no-name-given-it-is-freely-available-for-77d2dbd570/0003-it-is-freely-available-with-an-obligation-to-8219aaeb1f/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0036-no-name-given-it-is-freely-available-for-eff9e5c876/0003-it-is-freely-available-with-an-obligation-to-8219aaeb1f/translation.md>)
 
-        - [x] [unit] 0004-it-is-available-under-specific-restrictions-which-we-c489d2b262: It is available under specific restrictions, which we will follow in our project{refDataConditionsOther}
+        - [x] [unit] 0004-it-is-available-under-specific-restrictions-which-we-932c4da985: It is available under specific restrictions, which we will follow in our project{nrefDataConditionsOther}
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0036-no-name-given-it-is-freely-available-for-77d2dbd570/0004-it-is-available-under-specific-restrictions-which-we-c489d2b262/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0036-no-name-given-it-is-freely-available-for-eff9e5c876/0004-it-is-available-under-specific-restrictions-which-we-932c4da985/translation.md>)
 
-    - [x] [wrapper] 0037-no-name-given-it-is-freely-available-for-eff9e5c876 (4/4)
+    - [x] [wrapper] 0037-this-document-does-not-yet-describe-arrangements-for-409dc01360 (1/1)
 
-      [W] `0037-no-name-given-it-is-freely-available-for-eff9e5c876`
+      [W] `0037-this-document-does-not-yet-describe-arrangements-for-409dc01360`
 
-        - [x] [unit] 0001-no-name-given-a3e8d4a6c5: (no name given)
+        - [x] [unit] 0001-this-document-does-not-yet-describe-arrangements-for-bd0ea785a3: This document does not yet describe arrangements for data ownership, intellectual property rights, or applicable legislation. Please review and complete this section.
 
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-no-name-given-it-is-freely-available-for-eff9e5c876/0001-no-name-given-a3e8d4a6c5/translation.md>)
+          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-this-document-does-not-yet-describe-arrangements-for-409dc01360/0001-this-document-does-not-yet-describe-arrangements-for-bd0ea785a3/translation.md>)
 
-        - [x] [unit] 0002-it-is-freely-available-for-any-use-public-641db1761f: It is freely available for any use (public domain or CC0).
-
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-no-name-given-it-is-freely-available-for-eff9e5c876/0002-it-is-freely-available-for-any-use-public-641db1761f/translation.md>)
-
-        - [x] [unit] 0003-it-is-freely-available-with-an-obligation-to-97a0456f9b: It is freely available with an obligation to cite the source (e.g. CC BY).
-
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-no-name-given-it-is-freely-available-for-eff9e5c876/0003-it-is-freely-available-with-an-obligation-to-97a0456f9b/translation.md>)
-
-        - [x] [unit] 0004-it-is-available-under-specific-restrictions-which-we-8e9eb370b0: It is available under specific restrictions, which we will follow in our project{nrefDataConditionsOther}
-
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-no-name-given-it-is-freely-available-for-eff9e5c876/0004-it-is-available-under-specific-restrictions-which-we-8e9eb370b0/translation.md>)
-
-    - [x] [wrapper] 0038-this-document-does-not-yet-describe-arrangements-for-409dc01360 (1/1)
-
-      [W] `0038-this-document-does-not-yet-describe-arrangements-for-409dc01360`
-
-        - [x] [unit] 0001-this-document-does-not-yet-describe-arrangements-for-a3947183e5: This document does not yet describe arrangements for data ownership, intellectual property rights, or applicable legislation. Please review and complete this section.
-
-          [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0038-this-document-does-not-yet-describe-arrangements-for-409dc01360/0001-this-document-does-not-yet-describe-arrangements-for-a3947183e5/translation.md>)
-
-- [x] [file] src/questions/09-ethical-issues.html.j2 (45/45)
+- [ ] [file] src/questions/09-ethical-issues.html.j2 (44/45)
 
   [J2] `src/questions/09-ethical-issues.html.j2`
 
@@ -3868,11 +3876,11 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0016-we-will-not-collect-any-data-related-to-8cac0b5e3a/0001-we-will-not-collect-any-data-related-to-0eea36d0e3/translation.md>)
 
-    - [x] [wrapper] 0017-we-will-collect-data-related-to-individuals-i-08bb9eb9f9 (1/1)
+    - [ ] [wrapper] 0017-we-will-collect-data-related-to-individuals-i-08bb9eb9f9 (0/1)
 
       [W] `0017-we-will-collect-data-related-to-individuals-i-08bb9eb9f9`
 
-        - [x] [unit] 0001-we-will-collect-data-related-to-individuals-i-7ec54092d7: We will collect data related to individuals, i.e. "personal data".
+        - [ ] [unit] 0001-we-will-collect-data-related-to-individuals-i-7ec54092d7: We will collect data related to individuals, i.e. "personal data".
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0017-we-will-collect-data-related-to-individuals-i-08bb9eb9f9/0001-we-will-collect-data-related-to-individuals-i-7ec54092d7/translation.md>)
 
