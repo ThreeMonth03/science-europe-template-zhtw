@@ -13,7 +13,7 @@ Access to this distribution is subject to restrictions.
 ### Translation (zh_Hant)
 
 ~~~jinja
-此管道的資料取用須遵守以下限制。
+此管道的資料取用受到限制。
 ~~~
 
 <details>
