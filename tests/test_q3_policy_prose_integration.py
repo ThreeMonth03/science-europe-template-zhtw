@@ -90,6 +90,21 @@ class Q3IntegrationTests(unittest.TestCase):
             with patch.object(current_contract,'CONTRACT',delta),self.assertRaises(AssertionError):
                 current_contract.project_package(bad,language,timestamp,historical)
 
+    def test_current_readme_is_sealed_before_restoring_only_the_historical_view(self):
+        timestamp='2000-01-01T00:00:00Z'
+        for language in ['english','chinese']:
+            historical,candidate,delta=self.current_candidate(language,timestamp)
+            candidate['readme']='Reviewed current package instructions.'
+            delta['languages'][language]['candidate_metadata_sha256']=self.metadata_seal(candidate)
+            original=copy.deepcopy(candidate)
+            with patch.object(current_contract,'CONTRACT',delta):
+                restored,_=current_contract.project_package(candidate,language,timestamp,historical)
+                self.assertEqual(restored,historical)
+                self.assertEqual(candidate,original)
+                altered=copy.deepcopy(candidate);altered['readme']+=' Unreviewed instructions.'
+                with self.assertRaises(AssertionError):
+                    current_contract.project_package(altered,language,timestamp,historical)
+
     def test_frozen_prototype_and_unchanged_translation_tree(self):
         for language in ['english','chinese']:
             values=contract.fixtures(language);record=contract.CONTRACT['languages'][language]

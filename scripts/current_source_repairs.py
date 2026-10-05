@@ -139,6 +139,9 @@ def project_package(candidate, language, timestamp, historical):
         name for name in old_files if current_files[name] != old_files[name]
     ) == [name for name in CONTRACT['changed'] if name in old_files]
     previous['files'] = deepcopy(historical['files'])
+    # The complete current metadata seal above includes the reviewed package
+    # README. Restore its frozen text only for this historical test view.
+    previous['readme'] = historical['readme']
     assert previous == historical, 'Current package cannot project exactly to frozen 0.3.51'
     return previous, {
         'current_file_records': len(candidate['files']),
