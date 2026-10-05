@@ -1340,7 +1340,7 @@
 
           [T] [translation](<tree/src/quality-control.html.j2/0017-it-has-not-been-specified-whether-quality-control-59607aedf9/0001-it-has-not-been-specified-whether-quality-control-75bf53cf19/translation.md>)
 
-- [ ] [file] src/questions/01-how-data.html.j2 (75/76)
+- [x] [file] src/questions/01-how-data.html.j2 (76/76)
 
   [J2] `src/questions/01-how-data.html.j2`
 
@@ -1652,7 +1652,7 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0017-before-reuse-we-need-to-harmonize-existing-data-4e81cf9ce4/0001-before-reuse-we-need-to-harmonize-existing-data-08050f809a/translation.md>)
 
-    - [ ] [wrapper] 0018-before-reuse-we-will-need-to-convert-the-5eb8df5022 (6/7)
+    - [x] [wrapper] 0018-before-reuse-we-will-need-to-convert-the-5eb8df5022 (7/7)
 
       [W] `0018-before-reuse-we-will-need-to-convert-the-5eb8df5022`
 
@@ -1680,7 +1680,7 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-5eb8df5022/0006-we-will-provide-others-with-standardized-machine-readable-9afe42fce1/translation.md>)
 
-        - [ ] [unit] 0007-we-will-not-provide-others-with-standardized-machine-e011d960dc: We will not provide others with standardized, machine-readable metadata.
+        - [x] [unit] 0007-we-will-not-provide-others-with-standardized-machine-e011d960dc: We will not provide others with standardized, machine-readable metadata.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-5eb8df5022/0007-we-will-not-provide-others-with-standardized-machine-e011d960dc/translation.md>)
 
@@ -2200,7 +2200,7 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0055-information-still-needed-efe9afd7cc/0001-information-still-needed-cb5e967faf/translation.md>)
 
-- [ ] [file] src/questions/03-docs-metadata.html.j2 (51/53)
+- [x] [file] src/questions/03-docs-metadata.html.j2 (53/53)
 
   [J2] `src/questions/03-docs-metadata.html.j2`
 
@@ -2500,19 +2500,19 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0033-we-document-how-we-manage-file-versioning-for-daafa22282/0001-we-document-how-we-manage-file-versioning-for-d49a0162d3/translation.md>)
 
-    - [ ] [wrapper] 0034-we-have-not-documented-how-we-manage-file-8dc84a6477 (0/1)
+    - [x] [wrapper] 0034-we-have-not-documented-how-we-manage-file-8dc84a6477 (1/1)
 
       [W] `0034-we-have-not-documented-how-we-manage-file-8dc84a6477`
 
-        - [ ] [unit] 0001-we-have-not-documented-how-we-manage-file-0b2dd24a6d: We have not documented how we manage file versioning for files and folders.
+        - [x] [unit] 0001-we-have-not-documented-how-we-manage-file-0b2dd24a6d: We have not documented how we manage file versioning for files and folders.
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0034-we-have-not-documented-how-we-manage-file-8dc84a6477/0001-we-have-not-documented-how-we-manage-file-0b2dd24a6d/translation.md>)
 
-    - [ ] [wrapper] 0035-file-naming-conventions-e28ce38d5f (0/1)
+    - [x] [wrapper] 0035-file-naming-conventions-e28ce38d5f (1/1)
 
       [W] `0035-file-naming-conventions-e28ce38d5f`
 
-        - [ ] [unit] 0001-file-naming-conventions-7d33c6c136: File naming conventions:
+        - [x] [unit] 0001-file-naming-conventions-7d33c6c136: File naming conventions:
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0035-file-naming-conventions-e28ce38d5f/0001-file-naming-conventions-7d33c6c136/translation.md>)
 
@@ -2952,7 +2952,7 @@
 
           [T] [translation](<tree/src/questions/05-store-backup.html.j2/0043-an-actual-backup-schedule-is-not-established-by-d74adc28a1/0001-an-actual-backup-schedule-is-not-established-by-3b2d616db3/translation.md>)
 
-- [ ] [file] src/questions/06-access-security.html.j2 (39/41)
+- [x] [file] src/questions/06-access-security.html.j2 (41/41)
 
   [J2] `src/questions/06-access-security.html.j2`
 
@@ -2964,7 +2964,7 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0001-6-how-will-data-security-and-protection-of-aeaf885659/0001-6-how-will-data-security-and-protection-of-e089d04591/translation.md>)
 
-    - [ ] [wrapper] 0002-project-members-will-not-store-data-or-software-0859119838 (12/14)
+    - [x] [wrapper] 0002-project-members-will-not-store-data-or-software-0859119838 (14/14)
 
       [W] `0002-project-members-will-not-store-data-or-software-0859119838`
 
@@ -3004,7 +3004,7 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0009-project-members-can-carry-data-with-them-on-647e5da58e/translation.md>)
 
-        - [ ] [unit] 0010-not-all-data-carriers-are-encrypted-e52ae42e26: Not all data carriers are encrypted.
+        - [x] [unit] 0010-not-all-data-carriers-are-encrypted-e52ae42e26: Not all data carriers are encrypted.
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0010-not-all-data-carriers-are-encrypted-e52ae42e26/translation.md>)
 
@@ -3012,7 +3012,7 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0011-all-data-centres-that-store-project-data-hold-d8c4faef8d/translation.md>)
 
-        - [ ] [unit] 0012-not-all-data-centres-that-store-project-data-b283190627: Not all data centres that store project data hold appropriate certifications.
+        - [x] [unit] 0012-not-all-data-centres-that-store-project-data-b283190627: Not all data centres that store project data hold appropriate certifications.
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0012-not-all-data-centres-that-store-project-data-b283190627/translation.md>)
 
@@ -4096,7 +4096,7 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-2a3a4167e8/translation.md>)
 
-- [ ] [file] src/questions/10-share-restrictions.html.j2 (52/54)
+- [x] [file] src/questions/10-share-restrictions.html.j2 (54/54)
 
   [J2] `src/questions/10-share-restrictions.html.j2`
 
@@ -4124,11 +4124,11 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0003-identifier-8d9fae53aa/0001-identifier-c3eccf2858/translation.md>)
 
-    - [ ] [wrapper] 0004-identifier-information-for-this-dataset-55497b79d4 (0/1)
+    - [x] [wrapper] 0004-identifier-information-for-this-dataset-55497b79d4 (1/1)
 
       [W] `0004-identifier-information-for-this-dataset-55497b79d4`
 
-        - [ ] [unit] 0001-identifier-information-for-this-dataset-8d14a98e0e: Identifier information for this dataset:
+        - [x] [unit] 0001-identifier-information-for-this-dataset-8d14a98e0e: Identifier information for this dataset:
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0004-identifier-information-for-this-dataset-55497b79d4/0001-identifier-information-for-this-dataset-8d14a98e0e/translation.md>)
 
@@ -4440,11 +4440,11 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-data-cannot-be-completely-open-due-to-legal-c711c4b8df/0002-the-embargo-period-will-be-cdfadccf37/translation.md>)
 
-    - [ ] [wrapper] 0043-we-will-permit-authenticated-access-to-the-data-299697aad9 (6/7)
+    - [x] [wrapper] 0043-we-will-permit-authenticated-access-to-the-data-299697aad9 (7/7)
 
       [W] `0043-we-will-permit-authenticated-access-to-the-data-299697aad9`
 
-        - [ ] [unit] 0001-we-will-permit-authenticated-access-to-the-data-e8c6004f4d: We will permit authenticated access to the data.
+        - [x] [unit] 0001-we-will-permit-authenticated-access-to-the-data-e8c6004f4d: We will permit authenticated access to the data.
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-we-will-permit-authenticated-access-to-the-data-299697aad9/0001-we-will-permit-authenticated-access-to-the-data-e8c6004f4d/translation.md>)
 
@@ -5396,13 +5396,13 @@
 
           [T] [translation](<tree/src/questions/15-required-resources.html.j2/0022-budget-a3a133e727/0001-budget-2ecc04f3f0/translation.md>)
 
-    - [x] [wrapper] 0023-funding-source-24355dbdc4 (1/1)
+    - [x] [wrapper] 0023-funding-source-7bd669a267 (1/1)
 
-      [W] `0023-funding-source-24355dbdc4`
+      [W] `0023-funding-source-7bd669a267`
 
         - [x] [unit] 0001-funding-source-c2c0eb768d: Funding source
 
-          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-funding-source-24355dbdc4/0001-funding-source-c2c0eb768d/translation.md>)
+          [T] [translation](<tree/src/questions/15-required-resources.html.j2/0023-funding-source-7bd669a267/0001-funding-source-c2c0eb768d/translation.md>)
 
     - [x] [wrapper] 0024-no-resource-name-given-information-not-provided-why-1fab895810 (17/17)
 
