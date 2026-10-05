@@ -430,5 +430,11 @@
   "We do not need to contact the repository in advance because depositing data there is routine for us.": "本計畫依例行流程將資料存入該儲存庫，無須事先聯繫。",
   "This project does not involve collaboration between different groups or institutions. Therefore, no collaboration agreement for data access is needed.": "本計畫不涉及不同團隊或機構之間的合作，因此無須訂立資料取用的合作協議。",
   "This project involves collaboration between different groups and institutions. However, no collaboration agreement is in place to specify who can access which project data.": "本計畫涉及不同團隊與機構之間的合作，但未訂立合作協議以明訂哪些人可取用哪些計畫資料。",
-  "This project involves collaboration between different groups and institutions. A collaboration agreement is in place to specify who can access which project data.": "本計畫涉及不同團隊與機構之間的合作，並已訂立合作協議，明訂哪些人可取用哪些計畫資料。"
+  "This project involves collaboration between different groups and institutions. A collaboration agreement is in place to specify who can access which project data.": "本計畫涉及不同團隊與機構之間的合作，並已訂立合作協議，明訂哪些人可取用哪些計畫資料。",
+  "Not all data centres that store project data hold appropriate certifications.": "並非所有存放本計畫資料的資料中心都具備適當的認證。",
+  "Not all data carriers are encrypted.": "並非所有資料載體都已加密。",
+  "We have not documented how we manage file versioning for files and folders.": "我們尚未記錄檔案與資料夾的版本管理方式。",
+  "We will not provide others with standardized, machine-readable metadata.": "我們不會向他人提供標準化、機器可讀的後設資料。",
+  "Identifier information for this dataset:": "此資料集的識別碼資訊：",
+  "We will permit authenticated access to the data.": "我們將允許通過身分驗證後取用資料。"
 }

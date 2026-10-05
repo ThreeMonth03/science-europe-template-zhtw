@@ -1340,7 +1340,7 @@
 
           [T] [translation](<tree/src/quality-control.html.j2/0017-it-has-not-been-specified-whether-quality-control-59607aedf9/0001-it-has-not-been-specified-whether-quality-control-75bf53cf19/translation.md>)
 
-- [x] [file] src/questions/01-how-data.html.j2 (75/75)
+- [ ] [file] src/questions/01-how-data.html.j2 (75/76)
 
   [J2] `src/questions/01-how-data.html.j2`
 
@@ -1652,33 +1652,37 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0017-before-reuse-we-need-to-harmonize-existing-data-4e81cf9ce4/0001-before-reuse-we-need-to-harmonize-existing-data-08050f809a/translation.md>)
 
-    - [x] [wrapper] 0018-before-reuse-we-will-need-to-convert-the-c62b92c5b5 (6/6)
+    - [ ] [wrapper] 0018-before-reuse-we-will-need-to-convert-the-5eb8df5022 (6/7)
 
-      [W] `0018-before-reuse-we-will-need-to-convert-the-c62b92c5b5`
+      [W] `0018-before-reuse-we-will-need-to-convert-the-5eb8df5022`
 
         - [x] [unit] 0001-before-reuse-we-will-need-to-convert-the-a0fd6aa605: Before reuse, we will need to convert the data into a machine-readable form and will make this version available to others through a standard repository.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-c62b92c5b5/0001-before-reuse-we-will-need-to-convert-the-a0fd6aa605/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-5eb8df5022/0001-before-reuse-we-will-need-to-convert-the-a0fd6aa605/translation.md>)
 
         - [x] [unit] 0002-before-reuse-we-will-need-to-convert-the-831fb73faf: Before reuse, we will need to convert the data into a machine-readable form and will make this version available to others.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-c62b92c5b5/0002-before-reuse-we-will-need-to-convert-the-831fb73faf/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-5eb8df5022/0002-before-reuse-we-will-need-to-convert-the-831fb73faf/translation.md>)
 
         - [x] [unit] 0003-before-reuse-we-will-need-to-convert-the-66adb50b21: Before reuse, we will need to convert the data into a machine-readable form but will not make this version available to others.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-c62b92c5b5/0003-before-reuse-we-will-need-to-convert-the-66adb50b21/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-5eb8df5022/0003-before-reuse-we-will-need-to-convert-the-66adb50b21/translation.md>)
 
         - [x] [unit] 0004-before-reuse-we-will-need-to-convert-the-8f0224e067: Before reuse, we will need to convert the data into a machine-readable form.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-c62b92c5b5/0004-before-reuse-we-will-need-to-convert-the-8f0224e067/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-5eb8df5022/0004-before-reuse-we-will-need-to-convert-the-8f0224e067/translation.md>)
 
         - [x] [unit] 0005-we-will-provide-others-with-standardized-machine-readable-6ec319ec21: We will provide others with standardized, machine-readable metadata and we will use the following metadata standards: {namedMetadataStandards}.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-c62b92c5b5/0005-we-will-provide-others-with-standardized-machine-readable-6ec319ec21/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-5eb8df5022/0005-we-will-provide-others-with-standardized-machine-readable-6ec319ec21/translation.md>)
 
         - [x] [unit] 0006-we-will-provide-others-with-standardized-machine-readable-9afe42fce1: We will provide others with standardized, machine-readable metadata.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-c62b92c5b5/0006-we-will-provide-others-with-standardized-machine-readable-9afe42fce1/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-5eb8df5022/0006-we-will-provide-others-with-standardized-machine-readable-9afe42fce1/translation.md>)
+
+        - [ ] [unit] 0007-we-will-not-provide-others-with-standardized-machine-e011d960dc: We will not provide others with standardized, machine-readable metadata.
+
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0018-before-reuse-we-will-need-to-convert-the-5eb8df5022/0007-we-will-not-provide-others-with-standardized-machine-e011d960dc/translation.md>)
 
     - [x] [wrapper] 0019-no-existing-datasets-will-be-re-used-c2bb24650c (1/1)
 
@@ -2196,7 +2200,7 @@
 
           [T] [translation](<tree/src/questions/02-what-data.html.j2/0055-information-still-needed-efe9afd7cc/0001-information-still-needed-cb5e967faf/translation.md>)
 
-- [x] [file] src/questions/03-docs-metadata.html.j2 (52/52)
+- [ ] [file] src/questions/03-docs-metadata.html.j2 (51/53)
 
   [J2] `src/questions/03-docs-metadata.html.j2`
 
@@ -2496,81 +2500,89 @@
 
           [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0033-we-document-how-we-manage-file-versioning-for-daafa22282/0001-we-document-how-we-manage-file-versioning-for-d49a0162d3/translation.md>)
 
-    - [x] [wrapper] 0034-file-naming-conventions-e28ce38d5f (1/1)
+    - [ ] [wrapper] 0034-we-have-not-documented-how-we-manage-file-8dc84a6477 (0/1)
 
-      [W] `0034-file-naming-conventions-e28ce38d5f`
+      [W] `0034-we-have-not-documented-how-we-manage-file-8dc84a6477`
 
-        - [x] [unit] 0001-file-naming-conventions-8b9eb46344: File naming conventions:
+        - [ ] [unit] 0001-we-have-not-documented-how-we-manage-file-0b2dd24a6d: We have not documented how we manage file versioning for files and folders.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0034-file-naming-conventions-e28ce38d5f/0001-file-naming-conventions-8b9eb46344/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0034-we-have-not-documented-how-we-manage-file-8dc84a6477/0001-we-have-not-documented-how-we-manage-file-0b2dd24a6d/translation.md>)
 
-    - [x] [wrapper] 0035-we-will-not-be-storing-data-in-an-193cd92a23 (1/1)
+    - [ ] [wrapper] 0035-file-naming-conventions-e28ce38d5f (0/1)
 
-      [W] `0035-we-will-not-be-storing-data-in-an-193cd92a23`
+      [W] `0035-file-naming-conventions-e28ce38d5f`
 
-        - [x] [unit] 0001-we-will-not-be-storing-data-in-an-b8eb2bef06: We will not be storing data in an "object/document store" system.
+        - [ ] [unit] 0001-file-naming-conventions-7d33c6c136: File naming conventions:
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0035-we-will-not-be-storing-data-in-an-193cd92a23/0001-we-will-not-be-storing-data-in-an-b8eb2bef06/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0035-file-naming-conventions-e28ce38d5f/0001-file-naming-conventions-7d33c6c136/translation.md>)
 
-    - [x] [wrapper] 0036-we-will-be-storing-data-in-an-object-cb299a5bad (1/1)
+    - [x] [wrapper] 0036-we-will-not-be-storing-data-in-an-193cd92a23 (1/1)
 
-      [W] `0036-we-will-be-storing-data-in-an-object-cb299a5bad`
+      [W] `0036-we-will-not-be-storing-data-in-an-193cd92a23`
 
-        - [x] [unit] 0001-we-will-be-storing-data-in-an-object-dcaa205baa: We will be storing data in an "object/document store" system.
+        - [x] [unit] 0001-we-will-not-be-storing-data-in-an-64306fffd5: We will not be storing data in an "object/document store" system.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0036-we-will-be-storing-data-in-an-object-cb299a5bad/0001-we-will-be-storing-data-in-an-object-dcaa205baa/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0036-we-will-not-be-storing-data-in-an-193cd92a23/0001-we-will-not-be-storing-data-in-an-64306fffd5/translation.md>)
 
-    - [x] [wrapper] 0037-object-naming-conventions-9a41126a40 (1/1)
+    - [x] [wrapper] 0037-we-will-be-storing-data-in-an-object-cb299a5bad (1/1)
 
-      [W] `0037-object-naming-conventions-9a41126a40`
+      [W] `0037-we-will-be-storing-data-in-an-object-cb299a5bad`
 
-        - [x] [unit] 0001-object-naming-conventions-b79dc4c65f: Object naming conventions:
+        - [x] [unit] 0001-we-will-be-storing-data-in-an-object-70193f0a77: We will be storing data in an "object/document store" system.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0037-object-naming-conventions-9a41126a40/0001-object-naming-conventions-b79dc4c65f/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0037-we-will-be-storing-data-in-an-object-cb299a5bad/0001-we-will-be-storing-data-in-an-object-70193f0a77/translation.md>)
 
-    - [x] [wrapper] 0038-we-will-not-use-a-database-system-to-ec286e2c96 (1/1)
+    - [x] [wrapper] 0038-object-naming-conventions-9a41126a40 (1/1)
 
-      [W] `0038-we-will-not-use-a-database-system-to-ec286e2c96`
+      [W] `0038-object-naming-conventions-9a41126a40`
 
-        - [x] [unit] 0001-we-will-not-use-a-database-system-to-f4ae2188e3: We will not use a database system to store project data.
+        - [x] [unit] 0001-object-naming-conventions-43c922171b: Object naming conventions:
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0038-we-will-not-use-a-database-system-to-ec286e2c96/0001-we-will-not-use-a-database-system-to-f4ae2188e3/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0038-object-naming-conventions-9a41126a40/0001-object-naming-conventions-43c922171b/translation.md>)
 
-    - [x] [wrapper] 0039-we-will-use-a-database-system-to-store-9ed0871bba (4/4)
+    - [x] [wrapper] 0039-we-will-not-use-a-database-system-to-ec286e2c96 (1/1)
 
-      [W] `0039-we-will-use-a-database-system-to-store-9ed0871bba`
+      [W] `0039-we-will-not-use-a-database-system-to-ec286e2c96`
 
-        - [x] [unit] 0001-we-will-use-a-database-system-to-store-d23b7c1a35: We will use a database system to store project data.
+        - [x] [unit] 0001-we-will-not-use-a-database-system-to-614a3042cf: We will not use a database system to store project data.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0039-we-will-use-a-database-system-to-store-9ed0871bba/0001-we-will-use-a-database-system-to-store-d23b7c1a35/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0039-we-will-not-use-a-database-system-to-ec286e2c96/0001-we-will-not-use-a-database-system-to-614a3042cf/translation.md>)
 
-        - [x] [unit] 0002-data-in-the-database-will-be-read-only-14477abafe: Data in the database will be read-only.
+    - [x] [wrapper] 0040-we-will-use-a-database-system-to-store-9ed0871bba (4/4)
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0039-we-will-use-a-database-system-to-store-9ed0871bba/0002-data-in-the-database-will-be-read-only-14477abafe/translation.md>)
+      [W] `0040-we-will-use-a-database-system-to-store-9ed0871bba`
 
-        - [x] [unit] 0003-we-will-be-allowing-create-update-and-delete-63d76526e1: We will be allowing Create, Update and Delete operations for data in the database.
+        - [x] [unit] 0001-we-will-use-a-database-system-to-store-f2e3a72322: We will use a database system to store project data.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0039-we-will-use-a-database-system-to-store-9ed0871bba/0003-we-will-be-allowing-create-update-and-delete-63d76526e1/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0040-we-will-use-a-database-system-to-store-9ed0871bba/0001-we-will-use-a-database-system-to-store-f2e3a72322/translation.md>)
 
-        - [x] [unit] 0004-modifications-will-be-made-by-expiring-the-existing-3a8ad00ffe: Modifications will be made by Expiring the existing data and Adding updated data.
+        - [x] [unit] 0002-data-in-the-database-will-be-read-only-bc323d6f9e: Data in the database will be read-only.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0039-we-will-use-a-database-system-to-store-9ed0871bba/0004-modifications-will-be-made-by-expiring-the-existing-3a8ad00ffe/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0040-we-will-use-a-database-system-to-store-9ed0871bba/0002-data-in-the-database-will-be-read-only-bc323d6f9e/translation.md>)
 
-    - [x] [wrapper] 0040-data-storage-and-file-conventions-11b93f3748 (1/1)
+        - [x] [unit] 0003-we-will-be-allowing-create-update-and-delete-d05509c430: We will be allowing Create, Update and Delete operations for data in the database.
 
-      [W] `0040-data-storage-and-file-conventions-11b93f3748`
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0040-we-will-use-a-database-system-to-store-9ed0871bba/0003-we-will-be-allowing-create-update-and-delete-d05509c430/translation.md>)
 
-        - [x] [unit] 0001-data-storage-and-file-conventions-04c985790e: Data storage and file conventions
+        - [x] [unit] 0004-modifications-will-be-made-by-expiring-the-existing-0c7094490a: Modifications will be made by Expiring the existing data and Adding updated data.
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0040-data-storage-and-file-conventions-11b93f3748/0001-data-storage-and-file-conventions-04c985790e/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0040-we-will-use-a-database-system-to-store-9ed0871bba/0004-modifications-will-be-made-by-expiring-the-existing-0c7094490a/translation.md>)
 
-    - [x] [wrapper] 0041-this-document-does-not-yet-contain-an-answer-20362369f6 (1/1)
+    - [x] [wrapper] 0041-data-storage-and-file-conventions-11b93f3748 (1/1)
 
-      [W] `0041-this-document-does-not-yet-contain-an-answer-20362369f6`
+      [W] `0041-data-storage-and-file-conventions-11b93f3748`
 
-        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-2155835241: This document does not yet contain an answer about metadata and documentation.
+        - [x] [unit] 0001-data-storage-and-file-conventions-ab12c2f069: Data storage and file conventions
 
-          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0041-this-document-does-not-yet-contain-an-answer-20362369f6/0001-this-document-does-not-yet-contain-an-answer-2155835241/translation.md>)
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0041-data-storage-and-file-conventions-11b93f3748/0001-data-storage-and-file-conventions-ab12c2f069/translation.md>)
+
+    - [x] [wrapper] 0042-this-document-does-not-yet-contain-an-answer-20362369f6 (1/1)
+
+      [W] `0042-this-document-does-not-yet-contain-an-answer-20362369f6`
+
+        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-948364deaa: This document does not yet contain an answer about metadata and documentation.
+
+          [T] [translation](<tree/src/questions/03-docs-metadata.html.j2/0042-this-document-does-not-yet-contain-an-answer-20362369f6/0001-this-document-does-not-yet-contain-an-answer-948364deaa/translation.md>)
 
 - [x] [file] src/questions/04-quality-control.html.j2 (2/2)
 
@@ -2940,7 +2952,7 @@
 
           [T] [translation](<tree/src/questions/05-store-backup.html.j2/0043-an-actual-backup-schedule-is-not-established-by-d74adc28a1/0001-an-actual-backup-schedule-is-not-established-by-3b2d616db3/translation.md>)
 
-- [x] [file] src/questions/06-access-security.html.j2 (39/39)
+- [ ] [file] src/questions/06-access-security.html.j2 (39/41)
 
   [J2] `src/questions/06-access-security.html.j2`
 
@@ -2952,57 +2964,65 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0001-6-how-will-data-security-and-protection-of-aeaf885659/0001-6-how-will-data-security-and-protection-of-e089d04591/translation.md>)
 
-    - [x] [wrapper] 0002-project-members-will-not-store-data-or-software-a3cfae34fd (12/12)
+    - [ ] [wrapper] 0002-project-members-will-not-store-data-or-software-0859119838 (12/14)
 
-      [W] `0002-project-members-will-not-store-data-or-software-a3cfae34fd`
+      [W] `0002-project-members-will-not-store-data-or-software-0859119838`
 
         - [x] [unit] 0001-project-members-will-not-store-data-or-software-fc41c9e071: Project members will not store data or software on computers in the lab or external hard drives connected to those computers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0001-project-members-will-not-store-data-or-software-fc41c9e071/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0001-project-members-will-not-store-data-or-software-fc41c9e071/translation.md>)
 
         - [x] [unit] 0002-they-will-not-carry-data-with-them-e-fdb25e7bb7: They will not carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0002-they-will-not-carry-data-with-them-e-fdb25e7bb7/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0002-they-will-not-carry-data-with-them-e-fdb25e7bb7/translation.md>)
 
         - [x] [unit] 0003-project-members-will-not-carry-data-with-them-52dd7c3dd4: Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0003-project-members-will-not-carry-data-with-them-52dd7c3dd4/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0003-project-members-will-not-carry-data-with-them-52dd7c3dd4/translation.md>)
 
         - [x] [unit] 0004-they-can-carry-data-with-them-on-encrypted-fc581bc6fe: They can carry data with them on encrypted data carriers and password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0004-they-can-carry-data-with-them-on-encrypted-fc581bc6fe/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0004-they-can-carry-data-with-them-on-encrypted-fc581bc6fe/translation.md>)
 
         - [x] [unit] 0005-project-members-can-carry-data-with-them-on-1b5967cb1b: Project members can carry data with them on encrypted data carriers and password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0005-project-members-can-carry-data-with-them-on-1b5967cb1b/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0005-project-members-can-carry-data-with-them-on-1b5967cb1b/translation.md>)
 
         - [x] [unit] 0006-they-can-carry-data-with-them-on-encrypted-29510896dc: They can carry data with them on encrypted data carriers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0006-they-can-carry-data-with-them-on-encrypted-29510896dc/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0006-they-can-carry-data-with-them-on-encrypted-29510896dc/translation.md>)
 
         - [x] [unit] 0007-project-members-can-carry-data-with-them-on-244b5a5c6c: Project members can carry data with them on encrypted data carriers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0007-project-members-can-carry-data-with-them-on-244b5a5c6c/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0007-project-members-can-carry-data-with-them-on-244b5a5c6c/translation.md>)
 
         - [x] [unit] 0008-they-can-carry-data-with-them-on-password-c346c123dc: They can carry data with them on password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0008-they-can-carry-data-with-them-on-password-c346c123dc/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0008-they-can-carry-data-with-them-on-password-c346c123dc/translation.md>)
 
         - [x] [unit] 0009-project-members-can-carry-data-with-them-on-647e5da58e: Project members can carry data with them on password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0009-project-members-can-carry-data-with-them-on-647e5da58e/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0009-project-members-can-carry-data-with-them-on-647e5da58e/translation.md>)
 
-        - [x] [unit] 0010-all-data-centres-that-store-project-data-hold-d8c4faef8d: All data centres that store project data hold appropriate certifications.
+        - [ ] [unit] 0010-not-all-data-carriers-are-encrypted-e52ae42e26: Not all data carriers are encrypted.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0010-all-data-centres-that-store-project-data-hold-d8c4faef8d/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0010-not-all-data-carriers-are-encrypted-e52ae42e26/translation.md>)
 
-        - [x] [unit] 0011-all-project-web-services-are-accessible-through-https-d955177c33: All project web services are accessible through HTTPS.
+        - [x] [unit] 0011-all-data-centres-that-store-project-data-hold-d8c4faef8d: All data centres that store project data hold appropriate certifications.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0011-all-project-web-services-are-accessible-through-https-d955177c33/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0011-all-data-centres-that-store-project-data-hold-d8c4faef8d/translation.md>)
 
-        - [x] [unit] 0012-project-members-have-been-instructed-about-both-generic-f63b8de9cf: Project members have been instructed about both generic and specific risks to the project.
+        - [ ] [unit] 0012-not-all-data-centres-that-store-project-data-b283190627: Not all data centres that store project data hold appropriate certifications.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-a3cfae34fd/0012-project-members-have-been-instructed-about-both-generic-f63b8de9cf/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0012-not-all-data-centres-that-store-project-data-b283190627/translation.md>)
+
+        - [x] [unit] 0013-all-project-web-services-are-accessible-through-https-d955177c33: All project web services are accessible through HTTPS.
+
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0013-all-project-web-services-are-accessible-through-https-d955177c33/translation.md>)
+
+        - [x] [unit] 0014-project-members-have-been-instructed-about-both-generic-f63b8de9cf: Project members have been instructed about both generic and specific risks to the project.
+
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-0859119838/0014-project-members-have-been-instructed-about-both-generic-f63b8de9cf/translation.md>)
 
     - [x] [wrapper] 0003-data-loss-2a77cc91c5 (1/1)
 
@@ -4076,7 +4096,7 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-2a3a4167e8/translation.md>)
 
-- [x] [file] src/questions/10-share-restrictions.html.j2 (54/54)
+- [ ] [file] src/questions/10-share-restrictions.html.j2 (52/54)
 
   [J2] `src/questions/10-share-restrictions.html.j2`
 
@@ -4104,13 +4124,13 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0003-identifier-8d9fae53aa/0001-identifier-c3eccf2858/translation.md>)
 
-    - [x] [wrapper] 0004-the-dataset-has-the-following-identifiers-0ff8aa2297 (1/1)
+    - [ ] [wrapper] 0004-identifier-information-for-this-dataset-55497b79d4 (0/1)
 
-      [W] `0004-the-dataset-has-the-following-identifiers-0ff8aa2297`
+      [W] `0004-identifier-information-for-this-dataset-55497b79d4`
 
-        - [x] [unit] 0001-the-dataset-has-the-following-identifiers-e6a48dbef0: The dataset has the following identifiers:
+        - [ ] [unit] 0001-identifier-information-for-this-dataset-8d14a98e0e: Identifier information for this dataset:
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0004-the-dataset-has-the-following-identifiers-0ff8aa2297/0001-the-dataset-has-the-following-identifiers-e6a48dbef0/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0004-identifier-information-for-this-dataset-55497b79d4/0001-identifier-information-for-this-dataset-8d14a98e0e/translation.md>)
 
     - [x] [wrapper] 0005-open-access-this-distribution-will-be-shared-with-60b6fd9d93 (1/1)
 
@@ -4420,37 +4440,37 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-data-cannot-be-completely-open-due-to-legal-c711c4b8df/0002-the-embargo-period-will-be-cdfadccf37/translation.md>)
 
-    - [x] [wrapper] 0043-a-data-sharing-agreement-will-be-required-people-40e33e542b (7/7)
+    - [ ] [wrapper] 0043-we-will-permit-authenticated-access-to-the-data-299697aad9 (6/7)
 
-      [W] `0043-a-data-sharing-agreement-will-be-required-people-40e33e542b`
+      [W] `0043-we-will-permit-authenticated-access-to-the-data-299697aad9`
 
-        - [x] [unit] 0001-a-data-sharing-agreement-will-be-required-cf86f0b8a0: A data sharing agreement will be required.
+        - [ ] [unit] 0001-we-will-permit-authenticated-access-to-the-data-e8c6004f4d: We will permit authenticated access to the data.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0001-a-data-sharing-agreement-will-be-required-cf86f0b8a0/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-we-will-permit-authenticated-access-to-the-data-299697aad9/0001-we-will-permit-authenticated-access-to-the-data-e8c6004f4d/translation.md>)
 
         - [x] [unit] 0002-people-can-apply-to-one-of-the-project-cf5a7bf86d: People can apply to one of the project members.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0002-people-can-apply-to-one-of-the-project-cf5a7bf86d/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-we-will-permit-authenticated-access-to-the-data-299697aad9/0002-people-can-apply-to-one-of-the-project-cf5a7bf86d/translation.md>)
 
         - [x] [unit] 0003-people-can-apply-to-the-data-access-committee-13651edd69: People can apply to the data access committee that we will set up.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0003-people-can-apply-to-the-data-access-committee-13651edd69/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-we-will-permit-authenticated-access-to-the-data-299697aad9/0003-people-can-apply-to-the-data-access-committee-13651edd69/translation.md>)
 
         - [x] [unit] 0004-people-can-apply-to-the-following-data-access-2ddd7d1c62: People can apply to the following data access committee:
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0004-people-can-apply-to-the-following-data-access-2ddd7d1c62/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-we-will-permit-authenticated-access-to-the-data-299697aad9/0004-people-can-apply-to-the-following-data-access-2ddd7d1c62/translation.md>)
 
         - [x] [unit] 0005-people-can-apply-to-an-existing-data-access-b746bdb648: People can apply to an existing data access committee.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0005-people-can-apply-to-an-existing-data-access-b746bdb648/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-we-will-permit-authenticated-access-to-the-data-299697aad9/0005-people-can-apply-to-an-existing-data-access-b746bdb648/translation.md>)
 
         - [x] [unit] 0006-for-the-authorization-of-potential-users-we-will-94d68d621e: For the authorization of potential users, we will make special arrangements:
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0006-for-the-authorization-of-potential-users-we-will-94d68d621e/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-we-will-permit-authenticated-access-to-the-data-299697aad9/0006-for-the-authorization-of-potential-users-we-will-94d68d621e/translation.md>)
 
         - [x] [unit] 0007-for-the-authorization-of-potential-users-we-will-fd5c8c90eb: For the authorization of potential users, we will make special arrangements.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-a-data-sharing-agreement-will-be-required-people-40e33e542b/0007-for-the-authorization-of-potential-users-we-will-fd5c8c90eb/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0043-we-will-permit-authenticated-access-to-the-data-299697aad9/0007-for-the-authorization-of-potential-users-we-will-fd5c8c90eb/translation.md>)
 
     - [x] [wrapper] 0044-this-project-does-not-involve-collaboration-between-different-47a2085de5 (1/1)
 
@@ -5748,7 +5768,7 @@
 
           [T] [translation](<tree/src/responsibility-sentences.j2/0007-dmp-implementation-implementing-the-data-management-plan-and-8a437d217d/0001-dmp-implementation-implementing-the-data-management-plan-and-c9b4fe221b/translation.md>)
 
-- [ ] [file] src/reuse-rightsholder.html.j2 (1/9)
+- [x] [file] src/reuse-rightsholder.html.j2 (9/9)
 
   [J2] `src/reuse-rightsholder.html.j2`
 
@@ -5760,67 +5780,67 @@
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0001-data-rights-holder-and-contact-information-8ae3eecda7/0001-data-rights-holder-and-contact-information-917eb830ea/translation.md>)
 
-    - [ ] [wrapper] 0002-the-rights-holder-will-collaborate-with-us-on-d989e02f14 (0/1)
+    - [x] [wrapper] 0002-the-rights-holder-will-collaborate-with-us-on-d989e02f14 (1/1)
 
       [W] `0002-the-rights-holder-will-collaborate-with-us-on-d989e02f14`
 
-        - [ ] [unit] 0001-the-rights-holder-will-collaborate-with-us-on-736c003e39: The rights holder will collaborate with us on this research.
+        - [x] [unit] 0001-the-rights-holder-will-collaborate-with-us-on-736c003e39: The rights holder will collaborate with us on this research.
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0002-the-rights-holder-will-collaborate-with-us-on-d989e02f14/0001-the-rights-holder-will-collaborate-with-us-on-736c003e39/translation.md>)
 
-    - [ ] [wrapper] 0003-we-are-the-rights-holder-of-this-dataset-ed70def0b2 (0/1)
+    - [x] [wrapper] 0003-we-are-the-rights-holder-of-this-dataset-ed70def0b2 (1/1)
 
       [W] `0003-we-are-the-rights-holder-of-this-dataset-ed70def0b2`
 
-        - [ ] [unit] 0001-we-are-the-rights-holder-of-this-dataset-454561607c: We are the rights holder of this dataset.
+        - [x] [unit] 0001-we-are-the-rights-holder-of-this-dataset-454561607c: We are the rights holder of this dataset.
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0003-we-are-the-rights-holder-of-this-dataset-ed70def0b2/0001-we-are-the-rights-holder-of-this-dataset-454561607c/translation.md>)
 
-    - [ ] [wrapper] 0004-the-rights-holder-will-not-collaborate-with-us-65717bf6dd (0/1)
+    - [x] [wrapper] 0004-the-rights-holder-will-not-collaborate-with-us-65717bf6dd (1/1)
 
       [W] `0004-the-rights-holder-will-not-collaborate-with-us-65717bf6dd`
 
-        - [ ] [unit] 0001-the-rights-holder-will-not-collaborate-with-us-ca527d1ee2: The rights holder will not collaborate with us on this research.
+        - [x] [unit] 0001-the-rights-holder-will-not-collaborate-with-us-ca527d1ee2: The rights holder will not collaborate with us on this research.
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0004-the-rights-holder-will-not-collaborate-with-us-65717bf6dd/0001-the-rights-holder-will-not-collaborate-with-us-ca527d1ee2/translation.md>)
 
-    - [ ] [wrapper] 0005-we-need-to-apply-for-access-to-this-a9282d2429 (0/1)
+    - [x] [wrapper] 0005-we-need-to-apply-for-access-to-this-a9282d2429 (1/1)
 
       [W] `0005-we-need-to-apply-for-access-to-this-a9282d2429`
 
-        - [ ] [unit] 0001-we-need-to-apply-for-access-to-this-372ec49b8c: We need to apply for access to this dataset.
+        - [x] [unit] 0001-we-need-to-apply-for-access-to-this-372ec49b8c: We need to apply for access to this dataset.
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0005-we-need-to-apply-for-access-to-this-a9282d2429/0001-we-need-to-apply-for-access-to-this-372ec49b8c/translation.md>)
 
-    - [ ] [wrapper] 0006-no-application-for-data-access-is-required-f479b23d42 (0/1)
+    - [x] [wrapper] 0006-no-application-for-data-access-is-required-f479b23d42 (1/1)
 
       [W] `0006-no-application-for-data-access-is-required-f479b23d42`
 
-        - [ ] [unit] 0001-no-application-for-data-access-is-required-d59dd01d84: No application for data access is required.
+        - [x] [unit] 0001-no-application-for-data-access-is-required-d59dd01d84: No application for data access is required.
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0006-no-application-for-data-access-is-required-f479b23d42/0001-no-application-for-data-access-is-required-d59dd01d84/translation.md>)
 
-    - [ ] [wrapper] 0007-we-already-have-a-copy-of-this-dataset-e07e86d6a8 (0/1)
+    - [x] [wrapper] 0007-we-already-have-a-copy-of-this-dataset-e07e86d6a8 (1/1)
 
       [W] `0007-we-already-have-a-copy-of-this-dataset-e07e86d6a8`
 
-        - [ ] [unit] 0001-we-already-have-a-copy-of-this-dataset-70220e1388: We already have a copy of this dataset.
+        - [x] [unit] 0001-we-already-have-a-copy-of-this-dataset-70220e1388: We already have a copy of this dataset.
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0007-we-already-have-a-copy-of-this-dataset-e07e86d6a8/0001-we-already-have-a-copy-of-this-dataset-70220e1388/translation.md>)
 
-    - [ ] [wrapper] 0008-we-will-download-or-obtain-a-copy-of-bcaeb5c274 (0/1)
+    - [x] [wrapper] 0008-we-will-download-or-obtain-a-copy-of-bcaeb5c274 (1/1)
 
       [W] `0008-we-will-download-or-obtain-a-copy-of-bcaeb5c274`
 
-        - [ ] [unit] 0001-we-will-download-or-obtain-a-copy-of-fa13cf4ab3: We will download or obtain a copy of this dataset.
+        - [x] [unit] 0001-we-will-download-or-obtain-a-copy-of-fa13cf4ab3: We will download or obtain a copy of this dataset.
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0008-we-will-download-or-obtain-a-copy-of-bcaeb5c274/0001-we-will-download-or-obtain-a-copy-of-fa13cf4ab3/translation.md>)
 
-    - [ ] [wrapper] 0009-we-will-use-this-dataset-online-69c8f7020a (0/1)
+    - [x] [wrapper] 0009-we-will-use-this-dataset-online-69c8f7020a (1/1)
 
       [W] `0009-we-will-use-this-dataset-online-69c8f7020a`
 
-        - [ ] [unit] 0001-we-will-use-this-dataset-online-33111e8296: We will use this dataset online.
+        - [x] [unit] 0001-we-will-use-this-dataset-online-33111e8296: We will use this dataset online.
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0009-we-will-use-this-dataset-online-69c8f7020a/0001-we-will-use-this-dataset-online-33111e8296/translation.md>)
 
