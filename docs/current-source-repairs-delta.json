@@ -43,6 +43,7 @@
     "src/questions/14-dm-responsible.html.j2",
     "src/questions/15-required-resources.html.j2",
     "src/uuids.j2",
+    "src/word/index.html.j2",
     "src/word/pilot.lua",
     "src/word/question-spacing.xml",
     "src/word/reference.docx",
@@ -54,14 +55,14 @@
     "english": {
       "baseline_files": 61,
       "candidate_files": 70,
-      "candidate_tree_sha256": "c962bca28f61c939811cfd3d8f02af87451f1334aca651e1d7dce971cd7c19b4",
-      "candidate_metadata_sha256": "1ed07b8a33189fcd885db857e992bdef8aa22adbf1042dfbd6ca8d1ea2224de4"
+      "candidate_tree_sha256": "f31012f8e7680090a742ae2af3ca07074d049b308192aabcd445f3bd7e330a69",
+      "candidate_metadata_sha256": "eb11969900099b91f66bbbd3cbbe1eed48662ca0b71223c9e69ec304bb905c30"
     },
     "chinese": {
       "baseline_files": 62,
       "candidate_files": 71,
-      "candidate_tree_sha256": "494b59ea0b9fd1b68d45efd7d11936434f90e1f2906e655e508873f7f219d574",
-      "candidate_metadata_sha256": "a481055f28b1804e2548bb9a6a8b9b4984c0dc74218147be617183a519a73d7d"
+      "candidate_tree_sha256": "03d1a01edf2b1ae0f91ebac6a55ce0df256823f59dbe70acc2faaec4b91fde12",
+      "candidate_metadata_sha256": "f651d69d08163831aac92acb8ee77114d4491d2c7ec6f496ad4de9b919a1148f"
     }
   }
 }

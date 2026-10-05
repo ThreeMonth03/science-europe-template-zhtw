@@ -1540,85 +1540,85 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0012-the-following-arrangements-apply-to-all-reference-datasets-0006b5189d/0001-the-following-arrangements-apply-to-all-reference-datasets-f4e9684fca/translation.md>)
 
-    - [x] [wrapper] 0013-no-name-given-this-dataset-will-be-re-9e9918b390 (19/19)
+    - [x] [wrapper] 0013-no-name-given-this-dataset-will-be-re-ffc370471e (19/19)
 
-      [W] `0013-no-name-given-this-dataset-will-be-re-9e9918b390`
+      [W] `0013-no-name-given-this-dataset-will-be-re-ffc370471e`
 
         - [x] [unit] 0001-no-name-given-fcd6508939: (no name given)
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0001-no-name-given-fcd6508939/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0001-no-name-given-fcd6508939/translation.md>)
 
         - [x] [unit] 0002-this-dataset-will-be-re-used-aa947a56c6: This dataset will be re-used.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0002-this-dataset-will-be-re-used-aa947a56c6/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0002-this-dataset-will-be-re-used-aa947a56c6/translation.md>)
 
         - [x] [unit] 0003-source-4f22fc8a60: Source: {nrefDataWhere}.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0003-source-4f22fc8a60/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0003-source-4f22fc8a60/translation.md>)
 
         - [x] [unit] 0004-source-f1a7dc3380: Source: {nrefDataWhere}.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0004-source-f1a7dc3380/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0004-source-f1a7dc3380/translation.md>)
 
         - [x] [unit] 0005-information-not-provided-where-this-dataset-can-be-f029600635: Information not provided: where this dataset can be obtained.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0005-information-not-provided-where-this-dataset-can-be-f029600635/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0005-information-not-provided-where-this-dataset-can-be-f029600635/translation.md>)
 
         - [x] [unit] 0006-purpose-of-re-use-a2d100b755: Purpose of re-use.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0006-purpose-of-re-use-a2d100b755/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0006-purpose-of-re-use-a2d100b755/translation.md>)
 
         - [x] [unit] 0007-information-not-provided-the-purpose-for-which-this-4768d95a03: Information not provided: the purpose for which this dataset will be re-used.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0007-information-not-provided-the-purpose-for-which-this-4768d95a03/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0007-information-not-provided-the-purpose-for-which-this-4768d95a03/translation.md>)
 
         - [x] [unit] 0008-this-dataset-contains-personal-data-77ea79c591: This dataset contains personal data.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0008-this-dataset-contains-personal-data-77ea79c591/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0008-this-dataset-contains-personal-data-77ea79c591/translation.md>)
 
         - [x] [unit] 0009-the-stated-legal-basis-for-processing-these-data-6f0b20edda: The stated legal basis for processing these data under the GDPR is public interest.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0009-the-stated-legal-basis-for-processing-these-data-6f0b20edda/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0009-the-stated-legal-basis-for-processing-these-data-6f0b20edda/translation.md>)
 
         - [x] [unit] 0010-the-stated-legal-basis-for-processing-these-data-f510456805: The stated legal basis for processing these data under the GDPR is consent from the data subjects.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0010-the-stated-legal-basis-for-processing-these-data-f510456805/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0010-the-stated-legal-basis-for-processing-these-data-f510456805/translation.md>)
 
         - [x] [unit] 0011-the-consent-also-covers-our-reuse-88012ad8fc: The consent also covers our reuse.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0011-the-consent-also-covers-our-reuse-88012ad8fc/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0011-the-consent-also-covers-our-reuse-88012ad8fc/translation.md>)
 
         - [x] [unit] 0012-the-consent-does-not-cover-our-reuse-new-6c5fd53c57: The consent does not cover our reuse; new consent will be needed.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0012-the-consent-does-not-cover-our-reuse-new-6c5fd53c57/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0012-the-consent-does-not-cover-our-reuse-new-6c5fd53c57/translation.md>)
 
         - [x] [unit] 0013-the-stated-legal-basis-for-processing-these-data-1420ad0caa: The stated legal basis for processing these data is a legal obligation.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0013-the-stated-legal-basis-for-processing-these-data-1420ad0caa/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0013-the-stated-legal-basis-for-processing-these-data-1420ad0caa/translation.md>)
 
         - [x] [unit] 0014-the-stated-legal-basis-for-processing-these-data-9e576a5e0e: The stated legal basis for processing these data is the protection of vital interests of the data subjects.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0014-the-stated-legal-basis-for-processing-these-data-9e576a5e0e/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0014-the-stated-legal-basis-for-processing-these-data-9e576a5e0e/translation.md>)
 
         - [x] [unit] 0015-the-stated-legal-basis-for-processing-these-data-37b4a48df4: The stated legal basis for processing these data is legitimate interests.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0015-the-stated-legal-basis-for-processing-these-data-37b4a48df4/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0015-the-stated-legal-basis-for-processing-these-data-37b4a48df4/translation.md>)
 
         - [x] [unit] 0016-the-stated-legal-basis-for-processing-these-data-857230d33b: The stated legal basis for processing these data is performance of a contract with the data subjects.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0016-the-stated-legal-basis-for-processing-these-data-857230d33b/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0016-the-stated-legal-basis-for-processing-these-data-857230d33b/translation.md>)
 
         - [x] [unit] 0017-the-existing-ethical-approval-under-research-ethics-laws-beb08c3b66: The existing ethical approval under research ethics laws covers our re-use of this dataset.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0017-the-existing-ethical-approval-under-research-ethics-laws-beb08c3b66/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0017-the-existing-ethical-approval-under-research-ethics-laws-beb08c3b66/translation.md>)
 
         - [x] [unit] 0018-the-existing-ethical-approval-under-research-ethics-laws-36f204e495: The existing ethical approval under research ethics laws will need to be extended to cover our re-use of this dataset.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0018-the-existing-ethical-approval-under-research-ethics-laws-36f204e495/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0018-the-existing-ethical-approval-under-research-ethics-laws-36f204e495/translation.md>)
 
         - [x] [unit] 0019-new-ethical-approval-under-research-ethics-laws-will-8303278be9: New ethical approval under research ethics laws will be needed for our re-use of this dataset.
 
-          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-9e9918b390/0019-new-ethical-approval-under-research-ethics-laws-will-8303278be9/translation.md>)
+          [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-no-name-given-this-dataset-will-be-re-ffc370471e/0019-new-ethical-approval-under-research-ethics-laws-will-8303278be9/translation.md>)
 
     - [x] [wrapper] 0014-information-not-provided-the-existing-datasets-considered-for-4b36e7cee7 (1/1)
 
@@ -3736,7 +3736,7 @@
 
           [T] [translation](<tree/src/questions/08-copyright-ipr.html.j2/0037-this-document-does-not-yet-describe-arrangements-for-409dc01360/0001-this-document-does-not-yet-describe-arrangements-for-bd0ea785a3/translation.md>)
 
-- [ ] [file] src/questions/09-ethical-issues.html.j2 (44/45)
+- [x] [file] src/questions/09-ethical-issues.html.j2 (45/45)
 
   [J2] `src/questions/09-ethical-issues.html.j2`
 
@@ -3876,11 +3876,11 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0016-we-will-not-collect-any-data-related-to-8cac0b5e3a/0001-we-will-not-collect-any-data-related-to-0eea36d0e3/translation.md>)
 
-    - [ ] [wrapper] 0017-we-will-collect-data-related-to-individuals-i-08bb9eb9f9 (0/1)
+    - [x] [wrapper] 0017-we-will-collect-data-related-to-individuals-i-08bb9eb9f9 (1/1)
 
       [W] `0017-we-will-collect-data-related-to-individuals-i-08bb9eb9f9`
 
-        - [ ] [unit] 0001-we-will-collect-data-related-to-individuals-i-7ec54092d7: We will collect data related to individuals, i.e. "personal data".
+        - [x] [unit] 0001-we-will-collect-data-related-to-individuals-i-7ec54092d7: We will collect data related to individuals, i.e. "personal data".
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0017-we-will-collect-data-related-to-individuals-i-08bb9eb9f9/0001-we-will-collect-data-related-to-individuals-i-7ec54092d7/translation.md>)
 
@@ -5748,7 +5748,7 @@
 
           [T] [translation](<tree/src/responsibility-sentences.j2/0007-dmp-implementation-implementing-the-data-management-plan-and-8a437d217d/0001-dmp-implementation-implementing-the-data-management-plan-and-c9b4fe221b/translation.md>)
 
-- [x] [file] src/reuse-rightsholder.html.j2 (1/1)
+- [ ] [file] src/reuse-rightsholder.html.j2 (1/9)
 
   [J2] `src/reuse-rightsholder.html.j2`
 
@@ -5759,6 +5759,70 @@
         - [x] [unit] 0001-data-rights-holder-and-contact-information-917eb830ea: Data rights holder and contact information.
 
           [T] [translation](<tree/src/reuse-rightsholder.html.j2/0001-data-rights-holder-and-contact-information-8ae3eecda7/0001-data-rights-holder-and-contact-information-917eb830ea/translation.md>)
+
+    - [ ] [wrapper] 0002-the-rights-holder-will-collaborate-with-us-on-d989e02f14 (0/1)
+
+      [W] `0002-the-rights-holder-will-collaborate-with-us-on-d989e02f14`
+
+        - [ ] [unit] 0001-the-rights-holder-will-collaborate-with-us-on-736c003e39: The rights holder will collaborate with us on this research.
+
+          [T] [translation](<tree/src/reuse-rightsholder.html.j2/0002-the-rights-holder-will-collaborate-with-us-on-d989e02f14/0001-the-rights-holder-will-collaborate-with-us-on-736c003e39/translation.md>)
+
+    - [ ] [wrapper] 0003-we-are-the-rights-holder-of-this-dataset-ed70def0b2 (0/1)
+
+      [W] `0003-we-are-the-rights-holder-of-this-dataset-ed70def0b2`
+
+        - [ ] [unit] 0001-we-are-the-rights-holder-of-this-dataset-454561607c: We are the rights holder of this dataset.
+
+          [T] [translation](<tree/src/reuse-rightsholder.html.j2/0003-we-are-the-rights-holder-of-this-dataset-ed70def0b2/0001-we-are-the-rights-holder-of-this-dataset-454561607c/translation.md>)
+
+    - [ ] [wrapper] 0004-the-rights-holder-will-not-collaborate-with-us-65717bf6dd (0/1)
+
+      [W] `0004-the-rights-holder-will-not-collaborate-with-us-65717bf6dd`
+
+        - [ ] [unit] 0001-the-rights-holder-will-not-collaborate-with-us-ca527d1ee2: The rights holder will not collaborate with us on this research.
+
+          [T] [translation](<tree/src/reuse-rightsholder.html.j2/0004-the-rights-holder-will-not-collaborate-with-us-65717bf6dd/0001-the-rights-holder-will-not-collaborate-with-us-ca527d1ee2/translation.md>)
+
+    - [ ] [wrapper] 0005-we-need-to-apply-for-access-to-this-a9282d2429 (0/1)
+
+      [W] `0005-we-need-to-apply-for-access-to-this-a9282d2429`
+
+        - [ ] [unit] 0001-we-need-to-apply-for-access-to-this-372ec49b8c: We need to apply for access to this dataset.
+
+          [T] [translation](<tree/src/reuse-rightsholder.html.j2/0005-we-need-to-apply-for-access-to-this-a9282d2429/0001-we-need-to-apply-for-access-to-this-372ec49b8c/translation.md>)
+
+    - [ ] [wrapper] 0006-no-application-for-data-access-is-required-f479b23d42 (0/1)
+
+      [W] `0006-no-application-for-data-access-is-required-f479b23d42`
+
+        - [ ] [unit] 0001-no-application-for-data-access-is-required-d59dd01d84: No application for data access is required.
+
+          [T] [translation](<tree/src/reuse-rightsholder.html.j2/0006-no-application-for-data-access-is-required-f479b23d42/0001-no-application-for-data-access-is-required-d59dd01d84/translation.md>)
+
+    - [ ] [wrapper] 0007-we-already-have-a-copy-of-this-dataset-e07e86d6a8 (0/1)
+
+      [W] `0007-we-already-have-a-copy-of-this-dataset-e07e86d6a8`
+
+        - [ ] [unit] 0001-we-already-have-a-copy-of-this-dataset-70220e1388: We already have a copy of this dataset.
+
+          [T] [translation](<tree/src/reuse-rightsholder.html.j2/0007-we-already-have-a-copy-of-this-dataset-e07e86d6a8/0001-we-already-have-a-copy-of-this-dataset-70220e1388/translation.md>)
+
+    - [ ] [wrapper] 0008-we-will-download-or-obtain-a-copy-of-bcaeb5c274 (0/1)
+
+      [W] `0008-we-will-download-or-obtain-a-copy-of-bcaeb5c274`
+
+        - [ ] [unit] 0001-we-will-download-or-obtain-a-copy-of-fa13cf4ab3: We will download or obtain a copy of this dataset.
+
+          [T] [translation](<tree/src/reuse-rightsholder.html.j2/0008-we-will-download-or-obtain-a-copy-of-bcaeb5c274/0001-we-will-download-or-obtain-a-copy-of-fa13cf4ab3/translation.md>)
+
+    - [ ] [wrapper] 0009-we-will-use-this-dataset-online-69c8f7020a (0/1)
+
+      [W] `0009-we-will-use-this-dataset-online-69c8f7020a`
+
+        - [ ] [unit] 0001-we-will-use-this-dataset-online-33111e8296: We will use this dataset online.
+
+          [T] [translation](<tree/src/reuse-rightsholder.html.j2/0009-we-will-use-this-dataset-online-69c8f7020a/0001-we-will-use-this-dataset-online-33111e8296/translation.md>)
 
 - [x] [file] src/reuse-summary.html.j2 (12/12)
 
