@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-Data cannot be completely open due to legal reasons. But data that is not legally restrained will be released after a fixed time period.
+The embargo period will be {embargoPeriod}
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-基於法律因素，資料無法完全開放。但不受法律限制的資料將在固定期限後釋出。
+延後開放期限為 {embargoPeriod}。
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ Data cannot be completely open due to legal reasons. But data that is not legall
 - Source File: `src/questions/10-share-restrictions.html.j2`
 - Wrapper Name: `__tr_block_0041`
 - Wrapper Order: `42`
-- Wrapper Key: `data-cannot-be-completely-open-due-to-legal-c711c4b8df`
-- Unit Key: `data-cannot-be-completely-open-due-to-legal-f6ac5894f2`
-- Source Hash: `6e89165c023ca1f0c64c2fafd35e37cde0f424af`
+- Wrapper Key: `data-not-subject-to-legal-restrictions-will-be-76a655be26`
+- Unit Key: `the-embargo-period-will-be-cdfadccf37`
+- Source Hash: `40a0b00b1e7440d705f3528efc19635ec9e5aaa7`
 
 Do not edit this section manually.
 

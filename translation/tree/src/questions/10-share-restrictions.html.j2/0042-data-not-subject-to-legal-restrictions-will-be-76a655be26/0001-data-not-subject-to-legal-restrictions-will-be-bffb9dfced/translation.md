@@ -7,13 +7,13 @@ when the target language needs it.
 ### Sentence (en)
 
 ```text
-The embargo period will be {embargoPeriod}
+Data not subject to legal restrictions will be released openly after a fixed time period.
 ```
 
 ### Translation (zh_Hant)
 
 ~~~jinja
-延後開放期限為 {embargoPeriod}。
+不受法律限制的資料將於固定期限屆滿後公開。
 ~~~
 
 <details>
@@ -22,9 +22,9 @@ The embargo period will be {embargoPeriod}
 - Source File: `src/questions/10-share-restrictions.html.j2`
 - Wrapper Name: `__tr_block_0041`
 - Wrapper Order: `42`
-- Wrapper Key: `data-cannot-be-completely-open-due-to-legal-c711c4b8df`
-- Unit Key: `the-embargo-period-will-be-cdfadccf37`
-- Source Hash: `40a0b00b1e7440d705f3528efc19635ec9e5aaa7`
+- Wrapper Key: `data-not-subject-to-legal-restrictions-will-be-76a655be26`
+- Unit Key: `data-not-subject-to-legal-restrictions-will-be-bffb9dfced`
+- Source Hash: `154f9e7c40198de0252af4bb9a2f4ddfb8626bdf`
 
 Do not edit this section manually.
 

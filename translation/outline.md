@@ -4096,7 +4096,7 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-2a3a4167e8/translation.md>)
 
-- [x] [file] src/questions/10-share-restrictions.html.j2 (54/54)
+- [ ] [file] src/questions/10-share-restrictions.html.j2 (53/54)
 
   [J2] `src/questions/10-share-restrictions.html.j2`
 
@@ -4428,17 +4428,17 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0041-no-data-sharing-agreement-will-be-required-2bf1dd5063/0001-no-data-sharing-agreement-will-be-required-711ce8b7ac/translation.md>)
 
-    - [x] [wrapper] 0042-data-cannot-be-completely-open-due-to-legal-c711c4b8df (2/2)
+    - [ ] [wrapper] 0042-data-not-subject-to-legal-restrictions-will-be-76a655be26 (1/2)
 
-      [W] `0042-data-cannot-be-completely-open-due-to-legal-c711c4b8df`
+      [W] `0042-data-not-subject-to-legal-restrictions-will-be-76a655be26`
 
-        - [x] [unit] 0001-data-cannot-be-completely-open-due-to-legal-f6ac5894f2: Data cannot be completely open due to legal reasons. But data that is not legally restrained will be released after a fixed time period.
+        - [ ] [unit] 0001-data-not-subject-to-legal-restrictions-will-be-bffb9dfced: Data not subject to legal restrictions will be released openly after a fixed time period.
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-data-cannot-be-completely-open-due-to-legal-c711c4b8df/0001-data-cannot-be-completely-open-due-to-legal-f6ac5894f2/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-data-not-subject-to-legal-restrictions-will-be-76a655be26/0001-data-not-subject-to-legal-restrictions-will-be-bffb9dfced/translation.md>)
 
         - [x] [unit] 0002-the-embargo-period-will-be-cdfadccf37: The embargo period will be {embargoPeriod}
 
-          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-data-cannot-be-completely-open-due-to-legal-c711c4b8df/0002-the-embargo-period-will-be-cdfadccf37/translation.md>)
+          [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0042-data-not-subject-to-legal-restrictions-will-be-76a655be26/0002-the-embargo-period-will-be-cdfadccf37/translation.md>)
 
     - [x] [wrapper] 0043-we-will-permit-authenticated-access-to-the-data-299697aad9 (7/7)
 
