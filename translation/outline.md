@@ -2960,7 +2960,7 @@
 
           [T] [translation](<tree/src/questions/05-store-backup.html.j2/0043-an-actual-backup-schedule-is-not-established-by-d74adc28a1/0001-an-actual-backup-schedule-is-not-established-by-3b2d616db3/translation.md>)
 
-- [ ] [file] src/questions/06-access-security.html.j2 (43/45)
+- [ ] [file] src/questions/06-access-security.html.j2 (45/47)
 
   [J2] `src/questions/06-access-security.html.j2`
 
@@ -2972,81 +2972,89 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0001-6-how-will-data-security-and-protection-of-aeaf885659/0001-6-how-will-data-security-and-protection-of-e089d04591/translation.md>)
 
-    - [ ] [wrapper] 0002-project-members-will-not-store-data-or-software-9570d9d081 (16/18)
+    - [ ] [wrapper] 0002-project-members-will-not-store-data-or-software-ee1cffd2ad (18/20)
 
-      [W] `0002-project-members-will-not-store-data-or-software-9570d9d081`
+      [W] `0002-project-members-will-not-store-data-or-software-ee1cffd2ad`
 
         - [x] [unit] 0001-project-members-will-not-store-data-or-software-fc41c9e071: Project members will not store data or software on computers in the lab or external hard drives connected to those computers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0001-project-members-will-not-store-data-or-software-fc41c9e071/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0001-project-members-will-not-store-data-or-software-fc41c9e071/translation.md>)
 
-        - [x] [unit] 0002-they-will-not-carry-data-with-them-e-fdb25e7bb7: They will not carry data with them (e.g. on laptops, USB sticks, or other external media).
+        - [ ] [unit] 0002-project-members-store-data-or-software-on-computers-818277b8ed: Project members store data or software on computers in the lab or external hard drives connected to those computers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0002-they-will-not-carry-data-with-them-e-fdb25e7bb7/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0002-project-members-store-data-or-software-on-computers-818277b8ed/translation.md>)
 
-        - [x] [unit] 0003-project-members-will-not-carry-data-with-them-52dd7c3dd4: Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).
+        - [x] [unit] 0003-they-will-not-carry-data-with-them-e-fdb25e7bb7: They will not carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0003-project-members-will-not-carry-data-with-them-52dd7c3dd4/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0003-they-will-not-carry-data-with-them-e-fdb25e7bb7/translation.md>)
 
-        - [x] [unit] 0004-they-can-carry-data-with-them-on-encrypted-fc581bc6fe: They can carry data with them on encrypted data carriers and password-protected laptops.
+        - [x] [unit] 0004-project-members-will-not-carry-data-with-them-52dd7c3dd4: Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0004-they-can-carry-data-with-them-on-encrypted-fc581bc6fe/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0004-project-members-will-not-carry-data-with-them-52dd7c3dd4/translation.md>)
 
-        - [x] [unit] 0005-project-members-can-carry-data-with-them-on-1b5967cb1b: Project members can carry data with them on encrypted data carriers and password-protected laptops.
+        - [x] [unit] 0005-they-can-carry-data-with-them-on-encrypted-fc581bc6fe: They can carry data with them on encrypted data carriers and password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0005-project-members-can-carry-data-with-them-on-1b5967cb1b/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0005-they-can-carry-data-with-them-on-encrypted-fc581bc6fe/translation.md>)
 
-        - [x] [unit] 0006-they-can-carry-data-with-them-on-encrypted-29510896dc: They can carry data with them on encrypted data carriers.
+        - [x] [unit] 0006-project-members-can-carry-data-with-them-on-1b5967cb1b: Project members can carry data with them on encrypted data carriers and password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0006-they-can-carry-data-with-them-on-encrypted-29510896dc/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0006-project-members-can-carry-data-with-them-on-1b5967cb1b/translation.md>)
 
-        - [x] [unit] 0007-project-members-can-carry-data-with-them-on-244b5a5c6c: Project members can carry data with them on encrypted data carriers.
+        - [x] [unit] 0007-they-can-carry-data-with-them-on-encrypted-29510896dc: They can carry data with them on encrypted data carriers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0007-project-members-can-carry-data-with-them-on-244b5a5c6c/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0007-they-can-carry-data-with-them-on-encrypted-29510896dc/translation.md>)
 
-        - [x] [unit] 0008-they-can-carry-data-with-them-on-password-c346c123dc: They can carry data with them on password-protected laptops.
+        - [x] [unit] 0008-project-members-can-carry-data-with-them-on-244b5a5c6c: Project members can carry data with them on encrypted data carriers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0008-they-can-carry-data-with-them-on-password-c346c123dc/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0008-project-members-can-carry-data-with-them-on-244b5a5c6c/translation.md>)
 
-        - [x] [unit] 0009-project-members-can-carry-data-with-them-on-647e5da58e: Project members can carry data with them on password-protected laptops.
+        - [x] [unit] 0009-they-can-carry-data-with-them-on-password-c346c123dc: They can carry data with them on password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0009-project-members-can-carry-data-with-them-on-647e5da58e/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0009-they-can-carry-data-with-them-on-password-c346c123dc/translation.md>)
 
-        - [x] [unit] 0010-they-will-carry-data-with-them-e-g-5909991d30: They will carry data with them (e.g. on laptops, USB sticks, or other external media).
+        - [x] [unit] 0010-project-members-can-carry-data-with-them-on-647e5da58e: Project members can carry data with them on password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0010-they-will-carry-data-with-them-e-g-5909991d30/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0010-project-members-can-carry-data-with-them-on-647e5da58e/translation.md>)
 
-        - [x] [unit] 0011-project-members-will-carry-data-with-them-e-cdad4d67a8: Project members will carry data with them (e.g. on laptops, USB sticks, or other external media).
+        - [x] [unit] 0011-they-will-carry-data-with-them-e-g-5909991d30: They will carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0011-project-members-will-carry-data-with-them-e-cdad4d67a8/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0011-they-will-carry-data-with-them-e-g-5909991d30/translation.md>)
 
-        - [x] [unit] 0012-not-all-data-carriers-are-encrypted-e52ae42e26: Not all data carriers are encrypted.
+        - [x] [unit] 0012-project-members-will-carry-data-with-them-e-cdad4d67a8: Project members will carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0012-not-all-data-carriers-are-encrypted-e52ae42e26/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0012-project-members-will-carry-data-with-them-e-cdad4d67a8/translation.md>)
 
-        - [ ] [unit] 0013-not-all-laptop-accounts-are-password-protected-bd8b397843: Not all laptop accounts are password-protected.
+        - [x] [unit] 0013-not-all-data-carriers-are-encrypted-e52ae42e26: Not all data carriers are encrypted.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0013-not-all-laptop-accounts-are-password-protected-bd8b397843/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0013-not-all-data-carriers-are-encrypted-e52ae42e26/translation.md>)
 
-        - [x] [unit] 0014-all-data-centres-that-store-project-data-hold-d8c4faef8d: All data centres that store project data hold appropriate certifications.
+        - [x] [unit] 0014-not-all-laptop-accounts-are-password-protected-bd8b397843: Not all laptop accounts are password-protected.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0014-all-data-centres-that-store-project-data-hold-d8c4faef8d/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0014-not-all-laptop-accounts-are-password-protected-bd8b397843/translation.md>)
 
-        - [x] [unit] 0015-not-all-data-centres-that-store-project-data-b283190627: Not all data centres that store project data hold appropriate certifications.
+        - [x] [unit] 0015-all-data-centres-that-store-project-data-hold-d8c4faef8d: All data centres that store project data hold appropriate certifications.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0015-not-all-data-centres-that-store-project-data-b283190627/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0015-all-data-centres-that-store-project-data-hold-d8c4faef8d/translation.md>)
 
-        - [x] [unit] 0016-all-project-web-services-are-accessible-through-https-d955177c33: All project web services are accessible through HTTPS.
+        - [x] [unit] 0016-not-all-data-centres-that-store-project-data-b283190627: Not all data centres that store project data hold appropriate certifications.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0016-all-project-web-services-are-accessible-through-https-d955177c33/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0016-not-all-data-centres-that-store-project-data-b283190627/translation.md>)
 
-        - [ ] [unit] 0017-not-all-project-web-services-are-accessible-through-3d03bdbac3: Not all project web services are accessible through HTTPS.
+        - [x] [unit] 0017-all-project-web-services-are-accessible-through-https-d955177c33: All project web services are accessible through HTTPS.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0017-not-all-project-web-services-are-accessible-through-3d03bdbac3/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0017-all-project-web-services-are-accessible-through-https-d955177c33/translation.md>)
 
-        - [x] [unit] 0018-project-members-have-been-instructed-about-both-generic-f63b8de9cf: Project members have been instructed about both generic and specific risks to the project.
+        - [x] [unit] 0018-not-all-project-web-services-are-accessible-through-3d03bdbac3: Not all project web services are accessible through HTTPS.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0018-project-members-have-been-instructed-about-both-generic-f63b8de9cf/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0018-not-all-project-web-services-are-accessible-through-3d03bdbac3/translation.md>)
+
+        - [x] [unit] 0019-project-members-have-been-instructed-about-both-generic-f63b8de9cf: Project members have been instructed about both generic and specific risks to the project.
+
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0019-project-members-have-been-instructed-about-both-generic-f63b8de9cf/translation.md>)
+
+        - [ ] [unit] 0020-project-members-have-not-received-instruction-covering-both-7c67dd5e73: Project members have not received instruction covering both generic and project-specific risks.
+
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-ee1cffd2ad/0020-project-members-have-not-received-instruction-covering-both-7c67dd5e73/translation.md>)
 
     - [x] [wrapper] 0003-data-loss-2a77cc91c5 (1/1)
 
@@ -4536,7 +4544,7 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0048-this-document-does-not-yet-describe-how-and-dc1e5de524/0001-this-document-does-not-yet-describe-how-and-473db94075/translation.md>)
 
-- [x] [file] src/questions/11-data-preservation.html.j2 (44/44)
+- [ ] [file] src/questions/11-data-preservation.html.j2 (44/46)
 
   [J2] `src/questions/11-data-preservation.html.j2`
 
@@ -4812,37 +4820,53 @@
 
           [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0028-other-arrangements-for-paying-repository-costs-03de836cea/0001-other-arrangements-for-paying-repository-costs-f6698672e2/translation.md>)
 
-    - [x] [wrapper] 0029-we-have-allocated-funds-for-the-time-and-1693ed3606 (1/1)
+    - [ ] [wrapper] 0029-other-arrangements-are-planned-for-paying-repository-service-99f429f21c (0/1)
 
-      [W] `0029-we-have-allocated-funds-for-the-time-and-1693ed3606`
+      [W] `0029-other-arrangements-are-planned-for-paying-repository-service-99f429f21c`
 
-        - [x] [unit] 0001-we-have-allocated-funds-for-the-time-and-3007af3f0c: We have allocated funds for the time and effort needed to prepare the data for publication.
+        - [ ] [unit] 0001-other-arrangements-are-planned-for-paying-repository-service-22d1660ed2: Other arrangements are planned for paying repository service fees.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0029-we-have-allocated-funds-for-the-time-and-1693ed3606/0001-we-have-allocated-funds-for-the-time-and-3007af3f0c/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0029-other-arrangements-are-planned-for-paying-repository-service-99f429f21c/0001-other-arrangements-are-planned-for-paying-repository-service-22d1660ed2/translation.md>)
 
-    - [x] [wrapper] 0030-repository-costs-and-publication-preparation-becdeb534d (1/1)
+    - [x] [wrapper] 0030-we-have-allocated-funds-for-the-time-and-1693ed3606 (1/1)
 
-      [W] `0030-repository-costs-and-publication-preparation-becdeb534d`
+      [W] `0030-we-have-allocated-funds-for-the-time-and-1693ed3606`
 
-        - [x] [unit] 0001-repository-costs-and-publication-preparation-2672b7404c: Repository costs and publication preparation
+        - [x] [unit] 0001-we-have-allocated-funds-for-the-time-and-70076d6c99: We have allocated funds for the time and effort needed to prepare the data for publication.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0030-repository-costs-and-publication-preparation-becdeb534d/0001-repository-costs-and-publication-preparation-2672b7404c/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0030-we-have-allocated-funds-for-the-time-and-1693ed3606/0001-we-have-allocated-funds-for-the-time-and-70076d6c99/translation.md>)
 
-    - [x] [wrapper] 0031-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60 (1/1)
+    - [ ] [wrapper] 0031-we-have-not-budgeted-for-the-time-and-db37cd31ec (0/1)
 
-      [W] `0031-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60`
+      [W] `0031-we-have-not-budgeted-for-the-time-and-db37cd31ec`
 
-        - [x] [unit] 0001-preservation-selection-still-requires-review-publication-decisions-and-aa4aff0eb8: Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.
+        - [ ] [unit] 0001-we-have-not-budgeted-for-the-time-and-5d87f0d274: We have not budgeted for the time and effort needed to prepare the data for publication.
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0031-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60/0001-preservation-selection-still-requires-review-publication-decisions-and-aa4aff0eb8/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0031-we-have-not-budgeted-for-the-time-and-db37cd31ec/0001-we-have-not-budgeted-for-the-time-and-5d87f0d274/translation.md>)
 
-    - [x] [wrapper] 0032-this-document-does-not-yet-contain-an-answer-33896db936 (1/1)
+    - [x] [wrapper] 0032-repository-costs-and-publication-preparation-becdeb534d (1/1)
 
-      [W] `0032-this-document-does-not-yet-contain-an-answer-33896db936`
+      [W] `0032-repository-costs-and-publication-preparation-becdeb534d`
 
-        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-c43297042c: This document does not yet contain an answer about data selection and long-term preservation.
+        - [x] [unit] 0001-repository-costs-and-publication-preparation-0672b04a6c: Repository costs and publication preparation
 
-          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0032-this-document-does-not-yet-contain-an-answer-33896db936/0001-this-document-does-not-yet-contain-an-answer-c43297042c/translation.md>)
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0032-repository-costs-and-publication-preparation-becdeb534d/0001-repository-costs-and-publication-preparation-0672b04a6c/translation.md>)
+
+    - [x] [wrapper] 0033-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60 (1/1)
+
+      [W] `0033-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60`
+
+        - [x] [unit] 0001-preservation-selection-still-requires-review-publication-decisions-and-3e65b93ba6: Preservation selection still requires review: publication decisions and archive renewal criteria do not by themselves explain which datasets and versions must be retained or destroyed.
+
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0033-preservation-selection-still-requires-review-publication-decisions-and-d68b88db60/0001-preservation-selection-still-requires-review-publication-decisions-and-3e65b93ba6/translation.md>)
+
+    - [x] [wrapper] 0034-this-document-does-not-yet-contain-an-answer-33896db936 (1/1)
+
+      [W] `0034-this-document-does-not-yet-contain-an-answer-33896db936`
+
+        - [x] [unit] 0001-this-document-does-not-yet-contain-an-answer-76f0edcb8e: This document does not yet contain an answer about data selection and long-term preservation.
+
+          [T] [translation](<tree/src/questions/11-data-preservation.html.j2/0034-this-document-does-not-yet-contain-an-answer-33896db936/0001-this-document-does-not-yet-contain-an-answer-76f0edcb8e/translation.md>)
 
 - [x] [file] src/questions/12-access-data.html.j2 (18/18)
 
