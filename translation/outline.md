@@ -1340,7 +1340,7 @@
 
           [T] [translation](<tree/src/quality-control.html.j2/0017-it-has-not-been-specified-whether-quality-control-59607aedf9/0001-it-has-not-been-specified-whether-quality-control-75bf53cf19/translation.md>)
 
-- [ ] [file] src/questions/01-how-data.html.j2 (67/77)
+- [x] [file] src/questions/01-how-data.html.j2 (77/77)
 
   [J2] `src/questions/01-how-data.html.j2`
 
@@ -1384,11 +1384,11 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0005-no-instruments-for-this-dataset-have-been-specified-2d1273e57f/0001-no-instruments-for-this-dataset-have-been-specified-012f647705/translation.md>)
 
-    - [ ] [wrapper] 0006-we-will-acquire-data-using-measurement-equipment-d2aa2b056c (0/1)
+    - [x] [wrapper] 0006-we-will-acquire-data-using-measurement-equipment-d2aa2b056c (1/1)
 
       [W] `0006-we-will-acquire-data-using-measurement-equipment-d2aa2b056c`
 
-        - [ ] [unit] 0001-we-will-acquire-data-using-measurement-equipment-671e73ea92: We will acquire data using measurement equipment.
+        - [x] [unit] 0001-we-will-acquire-data-using-measurement-equipment-671e73ea92: We will acquire data using measurement equipment.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0006-we-will-acquire-data-using-measurement-equipment-d2aa2b056c/0001-we-will-acquire-data-using-measurement-equipment-671e73ea92/translation.md>)
 
@@ -1424,11 +1424,11 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0010-re-used-datasets-cab1e5312b/0001-re-used-datasets-8854b8c50e/translation.md>)
 
-    - [ ] [wrapper] 0011-no-name-given-source-source-information-not-provided-2268259c16 (22/26)
+    - [x] [wrapper] 0011-no-name-given-source-source-information-not-provided-2268259c16 (26/26)
 
       [W] `0011-no-name-given-source-source-information-not-provided-2268259c16`
 
-        - [ ] [unit] 0001-no-name-given-35062efcff: (no name given)
+        - [x] [unit] 0001-no-name-given-35062efcff: (no name given)
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0011-no-name-given-source-source-information-not-provided-2268259c16/0001-no-name-given-35062efcff/translation.md>)
 
@@ -1440,11 +1440,11 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0011-no-name-given-source-source-information-not-provided-2268259c16/0003-source-928cf15e92/translation.md>)
 
-        - [ ] [unit] 0004-information-not-provided-where-this-dataset-can-be-8c5abbe227: Information not provided: where this dataset can be obtained.
+        - [x] [unit] 0004-information-not-provided-where-this-dataset-can-be-8c5abbe227: Information not provided: where this dataset can be obtained.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0011-no-name-given-source-source-information-not-provided-2268259c16/0004-information-not-provided-where-this-dataset-can-be-8c5abbe227/translation.md>)
 
-        - [ ] [unit] 0005-information-not-provided-the-purpose-for-which-this-4019ca9c4e: Information not provided: the purpose for which this dataset will be re-used.
+        - [x] [unit] 0005-information-not-provided-the-purpose-for-which-this-4019ca9c4e: Information not provided: the purpose for which this dataset will be re-used.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0011-no-name-given-source-source-information-not-provided-2268259c16/0005-information-not-provided-the-purpose-for-which-this-4019ca9c4e/translation.md>)
 
@@ -1512,7 +1512,7 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0011-no-name-given-source-source-information-not-provided-2268259c16/0021-this-dataset-is-freely-available-with-an-obligation-519208a6b6/translation.md>)
 
-        - [ ] [unit] 0022-conditions-of-use-2c6de3aad1: Conditions of use.
+        - [x] [unit] 0022-conditions-of-use-2c6de3aad1: Conditions of use.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0011-no-name-given-source-source-information-not-provided-2268259c16/0022-conditions-of-use-2c6de3aad1/translation.md>)
 
@@ -1548,11 +1548,11 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0013-the-following-arrangements-apply-to-all-reference-datasets-0006b5189d/0001-the-following-arrangements-apply-to-all-reference-datasets-5ea68c861a/translation.md>)
 
-    - [ ] [wrapper] 0014-no-name-given-this-dataset-will-be-re-ffc370471e (15/19)
+    - [x] [wrapper] 0014-no-name-given-this-dataset-will-be-re-ffc370471e (19/19)
 
       [W] `0014-no-name-given-this-dataset-will-be-re-ffc370471e`
 
-        - [ ] [unit] 0001-no-name-given-abdf8314fc: (no name given)
+        - [x] [unit] 0001-no-name-given-abdf8314fc: (no name given)
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0014-no-name-given-this-dataset-will-be-re-ffc370471e/0001-no-name-given-abdf8314fc/translation.md>)
 
@@ -1568,7 +1568,7 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0014-no-name-given-this-dataset-will-be-re-ffc370471e/0004-source-f5e9c22f77/translation.md>)
 
-        - [ ] [unit] 0005-information-not-provided-where-this-dataset-can-be-2bed648696: Information not provided: where this dataset can be obtained.
+        - [x] [unit] 0005-information-not-provided-where-this-dataset-can-be-2bed648696: Information not provided: where this dataset can be obtained.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0014-no-name-given-this-dataset-will-be-re-ffc370471e/0005-information-not-provided-where-this-dataset-can-be-2bed648696/translation.md>)
 
@@ -1576,11 +1576,11 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0014-no-name-given-this-dataset-will-be-re-ffc370471e/0006-purpose-of-re-use-f5de78771c/translation.md>)
 
-        - [ ] [unit] 0007-information-not-provided-the-purpose-for-which-this-2d3d8aa415: Information not provided: the purpose for which this dataset will be re-used.
+        - [x] [unit] 0007-information-not-provided-the-purpose-for-which-this-2d3d8aa415: Information not provided: the purpose for which this dataset will be re-used.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0014-no-name-given-this-dataset-will-be-re-ffc370471e/0007-information-not-provided-the-purpose-for-which-this-2d3d8aa415/translation.md>)
 
-        - [ ] [unit] 0008-this-dataset-contains-personal-data-ae371e5dda: This dataset contains personal data.
+        - [x] [unit] 0008-this-dataset-contains-personal-data-ae371e5dda: This dataset contains personal data.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0014-no-name-given-this-dataset-will-be-re-ffc370471e/0008-this-dataset-contains-personal-data-ae371e5dda/translation.md>)
 
@@ -1756,11 +1756,11 @@
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0027-information-not-provided-how-data-provenance-will-be-1a1565d1bb/0001-information-not-provided-how-data-provenance-will-be-af7c37e5b3/translation.md>)
 
-    - [ ] [wrapper] 0028-information-not-provided-how-data-provenance-will-be-1a1565d1bb (0/1)
+    - [x] [wrapper] 0028-information-not-provided-how-data-provenance-will-be-1a1565d1bb (1/1)
 
       [W] `0028-information-not-provided-how-data-provenance-will-be-1a1565d1bb`
 
-        - [ ] [unit] 0001-information-not-provided-how-data-provenance-will-be-5cbe4c04c9: Information not provided: how data provenance will be documented.
+        - [x] [unit] 0001-information-not-provided-how-data-provenance-will-be-5cbe4c04c9: Information not provided: how data provenance will be documented.
 
           [T] [translation](<tree/src/questions/01-how-data.html.j2/0028-information-not-provided-how-data-provenance-will-be-1a1565d1bb/0001-information-not-provided-how-data-provenance-will-be-5cbe4c04c9/translation.md>)
 
@@ -2960,7 +2960,7 @@
 
           [T] [translation](<tree/src/questions/05-store-backup.html.j2/0043-an-actual-backup-schedule-is-not-established-by-d74adc28a1/0001-an-actual-backup-schedule-is-not-established-by-3b2d616db3/translation.md>)
 
-- [ ] [file] src/questions/06-access-security.html.j2 (41/43)
+- [ ] [file] src/questions/06-access-security.html.j2 (43/45)
 
   [J2] `src/questions/06-access-security.html.j2`
 
@@ -2972,73 +2972,81 @@
 
           [T] [translation](<tree/src/questions/06-access-security.html.j2/0001-6-how-will-data-security-and-protection-of-aeaf885659/0001-6-how-will-data-security-and-protection-of-e089d04591/translation.md>)
 
-    - [ ] [wrapper] 0002-project-members-will-not-store-data-or-software-2230363ec2 (14/16)
+    - [ ] [wrapper] 0002-project-members-will-not-store-data-or-software-9570d9d081 (16/18)
 
-      [W] `0002-project-members-will-not-store-data-or-software-2230363ec2`
+      [W] `0002-project-members-will-not-store-data-or-software-9570d9d081`
 
         - [x] [unit] 0001-project-members-will-not-store-data-or-software-fc41c9e071: Project members will not store data or software on computers in the lab or external hard drives connected to those computers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0001-project-members-will-not-store-data-or-software-fc41c9e071/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0001-project-members-will-not-store-data-or-software-fc41c9e071/translation.md>)
 
         - [x] [unit] 0002-they-will-not-carry-data-with-them-e-fdb25e7bb7: They will not carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0002-they-will-not-carry-data-with-them-e-fdb25e7bb7/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0002-they-will-not-carry-data-with-them-e-fdb25e7bb7/translation.md>)
 
         - [x] [unit] 0003-project-members-will-not-carry-data-with-them-52dd7c3dd4: Project members will not carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0003-project-members-will-not-carry-data-with-them-52dd7c3dd4/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0003-project-members-will-not-carry-data-with-them-52dd7c3dd4/translation.md>)
 
         - [x] [unit] 0004-they-can-carry-data-with-them-on-encrypted-fc581bc6fe: They can carry data with them on encrypted data carriers and password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0004-they-can-carry-data-with-them-on-encrypted-fc581bc6fe/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0004-they-can-carry-data-with-them-on-encrypted-fc581bc6fe/translation.md>)
 
         - [x] [unit] 0005-project-members-can-carry-data-with-them-on-1b5967cb1b: Project members can carry data with them on encrypted data carriers and password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0005-project-members-can-carry-data-with-them-on-1b5967cb1b/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0005-project-members-can-carry-data-with-them-on-1b5967cb1b/translation.md>)
 
         - [x] [unit] 0006-they-can-carry-data-with-them-on-encrypted-29510896dc: They can carry data with them on encrypted data carriers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0006-they-can-carry-data-with-them-on-encrypted-29510896dc/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0006-they-can-carry-data-with-them-on-encrypted-29510896dc/translation.md>)
 
         - [x] [unit] 0007-project-members-can-carry-data-with-them-on-244b5a5c6c: Project members can carry data with them on encrypted data carriers.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0007-project-members-can-carry-data-with-them-on-244b5a5c6c/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0007-project-members-can-carry-data-with-them-on-244b5a5c6c/translation.md>)
 
         - [x] [unit] 0008-they-can-carry-data-with-them-on-password-c346c123dc: They can carry data with them on password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0008-they-can-carry-data-with-them-on-password-c346c123dc/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0008-they-can-carry-data-with-them-on-password-c346c123dc/translation.md>)
 
         - [x] [unit] 0009-project-members-can-carry-data-with-them-on-647e5da58e: Project members can carry data with them on password-protected laptops.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0009-project-members-can-carry-data-with-them-on-647e5da58e/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0009-project-members-can-carry-data-with-them-on-647e5da58e/translation.md>)
 
-        - [ ] [unit] 0010-they-will-carry-data-with-them-e-g-5909991d30: They will carry data with them (e.g. on laptops, USB sticks, or other external media).
+        - [x] [unit] 0010-they-will-carry-data-with-them-e-g-5909991d30: They will carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0010-they-will-carry-data-with-them-e-g-5909991d30/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0010-they-will-carry-data-with-them-e-g-5909991d30/translation.md>)
 
-        - [ ] [unit] 0011-project-members-will-carry-data-with-them-e-cdad4d67a8: Project members will carry data with them (e.g. on laptops, USB sticks, or other external media).
+        - [x] [unit] 0011-project-members-will-carry-data-with-them-e-cdad4d67a8: Project members will carry data with them (e.g. on laptops, USB sticks, or other external media).
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0011-project-members-will-carry-data-with-them-e-cdad4d67a8/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0011-project-members-will-carry-data-with-them-e-cdad4d67a8/translation.md>)
 
         - [x] [unit] 0012-not-all-data-carriers-are-encrypted-e52ae42e26: Not all data carriers are encrypted.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0012-not-all-data-carriers-are-encrypted-e52ae42e26/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0012-not-all-data-carriers-are-encrypted-e52ae42e26/translation.md>)
 
-        - [x] [unit] 0013-all-data-centres-that-store-project-data-hold-d8c4faef8d: All data centres that store project data hold appropriate certifications.
+        - [ ] [unit] 0013-not-all-laptop-accounts-are-password-protected-bd8b397843: Not all laptop accounts are password-protected.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0013-all-data-centres-that-store-project-data-hold-d8c4faef8d/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0013-not-all-laptop-accounts-are-password-protected-bd8b397843/translation.md>)
 
-        - [x] [unit] 0014-not-all-data-centres-that-store-project-data-b283190627: Not all data centres that store project data hold appropriate certifications.
+        - [x] [unit] 0014-all-data-centres-that-store-project-data-hold-d8c4faef8d: All data centres that store project data hold appropriate certifications.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0014-not-all-data-centres-that-store-project-data-b283190627/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0014-all-data-centres-that-store-project-data-hold-d8c4faef8d/translation.md>)
 
-        - [x] [unit] 0015-all-project-web-services-are-accessible-through-https-d955177c33: All project web services are accessible through HTTPS.
+        - [x] [unit] 0015-not-all-data-centres-that-store-project-data-b283190627: Not all data centres that store project data hold appropriate certifications.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0015-all-project-web-services-are-accessible-through-https-d955177c33/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0015-not-all-data-centres-that-store-project-data-b283190627/translation.md>)
 
-        - [x] [unit] 0016-project-members-have-been-instructed-about-both-generic-f63b8de9cf: Project members have been instructed about both generic and specific risks to the project.
+        - [x] [unit] 0016-all-project-web-services-are-accessible-through-https-d955177c33: All project web services are accessible through HTTPS.
 
-          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-2230363ec2/0016-project-members-have-been-instructed-about-both-generic-f63b8de9cf/translation.md>)
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0016-all-project-web-services-are-accessible-through-https-d955177c33/translation.md>)
+
+        - [ ] [unit] 0017-not-all-project-web-services-are-accessible-through-3d03bdbac3: Not all project web services are accessible through HTTPS.
+
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0017-not-all-project-web-services-are-accessible-through-3d03bdbac3/translation.md>)
+
+        - [x] [unit] 0018-project-members-have-been-instructed-about-both-generic-f63b8de9cf: Project members have been instructed about both generic and specific risks to the project.
+
+          [T] [translation](<tree/src/questions/06-access-security.html.j2/0002-project-members-will-not-store-data-or-software-9570d9d081/0018-project-members-have-been-instructed-about-both-generic-f63b8de9cf/translation.md>)
 
     - [x] [wrapper] 0003-data-loss-2a77cc91c5 (1/1)
 
@@ -4112,7 +4120,7 @@
 
           [T] [translation](<tree/src/questions/09-ethical-issues.html.j2/0039-this-document-does-not-yet-contain-an-answer-02388f733d/0001-this-document-does-not-yet-contain-an-answer-2a3a4167e8/translation.md>)
 
-- [ ] [file] src/questions/10-share-restrictions.html.j2 (54/55)
+- [x] [file] src/questions/10-share-restrictions.html.j2 (55/55)
 
   [J2] `src/questions/10-share-restrictions.html.j2`
 
@@ -4512,11 +4520,11 @@
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0046-this-project-involves-collaboration-between-different-groups-and-fa778d69b6/0001-this-project-involves-collaboration-between-different-groups-and-0af5a93e4f/translation.md>)
 
-    - [ ] [wrapper] 0047-this-project-involves-collaboration-between-different-groups-and-ce8faa3a14 (0/1)
+    - [x] [wrapper] 0047-this-project-involves-collaboration-between-different-groups-and-ce8faa3a14 (1/1)
 
       [W] `0047-this-project-involves-collaboration-between-different-groups-and-ce8faa3a14`
 
-        - [ ] [unit] 0001-this-project-involves-collaboration-between-different-groups-and-0d42deb139: This project involves collaboration between different groups and institutions.
+        - [x] [unit] 0001-this-project-involves-collaboration-between-different-groups-and-0d42deb139: This project involves collaboration between different groups and institutions.
 
           [T] [translation](<tree/src/questions/10-share-restrictions.html.j2/0047-this-project-involves-collaboration-between-different-groups-and-ce8faa3a14/0001-this-project-involves-collaboration-between-different-groups-and-0d42deb139/translation.md>)
 
