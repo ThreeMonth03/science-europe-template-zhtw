@@ -18,9 +18,34 @@ python /path/to/english/scripts/check_current.py --build /path/to/build \
 4.35 使用英文 ZIP 加 PO；4.34 使用獨立相容 ZIP。候選保存要求五份產物與
 完整 manifest 的雜湊都與驗收報告相符，並拒絕預覽、漏譯、錯配或覆寫版本。
 
-目前既有 CI 尚未切換。下方的 translation-tree／歷史封印檢查不能直接套用
-到新 PO source；本機保存的 0.3.78 舊副本已有來源 lock／封印不一致，不能
-以重算封印當成歷史回歸通過。新包仍須有原裝 Worker PDF／Word 逐頁驗收。
+既有 `pilot-checks.yml` 現在以 `profile=current` 檢查 PO 線，沒有新增 workflow。
+push／PR／一般手動執行使用三個群組：英文現行單元、中文 PO 建置／候選生命
+週期／套件文件單元，以及整合建置。英文群組只用其宣告的獨立相依環境，驗證
+TDK source，並執行 `CurrentI18nTests`、`CurrentBudgetLayoutTests`、
+`DerivedSubmissionHeadingsTests`、`DocumentMetadataTests` 與全部
+`experiments/legacy434` 匯出器測試。中文群組執行 `test_po_build`、
+`test_artifact_lifecycle`、`test_package_docs`。整合群組只建置一次乾淨配對，
+用官方 4.35 抽取檢查權威 PO，再對實際 prepared packages 執行完整 16 個
+雙語行為 suite。JSON 記錄每個 suite 的案例數；verbose unittest log 保留
+`Ran N tests` 與失敗細節，失敗也上傳。這是明確選取的現行檢查範圍，
+不是將 27,044 個行為案例稱為全 repo 測試。既有 required check `build`
+保留，所選 profile 中任何群組失敗、取消或跳過，都不能當作通過。
+
+下方 translation-tree／歷史封印檢查改由同一 workflow 的手動
+`profile=historical` 完整五群組回放，不套用到新 PO source。固定配對為中文
+`4a1e1086d878c76e99bab794fffa4f806100baed`、英文
+`0b06afd1b2983ae53d21232926a3e3b933c468bf`、Tool
+`25e339fbdfb1d20796471055790aad6a4226b6ed`（0.3.67）。原英文 source seal
+與中文 Word preflight 已在獨立副本重驗通過；不代表完整 hosted CI 已通過。
+本機保存的 0.3.78 舊副本已有來源 lock／封印不一致，維持失敗紀錄，不能
+以重算封印當成歷史回歸通過。新包仍須有原裝 Worker PDF／Word 逐頁驗收；
+CI 綠燈不等於發布、4.34 原生文件驗收或 Microsoft Word 驗收，也不會部署。
+
+英文 repo 的同名既有 workflow 另外執行 8 個現行英文行為 suite，以及原裝
+4.35 的 Markdown parser、Word 追溯資訊 guard、4.34／4.35 的 PDF 追溯資訊
+分頁／長內容 flow 和英中 reference styles，共 5 項明確原生／樣式測試。英文來源與 Tool
+的精確 commit 必須先推上游，再推中文配對；不得用浮動 branch 取代 lock。
+以下舊 CI 說明與數字屬 pre-PO 歷史，不冒充此次執行結果。
 
 ## 舊翻譯樹歷史基準
 

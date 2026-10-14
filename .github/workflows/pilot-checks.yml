@@ -4,7 +4,16 @@ on:
   push:
     branches: [experiment/bilingual-pilot, 'feat/**', 'fix/**', 'upgrade/**']
   workflow_dispatch:
+    inputs:
+      profile:
+        description: Current PO checks or the immutable pre-PO replay (not current acceptance)
+        type: choice
+        options: [current, historical]
+        default: current
   pull_request:
+
+env:
+  CI_PROFILE: ${{ github.event_name == 'workflow_dispatch' && inputs.profile || 'current' }}
 
 permissions:
   contents: read
@@ -22,7 +31,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        group: [english-unit, chinese-unit, integration, reading, native]
+        group: ${{ fromJSON(inputs.profile == 'historical' && '["english-unit","chinese-unit","integration","reading","native"]' || '["english-unit","chinese-unit","integration"]') }}
     defaults:
       run:
         shell: bash
@@ -30,6 +39,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           path: zh
+          # Matching pre-PO source/pipeline, not the invalid saved 0.3.78 tree.
+          ref: ${{ inputs.profile == 'historical' && '4a1e1086d878c76e99bab794fffa4f806100baed' || github.sha }}
           fetch-depth: 0  # The translation regression checks the exact prior committed tree.
       - uses: actions/setup-python@v5
         with:
@@ -39,6 +50,7 @@ jobs:
             zh/requirements-dev.txt
             zh/pipeline.yml
       - name: Install PDF inspection tools for frozen native regressions
+        if: env.CI_PROFILE == 'historical'
         run: |
           sudo apt-get update
           sudo apt-get install -y poppler-utils
@@ -79,14 +91,41 @@ jobs:
           python -m venv tooling/.venv
           tooling/.venv/bin/pip install -e './tooling[dev]' -r zh/requirements-dev.txt
       - name: Check current source and historical Word boundary before long tests
+        if: env.CI_PROFILE == 'historical'
         working-directory: zh
         run: ../tooling/.venv/bin/python scripts/word_empty_section_integration.py --english ../english --preflight-only
-      - name: Check locked English source with only its declared dependencies
-        if: matrix.group == 'english-unit'
+      - name: Check current locked English PO source with its declared dependencies
+        if: env.CI_PROFILE == 'current' && matrix.group == 'english-unit'
+        working-directory: english
+        run: |
+          mkdir -p outputs
+          make verify DSW_TDK="$RUNNER_TEMP/english-check-venv/bin/dsw-tdk"
+          "$RUNNER_TEMP/english-check-venv/bin/python" -m unittest -v \
+            tests.test_current_behavior.CurrentI18nTests \
+            tests.test_current_behavior.CurrentBudgetLayoutTests \
+            tests.test_derived_submission_headings.DerivedSubmissionHeadingsTests \
+            tests.test_document_metadata.DocumentMetadataTests \
+            2>&1 | tee outputs/current-unit.log
+          "$RUNNER_TEMP/english-check-venv/bin/python" -m unittest discover -s experiments/legacy434 -v \
+            2>&1 | tee outputs/current-compat434-unit.log
+      - name: Replay immutable historical English source and unit contracts
+        if: env.CI_PROFILE == 'historical' && matrix.group == 'english-unit'
         working-directory: english
         run: make check PYTHON="$RUNNER_TEMP/english-check-venv/bin/python" DSW_TDK="$RUNNER_TEMP/english-check-venv/bin/dsw-tdk"
-      - name: Check Chinese unit and translation contracts
-        if: matrix.group == 'chinese-unit'
+      - name: Check current PO builder, candidate lifecycle and package documentation
+        if: env.CI_PROFILE == 'current' && matrix.group == 'chinese-unit'
+        working-directory: zh
+        env:
+          DSW_ENGLISH_CHECKOUT: ${{ github.workspace }}/english
+        run: |
+          mkdir -p outputs/ci
+          ../tooling/.venv/bin/python -m unittest -v \
+            tests.test_po_build \
+            tests.test_artifact_lifecycle \
+            tests.test_package_docs \
+            2>&1 | tee outputs/ci/current-po-unit.log
+      - name: Replay immutable historical Chinese unit and translation contracts
+        if: env.CI_PROFILE == 'historical' && matrix.group == 'chinese-unit'
         working-directory: zh
         run: |
           ../tooling/.venv/bin/python -m unittest discover -s tests -v
@@ -103,8 +142,14 @@ jobs:
           # Land together with the exact English source-lock update; never skip
           # this check when the locked source is missing the shared runner.
           ../tooling/.venv/bin/python ../english/scripts/check_current.py --build "$SE_BUILD_DIR" --output "$SE_BUILD_DIR/current-behavior.json"
+      - name: Check authoritative PO against official 4.35 extraction
+        if: env.CI_PROFILE == 'current' && matrix.group == 'integration'
+        working-directory: zh
+        run: |
+          ../tooling/.venv/bin/python ../english/experiments/official-po/check_catalog.py --po locales/zh-Hant.po \
+            | tee "$SE_BUILD_DIR/catalog-check.json"
       - name: Check package integrity and historical integration contracts
-        if: matrix.group == 'integration'
+        if: env.CI_PROFILE == 'historical' && matrix.group == 'integration'
         working-directory: zh
         run: |
           # Validate actual 0.3.51 packages before every historical projection.
@@ -119,7 +164,7 @@ jobs:
           # Q13 engine check still runs below. Never replace it with preflight.
           ../tooling/.venv/bin/python ../english/scripts/probe_identifier_spacing.py --source-dir "$SE_BUILD_DIR/translated" --preflight-only --output "$SE_BUILD_DIR/identifier-spacing-preflight.json"
       - name: Check translated reading and historical scopes
-        if: matrix.group == 'reading'
+        if: env.CI_PROFILE == 'historical' && matrix.group == 'reading'
         working-directory: zh
         run: |
           ../tooling/.venv/bin/python scripts/probe_format_translation.py --build "$SE_BUILD_DIR" --english ../english
@@ -141,7 +186,7 @@ jobs:
           ../tooling/.venv/bin/python scripts/probe_metadata_gap_prose_scope.py --build "$SE_BUILD_DIR" --english ../english --output-profiles --preservation-reading --short-resources --resource-prose --short-resource-rows --budget-grouping --submission-preview
           ../tooling/.venv/bin/python scripts/probe_resource_prose_translation.py --build "$SE_BUILD_DIR" --english ../english
       - name: Check all existing PDF and DOCX regressions (two language lanes)
-        if: matrix.group == 'native'
+        if: env.CI_PROFILE == 'historical' && matrix.group == 'native'
         working-directory: zh
         timeout-minutes: 40
         run: |
@@ -161,12 +206,21 @@ jobs:
         if: always() && matrix.group == 'integration'
         uses: actions/upload-artifact@v4
         with:
-          name: experimental-candidate-not-a-release
+          name: ${{ env.CI_PROFILE }}-candidate-not-a-release
           retention-days: 14
           path: |
             zh/outputs/ci/
             zh/outputs/build-*/*.zip
             zh/outputs/build-*/*.json
+      - name: Preserve current unit execution counts and failures
+        if: always() && env.CI_PROFILE == 'current' && matrix.group != 'integration'
+        uses: actions/upload-artifact@v4
+        with:
+          name: current-${{ matrix.group }}-reports
+          retention-days: 14
+          path: |
+            english/outputs/*.log
+            zh/outputs/ci/*.log
       - name: Preserve reading and native diagnostics even after failure
         if: always() && (matrix.group == 'reading' || matrix.group == 'native')
         uses: actions/upload-artifact@v4
@@ -180,6 +234,8 @@ jobs:
         if: always()
         working-directory: zh
         run: |
+          echo "Profile: $CI_PROFILE; lane: ${{ matrix.group }}; Chinese source: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
+          echo "English source: $(git -C ../english rev-parse HEAD); Tool: $(git -C ../tooling rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
           for SE_TIMINGS in outputs/ci/native-english.tsv outputs/ci/native-chinese.tsv; do
             if [ -f "$SE_TIMINGS" ]; then
               echo "### $SE_TIMINGS" >> "$GITHUB_STEP_SUMMARY"
@@ -192,8 +248,9 @@ jobs:
           done
           echo 'Build checks do not establish full DMP, PDF or Microsoft Word acceptance. See docs/pilot-results.md.' >> "$GITHUB_STEP_SUMMARY"
           echo 'Historic 0.3.34 Q5 failure is retained. The bounded 0.3.35 native fix and its remaining acceptance limits are documented in docs/q5-word-join.md.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Current PO checks and manual fixed 0.3.67 historical replay are separate scopes; the invalid saved 0.3.78 seals are not rewritten.' >> "$GITHUB_STEP_SUMMARY"
 
-  # Stable required-check identity; all five groups must actually succeed.
+  # Stable required-check identity; every group in the selected profile must succeed.
   build:
     if: always()
     needs: checks

@@ -3,7 +3,19 @@
   "status": "local-candidate-not-accepted",
   "profile": "official-po-with-compat434",
   "authoritative_catalog": "locales/zh-Hant.po",
-  "record_scope": "Current successor is export_timestamp_removal. polish_before_after and existing source_commits, coordinates, local_candidate, checks and render_scope retain their earlier candidates and historical evidence.",
+  "record_scope": "Current successor is pdf_review_boundary. export_timestamp_removal, polish_before_after and existing source_commits, coordinates, local_candidate, checks and render_scope retain their earlier candidates and historical evidence.",
+  "pdf_review_boundary": {
+    "status": "source-integration-native-verification-pending",
+    "english_commit": "c74a498baca9bd282decdf69199c4e512b257e60",
+    "coordinates": {"english": "threemonth03:science-europe-enhanced:0.3.82", "compat434": "threemonth03:science-europe-enhanced-zhtw-compat434:0.3.84"},
+    "policy": "Only the PDF entry may mark one short, owned 3/4-paragraph provenance block with the existing CJK-aware width measure (at most 480). A soft break-before avoid keeps a preceding tail with it, not a whole answer. Long metadata and non-PDF outputs keep ordinary flow. No text or font size is reduced.",
+    "active_catalog_messages": 858,
+    "initial_unbounded_prototype": "Rejected: applying the soft boundary to oversized metadata increased a synthetic control from three pages to four; the test was retained and eligibility narrowed instead.",
+    "native_verification": null,
+    "ci_scope": "Existing workflows default to true current PO tests; immutable pre-PO replay is manual and retains original seals. Configuration changes alone are not hosted green runs.",
+    "publication": {"pushed": false, "released": false, "deployed": false},
+    "release_acceptance": false
+  },
   "export_timestamp_removal": {
     "status": "bounded-local-verification-complete-not-published",
     "english_commit": "24164934abf5765684cbcaea1c2a1b1cbd873fd2",
