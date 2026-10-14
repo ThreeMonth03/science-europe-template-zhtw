@@ -40,6 +40,22 @@
       "cases": 27044,
       "release_acceptance": false
     },
+    "native_review": {
+      "status": "bounded-review-completed-with-polish-observations",
+      "path": "/home/trc/.local/share/dsw-po-acceptance.RPuf4IHF/visual-review.json",
+      "sha256": "8a6c691fb931e8119b71680c76466fc88ea52e1bb79089e0b521fd22068df1cd",
+      "main_audit_sha256": "47ce656aa7558889f77caeb486dbcc7b7baeb87cfa18270c3f8f18b3dbc1571c",
+      "long_audit_sha256": "c3cc69bc0a5d010b4b5b5bfabba45de1572fc8ccf5dd4c6d48a76c3b9ba43104",
+      "native_documents": 30,
+      "native_PDF_pages": 88,
+      "LibreOffice_DOCX_preview_pages": 89,
+      "all_page_PNGs_reviewed": 177,
+      "blocking_layout_or_content_loss_observed": false,
+      "polish_observation_families": 5,
+      "template_PO_Worker_Pandoc_workflow_changed": false,
+      "release_acceptance": false,
+      "scope": "4.35 EN/ZH plus 4.34 Chinese compatibility; filled, partial, empty, branch-stress and declared synthetic long answers. Not all profile/input permutations, a fresh Server integration or Microsoft Word verification."
+    },
     "preserved_failed_preview": {
       "path": "/home/trc/.local/share/dsw-po-workflow.vBOxIklq/current-bilingual-preview.json",
       "sha256": "3dd30c2a6e97ff11dd1041dd6109ff61b00696585b753bfb22f9d4b40096f748",
@@ -60,7 +76,7 @@
     "change_note": "Only Chinese template-owned sentence joins lose inter-sentence spaces. English keeps spaces; catalog translations and other rendering assets are unchanged."
   },
   "pending": [
-    "Run stock Worker PDF/Word acceptance on this exact new source/catalog pair; older native evidence does not accept these package bytes.",
+    "Prioritize the five collected P3 polish observations as one bounded follow-up; do not change templates for the two withdrawn visual false positives. New native evidence is bound to this exact pair, but is not full release acceptance.",
     "Separate current PO checks from immutable historical replay in the existing CI. Do not recalculate historical seals to make the dirty pre-PO snapshot pass."
   ],
   "historical_ci_gap": {
@@ -83,5 +99,5 @@
     "existing_workflows_unchanged": true
   },
   "publication": {"pushed": false, "released": false, "deployed": false},
-  "scope_note": "Synthetic local checks, not a bug-free guarantee or Microsoft Word acceptance. Local evidence paths are not repository fixtures. This record identifies the earlier clean build commit, not a later documentation-only HEAD."
+  "scope_note": "Synthetic local checks, not a bug-free guarantee or Microsoft Word acceptance. Local evidence paths are not repository fixtures. The frozen candidate pilot-report.json records its earlier pre-native rejection; it is not overwritten to promote the package. This record identifies the earlier clean build commit, not a later documentation-only HEAD."
 }
