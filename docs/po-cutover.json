@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "local-candidate-not-accepted",
+  "profile": "official-po-with-compat434",
+  "authoritative_catalog": "locales/zh-Hant.po",
+  "source_commits": {
+    "english": "a577acc5c5e659edd6be47a632261190e04f8795",
+    "chinese_build": "490b8dafd53f6a27ae94203277a533c7b8fb2e00",
+    "tooling": "233403bee7914705e7d2e5b24f5e47f68d8cbda7"
+  },
+  "coordinates": {
+    "english": "threemonth03:science-europe-enhanced:0.3.79",
+    "compat434": "threemonth03:science-europe-enhanced-zhtw-compat434:0.3.81"
+  },
+  "local_candidate": {
+    "path": "/home/trc/.local/share/dsw-po-workflow.vBOxIklq/zh/outputs/build-47kri86g",
+    "manifest_sha256": "8d1b5bcc16e262826fbe76096819b23992e7c56ad8af9c08f21c9c100f40c308",
+    "pilot_report_sha256": "ed9cddc9cb701e19b029b26039b2f07a91ec2e6dcc0e6ca3b1a9503c82f162d7",
+    "sha256": {
+      "english.zip": "f4af32361d70a26adb92ec2192ec3f9730ce9dd47612e1423bb60f78798450fc",
+      "chinese.zip": "65a6ab5e5dbfb94f934ae9b68fd1b3762688db9c59aa0b9883d52a3409284079",
+      "zh-Hant.po": "5cc1fdca1959b226bf9ff725dbea62e3a640bafb0c2d731019e0b7a03bb21e5e",
+      "zh-Hant.mo": "89fd51a7ad94e914bfa1bddd2308b70f713e4cbfb42ae8a16da5c82cdd8fca38",
+      "chinese.zip.json": "86dcf6f5dcf59764cc3a486c9278d511185ca67b8daebf9574fa3fea7a1c9e13"
+    },
+    "clean_checkouts_at_build": true,
+    "structural_pair_validation_passed": true,
+    "unaccepted_candidate_staging_rejected": true,
+    "staged": false
+  },
+  "checks": {
+    "builder_unit_tests": 7,
+    "artifact_lifecycle_unit_tests": 25,
+    "package_documentation_unit_tests": 4,
+    "current_behavior": {
+      "path": "/home/trc/.local/share/dsw-po-workflow.vBOxIklq/current-bilingual-final.json",
+      "sha256": "01a4e969e993c8dba15460cfdaa0ed79d4d7fe301fa2437fc1628b7556502bad",
+      "passed": true,
+      "suite_runs": 16,
+      "cases": 27044,
+      "release_acceptance": false
+    },
+    "preserved_failed_preview": {
+      "path": "/home/trc/.local/share/dsw-po-workflow.vBOxIklq/current-bilingual-preview.json",
+      "sha256": "3dd30c2a6e97ff11dd1041dd6109ff61b00696585b753bfb22f9d4b40096f748",
+      "resolution": "Two exact expected folder translations were synchronized with the previously approved catalog. No production source was weakened."
+    }
+  },
+  "render_scope": {
+    "reference_preparations": 1,
+    "prepared_reference_sha256": "8b2b4385d2eb2db379a8d9c02d32828ced29d5441a94cba0ca0b98e6370db278",
+    "reference_matches_previous_accepted_bytes": true,
+    "english_render_files": 77,
+    "compat434_render_files": 78,
+    "changed_shared_render_files_since_previous_accepted_package": [
+      "src/nonreuse.html.j2",
+      "src/publication-summary.html.j2",
+      "src/reuse-rightsholder.html.j2"
+    ],
+    "change_note": "Only Chinese template-owned sentence joins lose inter-sentence spaces. English keeps spaces; catalog translations and other rendering assets are unchanged."
+  },
+  "pending": [
+    "Run stock Worker PDF/Word acceptance on this exact new source/catalog pair; older native evidence does not accept these package bytes.",
+    "Separate current PO checks from immutable historical replay in the existing CI. Do not recalculate historical seals to make the dirty pre-PO snapshot pass."
+  ],
+  "historical_ci_gap": {
+    "preexisted_po_cutover": true,
+    "english_snapshot": "895741e0d5b52e77c4c1a9063e7bb17db62a0ff1",
+    "chinese_snapshot": "ebc9a2387fec94193648d7b3b55250c66fca82d7",
+    "finding": "The saved 0.3.78 source/translation inventories do not match their historical seals, and the old Chinese pipeline points to English 0.3.67.",
+    "consistent_static_replay_baseline": {
+      "english": "0b06afd1b2983ae53d21232926a3e3b933c468bf",
+      "chinese": "4a1e1086d878c76e99bab794fffa4f806100baed",
+      "tooling": "25e339fbdfb1d20796471055790aad6a4226b6ed",
+      "version": "0.3.67",
+      "scope": "Static lock/seal consistency only; full CI and native replay were not run."
+    }
+  },
+  "preservation": {
+    "original_source_files_verified": 14121,
+    "original_heads_and_status_unchanged": true,
+    "original_handoff_sha256": "ae0cd12e0f3bb682172f5f539a9ffba525ce352498e70f07922cc60c308ee5c7",
+    "existing_workflows_unchanged": true
+  },
+  "publication": {"pushed": false, "released": false, "deployed": false},
+  "scope_note": "Synthetic local checks, not a bug-free guarantee or Microsoft Word acceptance. Local evidence paths are not repository fixtures. This record identifies the earlier clean build commit, not a later documentation-only HEAD."
+}
