@@ -3,7 +3,22 @@
   "status": "local-candidate-not-accepted",
   "profile": "official-po-with-compat434",
   "authoritative_catalog": "locales/zh-Hant.po",
-  "record_scope": "Current successor is polish_before_after. Existing source_commits, coordinates, local_candidate, checks and render_scope below retain the previous 0.3.79 / 0.3.81 candidate and its historical evidence.",
+  "record_scope": "Current successor is export_timestamp_removal. polish_before_after and existing source_commits, coordinates, local_candidate, checks and render_scope retain their earlier candidates and historical evidence.",
+  "export_timestamp_removal": {
+    "status": "source-committed-native-verification-pending",
+    "english_commit": "24164934abf5765684cbcaea1c2a1b1cbd873fd2",
+    "coordinates": {
+      "english": "threemonth03:science-europe-enhanced:0.3.81",
+      "compat434": "threemonth03:science-europe-enhanced-zhtw-compat434:0.3.83"
+    },
+    "policy": "Never display export timestamps in either submission or review, including HTML/PDF/Word; no user toggle. Preserve actual named DMP versions, their dates, real history and research-project metadata.",
+    "active_catalog_messages": 858,
+    "obsolete_message": "document-provenance / Created on %(dc_document_created_at)s",
+    "source_metadata_and_Word_guard_tests": {"passed": true, "tests": 9},
+    "native_verification": null,
+    "publication": {"pushed": false, "released": false, "deployed": false},
+    "release_acceptance": false
+  },
   "polish_before_after": {
     "status": "local-candidate-reviewed-not-published",
     "source_commits": {

@@ -264,12 +264,12 @@ msgctxt "document-provenance"
 msgid "Project: %(dc_project_name)s"
 msgstr "專案名稱：%(dc_project_name)s"
 
-#. Approved existing Chinese; no retranslation.
+#. No longer displayed; retained only as obsolete translation history.
 #: src/document-provenance.html.j2
 #, python-format
-msgctxt "document-provenance"
-msgid "Created on %(dc_document_created_at)s"
-msgstr "文件建立日期：%(dc_document_created_at)s"
+#~ msgctxt "document-provenance"
+#~ msgid "Created on %(dc_document_created_at)s"
+#~ msgstr "文件建立日期：%(dc_document_created_at)s"
 
 #. Approved existing Chinese; no retranslation.
 #: src/document-provenance.html.j2

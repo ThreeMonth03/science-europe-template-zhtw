@@ -1,17 +1,21 @@
 # Science Europe 客製繁體中文模板
 
 目前本機 PO 建置線以 `locales/zh-Hant.po` 為唯一可編輯譯文來源，配對英文
-`0.3.80`，產生 `0.3.82` 的 DSW 4.34 中文相容包，以及 4.35 使用的獨立 PO。
+`0.3.81`，產生 `0.3.83` 的 DSW 4.34 中文相容包，以及 4.35 使用的獨立 PO。
 英文只維護共用 Jinja；不另維護中文 Jinja。舊 `translation/` 保留歷史，不再
 供新 PO 建置或雙向同步。現有 build／候選保存入口沿用，不新增 repo 或 CI。
 這是本機切換，尚未部署；前一配對 `0.3.79`／`0.3.81` 已完成 30 份原生文件、
-177 頁 PDF／LibreOffice Word 預覽檢查。本輪 `0.3.80`／`0.3.82` 已完成相同回答的
+177 頁 PDF／LibreOffice Word 預覽檢查。前一輪 `0.3.80`／`0.3.82` 已完成相同回答的
 30 份原生文件、174 頁逐頁檢查，並提供完整 before／after PDF、Word 與 LibreOffice 預覽。
 全空提交 PDF 的中文由 2 頁變 1 頁、英文由 3 頁變 2 頁；中文 Q9／Q15 措辭與
 英文長文 Word 短列續頁已改善。英文漏填檢核 PDF 的追溯資訊仍單獨占尾頁，未稱已解決。
 這不代表所有輸入或 Microsoft Word 驗收；CI 的歷史／現行檢查分離仍待完成。
 當前配對、檢查結果、對照包位置與未完成項目集中於 [PO 切換狀態](docs/po-cutover.json)
-的 `polish_before_after`；其餘前一候選紀錄保留原有來源與證據，不冒稱本輪結果。
+的 `export_timestamp_removal`；`polish_before_after` 與其餘前一候選紀錄保留原有來源與證據，不冒稱本輪結果。
+
+提交版與檢核版一律不呈現文件匯出時間，不提供開關；有命名的 DMP 版本、
+版本日期及實際變更紀錄仍保留，研究計畫與人員資訊不變。系統匯出時間不可
+充當 DMP 更新日期，亦不可將模板或知識模型版次當成 DMP 版次。
 
 另完成正式的「原 Science Europe 1.30.1 基準 vs 目前客製 Jinja」成果對照，
 不是相鄰修補版比較。三組 runtime／語言各提供獨立 PDF、Word 與 LibreOffice 預覽；
