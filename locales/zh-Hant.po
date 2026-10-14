@@ -2202,20 +2202,20 @@ msgstr "研究期間將不以冷儲存方式封存資料。"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/05-store-backup.html.j2
 msgctxt "questions/05-store-backup"
-msgid "The fields mapped by this template are insufficient to establish the following operational details:"
-msgstr "本模板目前對應的欄位不足以確認以下執行細節："
+msgid "Please check these details; the answers used in this section do not establish them:"
+msgstr "請核對以下細節；本節採用的回答尚不足以確認："
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/05-store-backup.html.j2
 msgctxt "questions/05-store-backup"
-msgid "Exact working-storage and backup locations are not established by these mapped answers."
-msgstr "這些對應回答尚未明確指出工作資料與備份的實際儲存地點。"
+msgid "Exact working-storage and backup locations."
+msgstr "工作資料與備份的實際儲存地點。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/05-store-backup.html.j2
 msgctxt "questions/05-store-backup"
-msgid "An actual backup schedule is not established by these mapped answers; a need for frequent backups is not a schedule."
-msgstr "這些對應回答尚未明確指出實際備份排程；「需要頻繁備份」不等於已訂定排程。"
+msgid "The actual backup schedule. A need for frequent backups does not specify a schedule."
+msgstr "實際備份排程。「需要頻繁備份」不等於已訂定排程。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
