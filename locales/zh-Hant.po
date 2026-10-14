@@ -2892,17 +2892,17 @@ msgctxt "questions/09-ethical-issues"
 msgid "Data we collect"
 msgstr "我們蒐集的資料"
 
-#. Approved existing Chinese; no retranslation.
+#. Concise Traditional Chinese; personal-data meaning and negation preserved.
 #: src/questions/09-ethical-issues.html.j2
 msgctxt "questions/09-ethical-issues"
 msgid "We will not collect any data related to individuals, i.e. \"personal data\"."
-msgstr "我們不會蒐集任何與個人相關的資料，即「個人資料」。"
+msgstr "我們不會蒐集個人資料。"
 
-#. Approved existing Chinese; no retranslation.
+#. Concise Traditional Chinese; personal-data meaning preserved.
 #: src/questions/09-ethical-issues.html.j2
 msgctxt "questions/09-ethical-issues"
 msgid "We will collect data related to individuals, i.e. \"personal data\"."
-msgstr "我們將蒐集與個人相關的資料，即「個人資料」。"
+msgstr "我們將蒐集個人資料。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/09-ethical-issues.html.j2
@@ -4152,11 +4152,11 @@ msgctxt "questions/15-required-resources"
 msgid "Funding source"
 msgstr "經費來源"
 
-#. Approved existing Chinese; no retranslation.
+#. Compact review-only hint; resource necessity and FAIR purpose preserved.
 #: src/questions/15-required-resources.html.j2
 msgctxt "questions/15-required-resources"
 msgid "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-justification\" data-status=\"missing\"><strong>Information not provided:</strong> why this resource is needed to deliver FAIR data.</p>"
-msgstr "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-justification\" data-status=\"missing\">尚待補充：為何需要這項資源來產出符合 FAIR 原則的資料。</p>"
+msgstr "<p class=\"data-gap\" data-requirement-id=\"SE-6b\" data-fact-id=\"resource-justification\" data-status=\"missing\">尚待補充：此資源對產出 FAIR 資料的必要性。</p>"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/15-required-resources.html.j2
