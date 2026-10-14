@@ -3,7 +3,70 @@
   "status": "local-candidate-not-accepted",
   "profile": "official-po-with-compat434",
   "authoritative_catalog": "locales/zh-Hant.po",
-  "record_scope": "Current successor is pdf_review_boundary. export_timestamp_removal, polish_before_after and existing source_commits, coordinates, local_candidate, checks and render_scope retain their earlier candidates and historical evidence.",
+  "record_scope": "Current successor is reading_continuity. pdf_review_boundary, export_timestamp_removal, polish_before_after and existing source_commits, coordinates, local_candidate, checks and render_scope retain their earlier candidates and historical evidence.",
+  "reading_continuity": {
+    "status": "bounded-local-review-complete-not-deployed",
+    "english_commit": "f843d8097f44af6419503c1fdf79ec0c7abd63a2",
+    "chinese_build_commit": "a38e507a764355efea4246864b1889666202ef33",
+    "tooling_function_commit": "233403bee7914705e7d2e5b24f5e47f68d8cbda7",
+    "coordinates": {"english": "threemonth03:science-europe-enhanced:0.3.83", "compat434": "threemonth03:science-europe-enhanced-zhtw-compat434:0.3.85"},
+    "scope": [
+      "Release Q13's erroneous keep-after only for one complete reuse summary in PDF; authored details and multiple records retain normal flow.",
+      "Allow the exact owned short-row hint in the existing PDF Q15 classifier, without widening its content or width limits.",
+      "Keep the final short owned training bullet with the existing bounded Word budget chain; long, complex and unknown blocks remain ordinary flow.",
+      "Simplify three Q5 review strings in English and Chinese without changing facts, conditions or submission output."
+    ],
+    "candidate": {
+      "path": "/home/trc/.local/share/dsw-po-workflow.vBOxIklq/zh/outputs/build-u36573vg",
+      "manifest_sha256": "b54636ba22282d6304f36076d031024d8e83fe5ff70cd8601ee0ff7a99271a8d",
+      "clean_checkouts_at_build": true,
+      "english_zip_sha256": "1b7956a700986a65a2f09b0bce5eb384f7d49d4c37d1b08275726c8230a5e3b8",
+      "compat434_zip_sha256": "78234c2d742780b2921ee15654bd06d75dfe60d1e7e9df202412e9f9c995c7f6",
+      "po_sha256": "1bf214bd330c106ce12a59855f2178e4b06d46235a7c4f58908b1cb056732f35",
+      "mo_sha256": "1dcffc17ca65e638017c23fb4ebb60a5bad0d372f30e687435d5a4826d2e5570",
+      "active_catalog_messages": 858,
+      "documentation_only_successor": "Final navigation/evidence commit follows the clean build; it does not change package inputs or reseal native files."
+    },
+    "checks": {
+      "current_bilingual_suites": 16, "current_bilingual_cases": 27044,
+      "current_behavior_sha256": "f4859041f137ce282d17a54651528cd3f1ad7e013b2c51371c8bb5e284f1920d",
+      "English_current_unit_tests": 28, "English_Q5_review_tests": 2,
+      "current_native_and_reference_tests": 6, "Chinese_PO_selected_tests_with_pinned_tool": 36,
+      "scope": "Explicit current checks and bounded negative controls, not every historical test. An old SoupSieve selector failure is unchanged on the prior source and is not represented as passing."
+    },
+    "native_verification": {
+      "passed_for_scoped_change": true,
+      "private_evidence": "/home/trc/.local/share/dsw-reading-units.G31ZaL5E",
+      "groups": ["434-zh-Hant", "435-en", "435-zh-Hant"],
+      "cases": ["ALL_MISSING-review", "REPRESENTATIVE_FILLED-submission"],
+      "same_answer_fast_pairs": 12, "native_documents": 12,
+      "native_PDF_pages": 31, "LibreOffice_DOCX_preview_pages": 31, "pages_visually_reviewed": 62,
+      "source_scalar_reply_values_checked_across_filled_outputs": 252,
+      "context_bytes_identical_to_previous_candidate": true,
+      "all_native_and_preview_page_counts_unchanged": true,
+      "all_fifteen_questions_retained": true,
+      "audit_sha256": "f01719997050c11fdca1afb41123dff55672a4c57e721f7447a45766da63bba3",
+      "after_lock_sha256": "66d5d3992c813179337ea877f60bc5bd9c62c718312e6d6f6602d070704beb87",
+      "native_controller_sha256": "7afa630072a7cead71f84a497229d77290b8de0e6476c8980a7aa8cab35e3b77",
+      "preview_result_sha256": "c90311b948fcf0744786cc5905bb2f6e8ba751f59983c2bb6f015ef3f4104250",
+      "visual_reports_sha256": {"434-zh-Hant": "a6dccc13c623790390eb11affc7f68070d1eea8e6c02cbb66eb27c8a999be826", "435-en": "e5d9e20b15a525c3be717c980af4d9a30cddf46ec5d93a8ab610dcbfe08b343a", "435-zh-Hant": "2e263064d06f7898ccac4e7e3b4f26b6c813f93268a7366dd43a9d88cb498b2f"},
+      "results": ["Chinese PDF Q13 and reuse supplement now share page 5.", "English PDF Q15 is complete on page 7; Chinese Word Q15 is complete on page 7.", "Review Q5 is clearer; submission has no new hints or export timestamp."],
+      "known_limits": ["Keeping short Q15 whole increases the preceding page's whitespace in English PDF and Chinese Word; total page counts do not increase.", "Sparse covers/endings and deliberate long-answer continuations remain.", "Word verification uses bundled LibreOffice, not native Microsoft Word. Fixed cases and scalar-value preservation do not prove universally bug-free output or complete semantic coverage."]
+    },
+    "delivery": {
+      "directory": "/home/trc/Downloads/science-europe-reading-units-before-after.aplu4ml9",
+      "index": "index.html", "archive": "science-europe-before-after.zip",
+      "archive_sha256": "ca1d67b871b65dcbc320ddb45b1b4ac7239ebedcb4c97ac37fccb7bbb9fcadf4",
+      "provenance_sha256": "7d1f950939ed19b5658c80b4aded16873229cdd4dd751a3c8b6781fbbb032b2f",
+      "document_copies": 33, "new_document_copies": 12, "template_artifacts": 3, "verified_archive_members": 38,
+      "definitions": ["Formal Before: original English Science Europe / depositar Chinese 1.30.1; After: current full submission with byte-identical contexts.", "Patch Before: previous custom .82 / compat .84; After: .83 / compat .85, full submission plus separate empty-review Q5 PDFs."],
+      "434_Chinese": "compat434 ZIP 0.3.85",
+      "435_Chinese": "English ZIP 0.3.83 plus independent zh-Hant PO, not the compat434 ZIP",
+      "PDF_DOCX_restyled_or_merged": false
+    },
+    "publication": {"target_branch": "fix/answer-mapping", "push_authorized": true, "English_run": "https://github.com/ThreeMonth03/science-europe-template/actions/runs/38559674926", "English_run_conclusion": "success", "hosted_receipts": "Actual Chinese remote head and CI run are recorded separately after this documentation-only commit is pushed, not inferred from local tests.", "released": false, "deployed": false},
+    "release_acceptance": false
+  },
   "pdf_review_boundary": {
     "status": "bounded-review-complete",
     "english_commit": "c74a498baca9bd282decdf69199c4e512b257e60",
