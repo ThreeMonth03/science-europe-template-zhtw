@@ -6,7 +6,15 @@
 供新 PO 建置或雙向同步。現有 build／候選保存入口沿用，不新增 repo 或 CI。
 這一配對只重整 Q3 的儲存容量、檔案系統、物件／文件儲存及資料庫分組，
 保留原回答與條件，並銜接物件儲存介紹與命名回答開頭；不鎖住長回答。
-新增四個 PO 標籤，原 858 筆譯文不變；本輪原生成品驗證另行記錄。
+新增四個 PO 標籤，原 858 筆譯文不變。本輪六項 Q3 測試涵蓋 340 組設定，
+英文現行 36 項、原生／reference 6 項、中文 PO 36 項與雙語 16 套／27,044 個
+行為案例重跑通過。12 份原生文件與 LibreOffice 預覽共 62 頁，頁數與前版相同。
+三組 runtime／語言的 62 頁已全部檢查，窄範圍 audit 重跑通過 12 組同回答對照與
+12 份原生文件。初次 Word 中文段落邊界比較及缺依賴的重跑失敗記錄均保留。
+長篇作者檔案命名回答仍可由第 3 頁續至第 4 頁，不刪原文或鎖住整組。
+這些是本機、固定案例的結果，不是 hosted CI、Microsoft Word 或全面驗收，未上傳 DSW。
+正式 1.30.1 與上一版自訂兩種 Before 各自保留；本版完整 PDF、Word、LibreOffice 預覽
+共用於兩組對照，交付含 27 份獨立成品與三件模板資產，位置與 SHA 見下方狀態檔。
 前輪 `0.3.83`／`0.3.85` 完成 12 組同回答對照、12 份原生文件與 62 頁逐頁檢查，27,044 個雙語
 行為案例通過，頁數不增。短 Q15 完整同頁，但前頁留白增加；這是閱讀連續性的
 取捨，不代表每頁更緊密。Word 為 LibreOffice 預覽，不是 Microsoft Word 實機驗收。
@@ -19,7 +27,7 @@
 這不代表所有輸入或 Microsoft Word 驗收；CI 已區分現行 PO 檢查與手動歷史回放，
 實際遠端執行結果另記，不以設定修改冒充綠燈。
 當前配對、檢查結果、對照包位置與未完成項目集中於 [PO 切換狀態](docs/po-cutover.json)
-的 `reading_continuity`；`pdf_review_boundary`、`export_timestamp_removal`、`polish_before_after` 與其餘前一候選
+的 `q3_storage_groups`；`reading_continuity`、`pdf_review_boundary`、`export_timestamp_removal`、`polish_before_after` 與其餘前一候選
 紀錄保留原有來源與證據，不冒稱本輪結果。
 
 提交版與檢核版一律不呈現文件匯出時間，不提供開關；有命名的 DMP 版本、
