@@ -103,6 +103,7 @@ jobs:
           "$RUNNER_TEMP/english-check-venv/bin/python" -m unittest -v \
             tests.test_current_behavior.CurrentI18nTests \
             tests.test_current_behavior.CurrentBudgetLayoutTests \
+            tests.test_q3_storage_groups \
             tests.test_derived_submission_headings.DerivedSubmissionHeadingsTests \
             tests.test_document_metadata.DocumentMetadataTests \
             2>&1 | tee outputs/current-unit.log
