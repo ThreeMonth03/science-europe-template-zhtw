@@ -5,9 +5,13 @@
 英文只維護共用 Jinja；不另維護中文 Jinja。舊 `translation/` 保留歷史，不再
 供新 PO 建置或雙向同步。現有 build／候選保存入口沿用，不新增 repo 或 CI。
 這是本機切換，尚未部署；前一配對 `0.3.79`／`0.3.81` 已完成 30 份原生文件、
-177 頁 PDF／LibreOffice Word 預覽檢查。本輪針對潤飾觀察修正，另產相同回答的 before／after。
+177 頁 PDF／LibreOffice Word 預覽檢查。本輪 `0.3.80`／`0.3.82` 已完成相同回答的
+30 份原生文件、174 頁逐頁檢查，並提供完整 before／after PDF、Word 與 LibreOffice 預覽。
+全空提交 PDF 的中文由 2 頁變 1 頁、英文由 3 頁變 2 頁；中文 Q9／Q15 措辭與
+英文長文 Word 短列續頁已改善。英文漏填檢核 PDF 的追溯資訊仍單獨占尾頁，未稱已解決。
 這不代表所有輸入或 Microsoft Word 驗收；CI 的歷史／現行檢查分離仍待完成。
-當前配對、檢查結果與未完成項目集中於 [PO 切換狀態](docs/po-cutover.json)。
+當前配對、檢查結果、對照包位置與未完成項目集中於 [PO 切換狀態](docs/po-cutover.json)
+的 `polish_before_after`；其餘前一候選紀錄保留原有來源與證據，不冒稱本輪結果。
 
 目前候選修正的共用測試與 CI 配對限制，見[日常檢查指南](docs/testing.md)。
 本頁既有版本紀錄保留當時狀態，不代表新的修正已發布。

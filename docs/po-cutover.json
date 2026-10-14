@@ -3,6 +3,79 @@
   "status": "local-candidate-not-accepted",
   "profile": "official-po-with-compat434",
   "authoritative_catalog": "locales/zh-Hant.po",
+  "record_scope": "Current successor is polish_before_after. Existing source_commits, coordinates, local_candidate, checks and render_scope below retain the previous 0.3.79 / 0.3.81 candidate and its historical evidence.",
+  "polish_before_after": {
+    "status": "local-candidate-reviewed-not-published",
+    "source_commits": {
+      "english": "e84fae705acdf0ee72c44e84c4bb9927b038052b",
+      "chinese_build": "b8ae629b2b19c456f59ea0fa1387ba675a3c1389",
+      "tooling": "233403bee7914705e7d2e5b24f5e47f68d8cbda7"
+    },
+    "coordinates": {
+      "english": "threemonth03:science-europe-enhanced:0.3.80",
+      "compat434": "threemonth03:science-europe-enhanced-zhtw-compat434:0.3.82"
+    },
+    "candidate": {
+      "path": "/home/trc/.local/share/dsw-po-workflow.vBOxIklq/zh/outputs/build-xr6420jq",
+      "manifest_sha256": "9bb1b940bc3a48b927439edc75f70aa0521c991f5164bebcd64542ace8d640ce",
+      "clean_checkouts_at_build": true,
+      "sha256": {
+        "english.zip": "a4d2038f56371fcca3edcd8b53c2b8d000b853f849781de7de2ce524e465cd9f",
+        "chinese.zip": "331b3cf3798ebedbd82ff683e49c622be7cf11416f88f6a1fc33ccc075b6658f",
+        "zh-Hant.po": "ab263069f82570043f422b975be12e0d2a5c28fc50e7349f6c2ca61d183719c9",
+        "zh-Hant.mo": "e248ce2880e7e65b9affecb0c895dda4b30c8f56db3344babe89a833d26e2e77",
+        "chinese.zip.json": "b1e6b81e1b6e8c9f5ba9db1b75633555593c1d9be03a474b018e6de5e4489dc4"
+      },
+      "staged": false
+    },
+    "checks": {
+      "catalog_messages": 859,
+      "approved_msgstr_changes": 3,
+      "changed_shared_render_files": ["src/layout.css", "src/pdf/index.html.j2", "src/word/short-tables.lua", "src/word/short-tables.xml"],
+      "prepared_reference_unchanged": true,
+      "current_behavior": {
+        "path": "/home/trc/.local/share/dsw-po-polish-after.BWAlNSHy/current-bilingual.json",
+        "sha256": "4b8db4bc71e8705daa32e35aaf4bf2870f53335debf170a048e3c1ee0eecaf2e",
+        "suite_runs": 16,
+        "cases": 27044,
+        "passed": true
+      },
+      "strict_same_answer_fast_entries_passed": 60,
+      "before_HTML_hashes_match_previous_native_inputs": 30,
+      "after_native_documents": 30,
+      "same_context_pairs": 30,
+      "before_pages": 177,
+      "after_native_PDF_pages": 85,
+      "after_LibreOffice_DOCX_preview_pages": 89,
+      "after_page_PNGs_visually_reviewed": 174,
+      "audit_path": "/home/trc/.local/share/dsw-po-polish-after.BWAlNSHy/audit.json",
+      "audit_sha256": "a7d529e9f9b23742d49a599e25aad84b017a7234331a81f4e6815571226f8a72",
+      "visual_review_path": "/home/trc/.local/share/dsw-po-polish-after.BWAlNSHy/visual-review.json",
+      "visual_review_sha256": "5b47fc011f0005a1a4fddb256c89c9e7001dc8aa2ae00d165f74e72c211f881e",
+      "new_blocking_layout_or_content_loss_observed": false
+    },
+    "delivery": {
+      "directory": "/home/trc/Downloads/science-europe-before-after.Hh9WI9p5",
+      "index": "index.html",
+      "comparison": "BEFORE_AFTER.pdf",
+      "comparison_sha256": "0b0580c0e85b3271feac70f42b8e5bacb7e6e6ad084759c79508c6ccb8a4ae51",
+      "comparison_pages_visually_reviewed": 7,
+      "archive": "before-after.zip",
+      "archive_sha256": "573db71f951e1c995c2808e697546fde37f400cf89963492888058834434b189",
+      "copied_native_and_preview_files": 90,
+      "verified_relative_links": 96,
+      "verified_archive_members": 99,
+      "sources_receipt_sha256": "e2277c3406217548e1cc5dfca6d3ce4c113d0cb7e177127e4960fa62130c1abe",
+      "before_definition": "Previous local 0.3.79 / 0.3.81 candidate, not the original upstream or old Chinese template."
+    },
+    "remaining": [
+      "English RANDOM_PARTIAL review PDF remains six pages, with five provenance lines alone on the last page. Disclosed P3 pagination limitation, not claimed fixed.",
+      "Separate current PO checks from immutable historical CI replay. Existing workflows were not changed in this batch.",
+      "Bounded synthetic input/profile review only; no new Server integration, Microsoft Word acceptance or universal bug-free guarantee."
+    ],
+    "publication": {"pushed": false, "released": false, "deployed": false},
+    "release_acceptance": false
+  },
   "source_commits": {
     "english": "a577acc5c5e659edd6be47a632261190e04f8795",
     "chinese_build": "490b8dafd53f6a27ae94203277a533c7b8fb2e00",
@@ -76,7 +149,7 @@
     "change_note": "Only Chinese template-owned sentence joins lose inter-sentence spaces. English keeps spaces; catalog translations and other rendering assets are unchanged."
   },
   "pending": [
-    "Prioritize the five collected P3 polish observations as one bounded follow-up; do not change templates for the two withdrawn visual false positives. New native evidence is bound to this exact pair, but is not full release acceptance.",
+    "The bounded follow-up is recorded under polish_before_after; retain the disclosed English partial-review provenance tail. Do not reopen the two withdrawn visual false positives.",
     "Separate current PO checks from immutable historical replay in the existing CI. Do not recalculate historical seals to make the dirty pre-PO snapshot pass."
   ],
   "historical_ci_gap": {
