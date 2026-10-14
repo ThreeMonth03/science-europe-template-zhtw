@@ -13,6 +13,11 @@
 當前配對、檢查結果、對照包位置與未完成項目集中於 [PO 切換狀態](docs/po-cutover.json)
 的 `polish_before_after`；其餘前一候選紀錄保留原有來源與證據，不冒稱本輪結果。
 
+另完成正式的「原 Science Europe 1.30.1 基準 vs 目前客製 Jinja」成果對照，
+不是相鄰修補版比較。三組 runtime／語言各提供獨立 PDF、Word 與 LibreOffice 預覽；
+原版 74 頁逐頁檢查，目前版 39 頁重用已驗原檔，同組回答、KM 與日期不變。
+交付索引、原版來源與明列的版面取捨見同份狀態檔的 `baseline_comparison`。
+
 目前候選修正的共用測試與 CI 配對限制，見[日常檢查指南](docs/testing.md)。
 本頁既有版本紀錄保留當時狀態，不代表新的修正已發布。
 
