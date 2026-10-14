@@ -5,8 +5,10 @@
   "authoritative_catalog": "locales/zh-Hant.po",
   "record_scope": "Current successor is export_timestamp_removal. polish_before_after and existing source_commits, coordinates, local_candidate, checks and render_scope retain their earlier candidates and historical evidence.",
   "export_timestamp_removal": {
-    "status": "source-committed-native-verification-pending",
+    "status": "bounded-local-verification-complete-not-published",
     "english_commit": "24164934abf5765684cbcaea1c2a1b1cbd873fd2",
+    "chinese_build_commit": "14b689b8f14b09d4295bd4300d8ae7830c938ae4",
+    "tooling_commit": "233403bee7914705e7d2e5b24f5e47f68d8cbda7",
     "coordinates": {
       "english": "threemonth03:science-europe-enhanced:0.3.81",
       "compat434": "threemonth03:science-europe-enhanced-zhtw-compat434:0.3.83"
@@ -15,7 +17,50 @@
     "active_catalog_messages": 858,
     "obsolete_message": "document-provenance / Created on %(dc_document_created_at)s",
     "source_metadata_and_Word_guard_tests": {"passed": true, "tests": 9},
-    "native_verification": null,
+    "candidate": {
+      "path": "/home/trc/.local/share/dsw-po-workflow.vBOxIklq/zh/outputs/build-ofmh_gnu",
+      "manifest_sha256": "f8a96fa3826cf361de3f1f2e892a5753b58b404868caafb30d3b09a3d780287f",
+      "clean_checkouts_at_build": true,
+      "english_zip_sha256": "ff54e8277331ea8d701c574356a98cbb66326c62f26b194aa84e3b4fb99a8a45",
+      "compat434_zip_sha256": "4a9e9dcb38c3cd8b2833dcec0ce47ec8deb21dcb4affd890bcb81810ab9051bb",
+      "po_sha256": "27f29e16479a2845b2c5338e2808890229b5b8c5ff09abe39916ce2b8700e512",
+      "mo_sha256": "11056ad9c2109fb3a66c080a8dcb08d777c630729aeb91aef28d062c9ddb8156",
+      "remaining_858_translations_unchanged": true,
+      "prepared_Word_reference_unchanged": true,
+      "changed_shared_render_files": ["src/document-provenance.html.j2", "src/word/pilot.lua"]
+    },
+    "current_behavior": {
+      "passed": true, "suite_runs": 16, "cases": 27044,
+      "path": "/home/trc/.local/share/dsw-no-export-date.O5ltwrqU/current-bilingual.json",
+      "sha256": "63d750d8df2e447336fe8913926a803c539e3c2e817d23079bc113a1927f209d"
+    },
+    "native_verification": {
+      "passed_for_scoped_change": true,
+      "private_evidence": "/home/trc/.local/share/dsw-no-export-date.O5ltwrqU",
+      "before_definition": "Previous custom 0.3.80 / 0.3.82 candidate, not the official Science Europe baseline; the earlier formal baseline comparison remains frozen.",
+      "before_lock_sha256": "2afd16c9195da58b29ef8e7ed0366bd2a107e4edb359cfbed8615ec03e080d0f",
+      "after_lock_sha256": "8577f2be6a0b38706abddcc61fa73a331b46cf45f992639246ef38137e8810ff",
+      "groups": ["434-zh-Hant", "435-en", "435-zh-Hant"],
+      "cases": ["ALL_MISSING-review", "NAMED_VERSION-submission"],
+      "named_version_fixture": "Two explicitly synthetic project versions and a selected version UUID are injected into a representative frozen context; both sides receive byte-identical derived contexts, with original contexts and exact mutations preserved separately.",
+      "same_answer_fast_pairs": 12,
+      "submission_DOM_unchanged": true,
+      "review_DOM_delta": "Only the single exact export-date paragraph inside the provenance aside is removed; all remaining DOM is equal.",
+      "native_documents": 12,
+      "native_PDF_pages": 31,
+      "LibreOffice_DOCX_preview_pages": 31,
+      "pages_visually_reviewed": 62,
+      "audit_sha256": "4da21be6e570c753d82ce0cb9682cefca44ca5a5c1ad08c690ae940556aabbbb",
+      "native_controller_sha256": "b69811d412b305407951799f54a20f5a4e7171c7bd2ce4631ae36d7ab4e49194",
+      "preview_result_sha256": "7e2fd7a707f90f17d19222ad15eb9bb055476799fbcb4fa6f9fd8da8779ba213",
+      "visual_reports_sha256": {
+        "visual-434-zh-Hant.json": "c5ad242214ad35570ddcb057d772fb88c96490cfbd4f6ec40509b4a7d16eb339",
+        "visual-435-en.json": "a4ea5c71868bbe3a1d364a6ffa209a55a5b7dbd01735485a9e109bc4b183edc2",
+        "visual-435-zh-Hant.json": "2d7009acf1b44b946d6a80981aaa6f9f8683a143f3897675479b6dcb5ab47e30"
+      },
+      "new_blocking_layout_or_version_loss_observed": false,
+      "known_limits": ["Chinese all-missing review PDF still has a provenance-only fourth page in both runtimes.", "Sparse endings remain in the named-version case; this patch does not change pagination or translations.", "Bundled LibreOffice previews are not Microsoft Word acceptance; bounded synthetic cases do not prove universally bug-free output."]
+    },
     "publication": {"pushed": false, "released": false, "deployed": false},
     "release_acceptance": false
   },
