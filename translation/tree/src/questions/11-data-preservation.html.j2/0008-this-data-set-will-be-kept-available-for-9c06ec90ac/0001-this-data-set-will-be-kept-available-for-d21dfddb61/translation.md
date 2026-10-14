@@ -13,7 +13,7 @@ This data set will be kept available for a fixed period (prepaid).
 ### Translation (zh_Hant)
 
 ~~~jinja
-此資料集將提供至預付費用所涵蓋的固定期限。
+此資料集將在預付費用涵蓋的固定期間內持續提供。
 ~~~
 
 <details>

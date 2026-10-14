@@ -13,7 +13,7 @@ One or more participating institutes have budgeted for this long-term storage se
 ### Translation (zh_Hant)
 
 ~~~jinja
-一個或多個參與機構已編列預算，提供這項長期儲存服務。
+一個或多個參與機構已為這項長期儲存服務編列預算。
 ~~~
 
 <details>

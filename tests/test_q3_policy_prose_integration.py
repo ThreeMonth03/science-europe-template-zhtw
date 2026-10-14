@@ -5,8 +5,10 @@ import json
 from pathlib import Path
 import sys
 import tempfile
+from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
+import zipfile
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts'))
 import q3_policy_prose_integration as contract
@@ -15,6 +17,19 @@ import current_source_repairs as current_contract
 from check_budget_grouping_integration import asset_uuid
 
 class Q3IntegrationTests(unittest.TestCase):
+    def test_locale_only_source_scope_is_explicit_and_does_not_expand_english(self):
+        delta = dict(changed=['src/questions/02-what-data.html.j2'], languages={
+            'english': {}, 'chinese': {'additional_changed': ['src/style.css']}})
+        with patch.object(current_contract, 'CONTRACT', delta):
+            self.assertEqual(current_contract.changed_sources('english'), delta['changed'])
+            self.assertEqual(current_contract.changed_sources('chinese'),
+                             ['src/questions/02-what-data.html.j2', 'src/style.css'])
+            for invalid in [['src/style.css', 'src/style.css'], delta['changed'],
+                            ['src/z.css', 'src/a.css']]:
+                delta['languages']['chinese']['additional_changed'] = invalid
+                with self.assertRaises(AssertionError):
+                    current_contract.changed_sources('chinese')
+
     def test_metadata_gap_view_changes_only_verified_question_and_rejects_drift(self):
         from submission_flow_integration import sources
         with tempfile.TemporaryDirectory() as folder:
@@ -57,6 +72,89 @@ class Q3IntegrationTests(unittest.TestCase):
         normalized=copy.deepcopy(value)
         normalized['createdAt']=normalized['updatedAt']='<timestamp>'
         return hashlib.sha256(json.dumps(normalized,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+
+    def test_435_language_requires_a_separate_complete_seal(self):
+        timestamp = '2000-01-01T00:00:00Z'
+        for language, code in [('english', 'en'), ('chinese', 'zh-Hant')]:
+            historical, candidate, delta = self.current_candidate(language, timestamp)
+            candidate['language'] = code
+            with patch.object(current_contract, 'CONTRACT', delta), self.assertRaises(AssertionError):
+                current_contract.project_package(candidate, language, timestamp, historical)
+            delta['languages'][language]['candidate_metadata_435_sha256'] = self.metadata_seal(candidate)
+            with patch.object(current_contract, 'CONTRACT', delta):
+                self.assertEqual(current_contract.project_package(candidate, language, timestamp, historical)[0], historical)
+                for key, value in [('language', 'wrong'), ('readme', 'unreviewed content')]:
+                    bad = copy.deepcopy(candidate); bad[key] = value
+                    with self.assertRaises(AssertionError):
+                        current_contract.project_package(bad, language, timestamp, historical)
+            bad = copy.deepcopy(candidate); bad['language'] = 'wrong'
+            delta['languages'][language]['candidate_metadata_435_sha256'] = self.metadata_seal(bad)
+            with patch.object(current_contract, 'CONTRACT', delta), self.assertRaises(AssertionError):
+                current_contract.project_package(bad, language, timestamp, historical)
+
+    def test_registered_lua_asset_and_exact_prefix_project_without_hiding_drift(self):
+        timestamp='2000-01-01T00:00:00Z'
+        steps=[{'name':'jinja','options':{'template':'src/answer-markdown-inputs.html.j2',
+            'content-type':'text/html','extension':'html'}},
+            {'name':'pandoc','options':{'from':'html','to':'html',
+                'args':'--lua-filter=src/answer-markdown.lua --wrap=none'}}]
+        english=SimpleNamespace(answer_markdown_steps=lambda:copy.deepcopy(steps))
+        for language in ['english','chinese']:
+            historical,candidate,delta=self.current_candidate(language,timestamp)
+            name='src/answer-markdown.lua'
+            candidate['assets'].append(dict(fileName=name,contentType='text/x-lua',
+                uuid=asset_uuid(candidate['id'],'assets',name)))
+            candidate['assets'].sort(key=lambda item:item['fileName'])
+            delta['added']=sorted(delta['added']+[name]);delta['added_assets']=[name]
+            delta['answer_markdown_prefix']=True
+            for fmt in candidate['formats']:fmt['steps'][:0]=copy.deepcopy(steps)
+            delta['languages'][language]['candidate_metadata_sha256']=self.metadata_seal(candidate)
+            original=copy.deepcopy(candidate)
+            with patch.dict(sys.modules,{'current_repairs_contract':english}),patch.object(current_contract,'CONTRACT',delta):
+                self.assertEqual(current_contract.project_package(candidate,language,timestamp,historical)[0],historical)
+            self.assertEqual(candidate,original)
+            for change in ['added_asset','old_asset','asset_uuid','suffix']:
+                bad=copy.deepcopy(candidate)
+                asset=next(item for item in bad['assets'] if item['fileName']==name)
+                if change=='added_asset':
+                    asset['fileName']='src/unreviewed.lua'
+                    asset['uuid']=asset_uuid(bad['id'],'assets',asset['fileName'])
+                elif change=='old_asset':
+                    next(item for item in bad['assets'] if item['fileName']!=name)['contentType']='unreviewed/type'
+                elif change=='asset_uuid':asset['uuid']='wrong'
+                else:bad['formats'][0]['steps'][2]['options']['template']='src/unreviewed-entry.j2'
+                sealed=copy.deepcopy(delta)
+                sealed['languages'][language]['candidate_metadata_sha256']=self.metadata_seal(bad)
+                with self.subTest(language=language,change=change),patch.dict(sys.modules,{'current_repairs_contract':english}),\
+                     patch.object(current_contract,'CONTRACT',sealed),self.assertRaises(AssertionError):
+                    current_contract.project_package(bad,language,timestamp,historical)
+
+    def test_zip_members_and_asset_bytes_follow_only_sealed_current_metadata(self):
+        timestamp='2000-01-01T00:00:00Z'
+        for language in ['english','chinese']:
+            historical,candidate,delta=self.current_candidate(language,timestamp)
+            name='src/answer-markdown.lua'
+            candidate['assets'].append(dict(fileName=name,contentType='text/x-lua',
+                uuid=asset_uuid(candidate['id'],'assets',name)))
+            delta['added']=sorted(delta['added']+[name]);delta['added_assets']=[name]
+            delta['languages'][language]['candidate_metadata_sha256']=self.metadata_seal(candidate)
+            current={item['fileName']:item['content'].encode() for item in candidate['files']}
+            current.update({item['fileName']:b'sealed fixture asset' for item in candidate['assets']})
+            with tempfile.TemporaryDirectory() as folder:
+                path=Path(folder)/'candidate.zip'
+                with zipfile.ZipFile(path,'w') as package:
+                    package.writestr('template/template.json',json.dumps(candidate))
+                    for item in candidate['assets']:
+                        package.writestr('template/assets/'+item['fileName'],current[item['fileName']])
+                with patch.object(current_contract,'CONTRACT',delta),patch.object(contract,'project_sources') as verify_sources,\
+                     patch('submission_flow_integration.sources',return_value=current):
+                    self.assertTrue(contract.check_package(path,Path(folder),language,timestamp)['historical_projection_verified'])
+                    verify_sources.assert_called_once_with(current,language)
+                with zipfile.ZipFile(path,'a') as package:
+                    package.writestr('template/assets/unreviewed.lua',b'unreviewed')
+                with patch.object(current_contract,'CONTRACT',delta),patch.object(contract,'project_sources'),\
+                     patch('submission_flow_integration.sources',return_value=current),self.assertRaises(AssertionError):
+                    contract.check_package(path,Path(folder),language,timestamp)
 
     def test_registered_current_identity_composes_without_changing_frozen_packages(self):
         from submission_flow_integration import project_package,package

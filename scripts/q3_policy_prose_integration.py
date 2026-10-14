@@ -78,11 +78,10 @@ def project_package(candidate,language,timestamp):
 def check_package(path,prepared,language,timestamp):
     from submission_flow_integration import sources
     current=sources(prepared);project_sources(current,language)
-    expected=integrated_package(language,timestamp)
     with zipfile.ZipFile(path) as z:
-        members={'template/template.json'}|{'template/assets/'+a['fileName'] for a in expected['assets']}
-        assert len(z.namelist())==len(members) and set(z.namelist())==members
         metadata=json.loads(z.read('template/template.json'));project_package(metadata,language,timestamp)
+        members={'template/template.json'}|{'template/assets/'+a['fileName'] for a in metadata['assets']}
+        assert len(z.namelist())==len(members) and set(z.namelist())==members
         for item in metadata['assets']:assert z.read('template/assets/'+item['fileName'])==current[item['fileName']]
         for item in metadata['files']:assert item['content'].encode()==current[item['fileName']]
     return dict(package_sha256=sha(path),prepared_source_verified=True,deterministic_identity_verified=True,

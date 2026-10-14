@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import argparse
+from contextlib import redirect_stdout
 import hashlib
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -19,6 +21,7 @@ import dsw_document_template_tool
 from artifact_utils import canonicalize_zip
 
 from dsw_document_template_tool.template_transform import expand_template_dir
+from dsw_document_template_tool.tdk import verify_template_dir
 from dsw_document_template_tool.translation_tree import (
     audit_translated_template_structure,
     audit_translation_tree,
@@ -67,6 +70,26 @@ def localize_format_names(metadata: dict, names: dict) -> None:
             item['name'] = names[item['uuid']]
 
 
+def set_template_language(metadata: dict, language: str) -> None:
+    """Declare the descriptor locale without changing format identities or steps."""
+    if language not in ('en', 'zh-Hant'):
+        raise ValueError('Unsupported template language')
+    metadata['language'] = language
+
+
+def select_tdk(tooling: Path, override: Path | None = None) -> Path:
+    """Keep the locked tool checkout's CLI as the default; isolate rehearsals."""
+    return (override if override is not None else tooling / '.venv/bin/dsw-tdk').resolve()
+
+
+def tdk_provenance(executable: Path) -> dict:
+    output = subprocess.check_output([str(executable), '--version'], text=True).strip()
+    match = re.search(r'\bversion\s+(\S+)\s*$', output)
+    if match is None:
+        raise ValueError(f'Cannot identify TDK version: {executable}')
+    return {'executable': str(executable), 'version': match.group(1)}
+
+
 def require_clean_lock(path: Path, lock: str, preview: bool) -> dict:
     state = fingerprint(path)
     if not preview and (state["dirty"] or state["commit"] != lock):
@@ -97,6 +120,8 @@ def package_timestamp(english: Path) -> str:
 
 
 def build(args) -> Path:
+    if getattr(args, 'tdk', None) is not None and not args.preview:
+        raise ValueError('TDK override is a preview-only rehearsal; promote the locked toolchain before a candidate build')
     config = yaml.safe_load((ROOT / "pipeline.yml").read_text())
     if args.translation_version is not None:
         if not args.preview:
@@ -123,7 +148,8 @@ def build(args) -> Path:
     output_root = ROOT / "outputs"
     output_root.mkdir(exist_ok=True)
     output = Path(tempfile.mkdtemp(prefix="build-", dir=output_root))
-    tdk = tooling / ".venv/bin/dsw-tdk"
+    tdk = select_tdk(tooling, getattr(args, 'tdk', None))
+    actual_tdk = tdk_provenance(tdk)
     font = tooling / "src/dsw_document_template_tool/resources/fonts/NotoSansTC-Variable.ttf"
     timestamp = package_timestamp(english)
     for language in ("en", "zh-Hant"):
@@ -141,6 +167,8 @@ def build(args) -> Path:
         ):
             if metadata[key] != str(config["source"][config_key]):
                 raise ValueError(f"Source metadata differs from pipeline lock: {key}")
+        set_template_language(metadata, language)
+        write_json(prepared / 'template.json', metadata)
         subprocess.run(
             [
                 sys.executable,
@@ -204,11 +232,12 @@ def build(args) -> Path:
         template_version=str(target["version"]),
         public_readme_path=package_readme(ROOT),
     )
+    metadata_path = translated / 'template.json'
+    metadata = json.loads(metadata_path.read_text())
+    set_template_language(metadata, 'zh-Hant')
     if target.get('format_names'):
-        metadata_path = translated / 'template.json'
-        metadata = json.loads(metadata_path.read_text())
         localize_format_names(metadata, target['format_names'])
-        write_json(metadata_path, metadata)
+    write_json(metadata_path, metadata)
     issues = audit_translated_template_structure(source_dir=expanded, output_dir=translated)
     write_json(output / "structure-audit.json", [asdict(i) for i in issues])
     if issues:
@@ -224,13 +253,14 @@ def build(args) -> Path:
     if blanks and not args.preview:
         raise ValueError(f"Release candidate has {len(blanks)} untranslated units")
     for name, directory in (("english", output / "en"), ("chinese", translated)):
-        for operation in (
-            [str(tdk), "verify", str(directory)],
-            [str(tdk), "package", str(directory), "--output", str(output / f"{name}.zip")],
-        ):
-            result = subprocess.run(operation, check=True, capture_output=True, text=True)
-            with (output / f"{name}-build.log").open("a") as log:
-                log.write(result.stdout + result.stderr)
+        with (output / f"{name}-build.log").open("a") as log:
+            with redirect_stdout(log):
+                verify_template_dir(executable=str(tdk), template_dir=directory)
+            result = subprocess.run(
+                [str(tdk), "package", str(directory), "--output", str(output / f"{name}.zip")],
+                check=True, capture_output=True, text=True,
+            )
+            log.write(result.stdout + result.stderr)
         canonicalize_zip(output / f"{name}.zip", timestamp)
     hashes = {
         str(p.relative_to(output)): sha(p)
@@ -244,6 +274,7 @@ def build(args) -> Path:
             "source": config["source"],
             "translation": config["translation"],
             "runtime": config["runtime"],
+            "tdk": actual_tdk,
             "package_timestamp": timestamp,
             "package_readme_sha256": {'english': sha(package_readme(english)), 'chinese': sha(package_readme(ROOT))},
             "checkouts": states,
@@ -262,6 +293,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--english", type=Path, required=True)
     parser.add_argument("--tooling", type=Path, required=True)
+    parser.add_argument("--tdk", type=Path, help="Preview-only isolated TDK executable; defaults to --tooling/.venv/bin/dsw-tdk")
     parser.add_argument("--preview", action="store_true")
     parser.add_argument("--refresh", action="store_true")
     parser.add_argument("--seed-tree", type=Path)

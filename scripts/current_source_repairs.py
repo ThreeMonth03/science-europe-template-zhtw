@@ -39,6 +39,14 @@ def tree_sha(values):
     return digest.hexdigest()
 
 
+def changed_sources(language):
+    """Keep locale-only prepared changes out of the shared source scope."""
+    additional = CONTRACT['languages'][language].get('additional_changed', [])
+    assert additional == sorted(set(additional)), 'Additional source scope must be unique and sorted'
+    assert not set(additional) & set(CONTRACT['changed']), 'Additional source scope overlaps shared changes'
+    return sorted(CONTRACT['changed'] + additional)
+
+
 def _validate_candidate(current, language):
     record = CONTRACT['languages'][language]
     baseline = Q3['languages'][language]['after']
@@ -51,7 +59,7 @@ def _validate_candidate(current, language):
     changed = sorted(
         name for name in current_names & old_names if sha(current[name]) != baseline[name]
     )
-    assert changed == CONTRACT['changed'], 'Unexpected changed prepared source scope'
+    assert changed == changed_sources(language), 'Unexpected changed prepared source scope'
 
 
 def project_sources(current, language, historical_files):
@@ -100,7 +108,7 @@ def project_sources(current, language, historical_files):
         'historical_files': len(previous),
         'current_tree_sha256': tree_sha(current),
         'added': CONTRACT['added'],
-        'changed': CONTRACT['changed'],
+        'changed': changed_sources(language),
     }
 
 
@@ -114,7 +122,14 @@ def project_package(candidate, language, timestamp, historical):
     encoded = json.dumps(
         normalized, ensure_ascii=False, sort_keys=True, separators=(',', ':')
     ).encode()
-    assert sha(encoded) == record['candidate_metadata_sha256'], \
+    expected_seal = record['candidate_metadata_sha256']
+    if 'language' in candidate:
+        assert candidate['language'] == {'english': 'en', 'chinese': 'zh-Hant'}[language], \
+            'Candidate descriptor language does not match its source'
+        # TDK 4.35 adds this field. Register its entire metadata separately;
+        # never strip arbitrary new keys before the complete byte seal.
+        expected_seal = record.get('candidate_metadata_435_sha256')
+    assert sha(encoded) == expected_seal, \
         'Unreviewed current package identity, source, UUID, format or asset metadata'
     assert is_current_version(candidate['version']), 'Unregistered candidate version'
     assert historical['version'] == CONTRACT['baseline_version'] == Q3['version']
@@ -122,6 +137,8 @@ def project_package(candidate, language, timestamp, historical):
     assert candidate['id'] == historical['id'][:-len(historical['version'])] + candidate['version'], \
         'Candidate package identity is not the registered version-only change'
     previous = deepcopy(candidate)
+    if 'language' in candidate and 'language' not in historical:
+        previous.pop('language')
     for kind in ['files', 'assets']:
         assert len({item['fileName'] for item in candidate[kind]}) == len(candidate[kind])
         for item in previous[kind]:
@@ -131,14 +148,32 @@ def project_package(candidate, language, timestamp, historical):
         for item in historical[kind]:
             assert item['uuid'] == asset_uuid(historical['id'], kind, item['fileName'])
     previous['id'], previous['version'] = historical['id'], historical['version']
+    added_assets = CONTRACT.get('added_assets', [])
+    assert added_assets == sorted(set(added_assets))
+    assert set(added_assets) <= set(CONTRACT['added']), 'Added asset is not registered source'
     current_files = {item['fileName']: item for item in previous['files']}
     old_files = {item['fileName']: item for item in historical['files']}
-    assert sorted(set(current_files) - set(old_files)) == CONTRACT['added']
+    assert sorted(set(current_files) - set(old_files)) == sorted(set(CONTRACT['added']) - set(added_assets))
     assert not set(old_files) - set(current_files)
     assert sorted(
         name for name in old_files if current_files[name] != old_files[name]
-    ) == [name for name in CONTRACT['changed'] if name in old_files]
+    ) == [name for name in changed_sources(language) if name in old_files]
     previous['files'] = deepcopy(historical['files'])
+    current_assets = {item['fileName']: item for item in previous['assets']}
+    old_assets = {item['fileName']: item for item in historical['assets']}
+    assert sorted(set(current_assets) - set(old_assets)) == added_assets, 'Unreviewed added asset'
+    assert not set(old_assets) - set(current_assets), 'Historical asset removed'
+    assert all(current_assets[name] == item for name, item in old_assets.items()), 'Historical asset metadata changed'
+    previous['assets'] = [item for item in previous['assets'] if item['fileName'] not in added_assets]
+    # The complete metadata seal above covers this exact new prefix. Restore
+    # only the old format view after proving every original step is unchanged.
+    if CONTRACT.get('answer_markdown_prefix', False):
+        from current_repairs_contract import answer_markdown_steps
+        expected_formats = deepcopy(historical['formats'])
+        for fmt in expected_formats:
+            fmt['steps'][:0] = answer_markdown_steps()
+        assert candidate['formats'] == expected_formats, 'Unreviewed fragment or original format step'
+        previous['formats'] = deepcopy(historical['formats'])
     # The complete current metadata seal above includes the reviewed package
     # README. Restore its frozen text only for this historical test view.
     previous['readme'] = historical['readme']
@@ -148,7 +183,7 @@ def project_package(candidate, language, timestamp, historical):
         'historical_file_records': len(historical['files']),
         'candidate_version': candidate['version'],
         'historical_version': historical['version'],
-        'candidate_metadata_sha256': record['candidate_metadata_sha256'],
+        'candidate_metadata_sha256': expected_seal,
     }
 
 

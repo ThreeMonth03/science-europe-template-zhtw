@@ -13,7 +13,7 @@ Software is required, but the tools have not yet been listed.
 ### Translation (zh_Hant)
 
 ~~~jinja
-使用此資料集需要特定軟體，但所需工具尚未列出。
+尚待補充：所需軟體的名稱。
 ~~~
 
 <details>
