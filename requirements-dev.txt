@@ -1,4 +1,7 @@
 # Install the exact pipeline.yml tooling commit in editable mode separately.
+dsw-tdk==4.35.0
+Jinja2==3.1.6
+polib==1.2.0
 python-docx==1.2.0
 beautifulsoup4==4.15.0
 PyYAML==6.0.3

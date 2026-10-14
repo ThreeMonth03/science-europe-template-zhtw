@@ -1,5 +1,29 @@
 # 中英文模板的日常檢查
 
+## 現行 PO 建置
+
+只修改本 repo 的 `locales/zh-Hant.po`，不修改生成後的中文 Jinja／MO。
+`pipeline.yml` 鎖英文及 Tool 完整 commit、TDK 4.35 與建置相依套件。
+在隔離環境安裝該 Tool checkout 與本 repo 的 `requirements-dev.txt` 後，沿用：
+
+```sh
+python scripts/build.py --english /path/to/english --tooling /path/to/tool --preview
+# 提交並符合所有 lock 後才移除 --preview；建置成功仍不等於驗收通過。
+python /path/to/english/scripts/check_current.py --build /path/to/build \
+  --output /path/to/build/current-behavior.json
+```
+
+建置只準備一次英文 reference，產出 `english.zip`、`chinese.zip`（4.34）、
+`zh-Hant.po`、`zh-Hant.mo`、`chinese.zip.json`，由同一份 manifest 綁定。
+4.35 使用英文 ZIP 加 PO；4.34 使用獨立相容 ZIP。候選保存要求五份產物與
+完整 manifest 的雜湊都與驗收報告相符，並拒絕預覽、漏譯、錯配或覆寫版本。
+
+目前既有 CI 尚未切換。下方的 translation-tree／歷史封印檢查不能直接套用
+到新 PO source；本機保存的 0.3.78 舊副本已有來源 lock／封印不一致，不能
+以重算封印當成歷史回歸通過。新包仍須有原裝 Worker PDF／Word 逐頁驗收。
+
+## 舊翻譯樹歷史基準
+
 `fix/answer-mapping` 目前包含 0.3.78 本機預覽，尚未正式發布或部署。
 共用英文 Jinja 經既有工具產生中文；中文 repo 維護譯文與配對設定，
 不另寫一套中文 Jinja，也不在產出時用 LLM 補答案。

@@ -40,7 +40,7 @@ class OutputProfileTests(unittest.TestCase):
 
     def test_tdk_override_records_the_actual_cli_without_changing_default(self):
         tooling = Path('/tmp/locked-tool')
-        self.assertEqual(select_tdk(tooling), tooling / '.venv/bin/dsw-tdk')
+        self.assertEqual(select_tdk(tooling), Path(sys.executable).with_name('dsw-tdk').resolve())
         isolated = Path('/tmp/isolated-435/bin/dsw-tdk')
         self.assertEqual(select_tdk(tooling, isolated), isolated)
         with self.assertRaisesRegex(ValueError, 'preview-only'):

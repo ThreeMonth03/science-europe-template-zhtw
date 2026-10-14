@@ -1,37 +1,38 @@
-schema_version: 1
+schema_version: 2
+profile: official-po-with-compat434
 source:
   repository: https://github.com/ThreeMonth03/science-europe-template.git
-  # Local 0.3.78 preview: pin the reviewed English commit before promotion.
-  commit: 0b06afd1b2983ae53d21232926a3e3b933c468bf
+  commit: a577acc5c5e659edd6be47a632261190e04f8795
   organization_id: threemonth03
   template_id: science-europe-enhanced
-  version: 0.3.78
+  version: 0.3.79
 translation:
   organization_id: threemonth03
-  template_id: science-europe-enhanced-zhtw
-  version: 0.3.78
-  language: zh_Hant
-  name: Science Europe 資料管理方案（雙輸出局部實驗）
-  format_names:
-    a9293d08-59a4-4e6b-ae62-7a6a570b031c: HTML－內部檢核版
-    68c26e34-5e77-4e15-9bf7-06ff92582257: PDF－內部檢核版
-    f4bd941a-dfbe-4226-a1fc-200fb5269311: Word－內部檢核版
-    499d9300-0183-5157-b6f4-38e6c2b91600: HTML－提交預覽（局部實驗）
-    9fd0a115-4b8b-5013-a084-eaf2890ec940: PDF－提交預覽（局部實驗）
-    98081811-41ff-5438-b98a-0472607527c6: Word－提交預覽（局部實驗）
+  template_id: science-europe-enhanced-zhtw-compat434
+  version: 0.3.81
+  language: zh-Hant
+  catalog: locales/zh-Hant.po
 tooling:
   repository: https://github.com/ThreeMonth03/dsw-document-template-tool.git
-  commit: 25e339fbdfb1d20796471055790aad6a4226b6ed
-  profile: science-europe
-  exclude_profile_paths: []
+  commit: 233403bee7914705e7d2e5b24f5e47f68d8cbda7
+build_dependencies:
+  dsw-tdk: 4.35.0
+  Jinja2: 3.1.6
+  polib: 1.2.0
+  python-docx: 1.2.0
 runtime:
-  dsw: '4.30'
+  dsw: '4.35'
+  # Template metamodel; document contexts have a separate runtime version.
   metamodel: '18.0'
   knowledge_models: [dsw:root:2.7.0, dsw:root-zh-hant:2.7.0]
+  compatibility_dsw: '4.34'
+  workers:
+    '4.34': datastewardshipwizard/document-worker@sha256:06707194979a80981b1308f618716bc3a6640c4ff1039d85e5971690d51606a2
+    '4.35': datastewardshipwizard/document-worker@sha256:726b2906b3eee3fa7301ffdd723901397518c61e112f054ff53fabe07538fad3
 provenance:
   translation_seed_repository: https://github.com/depositar/science-europe-template-zh_Hant.git
   translation_seed_commit: 13fd8af5bdc49d9886377eadbd73acb8df570cb6
   translation_seed_version: 1.30.1
 publication:
-  status: experimental
+  status: candidate-not-accepted
   overwrite: false

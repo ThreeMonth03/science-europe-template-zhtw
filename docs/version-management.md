@@ -1,5 +1,9 @@
 # 版本與分支契約
 
+現行 PO 建置以 `pipeline.yml` 為準；下方逐版條目保留當時狀態。
+每個 repo 維持一條維護主線，修改走短期分支；不為語言、DSW runtime 或
+每個模板版本建立永久分支。中文 PO、英文 commit 與產物 hash 才是配對依據。
+
 目前英中候選套件為 **0.3.37**，實作線為 `fix/metadata-gap-prose`。
 `review/whole-document-0.3.37` 僅保存 [整份文件稽核](whole-document-review.md)，
 不改英文 lock、模板、譯文或版號，不是另一條永久維護線。
@@ -74,14 +78,12 @@ DSW 的三段式套件 ID 包含 organization、template、version。英中使�
 英文沿用客製 `main`，修改走短期 `feat/*`／`fix/*`，官方升級走 `upgrade/upstream-v*`。
 `upstream/main` 只是遠端追蹤 ref。只有確實承諾維護舊相容線時才保留 `maint/*`。
 
-中文沿用既有工作模式的概念：`operations` 管建置／驗收政策，`sync/v0.1.0`
-對應客製英文 **來源版本**，其中的中文輸出版本可以獨立增加。實驗驗收前不
-自動建立這些正式工作線；本 repo 也沒有照搬舊版可覆寫 release 的 workflow。
-
-下一個英文版本進來時，由目前已審閱的來源線建立短期升級分支，改 lock、重抽
-並精確遷移翻譯。新舊差異、未沿用單位、實際 PDF／Word 都通過審閱後才建立
-新的 `sync/v*` 工作線。舊線只有仍有使用者需要時才維護，不為每個中文修字建立
-長期 branch。工具政策修正以小 commit 移植到仍維護的來源線，逐線重測。
+中文同樣維持一條主線；`operations`／`sync/v*` 不再是現行 PO 維護政策。
+修改走短期 `codex/*`，英文升級時在同一份 PO 上合併新目錄、逐項審查新增／
+失效／模糊譯文，驗證問卷對應及實際成品後更新精確 source lock。
+中文修字可以單獨升相容包版本，無須增加英文模板版本。4.34／4.35 是同一份
+PO 的建置／安裝 profile，不是永久分支。正式版本用不可覆寫 tag 與套件保存；
+只有確實仍需維護的舊 schema 才保留相容維護線。
 
 若臺灣版更改 KM／增加問題，視為新的 schema 相容線：維護自己的 KM 版本與
 SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完成相容管理。
@@ -92,7 +94,8 @@ SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完�
 2. 非 preview 建置拒絕 dirty／不符 lock 的 checkout、未翻完或結構不符的翻譯。
 3. 每次建置是新目錄；manifest 記錄來源、翻譯單位、樣式、ZIP checksum。
    套件檔案 UUID／ZIP 時間戳記採確定性建置，不以 TDK 的隨機 UUID 當版本差異。
-   英中套件說明來自各 repo 的 `PACKAGE_README.md`；repo README 僅作導覽。
+   PO 建置的共用套件說明來自英文 `PACKAGE_README.md`，並說明兩種安裝 profile；
+   本 repo 舊中文 `PACKAGE_README.md` 保留歷史，repo README 僅作導覽。
    metadata 時間取英文最後一次套件輸入變更（template.json、src、prepare_layout.py、
    PACKAGE_README.md、LICENSE），不取無關文件提交時間。純導覽更新不應改變 ZIP。
    本機測試複製套件時，工具也須把內部 file／asset UUID 改到測試專屬命名空間；
