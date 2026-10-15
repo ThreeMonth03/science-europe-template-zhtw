@@ -2,6 +2,7 @@
 import copy
 import io
 import json
+import os
 from pathlib import Path
 import sys
 from types import SimpleNamespace
@@ -15,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from artifact_utils import PO_ARTIFACTS, stage_candidate
 import preview_native
+import preview_worker
 
 sys.path.insert(0, str(ROOT / 'tests'))
 from test_artifact_lifecycle import POCandidateFixture
@@ -182,6 +184,21 @@ class NativePreviewTests(POCandidateFixture, unittest.TestCase):
         receipt = preview_native.read(self.args.output / 'receipt.json')
         self.assertIs(receipt['render_passed'], False)
         self.assertIs(receipt['accepted'], False)
+
+
+class StockWorkerPythonPathTests(unittest.TestCase):
+    def test_stock_user_site_is_available_to_parent_and_filter_subprocesses(self):
+        for minor in (12, 13):
+            with self.subTest(python_minor=minor), \
+                    patch.object(preview_worker.sys, 'version_info', SimpleNamespace(major=3, minor=minor)), \
+                    patch.object(preview_worker.Path, 'home', side_effect=AssertionError('Do not infer the stock installation from host HOME')), \
+                    patch.object(preview_worker.site, 'addsitedir') as addsitedir, \
+                    patch.dict(preview_worker.os.environ, {'PYTHONPATH': '/existing'}, clear=True):
+                preview_worker.configure_python_site()
+                stock_site = f'/home/user/.local/lib/python3.{minor}/site-packages'
+                addsitedir.assert_called_once_with(stock_site)
+                self.assertEqual(stock_site + os.pathsep + '/existing', preview_worker.os.environ['PYTHONPATH'])
+                self.assertNotIn('HOME', preview_worker.os.environ)
 
 
 if __name__ == '__main__':

@@ -46,10 +46,16 @@ def formats(metadata, profile):
     return selected
 
 
-def render():
-    # Stock images install under /home/user; host UID execution may resolve HOME to /.
+def configure_python_site():
+    # Host UID HOME may be /; Pandoc's Python filters also need this stock site.
     local = Path('/home/user/.local/lib') / f'python{sys.version_info.major}.{sys.version_info.minor}/site-packages'
     site.addsitedir(str(local))
+    previous = os.environ.get('PYTHONPATH')
+    os.environ['PYTHONPATH'] = str(local) + (os.pathsep + previous if previous else '')
+
+
+def render():
+    configure_python_site()
     job = read('/output/job.json')
     version, language = job['version'], job['language']
     if os.environ.get('WORKER_IMAGE') != job['worker_image'] or not md.version('dsw-document-worker').startswith(version + '.'):
