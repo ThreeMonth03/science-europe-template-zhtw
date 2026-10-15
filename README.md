@@ -52,11 +52,12 @@ Tool 及本 repo 的 `requirements-dev.txt`。Tool 必須從該 checkout 以 edi
 
 - [目前檢查與成品驗收](docs/testing.md)
 - [版本配對與發布規則](docs/version-management.md)
-- [最近一組原生成品驗證摘要](docs/po-cutover.json)
 
 CI 沿現有三組工作檢查英文來源、中文建置／候選規則及雙語整合。
 CI 綠燈不代表 PDF／Word 全面驗收，也不會自動部署至 DSW。
 先在本機以相同回答比較實際中英文 PDF／Word，再明確決定發布。
+本機重跑入口為 `scripts/preview_native.py` 與 `scripts/render_previews.py`；
+操作方式及人工驗收界線見上述檢查文件。成品與逐輪報告不提交到 repo。
 
 ## 歷史與清理範圍
 

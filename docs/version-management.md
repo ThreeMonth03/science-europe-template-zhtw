@@ -17,6 +17,12 @@ checkout、資產 SHA256 與準備步驟。
 使用短期 `codex/` 功能分支，經檢查後整合到既有開發線；
 一個發布版由確切 commit、版本與資產雜湊識別，不靠分支名稱識別。
 
+兩個 repo 的預設開發線統一使用現有的 `fix/answer-mapping`，不再以舊的
+`experiment/completeness-contract`／`experiment/bilingual-pilot` 作為 clone 入口。
+名稱雖保留既有 `fix/` 前綴，它是目前整合線；不要另建平行的長期主線。
+舊實驗分支僅供歷史參考，不是可發布版本。預設分支最新 commit 也不等於
+已核准發布；中文建置仍只使用 pipeline 的精確英文 pin，不自動追分支。
+
 英文與中文相容版號各自遞增，不要求相同。中文 pipeline 的來源 pin
 才是兩者的精確關係。只改中文譯文時，不必改共用 Jinja，但若要發布新的
 4.34 相容包，仍必須使用新的相容版號。

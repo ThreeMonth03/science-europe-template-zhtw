@@ -30,6 +30,8 @@ DSW_ENGLISH_CHECKOUT=../science-europe-template \
 
 保留的 aggregate check 要求三組均成功。舊來源回放不再是現行 CI 的模式；
 需要研究歷史時，從 Git 取得當時的程式與依賴，不混入目前驗收。
+CI 的 `current-candidate-not-a-release` artifact 包含五件交付資產及 manifest。
+失敗時也可能保留診斷產物；下載成功不等於建置成功或已核准發布。
 
 ## 翻譯防線
 
@@ -46,6 +48,54 @@ DSW_ENGLISH_CHECKOUT=../science-europe-template \
 更新譯文後，仍須執行建置的鍵／參數檢查與下列原生成品驗收。
 
 ## PDF／Word 成品驗收
+
+### 本機重跑入口
+
+先建置，再用 `preview_native.py` 驗證既有建置目錄。它不重寫回答、不重建 DT、
+不連 Server，也不更換 Worker／Pandoc。需要 Docker、pipeline 鎖定的兩個
+官方 Worker image，以及本機各版本的 Worker 設定與 document context。
+設定只用於離線渲染，無須線上帳密；不要把設定或真實專案 context 提交到 repo。
+document context 是渲染測試輸入，不是改用 JSON／LLM 產生 DMP 的另一套流程。
+
+三個 context 分別符合 4.34 中文、4.35 英文與中文的 wire schema，且必須有
+完全相同的 `project.replies`。允許知識模型的介面文字依語言不同，逐份記錄其
+雜湊。先用 `--plan-only` 核對資產與配對，不啟動 Worker、不產文件：
+
+```sh
+python scripts/preview_native.py \
+  --build outputs/build-REPLACE_ME \
+  --context-434-zh /private/case-434-zh.json \
+  --context-435-en /private/case-435-en.json \
+  --context-435-zh /private/case-435-zh.json \
+  --config-434 /private/worker434.yml --config-435 /private/worker435.yml \
+  --output outputs/native-NEW --plan-only
+```
+
+移除 `--plan-only` 才產生三組 PDF／DOCX。預設為提交版；用 `--profile review`
+檢查內部提示。要驗多個案例，按相同順序重複每個 context 參數，三組數量必須
+相同。每次使用全新輸出目錄；失敗目錄也不重用。Worker 不連網，image 必須
+預先取得，腳本不自動更新或拉取別的版本。
+
+再產逐頁預覽，明確指定本機 LibreOffice 與 Poppler，不自動挑 PATH 上的版本：
+
+```sh
+python scripts/render_previews.py \
+  --native outputs/native-NEW --output outputs/pages-NEW \
+  --soffice /absolute/path/to/soffice \
+  --pdftoppm /absolute/path/to/pdftoppm
+```
+
+預設在 `pdftoppm` 同目錄找 `pdfinfo`，也可用 `--pdfinfo` 指定。若有 canonical
+`render_docx.py`，加上 `--docx-renderer /absolute/path/render_docx.py` 及
+`--renderer-python /absolute/path/python`；仍使用上述明確指定的 LibreOffice。
+預覽會核對原生檔及頁數／PNG 雜湊，不修改原生文件。輸出依序放在編號子目錄，
+`preview-receipt.json` 對應原生路徑、語言、PDF 或 Word 及各頁影像。
+
+兩個入口的 receipt 永遠 `accepted: false`，只聲明渲染是否成功。
+它們不產生 `pilot-report.json`、不自動完成目視驗收，也不能作為 staging 核准。
+本機設定、context、logs、頁面影像與 receipts 都是私有 QA 資料，不上傳 CI。
+
+### 人工驗收範圍
 
 使用相同合成回答，分別驗證 4.34 中文相容包、4.35 英文及 4.35 中文原生 PO。
 納入完整、部分漏填、全空、明確否定、未命名、多筆與長文／清單／表格案例。
