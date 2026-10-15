@@ -1,7 +1,10 @@
 # Authoritative zh-Hant catalog for the PO workflow; publication requires acceptance.
+# Question wording checked against depositar's July 2021 Science Europe guide,
+# printed pp. 17-25: https://data.depositar.io/dataset/se_rdm_guides
+# English requirements remain the meaning reference; examples stay visible.
 msgid ""
 msgstr ""
-"Project-Id-Version: science-europe-enhanced 0.3.84\n"
+"Project-Id-Version: science-europe-enhanced 0.3.85\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1717,7 +1720,7 @@ msgstr "本計畫包含不透過儀器設備進行的資料擷取。"
 #: src/questions/03-docs-metadata.html.j2
 msgctxt "questions/03-docs-metadata"
 msgid "3. What metadata and documentation (for example the methodology of data collection and way of organising data) will accompany the data?"
-msgstr "3. 將提供哪些後設資料與說明文件（例如資料蒐集方法與組織方式）？"
+msgstr "3. 將隨資料一併提供哪些後設資料與說明文件（例如資料蒐集方法與資料組織方式的說明）？"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/03-docs-metadata.html.j2
@@ -1982,7 +1985,7 @@ msgstr "本文件尚未說明將提供哪些後設資料與說明文件。"
 #: src/questions/04-quality-control.html.j2
 msgctxt "questions/04-quality-control"
 msgid "4. What data quality control measures will be used?"
-msgstr "4. 將使用哪些資料品質管控措施？"
+msgstr "4. 將採取哪些資料品質管控措施？"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/04-quality-control.html.j2
@@ -2216,7 +2219,7 @@ msgstr "實際備份排程。「需要頻繁備份」不等於已訂定排程。
 #: src/questions/06-access-security.html.j2
 msgctxt "questions/06-access-security"
 msgid "6. How will data security and protection of sensitive data be taken care of during the research?"
-msgstr "6. 研究期間將如何處理資料安全與敏感資料保護？"
+msgstr "6. 研究期間將如何維護資料安全，並保護敏感資料？"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
@@ -3482,7 +3485,7 @@ msgstr "本文件尚未說明資料共享方式、開放時程及可能的限制
 #: src/questions/11-data-preservation.html.j2
 msgctxt "questions/11-data-preservation"
 msgid "11. How will data for preservation be selected, and where will data be preserved long-term (for example a data repository or archive)?"
-msgstr "11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或檔案館）？"
+msgstr "11. 如何選擇需要保存的資料？這些資料將在哪裡長期保存（例如資料儲存庫或典藏庫）？"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/11-data-preservation.html.j2
@@ -3822,8 +3825,14 @@ msgstr "本文件尚未列出將共享的資料，以及取用或使用資料所
 #. Approved existing Chinese; no retranslation.
 #: src/questions/13-persistent-identifier.html.j2
 msgctxt "questions/13-persistent-identifier"
-msgid "13. How will the application of a unique and persistent identifier (such as a Digital Object Identifier (DOI)) to each data set be ensured?"
-msgstr "13. 如何確保為每個資料集編配具唯一性及持續性的識別碼（例如數位物件識別碼（DOI））？"
+msgid "13. How will you ensure that each dataset is assigned a unique and persistent identifier?"
+msgstr "13. 如何確保為每個資料集編配具唯一性與持續性的識別碼？"
+
+#. Example retained separately from the question heading.
+#: src/questions/13-persistent-identifier.html.j2
+msgctxt "questions/13-persistent-identifier"
+msgid "A Digital Object Identifier, or DOI, is one example."
+msgstr "例如數位物件識別碼 DOI。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/13-persistent-identifier.html.j2
@@ -3979,8 +3988,14 @@ msgstr "所產生資料在其他情境下再次使用的可能性"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/14-dm-responsible.html.j2
 msgctxt "questions/14-dm-responsible"
-msgid "14. Who (for example role, position, and institution) will be responsible for data management (i.e. the data steward)?"
-msgstr "14. 誰（例如角色、職位與所屬機構）將負責資料管理（即資料託管員）？"
+msgid "14. Who will be responsible for data management?"
+msgstr "14. 誰將負責資料管理？"
+
+#. Definition and examples retained separately from the question heading.
+#: src/questions/14-dm-responsible.html.j2
+msgctxt "questions/14-dm-responsible"
+msgid "This refers to the data steward. Details may include their role, position, and institution."
+msgstr "此處指資料託管員，可說明其角色、職位與所屬機構等資訊。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/14-dm-responsible.html.j2
@@ -3997,8 +4012,14 @@ msgstr "本文件尚未列出具名且負有資料管理職責的人員或團隊
 #. Approved existing Chinese; no retranslation.
 #: src/questions/15-required-resources.html.j2
 msgctxt "questions/15-required-resources"
-msgid "15. What resources (for example financial and time) will be dedicated to data management and ensuring that data will be FAIR (Findable, Accessible, Interoperable, Re-usable)?"
-msgstr "15. 將投入哪些資源（例如經費與時間）進行資料管理，並確保資料符合 FAIR（可被找到、可被取用、可相互操作、可再次使用）原則？"
+msgid "15. What resources will be dedicated to data management and ensuring that the data are FAIR?"
+msgstr "15. 將投入哪些資源進行資料管理，並確保資料符合 FAIR 原則？"
+
+#. Examples and FAIR definition retained separately from the question heading.
+#: src/questions/15-required-resources.html.j2
+msgctxt "questions/15-required-resources"
+msgid "Resources may include funding and time. FAIR means Findable, Accessible, Interoperable, and Re-usable."
+msgstr "資源可包括經費與時間。FAIR 指可被找到、可被取用、可相互操作及可再次使用。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/15-required-resources.html.j2
