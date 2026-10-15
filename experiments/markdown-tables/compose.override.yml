@@ -1,3 +1,0 @@
-services:
-  docworker:
-    image: science-europe-pilot-worker:4.30-tables-experiment

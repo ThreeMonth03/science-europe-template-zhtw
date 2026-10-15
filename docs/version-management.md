@@ -1,213 +1,37 @@
-# 版本與分支契約
+# 版本配對與發布規則
 
-現行 PO 建置以 `pipeline.yml` 為準；下方逐版條目保留當時狀態。
-每個 repo 維持一條維護主線，修改走短期分支；不為語言、DSW runtime 或
-每個模板版本建立永久分支。中文 PO、英文 commit 與產物 hash 才是配對依據。
+## 唯一來源
 
-目前英中候選套件為 **0.3.37**，實作線為 `fix/metadata-gap-prose`。
-`review/whole-document-0.3.37` 僅保存 [整份文件稽核](whole-document-review.md)，
-不改英文 lock、模板、譯文或版號，不是另一條永久維護線。
-稽核確認 Q6/Q8 部分缺答提示、Word 孤立章節標題與中文 PDF 預算尾頁仍需改善；
-候選版號／CI 通過都不等於可正式發布。
+- 英文 repo：共用 Jinja、回答對應、排版與 `template.json`。
+- 中文 repo：唯一可編輯譯文 `locales/zh-Hant.po` 及建置設定 `pipeline.yml`。
+- Tool repo：由 pipeline 鎖定的建置依賴與資源，不跟隨未指定的最新版本。
+- 產生的中文 ZIP／MO／展開樹：不可手改，不是第二份翻譯來源。
 
-以下為歷史紀錄。0.3.34 承接 `fix/q5-context-pagination`。
-其後 `fix/word-context-layout` 僅保存 [Word 匯入診斷](word-import-layout.md)，
-不改英文 lock、模板、翻譯或版號，也不把未採用的引擎變體變成永久 fork。
-診斷 commit 與可安裝模板版本是不同概念；原生分頁失敗仍阻止正式發布。
+`pipeline.yml` 同時鎖定英文完整 commit、英文 DT 版本、中文相容版本、
+Tool 完整 commit、建置依賴與 Worker image digest。候選 manifest 記錄實際
+checkout、資產 SHA256 與準備步驟。
 
-0.3.32 的英中工作分支為 `fix/q3-storage-gaps`，承接 0.3.31
-`fix/format-reading`；以下舊版本敘述為歷史紀錄，不是當前 branch。
-本輪僅改英文 Q3 容量追問，中文 lock 跟進完整 commit，733 組譯文精確
-沿用、1 組替換、1 組新增。來源/翻譯範圍與原生 PDF/Word 分別驗證，
-正式維護線、tag、發布與官方基底政策不變。見 [Q3 實驗](storage-capacity-gaps.md)。
+## Branch 與版本的分工
 
-目前 0.3.26 的英中工作分支為 `fix/word-short-budget-widths`；英文承接
-`fix/short-budget-reading`，中文承接獨立的 `fix/worker-pdf-stability`。
-模板改動不採用字型修補映像；只沿用上一輪新增的 runtime 身分檢查。
-731 個翻譯檔不變，中文 lock 更新到新的英文 commit，見 [Word 短預算](word-short-budget.md)。
+不為每個語言、執行環境、提交／檢核格式或版號建立永久分支。
+使用短期 `codex/` 功能分支，經檢查後整合到既有開發線；
+一個發布版由確切 commit、版本與資產雜湊識別，不靠分支名稱識別。
 
-0.3.25 的英中工作分支為 `fix/short-budget-reading`，承接 0.3.24 的 `fix/empty-pdf-reading`。
-未合併、未發布正式版本，也不操作線上 DSW。下列正式工作線仍是驗收後政策。
+英文與中文相容版號各自遞增，不要求相同。中文 pipeline 的來源 pin
+才是兩者的精確關係。只改中文譯文時，不必改共用 Jinja，但若要發布新的
+4.34 相容包，仍必須使用新的相容版號。
 
-其後中文另開 `fix/worker-pdf-stability`，只保存執行引擎隔離診斷與檢查工具，
-不改上述英文 lock／英中套件版號。引擎必須額外鎖映像與來源 hash：相同模板
-在不同引擎上不能沿用成品驗收。上游吸收修補後要移除本地 backport，來源
-不符則停止套用，不另養一條永久引擎 fork。見 [穩定性診斷](worker-pdf-stability.md)。
+導覽文件、測試與清理工作不應改變 DT 資產或套件時間戳記；若產物改變，
+先解釋差異，不可用「只是整理」略過成品檢查。
 
-0.3.25 僅新增有界限的 PDF 短預算 class 與 CSS；731 個譯文與 Q15 邏輯
-不變。初版雖然 CI 通過，原生輸出仍抓到 autoescape 造成表格標籤被印出的
-問題，因此拒收並以新 commit／ZIP hash 完整重測。升級門檻不能只靠 Git
-合併或 CI；來源、翻譯與實際格式輸出必須一起核對。見 [短預算閱讀](short-budget-reading.md)。
+## 發布
 
-0.3.24 只新增英文共用 CSS 的四項空白 Q15 資訊框；中文 lock 跟進，不動譯文。
-以保存的 0.3.23 source hashes 檢查唯一變更，舊 Word 行為探針持續執行；
-見 [空白 PDF 閱讀修正](empty-pdf-reading.md)。短期分支不當作新的永久相容線。
+1. 提交並確認英文／PO／設定，建置乾淨、精確配對的候選。
+2. 完成測試與實際 PDF／Word 驗收，報告綁定當次 manifest 和交付資產。
+3. 發布新版本前檢查安裝端既有座標；不得覆寫已發布的 DT。
+4. 4.34 安裝新的中文相容 ZIP；4.35 安裝英文 DT，並把核准 PO 附到該版本
+   的實際 DT UUID。不要把相容 ZIP 當成 4.35 原生翻譯。
+5. 確認新產生的文件，再依明確授權切換專案；保留舊安裝供回復。
 
-0.3.23 延續共用 Word Lua 的有界限修正，中文只更新來源 lock；不建立永久
-語言分支。來源／套件 hash、29 組 AST 與 DOCX 探針、真實前版與新版輸出
-一起作為升級依據，不能以 Git 無衝突代替版面驗證。見 [Q9 Word 連頁](q9-word-labels.md)。
-
-0.3.22 僅調整英文共用 Word Lua，中文 lock 跟進來源 commit，全部 731 個翻譯
-檔案不變。用短／長／多筆原生案例核對文字保留與分頁；短期分支不等同正式版，
-也不因排版修正而產生另一套中文 Jinja。見 [Q8 Word 連頁](q8-word-labels.md)。
-
-上一輪 0.3.20 的 Q7 只移動段落結束標籤，仍造成六個翻譯單位需要重新對應；以原文／譯文
-句對精確核對後沿用，不重新翻譯。這也是升級分支必須重抽翻譯樹、跑原生輸出
-的實例。0.3.20 各輪候選 ZIP 以 hash 區分，正式發布前不得只憑相同版號混用
-測試證據；完整初輪與最後 Q7 修正重跑分開保存，另以套件差異／分支輸出比對
-說明哪些舊測試仍適用。不可將未重產的樣張冒充最後 ZIP 的新輸出。
-
-0.3.21 修改 Q7／Q9 的缺答與固定敘述，保留 718 組原譯文，明確審查 5 組
-移除／替換與 13 組新增；詳見 [追問與翻譯差異](personal-data-followups.md)。
-邏輯只改英文，中文由既有工具重建並鎖定來源 commit，不另維護中文條件分支。
-
-## 三種版本不能混為一談
-
-- 官方基底：英文 repo 的 `.upstream/base.json` 固定完整 commit；官方 tags 存放
-  `upstream/v*`，不占用客製版 `v*` 名稱。
-- 客製英文：自己發布 `v0.1.0`、`v0.2.0` 等，不跟著官方版號跳動。
-- 客製中文：`pipeline.yml` 分開記錄英文 commit／版本和中文套件版本。例如中文
-  `0.1.1` 可以仍使用英文 `0.1.0`；只修中文不需要發布新英文版本。
-
-DSW 的三段式套件 ID 包含 organization、template、version。英中使用不同 ID，
-也與官方版、既有官方繁中版分開。Git branch 是工作線；Git tag 和不可覆寫的
-套件才是可安裝的版本。不能拿 branch 頭部當正式版的唯一引用。
-
-## 工作線
-
-英文沿用客製 `main`，修改走短期 `feat/*`／`fix/*`，官方升級走 `upgrade/upstream-v*`。
-`upstream/main` 只是遠端追蹤 ref。只有確實承諾維護舊相容線時才保留 `maint/*`。
-
-中文同樣維持一條主線；`operations`／`sync/v*` 不再是現行 PO 維護政策。
-修改走短期 `codex/*`，英文升級時在同一份 PO 上合併新目錄、逐項審查新增／
-失效／模糊譯文，驗證問卷對應及實際成品後更新精確 source lock。
-中文修字可以單獨升相容包版本，無須增加英文模板版本。4.34／4.35 是同一份
-PO 的建置／安裝 profile，不是永久分支。正式版本用不可覆寫 tag 與套件保存；
-只有確實仍需維護的舊 schema 才保留相容維護線。
-
-若臺灣版更改 KM／增加問題，視為新的 schema 相容線：維護自己的 KM 版本與
-SE/TW requirement IDs，不只建立一個名叫 `taiwan` 的 branch 就算完成相容管理。
-
-## 發布門檻
-
-1. 英文、中文、工具修改先提交；lock 指向精確英文及工具 commit。
-2. 非 preview 建置拒絕 dirty／不符 lock 的 checkout、未翻完或結構不符的翻譯。
-3. 每次建置是新目錄；manifest 記錄來源、翻譯單位、樣式、ZIP checksum。
-   套件檔案 UUID／ZIP 時間戳記採確定性建置，不以 TDK 的隨機 UUID 當版本差異。
-   PO 建置的共用套件說明來自英文 `PACKAGE_README.md`，並說明兩種安裝 profile；
-   本 repo 舊中文 `PACKAGE_README.md` 保留歷史，repo README 僅作導覽。
-   metadata 時間取英文最後一次套件輸入變更（template.json、src、prepare_layout.py、
-   PACKAGE_README.md、LICENSE），不取無關文件提交時間。純導覽更新不應改變 ZIP。
-   本機測試複製套件時，工具也須把內部 file／asset UUID 改到測試專屬命名空間；
-   只改模板名稱不足以隔離 DSW 資料庫的全域 ID。本次已加入重建碰撞回歸測試。
-4. 同一批合成回答經英中 HTML／PDF／DOCX 測試；接受報告綁定套件 checksum。
-   成品、術語、Science Europe 內容與目標 Microsoft Word 環境仍需審閱。
-5. `scripts/stage_candidate.py` 只把合格候選版存到本機不可覆寫目錄；preview、
-   已知失敗、不同套件的報告及已存在的版本均拒絕。它不是 GitHub 發布指令。
-6. 正式 Git tag／release asset 不覆寫。錯誤版本標記撤回，發布修正版；回退則重新
-   選用上一個已驗收套件，不移動舊 tag。不要重跑舊版 CI 覆蓋同名 ZIP。
-
-原始基底、審查到的官方版本、已採用／刻意不採用／待處理變更要分別記錄。
-選擇性移植官方修正不等於全面合併；不能直接把 baseline 改成最新版本。
-
-本輪 Q2／Q3／Q10／Q11 的固定敘述結構與 Q1 的短表格提示屬於英文來源的客製修改，
-不是直接修生成後的中文 Jinja。Q2 已加入 `.upstream/base.json` 的 critical
-重疊清單；Q1、Q3、Q10、Q11、共用 macro 原已在清單中。未來升級須同時重跑缺答、
-自由回答段落、短／長表格與中英輸出測試。PDF 的 CSS、Word 的 Lua／reference
-樣式須分別驗證；Git 沒有文字衝突不代表成品版面相容。
-
-0.3.6 只對明確標記的授權日期使用 Word 不換行連字號；HTML 保留 ASCII 日期。
-比對時僅將這些日期的已知表示法對回原值，不抹除檔名、網址或自由回答中的
-一般連字號。Q10 自訂申請流程與 Q11 自訂付款安排亦須保留作者的段落與清單。
-
-## 中文單獨修版演練
-
-0.3.19 在英文共用 Q15 擷取原始片段，再由 PDF 專用入口與 presentation helper
-改變長篇用途的呈現。中文 lock 指向 `62338c59135d6067f492116964d58e31928a5d5a`；
-重新分組時有 8 個翻譯單位需要核對後接回，原有 720 組 sentence／translation
-pairs 不變，兩個新增單位是幣別分支重複。這是未來升級成本的實測，不假定
-改 Jinja 仍能零成本沿用全部翻譯。Q15、PDF helper／入口、資源 ownership、
-namespace scope 與翻譯抽取應一併審查；Word 與非 PDF 分支須保護原輸出。
-同名 branch 只是配對方便，精確來源仍依 commit／manifest；不增加永久線。
-見 [0.3.19 原生對照](../reviews/2026-09-15-pdf-budget-reading/README.md)。
-
-0.3.17 只修改英文 Word Lua 與建置用 reference 準備程式，新增專屬長預算
-表格樣式；中文鎖定 `b7327b9e9fd976046fc440ec7bf5c82aac54b8ed`，不修改譯文。
-短期分支不是永久維護線。未來升級須一起審查 Lua 的表格結構與 reference
-style ID，並驗證續頁資源歸屬、原段落／金額保留、拒絕案例及短預算回歸。
-重複表頭是閱讀脈絡，不能當作新增預算或重複計入成本；原生 PDF 暫不改動。
-實際樣張、未採用版型及仍待處理的英文短尾頁見
-[0.3.17 審閱](../reviews/2026-09-15-long-budget-reading/README.md)。
-
-0.3.16 只改英文 Word Lua 的 Q15 短預算連頁規則，中文鎖定
-`ff1a5bf51c008c24fc6598f670719387bdfefb43`。Jinja、譯文、PDF CSS、Word
-reference 及字級／行距／頁邊界不變。既有短期分支不變成永久維護線。
-升級除了原有內容回歸，還須跑 pinned worker 的 Pandoc AST 檢查：短概述
-只加既有連頁樣式，長／多列／複雜預算 AST 不得改動。原生 Word 另核對
-概述以外的 XML、表格與原文完全保留；頁數相同也可能有更好的題答銜接，
-不能把「少一頁」當成唯一驗收條件。正式發布政策與官方基底均不變。
-同填答的原生輸出及未採用的縮間距實驗見
-[0.3.16 審閱](../reviews/2026-09-15-budget-pagination/README.md)。長篇跨頁段落須
-核對完整原文，不得把「段落不在單頁」誤當成漏字，也不得把兩頁拼接後宣稱同頁。
-
-0.3.15 只修改英文 Q13，為「指派者／解析保障」新增獨立事實狀態及分組提示。
-中文鎖定 `b1391c059c23c97095b8c748d527d13516c8a74f`，四個新譯文單位由既有
-翻譯樹維護；既有詞句沿用，CSS／Word Lua／reference 不變。升級須確認空白、
-未知選項、明確否定與殘留子答案的區別，並重驗分組標點與資料集／管道歸屬。
-固定政策與提示重用既有短閱讀區塊；升級還須檢查 500 字元界線、Word 末段
-停止連頁，以及 PDF／Word 預覽中標籤、回答與提示同頁，不能只檢查第一句。
-父題的 complete 只代表已回答「會指派」，不得當成全部追問題目或 Q13 完整。
-不增加永久維護分支，不修改官方 1.30.1 baseline，也不自動部署或發布。
-
-0.3.14 將 Q13 的管道編號／儲存庫類型合成一個標籤行，識別碼決定與既有
-安排敘述連讀。升級單位是 Q13、專屬 CSS 與有長度／結構界線的 Word Lua；
-Word reference、字級、行距、頁面與表格不變。716 個翻譯單位精確沿用，
-中文 lock 指向英文 `98b153364844930de772cbdcb1e13eb14e3555b7`。不得把缺答提示
-尚未完整的舊行為當成通過內容驗收，亦不得只看頁數減少就接受版面。
-工作分支不等於正式安裝版本，不增加永久維護線；正式發布政策不變。
-
-0.3.13 將 Q11 的論文參考列移出保存正文；升級審查單位包含 Q11、
-`preservation-dataset.html.j2`、新增的 `preservation-paper.html.j2` 與專屬換行 CSS。
-中文 lock 指向英文 `7f43c9b2ba083dfeb75f0ee940b01f235f2d2aa1`，標籤仍由翻譯樹
-產生。可翻譯標籤須與條件式連結結構分開擷取；先前合寫的原型被 structure
-audit 擋下，不能為了建置成功而略過檢查。未填、父題改答、同名資料集、
-原值及 HTML／PDF／Word 連結目標，均屬升級回歸範圍。正式發布政策不變。
-
-0.3.12 只整合 Q11 與 `preservation-dataset.html.j2` 的段落容器，英文與中文
-文字、翻譯樹、CSS、Lua、Word reference 及官方基底均不變。此 partial 與 Q11
-必須視為同一個升級審查單位；作者回答、未填提示仍中斷固定敘述的合併。
-新工作分支承接舊分支，不表示舊分支成為永久維護線。中文 lock 指向英文
-`4aeeb2a9a35efe33d4b935f5b843716a74b3abdb`；同名 branch 只是方便配對，
-可重建來源仍以完整 commit／manifest 為準。正式合併與發布仍未進行。
-
-0.3.11 將 Other-contact 自由回答完整保留在 Q11，Q10 引用同一資料集／管道。
-來源仍只在英文維護，中文精確鎖定該來源。上游或臺灣版改題號、題目順序時，
-須重驗引用文字與目標、同名資料集、缺答、作者原文，以及 HTML／PDF／Word
-內部連結；文件內位置 anchor 不是跨問卷修改的永久 ID。Word 引言必須實際
-解析為段落並套用既有 keep-with-next，只有相同的外層 class 並不足夠。
-證據見 [聯繫回答歸屬審閱](../reviews/2026-09-14-repository-contact/README.md)。
-
-0.3.10 的 Q11 管道編號、缺答列與短清單邊界由英文維護；標籤粗體交給共用
-PDF CSS／Word Lua，避免翻譯單位遺失裝飾標記。既有 Word 樣式不變，另增
-兩個 Q11 專屬樣式。上游升級須保留 Q10／Q11／Q13 的管道對照、最後一項的
-分頁連鎖終止、長回答原分段及兩語言的強調格式；實際證據見
-[儲存庫閱讀審閱](../reviews/2026-09-14-repository-reading/README.md)。
-
-0.3.9 補正 Q5 引言及 Q11 專用儲存庫的否定／缺答狀態；英文維護分支判斷，
-中文仍精確鎖定英文來源並由翻譯樹生成。上游升級須重跑多管道、父題改答與
-殘留子答案檢查，不能把缺答變成肯定承諾。實際樣張與版本證據見
-[缺答與否定回答審閱](../reviews/2026-09-14-answer-states/README.md)。
-
-0.3.8 的 Word 間距由英文 `prepare_layout.py` 統一準備，該檔已提高至 Word
-升級高風險範圍；沒有更改 Jinja、翻譯文字、PDF CSS 或 Lua。樣式試改的既有
-DOCX 與實際新版 DSW 產檔分開列證據，不將前者冒充端到端驗收。
-
-0.3.7 新增的 Q11 資料集脈絡、不發布原因與計畫結束後冷儲存 partial，仍只在
-英文維護。16 個問卷欄位以編譯 KM 的 UUID／選項／路徑對照鎖定；上游升級時
-須重新核對計畫層級與資料集層級、選項所屬分支、複選續存依據與自由回答段落。
-「不發布」不可被升級後的邏輯改成「不保存」，續存依據也不是初次保存選擇的
-完整政策。官方 baseline 本輪未提高。
-
-固定英文、工具、翻譯內容後，比較兩次 preview，其中一次加上
-`--translation-version 0.1.1`。英文 ZIP 必須逐位元相同，中文 metadata／ZIP
-必須不同。這個參數只准用於 preview；真正修版要修改並提交 `pipeline.yml`。
+PO 可獨立維護，但安裝端的 locale 仍須和正確 DT 配對。CI 或本機 staging
+不授權部署、刪除 locale、覆寫模板、切換專案或推送 release tag。

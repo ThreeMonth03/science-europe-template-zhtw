@@ -1,1 +1,0 @@
-### DSW Document Template Translation

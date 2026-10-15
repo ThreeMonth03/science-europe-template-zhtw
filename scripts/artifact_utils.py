@@ -133,21 +133,9 @@ def stage_candidate(build: Path, store: Path) -> Path:
         raise ValueError("Only locked, fully translated candidate builds may be staged")
     if report.get("passed") is not True or report.get("blocking_issues"):
         raise ValueError("Candidate has not passed the declared acceptance scope")
-    if "profile" in manifest:
-        if manifest["profile"] != PO_PROFILE:
-            raise ValueError("Unknown explicit candidate profile")
-        validate_po_candidate(build, manifest, report)
-        artifacts = PO_ARTIFACTS
-    else:
-        if "po" in manifest or any(name in manifest.get("sha256", {}) for name in PO_ARTIFACTS[2:]):
-            raise ValueError("PO candidate artifacts require an explicit PO profile")
-        artifacts = ("english.zip", "chinese.zip")
-        for name in artifacts:
-            if sha(build / name) != manifest["sha256"][name]:
-                raise ValueError(f"Artifact differs from manifest: {name}")
-        # Historical two-package candidates retain their original contract.
-        if report.get("package_sha256") != {name: manifest["sha256"][name] for name in artifacts}:
-            raise ValueError("Acceptance report is not bound to these packages")
+    if manifest.get("profile") != PO_PROFILE:
+        raise ValueError("PO candidates require the exact committed pipeline profile")
+    validate_po_candidate(build, manifest, report)
     target = manifest["translation"]
     fields = [str(target[key]) for key in ("organization_id", "template_id", "version")]
     if not all(re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.+-]*", value) for value in fields):
@@ -156,6 +144,6 @@ def stage_candidate(build: Path, store: Path) -> Path:
     store.mkdir(parents=True, exist_ok=True)
     # Atomic reservation. Even identical bytes cannot replace a staged version.
     destination.mkdir()
-    for name in (*artifacts, "manifest.json", "pilot-report.json"):
+    for name in (*PO_ARTIFACTS, "manifest.json", "pilot-report.json"):
         shutil.copyfile(build / name, destination / name)
     return destination

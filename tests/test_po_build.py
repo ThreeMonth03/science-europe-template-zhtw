@@ -28,10 +28,10 @@ class POBuildTests(unittest.TestCase):
         self.addCleanup(temporary.cleanup)
         base = Path(temporary.name)
         self.zh, self.en, self.tool = [base / name for name in ("zh", "english", "tooling")]
-        for path in (self.zh / "locales", self.zh / "translation", self.en / "src/locales", self.en / "src/word", self.en / "scripts", self.tool / "src"):
+        for path in (self.zh / "locales", self.zh / "unrelated", self.en / "src/locales", self.en / "src/word", self.en / "scripts", self.tool / "src"):
             path.mkdir(parents=True)
-        self.history = self.zh / "translation/sentinel.md"
-        self.history.write_text("Historical tree: never refresh from the PO build.")
+        self.sentinel = self.zh / "unrelated/sentinel.md"
+        self.sentinel.write_text("Unrelated source files must remain unchanged by the PO build.")
         config = yaml.safe_load((ROOT / "pipeline.yml").read_text())
         self.config = config
         config["source"].update(commit="a" * 40, organization_id="example", template_id="template")
@@ -52,7 +52,7 @@ class POBuildTests(unittest.TestCase):
         po.append(polib.POEntry(msgctxt="test", msgid="Dataset", msgstr="資料集"))
         po.save(str(self.zh / "locales/zh-Hant.po"))
         self.states = {self.en: {"commit": "a" * 40, "dirty": False}, self.tool: {"commit": "b" * 40, "dirty": False}, self.zh: {"commit": "c" * 40, "dirty": False}}
-        self.args = SimpleNamespace(english=self.en, tooling=self.tool, preview=False, tdk=None, refresh=False, seed_tree=None, translation_version=None)
+        self.args = SimpleNamespace(english=self.en, tooling=self.tool, preview=False, tdk=None, translation_version=None)
         self.calls = []
         stack = ExitStack()
         self.addCleanup(stack.close)
@@ -109,10 +109,10 @@ class POBuildTests(unittest.TestCase):
         spec.loader.exec_module(exporter)
         self.metadata["formats"] = [{"uuid": identifier, "name": "Fixture", "steps": [{"name": "jinja", "options": {}}]} for identifier in exporter.FORMAT_NAMES]
         (self.en / "template.json").write_text(json.dumps(self.metadata))
-        before = self.history.read_bytes()
+        before = self.sentinel.read_bytes()
         result = builder.build(self.args)
-        self.assertEqual(before, self.history.read_bytes())
-        self.assertEqual([self.history], list((self.zh / "translation").iterdir()))
+        self.assertEqual(before, self.sentinel.read_bytes())
+        self.assertEqual([self.sentinel], list((self.zh / "unrelated").iterdir()))
         prepares = [call for call in self.calls if call[1].endswith("prepare_layout.py")]
         self.assertEqual(1, len(prepares))
         self.assertEqual("en", prepares[0][-1])
@@ -127,7 +127,7 @@ class POBuildTests(unittest.TestCase):
     def test_candidate_has_one_preparation_and_one_source_po_pair(self):
         self.assertEqual("candidate", self.run_full_build()["status"])
 
-    def test_preview_records_dirty_checkouts_without_mutating_history(self):
+    def test_preview_records_dirty_checkouts_without_mutating_unrelated_files(self):
         self.args.preview = True
         for state in self.states.values():
             state["dirty"] = True
@@ -172,12 +172,12 @@ class POBuildTests(unittest.TestCase):
                 self.run_full_build()
         self.assertFalse(list((self.zh / "outputs").glob("*/manifest.json")))
 
-    def test_old_refresh_options_and_candidate_overrides_fail_closed(self):
-        for key, value in (("refresh", True), ("seed_tree", self.zh / "translation"), ("tdk", self.tool / "custom-tdk"), ("translation_version", "0.3.999")):
+    def test_candidate_overrides_fail_closed(self):
+        for key, value in (("tdk", self.tool / "custom-tdk"), ("translation_version", "0.3.999")):
             setattr(self.args, key, value)
             with self.subTest(option=key), self.assertRaises(ValueError):
                 builder.build(self.args)
-            setattr(self.args, key, False if key == "refresh" else None)
+            setattr(self.args, key, None)
         self.assertEqual([], self.calls)
 
 

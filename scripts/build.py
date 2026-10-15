@@ -114,11 +114,8 @@ def inventory(root: Path) -> dict:
 
 
 def build(args) -> Path:
-    # Keep old command-line mistakes fail-closed rather than changing a tree.
     if getattr(args, "tdk", None) is not None and not args.preview:
         raise ValueError("TDK override is a preview-only rehearsal")
-    if getattr(args, "refresh", False) or getattr(args, "seed_tree", None) is not None:
-        raise ValueError("PO builds do not refresh or modify the historical translation tree")
     config = yaml.safe_load((ROOT / "pipeline.yml").read_text())
     if config.get("schema_version") != 2 or config.get("profile") != PO_PROFILE:
         raise ValueError("This build requires the committed official PO pipeline profile")
@@ -252,7 +249,5 @@ if __name__ == "__main__":
     parser.add_argument("--tooling", type=Path, required=True)
     parser.add_argument("--tdk", type=Path, help="Preview-only CLI override")
     parser.add_argument("--preview", action="store_true")
-    parser.add_argument("--refresh", action="store_true", help="Rejected: edit the PO, not the historical tree")
-    parser.add_argument("--seed-tree", type=Path, help="Rejected historical-tree argument")
     parser.add_argument("--translation-version", help="Preview-only independent version rehearsal")
     print(build(parser.parse_args()))
