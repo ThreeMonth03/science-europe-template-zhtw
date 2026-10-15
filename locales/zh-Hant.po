@@ -4,7 +4,7 @@
 # English requirements remain the meaning reference; examples stay visible.
 msgid ""
 msgstr ""
-"Project-Id-Version: science-europe-enhanced 0.3.85\n"
+"Project-Id-Version: science-europe-enhanced 0.3.86\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1961,13 +1961,18 @@ msgstr "資料庫中的資料將為唯讀。"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/03-docs-metadata.html.j2
 msgctxt "questions/03-docs-metadata"
-msgid "We will be allowing Create, Update and Delete operations for data in the database."
+msgid "We will allow data in the database to be created, updated, and deleted."
 msgstr "我們將允許對資料庫中的資料進行建立、更新與刪除操作。"
 
 #: src/questions/03-docs-metadata.html.j2
 msgctxt "questions/03-docs-metadata"
-msgid "Modifications will be made by <em>Expiring</em> the existing data and <em>Adding</em> updated data."
+msgid "To update the data, we will mark the existing data as expired and add the updated data."
 msgstr "修改資料時，將使既有資料失效，並新增更新後的資料。"
+
+#: src/questions/03-docs-metadata.html.j2
+msgctxt "questions/03-docs-metadata"
+msgid "Reason for not making the metadata openly available:"
+msgstr "後設資料不公開提供的原因："
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/03-docs-metadata.html.j2
@@ -3844,32 +3849,32 @@ msgstr "<strong>資料提供管道 %(loop_index)s</strong>"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/13-persistent-identifier.html.j2
 msgctxt "questions/13-persistent-identifier"
-msgid "<strong>Domain-specific repository</strong>"
-msgstr "<strong>特定學科的資料儲存庫</strong>"
+msgid "Domain-specific repository"
+msgstr "特定學科的資料儲存庫"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/13-persistent-identifier.html.j2
 msgctxt "questions/13-persistent-identifier"
-msgid "<strong>General-purpose repository</strong>"
-msgstr "<strong>通用型資料儲存庫</strong>"
+msgid "General-purpose repository"
+msgstr "通用型資料儲存庫"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/13-persistent-identifier.html.j2
 msgctxt "questions/13-persistent-identifier"
-msgid "<strong>National repository</strong>"
-msgstr "<strong>國家級資料儲存庫</strong>"
+msgid "National repository"
+msgstr "國家級資料儲存庫"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/13-persistent-identifier.html.j2
 msgctxt "questions/13-persistent-identifier"
-msgid "<strong>Institutional repository</strong>"
-msgstr "<strong>機構資料儲存庫</strong>"
+msgid "Institutional repository"
+msgstr "機構資料儲存庫"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/13-persistent-identifier.html.j2
 msgctxt "questions/13-persistent-identifier"
-msgid "<strong>Special-purpose repository</strong>"
-msgstr "<strong>專用資料儲存庫</strong>"
+msgid "Special-purpose repository"
+msgstr "專用資料儲存庫"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/13-persistent-identifier.html.j2
