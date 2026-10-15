@@ -47,7 +47,8 @@ def formats(metadata, profile):
 
 
 def render():
-    local = Path.home() / '.local/lib' / f'python{sys.version_info.major}.{sys.version_info.minor}/site-packages'
+    # Stock images install under /home/user; host UID execution may resolve HOME to /.
+    local = Path('/home/user/.local/lib') / f'python{sys.version_info.major}.{sys.version_info.minor}/site-packages'
     site.addsitedir(str(local))
     job = read('/output/job.json')
     version, language = job['version'], job['language']
