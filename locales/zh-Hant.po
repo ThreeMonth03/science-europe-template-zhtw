@@ -4,7 +4,7 @@
 # English requirements remain the meaning reference; examples stay visible.
 msgid ""
 msgstr ""
-"Project-Id-Version: science-europe-enhanced 0.3.87\n"
+"Project-Id-Version: science-europe-enhanced 0.3.88\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,13 +31,13 @@ msgstr "資料格式 %(loop_index)s。"
 msgid "Unnamed data format %(loop_index)s."
 msgstr "資料格式 %(loop_index)s（名稱尚待補充）。"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "It is a standardized format suitable for long-term archiving."
-msgstr "採用標準化格式，適合長期封存。"
+#. Preserve the selected within-field use and both suitability criteria.
+msgid "It is a standard format widely used by researchers in this field and is suitable for sharing and long-term archiving."
+msgstr "此格式是本領域研究者廣泛採用的標準格式，適合資料分享與長期封存。"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "It is a standardized format."
-msgstr "此格式為標準化格式。"
+#. Preserve the selected within-field use, without inferring suitability.
+msgid "It is a standard format widely used by researchers in this field."
+msgstr "此格式是本領域研究者廣泛採用的標準格式。"
 
 #. Q2 current approved Chinese; same as baseline
 msgid "We are not using a standardized format because there is no standardized format for this data type."
@@ -48,24 +48,24 @@ msgid "We are not using a standardized format but it is optimized for processing
 msgstr "本計畫採用的非標準化格式已針對資料處理速度、資料量或兩者進行最佳化。"
 
 #. Q2 current approved Chinese; same as baseline
-msgid "We are not using a standardized format."
-msgstr "本計畫採用非標準化格式。"
+msgid "This format is not a standard widely used by researchers in this field."
+msgstr "此格式並非本領域研究者廣泛採用的標準格式。"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "This is a suitable format for long-term archiving."
-msgstr "此格式適合長期封存。"
+#. Both criteria are explicitly affirmed in the questionnaire.
+msgid "This format is suitable for sharing and long-term archiving."
+msgstr "此格式適合資料分享與長期封存。"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "This is not a suitable format for long-term archiving; however, we plan to convert it to a suitable format before the end of the project."
-msgstr "此格式不適合長期封存；本計畫預計在結束前，將資料轉換為適合長期封存的格式。"
+#. A negative conjunction is not two negatives; conversion has no supplied deadline.
+msgid "This format is not suitable for both sharing and long-term archiving; however, we plan to convert it to a format more suitable for archiving later."
+msgstr "此格式未能同時滿足資料分享與長期封存的需求；本計畫預計日後轉換為較適合封存的格式。"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "This format is not suitable for long-term archiving, and we do not plan to convert it to a suitable format."
-msgstr "此格式不適合長期封存，且本計畫未規劃將資料轉換為適合長期封存的格式。"
+#. Keep the selected negative conversion decision, without a new deadline.
+msgid "This format is not suitable for both sharing and long-term archiving, and we do not plan to convert it to a format more suitable for archiving later."
+msgstr "此格式未能同時滿足資料分享與長期封存的需求，且本計畫未規劃日後轉換為較適合封存的格式。"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "This format is not suitable for long-term archiving."
-msgstr "此格式不適合長期封存。"
+#. Do not infer that both individual criteria fail.
+msgid "This format is not suitable for both sharing and long-term archiving."
+msgstr "此格式未能同時滿足資料分享與長期封存的需求。"
 
 #. Q2 current approved Chinese; same as baseline
 msgid "Only a small volume of data is expected."
@@ -88,28 +88,28 @@ msgid "The estimated average file size is %(formatAverageQuantity)s."
 msgstr "每個檔案的平均大小預計為 %(formatAverageQuantity)s。"
 
 #. Q2 current approved Chinese; same as baseline
-msgid "Reason for using a non-standard format:"
-msgstr "採用非標準化格式的原因："
+msgid "Reason for choosing this format:"
+msgstr "選用此格式的原因："
 
 #. Q2 current approved Chinese; same as baseline
 msgid "data format name"
 msgstr "資料格式名稱"
 
 #. Q2 current approved Chinese; same as baseline
-msgid "whether the format is standardized"
-msgstr "此格式是否為標準化格式"
+msgid "whether the format is a standard widely used by researchers in this field"
+msgstr "此格式是否為本領域研究者廣泛採用的標準格式"
 
 #. Q2 current approved Chinese; same as baseline
-msgid "reason for using a non-standard format"
-msgstr "採用非標準化格式的原因"
+msgid "reason for choosing this format"
+msgstr "選用此格式的原因"
 
 #. Q2 current approved Chinese; same as baseline
-msgid "suitability for long-term archiving"
-msgstr "此格式是否適合長期封存"
+msgid "suitability for sharing and long-term archiving"
+msgstr "此格式是否適合資料分享與長期封存"
 
 #. Q2 current approved Chinese; same as baseline
-msgid "whether the data will be converted to a suitable archival format"
-msgstr "是否將資料轉換為適合長期封存的格式"
+msgid "whether the data will be converted to a format more suitable for archiving later"
+msgstr "是否預計日後將資料轉換為較適合封存的格式"
 
 #. Q2 current approved Chinese; same as baseline
 msgid "estimated total volume (GB)"
@@ -5187,3 +5187,41 @@ msgstr "物件／文件儲存"
 msgctxt "q3-storage-groups"
 msgid "Database storage"
 msgstr "資料庫儲存"
+
+#. Complete repository subjects for a single known publication location.
+msgctxt "identifier-repository"
+msgid "The domain-specific repository"
+msgstr "特定學科的資料儲存庫"
+
+msgctxt "identifier-repository"
+msgid "The general-purpose repository"
+msgstr "通用型資料儲存庫"
+
+msgctxt "identifier-repository"
+msgid "The national repository"
+msgstr "國家級資料儲存庫"
+
+msgctxt "identifier-repository"
+msgid "The institutional repository"
+msgstr "機構資料儲存庫"
+
+msgctxt "identifier-repository"
+msgid "The special-purpose repository"
+msgstr "專用資料儲存庫"
+
+#. State the location and its responsibility once, in a complete sentence.
+#, python-format
+msgctxt "identifier-repository"
+msgid "%(repository)s will assign the persistent identifier and ensure that it resolves to a digital object."
+msgstr "%(repository)s將指派持續識別碼，並確保該識別碼能解析至數位物件。"
+
+#. A missing guarantee is not proof that identifier resolution will fail.
+#, python-format
+msgctxt "identifier-repository"
+msgid "%(repository)s will assign the persistent identifier but will not guarantee that it resolves to a digital object."
+msgstr "%(repository)s將指派持續識別碼，但不保證該識別碼能解析至數位物件。"
+
+#, python-format
+msgctxt "identifier-repository"
+msgid "%(repository)s will assign the persistent identifier."
+msgstr "%(repository)s將指派持續識別碼。"
