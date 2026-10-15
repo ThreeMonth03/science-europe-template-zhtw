@@ -70,3 +70,11 @@ class PackageDocumentationTests(unittest.TestCase):
                      if step.get('with', {}).get('repository') == 'ThreeMonth03/science-europe-template']
         self.assertEqual(len(checkouts), 1)
         self.assertEqual(checkouts[0]['fetch-depth'], 0)
+
+    def test_ci_named_english_tests_can_import_shared_helpers(self):
+        root = Path(__file__).resolve().parents[1]
+        workflow = yaml.safe_load((root/'.github/workflows/pilot-checks.yml').read_text())
+        steps = [step for step in workflow['jobs']['checks']['steps']
+                 if step.get('if') == "matrix.group == 'english-unit'"]
+        self.assertEqual(len(steps), 1)
+        self.assertEqual(steps[0]['env']['PYTHONPATH'], 'tests:scripts')

@@ -75,6 +75,8 @@ jobs:
       - name: Check current locked English PO source with its declared dependencies
         if: matrix.group == 'english-unit'
         working-directory: english
+        env:
+          PYTHONPATH: tests:scripts
         run: |
           mkdir -p outputs
           make verify DSW_TDK="$RUNNER_TEMP/english-check-venv/bin/dsw-tdk"
