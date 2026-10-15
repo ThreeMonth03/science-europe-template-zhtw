@@ -4,7 +4,7 @@
 # English requirements remain the meaning reference; examples stay visible.
 msgid ""
 msgstr ""
-"Project-Id-Version: science-europe-enhanced 0.3.86\n"
+"Project-Id-Version: science-europe-enhanced 0.3.87\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1205,6 +1205,20 @@ msgstr "<p data-fact-id=\"dataset-versioning\" data-status=\"complete\">此參�
 msgctxt "questions/01-how-data"
 msgid "<p><strong>Version</strong></p>"
 msgstr "<p><strong>使用版本</strong></p>"
+
+#. Compact only a short plain version; rich answers keep their own blocks.
+#: src/questions/01-how-data.html.j2
+#, python-format
+msgctxt "questions/01-how-data"
+msgid "<strong>Version:</strong> %(version)s"
+msgstr "<strong>使用版本：</strong>%(version)s"
+
+#. One instrument does not need a nested list; the name remains safely escaped.
+#: src/questions/01-how-data.html.j2
+#, python-format
+msgctxt "questions/01-how-data"
+msgid "Instrument: %(instrumentName)s"
+msgstr "使用儀器：%(instrumentName)s"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
@@ -5042,6 +5056,13 @@ msgstr "<strong>%(qualityName)s</strong>的品質管控措施包括<span data-fa
 msgctxt "quality-control"
 msgid "Quality control measures for <strong>%(qualityName)s</strong>: %(qualityMethods)s."
 msgstr "<strong>%(qualityName)s</strong>：品質管控措施包括%(qualityMethods)s。"
+
+#. The owning dataset is already named immediately above in question 1.
+#: src/quality-control.html.j2
+#, python-format
+msgctxt "quality-control"
+msgid "Quality control measures: %(qualityMethods)s."
+msgstr "品質管控措施包括%(qualityMethods)s。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/quality-control.html.j2
