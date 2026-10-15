@@ -1,7 +1,7 @@
 # Authoritative zh-Hant catalog for the PO workflow; publication requires acceptance.
 msgid ""
 msgstr ""
-"Project-Id-Version: science-europe-enhanced 0.3.78\n"
+"Project-Id-Version: science-europe-enhanced 0.3.84\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -561,11 +561,10 @@ msgctxt "nonreuse"
 msgid "Its conditions of use do not permit the intended re-use."
 msgstr "此資料集的使用條件不允許本計畫預定的用途。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/nonreuse.html.j2
 msgctxt "nonreuse"
 msgid "<p><strong>Reason for not re-using this dataset</strong></p>"
-msgstr "<p><strong>不再次使用此資料集的原因</strong></p>"
+msgstr "<p><strong>不採用此資料集的原因</strong></p>"
 
 #. Approved existing Chinese; no retranslation.
 #: src/nonreuse.html.j2
@@ -1282,11 +1281,10 @@ msgctxt "questions/01-how-data"
 msgid "These datasets are freely available for any use."
 msgstr "這些資料集可自由取得並用於任何用途。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
 msgctxt "questions/01-how-data"
 msgid "This dataset is freely available for any use."
-msgstr "此資料可自由取得及使用。"
+msgstr "此資料集可自由取得並用於任何用途。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
@@ -1518,17 +1516,15 @@ msgctxt "questions/01-how-data"
 msgid "Our computing workflow system records provenance information about the data analysis."
 msgstr "本計畫的運算工作流程系統會記錄資料分析的溯源資訊。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
 msgctxt "questions/01-how-data"
 msgid "We use other arrangements to document data provenance."
-msgstr "本計畫採用其他安排記錄資料溯源資訊。"
+msgstr "本計畫採用其他方式記錄資料溯源資訊。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
 msgctxt "questions/01-how-data"
 msgid "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance-detail\" data-status=\"missing\"><strong>Information not provided:</strong> the other arrangement that will document data provenance.</p>"
-msgstr "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance-detail\" data-status=\"missing\">尚待補充：用於記錄資料溯源的其他安排。</p>"
+msgstr "<p class=\"data-gap\" data-requirement-id=\"SE-1a\" data-fact-id=\"provenance-detail\" data-status=\"missing\">尚待補充：記錄資料溯源資訊的其他方式。</p>"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
@@ -1965,11 +1961,10 @@ msgctxt "questions/03-docs-metadata"
 msgid "We will be allowing Create, Update and Delete operations for data in the database."
 msgstr "我們將允許對資料庫中的資料進行建立、更新與刪除操作。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/03-docs-metadata.html.j2
 msgctxt "questions/03-docs-metadata"
 msgid "Modifications will be made by <em>Expiring</em> the existing data and <em>Adding</em> updated data."
-msgstr "修改將透過使既有資料失效並新增更新後資料的方式進行。"
+msgstr "修改資料時，將使既有資料失效，並新增更新後的資料。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/03-docs-metadata.html.j2
@@ -2295,29 +2290,25 @@ msgctxt "questions/06-access-security"
 msgid "Project members have not received instruction covering both generic and project-specific risks."
 msgstr "計畫成員未接受同時涵蓋一般性風險及本計畫特有風險的說明。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
 msgctxt "questions/06-access-security"
 msgid "data loss, data disclosure, and data tampering"
-msgstr "資訊遺失、資訊外洩與資訊遭竄改"
+msgstr "資料遺失、資料外洩與資料遭竄改"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
 msgctxt "questions/06-access-security"
 msgid "data loss and data disclosure"
-msgstr "資訊遺失與資訊外洩"
+msgstr "資料遺失與資料外洩"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
 msgctxt "questions/06-access-security"
 msgid "data loss and data tampering"
-msgstr "資訊遺失與資訊遭竄改"
+msgstr "資料遺失與資料遭竄改"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
 msgctxt "questions/06-access-security"
 msgid "data disclosure and data tampering"
-msgstr "資訊外洩與資訊遭竄改"
+msgstr "資料外洩與資料遭竄改"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
@@ -2916,23 +2907,20 @@ msgctxt "questions/09-ethical-issues"
 msgid "We ask the data subjects for their consent."
 msgstr "我們會徵求資料當事人的同意。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/09-ethical-issues.html.j2
 msgctxt "questions/09-ethical-issues"
 msgid "We will obtain consent for this project's specific use of the data."
-msgstr "我們會就本專案特定用途取得同意。"
+msgstr "我們會取得同意，將資料用於本計畫的特定用途。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/09-ethical-issues.html.j2
 msgctxt "questions/09-ethical-issues"
 msgid "We will obtain consent for this project's use and for subsequent reuse of the data."
-msgstr "我們會就本專案使用及資料再次使用取得同意。"
+msgstr "我們會取得涵蓋本計畫使用資料及後續再利用的同意。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/09-ethical-issues.html.j2
 msgctxt "questions/09-ethical-issues"
 msgid "We will obtain consent for this project's use of the data and for anonymization. We will then anonymize the data for subsequent reuse."
-msgstr "我們會就本專案使用資料及匿名化取得同意。之後會將資料匿名化，以供再次使用。"
+msgstr "我們會取得將資料用於本計畫及進行匿名化的同意。之後會將資料匿名化，以供後續再利用。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/09-ethical-issues.html.j2
@@ -3321,11 +3309,10 @@ msgctxt "questions/10-share-restrictions"
 msgid "Re-users will be able to get access by request to the contact person."
 msgstr "欲再次使用資料者，可向聯絡人申請取用。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
 msgctxt "questions/10-share-restrictions"
 msgid "Re-users can request access through the project's Data Access Committee."
-msgstr "欲再次使用資料者，可向本計畫的資料存取委員會申請取用。"
+msgstr "欲再次使用資料者，可向本計畫的資料取用委員會申請取用。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
@@ -4906,23 +4893,20 @@ msgctxt "questions/06-access-security"
 msgid "Project members store data or software on computers in the lab or external hard drives connected to those computers."
 msgstr "專案成員使用實驗室電腦或連接於這些電腦的外接硬碟儲存資料或軟體。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
 msgctxt "questions/06-access-security"
 msgid "data loss"
-msgstr "資訊遺失"
+msgstr "資料遺失"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
 msgctxt "questions/06-access-security"
 msgid "data disclosure"
-msgstr "資訊外洩"
+msgstr "資料外洩"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2
 msgctxt "questions/06-access-security"
 msgid "data tampering"
-msgstr "資訊遭竄改"
+msgstr "資料遭竄改"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/06-access-security.html.j2

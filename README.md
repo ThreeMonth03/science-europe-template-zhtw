@@ -34,8 +34,19 @@ Tool 及本 repo 的 `requirements-dev.txt`。Tool 必須從該 checkout 以 edi
 正式候選要求所有輸入乾淨且已提交。尚未提交的開發測試可加 `--preview`；
 預覽不具發布資格。每次建立新的 `outputs/build-*`，不覆寫舊產物。
 
-目前沒有自動更新或批准 PO 的建置選項。先審閱 PO，再建置。
-POT 抽取／PO 更新入口是下一個翻譯工作項目，不沿用舊操作指令。
+## 更新譯文
+
+先核對英文來源與 PO；不帶 `--output` 時只檢查，不改任何檔案：
+
+```sh
+../dsw-document-template-tool/.venv/bin/python scripts/refresh_po.py \
+  --english ../science-europe-template
+```
+
+需要更新翻譯鍵時，加 `--output outputs/po-review-NEW`，在全新目錄產生
+官方 POT、待審 PO 與差異報告。只沿用完全相同鍵的有效譯文；新增或重新出現
+的舊鍵不會自動借用已退役譯文。工具不覆寫 `locales/zh-Hant.po`、不核准翻譯，
+也不自動清除 fuzzy。審閱差異後，才把確認的內容改回唯一 PO 來源並重新建置。
 
 ## 檢查與版本管理
 
