@@ -3227,11 +3227,27 @@ msgctxt "questions/10-share-restrictions"
 msgid "The access arrangement for this distribution has not been provided."
 msgstr "尚待補充：資料取用方式。"
 
-#. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
 msgctxt "questions/10-share-restrictions"
-msgid "Domain-specific repository"
-msgstr "特定學科的資料儲存庫"
+msgid "This distribution will be deposited in a domain-specific repository."
+msgstr "資料將存放於特定學科的資料儲存庫。"
+
+#: src/questions/10-share-restrictions.html.j2
+#, python-format
+msgctxt "questions/10-share-restrictions"
+msgid "This distribution will be deposited in the domain-specific repository %(repository)s."
+msgstr "資料將存放於特定學科的資料儲存庫 %(repository)s。"
+
+#: src/questions/10-share-restrictions.html.j2
+msgctxt "questions/10-share-restrictions"
+msgid "This distribution will be deposited in a general-purpose repository."
+msgstr "資料將存放於通用型資料儲存庫。"
+
+#: src/questions/10-share-restrictions.html.j2
+#, python-format
+msgctxt "questions/10-share-restrictions"
+msgid "This distribution will be deposited in the general-purpose repository %(repository)s."
+msgstr "資料將存放於通用型資料儲存庫 %(repository)s。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
@@ -3263,12 +3279,6 @@ msgstr "儲存庫聯繫安排請見第 11 題本資料集的管道 %(loop_index)
 msgctxt "questions/10-share-restrictions"
 msgid "For repository contact arrangements, see Question 11 under this dataset."
 msgstr "儲存庫聯繫安排請見第 11 題本資料集的說明。"
-
-#. Approved existing Chinese; no retranslation.
-#: src/questions/10-share-restrictions.html.j2
-msgctxt "questions/10-share-restrictions"
-msgid "General-purpose repository"
-msgstr "通用型資料儲存庫"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
@@ -4736,12 +4746,6 @@ msgid ": "
 msgstr "："
 
 #. Approved existing Chinese; no retranslation.
-#: src/questions/10-share-restrictions.html.j2
-msgctxt "questions/10-share-restrictions"
-msgid "."
-msgstr "。"
-
-#. Approved existing Chinese; no retranslation.
 #: src/questions/11-data-preservation.html.j2
 msgctxt "questions/11-data-preservation"
 msgid ": "
@@ -4906,8 +4910,8 @@ msgstr "%(responsibility_actor)s負責個人資料保護及資料保護政策相
 #: src/responsibility-sentences.j2
 #, python-format
 msgctxt "responsibility-sentences"
-msgid "%(responsibility_actor)s is responsible for implementing the data management plan and ensuring that it is reviewed and revised."
-msgstr "%(responsibility_actor)s負責執行資料管理方案，並確保該方案經過審查與修訂。"
+msgid "%(responsibility_actor)s is a creator of the data management plan."
+msgstr "%(responsibility_actor)s為資料管理方案撰寫者。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/03-docs-metadata.html.j2
