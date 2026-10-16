@@ -4,12 +4,22 @@
 # English requirements remain the meaning reference; examples stay visible.
 msgid ""
 msgstr ""
-"Project-Id-Version: science-europe-enhanced 0.3.94\n"
+"Project-Id-Version: science-europe-enhanced 0.3.95\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Label a short plain authored value without expanding or punctuating it.
+msgctxt "preservation-dataset"
+msgid "<strong>Dataset description:</strong> %(description)s"
+msgstr "<strong>資料集說明：</strong>%(description)s"
+
+#. Keep long or rich authored descriptions in their original separate blocks.
+msgctxt "preservation-dataset"
+msgid "<p><strong>Dataset description</strong></p>"
+msgstr "<p><strong>資料集說明</strong></p>"
 
 #. Q2 current approved Chinese; same as baseline
 msgid "This document does not yet list the data types, formats and estimated volumes."
