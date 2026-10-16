@@ -2,7 +2,7 @@ schema_version: 2
 profile: official-po-with-compat434
 source:
   repository: https://github.com/ThreeMonth03/science-europe-template.git
-  commit: 35228939bc61c33e0e0d6e7496134d3bafa29afe
+  commit: 7c19864c8d0594c743dba026159cffa6b582228c
   organization_id: threemonth03
   template_id: science-europe-enhanced
   version: 0.3.92
