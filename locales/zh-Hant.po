@@ -4,7 +4,7 @@
 # English requirements remain the meaning reference; examples stay visible.
 msgid ""
 msgstr ""
-"Project-Id-Version: science-europe-enhanced 0.3.95\n"
+"Project-Id-Version: science-europe-enhanced 0.3.99\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1269,14 +1269,14 @@ msgstr "<p data-fact-id=\"dataset-versioning\" data-status=\"explicit-no\">此�
 #. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
 msgctxt "questions/01-how-data"
-msgid "Each dataset will remain available from its provider in the long term."
-msgstr "各資料集將由提供者長期持續提供。"
+msgid "The providers will keep old versions of these datasets available, including the versions used in this project."
+msgstr "各資料提供者會保留資料集的舊版本，讓他人仍可取得本計畫使用的版本。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
 msgctxt "questions/01-how-data"
-msgid "The provider will keep this dataset available in the long term."
-msgstr "資料提供者將長期提供此資料集。"
+msgid "The provider will keep old versions of this dataset available, including the version used in this project."
+msgstr "資料提供者會保留此資料集的舊版本，讓他人仍可取得本計畫使用的版本。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
@@ -1293,14 +1293,14 @@ msgstr "本計畫將保留資料副本，與研究結果一併提供。"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
 msgctxt "questions/01-how-data"
-msgid "Each dataset will remain available from its provider in the long term. We will also retain a copy of each dataset and provide these copies alongside the research results."
-msgstr "各資料集將由提供者長期持續提供。本計畫亦將保留各資料集的副本，並與研究結果一併提供。"
+msgid "The providers will keep old versions of these datasets available, including the versions used in this project. We will also retain a copy of each dataset and provide these copies alongside the research results."
+msgstr "各資料提供者會保留資料集的舊版本，讓他人仍可取得本計畫使用的版本。本計畫也會保留各資料集的副本，並與研究結果一併提供。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
 msgctxt "questions/01-how-data"
-msgid "The provider will keep this dataset available in the long term. We will also retain a copy and provide it alongside the research results."
-msgstr "資料提供者將長期提供此資料集；本計畫也將保留副本，與研究結果一併提供。"
+msgid "The provider will keep old versions of this dataset available, including the version used in this project. We will also retain a copy and provide it alongside the research results."
+msgstr "資料提供者會保留此資料集的舊版本，讓他人仍可取得本計畫使用的版本。本計畫也會保留副本，並與研究結果一併提供。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/01-how-data.html.j2
@@ -1605,7 +1605,7 @@ msgstr "計畫合作夥伴將取得資料的完整所有權。"
 #: src/questions/02-what-data.html.j2
 msgctxt "questions/02-what-data"
 msgid "The equipment is very well described and known."
-msgstr "所用設備已有完整說明，且為研究團隊所熟悉。"
+msgstr "所用設備已有充分說明，且廣為人知。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/02-what-data.html.j2
@@ -3144,7 +3144,7 @@ msgstr "研究倫理相關法規適用於此資料蒐集。"
 #: src/questions/09-ethical-issues.html.j2
 msgctxt "questions/09-ethical-issues"
 msgid "It is not covered by ethical review."
-msgstr "此資料蒐集不屬於倫理審查範圍。"
+msgstr "此資料蒐集未納入倫理審查。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/09-ethical-issues.html.j2
@@ -3434,7 +3434,7 @@ msgstr "此資料集提供了附有用途或關係說明的其他資料集參照
 #: src/questions/10-share-restrictions.html.j2
 msgctxt "questions/10-share-restrictions"
 msgid "This dataset has no qualified references to other datasets."
-msgstr "此資料集未提供附有用途或關係說明的其他資料集參照。"
+msgstr "此資料集沒有附有用途或關係說明的其他資料集參照。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
@@ -5240,3 +5240,39 @@ msgstr "%(repository)s將指派持續識別碼，但不保證該識別碼能解�
 msgctxt "identifier-repository"
 msgid "%(repository)s will assign the persistent identifier."
 msgstr "%(repository)s將指派持續識別碼。"
+
+#. Independent primary identifiers are not gated by publication.
+msgctxt "questions/13-persistent-identifier"
+msgid "Primary identifier information"
+msgstr "主要識別碼資訊"
+
+msgctxt "questions/13-persistent-identifier"
+msgid "Other identifier"
+msgstr "其他識別碼"
+
+#. Explicit No-PID is a supplied policy, not an unanswered field.
+msgctxt "questions/13-persistent-identifier"
+msgid "We do not assign persistent identifiers to this dataset."
+msgstr "本計畫不為此資料集指派持續識別碼。"
+
+#. A type alone does not establish that an identifier has been assigned.
+#, python-format
+msgctxt "questions/13-persistent-identifier"
+msgid "Identifier type: %(identifierType)s."
+msgstr "識別碼類型：%(identifierType)s"
+
+#, python-format
+msgctxt "questions/13-persistent-identifier"
+msgid "Recorded identifier: <strong>%(identifierValue)s</strong>"
+msgstr "已填寫的識別碼：<strong>%(identifierValue)s</strong>"
+
+#. Compact a supplied type and value without asserting future assignment.
+#, python-format
+msgctxt "questions/13-persistent-identifier"
+msgid "%(identifierType)s: <strong>%(identifierValue)s</strong>"
+msgstr "%(identifierType)s：<strong>%(identifierValue)s</strong>"
+
+#. Internal review only; never shown in the submission profile.
+msgctxt "questions/13-persistent-identifier"
+msgid "The primary identifier value has not been provided."
+msgstr "尚未填寫主要識別碼的值。"
