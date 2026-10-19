@@ -11,6 +11,17 @@ from artifact_utils import PO_ARTIFACTS
 
 
 class CandidateArtifactWorkflowTests(unittest.TestCase):
+    def test_english_unit_lane_covers_reference_versions_and_primary_identifiers(self):
+        workflow = yaml.safe_load((ROOT / '.github/workflows/pilot-checks.yml').read_text())
+        steps = [step for step in workflow['jobs']['checks']['steps']
+                 if step.get('if') == "matrix.group == 'english-unit'"
+                 and '-m unittest -v' in step.get('run', '')]
+        self.assertEqual(1, len(steps))
+        self.assertEqual('english', steps[0]['working-directory'])
+        for module in ('tests.test_reference_versions', 'tests.test_primary_identifiers'):
+            with self.subTest(module=module):
+                self.assertIn(module, steps[0]['run'].split())
+
     def test_integration_smokes_the_built_packages_with_pipeline_worker_locks(self):
         workflow = yaml.safe_load((ROOT / '.github/workflows/pilot-checks.yml').read_text())
         steps = [step for step in workflow['jobs']['checks']['steps']
