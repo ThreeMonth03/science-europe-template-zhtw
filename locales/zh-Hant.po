@@ -4,7 +4,7 @@
 # English requirements remain the meaning reference; examples stay visible.
 msgid ""
 msgstr ""
-"Project-Id-Version: science-europe-enhanced 0.3.99\n"
+"Project-Id-Version: science-europe-enhanced 0.3.100\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2456,6 +2456,12 @@ msgctxt "questions/07-personal-data"
 msgid "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-legal-basis\" data-status=\"missing\"><strong>Information not provided:</strong> the legal basis for collecting and processing personal data.</p>"
 msgstr "<p class=\"data-gap\" data-requirement-id=\"SE-4a\" data-fact-id=\"personal-data-legal-basis\" data-status=\"missing\">尚待補充：蒐集及處理個人資料的法律依據。</p>"
 
+#. A selected current option is unsupported by the template, not unanswered.
+#: src/questions/07-personal-data.html.j2
+msgctxt "questions/07-personal-data"
+msgid "The selected legal basis cannot be described by this template. Please review the answer."
+msgstr "本模板無法呈現所選的法律依據，請核對填答內容。"
+
 #. Approved existing Chinese; no retranslation.
 #: src/questions/07-personal-data.html.j2
 msgctxt "questions/07-personal-data"
@@ -2733,11 +2739,11 @@ msgctxt "questions/08-copyright-ipr"
 msgid "All data will be made openly available immediately, without an embargo period."
 msgstr "所有資料都會立即公開，不設延後公開期限。"
 
-#. Approved existing Chinese; no retranslation.
+#. Preserve immediate openness for unrestricted data and indefinite closure for restricted data.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "A fixed embargo period cannot be used because some restricted data must remain closed indefinitely."
-msgstr "部分受限資料須無限期限制公開，因此無法設定固定的延後公開期限。"
+msgid "Unrestricted data will be made openly available immediately; restricted data will remain closed indefinitely."
+msgstr "不受限制的資料將立即公開；受限制的資料則無限期不公開。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
