@@ -26,12 +26,16 @@ DSW_ENGLISH_CHECKOUT=../science-europe-template \
 | --- | --- |
 | english-unit | 鎖定英文的現行測試與 4.34 相容匯出器。 |
 | chinese-unit | 本 repo 的 PO 建置、候選生命週期及套件說明。 |
-| integration | 配對建置、兩語言行為檢查及官方抽取結果對 PO。 |
+| integration | 配對建置、兩語言行為、官方抽取結果對 PO，以及兩版 Worker 原生產文。 |
 
 保留的 aggregate check 要求三組均成功。舊來源回放不再是現行 CI 的模式；
 需要研究歷史時，從 Git 取得當時的程式與依賴，不混入目前驗收。
 CI 的 `current-candidate-not-a-release` artifact 包含五件交付資產及 manifest。
 失敗時也可能保留診斷產物；下載成功不等於建置成功或已核准發布。
+
+`smoke_native.py` 用公開的空白合成 context，將實際建置的 ZIP 跑完
+4.34／4.35 中英文 PDF 與 Word，共八個輸出。它防止「打包成功但產文失敗」，
+不使用真實專案或線上設定，也不取代已填回答及排版驗收。
 
 ## 翻譯防線
 
@@ -71,8 +75,13 @@ python scripts/preview_native.py \
   --output outputs/native-NEW --plan-only
 ```
 
-移除 `--plan-only` 才產生三組 PDF／DOCX。預設為提交版；用 `--profile review`
-檢查內部提示。要驗多個案例，按相同順序重複每個 context 參數，三組數量必須
+加上 `--context-434-en /private/case-434.json`，也驗證同一份英文 ZIP 在 4.34
+的 PDF／DOCX；可沿用同一份 4.34 context，回答不改寫。離線 Worker 會依所選
+DT 綁定 `document.language`，並在 receipt 記錄差異，如同選擇格式與 DT ID。
+這條路徑不使用中文相容 ZIP。
+
+移除 `--plan-only` 才產生所選各組 PDF／DOCX。預設為提交版；用 `--profile review`
+檢查內部提示。要驗多個案例，按相同順序重複每個 context 參數，各組數量必須
 相同。每次使用全新輸出目錄；失敗目錄也不重用。Worker 不連網，image 必須
 預先取得，腳本不自動更新或拉取別的版本。
 
@@ -97,7 +106,7 @@ python scripts/render_previews.py \
 
 ### 人工驗收範圍
 
-使用相同合成回答，分別驗證 4.34 中文相容包、4.35 英文及 4.35 中文原生 PO。
+使用相同合成回答，分別驗證 4.34 英文與中文相容包、4.35 英文及中文原生 PO。
 納入完整、部分漏填、全空、明確否定、未命名、多筆與長文／清單／表格案例。
 逐頁檢查：
 

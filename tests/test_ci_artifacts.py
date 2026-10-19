@@ -11,6 +11,15 @@ from artifact_utils import PO_ARTIFACTS
 
 
 class CandidateArtifactWorkflowTests(unittest.TestCase):
+    def test_integration_smokes_the_built_packages_with_pipeline_worker_locks(self):
+        workflow = yaml.safe_load((ROOT / '.github/workflows/pilot-checks.yml').read_text())
+        steps = [step for step in workflow['jobs']['checks']['steps']
+                 if 'scripts/smoke_native.py' in step.get('run', '')]
+        self.assertEqual(1, len(steps))
+        self.assertEqual("matrix.group == 'integration'", steps[0]['if'])
+        self.assertIn("pipeline['runtime']['workers']", steps[0]['run'])
+        self.assertIn('--build "$SE_BUILD_DIR"', steps[0]['run'])
+
     def test_candidate_upload_contains_all_five_build_assets(self):
         workflow = yaml.safe_load((ROOT / '.github/workflows/pilot-checks.yml').read_text())
         uploads = [step for step in workflow['jobs']['checks']['steps']

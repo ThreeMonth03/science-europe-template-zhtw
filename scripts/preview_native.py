@@ -86,10 +86,14 @@ def plan(args):
     pipeline = yaml.safe_load(args.pipeline.read_text())
     manifest = verify_build(build, pipeline)
     contexts = [args.context_434_zh, args.context_435_en, args.context_435_zh]
+    groups = list(GROUPS)
+    if getattr(args, 'context_434_en', None):
+        groups.append(('434-en', '4.34', 'en'))
+        contexts.append(args.context_434_en)
     if len({len(items) for items in contexts}) != 1:
-        raise ValueError('Provide the same number of contexts for all three groups')
+        raise ValueError('Provide the same number of contexts for all selected groups')
     jobs, replies = [], {}
-    for (group, version, language), inputs in zip(GROUPS, contexts):
+    for (group, version, language), inputs in zip(groups, contexts):
         config = getattr(args, 'config_' + version.replace('.', '')).resolve()
         if not config.is_file() or config.stat().st_mode & 0o077:
             raise ValueError('Worker configuration must be a private readable file (mode 600)')
@@ -183,6 +187,8 @@ if __name__ == '__main__':
     parser.add_argument('--pipeline', type=Path, default=Path(__file__).resolve().parents[1] / 'pipeline.yml')
     for flag in ('434-zh', '435-en', '435-zh'):
         parser.add_argument('--context-' + flag, required=True, action='append', type=Path)
+    parser.add_argument('--context-434-en', action='append', type=Path,
+                        help='Also verify the shared English ZIP with stock 4.34; pair with the other groups')
     for version in ('434', '435'):
         parser.add_argument('--config-' + version, required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)

@@ -29,6 +29,12 @@ def value_sha(value):
     return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False, separators=(',', ':')).encode()).hexdigest()
 
 
+def package_paths(version, language):
+    compat_zh = version == '4.34' and language == 'zh-Hant'
+    return (Path('/build/translated' if compat_zh else '/build/en'),
+            Path('/build/chinese.zip' if compat_zh else '/build/english.zip'))
+
+
 def formats(metadata, profile):
     selected = {}
     for item in metadata['formats']:
@@ -72,7 +78,7 @@ def render():
             config = load_config_str(read_config(Path('/input/worker.yml'), encoding='utf-8'))
         else:
             config = load_config_str(Path('/input/worker.yml').read_text())
-    package = Path('/build/translated' if version == '4.34' else '/build/en')
+    package, archive_path = package_paths(version, language)
     metadata = read(package / 'template.json')
     identity = str(uuid.uuid5(uuid.NAMESPACE_URL, 'local-native-preview:' + sha(package / 'template.json')))
     coordinate = ':'.join(metadata[key] for key in ('organizationId', 'templateId', 'version'))
@@ -82,7 +88,7 @@ def render():
         from dsw.document_worker.worker import Job
         work = Path('/tmp/local-preview'); work.mkdir()
         Context.initialize(db=None, s3=None, config=config, workdir=work)
-        with zipfile.ZipFile('/build/chinese.zip') as archive:
+        with zipfile.ZipFile(archive_path) as archive:
             bundled = json.loads(archive.read('template/template.json'))
         assets = {item['uuid']: NS(uuid=item['uuid'], file_name=item['fileName'], content_type=item['contentType']) for item in bundled['assets']}
     else:
@@ -94,7 +100,12 @@ def render():
     for kind, format_id in formats(metadata, job['profile']).items():
         context = copy.deepcopy(prepared)
         bindings = []
-        for key, value in [('formatUuid', format_id), ('documentTemplateUuid', identity)]:
+        targets = [('formatUuid', format_id), ('documentTemplateUuid', identity)]
+        if version == '4.34':
+            # The old Server binds document language to the selected DT.
+            # Reusing the same wire context must reproduce that binding too.
+            targets.append(('language', language))
+        for key, value in targets:
             if context['document'].get(key) != value:
                 bindings.append({'path': '/document/' + key, 'before': context['document'].get(key), 'after': value})
                 context['document'][key] = value

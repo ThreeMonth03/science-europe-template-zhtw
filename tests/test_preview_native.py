@@ -17,6 +17,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 from artifact_utils import PO_ARTIFACTS, stage_candidate
 import preview_native
 import preview_worker
+from smoke_native import synthetic_context
 
 sys.path.insert(0, str(ROOT / 'tests'))
 from test_artifact_lifecycle import POCandidateFixture
@@ -126,6 +127,27 @@ class NativePreviewTests(POCandidateFixture, unittest.TestCase):
         self.assertIs(result['same_answer_comparison'], True)
         self.assertFalse(self.args.output.exists())
 
+    def test_optional_english_434_is_paired_and_uses_the_english_package(self):
+        # The Worker records 4.34's selected-DT language binding separately.
+        self.args.context_434_en = self.args.context_434_zh
+        _, _, jobs = preview_native.plan(self.args)
+        self.assertEqual(4, len(jobs))
+        english = jobs[-1]
+        self.assertEqual(('434-en', '4.34', 'en'),
+                         tuple(english[k] for k in ('group', 'version', 'language')))
+        self.assertEqual(1, len({job['replies_sha256'] for job in jobs}))
+        self.assertEqual((Path('/build/en'), Path('/build/english.zip')),
+                         preview_worker.package_paths('4.34', 'en'))
+        for version, language, folder, archive in [
+                ('4.34', 'zh-Hant', 'translated', 'chinese.zip'),
+                ('4.35', 'en', 'en', 'english.zip'),
+                ('4.35', 'zh-Hant', 'en', 'english.zip')]:
+            self.assertEqual((Path('/build') / folder, Path('/build') / archive),
+                             preview_worker.package_paths(version, language))
+        self.args.context_434_en = self.args.context_434_zh * 2
+        with self.assertRaisesRegex(ValueError, 'same number'):
+            preview_native.plan(self.args)
+
     def test_existing_evidence_directory_is_never_overwritten(self):
         self.args.output.mkdir()
         sentinel = self.args.output / 'sentinel.txt'
@@ -187,6 +209,13 @@ class NativePreviewTests(POCandidateFixture, unittest.TestCase):
 
 
 class StockWorkerPythonPathTests(unittest.TestCase):
+    def test_public_smoke_has_no_project_answers_or_live_organization(self):
+        context = synthetic_context()
+        self.assertEqual('18.3', context['metamodelVersion'])
+        self.assertEqual({}, context['project']['replies'])
+        self.assertEqual([], context['knowledgeModel'].get('chapters', []))
+        self.assertEqual('example', context['organization']['organizationId'])
+
     def test_stock_user_site_is_available_to_parent_and_filter_subprocesses(self):
         for minor in (12, 13):
             with self.subTest(python_minor=minor), \

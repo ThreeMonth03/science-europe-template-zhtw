@@ -115,6 +115,20 @@ jobs:
         run: |
           ../tooling/.venv/bin/python ../english/scripts/check_catalog.py --po locales/zh-Hant.po \
             | tee "$SE_BUILD_DIR/catalog-check.json"
+      - name: Smoke packaged PDF and Word on both stock Workers
+        if: matrix.group == 'integration'
+        working-directory: zh
+        run: |
+          ../tooling/.venv/bin/python - <<'PY'
+          import subprocess, yaml
+          from pathlib import Path
+          pipeline = yaml.safe_load(Path('pipeline.yml').read_text())
+          for image in pipeline['runtime']['workers'].values():
+              subprocess.run(['docker', 'pull', image], check=True)
+          PY
+          ../tooling/.venv/bin/python scripts/smoke_native.py \
+            --build "$SE_BUILD_DIR" --output "$SE_BUILD_DIR/native-smoke"
+          cp "$SE_BUILD_DIR/native-smoke/receipt.json" "$SE_BUILD_DIR/native-smoke.json"
       - name: Preserve candidate and diagnostics even after failure
         if: always() && matrix.group == 'integration'
         uses: actions/upload-artifact@v4
@@ -127,6 +141,9 @@ jobs:
             zh/outputs/build-*/*.json
             zh/outputs/build-*/zh-Hant.po
             zh/outputs/build-*/zh-Hant.mo
+            zh/outputs/build-*/native-smoke/receipt.json
+            zh/outputs/build-*/native-smoke/**/worker-receipt.json
+            zh/outputs/build-*/native-smoke/**/worker.log
       - name: Preserve current unit execution counts and failures
         if: always() && matrix.group != 'integration'
         uses: actions/upload-artifact@v4
