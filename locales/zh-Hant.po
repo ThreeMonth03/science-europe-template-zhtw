@@ -4,7 +4,7 @@
 # English requirements remain the meaning reference; examples stay visible.
 msgid ""
 msgstr ""
-"Project-Id-Version: science-europe-enhanced 0.3.100\n"
+"Project-Id-Version: science-europe-enhanced 0.3.101\n"
 "Language: zh-Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,17 +85,17 @@ msgstr "預估資料量不大。"
 msgid "The estimated data volume is %(formatTotalQuantity)s."
 msgstr "預估資料量為 %(formatTotalQuantity)s。"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "We expect %(formatsVolumeFiles)s files, with an estimated average size of %(formatAverageQuantity)s."
-msgstr "預估共有 %(formatsVolumeFiles)s 個檔案，平均每個檔案約 %(formatAverageQuantity)s。"
+#. Preserve both files and study subjects; quantities remain estimates.
+msgid "The estimated number of files or study subjects is %(formatsVolumeFiles)s. The estimated average data volume per file or study subject is %(formatAverageQuantity)s."
+msgstr "預估檔案數或研究對象數為 %(formatsVolumeFiles)s，平均每個檔案或研究對象的資料量約為 %(formatAverageQuantity)s。"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "We expect %(formatsVolumeFiles)s files."
-msgstr "預估共有 %(formatsVolumeFiles)s 個檔案。"
+#. Preserve both possible counting units without inventing a missing average.
+msgid "The estimated number of files or study subjects is %(formatsVolumeFiles)s."
+msgstr "預估檔案數或研究對象數為 %(formatsVolumeFiles)s。"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "The estimated average file size is %(formatAverageQuantity)s."
-msgstr "每個檔案的平均大小預計為 %(formatAverageQuantity)s。"
+#. Preserve the per-file or per-study-subject denominator.
+msgid "The estimated average data volume per file or study subject is %(formatAverageQuantity)s."
+msgstr "平均每個檔案或研究對象的資料量約為 %(formatAverageQuantity)s。"
 
 #. Q2 current approved Chinese; same as baseline
 msgid "Reason for choosing this format:"
@@ -125,13 +125,13 @@ msgstr "是否預計日後將資料轉換為較適合封存的格式"
 msgid "estimated total volume (GB)"
 msgstr "預估資料總量（GB）"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "estimated number of files"
-msgstr "預估檔案數"
+#. Review hint preserves both files and study subjects.
+msgid "estimated number of files or study subjects"
+msgstr "預估檔案數或研究對象數"
 
-#. Q2 current approved Chinese; same as baseline
-msgid "estimated average file size (GB)"
-msgstr "預估平均檔案大小（GB）"
+#. Review hint preserves the per-file or per-study-subject denominator.
+msgid "estimated average data volume per file or study subject (GB)"
+msgstr "預估每個檔案或研究對象的平均資料量（GB）"
 
 #. Q2 current approved Chinese; same as baseline
 msgid "estimated data volume"
@@ -2646,8 +2646,8 @@ msgstr "資料因法律限制而無法完全開放。"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "The data cannot be made fully open because of patent-related commercial considerations."
-msgstr "資料因與專利相關的商業考量而無法完全開放。"
+msgid "The data cannot be made fully open because patent applications still need to be filed."
+msgstr "由於仍須先提出專利申請，資料無法完全公開。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
@@ -2670,8 +2670,8 @@ msgstr "法律限制"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "patent-related commercial considerations"
-msgstr "與專利相關的商業考量"
+msgid "patent applications still need to be filed"
+msgstr "仍須先提出專利申請"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
@@ -3222,8 +3222,8 @@ msgstr "此資料集的識別碼資訊："
 #. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
 msgctxt "questions/10-share-restrictions"
-msgid "Open access: this distribution will be shared with anyone."
-msgstr "資料將公開供任何人取用。"
+msgid "Open access: this distribution will be shared with anyone who complies with the licence conditions."
+msgstr "任何人皆可在遵守授權條款的前提下取用資料。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
@@ -3268,8 +3268,8 @@ msgstr "資料將存放於通用型資料儲存庫 %(repository)s。"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
 msgctxt "questions/10-share-restrictions"
-msgid "We do not need to contact the repository in advance because depositing data there is routine for us."
-msgstr "本計畫依例行流程將資料存入該儲存庫，無須事先聯繫。"
+msgid "We do not need to contact the repository in advance because depositing data there is routine for both us and the repository."
+msgstr "資料寄存對本計畫與該儲存庫而言皆屬例行作業，因此無須事先聯繫。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/10-share-restrictions.html.j2
@@ -3596,8 +3596,8 @@ msgstr "特定學科的資料儲存庫"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/11-data-preservation.html.j2
 msgctxt "questions/11-data-preservation"
-msgid "We do not need to contact the repository in advance because depositing data there is routine for us."
-msgstr "本計畫依例行流程將資料存入該儲存庫，無須事先聯繫。"
+msgid "We do not need to contact the repository in advance because depositing data there is routine for both us and the repository."
+msgstr "資料寄存對本計畫與該儲存庫而言皆屬例行作業，因此無須事先聯繫。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/11-data-preservation.html.j2
@@ -4473,8 +4473,8 @@ msgstr "本計畫將使用完整的既有資料集。"
 #. Approved existing Chinese; no retranslation.
 #: src/reuse-summary.html.j2
 msgctxt "reuse-summary"
-msgid "The project will reuse a subset of the data and document the filtering or selection process."
-msgstr "本計畫將使用既有資料的子集，並記錄篩選或選取的過程。"
+msgid "If we filter or select data, we will fully document the process."
+msgstr "若對資料進行篩選或選取，我們將完整記錄其過程。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/reuse-summary.html.j2
@@ -4649,26 +4649,26 @@ msgstr "本計畫蒐集及處理個人資料，"
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "The data cannot be made fully open because of commercial considerations unrelated to patents:"
-msgstr "資料因與專利無關的商業考量而無法完全開放："
+msgid "The data cannot be made fully open for other commercial reasons:"
+msgstr "資料因其他商業考量而無法完全公開："
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "The data cannot be made fully open because of commercial considerations unrelated to patents."
-msgstr "資料因與專利無關的商業考量而無法完全開放。"
+msgid "The data cannot be made fully open for other commercial reasons."
+msgstr "資料因其他商業考量而無法完全公開。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "The data cannot be made fully open because of reasons other than publishing a paper:"
-msgstr "資料因論文發表以外的其他考量而無法完全開放："
+msgid "The data cannot be made fully open for other reasons:"
+msgstr "資料因其他原因而無法完全公開："
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "The data cannot be made fully open because of reasons other than publishing a paper."
-msgstr "資料因論文發表以外的其他考量而無法完全開放。"
+msgid "The data cannot be made fully open for other reasons."
+msgstr "資料因其他原因而無法完全公開。"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
@@ -4685,26 +4685,26 @@ msgstr "其可在特定限制下取得，我們將在專案中遵循這些限制
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "commercial considerations unrelated to patents:"
-msgstr "與專利無關的商業考量："
+msgid "other commercial reasons:"
+msgstr "其他商業考量："
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "commercial considerations unrelated to patents"
-msgstr "與專利無關的商業考量"
+msgid "other commercial reasons"
+msgstr "其他商業考量"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "reasons other than publishing a paper:"
-msgstr "論文發表以外的其他考量："
+msgid "other reasons:"
+msgstr "其他原因："
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/08-copyright-ipr.html.j2
 msgctxt "questions/08-copyright-ipr"
-msgid "reasons other than publishing a paper"
-msgstr "論文發表以外的其他考量"
+msgid "other reasons"
+msgstr "其他原因"
 
 #. Approved existing Chinese; no retranslation.
 #: src/questions/09-ethical-issues.html.j2
