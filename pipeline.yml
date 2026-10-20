@@ -2,14 +2,14 @@ schema_version: 2
 profile: official-po-with-compat434
 source:
   repository: https://github.com/ThreeMonth03/science-europe-template.git
-  commit: 28b8b5262659ad3b0dc6fe1cee3ed037723244e4
+  commit: 8b9cff935bfeaa19f68484705b3108d7e905d28a
   organization_id: threemonth03
   template_id: science-europe-enhanced
-  version: 0.3.101
+  version: 0.3.102
 translation:
   organization_id: threemonth03
   template_id: science-europe-enhanced-zhtw-compat434
-  version: 0.3.104
+  version: 0.3.105
   language: zh-Hant
   catalog: locales/zh-Hant.po
 tooling:
