@@ -18,9 +18,27 @@ class CandidateArtifactWorkflowTests(unittest.TestCase):
                  and '-m unittest -v' in step.get('run', '')]
         self.assertEqual(1, len(steps))
         self.assertEqual('english', steps[0]['working-directory'])
-        for module in ('tests.test_reference_versions', 'tests.test_primary_identifiers'):
+        for module in ('tests.test_catalog', 'tests.test_reference_versions', 'tests.test_primary_identifiers'):
             with self.subTest(module=module):
                 self.assertIn(module, steps[0]['run'].split())
+
+    def test_catalog_boundary_is_checked_before_package_build(self):
+        workflow = yaml.safe_load((ROOT / '.github/workflows/pilot-checks.yml').read_text())
+        steps = workflow['jobs']['checks']['steps']
+        catalog_steps = [(index, step) for index, step in enumerate(steps)
+                         if 'scripts/refresh_po.py' in step.get('run', '')]
+        self.assertEqual(1, len(catalog_steps))
+        index, step = catalog_steps[0]
+        self.assertEqual("matrix.group == 'integration'", step['if'])
+        self.assertEqual('zh', step['working-directory'])
+        self.assertIn('../english/scripts/export_pot.py', step['run'])
+        self.assertIn('--pot outputs/ci/template.pot', step['run'])
+        self.assertNotIn('--english', step['run'])
+        self.assertIn('../english/scripts/check_catalog.py --po locales/zh-Hant.po', step['run'],
+                      'Keep strict runtime and Babel substitution checks before building')
+        build_index = next(index for index, step in enumerate(steps)
+                           if 'scripts/build.py' in step.get('run', ''))
+        self.assertLess(index, build_index)
 
     def test_integration_smokes_the_built_packages_with_pipeline_worker_locks(self):
         workflow = yaml.safe_load((ROOT / '.github/workflows/pilot-checks.yml').read_text())

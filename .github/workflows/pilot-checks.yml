@@ -81,6 +81,7 @@ jobs:
           mkdir -p outputs
           make verify DSW_TDK="$RUNNER_TEMP/english-check-venv/bin/dsw-tdk"
           "$RUNNER_TEMP/english-check-venv/bin/python" -m unittest -v \
+            tests.test_catalog \
             tests.test_current_behavior.CurrentI18nTests \
             tests.test_current_behavior.CurrentBudgetLayoutTests \
             tests.test_q3_storage_groups \
@@ -100,6 +101,16 @@ jobs:
           mkdir -p outputs/ci
           ../tooling/.venv/bin/python -m unittest discover -s tests -v \
             2>&1 | tee outputs/ci/current-po-unit.log
+      - name: Check English-owned POT and authoritative PO before building
+        if: matrix.group == 'integration'
+        working-directory: zh
+        run: |
+          mkdir -p outputs/ci
+          ../tooling/.venv/bin/python ../english/scripts/export_pot.py --output outputs/ci/template.pot
+          ../tooling/.venv/bin/python scripts/refresh_po.py --pot outputs/ci/template.pot \
+            | tee outputs/ci/catalog-check.json
+          ../tooling/.venv/bin/python ../english/scripts/check_catalog.py --po locales/zh-Hant.po \
+            | tee outputs/ci/substitution-check.json
       - name: Build exact locked bilingual packages
         if: matrix.group == 'integration'
         working-directory: zh
@@ -111,12 +122,6 @@ jobs:
         working-directory: zh
         run: |
           ../tooling/.venv/bin/python ../english/scripts/check_current.py --build "$SE_BUILD_DIR" --output "$SE_BUILD_DIR/current-behavior.json"
-      - name: Check authoritative PO against official 4.35 extraction
-        if: matrix.group == 'integration'
-        working-directory: zh
-        run: |
-          ../tooling/.venv/bin/python ../english/scripts/check_catalog.py --po locales/zh-Hant.po \
-            | tee "$SE_BUILD_DIR/catalog-check.json"
       - name: Smoke packaged PDF and Word on both stock Workers
         if: matrix.group == 'integration'
         working-directory: zh

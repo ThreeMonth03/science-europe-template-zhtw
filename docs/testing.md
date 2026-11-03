@@ -24,9 +24,9 @@ DSW_ENGLISH_CHECKOUT=../science-europe-template \
 
 | 工作 | 檢查內容 |
 | --- | --- |
-| english-unit | 鎖定英文的現行測試與 4.34 相容匯出器。 |
+| english-unit | 鎖定英文的現行測試、POT 抽取契約與 4.34 相容匯出器。 |
 | chinese-unit | 本 repo 的 PO 建置、候選生命週期及套件說明。 |
-| integration | 配對建置、兩語言行為、官方抽取結果對 PO，以及兩版 Worker 原生產文。 |
+| integration | 英文產 POT → 中文核對來源與 PO，再配對建置、檢查兩語言行為與兩版 Worker 原生產文。 |
 
 保留的 aggregate check 要求三組均成功。舊來源回放不再是現行 CI 的模式；
 需要研究歷史時，從 Git 取得當時的程式與依賴，不混入目前驗收。
@@ -46,9 +46,15 @@ CI 的 `current-candidate-not-a-release` artifact 包含五件交付資產及 ma
 
 譯文以整句或完整子句為單位，保留參數名稱；不要用改寫作者回答來修正文句。
 需要調整段落結構或缺答條件時，修改英文 repo 的共用 Jinja。
-`scripts/refresh_po.py` 使用官方抽取器，遇到無法解析的 Jinja 會中止，
-不產出不完整的 POT。唯讀檢查若發現新增／移除鍵、fuzzy 或空譯文會回傳失敗；
-指定新輸出目錄則只產生待審稿，不能作為翻譯核准或成品驗收。
+英文 repo 的 `scripts/export_pot.py` 使用官方抽取器，遇到無法解析的 Jinja
+會中止，不產出不完整的 POT；它要求乾淨、已提交的英文來源，並記錄模板座標
+與完整 commit。抽取與英文 catalog 檢查共用同一個來源讀取入口。
+
+本 repo 的 `scripts/refresh_po.py --pot ...` 不讀英文 checkout、不解析 Jinja，
+只接受與 `pipeline.yml` 來源座標及 commit 相符的 POT，再檢查及更新中文 PO。
+來源不明、版本不同或非法 POT 會在建立待審目錄前中止。唯讀檢查若發現新增／
+移除鍵、fuzzy 或空譯文會回傳失敗；指定新輸出目錄則只保存輸入 POT、產生
+待審 PO 與差異報告，不能作為翻譯核准或成品驗收。
 更新譯文後，仍須執行建置的鍵／參數檢查與下列原生成品驗收。
 
 ## PDF／Word 成品驗收

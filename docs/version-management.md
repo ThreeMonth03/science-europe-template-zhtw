@@ -2,14 +2,19 @@
 
 ## 唯一來源
 
-- 英文 repo：共用 Jinja、回答對應、排版與 `template.json`。
-- 中文 repo：唯一可編輯譯文 `locales/zh-Hant.po` 及建置設定 `pipeline.yml`。
+- 英文 repo：共用 Jinja、回答對應、排版、`template.json` 與 POT 抽取入口。
+- 中文 repo：唯一可編輯譯文 `locales/zh-Hant.po`、PO 更新／審閱及建置設定 `pipeline.yml`。
 - Tool repo：由 pipeline 鎖定的建置依賴與資源，不跟隨未指定的最新版本。
 - 產生的中文 ZIP／MO／展開樹：不可手改，不是第二份翻譯來源。
 
 `pipeline.yml` 同時鎖定英文完整 commit、英文 DT 版本、中文相容版本、
 Tool 完整 commit、建置依賴與 Worker image digest。候選 manifest 記錄實際
 checkout、資產 SHA256 與準備步驟。
+
+翻譯更新只接受英文入口產生的 POT；其 `X-DSW-Template` 與
+`X-DSW-Source-Commit` 必須分別等於 pipeline 鎖定的英文座標與完整 commit。
+即使兩個 commit 的 DT 版號或訊息集合相同，也不能默默換用未鎖定來源。
+POT 不手改、不另存成權威來源；需要改原句、語境或參數時回英文 Jinja 修改。
 
 ## Branch 與版本的分工
 
