@@ -1,4 +1,4 @@
-# Install the exact pipeline.yml tooling commit in editable mode separately.
+# Standalone DT build/test environment; no Tool checkout or editable install.
 dsw-tdk==4.35.0
 Jinja2==3.1.6
 polib==1.2.0

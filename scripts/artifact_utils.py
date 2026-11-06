@@ -1,11 +1,9 @@
-"""Canonical ZIP bytes and immutable, local candidate staging."""
+"""Immutable bilingual candidate provenance and local staging."""
 
 import hashlib
-import io
 import json
 import re
 import shutil
-import uuid
 import zipfile
 from pathlib import Path
 
@@ -18,36 +16,32 @@ def sha(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def canonicalize_zip(path: Path, timestamp: str) -> None:
-    result = io.BytesIO()
-    with zipfile.ZipFile(path) as source, zipfile.ZipFile(result, "w") as target:
-        for name in sorted(source.namelist()):
-            content = source.read(name)
-            if name == "template/template.json":
-                payload = json.loads(content)
-                payload["createdAt"] = payload["updatedAt"] = timestamp
-                for kind in ("files", "assets"):
-                    for item in payload[kind]:
-                        item["uuid"] = str(
-                            uuid.uuid5(
-                                uuid.NAMESPACE_URL,
-                                f"dsw-template/{payload['id']}/{kind}/{item['fileName']}",
-                            )
-                        )
-                    payload[kind].sort(key=lambda item: item["fileName"])
-                content = (
-                    json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
-                ).encode()
-            info = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
-            info.compress_type = zipfile.ZIP_DEFLATED
-            target.writestr(info, content)
-    path.write_bytes(result.getvalue())
+def validate_checkouts(manifest: dict, *, allow_preview: bool = False) -> None:
+    """Schema 3 records only the English source and the authoritative translation."""
+    if manifest.get("schema_version") != 3 or "tooling" in manifest:
+        raise ValueError("Schema 3 source-owned English package provenance is required")
+    checkouts = manifest.get("checkouts", {})
+    if not isinstance(checkouts, dict) or set(checkouts) != {"english", "translation"}:
+        raise ValueError("Exactly English and translation checkout provenance is required")
+    source = manifest.get("source", {})
+    source_commit = source.get("commit") if isinstance(source, dict) else None
+    if not isinstance(source_commit, str) or not re.fullmatch(r"[0-9a-f]{40}", source_commit):
+        raise ValueError("PO candidate requires an exact source commit lock")
+    preview = allow_preview and manifest.get("status") == "preview"
+    for name, state in checkouts.items():
+        if (not isinstance(state, dict) or not isinstance(state.get("commit"), str)
+                or not re.fullmatch(r"[0-9a-f]{40}", state["commit"])
+                or type(state.get("dirty")) is not bool):
+            raise ValueError(f"An identified {name} checkout with explicit state is required")
+        if not preview and (state["dirty"] or name == "english" and state["commit"] != source_commit):
+            raise ValueError(f"PO candidate requires a clean, locked {name} checkout")
 
 
 def validate_po_candidate(build: Path, manifest: dict, report: dict) -> None:
     """Bind both runtime deliveries to the same reviewed source and catalog."""
     import polib
 
+    validate_checkouts(manifest)
     hashes = manifest.get("sha256", {})
     if set(hashes) != set(PO_ARTIFACTS):
         raise ValueError("PO candidates require exactly five distributable artifact hashes")
@@ -58,23 +52,6 @@ def validate_po_candidate(build: Path, manifest: dict, report: dict) -> None:
         raise ValueError("Acceptance report is not bound to all PO candidate artifacts")
     if report.get("manifest_sha256") != sha(build / "manifest.json"):
         raise ValueError("Acceptance report is not bound to this manifest")
-
-    checkouts = manifest.get("checkouts", {})
-    for name in ("source", "tooling"):
-        commit = manifest.get(name, {}).get("commit", "")
-        state = checkouts.get("english" if name == "source" else name, {})
-        if (
-            not re.fullmatch(r"[0-9a-f]{40}", commit)
-            or state.get("commit") != commit
-            or state.get("dirty") is not False
-        ):
-            raise ValueError(f"PO candidate requires a clean, locked {name} checkout")
-    translation_state = checkouts.get("translation", {})
-    if (
-        not re.fullmatch(r"[0-9a-f]{40}", translation_state.get("commit", ""))
-        or translation_state.get("dirty") is not False
-    ):
-        raise ValueError("PO candidate requires a clean, identified translation checkout")
 
     po_metadata = manifest.get("po", {})
     if (

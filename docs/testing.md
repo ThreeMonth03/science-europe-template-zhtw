@@ -2,19 +2,20 @@
 
 ## 可重複執行的檢查
 
-先使用 `pipeline.yml` 鎖定的英文及 Tool checkout，安裝宣告的依賴。
-以含鎖定 Tool 的隔離 Python 環境執行：
+先使用 `pipeline.yml` 鎖定的英文 checkout，依 README 在本 repo 的 `.venv`
+安裝宣告的依賴；不需 Tool checkout 或 editable 安裝。執行：
 
 ```sh
 DSW_ENGLISH_CHECKOUT=../science-europe-template \
-  ../dsw-document-template-tool/.venv/bin/python -m unittest discover -s tests -v
+  .venv/bin/python -m unittest discover -s tests -v
 ```
 
-保留的測試涵蓋 PO 建置、候選不可覆寫／來源配對，以及套件說明與時間戳記。
+保留的測試涵蓋 PO 建置、英文建置委派、候選不可覆寫及來源配對。
+英文封裝、套件說明與時間戳記的測試由英文 repo 負責，不在中文重複實作。
 正式建置後，檢查實際準備好的兩個語言包：
 
 ```sh
-../dsw-document-template-tool/.venv/bin/python \
+.venv/bin/python \
   ../science-europe-template/scripts/check_current.py \
   --build outputs/build-REPLACE_ME \
   --output outputs/build-REPLACE_ME/current-behavior.json
@@ -24,14 +25,18 @@ DSW_ENGLISH_CHECKOUT=../science-europe-template \
 
 | 工作 | 檢查內容 |
 | --- | --- |
-| english-unit | 鎖定英文的現行測試、POT 抽取契約與 4.34 相容匯出器。 |
-| chinese-unit | 本 repo 的 PO 建置、候選生命週期及套件說明。 |
+| english-unit | 英文自己的依賴環境、現行測試、POT／封裝／公開 KM 契約與 4.34 相容匯出器。 |
+| chinese-unit | 本 repo 的 PO 建置委派與候選生命週期。 |
 | integration | 英文產 POT → 中文核對來源與 PO，再配對建置、檢查兩語言行為與兩版 Worker 原生產文。 |
 
 保留的 aggregate check 要求三組均成功。舊來源回放不再是現行 CI 的模式；
 需要研究歷史時，從 Git 取得當時的程式與依賴，不混入目前驗收。
 CI 的 `current-candidate-not-a-release` artifact 包含五件交付資產及 manifest。
 失敗時也可能保留診斷產物；下載成功不等於建置成功或已核准發布。
+
+CI 只 checkout 英文與中文 repo，不 checkout／安裝 Tool。英文單元組只安裝
+英文宣告的依賴；中文與整合組使用本 repo 的獨立環境。KM 測試快照由英文
+repo 追蹤並離線驗 SHA256，不從其他 repo 臨時取得。
 
 `smoke_native.py` 用公開的空白合成 context，將實際建置的 ZIP 跑完
 4.34／4.35 中英文 PDF 與 Word，共八個輸出。它防止「打包成功但產文失敗」，
@@ -132,7 +137,7 @@ LibreOffice 預覽不等於 Microsoft Word 實機驗收。案例通過與 CI 綠
 並綁定該 manifest 與五件 PO 交付資產的完整 SHA256；不能拿另一輪報告放行。
 
 ```sh
-../dsw-document-template-tool/.venv/bin/python scripts/stage_candidate.py \
+.venv/bin/python scripts/stage_candidate.py \
   --build outputs/build-REPLACE_ME --store /path/to/local-candidate-store
 ```
 

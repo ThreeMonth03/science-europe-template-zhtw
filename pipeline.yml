@@ -1,8 +1,8 @@
-schema_version: 2
+schema_version: 3
 profile: official-po-with-compat434
 source:
   repository: https://github.com/ThreeMonth03/science-europe-template.git
-  commit: d7e4e8736d4b9f5c8e013fbc3f2f370137125998
+  commit: ff2258932d1d23a7968d5f476f14f86d2a378271
   organization_id: threemonth03
   template_id: science-europe-enhanced
   version: 0.3.104
@@ -12,9 +12,6 @@ translation:
   version: 0.3.107
   language: zh-Hant
   catalog: locales/zh-Hant.po
-tooling:
-  repository: https://github.com/ThreeMonth03/dsw-document-template-tool.git
-  commit: 233403bee7914705e7d2e5b24f5e47f68d8cbda7
 build_dependencies:
   dsw-tdk: 4.35.0
   Jinja2: 3.1.6

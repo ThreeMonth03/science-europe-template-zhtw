@@ -7,19 +7,16 @@ import hashlib
 import importlib.metadata
 import importlib.util
 import json
-import re
 import shutil
 import subprocess
 import sys
 import tempfile
 import zipfile
-from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
-import dsw_document_template_tool
 
-from artifact_utils import PO_ARTIFACTS, PO_PROFILE, canonicalize_zip
+from artifact_utils import PO_ARTIFACTS, PO_PROFILE
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -46,39 +43,6 @@ def write_json(path: Path, value) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def localize_format_names(metadata: dict, names: dict) -> None:
-    """Display labels only: never change format identities or rendering steps."""
-    formats = metadata['formats']
-    identifiers = [item['uuid'] for item in formats]
-    if len(set(identifiers)) != len(identifiers) or not set(names) <= set(identifiers):
-        raise ValueError('Format labels must name unique existing format UUIDs')
-    if any(not isinstance(label, str) or not label.strip() for label in names.values()):
-        raise ValueError('Format labels must be non-empty text')
-    for item in formats:
-        if item['uuid'] in names:
-            item['name'] = names[item['uuid']]
-
-
-def set_template_language(metadata: dict, language: str) -> None:
-    """Declare the descriptor locale without changing format identities or steps."""
-    if language not in ('en', 'zh-Hant'):
-        raise ValueError('Unsupported template language')
-    metadata['language'] = language
-
-
-def select_tdk(tooling: Path, override: Path | None = None) -> Path:
-    """Use the active locked build environment; tooling code is pinned separately."""
-    return (override if override is not None else Path(sys.executable).with_name('dsw-tdk')).resolve()
-
-
-def tdk_provenance(executable: Path) -> dict:
-    output = subprocess.check_output([str(executable), '--version'], text=True).strip()
-    match = re.search(r'\bversion\s+(\S+)\s*$', output)
-    if match is None:
-        raise ValueError(f'Cannot identify TDK version: {executable}')
-    return {'executable': str(executable), 'version': match.group(1)}
-
-
 def require_clean_lock(path: Path, lock: str, preview: bool) -> dict:
     state = fingerprint(path)
     if not preview and (state["dirty"] or state["commit"] != lock):
@@ -86,39 +50,26 @@ def require_clean_lock(path: Path, lock: str, preview: bool) -> dict:
     return state
 
 
-PACKAGE_INPUT_PATHS = ('template.json', 'src', 'scripts/prepare_layout.py', 'PACKAGE_README.md', 'LICENSE')
-
-
-def package_readme(root: Path) -> Path:
-    path = root / 'PACKAGE_README.md'
-    if not path.is_file() or not path.read_text().strip():
-        raise ValueError(f'Non-empty package README required: {path}')
-    return path
-
-
-def package_timestamp(english: Path) -> str:
-    # Navigation docs, tests and review archives are not package inputs.
-    # A shallow boundary treats a tests-only commit as adding the whole tree,
-    # silently changing package metadata even when every source byte matches.
-    if git(english, 'rev-parse', '--is-shallow-repository') != 'false':
-        raise ValueError('Full English history required for reproducible package timestamps; fetch with --unshallow or use fetch-depth: 0')
-    value = git(english, 'log', '-1', '--format=%cI', 'HEAD', '--', *PACKAGE_INPUT_PATHS)
-    if not value:
-        raise ValueError('No committed English package inputs found')
-    return datetime.fromisoformat(value).astimezone(timezone.utc).isoformat().replace('+00:00', 'Z')
-
-
 def inventory(root: Path) -> dict:
     return {p.relative_to(root).as_posix(): sha(p)
             for p in sorted((root / "src").rglob("*")) if p.is_file()}
+
+
+def load_english_package_builder(english: Path):
+    """Load the package API from the source checkout whose commit the caller locked."""
+    path = english / "scripts/build_package.py"
+    spec = importlib.util.spec_from_file_location("locked_english_package_builder", path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 def build(args) -> Path:
     if getattr(args, "tdk", None) is not None and not args.preview:
         raise ValueError("TDK override is a preview-only rehearsal")
     config = yaml.safe_load((ROOT / "pipeline.yml").read_text())
-    if config.get("schema_version") != 2 or config.get("profile") != PO_PROFILE:
-        raise ValueError("This build requires the committed official PO pipeline profile")
+    if config.get("schema_version") != 3 or config.get("profile") != PO_PROFILE or "tooling" in config:
+        raise ValueError("This build requires the schema 3 source-owned English package pipeline")
     target = dict(config["translation"])
     if args.translation_version is not None:
         if not args.preview:
@@ -128,20 +79,18 @@ def build(args) -> Path:
             or target["organization_id"] != config["source"]["organization_id"]
             or target["template_id"] != config["source"]["template_id"] + "-zhtw-compat434"):
         raise ValueError("Chinese catalog and compatibility identity differ from this profile")
-    english, tooling = args.english.resolve(), args.tooling.resolve()
-    if not Path(dsw_document_template_tool.__file__).resolve().is_relative_to(tooling / "src"):
-        raise ValueError("Imported tooling must come from the locked --tooling checkout")
+    english = args.english.resolve()
     states = {
         "english": require_clean_lock(english, config["source"]["commit"], args.preview),
-        "tooling": require_clean_lock(tooling, config["tooling"]["commit"], args.preview),
         "translation": fingerprint(ROOT),
     }
     if not args.preview and states["translation"]["dirty"]:
         raise ValueError("Release candidates require committed PO and configuration")
-    if states["english"]["commit"] is None or states["tooling"]["commit"] is None:
-        raise ValueError("Identified Git source and tooling checkouts are required")
-    tdk = select_tdk(tooling, getattr(args, "tdk", None))
-    actual_tdk = tdk_provenance(tdk)
+    if any(state["commit"] is None for state in states.values()):
+        raise ValueError("Identified Git source and translation checkouts are required")
+    package_builder = load_english_package_builder(english)
+    tdk = package_builder.select_tdk(getattr(args, "tdk", None))
+    actual_tdk = package_builder.tdk_provenance(tdk)
     versions = {name: importlib.metadata.version(name)
                 for name in ("dsw-tdk", "Jinja2", "polib", "python-docx")}
     expected = config["build_dependencies"]
@@ -159,23 +108,13 @@ def build(args) -> Path:
     output_root = ROOT / "outputs"
     output_root.mkdir(exist_ok=True)
     output = Path(tempfile.mkdtemp(prefix="build-", dir=output_root))
-    timestamp = package_timestamp(english)
     prepared = output / "en"
-    prepared.mkdir()
-    shutil.copytree(english / "src", prepared / "src")
-    for filename in ("template.json", "LICENSE"):
-        shutil.copyfile(english / filename, prepared / filename)
-    shutil.copyfile(package_readme(english), prepared / "README.md")
-    set_template_language(source_metadata, "en")
-    write_json(prepared / "template.json", source_metadata)
-    font = tooling / "src/dsw_document_template_tool/resources/fonts/NotoSansTC-Variable.ttf"
-    # Exactly one preparation: Chinese is a generated runtime profile of this
-    # package, not a second reference/style preparation or translated Jinja fork.
-    subprocess.run([sys.executable, str(english / "scripts/prepare_layout.py"),
-                    "--template", str(prepared), "--font", str(font),
-                    "--language", "en"], check=True)
-    for license_file in font.parent.glob("*.txt"):
-        shutil.copyfile(license_file, prepared / "src/fonts" / license_file.name)
+    # The English source owns its preparation, font assets and deterministic ZIP.
+    # Chinese generation consumes that package; it never prepares layout again.
+    packaged = package_builder.build_package(english, output, tdk)
+    timestamp = packaged["package_timestamp"]
+    if packaged["tdk"] != actual_tdk:
+        raise ValueError("TDK CLI changed during English package generation")
 
     def tdk_run(label: str, *arguments: str) -> None:
         result = subprocess.run([str(tdk), "--no-config", "--no-dot-env", *map(str, arguments)],
@@ -184,9 +123,6 @@ def build(args) -> Path:
         if result.returncode:
             raise ValueError(f"TDK {label} failed; see {output / (label + '.log')}")
 
-    tdk_run("english-verify", "verify", prepared)
-    tdk_run("english-package", "package", prepared, "--output", output / "english.zip")
-    canonicalize_zip(output / "english.zip", timestamp)
     shutil.copyfile(ROOT / target["catalog"], output / "zh-Hant.po")
     exporter_path = english / "scripts/export_legacy_locale.py"
     spec = importlib.util.spec_from_file_location("locked_legacy_exporter", exporter_path)
@@ -217,14 +153,13 @@ def build(args) -> Path:
     if {name for name in english_inventory
             if english_inventory[name] != chinese_inventory[name]} != {language_path}:
         raise ValueError("Chinese generation changed shared render source or assets")
-    final_states = {"english": fingerprint(english), "tooling": fingerprint(tooling),
-                    "translation": fingerprint(ROOT)}
+    final_states = {"english": fingerprint(english), "translation": fingerprint(ROOT)}
     if final_states != states:
         raise ValueError("Input checkout state changed during build; discard this candidate")
     write_json(output / "manifest.json", {
-        "schema_version": 2, "profile": PO_PROFILE,
+        "schema_version": 3, "profile": PO_PROFILE,
         "status": "preview" if args.preview else "candidate",
-        "source": config["source"], "tooling": config["tooling"],
+        "source": config["source"],
         "translation": target, "runtime": config["runtime"],
         "tdk": actual_tdk, "build_dependencies": versions,
         "package_timestamp": timestamp, "checkouts": states,
@@ -246,7 +181,6 @@ def build(args) -> Path:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--english", type=Path, required=True)
-    parser.add_argument("--tooling", type=Path, required=True)
     parser.add_argument("--tdk", type=Path, help="Preview-only CLI override")
     parser.add_argument("--preview", action="store_true")
     parser.add_argument("--translation-version", help="Preview-only independent version rehearsal")

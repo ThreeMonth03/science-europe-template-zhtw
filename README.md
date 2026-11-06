@@ -7,7 +7,8 @@
 
 ## 目前流程
 
-`pipeline.yml` 是版本配對與依賴的唯一設定來源，鎖定英文及 Tool 的完整 commit。
+`pipeline.yml` 是版本配對與依賴的唯一設定來源，鎖定英文完整 commit、
+官方建置套件版本及 Worker digest。新 DT 不再依賴 Tool checkout。
 
 | 執行環境 | 交付方式 |
 | --- | --- |
@@ -19,17 +20,19 @@
 
 ## 安裝與建置
 
-先 checkout `pipeline.yml` 鎖定的英文與 Tool commit，再在隔離環境安裝
-Tool 及本 repo 的 `requirements-dev.txt`。Tool 必須從該 checkout 以 editable
-方式安裝（在 Tool repo 執行 `pip install -e '.[dev]'`），不能只裝同名 PyPI 套件。
-以下範例假設三個 repo 放在同一層，
-工具環境為 `../dsw-document-template-tool/.venv`：
+先 checkout `pipeline.yml` 鎖定的英文 commit（保留完整 Git 歷史），再在
+本 repo 建立自己的隔離環境。以下範例假設英文與中文 repo 放在同一層：
 
 ```sh
-../dsw-document-template-tool/.venv/bin/python scripts/build.py \
-  --english ../science-europe-template \
-  --tooling ../dsw-document-template-tool
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-dev.txt
+.venv/bin/python scripts/build.py --english ../science-europe-template
 ```
+
+英文 repo 的 `scripts/build_package.py` 負責英文來源、字型、Word reference
+的準備及封裝；本 repo 只呼叫這個入口，再配對中文 PO、產生 4.34 相容包及
+記錄交付驗證。英文也可在自己的 repo 用 `make package` 獨立建置。
+不需要安裝 Tool，也不從 Tool 複製字型或下載 KM 測試資料。
 
 正式候選要求所有輸入乾淨且已提交。尚未提交的開發測試可加 `--preview`；
 預覽不具發布資格。每次建立新的 `outputs/build-*`，不覆寫舊產物。
@@ -45,7 +48,7 @@ Tool 及本 repo 的 `requirements-dev.txt`。Tool 必須從該 checkout 以 edi
 入口產生新的 POT。以下命令都在本 repo 執行；POT 存放位置不改變其來源責任：
 
 ```sh
-../dsw-document-template-tool/.venv/bin/python \
+.venv/bin/python \
   ../science-europe-template/scripts/export_pot.py \
   --output outputs/template-NEW.pot
 ```
@@ -57,7 +60,7 @@ POT 內含英文模板座標與完整 commit。本 repo 會將兩者和 `pipelin
 接著核對 POT 與 PO；不帶 `--output` 時只檢查，不改任何檔案：
 
 ```sh
-../dsw-document-template-tool/.venv/bin/python scripts/refresh_po.py \
+.venv/bin/python scripts/refresh_po.py \
   --pot outputs/template-NEW.pot
 ```
 
