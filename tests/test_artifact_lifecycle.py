@@ -8,7 +8,7 @@ from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from artifact_utils import MO_MEMBER, PO_ARTIFACTS, PO_PROFILE, canonicalize_zip, sha, stage_candidate  # noqa: E402
+from artifact_utils import MO_MEMBER, PO_ARTIFACTS, PO_PROFILE, sha, stage_candidate  # noqa: E402
 from build import require_clean_lock  # noqa: E402
 
 
@@ -46,15 +46,14 @@ class POCandidateFixture:
         }
         (self.build / "chinese.zip.json").write_text(json.dumps(self.sidecar))
         self.manifest = {
+            "schema_version": 3,
             "profile": PO_PROFILE,
             "status": "candidate",
             "untranslated_units": [],
             "source": {"commit": "a" * 40, "organization_id": "example", "template_id": "template", "version": "0.3.78"},
-            "tooling": {"commit": "b" * 40},
             "translation": {"organization_id": "example", "template_id": "template-zhtw-compat434", "version": "0.3.81"},
             "checkouts": {
                 "english": {"commit": "a" * 40, "dirty": False},
-                "tooling": {"commit": "b" * 40, "dirty": False},
                 "translation": {"commit": "c" * 40, "dirty": False},
             },
             "po": {
@@ -140,28 +139,12 @@ class CandidateTests(POCandidateFixture, unittest.TestCase):
             stage_candidate(self.build, self.root / "store")
         self.assertFalse((self.root / "store").exists())
 
-    def test_source_and_tool_checkouts_must_be_clean_and_locked(self):
+    def test_source_checkout_must_be_clean_and_locked(self):
         for state in ({"commit": "correct", "dirty": True}, {"commit": "wrong", "dirty": False}):
             with patch("build.fingerprint", return_value=state), self.assertRaises(ValueError):
                 require_clean_lock(self.root, "correct", False)
         with patch("build.fingerprint", return_value={"commit": "correct", "dirty": False}):
             self.assertEqual("correct", require_clean_lock(self.root, "correct", False)["commit"])
-
-    def test_tdk_build_metadata_is_canonicalized(self):
-        for number in (1, 2):
-            payload = {
-                "id": "example:template:0.1.0",
-                "createdAt": str(number),
-                "updatedAt": str(number),
-                "files": [{"uuid": str(number), "fileName": "src/test.j2", "content": "Hello"}],
-                "assets": [],
-            }
-            file = self.root / f"{number}.zip"
-            with zipfile.ZipFile(file, "w") as archive:
-                archive.writestr("template/template.json", json.dumps(payload))
-            canonicalize_zip(file, "2026-09-11T00:00:00Z")
-        self.assertEqual(sha(self.root / "1.zip"), sha(self.root / "2.zip"))
-
 
 class POCandidateTests(POCandidateFixture, unittest.TestCase):
     def test_all_po_deliveries_and_provenance_are_staged(self):
@@ -273,14 +256,39 @@ class POCandidateTests(POCandidateFixture, unittest.TestCase):
         self.assert_rejected()
 
     def test_checkouts_must_be_complete_clean_commits(self):
-        for name in ("english", "tooling", "translation"):
-            for replacement in ({"commit": "short", "dirty": False}, {"commit": "a" * 40, "dirty": True}):
+        for name in ("english", "translation"):
+            for replacement in (None, {"commit": None, "dirty": False},
+                                {"commit": "short", "dirty": False},
+                                {"commit": "a" * 40, "dirty": True},
+                                {"commit": "a" * 40, "dirty": 0}):
                 with self.subTest(name=name, replacement=replacement):
                     original = self.manifest["checkouts"][name]
                     self.manifest["checkouts"][name] = replacement
                     self.save()
                     self.assert_rejected()
                     self.manifest["checkouts"][name] = original
+
+    def test_missing_mismatched_or_extra_checkout_provenance_is_rejected(self):
+        for mutate in (lambda: self.manifest["checkouts"].pop("translation"),
+                       lambda: self.manifest["checkouts"]["english"].update(commit="d" * 40),
+                       lambda: self.manifest["checkouts"].update(tooling={"commit": "b" * 40, "dirty": False})):
+            with self.subTest(mutate=mutate):
+                original = json.loads(json.dumps(self.manifest))
+                mutate()
+                self.save()
+                self.assert_rejected()
+                self.manifest = original
+
+    def test_old_schema_and_tool_contract_cannot_claim_schema_3_acceptance(self):
+        for schema in (None, 2, 4):
+            with self.subTest(schema=schema):
+                self.manifest["schema_version"] = schema
+                self.save()
+                self.assert_rejected()
+        self.manifest["schema_version"] = 3
+        self.manifest["tooling"] = {"commit": "b" * 40}
+        self.save()
+        self.assert_rejected()
 
     def test_po_candidate_identity_cannot_escape_store(self):
         self.manifest["translation"]["version"] = "../../outside"

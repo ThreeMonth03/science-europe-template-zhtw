@@ -56,6 +56,8 @@ class NativePreviewTests(POCandidateFixture, unittest.TestCase):
         self.manifest['runtime'] = {'workers': {
             '4.34': 'datastewardshipwizard/document-worker@sha256:' + 'd'*64,
             '4.35': 'datastewardshipwizard/document-worker@sha256:' + 'e'*64}}
+        self.manifest['build_dependencies'] = {'dsw-tdk': '4.35.0', 'Jinja2': '3.1.6',
+                                               'polib': '1.2.0', 'python-docx': '1.2.0'}
         self.manifest['rendering'] = {}
         for folder, inventory in [('en', 'english'), ('translated', 'compat434')]:
             base = self.build / folder
@@ -64,7 +66,8 @@ class NativePreviewTests(POCandidateFixture, unittest.TestCase):
                 for p in (base / 'src').rglob('*') if p.is_file()}
         self.report['package_sha256'] = dict(self.manifest['sha256'])
         self.save()
-        self.pipeline = {k: copy.deepcopy(self.manifest[k]) for k in ['profile', 'source', 'tooling', 'translation', 'runtime']}
+        self.pipeline = {k: copy.deepcopy(self.manifest[k]) for k in
+                         ['schema_version', 'profile', 'source', 'translation', 'runtime', 'build_dependencies']}
         self.pipeline_path = self.root / 'pipeline.yml'
         self.pipeline_path.write_text(yaml.safe_dump(self.pipeline))
         self.args = SimpleNamespace(build=self.build, pipeline=self.pipeline_path,
@@ -94,6 +97,45 @@ class NativePreviewTests(POCandidateFixture, unittest.TestCase):
                 with self.assertRaises(ValueError):
                     preview_native.verify_build(self.build, self.pipeline)
                 path.write_bytes(original)
+
+    def test_native_verifier_rejects_old_schema_and_tool_checkout_contract(self):
+        for schema in (None, 2):
+            with self.subTest(schema=schema):
+                pipeline = dict(self.pipeline, schema_version=schema)
+                with self.assertRaisesRegex(ValueError, 'schema 3'):
+                    preview_native.verify_build(self.build, pipeline)
+        for container in (self.manifest, self.pipeline):
+            container['tooling'] = {'commit': 'b' * 40}
+            self.save()
+            with self.assertRaises(ValueError):
+                preview_native.verify_build(self.build, self.pipeline)
+            container.pop('tooling')
+        self.save()
+
+    def test_native_verifier_binds_dependency_lock_and_clean_candidate_source(self):
+        self.pipeline['build_dependencies']['dsw-tdk'] = 'wrong'
+        with self.assertRaisesRegex(ValueError, 'provenance differs'):
+            preview_native.verify_build(self.build, self.pipeline)
+        self.pipeline['build_dependencies']['dsw-tdk'] = '4.35.0'
+        for checkout in ('english', 'translation'):
+            self.manifest['checkouts'][checkout]['dirty'] = True
+            self.save()
+            with self.subTest(checkout=checkout), self.assertRaisesRegex(ValueError, 'clean, locked'):
+                preview_native.verify_build(self.build, self.pipeline)
+            self.manifest['checkouts'][checkout]['dirty'] = False
+        self.manifest['checkouts']['english']['commit'] = 'f' * 40
+        self.save()
+        with self.assertRaisesRegex(ValueError, 'clean, locked'):
+            preview_native.verify_build(self.build, self.pipeline)
+
+    def test_native_preview_allows_recorded_dirty_inputs_without_becoming_a_candidate(self):
+        self.manifest['status'] = 'preview'
+        self.manifest['checkouts']['english'].update(commit='f' * 40, dirty=True)
+        self.manifest['checkouts']['translation']['dirty'] = True
+        self.save()
+        preview_native.verify_build(self.build, self.pipeline)
+        with self.assertRaisesRegex(ValueError, 'Only locked'):
+            stage_candidate(self.build, self.root / 'store')
 
     def test_rehashed_prepared_source_cannot_differ_from_packaged_zip(self):
         file = self.build / 'en/src/index.html.j2'

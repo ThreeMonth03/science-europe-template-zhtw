@@ -1,14 +1,13 @@
-"""Check current POT/PO keys; explicitly output a new review draft, never approval."""
+"""Review a locked English POT against the authoritative Traditional Chinese PO."""
 import argparse
 from collections import Counter
 import copy
 import json
 from pathlib import Path
 import re
-from types import SimpleNamespace
 
 import polib
-from dsw.templating.pot import extract_catalog, render_pot_file
+import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 FORMAT = r'%%|%\(([^)]+)\)([-+#0 ]*\d*(?:\.\d+)?[diouxXeEfFgGcrsa])'
@@ -25,6 +24,8 @@ def keys(entries):
     if len(result) != len(set(result)):
         raise ValueError('Duplicate active catalog keys')
     for entry in entries:
+        if not entry.msgid.strip():
+            raise ValueError('Empty catalog message is unsupported')
         if entry.msgctxt == '' or '\x04' in (entry.msgctxt or '') + entry.msgid or entry.msgid_plural or entry.msgstr_plural:
             raise ValueError('Empty context, EOT or plural catalog key is unsupported')
         source_parameters = parameters(entry.msgid)
@@ -33,19 +34,38 @@ def keys(entries):
     return set(result)
 
 
-def refresh(english, po_path=ROOT / 'locales/zh-Hant.po', output=None):
-    english, po_path = Path(english).resolve(), Path(po_path).resolve()
-    metadata = json.loads((english / 'template.json').read_text())
-    if metadata.get('language') != 'en':
-        raise ValueError('Extract from the shared English template only')
-    coordinate = ':'.join(metadata[k] for k in ('organizationId', 'templateId', 'version'))
-    files = [SimpleNamespace(file_name=p.relative_to(english).as_posix(), content=p.read_text())
-             for p in (english / 'src').rglob('*') if p.suffix in {'.j2', '.jinja', '.jinja2', '.jnj'}]
-    result = extract_catalog(files, project=coordinate, version=metadata['version'], language='en')
-    if not files or result.failed_files:
-        raise ValueError('Incomplete POT extraction: ' + ', '.join(result.failed_files))
-    pot_bytes = render_pot_file(result)
-    pot = polib.pofile(pot_bytes.decode('utf-8'))
+def locked_pot(pot_path, pipeline_path):
+    """Accept source-owner POT artifacts only when their provenance matches the lock."""
+    config = yaml.safe_load(Path(pipeline_path).read_text(encoding='utf-8'))
+    source = config.get('source') if isinstance(config, dict) else None
+    if not isinstance(source, dict):
+        raise ValueError('Pipeline source lock is missing')
+    fields = ('organization_id', 'template_id', 'version')
+    if any(not isinstance(source.get(field), str) or not source[field].strip() for field in fields):
+        raise ValueError('Pipeline source coordinate is missing or malformed')
+    coordinate = ':'.join(source[field] for field in fields)
+    commit = source.get('commit')
+    if not isinstance(commit, str) or re.fullmatch(r'[0-9a-f]{40}', commit) is None:
+        raise ValueError('Pipeline source commit must be an exact 40-character Git commit')
+    pot_bytes = Path(pot_path).read_bytes()
+    try:
+        pot = polib.pofile(pot_bytes.decode('utf-8'))
+    except (OSError, UnicodeError) as error:
+        raise ValueError('Malformed UTF-8 POT catalog') from error
+    expected = {'Language': 'en', 'X-DSW-Template': coordinate, 'X-DSW-Source-Commit': commit}
+    for header, value in expected.items():
+        if pot.metadata.get(header) != value:
+            raise ValueError(f'POT {header} must match the pipeline source lock: {value}')
+    if not pot or any(entry.obsolete or entry.msgstr or entry.msgstr_plural for entry in pot):
+        raise ValueError('POT must contain non-empty, untranslated active template entries only')
+    keys(pot)
+    return pot_bytes, pot, coordinate, commit
+
+
+def refresh(pot_path, po_path=ROOT / 'locales/zh-Hant.po', output=None,
+            pipeline_path=ROOT / 'pipeline.yml'):
+    pot_bytes, pot, coordinate, commit = locked_pot(pot_path, pipeline_path)
+    po_path = Path(po_path).resolve()
     raw = po_path.read_bytes()
     original = polib.pofile(raw.decode('utf-8'))
     if original.metadata.get('Language') != 'zh-Hant':
@@ -60,9 +80,10 @@ def refresh(english, po_path=ROOT / 'locales/zh-Hant.po', output=None):
         candidate.extend(retired)
     live = [e for e in candidate if not e.obsolete]
     if keys(live) != wanted:
-        raise ValueError('Merged active keys differ from the official POT')
+        raise ValueError('Merged active keys differ from the locked English POT')
     ordered = lambda pairs: sorted(pairs, key=lambda p: (p[0] is not None, p[0] or '', p[1]))
-    report = dict(source=coordinate, accepted=False, added=ordered(added), removed=ordered(removed),
+    report = dict(source=coordinate, source_commit=commit, accepted=False,
+                  added=ordered(added), removed=ordered(removed),
                   active_keys=len(wanted), fuzzy=sum('fuzzy' in e.flags for e in live),
                   untranslated=sum(not e.msgstr.strip() for e in live))
     report['needs_review'] = bool(added or removed or report['fuzzy'] or report['untranslated'])
@@ -77,11 +98,11 @@ def refresh(english, po_path=ROOT / 'locales/zh-Hant.po', output=None):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--english', type=Path, required=True)
+    parser.add_argument('--pot', type=Path, required=True, help='English POT exported from the locked source commit')
     parser.add_argument('--po', type=Path, default=ROOT / 'locales/zh-Hant.po')
     parser.add_argument('--output', type=Path, help='New review directory; omit for a read-only check')
     args = parser.parse_args()
-    report = refresh(args.english, args.po, args.output)
+    report = refresh(args.pot, args.po, args.output)
     print(json.dumps(report, ensure_ascii=False))
     if args.output is None and report['needs_review']:
         raise SystemExit(1)

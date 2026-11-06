@@ -7,7 +7,8 @@
 
 ## 目前流程
 
-`pipeline.yml` 是版本配對與依賴的唯一設定來源，鎖定英文及 Tool 的完整 commit。
+`pipeline.yml` 是版本配對與依賴的唯一設定來源，鎖定英文完整 commit、
+官方建置套件版本及 Worker digest。新 DT 不再依賴 Tool checkout。
 
 | 執行環境 | 交付方式 |
 | --- | --- |
@@ -19,34 +20,57 @@
 
 ## 安裝與建置
 
-先 checkout `pipeline.yml` 鎖定的英文與 Tool commit，再在隔離環境安裝
-Tool 及本 repo 的 `requirements-dev.txt`。Tool 必須從該 checkout 以 editable
-方式安裝（在 Tool repo 執行 `pip install -e '.[dev]'`），不能只裝同名 PyPI 套件。
-以下範例假設三個 repo 放在同一層，
-工具環境為 `../dsw-document-template-tool/.venv`：
+先 checkout `pipeline.yml` 鎖定的英文 commit（保留完整 Git 歷史），再在
+本 repo 建立自己的隔離環境。以下範例假設英文與中文 repo 放在同一層：
 
 ```sh
-../dsw-document-template-tool/.venv/bin/python scripts/build.py \
-  --english ../science-europe-template \
-  --tooling ../dsw-document-template-tool
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-dev.txt
+.venv/bin/python scripts/build.py --english ../science-europe-template
 ```
+
+英文 repo 的 `scripts/build_package.py` 負責英文來源、字型、Word reference
+的準備及封裝；本 repo 只呼叫這個入口，再配對中文 PO、產生 4.34 相容包及
+記錄交付驗證。英文也可在自己的 repo 用 `make package` 獨立建置。
+不需要安裝 Tool，也不從 Tool 複製字型或下載 KM 測試資料。
 
 正式候選要求所有輸入乾淨且已提交。尚未提交的開發測試可加 `--preview`；
 預覽不具發布資格。每次建立新的 `outputs/build-*`，不覆寫舊產物。
 
 ## 更新譯文
 
-先核對英文來源與 PO；不帶 `--output` 時只檢查，不改任何檔案：
+職責分為兩個明確入口，不再由中文腳本讀取或解析英文 Jinja：
+
+- 英文 repo 的 `scripts/export_pot.py`：呼叫官方抽取器產生 POT，負責訊息來源。
+- 本 repo 的 `scripts/refresh_po.py`：讀取 POT，負責中文 PO 的配對、合併與待審稿。
+
+先 checkout `pipeline.yml` 鎖定的英文 commit，確認工作樹乾淨，再由英文
+入口產生新的 POT。以下命令都在本 repo 執行；POT 存放位置不改變其來源責任：
 
 ```sh
-../dsw-document-template-tool/.venv/bin/python scripts/refresh_po.py \
-  --english ../science-europe-template
+.venv/bin/python \
+  ../science-europe-template/scripts/export_pot.py \
+  --output outputs/template-NEW.pot
 ```
 
-需要更新翻譯鍵時，加 `--output outputs/po-review-NEW`，在全新目錄產生
-官方 POT、待審 PO 與差異報告。只沿用完全相同鍵的有效譯文；新增或重新出現
+POT 內含英文模板座標與完整 commit。本 repo 會將兩者和 `pipeline.yml`
+逐一核對；來源不明或版本不同即中止，不會自動追最新 branch。
+英文句型或標記有變動時，先提交英文變更並明確更新來源 pin，再更新翻譯。
+
+接著核對 POT 與 PO；不帶 `--output` 時只檢查，不改任何檔案：
+
+```sh
+.venv/bin/python scripts/refresh_po.py \
+  --pot outputs/template-NEW.pot
+```
+
+需要更新翻譯鍵時，加 `--output outputs/po-review-NEW`，在全新目錄保存
+輸入 POT、待審 PO 與差異報告。只沿用完全相同鍵的有效譯文；新增或重新出現
 的舊鍵不會自動借用已退役譯文。工具不覆寫 `locales/zh-Hant.po`、不核准翻譯，
 也不自動清除 fuzzy。審閱差異後，才把確認的內容改回唯一 PO 來源並重新建置。
+
+POT 是可重建的輸入，不手改、不當成另一份中文來源；唯一可編輯譯文仍是
+`locales/zh-Hant.po`。此流程同時服務 4.34 相容包與 4.35 PO，不分叉維護。
 
 ## 檢查與版本管理
 

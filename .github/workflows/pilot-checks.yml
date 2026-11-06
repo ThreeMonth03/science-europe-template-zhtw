@@ -45,11 +45,10 @@ jobs:
           import os, yaml
           from pathlib import Path
           config = yaml.safe_load(Path('zh/pipeline.yml').read_text())
+          commit = config['source']['commit']
+          assert len(commit) == 40 and all(c in '0123456789abcdef' for c in commit)
           with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
-              for key in ('source', 'tooling'):
-                  commit = config[key]['commit']
-                  assert len(commit) == 40 and all(c in '0123456789abcdef' for c in commit)
-                  output.write(f'{key}={commit}\n')
+              output.write(f'source={commit}\n')
           PY
       - uses: actions/checkout@v4
         with:
@@ -57,21 +56,17 @@ jobs:
           ref: ${{ steps.locks.outputs.source }}
           path: english
           fetch-depth: 0  # Package timestamps require actual input history.
-      - name: Install isolated English dependencies
-        working-directory: english
+      - name: Install declared dependencies without the Tool repository
+        env:
+          DT_CHECK_GROUP: ${{ matrix.group }}
         run: |
-          python -m venv "$RUNNER_TEMP/english-check-venv"
-          "$RUNNER_TEMP/english-check-venv/bin/python" -m pip install -r requirements-dev.txt
-          make knowledge-models PYTHON="$RUNNER_TEMP/english-check-venv/bin/python"
-      - uses: actions/checkout@v4
-        with:
-          repository: ThreeMonth03/dsw-document-template-tool
-          ref: ${{ steps.locks.outputs.tooling }}
-          path: tooling
-      - name: Install pinned checkout and pilot dependencies
-        run: |
-          python -m venv tooling/.venv
-          tooling/.venv/bin/pip install -e './tooling[dev]' -r zh/requirements-dev.txt
+          python -m venv "$RUNNER_TEMP/dt-venv"
+          if [ "$DT_CHECK_GROUP" = english-unit ]; then
+            "$RUNNER_TEMP/dt-venv/bin/python" -m pip install -r english/requirements-dev.txt
+          else
+            "$RUNNER_TEMP/dt-venv/bin/python" -m pip install -r zh/requirements-dev.txt
+          fi
+          make -C english knowledge-models PYTHON="$RUNNER_TEMP/dt-venv/bin/python"
       - name: Check current locked English PO source with its declared dependencies
         if: matrix.group == 'english-unit'
         working-directory: english
@@ -79,8 +74,11 @@ jobs:
           PYTHONPATH: tests:scripts
         run: |
           mkdir -p outputs
-          make verify DSW_TDK="$RUNNER_TEMP/english-check-venv/bin/dsw-tdk"
-          "$RUNNER_TEMP/english-check-venv/bin/python" -m unittest -v \
+          make verify DSW_TDK="$RUNNER_TEMP/dt-venv/bin/dsw-tdk"
+          "$RUNNER_TEMP/dt-venv/bin/python" -m unittest -v \
+            tests.test_catalog \
+            tests.test_build_package \
+            tests.test_knowledge_models \
             tests.test_current_behavior.CurrentI18nTests \
             tests.test_current_behavior.CurrentBudgetLayoutTests \
             tests.test_q3_storage_groups \
@@ -89,7 +87,7 @@ jobs:
             tests.test_derived_submission_headings.DerivedSubmissionHeadingsTests \
             tests.test_document_metadata.DocumentMetadataTests \
             2>&1 | tee outputs/current-unit.log
-          "$RUNNER_TEMP/english-check-venv/bin/python" -m unittest discover -s experiments/legacy434 -v \
+          "$RUNNER_TEMP/dt-venv/bin/python" -m unittest discover -s experiments/legacy434 -v \
             2>&1 | tee outputs/current-compat434-unit.log
       - name: Check current PO builder, candidate lifecycle and package documentation
         if: matrix.group == 'chinese-unit'
@@ -98,37 +96,41 @@ jobs:
           DSW_ENGLISH_CHECKOUT: ${{ github.workspace }}/english
         run: |
           mkdir -p outputs/ci
-          ../tooling/.venv/bin/python -m unittest discover -s tests -v \
+          "$RUNNER_TEMP/dt-venv/bin/python" -m unittest discover -s tests -v \
             2>&1 | tee outputs/ci/current-po-unit.log
+      - name: Check English-owned POT and authoritative PO before building
+        if: matrix.group == 'integration'
+        working-directory: zh
+        run: |
+          mkdir -p outputs/ci
+          "$RUNNER_TEMP/dt-venv/bin/python" ../english/scripts/export_pot.py --output outputs/ci/template.pot
+          "$RUNNER_TEMP/dt-venv/bin/python" scripts/refresh_po.py --pot outputs/ci/template.pot \
+            | tee outputs/ci/catalog-check.json
+          "$RUNNER_TEMP/dt-venv/bin/python" ../english/scripts/check_catalog.py --po locales/zh-Hant.po \
+            | tee outputs/ci/substitution-check.json
       - name: Build exact locked bilingual packages
         if: matrix.group == 'integration'
         working-directory: zh
         run: |
-          SE_BUILD_DIR=$(../tooling/.venv/bin/python scripts/build.py --english ../english --tooling ../tooling)
+          SE_BUILD_DIR=$("$RUNNER_TEMP/dt-venv/bin/python" scripts/build.py --english ../english)
           echo "SE_BUILD_DIR=$SE_BUILD_DIR" >> "$GITHUB_ENV"
       - name: Check current bilingual answers on the prepared packages
         if: matrix.group == 'integration'
         working-directory: zh
         run: |
-          ../tooling/.venv/bin/python ../english/scripts/check_current.py --build "$SE_BUILD_DIR" --output "$SE_BUILD_DIR/current-behavior.json"
-      - name: Check authoritative PO against official 4.35 extraction
-        if: matrix.group == 'integration'
-        working-directory: zh
-        run: |
-          ../tooling/.venv/bin/python ../english/scripts/check_catalog.py --po locales/zh-Hant.po \
-            | tee "$SE_BUILD_DIR/catalog-check.json"
+          "$RUNNER_TEMP/dt-venv/bin/python" ../english/scripts/check_current.py --build "$SE_BUILD_DIR" --output "$SE_BUILD_DIR/current-behavior.json"
       - name: Smoke packaged PDF and Word on both stock Workers
         if: matrix.group == 'integration'
         working-directory: zh
         run: |
-          ../tooling/.venv/bin/python - <<'PY'
+          "$RUNNER_TEMP/dt-venv/bin/python" - <<'PY'
           import subprocess, yaml
           from pathlib import Path
           pipeline = yaml.safe_load(Path('pipeline.yml').read_text())
           for image in pipeline['runtime']['workers'].values():
               subprocess.run(['docker', 'pull', image], check=True)
           PY
-          ../tooling/.venv/bin/python scripts/smoke_native.py \
+          "$RUNNER_TEMP/dt-venv/bin/python" scripts/smoke_native.py \
             --build "$SE_BUILD_DIR" --output "$SE_BUILD_DIR/native-smoke"
           cp "$SE_BUILD_DIR/native-smoke/receipt.json" "$SE_BUILD_DIR/native-smoke.json"
       - name: Preserve candidate and diagnostics even after failure
@@ -160,7 +162,7 @@ jobs:
         working-directory: zh
         run: |
           echo "Profile: current; lane: ${{ matrix.group }}; Chinese source: $(git rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
-          echo "English source: $(git -C ../english rev-parse HEAD); Tool: $(git -C ../tooling rev-parse HEAD)" >> "$GITHUB_STEP_SUMMARY"
+          echo "English source: $(git -C ../english rev-parse HEAD); dependencies: zh/requirements-dev.txt and pipeline.yml" >> "$GITHUB_STEP_SUMMARY"
           echo 'Build checks do not establish full DMP, PDF or Microsoft Word acceptance. See docs/testing.md.' >> "$GITHUB_STEP_SUMMARY"
 
   # Stable required-check identity; every current group must succeed.

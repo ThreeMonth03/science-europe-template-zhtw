@@ -16,7 +16,7 @@ import zipfile
 
 import yaml
 
-from artifact_utils import PO_ARTIFACTS, PO_PROFILE
+from artifact_utils import PO_ARTIFACTS, PO_PROFILE, validate_checkouts
 
 GROUPS = [('434-zh-Hant', '4.34', 'zh-Hant'), ('435-en', '4.35', 'en'), ('435-zh-Hant', '4.35', 'zh-Hant')]
 
@@ -43,9 +43,12 @@ def verify_build(build, pipeline):
     manifest = read(build / 'manifest.json')
     if manifest.get('profile') != PO_PROFILE or pipeline.get('profile') != PO_PROFILE:
         raise ValueError('The current PO build profile is required')
+    if pipeline.get('schema_version') != 3 or 'tooling' in pipeline:
+        raise ValueError('The schema 3 source-owned English package pipeline is required')
     if manifest.get('status') not in ('candidate', 'preview'):
         raise ValueError('Only candidate or explicitly unaccepted preview builds are supported')
-    if any(manifest.get(key) != pipeline.get(key) for key in ('source', 'tooling', 'translation', 'runtime')):
+    validate_checkouts(manifest, allow_preview=True)
+    if any(manifest.get(key) != pipeline.get(key) for key in ('source', 'translation', 'runtime', 'build_dependencies')):
         raise ValueError('Build provenance differs from pipeline.yml')
     if set(manifest.get('sha256', {})) != set(PO_ARTIFACTS):
         raise ValueError('All five build artifacts are required')
